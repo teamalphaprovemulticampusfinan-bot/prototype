@@ -1,6 +1,6 @@
 # Tech/IP Strength Index + NMF Topic Modeling
 
-- 생성 시각: 2026-05-25T16:48:34
+- 생성 시각: 2026-05-25T19:11:22
 - 방법론: Tech/IP Strength Index + TF-IDF NMF Topic Modeling
 - 해석 원칙: 미래 수익률 예측이 아니라 딥테크 특허/IP 포트폴리오의 상대 강도와 기술 주제 집중도를 설명하는 ML 신호입니다.
 

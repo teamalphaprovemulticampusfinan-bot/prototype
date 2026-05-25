@@ -19,6 +19,7 @@ if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
 from evaluation.cutoff_env import build_cutoff_env, cutoff_audit_payload, month_windows
+from evaluation.signal_df_exporter import export_signal_df
 
 
 def _safe_text(value: Any) -> str:
@@ -141,7 +142,7 @@ def _copytree(src: Path, dst: Path) -> None:
     if dst.exists():
         shutil.rmtree(dst)
     if src.exists():
-        shutil.copytree(src, dst, ignore=shutil.ignore_patterns("__pycache__", ".pytest_cache", "*.pyc"))
+        shutil.copytree(src, dst, ignore=shutil.ignore_patterns("__pycache__", ".pytest_cache", "*.pyc", "history_runs", "*.tmp"))
 
 
 def _snapshot(root: Path, out_root: Path, field: str, window_key: str, target: dict[str, str]) -> None:
@@ -297,6 +298,18 @@ def main(argv: list[str] | None = None) -> int:
                 _snapshot(root, out_root, ns.field, window_key, target)
             elif not ns.continue_on_error:
                 raise SystemExit(f"failed: {as_of} {target['company_dir']} rc={rc}\n{_tail(stderr, 1500)}")
+
+    try:
+        signal_export = export_signal_df(out_root=out_root, field=ns.field, run_id=run_id)
+        manifest["signal_df_export"] = signal_export
+        print(f"[monthly-cutoff] signal_df csv={signal_export.get('combined_csv')}")
+        if signal_export.get("combined_xlsx"):
+            print(f"[monthly-cutoff] signal_df xlsx={signal_export.get('combined_xlsx')}")
+    except Exception as exc:
+        manifest["signal_df_export"] = {"status": "FAILED", "error": str(exc)}
+        print(f"[monthly-cutoff] WARN signal_df export failed: {exc}")
+        if not ns.continue_on_error:
+            raise
 
     manifest["status"] = "DONE"
     manifest["finished_at"] = datetime.now().isoformat(timespec="seconds")

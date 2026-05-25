@@ -212,6 +212,46 @@ def _read_existing_stock_csv(output_path: Path) -> pd.DataFrame | None:
     return _standardize_stock_old_df(old_df)
 
 
+def _parse_env_date(*names: str) -> pd.Timestamp | None:
+    for name in names:
+        raw = str(os.getenv(name, "")).strip()
+        if not raw:
+            continue
+        parsed = pd.to_datetime(raw, errors="coerce")
+        if not pd.isna(parsed):
+            return pd.Timestamp(parsed).normalize()
+    return None
+
+
+def _finance_stock_start_ts() -> pd.Timestamp | None:
+    return _parse_env_date("FINANCE_STOCK_START_DATE", "FINANCE_START_DATE", "ALPHAPROVE_DATA_START_DATE")
+
+
+def _finance_stock_end_ts() -> pd.Timestamp | None:
+    return _parse_env_date("FINANCE_STOCK_CUTOFF_DATE", "FINANCE_PRICE_CUTOFF_DATE", "FINANCE_END_DATE", "FINANCE_AS_OF_DATE", "ALPHAPROVE_DATA_CUTOFF_DATE")
+
+
+def _finance_intake_years_from_env(default_years: list[int] | None = None) -> list[int]:
+    if default_years:
+        return default_years
+    start_raw = os.getenv("FINANCE_FINANCIAL_START_YEAR") or os.getenv("FINANCE_START_DATE", "2021")[:4]
+    end_raw = os.getenv("FINANCE_FINANCIAL_END_YEAR") or os.getenv("FINANCE_CUTOFF_YEAR", "")
+    try:
+        start_year = int(str(start_raw)[:4])
+        end_year = int(float(str(end_raw))) if str(end_raw).strip() else datetime.now().year - 1
+    except Exception:
+        return [2022, 2023, 2024, 2025]
+    if end_year < start_year:
+        return [end_year]
+    return list(range(start_year, end_year + 1))
+
+
+def _timestamp_to_ymd(value: pd.Timestamp | None) -> str | None:
+    if value is None or pd.isna(value):
+        return None
+    return pd.Timestamp(value).strftime("%Y-%m-%d")
+
+
 
 # =========================
 # 1. 경고 파이프라인
@@ -373,21 +413,27 @@ def run_stock(cfg: StockConfig, sector: str = "") -> None:
 
     output_path = BASE_DIR / "data" / sector / corp_name / "finance" / f"{corp_name}_주식.csv"
 
-    # 기존 파일 기반 start 날짜 결정
+    # 기존 파일 기반 start 날짜 결정. Monthly backtest env가 있으면
+    # 기존 파일의 미래 행을 먼저 제외해 no-look-ahead 누수를 막습니다.
+    start_bound = _finance_stock_start_ts()
+    end_bound = _finance_stock_end_ts()
+
     if output_path.exists():
         old_df = _read_existing_stock_csv(output_path)
+        if old_df is not None and not old_df.empty and end_bound is not None:
+            old_df = old_df[old_df.index <= end_bound]
 
         if old_df is not None and not old_df.empty:
-            start = (
-                old_df.index.max() - timedelta(days=90)
-            ).strftime("%Y-%m-%d")
+            start_ts = old_df.index.max() - timedelta(days=90)
+            if start_bound is not None:
+                start_ts = min(pd.Timestamp(start_ts), start_bound)
+            start = pd.Timestamp(start_ts).strftime("%Y-%m-%d")
         else:
             from dateutil.relativedelta import relativedelta
 
             old_df = None
-            start = (
-                datetime.now()
-                - relativedelta(years=cfg.lookback_years)
+            start = _timestamp_to_ymd(start_bound) or (
+                datetime.now() - relativedelta(years=cfg.lookback_years)
             ).strftime("%Y-%m-%d")
 
             print("[stock] 기존 파일 사용 불가 → 초기 수집 시작")
@@ -397,9 +443,8 @@ def run_stock(cfg: StockConfig, sector: str = "") -> None:
 
         from dateutil.relativedelta import relativedelta
 
-        start = (
-            datetime.now()
-            - relativedelta(years=cfg.lookback_years)
+        start = _timestamp_to_ymd(start_bound) or (
+            datetime.now() - relativedelta(years=cfg.lookback_years)
         ).strftime("%Y-%m-%d")
 
         print("[stock] 초기 수집 시작")
@@ -421,8 +466,9 @@ def run_stock(cfg: StockConfig, sector: str = "") -> None:
     df_dart = pd.DataFrame()
     if corp_code and api_key:
         # 1순위: DART API
+        shares_year = int(os.getenv("FINANCE_CUTOFF_YEAR", "") or ((end_bound.year if end_bound is not None else datetime.now().year) - 1))
         shares = fetch_shares_from_dart(api_key, corp_code,
-                                        year=datetime.now().year - 1)
+                                        year=shares_year)
         # 2순위: yfinance sharesOutstanding
         if np.isnan(shares):
             shares = fetch_shares_yfinance(ticker)
@@ -469,8 +515,13 @@ def run_stock(cfg: StockConfig, sector: str = "") -> None:
     df_save = df_save.reindex(columns=STOCK_DISPLAY_COLS)
     df_save = df_save[~df_save.index.duplicated(keep="last")].sort_index()
 
-    cutoff = dt.now() - relativedelta(years=cfg.lookback_years)
-    df_save = df_save[df_save.index >= cutoff]
+    if start_bound is not None:
+        df_save = df_save[df_save.index >= start_bound]
+    else:
+        cutoff = dt.now() - relativedelta(years=cfg.lookback_years)
+        df_save = df_save[df_save.index >= cutoff]
+    if end_bound is not None:
+        df_save = df_save[df_save.index <= end_bound]
 
     # 3. Validate
     issues = validate_stock(df_save)
@@ -653,7 +704,7 @@ def run_finance_intake(
     out_dir = company_agent_dir(slug, "finance", create=True) / "intake"
     out_dir.mkdir(parents=True, exist_ok=True)
     resolved_stock = _resolve_stock()
-    years = years or [2022, 2023, 2024, 2025]
+    years = _finance_intake_years_from_env(years)
     steps: list[dict[str, object]] = []
 
     if skip_network:
@@ -667,6 +718,9 @@ def run_finance_intake(
             "stock_code": resolved_stock,
             "mode": mode,
             "reason": "--skip-network 지정으로 DART/주가/KIND 수집을 생략했습니다.",
+            "start_date": _timestamp_to_ymd(_finance_stock_start_ts()),
+            "end_date": _timestamp_to_ymd(_finance_stock_end_ts()),
+            "years": years,
         }
         path = out_dir / "finance_intake_manifest.json"
         path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -682,6 +736,9 @@ def run_finance_intake(
             "company": company,
             "field": field,
             "mode": mode,
+            "start_date": _timestamp_to_ymd(_finance_stock_start_ts()),
+            "end_date": _timestamp_to_ymd(_finance_stock_end_ts()),
+            "years": years,
             "error": "stock_code를 확인하지 못했습니다.",
         }
         path = out_dir / "finance_intake_manifest.json"
@@ -779,6 +836,8 @@ def run_finance_intake(
         "stock_code": resolved_stock,
         "mode": mode,
         "years": years,
+        "start_date": _timestamp_to_ymd(_finance_stock_start_ts()),
+        "end_date": _timestamp_to_ymd(_finance_stock_end_ts()),
         "force_fetch": force_fetch,
         "steps": steps,
     }

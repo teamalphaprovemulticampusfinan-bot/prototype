@@ -369,6 +369,14 @@ def load_stock_data(path: str, year_month: str | None = "2025-06") -> dict[str, 
 
     df_clean = df.drop(["company", "ticker", "market"], axis=1, errors="ignore")
 
+    # Keep a full filtered stock_data payload in addition to the existing
+    # recent_1m/yearly_summary/annual_metrics fields.  This is intentionally
+    # additive: existing downstream code keeps working, while monthly backtest
+    # validation can verify that the date cutoff actually removed future rows.
+    stock_df = df_clean.copy()
+    stock_df["date"] = stock_df["date"].dt.strftime("%Y-%m-%d")
+    stock_data = stock_df.to_dict(orient="records")
+
     latest_date = df_clean["date"].max()
     month_ago = latest_date - timedelta(days=30)
     recent_df = df_clean[df_clean["date"] >= month_ago].copy()
@@ -377,6 +385,7 @@ def load_stock_data(path: str, year_month: str | None = "2025-06") -> dict[str, 
 
     return {
         "meta": meta,
+        "stock_data": stock_data,
         "recent_1m": recent_1m,
         "yearly_summary": yearly_summary,
         "annual_metrics": annual_metrics,
