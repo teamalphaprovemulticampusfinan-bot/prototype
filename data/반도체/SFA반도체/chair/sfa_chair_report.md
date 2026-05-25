@@ -56,7 +56,7 @@
 - **핵심 thesis:**
   - AI·고성능 반도체 수요 확대는 후공정 패키징 기업에 우호적인 시장 배경입니다.
 - **주요 risk:**
-  - LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 113 column 6 (char 3749)
+  - LLM 호출 실패로 최신 정성 해석은 제한됩니다: Unterminated string starting at: line 122 column 18 (char 3793)
   - 밸류체인 위치 확인: 후공정/패키징/테스트
 - **비고:**
   - 영역별 방향성 신호(signal): 에이전트 가중평균 양(+) 방향

@@ -1,7 +1,7 @@
 {
   "pipeline": "tech_intake",
   "status": "READY_WITHOUT_AGENT",
-  "created_at": "2026-05-25T12:48:51",
+  "created_at": "2026-05-25T16:26:32",
   "field": "반도체",
   "company_dir": "sfa_semicon",
   "company": "SFA반도체",
@@ -58,80 +58,80 @@
       "step": "build_tech_excel_quantified_metrics",
       "status": "DONE",
       "returncode": 0,
-      "started_at": "2026-05-25T12:47:46",
-      "ended_at": "2026-05-25T12:47:55",
+      "started_at": "2026-05-25T16:18:47",
+      "ended_at": "2026-05-25T16:19:43",
       "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_tech_excel_quantified_metrics.py --field 반도체 --company-dir sfa_semicon"
     },
     {
       "step": "prepare_kipris_bibliographic_normalized",
       "status": "DONE",
       "returncode": 0,
-      "started_at": "2026-05-25T12:47:55",
-      "ended_at": "2026-05-25T12:47:57",
+      "started_at": "2026-05-25T16:19:43",
+      "ended_at": "2026-05-25T16:20:39",
       "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\prepare_kipris_bibliographic_normalized.py --field 반도체 --company-name SFA반도체 --company-slug sfa_semicon"
     },
     {
       "step": "build_kipris_tech_ml_features",
       "status": "DONE",
       "returncode": 0,
-      "started_at": "2026-05-25T12:47:57",
-      "ended_at": "2026-05-25T12:47:59",
+      "started_at": "2026-05-25T16:20:39",
+      "ended_at": "2026-05-25T16:21:45",
       "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_kipris_tech_ml_features.py --field 반도체 --company-name SFA반도체 --company-slug sfa_semicon"
     },
     {
       "step": "build_tech_ip_legal_features",
       "status": "DONE",
       "returncode": 0,
-      "started_at": "2026-05-25T12:47:59",
-      "ended_at": "2026-05-25T12:48:00",
+      "started_at": "2026-05-25T16:21:45",
+      "ended_at": "2026-05-25T16:22:21",
       "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_tech_ip_legal_features.py --field 반도체 --company-name SFA반도체 --company-slug sfa_semicon"
     },
     {
       "step": "build_tech_ip_fallback_features",
       "status": "DONE",
       "returncode": 0,
-      "started_at": "2026-05-25T12:48:00",
-      "ended_at": "2026-05-25T12:48:01",
+      "started_at": "2026-05-25T16:22:21",
+      "ended_at": "2026-05-25T16:22:29",
       "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_tech_ip_fallback_features.py --field 반도체 --company-name SFA반도체 --company-slug sfa_semicon"
     },
     {
       "step": "build_tech_ip_evidence_composite",
       "status": "DONE",
       "returncode": 0,
-      "started_at": "2026-05-25T12:48:01",
-      "ended_at": "2026-05-25T12:48:01",
+      "started_at": "2026-05-25T16:22:29",
+      "ended_at": "2026-05-25T16:22:40",
       "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_tech_ip_evidence_composite.py --field 반도체 --company-name SFA반도체 --company-slug sfa_semicon"
     },
     {
       "step": "build_patent_semantic_fallback",
       "status": "DONE",
       "returncode": 0,
-      "started_at": "2026-05-25T12:48:01",
-      "ended_at": "2026-05-25T12:48:21",
+      "started_at": "2026-05-25T16:22:40",
+      "ended_at": "2026-05-25T16:25:24",
       "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_patent_semantic_fallback.py --company-dir sfa_semicon --company SFA반도체"
     },
     {
       "step": "run_tech_ip_ml",
       "status": "DONE",
       "returncode": 0,
-      "started_at": "2026-05-25T12:48:21",
-      "ended_at": "2026-05-25T12:48:28",
+      "started_at": "2026-05-25T16:25:24",
+      "ended_at": "2026-05-25T16:25:58",
       "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\run_tech_ip_ml.py --company-dir sfa_semicon"
     },
     {
       "step": "run_tech_ml_signal",
       "status": "DONE",
       "returncode": 0,
-      "started_at": "2026-05-25T12:48:28",
-      "ended_at": "2026-05-25T12:48:50",
+      "started_at": "2026-05-25T16:25:58",
+      "ended_at": "2026-05-25T16:26:31",
       "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\run_tech_ml_signal.py --company-dir sfa_semicon --company SFA반도체"
     },
     {
       "step": "check_ip_evidence_bridge_one",
       "status": "DONE",
       "returncode": 0,
-      "started_at": "2026-05-25T12:48:50",
-      "ended_at": "2026-05-25T12:48:51",
+      "started_at": "2026-05-25T16:26:31",
+      "ended_at": "2026-05-25T16:26:32",
       "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\check_ip_evidence_bridge_one.py --tech C:\\Agent_6.9\\data\\반도체\\SFA반도체\\tech --slug sfa_semicon --company-name SFA반도체"
     }
   ],

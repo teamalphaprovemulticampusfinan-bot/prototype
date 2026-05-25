@@ -148,93 +148,27 @@ def build_llm() -> Any:
     return llm
 
 
-def _extract_json_object(text: str) -> str:
-    """Return the largest likely JSON object from an LLM response."""
+def clean_json(text: str) -> dict:
+
     cleaned = str(text or "")
     cleaned = cleaned.replace("```json", "").replace("```JSON", "").replace("```", "").strip()
 
     start = cleaned.find("{")
-    if start < 0:
-        return cleaned
+    end = cleaned.rfind("}")
 
-    depth = 0
-    in_string = False
-    escaped = False
-    end = -1
+    if start >= 0 and end > start:
+        cleaned = cleaned[start : end + 1]
 
-    for idx in range(start, len(cleaned)):
-        ch = cleaned[idx]
-        if in_string:
-            if escaped:
-                escaped = False
-            elif ch == "\\":
-                escaped = True
-            elif ch == '"':
-                in_string = False
-            continue
-
-        if ch == '"':
-            in_string = True
-        elif ch == "{":
-            depth += 1
-        elif ch == "}":
-            depth -= 1
-            if depth == 0:
-                end = idx
-                break
-
-    if end >= start:
-        return cleaned[start : end + 1]
-
-    # Fallback to the old broad slicing behavior when braces are unbalanced.
-    last = cleaned.rfind("}")
-    if last > start:
-        return cleaned[start : last + 1]
-    return cleaned[start:]
-
-
-def _repair_json_text(text: str) -> str:
-    """Apply conservative local repairs to common LLM JSON formatting errors."""
-    out = str(text or "")
-    out = out.replace("\ufeff", "")
-    out = out.replace("“", '"').replace("”", '"').replace("‘", "'").replace("’", "'")
-    out = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", " ", out)
-    # Remove trailing commas before object/array endings.
-    out = re.sub(r",\s*([}\]])", r"\1", out)
-    # Convert Python-style literals that occasionally appear in model output.
-    out = re.sub(r"\bNone\b", "null", out)
-    out = re.sub(r"\bTrue\b", "true", out)
-    out = re.sub(r"\bFalse\b", "false", out)
-    return out.strip()
-
-
-def clean_json(text: str) -> dict:
-    """Parse LLM JSON output with local repair before giving up.
-
-    The market LLM occasionally returns nearly-valid JSON that fails with errors
-    like `Expecting ',' delimiter`.  We keep the original contract of returning a
-    dict, but try conservative repairs before raising the original parse error.
-    """
-    candidate = _extract_json_object(text)
-    candidate = _repair_json_text(candidate)
+    cleaned = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", " ", cleaned)
 
     try:
-        parsed = json.loads(candidate)
-        if not isinstance(parsed, dict):
-            raise ValueError("LLM JSON root is not an object")
-        return parsed
-    except Exception as first_error:
-        # Last local fallback: YAML can read some JSON-like outputs.  This does
-        # not add another LLM call and is skipped when PyYAML is unavailable.
-        try:
-            import yaml  # type: ignore
-
-            parsed = yaml.safe_load(candidate)
-            if isinstance(parsed, dict):
-                return parsed
-        except Exception:
-            pass
-        raise first_error
+        return json.loads(cleaned)
+    except json.JSONDecodeError:
+        import re as _re
+        cleaned = _re.sub(r',\s*}', '}', cleaned)
+        cleaned = _re.sub(r',\s*]', ']', cleaned)
+        cleaned = _re.sub(r':\s*"([^"]*?)\n([^"]*?)"', lambda m: ': "' + m.group(1) + ' ' + m.group(2) + '"', cleaned)
+        return json.loads(cleaned)
 
 
 def _normalize_content(content) -> str:
@@ -344,9 +278,7 @@ def analyze_node(state: MarketState, llm: Any) -> dict:
 
     last_error = None
     content = ""
-    # Market qualitative parsing can fail when the model returns malformed JSON.
-    # Keep this path bounded but allow exactly up to 3 LLM calls before fallback.
-    max_attempts = 3
+    max_attempts = int(os.getenv("MARKET_LLM_MAX_ATTEMPTS", "3"))
 
     for attempt in range(1, max_attempts + 1):
         try:
@@ -356,8 +288,7 @@ def analyze_node(state: MarketState, llm: Any) -> dict:
                     "\n\n[중요]\n"
                     "직전 응답은 JSON 파싱에 실패했습니다. "
                     "반드시 마크다운 없이 순수 JSON 객체만 출력하세요. "
-                    "큰따옴표를 사용하고, 각 key-value 사이에는 쉼표를 빠짐없이 넣으세요. "
-                    "문자열은 한 줄로 짧게 작성하고, trailing comma를 쓰지 마세요."
+                    "문자열은 한 줄로 짧게 작성하세요."
                 )
 
             result = llm.invoke(prompt_text + retry_note)
