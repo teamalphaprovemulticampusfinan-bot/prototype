@@ -1,10 +1,10 @@
 # 원익IPS Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-20T21:42:19
+- 생성 시각: 2026-05-25T21:15:17
 - 종합 점수: 79.3/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 132개
+- 원천 문서 수: 153개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -32,18 +32,18 @@
 - [DIRECT_EVIDENCE] - 기술 우위가 확인되어도 고객 채택·양산·매출 전환·FCF 직접 근거가 약하면 보수적으로 반영합니다. (source=data/반도체/원익IPS/tech/_nepes_reference_schema/nepes_tech_chair_summary.md, keywords=양산, urls=http://www.w3.org/2001/XMLSchema-instance, http://www.nepes.co.kr)
 
 ### 매출 전환
-- [DIRECT_EVIDENCE] summary: 원익IPS는 2023년 영업이익 및 순이익 적자를 기록했으나, 2024년 흑자전환에 성공하며 2025년에는 매출액 9097억원, 영업이익 738억원으로 큰 폭의 성장이 예상된다. (source=data/반도체/원익IPS/finance/원익IPS_finance.json, keywords=매출, 매출액, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2025년 예상 매출액 9097억원, 영업이익 738억원으로 전년 대비 각각 21.6%, 594.8%의 높은 성장률이 전망된다. (source=data/반도체/원익IPS/finance/원익IPS_finance.json, keywords=매출, 매출액, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: 원익IPS는 2023년 매출이 큰 폭으로 감소하며 영업이익이 적자 전환했으나, 2024년에는 매출이 회복되고 영업이익이 흑자 전환하며 수익성이 개선되는 모습을 보였다. (source=data/반도체/원익IPS/finance/원익IPS_finance.json, keywords=매출, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 매출성장률이 8.38%로 회복되었으며, 영업이익률 또한 -2.62%에서 1.42%로 개선되었다. (source=data/반도체/원익IPS/finance/원익IPS_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2023년 매출성장률이 -31.75%로 큰 폭의 감소를 기록했으며, 2024년 회복세에도 불구하고 과거 수준과의 비교가 필요하다. (source=data/반도체/원익IPS/finance/원익IPS_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] missing_prompt_metrics: 매출성장률 (source=data/반도체/원익IPS/finance/원익IPS_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수 (source=data/반도체/원익IPS/finance/원익IPS_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] sales: 909795691103.0 (source=data/반도체/원익IPS/finance/원익IPS_finance_agent_packet.json, keywords=sales, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률 (source=data/반도체/원익IPS/finance/원익IPS_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### 마진·원가·현금흐름 연결
-- [DIRECT_EVIDENCE] 2025년 기준 영업이익률 8.11%, ROE 8.66%로 수익성이 개선될 전망이며, 부채비율도 20.06%로 안정적인 수준을 유지할 것으로 보인다. (source=data/반도체/원익IPS/finance/원익IPS_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년 영업이익 106억원, 순이익 207억원으로 흑자전환에 성공하며 수익성 개선의 기반을 마련했다. (source=data/반도체/원익IPS/finance/원익IPS_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2025년 예상 영업이익률 8.11%, ROE 8.66%로 수익성이 크게 개선될 것으로 예상된다. (source=data/반도체/원익IPS/finance/원익IPS_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2025년 예상 자유현금흐름(FCF)은 1246억원으로 대폭 증가하여 투자 및 운영 자금 확보에 긍정적이다. (source=data/반도체/원익IPS/finance/원익IPS_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_risks: 2023년 영업이익률 -2.62%, ROE -1.56%로 큰 폭의 적자를 기록하며 수익성 변동성이 높았다. (source=data/반도체/원익IPS/finance/원익IPS_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: 원익IPS는 2023년 매출이 큰 폭으로 감소하며 영업이익이 적자 전환했으나, 2024년에는 매출이 회복되고 영업이익이 흑자 전환하며 수익성이 개선되는 모습을 보였다. (source=data/반도체/원익IPS/finance/원익IPS_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] 2021년 대비 부채비율은 낮아졌으나, 2022년 이후 자유현금흐름(FCF)은 마이너스를 기록하며 현금 창출 능력에 대한 점검이 필요하다. (source=data/반도체/원익IPS/finance/원익IPS_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 매출성장률이 8.38%로 회복되었으며, 영업이익률 또한 -2.62%에서 1.42%로 개선되었다. (source=data/반도체/원익IPS/finance/원익IPS_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2022년 이후 자유현금흐름(FCF)이 지속적으로 마이너스를 기록하고 있어 현금 창출 능력에 대한 추가 확인이 필요하다. (source=data/반도체/원익IPS/finance/원익IPS_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2023년 영업이익률이 -2.62%로 큰 폭의 적자를 기록했으며, 2024년 1.42%로 회복되었으나 여전히 낮은 수준이다. (source=data/반도체/원익IPS/finance/원익IPS_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### IP 품질
 - [DIRECT_EVIDENCE] legal_status: status=COLLECTED, count=None, score=0.4138, signal=None (source=data/반도체/원익IPS/tech/tech_ip_legal_features.json, keywords=legal_status, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)

@@ -1,10 +1,10 @@
 # 한미반도체 Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-20T19:58:22
+- 생성 시각: 2026-05-25T19:53:43
 - 종합 점수: 79.47/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 149개
+- 원천 문서 수: 169개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -12,7 +12,7 @@
 | 고객 채택 | 직접 근거 확인 | 85.0 | 8 | 0 | 0 | 고객 채택 관련 직접 근거가 8건 확인됩니다. Chair에서는 가치 전환 근거로 반영하되 원천 URL/파일을 함께 확인합니다. |
 | 양산 | 직접 근거 확인 | 85.0 | 8 | 0 | 0 | 양산 관련 직접 근거가 8건 확인됩니다. Chair에서는 가치 전환 근거로 반영하되 원천 URL/파일을 함께 확인합니다. |
 | 매출 전환 | 직접 근거 확인 | 85.0 | 8 | 0 | 0 | 매출 전환 관련 직접 근거가 8건 확인됩니다. Chair에서는 가치 전환 근거로 반영하되 원천 URL/파일을 함께 확인합니다. |
-| IP 품질 | 직접 근거 확인 | 48.12 | 4 | 0 | 0 | KIPRIS 기반 법적 상태·청구항·인용·패밀리 산출물을 함께 반영합니다. 특허 수량만이 아니라 권리 안정성, 청구항 방어력, 인용 영향력, 해외 확장성을 분리해 Chair 판단에 전달합니다. |
+| IP 품질 | 직접 근거 확인 | 48.12 | 3 | 0 | 1 | KIPRIS 기반 법적 상태·청구항·인용·패밀리 산출물을 함께 반영합니다. 특허 수량만이 아니라 권리 안정성, 청구항 방어력, 인용 영향력, 해외 확장성을 분리해 Chair 판단에 전달합니다. |
 | 마진·원가·현금흐름 연결 | 직접 근거 확인 | 85.0 | 8 | 0 | 0 | 마진·원가·현금흐름 연결 관련 직접 근거가 8건 확인됩니다. Chair에서는 가치 전환 근거로 반영하되 원천 URL/파일을 함께 확인합니다. |
 
 ## 3. 대표 근거
@@ -48,7 +48,7 @@
 ### IP 품질
 - [DIRECT_EVIDENCE] legal_status: status=COLLECTED, count=None, score=0.5727, signal=None (source=data/반도체/한미반도체/tech/hanmi_tech_ip_legal_features.json, keywords=legal_status, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
 - [DIRECT_EVIDENCE] claims: status=COLLECTED, count=10915.0, score=None, signal=None (source=data/반도체/한미반도체/tech/hanmi_tech_ip_claim_features.json, keywords=claims, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
-- [DIRECT_EVIDENCE] citations: status=COLLECTED, count=901, score=None, signal=None (source=data/반도체/한미반도체/tech/hanmi_tech_ip_citation_features.json, keywords=citations, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
+- [PARTIAL_EVIDENCE] citations: status=NO_CITATION_COLLECTED, count=0, score=None, signal=None (source=data/반도체/한미반도체/tech/hanmi_tech_ip_citation_features.json, keywords=citations, NO_CITATION_COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
 - [DIRECT_EVIDENCE] family: status=COLLECTED, count=236.0, score=None, signal=None (source=data/반도체/한미반도체/tech/hanmi_tech_ip_family_features.json, keywords=family, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
 - [DIRECT_EVIDENCE] composite: status=COLLECTED, count=None, score=48.12, signal=IP_EVIDENCE_NEUTRAL (source=data/반도체/한미반도체/tech/hanmi_tech_ip_evidence_composite.json, keywords=composite, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
 
@@ -56,7 +56,7 @@
 - 고객 채택: 확인된 고객사·공급 근거가 실제 반복 매출로 이어지는지 후속 확인
 - 양산: 양산 근거가 제품별 매출·가동률·수율 개선으로 이어지는지 확인
 - 매출 전환: 기술 적용 제품군의 매출 지속성과 고객 concentration 리스크 확인
-- IP 품질: 청구항·인용·패밀리·존속 상태가 수집된 상태이므로 IP Evidence Composite와 Bridge 조정값의 방향성을 점검
+- IP 품질: citations 데이터 보강 후 청구항·인용·패밀리·존속 상태를 재점수화
 - 마진·원가·현금흐름: 확인된 수익성/현금흐름 개선이 일회성이 아닌지 기간별 추세 확인
 
 ## 5. URL 인식 결과 및 대체 조회 URL

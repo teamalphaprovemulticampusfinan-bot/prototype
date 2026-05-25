@@ -32,3 +32,18 @@ service_account.json
 *.bak_*
 *.backup
 *.backup_*
+
+# local secrets and caches
+.env
+.venv/
+.cache/
+secrets/
+_tmp_cutoff_check/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+*.pyd
+service_account.json
+*.key
+*.pem

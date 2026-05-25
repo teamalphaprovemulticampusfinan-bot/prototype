@@ -38,11 +38,11 @@
 ## 4. KIPRIS/IP 정량 신호
 | 원천 신호 | 값 |
 |---|---:|
-| 정규화 특허 텍스트 레코드 | 10,146건 |
-| 회사 출원인/권리자 매칭 | 5,282건 |
+| 정규화 특허 텍스트 레코드 | 11,706건 |
+| 회사 출원인/권리자 매칭 | 6,842건 |
 | 등록 특허 | 1,729건 |
-| 존속 가능 특허 | 1,991건 |
-| 최근 5년 특허 | 53건 |
+| 존속 가능 특허 | 3,551건 |
+| 최근 5년 특허 | 1,560건 |
 | IPC/CPC 다양성 | 17개 |
 | H01L 등 핵심 IPC 특허 | 확인 제한 |
 | KIPRIS 등록률(추정) | 75.13% |
@@ -124,7 +124,7 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
 - IP Evidence Adjustment Points: 0.0
 - Peer-adjusted Score Before IP Evidence: 39.0
 - Final Bridge Score After IP Evidence: 39.0
-- Source: `data/반도체/테스/tech/tech_ip_evidence_composite.json`
+- Source: `C:/Agent_6.9/data/반도체/테스/tech/tech_ip_evidence_composite.json`
 
 해석:
 - 네패스처럼 IP Evidence 조정값이 0.0이면 최종 점수 변화가 없는 것이 정상입니다.
@@ -135,8 +135,8 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
 ## 개인투자자용 Tech 최종 점수판
 
 - **대상 기업:** 테스
-- **최종 Tech 점수:** 46.14/100
-- **최종 판정:** 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요 `EVIDENCE_WEAK_OR_EARLY`
+- **최종 Tech 점수:** 55.14/100
+- **최종 판정:** 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함 `COMMERCIALIZATION_WATCH`
 - **해석 원칙:** 특허 수, 기술 키워드 수, 뉴스 수를 각각 따로 과장하지 않고, 사업화 연결 가능성과 근거 직접성을 하나의 최종 점수로 통합했습니다.
 
 ### 1) 최종 점수 구성
@@ -144,13 +144,13 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
 |---|---:|---:|---:|---|
 | Tech-to-Value Bridge | 39.00 | 0.40 | 15.60 | 기술이 고객 채택·양산·매출 전환으로 이어질 가능성 |
 | IP Evidence Composite | 52.69 | 0.20 | 10.54 | 권리 안정성·청구항·인용·패밀리 기반 특허 품질 |
-| Excel 기반 정량 근거 | 30.00 | 0.15 | 4.50 | 템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지 |
-| 근거 직접성·충분성 | 61.00 | 0.15 | 9.15 | Chair가 개인투자자에게 설명할 수 있는 근거의 직접성 |
+| Excel 기반 정량 근거 | 75.00 | 0.15 | 11.25 | 템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지 |
+| 근거 직접성·충분성 | 76.00 | 0.15 | 11.40 | Chair가 개인투자자에게 설명할 수 있는 근거의 직접성 |
 | 사업화·성장자금 지속성 | 63.50 | 0.10 | 6.35 | R&D·특허·정부과제·기술이전·CAPEX/희석성 자금조달이 사업화와 연결되는 정도 |
 
 ### 2) 핵심 해석
-- 테스의 개인투자자용 Tech 최종 점수는 46.14/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.
-- 최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(52.69) 및 Excel 기반 정량 근거(30.0)를 함께 반영했습니다.
+- 테스의 개인투자자용 Tech 최종 점수는 55.14/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.
+- 최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(52.69) 및 Excel 기반 정량 근거(75.0)를 함께 반영했습니다.
 - 투자자가 확인할 핵심 근거는 9개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다.
 
 ### 3) 개인투자자가 확인할 근거
@@ -162,8 +162,8 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
 | tech.inv.ev.004 | kipris_claim | **청구항 방어력**: 청구항 수 4498, 독립항 추정 990, claim defense score 57.71입니다. | 57.71점 | 중 |
 | tech.inv.ev.005 | kipris_citation | **인용 영향력**: 전방/후방 인용 및 기술 영향력 점수 기준 IP_CITATION_FALLBACK_ESTIMATED입니다. | - | 중 |
 | tech.inv.ev.006 | kipris_family | **글로벌 패밀리 확장성**: 해외 패밀리 비중 0.6126, 감지 지역 ['CN', 'EP', 'JP', 'US', 'WO'], global extension score 67.07입니다. | 67.07점 | 중 |
-| tech.inv.ev.007 | tech_summary | **Tech Agent 핵심 해석**: 테스의 개인투자자용 Tech 최종 점수는 46.14/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다. | - | 중 |
-| tech.inv.ev.008 | tech_summary | **Tech Agent 핵심 해석**: 최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(52.69) 및 Excel 기반 정량 근거(30.0)를 함께 반영했습니다. | - | 중 |
+| tech.inv.ev.007 | tech_summary | **Tech Agent 핵심 해석**: 테스의 개인투자자용 Tech 최종 점수는 55.14/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다. | - | 중 |
+| tech.inv.ev.008 | tech_summary | **Tech Agent 핵심 해석**: 최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(52.69) 및 Excel 기반 정량 근거(75.0)를 함께 반영했습니다. | - | 중 |
 | tech.inv.ev.009 | tech_summary | **Tech Agent 핵심 해석**: 투자자가 확인할 핵심 근거는 6개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다. | - | 중 |
 
 ### 4) 한계와 보완 필요사항
@@ -178,10 +178,10 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
 # 테스 Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-20T22:03:26
+- 생성 시각: 2026-05-25T21:37:29
 - 종합 점수: 80.15/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 134개
+- 원천 문서 수: 155개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -209,18 +209,18 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
 - [DIRECT_EVIDENCE] - 기술 우위가 확인되어도 고객 채택·양산·매출 전환·FCF 직접 근거가 약하면 보수적으로 반영합니다. (source=data/반도체/테스/tech/_nepes_reference_schema/nepes_tech_chair_summary.md, keywords=양산, urls=http://www.w3.org/2001/XMLSchema-instance, http://www.nepes.co.kr)
 
 ### 매출 전환
-- [DIRECT_EVIDENCE] summary: 테스는 2023년 영업이익 적자에서 2024년 흑자 전환하며 매출과 이익이 크게 성장하는 추세를 보이고 있습니다. (source=data/반도체/테스/finance/테스_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 매출액은 2023년 1,469억원에서 2025년 3,511억원으로 2년 만에 2배 이상 성장할 것으로 전망됩니다. (source=data/반도체/테스/finance/테스_finance.json, keywords=매출, 매출액, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: 테스는 2023년 매출이 큰 폭으로 감소하며 영업이익이 적자 전환했으나, 2024년에는 매출이 63% 이상 성장하며 영업이익이 흑자 전환했다. (source=data/반도체/테스/finance/테스_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 매출성장률이 63.39%로 크게 반등하며 사업 회복세를 보였다. (source=data/반도체/테스/finance/테스_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] missing_prompt_metrics: 매출성장률 (source=data/반도체/테스/finance/테스_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수 (source=data/반도체/테스/finance/테스_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] sales: 351115732341.0 (source=data/반도체/테스/finance/테스_finance_agent_packet.json, keywords=sales, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률 (source=data/반도체/테스/finance/테스_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] sales: 240077826420.0 (source=data/반도체/테스/finance/테스_finance_agent_packet.json, keywords=sales, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### 마진·원가·현금흐름 연결
-- [DIRECT_EVIDENCE] 2025년에도 이러한 성장세가 이어질 것으로 전망되나, 2024년 자유현금흐름이 마이너스를 기록한 점은 투자 시 고려해야 할 부분입니다. (source=data/반도체/테스/finance/테스_finance.json, keywords=현금흐름, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2023년 영업이익률 -3.99%에서 2024년 16.03%로 급등하며 수익성이 크게 개선되었고, 2025년에는 16.47%로 유지될 것으로 보입니다. (source=data/반도체/테스/finance/테스_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_risks: 2024년 자유현금흐름(FCF)이 -243억원을 기록하며 마이너스로 전환되었고, 이는 투자 및 운전자본 증가로 인한 현금 유출 가능성을 시사합니다. (source=data/반도체/테스/finance/테스_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] report_core_points: FCF: 테스 2025 기준 FCF 값은 49,284,217,786원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다. (source=data/반도체/테스/finance/테스_finance_agent_packet.json, keywords=FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] missing_prompt_metrics: 영업이익률 (source=data/반도체/테스/finance/테스_finance_agent_packet.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] 2024년 자유현금흐름은 대규모 설비투자(capex)로 인해 마이너스를 기록했으나, 영업활동현금흐름은 양수를 유지했다. (source=data/반도체/테스/finance/테스_finance.json, keywords=현금흐름, CAPEX, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 영업이익이 384억 원으로 흑자 전환하며 수익성 개선 가능성을 시사한다. (source=data/반도체/테스/finance/테스_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 영업활동현금흐름(OCF)은 305억 원으로 양수를 유지하며 영업을 통한 현금 창출 능력을 보여준다. (source=data/반도체/테스/finance/테스_finance.json, keywords=현금흐름, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2023년 영업이익률이 -3.99%로 마이너스를 기록했으며, 2024년에도 16.03%로 회복되었으나 과거(2021년 16.57%) 수준과의 비교 및 지속성 확인이 필요하다. (source=data/반도체/테스/finance/테스_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2024년 자유현금흐름(FCF)이 -243억 원으로 마이너스를 기록했으며, 이는 대규모 설비투자(capex) 548억 원 집행에 따른 것으로, 향후 투자 규모와 현금 흐름 회복 여부 관리가 중요하다. (source=data/반도체/테스/finance/테스_finance.json, keywords=현금흐름, FCF, CAPEX, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### IP 품질
 - [DIRECT_EVIDENCE] legal_status: status=COLLECTED, count=None, score=0.7513, signal=None (source=data/반도체/테스/tech/tech_ip_legal_features.json, keywords=legal_status, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)

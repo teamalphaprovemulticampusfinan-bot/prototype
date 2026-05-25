@@ -5,10 +5,10 @@
   "company_dir": "mico",
   "opinion": "보유",
   "confidence": 0.5,
-  "summary": "미코에 대해 검증 가능한 핵심 근거는 다음과 같습니다. news_count 값은 10count입니다. rss_count 값은 17count입니다. related_keyword_count 값은 0count입니다.",
+  "summary": "미코에 대해 검증 가능한 핵심 근거는 다음과 같습니다. news_count 값은 10count입니다. rss_count 값은 11count입니다. related_keyword_count 값은 0count입니다.",
   "key_points": [
     "news_count 값은 10count입니다.",
-    "rss_count 값은 17count입니다.",
+    "rss_count 값은 11count입니다.",
     "related_keyword_count 값은 0count입니다."
   ],
   "risks": [],
@@ -23,7 +23,7 @@
     },
     {
       "claim_id": "issue.auto_cl.003",
-      "text": "rss_count 값은 17count입니다.",
+      "text": "rss_count 값은 11count입니다.",
       "evidence_ids": [
         "issue.ev.002"
       ],
@@ -54,10 +54,10 @@
       "source_type": "issue",
       "source": "issue_data_collection",
       "metric": "rss_count",
-      "value": 17,
+      "value": 11,
       "unit": "count",
       "period": null,
-      "snippet": "issue_data_collection | rss_count | 값: 17count"
+      "snippet": "issue_data_collection | rss_count | 값: 11count"
     },
     {
       "evidence_id": "issue.ev.003",
@@ -76,11 +76,21 @@
       "metric": "news_title",
       "value": null,
       "unit": null,
+      "period": "Thu, 21 May 2026 21:01:00 +0900",
+      "snippet": "Naver News | Thu, 21 May 2026 21:01:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.005",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
       "period": "Tue, 19 May 2026 10:28:00 +0900",
       "snippet": "Naver News | Tue, 19 May 2026 10:28:00 +0900 기준 news_title | 값: 확인 불가"
     },
     {
-      "evidence_id": "issue.ev.005",
+      "evidence_id": "issue.ev.006",
       "source_type": "issue_news",
       "source": "Naver News",
       "metric": "news_title",
@@ -90,7 +100,7 @@
       "snippet": "Naver News | Thu, 30 Apr 2026 08:26:00 +0900 기준 news_title | 값: 확인 불가"
     },
     {
-      "evidence_id": "issue.ev.006",
+      "evidence_id": "issue.ev.007",
       "source_type": "issue_news",
       "source": "Naver News",
       "metric": "news_title",
@@ -100,7 +110,7 @@
       "snippet": "Naver News | Tue, 28 Apr 2026 14:08:00 +0900 기준 news_title | 값: 확인 불가"
     },
     {
-      "evidence_id": "issue.ev.007",
+      "evidence_id": "issue.ev.008",
       "source_type": "issue_news",
       "source": "Naver News",
       "metric": "news_title",
@@ -110,24 +120,14 @@
       "snippet": "Naver News | Wed, 22 Apr 2026 15:56:00 +0900 기준 news_title | 값: 확인 불가"
     },
     {
-      "evidence_id": "issue.ev.008",
-      "source_type": "issue_news",
-      "source": "Naver News",
-      "metric": "news_title",
-      "value": null,
-      "unit": null,
-      "period": "Fri, 10 Apr 2026 19:40:00 +0900",
-      "snippet": "Naver News | Fri, 10 Apr 2026 19:40:00 +0900 기준 news_title | 값: 확인 불가"
-    },
-    {
       "evidence_id": "issue.ev.009",
       "source_type": "issue_rss",
       "source": "Semiconductor Engineering",
       "metric": "rss_title",
       "value": null,
       "unit": null,
-      "period": "Tue, 19 May 2026 07:01:44 +0000",
-      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:44 +0000 기준 rss_title | 값: 확인 불가"
+      "period": "Fri, 22 May 2026 07:01:23 +0000",
+      "snippet": "Semiconductor Engineering | Fri, 22 May 2026 07:01:23 +0000 기준 rss_title | 값: 확인 불가"
     },
     {
       "evidence_id": "issue.ev.010",
@@ -136,8 +136,8 @@
       "metric": "rss_title",
       "value": null,
       "unit": null,
-      "period": "Tue, 19 May 2026 07:01:41 +0000",
-      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:41 +0000 기준 rss_title | 값: 확인 불가"
+      "period": "Thu, 21 May 2026 16:02:35 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 16:02:35 +0000 기준 rss_title | 값: 확인 불가"
     },
     {
       "evidence_id": "issue.ev.011",
@@ -146,8 +146,8 @@
       "metric": "rss_title",
       "value": null,
       "unit": null,
-      "period": "Mon, 18 May 2026 20:46:28 +0000",
-      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:46:28 +0000 기준 rss_title | 값: 확인 불가"
+      "period": "Thu, 21 May 2026 07:07:38 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:07:38 +0000 기준 rss_title | 값: 확인 불가"
     },
     {
       "evidence_id": "issue.ev.012",
@@ -156,8 +156,8 @@
       "metric": "rss_title",
       "value": null,
       "unit": null,
-      "period": "Mon, 18 May 2026 20:36:05 +0000",
-      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:36:05 +0000 기준 rss_title | 값: 확인 불가"
+      "period": "Thu, 21 May 2026 07:05:20 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:05:20 +0000 기준 rss_title | 값: 확인 불가"
     },
     {
       "evidence_id": "issue.ev.013",
@@ -166,8 +166,8 @@
       "metric": "rss_title",
       "value": null,
       "unit": null,
-      "period": "Mon, 18 May 2026 20:24:00 +0000",
-      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:24:00 +0000 기준 rss_title | 값: 확인 불가"
+      "period": "Thu, 21 May 2026 07:04:25 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:04:25 +0000 기준 rss_title | 값: 확인 불가"
     }
   ],
   "evidence": [
@@ -186,10 +186,10 @@
       "source_type": "issue",
       "source": "issue_data_collection",
       "metric": "rss_count",
-      "value": 17,
+      "value": 11,
       "unit": "count",
       "period": null,
-      "snippet": "issue_data_collection | rss_count | 값: 17count"
+      "snippet": "issue_data_collection | rss_count | 값: 11count"
     },
     {
       "evidence_id": "issue.ev.003",
@@ -208,11 +208,21 @@
       "metric": "news_title",
       "value": null,
       "unit": null,
+      "period": "Thu, 21 May 2026 21:01:00 +0900",
+      "snippet": "Naver News | Thu, 21 May 2026 21:01:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.005",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
       "period": "Tue, 19 May 2026 10:28:00 +0900",
       "snippet": "Naver News | Tue, 19 May 2026 10:28:00 +0900 기준 news_title | 값: 확인 불가"
     },
     {
-      "evidence_id": "issue.ev.005",
+      "evidence_id": "issue.ev.006",
       "source_type": "issue_news",
       "source": "Naver News",
       "metric": "news_title",
@@ -222,7 +232,7 @@
       "snippet": "Naver News | Thu, 30 Apr 2026 08:26:00 +0900 기준 news_title | 값: 확인 불가"
     },
     {
-      "evidence_id": "issue.ev.006",
+      "evidence_id": "issue.ev.007",
       "source_type": "issue_news",
       "source": "Naver News",
       "metric": "news_title",
@@ -232,7 +242,7 @@
       "snippet": "Naver News | Tue, 28 Apr 2026 14:08:00 +0900 기준 news_title | 값: 확인 불가"
     },
     {
-      "evidence_id": "issue.ev.007",
+      "evidence_id": "issue.ev.008",
       "source_type": "issue_news",
       "source": "Naver News",
       "metric": "news_title",
@@ -242,24 +252,14 @@
       "snippet": "Naver News | Wed, 22 Apr 2026 15:56:00 +0900 기준 news_title | 값: 확인 불가"
     },
     {
-      "evidence_id": "issue.ev.008",
-      "source_type": "issue_news",
-      "source": "Naver News",
-      "metric": "news_title",
-      "value": null,
-      "unit": null,
-      "period": "Fri, 10 Apr 2026 19:40:00 +0900",
-      "snippet": "Naver News | Fri, 10 Apr 2026 19:40:00 +0900 기준 news_title | 값: 확인 불가"
-    },
-    {
       "evidence_id": "issue.ev.009",
       "source_type": "issue_rss",
       "source": "Semiconductor Engineering",
       "metric": "rss_title",
       "value": null,
       "unit": null,
-      "period": "Tue, 19 May 2026 07:01:44 +0000",
-      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:44 +0000 기준 rss_title | 값: 확인 불가"
+      "period": "Fri, 22 May 2026 07:01:23 +0000",
+      "snippet": "Semiconductor Engineering | Fri, 22 May 2026 07:01:23 +0000 기준 rss_title | 값: 확인 불가"
     },
     {
       "evidence_id": "issue.ev.010",
@@ -268,8 +268,8 @@
       "metric": "rss_title",
       "value": null,
       "unit": null,
-      "period": "Tue, 19 May 2026 07:01:41 +0000",
-      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:41 +0000 기준 rss_title | 값: 확인 불가"
+      "period": "Thu, 21 May 2026 16:02:35 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 16:02:35 +0000 기준 rss_title | 값: 확인 불가"
     },
     {
       "evidence_id": "issue.ev.011",
@@ -278,8 +278,8 @@
       "metric": "rss_title",
       "value": null,
       "unit": null,
-      "period": "Mon, 18 May 2026 20:46:28 +0000",
-      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:46:28 +0000 기준 rss_title | 값: 확인 불가"
+      "period": "Thu, 21 May 2026 07:07:38 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:07:38 +0000 기준 rss_title | 값: 확인 불가"
     },
     {
       "evidence_id": "issue.ev.012",
@@ -288,8 +288,8 @@
       "metric": "rss_title",
       "value": null,
       "unit": null,
-      "period": "Mon, 18 May 2026 20:36:05 +0000",
-      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:36:05 +0000 기준 rss_title | 값: 확인 불가"
+      "period": "Thu, 21 May 2026 07:05:20 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:05:20 +0000 기준 rss_title | 값: 확인 불가"
     },
     {
       "evidence_id": "issue.ev.013",
@@ -298,26 +298,26 @@
       "metric": "rss_title",
       "value": null,
       "unit": null,
-      "period": "Mon, 18 May 2026 20:24:00 +0000",
-      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:24:00 +0000 기준 rss_title | 값: 확인 불가"
+      "period": "Thu, 21 May 2026 07:04:25 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:04:25 +0000 기준 rss_title | 값: 확인 불가"
     }
   ],
   "fallback_used": false,
   "warning_note": "검증 불가 claim 6개를 제거한 뒤 grounding 기준을 재검증했습니다.",
   "raw_payload": {
-    "analysis_text": "opinion: 보유\nconfidence: 0.65\n\n### 1. 핵심 이슈 요약\n\n미코는 최근 반도체 재료 및 부품 업종 전반의 강세 흐름 속에서 일부 단기 상승에 따른 부담과 실적 불확실성이 부각되며 조정을 받는 흐름을 보이고 있습니다. 또한, 브릭스톤PE의 미코 CB(전환사채) 장외 블록딜을 통한 투자금 회수 완료 소식이 있었습니다. 전반적으로 반도체 업황 개선 기대감과 개별 기업의 실적 가시성, 투자 유치 및 회수 이슈가 혼재된 상황입니다.\n\n### 2. 기업에 미치는 영향\n\n*   **긍정적 영향:** 반도체 업종 전반의 투자 심리 개선 및 수급 유입은 미코에게도 긍정적인 영향을 줄 수 있습니다. 특히 AI 밸류체인 관련 주가 관심권에 들어올 수 있다는 분석은 잠재적인 성장 동력이 될 수 있습니다.\n*   **부정적 영향:** 단기 상승에 따른 부담과 실적 가시성 이슈는 주가 변동성을 키울 수 있습니다. 또한, CB의 블록딜 회수는 투자금 회수 측면에서는 긍정적일 수 있으나, 시장에 매물 출회 가능성을 시사할 수 있습니다.\n\n### 3. 긍정 시그널\n\n*   **반도체 업종 전반의 강세:** 최근 뉴스에서 반도체 재료 부품 주가 강세 흐름을 이어가고 있으며, AI 밸류체인 관련 주가 관심권에 들어올 수 있다는 분석이 있습니다. 이는 미코가 속한 산업 전반의 긍정적인 투자 환경을 시사합니다.\n*   **해외 리테일 수급 확대 가능성:** 해외 리테일 수급이 확대될 경우, 지주사 등 실적, 밸류, 내러티브를 갖춘 저평가 종목으로 투자 대상이 확대될 가능성이 언급되었습니다. 미코가 이러한 조건에 부합하는지는 추가 확인이 필요합니다.\n*   **소재 다변화 및 혼합 포트폴리오:** 일부 뉴스에서 미코가 장비 및 소재 혼합 포트폴리오를 기반으로 수급이 유입되는 모습이 언급되었습니다. 이는 사업 다각화를 통한 경쟁력 강화 가능성을 시사합니다.\n\n### 4. 부정 시그널/리스크\n\n*   **단기 상승 부담 및 실적 불확실성:** 여러 뉴스에서 미코가 단기 상승에 따른 부담과 실적 불확실성이 부각되며 조정을 받는 흐름이 나타나고 있습니다. 이는 투자자들의 신중한 접근을 유발할 수 있습니다.\n*   **뚜렷한 방향성 부재:** 일부 뉴스에서는 미코가 뚜렷한 방향성 없이 보합권에서 장을 마쳤다고 언급하고 있어, 현재 시장에서 명확한 투자 모멘텀을 찾기 어렵다는 점을 시사합니다.\n*   **CB 블록딜 회수:** 브릭스톤PE가 미코 CB 장외 블록딜로 150억원을 회수 완료했다는 소식은 투자금 회수 측면에서는 긍정적일 수 있으나, 잠재적인 매물 출회 가능성을 염두에 두어야 합니다.\n*   **실적 우려:** 다른 기업들의 사례에서 실적 우려가 주가 하락 요인으로 작용하는 경우가 언급되었습니다. 미코 역시 실적 가시성 확보가 중요한 과제입니다.\n\n### 5. 향후 체크포인트\n\n*   **실적 발표 및 가시성:** 향후 발표될 실적과 실적 개선에 대한 가시성이 확보되는지 여부가 중요합니다.\n*   **신규 수주 및 사업 확장:** AI 밸류체인 등 성장 가능성이 있는 분야에서의 신규 수주나 사업 확장 계획이 구체화되는지 주목해야 합니다.\n*   **CB 관련 매물 출회 여부:** 브릭스톤PE의 투자금 회수 이후 추가적인 매물 출회 가능성 및 시장 반응을 주시해야 합니다.\n*   **반도체 업황 변화:** 전반적인 반도체 업황의 흐름과 미코의 사업 부문이 이에 어떻게 반응하는지 지속적으로 관찰해야 합니다.",
-    "markdown_report": "# 미코 이슈 리포트\n\n## 분석 결과\nopinion: 보유\nconfidence: 0.65\n\n### 1. 핵심 이슈 요약\n\n미코는 최근 반도체 재료 및 부품 업종 전반의 강세 흐름 속에서 일부 단기 상승에 따른 부담과 실적 불확실성이 부각되며 조정을 받는 흐름을 보이고 있습니다. 또한, 브릭스톤PE의 미코 CB(전환사채) 장외 블록딜을 통한 투자금 회수 완료 소식이 있었습니다. 전반적으로 반도체 업황 개선 기대감과 개별 기업의 실적 가시성, 투자 유치 및 회수 이슈가 혼재된 상황입니다.\n\n### 2. 기업에 미치는 영향\n\n*   **긍정적 영향:** 반도체 업종 전반의 투자 심리 개선 및 수급 유입은 미코에게도 긍정적인 영향을 줄 수 있습니다. 특히 AI 밸류체인 관련 주가 관심권에 들어올 수 있다는 분석은 잠재적인 성장 동력이 될 수 있습니다.\n*   **부정적 영향:** 단기 상승에 따른 부담과 실적 가시성 이슈는 주가 변동성을 키울 수 있습니다. 또한, CB의 블록딜 회수는 투자금 회수 측면에서는 긍정적일 수 있으나, 시장에 매물 출회 가능성을 시사할 수 있습니다.\n\n### 3. 긍정 시그널\n\n*   **반도체 업종 전반의 강세:** 최근 뉴스에서 반도체 재료 부품 주가 강세 흐름을 이어가고 있으며, AI 밸류체인 관련 주가 관심권에 들어올 수 있다는 분석이 있습니다. 이는 미코가 속한 산업 전반의 긍정적인 투자 환경을 시사합니다.\n*   **해외 리테일 수급 확대 가능성:** 해외 리테일 수급이 확대될 경우, 지주사 등 실적, 밸류, 내러티브를 갖춘 저평가 종목으로 투자 대상이 확대될 가능성이 언급되었습니다. 미코가 이러한 조건에 부합하는지는 추가 확인이 필요합니다.\n*   **소재 다변화 및 혼합 포트폴리오:** 일부 뉴스에서 미코가 장비 및 소재 혼합 포트폴리오를 기반으로 수급이 유입되는 모습이 언급되었습니다. 이는 사업 다각화를 통한 경쟁력 강화 가능성을 시사합니다.\n\n### 4. 부정 시그널/리스크\n\n*   **단기 상승 부담 및 실적 불확실성:** 여러 뉴스에서 미코가 단기 상승에 따른 부담과 실적 불확실성이 부각되며 조정을 받는 흐름이 나타나고 있습니다. 이는 투자자들의 신중한 접근을 유발할 수 있습니다.\n*   **뚜렷한 방향성 부재:** 일부 뉴스에서는 미코가 뚜렷한 방향성 없이 보합권에서 장을 마쳤다고 언급하고 있어, 현재 시장에서 명확한 투자 모멘텀을 찾기 어렵다는 점을 시사합니다.\n*   **CB 블록딜 회수:** 브릭스톤PE가 미코 CB 장외 블록딜로 150억원을 회수 완료했다는 소식은 투자금 회수 측면에서는 긍정적일 수 있으나, 잠재적인 매물 출회 가능성을 염두에 두어야 합니다.\n*   **실적 우려:** 다른 기업들의 사례에서 실적 우려가 주가 하락 요인으로 작용하는 경우가 언급되었습니다. 미코 역시 실적 가시성 확보가 중요한 과제입니다.\n\n### 5. 향후 체크포인트\n\n*   **실적 발표 및 가시성:** 향후 발표될 실적과 실적 개선에 대한 가시성이 확보되는지 여부가 중요합니다.\n*   **신규 수주 및 사업 확장:** AI 밸류체인 등 성장 가능성이 있는 분야에서의 신규 수주나 사업 확장 계획이 구체화되는지 주목해야 합니다.\n*   **CB 관련 매물 출회 여부:** 브릭스톤PE의 투자금 회수 이후 추가적인 매물 출회 가능성 및 시장 반응을 주시해야 합니다.\n*   **반도체 업황 변화:** 전반적인 반도체 업황의 흐름과 미코의 사업 부문이 이에 어떻게 반응하는지 지속적으로 관찰해야 합니다.\n",
+    "analysis_text": "opinion: 보유\nconfidence: 0.65\n\n1.  **핵심 이슈 요약**\n    미코는 최근 해외 개인 투자자의 단기 매수세 유입으로 주가 변동성이 확대되는 모습을 보였으나, 차익 실현 매물 출회로 하락하는 패턴을 반복하고 있습니다. 반도체 재료 부품 업종 전반의 강세 흐름 속에서 미코 역시 장비 및 소재 혼합 포트폴리오 기반으로 수급이 유입되는 모습도 있으나, 단기 상승에 따른 부담과 실적 불확실성이 부각되며 조정을 받는 흐름도 나타나고 있습니다. 또한, 브릭스톤PE의 미코 CB(전환사채) 장외 블록딜 회수 완료 소식이 있었으며, 이는 과거 투자 회수 관점에서 언급되었습니다.\n\n2.  **기업에 미치는 영향**\n    단기적인 주가 변동성은 해외 개인 투자자의 수급에 의해 좌우되는 경향을 보이며, 이는 실질적인 기업 가치보다는 시장 심리에 영향을 받는 것으로 판단됩니다. 장비 및 소재 혼합 포트폴리오에 대한 긍정적 수급 유입 가능성은 있으나, 실적 가시성 부족은 투자 심리에 부정적인 영향을 미칠 수 있습니다. 브릭스톤PE의 CB 회수 완료는 과거 투자 관련 이슈이며, 현재 기업의 직접적인 사업 운영이나 재무 상태에 미치는 영향은 제한적일 수 있습니다.\n\n3.  **긍정 시그널**\n    *   **반도체 업종 전반의 강세 및 테마 유입 가능성:** 최근 뉴스에서 반도체 재료 부품 주가 강세 흐름을 이어가고 있으며, AI 밸류체인 관련주(원전, 전력기기, 로봇 등) 및 반도체, 조선, 로봇, 원전, 전력기자재, 에너지 등 주요 테마에 매수세 유입 가능성이 언급되었습니다. 미코가 이러한 테마와 연관된 장비 및 소재 포트폴리오를 보유하고 있다면 긍정적 수급 유입의 기반이 될 수 있습니다.\n    *   **장비 및 소재 혼합 포트폴리오 기반 수급 유입:** 일부 뉴스에서 미코가 장비 및 소재 혼합 포트폴리오를 기반으로 수급이 유입되는 모습이 관찰되었습니다. 이는 회사의 사업 모델이 시장에서 일부 긍정적으로 인식되고 있음을 시사합니다.\n\n4.  **부정 시그널/리스크**\n    *   **단기 급등 후 차익 실현 매물 출회:** 해외 개인 투자자의 단기 매수세 유입으로 주가가 급등했다가 차익 실현 매물로 인해 하락하는 패턴이 반복되고 있습니다. 이는 주가 상승의 지속 가능성에 대한 의문을 제기하며, 변동성 확대의 주요 원인이 되고 있습니다.\n    *   **실적 불확실성 및 단기 상승 부담:** 일부 뉴스에서 미코가 단기 상승에 따른 부담과 실적 불확실성이 부각되며 조정을 받는 흐름을 보인다고 언급되었습니다. 이는 투자자들이 실질적인 기업 성과에 대한 확신을 갖기 어렵게 만드는 요인입니다.\n    *   **뚜렷한 방향성 부재:** 최근 뉴스에서 미코가 뚜렷한 방향성 없이 보합권에서 장을 마쳤다는 언급이 있습니다. 이는 현재 시장에서 미코에 대한 명확한 투자 모멘텀이 부재함을 시사합니다.\n    *   **과거 투자 회수 이슈:** 브릭스톤PE의 미코 CB 장외 블록딜 회수 완료 소식은 과거 투자 회수 관점에서 언급된 것으로, 현재 기업의 사업 성장성이나 재무 건전성과 직접적인 연관성은 낮을 수 있습니다.\n\n5.  **향후 체크포인트**\n    *   **실적 발표 및 가시성 확보 여부:** 향후 발표될 실적과 그에 대한 시장의 평가가 중요합니다. 실적 개선에 대한 구체적인 근거와 가시성이 확보된다면 투자 심리 개선에 긍정적인 영향을 미칠 수 있습니다.\n    *   **주요 테마와의 연관성 및 수혜 정도:** 반도체, AI 관련 테마의 흐름 속에서 미코의 사업 영역이 어느 정도 연관성을 가지며, 실제 수혜를 받을 수 있는지에 대한 분석이 필요합니다.\n    *   **해외 개인 투자자 수급 변화 추이:** 단기적인 주가 변동성을 야기하는 해외 개인 투자자의 수급 동향을 지속적으로 관찰할 필요가 있습니다.\n    *   **신규 사업 또는 기술 개발 관련 정보:** 회사의 성장 동력이 될 수 있는 신규 사업 진출, 기술 개발 성과 등에 대한 정보 공개 여부를 주목해야 합니다.",
+    "markdown_report": "# 미코 이슈 리포트\n\n## 분석 결과\nopinion: 보유\nconfidence: 0.65\n\n1.  **핵심 이슈 요약**\n    미코는 최근 해외 개인 투자자의 단기 매수세 유입으로 주가 변동성이 확대되는 모습을 보였으나, 차익 실현 매물 출회로 하락하는 패턴을 반복하고 있습니다. 반도체 재료 부품 업종 전반의 강세 흐름 속에서 미코 역시 장비 및 소재 혼합 포트폴리오 기반으로 수급이 유입되는 모습도 있으나, 단기 상승에 따른 부담과 실적 불확실성이 부각되며 조정을 받는 흐름도 나타나고 있습니다. 또한, 브릭스톤PE의 미코 CB(전환사채) 장외 블록딜 회수 완료 소식이 있었으며, 이는 과거 투자 회수 관점에서 언급되었습니다.\n\n2.  **기업에 미치는 영향**\n    단기적인 주가 변동성은 해외 개인 투자자의 수급에 의해 좌우되는 경향을 보이며, 이는 실질적인 기업 가치보다는 시장 심리에 영향을 받는 것으로 판단됩니다. 장비 및 소재 혼합 포트폴리오에 대한 긍정적 수급 유입 가능성은 있으나, 실적 가시성 부족은 투자 심리에 부정적인 영향을 미칠 수 있습니다. 브릭스톤PE의 CB 회수 완료는 과거 투자 관련 이슈이며, 현재 기업의 직접적인 사업 운영이나 재무 상태에 미치는 영향은 제한적일 수 있습니다.\n\n3.  **긍정 시그널**\n    *   **반도체 업종 전반의 강세 및 테마 유입 가능성:** 최근 뉴스에서 반도체 재료 부품 주가 강세 흐름을 이어가고 있으며, AI 밸류체인 관련주(원전, 전력기기, 로봇 등) 및 반도체, 조선, 로봇, 원전, 전력기자재, 에너지 등 주요 테마에 매수세 유입 가능성이 언급되었습니다. 미코가 이러한 테마와 연관된 장비 및 소재 포트폴리오를 보유하고 있다면 긍정적 수급 유입의 기반이 될 수 있습니다.\n    *   **장비 및 소재 혼합 포트폴리오 기반 수급 유입:** 일부 뉴스에서 미코가 장비 및 소재 혼합 포트폴리오를 기반으로 수급이 유입되는 모습이 관찰되었습니다. 이는 회사의 사업 모델이 시장에서 일부 긍정적으로 인식되고 있음을 시사합니다.\n\n4.  **부정 시그널/리스크**\n    *   **단기 급등 후 차익 실현 매물 출회:** 해외 개인 투자자의 단기 매수세 유입으로 주가가 급등했다가 차익 실현 매물로 인해 하락하는 패턴이 반복되고 있습니다. 이는 주가 상승의 지속 가능성에 대한 의문을 제기하며, 변동성 확대의 주요 원인이 되고 있습니다.\n    *   **실적 불확실성 및 단기 상승 부담:** 일부 뉴스에서 미코가 단기 상승에 따른 부담과 실적 불확실성이 부각되며 조정을 받는 흐름을 보인다고 언급되었습니다. 이는 투자자들이 실질적인 기업 성과에 대한 확신을 갖기 어렵게 만드는 요인입니다.\n    *   **뚜렷한 방향성 부재:** 최근 뉴스에서 미코가 뚜렷한 방향성 없이 보합권에서 장을 마쳤다는 언급이 있습니다. 이는 현재 시장에서 미코에 대한 명확한 투자 모멘텀이 부재함을 시사합니다.\n    *   **과거 투자 회수 이슈:** 브릭스톤PE의 미코 CB 장외 블록딜 회수 완료 소식은 과거 투자 회수 관점에서 언급된 것으로, 현재 기업의 사업 성장성이나 재무 건전성과 직접적인 연관성은 낮을 수 있습니다.\n\n5.  **향후 체크포인트**\n    *   **실적 발표 및 가시성 확보 여부:** 향후 발표될 실적과 그에 대한 시장의 평가가 중요합니다. 실적 개선에 대한 구체적인 근거와 가시성이 확보된다면 투자 심리 개선에 긍정적인 영향을 미칠 수 있습니다.\n    *   **주요 테마와의 연관성 및 수혜 정도:** 반도체, AI 관련 테마의 흐름 속에서 미코의 사업 영역이 어느 정도 연관성을 가지며, 실제 수혜를 받을 수 있는지에 대한 분석이 필요합니다.\n    *   **해외 개인 투자자 수급 변화 추이:** 단기적인 주가 변동성을 야기하는 해외 개인 투자자의 수급 동향을 지속적으로 관찰할 필요가 있습니다.\n    *   **신규 사업 또는 기술 개발 관련 정보:** 회사의 성장 동력이 될 수 있는 신규 사업 진출, 기술 개발 성과 등에 대한 정보 공개 여부를 주목해야 합니다.\n",
     "news_count": 10,
-    "rss_count": 17,
+    "rss_count": 11,
     "related_keyword_count": 0,
     "df_news_rows": 139,
     "llm_error": null,
     "graph_claims_original": [],
     "removed_ungrounded_claims": [
       "미코 관련 공개 뉴스 제목: [박정식의 국내 주식시황] 유가 부담 vs 빅테크 호 실적 …국내증시, 상승...",
-      "미코 관련 공개 뉴스 제목: 덕산테코피아, '소재 다변화'로 글로벌 경쟁력 강화…성장 엔진 가동",
+      "미코 관련 공개 뉴스 제목: ‘도파민 증시’ 뒤 숨겨진 그림자",
       "미코 관련 공개 뉴스 제목: 외국 개미 단타족 몰려온다 … 한국증시, 변동성 확대 주의보 [신대성의...",
-      "미코 이슈 분석에서 수집된 RSS 항목 수는 17건입니다.",
+      "미코 이슈 분석에서 수집된 RSS 항목 수는 11건입니다.",
       "미코 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
       "미코 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다."
     ],
@@ -336,11 +336,11 @@
     "supported_claims": [],
     "unsupported_claims": [
       "미코 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
-      "미코 이슈 분석에서 수집된 RSS 항목 수는 17건입니다.",
+      "미코 이슈 분석에서 수집된 RSS 항목 수는 11건입니다.",
       "미코 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다.",
+      "미코 관련 공개 뉴스 제목: ‘도파민 증시’ 뒤 숨겨진 그림자",
       "미코 관련 공개 뉴스 제목: 외국 개미 단타족 몰려온다 … 한국증시, 변동성 확대 주의보 [신대성의...",
-      "미코 관련 공개 뉴스 제목: [박정식의 국내 주식시황] 유가 부담 vs 빅테크 호 실적 …국내증시, 상승...",
-      "미코 관련 공개 뉴스 제목: 덕산테코피아, '소재 다변화'로 글로벌 경쟁력 강화…성장 엔진 가동"
+      "미코 관련 공개 뉴스 제목: [박정식의 국내 주식시황] 유가 부담 vs 빅테크 호 실적 …국내증시, 상승..."
     ],
     "issues": [
       "issue.cl.001: evidence와 claim 연결이 약합니다.",
@@ -368,7 +368,7 @@
       },
       {
         "claim_id": "issue.cl.002",
-        "text": "미코 이슈 분석에서 수집된 RSS 항목 수는 17건입니다.",
+        "text": "미코 이슈 분석에서 수집된 RSS 항목 수는 11건입니다.",
         "evidence_ids": [
           "issue.ev.002"
         ],
@@ -398,7 +398,7 @@
       },
       {
         "claim_id": "issue.cl.004",
-        "text": "미코 관련 공개 뉴스 제목: 외국 개미 단타족 몰려온다 … 한국증시, 변동성 확대 주의보 [신대성의...",
+        "text": "미코 관련 공개 뉴스 제목: ‘도파민 증시’ 뒤 숨겨진 그림자",
         "evidence_ids": [
           "issue.ev.004"
         ],
@@ -413,7 +413,7 @@
       },
       {
         "claim_id": "issue.cl.005",
-        "text": "미코 관련 공개 뉴스 제목: [박정식의 국내 주식시황] 유가 부담 vs 빅테크 호 실적 …국내증시, 상승...",
+        "text": "미코 관련 공개 뉴스 제목: 외국 개미 단타족 몰려온다 … 한국증시, 변동성 확대 주의보 [신대성의...",
         "evidence_ids": [
           "issue.ev.005"
         ],
@@ -428,7 +428,7 @@
       },
       {
         "claim_id": "issue.cl.006",
-        "text": "미코 관련 공개 뉴스 제목: 덕산테코피아, '소재 다변화'로 글로벌 경쟁력 강화…성장 엔진 가동",
+        "text": "미코 관련 공개 뉴스 제목: [박정식의 국내 주식시황] 유가 부담 vs 빅테크 호 실적 …국내증시, 상승...",
         "evidence_ids": [
           "issue.ev.006"
         ],
@@ -452,7 +452,7 @@
     "unsupported_count": 0,
     "supported_claims": [
       "news_count 값은 10count입니다.",
-      "rss_count 값은 17count입니다.",
+      "rss_count 값은 11count입니다.",
       "related_keyword_count 값은 0count입니다."
     ],
     "unsupported_claims": [],
@@ -475,7 +475,7 @@
       },
       {
         "claim_id": "issue.auto_cl.003",
-        "text": "rss_count 값은 17count입니다.",
+        "text": "rss_count 값은 11count입니다.",
         "evidence_ids": [
           "issue.ev.002"
         ],
@@ -514,7 +514,7 @@
     "unsupported_count": 0,
     "supported_claims": [
       "news_count 값은 10count입니다.",
-      "rss_count 값은 17count입니다.",
+      "rss_count 값은 11count입니다.",
       "related_keyword_count 값은 0count입니다."
     ],
     "unsupported_claims": [],
@@ -537,7 +537,7 @@
       },
       {
         "claim_id": "issue.auto_cl.003",
-        "text": "rss_count 값은 17count입니다.",
+        "text": "rss_count 값은 11count입니다.",
         "evidence_ids": [
           "issue.ev.002"
         ],

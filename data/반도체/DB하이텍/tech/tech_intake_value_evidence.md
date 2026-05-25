@@ -1,10 +1,10 @@
 # DB하이텍 Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-20T21:16:37
+- 생성 시각: 2026-05-25T20:19:26
 - 종합 점수: 77.76/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 132개
+- 원천 문서 수: 151개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -32,18 +32,18 @@
 - [DIRECT_EVIDENCE] - 기술 우위가 확인되어도 고객 채택·양산·매출 전환·FCF 직접 근거가 약하면 보수적으로 반영합니다. (source=data/반도체/DB하이텍/tech/_nepes_reference_schema/nepes_tech_chair_summary.md, keywords=양산, urls=http://www.w3.org/2001/XMLSchema-instance, http://www.nepes.co.kr)
 
 ### 매출 전환
-- [DIRECT_EVIDENCE] summary: DB하이텍은 2023년 견조한 매출과 영업이익을 기록했으나, 2024년에는 매출과 영업이익이 소폭 감소할 것으로 전망된다. (source=data/반도체/DB하이텍/finance/DB하이텍_finance.json, keywords=매출, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] 2025년에는 매출과 영업이익이 다시 성장세로 전환될 것으로 예상되나, 부채비율이 상승하는 점은 유의해야 한다. (source=data/반도체/DB하이텍/finance/DB하이텍_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2023년 매출액 1조 1,542억원, 영업이익 2,654억원을 기록하며 견조한 실적을 달성했다. (source=data/반도체/DB하이텍/finance/DB하이텍_finance.json, keywords=매출, 매출액, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2025년 매출액은 1조 3,972억원, 영업이익은 2,772억원으로 성장 전환이 예상된다. (source=data/반도체/DB하이텍/finance/DB하이텍_finance.json, keywords=매출, 매출액, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_risks: 2024년 매출액 1조 1,311억원, 영업이익 1,908억원으로 전년 대비 감소가 예상된다. (source=data/반도체/DB하이텍/finance/DB하이텍_finance.json, keywords=매출, 매출액, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: DB하이텍은 2022년 높은 매출 성장률을 기록했으나, 2023년과 2024년에는 매출이 감소하며 영업이익률 및 ROE 또한 하락하는 추세를 보였다. (source=data/반도체/DB하이텍/finance/DB하이텍_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2022년 37.9%의 높은 매출 성장률을 기록했으나, 2023년 -31.1%, 2024년 -1.99%로 매출 감소세가 나타났다. (source=data/반도체/DB하이텍/finance/DB하이텍_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2023년 및 2024년 매출 감소세와 영업이익률 및 ROE 하락은 수익성 둔화 가능성을 시사한다. (source=data/반도체/DB하이텍/finance/DB하이텍_finance.json, keywords=매출, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] missing_prompt_metrics: 매출성장률 (source=data/반도체/DB하이텍/finance/DB하이텍_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률 (source=data/반도체/DB하이텍/finance/DB하이텍_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### 마진·원가·현금흐름 연결
-- [DIRECT_EVIDENCE] key_thesis: 2024년 FCF(잉여현금흐름)는 2,491억원으로 양수 전환되며 현금 창출 능력이 개선될 전망이다. (source=data/반도체/DB하이텍/finance/DB하이텍_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2023년 영업이익률 22.99%, ROE 15.18%를 기록하며 높은 수익성을 보였다. (source=data/반도체/DB하이텍/finance/DB하이텍_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] report_core_points: FCF: DB하이텍 2025 기준 FCF 값은 202,673,281,799원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다. (source=data/반도체/DB하이텍/finance/DB하이텍_finance_agent_packet.json, keywords=FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] missing_prompt_metrics: 영업이익률 (source=data/반도체/DB하이텍/finance/DB하이텍_finance_agent_packet.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] metric: fcf (source=data/반도체/DB하이텍/finance/DB하이텍_finance_agent_packet.json, keywords=FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: DB하이텍은 2022년 높은 매출 성장률을 기록했으나, 2023년과 2024년에는 매출이 감소하며 영업이익률 및 ROE 또한 하락하는 추세를 보였다. (source=data/반도체/DB하이텍/finance/DB하이텍_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] 2023년에는 자유현금흐름이 마이너스로 전환되었으나, 2024년에는 다시 양(+)의 값으로 회복되었다. (source=data/반도체/DB하이텍/finance/DB하이텍_finance.json, keywords=현금흐름, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 영업이익률은 2022년 45.9%에서 2023년 23.0%, 2024년 16.9%로 하락하는 추세를 보였다. (source=data/반도체/DB하이텍/finance/DB하이텍_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2023년 자유현금흐름(FCF)은 -1,113억 원으로 마이너스를 기록했으나, 2024년에는 2,491억 원으로 회복되었다. (source=data/반도체/DB하이텍/finance/DB하이텍_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2023년 및 2024년 매출 감소세와 영업이익률 및 ROE 하락은 수익성 둔화 가능성을 시사한다. (source=data/반도체/DB하이텍/finance/DB하이텍_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### IP 품질
 - [DIRECT_EVIDENCE] legal_status: status=COLLECTED, count=None, score=0.4238, signal=None (source=data/반도체/DB하이텍/tech/dbhitek_tech_ip_legal_features.json, keywords=legal_status, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)

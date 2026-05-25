@@ -1,35 +1,54 @@
 {
   "pipeline": "tech_intake",
-  "status": "OK",
-  "created_at": "2026-05-20T21:46:03",
+  "status": "READY_WITHOUT_AGENT",
+  "created_at": "2026-05-25T21:27:47",
   "field": "반도체",
   "company_dir": "psk",
   "company": "피에스케이",
-  "tech_dir": "data\\반도체\\피에스케이\\tech",
-  "source_csv": "data\\반도체\\피에스케이\\tech\\psk_kipris_bibliographic_normalized.csv",
+  "tech_dir": "data/반도체/피에스케이/tech",
+  "source_csv": "data/반도체/피에스케이/tech/psk_kipris_bibliographic_normalized.csv",
   "template_inventory_status": "OK",
   "nepes_reference_files": [
-    "data\\반도체\\피에스케이\\tech\\_nepes_reference_schema\\tech_template_inventory.json",
-    "data\\반도체\\피에스케이\\tech\\_nepes_reference_schema\\tech_template_inventory.md",
-    "data\\반도체\\피에스케이\\tech\\_nepes_reference_schema\\tech_chair_summary.md",
-    "data\\반도체\\피에스케이\\tech\\_nepes_reference_schema\\nepes_tech_chair_summary.md",
-    "data\\반도체\\피에스케이\\tech\\_nepes_reference_schema\\tech_full_appendix.json",
-    "data\\반도체\\피에스케이\\tech\\_nepes_reference_schema\\nepes_tech_full_appendix.md",
-    "data\\반도체\\피에스케이\\tech\\_nepes_reference_schema\\tech_ip_evidence_composite.json",
-    "data\\반도체\\피에스케이\\tech\\_nepes_reference_schema\\tech_to_value_bridge_ip_evidence_adjusted.json"
+    "data/반도체/피에스케이/tech/_nepes_reference_schema/tech_template_inventory.json",
+    "data/반도체/피에스케이/tech/_nepes_reference_schema/tech_template_inventory.md",
+    "data/반도체/피에스케이/tech/_nepes_reference_schema/tech_chair_summary.md",
+    "data/반도체/피에스케이/tech/_nepes_reference_schema/nepes_tech_chair_summary.md",
+    "data/반도체/피에스케이/tech/_nepes_reference_schema/tech_full_appendix.json",
+    "data/반도체/피에스케이/tech/_nepes_reference_schema/nepes_tech_full_appendix.md",
+    "data/반도체/피에스케이/tech/_nepes_reference_schema/tech_ip_evidence_composite.json",
+    "data/반도체/피에스케이/tech/_nepes_reference_schema/tech_to_value_bridge_ip_evidence_adjusted.json"
   ],
   "alias_files_created": [],
-  "kipris_plus_network_enabled": true,
+  "kipris_plus_network_enabled": false,
+  "existing_kipris_data": {
+    "exists": true,
+    "sample_paths": [
+      "data/반도체/피에스케이/tech/psk_kipris_bibliographic_normalized.csv",
+      "data/반도체/피에스케이/tech/psk_kipris_citations_normalized.csv",
+      "data/반도체/피에스케이/tech/psk_kipris_claims_normalized.csv",
+      "data/반도체/피에스케이/tech/psk_kipris_family_normalized.csv",
+      "data/반도체/피에스케이/tech/psk_kipris_patents_normalized.csv",
+      "data/반도체/피에스케이/tech/psk_kipris_tech_ml_features.json",
+      "data/반도체/피에스케이/tech/tech_ip_citation_features.json",
+      "data/반도체/피에스케이/tech/tech_ip_claim_features.json",
+      "data/반도체/피에스케이/tech/tech_ip_family_features.json",
+      "data/반도체/피에스케이/tech/tech_ip_legal_features.json",
+      "data/반도체/_sector_common/tech/kipris_build_summary.json",
+      "data/반도체/_sector_common/tech/kipris_plus_fetch_summary.json"
+    ],
+    "count": 16
+  },
   "kipris_plus_network_config": {
     "has_key": true,
     "has_biblio_endpoint": true,
     "has_claims_endpoint": true,
     "has_citation_endpoint": true,
     "has_family_endpoint": true,
-    "mode": "plus_network"
+    "mode": "existing_local_or_common_data"
   },
   "max_patents": 0,
   "kipris_plus_components_requested": [
+    "bibliographic",
     "citation",
     "claims",
     "family"
@@ -39,113 +58,81 @@
       "step": "build_tech_excel_quantified_metrics",
       "status": "DONE",
       "returncode": 0,
-      "started_at": "2026-05-20T21:44:12",
-      "ended_at": "2026-05-20T21:44:14",
-      "cmd": ".venv\\Scripts\\python.exe scripts\\build_tech_excel_quantified_metrics.py --field 반도체 --company-dir psk"
+      "started_at": "2026-05-25T21:27:09",
+      "ended_at": "2026-05-25T21:27:17",
+      "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_tech_excel_quantified_metrics.py --field 반도체 --company-dir psk"
     },
     {
       "step": "prepare_kipris_bibliographic_normalized",
       "status": "DONE",
       "returncode": 0,
-      "started_at": "2026-05-20T21:44:14",
-      "ended_at": "2026-05-20T21:44:16",
-      "cmd": ".venv\\Scripts\\python.exe scripts\\prepare_kipris_bibliographic_normalized.py --field 반도체 --company-name 피에스케이 --company-slug psk --force"
+      "started_at": "2026-05-25T21:27:17",
+      "ended_at": "2026-05-25T21:27:21",
+      "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\prepare_kipris_bibliographic_normalized.py --field 반도체 --company-name 피에스케이 --company-slug psk"
     },
     {
       "step": "build_kipris_tech_ml_features",
       "status": "DONE",
       "returncode": 0,
-      "started_at": "2026-05-20T21:44:16",
-      "ended_at": "2026-05-20T21:44:17",
-      "cmd": ".venv\\Scripts\\python.exe scripts\\build_kipris_tech_ml_features.py --field 반도체 --company-name 피에스케이 --company-slug psk"
+      "started_at": "2026-05-25T21:27:21",
+      "ended_at": "2026-05-25T21:27:22",
+      "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_kipris_tech_ml_features.py --field 반도체 --company-name 피에스케이 --company-slug psk"
     },
     {
       "step": "build_tech_ip_legal_features",
       "status": "DONE",
       "returncode": 0,
-      "started_at": "2026-05-20T21:44:17",
-      "ended_at": "2026-05-20T21:44:18",
-      "cmd": ".venv\\Scripts\\python.exe scripts\\build_tech_ip_legal_features.py --field 반도체 --company-name 피에스케이 --company-slug psk"
-    },
-    {
-      "step": "fetch_kipris_plus_claims",
-      "status": "DONE",
-      "returncode": 0,
-      "started_at": "2026-05-20T21:44:18",
-      "ended_at": "2026-05-20T21:44:41",
-      "cmd": ".venv\\Scripts\\python.exe scripts\\fetch_kipris_plus_claims.py --field 반도체 --company-name 피에스케이 --company-slug psk --max-patents 0 --sleep-sec 0.8 --timeout 90 --force --key-param accessKey --app-param applicationNumber"
-    },
-    {
-      "step": "fetch_kipris_plus_citations",
-      "status": "DONE",
-      "returncode": 0,
-      "started_at": "2026-05-20T21:44:41",
-      "ended_at": "2026-05-20T21:45:03",
-      "cmd": ".venv\\Scripts\\python.exe scripts\\fetch_kipris_plus_citations.py --field 반도체 --company-name 피에스케이 --company-slug psk --max-patents 0 --sleep-sec 0.8 --timeout 90 --force"
-    },
-    {
-      "step": "fetch_kipris_plus_family",
-      "status": "DONE",
-      "returncode": 0,
-      "started_at": "2026-05-20T21:45:03",
-      "ended_at": "2026-05-20T21:45:25",
-      "cmd": ".venv\\Scripts\\python.exe scripts\\fetch_kipris_plus_family.py --field 반도체 --company-name 피에스케이 --company-slug psk --max-patents 0 --sleep-sec 0.8 --timeout 90 --key-param ServiceKey --app-param applicationNumber --force"
+      "started_at": "2026-05-25T21:27:22",
+      "ended_at": "2026-05-25T21:27:23",
+      "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_tech_ip_legal_features.py --field 반도체 --company-name 피에스케이 --company-slug psk"
     },
     {
       "step": "build_tech_ip_fallback_features",
       "status": "DONE",
       "returncode": 0,
-      "started_at": "2026-05-20T21:45:25",
-      "ended_at": "2026-05-20T21:45:26",
-      "cmd": ".venv\\Scripts\\python.exe scripts\\build_tech_ip_fallback_features.py --field 반도체 --company-name 피에스케이 --company-slug psk"
+      "started_at": "2026-05-25T21:27:23",
+      "ended_at": "2026-05-25T21:27:24",
+      "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_tech_ip_fallback_features.py --field 반도체 --company-name 피에스케이 --company-slug psk"
     },
     {
       "step": "build_tech_ip_evidence_composite",
       "status": "DONE",
       "returncode": 0,
-      "started_at": "2026-05-20T21:45:26",
-      "ended_at": "2026-05-20T21:45:26",
-      "cmd": ".venv\\Scripts\\python.exe scripts\\build_tech_ip_evidence_composite.py --field 반도체 --company-name 피에스케이 --company-slug psk"
+      "started_at": "2026-05-25T21:27:24",
+      "ended_at": "2026-05-25T21:27:24",
+      "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_tech_ip_evidence_composite.py --field 반도체 --company-name 피에스케이 --company-slug psk"
     },
     {
       "step": "build_patent_semantic_fallback",
       "status": "DONE",
       "returncode": 0,
-      "started_at": "2026-05-20T21:45:26",
-      "ended_at": "2026-05-20T21:45:29",
-      "cmd": ".venv\\Scripts\\python.exe scripts\\build_patent_semantic_fallback.py --company-dir psk --company 피에스케이"
+      "started_at": "2026-05-25T21:27:24",
+      "ended_at": "2026-05-25T21:27:30",
+      "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_patent_semantic_fallback.py --company-dir psk --company 피에스케이"
     },
     {
       "step": "run_tech_ip_ml",
       "status": "DONE",
       "returncode": 0,
-      "started_at": "2026-05-20T21:45:29",
-      "ended_at": "2026-05-20T21:45:32",
-      "cmd": ".venv\\Scripts\\python.exe scripts\\run_tech_ip_ml.py --company-dir psk"
+      "started_at": "2026-05-25T21:27:30",
+      "ended_at": "2026-05-25T21:27:38",
+      "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\run_tech_ip_ml.py --company-dir psk"
     },
     {
       "step": "run_tech_ml_signal",
       "status": "DONE",
       "returncode": 0,
-      "started_at": "2026-05-20T21:45:32",
-      "ended_at": "2026-05-20T21:45:43",
-      "cmd": ".venv\\Scripts\\python.exe scripts\\run_tech_ml_signal.py --company-dir psk --company 피에스케이"
+      "started_at": "2026-05-25T21:27:38",
+      "ended_at": "2026-05-25T21:27:47",
+      "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\run_tech_ml_signal.py --company-dir psk --company 피에스케이"
     },
     {
       "step": "check_ip_evidence_bridge_one",
       "status": "DONE",
       "returncode": 0,
-      "started_at": "2026-05-20T21:45:43",
-      "ended_at": "2026-05-20T21:45:43",
-      "cmd": ".venv\\Scripts\\python.exe scripts\\check_ip_evidence_bridge_one.py --tech data\\반도체\\피에스케이\\tech --slug psk --company-name 피에스케이"
-    },
-    {
-      "step": "main_py_tech_agent",
-      "status": "DONE",
-      "returncode": 0,
-      "started_at": "2026-05-20T21:45:43",
-      "ended_at": "2026-05-20T21:46:03",
-      "cmd": ".venv\\Scripts\\python.exe main.py tech --company-dir psk --company 피에스케이"
+      "started_at": "2026-05-25T21:27:47",
+      "ended_at": "2026-05-25T21:27:47",
+      "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\check_ip_evidence_bridge_one.py --tech C:\\Agent_6.9\\data\\반도체\\피에스케이\\tech --slug psk --company-name 피에스케이"
     }
   ],
   "artifacts": {

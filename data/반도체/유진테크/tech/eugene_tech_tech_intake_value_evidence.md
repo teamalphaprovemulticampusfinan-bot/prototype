@@ -1,10 +1,10 @@
 # 유진테크 Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-20T21:44:08
+- 생성 시각: 2026-05-25T21:22:48
 - 종합 점수: 80.5/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 132개
+- 원천 문서 수: 153개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -32,18 +32,18 @@
 - [DIRECT_EVIDENCE] - 기술 우위가 확인되어도 고객 채택·양산·매출 전환·FCF 직접 근거가 약하면 보수적으로 반영합니다. (source=data/반도체/유진테크/tech/_nepes_reference_schema/nepes_tech_chair_summary.md, keywords=양산, urls=http://www.w3.org/2001/XMLSchema-instance, http://www.nepes.co.kr)
 
 ### 매출 전환
-- [DIRECT_EVIDENCE] summary: 유진테크는 2024년 매출 및 영업이익이 크게 성장하며 견조한 실적을 기록했으나, 2025년에는 매출은 소폭 증가했으나 영업이익률이 하락하며 수익성이 다소 둔화되는 모습을 보였다. (source=data/반도체/유진테크/finance/유진테크_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년 매출액이 3,380억 원으로 전년 대비 22.2% 성장했으며, 영업이익은 611억 원으로 151.5% 급증하며 수익성이 크게 개선되었다. (source=data/반도체/유진테크/finance/유진테크_finance.json, keywords=매출, 매출액, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: 유진테크는 2024년 매출이 22.3% 성장하며 이전의 역성장에서 벗어났으나, 영업이익률은 18.1%로 2021년 대비 하락한 모습을 보였다. (source=data/반도체/유진테크/finance/유진테크_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 매출성장률이 22.3%로 전환되며 이전의 역성장에서 벗어나는 긍정적인 신호를 보였다. (source=data/반도체/유진테크/finance/유진테크_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] missing_prompt_metrics: 매출성장률 (source=data/반도체/유진테크/finance/유진테크_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수 (source=data/반도체/유진테크/finance/유진테크_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] sales: 350324287104.0 (source=data/반도체/유진테크/finance/유진테크_finance_agent_packet.json, keywords=sales, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률 (source=data/반도체/유진테크/finance/유진테크_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] sales: 338067812312.0 (source=data/반도체/유진테크/finance/유진테크_finance_agent_packet.json, keywords=sales, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### 마진·원가·현금흐름 연결
-- [DIRECT_EVIDENCE] summary: 유진테크는 2024년 매출 및 영업이익이 크게 성장하며 견조한 실적을 기록했으나, 2025년에는 매출은 소폭 증가했으나 영업이익률이 하락하며 수익성이 다소 둔화되는 모습을 보였다. (source=data/반도체/유진테크/finance/유진테크_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] 2023년 대비 2024년 ROE와 영업이익률이 크게 개선되었으나, 2025년에는 다시 하락하는 추세를 보였다. (source=data/반도체/유진테크/finance/유진테크_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년 매출액이 3,380억 원으로 전년 대비 22.2% 성장했으며, 영업이익은 611억 원으로 151.5% 급증하며 수익성이 크게 개선되었다. (source=data/반도체/유진테크/finance/유진테크_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년 ROE는 15.02%로 2023년 6.89% 대비 두 배 이상 상승했으며, 영업이익률 또한 18.10%로 2023년 8.80% 대비 크게 개선되었다. (source=data/반도체/유진테크/finance/유진테크_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년 잉여현금흐름(FCF)은 521억 원으로 전년 대비 크게 증가했으며, 2025년에도 452억 원을 기록하며 꾸준한 현금 창출 능력을 보여주고 있다. (source=data/반도체/유진테크/finance/유진테크_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: 유진테크는 2024년 매출이 22.3% 성장하며 이전의 역성장에서 벗어났으나, 영업이익률은 18.1%로 2021년 대비 하락한 모습을 보였다. (source=data/반도체/유진테크/finance/유진테크_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 영업이익률은 18.1%로 2023년 8.8% 대비 크게 개선되었으나, 2021년 22.8%보다는 낮은 수준이다. (source=data/반도체/유진테크/finance/유진테크_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 자유현금흐름(FCF)은 2021년 이후 꾸준히 양수 값을 유지하며 현금 창출 능력을 보여주고 있다. (source=data/반도체/유진테크/finance/유진테크_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2024년 영업이익률 18.1%는 2021년 22.8% 대비 하락한 수치로, 수익성 개선 추세 확인이 필요하다. (source=data/반도체/유진테크/finance/유진테크_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] report_core_points: 영업이익률: 유진테크 2024 기준 영업이익률 값은 18.10%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다. (source=data/반도체/유진테크/finance/유진테크_finance_agent_packet.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### IP 품질
 - [DIRECT_EVIDENCE] legal_status: status=COLLECTED, count=None, score=0.619, signal=None (source=data/반도체/유진테크/tech/eugene_tech_tech_ip_legal_features.json, keywords=legal_status, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)

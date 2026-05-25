@@ -1,118 +1,138 @@
 {
   "pipeline": "data_intake",
-  "status": "PARTIAL",
-  "created_at": "2026-05-20T12:49:34",
+  "status": "OK",
+  "created_at": "2026-05-25T21:48:36",
   "company_dir": "sti",
   "company": "에스티아이",
   "field": "반도체",
   "default_agents": [
     "macro",
+    "market",
+    "issue",
     "finance",
     "tech",
     "valuation"
   ],
-  "direct_agent_only_agents": [
-    "issue",
-    "market"
-  ],
+  "direct_agent_only_agents": [],
   "agents": [
     {
       "agent": "macro",
       "status": "DONE",
       "module": "data_intake.macro_intake.runner",
       "function": "run_macro_intake",
-      "started_at": "2026-05-20T12:47:20",
-      "ended_at": "2026-05-20T12:47:22"
+      "started_at": "2026-05-25T21:46:26",
+      "ended_at": "2026-05-25T21:46:30"
     },
     {
       "agent": "market",
-      "status": "SKIPPED_DIRECT_AGENT_ONLY",
-      "started_at": "2026-05-20T12:47:22",
-      "ended_at": "2026-05-20T12:47:22",
-      "reason": "market_agent는 별도 data_intake 단계 없이 직접 실행하는 구조입니다. Chair 실행 시 market 노드에서 python main.py market 형태로 직접 실행됩니다.",
-      "direct_run_command_example": "python main.py market --company-dir <slug> --company \"<회사명>\""
+      "status": "DONE",
+      "module": "data_intake.market_intake.runner",
+      "function": "run_market_intake",
+      "started_at": "2026-05-25T21:46:26",
+      "ended_at": "2026-05-25T21:46:44"
     },
     {
       "agent": "issue",
-      "status": "SKIPPED_DIRECT_AGENT_ONLY",
-      "started_at": "2026-05-20T12:47:22",
-      "ended_at": "2026-05-20T12:47:22",
-      "reason": "issue_agent는 별도 data_intake 단계 없이 직접 실행하는 구조입니다. Chair 실행 시 issue 노드에서 python main.py issue 형태로 직접 실행됩니다.",
-      "direct_run_command_example": "python main.py issue --company-dir <slug> --company \"<회사명>\""
+      "status": "DONE",
+      "module": "data_intake.issue_intake.runner",
+      "function": "run_issue_intake",
+      "started_at": "2026-05-25T21:46:26",
+      "ended_at": "2026-05-25T21:46:28"
     },
     {
       "agent": "finance",
       "status": "PARTIAL",
-      "created_at": "2026-05-20T12:47:49",
-      "started_at": "2026-05-20T12:47:22",
-      "ended_at": "2026-05-20T12:47:49",
+      "created_at": "2026-05-25T21:48:36",
+      "started_at": "2026-05-25T21:46:29",
+      "ended_at": "2026-05-25T21:48:36",
       "company_dir": "sti",
       "company": "에스티아이",
       "field": "반도체",
       "stock_code": "039440",
       "mode": "all",
       "years": [
+        2021,
+        2022,
         2023,
-        2024,
-        2025
+        2024
       ],
+      "start_date": "2021-01-01",
+      "end_date": "2025-08-31",
       "force_fetch": false,
       "steps": [
         {
           "name": "warning",
           "status": "FAILED",
-          "started_at": "2026-05-20T12:47:22",
-          "ended_at": "2026-05-20T12:47:31",
-          "error": "Message: session not created\nfrom unknown error: cannot find Chrome binary; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception\nStacktrace:\n\tGetHandleVerifier [0x0x112ba83+63395]\n\tGetHandleVerifier [0x0x112bac4+63460]\n\t(No symbol) [0x0xf72113]\n\t(No symbol) [0x0xfa3c06]\n\t(No symbol) [0x0xfa11a9]\n\t(No symbol) [0x0xfeae57]\n\t(No symbol) [0x0xfea74a]\n\t(No symbol) [0x0xfdf1a6]\n\t(No symbol) [0x0xfae7b2]\n\t(No symbol) [0x0xfaf654]\n\tGetHandleVerifier [0x0x13a8883+2672035]\n\tGetHandleVerifier [0x0x13a3cba+2652634]\n\tGetHandleVerifier [0x0x1152bca+223466]\n\tGetHandleVerifier [0x0x1142cb8+158168]\n\tGetHandleVerifier [0x0x114978d+185517]\n\tGetHandleVerifier [0x0x1133b78+96408]\n\tGetHandleVerifier [0x0x1133d02+96802]\n\tGetHandleVerifier [0x0x111e90a+9770]\n\tBaseThreadInitThunk [0x0x76657ba9+25]\n\tRtlInitializeExceptionChain [0x0x7771c3ab+107]\n\tRtlClearBits [0x0x7771c32f+191]\n",
-          "traceback": "Traceback (most recent call last):\n  File \"C:\\Agent_6.8\\src\\data_intake\\finance_intake\\runner.py\", line 541, in _step\n    func()\n  File \"C:\\Agent_6.8\\src\\data_intake\\finance_intake\\runner.py\", line 563, in <lambda>\n    _step(\"warning\", lambda: run_warning(WarningConfig(mode=\"update\", days=1)))\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\src\\data_intake\\finance_intake\\runner.py\", line 123, in run_warning\n    latest_file = fetch_kind_warning_excel(\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\src\\data_intake\\finance_intake\\collector.py\", line 587, in fetch_kind_warning_excel\n    driver = webdriver.Chrome(\n             ^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\selenium\\webdriver\\chrome\\webdriver.py\", line 45, in __init__\n    super().__init__(\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\selenium\\webdriver\\chromium\\webdriver.py\", line 66, in __init__\n    super().__init__(command_executor=executor, options=self.options)\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\webdriver.py\", line 25, in __init__\n    super().__init__(*args, **kwargs)\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 274, in __init__\n    self.start_session(capabilities)\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 370, in start_session\n    response = self.execute(Command.NEW_SESSION, caps)[\"value\"]\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 450, in execute\n    self.error_handler.check_response(response)\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 232, in check_response\n    raise exception_class(message, screen, stacktrace)\nselenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom unknown error: cannot find Chrome binary; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception\nStacktrace:\n\tGetHandleVerifier [0x0x112ba83+63395]\n\tGetHandleVerifier [0x0x112bac4+63460]\n\t(No symbol) [0x0xf72113]\n\t(No symbol) [0x0xfa3c06]\n\t(No symbol) [0x0xfa11a9]\n\t(No symbol) [0x0xfeae57]\n\t(No symbol) [0x0xfea74a]\n\t(No symbol) [0x0xfdf1a6]\n\t(No symbol) [0x0xfae7b2]\n\t(No symbol) [0x0xfaf654]\n\tGetHandleVerifier [0x0x13a8883+2672035]\n\tGetHandleVerifier [0x0x13a3cba+2652634]\n\tGetHandleVerifier [0x0x1152bca+223466]\n\tGetHandleVerifier [0x0x1142cb8+158168]\n\tGetHandleVerifier [0x0x114978d+185517]\n\tGetHandleVerifier [0x0x1133b78+96408]\n\tGetHandleVerifier [0x0x1133d02+96802]\n\tGetHandleVerifier [0x0x111e90a+9770]\n\tBaseThreadInitThunk [0x0x76657ba9+25]\n\tRtlInitializeExceptionChain [0x0x7771c3ab+107]\n\tRtlClearBits [0x0x7771c32f+191]\n\n"
+          "started_at": "2026-05-25T21:46:29",
+          "ended_at": "2026-05-25T21:46:39",
+          "error": "Message: session not created\nfrom unknown error: cannot find Chrome binary; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception\nStacktrace:\n\tGetHandleVerifier [0x0x7ff6d71fe415+77285]\n\tGetHandleVerifier [0x0x7ff6d71fe470+77376]\n\t(No symbol) [0x0x7ff6d6fc9a6a]\n\t(No symbol) [0x0x7ff6d7004d50]\n\t(No symbol) [0x0x7ff6d700278e]\n\t(No symbol) [0x0x7ff6d705602e]\n\t(No symbol) [0x0x7ff6d70557c0]\n\t(No symbol) [0x0x7ff6d70483e3]\n\t(No symbol) [0x0x7ff6d7011521]\n\t(No symbol) [0x0x7ff6d70122b3]\n\tGetHandleVerifier [0x0x7ff6d74e1efd+3107021]\n\tGetHandleVerifier [0x0x7ff6d74dc29d+3083373]\n\tGetHandleVerifier [0x0x7ff6d74fbedd+3213485]\n\tGetHandleVerifier [0x0x7ff6d721884e+184862]\n\tGetHandleVerifier [0x0x7ff6d722055f+216879]\n\tGetHandleVerifier [0x0x7ff6d7207084+113236]\n\tGetHandleVerifier [0x0x7ff6d7207239+113673]\n\tGetHandleVerifier [0x0x7ff6d71ee298+11368]\n\tBaseThreadInitThunk [0x0x7ff9648d259d+29]\n\tRtlUserThreadStart [0x0x7ff9662eaf78+40]\n",
+          "traceback": "Traceback (most recent call last):\n  File \"C:\\Agent_6.9\\src\\data_intake\\finance_intake\\runner.py\", line 753, in _step\n    result = func()\n             ^^^^^^\n  File \"C:\\Agent_6.9\\src\\data_intake\\finance_intake\\runner.py\", line 780, in <lambda>\n    step_jobs.append((\"warning\", lambda: run_warning_optional(WarningConfig(mode=\"update\", days=1))))\n                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.9\\src\\data_intake\\finance_intake\\runner.py\", line 329, in run_warning_optional\n    run_warning(cfg)\n  File \"C:\\Agent_6.9\\src\\data_intake\\finance_intake\\runner.py\", line 271, in run_warning\n    latest_file = fetch_kind_warning_excel(\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.9\\src\\data_intake\\finance_intake\\collector.py\", line 587, in fetch_kind_warning_excel\n    driver = webdriver.Chrome(\n             ^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.9\\.venv\\Lib\\site-packages\\selenium\\webdriver\\chrome\\webdriver.py\", line 45, in __init__\n    super().__init__(\n  File \"C:\\Agent_6.9\\.venv\\Lib\\site-packages\\selenium\\webdriver\\chromium\\webdriver.py\", line 66, in __init__\n    super().__init__(command_executor=executor, options=self.options)\n  File \"C:\\Agent_6.9\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\webdriver.py\", line 25, in __init__\n    super().__init__(*args, **kwargs)\n  File \"C:\\Agent_6.9\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 276, in __init__\n    self.start_session(capabilities)\n  File \"C:\\Agent_6.9\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 372, in start_session\n    response = self.execute(Command.NEW_SESSION, caps)[\"value\"]\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.9\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 468, in execute\n    self.error_handler.check_response(response)\n  File \"C:\\Agent_6.9\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 232, in check_response\n    raise exception_class(message, screen, stacktrace)\nselenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom unknown error: cannot find Chrome binary; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception\nStacktrace:\n\tGetHandleVerifier [0x0x7ff6d71fe415+77285]\n\tGetHandleVerifier [0x0x7ff6d71fe470+77376]\n\t(No symbol) [0x0x7ff6d6fc9a6a]\n\t(No symbol) [0x0x7ff6d7004d50]\n\t(No symbol) [0x0x7ff6d700278e]\n\t(No symbol) [0x0x7ff6d705602e]\n\t(No symbol) [0x0x7ff6d70557c0]\n\t(No symbol) [0x0x7ff6d70483e3]\n\t(No symbol) [0x0x7ff6d7011521]\n\t(No symbol) [0x0x7ff6d70122b3]\n\tGetHandleVerifier [0x0x7ff6d74e1efd+3107021]\n\tGetHandleVerifier [0x0x7ff6d74dc29d+3083373]\n\tGetHandleVerifier [0x0x7ff6d74fbedd+3213485]\n\tGetHandleVerifier [0x0x7ff6d721884e+184862]\n\tGetHandleVerifier [0x0x7ff6d722055f+216879]\n\tGetHandleVerifier [0x0x7ff6d7207084+113236]\n\tGetHandleVerifier [0x0x7ff6d7207239+113673]\n\tGetHandleVerifier [0x0x7ff6d71ee298+11368]\n\tBaseThreadInitThunk [0x0x7ff9648d259d+29]\n\tRtlUserThreadStart [0x0x7ff9662eaf78+40]\n\n"
         },
         {
           "name": "financial",
           "status": "OK",
-          "started_at": "2026-05-20T12:47:31",
-          "ended_at": "2026-05-20T12:47:49"
+          "started_at": "2026-05-25T21:46:29",
+          "ended_at": "2026-05-25T21:47:20"
         },
         {
           "name": "stock",
-          "status": "FAILED",
-          "started_at": "2026-05-20T12:47:49",
-          "ended_at": "2026-05-20T12:47:49",
-          "error": "'날짜' is not in list",
-          "traceback": "Traceback (most recent call last):\n  File \"C:\\Agent_6.8\\src\\data_intake\\finance_intake\\runner.py\", line 541, in _step\n    func()\n  File \"C:\\Agent_6.8\\src\\data_intake\\finance_intake\\runner.py\", line 571, in <lambda>\n    _step(\"stock\", lambda: run_stock(StockConfig(stock_code=resolved_stock), sector=field))\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\src\\data_intake\\finance_intake\\runner.py\", line 248, in run_stock\n    old_df = pd.read_csv(output_path, index_col=\"날짜\", parse_dates=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\readers.py\", line 1026, in read_csv\n    return _read(filepath_or_buffer, kwds)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\readers.py\", line 620, in _read\n    parser = TextFileReader(filepath_or_buffer, **kwds)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\readers.py\", line 1620, in __init__\n    self._engine = self._make_engine(f, self.engine)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\readers.py\", line 1898, in _make_engine\n    return mapping[engine](f, **self.options)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\c_parser_wrapper.py\", line 162, in __init__\n    self._set_noconvert_columns()\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\c_parser_wrapper.py\", line 215, in _set_noconvert_columns\n    noconvert_columns = self._set_noconvert_dtype_columns(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\base_parser.py\", line 673, in _set_noconvert_dtype_columns\n    noconvert_columns.add(_set(k))\n                          ^^^^^^^\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\base_parser.py\", line 650, in _set\n    x = col_indices[names.index(x)]\n                    ^^^^^^^^^^^^^^\nValueError: '날짜' is not in list\n"
+          "status": "OK",
+          "started_at": "2026-05-25T21:46:29",
+          "ended_at": "2026-05-25T21:48:36"
         }
       ]
     },
     {
       "pipeline": "tech_intake",
-      "status": "WARN_STEP_FAILURE_WITH_FALLBACK",
-      "created_at": "2026-05-20T12:48:31",
+      "status": "READY_WITHOUT_AGENT",
+      "created_at": "2026-05-25T21:46:59",
       "field": "반도체",
       "company_dir": "sti",
       "company": "에스티아이",
-      "tech_dir": "C:\\Agent_6.8\\data\\반도체\\에스티아이\\tech",
-      "source_csv": "C:\\Agent_6.8\\data\\반도체\\에스티아이\\tech\\sti_kipris_bibliographic_normalized.csv",
+      "tech_dir": "data/반도체/에스티아이/tech",
+      "source_csv": "data/반도체/에스티아이/tech/sti_kipris_bibliographic_normalized.csv",
       "template_inventory_status": "OK",
       "nepes_reference_files": [
-        "C:\\Agent_6.8\\data\\반도체\\에스티아이\\tech\\_nepes_reference_schema\\tech_template_inventory.json",
-        "C:\\Agent_6.8\\data\\반도체\\에스티아이\\tech\\_nepes_reference_schema\\tech_template_inventory.md",
-        "C:\\Agent_6.8\\data\\반도체\\에스티아이\\tech\\_nepes_reference_schema\\tech_chair_summary.md",
-        "C:\\Agent_6.8\\data\\반도체\\에스티아이\\tech\\_nepes_reference_schema\\nepes_tech_chair_summary.md",
-        "C:\\Agent_6.8\\data\\반도체\\에스티아이\\tech\\_nepes_reference_schema\\tech_full_appendix.json",
-        "C:\\Agent_6.8\\data\\반도체\\에스티아이\\tech\\_nepes_reference_schema\\nepes_tech_full_appendix.md",
-        "C:\\Agent_6.8\\data\\반도체\\에스티아이\\tech\\_nepes_reference_schema\\tech_ip_evidence_composite.json",
-        "C:\\Agent_6.8\\data\\반도체\\에스티아이\\tech\\_nepes_reference_schema\\tech_to_value_bridge_ip_evidence_adjusted.json"
+        "data/반도체/에스티아이/tech/_nepes_reference_schema/tech_template_inventory.json",
+        "data/반도체/에스티아이/tech/_nepes_reference_schema/tech_template_inventory.md",
+        "data/반도체/에스티아이/tech/_nepes_reference_schema/tech_chair_summary.md",
+        "data/반도체/에스티아이/tech/_nepes_reference_schema/nepes_tech_chair_summary.md",
+        "data/반도체/에스티아이/tech/_nepes_reference_schema/tech_full_appendix.json",
+        "data/반도체/에스티아이/tech/_nepes_reference_schema/nepes_tech_full_appendix.md",
+        "data/반도체/에스티아이/tech/_nepes_reference_schema/tech_ip_evidence_composite.json",
+        "data/반도체/에스티아이/tech/_nepes_reference_schema/tech_to_value_bridge_ip_evidence_adjusted.json"
       ],
       "alias_files_created": [],
-      "kipris_plus_network_enabled": true,
+      "kipris_plus_network_enabled": false,
+      "existing_kipris_data": {
+        "exists": true,
+        "sample_paths": [
+          "data/반도체/에스티아이/tech/sti_kipris_bibliographic_normalized.csv",
+          "data/반도체/에스티아이/tech/sti_kipris_citations_normalized.csv",
+          "data/반도체/에스티아이/tech/sti_kipris_claims_normalized.csv",
+          "data/반도체/에스티아이/tech/sti_kipris_family_normalized.csv",
+          "data/반도체/에스티아이/tech/sti_kipris_patents_normalized.csv",
+          "data/반도체/에스티아이/tech/sti_kipris_tech_ml_features.json",
+          "data/반도체/에스티아이/tech/tech_ip_citation_features.json",
+          "data/반도체/에스티아이/tech/tech_ip_claim_features.json",
+          "data/반도체/에스티아이/tech/tech_ip_family_features.json",
+          "data/반도체/에스티아이/tech/tech_ip_legal_features.json",
+          "data/반도체/_sector_common/tech/kipris_build_summary.json",
+          "data/반도체/_sector_common/tech/kipris_plus_fetch_summary.json"
+        ],
+        "count": 16
+      },
       "kipris_plus_network_config": {
         "has_key": true,
+        "has_biblio_endpoint": true,
         "has_claims_endpoint": true,
         "has_citation_endpoint": true,
         "has_family_endpoint": true,
-        "mode": "plus_network"
+        "mode": "existing_local_or_common_data"
       },
       "max_patents": 0,
       "kipris_plus_components_requested": [
+        "bibliographic",
         "citation",
         "claims",
         "family"
@@ -122,117 +142,85 @@
           "step": "build_tech_excel_quantified_metrics",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-20T12:47:50",
-          "ended_at": "2026-05-20T12:47:52",
-          "cmd": "C:\\Agent_6.8\\.venv\\Scripts\\python.exe C:\\Agent_6.8\\scripts\\build_tech_excel_quantified_metrics.py --field 반도체 --company-dir sti"
+          "started_at": "2026-05-25T21:46:29",
+          "ended_at": "2026-05-25T21:46:35",
+          "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_tech_excel_quantified_metrics.py --field 반도체 --company-dir sti"
         },
         {
           "step": "prepare_kipris_bibliographic_normalized",
-          "status": "FAILED",
-          "returncode": 1,
-          "started_at": "2026-05-20T12:47:52",
-          "ended_at": "2026-05-20T12:47:54",
-          "cmd": "C:\\Agent_6.8\\.venv\\Scripts\\python.exe C:\\Agent_6.8\\scripts\\prepare_kipris_bibliographic_normalized.py --field 반도체 --company-name 에스티아이 --company-slug sti"
+          "status": "DONE",
+          "returncode": 0,
+          "started_at": "2026-05-25T21:46:35",
+          "ended_at": "2026-05-25T21:46:37",
+          "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\prepare_kipris_bibliographic_normalized.py --field 반도체 --company-name 에스티아이 --company-slug sti"
         },
         {
           "step": "build_kipris_tech_ml_features",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-20T12:47:54",
-          "ended_at": "2026-05-20T12:47:55",
-          "cmd": "C:\\Agent_6.8\\.venv\\Scripts\\python.exe C:\\Agent_6.8\\scripts\\build_kipris_tech_ml_features.py --field 반도체 --company-name 에스티아이 --company-slug sti"
+          "started_at": "2026-05-25T21:46:37",
+          "ended_at": "2026-05-25T21:46:39",
+          "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_kipris_tech_ml_features.py --field 반도체 --company-name 에스티아이 --company-slug sti"
         },
         {
           "step": "build_tech_ip_legal_features",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-20T12:47:55",
-          "ended_at": "2026-05-20T12:47:56",
-          "cmd": "C:\\Agent_6.8\\.venv\\Scripts\\python.exe C:\\Agent_6.8\\scripts\\build_tech_ip_legal_features.py --field 반도체 --company-name 에스티아이 --company-slug sti"
-        },
-        {
-          "step": "fetch_kipris_plus_claims",
-          "status": "DONE",
-          "returncode": 0,
-          "started_at": "2026-05-20T12:47:56",
-          "ended_at": "2026-05-20T12:47:57",
-          "cmd": "C:\\Agent_6.8\\.venv\\Scripts\\python.exe C:\\Agent_6.8\\scripts\\fetch_kipris_plus_claims.py --field 반도체 --company-name 에스티아이 --company-slug sti --max-patents 0 --sleep-sec 0.6 --timeout 60 --key-param accessKey --app-param applicationNumber"
-        },
-        {
-          "step": "fetch_kipris_plus_citations",
-          "status": "DONE",
-          "returncode": 0,
-          "started_at": "2026-05-20T12:47:57",
-          "ended_at": "2026-05-20T12:47:59",
-          "cmd": "C:\\Agent_6.8\\.venv\\Scripts\\python.exe C:\\Agent_6.8\\scripts\\fetch_kipris_plus_citations.py --field 반도체 --company-name 에스티아이 --company-slug sti --max-patents 0 --sleep-sec 0.6 --timeout 60"
-        },
-        {
-          "step": "fetch_kipris_plus_family",
-          "status": "DONE",
-          "returncode": 0,
-          "started_at": "2026-05-20T12:47:59",
-          "ended_at": "2026-05-20T12:48:00",
-          "cmd": "C:\\Agent_6.8\\.venv\\Scripts\\python.exe C:\\Agent_6.8\\scripts\\fetch_kipris_plus_family.py --field 반도체 --company-name 에스티아이 --company-slug sti --max-patents 0 --sleep-sec 0.6 --timeout 60 --key-param ServiceKey --app-param applicationNumber"
+          "started_at": "2026-05-25T21:46:39",
+          "ended_at": "2026-05-25T21:46:40",
+          "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_tech_ip_legal_features.py --field 반도체 --company-name 에스티아이 --company-slug sti"
         },
         {
           "step": "build_tech_ip_fallback_features",
-          "status": "FAILED",
-          "returncode": 1,
-          "started_at": "2026-05-20T12:48:00",
-          "ended_at": "2026-05-20T12:48:00",
-          "cmd": "C:\\Agent_6.8\\.venv\\Scripts\\python.exe C:\\Agent_6.8\\scripts\\build_tech_ip_fallback_features.py --field 반도체 --company-name 에스티아이 --company-slug sti"
+          "status": "DONE",
+          "returncode": 0,
+          "started_at": "2026-05-25T21:46:40",
+          "ended_at": "2026-05-25T21:46:41",
+          "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_tech_ip_fallback_features.py --field 반도체 --company-name 에스티아이 --company-slug sti"
         },
         {
           "step": "build_tech_ip_evidence_composite",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-20T12:48:00",
-          "ended_at": "2026-05-20T12:48:01",
-          "cmd": "C:\\Agent_6.8\\.venv\\Scripts\\python.exe C:\\Agent_6.8\\scripts\\build_tech_ip_evidence_composite.py --field 반도체 --company-name 에스티아이 --company-slug sti"
+          "started_at": "2026-05-25T21:46:41",
+          "ended_at": "2026-05-25T21:46:41",
+          "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_tech_ip_evidence_composite.py --field 반도체 --company-name 에스티아이 --company-slug sti"
         },
         {
           "step": "build_patent_semantic_fallback",
-          "status": "FAILED",
-          "returncode": 1,
-          "started_at": "2026-05-20T12:48:01",
-          "ended_at": "2026-05-20T12:48:05",
-          "cmd": "C:\\Agent_6.8\\.venv\\Scripts\\python.exe C:\\Agent_6.8\\scripts\\build_patent_semantic_fallback.py --company-dir sti --company 에스티아이"
+          "status": "DONE",
+          "returncode": 0,
+          "started_at": "2026-05-25T21:46:41",
+          "ended_at": "2026-05-25T21:46:45",
+          "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_patent_semantic_fallback.py --company-dir sti --company 에스티아이"
         },
         {
           "step": "run_tech_ip_ml",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-20T12:48:05",
-          "ended_at": "2026-05-20T12:48:08",
-          "cmd": "C:\\Agent_6.8\\.venv\\Scripts\\python.exe C:\\Agent_6.8\\scripts\\run_tech_ip_ml.py --company-dir sti"
+          "started_at": "2026-05-25T21:46:45",
+          "ended_at": "2026-05-25T21:46:50",
+          "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\run_tech_ip_ml.py --company-dir sti"
         },
         {
           "step": "run_tech_ml_signal",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-20T12:48:08",
-          "ended_at": "2026-05-20T12:48:12",
-          "cmd": "C:\\Agent_6.8\\.venv\\Scripts\\python.exe C:\\Agent_6.8\\scripts\\run_tech_ml_signal.py --company-dir sti --company 에스티아이"
+          "started_at": "2026-05-25T21:46:50",
+          "ended_at": "2026-05-25T21:46:59",
+          "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\run_tech_ml_signal.py --company-dir sti --company 에스티아이"
         },
         {
           "step": "check_ip_evidence_bridge_one",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-20T12:48:12",
-          "ended_at": "2026-05-20T12:48:12",
-          "cmd": "C:\\Agent_6.8\\.venv\\Scripts\\python.exe C:\\Agent_6.8\\scripts\\check_ip_evidence_bridge_one.py --tech C:\\Agent_6.8\\data\\반도체\\에스티아이\\tech --slug sti --company-name 에스티아이"
-        },
-        {
-          "step": "main_py_tech_agent",
-          "status": "DONE",
-          "returncode": 0,
-          "started_at": "2026-05-20T12:48:12",
-          "ended_at": "2026-05-20T12:48:31",
-          "cmd": "C:\\Agent_6.8\\.venv\\Scripts\\python.exe C:\\Agent_6.8\\main.py tech --company-dir sti --company 에스티아이"
+          "started_at": "2026-05-25T21:46:59",
+          "ended_at": "2026-05-25T21:46:59",
+          "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\check_ip_evidence_bridge_one.py --tech C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech --slug sti --company-name 에스티아이"
         }
       ],
       "artifacts": {
-        "file_count": 84,
+        "file_count": 87,
         "required_missing": [],
         "optional_exists": {
           "source_csv": true,
@@ -257,6 +245,9 @@
           "sti_kipris_claims_normalized.csv",
           "sti_kipris_family_normalized.csv",
           "sti_kipris_patents_normalized.csv",
+          "sti_kipris_plus_bibliographic_request_log.json",
+          "sti_kipris_plus_bibliographic_summary.json",
+          "sti_kipris_plus_bibliographic_summary.md",
           "sti_kipris_plus_claim_request_targets.csv",
           "sti_kipris_plus_family_request_targets.csv",
           "sti_kipris_plus_request_targets.csv",
@@ -342,17 +333,24 @@
     {
       "pipeline": "valuation_intake",
       "status": "OK",
-      "created_at": "2026-05-20T12:49:34",
-      "started_at": "2026-05-20T12:48:31",
+      "created_at": "2026-05-25T21:47:31",
+      "started_at": "2026-05-25T21:46:31",
       "company": "에스티아이",
       "company_dir": "sti",
       "skip_network": false,
       "years": 5,
+      "start_date": "2021-01-01",
+      "end_date": "2025-08-31",
+      "collection_range": {
+        "start_date": "2021-01-01",
+        "end_date": "2025-08-31"
+      },
       "outputs": {
         "intake_dir": "data/반도체/에스티아이/valuation/intake",
         "valuation_source_map": "data/반도체/에스티아이/valuation/intake/valuation_source_map.json",
         "template_catalog_csv": "data/반도체/에스티아이/valuation/intake/valuation_modeling_template_catalog.csv",
         "template_catalog_json": "data/반도체/에스티아이/valuation/intake/valuation_modeling_template_catalog.json",
+        "eval_price_history_v45_csv": "data/반도체/에스티아이/valuation/intake/eval_price_history_v45.csv",
         "raw_dart_accounts_csv": "data/반도체/에스티아이/valuation/intake/valuation_raw_dart_accounts.csv",
         "normalized_financials_csv": "data/반도체/에스티아이/valuation/intake/valuation_normalized_financials.csv",
         "price_history_csv": "data/반도체/에스티아이/valuation/intake/valuation_price_history.csv",
@@ -369,7 +367,7 @@
       "counts": {
         "raw_dart_accounts": 931,
         "normalized_financial_years": 5,
-        "price_rows": 1221,
+        "price_rows": 1140,
         "share_count_rows": 20,
         "market_snapshot_metric_count": 19,
         "peer_rows": 5,
@@ -378,25 +376,25 @@
         "template_archetypes": 9
       },
       "price_summary": {
-        "latest_close": 27000.0,
-        "first_close": 19050.0,
-        "return_total": 0.4173228346456692,
-        "return_1y": 0.22448979591836737,
-        "volatility_annualized": 0.6051798886716022,
+        "latest_close": 18160.0,
+        "first_close": 18100.0,
+        "return_total": 0.0033149171270718814,
+        "return_1y": -0.27936507936507937,
+        "volatility_annualized": 0.5610110435234162,
         "mdd": -0.6745238095238095,
-        "high_52w": 40850.0,
-        "low_52w": 17460.0,
+        "high_52w": 27500.0,
+        "low_52w": 13670.0,
         "shares_outstanding": 15507047.0,
-        "market_cap": 418690269000.0,
-        "latest_volume": 129873.0,
-        "latest_trading_value": 3506571000.0,
-        "avg_trading_value_20d": 12536651200.0,
-        "avg_volume_20d": 344649.55,
-        "turnover_latest": 0.00837509552914878,
-        "turnover_20d": 0.022225350190787453,
-        "price_rows": 1221,
-        "price_start": "2021-05-20",
-        "price_end": "2026-05-20"
+        "market_cap": 281607973520.0,
+        "latest_volume": 94766.0,
+        "latest_trading_value": 1720950560.0,
+        "avg_trading_value_20d": 2607233688.5,
+        "avg_volume_20d": 141047.0,
+        "turnover_latest": 0.006111157075876535,
+        "turnover_20d": 0.009095671148736443,
+        "price_rows": 1140,
+        "price_start": "2021-01-04",
+        "price_end": "2025-08-29"
       },
       "share_summary": {
         "shares_outstanding": 15507047.0,
@@ -406,10 +404,10 @@
       },
       "reference_universe_summary": {
         "status": "OK",
-        "created_at": "2026-05-20T12:48:31",
+        "created_at": "2026-05-25T21:46:32",
         "reference_universe_rows": 208,
         "focus_rows": 40,
-        "focal_5_rows": 5,
+        "focal_5_rows": 30,
         "target_company": "에스티아이",
         "target_peer_group": "장비",
         "target_peer_group_size": 50,
@@ -417,13 +415,13 @@
         "high_risk_rows": 67,
         "target_reference_row": {
           "universe_rank": 97,
-          "company_dir": "",
+          "company_dir": "sti",
           "company_name": "에스티아이",
           "ticker6": "039440",
           "market": "KOSDAQ",
           "peer_group": "장비",
           "semiconductor_tag": "장비",
-          "is_focal_5": false,
+          "is_focal_5": true,
           "market_data_available": true,
           "data_quality_status": "OK",
           "data_quality_status_kr": "데이터 사용 가능",
@@ -451,28 +449,61 @@
         },
         "note": "Valuation Agent는 live DCF/PSR 산출과 별도로 208개 반도체 universe의 proxy score를 활용해 상대 위치를 보조 판단합니다.",
         "source_path": "data/반도체/_sector_common/ml_universe/valuation_credit_ml_overlay_candidate.csv",
-        "exported_at": "2026-05-20T12:48:31"
+        "exported_at": "2026-05-25T21:46:32"
       },
       "diagnostics": [
         "DART API key detected for valuation intake.",
         "DART corp_code resolved from cache for 에스티아이/039440.",
         "DART financial rows collected: 2021=189, 2022=192, 2023=197, 2024=177, 2025=176",
-        "yfinance price rows for 039440.KQ: 1221",
-        "price provider selected: yfinance, rows=1221",
+        "local financial fallback loaded rows=5 from C:\\Agent_6.9\\data\\반도체\\에스티아이\\finance\\에스티아이_재무데이터.csv.",
+        "yfinance price rows for 039440.KQ: 1140",
+        "price provider selected: yfinance, rows=1140",
+        "local price fallback loaded rows=1140 from C:\\Agent_6.9\\data\\반도체\\에스티아이\\valuation\\intake\\valuation_price_history.csv.",
         "DART corp_code resolved from cache for 에스티아이/039440.",
         "Naver market snapshot collected: per_naver, pbr_naver, eps_naver, dividend_yield_pct_naver, bps_naver",
-        "peer:nepes: price provider selected: yfinance, rows=728",
+        "peer:nepes: local price fallback loaded rows=1140 from C:\\Agent_6.9\\data\\반도체\\네패스\\valuation\\intake\\valuation_price_history.csv.",
         "peer:nepes: DART corp_code resolved from cache for 네패스/033640.",
-        "peer:hanmi: price provider selected: yfinance, rows=728",
+        "peer:hanmi: local price fallback loaded rows=1142 from C:\\Agent_6.9\\data\\반도체\\한미반도체\\valuation\\intake\\valuation_price_history.csv.",
         "peer:hanmi: DART corp_code resolved from cache for 한미반도체/042700.",
-        "peer:hansol: price provider selected: yfinance, rows=728",
+        "peer:hansol: local price fallback loaded rows=1142 from C:\\Agent_6.9\\data\\반도체\\한솔케미칼\\valuation\\intake\\valuation_price_history.csv.",
         "peer:hansol: DART corp_code resolved from cache for 한솔케미칼/014680.",
-        "peer:duksan: price provider selected: yfinance, rows=728",
+        "peer:duksan: local price fallback loaded rows=1140 from C:\\Agent_6.9\\data\\반도체\\덕산테코피아\\valuation\\intake\\valuation_price_history.csv.",
         "peer:duksan: DART corp_code resolved from cache for 덕산테코피아/317330.",
-        "peer:ltc: price provider selected: yfinance, rows=727",
+        "peer:ltc: local price fallback loaded rows=1139 from C:\\Agent_6.9\\data\\반도체\\엘티씨\\valuation\\intake\\valuation_price_history.csv.",
         "peer:ltc: DART corp_code resolved from cache for 엘티씨/170920.",
         "Market snapshot enriched with live/derived metrics count=19."
-      ]
+      ],
+      "as_of_date": "2025-08-31",
+      "eval_valuation_enhancer": {
+        "version": "v35",
+        "as_of_date": "2025-08-31",
+        "intake_files": [
+          "company_profile.json",
+          "financials_raw.csv",
+          "financials_normalized.csv",
+          "price_history.csv",
+          "shares_outstanding.csv",
+          "dilution_events.csv",
+          "valuation_assumptions.csv",
+          "peer_multiples.csv",
+          "dcf_inputs.json",
+          "relative_valuation_inputs.json",
+          "cross_agent_signals_for_valuation.json"
+        ],
+        "row_counts": {
+          "financials_normalized": 4,
+          "price_history": 1140,
+          "shares_outstanding": 16,
+          "dilution_events": 1,
+          "peer_multiples": 5,
+          "valuation_assumptions": 1
+        },
+        "sector_common_dir": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\valuation",
+        "notes": [
+          "All dated rows are filtered to VALUATION_AS_OF_DATE / ALPHAPROVE_DATA_CUTOFF_DATE when provided.",
+          "No Buy/Hold/Sell thresholds are applied here; only continuous feature signals are prepared."
+        ]
+      }
     }
   ]
 }

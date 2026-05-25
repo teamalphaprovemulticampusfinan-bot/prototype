@@ -1,13 +1,13 @@
 {
   "version": "tech-investor-scorecard-v2",
-  "generated_at": "2026-05-20T21:46:03",
+  "generated_at": "2026-05-25T21:30:52",
   "company_slug": "psk",
   "company_name": "피에스케이",
-  "final_tech_investor_score": 45.04,
+  "final_tech_investor_score": 55.44,
   "final_tech_investor_grade": {
-    "code": "EVIDENCE_WEAK_OR_EARLY",
-    "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
-    "threshold": 0.0
+    "code": "COMMERCIALIZATION_WATCH",
+    "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+    "threshold": 52.0
   },
   "score_policy": {
     "description": "개인투자자용 최종 Tech 점수는 기술-사업화 연결 가능성, IP 품질, Excel/DART 정량 근거, 근거 신뢰도, 딥테크 성장투자 지속성을 하나로 합성한다.",
@@ -167,53 +167,54 @@
     },
     "excel_quantified_evidence": {
       "label": "Excel 기반 정량 근거",
-      "score": 45.0,
+      "score": 90.0,
       "weight": 0.15,
       "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지",
       "meta": {
-        "score": 45.0,
-        "company_item_count": 8,
-        "filled_count": 0,
+        "score": 90.0,
+        "company_item_count": 22,
+        "filled_count": 22,
         "metric_row_count": 0,
-        "numeric_signal_count": 0,
-        "category_count": 7,
+        "numeric_signal_count": 121,
+        "category_count": 8,
         "unique_metric_count": 0,
         "formula_rule_count": 0,
-        "coverage_ratio": 0.0,
-        "numeric_density": 0.0
+        "coverage_ratio": 1.0,
+        "numeric_density": 5.5
       }
     },
     "evidence_confidence": {
       "label": "근거 직접성·충분성",
-      "score": 42.67,
+      "score": 57.67,
       "weight": 0.15,
       "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성",
       "meta": {
-        "score": 42.67,
+        "score": 57.67,
         "evidence_count": 3,
         "claim_count": 3,
         "patent_count": 25,
-        "excel_coverage_ratio": 0.0
+        "excel_coverage_ratio": 1.0
       }
     },
     "commercialization_and_funding_signal": {
       "label": "사업화·성장자금 지속성",
-      "score": 49.5,
+      "score": 63.5,
       "weight": 0.1,
       "meaning": "R&D·특허·정부과제·기술이전·CAPEX/희석성 자금조달이 사업화와 연결되는 정도",
       "meta": {
-        "score": 49.5,
-        "detected_signal_groups": [],
+        "score": 63.5,
+        "detected_signal_groups": [
+          "commercial"
+        ],
         "detected_flags": {
           "rd": false,
-          "commercial": false,
+          "commercial": true,
           "government": false,
           "transfer": false,
           "funding": false
         },
         "recent_5y_patents": null,
         "warnings": [
-          "customer_mass_production_revenue_signal_limited",
           "rd_or_recent_patent_continuity_limited",
           "capital_raising_signal_not_explicitly_detected"
         ],
@@ -241,31 +242,31 @@
     {
       "component": "excel_quantified_evidence",
       "label": "Excel 기반 정량 근거",
-      "score": 45.0,
+      "score": 90.0,
       "weight": 0.15,
-      "weighted_score": 6.75,
+      "weighted_score": 13.5,
       "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지"
     },
     {
       "component": "evidence_confidence",
       "label": "근거 직접성·충분성",
-      "score": 42.67,
+      "score": 57.67,
       "weight": 0.15,
-      "weighted_score": 6.4005,
+      "weighted_score": 8.6505,
       "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성"
     },
     {
       "component": "commercialization_and_funding_signal",
       "label": "사업화·성장자금 지속성",
-      "score": 49.5,
+      "score": 63.5,
       "weight": 0.1,
-      "weighted_score": 4.95,
+      "weighted_score": 6.35,
       "meaning": "R&D·특허·정부과제·기술이전·CAPEX/희석성 자금조달이 사업화와 연결되는 정도"
     }
   ],
   "key_takeaways": [
-    "피에스케이의 개인투자자용 Tech 최종 점수는 45.04/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
-    "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(56.7) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+    "피에스케이의 개인투자자용 Tech 최종 점수는 55.44/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
+    "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(56.7) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
     "투자자가 확인할 핵심 근거는 9개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
   ],
   "investor_evidence": [
@@ -332,7 +333,7 @@
     {
       "source": "tech_summary",
       "title": "Tech Agent 핵심 해석",
-      "detail": "피에스케이의 개인투자자용 Tech 최종 점수는 45.04/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
+      "detail": "피에스케이의 개인투자자용 Tech 최종 점수는 54.04/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
       "value": null,
       "unit": null,
       "path": null,
@@ -342,7 +343,7 @@
     {
       "source": "tech_summary",
       "title": "Tech Agent 핵심 해석",
-      "detail": "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(56.7) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+      "detail": "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(56.7) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
       "value": null,
       "unit": null,
       "path": null,

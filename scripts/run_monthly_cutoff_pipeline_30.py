@@ -21,6 +21,13 @@ if str(SRC) not in sys.path:
 from evaluation.cutoff_env import build_cutoff_env, cutoff_audit_payload, month_windows
 from evaluation.signal_df_exporter import export_signal_df
 
+try:
+    import pandas as pd  # type: ignore
+except Exception:  # pragma: no cover
+    pd = None  # type: ignore
+
+NATIVE_CRASH_CODES = {3221225477, -1073741819}  # Windows 0xC0000005 access violation
+
 
 def _safe_text(value: Any) -> str:
     if value is None:
@@ -119,9 +126,147 @@ def _append_log(path: Path, row: dict[str, Any]) -> None:
         w.writerow(row)
 
 
+def _checkpoint_run_log(log_csv: Path, out_root: Path) -> None:
+    """Keep an always-readable Excel copy of progress, including failures."""
+    if pd is None or not log_csv.exists():
+        return
+    try:
+        df = pd.read_csv(log_csv, encoding="utf-8-sig")
+        checkpoint_xlsx = out_root / "monthly_cutoff_pipeline_run_log_checkpoint.xlsx"
+        df.to_excel(checkpoint_xlsx, index=False)
+    except Exception as exc:
+        print(f"[monthly-cutoff] WARN run-log checkpoint xlsx failed: {exc}")
+
+
+def _checkpoint_signal_df(out_root: Path, *, field: str, run_id: str) -> None:
+    """Overwrite a stable partial signal_df file after each successful snapshot."""
+    try:
+        signal_export = export_signal_df(
+            out_root=out_root,
+            field=field,
+            run_id=run_id,
+            stamp="checkpoint",
+            manifest_name="signal_df_checkpoint_manifest.json",
+        )
+        print(
+            "[monthly-cutoff] checkpoint signal_df "
+            f"rows={signal_export.get('rows')} xlsx={signal_export.get('combined_xlsx')}"
+        )
+    except Exception as exc:
+        print(f"[monthly-cutoff] WARN signal_df checkpoint failed: {exc}")
+
+
 def _tail(text: str, n: int = 5000) -> str:
     text = text or ""
     return text[-n:] if len(text) > n else text
+
+
+def _safe_int(value: Any, default: int) -> int:
+    try:
+        return int(str(value).strip())
+    except Exception:
+        return default
+
+
+def _force_local_history_env(env: dict[str, str]) -> None:
+    """Backtests should not depend on Google Sheets credentials in .env."""
+    env["ALPHAPROVE_HISTORY_BACKEND"] = "local"
+    env["ALPHAPROVE_DISABLE_GOOGLE_SHEETS"] = "1"
+    env["ALPHAPROVE_CHAIR_OUTPUT_BACKEND"] = "local"
+    env["CHAIR_FORCE_LOCAL_OUTPUT"] = "1"
+    env["ALPHAPROVE_SHEETS_DB_ONLY"] = "0"
+    env["ALPHAPROVE_HISTORY_LOCAL_WRITE_DISABLED"] = "0"
+    env.setdefault("CHAIR_FORCE_TEMPLATE_REPORT", "1")
+
+
+def _stabilize_native_env(env: dict[str, str], *, conservative: bool = False) -> None:
+    """Reduce native-library crash risk in long Windows batch runs."""
+    env.setdefault("PYTHONFAULTHANDLER", "1")
+    env.setdefault("MPLBACKEND", "Agg")
+    for name in (
+        "OMP_NUM_THREADS",
+        "MKL_NUM_THREADS",
+        "OPENBLAS_NUM_THREADS",
+        "NUMEXPR_NUM_THREADS",
+        "VECLIB_MAXIMUM_THREADS",
+    ):
+        env.setdefault(name, "1")
+    if conservative:
+        env["PIPELINE_INTAKE_CONCURRENCY"] = "1"
+        env["PIPELINE_AGENT_CONCURRENCY"] = "1"
+        env["DATA_INTAKE_PARALLEL"] = "0"
+        env["DATA_INTAKE_MAX_WORKERS"] = "1"
+        env["MARKET_AGENT_SKIP_LIVE_REFRESH"] = "1"
+        env["MARKET_LLM_MAX_ATTEMPTS"] = "1"
+        env["MARKET_GEMINI_MAX_RETRIES"] = "0"
+
+
+def _pipeline_extra(
+    ns: argparse.Namespace,
+    *,
+    intake_concurrency: str | None = None,
+    agent_concurrency: str | None = None,
+    market_llm_timeout: str | None = None,
+    market_gemini_retries: str | None = None,
+    skip_network: bool | None = None,
+) -> list[str]:
+    extra: list[str] = []
+    if ns.mode == "pipeline":
+        extra.extend(["--intake-concurrency", str(intake_concurrency or ns.intake_concurrency)])
+        extra.extend(["--agent-concurrency", str(agent_concurrency or ns.agent_concurrency)])
+        extra.extend(["--market-llm-timeout", str(market_llm_timeout or ns.market_llm_timeout)])
+        extra.extend(["--market-gemini-retries", str(market_gemini_retries or ns.market_gemini_retries)])
+        should_skip_network = ns.skip_network if skip_network is None else skip_network
+        if should_skip_network:
+            extra.append("--skip-network")
+        if ns.force_fetch:
+            extra.append("--force-fetch")
+        extra.append("--fail-open")
+    else:
+        # chair runner usually performs intake unless disabled by user env.
+        extra.append("--local-output")
+    return extra
+
+
+def _run_target_attempt(
+    *,
+    cmd: list[str],
+    env: dict[str, str],
+    root: Path,
+    timeout_sec: int,
+) -> tuple[int, str, str, str]:
+    try:
+        proc = subprocess.run(
+            cmd,
+            cwd=str(root),
+            env=env,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+            capture_output=True,
+            timeout=timeout_sec,
+        )
+        rc = int(proc.returncode)
+        return rc, proc.stdout or "", proc.stderr or "", "OK" if rc == 0 else "FAILED"
+    except subprocess.TimeoutExpired as exc:
+        stdout = exc.stdout if isinstance(exc.stdout, str) else ""
+        stderr = (exc.stderr if isinstance(exc.stderr, str) else "") + f"\n[TIMEOUT] {timeout_sec}s exceeded"
+        return 124, stdout, stderr, "TIMEOUT"
+
+
+def _retry_reason(status: str, rc: int, stderr: str, stdout: str) -> str:
+    combined = f"{stderr}\n{stdout}".lower()
+    if rc in NATIVE_CRASH_CODES:
+        return "native_access_violation"
+    if "service_account.json" in combined or "google sheets" in combined:
+        return "google_sheets_env"
+    if status == "TIMEOUT":
+        return "timeout"
+    return "nonzero_exit"
+
+
+def _split_company_dirs(value: str) -> set[str]:
+    return {chunk.strip().lower() for chunk in str(value or "").replace(";", ",").split(",") if chunk.strip()}
 
 
 def _company_data_dir(root: Path, field: str, company_dir: str, company: str) -> Path:
@@ -165,7 +310,9 @@ def _snapshot(root: Path, out_root: Path, field: str, window_key: str, target: d
 
 def _command(root: Path, python_exe: str, target: dict[str, str], field: str, mode: str, extra_args: list[str]) -> list[str]:
     main = str(root / "main.py")
-    base = [python_exe, main, mode, "--company-dir", target["company_dir"], "--company", target["company"], "--field", field]
+    base = [python_exe, main, mode, "--company-dir", target["company_dir"], "--company", target["company"]]
+    if mode != "chair":
+        base.extend(["--field", field])
     return base + extra_args
 
 
@@ -179,6 +326,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--run-id", default="monthly_cutoff_30")
     ap.add_argument("--run-stamp", default=None)
     ap.add_argument("--limit", type=int, default=None)
+    ap.add_argument("--only-company-dir", default="", help="Comma-separated company_dir filter for reruns, e.g. telechips,gst")
     ap.add_argument("--timeout-sec", type=int, default=1200)
     ap.add_argument("--continue-on-error", action="store_true")
     ap.add_argument("--include-tech-cutoff", action="store_true", help="Default off. Tech/IP cutoff was intentionally disabled by project policy.")
@@ -189,12 +337,22 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--agent-concurrency", default="6")
     ap.add_argument("--market-llm-timeout", default="25")
     ap.add_argument("--market-gemini-retries", default="3")
+    ap.add_argument("--max-retries", type=int, default=1, help="Failed company/window attempts are retried with a conservative profile.")
+    ap.add_argument("--retry-timeout-sec", type=int, default=1800)
+    ap.add_argument("--retry-skip-network", action=argparse.BooleanOptionalAction, default=True)
+    ap.add_argument("--checkpoint-every", type=int, default=1, help="Refresh partial Excel/CSV checkpoints every N completed target attempts.")
+    ap.add_argument("--no-checkpoint-xlsx", action="store_true", help="Disable incremental checkpoint Excel generation.")
     ns = ap.parse_args(argv)
 
     root = ROOT.resolve()
     end = ns.end or datetime.now().strftime("%Y-%m-%d")
     windows = month_windows(ns.start, end)
     targets = read_universe(root / ns.universe_csv if not Path(ns.universe_csv).is_absolute() else ns.universe_csv, field=ns.field, limit=ns.limit)
+    only_company_dirs = _split_company_dirs(ns.only_company_dir)
+    if only_company_dirs:
+        targets = [t for t in targets if str(t.get("company_dir", "")).strip().lower() in only_company_dirs]
+        if not targets:
+            raise RuntimeError(f"No targets matched --only-company-dir={ns.only_company_dir}")
     stamp = _safe_name(ns.run_stamp or datetime.now().strftime("%Y%m%d_%H%M%S"))
     run_id = _safe_name(ns.run_id)
     out_root = root / "data" / ns.field / "_sector_common" / "history_sheets_exports" / "monthly" / "backtest" / stamp / run_id
@@ -221,19 +379,7 @@ def main(argv: list[str] | None = None) -> int:
     print(f"[monthly-cutoff] windows={len(windows)} targets={len(targets)} mode={ns.mode}")
     py = _project_python(root)
     log_csv = out_root / "monthly_cutoff_pipeline_run_log.csv"
-
-    extra: list[str] = []
-    if ns.mode == "pipeline":
-        extra.extend(["--intake-concurrency", str(ns.intake_concurrency), "--agent-concurrency", str(ns.agent_concurrency)])
-        extra.extend(["--market-llm-timeout", str(ns.market_llm_timeout), "--market-gemini-retries", str(ns.market_gemini_retries)])
-        if ns.skip_network:
-            extra.append("--skip-network")
-        if ns.force_fetch:
-            extra.append("--force-fetch")
-        extra.append("--fail-open")
-    else:
-        # chair runner usually performs intake unless disabled by user env.
-        extra.append("--local-output")
+    completed_attempts = 0
 
     for w_i, as_of in enumerate(windows, 1):
         window_key = as_of[:7]
@@ -244,33 +390,63 @@ def main(argv: list[str] | None = None) -> int:
             env["PYTHONPATH"] = str(root / "src") + (os.pathsep + env.get("PYTHONPATH", "") if env.get("PYTHONPATH") else "")
             env["ALPHAPROVE_EVAL_OUTPUT_ROOT"] = str(out_root)
             env["ALPHAPROVE_EVAL_WINDOW"] = window_key
+            _force_local_history_env(env)
+            _stabilize_native_env(env)
+
+            extra = _pipeline_extra(ns)
             cmd = _command(root, py, target, ns.field, ns.mode, extra)
             started = time.time()
             status = "OK"
             rc = 0
             stdout = ""
             stderr = ""
-            try:
-                proc = subprocess.run(
-                    cmd,
-                    cwd=str(root),
-                    env=env,
-                    text=True,
-                    encoding="utf-8",
-                    errors="replace",
-                    capture_output=True,
-                    timeout=ns.timeout_sec,
-                )
-                rc = int(proc.returncode)
-                stdout = proc.stdout or ""
-                stderr = proc.stderr or ""
-                if rc != 0:
-                    status = "FAILED"
-            except subprocess.TimeoutExpired as exc:
-                status = "TIMEOUT"
-                rc = 124
-                stdout = exc.stdout if isinstance(exc.stdout, str) else ""
-                stderr = (exc.stderr if isinstance(exc.stderr, str) else "") + f"\n[TIMEOUT] {ns.timeout_sec}s exceeded"
+            attempt_rows: list[dict[str, Any]] = []
+
+            rc, stdout, stderr, status = _run_target_attempt(cmd=cmd, env=env, root=root, timeout_sec=ns.timeout_sec)
+            attempt_rows.append({
+                "attempt": 1,
+                "profile": "normal",
+                "status": status,
+                "returncode": rc,
+                "reason": "" if status == "OK" else _retry_reason(status, rc, stderr, stdout),
+            })
+
+            max_retries = max(0, int(ns.max_retries))
+            if status != "OK" and max_retries:
+                for retry_i in range(1, max_retries + 1):
+                    reason = _retry_reason(status, rc, stderr, stdout)
+                    retry_env = dict(env)
+                    _force_local_history_env(retry_env)
+                    _stabilize_native_env(retry_env, conservative=True)
+                    retry_extra = _pipeline_extra(
+                        ns,
+                        intake_concurrency="1",
+                        agent_concurrency="1",
+                        market_llm_timeout=str(max(45, _safe_int(ns.market_llm_timeout, 25))),
+                        market_gemini_retries="0",
+                        skip_network=bool(ns.retry_skip_network),
+                    )
+                    retry_cmd = _command(root, py, target, ns.field, ns.mode, retry_extra)
+                    print(
+                        f"[monthly-cutoff] retry {retry_i}/{max_retries} {as_of} {target['company_dir']} "
+                        f"after {reason}: low-concurrency local profile"
+                    )
+                    rc, stdout, stderr, status = _run_target_attempt(
+                        cmd=retry_cmd,
+                        env=retry_env,
+                        root=root,
+                        timeout_sec=max(_safe_int(ns.timeout_sec, 1200), _safe_int(ns.retry_timeout_sec, 1800)),
+                    )
+                    cmd = retry_cmd
+                    attempt_rows.append({
+                        "attempt": retry_i + 1,
+                        "profile": "safe_local_low_concurrency",
+                        "status": status,
+                        "returncode": rc,
+                        "reason": "" if status == "OK" else _retry_reason(status, rc, stderr, stdout),
+                    })
+                    if status == "OK":
+                        break
             elapsed = round(time.time() - started, 3)
             row = {
                 "run_id": run_id,
@@ -287,16 +463,26 @@ def main(argv: list[str] | None = None) -> int:
                 "status": status,
                 "returncode": rc,
                 "elapsed_sec": elapsed,
+                "attempt_count": len(attempt_rows),
+                "attempts": json.dumps(attempt_rows, ensure_ascii=False),
                 "command": " ".join(cmd),
                 "cutoff_env": json.dumps(cutoff_audit_payload(as_of, start_date=ns.data_start, include_tech=ns.include_tech_cutoff), ensure_ascii=False),
                 "stdout_tail": _tail(stdout),
                 "stderr_tail": _tail(stderr),
             }
             _append_log(log_csv, row)
+            completed_attempts += 1
             print(f"[monthly-cutoff] {as_of} {target['company_dir']} {status} rc={rc} elapsed={elapsed}s")
+            checkpoint_due = not ns.no_checkpoint_xlsx and completed_attempts % max(1, int(ns.checkpoint_every)) == 0
+            if checkpoint_due:
+                _checkpoint_run_log(log_csv, out_root)
             if status == "OK":
                 _snapshot(root, out_root, ns.field, window_key, target)
+                if checkpoint_due:
+                    _checkpoint_signal_df(out_root, field=ns.field, run_id=run_id)
             elif not ns.continue_on_error:
+                if not ns.no_checkpoint_xlsx:
+                    _checkpoint_run_log(log_csv, out_root)
                 raise SystemExit(f"failed: {as_of} {target['company_dir']} rc={rc}\n{_tail(stderr, 1500)}")
 
     try:

@@ -2,150 +2,152 @@
   "agent": "macro",
   "company_name": "테스",
   "industry_type": "deeptech_semiconductor",
-  "summary": "현재 매크로 환경은 중립 비우호적이며, 총점 -4점과 높은 리스크 레벨을 나타냅니다. 이는 고금리 지속, 원달러 환율 상승 압력, 부정적 뉴스 및 규제 리스크 증가 등 복합적인 요인에 기인하며, 반도체 딥테크 기업 투자에 있어 신중한 접근이 요구됩니다.",
+  "summary": "현재 매크로 환경은 중립 우호적이며 리스크 레벨은 'medium'으로 평가됩니다. 전반적으로 금리 수준은 과거 평균 범위 내에 있으며, 원달러 환율은 소폭 상승했으나 급격한 변동은 관찰되지 않았습니다. 다만, 미국 국채 10년물 금리가 과거 80% 분위수 상단에 근접하고 있어 향후 금리 변동성에 대한 주의가 필요합니다. 이러한 환경은 반도체 딥테크 기업에 있어 긍정적인 요인과 잠재적 위험 요인이 혼재된 상황으로 해석됩니다.",
   "key_thesis": [
-    "국고채_10년 고수준 구간 하락 → 유동성 환경 개선 (고금리 완화)",
-    "국고채_3년 고수준 구간 하락 → 유동성 환경 개선 (고금리 완화)"
+    "전체 시장 20일 수익률 양수 → 시장/섹터 방향성 우호",
+    "한국 시장 20일 수익률 양수 → 시장/섹터 방향성 우호",
+    "미국 시장 20일 수익률 양수 → 시장/섹터 방향성 우호",
+    "반도체 섹터 20일 수익률 양수 → 시장/섹터 방향성 우호"
   ],
   "key_risks": [
-    "고금리 장기화로 인한 성장주 밸류에이션 할인 압력",
-    "원달러 환율의 과도한 상승으로 인한 글로벌 수요 둔화 우려",
-    "미중 반도체 수출 규제 등 지정학적 리스크의 사업 영향"
+    "원달러 환율 레벨 (1388.6)이 과거 80% 분위수 상단에 근접하여 향후 변동성 확대 가능성",
+    "미국 국채 10년물 금리 레벨 (4.227)이 과거 80% 분위수 상단에 근접하여 성장주 밸류에이션 부담 증가 가능성",
+    "미국 하이일드 스프레드 소폭 상승 (0.02)으로 인한 신용 시장의 잠재적 위험 신호"
   ],
   "warning_note": "검증 불가 claim 6개를 제거한 뒤 grounding 기준을 재검증했습니다. 최종 grounding score가 기준(0.75)에 미달했습니다. score=0.0",
   "metrics": {
-    "macro_score": -4,
-    "macro_signal": "SELL",
-    "risk_level": "MEDIUM_HIGH",
+    "macro_score": 7,
+    "macro_signal": "BUY",
+    "risk_level": "LOW",
     "ecos_daily": {
-      "국고채_10년_level": 4.21,
-      "국고채_10년_diff": -0.029,
-      "국고채_10년_zone": "high",
+      "국고채_10년_level": 2.815,
+      "국고채_10년_diff": 0.0,
+      "국고채_10년_zone": "neutral",
       "국고채_10년_criteria": {
         "method": "empirical_percentile",
-        "lookback_observations": 3061,
-        "high": 3.43,
-        "low": 1.792,
+        "lookback_observations": 2800,
+        "high": 3.372,
+        "low": 1.7222000000000004,
         "high_q": 0.8,
         "low_q": 0.2
       },
-      "국고채_3년_level": 3.751,
-      "국고채_3년_diff": -0.006,
-      "국고채_3년_zone": "high",
+      "국고채_3년_level": 2.426,
+      "국고채_3년_diff": 0.0,
+      "국고채_3년_zone": "neutral",
       "국고채_3년_criteria": {
         "method": "empirical_percentile",
-        "lookback_observations": 3061,
-        "high": 3.306,
-        "low": 1.36,
+        "lookback_observations": 2800,
+        "high": 3.296,
+        "low": 1.301,
         "high_q": 0.8,
         "low_q": 0.2
       },
-      "콜금리_level": 2.524,
+      "콜금리_level": 2.521,
       "콜금리_diff": 0.0,
       "콜금리_zone": "neutral",
       "콜금리_criteria": {
         "method": "empirical_percentile",
-        "lookback_observations": 3061,
-        "high": 3.394,
-        "low": 0.86,
+        "lookback_observations": 2800,
+        "high": 3.4352000000000005,
+        "low": 0.75,
         "high_q": 0.8,
         "low_q": 0.2
       },
-      "cd금리_91일_level": 2.81,
+      "cd금리_91일_level": 2.53,
       "cd금리_91일_diff": 0.0,
       "cd금리_91일_zone": "neutral",
       "cd금리_91일_criteria": {
         "method": "empirical_percentile",
-        "lookback_observations": 3061,
-        "high": 3.53,
-        "low": 1.17,
+        "lookback_observations": 2800,
+        "high": 3.57,
+        "low": 1.1,
         "high_q": 0.8,
         "low_q": 0.2
       },
-      "국고채_10년_3년_스프레드": 0.459,
+      "국고채_10년_3년_스프레드": 0.389,
       "국고채_10년_3년_스프레드_criteria": {
         "method": "empirical_percentile",
-        "lookback_observations": 3061,
-        "high": 0.4889999999999999,
-        "low": 0.0979999999999998,
+        "lookback_observations": 2800,
+        "high": 0.5012000000000003,
+        "low": 0.09099999999999962,
         "high_q": 0.8,
         "low_q": 0.2
       },
-      "원달러_level": 1503.4,
-      "원달러_diff": 3.6,
+      "원달러_level": 1388.6,
+      "원달러_diff": 0.0,
       "원달러_zone": "high",
       "원달러_criteria": {
         "method": "empirical_percentile",
-        "lookback_observations": 3061,
-        "high": 1380.4,
-        "low": 1130.9,
+        "lookback_observations": 2800,
+        "high": 1348.3,
+        "low": 1128.3,
         "high_q": 0.8,
         "low_q": 0.2
       },
-      "신용스프레드_bbb-_level": 6.427,
-      "신용스프레드_bbb-_diff": 0.002,
+      "신용스프레드_bbb-_level": 6.32,
+      "신용스프레드_bbb-_diff": 0.0,
       "신용스프레드_bbb-_zone": "low",
-      "신용스프레드_aa-_level": 0.626,
-      "신용스프레드_aa-_diff": 0.002,
-      "신용스프레드_aa-_zone": "neutral"
+      "신용스프레드_aa-_level": 0.48,
+      "신용스프레드_aa-_diff": 0.0,
+      "신용스프레드_aa-_zone": "low"
     },
     "external_daily": {
-      "미국_국채_10년_2년_스프레드": 0.505,
+      "미국_국채_10년_2년_스프레드": 0.637,
       "미국_국채_10년_2년_스프레드_diff": 0.0,
       "미국_국채_10년_2년_스프레드_criteria": {
         "method": "empirical_percentile",
-        "lookback_observations": 3061,
-        "high": 0.6040000176429748,
-        "low": -0.3149999046325682,
+        "lookback_observations": 2800,
+        "high": 0.5810000157356262,
+        "low": -0.35199993324279755,
         "high_q": 0.8,
         "low_q": 0.2
       },
-      "미국_국채_10년_level": 4.651,
-      "미국_국채_10년_diff": 0.028,
+      "미국_국채_10년_level": 4.227,
+      "미국_국채_10년_diff": 0.0,
       "미국_국채_10년_zone": "high",
       "미국_국채_10년_criteria": {
         "method": "empirical_percentile",
-        "lookback_observations": 3061,
-        "high": 4.21999979019165,
-        "low": 1.5700000524520874,
+        "lookback_observations": 2800,
+        "high": 4.196000099182129,
+        "low": 1.5299999713897705,
         "high_q": 0.8,
         "low_q": 0.2
       },
-      "미국_국채_13주_level": 3.575,
-      "미국_국채_13주_diff": 0.007,
+      "미국_국채_13주_level": 4.043,
+      "미국_국채_13주_diff": 0.0,
       "미국_국채_13주_zone": "neutral",
       "미국_국채_13주_criteria": {
         "method": "empirical_percentile",
-        "lookback_observations": 3061,
-        "high": 4.51800012588501,
-        "low": 0.1199999973177909,
+        "lookback_observations": 2800,
+        "high": 4.660999870300294,
+        "low": 0.1000000014901161,
         "high_q": 0.8,
         "low_q": 0.2
       },
-      "달러인덱스_dxy_level": 99.271,
-      "달러인덱스_dxy_diff": 0.301,
+      "달러인덱스_dxy_level": 97.77,
+      "달러인덱스_dxy_diff": 0.0,
       "달러인덱스_dxy_zone": "neutral",
       "달러인덱스_dxy_criteria": {
         "method": "empirical_percentile",
-        "lookback_observations": 3061,
-        "high": 104.04000091552734,
-        "low": 94.11000061035156,
+        "lookback_observations": 2800,
+        "high": 104.19200134277344,
+        "low": 93.70399932861328,
         "high_q": 0.8,
         "low_q": 0.2
       },
-      "유가_평균_diff": -3.18,
-      "유가_wti_diff": -5.06,
-      "유가_brent_diff": -1.3,
-      "구리_diff": -0.075,
-      "미국_하이일드_스프레드_level": 2.83,
-      "미국_하이일드_스프레드_diff": 0.0
+      "유가_평균_diff": 0.0,
+      "유가_wti_diff": 0.0,
+      "유가_brent_diff": 0.0,
+      "구리_diff": 0.0,
+      "미국_하이일드_스프레드_level": 2.84,
+      "미국_하이일드_스프레드_diff": 0.02
     },
     "news_signal": {
       "positive_keyword_count": 0,
-      "negative_keyword_count": 9
+      "negative_keyword_count": 0
     },
     "regulation_signal": {
-      "regulation_risk_keyword_count": 1
+      "regulation_risk_keyword_count": 0
     }
   },
   "audit_trace": {
@@ -166,31 +168,31 @@
     "policy": "specialist agent files are not modified; this compact packet is generated by auditor_agent only"
   },
   "watch_points": [
-    "{\"indicator\": \"국고채 10년물 금리\", \"current\": \"4.21% 수준으로 높은 편\", \"threshold\": \"추가 상승 시 성장주 투자 매력도 저하\", \"semiconductor_relevance\": \"고금리 환경 지속 시 딥테크 기업의 자금 조달 비용 증가 및 밸류에이션 부담 가중\"}",
-    "{\"indicator\": \"원달러 환율\", \"current\": \"1503.4원 수준으로 상승 압력\", \"threshold\": \"1500원대 상회 지속 시 글로벌 수요 둔화 우려 증폭\", \"semiconductor_relevance\": \"수출 비중 높은 기업의 실적 변동성 확대 및 경쟁력 약화 가능성\"}",
-    "{\"indicator\": \"뉴스 키워드 분석 (부정적)\", \"current\": \"부정적 키워드 9건 감지\", \"threshold\": \"부정적 뉴스 지속 시 투자 심리 위축 심화\", \"semiconductor_relevance\": \"반도체 섹터 전반의 투자 매력도 하락 및 주가 변동성 확대 요인\"}"
+    "{\"indicator\": \"원달러 환율\", \"current\": \"1388.6으로 과거 80% 분위수 상단에 근접\", \"threshold\": \"1348.3 이상 지속 시 변동성 확대 우려\", \"semiconductor_relevance\": \"수출 비중 높은 반도체 기업의 실적 및 환차익/환차손에 직접적인 영향\"}",
+    "{\"indicator\": \"미국 국채 10년물 금리\", \"current\": \"4.227%로 과거 80% 분위수 상단에 근접\", \"threshold\": \"4.196% 이상 지속 시 성장주 밸류에이션 할인 요인으로 작용\", \"semiconductor_relevance\": \"고금리 환경은 반도체 딥테크 기업의 투자 및 자금 조달 비용에 부담으로 작용\"}",
+    "{\"indicator\": \"미국 하이일드 스프레드\", \"current\": \"0.02%p 상승한 2.84%\", \"threshold\": \"추가적인 상승 시 신용 시장 불안감 증폭\", \"semiconductor_relevance\": \"신용 시장 불안은 전반적인 투자 심리 위축으로 이어져 반도체 섹터 투자에도 부정적 영향 가능성\"}"
   ],
   "output_files": {
-    "macro_signal_json": "data/반도체/테스/macro/macro_signal_20260520.json",
-    "macro_signal_csv": "data/반도체/테스/macro/macro_signal_20260520.csv",
-    "macro_report_md": "data/반도체/테스/macro/macro_report_20260520.md",
+    "macro_signal_json": "data/반도체/테스/macro/macro_signal_20260525.json",
+    "macro_signal_csv": "data/반도체/테스/macro/macro_signal_20260525.csv",
+    "macro_report_md": "data/반도체/테스/macro/macro_report_20260525.md",
     "macro_json": "data/반도체/테스/macro/tes_macro.json",
     "macro_agent_packet_json": "data/반도체/테스/macro/tes_macro_agent_packet.json"
   },
   "auditor_status": "PASS",
-  "auditor_actual_match": 0.9583,
+  "auditor_actual_match": 1.0,
   "auditor_stage_scores": {
     "stage1_basic_consistency": 1.0,
     "stage2_framework": 1.0,
-    "stage3_decision_readiness": 0.875
+    "stage3_decision_readiness": 1.0
   },
   "auditor_recommendation": "매도",
-  "auditor_signal": 0.1364,
+  "auditor_signal": -1.0,
   "auditor_decision_basis": [
-    "raw_macro_label_seen_but_not_primary=SELL"
+    "macro_score 7.00/100",
+    "raw_macro_label_seen_but_not_primary=BUY"
   ],
   "auditor_signal_components": {
-    "positive_terms": 25,
-    "negative_terms": 19
+    "macro_score_signal": -1.0
   }
 }

@@ -1,118 +1,113 @@
 {
   "pipeline": "data_intake",
-  "status": "PARTIAL",
-  "created_at": "2026-05-20T12:43:34",
+  "status": "OK",
+  "created_at": "2026-05-25T22:01:17",
   "company_dir": "gst",
   "company": "GST",
   "field": "반도체",
   "default_agents": [
     "macro",
+    "market",
+    "issue",
     "finance",
     "tech",
     "valuation"
   ],
-  "direct_agent_only_agents": [
-    "issue",
-    "market"
-  ],
+  "direct_agent_only_agents": [],
   "agents": [
     {
       "agent": "macro",
-      "status": "DONE",
-      "module": "data_intake.macro_intake.runner",
-      "function": "run_macro_intake",
-      "started_at": "2026-05-20T12:41:19",
-      "ended_at": "2026-05-20T12:41:22"
+      "status": "SKIPPED_NETWORK_DISABLED",
+      "started_at": "2026-05-25T22:01:01",
+      "ended_at": "2026-05-25T22:01:01",
+      "company_dir": "gst",
+      "company": "GST",
+      "field": "반도체",
+      "reason": "data_intake가 --skip-network로 실행되어 macro_intake 네트워크 수집을 생략했습니다."
     },
     {
       "agent": "market",
-      "status": "SKIPPED_DIRECT_AGENT_ONLY",
-      "started_at": "2026-05-20T12:41:22",
-      "ended_at": "2026-05-20T12:41:22",
-      "reason": "market_agent는 별도 data_intake 단계 없이 직접 실행하는 구조입니다. Chair 실행 시 market 노드에서 python main.py market 형태로 직접 실행됩니다.",
-      "direct_run_command_example": "python main.py market --company-dir <slug> --company \"<회사명>\""
+      "status": "SKIPPED_NO_INTAKE_RUNNER",
+      "started_at": "2026-05-25T22:01:01",
+      "ended_at": "2026-05-25T22:01:04",
+      "errors": [
+        "data_intake.market_intake.runner.run_market_intake: name 'os' is not defined\nTraceback (most recent call last):\n  File \"C:\\Agent_6.9\\src\\data_intake\\runner.py\", line 305, in _call_optional_intake\n    fn(**kwargs)\n  File \"C:\\Agent_6.9\\src\\data_intake\\market_intake\\runner.py\", line 78, in run_market_intake\n    start_date = start_date or os.getenv(\"MARKET_START_DATE\") or \"2021-01-01\"\n                               ^^\nNameError: name 'os' is not defined. Did you forget to import 'os'\n",
+        "data_intake.market_intake.runner.run_intake: name 'os' is not defined\nTraceback (most recent call last):\n  File \"C:\\Agent_6.9\\src\\data_intake\\runner.py\", line 305, in _call_optional_intake\n    fn(**kwargs)\n  File \"C:\\Agent_6.9\\src\\data_intake\\market_intake\\runner.py\", line 136, in run_intake\n    return run_market_intake(company_dir=company_dir, company=company, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.9\\src\\data_intake\\market_intake\\runner.py\", line 78, in run_market_intake\n    start_date = start_date or os.getenv(\"MARKET_START_DATE\") or \"2021-01-01\"\n                               ^^\nNameError: name 'os' is not defined. Did you forget to import 'os'\n",
+        "data_intake.market_intake.runner.main: name 'os' is not defined\nTraceback (most recent call last):\n  File \"C:\\Agent_6.9\\src\\data_intake\\runner.py\", line 293, in _call_optional_intake\n    fn([\"--company-dir\", company_dir, \"--company\", company])\n  File \"C:\\Agent_6.9\\src\\data_intake\\market_intake\\runner.py\", line 151, in main\n    result = run_market_intake(\n             ^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.9\\src\\data_intake\\market_intake\\runner.py\", line 78, in run_market_intake\n    start_date = start_date or os.getenv(\"MARKET_START_DATE\") or \"2021-01-01\"\n                               ^^\nNameError: name 'os' is not defined. Did you forget to import 'os'\n",
+        "data_intake.market.runner: import failed: No module named 'data_intake.market'"
+      ]
     },
     {
       "agent": "issue",
-      "status": "SKIPPED_DIRECT_AGENT_ONLY",
-      "started_at": "2026-05-20T12:41:22",
-      "ended_at": "2026-05-20T12:41:22",
-      "reason": "issue_agent는 별도 data_intake 단계 없이 직접 실행하는 구조입니다. Chair 실행 시 issue 노드에서 python main.py issue 형태로 직접 실행됩니다.",
-      "direct_run_command_example": "python main.py issue --company-dir <slug> --company \"<회사명>\""
+      "status": "DONE",
+      "module": "data_intake.issue_intake.runner",
+      "function": "run_issue_intake",
+      "started_at": "2026-05-25T22:01:04",
+      "ended_at": "2026-05-25T22:01:04"
     },
     {
       "agent": "finance",
-      "status": "PARTIAL",
-      "created_at": "2026-05-20T12:41:52",
-      "started_at": "2026-05-20T12:41:22",
-      "ended_at": "2026-05-20T12:41:52",
+      "status": "SKIPPED_NETWORK_DISABLED",
+      "started_at": "2026-05-25T22:01:04",
+      "ended_at": "2026-05-25T22:01:04",
       "company_dir": "gst",
       "company": "GST",
       "field": "반도체",
       "stock_code": "083450",
-      "mode": "all",
-      "years": [
-        2023,
-        2024,
-        2025
-      ],
-      "force_fetch": false,
-      "steps": [
-        {
-          "name": "warning",
-          "status": "FAILED",
-          "started_at": "2026-05-20T12:41:22",
-          "ended_at": "2026-05-20T12:41:30",
-          "error": "Message: session not created\nfrom unknown error: cannot find Chrome binary; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception\nStacktrace:\n\tGetHandleVerifier [0x0x5cba83+63395]\n\tGetHandleVerifier [0x0x5cbac4+63460]\n\t(No symbol) [0x0x412113]\n\t(No symbol) [0x0x443c06]\n\t(No symbol) [0x0x4411a9]\n\t(No symbol) [0x0x48ae57]\n\t(No symbol) [0x0x48a74a]\n\t(No symbol) [0x0x47f1a6]\n\t(No symbol) [0x0x44e7b2]\n\t(No symbol) [0x0x44f654]\n\tGetHandleVerifier [0x0x848883+2672035]\n\tGetHandleVerifier [0x0x843cba+2652634]\n\tGetHandleVerifier [0x0x5f2bca+223466]\n\tGetHandleVerifier [0x0x5e2cb8+158168]\n\tGetHandleVerifier [0x0x5e978d+185517]\n\tGetHandleVerifier [0x0x5d3b78+96408]\n\tGetHandleVerifier [0x0x5d3d02+96802]\n\tGetHandleVerifier [0x0x5be90a+9770]\n\tBaseThreadInitThunk [0x0x76657ba9+25]\n\tRtlInitializeExceptionChain [0x0x7771c3ab+107]\n\tRtlClearBits [0x0x7771c32f+191]\n",
-          "traceback": "Traceback (most recent call last):\n  File \"C:\\Agent_6.8\\src\\data_intake\\finance_intake\\runner.py\", line 541, in _step\n    func()\n  File \"C:\\Agent_6.8\\src\\data_intake\\finance_intake\\runner.py\", line 563, in <lambda>\n    _step(\"warning\", lambda: run_warning(WarningConfig(mode=\"update\", days=1)))\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\src\\data_intake\\finance_intake\\runner.py\", line 123, in run_warning\n    latest_file = fetch_kind_warning_excel(\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\src\\data_intake\\finance_intake\\collector.py\", line 587, in fetch_kind_warning_excel\n    driver = webdriver.Chrome(\n             ^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\selenium\\webdriver\\chrome\\webdriver.py\", line 45, in __init__\n    super().__init__(\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\selenium\\webdriver\\chromium\\webdriver.py\", line 66, in __init__\n    super().__init__(command_executor=executor, options=self.options)\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\webdriver.py\", line 25, in __init__\n    super().__init__(*args, **kwargs)\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 274, in __init__\n    self.start_session(capabilities)\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 370, in start_session\n    response = self.execute(Command.NEW_SESSION, caps)[\"value\"]\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 450, in execute\n    self.error_handler.check_response(response)\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 232, in check_response\n    raise exception_class(message, screen, stacktrace)\nselenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom unknown error: cannot find Chrome binary; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception\nStacktrace:\n\tGetHandleVerifier [0x0x5cba83+63395]\n\tGetHandleVerifier [0x0x5cbac4+63460]\n\t(No symbol) [0x0x412113]\n\t(No symbol) [0x0x443c06]\n\t(No symbol) [0x0x4411a9]\n\t(No symbol) [0x0x48ae57]\n\t(No symbol) [0x0x48a74a]\n\t(No symbol) [0x0x47f1a6]\n\t(No symbol) [0x0x44e7b2]\n\t(No symbol) [0x0x44f654]\n\tGetHandleVerifier [0x0x848883+2672035]\n\tGetHandleVerifier [0x0x843cba+2652634]\n\tGetHandleVerifier [0x0x5f2bca+223466]\n\tGetHandleVerifier [0x0x5e2cb8+158168]\n\tGetHandleVerifier [0x0x5e978d+185517]\n\tGetHandleVerifier [0x0x5d3b78+96408]\n\tGetHandleVerifier [0x0x5d3d02+96802]\n\tGetHandleVerifier [0x0x5be90a+9770]\n\tBaseThreadInitThunk [0x0x76657ba9+25]\n\tRtlInitializeExceptionChain [0x0x7771c3ab+107]\n\tRtlClearBits [0x0x7771c32f+191]\n\n"
-        },
-        {
-          "name": "financial",
-          "status": "OK",
-          "started_at": "2026-05-20T12:41:30",
-          "ended_at": "2026-05-20T12:41:51"
-        },
-        {
-          "name": "stock",
-          "status": "FAILED",
-          "started_at": "2026-05-20T12:41:51",
-          "ended_at": "2026-05-20T12:41:52",
-          "error": "'날짜' is not in list",
-          "traceback": "Traceback (most recent call last):\n  File \"C:\\Agent_6.8\\src\\data_intake\\finance_intake\\runner.py\", line 541, in _step\n    func()\n  File \"C:\\Agent_6.8\\src\\data_intake\\finance_intake\\runner.py\", line 571, in <lambda>\n    _step(\"stock\", lambda: run_stock(StockConfig(stock_code=resolved_stock), sector=field))\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\src\\data_intake\\finance_intake\\runner.py\", line 248, in run_stock\n    old_df = pd.read_csv(output_path, index_col=\"날짜\", parse_dates=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\readers.py\", line 1026, in read_csv\n    return _read(filepath_or_buffer, kwds)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\readers.py\", line 620, in _read\n    parser = TextFileReader(filepath_or_buffer, **kwds)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\readers.py\", line 1620, in __init__\n    self._engine = self._make_engine(f, self.engine)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\readers.py\", line 1898, in _make_engine\n    return mapping[engine](f, **self.options)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\c_parser_wrapper.py\", line 162, in __init__\n    self._set_noconvert_columns()\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\c_parser_wrapper.py\", line 215, in _set_noconvert_columns\n    noconvert_columns = self._set_noconvert_dtype_columns(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\base_parser.py\", line 673, in _set_noconvert_dtype_columns\n    noconvert_columns.add(_set(k))\n                          ^^^^^^^\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\base_parser.py\", line 650, in _set\n    x = col_indices[names.index(x)]\n                    ^^^^^^^^^^^^^^\nValueError: '날짜' is not in list\n"
-        }
-      ]
+      "reason": "data_intake가 --skip-network로 실행되어 DART/주가/KIND 기반 finance_intake를 호출하지 않았습니다. 기존 finance 산출물이 있으면 finance_agent가 직접 읽습니다.",
+      "direct_command_example": "python -m data_intake.finance_intake.runner --mode all --stock 083450 --sector 반도체"
     },
     {
       "pipeline": "tech_intake",
-      "status": "WARN_STEP_FAILURE_WITH_FALLBACK",
-      "created_at": "2026-05-20T12:42:29",
+      "status": "READY_WITHOUT_AGENT",
+      "created_at": "2026-05-25T22:01:16",
       "field": "반도체",
       "company_dir": "gst",
       "company": "GST",
-      "tech_dir": "C:\\Agent_6.8\\data\\반도체\\GST\\tech",
-      "source_csv": "C:\\Agent_6.8\\data\\반도체\\GST\\tech\\gst_kipris_bibliographic_normalized.csv",
+      "tech_dir": "data/반도체/GST/tech",
+      "source_csv": "data/반도체/GST/tech/gst_kipris_bibliographic_normalized.csv",
       "template_inventory_status": "OK",
       "nepes_reference_files": [
-        "C:\\Agent_6.8\\data\\반도체\\GST\\tech\\_nepes_reference_schema\\tech_template_inventory.json",
-        "C:\\Agent_6.8\\data\\반도체\\GST\\tech\\_nepes_reference_schema\\tech_template_inventory.md",
-        "C:\\Agent_6.8\\data\\반도체\\GST\\tech\\_nepes_reference_schema\\tech_chair_summary.md",
-        "C:\\Agent_6.8\\data\\반도체\\GST\\tech\\_nepes_reference_schema\\nepes_tech_chair_summary.md",
-        "C:\\Agent_6.8\\data\\반도체\\GST\\tech\\_nepes_reference_schema\\tech_full_appendix.json",
-        "C:\\Agent_6.8\\data\\반도체\\GST\\tech\\_nepes_reference_schema\\nepes_tech_full_appendix.md",
-        "C:\\Agent_6.8\\data\\반도체\\GST\\tech\\_nepes_reference_schema\\tech_ip_evidence_composite.json",
-        "C:\\Agent_6.8\\data\\반도체\\GST\\tech\\_nepes_reference_schema\\tech_to_value_bridge_ip_evidence_adjusted.json"
+        "data/반도체/GST/tech/_nepes_reference_schema/tech_template_inventory.json",
+        "data/반도체/GST/tech/_nepes_reference_schema/tech_template_inventory.md",
+        "data/반도체/GST/tech/_nepes_reference_schema/tech_chair_summary.md",
+        "data/반도체/GST/tech/_nepes_reference_schema/nepes_tech_chair_summary.md",
+        "data/반도체/GST/tech/_nepes_reference_schema/tech_full_appendix.json",
+        "data/반도체/GST/tech/_nepes_reference_schema/nepes_tech_full_appendix.md",
+        "data/반도체/GST/tech/_nepes_reference_schema/tech_ip_evidence_composite.json",
+        "data/반도체/GST/tech/_nepes_reference_schema/tech_to_value_bridge_ip_evidence_adjusted.json"
       ],
       "alias_files_created": [],
-      "kipris_plus_network_enabled": true,
+      "kipris_plus_network_enabled": false,
+      "existing_kipris_data": {
+        "exists": true,
+        "sample_paths": [
+          "data/반도체/GST/tech/gst_kipris_bibliographic_normalized.csv",
+          "data/반도체/GST/tech/gst_kipris_citations_normalized.csv",
+          "data/반도체/GST/tech/gst_kipris_claims_normalized.csv",
+          "data/반도체/GST/tech/gst_kipris_family_normalized.csv",
+          "data/반도체/GST/tech/gst_kipris_patents_normalized.csv",
+          "data/반도체/GST/tech/gst_kipris_tech_ml_features.json",
+          "data/반도체/GST/tech/tech_ip_citation_features.json",
+          "data/반도체/GST/tech/tech_ip_claim_features.json",
+          "data/반도체/GST/tech/tech_ip_family_features.json",
+          "data/반도체/GST/tech/tech_ip_legal_features.json",
+          "data/반도체/_sector_common/tech/kipris_build_summary.json",
+          "data/반도체/_sector_common/tech/kipris_plus_fetch_summary.json"
+        ],
+        "count": 16
+      },
       "kipris_plus_network_config": {
         "has_key": true,
+        "has_biblio_endpoint": true,
         "has_claims_endpoint": true,
         "has_citation_endpoint": true,
         "has_family_endpoint": true,
-        "mode": "plus_network"
+        "mode": "existing_local_or_common_data"
       },
       "max_patents": 0,
       "kipris_plus_components_requested": [
+        "bibliographic",
         "citation",
         "claims",
         "family"
@@ -122,117 +117,85 @@
           "step": "build_tech_excel_quantified_metrics",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-20T12:41:52",
-          "ended_at": "2026-05-20T12:41:55",
-          "cmd": "C:\\Agent_6.8\\.venv\\Scripts\\python.exe C:\\Agent_6.8\\scripts\\build_tech_excel_quantified_metrics.py --field 반도체 --company-dir gst"
+          "started_at": "2026-05-25T22:01:05",
+          "ended_at": "2026-05-25T22:01:09",
+          "cmd": "C:\\Users\\8324f\\AppData\\Local\\Programs\\Python\\Python312\\python.exe C:\\Agent_6.9\\scripts\\build_tech_excel_quantified_metrics.py --field 반도체 --company-dir gst"
         },
         {
           "step": "prepare_kipris_bibliographic_normalized",
-          "status": "FAILED",
-          "returncode": 1,
-          "started_at": "2026-05-20T12:41:55",
-          "ended_at": "2026-05-20T12:41:56",
-          "cmd": "C:\\Agent_6.8\\.venv\\Scripts\\python.exe C:\\Agent_6.8\\scripts\\prepare_kipris_bibliographic_normalized.py --field 반도체 --company-name GST --company-slug gst"
+          "status": "DONE",
+          "returncode": 0,
+          "started_at": "2026-05-25T22:01:09",
+          "ended_at": "2026-05-25T22:01:10",
+          "cmd": "C:\\Users\\8324f\\AppData\\Local\\Programs\\Python\\Python312\\python.exe C:\\Agent_6.9\\scripts\\prepare_kipris_bibliographic_normalized.py --field 반도체 --company-name GST --company-slug gst"
         },
         {
           "step": "build_kipris_tech_ml_features",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-20T12:41:56",
-          "ended_at": "2026-05-20T12:41:57",
-          "cmd": "C:\\Agent_6.8\\.venv\\Scripts\\python.exe C:\\Agent_6.8\\scripts\\build_kipris_tech_ml_features.py --field 반도체 --company-name GST --company-slug gst"
+          "started_at": "2026-05-25T22:01:10",
+          "ended_at": "2026-05-25T22:01:11",
+          "cmd": "C:\\Users\\8324f\\AppData\\Local\\Programs\\Python\\Python312\\python.exe C:\\Agent_6.9\\scripts\\build_kipris_tech_ml_features.py --field 반도체 --company-name GST --company-slug gst"
         },
         {
           "step": "build_tech_ip_legal_features",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-20T12:41:57",
-          "ended_at": "2026-05-20T12:41:58",
-          "cmd": "C:\\Agent_6.8\\.venv\\Scripts\\python.exe C:\\Agent_6.8\\scripts\\build_tech_ip_legal_features.py --field 반도체 --company-name GST --company-slug gst"
-        },
-        {
-          "step": "fetch_kipris_plus_claims",
-          "status": "DONE",
-          "returncode": 0,
-          "started_at": "2026-05-20T12:41:58",
-          "ended_at": "2026-05-20T12:41:59",
-          "cmd": "C:\\Agent_6.8\\.venv\\Scripts\\python.exe C:\\Agent_6.8\\scripts\\fetch_kipris_plus_claims.py --field 반도체 --company-name GST --company-slug gst --max-patents 0 --sleep-sec 0.6 --timeout 60 --key-param accessKey --app-param applicationNumber"
-        },
-        {
-          "step": "fetch_kipris_plus_citations",
-          "status": "DONE",
-          "returncode": 0,
-          "started_at": "2026-05-20T12:41:59",
-          "ended_at": "2026-05-20T12:42:01",
-          "cmd": "C:\\Agent_6.8\\.venv\\Scripts\\python.exe C:\\Agent_6.8\\scripts\\fetch_kipris_plus_citations.py --field 반도체 --company-name GST --company-slug gst --max-patents 0 --sleep-sec 0.6 --timeout 60"
-        },
-        {
-          "step": "fetch_kipris_plus_family",
-          "status": "DONE",
-          "returncode": 0,
-          "started_at": "2026-05-20T12:42:01",
-          "ended_at": "2026-05-20T12:42:03",
-          "cmd": "C:\\Agent_6.8\\.venv\\Scripts\\python.exe C:\\Agent_6.8\\scripts\\fetch_kipris_plus_family.py --field 반도체 --company-name GST --company-slug gst --max-patents 0 --sleep-sec 0.6 --timeout 60 --key-param ServiceKey --app-param applicationNumber"
+          "started_at": "2026-05-25T22:01:11",
+          "ended_at": "2026-05-25T22:01:12",
+          "cmd": "C:\\Users\\8324f\\AppData\\Local\\Programs\\Python\\Python312\\python.exe C:\\Agent_6.9\\scripts\\build_tech_ip_legal_features.py --field 반도체 --company-name GST --company-slug gst"
         },
         {
           "step": "build_tech_ip_fallback_features",
-          "status": "FAILED",
-          "returncode": 1,
-          "started_at": "2026-05-20T12:42:03",
-          "ended_at": "2026-05-20T12:42:03",
-          "cmd": "C:\\Agent_6.8\\.venv\\Scripts\\python.exe C:\\Agent_6.8\\scripts\\build_tech_ip_fallback_features.py --field 반도체 --company-name GST --company-slug gst"
+          "status": "DONE",
+          "returncode": 0,
+          "started_at": "2026-05-25T22:01:12",
+          "ended_at": "2026-05-25T22:01:13",
+          "cmd": "C:\\Users\\8324f\\AppData\\Local\\Programs\\Python\\Python312\\python.exe C:\\Agent_6.9\\scripts\\build_tech_ip_fallback_features.py --field 반도체 --company-name GST --company-slug gst"
         },
         {
           "step": "build_tech_ip_evidence_composite",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-20T12:42:03",
-          "ended_at": "2026-05-20T12:42:03",
-          "cmd": "C:\\Agent_6.8\\.venv\\Scripts\\python.exe C:\\Agent_6.8\\scripts\\build_tech_ip_evidence_composite.py --field 반도체 --company-name GST --company-slug gst"
+          "started_at": "2026-05-25T22:01:13",
+          "ended_at": "2026-05-25T22:01:13",
+          "cmd": "C:\\Users\\8324f\\AppData\\Local\\Programs\\Python\\Python312\\python.exe C:\\Agent_6.9\\scripts\\build_tech_ip_evidence_composite.py --field 반도체 --company-name GST --company-slug gst"
         },
         {
           "step": "build_patent_semantic_fallback",
-          "status": "FAILED",
-          "returncode": 1,
-          "started_at": "2026-05-20T12:42:03",
-          "ended_at": "2026-05-20T12:42:07",
-          "cmd": "C:\\Agent_6.8\\.venv\\Scripts\\python.exe C:\\Agent_6.8\\scripts\\build_patent_semantic_fallback.py --company-dir gst --company GST"
+          "status": "DONE",
+          "returncode": 0,
+          "started_at": "2026-05-25T22:01:13",
+          "ended_at": "2026-05-25T22:01:13",
+          "cmd": "C:\\Users\\8324f\\AppData\\Local\\Programs\\Python\\Python312\\python.exe C:\\Agent_6.9\\scripts\\build_patent_semantic_fallback.py --company-dir gst --company GST"
         },
         {
           "step": "run_tech_ip_ml",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-20T12:42:07",
-          "ended_at": "2026-05-20T12:42:10",
-          "cmd": "C:\\Agent_6.8\\.venv\\Scripts\\python.exe C:\\Agent_6.8\\scripts\\run_tech_ip_ml.py --company-dir gst"
+          "started_at": "2026-05-25T22:01:13",
+          "ended_at": "2026-05-25T22:01:15",
+          "cmd": "C:\\Users\\8324f\\AppData\\Local\\Programs\\Python\\Python312\\python.exe C:\\Agent_6.9\\scripts\\run_tech_ip_ml.py --company-dir gst"
         },
         {
           "step": "run_tech_ml_signal",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-20T12:42:10",
-          "ended_at": "2026-05-20T12:42:13",
-          "cmd": "C:\\Agent_6.8\\.venv\\Scripts\\python.exe C:\\Agent_6.8\\scripts\\run_tech_ml_signal.py --company-dir gst --company GST"
+          "started_at": "2026-05-25T22:01:15",
+          "ended_at": "2026-05-25T22:01:16",
+          "cmd": "C:\\Users\\8324f\\AppData\\Local\\Programs\\Python\\Python312\\python.exe C:\\Agent_6.9\\scripts\\run_tech_ml_signal.py --company-dir gst --company GST"
         },
         {
           "step": "check_ip_evidence_bridge_one",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-20T12:42:13",
-          "ended_at": "2026-05-20T12:42:13",
-          "cmd": "C:\\Agent_6.8\\.venv\\Scripts\\python.exe C:\\Agent_6.8\\scripts\\check_ip_evidence_bridge_one.py --tech C:\\Agent_6.8\\data\\반도체\\GST\\tech --slug gst --company-name GST"
-        },
-        {
-          "step": "main_py_tech_agent",
-          "status": "DONE",
-          "returncode": 0,
-          "started_at": "2026-05-20T12:42:13",
-          "ended_at": "2026-05-20T12:42:29",
-          "cmd": "C:\\Agent_6.8\\.venv\\Scripts\\python.exe C:\\Agent_6.8\\main.py tech --company-dir gst --company GST"
+          "started_at": "2026-05-25T22:01:16",
+          "ended_at": "2026-05-25T22:01:16",
+          "cmd": "C:\\Users\\8324f\\AppData\\Local\\Programs\\Python\\Python312\\python.exe C:\\Agent_6.9\\scripts\\check_ip_evidence_bridge_one.py --tech C:\\Agent_6.9\\data\\반도체\\GST\\tech --slug gst --company-name GST"
         }
       ],
       "artifacts": {
-        "file_count": 84,
+        "file_count": 89,
         "required_missing": [],
         "optional_exists": {
           "source_csv": true,
@@ -255,6 +218,9 @@
           "gst_kipris_claims_normalized.csv",
           "gst_kipris_family_normalized.csv",
           "gst_kipris_patents_normalized.csv",
+          "gst_kipris_plus_bibliographic_request_log.json",
+          "gst_kipris_plus_bibliographic_summary.json",
+          "gst_kipris_plus_bibliographic_summary.md",
           "gst_kipris_plus_claim_request_targets.csv",
           "gst_kipris_plus_family_request_targets.csv",
           "gst_kipris_plus_request_targets.csv",
@@ -312,6 +278,8 @@
           "tech_extra_intake_packet.json",
           "tech_full_appendix.json",
           "tech_full_appendix.md",
+          "tech_history_features_2025-08-31.csv",
+          "tech_history_features_2025-08-31.json",
           "tech_intake_manifest.json",
           "tech_intake_manifest.md",
           "tech_intake_value_evidence.json",
@@ -342,17 +310,24 @@
     {
       "pipeline": "valuation_intake",
       "status": "OK",
-      "created_at": "2026-05-20T12:43:34",
-      "started_at": "2026-05-20T12:42:30",
+      "created_at": "2026-05-25T22:01:16",
+      "started_at": "2026-05-25T22:01:16",
       "company": "GST",
       "company_dir": "gst",
-      "skip_network": false,
+      "skip_network": true,
       "years": 5,
+      "start_date": "2021-01-01",
+      "end_date": "2026-05-25",
+      "collection_range": {
+        "start_date": "2021-01-01",
+        "end_date": "2026-05-25"
+      },
       "outputs": {
         "intake_dir": "data/반도체/GST/valuation/intake",
         "valuation_source_map": "data/반도체/GST/valuation/intake/valuation_source_map.json",
         "template_catalog_csv": "data/반도체/GST/valuation/intake/valuation_modeling_template_catalog.csv",
         "template_catalog_json": "data/반도체/GST/valuation/intake/valuation_modeling_template_catalog.json",
+        "eval_price_history_v45_csv": "data/반도체/GST/valuation/intake/eval_price_history_v45.csv",
         "raw_dart_accounts_csv": "data/반도체/GST/valuation/intake/valuation_raw_dart_accounts.csv",
         "normalized_financials_csv": "data/반도체/GST/valuation/intake/valuation_normalized_financials.csv",
         "price_history_csv": "data/반도체/GST/valuation/intake/valuation_price_history.csv",
@@ -367,49 +342,48 @@
         "reference_universe_summary_json": "data/반도체/GST/valuation/intake/valuation_reference_universe_summary.json"
       },
       "counts": {
-        "raw_dart_accounts": 1094,
-        "normalized_financial_years": 5,
-        "price_rows": 1223,
-        "share_count_rows": 20,
-        "market_snapshot_metric_count": 19,
+        "raw_dart_accounts": 0,
+        "normalized_financial_years": 4,
+        "price_rows": 1142,
+        "share_count_rows": 0,
+        "market_snapshot_metric_count": 1,
         "peer_rows": 5,
         "reference_universe_rows": 208,
         "reference_focus_rows": 40,
         "template_archetypes": 9
       },
       "price_summary": {
-        "latest_close": 53300.0,
-        "first_close": 13325.0,
-        "return_total": 3.0,
-        "return_1y": 1.864051585169264,
-        "volatility_annualized": 0.5615114014053548,
+        "latest_close": 20100.0,
+        "first_close": 8650.0,
+        "return_total": 1.3236994219653178,
+        "return_1y": 0.14857142857142858,
+        "volatility_annualized": 0.5216910073520283,
         "mdd": -0.5678048780487805,
-        "high_52w": 66500.0,
-        "low_52w": 17350.0,
-        "shares_outstanding": 18430000.0,
-        "market_cap": 982319000000.0,
-        "latest_volume": 254706.0,
-        "latest_trading_value": 13575829800.0,
-        "avg_trading_value_20d": 25987367140.0,
-        "avg_volume_20d": 472364.7,
-        "turnover_latest": 0.013820184481823114,
-        "turnover_20d": 0.025630206185567012,
-        "price_rows": 1223,
-        "price_start": "2021-05-20",
-        "price_end": "2026-05-20"
+        "high_52w": 21850.0,
+        "low_52w": 13770.0,
+        "shares_outstanding": null,
+        "market_cap": null,
+        "latest_volume": 106005.0,
+        "latest_trading_value": 2130700500.0,
+        "avg_trading_value_20d": 3458657487.0,
+        "avg_volume_20d": 176257.4,
+        "turnover_latest": null,
+        "turnover_20d": null,
+        "price_rows": 1142,
+        "price_start": "2021-01-04",
+        "price_end": "2025-08-29"
       },
       "share_summary": {
-        "shares_outstanding": 18430000.0,
-        "share_count_year": 2025,
-        "share_count_class": "합계",
-        "share_count_source": "OpenDART_stockTotqySttus"
+        "shares_outstanding": null,
+        "share_count_year": null,
+        "share_count_source": null
       },
       "reference_universe_summary": {
         "status": "OK",
-        "created_at": "2026-05-20T12:42:30",
+        "created_at": "2026-05-25T22:01:16",
         "reference_universe_rows": 208,
         "focus_rows": 40,
-        "focal_5_rows": 5,
+        "focal_5_rows": 30,
         "target_company": "GST",
         "target_peer_group": "장비",
         "target_peer_group_size": 50,
@@ -417,13 +391,13 @@
         "high_risk_rows": 67,
         "target_reference_row": {
           "universe_rank": 74,
-          "company_dir": "",
+          "company_dir": "gst",
           "company_name": "GST",
           "ticker6": "083450",
           "market": "KOSDAQ",
           "peer_group": "장비",
           "semiconductor_tag": "장비",
-          "is_focal_5": false,
+          "is_focal_5": true,
           "market_data_available": true,
           "data_quality_status": "OK",
           "data_quality_status_kr": "데이터 사용 가능",
@@ -451,28 +425,47 @@
         },
         "note": "Valuation Agent는 live DCF/PSR 산출과 별도로 208개 반도체 universe의 proxy score를 활용해 상대 위치를 보조 판단합니다.",
         "source_path": "data/반도체/_sector_common/ml_universe/valuation_credit_ml_overlay_candidate.csv",
-        "exported_at": "2026-05-20T12:42:30"
+        "exported_at": "2026-05-25T22:01:16"
       },
       "diagnostics": [
-        "DART API key detected for valuation intake.",
-        "DART corp_code resolved from cache for GST/083450.",
-        "DART financial rows collected: 2021=194, 2022=210, 2023=212, 2024=227, 2025=251",
-        "yfinance price rows for 083450.KQ: 1223",
-        "price provider selected: yfinance, rows=1223",
-        "DART corp_code resolved from cache for GST/083450.",
-        "Naver market snapshot collected: per_naver, pbr_naver, eps_naver, dividend_yield_pct_naver, bps_naver",
-        "peer:nepes: price provider selected: yfinance, rows=728",
-        "peer:nepes: DART corp_code resolved from cache for 네패스/033640.",
-        "peer:hanmi: price provider selected: yfinance, rows=728",
-        "peer:hanmi: DART corp_code resolved from cache for 한미반도체/042700.",
-        "peer:hansol: price provider selected: yfinance, rows=728",
-        "peer:hansol: DART corp_code resolved from cache for 한솔케미칼/014680.",
-        "peer:duksan: price provider selected: yfinance, rows=728",
-        "peer:duksan: DART corp_code resolved from cache for 덕산테코피아/317330.",
-        "peer:ltc: price provider selected: yfinance, rows=727",
-        "peer:ltc: DART corp_code resolved from cache for 엘티씨/170920.",
-        "Market snapshot enriched with live/derived metrics count=19."
-      ]
+        "skip_network=True: live DART/price collection skipped by user option.",
+        "local financial fallback loaded rows=4 from C:\\Agent_6.9\\data\\반도체\\GST\\finance\\GST_재무.csv.",
+        "financial rows merged with local fallback: primary=0, fallback=4, merged=4.",
+        "local price fallback loaded rows=1142 from C:\\Agent_6.9\\data\\반도체\\GST\\valuation\\intake\\valuation_price_history.csv.",
+        "price rows merged with local fallback: primary=0, fallback=1142, merged=1142.",
+        "Market snapshot enriched with live/derived metrics count=1."
+      ],
+      "as_of_date": "",
+      "eval_valuation_enhancer": {
+        "version": "v35",
+        "as_of_date": "",
+        "intake_files": [
+          "company_profile.json",
+          "financials_raw.csv",
+          "financials_normalized.csv",
+          "price_history.csv",
+          "shares_outstanding.csv",
+          "dilution_events.csv",
+          "valuation_assumptions.csv",
+          "peer_multiples.csv",
+          "dcf_inputs.json",
+          "relative_valuation_inputs.json",
+          "cross_agent_signals_for_valuation.json"
+        ],
+        "row_counts": {
+          "financials_normalized": 4,
+          "price_history": 1142,
+          "shares_outstanding": 16,
+          "dilution_events": 1,
+          "peer_multiples": 5,
+          "valuation_assumptions": 1
+        },
+        "sector_common_dir": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\valuation",
+        "notes": [
+          "All dated rows are filtered to VALUATION_AS_OF_DATE / ALPHAPROVE_DATA_CUTOFF_DATE when provided.",
+          "No Buy/Hold/Sell thresholds are applied here; only continuous feature signals are prepared."
+        ]
+      }
     }
   ]
 }

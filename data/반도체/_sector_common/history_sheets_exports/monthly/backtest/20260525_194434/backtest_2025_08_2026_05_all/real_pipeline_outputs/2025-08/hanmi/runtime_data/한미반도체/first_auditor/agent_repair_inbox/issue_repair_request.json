@@ -1,0 +1,868 @@
+{
+  "repair_schema_version": "first_auditor_v4_with_web_crosscheck",
+  "created_at": "2026-04-29T09:17:54.777719+00:00",
+  "company_dir": "hanmi",
+  "company": "한미반도체",
+  "target_agent": "issue",
+  "pass_condition": "actual_match_ratio >= 75%",
+  "current_actual_match_ratio": 0.74,
+  "local_issues": [
+    "evidence_contract enforcement failed: enforce_evidence_contract() missing 1 required keyword-only argument: 'agent_name'"
+  ],
+  "contract": {
+    "score": 0.965,
+    "evidence_count": 10,
+    "strong_evidence_count": 9,
+    "claim_count": 4,
+    "evidence_id_coverage": 1.0,
+    "valid_evidence_ref_coverage": 1.0,
+    "non_self_evidence_coverage": 0.9
+  },
+  "claim_scores": [
+    {
+      "score": 0.9637,
+      "text_support": 0.375,
+      "numeric_support": 1.0,
+      "has_strong_evidence": true,
+      "has_any_evidence": true,
+      "claim_index": 1,
+      "claim_text": "한미반도체 관련 RSS 제목: Blog Review: Apr. 29",
+      "evidence_ids": [
+        "issue.ev.006"
+      ],
+      "selected_evidence_count": 1
+    },
+    {
+      "score": 1.0,
+      "text_support": 0.5,
+      "numeric_support": 1.0,
+      "has_strong_evidence": true,
+      "has_any_evidence": true,
+      "claim_index": 2,
+      "claim_text": "news_count 값은 0count입니다.",
+      "evidence_ids": [
+        "issue.ev.001"
+      ],
+      "selected_evidence_count": 1
+    },
+    {
+      "score": 1.0,
+      "text_support": 0.5,
+      "numeric_support": 1.0,
+      "has_strong_evidence": true,
+      "has_any_evidence": true,
+      "claim_index": 3,
+      "claim_text": "rss_count 값은 13count입니다.",
+      "evidence_ids": [
+        "issue.ev.002"
+      ],
+      "selected_evidence_count": 1
+    },
+    {
+      "score": 1.0,
+      "text_support": 0.6,
+      "numeric_support": 1.0,
+      "has_strong_evidence": true,
+      "has_any_evidence": true,
+      "claim_index": 4,
+      "claim_text": "related_keyword_count 값은 1count입니다.",
+      "evidence_ids": [
+        "issue.ev.003"
+      ],
+      "selected_evidence_count": 1
+    }
+  ],
+  "llm_reason": "AUDITOR LLM failed: Request timed out.",
+  "unsupported_claims": [],
+  "web_crosscheck": {
+    "score": 0.6875,
+    "pass": false,
+    "reason": "Serper 검색 결과와 local evidence를 함께 사용해 claim 단위 검증을 수행했습니다.",
+    "unsupported_claims": [
+      {
+        "agent": "issue",
+        "claim_id": "issue.cl.006",
+        "text": "한미반도체 관련 RSS 제목: Blog Review: Apr. 29",
+        "evidence_ids": [
+          "issue.ev.006"
+        ],
+        "verdict": "not_enough",
+        "score": 0.2,
+        "reason": "claim의 evidence_ids가 사용 가능한 evidences와 연결되지 않았습니다.",
+        "web_query": "한미반도체 한미반도체 관련 RSS 제목: Blog Review: Apr. 29",
+        "web_search_used": true,
+        "search_results": [
+          {
+            "title": "한미반도체 재무제표와 AI 반도체 수혜 전망 정리 : 네이버 블로그",
+            "link": "https://blog.naver.com/79gytn/224260381663?fromRss=true&trackingCode=rss",
+            "snippet": "오늘 알려드릴 한미반도체는 반도체 후공정 장비를 전문으로 생산하는 기업으로, AI 시대 핵심 부품 HBM 생산에 필수적인 TC 본더 장비에서 글로벌 시장 1 ...",
+            "source": ""
+          },
+          {
+            "title": "AI가 가설 세우고 실험·논문까지 …\"인간과학자 자리 빼앗을 것\"",
+            "link": "https://www.mk.co.kr/news/it/12028713",
+            "snippet": "구글은 2025년 'AI 과학자로 과학적 돌파구 가속화하기'라는 글을 자사 블로그에 올렸다. 연구자가 큰 질문을 입력하면 AI가 구체적인 가설과 실험 ...",
+            "source": ""
+          },
+          {
+            "title": "KIET 산업연구원 - Q&A",
+            "link": "https://www.kiet.re.kr/apply/qnaView",
+            "snippet": "연구를 진행함에 있어 지역발전지수,주민활력지수 및 이외 교육관련 세부 지표가 반영된 지수의 의미, 산출과정, 시계열적 산출결과에 대한 자료를 요청을 드리려고 합니다 ...",
+            "source": ""
+          },
+          {
+            "title": "한국미래일보",
+            "link": "https://www.koreafuture.co.kr/news/search.php?&sm=&stx=&stx2=&w_section1=&sdate=&edate=&page=2785",
+            "snippet": "더 나은 내일을 위한 도약! 미래로 향하는 정확한 정보를 전합니다. 교육, 정치, 경제, 문화, 사회, IT/SW, 칼럼 등 세션별 뉴스, 인터뷰 제공.",
+            "source": ""
+          },
+          {
+            "title": "그것은 알기 싫다",
+            "link": "http://xsfm.co.kr/xml/idwk.xml",
+            "snippet": "... 정리된 죽음의 기록. 2015 상반기 재보궐선거 데이터센트럴 2015.04.29. 재보궐선거 데이터센트럴 /00:05:18 기본사항 /00:16:36 국회의원 서울 관악구 을 /01:10:05 ...",
+            "source": ""
+          }
+        ],
+        "matched_evidence_ids": [],
+        "cited_sources": []
+      }
+    ]
+  },
+  "current_opinion_json": {
+    "agent": "issue",
+    "company_name": "한미반도체",
+    "company": "한미반도체",
+    "opinion": "보유",
+    "confidence": 0.55,
+    "summary": "한미반도체에 대해 검증 가능한 핵심 근거는 다음과 같습니다. 한미반도체 관련 RSS 제목: Blog Review: Apr. 29 news_count 값은 0count입니다. rss_count 값은 13count입니다. related_keyword_count 값은 1count입니다.",
+    "key_points": [
+      "한미반도체 관련 RSS 제목: Blog Review: Apr. 29",
+      "news_count 값은 0count입니다.",
+      "rss_count 값은 13count입니다.",
+      "related_keyword_count 값은 1count입니다."
+    ],
+    "risks": [],
+    "claims": [
+      {
+        "claim_id": "issue.cl.006",
+        "text": "한미반도체 관련 RSS 제목: Blog Review: Apr. 29",
+        "evidence_ids": [
+          "issue.ev.006"
+        ]
+      },
+      {
+        "claim_id": "issue.auto_cl.002",
+        "text": "news_count 값은 0count입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "claim_type": "point"
+      },
+      {
+        "claim_id": "issue.auto_cl.004",
+        "text": "rss_count 값은 13count입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "claim_type": "point"
+      },
+      {
+        "claim_id": "issue.auto_cl.006",
+        "text": "related_keyword_count 값은 1count입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "claim_type": "point"
+      }
+    ],
+    "evidences": [
+      {
+        "evidence_id": "issue.ev.001",
+        "source_type": "issue",
+        "source": "issue_data_collection",
+        "metric": "news_count",
+        "value": 0,
+        "unit": "count",
+        "period": null,
+        "snippet": "issue_data_collection | news_count | 값: 0count"
+      },
+      {
+        "evidence_id": "issue.ev.002",
+        "source_type": "issue",
+        "source": "issue_data_collection",
+        "metric": "rss_count",
+        "value": 13,
+        "unit": "count",
+        "period": null,
+        "snippet": "issue_data_collection | rss_count | 값: 13count"
+      },
+      {
+        "evidence_id": "issue.ev.003",
+        "source_type": "issue",
+        "source": "issue_keywords_workbook",
+        "metric": "related_keyword_count",
+        "value": 1,
+        "unit": "count",
+        "period": null,
+        "snippet": "issue_keywords_workbook | related_keyword_count | 값: 1count"
+      },
+      {
+        "evidence_id": "issue.ev.004",
+        "source_type": "issue_rss",
+        "source": "Semiconductor Engineering",
+        "metric": "rss_title",
+        "value": null,
+        "unit": null,
+        "period": "Wed, 29 Apr 2026 07:02:56 +0000",
+        "snippet": "Semiconductor Engineering | Wed, 29 Apr 2026 07:02:56 +0000 기준 rss_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.005",
+        "source_type": "issue_rss",
+        "source": "Semiconductor Engineering",
+        "metric": "rss_title",
+        "value": null,
+        "unit": null,
+        "period": "Wed, 29 Apr 2026 07:01:53 +0000",
+        "snippet": "Semiconductor Engineering | Wed, 29 Apr 2026 07:01:53 +0000 기준 rss_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.006",
+        "source_type": "issue_rss",
+        "source": "Semiconductor Engineering",
+        "metric": "rss_title",
+        "value": null,
+        "unit": null,
+        "period": "Wed, 29 Apr 2026 07:01:37 +0000",
+        "snippet": "Semiconductor Engineering | Wed, 29 Apr 2026 07:01:37 +0000 기준 rss_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.007",
+        "source_type": "issue_rss",
+        "source": "Semiconductor Engineering",
+        "metric": "rss_title",
+        "value": null,
+        "unit": null,
+        "period": "Wed, 29 Apr 2026 07:01:11 +0000",
+        "snippet": "Semiconductor Engineering | Wed, 29 Apr 2026 07:01:11 +0000 기준 rss_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.008",
+        "source_type": "issue_rss",
+        "source": "Semiconductor Engineering",
+        "metric": "rss_title",
+        "value": null,
+        "unit": null,
+        "period": "Wed, 29 Apr 2026 07:01:05 +0000",
+        "snippet": "Semiconductor Engineering | Wed, 29 Apr 2026 07:01:05 +0000 기준 rss_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.009",
+        "source_type": "issue_keyword",
+        "source": "issue_keywords_workbook",
+        "metric": "keyword_row",
+        "value": null,
+        "unit": "건",
+        "period": null,
+        "snippet": "issue_keywords_workbook | keyword_row | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.unverified",
+        "source_type": "agent_output_unverified",
+        "source": "issue_output",
+        "metric": null,
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "검증 가능한 원천 evidence가 부족합니다."
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "issue.ev.001",
+        "source_type": "issue",
+        "source": "issue_data_collection",
+        "metric": "news_count",
+        "value": 0,
+        "unit": "count",
+        "period": null,
+        "snippet": "issue_data_collection | news_count | 값: 0count"
+      },
+      {
+        "evidence_id": "issue.ev.002",
+        "source_type": "issue",
+        "source": "issue_data_collection",
+        "metric": "rss_count",
+        "value": 13,
+        "unit": "count",
+        "period": null,
+        "snippet": "issue_data_collection | rss_count | 값: 13count"
+      },
+      {
+        "evidence_id": "issue.ev.003",
+        "source_type": "issue",
+        "source": "issue_keywords_workbook",
+        "metric": "related_keyword_count",
+        "value": 1,
+        "unit": "count",
+        "period": null,
+        "snippet": "issue_keywords_workbook | related_keyword_count | 값: 1count"
+      },
+      {
+        "evidence_id": "issue.ev.004",
+        "source_type": "issue_rss",
+        "source": "Semiconductor Engineering",
+        "metric": "rss_title",
+        "value": null,
+        "unit": null,
+        "period": "Wed, 29 Apr 2026 07:02:56 +0000",
+        "snippet": "Semiconductor Engineering | Wed, 29 Apr 2026 07:02:56 +0000 기준 rss_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.005",
+        "source_type": "issue_rss",
+        "source": "Semiconductor Engineering",
+        "metric": "rss_title",
+        "value": null,
+        "unit": null,
+        "period": "Wed, 29 Apr 2026 07:01:53 +0000",
+        "snippet": "Semiconductor Engineering | Wed, 29 Apr 2026 07:01:53 +0000 기준 rss_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.006",
+        "source_type": "issue_rss",
+        "source": "Semiconductor Engineering",
+        "metric": "rss_title",
+        "value": null,
+        "unit": null,
+        "period": "Wed, 29 Apr 2026 07:01:37 +0000",
+        "snippet": "Semiconductor Engineering | Wed, 29 Apr 2026 07:01:37 +0000 기준 rss_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.007",
+        "source_type": "issue_rss",
+        "source": "Semiconductor Engineering",
+        "metric": "rss_title",
+        "value": null,
+        "unit": null,
+        "period": "Wed, 29 Apr 2026 07:01:11 +0000",
+        "snippet": "Semiconductor Engineering | Wed, 29 Apr 2026 07:01:11 +0000 기준 rss_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.008",
+        "source_type": "issue_rss",
+        "source": "Semiconductor Engineering",
+        "metric": "rss_title",
+        "value": null,
+        "unit": null,
+        "period": "Wed, 29 Apr 2026 07:01:05 +0000",
+        "snippet": "Semiconductor Engineering | Wed, 29 Apr 2026 07:01:05 +0000 기준 rss_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.009",
+        "source_type": "issue_keyword",
+        "source": "issue_keywords_workbook",
+        "metric": "keyword_row",
+        "value": null,
+        "unit": "건",
+        "period": null,
+        "snippet": "issue_keywords_workbook | keyword_row | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.unverified",
+        "source_type": "agent_output_unverified",
+        "source": "issue_output",
+        "metric": null,
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "검증 가능한 원천 evidence가 부족합니다."
+      }
+    ],
+    "fallback_used": false,
+    "warning_note": "검증 불가 claim 5개를 제거한 뒤 grounding 기준을 재검증했습니다.",
+    "raw_payload": {
+      "analysis_text": "opinion: 보유\nconfidence: 0.35\n\n1. 핵심 이슈 요약\n제공된 RSS 및 뉴스 문맥은 반도체 산업 전반의 기술 트렌드 (3D 적층, AI 칩 설계, 칩릿, 열 관리, 보안 검증 등) 를 다루고 있으나, **한미반도체 (Hanmi Semiconductor) 와 직접적으로 연관된 구체적인 뉴스, 수주 소식, 실적 발표, 또는 기술 제휴 내용은 포함되어 있지 않습니다.** 제공된 자료는 'Semiconductor Engineering'의 일반 산업 리포트 및 학술 논문 요약으로 구성되어 있어, 특정 기업에 대한 투자 판단을 내리기에는 직접적인 근거가 부족합니다.\n\n2. 기업에 미치는 영향\n*   **직접적 영향:** 제공된 데이터 내에는 한미반도체의 매출, 수주, 기술 개발 현황에 대한 언급이 없어 직접적인 긍정/부정 영향을 분석할 수 없습니다.\n*   **간접적 영향:** RSS 내용에서 언급된 'Advanced Packaging (고급 패키징)', '3D Stacked', 'Chiplet', 'Thermal Management (열 관리)' 기술 트렌드는 한미반도체의 주력 사업인 웨이퍼 프로세스 장비 (특히 접합, 식각, 증착 등) 수요와 연관성이 높은 분야입니다. 산업 전체가 이러한 기술로 전환되고 있다는 점은 장기적인 시장 확대 시그널로 해석될 수 있으나, 이는 산업 전체의 흐름일 뿐 특정 기업의 실적 보장은 아닙니다.\n\n3. 긍정 시그널\n*   **산업 트렌드 부합:** 제공된 RSS 자료들은 AI 칩 설계를 위한 'Advanced Packaging', '3D 적층', 'Chiplet' 기술의 중요성이 급증하고 있음을 시사합니다. 한미반도체는 이러한 고급 패키징 공정 장비 시장에서 주요 플레이어로서, 산업 트렌드가 가속화될 경우 간접적인 수혜 가능성이 존재합니다.\n*   **기술적 필요성 증대:** 'Thermal Management (열 관리)', 'ESD Protection (정전기 방호)', 'Formal Verification (형식 검증)' 등 고급 패키징과 관련된 기술적 난제들이 부각되고 있으며, 이는 이를 해결하기 위한 정밀 공정 장비의 수요 증가로 이어질 수 있는 산업적 배경입니다.\n\n4. 부정 시그널/리스크\n*   **직접적 근거 부재:** 한미반도체의 구체적인 호재 (수주, 신제품 출시, 실적 호전 등) 가 제공된 데이터에 전혀 포함되어 있지 않아, 현재 시점에서의 매수 근거를 확보할 수 없습니다.\n*   **정보의 일반성:** 제공된 RSS 내용은 학술 연구 (University of Edinburgh, Georgia Tech 등) 및 일반적인 산업 분석 (Infineon, UC Riverside 등) 에 치중되어 있어, 한미반도체의 경쟁력이나 현재 상황을 반영하지 못합니다.\n*   **추정 금지 원칙:** 데이터에 없는 사실 (예: 한미반도체가 특정 논문 기술을 적용했다거나, 특정 패키징 장비 수주를 했다거나 하는 내용) 을 추정하여 긍정적으로 해석할 수 없습니다.\n\n5. 향후 체크포인트\n*   **한미반도체 특화 뉴스 확인:** 'Advanced Packaging', '3D 적층', 'AI 반도체' 관련 장비 수주 내역이나 기술 개발 진척도에 대한 한미반도체 공식 보도자료 확인 필요.\n*   **실적 및 수주 동향:** 고급 패키징 장비 (접합, 식각 등) 에 대한 실제 수주 잔고 및 매출 기여도 변화 확인.\n*   **경쟁사 동향:** 동종 업계 (LSI, Applied Materials 등) 의 고급 패키징 장비 관련 동향을 통해 한미반도체의 시장 위치 재평가.\n\n**결론:** 제공된 RSS 자료는 반도체 산업의 거시적 기술 트렌드를 보여주지만, 한미반도체라는 특정 기업에 대한 투자 판단을 내릴 수 있는 구체적인 근거 (수주, 실적, 기술 적용 사례 등) 가 부족합니다. 따라서 산업 호황에 따른 잠재적 수혜 가능성을 배제할 수 없으나, 현재 데이터만으로는 방향성을 단정하기 어려워 '보유' 의견을 제시합니다.",
+      "markdown_report": "# 한미반도체 이슈 리포트\n\n## 내부 연관 키워드\n\n## 분석 결과\nopinion: 보유\nconfidence: 0.35\n\n1. 핵심 이슈 요약\n제공된 RSS 및 뉴스 문맥은 반도체 산업 전반의 기술 트렌드 (3D 적층, AI 칩 설계, 칩릿, 열 관리, 보안 검증 등) 를 다루고 있으나, **한미반도체 (Hanmi Semiconductor) 와 직접적으로 연관된 구체적인 뉴스, 수주 소식, 실적 발표, 또는 기술 제휴 내용은 포함되어 있지 않습니다.** 제공된 자료는 'Semiconductor Engineering'의 일반 산업 리포트 및 학술 논문 요약으로 구성되어 있어, 특정 기업에 대한 투자 판단을 내리기에는 직접적인 근거가 부족합니다.\n\n2. 기업에 미치는 영향\n*   **직접적 영향:** 제공된 데이터 내에는 한미반도체의 매출, 수주, 기술 개발 현황에 대한 언급이 없어 직접적인 긍정/부정 영향을 분석할 수 없습니다.\n*   **간접적 영향:** RSS 내용에서 언급된 'Advanced Packaging (고급 패키징)', '3D Stacked', 'Chiplet', 'Thermal Management (열 관리)' 기술 트렌드는 한미반도체의 주력 사업인 웨이퍼 프로세스 장비 (특히 접합, 식각, 증착 등) 수요와 연관성이 높은 분야입니다. 산업 전체가 이러한 기술로 전환되고 있다는 점은 장기적인 시장 확대 시그널로 해석될 수 있으나, 이는 산업 전체의 흐름일 뿐 특정 기업의 실적 보장은 아닙니다.\n\n3. 긍정 시그널\n*   **산업 트렌드 부합:** 제공된 RSS 자료들은 AI 칩 설계를 위한 'Advanced Packaging', '3D 적층', 'Chiplet' 기술의 중요성이 급증하고 있음을 시사합니다. 한미반도체는 이러한 고급 패키징 공정 장비 시장에서 주요 플레이어로서, 산업 트렌드가 가속화될 경우 간접적인 수혜 가능성이 존재합니다.\n*   **기술적 필요성 증대:** 'Thermal Management (열 관리)', 'ESD Protection (정전기 방호)', 'Formal Verification (형식 검증)' 등 고급 패키징과 관련된 기술적 난제들이 부각되고 있으며, 이는 이를 해결하기 위한 정밀 공정 장비의 수요 증가로 이어질 수 있는 산업적 배경입니다.\n\n4. 부정 시그널/리스크\n*   **직접적 근거 부재:** 한미반도체의 구체적인 호재 (수주, 신제품 출시, 실적 호전 등) 가 제공된 데이터에 전혀 포함되어 있지 않아, 현재 시점에서의 매수 근거를 확보할 수 없습니다.\n*   **정보의 일반성:** 제공된 RSS 내용은 학술 연구 (University of Edinburgh, Georgia Tech 등) 및 일반적인 산업 분석 (Infineon, UC Riverside 등) 에 치중되어 있어, 한미반도체의 경쟁력이나 현재 상황을 반영하지 못합니다.\n*   **추정 금지 원칙:** 데이터에 없는 사실 (예: 한미반도체가 특정 논문 기술을 적용했다거나, 특정 패키징 장비 수주를 했다거나 하는 내용) 을 추정하여 긍정적으로 해석할 수 없습니다.\n\n5. 향후 체크포인트\n*   **한미반도체 특화 뉴스 확인:** 'Advanced Packaging', '3D 적층', 'AI 반도체' 관련 장비 수주 내역이나 기술 개발 진척도에 대한 한미반도체 공식 보도자료 확인 필요.\n*   **실적 및 수주 동향:** 고급 패키징 장비 (접합, 식각 등) 에 대한 실제 수주 잔고 및 매출 기여도 변화 확인.\n*   **경쟁사 동향:** 동종 업계 (LSI, Applied Materials 등) 의 고급 패키징 장비 관련 동향을 통해 한미반도체의 시장 위치 재평가.\n\n**결론:** 제공된 RSS 자료는 반도체 산업의 거시적 기술 트렌드를 보여주지만, 한미반도체라는 특정 기업에 대한 투자 판단을 내릴 수 있는 구체적인 근거 (수주, 실적, 기술 적용 사례 등) 가 부족합니다. 따라서 산업 호황에 따른 잠재적 수혜 가능성을 배제할 수 없으나, 현재 데이터만으로는 방향성을 단정하기 어려워 '보유' 의견을 제시합니다.\n",
+      "news_count": 0,
+      "rss_count": 13,
+      "related_keyword_count": 1,
+      "df_news_rows": 139,
+      "llm_error": null,
+      "graph_claims_original": [],
+      "removed_ungrounded_claims": [
+        "한미반도체 관련 RSS 제목: Assuring Comprehensive Security Coverage In Hardware Design",
+        "한미반도체 관련 RSS 제목: How Long Will CAN Stick Around As Rival Networks Speed Up?",
+        "한미반도체 이슈 분석에서 수집된 RSS 항목 수는 13건입니다.",
+        "한미반도체 이슈 분석에서 수집된 공개 뉴스 항목 수는 0건입니다.",
+        "한미반도체 이슈 키워드 엑셀에서 확인된 관련 행 수는 1건입니다."
+      ],
+      "removed_bad_evidence_ids": [
+        "issue.ev.unverified"
+      ]
+    },
+    "packet_version": "grounded_agent_v3",
+    "pre_sanitize_grounding_check": {
+      "score": 0.1667,
+      "pass": false,
+      "pass_threshold": 0.75,
+      "claim_count": 6,
+      "supported_count": 1,
+      "unsupported_count": 5,
+      "supported_claims": [
+        "한미반도체 관련 RSS 제목: Blog Review: Apr. 29"
+      ],
+      "unsupported_claims": [
+        "한미반도체 이슈 분석에서 수집된 공개 뉴스 항목 수는 0건입니다.",
+        "한미반도체 이슈 분석에서 수집된 RSS 항목 수는 13건입니다.",
+        "한미반도체 이슈 키워드 엑셀에서 확인된 관련 행 수는 1건입니다.",
+        "한미반도체 관련 RSS 제목: Assuring Comprehensive Security Coverage In Hardware Design",
+        "한미반도체 관련 RSS 제목: How Long Will CAN Stick Around As Rival Networks Speed Up?"
+      ],
+      "issues": [
+        "issue.cl.001: evidence와 claim 연결이 약합니다.",
+        "issue.cl.002: evidence와 claim 연결이 약합니다.",
+        "issue.cl.003: evidence와 claim 연결이 약합니다.",
+        "issue.cl.004: evidence와 claim 연결이 약합니다.",
+        "issue.cl.005: evidence와 claim 연결이 약합니다."
+      ],
+      "claim_results": [
+        {
+          "claim_id": "issue.cl.001",
+          "text": "한미반도체 이슈 분석에서 수집된 공개 뉴스 항목 수는 0건입니다.",
+          "evidence_ids": [
+            "issue.ev.001"
+          ],
+          "supported": false,
+          "score": 0.8,
+          "number_ratio": 1.0,
+          "token_ratio": 0.0,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "evidence와 claim 연결이 약합니다."
+        },
+        {
+          "claim_id": "issue.cl.002",
+          "text": "한미반도체 이슈 분석에서 수집된 RSS 항목 수는 13건입니다.",
+          "evidence_ids": [
+            "issue.ev.002"
+          ],
+          "supported": false,
+          "score": 0.8,
+          "number_ratio": 1.0,
+          "token_ratio": 0.0,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "evidence와 claim 연결이 약합니다."
+        },
+        {
+          "claim_id": "issue.cl.003",
+          "text": "한미반도체 이슈 키워드 엑셀에서 확인된 관련 행 수는 1건입니다.",
+          "evidence_ids": [
+            "issue.ev.003"
+          ],
+          "supported": false,
+          "score": 0.8,
+          "number_ratio": 1.0,
+          "token_ratio": 0.0,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "evidence와 claim 연결이 약합니다."
+        },
+        {
+          "claim_id": "issue.cl.004",
+          "text": "한미반도체 관련 RSS 제목: Assuring Comprehensive Security Coverage In Hardware Design",
+          "evidence_ids": [
+            "issue.ev.004"
+          ],
+          "supported": false,
+          "score": 0.55,
+          "number_ratio": 1.0,
+          "token_ratio": 0.0,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "evidence와 claim 연결이 약합니다."
+        },
+        {
+          "claim_id": "issue.cl.005",
+          "text": "한미반도체 관련 RSS 제목: How Long Will CAN Stick Around As Rival Networks Speed Up?",
+          "evidence_ids": [
+            "issue.ev.005"
+          ],
+          "supported": false,
+          "score": 0.55,
+          "number_ratio": 1.0,
+          "token_ratio": 0.0,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "evidence와 claim 연결이 약합니다."
+        },
+        {
+          "claim_id": "issue.cl.006",
+          "text": "한미반도체 관련 RSS 제목: Blog Review: Apr. 29",
+          "evidence_ids": [
+            "issue.ev.006"
+          ],
+          "supported": true,
+          "score": 0.85,
+          "number_ratio": 1.0,
+          "token_ratio": 0.25,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        }
+      ]
+    },
+    "post_atomic_grounding_check": {
+      "score": 1.0,
+      "pass": true,
+      "pass_threshold": 0.75,
+      "claim_count": 4,
+      "supported_count": 4,
+      "unsupported_count": 0,
+      "supported_claims": [
+        "한미반도체 관련 RSS 제목: Blog Review: Apr. 29",
+        "news_count 값은 0count입니다.",
+        "rss_count 값은 13count입니다.",
+        "related_keyword_count 값은 1count입니다."
+      ],
+      "unsupported_claims": [],
+      "issues": [],
+      "claim_results": [
+        {
+          "claim_id": "issue.cl.006",
+          "text": "한미반도체 관련 RSS 제목: Blog Review: Apr. 29",
+          "evidence_ids": [
+            "issue.ev.006"
+          ],
+          "supported": true,
+          "score": 0.85,
+          "number_ratio": 1.0,
+          "token_ratio": 0.25,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "issue.auto_cl.002",
+          "text": "news_count 값은 0count입니다.",
+          "evidence_ids": [
+            "issue.ev.001"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "issue.auto_cl.004",
+          "text": "rss_count 값은 13count입니다.",
+          "evidence_ids": [
+            "issue.ev.002"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "issue.auto_cl.006",
+          "text": "related_keyword_count 값은 1count입니다.",
+          "evidence_ids": [
+            "issue.ev.003"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        }
+      ]
+    },
+    "grounding_check": {
+      "score": 1.0,
+      "pass": true,
+      "pass_threshold": 0.75,
+      "claim_count": 4,
+      "supported_count": 4,
+      "unsupported_count": 0,
+      "supported_claims": [
+        "한미반도체 관련 RSS 제목: Blog Review: Apr. 29",
+        "news_count 값은 0count입니다.",
+        "rss_count 값은 13count입니다.",
+        "related_keyword_count 값은 1count입니다."
+      ],
+      "unsupported_claims": [],
+      "issues": [],
+      "claim_results": [
+        {
+          "claim_id": "issue.cl.006",
+          "text": "한미반도체 관련 RSS 제목: Blog Review: Apr. 29",
+          "evidence_ids": [
+            "issue.ev.006"
+          ],
+          "supported": true,
+          "score": 0.85,
+          "number_ratio": 1.0,
+          "token_ratio": 0.25,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "issue.auto_cl.002",
+          "text": "news_count 값은 0count입니다.",
+          "evidence_ids": [
+            "issue.ev.001"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "issue.auto_cl.004",
+          "text": "rss_count 값은 13count입니다.",
+          "evidence_ids": [
+            "issue.ev.002"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "issue.auto_cl.006",
+          "text": "related_keyword_count 값은 1count입니다.",
+          "evidence_ids": [
+            "issue.ev.003"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        }
+      ]
+    },
+    "opinion_source": "chair_adapter_inferred",
+    "web_verification": {
+      "checked": true,
+      "pass": false,
+      "score": 0.6875,
+      "claim_count": 4,
+      "reason": "Serper 검색 결과와 local evidence를 함께 사용해 claim 단위 검증을 수행했습니다.",
+      "supported_claims": [
+        {
+          "agent": "issue",
+          "claim_id": "issue.auto_cl.002",
+          "text": "news_count 값은 0count입니다.",
+          "evidence_ids": [
+            "issue.ev.001"
+          ],
+          "verdict": "local_supported",
+          "score": 0.85,
+          "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+          "web_query": "한미반도체 news_count 값은 0count입니다.",
+          "web_search_used": false,
+          "search_results": [],
+          "matched_evidence_ids": [
+            "issue.ev.001"
+          ],
+          "cited_sources": []
+        },
+        {
+          "agent": "issue",
+          "claim_id": "issue.auto_cl.004",
+          "text": "rss_count 값은 13count입니다.",
+          "evidence_ids": [
+            "issue.ev.002"
+          ],
+          "verdict": "local_supported",
+          "score": 0.85,
+          "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+          "web_query": "한미반도체 rss_count 값은 13count입니다.",
+          "web_search_used": false,
+          "search_results": [],
+          "matched_evidence_ids": [
+            "issue.ev.002"
+          ],
+          "cited_sources": []
+        },
+        {
+          "agent": "issue",
+          "claim_id": "issue.auto_cl.006",
+          "text": "related_keyword_count 값은 1count입니다.",
+          "evidence_ids": [
+            "issue.ev.003"
+          ],
+          "verdict": "local_supported",
+          "score": 0.85,
+          "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+          "web_query": "한미반도체 related_keyword_count 값은 1count입니다.",
+          "web_search_used": false,
+          "search_results": [],
+          "matched_evidence_ids": [
+            "issue.ev.003"
+          ],
+          "cited_sources": []
+        }
+      ],
+      "unsupported_claims": [
+        {
+          "agent": "issue",
+          "claim_id": "issue.cl.006",
+          "text": "한미반도체 관련 RSS 제목: Blog Review: Apr. 29",
+          "evidence_ids": [
+            "issue.ev.006"
+          ],
+          "verdict": "not_enough",
+          "score": 0.2,
+          "reason": "claim의 evidence_ids가 사용 가능한 evidences와 연결되지 않았습니다.",
+          "web_query": "한미반도체 한미반도체 관련 RSS 제목: Blog Review: Apr. 29",
+          "web_search_used": true,
+          "search_results": [
+            {
+              "title": "한미반도체 재무제표와 AI 반도체 수혜 전망 정리 : 네이버 블로그",
+              "link": "https://blog.naver.com/79gytn/224260381663?fromRss=true&trackingCode=rss",
+              "snippet": "오늘 알려드릴 한미반도체는 반도체 후공정 장비를 전문으로 생산하는 기업으로, AI 시대 핵심 부품 HBM 생산에 필수적인 TC 본더 장비에서 글로벌 시장 1 ...",
+              "source": ""
+            },
+            {
+              "title": "AI가 가설 세우고 실험·논문까지 …\"인간과학자 자리 빼앗을 것\"",
+              "link": "https://www.mk.co.kr/news/it/12028713",
+              "snippet": "구글은 2025년 'AI 과학자로 과학적 돌파구 가속화하기'라는 글을 자사 블로그에 올렸다. 연구자가 큰 질문을 입력하면 AI가 구체적인 가설과 실험 ...",
+              "source": ""
+            },
+            {
+              "title": "KIET 산업연구원 - Q&A",
+              "link": "https://www.kiet.re.kr/apply/qnaView",
+              "snippet": "연구를 진행함에 있어 지역발전지수,주민활력지수 및 이외 교육관련 세부 지표가 반영된 지수의 의미, 산출과정, 시계열적 산출결과에 대한 자료를 요청을 드리려고 합니다 ...",
+              "source": ""
+            },
+            {
+              "title": "한국미래일보",
+              "link": "https://www.koreafuture.co.kr/news/search.php?&sm=&stx=&stx2=&w_section1=&sdate=&edate=&page=2785",
+              "snippet": "더 나은 내일을 위한 도약! 미래로 향하는 정확한 정보를 전합니다. 교육, 정치, 경제, 문화, 사회, IT/SW, 칼럼 등 세션별 뉴스, 인터뷰 제공.",
+              "source": ""
+            },
+            {
+              "title": "그것은 알기 싫다",
+              "link": "http://xsfm.co.kr/xml/idwk.xml",
+              "snippet": "... 정리된 죽음의 기록. 2015 상반기 재보궐선거 데이터센트럴 2015.04.29. 재보궐선거 데이터센트럴 /00:05:18 기본사항 /00:16:36 국회의원 서울 관악구 을 /01:10:05 ...",
+              "source": ""
+            }
+          ],
+          "matched_evidence_ids": [],
+          "cited_sources": []
+        }
+      ]
+    },
+    "chair_safe_claims": [
+      {
+        "claim_id": "issue.auto_cl.002",
+        "text": "news_count 값은 0count입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "verdict": "local_supported",
+        "score": 0.85,
+        "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+        "cited_sources": []
+      },
+      {
+        "claim_id": "issue.auto_cl.004",
+        "text": "rss_count 값은 13count입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "verdict": "local_supported",
+        "score": 0.85,
+        "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+        "cited_sources": []
+      },
+      {
+        "claim_id": "issue.auto_cl.006",
+        "text": "related_keyword_count 값은 1count입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "verdict": "local_supported",
+        "score": 0.85,
+        "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+        "cited_sources": []
+      }
+    ],
+    "chair_blocked_claims": [
+      {
+        "claim_id": "issue.cl.006",
+        "text": "한미반도체 관련 RSS 제목: Blog Review: Apr. 29",
+        "verdict": "not_enough",
+        "score": 0.2,
+        "reason": "claim의 evidence_ids가 사용 가능한 evidences와 연결되지 않았습니다."
+      }
+    ]
+  },
+  "required_fix": [
+    "각 핵심 주장마다 evidence_id를 반드시 붙이세요.",
+    "evidence_id는 evidences 배열 안에 실제 존재해야 합니다.",
+    "source_type이 agent_output_unverified, llm_only, self_generated인 근거는 실제 근거로 인정하지 않습니다.",
+    "수치 주장에는 기간, 단위, 원천값을 함께 넣으세요.",
+    "공시, 재무 CSV, 가격 CSV, RSS/뉴스 스니펫, 공식 문서에서 확인 가능한 주장만 남기세요.",
+    "확인 불가능한 고객사, 계약, 수주, 전망 수치는 삭제하거나 '확인 필요'로 낮추세요.",
+    "웹/공개 검색 스니펫에서 직접 확인되지 않는 과잉 표현은 제거하세요.",
+    "템플릿 문장이나 사용자에게 입력을 요구하는 문장은 최종 JSON에 넣지 마세요."
+  ],
+  "expected_minimum_shape": {
+    "claims": [
+      {
+        "claim": "검증 가능한 핵심 주장",
+        "evidence_ids": [
+          "agent.ev.001"
+        ]
+      }
+    ],
+    "evidences": [
+      {
+        "evidence_id": "agent.ev.001",
+        "source_type": "financial | price | rss | news | filing | official | macro | technology",
+        "source": "원천 파일명 또는 URL 또는 데이터셋명",
+        "metric": "수치명 또는 근거명",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "근거 원문 또는 원천값 요약"
+      }
+    ]
+  }
+}

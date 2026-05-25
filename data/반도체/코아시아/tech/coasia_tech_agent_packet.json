@@ -3,6 +3,51 @@
   "company": "코아시아",
   "company_dir": "coasia",
   "opinion": "보유",
+  "tech_signal": 0.336903,
+  "history_tech_feature": {
+    "signal": 0.336903,
+    "status": "OK_TECH_HISTORY_ASOF",
+    "source": "C:\\Agent_6.9\\data\\반도체\\코아시아\\tech\\coasia_kipris_patents_normalized.csv;C:\\Agent_6.9\\data\\반도체\\코아시아\\tech\\coasia_tech_patent_normalized.csv;C:\\Agent_6.9\\data\\반도체\\코아시아\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\코아시아\\tech\\coasia_kipris_bibliographic_normalized.csv;C:\\Agent_6.9\\data\\반도체\\코아시아\\tech\\coasia_kipris_claims_normalized.csv;C:\\Agent_6.9\\data\\반도체\\코아시아\\tech\\coasia_kipris_plus_claim_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\코아시아\\tech\\coasia_kipris_plus_family_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\코아시아\\tech\\coasia_kipris_plus_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\코아시아\\tech\\coasia_kipris_tech_ml_enriched.csv;C:\\Agent_6.9\\data\\반도체\\코아시아\\tech\\source\\coasia_kipris_plus_bibliographic_raw.csv;C:\\Agent_6.9\\data\\반도체\\코아시아\\tech\\quanified_metrix.csv;C:\\Agent_6.9\\data\\반도체\\코아시아\\tech\\tech_excel_frame_items.csv",
+    "as_of_date": "2025-08-31",
+    "company": "코아시아",
+    "ticker": "045970.KQ",
+    "stock_code": "045970",
+    "base_signal": 0.35261,
+    "evidence_confidence": 0.787297,
+    "commercialization_gate_signal": 0.237178,
+    "technology_risk_penalty": 0.0,
+    "ip_quality_signal": 0.188305,
+    "lifecycle_signal": 0.0,
+    "technology_differentiation_signal": 0.156817,
+    "commercialization_signal": 0.948712,
+    "rnd_sustainability_signal": 0.44668,
+    "peer_position_signal": -0.209524,
+    "tech_to_value_signal": 0.584669,
+    "certification_signal": 0.0,
+    "qualification_signal": 0.0,
+    "cost_yield_signal": 0.0,
+    "workforce_signal": 0.0,
+    "government_rd_signal": 0.0,
+    "licensing_signal": 0.0,
+    "dispute_risk_signal": 0.0,
+    "failure_delay_signal": 0.0,
+    "intangible_accounting_signal": 0.0,
+    "patent_records_asof": 599,
+    "dated_records_asof": 274,
+    "undated_records_used": 391,
+    "files_used": 72,
+    "notes": "Tech history signal uses dated patent/IP, TRL/readiness, certification, qualification, commercialization, R&D/workforce, risk and accounting evidence before as_of_date; no Buy/Hold/Sell threshold is applied.",
+    "frequency": "monthly",
+    "formula": "final=base_signal*evidence_confidence + 0.25*commercialization_gate_signal - 0.35*technology_risk_penalty",
+    "research_basis": [
+      "Hall-Jaffe-Trajtenberg patent citations/value; Lanjouw-Schankerman patent quality; OECD patent quality composite indicators",
+      "DoD/NASA TRL and TRA maturity framework",
+      "IFC/Bpifrance deep-tech development-stage financing framework",
+      "Text-based industry/technology relatedness literature for peer/differentiation evidence"
+    ],
+    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\코아시아\\tech\\tech_history_features_2025-08-31.json",
+    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\코아시아\\tech\\tech_history_features_2025-08-31.csv"
+  },
   "claims": [
     {
       "claim_id": "tech.cl.000",
@@ -84,63 +129,63 @@
     {
       "title": "코아시아 KIPRIS/특허 정량화 요약",
       "url": "",
-      "path": "data\\반도체\\코아시아\\tech\\source\\coasia_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\코아시아\\tech\\source\\coasia_kipris_plus_bibliographic_raw.csv",
       "snippet": "코아시아 KIPRIS/특허 정량화 요약 본 특허 근거는 KIPRIS API/CSV/엑셀/TXT 원천 파일을 정규화해 산출했다. [정량 지표] - 특허 원천 파일 수: 1개 - 정규화 특허 레코드 수: 30건 - 출원인/권리자 회사 매칭 특허 수: 30건 - 등록 특허 수: 25건 - 존속 가능 특허 수: 25건 - 최근 5년 특허 수: 6건 - IPC/CPC 기술분류 수: 13개 - H01L 반도체 IPC 특허 수: 0건 - 반도체 핵심 IPC 특허 수: 10건 - 특허-기술 키워드 매칭 수: 6회 - 특허 포트폴리오 연도 범위: 2010~2024 - KIPRIS 총 특허 수: 30.0건 - KIPRIS 등록 특허 수(",
       "relevance_score": 30
     },
     {
       "title": "발광 다이오드 패키지",
       "url": "",
-      "path": "data\\반도체\\코아시아\\tech\\source\\coasia_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\코아시아\\tech\\source\\coasia_kipris_plus_bibliographic_raw.csv",
       "snippet": "발광 다이오드 패키지 | (주)코아시아 | 등록 | 2018 | 출원번호 1020180028120; 등록번호 1020422280000 | IPC/CPC: H10H | 기술매칭: 소자, 방열 | 초록: 발광 다이오드 패키지가 제공된다. 본 발명의 실시예에 따른 발광 다이오드 패키지는 하나의 극성을 가지는 제 1 전극 리드; 상기 제 1 전극 리드와 다른 극성을 가지며 방열 기능을 포함하는 제 2 전극 리드; 및 상기 제 1 전극 리드 및 제 2 전극 리드에 연결되어 형성되는 발광 소자;를 포함하며, 상기 제 1 전극 리드와 상기 제 2 전극 리드 사이는 서로 일정 거리 이격되며, 상기 이격",
       "relevance_score": 69.5
     },
     {
       "title": "방열 기능이 구비된 엘이디 칩 스케일 패키지 및 방열 기능이 구비된 엘이디 패키지",
       "url": "",
-      "path": "data\\반도체\\코아시아\\tech\\source\\coasia_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\코아시아\\tech\\source\\coasia_kipris_plus_bibliographic_raw.csv",
       "snippet": "방열 기능이 구비된 엘이디 칩 스케일 패키지 및 방열 기능이 구비된 엘이디 패키지 | (주)코아시아 | 등록 | 2017 | 출원번호 1020170027058; 등록번호 1020755470000 | IPC/CPC: H10H | 기술매칭: 소자, 방열 | 초록: 방열 기능이 구비된 엘이디 칩 스케일 패키지 및 방열 기능이 구비된 엘이디 패키지가 제공된다. 본 발명의 실시예에 따른 방열 기능이 구비된 엘이디 칩 스케일 패키지는, 제 1광을 획득하여 제 2광을 외부로 송출하는 광 변환층; 상기 광 변환층의 일 면에 접하도록 구비되며, 상기 제 1광을 발광하는 발광 소자; 및 상기 발광 소자의 일 면에 접하도록 구비되며, 상기",
       "relevance_score": 69.5
     },
     {
       "title": "고화소 소형 매크로 광학계",
       "url": "",
-      "path": "data\\반도체\\코아시아\\tech\\source\\coasia_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\코아시아\\tech\\source\\coasia_kipris_plus_bibliographic_raw.csv",
       "snippet": "고화소 소형 매크로 광학계 | (주)코아시아씨엠 | 등록 | 2021 | 출원번호 1020210033380; 등록번호 1025759360000 | IPC/CPC: G02B | 기술매칭: 기술 키워드 미확인 | 초록: 본 발명은 고화소 소형 매크로 광학계를 제공한다. 본 발명에 따른 소형 매크로 광학계는, 정의 굴절력을 가지는 제1 렌즈; 정의 굴절력을 가지는 제2 렌즈; 정 또는 부의 굴절력을 가지는 제3 렌즈를 포함하는 3매 렌즈 광학계이고, 상기 제1 렌즈, 제2 렌즈 및 제3렌즈는 물체 측에서부터 상 측으로 순서대로 배열되고, 조건식 35 003c# V1-V2 003c# 39 (V1: 제1 렌즈(L",
       "relevance_score": 67.5
     },
     {
       "title": "TOF 카메라용 광학계",
       "url": "",
-      "path": "data\\반도체\\코아시아\\tech\\source\\coasia_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\코아시아\\tech\\source\\coasia_kipris_plus_bibliographic_raw.csv",
       "snippet": "TOF 카메라용 광학계 | (주)코아시아씨엠 | 등록 | 2022 | 출원번호 1020220107221; 등록번호 1028505960000 | IPC/CPC: G02B | 기술매칭: 기술 키워드 미확인 | 초록: 본 발명은 3D 센싱이 가능한 TOF(Time of Flight) 카메라에 사용되는 광학계를 제공한다. 본 발명에 따른 광학계는, 정의 굴절력을 가지는 제1 렌즈; 부의 굴절력을 가지는 제2 렌즈; 부의 굴절력을 가지는 제3 렌즈; 정의 굴절력을 가지는 제4 렌즈를 포함하고, 제1 렌즈, 제2 렌즈, 제3 렌즈 및 제4 렌즈는 물체 측에서부터 상 측으로 순서대로 배열되며, 조건식 2.0 00",
       "relevance_score": 67.5
     },
     {
       "title": "어라운드뷰 제공 방법 및 장치",
       "url": "",
-      "path": "data\\반도체\\코아시아\\tech\\source\\coasia_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\코아시아\\tech\\source\\coasia_kipris_plus_bibliographic_raw.csv",
       "snippet": "어라운드뷰 제공 방법 및 장치 | 주식회사 코아시아넥셀 | 등록 | 2018 | 출원번호 1020180054393; 등록번호 1020774940000 | IPC/CPC: G06T, B60W | 기술매칭: 기술 키워드 미확인 | 초록: 본 발명은 어라운드뷰 제공 방법 및 장치에 관한 것이다. 본 발명에 따른 어라운드뷰 제공 방법은, 기설정된 메시를 구성하는 폴리곤의 각 정점에 매핑될 텍스처 좌표값을 산출하는 파라메터화된 함수 F를 설정하는 과정, 함수 F를 이용하여 폴리곤의 각 정점에 대한 텍스처 좌표값을 산출하는 과정, 랜더링 과정에서 픽셀별로 텍스처 좌표값을 보정하기 위한 보정값이 저장된 보정 테이블을 생성하는 과정,",
       "relevance_score": 65.0
     },
     {
       "title": "발광 다이오드 및 발광 다이오드 패키지",
       "url": "",
-      "path": "data\\반도체\\코아시아\\tech\\source\\coasia_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\코아시아\\tech\\source\\coasia_kipris_plus_bibliographic_raw.csv",
       "snippet": "발광 다이오드 및 발광 다이오드 패키지 | (주)코아시아 | 등록 | 2019 | 출원번호 1020190032944; 등록번호 1021618110000 | IPC/CPC: H05B, H10H | 기술매칭: 기술 키워드 미확인 | 초록: 발광 다이오드 및 발광 다이오드 패키지가 제공된다. 본 발명의 실시예에 따른 발광 다이오드는, 적어도 하나의 파장을 가지는 출력광을 일 방향으로 발광하는 발광부; 상기 발광부에서 발광하는 상기 출력광의 발광 품질을 제어하는 제어부; 상기 발광부 및 제어부에 전력 및 전기 신호를 전달하도록 상기 발광부 및 제어부가 결합하도록 형성되는 회로부; 및 상기 발광부, 제어부 및 회로부를 내포하도록",
       "relevance_score": 65.0
     },
     {
       "title": "그래픽 처리 장치 및 방법",
       "url": "",
-      "path": "data\\반도체\\코아시아\\tech\\source\\coasia_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\코아시아\\tech\\source\\coasia_kipris_plus_bibliographic_raw.csv",
       "snippet": "그래픽 처리 장치 및 방법 | 주식회사 코아시아넥셀 | 등록 | 2016 | 출원번호 1020160104233; 등록번호 1018117740000 | IPC/CPC: H04N, G06T | 기술매칭: 기술 키워드 미확인 | 초록: 본 발명은 그래픽 처리 장치 및 방법에 관한 것이다. 본 그래픽 처리 방법은, 영상 데이터를 입력받아, 영상 데이터를 손실 압축 방식 및 무손실 압축 방식 중 어느 하나의 방식으로 압축할 것인지 선택하고, 선택된 압축 방식으로 영상 데이터를 압축한다. 그리고, 압축된 데이터를 메모리에 할당된 프레임 버퍼에 저장한다. 본 발명에 따르면, 영상 데이터의 성질과 용도에 따라 무손실 압축하거나 손실",
       "relevance_score": 65.0
     },
     {
       "title": "소형 망원 광학계",
       "url": "",
-      "path": "data\\반도체\\코아시아\\tech\\source\\coasia_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\코아시아\\tech\\source\\coasia_kipris_plus_bibliographic_raw.csv",
       "snippet": "소형 망원 광학계 | (주)코아시아씨엠 | 등록 | 2020 | 출원번호 1020200068001; 등록번호 1023394320000 | IPC/CPC: G02B | 기술매칭: 기술 키워드 미확인 | 초록: 본 발명은, 정의 굴절력을 가지는 제1 렌즈; 부의 굴절력을 가지는 제2 렌즈; 정의 굴절력을 가지는 제3 렌즈; 부의 굴절력을 가지는 제4 렌즈; 정의 굴절력을 가지는 제5 렌즈; 부의 굴절력을 가지는 제6 렌즈를 포함하고, 상기 제1 렌즈, 제2 렌즈, 제3 렌즈, 제4 렌즈, 제5 렌즈 및 제6 렌즈는 물체 측에서부터 상 측으로 순서대로 배열되며, 조건식 0.6 003c# HFOV /",
       "relevance_score": 63.5
     }
@@ -330,7 +375,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\코아시아\\tech\\coasia_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\코아시아\\tech\\coasia_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-20T21:33:44",
+      "generated_at": "2026-05-25T20:50:43",
       "core_counts": {
         "total_patents": 30,
         "registered_patents_estimated": 25,
@@ -415,7 +460,7 @@
   "tech_chair_summary": {
     "agent": "tech",
     "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-    "created_at": "2026-05-20T21:35:34",
+    "created_at": "2026-05-25T20:53:15",
     "field": "반도체",
     "company": "코아시아",
     "company_name": "코아시아",
@@ -447,17 +492,17 @@
       "ip_evidence_composite_bridge_signal": "IP_EVIDENCE_NEUTRAL",
       "ip_evidence_composite_adjustment_points": 0.0,
       "ip_evidence_composite_data_coverage_rate": 1.0,
-      "ip_evidence_composite_source_file": "data/반도체/코아시아/tech/tech_ip_evidence_composite.json",
+      "ip_evidence_composite_source_file": "C:/Agent_6.9/data/반도체/코아시아/tech/tech_ip_evidence_composite.json",
       "peer_adjusted_bridge_score_before_ip_evidence": 39.0,
       "final_bridge_score_after_ip_evidence": 39.0,
       "ip_evidence_adjusted_score": 39.0,
       "ip_evidence_formula": "final_bridge_score_after_ip_evidence = peer_adjusted_bridge_score_before_ip_evidence + ip_evidence_composite_adjustment_points",
       "ip_evidence_adjusted_grade": "TECH_EVIDENCE_WEAK",
-      "investor_final_tech_score": 44.55,
+      "investor_final_tech_score": 54.95,
       "investor_final_tech_grade": {
-        "code": "EVIDENCE_WEAK_OR_EARLY",
-        "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
-        "threshold": 0.0
+        "code": "COMMERCIALIZATION_WATCH",
+        "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+        "threshold": 52.0
       },
       "value_evidence_score": 80.35,
       "value_evidence_label": "VALUE_EVIDENCE_STRONG"
@@ -521,14 +566,14 @@
       }
     ],
     "ip_quant_signals": {
-      "normalized_patent_text_records": 546,
-      "company_matched_patents": 325,
+      "normalized_patent_text_records": 2106,
+      "company_matched_patents": 1885,
       "registered_patents": 229,
-      "alive_patents": 260,
-      "recent_5y_patents": 6,
+      "alive_patents": 1820,
+      "recent_5y_patents": 1560,
       "ipc_cpc_classes": 7,
       "core_ipc_h01l_patents": null,
-      "keyword_matches": null
+      "keyword_matches": 9360
     },
     "selected_ml": {
       "peer_ml": {
@@ -538,9 +583,9 @@
         "cluster_name": null
       },
       "tech_ip_strength": {
-        "score": 49.87,
+        "score": 75.49,
         "percentile": 50.0,
-        "patent_momentum_score": 1.38,
+        "patent_momentum_score": 87.07,
         "dominant_topic": null
       },
       "technology_differentiation": {
@@ -786,15 +831,15 @@
       "ip_evidence_bridge_signal": "IP_EVIDENCE_NEUTRAL",
       "ip_evidence_bridge_adjustment_points": 0.0,
       "final_bridge_score_after_ip_evidence": 39.0,
-      "investor_final_tech_score": 44.55,
+      "investor_final_tech_score": 54.95,
       "investor_final_tech_grade": {
-        "code": "EVIDENCE_WEAK_OR_EARLY",
-        "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
-        "threshold": 0.0
+        "code": "COMMERCIALIZATION_WATCH",
+        "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+        "threshold": 52.0
       },
       "investor_evidence_count": 9,
-      "excel_quantified_evidence_score": 45.0,
-      "commercialization_and_funding_signal_score": 49.5
+      "excel_quantified_evidence_score": 90.0,
+      "commercialization_and_funding_signal_score": 63.5
     },
     "ip_legal_features": {
       "total_patents": 30,
@@ -1149,7 +1194,7 @@
       "company_name": "코아시아",
       "field": "반도체",
       "status": "OK",
-      "created_at": "2026-05-20T21:35:06",
+      "created_at": "2026-05-25T20:50:47",
       "weights": {
         "legal_stability": 0.25,
         "claim_defense": 0.3,
@@ -1245,17 +1290,17 @@
       "tech_full_appendix_json": ""
     },
     "ip_evidence_bridge_adjustment_status": "APPLIED",
-    "ip_evidence_bridge_adjustment_applied_at": "2026-05-20T21:35:34",
+    "ip_evidence_bridge_adjustment_applied_at": "2026-05-25T20:54:00",
     "tech_investor_view": {
       "version": "tech-investor-scorecard-v2",
-      "generated_at": "2026-05-20T21:35:44",
+      "generated_at": "2026-05-25T20:55:20",
       "company_slug": "coasia",
       "company_name": "코아시아",
-      "final_tech_investor_score": 44.55,
+      "final_tech_investor_score": 54.95,
       "final_tech_investor_grade": {
-        "code": "EVIDENCE_WEAK_OR_EARLY",
-        "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
-        "threshold": 0.0
+        "code": "COMMERCIALIZATION_WATCH",
+        "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+        "threshold": 52.0
       },
       "score_policy": {
         "description": "개인투자자용 최종 Tech 점수는 기술-사업화 연결 가능성, IP 품질, Excel/DART 정량 근거, 근거 신뢰도, 딥테크 성장투자 지속성을 하나로 합성한다.",
@@ -1415,53 +1460,54 @@
         },
         "excel_quantified_evidence": {
           "label": "Excel 기반 정량 근거",
-          "score": 45.0,
+          "score": 90.0,
           "weight": 0.15,
           "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지",
           "meta": {
-            "score": 45.0,
-            "company_item_count": 8,
-            "filled_count": 0,
+            "score": 90.0,
+            "company_item_count": 22,
+            "filled_count": 22,
             "metric_row_count": 0,
-            "numeric_signal_count": 0,
-            "category_count": 7,
+            "numeric_signal_count": 113,
+            "category_count": 8,
             "unique_metric_count": 0,
             "formula_rule_count": 0,
-            "coverage_ratio": 0.0,
-            "numeric_density": 0.0
+            "coverage_ratio": 1.0,
+            "numeric_density": 5.1364
           }
         },
         "evidence_confidence": {
           "label": "근거 직접성·충분성",
-          "score": 43.0,
+          "score": 58.0,
           "weight": 0.15,
           "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성",
           "meta": {
-            "score": 43.0,
+            "score": 58.0,
             "evidence_count": 3,
             "claim_count": 3,
             "patent_count": 30,
-            "excel_coverage_ratio": 0.0
+            "excel_coverage_ratio": 1.0
           }
         },
         "commercialization_and_funding_signal": {
           "label": "사업화·성장자금 지속성",
-          "score": 49.5,
+          "score": 63.5,
           "weight": 0.1,
           "meaning": "R&D·특허·정부과제·기술이전·CAPEX/희석성 자금조달이 사업화와 연결되는 정도",
           "meta": {
-            "score": 49.5,
-            "detected_signal_groups": [],
+            "score": 63.5,
+            "detected_signal_groups": [
+              "commercial"
+            ],
             "detected_flags": {
               "rd": false,
-              "commercial": false,
+              "commercial": true,
               "government": false,
               "transfer": false,
               "funding": false
             },
             "recent_5y_patents": null,
             "warnings": [
-              "customer_mass_production_revenue_signal_limited",
               "rd_or_recent_patent_continuity_limited",
               "capital_raising_signal_not_explicitly_detected"
             ],
@@ -1489,31 +1535,31 @@
         {
           "component": "excel_quantified_evidence",
           "label": "Excel 기반 정량 근거",
-          "score": 45.0,
+          "score": 90.0,
           "weight": 0.15,
-          "weighted_score": 6.75,
+          "weighted_score": 13.5,
           "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지"
         },
         {
           "component": "evidence_confidence",
           "label": "근거 직접성·충분성",
-          "score": 43.0,
+          "score": 58.0,
           "weight": 0.15,
-          "weighted_score": 6.45,
+          "weighted_score": 8.7,
           "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성"
         },
         {
           "component": "commercialization_and_funding_signal",
           "label": "사업화·성장자금 지속성",
-          "score": 49.5,
+          "score": 63.5,
           "weight": 0.1,
-          "weighted_score": 4.95,
+          "weighted_score": 6.35,
           "meaning": "R&D·특허·정부과제·기술이전·CAPEX/희석성 자금조달이 사업화와 연결되는 정도"
         }
       ],
       "key_takeaways": [
-        "코아시아의 개인투자자용 Tech 최종 점수는 44.55/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
-        "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(53.99) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+        "코아시아의 개인투자자용 Tech 최종 점수는 54.95/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
+        "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(53.99) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
         "투자자가 확인할 핵심 근거는 9개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
       ],
       "investor_evidence": [
@@ -1580,7 +1626,7 @@
         {
           "source": "tech_summary",
           "title": "Tech Agent 핵심 해석",
-          "detail": "코아시아의 개인투자자용 Tech 최종 점수는 44.55/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
+          "detail": "코아시아의 개인투자자용 Tech 최종 점수는 53.55/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
           "value": null,
           "unit": null,
           "path": null,
@@ -1590,7 +1636,7 @@
         {
           "source": "tech_summary",
           "title": "Tech Agent 핵심 해석",
-          "detail": "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(53.99) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+          "detail": "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(53.99) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
           "value": null,
           "unit": null,
           "path": null,
@@ -1630,21 +1676,22 @@
       }
     },
     "key_takeaways": [
-      "코아시아의 개인투자자용 Tech 최종 점수는 44.55/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
-      "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(53.99) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+      "코아시아의 개인투자자용 Tech 최종 점수는 54.95/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
+      "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(53.99) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
       "투자자가 확인할 핵심 근거는 9개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다.",
+      "코아시아의 개인투자자용 Tech 최종 점수는 53.55/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
       "투자자가 확인할 핵심 근거는 6개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
     ],
     "value_evidence_bridge": {
       "agent": "tech_intake",
       "artifact": "tech_intake_value_evidence_bridge",
       "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-      "created_at": "2026-05-20T21:35:42",
+      "created_at": "2026-05-25T20:55:19",
       "field": "반도체",
       "company": "코아시아",
       "company_dir": "coasia",
       "company_slug": "coasia",
-      "source_document_count": 132,
+      "source_document_count": 153,
       "source_documents": [
         {
           "source_group": "KIPRIS",
@@ -2038,6 +2085,18 @@
         },
         {
           "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/코아시아/tech/tech_history_features_2025-08-31.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/코아시아/tech/tech_history_features_2025-08-31.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/코아시아/tech/tech_intake_manifest.json",
           "detected_url_count": 0,
           "fallback_url_count": 2
@@ -2291,6 +2350,120 @@
         {
           "source_group": "VALUATION",
           "source_file": "data/반도체/코아시아/valuation/coasia_valuation_workbook.xlsx",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/코아시아/valuation/intake/company_profile.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/코아시아/valuation/intake/cross_agent_signals_for_valuation.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/코아시아/valuation/intake/dcf_inputs.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/코아시아/valuation/intake/dilution_events.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/코아시아/valuation/intake/eval_price_history.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/코아시아/valuation/intake/eval_price_history_monthly.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/코아시아/valuation/intake/eval_price_history_monthly_v43.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/코아시아/valuation/intake/eval_price_history_monthly_v44.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/코아시아/valuation/intake/eval_price_history_monthly_v45.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/코아시아/valuation/intake/eval_price_history_v43.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/코아시아/valuation/intake/eval_price_history_v44.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/코아시아/valuation/intake/eval_price_history_v45.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/코아시아/valuation/intake/financials_normalized.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/코아시아/valuation/intake/financials_raw.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/코아시아/valuation/intake/peer_multiples.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/코아시아/valuation/intake/price_history.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/코아시아/valuation/intake/relative_valuation_inputs.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/코아시아/valuation/intake/shares_outstanding.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/코아시아/valuation/intake/valuation_assumptions.csv",
           "detected_url_count": 0,
           "fallback_url_count": 5
         },
@@ -2557,12 +2730,13 @@
             "https://plus.kipris.or.kr/",
             "https://www.google.com/search?q=%EC%BD%94%EC%95%84%EC%8B%9C%EC%95%84+KIPRIS+%ED%8A%B9%ED%97%88",
             "https://www.google.com/search?q=%EC%BD%94%EC%95%84%EC%8B%9C%EC%95%84+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
-            "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
-            "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
             "https://www.google.com/search?q=%EC%BD%94%EC%95%84%EC%8B%9C%EC%95%84+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
             "https://www.google.com/search?q=%EC%BD%94%EC%95%84%EC%8B%9C%EC%95%84+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
             "https://www.google.com/search?q=%EC%BD%94%EC%95%84%EC%8B%9C%EC%95%84+IR",
             "https://www.google.com/search?q=%EC%BD%94%EC%95%84%EC%8B%9C%EC%95%84+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+            "https://www.google.com/search?q=%EC%BD%94%EC%95%84%EC%8B%9C%EC%95%84+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
+            "https://www.google.com/search?q=%EC%BD%94%EC%95%84%EC%8B%9C%EC%95%84+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
+            "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
             "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1126"
           ],
           "fallback_urls": [
@@ -2586,12 +2760,12 @@
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9390b4cc17636c7cca404ff08f54bc498c835c4e98d9add92763706cd0e2c25cfaa8ca89ca22fb3eaefcff86e75e811b79e62eaaa1540197e0",
             "https://www.google.com/search?q=%EC%BD%94%EC%95%84%EC%8B%9C%EC%95%84+KIPRIS+%ED%8A%B9%ED%97%88",
             "https://www.google.com/search?q=%EC%BD%94%EC%95%84%EC%8B%9C%EC%95%84+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
-            "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
-            "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
             "https://www.google.com/search?q=%EC%BD%94%EC%95%84%EC%8B%9C%EC%95%84+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
             "https://www.google.com/search?q=%EC%BD%94%EC%95%84%EC%8B%9C%EC%95%84+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
             "https://www.google.com/search?q=%EC%BD%94%EC%95%84%EC%8B%9C%EC%95%84+IR",
             "https://www.google.com/search?q=%EC%BD%94%EC%95%84%EC%8B%9C%EC%95%84+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+            "https://www.google.com/search?q=%EC%BD%94%EC%95%84%EC%8B%9C%EC%95%84+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
+            "https://www.google.com/search?q=%EC%BD%94%EC%95%84%EC%8B%9C%EC%95%84+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
             "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
             "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9328f5a912c888a1604ff579e87f821b091a0665246f3173a6cae241fd42c7005fb584f7181202ddb2669153aa54387f5f558cf6b7b6d352be",
@@ -2975,7 +3149,7 @@
               "matched_keywords": [
                 "매출"
               ],
-              "snippet": "summary: 코아시아는 2023년부터 2025년까지 지속적인 매출 감소와 영업손실을 기록했으나, 2025년에는 영업손실 폭이 크게 줄어들며 개선 가능성을 보였다.",
+              "snippet": "summary: 코아시아는 2021년 이후 지속적인 매출 감소와 영업이익 적자를 기록하고 있으며, 2024년에는 매출이 더욱 감소하고 영업손실이 확대되었습니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -2991,10 +3165,9 @@
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
                 "매출",
-                "매출액",
                 "성장"
               ],
-              "snippet": "key_thesis: 2025년 매출액이 3,751억 원으로 전년(3,578억 원) 대비 4.8% 증가하며 매출 성장세가 재개되었다.",
+              "snippet": "key_thesis: 2022년 매출 성장률이 20.75%를 기록했으나, 이후 2023년 -17.85%, 2024년 -5.25%로 역성장 전환되었습니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3030,7 +3203,7 @@
                 "매출",
                 "성장"
               ],
-              "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수",
+              "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3047,7 +3220,24 @@
               "matched_keywords": [
                 "sales"
               ],
-              "snippet": "sales: 375129006470.0",
+              "snippet": "sales: 357809975395.0",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%BD%94%EC%95%84%EC%8B%9C%EC%95%84+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/코아시아/finance/코아시아_finance_agent_packet.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "sales"
+              ],
+              "snippet": "sales_growth: -5.248501173200859",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3064,7 +3254,7 @@
               "matched_keywords": [
                 "sales"
               ],
-              "snippet": "year: 2023 | sales: 377629884303.0 | operating_income: -25491183071.0 | net_income: -40077871037.0 | total_assets: 354942471462.0 | total_liabilities: 215182439320.0 | total_equity: 139760032142.0 | capex: 9807602933 | ocf: 5924480292 | fcf: -3883122641 | interest: 11761929768.0 | ROE: -28.67620336283251 | 영업이익률: -6.750308736303974 | 부채비율: 153.96564813420247 | 이자보상배율: -2.167261969235047",
+              "snippet": "year: 2021 | sales: 380704248695.0 | operating_income: -13347472838.0 | net_income: -11049867743.0 | total_assets: 407989337418.0 | total_liabilities: 222262329070.0 | total_equity: 185727008348.0 | current_assets: 186367188246.0 | current_liabilities: 174322210412.0 | capex: 17916148755 | ocf: 22118402140 | fcf: 4202253385 | interest_expense: 8243857077.0 | roe: -5.949521203882026 | operating_margin: -3.505995240072",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3081,24 +3271,7 @@
               "matched_keywords": [
                 "sales"
               ],
-              "snippet": "year: 2024 | sales: 357809975395.0 | operating_income: -39612427225.0 | net_income: -63461100648.0 | total_assets: 383084839324.0 | total_liabilities: 244473205195.0 | total_equity: 138611634129.0 | capex: 6118926313 | ocf: -72296546056 | fcf: -78415472369 | interest: 18758872877.0 | ROE: -45.78338683240646 | 영업이익률: -11.070800131066871 | 부채비율: 176.37278914660158 | 이자보상배율: -2.111663503704866",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%BD%94%EC%95%84%EC%8B%9C%EC%95%84+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/코아시아/finance/코아시아_재무.csv",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "sales"
-              ],
-              "snippet": "year: 2025 | sales: 375129006470.0 | operating_income: -2237980329.0 | net_income: -19202865906.0 | total_assets: 360325583031.0 | total_liabilities: 238572655046.0 | total_equity: 121752927985.0 | capex: 19424680002 | ocf: 12961694124 | fcf: -6462985878 | interest: 18761480457.0 | ROE: -15.77199515757502 | 영업이익률: -0.5965895173128866 | 부채비율: 195.94818703283443 | 이자보상배율: -0.11928591318415913",
+              "snippet": "year: 2022 | sales: 459701513173.0 | operating_income: -22572658741.0 | net_income: -30614748386.0 | total_assets: 410426152133.0 | total_liabilities: 247266163970.0 | total_equity: 163159988163.0 | current_assets: 169308228303.0 | current_liabilities: 193390590023.0 | capex: 45718073395 | ocf: 59823057795 | fcf: 14104984400 | interest_expense: 12479025382.0 | roe: -18.7636372928731 | operating_margin: -4.91028593427",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3129,7 +3302,7 @@
               "matched_keywords": [
                 "수익성"
               ],
-              "snippet": "그러나 여전히 높은 부채비율과 음(-)의 ROE는 재무 건전성 및 수익성 측면에서 부담으로 작용한다.",
+              "snippet": "ROE 또한 지속적으로 마이너스 값을 기록하며 수익성 악화가 심화되고 있습니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3144,9 +3317,10 @@
               "source_file": "data/반도체/코아시아/finance/코아시아_finance.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
-                "영업이익률"
+                "영업이익률",
+                "수익성"
               ],
-              "snippet": "key_thesis: 2025년 영업이익률이 -0.60%로 개선되며 이전 연도(-6.75%, -11.07%) 대비 손실 폭이 크게 축소되었다.",
+              "snippet": "key_thesis: 2021년 이후 영업이익률이 지속적으로 마이너스(-)를 기록하며 수익성 개선이 이루어지지 않고 있습니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3161,9 +3335,10 @@
               "source_file": "data/반도체/코아시아/finance/코아시아_finance.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
-                "현금흐름"
+                "현금흐름",
+                "FCF"
               ],
-              "snippet": "key_thesis: 2025년 영업활동현금흐름(OCF)이 129억 원으로 흑자 전환하며 현금 창출 능력이 회복되는 추세를 보였다.",
+              "snippet": "key_thesis: 2021년 4.2억 원의 긍정적인 잉여현금흐름(FCF)을 기록했으나, 2023년 -38.8억 원, 2024년 -784.1억 원으로 대폭 악화되었습니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3176,79 +3351,83 @@
             {
               "source_group": "FINANCE",
               "source_file": "data/반도체/코아시아/finance/코아시아_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "영업이익률",
+                "수익성",
+                "비용"
+              ],
+              "snippet": "key_risks: 2024년 영업이익률이 -11.07%로 심화되었으며, 이는 딥테크 기업 특성상 기술 개발 및 투자 비용 증가로 인한 일시적 현상일 수 있으나 수익성 회복 여부 확인이 필요합니다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%BD%94%EC%95%84%EC%8B%9C%EC%95%84+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/코아시아/finance/코아시아_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "FCF"
+              ],
+              "snippet": "key_risks: 2024년 FCF가 -784.1억 원으로 대폭 감소하여 투자 및 운영 자금 조달에 대한 부담이 가중될 수 있습니다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%BD%94%EC%95%84%EC%8B%9C%EC%95%84+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/코아시아/finance/코아시아_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "영업이익률",
+                "수익성"
+              ],
+              "snippet": "key_risks: 영업이익률 -11.07%로 수익성 부담을 확인해야 합니다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%BD%94%EC%95%84%EC%8B%9C%EC%95%84+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/코아시아/finance/코아시아_finance_agent_packet.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "영업이익률",
+                "수익성"
+              ],
+              "snippet": "report_core_points: 영업이익률: 코아시아 2024 기준 영업이익률 값은 -11.07%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%BD%94%EC%95%84%EC%8B%9C%EC%95%84+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/코아시아/finance/코아시아_finance_agent_packet.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
                 "수익성"
               ],
-              "snippet": "key_risks: 2025년 ROE가 -15.77%로 여전히 음수 값을 기록하며 자본 대비 수익성이 부진하다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%BD%94%EC%95%84%EC%8B%9C%EC%95%84+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/코아시아/finance/코아시아_finance_agent_packet.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "FCF"
-              ],
-              "snippet": "report_core_points: FCF: 코아시아 2025 기준 FCF 값은 -6,462,985,878원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%BD%94%EC%95%84%EC%8B%9C%EC%95%84+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/코아시아/finance/코아시아_finance_agent_packet.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "영업이익률"
-              ],
-              "snippet": "missing_prompt_metrics: 영업이익률",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%BD%94%EC%95%84%EC%8B%9C%EC%95%84+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/코아시아/finance/코아시아_finance_agent_packet.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "FCF"
-              ],
-              "snippet": "metric: fcf",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%BD%94%EC%95%84%EC%8B%9C%EC%95%84+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/코아시아/finance/코아시아_finance_agent_packet.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "FCF"
-              ],
-              "snippet": "label: FCF",
+              "snippet": "report_core_points: ROE: 코아시아 2024 기준 ROE 값은 -45.78%이며, 자기자본 대비 수익성 수준을 확인하는 지표입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3464,7 +3643,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\코아시아\\tech\\coasia_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\코아시아\\tech\\coasia_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-20T21:33:44",
+      "generated_at": "2026-05-25T20:50:43",
       "core_counts": {
         "total_patents": 30,
         "registered_patents_estimated": 25,
@@ -3543,8 +3722,8 @@
     "bridge_signal": "IP_QUALITY_NEUTRAL"
   },
   "formula_catalog_summary": {
-    "json": "data\\반도체\\코아시아\\tech\\coasia_tech_formula_rules.json",
-    "md": "data\\반도체\\코아시아\\tech\\coasia_tech_formula_rules.md",
+    "json": "C:\\Agent_6.9\\data\\반도체\\코아시아\\tech\\coasia_tech_formula_rules.json",
+    "md": "C:\\Agent_6.9\\data\\반도체\\코아시아\\tech\\coasia_tech_formula_rules.md",
     "rule_count": 34
   },
   "evidence_harvest_summary": {
@@ -3580,6 +3759,8 @@
     "tech_full_appendix_json": null,
     "tech_chair_summary_json": "data/반도체/코아시아/tech/tech_chair_summary.json",
     "tech_chair_summary_md": "data/반도체/코아시아/tech/coasia_tech_chair_summary.md",
+    "tech_history_feature_json": "data/반도체/코아시아/tech/tech_history_features_2025-08-31.json",
+    "tech_history_feature_csv": "data/반도체/코아시아/tech/tech_history_features_2025-08-31.csv",
     "tech_json": "data/반도체/코아시아/tech/coasia_tech.json",
     "tech_agent_packet_json": "data/반도체/코아시아/tech/coasia_tech_agent_packet.json"
   },
@@ -4416,7 +4597,7 @@
     "field": "반도체",
     "source_csv": "data\\반도체\\코아시아\\tech\\coasia_kipris_patents_normalized.csv",
     "enriched_csv": "data\\반도체\\코아시아\\tech\\coasia_kipris_tech_ml_enriched.csv",
-    "generated_at": "2026-05-20T21:33:44",
+    "generated_at": "2026-05-25T20:50:43",
     "core_counts": {
       "total_patents": 30,
       "registered_patents_estimated": 25,

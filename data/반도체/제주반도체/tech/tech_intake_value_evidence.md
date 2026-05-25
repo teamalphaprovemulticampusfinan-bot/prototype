@@ -1,10 +1,10 @@
 # 제주반도체 Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-20T21:29:16
+- 생성 시각: 2026-05-25T20:38:23
 - 종합 점수: 77.64/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 132개
+- 원천 문서 수: 152개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -12,7 +12,7 @@
 | 고객 채택 | 직접 근거 확인 | 85.0 | 8 | 0 | 0 | 고객 채택 관련 직접 근거가 8건 확인됩니다. Chair에서는 가치 전환 근거로 반영하되 원천 URL/파일을 함께 확인합니다. |
 | 양산 | 직접 근거 확인 | 85.0 | 8 | 0 | 0 | 양산 관련 직접 근거가 8건 확인됩니다. Chair에서는 가치 전환 근거로 반영하되 원천 URL/파일을 함께 확인합니다. |
 | 매출 전환 | 직접 근거 확인 | 85.0 | 8 | 0 | 0 | 매출 전환 관련 직접 근거가 8건 확인됩니다. Chair에서는 가치 전환 근거로 반영하되 원천 URL/파일을 함께 확인합니다. |
-| IP 품질 | 직접 근거 확인 | 35.9 | 4 | 0 | 0 | KIPRIS 기반 법적 상태·청구항·인용·패밀리 산출물을 함께 반영합니다. 특허 수량만이 아니라 권리 안정성, 청구항 방어력, 인용 영향력, 해외 확장성을 분리해 Chair 판단에 전달합니다. |
+| IP 품질 | 직접 근거 확인 | 35.9 | 3 | 0 | 1 | KIPRIS 기반 법적 상태·청구항·인용·패밀리 산출물을 함께 반영합니다. 특허 수량만이 아니라 권리 안정성, 청구항 방어력, 인용 영향력, 해외 확장성을 분리해 Chair 판단에 전달합니다. |
 | 마진·원가·현금흐름 연결 | 직접 근거 확인 | 85.0 | 8 | 0 | 0 | 마진·원가·현금흐름 연결 관련 직접 근거가 8건 확인됩니다. Chair에서는 가치 전환 근거로 반영하되 원천 URL/파일을 함께 확인합니다. |
 
 ## 3. 대표 근거
@@ -32,23 +32,23 @@
 - [DIRECT_EVIDENCE] - 기술 우위가 확인되어도 고객 채택·양산·매출 전환·FCF 직접 근거가 약하면 보수적으로 반영합니다. (source=data/반도체/제주반도체/tech/_nepes_reference_schema/nepes_tech_chair_summary.md, keywords=양산, urls=http://www.w3.org/2001/XMLSchema-instance, http://www.nepes.co.kr)
 
 ### 매출 전환
-- [DIRECT_EVIDENCE] summary: 제주반도체는 2025년 매출이 전년 대비 약 86% 증가하며 가파른 성장세를 기록했으나, 2024년에는 영업이익률이 5.9%로 하락하며 수익성이 둔화되는 모습을 보였다. (source=data/반도체/제주반도체/finance/제주반도체_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2025년 매출액이 3,022억 원으로 전년 대비 86.17% 증가하며 가파른 성장세를 시현했다. (source=data/반도체/제주반도체/finance/제주반도체_finance.json, keywords=매출, 매출액, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: 제주반도체는 2024년 매출이 11.3% 성장하며 회복세를 보였으나, 영업이익률은 5.9%로 하락하며 수익성 둔화가 관찰된다. (source=data/반도체/제주반도체/finance/제주반도체_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 매출이 11.3% 성장하며 이전 연도의 역성장에서 벗어나는 모습을 보였다. (source=data/반도체/제주반도체/finance/제주반도체_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] missing_prompt_metrics: 매출성장률 (source=data/반도체/제주반도체/finance/제주반도체_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수 (source=data/반도체/제주반도체/finance/제주반도체_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] sales: 302230571186.0 (source=data/반도체/제주반도체/finance/제주반도체_finance_agent_packet.json, keywords=sales, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률 (source=data/반도체/제주반도체/finance/제주반도체_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] sales: 162349945455.0 (source=data/반도체/제주반도체/finance/제주반도체_finance_agent_packet.json, keywords=sales, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### 마진·원가·현금흐름 연결
-- [DIRECT_EVIDENCE] summary: 제주반도체는 2025년 매출이 전년 대비 약 86% 증가하며 가파른 성장세를 기록했으나, 2024년에는 영업이익률이 5.9%로 하락하며 수익성이 둔화되는 모습을 보였다. (source=data/반도체/제주반도체/finance/제주반도체_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] 2025년에는 영업이익률이 11.8%로 회복되었고 ROE 또한 17.39%로 상승하며 긍정적인 재무 성과를 나타냈다. (source=data/반도체/제주반도체/finance/제주반도체_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2025년 영업이익률이 11.87%로 전년 5.90% 대비 크게 개선되었으며, ROE 또한 17.39%로 상승했다. (source=data/반도체/제주반도체/finance/제주반도체_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2025년 잉여현금흐름(FCF)이 228억 원으로 흑자전환하며 현금 창출 능력이 회복되었다. (source=data/반도체/제주반도체/finance/제주반도체_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_risks: 2024년 영업이익률이 5.90%로 전년 12.23% 대비 절반 수준으로 하락하며 수익성 둔화 우려가 있었다. (source=data/반도체/제주반도체/finance/제주반도체_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: 제주반도체는 2024년 매출이 11.3% 성장하며 회복세를 보였으나, 영업이익률은 5.9%로 하락하며 수익성 둔화가 관찰된다. (source=data/반도체/제주반도체/finance/제주반도체_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] 2024년 자유현금흐름(FCF)은 -12.5조 원으로 대폭 악화되었으며, 이는 투자 및 운영 활동에서의 현금 유출 증가를 시사한다. (source=data/반도체/제주반도체/finance/제주반도체_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2023년까지 ROE가 10% 이상을 유지하며 자본 대비 수익성이 일정 수준 확보되었음을 시사한다. (source=data/반도체/제주반도체/finance/제주반도체_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2023년까지 영업이익률이 12.2%를 기록하며 견조한 수익성을 보여주었다. (source=data/반도체/제주반도체/finance/제주반도체_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2024년 영업이익률이 5.9%로 하락하며 수익성 둔화 우려가 있다. (source=data/반도체/제주반도체/finance/제주반도체_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### IP 품질
 - [DIRECT_EVIDENCE] legal_status: status=COLLECTED, count=None, score=0.7692, signal=None (source=data/반도체/제주반도체/tech/jeju_semicon_tech_ip_legal_features.json, keywords=legal_status, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
 - [DIRECT_EVIDENCE] claims: status=COLLECTED, count=174.0, score=None, signal=None (source=data/반도체/제주반도체/tech/jeju_semicon_tech_ip_claim_features.json, keywords=claims, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
-- [DIRECT_EVIDENCE] citations: status=COLLECTED, count=26, score=None, signal=None (source=data/반도체/제주반도체/tech/jeju_semicon_tech_ip_citation_features.json, keywords=citations, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
+- [PARTIAL_EVIDENCE] citations: status=NO_CITATION_COLLECTED, count=0, score=None, signal=None (source=data/반도체/제주반도체/tech/jeju_semicon_tech_ip_citation_features.json, keywords=citations, NO_CITATION_COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
 - [DIRECT_EVIDENCE] family: status=COLLECTED, count=34, score=None, signal=None (source=data/반도체/제주반도체/tech/jeju_semicon_tech_ip_family_features.json, keywords=family, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
 - [DIRECT_EVIDENCE] composite: status=COLLECTED, count=None, score=35.9, signal=IP_EVIDENCE_WEAK (source=data/반도체/제주반도체/tech/jeju_semicon_tech_ip_evidence_composite.json, keywords=composite, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
 
@@ -56,7 +56,7 @@
 - 고객 채택: 확인된 고객사·공급 근거가 실제 반복 매출로 이어지는지 후속 확인
 - 양산: 양산 근거가 제품별 매출·가동률·수율 개선으로 이어지는지 확인
 - 매출 전환: 기술 적용 제품군의 매출 지속성과 고객 concentration 리스크 확인
-- IP 품질: 청구항·인용·패밀리·존속 상태가 수집된 상태이므로 IP Evidence Composite와 Bridge 조정값의 방향성을 점검
+- IP 품질: citations 데이터 보강 후 청구항·인용·패밀리·존속 상태를 재점수화
 - 마진·원가·현금흐름: 확인된 수익성/현금흐름 개선이 일회성이 아닌지 기간별 추세 확인
 
 ## 5. URL 인식 결과 및 대체 조회 URL

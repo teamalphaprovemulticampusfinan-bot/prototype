@@ -1,7 +1,7 @@
 # Tech Template Inventory - 유진테크 (eugene_tech)
 
-- source: `data\반도체\_sector_common\templates`
-- reference: `data\반도체\유진테크\tech\_template_refs`
+- source: `data/반도체/_sector_common/templates`
+- reference: `data/반도체/유진테크/tech/_template_refs`
 - template_count: 2
 
 ## Templates

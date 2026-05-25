@@ -38,11 +38,11 @@
 ## 4. KIPRIS/IP 정량 신호
 | 원천 신호 | 값 |
 |---|---:|
-| 정규화 특허 텍스트 레코드 | 1,027건 |
-| 회사 출원인/권리자 매칭 | 597건 |
+| 정규화 특허 텍스트 레코드 | 2,587건 |
+| 회사 출원인/권리자 매칭 | 2,157건 |
 | 등록 특허 | 11건 |
-| 존속 가능 특허 | 31건 |
-| 최근 5년 특허 | 2건 |
+| 존속 가능 특허 | 1,591건 |
+| 최근 5년 특허 | 1,560건 |
 | IPC/CPC 다양성 | 확인 제한 |
 | H01L 등 핵심 IPC 특허 | 확인 제한 |
 | KIPRIS 등록률(추정) | 46.67% |
@@ -124,7 +124,7 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
 - IP Evidence Adjustment Points: -1.0
 - Peer-adjusted Score Before IP Evidence: 37.0
 - Final Bridge Score After IP Evidence: 36.0
-- Source: `data/반도체/GST/tech/tech_ip_evidence_composite.json`
+- Source: `C:/Agent_6.9/data/반도체/GST/tech/tech_ip_evidence_composite.json`
 
 해석:
 - 네패스처럼 IP Evidence 조정값이 0.0이면 최종 점수 변화가 없는 것이 정상입니다.
@@ -135,7 +135,7 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
 ## 개인투자자용 Tech 최종 점수판
 
 - **대상 기업:** GST
-- **최종 Tech 점수:** 40.48/100
+- **최종 Tech 점수:** 49.48/100
 - **최종 판정:** 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요 `EVIDENCE_WEAK_OR_EARLY`
 - **해석 원칙:** 특허 수, 기술 키워드 수, 뉴스 수를 각각 따로 과장하지 않고, 사업화 연결 가능성과 근거 직접성을 하나의 최종 점수로 통합했습니다.
 
@@ -144,13 +144,13 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
 |---|---:|---:|---:|---|
 | Tech-to-Value Bridge | 36.00 | 0.40 | 14.40 | 기술이 고객 채택·양산·매출 전환으로 이어질 가능성 |
 | IP Evidence Composite | 43.67 | 0.20 | 8.73 | 권리 안정성·청구항·인용·패밀리 기반 특허 품질 |
-| Excel 기반 정량 근거 | 45.00 | 0.15 | 6.75 | 템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지 |
-| 근거 직접성·충분성 | 43.00 | 0.15 | 6.45 | Chair가 개인투자자에게 설명할 수 있는 근거의 직접성 |
+| Excel 기반 정량 근거 | 90.00 | 0.15 | 13.50 | 템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지 |
+| 근거 직접성·충분성 | 58.00 | 0.15 | 8.70 | Chair가 개인투자자에게 설명할 수 있는 근거의 직접성 |
 | 사업화·성장자금 지속성 | 41.50 | 0.10 | 4.15 | R&D·특허·정부과제·기술이전·CAPEX/희석성 자금조달이 사업화와 연결되는 정도 |
 
 ### 2) 핵심 해석
-- GST의 개인투자자용 Tech 최종 점수는 40.48/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.
-- 최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(36.0)와 IP Evidence(43.67) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.
+- GST의 개인투자자용 Tech 최종 점수는 49.48/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.
+- 최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(36.0)와 IP Evidence(43.67) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.
 - 투자자가 확인할 핵심 근거는 9개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다.
 
 ### 3) 개인투자자가 확인할 근거
@@ -162,8 +162,8 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
 | tech.inv.ev.004 | kipris_claim | **청구항 방어력**: 청구항 수 517, 독립항 추정 78, claim defense score 49.68입니다. | 49.68점 | 중 |
 | tech.inv.ev.005 | kipris_citation | **인용 영향력**: 전방/후방 인용 및 기술 영향력 점수 기준 IP_CITATION_FALLBACK_ESTIMATED입니다. | - | 중 |
 | tech.inv.ev.006 | kipris_family | **글로벌 패밀리 확장성**: 해외 패밀리 비중 0.7667, 감지 지역 ['CN', 'EP', 'JP', 'US', 'WO'], global extension score 74.67입니다. | 74.67점 | 중 |
-| tech.inv.ev.007 | tech_summary | **Tech Agent 핵심 해석**: GST의 개인투자자용 Tech 최종 점수는 40.48/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다. | - | 중 |
-| tech.inv.ev.008 | tech_summary | **Tech Agent 핵심 해석**: 최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(36.0)와 IP Evidence(43.67) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다. | - | 중 |
+| tech.inv.ev.007 | tech_summary | **Tech Agent 핵심 해석**: GST의 개인투자자용 Tech 최종 점수는 49.48/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다. | - | 중 |
+| tech.inv.ev.008 | tech_summary | **Tech Agent 핵심 해석**: 최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(36.0)와 IP Evidence(43.67) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다. | - | 중 |
 | tech.inv.ev.009 | tech_summary | **Tech Agent 핵심 해석**: 투자자가 확인할 핵심 근거는 6개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다. | - | 중 |
 
 ### 4) 한계와 보완 필요사항
@@ -178,10 +178,10 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
 # GST Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-20T22:05:32
+- 생성 시각: 2026-05-25T22:04:07
 - 종합 점수: 78.8/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 132개
+- 원천 문서 수: 148개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -209,18 +209,18 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
 - [DIRECT_EVIDENCE] - 기술 우위가 확인되어도 고객 채택·양산·매출 전환·FCF 직접 근거가 약하면 보수적으로 반영합니다. (source=data/반도체/GST/tech/_nepes_reference_schema/nepes_tech_chair_summary.md, keywords=양산, urls=http://www.w3.org/2001/XMLSchema-instance, http://www.nepes.co.kr)
 
 ### 매출 전환
-- [DIRECT_EVIDENCE] summary: GST는 2023년 이후 매출이 꾸준히 성장하며 2025년에는 3,471억 원을 기록할 것으로 예상됩니다. (source=data/반도체/GST/finance/GST_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2023년 2,792억 원에서 2025년 3,471억 원으로 매출이 꾸준히 성장하는 추세를 보이고 있습니다. (source=data/반도체/GST/finance/GST_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: GST는 2024년 매출이 전년 대비 24% 성장하며 긍정적인 회복세를 보였으나, 영업이익률은 17.1%로 2022년 18.2% 대비 소폭 하락했습니다. (source=data/반도체/GST/finance/GST_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 매출이 3462억 원으로 전년 대비 24.0% 성장하며 역성장에서 벗어나는 모습을 보였습니다. (source=data/반도체/GST/finance/GST_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] missing_prompt_metrics: 매출성장률 (source=data/반도체/GST/finance/GST_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수 (source=data/반도체/GST/finance/GST_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] sales: 347158632861.0 (source=data/반도체/GST/finance/GST_finance_agent_packet.json, keywords=sales, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률 (source=data/반도체/GST/finance/GST_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] sales: 346227651802.0 (source=data/반도체/GST/finance/GST_finance_agent_packet.json, keywords=sales, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### 마진·원가·현금흐름 연결
-- [DIRECT_EVIDENCE] 영업이익률은 15% 이상을 유지하며 견조한 수익성을 보여주고 있으며, ROE 또한 15% 내외로 양호한 수준을 유지하고 있습니다. (source=data/반도체/GST/finance/GST_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 영업이익률이 2023년 15.2%에서 2025년 17.0%로 상승하며 수익성이 개선되고 있습니다. (source=data/반도체/GST/finance/GST_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 잉여현금흐름(FCF)은 2023년 264억 원에서 2025년 286억 원으로 증가하며 현금 창출 능력을 보여주고 있습니다. (source=data/반도체/GST/finance/GST_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] report_core_points: FCF: GST 2025 기준 FCF 값은 28,685,014,070원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다. (source=data/반도체/GST/finance/GST_finance_agent_packet.json, keywords=FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] missing_prompt_metrics: 영업이익률 (source=data/반도체/GST/finance/GST_finance_agent_packet.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: GST는 2024년 매출이 전년 대비 24% 성장하며 긍정적인 회복세를 보였으나, 영업이익률은 17.1%로 2022년 18.2% 대비 소폭 하락했습니다. (source=data/반도체/GST/finance/GST_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 영업이익률은 17.1%로 2023년 15.2% 대비 개선되었으며, 2022년 18.2% 수준에 근접했습니다. (source=data/반도체/GST/finance/GST_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 잉여현금흐름(FCF)은 348억 원으로 전년 대비 크게 증가하며 현금 창출 능력이 강화되었습니다. (source=data/반도체/GST/finance/GST_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2024년 영업이익률이 17.1%로 2022년 18.2% 대비 하락하여 수익성 개선 추세에 대한 추가 확인이 필요합니다. (source=data/반도체/GST/finance/GST_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] report_core_points: 영업이익률: GST 2024 기준 영업이익률 값은 17.06%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다. (source=data/반도체/GST/finance/GST_finance_agent_packet.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### IP 품질
 - [DIRECT_EVIDENCE] legal_status: status=COLLECTED, count=None, score=0.4667, signal=None (source=data/반도체/GST/tech/gst_tech_ip_legal_features.json, keywords=legal_status, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
@@ -275,7 +275,7 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
   - fallback: https://comp.fnguide.com/
   - fallback: https://www.google.com/search?q=GST+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84+FCF
 - **FINANCE**
-  - detected: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+  - detected: URL 확인 제한
   - fallback: https://dart.fss.or.kr/
   - fallback: https://opendart.fss.or.kr/
   - fallback: https://finance.naver.com/

@@ -3,6 +3,51 @@
   "company": "피에스케이",
   "company_dir": "psk",
   "opinion": "보유",
+  "tech_signal": 0.322005,
+  "history_tech_feature": {
+    "signal": 0.322005,
+    "status": "OK_TECH_HISTORY_ASOF",
+    "source": "C:\\Agent_6.9\\data\\반도체\\피에스케이\\tech\\psk_kipris_patents_normalized.csv;C:\\Agent_6.9\\data\\반도체\\피에스케이\\tech\\psk_tech_patent_normalized.csv;C:\\Agent_6.9\\data\\반도체\\피에스케이\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\피에스케이\\tech\\psk_kipris_bibliographic_normalized.csv;C:\\Agent_6.9\\data\\반도체\\피에스케이\\tech\\psk_kipris_claims_normalized.csv;C:\\Agent_6.9\\data\\반도체\\피에스케이\\tech\\psk_kipris_plus_claim_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\피에스케이\\tech\\psk_kipris_plus_family_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\피에스케이\\tech\\psk_kipris_plus_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\피에스케이\\tech\\psk_kipris_tech_ml_enriched.csv;C:\\Agent_6.9\\data\\반도체\\피에스케이\\tech\\source\\psk_kipris_plus_bibliographic_raw.csv;C:\\Agent_6.9\\data\\반도체\\피에스케이\\tech\\quanified_metrix.csv;C:\\Agent_6.9\\data\\반도체\\피에스케이\\tech\\tech_excel_frame_items.csv",
+    "as_of_date": "2025-08-31",
+    "company": "피에스케이",
+    "ticker": "319660.KQ",
+    "stock_code": "319660",
+    "base_signal": 0.333628,
+    "evidence_confidence": 0.787436,
+    "commercialization_gate_signal": 0.237177,
+    "technology_risk_penalty": 0.0,
+    "ip_quality_signal": 0.133689,
+    "lifecycle_signal": 0.0,
+    "technology_differentiation_signal": 0.059726,
+    "commercialization_signal": 0.948707,
+    "rnd_sustainability_signal": 0.474827,
+    "peer_position_signal": -0.209524,
+    "tech_to_value_signal": 0.594343,
+    "certification_signal": 0.0,
+    "qualification_signal": 0.0,
+    "cost_yield_signal": 0.0,
+    "workforce_signal": 0.0,
+    "government_rd_signal": 0.0,
+    "licensing_signal": 0.0,
+    "dispute_risk_signal": 0.0,
+    "failure_delay_signal": 0.0,
+    "intangible_accounting_signal": 0.0,
+    "patent_records_asof": 659,
+    "dated_records_asof": 239,
+    "undated_records_used": 486,
+    "files_used": 72,
+    "notes": "Tech history signal uses dated patent/IP, TRL/readiness, certification, qualification, commercialization, R&D/workforce, risk and accounting evidence before as_of_date; no Buy/Hold/Sell threshold is applied.",
+    "frequency": "monthly",
+    "formula": "final=base_signal*evidence_confidence + 0.25*commercialization_gate_signal - 0.35*technology_risk_penalty",
+    "research_basis": [
+      "Hall-Jaffe-Trajtenberg patent citations/value; Lanjouw-Schankerman patent quality; OECD patent quality composite indicators",
+      "DoD/NASA TRL and TRA maturity framework",
+      "IFC/Bpifrance deep-tech development-stage financing framework",
+      "Text-based industry/technology relatedness literature for peer/differentiation evidence"
+    ],
+    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\피에스케이\\tech\\tech_history_features_2025-08-31.json",
+    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\피에스케이\\tech\\tech_history_features_2025-08-31.csv"
+  },
   "claims": [
     {
       "claim_id": "tech.cl.000",
@@ -84,63 +129,63 @@
     {
       "title": "피에스케이 KIPRIS/특허 정량화 요약",
       "url": "",
-      "path": "data\\반도체\\피에스케이\\tech\\source\\psk_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\피에스케이\\tech\\source\\psk_kipris_plus_bibliographic_raw.csv",
       "snippet": "피에스케이 KIPRIS/특허 정량화 요약 본 특허 근거는 KIPRIS API/CSV/엑셀/TXT 원천 파일을 정규화해 산출했다. [정량 지표] - 특허 원천 파일 수: 1개 - 정규화 특허 레코드 수: 25건 - 출원인/권리자 회사 매칭 특허 수: 25건 - 등록 특허 수: 6건 - 존속 가능 특허 수: 6건 - 최근 5년 특허 수: 22건 - IPC/CPC 기술분류 수: 9개 - H01L 반도체 IPC 특허 수: 0건 - 반도체 핵심 IPC 특허 수: 11건 - 특허-기술 키워드 매칭 수: 38회 - 특허 포트폴리오 연도 범위: 2015~2025 - KIPRIS 총 특허 수: 25.0건 - KIPRIS 등록 특허 수(",
       "relevance_score": 30
     },
     {
       "title": "웨이퍼 절단 방법",
       "url": "",
-      "path": "data\\반도체\\피에스케이\\tech\\source\\psk_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\피에스케이\\tech\\source\\psk_kipris_plus_bibliographic_raw.csv",
       "snippet": "웨이퍼 절단 방법 | 피에스케이홀딩스 (주) | 등록 | 2025 | 출원번호 1020250077259; 등록번호 1029623820000 | IPC/CPC: H10P, B23K | 기술매칭: 공정, 기판, 웨이퍼 | 초록: 본 개시는 기판의 표면에 적층된 다층 구조물에 의해 복수의 디바이스가 형성된 웨이퍼를, 상기 복수의 디바이스를 구획하는 복수의 스크라이브 라인을 따라 절단하는 웨이퍼 절단 방법으로서, 상기 웨이퍼 상에 보호막을 형성하는 단계; 상기 보호막이 형성된 상기 웨이퍼 상으로 제1 레이저 광을 조사하는 레이저 그루빙 공정을 수행하여 상기 기판의 일부 표면을 노출시키는 제1 그루브를 형성하는 단계; 상",
       "relevance_score": 78.0
     },
     {
       "title": "플라즈마 발생 유닛 및 이를 포함하는 기판 처리 장치",
       "url": "",
-      "path": "data\\반도체\\피에스케이\\tech\\source\\psk_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\피에스케이\\tech\\source\\psk_kipris_plus_bibliographic_raw.csv",
       "snippet": "플라즈마 발생 유닛 및 이를 포함하는 기판 처리 장치 | 피에스케이 주식회사 | 등록 | 2021 | 출원번호 1020210190689; 등록번호 1026544870000 | IPC/CPC: H01J | 기술매칭: 차폐, 공정, 기판 | 초록: 본 발명은 기판을 처리하는 장치를 제공한다. 기판을 처리하는 장치는 상기 기판을 처리하는 처리 공간을 제공하는 공정 처리부 및 공정 처리부 상부에 구비되어 공정 가스로부터 플라즈마를 발생시키는 플라즈마 발생부를 포함하되, 상기 플라즈마 발생부는 내부에 방전 공간이 형성되는 플라즈마 챔버, 상기 플라즈마 챔버의 외부를 감싸고, 고주파 전류가 흐르는 안테나 및 상기 안테나의 외부를 ",
       "relevance_score": 76.5
     },
     {
       "title": "플라즈마 발생 유닛 및 기판 처리 장치",
       "url": "",
-      "path": "data\\반도체\\피에스케이\\tech\\source\\psk_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\피에스케이\\tech\\source\\psk_kipris_plus_bibliographic_raw.csv",
       "snippet": "플라즈마 발생 유닛 및 기판 처리 장치 | 피에스케이 주식회사 | 등록 | 2021 | 출원번호 1020210042683; 등록번호 1023235800000 | IPC/CPC: H01J, H05H | 기술매칭: 공정, 기판 | 초록: 본 발명은 기판을 처리하는 장치를 제공한다. 기판을 처리하는 장치는, 처리 공간을 가지는 챔버와; 상기 처리 공간에서 기판을 지지하는 지지 유닛과; 상기 처리 공간으로 공정 가스를 공급하는 가스 공급 유닛과; 그리고, 상기 공정 가스로부터 플라즈마를 발생시키는 플라즈마 발생 유닛을 포함하고, 상기 플라즈마 발생 유닛은, 내부 코일부와; 상부에서 바라볼 때, 상기 내부 코일부를 둘러싸도록 제",
       "relevance_score": 75.0
     },
     {
       "title": "기판 처리 방법",
       "url": "",
-      "path": "data\\반도체\\피에스케이\\tech\\source\\psk_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\피에스케이\\tech\\source\\psk_kipris_plus_bibliographic_raw.csv",
       "snippet": "기판 처리 방법 | 피에스케이 주식회사 | 등록 | 2022 | 출원번호 1020220113708; 등록번호 1029655950000 | IPC/CPC: H10P, H01J, G06T | 기술매칭: 기판 | 초록: 본 발명은 기판을 처리하는 방법을 제공한다. 일 실시예에 의한 기판 처리 방법은, 플라즈마를 이용하여 기판의 가장자리 영역을 처리하는 처리 단계; 및 상기 처리 단계에서 처리가 완료된 기판을 촬상하여 판정 대상 이미지를 획득하고, 상기 판정 대상 이미지와 데이터 베이스에 저장된 이미지를 비교하여, 상기 처리 단계에서 처리된 기판의 처리 불량 여부를 판정하는 판정 단계를 포함하되, 상기 데이터",
       "relevance_score": 73.5
     },
     {
       "title": "기판처리장치 및 그 동작방법",
       "url": "",
-      "path": "data\\반도체\\피에스케이\\tech\\source\\psk_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\피에스케이\\tech\\source\\psk_kipris_plus_bibliographic_raw.csv",
       "snippet": "기판처리장치 및 그 동작방법 | 피에스케이홀딩스 (주) | 공개 | 2024 | 출원번호 1020240143632 | IPC/CPC: H10P, H01S | 기술매칭: 기판, 반도체, 소자 | 초록: 본 개시의 일 실시 예에 따른 반도체기판에 대한 온도 제어를 수행하는 기판처리장치에 있어서, 상기 반도체기판을 지지하면서 온도 제어를 수행하도록 마련된 지지척, 일 측이 상기 지지척에 형성된 홈에 수용되는 지지대, 상기 지지척의 일 면에 마련되는 복수의 광흡수부, 상기 복수의 광흡수부에 대해 레이저를 조사하되, VCSEL 소자들이 정렬된 형태인 VCSEL 어레이를 각각 포함하는 복수의 레이저",
       "relevance_score": 68.0
     },
     {
       "title": "기판 처리 장치 및 기판 처리 장치의 제어 방법",
       "url": "",
-      "path": "data\\반도체\\피에스케이\\tech\\source\\psk_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\피에스케이\\tech\\source\\psk_kipris_plus_bibliographic_raw.csv",
       "snippet": "기판 처리 장치 및 기판 처리 장치의 제어 방법 | 피에스케이 주식회사 | 공개 | 2023 | 출원번호 1020230033266 | IPC/CPC: H10P, H01J, G01B | 기술매칭: 공정, 기판 | 초록: 본 발명은 기판 처리 장치의 제어 방법을 제공한다. 제어 방법은, 하부 전극을 미리 설정된 높이로 이동시키는 척 이동 단계; 상기 기판의 상면과 상기 하부 전극의 상방에 위치하는 유전체 판 사이의 간격을 측정하는 간격 측정 단계; 상기 간격 측정 단계에서 측정된 상기 간격과 미리 기억된 공정 레시피와 비교하여 상기 간격을 보정하는 보정 동작이 필요한지 여부를 판단하는 보정 여부 판단 단계;",
       "relevance_score": 66.5
     },
     {
       "title": "기판 처리 방법",
       "url": "",
-      "path": "data\\반도체\\피에스케이\\tech\\source\\psk_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\피에스케이\\tech\\source\\psk_kipris_plus_bibliographic_raw.csv",
       "snippet": "기판 처리 방법 | 피에스케이 주식회사 | 공개 | 2022 | 출원번호 1020220140564 | IPC/CPC: H10P, H01J | 기술매칭: 공정, 기판 | 초록: 본 발명은 기판을 처리하는 방법을 제공한다. 일 실시예에 의한 기판 처리 방법은 챔버 내에 공정 가스를 공급하여 기판을 처리하되, 상기 공정 가스 중 일부는 플라즈마 상태로 여기되고, 상기 플라즈마는 기판 상에 형성된 하드 마스크 막을 기판으로부터 제거하고, 상기 공정 가스 중 다른 일부는 기판 상에 형성된 박막과 반응하여 상기 박막의 표면에 패시베이션 막(Passivation film)을",
       "relevance_score": 65.0
     },
     {
       "title": "기판 처리 장치 및 플라즈마 발생 유닛",
       "url": "",
-      "path": "data\\반도체\\피에스케이\\tech\\source\\psk_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\피에스케이\\tech\\source\\psk_kipris_plus_bibliographic_raw.csv",
       "snippet": "기판 처리 장치 및 플라즈마 발생 유닛 | 피에스케이 주식회사 | 공개 | 2023 | 출원번호 1020230099910 | IPC/CPC: H01J, H05H | 기술매칭: 공정, 기판 | 초록: 기판을 처리하는 장치에 있어서, 처리 공간을 가지는 하우징; 상기 처리 공간 내부에 배치되며, 기판을 지지하는 지지 유닛; 상기 처리 공간 내에 공정 가스를 공급하는 가스 공급 유닛; 및 상기 처리 공간 내에 유도 자기장을 형성하여 상기 공정 가스를 플라즈마 상태로 여기시키는 플라즈마 발생 유닛; 을 포함하며, 상기 플라즈마 발생 유닛은 서로 간에 직렬로 배치된 복수의 분절체를 가지고, 인접",
       "relevance_score": 65.0
     }
@@ -328,7 +373,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\피에스케이\\tech\\psk_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\피에스케이\\tech\\psk_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-20T21:44:17",
+      "generated_at": "2026-05-25T21:27:22",
       "core_counts": {
         "total_patents": 25,
         "registered_patents_estimated": 6,
@@ -405,7 +450,7 @@
   "tech_chair_summary": {
     "agent": "tech",
     "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-    "created_at": "2026-05-20T21:45:53",
+    "created_at": "2026-05-25T21:29:39",
     "field": "반도체",
     "company": "피에스케이",
     "company_name": "피에스케이",
@@ -437,17 +482,17 @@
       "ip_evidence_composite_bridge_signal": "IP_EVIDENCE_NEUTRAL",
       "ip_evidence_composite_adjustment_points": 0.0,
       "ip_evidence_composite_data_coverage_rate": 1.0,
-      "ip_evidence_composite_source_file": "data/반도체/피에스케이/tech/tech_ip_evidence_composite.json",
+      "ip_evidence_composite_source_file": "C:/Agent_6.9/data/반도체/피에스케이/tech/tech_ip_evidence_composite.json",
       "peer_adjusted_bridge_score_before_ip_evidence": 39.0,
       "final_bridge_score_after_ip_evidence": 39.0,
       "ip_evidence_adjusted_score": 39.0,
       "ip_evidence_formula": "final_bridge_score_after_ip_evidence = peer_adjusted_bridge_score_before_ip_evidence + ip_evidence_composite_adjustment_points",
       "ip_evidence_adjusted_grade": "TECH_EVIDENCE_WEAK",
-      "investor_final_tech_score": 45.04,
+      "investor_final_tech_score": 55.44,
       "investor_final_tech_grade": {
-        "code": "EVIDENCE_WEAK_OR_EARLY",
-        "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
-        "threshold": 0.0
+        "code": "COMMERCIALIZATION_WATCH",
+        "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+        "threshold": 52.0
       },
       "value_evidence_score": 80.75,
       "value_evidence_label": "VALUE_EVIDENCE_STRONG"
@@ -511,14 +556,14 @@
       }
     ],
     "ip_quant_signals": {
-      "normalized_patent_text_records": 642,
-      "company_matched_patents": 420,
+      "normalized_patent_text_records": 2202,
+      "company_matched_patents": 1980,
       "registered_patents": 77,
-      "alive_patents": 411,
-      "recent_5y_patents": 22,
+      "alive_patents": 1971,
+      "recent_5y_patents": 1560,
       "ipc_cpc_classes": null,
       "core_ipc_h01l_patents": null,
-      "keyword_matches": 14
+      "keyword_matches": 9374
     },
     "selected_ml": {
       "peer_ml": {
@@ -528,9 +573,9 @@
         "cluster_name": null
       },
       "tech_ip_strength": {
-        "score": 27.86,
+        "score": 55.82,
         "percentile": 50.0,
-        "patent_momentum_score": 3.93,
+        "patent_momentum_score": 84.09,
         "dominant_topic": null
       },
       "technology_differentiation": {
@@ -871,15 +916,15 @@
       "ip_evidence_bridge_signal": "IP_EVIDENCE_NEUTRAL",
       "ip_evidence_bridge_adjustment_points": 0.0,
       "final_bridge_score_after_ip_evidence": 39.0,
-      "investor_final_tech_score": 45.04,
+      "investor_final_tech_score": 55.44,
       "investor_final_tech_grade": {
-        "code": "EVIDENCE_WEAK_OR_EARLY",
-        "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
-        "threshold": 0.0
+        "code": "COMMERCIALIZATION_WATCH",
+        "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+        "threshold": 52.0
       },
       "investor_evidence_count": 9,
-      "excel_quantified_evidence_score": 45.0,
-      "commercialization_and_funding_signal_score": 49.5
+      "excel_quantified_evidence_score": 90.0,
+      "commercialization_and_funding_signal_score": 63.5
     },
     "ip_legal_features": {
       "total_patents": 25,
@@ -1329,7 +1374,7 @@
       "company_name": "피에스케이",
       "field": "반도체",
       "status": "OK",
-      "created_at": "2026-05-20T21:45:26",
+      "created_at": "2026-05-25T21:27:24",
       "weights": {
         "legal_stability": 0.25,
         "claim_defense": 0.3,
@@ -1425,17 +1470,17 @@
       "tech_full_appendix_json": ""
     },
     "ip_evidence_bridge_adjustment_status": "APPLIED",
-    "ip_evidence_bridge_adjustment_applied_at": "2026-05-20T21:45:54",
+    "ip_evidence_bridge_adjustment_applied_at": "2026-05-25T21:29:58",
     "tech_investor_view": {
       "version": "tech-investor-scorecard-v2",
-      "generated_at": "2026-05-20T21:46:03",
+      "generated_at": "2026-05-25T21:30:52",
       "company_slug": "psk",
       "company_name": "피에스케이",
-      "final_tech_investor_score": 45.04,
+      "final_tech_investor_score": 55.44,
       "final_tech_investor_grade": {
-        "code": "EVIDENCE_WEAK_OR_EARLY",
-        "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
-        "threshold": 0.0
+        "code": "COMMERCIALIZATION_WATCH",
+        "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+        "threshold": 52.0
       },
       "score_policy": {
         "description": "개인투자자용 최종 Tech 점수는 기술-사업화 연결 가능성, IP 품질, Excel/DART 정량 근거, 근거 신뢰도, 딥테크 성장투자 지속성을 하나로 합성한다.",
@@ -1595,53 +1640,54 @@
         },
         "excel_quantified_evidence": {
           "label": "Excel 기반 정량 근거",
-          "score": 45.0,
+          "score": 90.0,
           "weight": 0.15,
           "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지",
           "meta": {
-            "score": 45.0,
-            "company_item_count": 8,
-            "filled_count": 0,
+            "score": 90.0,
+            "company_item_count": 22,
+            "filled_count": 22,
             "metric_row_count": 0,
-            "numeric_signal_count": 0,
-            "category_count": 7,
+            "numeric_signal_count": 121,
+            "category_count": 8,
             "unique_metric_count": 0,
             "formula_rule_count": 0,
-            "coverage_ratio": 0.0,
-            "numeric_density": 0.0
+            "coverage_ratio": 1.0,
+            "numeric_density": 5.5
           }
         },
         "evidence_confidence": {
           "label": "근거 직접성·충분성",
-          "score": 42.67,
+          "score": 57.67,
           "weight": 0.15,
           "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성",
           "meta": {
-            "score": 42.67,
+            "score": 57.67,
             "evidence_count": 3,
             "claim_count": 3,
             "patent_count": 25,
-            "excel_coverage_ratio": 0.0
+            "excel_coverage_ratio": 1.0
           }
         },
         "commercialization_and_funding_signal": {
           "label": "사업화·성장자금 지속성",
-          "score": 49.5,
+          "score": 63.5,
           "weight": 0.1,
           "meaning": "R&D·특허·정부과제·기술이전·CAPEX/희석성 자금조달이 사업화와 연결되는 정도",
           "meta": {
-            "score": 49.5,
-            "detected_signal_groups": [],
+            "score": 63.5,
+            "detected_signal_groups": [
+              "commercial"
+            ],
             "detected_flags": {
               "rd": false,
-              "commercial": false,
+              "commercial": true,
               "government": false,
               "transfer": false,
               "funding": false
             },
             "recent_5y_patents": null,
             "warnings": [
-              "customer_mass_production_revenue_signal_limited",
               "rd_or_recent_patent_continuity_limited",
               "capital_raising_signal_not_explicitly_detected"
             ],
@@ -1669,31 +1715,31 @@
         {
           "component": "excel_quantified_evidence",
           "label": "Excel 기반 정량 근거",
-          "score": 45.0,
+          "score": 90.0,
           "weight": 0.15,
-          "weighted_score": 6.75,
+          "weighted_score": 13.5,
           "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지"
         },
         {
           "component": "evidence_confidence",
           "label": "근거 직접성·충분성",
-          "score": 42.67,
+          "score": 57.67,
           "weight": 0.15,
-          "weighted_score": 6.4005,
+          "weighted_score": 8.6505,
           "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성"
         },
         {
           "component": "commercialization_and_funding_signal",
           "label": "사업화·성장자금 지속성",
-          "score": 49.5,
+          "score": 63.5,
           "weight": 0.1,
-          "weighted_score": 4.95,
+          "weighted_score": 6.35,
           "meaning": "R&D·특허·정부과제·기술이전·CAPEX/희석성 자금조달이 사업화와 연결되는 정도"
         }
       ],
       "key_takeaways": [
-        "피에스케이의 개인투자자용 Tech 최종 점수는 45.04/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
-        "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(56.7) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+        "피에스케이의 개인투자자용 Tech 최종 점수는 55.44/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
+        "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(56.7) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
         "투자자가 확인할 핵심 근거는 9개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
       ],
       "investor_evidence": [
@@ -1760,7 +1806,7 @@
         {
           "source": "tech_summary",
           "title": "Tech Agent 핵심 해석",
-          "detail": "피에스케이의 개인투자자용 Tech 최종 점수는 45.04/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
+          "detail": "피에스케이의 개인투자자용 Tech 최종 점수는 54.04/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
           "value": null,
           "unit": null,
           "path": null,
@@ -1770,7 +1816,7 @@
         {
           "source": "tech_summary",
           "title": "Tech Agent 핵심 해석",
-          "detail": "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(56.7) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+          "detail": "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(56.7) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
           "value": null,
           "unit": null,
           "path": null,
@@ -1810,21 +1856,22 @@
       }
     },
     "key_takeaways": [
-      "피에스케이의 개인투자자용 Tech 최종 점수는 45.04/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
-      "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(56.7) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+      "피에스케이의 개인투자자용 Tech 최종 점수는 55.44/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
+      "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(56.7) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
       "투자자가 확인할 핵심 근거는 9개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다.",
+      "피에스케이의 개인투자자용 Tech 최종 점수는 54.04/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
       "투자자가 확인할 핵심 근거는 6개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
     ],
     "value_evidence_bridge": {
       "agent": "tech_intake",
       "artifact": "tech_intake_value_evidence_bridge",
       "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-      "created_at": "2026-05-20T21:46:00",
+      "created_at": "2026-05-25T21:30:50",
       "field": "반도체",
       "company": "피에스케이",
       "company_dir": "psk",
       "company_slug": "psk",
-      "source_document_count": 132,
+      "source_document_count": 153,
       "source_documents": [
         {
           "source_group": "KIPRIS",
@@ -2218,6 +2265,18 @@
         },
         {
           "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/피에스케이/tech/tech_history_features_2025-08-31.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/피에스케이/tech/tech_history_features_2025-08-31.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/피에스케이/tech/tech_intake_manifest.json",
           "detected_url_count": 0,
           "fallback_url_count": 2
@@ -2471,6 +2530,120 @@
         {
           "source_group": "VALUATION",
           "source_file": "data/반도체/피에스케이/valuation/psk_valuation_workbook.xlsx",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/피에스케이/valuation/intake/company_profile.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/피에스케이/valuation/intake/cross_agent_signals_for_valuation.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/피에스케이/valuation/intake/dcf_inputs.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/피에스케이/valuation/intake/dilution_events.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/피에스케이/valuation/intake/eval_price_history.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/피에스케이/valuation/intake/eval_price_history_monthly.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/피에스케이/valuation/intake/eval_price_history_monthly_v43.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/피에스케이/valuation/intake/eval_price_history_monthly_v44.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/피에스케이/valuation/intake/eval_price_history_monthly_v45.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/피에스케이/valuation/intake/eval_price_history_v43.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/피에스케이/valuation/intake/eval_price_history_v44.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/피에스케이/valuation/intake/eval_price_history_v45.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/피에스케이/valuation/intake/financials_normalized.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/피에스케이/valuation/intake/financials_raw.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/피에스케이/valuation/intake/peer_multiples.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/피에스케이/valuation/intake/price_history.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/피에스케이/valuation/intake/relative_valuation_inputs.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/피에스케이/valuation/intake/shares_outstanding.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/피에스케이/valuation/intake/valuation_assumptions.csv",
           "detected_url_count": 0,
           "fallback_url_count": 5
         },
@@ -2733,12 +2906,13 @@
             "https://plus.kipris.or.kr/",
             "https://www.google.com/search?q=%ED%94%BC%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4+KIPRIS+%ED%8A%B9%ED%97%88",
             "https://www.google.com/search?q=%ED%94%BC%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
-            "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
-            "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
             "https://www.google.com/search?q=%ED%94%BC%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
             "https://www.google.com/search?q=%ED%94%BC%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
             "https://www.google.com/search?q=%ED%94%BC%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4+IR",
             "https://www.google.com/search?q=%ED%94%BC%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+            "https://www.google.com/search?q=%ED%94%BC%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
+            "https://www.google.com/search?q=%ED%94%BC%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
+            "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
             "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1126"
           ],
           "fallback_urls": [
@@ -2762,12 +2936,12 @@
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c937307e90534ec1c8413b8cb1c3d490cf6f13abdaaa53ae0691b6a5a7c64d915890297447d386b0d547ec8912dc063abdda4b9d73286b1b53a",
             "https://www.google.com/search?q=%ED%94%BC%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4+KIPRIS+%ED%8A%B9%ED%97%88",
             "https://www.google.com/search?q=%ED%94%BC%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
-            "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
-            "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
             "https://www.google.com/search?q=%ED%94%BC%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
             "https://www.google.com/search?q=%ED%94%BC%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
             "https://www.google.com/search?q=%ED%94%BC%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4+IR",
             "https://www.google.com/search?q=%ED%94%BC%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+            "https://www.google.com/search?q=%ED%94%BC%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
+            "https://www.google.com/search?q=%ED%94%BC%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
             "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
             "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9328f5a912c888a1604ff579e87f821b091a0665246f3173a6cae241fd42c7005fb584f7181202ddb2669153aa54387f5f558cf6b7b6d352be",
@@ -3152,7 +3326,42 @@
                 "매출",
                 "성장"
               ],
-              "snippet": "summary: 피에스케이는 2023년부터 2025년까지 꾸준한 매출 성장과 영업이익률 개선세를 보였으며, 2024년에는 특히 높은 수준의 영업이익률과 ROE를 기록했다.",
+              "snippet": "summary: 피에스케이는 2023년 매출이 큰 폭으로 감소했으나, 2024년에는 13.1%의 매출 성장률을 기록하며 회복세를 보였습니다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%ED%94%BC%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/피에스케이/finance/피에스케이_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "매출",
+                "성장"
+              ],
+              "snippet": "key_thesis: 2024년 매출 성장률이 13.1%로 전환되며 이전의 역성장에서 벗어나는 모습을 보였습니다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%ED%94%BC%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/피에스케이/finance/피에스케이_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "매출"
+              ],
+              "snippet": "key_risks: 2023년 매출이 -23.7%로 크게 감소했던 점은 향후 실적 변동성에 대한 우려를 남깁니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3188,7 +3397,7 @@
                 "매출",
                 "성장"
               ],
-              "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수",
+              "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3205,7 +3414,24 @@
               "matched_keywords": [
                 "sales"
               ],
-              "snippet": "sales: 457213151918.0",
+              "snippet": "sales: 398050977575.0",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%ED%94%BC%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/피에스케이/finance/피에스케이_finance_agent_packet.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "sales"
+              ],
+              "snippet": "sales_growth: 13.1264344849787",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3222,58 +3448,7 @@
               "matched_keywords": [
                 "sales"
               ],
-              "snippet": "year: 2023 | sales: 351863805650.0 | operating_income: 54118591422.0 | net_income: 52520188202.0 | total_assets: 494393356491.0 | total_liabilities: 101823749358.0 | total_equity: 392569607133.0 | capex: 26124402786 | ocf: 50281470015 | fcf: 24157067229 | interest: 10908075036.0 | ROE: 13.378567073891306 | 영업이익률: 15.380550813411006 | 부채비율: 25.937756644391165 | 이자보상배율: 4.961332888102806",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%ED%94%BC%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/피에스케이/finance/피에스케이_재무.csv",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "sales"
-              ],
-              "snippet": "year: 2024 | sales: 398050977575.0 | operating_income: 83924423263.0 | net_income: 79128216285.0 | total_assets: 569356264734.0 | total_liabilities: 97639459052.0 | total_equity: 471716805682.0 | capex: 27315322203 | ocf: 67241427193 | fcf: 39926104990 | interest: 11436347154.0 | ROE: 16.77451711108698 | 영업이익률: 21.083837998409923 | 부채비율: 20.698745068205607 | 이자보상배율: 7.338394168425223",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%ED%94%BC%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/피에스케이/finance/피에스케이_재무.csv",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "sales"
-              ],
-              "snippet": "year: 2025 | sales: 457213151918.0 | operating_income: 88494057075.0 | net_income: 78545663379.0 | total_assets: 645998217783.0 | total_liabilities: 106961955599.0 | total_equity: 539036262184.0 | capex: 18533513572 | ocf: 61731136881 | fcf: 43197623309 | interest: 16150015108.0 | ROE: 14.571498967575664 | 영업이익률: 19.355098755092502 | 부채비율: 19.84318367852004 | 이자보상배율: 5.479503052053739",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%ED%94%BC%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/피에스케이/finance/피에스케이_재무데이터.csv",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "sales"
-              ],
-              "snippet": "year: 2021 | sales: 445803726054.0 | operating_income: 94084940603.0 | net_income: 76728411521.0 | total_assets: 413262217895.0 | total_liabilities: 124191260092.0 | total_equity: 289070957803.0 | capex: 9576081271 | ocf: 114603470770 | fcf: 105027389499 | interest: 4838718244.0 | ROE: 26.543106268492707 | 영업이익률: 21.104565777362644 | 부채비율: 42.96220590123604 | 이자보상배율: 19.444186633446805",
+              "snippet": "year: 2021 | sales: 445803726054.0 | operating_income: 94084940603.0 | net_income: 76728411521.0 | total_assets: 413262217895.0 | total_liabilities: 124191260092.0 | total_equity: 289070957803.0 | current_assets: 321166418090.0 | current_liabilities: 111131066850.0 | capex: 9576081271 | ocf: 114603470770 | fcf: 105027389499 | interest_expense: 4838718244.0 | roe: 26.543106268492707 | operating_margin: 21.104565777362",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3304,7 +3479,7 @@
               "matched_keywords": [
                 "영업이익률"
               ],
-              "snippet": "summary: 피에스케이는 2023년부터 2025년까지 꾸준한 매출 성장과 영업이익률 개선세를 보였으며, 2024년에는 특히 높은 수준의 영업이익률과 ROE를 기록했다.",
+              "snippet": "영업이익률은 2023년 15.4%에서 2024년 21.1%로 개선되었으며, ROE 또한 13.4%에서 16.8%로 상승했습니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3317,12 +3492,46 @@
             {
               "source_group": "FINANCE",
               "source_file": "data/반도체/피에스케이/finance/피에스케이_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "영업이익률"
+              ],
+              "snippet": "key_thesis: 2024년 영업이익률이 21.1%로 개선되었으며, 이는 2023년 15.4% 대비 상승한 수치입니다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%ED%94%BC%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/피에스케이/finance/피에스케이_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "수익성"
+              ],
+              "snippet": "key_thesis: 2024년 ROE가 16.8%로 상승하며 자본 대비 수익성이 개선되는 추세를 나타냅니다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%ED%94%BC%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/피에스케이/finance/피에스케이_finance_agent_packet.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
                 "영업이익률",
                 "수익성"
               ],
-              "snippet": "key_thesis: 2023년 15.38%였던 영업이익률이 2024년 21.08%로 크게 상승했으며, 2025년에도 19.36% 수준을 유지하며 수익성 개선 추세를 보였다.",
+              "snippet": "report_core_points: 영업이익률: 피에스케이 2024 기준 영업이익률 값은 21.08%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3334,13 +3543,12 @@
             },
             {
               "source_group": "FINANCE",
-              "source_file": "data/반도체/피에스케이/finance/피에스케이_finance.json",
+              "source_file": "data/반도체/피에스케이/finance/피에스케이_finance_agent_packet.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
-                "현금흐름",
-                "FCF"
+                "수익성"
               ],
-              "snippet": "key_thesis: 잉여현금흐름(FCF)은 2023년 241.57억에서 2024년 399.26억, 2025년 431.98억으로 꾸준히 증가하며 현금 창출 능력이 강화되고 있다.",
+              "snippet": "report_core_points: ROE: 피에스케이 2024 기준 ROE 값은 16.77%이며, 자기자본 대비 수익성 수준을 확인하는 지표입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3357,7 +3565,7 @@
               "matched_keywords": [
                 "FCF"
               ],
-              "snippet": "report_core_points: FCF: 피에스케이 2025 기준 FCF 값은 43,197,623,309원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+              "snippet": "report_core_points: FCF: 피에스케이 2024 기준 FCF 값은 39,926,104,990원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3374,7 +3582,7 @@
               "matched_keywords": [
                 "영업이익률"
               ],
-              "snippet": "missing_prompt_metrics: 영업이익률",
+              "snippet": "label: 영업이익률",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3389,43 +3597,9 @@
               "source_file": "data/반도체/피에스케이/finance/피에스케이_finance_agent_packet.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
-                "FCF"
+                "영업이익률"
               ],
-              "snippet": "metric: fcf",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%ED%94%BC%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/피에스케이/finance/피에스케이_finance_agent_packet.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "FCF"
-              ],
-              "snippet": "label: FCF",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%ED%94%BC%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/피에스케이/finance/피에스케이_finance_agent_packet.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "FCF"
-              ],
-              "snippet": "snippet: 피에스케이 2025 기준 FCF 값은 43,197,623,309원입니다.",
+              "snippet": "snippet: 피에스케이 2024 기준 영업이익률 값은 21.08%입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3641,7 +3815,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\피에스케이\\tech\\psk_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\피에스케이\\tech\\psk_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-20T21:44:17",
+      "generated_at": "2026-05-25T21:27:22",
       "core_counts": {
         "total_patents": 25,
         "registered_patents_estimated": 6,
@@ -3712,8 +3886,8 @@
     "bridge_signal": "IP_QUALITY_NEUTRAL"
   },
   "formula_catalog_summary": {
-    "json": "data\\반도체\\피에스케이\\tech\\psk_tech_formula_rules.json",
-    "md": "data\\반도체\\피에스케이\\tech\\psk_tech_formula_rules.md",
+    "json": "C:\\Agent_6.9\\data\\반도체\\피에스케이\\tech\\psk_tech_formula_rules.json",
+    "md": "C:\\Agent_6.9\\data\\반도체\\피에스케이\\tech\\psk_tech_formula_rules.md",
     "rule_count": 34
   },
   "evidence_harvest_summary": {
@@ -3749,6 +3923,8 @@
     "tech_full_appendix_json": null,
     "tech_chair_summary_json": "data/반도체/피에스케이/tech/tech_chair_summary.json",
     "tech_chair_summary_md": "data/반도체/피에스케이/tech/psk_tech_chair_summary.md",
+    "tech_history_feature_json": "data/반도체/피에스케이/tech/tech_history_features_2025-08-31.json",
+    "tech_history_feature_csv": "data/반도체/피에스케이/tech/tech_history_features_2025-08-31.csv",
     "tech_json": "data/반도체/피에스케이/tech/psk_tech.json",
     "tech_agent_packet_json": "data/반도체/피에스케이/tech/psk_tech_agent_packet.json"
   },
@@ -4669,7 +4845,7 @@
     "field": "반도체",
     "source_csv": "data\\반도체\\피에스케이\\tech\\psk_kipris_patents_normalized.csv",
     "enriched_csv": "data\\반도체\\피에스케이\\tech\\psk_kipris_tech_ml_enriched.csv",
-    "generated_at": "2026-05-20T21:44:17",
+    "generated_at": "2026-05-25T21:27:22",
     "core_counts": {
       "total_patents": 25,
       "registered_patents_estimated": 6,

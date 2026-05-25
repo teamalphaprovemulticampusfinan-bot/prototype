@@ -3,20 +3,20 @@
   "company": "네패스",
   "company_dir": "nepes",
   "opinion": "매수",
-  "tech_signal": 0.424921,
+  "tech_signal": 0.427988,
   "history_tech_feature": {
-    "signal": 0.424921,
+    "signal": 0.427988,
     "status": "OK_TECH_HISTORY_ASOF",
     "source": "C:\\Agent_6.9\\data\\반도체\\네패스\\tech\\tech_history_features_2025-01-31.csv;C:\\Agent_6.9\\data\\반도체\\네패스\\tech\\nepes_kipris_patents_normalized.csv;C:\\Agent_6.9\\data\\반도체\\네패스\\tech\\source\\kipris_nepes_patents.csv;C:\\Agent_6.9\\data\\반도체\\네패스\\tech\\nepes_tech_patent_normalized.csv;C:\\Agent_6.9\\data\\반도체\\네패스\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\네패스\\tech\\nepes_kipris_bibliographic_normalized.csv;C:\\Agent_6.9\\data\\반도체\\네패스\\tech\\nepes_kipris_claims_normalized.csv;C:\\Agent_6.9\\data\\반도체\\네패스\\tech\\nepes_kipris_plus_claim_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\네패스\\tech\\nepes_kipris_plus_family_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\네패스\\tech\\nepes_kipris_plus_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\네패스\\tech\\nepes_kipris_tech_ml_enriched.csv;C:\\Agent_6.9\\data\\반도체\\네패스\\tech\\source\\nepes_kipris_plus_bibliographic_raw.csv",
-    "as_of_date": "2025-01-31",
+    "as_of_date": "2025-08-31",
     "company": "네패스",
     "ticker": "033640",
     "stock_code": "033640",
-    "base_signal": 0.464026,
-    "evidence_confidence": 0.791127,
+    "base_signal": 0.467899,
+    "evidence_confidence": 0.791136,
     "commercialization_gate_signal": 0.231267,
     "technology_risk_penalty": 0.0,
-    "ip_quality_signal": 0.129266,
+    "ip_quality_signal": 0.156373,
     "lifecycle_signal": 0.400035,
     "technology_differentiation_signal": 0.147154,
     "commercialization_signal": 0.925069,
@@ -32,8 +32,8 @@
     "dispute_risk_signal": 0.0,
     "failure_delay_signal": 0.0,
     "intangible_accounting_signal": 0.0,
-    "patent_records_asof": 8458,
-    "dated_records_asof": 2933,
+    "patent_records_asof": 8514,
+    "dated_records_asof": 2989,
     "undated_records_used": 5800,
     "files_used": 84,
     "notes": "Tech history signal uses dated patent/IP, TRL/readiness, certification, qualification, commercialization, R&D/workforce, risk and accounting evidence before as_of_date; no Buy/Hold/Sell threshold is applied.",
@@ -45,8 +45,8 @@
       "IFC/Bpifrance deep-tech development-stage financing framework",
       "Text-based industry/technology relatedness literature for peer/differentiation evidence"
     ],
-    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\네패스\\tech\\tech_history_features_2025-01-31.json",
-    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\네패스\\tech\\tech_history_features_2025-01-31.csv"
+    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\네패스\\tech\\tech_history_features_2025-08-31.json",
+    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\네패스\\tech\\tech_history_features_2025-08-31.csv"
   },
   "claims": [
     {
@@ -538,7 +538,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\네패스\\tech\\nepes_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\네패스\\tech\\nepes_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-25T19:10:32",
+      "generated_at": "2026-05-25T19:45:18",
       "core_counts": {
         "total_patents": 423,
         "registered_patents_estimated": 311,
@@ -632,7 +632,7 @@
   "tech_chair_summary": {
     "agent": "tech",
     "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-    "created_at": "2026-05-25T19:13:53",
+    "created_at": "2026-05-25T19:48:08",
     "field": "반도체",
     "company": "네패스",
     "company_name": "네패스",
@@ -1576,7 +1576,7 @@
       "company_name": "네패스",
       "field": "반도체",
       "status": "OK",
-      "created_at": "2026-05-25T19:10:34",
+      "created_at": "2026-05-25T19:45:26",
       "weights": {
         "legal_stability": 0.25,
         "claim_defense": 0.3,
@@ -1672,10 +1672,10 @@
       "tech_full_appendix_json": ""
     },
     "ip_evidence_bridge_adjustment_status": "APPLIED",
-    "ip_evidence_bridge_adjustment_applied_at": "2026-05-25T19:14:25",
+    "ip_evidence_bridge_adjustment_applied_at": "2026-05-25T19:48:32",
     "tech_investor_view": {
       "version": "tech-investor-scorecard-v2",
-      "generated_at": "2026-05-25T19:14:49",
+      "generated_at": "2026-05-25T19:49:03",
       "company_slug": "nepes",
       "company_name": "네패스",
       "final_tech_investor_score": 75.52,
@@ -2066,12 +2066,12 @@
       "agent": "tech_intake",
       "artifact": "tech_intake_value_evidence_bridge",
       "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-      "created_at": "2026-05-25T19:14:45",
+      "created_at": "2026-05-25T19:48:59",
       "field": "반도체",
       "company": "네패스",
       "company_dir": "nepes",
       "company_slug": "nepes",
-      "source_document_count": 175,
+      "source_document_count": 177,
       "source_documents": [
         {
           "source_group": "KIPRIS",
@@ -2585,6 +2585,18 @@
         },
         {
           "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/네패스/tech/tech_history_features_2025-08-31.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/네패스/tech/tech_history_features_2025-08-31.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/네패스/tech/tech_intake_manifest.json",
           "detected_url_count": 0,
           "fallback_url_count": 2
@@ -3018,18 +3030,6 @@
         {
           "source_group": "VALUATION",
           "source_file": "data/반도체/네패스/valuation/intake/valuation_peer_input.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "VALUATION",
-          "source_file": "data/반도체/네패스/valuation/intake/valuation_price_history.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "VALUATION",
-          "source_file": "data/반도체/네패스/valuation/intake/valuation_price_summary.json",
           "detected_url_count": 0,
           "fallback_url_count": 5
         }
@@ -4082,7 +4082,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\네패스\\tech\\nepes_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\네패스\\tech\\nepes_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-25T19:10:32",
+      "generated_at": "2026-05-25T19:45:18",
       "core_counts": {
         "total_patents": 423,
         "registered_patents_estimated": 311,
@@ -4205,8 +4205,8 @@
     "tech_full_appendix_json": null,
     "tech_chair_summary_json": "data/반도체/네패스/tech/tech_chair_summary.json",
     "tech_chair_summary_md": "data/반도체/네패스/tech/nepes_tech_chair_summary.md",
-    "tech_history_feature_json": "data/반도체/네패스/tech/tech_history_features_2025-01-31.json",
-    "tech_history_feature_csv": "data/반도체/네패스/tech/tech_history_features_2025-01-31.csv",
+    "tech_history_feature_json": "data/반도체/네패스/tech/tech_history_features_2025-08-31.json",
+    "tech_history_feature_csv": "data/반도체/네패스/tech/tech_history_features_2025-08-31.csv",
     "tech_json": "data/반도체/네패스/tech/nepes_tech.json",
     "tech_agent_packet_json": "data/반도체/네패스/tech/nepes_tech_agent_packet.json"
   },
@@ -6290,7 +6290,7 @@
     "field": "반도체",
     "source_csv": "data\\반도체\\네패스\\tech\\nepes_kipris_patents_normalized.csv",
     "enriched_csv": "data\\반도체\\네패스\\tech\\nepes_kipris_tech_ml_enriched.csv",
-    "generated_at": "2026-05-25T19:10:32",
+    "generated_at": "2026-05-25T19:45:18",
     "core_counts": {
       "total_patents": 423,
       "registered_patents_estimated": 311,

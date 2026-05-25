@@ -1,7 +1,7 @@
 {
   "agent": "market",
   "artifact": "market_semiconductor_daily",
-  "created_at": "2026-05-25T19:10:27",
+  "created_at": "2026-05-25T21:46:35",
   "field": "반도체",
   "network_update_enabled": false,
   "mirror_info": {
@@ -22,21 +22,21 @@
   "sector_monthly_csv": "data/반도체/_sector_common/market/market_semiconductor_monthly.csv",
   "manifest_json": "data/market_excel/market_semiconductor_manifest.json",
   "start_date": "2021-01-01",
-  "end_date": "2025-01-31",
-  "rows_daily": 1492,
-  "rows_monthly": 49,
+  "end_date": "2025-08-31",
+  "rows_daily": 1704,
+  "rows_monthly": 56,
   "source_files": [
     "data/market_excel/market_external_daily_v44.csv",
     "data/market_excel/market_news_attention_daily.csv",
     "data/market_excel/semiconductor_cycle_daily.csv"
   ],
   "source_min_date": "2021-01-01",
-  "source_max_date": "2025-01-31",
+  "source_max_date": "2025-08-31",
   "notes": [
     "Source files are copied, not deleted, from sector_common/market to data/market_excel.",
     "Daily calendar is guaranteed from start_date to end_date. Rows after the latest actual source date are flagged as calendar_extended_ffill.",
-    "market_external_daily_v44.csv calendar-normalized to 2021-01-01~2025-01-31 (original 2021-01-01~2026-05-25, filled_rows=0).",
-    "market_news_attention_daily.csv calendar-normalized to 2021-01-01~2025-01-31 (original 2021-01-01~2026-05-25, filled_rows=1492).",
-    "semiconductor_cycle_daily.csv calendar-normalized to 2021-01-01~2025-01-31 (original 2021-01-01~2026-05-25, filled_rows=0)."
+    "market_external_daily_v44.csv calendar-normalized to 2021-01-01~2025-08-31 (original 2021-01-01~2025-08-31, filled_rows=0).",
+    "market_news_attention_daily.csv calendar-normalized to 2021-01-01~2025-08-31 (original 2021-01-01~2025-08-31, filled_rows=1704).",
+    "semiconductor_cycle_daily.csv calendar-normalized to 2021-01-01~2025-08-31 (original 2021-01-01~2025-08-31, filled_rows=0)."
   ]
 }

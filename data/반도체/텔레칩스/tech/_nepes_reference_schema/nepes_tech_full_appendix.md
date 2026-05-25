@@ -1,6 +1,6 @@
 # 네패스 Tech Agent Full Appendix
 
-- **생성 시각:** 2026-05-20T10:24:51
+- **생성 시각:** 2026-05-25T19:48:59
 - **목적:** Chair 보고서에는 compact summary만 전달하고, Excel-frame·KIPRIS/IP·Tech ML 상세 산출물은 Tech Agent가 소유하는 풀버전 부록입니다.
 - **검증 원칙:** 이 부록은 미래수익률 예측이 아니라 특허/IP·사업화 근거·peer 상대위치 기반 return-free 기술 설명 지표를 정리합니다.
 
@@ -29,7 +29,7 @@
 ## 개인투자자용 Tech 최종 점수판
 
 - **대상 기업:** 네패스
-- **최종 Tech 점수:** 75.42/100
+- **최종 Tech 점수:** 75.52/100
 - **최종 판정:** 기술의 가치전환 준비도는 높지만 일부 고객·매출·마진 근거는 추가 확인 필요 `TECH_TO_VALUE_READY`
 - **해석 원칙:** 특허 수, 기술 키워드 수, 뉴스 수를 각각 따로 과장하지 않고, 사업화 연결 가능성과 근거 직접성을 하나의 최종 점수로 통합했습니다.
 
@@ -37,25 +37,25 @@
 | 구성요소 | 점수 | 가중치 | 가중 반영 | 의미 |
 |---|---:|---:|---:|---|
 | Tech-to-Value Bridge | 80.53 | 0.40 | 32.21 | 기술이 고객 채택·양산·매출 전환으로 이어질 가능성 |
-| IP Evidence Composite | 53.56 | 0.20 | 10.71 | 권리 안정성·청구항·인용·패밀리 기반 특허 품질 |
+| IP Evidence Composite | 54.05 | 0.20 | 10.81 | 권리 안정성·청구항·인용·패밀리 기반 특허 품질 |
 | Excel 기반 정량 근거 | 85.00 | 0.15 | 12.75 | 템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지 |
 | 근거 직접성·충분성 | 82.00 | 0.15 | 12.30 | Chair가 개인투자자에게 설명할 수 있는 근거의 직접성 |
 | 사업화·성장자금 지속성 | 74.50 | 0.10 | 7.45 | R&D·특허·정부과제·기술이전·CAPEX/희석성 자금조달이 사업화와 연결되는 정도 |
 
 ### 2) 핵심 해석
-- 네패스의 개인투자자용 Tech 최종 점수는 75.42/100이며, 판정은 기술의 가치전환 준비도는 높지만 일부 고객·매출·마진 근거는 추가 확인 필요입니다.
-- 최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(80.53)와 IP Evidence(53.56) 및 Excel 기반 정량 근거(85.0)를 함께 반영했습니다.
+- 네패스의 개인투자자용 Tech 최종 점수는 75.52/100이며, 판정은 기술의 가치전환 준비도는 높지만 일부 고객·매출·마진 근거는 추가 확인 필요입니다.
+- 최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(80.53)와 IP Evidence(54.05) 및 Excel 기반 정량 근거(85.0)를 함께 반영했습니다.
 - 투자자가 확인할 핵심 근거는 6개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다.
 
 ### 3) 개인투자자가 확인할 근거
 | ID | 출처 | 근거 | 값 | 강도 |
 |---|---|---|---:|---|
 | tech.inv.ev.001 | tech_to_value | **최종 Tech-to-Value Bridge**: 네패스의 최종 기술-사업화 연결 점수는 80.53이며, Chair에는 기술성보다 고객 채택·양산·매출 전환 가능성을 우선 반영합니다. | 80.53점 | 상 |
-| tech.inv.ev.002 | kipris_ip_evidence | **IP Evidence Composite**: 법적 안정성·청구항 방어력·인용 영향력·해외 패밀리 확장성을 합성한 IP Evidence Composite Score는 53.56입니다. | 53.56점 | 상 |
-| tech.inv.ev.003 | kipris_legal | **권리 안정성**: 등록률 0.7381, 존속률 0.7774, 권리 안정성 점수 70.47를 확인했습니다. | 70.47점 | 중 |
-| tech.inv.ev.004 | kipris_claim | **청구항 방어력**: 청구항 수 4785, 독립항 추정 884, claim defense score 67.96입니다. | 67.96점 | 중 |
+| tech.inv.ev.002 | kipris_ip_evidence | **IP Evidence Composite**: 법적 안정성·청구항 방어력·인용 영향력·해외 패밀리 확장성을 합성한 IP Evidence Composite Score는 54.05입니다. | 54.05점 | 상 |
+| tech.inv.ev.003 | kipris_legal | **권리 안정성**: 등록률 0.7352, 존속률 0.7781, 권리 안정성 점수 70.5를 확인했습니다. | 70.5점 | 중 |
+| tech.inv.ev.004 | kipris_claim | **청구항 방어력**: 청구항 수 4823, 독립항 추정 890, claim defense score 67.96입니다. | 67.96점 | 중 |
 | tech.inv.ev.005 | kipris_citation | **인용 영향력**: 전방/후방 인용 및 기술 영향력 점수 기준 IP_CITATION_FALLBACK_ESTIMATED입니다. | - | 중 |
-| tech.inv.ev.006 | kipris_family | **글로벌 패밀리 확장성**: 해외 패밀리 비중 0.1714, 감지 지역 ['CN', 'EP', 'JP', 'US', 'WO'], global extension score 33.67입니다. | 33.67점 | 중 |
+| tech.inv.ev.006 | kipris_family | **글로벌 패밀리 확장성**: 해외 패밀리 비중 0.1962, 감지 지역 ['CN', 'EP', 'JP', 'US', 'WO'], global extension score 35.82입니다. | 35.82점 | 중 |
 
 ### 4) 한계와 보완 필요사항
 - 이 점수는 투자수익률 예측값이 아니라 기술-사업화 근거의 설명 가능성 점수입니다.
@@ -94,14 +94,14 @@
 - **산출물 상태:** 확인됨: `data/반도체/네패스/tech/nepes_tech_patent_evidence.json`
 | 원천 신호 | 값 |
 |---|---:|
-| 정규화 특허 텍스트 레코드 | 8,602건 |
-| 회사 출원인/권리자 매칭 | 8,105건 |
-| 등록 특허 | 4,809건 |
-| 존속 가능 특허 | 5,222건 |
-| 최근 5년 특허 | 447건 |
-| IPC/CPC 다양성 | 126개 |
+| 정규화 특허 텍스트 레코드 | 10,315건 |
+| 회사 출원인/권리자 매칭 | 9,754건 |
+| 등록 특허 | 4,843건 |
+| 존속 가능 특허 | 6,887건 |
+| 최근 5년 특허 | 2,037건 |
+| IPC/CPC 다양성 | 128개 |
 | H01L 등 핵심 IPC 특허 | 36건 |
-| 핵심기술 키워드 매칭 | 16,916회 |
+| 핵심기술 키워드 매칭 | 26,517회 |
 
 | 대표 특허 예시 | 상태/연도 |
 |---|---|
@@ -175,21 +175,21 @@
 ### 9-1. Tech/IP Strength Index
 | 항목 | 값 | 해석 |
 |---|---:|---|
-| Tech/IP Strength Index | 61.29/100 | 특허 등록률·존속성·최근성·IPC/CPC 다양성·핵심기술 키워드 밀도 점수를 통합한 IP 강도 지표입니다. |
+| Tech/IP Strength Index | 64.05/100 | 특허 등록률·존속성·최근성·IPC/CPC 다양성·핵심기술 키워드 밀도 점수를 통합한 IP 강도 지표입니다. |
 | Reference Universe Percentile | 50.00% | reference universe 안에서의 상대적 기술/IP 위치입니다. |
-| Patent Momentum Score | 29.14/100 | 최근 특허 활동과 기술 포트폴리오 지속성을 반영합니다. |
+| Patent Momentum Score | 40.66/100 | 최근 특허 활동과 기술 포트폴리오 지속성을 반영합니다. |
 
 ### 9-2. 특허/IP 원천 신호
 | 원천 신호 | 값 |
 |---|---:|
-| 정규화 특허 텍스트 레코드 | 8,602건 |
-| 회사 출원인/권리자 매칭 | 8,105건 |
-| 등록 특허 | 4,809건 |
-| 존속 가능 특허 | 5,222건 |
-| 최근 5년 특허 | 447건 |
-| IPC/CPC 다양성 | 126개 |
+| 정규화 특허 텍스트 레코드 | 10,315건 |
+| 회사 출원인/권리자 매칭 | 9,754건 |
+| 등록 특허 | 4,843건 |
+| 존속 가능 특허 | 6,887건 |
+| 최근 5년 특허 | 2,037건 |
+| IPC/CPC 다양성 | 128개 |
 | H01L 등 핵심 IPC 특허 | 36건 |
-| 핵심기술 키워드 매칭 | 16,916회 |
+| 핵심기술 키워드 매칭 | 26,517회 |
 | 핵심기술 키워드 밀도 점수 | 100.00/100 |
 
 ### 9-3. NMF Topic Modeling
@@ -198,7 +198,7 @@
 | Topic | 산출물 원문 참조 | `dominant_topics`/`topics` 구조 확인 필요 |
 
 ### 9-4. 해석
-- 네패스의 Tech/IP Strength Index는 61.29/100, percentile 50.0로 산출되어 중간 수준 IP 포지션으로 해석됩니다. NMF 기준 주된 기술 주제는 '주요 topic 확인 제한'입니다. 단, 이 지표는 기술/IP 포트폴리오 상대 강도 신호이며 고객 채택·양산·매출 전환·FCF 개선 근거를 대체하지 않습니다.
+- 네패스의 Tech/IP Strength Index는 64.05/100, percentile 50.0로 산출되어 중간 수준 IP 포지션으로 해석됩니다. NMF 기준 주된 기술 주제는 '주요 topic 확인 제한'입니다. 단, 이 지표는 기술/IP 포트폴리오 상대 강도 신호이며 고객 채택·양산·매출 전환·FCF 개선 근거를 대체하지 않습니다.
 ## Step 10. Technology Differentiation Score
 - **산출물 상태:** 확인됨: `data/반도체/네패스/tech/tech_differentiation.json`
 ### 10-1. Technology Differentiation Score 요약
@@ -221,12 +221,12 @@
 ### 10-3. 차별화 근거 신호
 | 원천 신호 | 값 |
 |---|---:|
-| 차별화 분석용 특허 텍스트 레코드 | 8,602건 |
-| 회사 출원인/권리자 매칭 | 8,105건 |
-| 등록 특허 | 4,809건 |
-| 존속 가능 특허 | 5,222건 |
-| 최근 5년 특허 | 447건 |
-| IPC/CPC 다양성 | 126개 |
+| 차별화 분석용 특허 텍스트 레코드 | 10,315건 |
+| 회사 출원인/권리자 매칭 | 9,754건 |
+| 등록 특허 | 4,843건 |
+| 존속 가능 특허 | 6,887건 |
+| 최근 5년 특허 | 2,037건 |
+| IPC/CPC 다양성 | 128개 |
 | H01L 등 핵심 IPC 특허 | 36건 |
 
 ### 10-4. 고유 기술어 / 차별화 키워드
@@ -281,22 +281,22 @@
 
 ## KIPRIS Tech ML Feature 반영 요약
 
-- kipris_tech_ml_score: 71.58
-- legal_stability_score_estimated: 74.41
-- portfolio_momentum_score: 74.0
-- ip_technology_fit_score: 65.37
+- kipris_tech_ml_score: 71.62
+- legal_stability_score_estimated: 74.36
+- portfolio_momentum_score: 74.18
+- ip_technology_fit_score: 65.39
 - bridge_adjustment_points: 2.0
 - bridge_signal: IP_QUALITY_POSITIVE
 
 ### 핵심 KIPRIS 정량 신호
 
-- total_patents: 420
-- registered_patents_estimated: 310
-- alive_patents_estimated: 241
-- recent_5y_application_patents: 108
-- semiconductor_related_ipc_patents: 241
-- registration_rate_estimated: 0.7381
-- alive_rate_among_registered_estimated: 0.7774
+- total_patents: 423
+- registered_patents_estimated: 311
+- alive_patents_estimated: 242
+- recent_5y_application_patents: 111
+- semiconductor_related_ipc_patents: 243
+- registration_rate_estimated: 0.7352
+- alive_rate_among_registered_estimated: 0.7781
 
 주의: 이 값은 기술/IP 포트폴리오 품질 보조 신호이며, 고객 채택·양산·매출 전환·FCF 개선의 직접 근거로 보지는 않는다.
 

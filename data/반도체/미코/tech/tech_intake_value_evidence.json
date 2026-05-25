@@ -2,12 +2,12 @@
   "agent": "tech_intake",
   "artifact": "tech_intake_value_evidence_bridge",
   "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-  "created_at": "2026-05-20T21:22:30",
+  "created_at": "2026-05-25T20:26:25",
   "field": "반도체",
   "company": "미코",
   "company_dir": "mico",
   "company_slug": "mico",
-  "source_document_count": 132,
+  "source_document_count": 151,
   "source_documents": [
     {
       "source_group": "KIPRIS",
@@ -401,6 +401,18 @@
     },
     {
       "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/미코/tech/tech_history_features_2025-08-31.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/미코/tech/tech_history_features_2025-08-31.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/미코/tech/tech_intake_manifest.json",
       "detected_url_count": 0,
       "fallback_url_count": 2
@@ -659,6 +671,120 @@
     },
     {
       "source_group": "VALUATION",
+      "source_file": "data/반도체/미코/valuation/intake/company_profile.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/미코/valuation/intake/cross_agent_signals_for_valuation.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/미코/valuation/intake/dcf_inputs.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/미코/valuation/intake/dilution_events.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/미코/valuation/intake/eval_price_history.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/미코/valuation/intake/eval_price_history_monthly.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/미코/valuation/intake/eval_price_history_monthly_v43.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/미코/valuation/intake/eval_price_history_monthly_v44.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/미코/valuation/intake/eval_price_history_monthly_v45.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/미코/valuation/intake/eval_price_history_v43.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/미코/valuation/intake/eval_price_history_v44.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/미코/valuation/intake/eval_price_history_v45.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/미코/valuation/intake/financials_normalized.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/미코/valuation/intake/financials_raw.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/미코/valuation/intake/peer_multiples.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/미코/valuation/intake/price_history.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/미코/valuation/intake/relative_valuation_inputs.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/미코/valuation/intake/shares_outstanding.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/미코/valuation/intake/valuation_assumptions.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
       "source_file": "data/반도체/미코/valuation/intake/valuation_assumptions.json",
       "detected_url_count": 0,
       "fallback_url_count": 5
@@ -773,19 +899,7 @@
     },
     {
       "source_group": "FINANCE",
-      "source_file": "data/반도체/미코/finance/미코_stock.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "FINANCE",
       "source_file": "data/반도체/미코/finance/미코_재무.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "FINANCE",
-      "source_file": "data/반도체/미코/finance/미코_재무데이터.csv",
       "detected_url_count": 0,
       "fallback_url_count": 5
     },
@@ -931,12 +1045,13 @@
         "https://plus.kipris.or.kr/",
         "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+KIPRIS+%ED%8A%B9%ED%97%88",
         "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
-        "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
-        "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
         "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
         "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
         "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+IR",
         "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+        "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
+        "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
+        "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
         "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1126"
       ],
       "fallback_urls": [
@@ -960,12 +1075,12 @@
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93fa7bce6ef83f66fc4a3d349f51e0c7957b35188e95209440bcc59c5e4226bf25f41e2535d26633b815677436aba256cb0bc3c043f79b888e",
         "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+KIPRIS+%ED%8A%B9%ED%97%88",
         "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
-        "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
-        "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
         "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
         "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
         "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+IR",
         "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+        "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
+        "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
         "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
         "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9328f5a912c888a1604ff579e87f821b091a0665246f3173a6cae241fd42c7005fb584f7181202ddb2669153aa54387f5f558cf6b7b6d352be",
@@ -1350,7 +1465,7 @@
             "매출",
             "성장"
           ],
-          "snippet": "summary: 미코는 2024년 매출이 54% 이상 성장하며 흑자 전환에 성공했으나, 2025년에는 매출 성장률이 둔화되고 영업이익률이 하락하는 모습을 보였다.",
+          "snippet": "summary: 미코는 2024년 매출이 39.5% 성장하며 큰 폭의 회복세를 보였으나, 영업이익률은 17.5%로 이전 연도 대비 하락했다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1366,10 +1481,9 @@
           "evidence_level": "DIRECT_EVIDENCE",
           "matched_keywords": [
             "매출",
-            "매출액",
             "성장"
           ],
-          "snippet": "key_thesis: 2024년 매출액이 3873억원에서 5405억원으로 54.0% 증가하며 성장세를 회복했다.",
+          "snippet": "key_thesis: 2024년 매출성장률이 39.5%로 크게 증가하며 외형 성장을 재개했다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1405,7 +1519,7 @@
             "매출",
             "성장"
           ],
-          "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수",
+          "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1422,7 +1536,24 @@
           "matched_keywords": [
             "sales"
           ],
-          "snippet": "sales: 977036793661.0",
+          "snippet": "sales: 540504643904.0",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/미코/finance/미코_finance_agent_packet.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "sales"
+          ],
+          "snippet": "sales_growth: 39.54234736999413",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1439,7 +1570,7 @@
           "matched_keywords": [
             "sales"
           ],
-          "snippet": "year: 2023 | sales: 387340942797.0 | operating_income: 21111259627.0 | net_income: -2036721583.0 | total_assets: 833895121319.0 | total_liabilities: 467811187649.0 | total_equity: 366083933670.0 | capex: 48667353361 | ocf: 41646262032 | fcf: -7021091329 | interest: 25570915020.0 | ROE: -0.5563537199193143 | 영업이익률: 5.45030418797326 | 부채비율: 127.78795915985219 | 이자보상배율: 0.8255965658830773",
+          "snippet": "year: 2021 | sales: 365490680610.0 | operating_income: 69667993298.0 | net_income: 21811609332.0 | total_assets: 721538023067.0 | total_liabilities: 342066706932.0 | total_equity: 379471316135.0 | current_assets: 287546072339.0 | current_liabilities: 187679069363.0 | capex: 120722061425 | ocf: 79762640958 | fcf: -40959420467 | interest_expense: 17048418766.0 | roe: 5.747894084368776 | operating_margin: 19.06149650155",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1456,24 +1587,7 @@
           "matched_keywords": [
             "sales"
           ],
-          "snippet": "year: 2024 | sales: 540504643904.0 | operating_income: 94633945006.0 | net_income: 76514280786.0 | total_assets: 1392676089676.0 | total_liabilities: 859828437142.0 | total_equity: 532847652534.0 | capex: 209471957127 | ocf: 120460924494 | fcf: -89011032633 | interest: 31795266941.0 | ROE: 14.359504151351734 | 영업이익률: 17.508442540376787 | 부채비율: 161.36477904200507 | 이자보상배율: 2.9763532157665114",
-          "urls": [],
-          "fallback_urls": [
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "https://comp.fnguide.com/",
-            "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-          ]
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/미코/finance/미코_재무.csv",
-          "evidence_level": "DIRECT_EVIDENCE",
-          "matched_keywords": [
-            "sales"
-          ],
-          "snippet": "year: 2025 | sales: 977036793661.0 | operating_income: 101004245476.0 | net_income: 74949266372.0 | total_assets: 2264573968886.0 | total_liabilities: 1575474068220.0 | total_equity: 689099900666.0 | capex: 325210019608 | ocf: 24830688331 | fcf: -300379331277 | interest: 73860662284.0 | ROE: 10.876400693072684 | 영업이익률: 10.337813901309962 | 부채비율: 228.62781821581152 | 이자보상배율: 1.3674971541364036",
+          "snippet": "year: 2022 | sales: 414832269255.0 | operating_income: 64273149352.0 | net_income: -31225946867.0 | total_assets: 731153086148.0 | total_liabilities: 354853046152.0 | total_equity: 376300039996.0 | current_assets: 302343352339.0 | current_liabilities: 189169817256.0 | capex: 51994282867 | ocf: 80429298447 | fcf: 28435015580 | interest_expense: 37125242188.0 | roe: -8.2981513547891 | operating_margin: 15.4937679914411",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1504,24 +1618,7 @@
           "matched_keywords": [
             "영업이익률"
           ],
-          "snippet": "summary: 미코는 2024년 매출이 54% 이상 성장하며 흑자 전환에 성공했으나, 2025년에는 매출 성장률이 둔화되고 영업이익률이 하락하는 모습을 보였다.",
-          "urls": [],
-          "fallback_urls": [
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "https://comp.fnguide.com/",
-            "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-          ]
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/미코/finance/미코_finance.json",
-          "evidence_level": "DIRECT_EVIDENCE",
-          "matched_keywords": [
-            "현금흐름"
-          ],
-          "snippet": "2023년 마이너스였던 ROE는 2024년 크게 개선되었으나 2025년 다시 하락했으며, 잉여현금흐름은 3년 연속 마이너스를 기록하며 투자 부담이 지속되고 있다.",
+          "snippet": "summary: 미코는 2024년 매출이 39.5% 성장하며 큰 폭의 회복세를 보였으나, 영업이익률은 17.5%로 이전 연도 대비 하락했다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1538,7 +1635,7 @@
           "matched_keywords": [
             "수익성"
           ],
-          "snippet": "key_thesis: 2024년 ROE가 -0.56%에서 14.36%로 크게 상승하며 수익성이 개선되었다.",
+          "snippet": "key_thesis: 2024년 순이익이 765억 원으로 흑자전환에 성공하며 수익성 개선 가능성을 보여주었다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1551,12 +1648,80 @@
         {
           "source_group": "FINANCE",
           "source_file": "data/반도체/미코/finance/미코_finance.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "수익성"
+          ],
+          "snippet": "key_thesis: 2024년 ROE가 14.4%로 상승하며 자본 대비 수익성이 개선되는 추세를 나타냈다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/미코/finance/미코_finance.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "영업이익률"
+          ],
+          "snippet": "key_thesis: 2024년 영업이익률이 17.5%로 이전 연도 대비 하락했으나 여전히 높은 수준을 유지하고 있다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/미코/finance/미코_finance.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "FCF"
+          ],
+          "snippet": "key_thesis: 2024년 FCF가 -890억 원으로 마이너스를 기록했으나, 2022년에는 양수(+)를 기록한 바 있다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/미코/finance/미코_finance.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "FCF"
+          ],
+          "snippet": "key_risks: 2023년 FCF가 -70억 원으로 마이너스를 기록하며 현금 창출 능력에 대한 점검이 필요하다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/미코/finance/미코_finance_agent_packet.json",
           "evidence_level": "DIRECT_EVIDENCE",
           "matched_keywords": [
             "영업이익률",
             "수익성"
           ],
-          "snippet": "key_risks: 2025년 영업이익률이 17.51%에서 10.34%로 하락하며 수익성 둔화 가능성이 있다.",
+          "snippet": "report_core_points: 영업이익률: 미코 2024 기준 영업이익률 값은 17.51%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1568,64 +1733,12 @@
         },
         {
           "source_group": "FINANCE",
-          "source_file": "data/반도체/미코/finance/미코_finance.json",
+          "source_file": "data/반도체/미코/finance/미코_finance_agent_packet.json",
           "evidence_level": "DIRECT_EVIDENCE",
           "matched_keywords": [
             "수익성"
           ],
-          "snippet": "key_risks: 2025년 ROE가 14.36%에서 10.88%로 하락하며 수익성 개선세가 주춤했다.",
-          "urls": [],
-          "fallback_urls": [
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "https://comp.fnguide.com/",
-            "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-          ]
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/미코/finance/미코_finance.json",
-          "evidence_level": "DIRECT_EVIDENCE",
-          "matched_keywords": [
-            "현금흐름",
-            "FCF"
-          ],
-          "snippet": "key_risks: 2023년부터 2025년까지 잉여현금흐름(FCF)이 지속적으로 마이너스를 기록하며 투자 부담이 크다.",
-          "urls": [],
-          "fallback_urls": [
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "https://comp.fnguide.com/",
-            "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-          ]
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/미코/finance/미코_finance_agent_packet.json",
-          "evidence_level": "DIRECT_EVIDENCE",
-          "matched_keywords": [
-            "FCF"
-          ],
-          "snippet": "report_core_points: FCF: 미코 2025 기준 FCF 값은 -300,379,331,277원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
-          "urls": [],
-          "fallback_urls": [
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "https://comp.fnguide.com/",
-            "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-          ]
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/미코/finance/미코_finance_agent_packet.json",
-          "evidence_level": "DIRECT_EVIDENCE",
-          "matched_keywords": [
-            "영업이익률"
-          ],
-          "snippet": "missing_prompt_metrics: 영업이익률",
+          "snippet": "report_core_points: ROE: 미코 2024 기준 ROE 값은 14.36%이며, 자기자본 대비 수익성 수준을 확인하는 지표입니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",

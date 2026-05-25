@@ -3,6 +3,51 @@
   "company": "한솔케미칼",
   "company_dir": "hansol",
   "opinion": "매수",
+  "tech_signal": 0.447678,
+  "history_tech_feature": {
+    "signal": 0.447678,
+    "status": "OK_TECH_HISTORY_ASOF",
+    "source": "C:\\Agent_6.9\\data\\반도체\\한솔케미칼\\tech\\hansol_kipris_patents_normalized.csv;C:\\Agent_6.9\\data\\반도체\\한솔케미칼\\tech\\source\\kipris_hansol_patents.csv;C:\\Agent_6.9\\data\\반도체\\한솔케미칼\\tech\\hansol_tech_patent_normalized.csv;C:\\Agent_6.9\\data\\반도체\\한솔케미칼\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\한솔케미칼\\tech\\hansol_kipris_bibliographic_normalized.csv;C:\\Agent_6.9\\data\\반도체\\한솔케미칼\\tech\\hansol_kipris_claims_normalized.csv;C:\\Agent_6.9\\data\\반도체\\한솔케미칼\\tech\\hansol_kipris_plus_claim_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\한솔케미칼\\tech\\hansol_kipris_plus_family_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\한솔케미칼\\tech\\hansol_kipris_plus_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\한솔케미칼\\tech\\hansol_kipris_tech_ml_enriched.csv;C:\\Agent_6.9\\data\\반도체\\한솔케미칼\\tech\\source\\hansol_kipris_plus_bibliographic_raw.csv;C:\\Agent_6.9\\data\\반도체\\한솔케미칼\\tech\\quanified_metrix.csv",
+    "as_of_date": "2025-08-31",
+    "company": "한솔케미칼",
+    "ticker": "014680",
+    "stock_code": "014680",
+    "base_signal": 0.48924,
+    "evidence_confidence": 0.793403,
+    "commercialization_gate_signal": 0.238055,
+    "technology_risk_penalty": 0.0,
+    "ip_quality_signal": 0.176411,
+    "lifecycle_signal": 0.684286,
+    "technology_differentiation_signal": 0.146033,
+    "commercialization_signal": 0.952222,
+    "rnd_sustainability_signal": 0.518057,
+    "peer_position_signal": 0.261351,
+    "tech_to_value_signal": 0.686318,
+    "certification_signal": 0.0,
+    "qualification_signal": 0.0,
+    "cost_yield_signal": 0.0,
+    "workforce_signal": 0.0,
+    "government_rd_signal": 0.0,
+    "licensing_signal": 0.0,
+    "dispute_risk_signal": 0.0,
+    "failure_delay_signal": 0.0,
+    "intangible_accounting_signal": 0.0,
+    "patent_records_asof": 5593,
+    "dated_records_asof": 1925,
+    "undated_records_used": 3914,
+    "files_used": 82,
+    "notes": "Tech history signal uses dated patent/IP, TRL/readiness, certification, qualification, commercialization, R&D/workforce, risk and accounting evidence before as_of_date; no Buy/Hold/Sell threshold is applied.",
+    "frequency": "monthly",
+    "formula": "final=base_signal*evidence_confidence + 0.25*commercialization_gate_signal - 0.35*technology_risk_penalty",
+    "research_basis": [
+      "Hall-Jaffe-Trajtenberg patent citations/value; Lanjouw-Schankerman patent quality; OECD patent quality composite indicators",
+      "DoD/NASA TRL and TRA maturity framework",
+      "IFC/Bpifrance deep-tech development-stage financing framework",
+      "Text-based industry/technology relatedness literature for peer/differentiation evidence"
+    ],
+    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\한솔케미칼\\tech\\tech_history_features_2025-08-31.json",
+    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\한솔케미칼\\tech\\tech_history_features_2025-08-31.csv"
+  },
   "claims": [
     {
       "claim_id": "tech.cl.000",
@@ -145,7 +190,7 @@
       "title": "한솔케미칼 - Hansol Chemical",
       "url": "https://hansolchemical.com/disclosure-info/",
       "path": "",
-      "snippet": "company.yaml 등록 URL 공식/추가 URL 한솔케미칼 - Hansol Chemical Skip to main content Hit enter to search or ESC to close Close Search 지속가능경영 보고서 ESG 평가결과 환경안전보건경영 한솔케미칼은 가치경영, 책임경영, 투명경영의 원칙으로 주주의 이익증대에 기여하기 위해 노력합니다. 좌우로 스크롤 하시면 아래 차트 전체 내용을 확인하실 수 있습니다. 20260519 주식등의대량보유상황보고서(약식) 20260518 [기재정정]주요사항보고서(자기주식취득결정) 주요사항보고서(자기주식처분결정) 주요사항보고서(자기주식취득결정) 20260515",
+      "snippet": "company.yaml 등록 URL 공식/추가 URL 한솔케미칼 - Hansol Chemical Skip to main content Hit enter to search or ESC to close Close Search 지속가능경영 보고서 ESG 평가결과 환경안전보건경영 한솔케미칼은 가치경영, 책임경영, 투명경영의 원칙으로 주주의 이익증대에 기여하기 위해 노력합니다. 좌우로 스크롤 하시면 아래 차트 전체 내용을 확인하실 수 있습니다. 20260522 임원ᆞ주요주주특정증권등소유상황보고서 20260519 주식등의대량보유상황보고서(약식) 20260518 [기재정정]주요사항보고서(자기주식취득결정) 주요사항보고서(자기주식처분결",
       "relevance_score": 29.9
     },
     {
@@ -166,21 +211,21 @@
       "title": "company.yaml 등록 URL",
       "url": "https://www.kipris.or.kr/khome/main.jsp",
       "path": "",
-      "snippet": "company.yaml 등록 URL 공식/추가 URL 국내외 특허ᆞ실용신안, 디자인, 상표, 심판, 논문 등 KIPRIS 정보 KIPRIS정보를 다양한 콘텐츠를 통해 쉽고 재미있게 확인할 수 있습니다. KIPRIS란? KIPRIS 연혁 KIPRIS 통계 데이터 제공현황 다양한 방법을 통해 지원합니다. 자주 찾는 질문 KIPRIS 서비스 KIPRIS 연계 주요 공지사항과 팝업존 안내를 확인할 수 있는 대화상자입니다. 탭 키로 이동하며, ESC 키로 닫을 수 있습니다. 2026-05-19 KPA 서지정보 제공 안내(특허 공개일: 2026년 4월 1일 ∼ 30일) 2026-05-04 5월 발명의 달 퀴즈 이벤트 2026-04",
+      "snippet": "company.yaml 등록 URL 공식/추가 URL 국내외 특허ᆞ실용신안, 디자인, 상표, 심판, 논문 등 KIPRIS 정보 KIPRIS정보를 다양한 콘텐츠를 통해 쉽고 재미있게 확인할 수 있습니다. KIPRIS란? KIPRIS 연혁 KIPRIS 통계 데이터 제공현황 다양한 방법을 통해 지원합니다. 자주 찾는 질문 KIPRIS 서비스 KIPRIS 연계 KPA 서지정보 제공 안내(특허 공개일: 2026년 4월 1일 ∼ 30일) 5월 발명의 달 퀴즈 이벤트 5월은 '발명의 달'입니다.지식재산처는 발명의 가치와 중요성에 대한 국민적 공감대를 높이기 위해 5월을 '발명의 달'로 지정하였습니다.이를 기념하여 발명에 관한 퀴즈 ",
       "relevance_score": 17.4
     },
     {
       "title": "company.yaml 등록 URL",
       "url": "https://search.naver.com/search.naver?where=news&query=%ED%95%9C%EC%86%94%EC%BC%80%EB%AF%B8%EC%B9%BC+%EB%B0%98%EB%8F%84%EC%B2%B4",
       "path": "",
-      "snippet": "company.yaml 등록 URL 공식/추가 URL 본문 영역으로 바로가기 자동완성 레이어 모바일 메인 언론사 PC 메인 언론사 2026.05.20. 월(Month) 언론사 분류선택 지역지 분류선택 이 정보가 표시된 이유 옵션을 유지할 경우 선택한 서비스 영역과 언론사로 필터링된 뉴스 결과가 계속 제공됩니다. 정보확인 레이어 닫기 서비스 영역과 언론사의 선택 옵션이 유지됩니다. (function(){var e=\"https://ssl.pstatic.net/sstatic/fe/sfe/searchOption/Controller_230920.js\",t=function(){var t=window.require.config({c",
+      "snippet": "company.yaml 등록 URL 공식/추가 URL 본문 영역으로 바로가기 자동완성 레이어 모바일 메인 언론사 PC 메인 언론사 2026.05.25. 월(Month) 언론사 분류선택 지역지 분류선택 이 정보가 표시된 이유 옵션을 유지할 경우 선택한 서비스 영역과 언론사로 필터링된 뉴스 결과가 계속 제공됩니다. 정보확인 레이어 닫기 서비스 영역과 언론사의 선택 옵션이 유지됩니다. (function(){var e=\"https://ssl.pstatic.net/sstatic/fe/sfe/searchOption/Controller_230920.js\",t=function(){var t=window.require.config({c",
       "relevance_score": 16.0
     },
     {
       "title": "company.yaml 등록 URL",
       "url": "https://search.naver.com/search.naver?where=news&query=%ED%95%9C%EC%86%94%EC%BC%80%EB%AF%B8%EC%B9%BC+%EA%B3%BC%EC%82%B0%ED%99%94%EC%88%98%EC%86%8C",
       "path": "",
-      "snippet": "company.yaml 등록 URL 공식/추가 URL 본문 영역으로 바로가기 자동완성 레이어 모바일 메인 언론사 PC 메인 언론사 2026.05.20. 월(Month) 언론사 분류선택 지역지 분류선택 이 정보가 표시된 이유 옵션을 유지할 경우 선택한 서비스 영역과 언론사로 필터링된 뉴스 결과가 계속 제공됩니다. 정보확인 레이어 닫기 서비스 영역과 언론사의 선택 옵션이 유지됩니다. (function(){var e=\"https://ssl.pstatic.net/sstatic/fe/sfe/searchOption/Controller_230920.js\",t=function(){var t=window.require.config({c",
+      "snippet": "company.yaml 등록 URL 공식/추가 URL 본문 영역으로 바로가기 자동완성 레이어 모바일 메인 언론사 PC 메인 언론사 2026.05.25. 월(Month) 언론사 분류선택 지역지 분류선택 이 정보가 표시된 이유 옵션을 유지할 경우 선택한 서비스 영역과 언론사로 필터링된 뉴스 결과가 계속 제공됩니다. 정보확인 레이어 닫기 서비스 영역과 언론사의 선택 옵션이 유지됩니다. (function(){var e=\"https://ssl.pstatic.net/sstatic/fe/sfe/searchOption/Controller_230920.js\",t=function(){var t=window.require.config({c",
       "relevance_score": 16.0
     },
     {
@@ -201,7 +246,7 @@
       "title": "hansol_tech_excel_frame_evidence.md",
       "url": "",
       "path": "data\\반도체\\한솔케미칼\\tech\\source\\hansol_tech_excel_frame_evidence.md",
-      "snippet": "# 한솔케미칼 Tech Excel-frame Intake company_slug: hansol generated_at: 2026-05-11T21:21:03 template_path: data\\반도체\\_sector_common\\templates\\tech_template.xlsx company_sheet: 한솔 base_item_count: 23 company_item_count: 22 content_filled_count: 22 numeric_signal_count: 113 formula_rule_count: 34 ## 베이스 시트 원본 구조 대표 기술 / 핵심 기술 키워드 / 정량화: 기술 키워드",
+      "snippet": "# 한솔케미칼 Tech Excel-frame Intake company_slug: hansol generated_at: 2026-05-11T21:21:03 template_path: data\\반도체\\_sector_common\\templates\\tech_template.xlsx company_sheet: 한솔 base_item_count: 23 company_item_count: 22 content_filled_count: 22 numeric_signal_count: 113 formula_rule_count: 34 ## 베이스 시트 원본 구조 대표 기술 / 핵심 기술 키워드 / 정량화: 기술 키워드 등장 빈도, 적용 제품",
       "relevance_score": 18.0
     }
   ],
@@ -449,7 +494,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\한솔케미칼\\tech\\hansol_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\한솔케미칼\\tech\\hansol_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-20T19:58:35",
+      "generated_at": "2026-05-25T19:54:54",
       "core_counts": {
         "total_patents": 656,
         "registered_patents_estimated": 413,
@@ -543,7 +588,7 @@
   "tech_chair_summary": {
     "agent": "tech",
     "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-    "created_at": "2026-05-20T20:31:56",
+    "created_at": "2026-05-25T19:58:07",
     "field": "반도체",
     "company": "한솔케미칼",
     "company_name": "한솔케미칼",
@@ -575,7 +620,7 @@
       "ip_evidence_composite_bridge_signal": "IP_EVIDENCE_NEUTRAL",
       "ip_evidence_composite_adjustment_points": 0.0,
       "ip_evidence_composite_data_coverage_rate": 1.0,
-      "ip_evidence_composite_source_file": "data/반도체/한솔케미칼/tech/tech_ip_evidence_composite.json",
+      "ip_evidence_composite_source_file": "C:/Agent_6.9/data/반도체/한솔케미칼/tech/tech_ip_evidence_composite.json",
       "peer_adjusted_bridge_score_before_ip_evidence": 84.0,
       "final_bridge_score_after_ip_evidence": 84.0,
       "ip_evidence_adjusted_score": 84.0,
@@ -649,14 +694,14 @@
       }
     ],
     "ip_quant_signals": {
-      "normalized_patent_text_records": 11787,
-      "company_matched_patents": 8623,
+      "normalized_patent_text_records": 13347,
+      "company_matched_patents": 10183,
       "registered_patents": 4774,
-      "alive_patents": 6754,
-      "recent_5y_patents": 1057,
+      "alive_patents": 8314,
+      "recent_5y_patents": 2617,
       "ipc_cpc_classes": 237,
       "core_ipc_h01l_patents": null,
-      "keyword_matches": 2362
+      "keyword_matches": 11722
     },
     "selected_ml": {
       "peer_ml": {
@@ -666,9 +711,9 @@
         "cluster_name": "반도체 후공정/패키징 cluster"
       },
       "tech_ip_strength": {
-        "score": 55.13,
+        "score": 66.01,
         "percentile": 50.0,
-        "patent_momentum_score": 34.19,
+        "patent_momentum_score": 44.27,
         "dominant_topic": null
       },
       "technology_differentiation": {
@@ -1511,7 +1556,7 @@
       "company_name": "한솔케미칼",
       "field": "반도체",
       "status": "OK",
-      "created_at": "2026-05-20T20:30:51",
+      "created_at": "2026-05-25T19:54:56",
       "weights": {
         "legal_stability": 0.25,
         "claim_defense": 0.3,
@@ -1607,10 +1652,10 @@
       "tech_full_appendix_json": ""
     },
     "ip_evidence_bridge_adjustment_status": "APPLIED",
-    "ip_evidence_bridge_adjustment_applied_at": "2026-05-20T20:31:56",
+    "ip_evidence_bridge_adjustment_applied_at": "2026-05-25T19:58:08",
     "tech_investor_view": {
       "version": "tech-investor-scorecard-v2",
-      "generated_at": "2026-05-20T20:32:21",
+      "generated_at": "2026-05-25T19:58:34",
       "company_slug": "hansol",
       "company_name": "한솔케미칼",
       "final_tech_investor_score": 76.69,
@@ -2001,12 +2046,12 @@
       "agent": "tech_intake",
       "artifact": "tech_intake_value_evidence_bridge",
       "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-      "created_at": "2026-05-20T20:32:14",
+      "created_at": "2026-05-25T19:58:30",
       "field": "반도체",
       "company": "한솔케미칼",
       "company_dir": "hansol",
       "company_slug": "hansol",
-      "source_document_count": 148,
+      "source_document_count": 169,
       "source_documents": [
         {
           "source_group": "KIPRIS",
@@ -2185,7 +2230,7 @@
         {
           "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/한솔케미칼/tech/hansol_tech_intake_value_evidence.json",
-          "detected_url_count": 16,
+          "detected_url_count": 14,
           "fallback_url_count": 0
         },
         {
@@ -2448,6 +2493,18 @@
         },
         {
           "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/한솔케미칼/tech/tech_history_features_2025-08-31.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/한솔케미칼/tech/tech_history_features_2025-08-31.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/한솔케미칼/tech/tech_intake_manifest.json",
           "detected_url_count": 0,
           "fallback_url_count": 2
@@ -2461,7 +2518,7 @@
         {
           "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/한솔케미칼/tech/tech_intake_value_evidence.json",
-          "detected_url_count": 16,
+          "detected_url_count": 14,
           "fallback_url_count": 0
         },
         {
@@ -2760,6 +2817,120 @@
         },
         {
           "source_group": "VALUATION",
+          "source_file": "data/반도체/한솔케미칼/valuation/intake/company_profile.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/한솔케미칼/valuation/intake/cross_agent_signals_for_valuation.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/한솔케미칼/valuation/intake/dcf_inputs.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/한솔케미칼/valuation/intake/dilution_events.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/한솔케미칼/valuation/intake/eval_price_history.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/한솔케미칼/valuation/intake/eval_price_history_monthly.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/한솔케미칼/valuation/intake/eval_price_history_monthly_v43.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/한솔케미칼/valuation/intake/eval_price_history_monthly_v44.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/한솔케미칼/valuation/intake/eval_price_history_monthly_v45.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/한솔케미칼/valuation/intake/eval_price_history_v43.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/한솔케미칼/valuation/intake/eval_price_history_v44.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/한솔케미칼/valuation/intake/eval_price_history_v45.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/한솔케미칼/valuation/intake/financials_normalized.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/한솔케미칼/valuation/intake/financials_raw.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/한솔케미칼/valuation/intake/peer_multiples.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/한솔케미칼/valuation/intake/price_history.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/한솔케미칼/valuation/intake/relative_valuation_inputs.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/한솔케미칼/valuation/intake/shares_outstanding.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/한솔케미칼/valuation/intake/valuation_assumptions.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
           "source_file": "data/반도체/한솔케미칼/valuation/intake/valuation_assumptions.json",
           "detected_url_count": 0,
           "fallback_url_count": 5
@@ -2841,60 +3012,6 @@
           "source_file": "data/반도체/한솔케미칼/valuation/intake/valuation_reference_universe_summary.json",
           "detected_url_count": 0,
           "fallback_url_count": 5
-        },
-        {
-          "source_group": "VALUATION",
-          "source_file": "data/반도체/한솔케미칼/valuation/intake/valuation_share_count.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "VALUATION",
-          "source_file": "data/반도체/한솔케미칼/valuation/intake/valuation_source_map.json",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/한솔케미칼/finance/한솔케미칼_finance.json",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/한솔케미칼/finance/한솔케미칼_finance_agent_packet.json",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/한솔케미칼/finance/한솔케미칼_stock.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/한솔케미칼/finance/한솔케미칼_재무.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/한솔케미칼/finance/한솔케미칼_재무데이터.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/한솔케미칼/finance/한솔케미칼_주식.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/한솔케미칼/finance/intake/finance_intake_manifest.json",
-          "detected_url_count": 1,
-          "fallback_url_count": 0
         }
       ],
       "source_url_map": {
@@ -3035,9 +3152,7 @@
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93134dde06f571014f6d1c16544865b5d7b70c2eca20c81d65526e2cf955017a36a29b2fb7eaf3fbb2f6bc597aecdbc0d79f91f55f4cb30fd9",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93c24520523a540c06504a1e9b21416a2eecb1f775fa3ebe27b4d8efd601369f52d2164781dbcf5ff8b7701120b706b0667cea3c45f870689b",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=348aaf18c46825cf02d6c2de1c78338e2bd3a9276dafcb92462dda294ff40c81448544f02cb07defe9bf0ccceb22091d1ff346983e4db2058496c2f44424a34e1321c750f5ccfed1",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93b1bd11bec33dcd6cac554707b1b96cffa2365904ed14fb226eb97fe3af06ee0fde6adcc400f155e41e01c9516f2ef26c4362448bb548f8c5",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9306ccbc7e3469db21beffa0f911f0bae4103f6811461eed3b8f45161d6971f22d0a6bac6842326379f021b3c115e3c352fa0b2725ca136868",
-            "http://plus.kipris.or.kr/opena",
+            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93b1bd11bec33dcd6cac554707b",
             "http://www.w3.org/2001/XMLSchema-instance",
             "https://plus.kipris.or.kr/",
             "https://www.google.com/search?q=%ED%95%9C%EC%86%94%EC%BC%80%EB%AF%B8%EC%B9%BC+KIPRIS+%ED%8A%B9%ED%97%88",
@@ -3988,7 +4103,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\한솔케미칼\\tech\\hansol_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\한솔케미칼\\tech\\hansol_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-20T19:58:35",
+      "generated_at": "2026-05-25T19:54:54",
       "core_counts": {
         "total_patents": 656,
         "registered_patents_estimated": 413,
@@ -4076,8 +4191,8 @@
     "bridge_signal": "IP_QUALITY_MODERATE"
   },
   "formula_catalog_summary": {
-    "json": "data\\반도체\\한솔케미칼\\tech\\hansol_tech_formula_rules.json",
-    "md": "data\\반도체\\한솔케미칼\\tech\\hansol_tech_formula_rules.md",
+    "json": "C:\\Agent_6.9\\data\\반도체\\한솔케미칼\\tech\\hansol_tech_formula_rules.json",
+    "md": "C:\\Agent_6.9\\data\\반도체\\한솔케미칼\\tech\\hansol_tech_formula_rules.md",
     "rule_count": 34
   },
   "evidence_harvest_summary": {
@@ -4112,6 +4227,8 @@
     "tech_full_appendix_json": null,
     "tech_chair_summary_json": "data/반도체/한솔케미칼/tech/tech_chair_summary.json",
     "tech_chair_summary_md": "data/반도체/한솔케미칼/tech/hansol_tech_chair_summary.md",
+    "tech_history_feature_json": "data/반도체/한솔케미칼/tech/tech_history_features_2025-08-31.json",
+    "tech_history_feature_csv": "data/반도체/한솔케미칼/tech/tech_history_features_2025-08-31.csv",
     "tech_json": "data/반도체/한솔케미칼/tech/hansol_tech.json",
     "tech_agent_packet_json": "data/반도체/한솔케미칼/tech/hansol_tech_agent_packet.json"
   },
@@ -5889,7 +6006,7 @@
     "field": "반도체",
     "source_csv": "data\\반도체\\한솔케미칼\\tech\\hansol_kipris_patents_normalized.csv",
     "enriched_csv": "data\\반도체\\한솔케미칼\\tech\\hansol_kipris_tech_ml_enriched.csv",
-    "generated_at": "2026-05-20T19:58:35",
+    "generated_at": "2026-05-25T19:54:54",
     "core_counts": {
       "total_patents": 656,
       "registered_patents_estimated": 413,

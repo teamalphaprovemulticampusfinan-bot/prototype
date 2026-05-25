@@ -2,12 +2,12 @@
   "agent": "tech_intake",
   "artifact": "tech_intake_value_evidence_bridge",
   "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-  "created_at": "2026-05-20T20:32:14",
+  "created_at": "2026-05-25T19:58:30",
   "field": "반도체",
   "company": "한솔케미칼",
   "company_dir": "hansol",
   "company_slug": "hansol",
-  "source_document_count": 148,
+  "source_document_count": 169,
   "source_documents": [
     {
       "source_group": "KIPRIS",
@@ -186,7 +186,7 @@
     {
       "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/한솔케미칼/tech/hansol_tech_intake_value_evidence.json",
-      "detected_url_count": 16,
+      "detected_url_count": 14,
       "fallback_url_count": 0
     },
     {
@@ -449,6 +449,18 @@
     },
     {
       "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/한솔케미칼/tech/tech_history_features_2025-08-31.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/한솔케미칼/tech/tech_history_features_2025-08-31.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/한솔케미칼/tech/tech_intake_manifest.json",
       "detected_url_count": 0,
       "fallback_url_count": 2
@@ -462,7 +474,7 @@
     {
       "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/한솔케미칼/tech/tech_intake_value_evidence.json",
-      "detected_url_count": 16,
+      "detected_url_count": 14,
       "fallback_url_count": 0
     },
     {
@@ -761,6 +773,120 @@
     },
     {
       "source_group": "VALUATION",
+      "source_file": "data/반도체/한솔케미칼/valuation/intake/company_profile.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한솔케미칼/valuation/intake/cross_agent_signals_for_valuation.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한솔케미칼/valuation/intake/dcf_inputs.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한솔케미칼/valuation/intake/dilution_events.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한솔케미칼/valuation/intake/eval_price_history.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한솔케미칼/valuation/intake/eval_price_history_monthly.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한솔케미칼/valuation/intake/eval_price_history_monthly_v43.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한솔케미칼/valuation/intake/eval_price_history_monthly_v44.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한솔케미칼/valuation/intake/eval_price_history_monthly_v45.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한솔케미칼/valuation/intake/eval_price_history_v43.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한솔케미칼/valuation/intake/eval_price_history_v44.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한솔케미칼/valuation/intake/eval_price_history_v45.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한솔케미칼/valuation/intake/financials_normalized.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한솔케미칼/valuation/intake/financials_raw.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한솔케미칼/valuation/intake/peer_multiples.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한솔케미칼/valuation/intake/price_history.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한솔케미칼/valuation/intake/relative_valuation_inputs.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한솔케미칼/valuation/intake/shares_outstanding.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한솔케미칼/valuation/intake/valuation_assumptions.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
       "source_file": "data/반도체/한솔케미칼/valuation/intake/valuation_assumptions.json",
       "detected_url_count": 0,
       "fallback_url_count": 5
@@ -842,60 +968,6 @@
       "source_file": "data/반도체/한솔케미칼/valuation/intake/valuation_reference_universe_summary.json",
       "detected_url_count": 0,
       "fallback_url_count": 5
-    },
-    {
-      "source_group": "VALUATION",
-      "source_file": "data/반도체/한솔케미칼/valuation/intake/valuation_share_count.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "VALUATION",
-      "source_file": "data/반도체/한솔케미칼/valuation/intake/valuation_source_map.json",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "FINANCE",
-      "source_file": "data/반도체/한솔케미칼/finance/한솔케미칼_finance.json",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "FINANCE",
-      "source_file": "data/반도체/한솔케미칼/finance/한솔케미칼_finance_agent_packet.json",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "FINANCE",
-      "source_file": "data/반도체/한솔케미칼/finance/한솔케미칼_stock.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "FINANCE",
-      "source_file": "data/반도체/한솔케미칼/finance/한솔케미칼_재무.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "FINANCE",
-      "source_file": "data/반도체/한솔케미칼/finance/한솔케미칼_재무데이터.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "FINANCE",
-      "source_file": "data/반도체/한솔케미칼/finance/한솔케미칼_주식.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "FINANCE",
-      "source_file": "data/반도체/한솔케미칼/finance/intake/finance_intake_manifest.json",
-      "detected_url_count": 1,
-      "fallback_url_count": 0
     }
   ],
   "source_url_map": {
@@ -1036,9 +1108,7 @@
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93134dde06f571014f6d1c16544865b5d7b70c2eca20c81d65526e2cf955017a36a29b2fb7eaf3fbb2f6bc597aecdbc0d79f91f55f4cb30fd9",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93c24520523a540c06504a1e9b21416a2eecb1f775fa3ebe27b4d8efd601369f52d2164781dbcf5ff8b7701120b706b0667cea3c45f870689b",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=348aaf18c46825cf02d6c2de1c78338e2bd3a9276dafcb92462dda294ff40c81448544f02cb07defe9bf0ccceb22091d1ff346983e4db2058496c2f44424a34e1321c750f5ccfed1",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93b1bd11bec33dcd6cac554707b1b96cffa2365904ed14fb226eb97fe3af06ee0fde6adcc400f155e41e01c9516f2ef26c4362448bb548f8c5",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9306ccbc7e3469db21beffa0f911f0bae4103f6811461eed3b8f45161d6971f22d0a6bac6842326379f021b3c115e3c352fa0b2725ca136868",
-        "http://plus.kipris.or.kr/opena",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93b1bd11bec33dcd6cac554707b",
         "http://www.w3.org/2001/XMLSchema-instance",
         "https://plus.kipris.or.kr/",
         "https://www.google.com/search?q=%ED%95%9C%EC%86%94%EC%BC%80%EB%AF%B8%EC%B9%BC+KIPRIS+%ED%8A%B9%ED%97%88",

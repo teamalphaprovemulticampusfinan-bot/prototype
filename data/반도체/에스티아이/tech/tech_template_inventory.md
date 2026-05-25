@@ -1,7 +1,7 @@
 # Tech Template Inventory - 에스티아이 (sti)
 
-- source: `data\반도체\_sector_common\templates`
-- reference: `data\반도체\에스티아이\tech\_template_refs`
+- source: `data/반도체/_sector_common/templates`
+- reference: `data/반도체/에스티아이/tech/_template_refs`
 - template_count: 2
 
 ## Templates

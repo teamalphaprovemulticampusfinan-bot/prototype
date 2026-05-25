@@ -307,6 +307,8 @@ def export_signal_df(
     out_root: str | Path,
     field: str = "반도체",
     run_id: str = "monthly_cutoff_30",
+    stamp: str | None = None,
+    manifest_name: str = "signal_df_export_manifest.json",
 ) -> dict[str, str]:
     out_root = Path(out_root)
     base = out_root / "real_pipeline_outputs"
@@ -329,7 +331,7 @@ def export_signal_df(
     if not rows:
         raise RuntimeError(f"No signal rows extracted from {base}")
 
-    stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    stamp = stamp or datetime.now().strftime("%Y%m%d_%H%M%S")
     combined_csv = out_root / f"signal_df_monthly_all_{run_id}_{stamp}.csv"
     combined_xlsx = out_root / f"signal_df_monthly_all_{run_id}_{stamp}.xlsx"
 
@@ -359,7 +361,7 @@ def export_signal_df(
         "columns": ",".join(OUTPUT_COLUMNS),
         "note": "Columns intentionally stop at macro_weight to match the requested signal_df format.",
     }
-    (out_root / "signal_df_export_manifest.json").write_text(json.dumps(latest, ensure_ascii=False, indent=2), encoding="utf-8")
+    (out_root / manifest_name).write_text(json.dumps(latest, ensure_ascii=False, indent=2), encoding="utf-8")
     return latest
 
 

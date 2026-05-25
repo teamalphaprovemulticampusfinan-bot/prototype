@@ -3,6 +3,51 @@
   "company": "미코",
   "company_dir": "mico",
   "opinion": "보유",
+  "tech_signal": 0.305622,
+  "history_tech_feature": {
+    "signal": 0.305622,
+    "status": "OK_TECH_HISTORY_ASOF",
+    "source": "C:\\Agent_6.9\\data\\반도체\\미코\\tech\\mico_kipris_patents_normalized.csv;C:\\Agent_6.9\\data\\반도체\\미코\\tech\\mico_tech_patent_normalized.csv;C:\\Agent_6.9\\data\\반도체\\미코\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\미코\\tech\\mico_kipris_bibliographic_normalized.csv;C:\\Agent_6.9\\data\\반도체\\미코\\tech\\mico_kipris_claims_normalized.csv;C:\\Agent_6.9\\data\\반도체\\미코\\tech\\mico_kipris_plus_claim_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\미코\\tech\\mico_kipris_plus_family_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\미코\\tech\\mico_kipris_plus_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\미코\\tech\\mico_kipris_tech_ml_enriched.csv;C:\\Agent_6.9\\data\\반도체\\미코\\tech\\source\\mico_kipris_plus_bibliographic_raw.csv;C:\\Agent_6.9\\data\\반도체\\미코\\tech\\quanified_metrix.csv;C:\\Agent_6.9\\data\\반도체\\미코\\tech\\tech_excel_frame_items.csv",
+    "as_of_date": "2025-08-31",
+    "company": "미코",
+    "ticker": "059090.KQ",
+    "stock_code": "059090",
+    "base_signal": 0.311011,
+    "evidence_confidence": 0.791816,
+    "commercialization_gate_signal": 0.237432,
+    "technology_risk_penalty": 0.0,
+    "ip_quality_signal": -0.030509,
+    "lifecycle_signal": 0.0,
+    "technology_differentiation_signal": 0.095857,
+    "commercialization_signal": 0.949728,
+    "rnd_sustainability_signal": 0.454087,
+    "peer_position_signal": -0.209524,
+    "tech_to_value_signal": 0.606429,
+    "certification_signal": 0.0,
+    "qualification_signal": 0.0,
+    "cost_yield_signal": 0.0,
+    "workforce_signal": 0.0,
+    "government_rd_signal": 0.0,
+    "licensing_signal": 0.0,
+    "dispute_risk_signal": 0.0,
+    "failure_delay_signal": 0.0,
+    "intangible_accounting_signal": 0.0,
+    "patent_records_asof": 2410,
+    "dated_records_asof": 869,
+    "undated_records_used": 1607,
+    "files_used": 72,
+    "notes": "Tech history signal uses dated patent/IP, TRL/readiness, certification, qualification, commercialization, R&D/workforce, risk and accounting evidence before as_of_date; no Buy/Hold/Sell threshold is applied.",
+    "frequency": "monthly",
+    "formula": "final=base_signal*evidence_confidence + 0.25*commercialization_gate_signal - 0.35*technology_risk_penalty",
+    "research_basis": [
+      "Hall-Jaffe-Trajtenberg patent citations/value; Lanjouw-Schankerman patent quality; OECD patent quality composite indicators",
+      "DoD/NASA TRL and TRA maturity framework",
+      "IFC/Bpifrance deep-tech development-stage financing framework",
+      "Text-based industry/technology relatedness literature for peer/differentiation evidence"
+    ],
+    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\미코\\tech\\tech_history_features_2025-08-31.json",
+    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\미코\\tech\\tech_history_features_2025-08-31.csv"
+  },
   "claims": [
     {
       "claim_id": "tech.cl.000",
@@ -101,63 +146,63 @@
     {
       "title": "미코 KIPRIS/특허 정량화 요약",
       "url": "",
-      "path": "data\\반도체\\미코\\tech\\source\\mico_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\미코\\tech\\source\\mico_kipris_plus_bibliographic_raw.csv",
       "snippet": "미코 KIPRIS/특허 정량화 요약 본 특허 근거는 KIPRIS API/CSV/엑셀/TXT 원천 파일을 정규화해 산출했다. [정량 지표] - 특허 원천 파일 수: 1개 - 정규화 특허 레코드 수: 115건 - 출원인/권리자 회사 매칭 특허 수: 115건 - 등록 특허 수: 67건 - 존속 가능 특허 수: 33건 - 최근 5년 특허 수: 24건 - IPC/CPC 기술분류 수: 79개 - H01L 반도체 IPC 특허 수: 0건 - 반도체 핵심 IPC 특허 수: 36건 - 특허-기술 키워드 매칭 수: 66회 - 특허 포트폴리오 연도 범위: 1986~2024 - KIPRIS 총 특허 수: 115.0건 - KIPRIS 등록 특허",
       "relevance_score": 30
     },
     {
       "title": "n형 도핑된 게르마늄 단결정 및 그로부터 유도된 웨이퍼",
       "url": "",
-      "path": "data\\반도체\\미코\\tech\\source\\mico_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\미코\\tech\\source\\mico_kipris_plus_bibliographic_raw.csv",
       "snippet": "n형 도핑된 게르마늄 단결정 및 그로부터 유도된 웨이퍼 | 유미코아 | 등록 | 2021 | 출원번호 1020227035197; 등록번호 1028970410000 | IPC/CPC: C30B, G01N, H10P, H01S | 기술매칭: 웨이퍼 | 초록: 본 발명은 인이 단일 도펀트인 것을 특징으로 하는, n형 도핑되고 10 mOhm.cm 미만의 비저항을 갖는 단결정 무전위 Ge에 관한 것이다. 이러한 결정은 도펀트로서 GeP를 사용하는 초크랄스키 인상 기술을 사용함으로써 수득될 수 있다.",
       "relevance_score": 75.0
     },
     {
       "title": "정전척 히터 및 그 제조방법",
       "url": "",
-      "path": "data\\반도체\\미코\\tech\\source\\mico_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\미코\\tech\\source\\mico_kipris_plus_bibliographic_raw.csv",
       "snippet": "정전척 히터 및 그 제조방법 | 주식회사 미코세라믹스 | 등록 | 2019 | 출원번호 1020190095376; 등록번호 1024728640000 | IPC/CPC: H10P, H02N, B23Q | 기술매칭: 공정, 반도체 | 초록: 본 발명은 바이폴라 구조를 갖는 정전척 히터에 관한 것으로, 반도체 공정 모드에 따라 RF 접지 기능 및 정전척 기능 중 어느 하나를 선택적으로 수행하는 내부 전극 및 외부 전극을 구비하는 히터 몸체부; 및 상기 히터 몸체부의 하부에 장착되어, 상기 히터 몸체부를 지지하는 히터 지지부를 포함한다.",
       "relevance_score": 72.5
     },
     {
       "title": "서셉터 제조 방법 및 그 방법에 의해 제조된 서셉터",
       "url": "",
-      "path": "data\\반도체\\미코\\tech\\source\\mico_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\미코\\tech\\source\\mico_kipris_plus_bibliographic_raw.csv",
       "snippet": "서셉터 제조 방법 및 그 방법에 의해 제조된 서셉터 | 주식회사 미코세라믹스 | 등록 | 2024 | 출원번호 1020240026434; 등록번호 1027413390000 | IPC/CPC: H10P | 기술매칭: 공정 | 초록: 본 발명은 서셉터 제조 방법에 관한 것으로서, 본 발명은 베이스 기재와 절연 플레이트의 접합 구조에 캡 타입 부싱 구조물이나 튜브 구조물을 적용함으로써, 경화 과정에서 가스 유로 내부의 압력 증가에도 견디거나 상기 압력 증가의 방지가 가능하고, 이에 따라 HARC (High Aspect Ratio Contact) 공정용 고전력 서셉터 등에서 가스홀의 막힘 현상을 방지할 수 있고 가스홀 주변의",
       "relevance_score": 70.5
     },
     {
       "title": "웨이퍼 도금용 컵셀",
       "url": "",
-      "path": "data\\반도체\\미코\\tech\\source\\mico_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\미코\\tech\\source\\mico_kipris_plus_bibliographic_raw.csv",
       "snippet": "웨이퍼 도금용 컵셀 | 하이쎄미코(주) | 등록 | 2023 | 출원번호 1020230012423; 등록번호 1025264810000 | IPC/CPC: C25D | 기술매칭: 웨이퍼 | 초록: 본 발명은 웨이퍼 도금용 컵셀에 관한 것으로서, 중앙이 개구된 하판부(110), 그리고 상기 하판부(110)의 외주연을 따라 상방 돌출된 테두리부(120)를 갖는 컵셀바디(100); 상기 컵셀바디(100)를 덮도록 컵셀바디(100)의 내측 상부에 결합된 커버(200); 상기 커버(200)의 하측에 설치된 것으로서, 커버(200)에 결합되는 고정스테이지(310), 상기 고정스테이지(310)의",
       "relevance_score": 70.5
     },
     {
       "title": "금속 기판 및 보호층을 포함하는 음극",
       "url": "",
-      "path": "data\\반도체\\미코\\tech\\source\\mico_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\미코\\tech\\source\\mico_kipris_plus_bibliographic_raw.csv",
       "snippet": "금속 기판 및 보호층을 포함하는 음극 | 유미코아 | 등록 | 2022 | 출원번호 1020247023391; 등록번호 1029607790000 | IPC/CPC: H01M | 기술매칭: 기판 | 초록: 본 발명은 금속 기판, 및 금속 기판의 적어도 일부 상에 직접 배치된 보호층을 포함하는 배터리용 음극으로서, 보호층은 2개 이상의 단량체 사이의 반응에 의해 얻을 수 있는 공중합체, 플루오로중합체 첨가제, 및 리튬 염을 포함하는 배터리용 음극에 관한 것이다. 본 발명자들은 상기 보호층이 음극에 대해 자가 치유 필름 작용을 한다는 것을 입증하였다.",
       "relevance_score": 70.5
     },
     {
       "title": "저열전도 샤프트를 구비하는 고온용 서셉터",
       "url": "",
-      "path": "data\\반도체\\미코\\tech\\source\\mico_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\미코\\tech\\source\\mico_kipris_plus_bibliographic_raw.csv",
       "snippet": "저열전도 샤프트를 구비하는 고온용 서셉터 | 주식회사 미코세라믹스 | 등록 | 2021 | 출원번호 1020210124972; 등록번호 1024619950000 | IPC/CPC: H10P | 기술매칭: 웨이퍼 | 초록: 저열전도의 샤프트를 구비하는 고온용 서셉터가 제공된다. 본 발명은 웨이퍼 안착을 위한 플레이트 및 상기 플레이트에 결합된 샤프트를 포함하는 서셉터에 있어서, 상기 플레이트 및 상기 샤프트는 각각 AlN상이 90 wt% 이상인 소결체를 포함하고, 상기 플레이트의 소결체는 650 °C에서 체적저항이 5*10 8 Ω・cm 이상인 마그네슘 함유 AlN 소결체이고, 상기 샤프트의 소결체는 열전도도가",
       "relevance_score": 70.5
     },
     {
       "title": "알킬인듐 화합물의 제조 방법 및 이의 용도",
       "url": "",
-      "path": "data\\반도체\\미코\\tech\\source\\mico_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\미코\\tech\\source\\mico_kipris_plus_bibliographic_raw.csv",
       "snippet": "알킬인듐 화합물의 제조 방법 및 이의 용도 | 우미코레 아게 운트 코 카게 | 소멸 | 2014 | 출원번호 1020167007076; 등록번호 1023175900000 | IPC/CPC: C07F, H10H, H10F | 기술매칭: 전구체, CVD, 수율, 공정 | 초록: 본 발명은 고 수율로 그리고 고 선택성과 순도로서 디알킬인듐클로라이드의 비용 효율이 높고 환경 친화적인 제조 방법에 관한 것이다. 본 발명에 따라 제조되는 디알킬인듐클로라이드는 또한 고 순도 및 수율의 결과로서 요구에 따라 고 수율로 그리고 고 선택성과 순도로서 인듐 함유 전구체의 제조에 특히 적합하다. 고 순도의 결과로서, 제조될 수 있는 인듐 함",
       "relevance_score": 69.5
     },
     {
       "title": "금형 테스트 및 유지보수용 금형 개폐기",
       "url": "",
-      "path": "data\\반도체\\미코\\tech\\source\\mico_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\미코\\tech\\source\\mico_kipris_plus_bibliographic_raw.csv",
       "snippet": "금형 테스트 및 유지보수용 금형 개폐기 | 주식회사 미코명진|한국알프스(주) | 등록 | 2019 | 출원번호 1020190060781; 등록번호 1021559630000 | IPC/CPC: G01M, B29C, F16H | 기술매칭: 테스트 | 초록: 본 발명은 전후로 연장된 메인프레임(10); 및 상기 메인프레임(10)의 상면에 전후로 각각 설치되며 전후 이동 및 수평회전되는 가동 및 수평터닝유닛(20)과 수직회전되는 수직터닝유닛(70);을 포함하며, 상기 가동 및 수평터닝유닛(20)은 상기 메인프레임(10)의 상면에 전후 또는 좌우로 연장된 가이드레일(30)과, 이 가이드레일(30)을 따라 전후 또는 좌우로 이동되",
       "relevance_score": 69.5
     }
@@ -391,7 +436,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\미코\\tech\\mico_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\미코\\tech\\mico_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-20T21:16:47",
+      "generated_at": "2026-05-25T20:22:14",
       "core_counts": {
         "total_patents": 115,
         "registered_patents_estimated": 67,
@@ -485,7 +530,7 @@
   "tech_chair_summary": {
     "agent": "tech",
     "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-    "created_at": "2026-05-20T21:22:20",
+    "created_at": "2026-05-25T20:24:29",
     "field": "반도체",
     "company": "미코",
     "company_name": "미코",
@@ -517,17 +562,17 @@
       "ip_evidence_composite_bridge_signal": "IP_EVIDENCE_NEUTRAL",
       "ip_evidence_composite_adjustment_points": 0.0,
       "ip_evidence_composite_data_coverage_rate": 1.0,
-      "ip_evidence_composite_source_file": "data/반도체/미코/tech/tech_ip_evidence_composite.json",
+      "ip_evidence_composite_source_file": "C:/Agent_6.9/data/반도체/미코/tech/tech_ip_evidence_composite.json",
       "peer_adjusted_bridge_score_before_ip_evidence": 39.0,
       "final_bridge_score_after_ip_evidence": 39.0,
       "ip_evidence_adjusted_score": 39.0,
       "ip_evidence_formula": "final_bridge_score_after_ip_evidence = peer_adjusted_bridge_score_before_ip_evidence + ip_evidence_composite_adjustment_points",
       "ip_evidence_adjusted_grade": "TECH_EVIDENCE_WEAK",
-      "investor_final_tech_score": 44.91,
+      "investor_final_tech_score": 55.31,
       "investor_final_tech_grade": {
-        "code": "EVIDENCE_WEAK_OR_EARLY",
-        "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
-        "threshold": 0.0
+        "code": "COMMERCIALIZATION_WATCH",
+        "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+        "threshold": 52.0
       },
       "value_evidence_score": 79.76,
       "value_evidence_label": "VALUE_EVIDENCE_STRONG"
@@ -591,14 +636,14 @@
       }
     ],
     "ip_quant_signals": {
-      "normalized_patent_text_records": 3158,
-      "company_matched_patents": 1541,
+      "normalized_patent_text_records": 4718,
+      "company_matched_patents": 3101,
       "registered_patents": 385,
-      "alive_patents": 685,
-      "recent_5y_patents": 24,
+      "alive_patents": 2245,
+      "recent_5y_patents": 1560,
       "ipc_cpc_classes": 10,
       "core_ipc_h01l_patents": null,
-      "keyword_matches": 261
+      "keyword_matches": 9621
     },
     "selected_ml": {
       "peer_ml": {
@@ -608,9 +653,9 @@
         "cluster_name": null
       },
       "tech_ip_strength": {
-        "score": 41.21,
+        "score": 65.49,
         "percentile": 50.0,
-        "patent_momentum_score": 1.17,
+        "patent_momentum_score": 62.73,
         "dominant_topic": null
       },
       "technology_differentiation": {
@@ -974,15 +1019,15 @@
       "ip_evidence_bridge_signal": "IP_EVIDENCE_NEUTRAL",
       "ip_evidence_bridge_adjustment_points": 0.0,
       "final_bridge_score_after_ip_evidence": 39.0,
-      "investor_final_tech_score": 44.91,
+      "investor_final_tech_score": 55.31,
       "investor_final_tech_grade": {
-        "code": "EVIDENCE_WEAK_OR_EARLY",
-        "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
-        "threshold": 0.0
+        "code": "COMMERCIALIZATION_WATCH",
+        "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+        "threshold": 52.0
       },
       "investor_evidence_count": 9,
-      "excel_quantified_evidence_score": 45.0,
-      "commercialization_and_funding_signal_score": 49.5
+      "excel_quantified_evidence_score": 90.0,
+      "commercialization_and_funding_signal_score": 63.5
     },
     "ip_legal_features": {
       "total_patents": 115,
@@ -1455,7 +1500,7 @@
       "company_name": "미코",
       "field": "반도체",
       "status": "OK",
-      "created_at": "2026-05-20T21:21:52",
+      "created_at": "2026-05-25T20:22:21",
       "weights": {
         "legal_stability": 0.25,
         "claim_defense": 0.3,
@@ -1551,17 +1596,17 @@
       "tech_full_appendix_json": ""
     },
     "ip_evidence_bridge_adjustment_status": "APPLIED",
-    "ip_evidence_bridge_adjustment_applied_at": "2026-05-20T21:22:21",
+    "ip_evidence_bridge_adjustment_applied_at": "2026-05-25T20:24:49",
     "tech_investor_view": {
       "version": "tech-investor-scorecard-v2",
-      "generated_at": "2026-05-20T21:22:33",
+      "generated_at": "2026-05-25T20:26:27",
       "company_slug": "mico",
       "company_name": "미코",
-      "final_tech_investor_score": 44.91,
+      "final_tech_investor_score": 55.31,
       "final_tech_investor_grade": {
-        "code": "EVIDENCE_WEAK_OR_EARLY",
-        "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
-        "threshold": 0.0
+        "code": "COMMERCIALIZATION_WATCH",
+        "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+        "threshold": 52.0
       },
       "score_policy": {
         "description": "개인투자자용 최종 Tech 점수는 기술-사업화 연결 가능성, IP 품질, Excel/DART 정량 근거, 근거 신뢰도, 딥테크 성장투자 지속성을 하나로 합성한다.",
@@ -1721,53 +1766,54 @@
         },
         "excel_quantified_evidence": {
           "label": "Excel 기반 정량 근거",
-          "score": 45.0,
+          "score": 90.0,
           "weight": 0.15,
           "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지",
           "meta": {
-            "score": 45.0,
-            "company_item_count": 8,
-            "filled_count": 0,
+            "score": 90.0,
+            "company_item_count": 22,
+            "filled_count": 22,
             "metric_row_count": 0,
-            "numeric_signal_count": 0,
-            "category_count": 7,
+            "numeric_signal_count": 120,
+            "category_count": 8,
             "unique_metric_count": 0,
             "formula_rule_count": 0,
-            "coverage_ratio": 0.0,
-            "numeric_density": 0.0
+            "coverage_ratio": 1.0,
+            "numeric_density": 5.4545
           }
         },
         "evidence_confidence": {
           "label": "근거 직접성·충분성",
-          "score": 50.67,
+          "score": 65.67,
           "weight": 0.15,
           "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성",
           "meta": {
-            "score": 50.67,
+            "score": 65.67,
             "evidence_count": 4,
             "claim_count": 4,
             "patent_count": 115,
-            "excel_coverage_ratio": 0.0
+            "excel_coverage_ratio": 1.0
           }
         },
         "commercialization_and_funding_signal": {
           "label": "사업화·성장자금 지속성",
-          "score": 49.5,
+          "score": 63.5,
           "weight": 0.1,
           "meaning": "R&D·특허·정부과제·기술이전·CAPEX/희석성 자금조달이 사업화와 연결되는 정도",
           "meta": {
-            "score": 49.5,
-            "detected_signal_groups": [],
+            "score": 63.5,
+            "detected_signal_groups": [
+              "commercial"
+            ],
             "detected_flags": {
               "rd": false,
-              "commercial": false,
+              "commercial": true,
               "government": false,
               "transfer": false,
               "funding": false
             },
             "recent_5y_patents": null,
             "warnings": [
-              "customer_mass_production_revenue_signal_limited",
               "rd_or_recent_patent_continuity_limited",
               "capital_raising_signal_not_explicitly_detected"
             ],
@@ -1795,31 +1841,31 @@
         {
           "component": "excel_quantified_evidence",
           "label": "Excel 기반 정량 근거",
-          "score": 45.0,
+          "score": 90.0,
           "weight": 0.15,
-          "weighted_score": 6.75,
+          "weighted_score": 13.5,
           "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지"
         },
         {
           "component": "evidence_confidence",
           "label": "근거 직접성·충분성",
-          "score": 50.67,
+          "score": 65.67,
           "weight": 0.15,
-          "weighted_score": 7.6005,
+          "weighted_score": 9.8505,
           "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성"
         },
         {
           "component": "commercialization_and_funding_signal",
           "label": "사업화·성장자금 지속성",
-          "score": 49.5,
+          "score": 63.5,
           "weight": 0.1,
-          "weighted_score": 4.95,
+          "weighted_score": 6.35,
           "meaning": "R&D·특허·정부과제·기술이전·CAPEX/희석성 자금조달이 사업화와 연결되는 정도"
         }
       ],
       "key_takeaways": [
-        "미코의 개인투자자용 Tech 최종 점수는 44.91/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
-        "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(50.06) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+        "미코의 개인투자자용 Tech 최종 점수는 55.31/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
+        "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(50.06) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
         "투자자가 확인할 핵심 근거는 9개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
       ],
       "investor_evidence": [
@@ -1886,7 +1932,7 @@
         {
           "source": "tech_summary",
           "title": "Tech Agent 핵심 해석",
-          "detail": "미코의 개인투자자용 Tech 최종 점수는 44.91/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
+          "detail": "미코의 개인투자자용 Tech 최종 점수는 53.91/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
           "value": null,
           "unit": null,
           "path": null,
@@ -1896,7 +1942,7 @@
         {
           "source": "tech_summary",
           "title": "Tech Agent 핵심 해석",
-          "detail": "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(50.06) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+          "detail": "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(50.06) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
           "value": null,
           "unit": null,
           "path": null,
@@ -1936,21 +1982,22 @@
       }
     },
     "key_takeaways": [
-      "미코의 개인투자자용 Tech 최종 점수는 44.91/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
-      "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(50.06) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+      "미코의 개인투자자용 Tech 최종 점수는 55.31/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
+      "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(50.06) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
       "투자자가 확인할 핵심 근거는 9개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다.",
+      "미코의 개인투자자용 Tech 최종 점수는 53.91/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
       "투자자가 확인할 핵심 근거는 6개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
     ],
     "value_evidence_bridge": {
       "agent": "tech_intake",
       "artifact": "tech_intake_value_evidence_bridge",
       "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-      "created_at": "2026-05-20T21:22:30",
+      "created_at": "2026-05-25T20:26:25",
       "field": "반도체",
       "company": "미코",
       "company_dir": "mico",
       "company_slug": "mico",
-      "source_document_count": 132,
+      "source_document_count": 151,
       "source_documents": [
         {
           "source_group": "KIPRIS",
@@ -2344,6 +2391,18 @@
         },
         {
           "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/미코/tech/tech_history_features_2025-08-31.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/미코/tech/tech_history_features_2025-08-31.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/미코/tech/tech_intake_manifest.json",
           "detected_url_count": 0,
           "fallback_url_count": 2
@@ -2602,6 +2661,120 @@
         },
         {
           "source_group": "VALUATION",
+          "source_file": "data/반도체/미코/valuation/intake/company_profile.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/미코/valuation/intake/cross_agent_signals_for_valuation.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/미코/valuation/intake/dcf_inputs.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/미코/valuation/intake/dilution_events.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/미코/valuation/intake/eval_price_history.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/미코/valuation/intake/eval_price_history_monthly.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/미코/valuation/intake/eval_price_history_monthly_v43.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/미코/valuation/intake/eval_price_history_monthly_v44.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/미코/valuation/intake/eval_price_history_monthly_v45.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/미코/valuation/intake/eval_price_history_v43.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/미코/valuation/intake/eval_price_history_v44.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/미코/valuation/intake/eval_price_history_v45.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/미코/valuation/intake/financials_normalized.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/미코/valuation/intake/financials_raw.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/미코/valuation/intake/peer_multiples.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/미코/valuation/intake/price_history.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/미코/valuation/intake/relative_valuation_inputs.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/미코/valuation/intake/shares_outstanding.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/미코/valuation/intake/valuation_assumptions.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
           "source_file": "data/반도체/미코/valuation/intake/valuation_assumptions.json",
           "detected_url_count": 0,
           "fallback_url_count": 5
@@ -2716,19 +2889,7 @@
         },
         {
           "source_group": "FINANCE",
-          "source_file": "data/반도체/미코/finance/미코_stock.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "FINANCE",
           "source_file": "data/반도체/미코/finance/미코_재무.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/미코/finance/미코_재무데이터.csv",
           "detected_url_count": 0,
           "fallback_url_count": 5
         },
@@ -2874,12 +3035,13 @@
             "https://plus.kipris.or.kr/",
             "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+KIPRIS+%ED%8A%B9%ED%97%88",
             "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
-            "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
-            "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
             "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
             "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
             "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+IR",
             "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+            "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
+            "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
+            "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
             "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1126"
           ],
           "fallback_urls": [
@@ -2903,12 +3065,12 @@
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93fa7bce6ef83f66fc4a3d349f51e0c7957b35188e95209440bcc59c5e4226bf25f41e2535d26633b815677436aba256cb0bc3c043f79b888e",
             "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+KIPRIS+%ED%8A%B9%ED%97%88",
             "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
-            "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
-            "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
             "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
             "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
             "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+IR",
             "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+            "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
+            "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
             "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
             "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9328f5a912c888a1604ff579e87f821b091a0665246f3173a6cae241fd42c7005fb584f7181202ddb2669153aa54387f5f558cf6b7b6d352be",
@@ -3293,7 +3455,7 @@
                 "매출",
                 "성장"
               ],
-              "snippet": "summary: 미코는 2024년 매출이 54% 이상 성장하며 흑자 전환에 성공했으나, 2025년에는 매출 성장률이 둔화되고 영업이익률이 하락하는 모습을 보였다.",
+              "snippet": "summary: 미코는 2024년 매출이 39.5% 성장하며 큰 폭의 회복세를 보였으나, 영업이익률은 17.5%로 이전 연도 대비 하락했다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3309,10 +3471,9 @@
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
                 "매출",
-                "매출액",
                 "성장"
               ],
-              "snippet": "key_thesis: 2024년 매출액이 3873억원에서 5405억원으로 54.0% 증가하며 성장세를 회복했다.",
+              "snippet": "key_thesis: 2024년 매출성장률이 39.5%로 크게 증가하며 외형 성장을 재개했다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3348,7 +3509,7 @@
                 "매출",
                 "성장"
               ],
-              "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수",
+              "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3365,7 +3526,24 @@
               "matched_keywords": [
                 "sales"
               ],
-              "snippet": "sales: 977036793661.0",
+              "snippet": "sales: 540504643904.0",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/미코/finance/미코_finance_agent_packet.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "sales"
+              ],
+              "snippet": "sales_growth: 39.54234736999413",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3382,7 +3560,7 @@
               "matched_keywords": [
                 "sales"
               ],
-              "snippet": "year: 2023 | sales: 387340942797.0 | operating_income: 21111259627.0 | net_income: -2036721583.0 | total_assets: 833895121319.0 | total_liabilities: 467811187649.0 | total_equity: 366083933670.0 | capex: 48667353361 | ocf: 41646262032 | fcf: -7021091329 | interest: 25570915020.0 | ROE: -0.5563537199193143 | 영업이익률: 5.45030418797326 | 부채비율: 127.78795915985219 | 이자보상배율: 0.8255965658830773",
+              "snippet": "year: 2021 | sales: 365490680610.0 | operating_income: 69667993298.0 | net_income: 21811609332.0 | total_assets: 721538023067.0 | total_liabilities: 342066706932.0 | total_equity: 379471316135.0 | current_assets: 287546072339.0 | current_liabilities: 187679069363.0 | capex: 120722061425 | ocf: 79762640958 | fcf: -40959420467 | interest_expense: 17048418766.0 | roe: 5.747894084368776 | operating_margin: 19.06149650155",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3399,24 +3577,7 @@
               "matched_keywords": [
                 "sales"
               ],
-              "snippet": "year: 2024 | sales: 540504643904.0 | operating_income: 94633945006.0 | net_income: 76514280786.0 | total_assets: 1392676089676.0 | total_liabilities: 859828437142.0 | total_equity: 532847652534.0 | capex: 209471957127 | ocf: 120460924494 | fcf: -89011032633 | interest: 31795266941.0 | ROE: 14.359504151351734 | 영업이익률: 17.508442540376787 | 부채비율: 161.36477904200507 | 이자보상배율: 2.9763532157665114",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/미코/finance/미코_재무.csv",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "sales"
-              ],
-              "snippet": "year: 2025 | sales: 977036793661.0 | operating_income: 101004245476.0 | net_income: 74949266372.0 | total_assets: 2264573968886.0 | total_liabilities: 1575474068220.0 | total_equity: 689099900666.0 | capex: 325210019608 | ocf: 24830688331 | fcf: -300379331277 | interest: 73860662284.0 | ROE: 10.876400693072684 | 영업이익률: 10.337813901309962 | 부채비율: 228.62781821581152 | 이자보상배율: 1.3674971541364036",
+              "snippet": "year: 2022 | sales: 414832269255.0 | operating_income: 64273149352.0 | net_income: -31225946867.0 | total_assets: 731153086148.0 | total_liabilities: 354853046152.0 | total_equity: 376300039996.0 | current_assets: 302343352339.0 | current_liabilities: 189169817256.0 | capex: 51994282867 | ocf: 80429298447 | fcf: 28435015580 | interest_expense: 37125242188.0 | roe: -8.2981513547891 | operating_margin: 15.4937679914411",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3447,24 +3608,7 @@
               "matched_keywords": [
                 "영업이익률"
               ],
-              "snippet": "summary: 미코는 2024년 매출이 54% 이상 성장하며 흑자 전환에 성공했으나, 2025년에는 매출 성장률이 둔화되고 영업이익률이 하락하는 모습을 보였다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/미코/finance/미코_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "현금흐름"
-              ],
-              "snippet": "2023년 마이너스였던 ROE는 2024년 크게 개선되었으나 2025년 다시 하락했으며, 잉여현금흐름은 3년 연속 마이너스를 기록하며 투자 부담이 지속되고 있다.",
+              "snippet": "summary: 미코는 2024년 매출이 39.5% 성장하며 큰 폭의 회복세를 보였으나, 영업이익률은 17.5%로 이전 연도 대비 하락했다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3481,7 +3625,7 @@
               "matched_keywords": [
                 "수익성"
               ],
-              "snippet": "key_thesis: 2024년 ROE가 -0.56%에서 14.36%로 크게 상승하며 수익성이 개선되었다.",
+              "snippet": "key_thesis: 2024년 순이익이 765억 원으로 흑자전환에 성공하며 수익성 개선 가능성을 보여주었다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3494,12 +3638,80 @@
             {
               "source_group": "FINANCE",
               "source_file": "data/반도체/미코/finance/미코_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "수익성"
+              ],
+              "snippet": "key_thesis: 2024년 ROE가 14.4%로 상승하며 자본 대비 수익성이 개선되는 추세를 나타냈다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/미코/finance/미코_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "영업이익률"
+              ],
+              "snippet": "key_thesis: 2024년 영업이익률이 17.5%로 이전 연도 대비 하락했으나 여전히 높은 수준을 유지하고 있다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/미코/finance/미코_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "FCF"
+              ],
+              "snippet": "key_thesis: 2024년 FCF가 -890억 원으로 마이너스를 기록했으나, 2022년에는 양수(+)를 기록한 바 있다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/미코/finance/미코_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "FCF"
+              ],
+              "snippet": "key_risks: 2023년 FCF가 -70억 원으로 마이너스를 기록하며 현금 창출 능력에 대한 점검이 필요하다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/미코/finance/미코_finance_agent_packet.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
                 "영업이익률",
                 "수익성"
               ],
-              "snippet": "key_risks: 2025년 영업이익률이 17.51%에서 10.34%로 하락하며 수익성 둔화 가능성이 있다.",
+              "snippet": "report_core_points: 영업이익률: 미코 2024 기준 영업이익률 값은 17.51%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3511,64 +3723,12 @@
             },
             {
               "source_group": "FINANCE",
-              "source_file": "data/반도체/미코/finance/미코_finance.json",
+              "source_file": "data/반도체/미코/finance/미코_finance_agent_packet.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
                 "수익성"
               ],
-              "snippet": "key_risks: 2025년 ROE가 14.36%에서 10.88%로 하락하며 수익성 개선세가 주춤했다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/미코/finance/미코_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "현금흐름",
-                "FCF"
-              ],
-              "snippet": "key_risks: 2023년부터 2025년까지 잉여현금흐름(FCF)이 지속적으로 마이너스를 기록하며 투자 부담이 크다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/미코/finance/미코_finance_agent_packet.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "FCF"
-              ],
-              "snippet": "report_core_points: FCF: 미코 2025 기준 FCF 값은 -300,379,331,277원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EB%AF%B8%EC%BD%94+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/미코/finance/미코_finance_agent_packet.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "영업이익률"
-              ],
-              "snippet": "missing_prompt_metrics: 영업이익률",
+              "snippet": "report_core_points: ROE: 미코 2024 기준 ROE 값은 14.36%이며, 자기자본 대비 수익성 수준을 확인하는 지표입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3784,7 +3944,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\미코\\tech\\mico_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\미코\\tech\\mico_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-20T21:16:47",
+      "generated_at": "2026-05-25T20:22:14",
       "core_counts": {
         "total_patents": 115,
         "registered_patents_estimated": 67,
@@ -3872,8 +4032,8 @@
     "bridge_signal": "IP_QUALITY_NEUTRAL"
   },
   "formula_catalog_summary": {
-    "json": "data\\반도체\\미코\\tech\\mico_tech_formula_rules.json",
-    "md": "data\\반도체\\미코\\tech\\mico_tech_formula_rules.md",
+    "json": "C:\\Agent_6.9\\data\\반도체\\미코\\tech\\mico_tech_formula_rules.json",
+    "md": "C:\\Agent_6.9\\data\\반도체\\미코\\tech\\mico_tech_formula_rules.md",
     "rule_count": 34
   },
   "evidence_harvest_summary": {
@@ -3909,6 +4069,8 @@
     "tech_full_appendix_json": null,
     "tech_chair_summary_json": "data/반도체/미코/tech/tech_chair_summary.json",
     "tech_chair_summary_md": "data/반도체/미코/tech/mico_tech_chair_summary.md",
+    "tech_history_feature_json": "data/반도체/미코/tech/tech_history_features_2025-08-31.json",
+    "tech_history_feature_csv": "data/반도체/미코/tech/tech_history_features_2025-08-31.csv",
     "tech_json": "data/반도체/미코/tech/mico_tech.json",
     "tech_agent_packet_json": "data/반도체/미코/tech/mico_tech_agent_packet.json"
   },
@@ -4814,7 +4976,7 @@
     "field": "반도체",
     "source_csv": "data\\반도체\\미코\\tech\\mico_kipris_patents_normalized.csv",
     "enriched_csv": "data\\반도체\\미코\\tech\\mico_kipris_tech_ml_enriched.csv",
-    "generated_at": "2026-05-20T21:16:47",
+    "generated_at": "2026-05-25T20:22:14",
     "core_counts": {
       "total_patents": 115,
       "registered_patents_estimated": 67,

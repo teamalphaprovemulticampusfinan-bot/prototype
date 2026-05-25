@@ -3,6 +3,51 @@
   "company": "DB하이텍",
   "company_dir": "dbhitek",
   "opinion": "보유",
+  "tech_signal": 0.325565,
+  "history_tech_feature": {
+    "signal": 0.325565,
+    "status": "OK_TECH_HISTORY_ASOF",
+    "source": "C:\\Agent_6.9\\data\\반도체\\DB하이텍\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\DB하이텍\\tech\\quanified_metrix.csv;C:\\Agent_6.9\\data\\반도체\\DB하이텍\\tech\\tech_excel_frame_items.csv;C:\\Agent_6.9\\data\\반도체\\DB하이텍\\tech\\tech_excel_frame_metrics.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\monthly\\tech_patent_quality_monthly.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\monthly\\tech_patent_quality_monthly_v44.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\daily\\tech_patent_quality_daily.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\daily\\tech_patent_quality_daily_v44.csv",
+    "as_of_date": "2025-08-31",
+    "company": "DB하이텍",
+    "ticker": "000990.KS",
+    "stock_code": "000990",
+    "base_signal": 0.345342,
+    "evidence_confidence": 0.770896,
+    "commercialization_gate_signal": 0.237367,
+    "technology_risk_penalty": 0.0,
+    "ip_quality_signal": 0.176585,
+    "lifecycle_signal": 0.0,
+    "technology_differentiation_signal": 0.216564,
+    "commercialization_signal": 0.949468,
+    "rnd_sustainability_signal": 0.453095,
+    "peer_position_signal": -0.328571,
+    "tech_to_value_signal": 0.604912,
+    "certification_signal": 0.0,
+    "qualification_signal": 0.0,
+    "cost_yield_signal": 0.0,
+    "workforce_signal": 0.0,
+    "government_rd_signal": 0.0,
+    "licensing_signal": 0.0,
+    "dispute_risk_signal": 0.0,
+    "failure_delay_signal": 0.0,
+    "intangible_accounting_signal": 0.0,
+    "patent_records_asof": 84,
+    "dated_records_asof": 64,
+    "undated_records_used": 86,
+    "files_used": 63,
+    "notes": "Tech history signal uses dated patent/IP, TRL/readiness, certification, qualification, commercialization, R&D/workforce, risk and accounting evidence before as_of_date; no Buy/Hold/Sell threshold is applied.",
+    "frequency": "monthly",
+    "formula": "final=base_signal*evidence_confidence + 0.25*commercialization_gate_signal - 0.35*technology_risk_penalty",
+    "research_basis": [
+      "Hall-Jaffe-Trajtenberg patent citations/value; Lanjouw-Schankerman patent quality; OECD patent quality composite indicators",
+      "DoD/NASA TRL and TRA maturity framework",
+      "IFC/Bpifrance deep-tech development-stage financing framework",
+      "Text-based industry/technology relatedness literature for peer/differentiation evidence"
+    ],
+    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\DB하이텍\\tech\\tech_history_features_2025-08-31.json",
+    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\DB하이텍\\tech\\tech_history_features_2025-08-31.csv"
+  },
   "claims": [
     {
       "claim_id": "tech.cl.000",
@@ -112,56 +157,56 @@
     {
       "title": "DB하이텍 KIPRIS/특허 정량화 요약",
       "url": "",
-      "path": "data\\반도체\\DB하이텍\\tech\\source\\dbhitek_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\DB하이텍\\tech\\source\\dbhitek_kipris_plus_bibliographic_raw.csv",
       "snippet": "DB하이텍 KIPRIS/특허 정량화 요약 본 특허 근거는 KIPRIS API/CSV/엑셀/TXT 원천 파일을 정규화해 산출했다. [정량 지표] - 특허 원천 파일 수: 1개 - 정규화 특허 레코드 수: 269건 - 출원인/권리자 회사 매칭 특허 수: 0건 - 등록 특허 수: 114건 - 존속 가능 특허 수: 6건 - 최근 5년 특허 수: 21건 - IPC/CPC 기술분류 수: 37개 - H01L 반도체 IPC 특허 수: 15건 - 반도체 핵심 IPC 특허 수: 244건 - 특허-기술 키워드 매칭 수: 629회 - 특허 포트폴리오 연도 범위: 1998~2024 - KIPRIS 총 특허 수: 269.0건 - KIPRIS 등",
       "relevance_score": 30
     },
     {
       "title": "반도체 소자 및 제조방법",
       "url": "",
-      "path": "data\\반도체\\DB하이텍\\tech\\source\\dbhitek_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\DB하이텍\\tech\\source\\dbhitek_kipris_plus_bibliographic_raw.csv",
       "snippet": "반도체 소자 및 제조방법 | 주식회사 디비하이텍 | 등록 | 2021 | 출원번호 1020210179470; 등록번호 1028819050000 | IPC/CPC: H10D, H10W | 기술매칭: 기판, 반도체, 소자 | 초록: 본 발명은 반도체 소자(1) 및 제조방법에 관한 것으로, 더욱 상세하게는 제2 소자분리영역을 상부영역(예를 들어 Pre-DTI 영역) 및 하부영역(예를 들어 DTI 영역)으로 형성함으로써 상기 제2 소자분리영역의 저부가 기판(101) 내 깊게 형성되어 인접한 소자 간 노이즈 발생 방지 및 아이솔레이션 특성 향상을 도모하도록 하는 반도체 소자(1) 및 제조방법에 관한 것이다.",
       "relevance_score": 58.0
     },
     {
       "title": "알에프 스위치 소자",
       "url": "",
-      "path": "data\\반도체\\DB하이텍\\tech\\source\\dbhitek_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\DB하이텍\\tech\\source\\dbhitek_kipris_plus_bibliographic_raw.csv",
       "snippet": "알에프 스위치 소자 | 주식회사 디비하이텍 | 등록 | 2022 | 출원번호 1020220047299; 등록번호 1029606910000 | IPC/CPC: H10D, H03K | 기술매칭: 기판, 소자 | 초록: 본 발명은 P 다이오드를 일체로 형성하여 온 저항(Ron) 특성을 개선하도록 한 알에프 스위치 소자 및 이의 제조 방법을 제시한다. 제시된 알에프 스위치 소자는 제1 기판 상에 배치되고, 제1 기재로 형성된 제1 액티브 영역, 제1 기판 상에서 제1 액티브 영역과 이격되도록 배치되고, 제2 기재로 형성된 제2 액티브 영역 및 제1 액티브 영역의 상부 및 제2 액티브 영역의 상부에 배치된 게이",
       "relevance_score": 55.0
     },
     {
       "title": "반도체 소자 및 제조방법",
       "url": "",
-      "path": "data\\반도체\\DB하이텍\\tech\\source\\dbhitek_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\DB하이텍\\tech\\source\\dbhitek_kipris_plus_bibliographic_raw.csv",
       "snippet": "반도체 소자 및 제조방법 | 주식회사 디비하이텍 | 등록 | 2022 | 출원번호 1020220048639; 등록번호 1029628710000 | IPC/CPC: H10D | 기술매칭: 반도체, 소자 | 초록: 본 발명은 고전압 반도체 소자(1)에 관한 것으로, 더욱 상세하게는 게이트 영역(150)의 측벽인 게이트 스페이서(155) 외측면 적어도 일부에 경사보정 구조물(180)을 추가로 형성함으로써 필드 플레이트(172) 코너 부분에서의 전계 집중을 방지하여 소자의 신뢰성 향상을 도모하도록 하는 반도체 소자(1)에 관한 것이다.",
       "relevance_score": 53.5
     },
     {
       "title": "고전압 반도체 소자 및 제조방법",
       "url": "",
-      "path": "data\\반도체\\DB하이텍\\tech\\source\\dbhitek_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\DB하이텍\\tech\\source\\dbhitek_kipris_plus_bibliographic_raw.csv",
       "snippet": "고전압 반도체 소자 및 제조방법 | 주식회사 디비하이텍 | 공개 | 2023 | 출원번호 1020230068165 | IPC/CPC: H10D, H10W, H10P | 기술매칭: 공정, 기판, 반도체, 소자 | 초록: 본 발명은 고전압 반도체 소자 및 제조방법에 관한 것으로, 더욱 상세하게는 DTI 영역의 상측부에 측 방향 폭이 상대적으로 넓은 와이드(Wide) 영역을 형성함으로써, 상기 DTI 영역 내 형성되는 에어갭(Air-Gap) 또는 보이드(Void)의 상단부가 상대적으로 기판 내 깊은 위치에 형성되도록 하여, 후속 공정에서 상기 에어갭의 외부 노출 방지 및 그에 따른 DTI 영역 상측에 예를 들어",
       "relevance_score": 52.5
     },
     {
       "title": "다마신 배선을 갖는 반도체 소자의 층간 절연막 제조 방법",
       "url": "",
-      "path": "data\\반도체\\DB하이텍\\tech\\source\\dbhitek_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\DB하이텍\\tech\\source\\dbhitek_kipris_plus_bibliographic_raw.csv",
       "snippet": "다마신 배선을 갖는 반도체 소자의 층간 절연막 제조 방법 | 주식회사 디비하이텍 | 소멸 | 2007 | 출원번호 1020070139657; 등록번호 1009199990000 | IPC/CPC: H10W, H10P | 기술매칭: CVD, 수율, 기판, 반도체, 소자 | 초록: 본 발명은, 다마신 배선을 갖는 반도체 소자의 층간 절연막 제조 방법에 관한 것으로, 이를 위하여, 본 발명은, 반도체 기판에 있는 플라즈마 인헨스드 화학기상증착(PECVD) 방식의 제 1 층간 절연막의 트렌치에 다마신 배선을 형성하고, 다마신 배선 사이의 제 1 층간 절연막을 일정 깊이만큼 식각하여 트렌치를 형성하며, 트렌치와 다마신 배선의 상부",
       "relevance_score": 51.0
     },
     {
       "title": "소자 분리막 구조물의 제조방법",
       "url": "",
-      "path": "data\\반도체\\DB하이텍\\tech\\source\\dbhitek_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\DB하이텍\\tech\\source\\dbhitek_kipris_plus_bibliographic_raw.csv",
       "snippet": "소자 분리막 구조물의 제조방법 | 주식회사 디비하이텍 | 등록 | 2018 | 출원번호 1020180003123; 등록번호 1025986730000 | IPC/CPC: H10W, H10P | 기술매칭: 기판, 소자 | 초록: 소자 분리막 구조물은, 상호 연통되고 경사진 측벽을 갖는 상부 트렌치 및 하부 트렌치를 갖는 기판, 상기 상부 트렌치 및 하부 트렌치를 따라 전체적으로 균일한 두께를 갖도록 컨포멀(conformal)하게 형성된 제1 라이너 막, 상기 하부 트렌치의 측벽 및 바닥 상에 형성된 상기 제1 라이너막의 하부 상에 선택적으로 구비되며, 균일한 두께를 갖도록 형성되어 상기 하부 트렌치의 하부 코너에서",
       "relevance_score": 51.0
     },
     {
       "title": "반도체 소자 형성 방법, ILD라이너 형성 방법",
       "url": "",
-      "path": "data\\반도체\\DB하이텍\\tech\\source\\dbhitek_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\DB하이텍\\tech\\source\\dbhitek_kipris_plus_bibliographic_raw.csv",
       "snippet": "반도체 소자 형성 방법, ILD라이너 형성 방법 | 주식회사 디비하이텍 | 소멸 | 2008 | 출원번호 1020080091387; 등록번호 1010171930000 | IPC/CPC: H10W, H10P | 기술매칭: CVD, 공정, 기판, 반도체, 소자 | 초록: 본 발명은 층간 절연막으로 사용되는 BPSG(Boro-phospho-Silicate Glass), PSG(phospho-Silicate Glass)막의 P 또는 B 가 하부의 소자 영역에 침투되는 것을 방지할 수 있는 반도체 소자 형성 방법에 관한 것으로 반도체 기판 상에 소자 영역이 형성되는 단계; 상기 소자 영역의 상부에 ILD 라이너 공정을 수행하여 ",
       "relevance_score": 51.0
     }
@@ -377,7 +422,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\DB하이텍\\tech\\dbhitek_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\DB하이텍\\tech\\dbhitek_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-20T21:04:10",
+      "generated_at": "2026-05-25T20:15:33",
       "core_counts": {
         "total_patents": 269,
         "registered_patents_estimated": 114,
@@ -471,7 +516,7 @@
   "tech_chair_summary": {
     "agent": "tech",
     "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-    "created_at": "2026-05-20T21:16:23",
+    "created_at": "2026-05-25T20:18:02",
     "field": "반도체",
     "company": "DB하이텍",
     "company_name": "DB하이텍",
@@ -503,17 +548,17 @@
       "ip_evidence_composite_bridge_signal": "IP_EVIDENCE_WEAK",
       "ip_evidence_composite_adjustment_points": -1.0,
       "ip_evidence_composite_data_coverage_rate": 1.0,
-      "ip_evidence_composite_source_file": "data/반도체/DB하이텍/tech/tech_ip_evidence_composite.json",
+      "ip_evidence_composite_source_file": "C:/Agent_6.9/data/반도체/DB하이텍/tech/tech_ip_evidence_composite.json",
       "peer_adjusted_bridge_score_before_ip_evidence": 33.5,
       "final_bridge_score_after_ip_evidence": 32.5,
       "ip_evidence_adjusted_score": 32.5,
       "ip_evidence_formula": "final_bridge_score_after_ip_evidence = peer_adjusted_bridge_score_before_ip_evidence + ip_evidence_composite_adjustment_points",
       "ip_evidence_adjusted_grade": "TECH_EVIDENCE_WEAK",
-      "investor_final_tech_score": 65.93,
+      "investor_final_tech_score": 74.93,
       "investor_final_tech_grade": {
-        "code": "COMMERCIALIZATION_WATCH",
-        "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
-        "threshold": 52.0
+        "code": "TECH_TO_VALUE_READY",
+        "label": "기술의 가치전환 준비도는 높지만 일부 고객·매출·마진 근거는 추가 확인 필요",
+        "threshold": 68.0
       },
       "value_evidence_score": 77.76,
       "value_evidence_label": "VALUE_EVIDENCE_STRONG"
@@ -577,14 +622,14 @@
       }
     ],
     "ip_quant_signals": {
-      "normalized_patent_text_records": 4867,
-      "company_matched_patents": 2694,
+      "normalized_patent_text_records": 6427,
+      "company_matched_patents": 4254,
       "registered_patents": 82,
-      "alive_patents": 498,
-      "recent_5y_patents": 21,
+      "alive_patents": 2058,
+      "recent_5y_patents": 1560,
       "ipc_cpc_classes": 11,
       "core_ipc_h01l_patents": null,
-      "keyword_matches": 3087
+      "keyword_matches": 12447
     },
     "selected_ml": {
       "peer_ml": {
@@ -594,9 +639,9 @@
         "cluster_name": null
       },
       "tech_ip_strength": {
-        "score": 44.82,
+        "score": 58.14,
         "percentile": 50.0,
-        "patent_momentum_score": 0.58,
+        "patent_momentum_score": 52.5,
         "dominant_topic": null
       },
       "technology_differentiation": {
@@ -941,14 +986,14 @@
       "ip_evidence_bridge_signal": "IP_EVIDENCE_WEAK",
       "ip_evidence_bridge_adjustment_points": -1.0,
       "final_bridge_score_after_ip_evidence": 32.5,
-      "investor_final_tech_score": 65.93,
+      "investor_final_tech_score": 74.93,
       "investor_final_tech_grade": {
-        "code": "COMMERCIALIZATION_WATCH",
-        "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
-        "threshold": 52.0
+        "code": "TECH_TO_VALUE_READY",
+        "label": "기술의 가치전환 준비도는 높지만 일부 고객·매출·마진 근거는 추가 확인 필요",
+        "threshold": 68.0
       },
       "investor_evidence_count": 9,
-      "excel_quantified_evidence_score": 45.0,
+      "excel_quantified_evidence_score": 90.0,
       "commercialization_and_funding_signal_score": 55.5
     },
     "ip_legal_features": {
@@ -1403,7 +1448,7 @@
       "company_name": "DB하이텍",
       "field": "반도체",
       "status": "OK",
-      "created_at": "2026-05-20T21:15:54",
+      "created_at": "2026-05-25T20:15:35",
       "weights": {
         "legal_stability": 0.25,
         "claim_defense": 0.3,
@@ -1499,17 +1544,17 @@
       "tech_full_appendix_json": ""
     },
     "ip_evidence_bridge_adjustment_status": "APPLIED",
-    "ip_evidence_bridge_adjustment_applied_at": "2026-05-20T21:16:24",
+    "ip_evidence_bridge_adjustment_applied_at": "2026-05-25T20:18:06",
     "tech_investor_view": {
       "version": "tech-investor-scorecard-v2",
-      "generated_at": "2026-05-20T21:16:40",
+      "generated_at": "2026-05-25T20:19:29",
       "company_slug": "dbhitek",
       "company_name": "DB하이텍",
-      "final_tech_investor_score": 65.93,
+      "final_tech_investor_score": 74.93,
       "final_tech_investor_grade": {
-        "code": "COMMERCIALIZATION_WATCH",
-        "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
-        "threshold": 52.0
+        "code": "TECH_TO_VALUE_READY",
+        "label": "기술의 가치전환 준비도는 높지만 일부 고객·매출·마진 근거는 추가 확인 필요",
+        "threshold": 68.0
       },
       "score_policy": {
         "description": "개인투자자용 최종 Tech 점수는 기술-사업화 연결 가능성, IP 품질, Excel/DART 정량 근거, 근거 신뢰도, 딥테크 성장투자 지속성을 하나로 합성한다.",
@@ -1669,33 +1714,33 @@
         },
         "excel_quantified_evidence": {
           "label": "Excel 기반 정량 근거",
-          "score": 45.0,
+          "score": 90.0,
           "weight": 0.15,
           "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지",
           "meta": {
-            "score": 45.0,
-            "company_item_count": 8,
-            "filled_count": 0,
+            "score": 90.0,
+            "company_item_count": 22,
+            "filled_count": 22,
             "metric_row_count": 0,
-            "numeric_signal_count": 0,
-            "category_count": 7,
+            "numeric_signal_count": 145,
+            "category_count": 8,
             "unique_metric_count": 0,
             "formula_rule_count": 0,
-            "coverage_ratio": 0.0,
-            "numeric_density": 0.0
+            "coverage_ratio": 1.0,
+            "numeric_density": 6.5909
           }
         },
         "evidence_confidence": {
           "label": "근거 직접성·충분성",
-          "score": 60.93,
+          "score": 75.93,
           "weight": 0.15,
           "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성",
           "meta": {
-            "score": 60.93,
+            "score": 75.93,
             "evidence_count": 5,
             "claim_count": 3,
             "patent_count": 269,
-            "excel_coverage_ratio": 0.0
+            "excel_coverage_ratio": 1.0
           }
         },
         "commercialization_and_funding_signal": {
@@ -1744,17 +1789,17 @@
         {
           "component": "excel_quantified_evidence",
           "label": "Excel 기반 정량 근거",
-          "score": 45.0,
+          "score": 90.0,
           "weight": 0.15,
-          "weighted_score": 6.75,
+          "weighted_score": 13.5,
           "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지"
         },
         {
           "component": "evidence_confidence",
           "label": "근거 직접성·충분성",
-          "score": 60.93,
+          "score": 75.93,
           "weight": 0.15,
-          "weighted_score": 9.1395,
+          "weighted_score": 11.3895,
           "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성"
         },
         {
@@ -1767,8 +1812,8 @@
         }
       ],
       "key_takeaways": [
-        "DB하이텍의 개인투자자용 Tech 최종 점수는 65.93/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
-        "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(92.86)와 IP Evidence(36.71) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+        "DB하이텍의 개인투자자용 Tech 최종 점수는 74.93/100이며, 판정은 기술의 가치전환 준비도는 높지만 일부 고객·매출·마진 근거는 추가 확인 필요입니다.",
+        "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(92.86)와 IP Evidence(36.71) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
         "투자자가 확인할 핵심 근거는 9개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
       ],
       "investor_evidence": [
@@ -1835,7 +1880,7 @@
         {
           "source": "tech_summary",
           "title": "Tech Agent 핵심 해석",
-          "detail": "DB하이텍의 개인투자자용 Tech 최종 점수는 64.53/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
+          "detail": "DB하이텍의 개인투자자용 Tech 최종 점수는 73.53/100이며, 판정은 기술의 가치전환 준비도는 높지만 일부 고객·매출·마진 근거는 추가 확인 필요입니다.",
           "value": null,
           "unit": null,
           "path": null,
@@ -1845,7 +1890,7 @@
         {
           "source": "tech_summary",
           "title": "Tech Agent 핵심 해석",
-          "detail": "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(92.86)와 IP Evidence(36.71) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+          "detail": "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(92.86)와 IP Evidence(36.71) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
           "value": null,
           "unit": null,
           "path": null,
@@ -1885,22 +1930,22 @@
       }
     },
     "key_takeaways": [
-      "DB하이텍의 개인투자자용 Tech 최종 점수는 65.93/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
-      "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(92.86)와 IP Evidence(36.71) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+      "DB하이텍의 개인투자자용 Tech 최종 점수는 74.93/100이며, 판정은 기술의 가치전환 준비도는 높지만 일부 고객·매출·마진 근거는 추가 확인 필요입니다.",
+      "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(92.86)와 IP Evidence(36.71) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
       "투자자가 확인할 핵심 근거는 9개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다.",
-      "DB하이텍의 개인투자자용 Tech 최종 점수는 64.53/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
+      "DB하이텍의 개인투자자용 Tech 최종 점수는 73.53/100이며, 판정은 기술의 가치전환 준비도는 높지만 일부 고객·매출·마진 근거는 추가 확인 필요입니다.",
       "투자자가 확인할 핵심 근거는 6개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
     ],
     "value_evidence_bridge": {
       "agent": "tech_intake",
       "artifact": "tech_intake_value_evidence_bridge",
       "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-      "created_at": "2026-05-20T21:16:37",
+      "created_at": "2026-05-25T20:19:26",
       "field": "반도체",
       "company": "DB하이텍",
       "company_dir": "dbhitek",
       "company_slug": "dbhitek",
-      "source_document_count": 132,
+      "source_document_count": 151,
       "source_documents": [
         {
           "source_group": "KIPRIS",
@@ -2294,6 +2339,18 @@
         },
         {
           "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/DB하이텍/tech/tech_history_features_2025-08-31.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/DB하이텍/tech/tech_history_features_2025-08-31.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/DB하이텍/tech/tech_intake_manifest.json",
           "detected_url_count": 0,
           "fallback_url_count": 2
@@ -2552,6 +2609,120 @@
         },
         {
           "source_group": "VALUATION",
+          "source_file": "data/반도체/DB하이텍/valuation/intake/company_profile.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/DB하이텍/valuation/intake/cross_agent_signals_for_valuation.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/DB하이텍/valuation/intake/dcf_inputs.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/DB하이텍/valuation/intake/dilution_events.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/DB하이텍/valuation/intake/eval_price_history.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/DB하이텍/valuation/intake/eval_price_history_monthly.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/DB하이텍/valuation/intake/eval_price_history_monthly_v43.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/DB하이텍/valuation/intake/eval_price_history_monthly_v44.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/DB하이텍/valuation/intake/eval_price_history_monthly_v45.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/DB하이텍/valuation/intake/eval_price_history_v43.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/DB하이텍/valuation/intake/eval_price_history_v44.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/DB하이텍/valuation/intake/eval_price_history_v45.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/DB하이텍/valuation/intake/financials_normalized.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/DB하이텍/valuation/intake/financials_raw.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/DB하이텍/valuation/intake/peer_multiples.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/DB하이텍/valuation/intake/price_history.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/DB하이텍/valuation/intake/relative_valuation_inputs.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/DB하이텍/valuation/intake/shares_outstanding.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/DB하이텍/valuation/intake/valuation_assumptions.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
           "source_file": "data/반도체/DB하이텍/valuation/intake/valuation_assumptions.json",
           "detected_url_count": 0,
           "fallback_url_count": 5
@@ -2660,19 +2831,7 @@
         },
         {
           "source_group": "FINANCE",
-          "source_file": "data/반도체/DB하이텍/finance/DB하이텍_stock.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "FINANCE",
           "source_file": "data/반도체/DB하이텍/finance/DB하이텍_재무.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/DB하이텍/finance/DB하이텍_재무데이터.csv",
           "detected_url_count": 0,
           "fallback_url_count": 5
         },
@@ -2819,12 +2978,13 @@
             "https://plus.kipris.or.kr/",
             "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+KIPRIS+%ED%8A%B9%ED%97%88",
             "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
-            "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
-            "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
             "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
             "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
             "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+IR",
             "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+            "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
+            "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
+            "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
             "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1126"
           ],
           "fallback_urls": [
@@ -2848,12 +3008,12 @@
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9362e815cb512ea72b959f625e970fd32597c34962abe5fa5ae5f7904271afe4d6d597f6e5f6e52210d6f0cf015093ad1d82204fa30f1d60e0",
             "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+KIPRIS+%ED%8A%B9%ED%97%88",
             "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
-            "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
-            "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
             "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
             "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
             "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+IR",
             "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+            "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
+            "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
             "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
             "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9328f5a912c888a1604ff579e87f821b091a0665246f3173a6cae241fd42c7005fb584f7181202ddb2669153aa54387f5f558cf6b7b6d352be",
@@ -3235,82 +3395,45 @@
               "source_file": "data/반도체/DB하이텍/finance/DB하이텍_finance.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
+                "매출",
+                "성장"
+              ],
+              "snippet": "summary: DB하이텍은 2022년 높은 매출 성장률을 기록했으나, 2023년과 2024년에는 매출이 감소하며 영업이익률 및 ROE 또한 하락하는 추세를 보였다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/DB하이텍/finance/DB하이텍_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "매출",
+                "성장"
+              ],
+              "snippet": "key_thesis: 2022년 37.9%의 높은 매출 성장률을 기록했으나, 2023년 -31.1%, 2024년 -1.99%로 매출 감소세가 나타났다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/DB하이텍/finance/DB하이텍_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
                 "매출"
               ],
-              "snippet": "summary: DB하이텍은 2023년 견조한 매출과 영업이익을 기록했으나, 2024년에는 매출과 영업이익이 소폭 감소할 것으로 전망된다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/DB하이텍/finance/DB하이텍_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "매출",
-                "성장"
-              ],
-              "snippet": "2025년에는 매출과 영업이익이 다시 성장세로 전환될 것으로 예상되나, 부채비율이 상승하는 점은 유의해야 한다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/DB하이텍/finance/DB하이텍_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "매출",
-                "매출액"
-              ],
-              "snippet": "key_thesis: 2023년 매출액 1조 1,542억원, 영업이익 2,654억원을 기록하며 견조한 실적을 달성했다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/DB하이텍/finance/DB하이텍_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "매출",
-                "매출액",
-                "성장"
-              ],
-              "snippet": "key_thesis: 2025년 매출액은 1조 3,972억원, 영업이익은 2,772억원으로 성장 전환이 예상된다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/DB하이텍/finance/DB하이텍_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "매출",
-                "매출액"
-              ],
-              "snippet": "key_risks: 2024년 매출액 1조 1,311억원, 영업이익 1,908억원으로 전년 대비 감소가 예상된다.",
+              "snippet": "key_risks: 2023년 및 2024년 매출 감소세와 영업이익률 및 ROE 하락은 수익성 둔화 가능성을 시사한다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3346,7 +3469,7 @@
                 "매출",
                 "성장"
               ],
-              "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수",
+              "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3363,7 +3486,41 @@
               "matched_keywords": [
                 "sales"
               ],
-              "snippet": "sales: 1397233307039.0",
+              "snippet": "sales: 1131167709804.0",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/DB하이텍/finance/DB하이텍_finance_agent_packet.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "sales"
+              ],
+              "snippet": "sales_growth: -1.9975270266664904",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/DB하이텍/finance/DB하이텍_재무.csv",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "sales"
+              ],
+              "snippet": "year: 2021 | sales: 1214682040178.0 | operating_income: 399106778303.0 | net_income: 316891852008.0 | total_assets: 1549937895854.0 | total_liabilities: 443888189808.0 | total_equity: 1106049706046.0 | current_assets: 815161899425.0 | current_liabilities: 335336853432.0 | capex: 137646449594 | ocf: 869520892333 | fcf: 731874442739 | interest_expense: 6281633675.0 | roe: 28.650778556856345 | operating_margin: 32.85689",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3392,10 +3549,61 @@
               "source_file": "data/반도체/DB하이텍/finance/DB하이텍_finance.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
+                "영업이익률"
+              ],
+              "snippet": "summary: DB하이텍은 2022년 높은 매출 성장률을 기록했으나, 2023년과 2024년에는 매출이 감소하며 영업이익률 및 ROE 또한 하락하는 추세를 보였다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/DB하이텍/finance/DB하이텍_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "현금흐름"
+              ],
+              "snippet": "2023년에는 자유현금흐름이 마이너스로 전환되었으나, 2024년에는 다시 양(+)의 값으로 회복되었다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/DB하이텍/finance/DB하이텍_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "영업이익률"
+              ],
+              "snippet": "key_thesis: 영업이익률은 2022년 45.9%에서 2023년 23.0%, 2024년 16.9%로 하락하는 추세를 보였다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/DB하이텍/finance/DB하이텍_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
                 "현금흐름",
                 "FCF"
               ],
-              "snippet": "key_thesis: 2024년 FCF(잉여현금흐름)는 2,491억원으로 양수 전환되며 현금 창출 능력이 개선될 전망이다.",
+              "snippet": "key_thesis: 2023년 자유현금흐름(FCF)은 -1,113억 원으로 마이너스를 기록했으나, 2024년에는 2,491억 원으로 회복되었다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3413,7 +3621,7 @@
                 "영업이익률",
                 "수익성"
               ],
-              "snippet": "key_thesis: 2023년 영업이익률 22.99%, ROE 15.18%를 기록하며 높은 수익성을 보였다.",
+              "snippet": "key_risks: 2023년 및 2024년 매출 감소세와 영업이익률 및 ROE 하락은 수익성 둔화 가능성을 시사한다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3425,12 +3633,13 @@
             },
             {
               "source_group": "FINANCE",
-              "source_file": "data/반도체/DB하이텍/finance/DB하이텍_finance_agent_packet.json",
+              "source_file": "data/반도체/DB하이텍/finance/DB하이텍_finance.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
+                "현금흐름",
                 "FCF"
               ],
-              "snippet": "report_core_points: FCF: DB하이텍 2025 기준 FCF 값은 202,673,281,799원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+              "snippet": "key_risks: 2023년 자유현금흐름(FCF) 마이너스 전환은 투자 및 운영 자금 확보에 대한 부담을 나타낼 수 있다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3445,9 +3654,10 @@
               "source_file": "data/반도체/DB하이텍/finance/DB하이텍_finance_agent_packet.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
-                "영업이익률"
+                "영업이익률",
+                "수익성"
               ],
-              "snippet": "missing_prompt_metrics: 영업이익률",
+              "snippet": "report_core_points: 영업이익률: DB하이텍 2024 기준 영업이익률 값은 16.87%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3462,60 +3672,9 @@
               "source_file": "data/반도체/DB하이텍/finance/DB하이텍_finance_agent_packet.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
-                "FCF"
+                "수익성"
               ],
-              "snippet": "metric: fcf",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/DB하이텍/finance/DB하이텍_finance_agent_packet.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "FCF"
-              ],
-              "snippet": "label: FCF",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/DB하이텍/finance/DB하이텍_finance_agent_packet.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "FCF"
-              ],
-              "snippet": "snippet: DB하이텍 2025 기준 FCF 값은 202,673,281,799원입니다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/DB하이텍/finance/DB하이텍_finance_agent_packet.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "FCF"
-              ],
-              "snippet": "text: DB하이텍 2025 기준 FCF 값은 202,673,281,799원입니다.",
+              "snippet": "report_core_points: ROE: DB하이텍 2024 기준 ROE 값은 11.47%이며, 자기자본 대비 수익성 수준을 확인하는 지표입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3731,7 +3890,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\DB하이텍\\tech\\dbhitek_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\DB하이텍\\tech\\dbhitek_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-20T21:04:10",
+      "generated_at": "2026-05-25T20:15:33",
       "core_counts": {
         "total_patents": 269,
         "registered_patents_estimated": 114,
@@ -3819,8 +3978,8 @@
     "bridge_signal": "IP_QUALITY_WEAK"
   },
   "formula_catalog_summary": {
-    "json": "data\\반도체\\DB하이텍\\tech\\dbhitek_tech_formula_rules.json",
-    "md": "data\\반도체\\DB하이텍\\tech\\dbhitek_tech_formula_rules.md",
+    "json": "C:\\Agent_6.9\\data\\반도체\\DB하이텍\\tech\\dbhitek_tech_formula_rules.json",
+    "md": "C:\\Agent_6.9\\data\\반도체\\DB하이텍\\tech\\dbhitek_tech_formula_rules.md",
     "rule_count": 34
   },
   "evidence_harvest_summary": {
@@ -3857,6 +4016,8 @@
     "tech_full_appendix_json": null,
     "tech_chair_summary_json": "data/반도체/DB하이텍/tech/tech_chair_summary.json",
     "tech_chair_summary_md": "data/반도체/DB하이텍/tech/dbhitek_tech_chair_summary.md",
+    "tech_history_feature_json": "data/반도체/DB하이텍/tech/tech_history_features_2025-08-31.json",
+    "tech_history_feature_csv": "data/반도체/DB하이텍/tech/tech_history_features_2025-08-31.csv",
     "tech_json": "data/반도체/DB하이텍/tech/dbhitek_tech.json",
     "tech_agent_packet_json": "data/반도체/DB하이텍/tech/dbhitek_tech_agent_packet.json"
   },
@@ -4697,7 +4858,7 @@
     "field": "반도체",
     "source_csv": "data\\반도체\\DB하이텍\\tech\\dbhitek_kipris_patents_normalized.csv",
     "enriched_csv": "data\\반도체\\DB하이텍\\tech\\dbhitek_kipris_tech_ml_enriched.csv",
-    "generated_at": "2026-05-20T21:04:10",
+    "generated_at": "2026-05-25T20:15:33",
     "core_counts": {
       "total_patents": 269,
       "registered_patents_estimated": 114,

@@ -1,7 +1,7 @@
 {
   "agent": "tech",
   "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-  "created_at": "2026-05-20T21:44:01",
+  "created_at": "2026-05-25T21:21:39",
   "field": "반도체",
   "company": "유진테크",
   "company_name": "유진테크",
@@ -33,17 +33,17 @@
     "ip_evidence_composite_bridge_signal": "IP_EVIDENCE_NEUTRAL",
     "ip_evidence_composite_adjustment_points": 0.0,
     "ip_evidence_composite_data_coverage_rate": 1.0,
-    "ip_evidence_composite_source_file": "data/반도체/유진테크/tech/tech_ip_evidence_composite.json",
+    "ip_evidence_composite_source_file": "C:/Agent_6.9/data/반도체/유진테크/tech/tech_ip_evidence_composite.json",
     "peer_adjusted_bridge_score_before_ip_evidence": 39.0,
     "final_bridge_score_after_ip_evidence": 39.0,
     "ip_evidence_adjusted_score": 39.0,
     "ip_evidence_formula": "final_bridge_score_after_ip_evidence = peer_adjusted_bridge_score_before_ip_evidence + ip_evidence_composite_adjustment_points",
     "ip_evidence_adjusted_grade": "TECH_EVIDENCE_WEAK",
-    "investor_final_tech_score": 44.66,
+    "investor_final_tech_score": 55.06,
     "investor_final_tech_grade": {
-      "code": "EVIDENCE_WEAK_OR_EARLY",
-      "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
-      "threshold": 0.0
+      "code": "COMMERCIALIZATION_WATCH",
+      "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+      "threshold": 52.0
     },
     "value_evidence_score": 80.5,
     "value_evidence_label": "VALUE_EVIDENCE_STRONG"
@@ -107,14 +107,14 @@
     }
   ],
   "ip_quant_signals": {
-    "normalized_patent_text_records": 421,
-    "company_matched_patents": 255,
+    "normalized_patent_text_records": 1981,
+    "company_matched_patents": 1815,
     "registered_patents": 110,
-    "alive_patents": 243,
-    "recent_5y_patents": 11,
+    "alive_patents": 1803,
+    "recent_5y_patents": 1560,
     "ipc_cpc_classes": null,
     "core_ipc_h01l_patents": null,
-    "keyword_matches": 7
+    "keyword_matches": 9367
   },
   "selected_ml": {
     "peer_ml": {
@@ -124,9 +124,9 @@
       "cluster_name": null
     },
     "tech_ip_strength": {
-      "score": 30.75,
+      "score": 57.68,
       "percentile": 50.0,
-      "patent_momentum_score": 3.24,
+      "patent_momentum_score": 89.46,
       "dominant_topic": null
     },
     "technology_differentiation": {
@@ -365,15 +365,15 @@
     "ip_evidence_bridge_signal": "IP_EVIDENCE_NEUTRAL",
     "ip_evidence_bridge_adjustment_points": 0.0,
     "final_bridge_score_after_ip_evidence": 39.0,
-    "investor_final_tech_score": 44.66,
+    "investor_final_tech_score": 55.06,
     "investor_final_tech_grade": {
-      "code": "EVIDENCE_WEAK_OR_EARLY",
-      "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
-      "threshold": 0.0
+      "code": "COMMERCIALIZATION_WATCH",
+      "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+      "threshold": 52.0
     },
     "investor_evidence_count": 9,
-    "excel_quantified_evidence_score": 45.0,
-    "commercialization_and_funding_signal_score": 49.5
+    "excel_quantified_evidence_score": 90.0,
+    "commercialization_and_funding_signal_score": 63.5
   },
   "ip_legal_features": {
     "total_patents": 21,
@@ -721,7 +721,7 @@
     "company_name": "유진테크",
     "field": "반도체",
     "status": "OK",
-    "created_at": "2026-05-20T21:43:33",
+    "created_at": "2026-05-25T21:19:19",
     "weights": {
       "legal_stability": 0.25,
       "claim_defense": 0.3,
@@ -817,17 +817,17 @@
     "tech_full_appendix_json": ""
   },
   "ip_evidence_bridge_adjustment_status": "APPLIED",
-  "ip_evidence_bridge_adjustment_applied_at": "2026-05-20T21:44:02",
+  "ip_evidence_bridge_adjustment_applied_at": "2026-05-25T21:22:00",
   "tech_investor_view": {
     "version": "tech-investor-scorecard-v2",
-    "generated_at": "2026-05-20T21:44:10",
+    "generated_at": "2026-05-25T21:22:50",
     "company_slug": "eugene_tech",
     "company_name": "유진테크",
-    "final_tech_investor_score": 44.66,
+    "final_tech_investor_score": 55.06,
     "final_tech_investor_grade": {
-      "code": "EVIDENCE_WEAK_OR_EARLY",
-      "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
-      "threshold": 0.0
+      "code": "COMMERCIALIZATION_WATCH",
+      "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+      "threshold": 52.0
     },
     "score_policy": {
       "description": "개인투자자용 최종 Tech 점수는 기술-사업화 연결 가능성, IP 품질, Excel/DART 정량 근거, 근거 신뢰도, 딥테크 성장투자 지속성을 하나로 합성한다.",
@@ -987,53 +987,54 @@
       },
       "excel_quantified_evidence": {
         "label": "Excel 기반 정량 근거",
-        "score": 45.0,
+        "score": 90.0,
         "weight": 0.15,
         "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지",
         "meta": {
-          "score": 45.0,
-          "company_item_count": 8,
-          "filled_count": 0,
+          "score": 90.0,
+          "company_item_count": 22,
+          "filled_count": 22,
           "metric_row_count": 0,
-          "numeric_signal_count": 0,
-          "category_count": 7,
+          "numeric_signal_count": 121,
+          "category_count": 8,
           "unique_metric_count": 0,
           "formula_rule_count": 0,
-          "coverage_ratio": 0.0,
-          "numeric_density": 0.0
+          "coverage_ratio": 1.0,
+          "numeric_density": 5.5
         }
       },
       "evidence_confidence": {
         "label": "근거 직접성·충분성",
-        "score": 42.4,
+        "score": 57.4,
         "weight": 0.15,
         "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성",
         "meta": {
-          "score": 42.4,
+          "score": 57.4,
           "evidence_count": 3,
           "claim_count": 3,
           "patent_count": 21,
-          "excel_coverage_ratio": 0.0
+          "excel_coverage_ratio": 1.0
         }
       },
       "commercialization_and_funding_signal": {
         "label": "사업화·성장자금 지속성",
-        "score": 49.5,
+        "score": 63.5,
         "weight": 0.1,
         "meaning": "R&D·특허·정부과제·기술이전·CAPEX/희석성 자금조달이 사업화와 연결되는 정도",
         "meta": {
-          "score": 49.5,
-          "detected_signal_groups": [],
+          "score": 63.5,
+          "detected_signal_groups": [
+            "commercial"
+          ],
           "detected_flags": {
             "rd": false,
-            "commercial": false,
+            "commercial": true,
             "government": false,
             "transfer": false,
             "funding": false
           },
           "recent_5y_patents": null,
           "warnings": [
-            "customer_mass_production_revenue_signal_limited",
             "rd_or_recent_patent_continuity_limited",
             "capital_raising_signal_not_explicitly_detected"
           ],
@@ -1061,31 +1062,31 @@
       {
         "component": "excel_quantified_evidence",
         "label": "Excel 기반 정량 근거",
-        "score": 45.0,
+        "score": 90.0,
         "weight": 0.15,
-        "weighted_score": 6.75,
+        "weighted_score": 13.5,
         "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지"
       },
       {
         "component": "evidence_confidence",
         "label": "근거 직접성·충분성",
-        "score": 42.4,
+        "score": 57.4,
         "weight": 0.15,
-        "weighted_score": 6.36,
+        "weighted_score": 8.61,
         "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성"
       },
       {
         "component": "commercialization_and_funding_signal",
         "label": "사업화·성장자금 지속성",
-        "score": 49.5,
+        "score": 63.5,
         "weight": 0.1,
-        "weighted_score": 4.95,
+        "weighted_score": 6.35,
         "meaning": "R&D·특허·정부과제·기술이전·CAPEX/희석성 자금조달이 사업화와 연결되는 정도"
       }
     ],
     "key_takeaways": [
-      "유진테크의 개인투자자용 Tech 최종 점수는 44.66/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
-      "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(55.01) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+      "유진테크의 개인투자자용 Tech 최종 점수는 55.06/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
+      "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(55.01) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
       "투자자가 확인할 핵심 근거는 9개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
     ],
     "investor_evidence": [
@@ -1152,7 +1153,7 @@
       {
         "source": "tech_summary",
         "title": "Tech Agent 핵심 해석",
-        "detail": "유진테크의 개인투자자용 Tech 최종 점수는 44.66/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
+        "detail": "유진테크의 개인투자자용 Tech 최종 점수는 53.66/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
         "value": null,
         "unit": null,
         "path": null,
@@ -1162,7 +1163,7 @@
       {
         "source": "tech_summary",
         "title": "Tech Agent 핵심 해석",
-        "detail": "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(55.01) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+        "detail": "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(55.01) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
         "value": null,
         "unit": null,
         "path": null,
@@ -1202,21 +1203,22 @@
     }
   },
   "key_takeaways": [
-    "유진테크의 개인투자자용 Tech 최종 점수는 44.66/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
-    "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(55.01) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+    "유진테크의 개인투자자용 Tech 최종 점수는 55.06/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
+    "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(55.01) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
     "투자자가 확인할 핵심 근거는 9개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다.",
+    "유진테크의 개인투자자용 Tech 최종 점수는 53.66/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
     "투자자가 확인할 핵심 근거는 6개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
   ],
   "value_evidence_bridge": {
     "agent": "tech_intake",
     "artifact": "tech_intake_value_evidence_bridge",
     "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-    "created_at": "2026-05-20T21:44:08",
+    "created_at": "2026-05-25T21:22:48",
     "field": "반도체",
     "company": "유진테크",
     "company_dir": "eugene_tech",
     "company_slug": "eugene_tech",
-    "source_document_count": 132,
+    "source_document_count": 153,
     "source_documents": [
       {
         "source_group": "KIPRIS",
@@ -1610,6 +1612,18 @@
       },
       {
         "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/유진테크/tech/tech_history_features_2025-08-31.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/유진테크/tech/tech_history_features_2025-08-31.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
         "source_file": "data/반도체/유진테크/tech/tech_intake_manifest.json",
         "detected_url_count": 0,
         "fallback_url_count": 2
@@ -1863,6 +1877,120 @@
       {
         "source_group": "VALUATION",
         "source_file": "data/반도체/유진테크/valuation/eugene_tech_valuation_workbook.xlsx",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/유진테크/valuation/intake/company_profile.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/유진테크/valuation/intake/cross_agent_signals_for_valuation.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/유진테크/valuation/intake/dcf_inputs.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/유진테크/valuation/intake/dilution_events.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/유진테크/valuation/intake/eval_price_history.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/유진테크/valuation/intake/eval_price_history_monthly.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/유진테크/valuation/intake/eval_price_history_monthly_v43.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/유진테크/valuation/intake/eval_price_history_monthly_v44.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/유진테크/valuation/intake/eval_price_history_monthly_v45.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/유진테크/valuation/intake/eval_price_history_v43.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/유진테크/valuation/intake/eval_price_history_v44.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/유진테크/valuation/intake/eval_price_history_v45.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/유진테크/valuation/intake/financials_normalized.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/유진테크/valuation/intake/financials_raw.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/유진테크/valuation/intake/peer_multiples.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/유진테크/valuation/intake/price_history.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/유진테크/valuation/intake/relative_valuation_inputs.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/유진테크/valuation/intake/shares_outstanding.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/유진테크/valuation/intake/valuation_assumptions.csv",
         "detected_url_count": 0,
         "fallback_url_count": 5
       },
@@ -2125,12 +2253,13 @@
           "https://plus.kipris.or.kr/",
           "https://www.google.com/search?q=%EC%9C%A0%EC%A7%84%ED%85%8C%ED%81%AC+KIPRIS+%ED%8A%B9%ED%97%88",
           "https://www.google.com/search?q=%EC%9C%A0%EC%A7%84%ED%85%8C%ED%81%AC+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
-          "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
-          "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
           "https://www.google.com/search?q=%EC%9C%A0%EC%A7%84%ED%85%8C%ED%81%AC+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
           "https://www.google.com/search?q=%EC%9C%A0%EC%A7%84%ED%85%8C%ED%81%AC+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
           "https://www.google.com/search?q=%EC%9C%A0%EC%A7%84%ED%85%8C%ED%81%AC+IR",
           "https://www.google.com/search?q=%EC%9C%A0%EC%A7%84%ED%85%8C%ED%81%AC+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+          "https://www.google.com/search?q=%EC%9C%A0%EC%A7%84%ED%85%8C%ED%81%AC+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
+          "https://www.google.com/search?q=%EC%9C%A0%EC%A7%84%ED%85%8C%ED%81%AC+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
+          "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
           "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1126"
         ],
         "fallback_urls": [
@@ -2154,12 +2283,12 @@
           "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7266408a8b1e551be315c83ebf33c9b8c40e2ba2a7622ead79eb8d5f72c05b33366062630c54686ad58bcc3c861d484ef708caf8419a51c1384",
           "https://www.google.com/search?q=%EC%9C%A0%EC%A7%84%ED%85%8C%ED%81%AC+KIPRIS+%ED%8A%B9%ED%97%88",
           "https://www.google.com/search?q=%EC%9C%A0%EC%A7%84%ED%85%8C%ED%81%AC+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
-          "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
-          "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
           "https://www.google.com/search?q=%EC%9C%A0%EC%A7%84%ED%85%8C%ED%81%AC+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
           "https://www.google.com/search?q=%EC%9C%A0%EC%A7%84%ED%85%8C%ED%81%AC+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
           "https://www.google.com/search?q=%EC%9C%A0%EC%A7%84%ED%85%8C%ED%81%AC+IR",
           "https://www.google.com/search?q=%EC%9C%A0%EC%A7%84%ED%85%8C%ED%81%AC+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+          "https://www.google.com/search?q=%EC%9C%A0%EC%A7%84%ED%85%8C%ED%81%AC+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
+          "https://www.google.com/search?q=%EC%9C%A0%EC%A7%84%ED%85%8C%ED%81%AC+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
           "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
           "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
           "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9328f5a912c888a1604ff579e87f821b091a0665246f3173a6cae241fd42c7005fb584f7181202ddb2669153aa54387f5f558cf6b7b6d352be",
@@ -2544,7 +2673,7 @@
               "매출",
               "성장"
             ],
-            "snippet": "summary: 유진테크는 2024년 매출 및 영업이익이 크게 성장하며 견조한 실적을 기록했으나, 2025년에는 매출은 소폭 증가했으나 영업이익률이 하락하며 수익성이 다소 둔화되는 모습을 보였다.",
+            "snippet": "summary: 유진테크는 2024년 매출이 22.3% 성장하며 이전의 역성장에서 벗어났으나, 영업이익률은 18.1%로 2021년 대비 하락한 모습을 보였다.",
             "urls": [],
             "fallback_urls": [
               "https://dart.fss.or.kr/",
@@ -2560,10 +2689,9 @@
             "evidence_level": "DIRECT_EVIDENCE",
             "matched_keywords": [
               "매출",
-              "매출액",
               "성장"
             ],
-            "snippet": "key_thesis: 2024년 매출액이 3,380억 원으로 전년 대비 22.2% 성장했으며, 영업이익은 611억 원으로 151.5% 급증하며 수익성이 크게 개선되었다.",
+            "snippet": "key_thesis: 2024년 매출성장률이 22.3%로 전환되며 이전의 역성장에서 벗어나는 긍정적인 신호를 보였다.",
             "urls": [],
             "fallback_urls": [
               "https://dart.fss.or.kr/",
@@ -2599,7 +2727,7 @@
               "매출",
               "성장"
             ],
-            "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수",
+            "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률",
             "urls": [],
             "fallback_urls": [
               "https://dart.fss.or.kr/",
@@ -2616,7 +2744,24 @@
             "matched_keywords": [
               "sales"
             ],
-            "snippet": "sales: 350324287104.0",
+            "snippet": "sales: 338067812312.0",
+            "urls": [],
+            "fallback_urls": [
+              "https://dart.fss.or.kr/",
+              "https://opendart.fss.or.kr/",
+              "https://finance.naver.com/",
+              "https://comp.fnguide.com/",
+              "https://www.google.com/search?q=%EC%9C%A0%EC%A7%84%ED%85%8C%ED%81%AC+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+            ]
+          },
+          {
+            "source_group": "FINANCE",
+            "source_file": "data/반도체/유진테크/finance/유진테크_finance_agent_packet.json",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "sales"
+            ],
+            "snippet": "sales_growth: 22.252094137406477",
             "urls": [],
             "fallback_urls": [
               "https://dart.fss.or.kr/",
@@ -2633,7 +2778,7 @@
             "matched_keywords": [
               "sales"
             ],
-            "snippet": "year: 2023 | sales: 276533350776.0 | operating_income: 24325728964.0 | net_income: 25397015593.0 | total_assets: 436989837327.0 | total_liabilities: 68514428187.0 | total_equity: 368475409140.0 | rnd: 2396392709 | capex: 11767134802 | ocf: 47693888794 | fcf: 35926753992 | interest: 489919646.0 | ROE: 6.8924587538352 | 영업이익률: 8.79667096056871 | 부채비율: 18.594030018694777 | 이자보상배율: 49.65248722440496",
+            "snippet": "year: 2021 | sales: 324575857261.0 | operating_income: 73911986136.0 | net_income: 63193771953.0 | total_assets: 382891842028.0 | total_liabilities: 72151255240.0 | total_equity: 310740586788.0 | current_assets: 240979230283.0 | current_liabilities: 61800466412.0 | capex: 14713619411 | ocf: 72457608239 | fcf: 57743988828 | interest_expense: 352760088.0 | roe: 20.336504029360476 | operating_margin: 22.771868111116294 ",
             "urls": [],
             "fallback_urls": [
               "https://dart.fss.or.kr/",
@@ -2650,24 +2795,7 @@
             "matched_keywords": [
               "sales"
             ],
-            "snippet": "year: 2024 | sales: 338067812312.0 | operating_income: 61177012897.0 | net_income: 65440277257.0 | total_assets: 539499743575.0 | total_liabilities: 103757408575.0 | total_equity: 435742335000.0 | rnd: 2396392709 | capex: 9342276885 | ocf: 61502669541 | fcf: 52160392656 | interest: 1573232992.0 | ROE: 15.018113229002639 | 영업이익률: 18.096077375310795 | 부채비율: 23.811642854256977 | 이자보상배율: 38.88617465314381",
-            "urls": [],
-            "fallback_urls": [
-              "https://dart.fss.or.kr/",
-              "https://opendart.fss.or.kr/",
-              "https://finance.naver.com/",
-              "https://comp.fnguide.com/",
-              "https://www.google.com/search?q=%EC%9C%A0%EC%A7%84%ED%85%8C%ED%81%AC+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-            ]
-          },
-          {
-            "source_group": "FINANCE",
-            "source_file": "data/반도체/유진테크/finance/유진테크_재무.csv",
-            "evidence_level": "DIRECT_EVIDENCE",
-            "matched_keywords": [
-              "sales"
-            ],
-            "snippet": "year: 2025 | sales: 350324287104.0 | operating_income: 51671713116.0 | net_income: 44481997780.0 | total_assets: 580613743719.0 | total_liabilities: 89220820383.0 | total_equity: 491392923336.0 | rnd: 3853183732 | capex: 21247464576 | ocf: 66476818240 | fcf: 45229353664 | interest: 1465548901.0 | ROE: 9.052225961663783 | 영업이익률: 14.749680515487734 | 부채비율: 18.156716579736624 | 이자보상배율: 35.25758374950328",
+            "snippet": "year: 2022 | sales: 310632917779.0 | operating_income: 53640954367.0 | net_income: 42595162228.0 | total_assets: 434013808798.0 | total_liabilities: 87311770380.0 | total_equity: 346702038418.0 | current_assets: 297304073244.0 | current_liabilities: 77570179279.0 | capex: 7431321191 | ocf: 38949017461 | fcf: 31517696270 | interest_expense: 472215805.0 | roe: 12.285812457971563 | operating_margin: 17.268277538172207 |",
             "urls": [],
             "fallback_urls": [
               "https://dart.fss.or.kr/",
@@ -2696,10 +2824,9 @@
             "source_file": "data/반도체/유진테크/finance/유진테크_finance.json",
             "evidence_level": "DIRECT_EVIDENCE",
             "matched_keywords": [
-              "영업이익률",
-              "수익성"
+              "영업이익률"
             ],
-            "snippet": "summary: 유진테크는 2024년 매출 및 영업이익이 크게 성장하며 견조한 실적을 기록했으나, 2025년에는 매출은 소폭 증가했으나 영업이익률이 하락하며 수익성이 다소 둔화되는 모습을 보였다.",
+            "snippet": "summary: 유진테크는 2024년 매출이 22.3% 성장하며 이전의 역성장에서 벗어났으나, 영업이익률은 18.1%로 2021년 대비 하락한 모습을 보였다.",
             "urls": [],
             "fallback_urls": [
               "https://dart.fss.or.kr/",
@@ -2716,41 +2843,7 @@
             "matched_keywords": [
               "영업이익률"
             ],
-            "snippet": "2023년 대비 2024년 ROE와 영업이익률이 크게 개선되었으나, 2025년에는 다시 하락하는 추세를 보였다.",
-            "urls": [],
-            "fallback_urls": [
-              "https://dart.fss.or.kr/",
-              "https://opendart.fss.or.kr/",
-              "https://finance.naver.com/",
-              "https://comp.fnguide.com/",
-              "https://www.google.com/search?q=%EC%9C%A0%EC%A7%84%ED%85%8C%ED%81%AC+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-            ]
-          },
-          {
-            "source_group": "FINANCE",
-            "source_file": "data/반도체/유진테크/finance/유진테크_finance.json",
-            "evidence_level": "DIRECT_EVIDENCE",
-            "matched_keywords": [
-              "수익성"
-            ],
-            "snippet": "key_thesis: 2024년 매출액이 3,380억 원으로 전년 대비 22.2% 성장했으며, 영업이익은 611억 원으로 151.5% 급증하며 수익성이 크게 개선되었다.",
-            "urls": [],
-            "fallback_urls": [
-              "https://dart.fss.or.kr/",
-              "https://opendart.fss.or.kr/",
-              "https://finance.naver.com/",
-              "https://comp.fnguide.com/",
-              "https://www.google.com/search?q=%EC%9C%A0%EC%A7%84%ED%85%8C%ED%81%AC+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-            ]
-          },
-          {
-            "source_group": "FINANCE",
-            "source_file": "data/반도체/유진테크/finance/유진테크_finance.json",
-            "evidence_level": "DIRECT_EVIDENCE",
-            "matched_keywords": [
-              "영업이익률"
-            ],
-            "snippet": "key_thesis: 2024년 ROE는 15.02%로 2023년 6.89% 대비 두 배 이상 상승했으며, 영업이익률 또한 18.10%로 2023년 8.80% 대비 크게 개선되었다.",
+            "snippet": "key_thesis: 2024년 영업이익률은 18.1%로 2023년 8.8% 대비 크게 개선되었으나, 2021년 22.8%보다는 낮은 수준이다.",
             "urls": [],
             "fallback_urls": [
               "https://dart.fss.or.kr/",
@@ -2768,7 +2861,7 @@
               "현금흐름",
               "FCF"
             ],
-            "snippet": "key_thesis: 2024년 잉여현금흐름(FCF)은 521억 원으로 전년 대비 크게 증가했으며, 2025년에도 452억 원을 기록하며 꾸준한 현금 창출 능력을 보여주고 있다.",
+            "snippet": "key_thesis: 자유현금흐름(FCF)은 2021년 이후 꾸준히 양수 값을 유지하며 현금 창출 능력을 보여주고 있다.",
             "urls": [],
             "fallback_urls": [
               "https://dart.fss.or.kr/",
@@ -2786,7 +2879,7 @@
               "영업이익률",
               "수익성"
             ],
-            "snippet": "key_risks: 2025년 영업이익률이 14.75%로 2024년 18.10% 대비 하락했으며, 순이익 또한 444억 원으로 전년 대비 감소하여 수익성 둔화 가능성을 시사한다.",
+            "snippet": "key_risks: 2024년 영업이익률 18.1%는 2021년 22.8% 대비 하락한 수치로, 수익성 개선 추세 확인이 필요하다.",
             "urls": [],
             "fallback_urls": [
               "https://dart.fss.or.kr/",
@@ -2798,12 +2891,30 @@
           },
           {
             "source_group": "FINANCE",
-            "source_file": "data/반도체/유진테크/finance/유진테크_finance.json",
+            "source_file": "data/반도체/유진테크/finance/유진테크_finance_agent_packet.json",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "영업이익률",
+              "수익성"
+            ],
+            "snippet": "report_core_points: 영업이익률: 유진테크 2024 기준 영업이익률 값은 18.10%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다.",
+            "urls": [],
+            "fallback_urls": [
+              "https://dart.fss.or.kr/",
+              "https://opendart.fss.or.kr/",
+              "https://finance.naver.com/",
+              "https://comp.fnguide.com/",
+              "https://www.google.com/search?q=%EC%9C%A0%EC%A7%84%ED%85%8C%ED%81%AC+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+            ]
+          },
+          {
+            "source_group": "FINANCE",
+            "source_file": "data/반도체/유진테크/finance/유진테크_finance_agent_packet.json",
             "evidence_level": "DIRECT_EVIDENCE",
             "matched_keywords": [
               "수익성"
             ],
-            "snippet": "key_risks: 2025년 ROE가 9.05%로 2024년 15.02% 대비 크게 하락했으며, 이는 자본 대비 수익성이 다시 악화되었음을 의미한다.",
+            "snippet": "report_core_points: ROE: 유진테크 2024 기준 ROE 값은 15.02%이며, 자기자본 대비 수익성 수준을 확인하는 지표입니다.",
             "urls": [],
             "fallback_urls": [
               "https://dart.fss.or.kr/",
@@ -2820,7 +2931,24 @@
             "matched_keywords": [
               "FCF"
             ],
-            "snippet": "report_core_points: FCF: 유진테크 2025 기준 FCF 값은 45,229,353,664원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+            "snippet": "report_core_points: FCF: 유진테크 2024 기준 FCF 값은 52,160,392,656원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+            "urls": [],
+            "fallback_urls": [
+              "https://dart.fss.or.kr/",
+              "https://opendart.fss.or.kr/",
+              "https://finance.naver.com/",
+              "https://comp.fnguide.com/",
+              "https://www.google.com/search?q=%EC%9C%A0%EC%A7%84%ED%85%8C%ED%81%AC+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+            ]
+          },
+          {
+            "source_group": "FINANCE",
+            "source_file": "data/반도체/유진테크/finance/유진테크_finance_agent_packet.json",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "영업이익률"
+            ],
+            "snippet": "label: 영업이익률",
             "urls": [],
             "fallback_urls": [
               "https://dart.fss.or.kr/",

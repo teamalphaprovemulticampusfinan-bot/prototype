@@ -4,13 +4,13 @@
   "company": "LX세미콘",
   "opinion": "보유",
   "confidence": 0.45,
-  "summary": "LX세미콘에 대해 검증 가능한 핵심 근거는 다음과 같습니다. LX세미콘 마켓 분석 total_score 값은 45점입니다. LX세미콘 stock_data.current_price 값은 56100입니다. LX세미콘 stock_data.change 값은 -3900입니다. LX세미콘 stock_data.change_rate 값은 -6.5%입니다. LX세미콘 stock_data.raw.clpr 값은 56100입니다.",
+  "summary": "LX세미콘에 대해 검증 가능한 핵심 근거는 다음과 같습니다. LX세미콘 마켓 분석 total_score 값은 45점입니다. LX세미콘 stock_data.current_price 값은 56000입니다. LX세미콘 stock_data.change 값은 4000입니다. LX세미콘 stock_data.change_rate 값은 7.69%입니다. LX세미콘 stock_data.raw.clpr 값은 56000입니다.",
   "key_points": [
     "LX세미콘 마켓 분석 total_score 값은 45점입니다.",
-    "LX세미콘 stock_data.current_price 값은 56100입니다.",
-    "LX세미콘 stock_data.change 값은 -3900입니다.",
-    "LX세미콘 stock_data.change_rate 값은 -6.5%입니다.",
-    "LX세미콘 stock_data.raw.clpr 값은 56100입니다."
+    "LX세미콘 stock_data.current_price 값은 56000입니다.",
+    "LX세미콘 stock_data.change 값은 4000입니다.",
+    "LX세미콘 stock_data.change_rate 값은 7.69%입니다.",
+    "LX세미콘 stock_data.raw.clpr 값은 56000입니다."
   ],
   "risks": [],
   "claims": [
@@ -23,42 +23,42 @@
     },
     {
       "claim_id": "market.cl.002",
-      "text": "LX세미콘 stock_data.current_price 값은 56100입니다.",
+      "text": "LX세미콘 stock_data.current_price 값은 56000입니다.",
       "evidence_ids": [
         "market.ev.006"
       ]
     },
     {
       "claim_id": "market.cl.003",
-      "text": "LX세미콘 stock_data.change 값은 -3900입니다.",
+      "text": "LX세미콘 stock_data.change 값은 4000입니다.",
       "evidence_ids": [
         "market.ev.009"
       ]
     },
     {
       "claim_id": "market.cl.004",
-      "text": "LX세미콘 stock_data.change_rate 값은 -6.5%입니다.",
+      "text": "LX세미콘 stock_data.change_rate 값은 7.69%입니다.",
       "evidence_ids": [
         "market.ev.010"
       ]
     },
     {
       "claim_id": "market.cl.005",
-      "text": "LX세미콘 stock_data.raw.clpr 값은 56100입니다.",
+      "text": "LX세미콘 stock_data.raw.clpr 값은 56000입니다.",
       "evidence_ids": [
         "market.ev.016"
       ]
     },
     {
       "claim_id": "market.cl.006",
-      "text": "LX세미콘 stock_data.raw.vs 값은 -3900입니다.",
+      "text": "LX세미콘 stock_data.raw.vs 값은 4000입니다.",
       "evidence_ids": [
         "market.ev.017"
       ]
     },
     {
       "claim_id": "market.auto_cl.007",
-      "text": "stock_data.raw.fltRt 값은 -6.5%입니다.",
+      "text": "stock_data.raw.fltRt 값은 7.69%입니다.",
       "evidence_ids": [
         "market.ev.018"
       ],
@@ -66,7 +66,7 @@
     },
     {
       "claim_id": "market.auto_cl.009",
-      "text": "stock_data.raw.mkp 값은 58,100입니다.",
+      "text": "stock_data.raw.mkp 값은 53,600입니다.",
       "evidence_ids": [
         "market.ev.019"
       ],
@@ -74,7 +74,7 @@
     },
     {
       "claim_id": "market.auto_cl.011",
-      "text": "stock_data.raw.hipr 값은 58,800입니다.",
+      "text": "stock_data.raw.hipr 값은 56,500입니다.",
       "evidence_ids": [
         "market.ev.020"
       ],
@@ -137,10 +137,10 @@
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.current_price",
-      "value": 56100,
+      "value": 56000,
       "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.current_price | 값: 56,100원"
+      "snippet": "stock_data | stock_data.current_price | 값: 56,000원"
     },
     {
       "evidence_id": "market.ev.007",
@@ -167,20 +167,20 @@
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.change",
-      "value": -3900,
+      "value": 4000,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.change | 값: -3,900"
+      "snippet": "stock_data | stock_data.change | 값: 4,000"
     },
     {
       "evidence_id": "market.ev.010",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.change_rate",
-      "value": -6.5,
+      "value": 7.69,
       "unit": "%",
       "period": null,
-      "snippet": "stock_data | stock_data.change_rate | 값: -6.5%"
+      "snippet": "stock_data | stock_data.change_rate | 값: 7.69%"
     },
     {
       "evidence_id": "market.ev.011",
@@ -237,50 +237,50 @@
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.clpr",
-      "value": 56100,
+      "value": 56000,
       "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.clpr | 값: 56,100원"
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 56,000원"
     },
     {
       "evidence_id": "market.ev.017",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.vs",
-      "value": -3900,
+      "value": 4000,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.vs | 값: -3,900"
+      "snippet": "stock_data | stock_data.raw.vs | 값: 4,000"
     },
     {
       "evidence_id": "market.ev.018",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.fltRt",
-      "value": -6.5,
+      "value": 7.69,
       "unit": "%",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.fltRt | 값: -6.5%"
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: 7.69%"
     },
     {
       "evidence_id": "market.ev.019",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.mkp",
-      "value": 58100,
+      "value": 53600,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.mkp | 값: 58,100"
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 53,600"
     },
     {
       "evidence_id": "market.ev.020",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.hipr",
-      "value": 58800,
+      "value": 56500,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.hipr | 값: 58,800"
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 56,500"
     }
   ],
   "evidence": [
@@ -339,10 +339,10 @@
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.current_price",
-      "value": 56100,
+      "value": 56000,
       "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.current_price | 값: 56,100원"
+      "snippet": "stock_data | stock_data.current_price | 값: 56,000원"
     },
     {
       "evidence_id": "market.ev.007",
@@ -369,20 +369,20 @@
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.change",
-      "value": -3900,
+      "value": 4000,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.change | 값: -3,900"
+      "snippet": "stock_data | stock_data.change | 값: 4,000"
     },
     {
       "evidence_id": "market.ev.010",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.change_rate",
-      "value": -6.5,
+      "value": 7.69,
       "unit": "%",
       "period": null,
-      "snippet": "stock_data | stock_data.change_rate | 값: -6.5%"
+      "snippet": "stock_data | stock_data.change_rate | 값: 7.69%"
     },
     {
       "evidence_id": "market.ev.011",
@@ -439,265 +439,99 @@
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.clpr",
-      "value": 56100,
+      "value": 56000,
       "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.clpr | 값: 56,100원"
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 56,000원"
     },
     {
       "evidence_id": "market.ev.017",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.vs",
-      "value": -3900,
+      "value": 4000,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.vs | 값: -3,900"
+      "snippet": "stock_data | stock_data.raw.vs | 값: 4,000"
     },
     {
       "evidence_id": "market.ev.018",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.fltRt",
-      "value": -6.5,
+      "value": 7.69,
       "unit": "%",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.fltRt | 값: -6.5%"
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: 7.69%"
     },
     {
       "evidence_id": "market.ev.019",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.mkp",
-      "value": 58100,
+      "value": 53600,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.mkp | 값: 58,100"
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 53,600"
     },
     {
       "evidence_id": "market.ev.020",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.hipr",
-      "value": 58800,
+      "value": 56500,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.hipr | 값: 58,800"
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 56,500"
     }
   ],
   "raw_payload": {
     "analysis": {
-      "agent": "market",
       "company": "LX세미콘",
       "opinion": "보유",
-      "confidence": 0.6,
-      "market_summary": {
-        "oecd_interpretation": "OECD 경기선행지수가 98.01로 기준선(100) 하회하며 글로벌 경기 둔화 가능성을 시사합니다. 이는 반도체 산업 전반에 부정적인 영향을 미칠 수 있습니다.",
-        "industry_stage": "LX세미콘이 속한 반도체 산업은 AI·HBM 부문은 성장기 초입이나, 메모리 및 레거시 부문은 성숙기 또는 쇠퇴기에 접어들어 세그먼트별 차별화가 필요합니다.",
-        "value_chain_position": "LX세미콘은 팹리스/설계 기업으로, Display Panel 구동 핵심 부품을 설계하며 외부 파운드리와 협력합니다. 이는 기술력 기반의 경쟁력을 가지나, 생산은 외부 의존적입니다.",
-        "competitive_position": "반도체 산업은 TSMC, 삼성전자, 인텔의 3강 구도와 중국의 추격이 심화되는 경쟁 환경에 놓여 있습니다. LX세미콘의 구체적인 경쟁 우위는 데이터에 명확히 나타나지 않습니다.",
-        "market_momentum": "LX세미콘의 주가는 최근 하락세를 보이며 56,100 KRW에 거래되고 있습니다. 이는 6.5% 하락한 수치로, 시장 모멘텀이 약화되었음을 시사합니다."
-      },
-      "qualitative_rubric": {
-        "macro_cycle": {
-          "assessment": "하",
-          "reason": "OECD 경기선행지수가 100을 하회하며 글로벌 경기 둔화 가능성이 높아 반도체 산업에 부정적입니다."
-        },
-        "industry_attractiveness": {
-          "assessment": "중",
-          "reason": "AI·HBM 등 일부 세그먼트는 성장성이 높으나, 메모리 및 레거시 부문은 성숙기 또는 쇠퇴기로 산업 전반의 매력도는 혼재되어 있습니다."
-        },
-        "value_chain_position": {
-          "assessment": "중",
-          "reason": "팹리스/설계 기업으로서 핵심 부품 설계 역량은 강점이나, 생산은 외부 파운드리 의존적이며 경쟁 강도가 높습니다."
-        },
-        "competitive_position": {
-          "assessment": "중",
-          "reason": "반도체 산업은 글로벌 빅3와 중국의 추격으로 경쟁이 치열하며, LX세미콘의 차별화된 경쟁 우위에 대한 정보가 부족합니다."
-        },
-        "market_momentum": {
-          "assessment": "하",
-          "reason": "최근 주가 하락(-6.5%) 및 변동성 확대는 시장 모멘텀이 약화되었음을 보여줍니다."
-        },
-        "policy_disclosure_signal": {
-          "assessment": "중",
-          "reason": "정부의 R&D 지원 확대, 세액공제 검토 등 정책적 지원은 긍정적이나, 삼성전자 노사 갈등 등 업황 관련 뉴스는 불확실성을 높입니다."
-        },
-        "downside_risk": {
-          "assessment": "중",
-          "reason": "글로벌 경기 둔화 우려, 경쟁 심화, 삼성전자 노사 갈등 관련 뉴스는 주가 하방 압력으로 작용할 수 있습니다."
-        }
-      },
-      "bwm_assessment": {
-        "best_criterion": "산업 매력도",
-        "worst_criterion": "시장 모멘텀",
-        "judgment_effect": "산업 내 성장 세그먼트의 잠재력은 긍정적이나, 최근 주가 하락과 거시 경제 불확실성으로 인해 보유 의견을 제시합니다."
-      },
+      "confidence": 0.8,
+      "summary": "LX세미콘은 AI·HBM 등 성장 세그먼트의 잠재력과 정부 정책 지원이 긍정적이나, 글로벌 경기 둔화 우려, 경쟁 심화, 최근 주가 하락으로 인한 시장 모멘텀 약화 등 불확실성이 존재합니다. 이에 보유 의견을 제시합니다.",
+      "total_score": 45,
       "scoring": {
         "거시환경": {
           "score": 5,
-          "max": 20,
-          "reason": "OECD 경기선행지수 하락으로 경기 둔화 우려가 있습니다."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "산업매력도": {
           "score": 12,
-          "max": 20,
-          "reason": "AI·HBM 등 성장 세그먼트와 성숙기 세그먼트가 혼재되어 있습니다."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "경쟁위치": {
           "score": 10,
-          "max": 20,
-          "reason": "팹리스 설계 역량은 있으나, 경쟁 강도가 높고 차별화 정보가 부족합니다."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "정책수혜": {
           "score": 10,
-          "max": 20,
-          "reason": "정부의 R&D 지원 등 긍정적 정책이 있으나, 업황 관련 불확실성도 존재합니다."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "시장모멘텀": {
           "score": 8,
-          "max": 20,
-          "reason": "최근 주가 하락(-6.5%)으로 시장 모멘텀이 약화되었습니다."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         }
       },
-      "total_score": 45,
-      "claims": [
-        {
-          "claim_id": "market.cl.001",
-          "text": "LX세미콘의 주가는 최근 6.5% 하락하며 시장 모멘텀이 약화되었습니다.",
-          "evidence_ids": [
-            "market.ev.001"
-          ]
-        },
-        {
-          "claim_id": "market.cl.002",
-          "text": "OECD 경기선행지수 하락은 글로벌 경기 둔화 우려를 시사하며 반도체 산업에 부정적입니다.",
-          "evidence_ids": [
-            "market.ev.002"
-          ]
-        },
-        {
-          "claim_id": "market.cl.003",
-          "text": "LX세미콘은 팹리스/설계 기업으로 핵심 부품 설계 역량은 보유하나, 경쟁 강도가 높은 산업 환경에 놓여 있습니다.",
-          "evidence_ids": [
-            "market.ev.004"
-          ]
-        }
-      ],
-      "evidences": [
-        {
-          "evidence_id": "market.ev.001",
-          "source_type": "stock",
-          "source": "public_data",
-          "metric": "change_rate",
-          "value": -6.5,
-          "unit": "%",
-          "period": "20260518",
-          "snippet": "change_rate: -6.5"
-        },
-        {
-          "evidence_id": "market.ev.002",
-          "source_type": "oecd",
-          "source": "OECD",
-          "metric": "G20",
-          "value": 98.01,
-          "unit": null,
-          "period": "최신",
-          "snippet": "G20: 98.01"
-        },
-        {
-          "evidence_id": "market.ev.003",
-          "source_type": "news",
-          "source": "Naver News",
-          "metric": null,
-          "value": null,
-          "unit": null,
-          "period": "Wed, 20 May 2026",
-          "snippet": "삼성전자 총파업 예고는 글로벌 메모리 공급 차질 우려로 번지고..."
-        },
-        {
-          "evidence_id": "market.ev.004",
-          "source_type": "dart",
-          "source": "DART",
-          "metric": "vc_role",
-          "value": "팹리스/설계",
-          "unit": null,
-          "period": "20241114001362",
-          "snippet": "vc_role: 팹리스/설계"
-        },
-        {
-          "evidence_id": "market.ev.005",
-          "source_type": "static",
-          "source": "밸류체인 & 경쟁구조",
-          "metric": "반도체",
-          "value": "성숙기 → 세그먼트별 상이",
-          "unit": null,
-          "period": null,
-          "snippet": "반도체: 성숙기 → 세그먼트별 상이"
-        }
-      ],
+      "market_environment": {
+        "oecd_cli": "",
+        "industry_stage": "{'마켓점수': {'기업명': 'LX세미콘', '투자의견': '보유', '총점': '45', '거시환경': '5', '산업매력도': '12', '경쟁위치': '10', '정책수혜': '10', '시장모멘텀': '8', '요약': 'LX세미콘은 AI·HBM 등 성장 세그먼트의 잠재력과 정부 정책 지원이 긍정적이나, 글로벌 경기 둔화 우려, 경쟁 심화, 최근 주가 하락으로 인한 시장 모멘텀 약화 등 불확실성이 존재합니다. 이에 보유 의견을 제시합니다.'}}",
+        "value_chain_position": "팹리스/설계",
+        "competition": ""
+      },
       "risks": [
-        {
-          "risk": "글로벌 경기 둔화 및 반도체 업황 변동성",
-          "severity": "중",
-          "basis": "OECD 경기선행지수 하락 및 관련 뉴스"
-        },
-        {
-          "risk": "경쟁 심화 및 기술 진입 장벽",
-          "severity": "중",
-          "basis": "반도체 산업의 3강 구도 및 중국 추격, 높은 기술 진입 장벽"
-        },
-        {
-          "risk": "삼성전자 노사 갈등 관련 불확실성",
-          "severity": "중",
-          "basis": "삼성전자 총파업 관련 뉴스"
-        }
+        "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 133 column 6 (char 4378)",
+        "밸류체인 위치 확인: 팹리스/설계"
       ],
-      "opportunities": [
-        {
-          "opportunity": "AI·HBM 등 고성장 세그먼트 시장 확대",
-          "basis": "반도체 산업 내 AI·HBM 부문의 높은 성장 전망"
-        },
-        {
-          "opportunity": "정부 정책 지원 (R&D, 세액공제)",
-          "basis": "정부의 R&D 지원 확대 및 세액공제 검토 정책"
-        }
-      ],
-      "summary": "LX세미콘은 AI·HBM 등 성장 세그먼트의 잠재력과 정부 정책 지원이 긍정적이나, 글로벌 경기 둔화 우려, 경쟁 심화, 최근 주가 하락으로 인한 시장 모멘텀 약화 등 불확실성이 존재합니다. 이에 보유 의견을 제시합니다.",
-      "raw_payload": {
-        "stock_used": true,
-        "oecd_used": true,
-        "static_used": true,
-        "news_used": true,
-        "dart_used": true
-      }
+      "opportunities": [],
+      "error": "Expecting ',' delimiter: line 133 column 6 (char 4378)",
+      "fallback_source": "market_final_static_data"
     },
-    "original_opportunities": [
-      {
-        "opportunity": "AI·HBM 등 고성장 세그먼트 시장 확대",
-        "basis": "반도체 산업 내 AI·HBM 부문의 높은 성장 전망"
-      },
-      {
-        "opportunity": "정부 정책 지원 (R&D, 세액공제)",
-        "basis": "정부의 R&D 지원 확대 및 세액공제 검토 정책"
-      }
-    ],
+    "original_opportunities": [],
     "original_risks": [
-      {
-        "risk": "글로벌 경기 둔화 및 반도체 업황 변동성",
-        "severity": "중",
-        "basis": "OECD 경기선행지수 하락 및 관련 뉴스"
-      },
-      {
-        "risk": "경쟁 심화 및 기술 진입 장벽",
-        "severity": "중",
-        "basis": "반도체 산업의 3강 구도 및 중국 추격, 높은 기술 진입 장벽"
-      },
-      {
-        "risk": "삼성전자 노사 갈등 관련 불확실성",
-        "severity": "중",
-        "basis": "삼성전자 총파업 관련 뉴스"
-      }
+      "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 133 column 6 (char 4378)",
+      "밸류체인 위치 확인: 팹리스/설계"
     ],
     "removed_bad_evidence_ids": [
       "market.ev.unverified"
@@ -707,28 +541,23 @@
   "scoring": {
     "거시환경": {
       "score": 5,
-      "max": 20,
-      "reason": "OECD 경기선행지수 하락으로 경기 둔화 우려가 있습니다."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "산업매력도": {
       "score": 12,
-      "max": 20,
-      "reason": "AI·HBM 등 성장 세그먼트와 성숙기 세그먼트가 혼재되어 있습니다."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "경쟁위치": {
       "score": 10,
-      "max": 20,
-      "reason": "팹리스 설계 역량은 있으나, 경쟁 강도가 높고 차별화 정보가 부족합니다."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "정책수혜": {
       "score": 10,
-      "max": 20,
-      "reason": "정부의 R&D 지원 등 긍정적 정책이 있으나, 업황 관련 불확실성도 존재합니다."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "시장모멘텀": {
       "score": 8,
-      "max": 20,
-      "reason": "최근 주가 하락(-6.5%)으로 시장 모멘텀이 약화되었습니다."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     }
   },
   "packet_version": "grounded_agent_v3",
@@ -741,11 +570,11 @@
     "unsupported_count": 0,
     "supported_claims": [
       "LX세미콘 마켓 분석 total_score 값은 45점입니다.",
-      "LX세미콘 stock_data.current_price 값은 56100입니다.",
-      "LX세미콘 stock_data.change 값은 -3900입니다.",
-      "LX세미콘 stock_data.change_rate 값은 -6.5%입니다.",
-      "LX세미콘 stock_data.raw.clpr 값은 56100입니다.",
-      "LX세미콘 stock_data.raw.vs 값은 -3900입니다."
+      "LX세미콘 stock_data.current_price 값은 56000입니다.",
+      "LX세미콘 stock_data.change 값은 4000입니다.",
+      "LX세미콘 stock_data.change_rate 값은 7.69%입니다.",
+      "LX세미콘 stock_data.raw.clpr 값은 56000입니다.",
+      "LX세미콘 stock_data.raw.vs 값은 4000입니다."
     ],
     "unsupported_claims": [],
     "issues": [],
@@ -767,7 +596,7 @@
       },
       {
         "claim_id": "market.cl.002",
-        "text": "LX세미콘 stock_data.current_price 값은 56100입니다.",
+        "text": "LX세미콘 stock_data.current_price 값은 56000입니다.",
         "evidence_ids": [
           "market.ev.006"
         ],
@@ -786,7 +615,7 @@
       },
       {
         "claim_id": "market.cl.003",
-        "text": "LX세미콘 stock_data.change 값은 -3900입니다.",
+        "text": "LX세미콘 stock_data.change 값은 4000입니다.",
         "evidence_ids": [
           "market.ev.009"
         ],
@@ -801,7 +630,7 @@
       },
       {
         "claim_id": "market.cl.004",
-        "text": "LX세미콘 stock_data.change_rate 값은 -6.5%입니다.",
+        "text": "LX세미콘 stock_data.change_rate 값은 7.69%입니다.",
         "evidence_ids": [
           "market.ev.010"
         ],
@@ -816,7 +645,7 @@
       },
       {
         "claim_id": "market.cl.005",
-        "text": "LX세미콘 stock_data.raw.clpr 값은 56100입니다.",
+        "text": "LX세미콘 stock_data.raw.clpr 값은 56000입니다.",
         "evidence_ids": [
           "market.ev.016"
         ],
@@ -831,7 +660,7 @@
       },
       {
         "claim_id": "market.cl.006",
-        "text": "LX세미콘 stock_data.raw.vs 값은 -3900입니다.",
+        "text": "LX세미콘 stock_data.raw.vs 값은 4000입니다.",
         "evidence_ids": [
           "market.ev.017"
         ],
@@ -855,14 +684,14 @@
     "unsupported_count": 0,
     "supported_claims": [
       "LX세미콘 마켓 분석 total_score 값은 45점입니다.",
-      "LX세미콘 stock_data.current_price 값은 56100입니다.",
-      "LX세미콘 stock_data.change 값은 -3900입니다.",
-      "LX세미콘 stock_data.change_rate 값은 -6.5%입니다.",
-      "LX세미콘 stock_data.raw.clpr 값은 56100입니다.",
-      "LX세미콘 stock_data.raw.vs 값은 -3900입니다.",
-      "stock_data.raw.fltRt 값은 -6.5%입니다.",
-      "stock_data.raw.mkp 값은 58,100입니다.",
-      "stock_data.raw.hipr 값은 58,800입니다."
+      "LX세미콘 stock_data.current_price 값은 56000입니다.",
+      "LX세미콘 stock_data.change 값은 4000입니다.",
+      "LX세미콘 stock_data.change_rate 값은 7.69%입니다.",
+      "LX세미콘 stock_data.raw.clpr 값은 56000입니다.",
+      "LX세미콘 stock_data.raw.vs 값은 4000입니다.",
+      "stock_data.raw.fltRt 값은 7.69%입니다.",
+      "stock_data.raw.mkp 값은 53,600입니다.",
+      "stock_data.raw.hipr 값은 56,500입니다."
     ],
     "unsupported_claims": [],
     "issues": [],
@@ -884,7 +713,7 @@
       },
       {
         "claim_id": "market.cl.002",
-        "text": "LX세미콘 stock_data.current_price 값은 56100입니다.",
+        "text": "LX세미콘 stock_data.current_price 값은 56000입니다.",
         "evidence_ids": [
           "market.ev.006"
         ],
@@ -903,7 +732,7 @@
       },
       {
         "claim_id": "market.cl.003",
-        "text": "LX세미콘 stock_data.change 값은 -3900입니다.",
+        "text": "LX세미콘 stock_data.change 값은 4000입니다.",
         "evidence_ids": [
           "market.ev.009"
         ],
@@ -918,7 +747,7 @@
       },
       {
         "claim_id": "market.cl.004",
-        "text": "LX세미콘 stock_data.change_rate 값은 -6.5%입니다.",
+        "text": "LX세미콘 stock_data.change_rate 값은 7.69%입니다.",
         "evidence_ids": [
           "market.ev.010"
         ],
@@ -933,7 +762,7 @@
       },
       {
         "claim_id": "market.cl.005",
-        "text": "LX세미콘 stock_data.raw.clpr 값은 56100입니다.",
+        "text": "LX세미콘 stock_data.raw.clpr 값은 56000입니다.",
         "evidence_ids": [
           "market.ev.016"
         ],
@@ -948,7 +777,7 @@
       },
       {
         "claim_id": "market.cl.006",
-        "text": "LX세미콘 stock_data.raw.vs 값은 -3900입니다.",
+        "text": "LX세미콘 stock_data.raw.vs 값은 4000입니다.",
         "evidence_ids": [
           "market.ev.017"
         ],
@@ -963,7 +792,7 @@
       },
       {
         "claim_id": "market.auto_cl.007",
-        "text": "stock_data.raw.fltRt 값은 -6.5%입니다.",
+        "text": "stock_data.raw.fltRt 값은 7.69%입니다.",
         "evidence_ids": [
           "market.ev.018"
         ],
@@ -978,7 +807,7 @@
       },
       {
         "claim_id": "market.auto_cl.009",
-        "text": "stock_data.raw.mkp 값은 58,100입니다.",
+        "text": "stock_data.raw.mkp 값은 53,600입니다.",
         "evidence_ids": [
           "market.ev.019"
         ],
@@ -993,7 +822,7 @@
       },
       {
         "claim_id": "market.auto_cl.011",
-        "text": "stock_data.raw.hipr 값은 58,800입니다.",
+        "text": "stock_data.raw.hipr 값은 56,500입니다.",
         "evidence_ids": [
           "market.ev.020"
         ],
@@ -1017,14 +846,14 @@
     "unsupported_count": 0,
     "supported_claims": [
       "LX세미콘 마켓 분석 total_score 값은 45점입니다.",
-      "LX세미콘 stock_data.current_price 값은 56100입니다.",
-      "LX세미콘 stock_data.change 값은 -3900입니다.",
-      "LX세미콘 stock_data.change_rate 값은 -6.5%입니다.",
-      "LX세미콘 stock_data.raw.clpr 값은 56100입니다.",
-      "LX세미콘 stock_data.raw.vs 값은 -3900입니다.",
-      "stock_data.raw.fltRt 값은 -6.5%입니다.",
-      "stock_data.raw.mkp 값은 58,100입니다.",
-      "stock_data.raw.hipr 값은 58,800입니다."
+      "LX세미콘 stock_data.current_price 값은 56000입니다.",
+      "LX세미콘 stock_data.change 값은 4000입니다.",
+      "LX세미콘 stock_data.change_rate 값은 7.69%입니다.",
+      "LX세미콘 stock_data.raw.clpr 값은 56000입니다.",
+      "LX세미콘 stock_data.raw.vs 값은 4000입니다.",
+      "stock_data.raw.fltRt 값은 7.69%입니다.",
+      "stock_data.raw.mkp 값은 53,600입니다.",
+      "stock_data.raw.hipr 값은 56,500입니다."
     ],
     "unsupported_claims": [],
     "issues": [],
@@ -1046,7 +875,7 @@
       },
       {
         "claim_id": "market.cl.002",
-        "text": "LX세미콘 stock_data.current_price 값은 56100입니다.",
+        "text": "LX세미콘 stock_data.current_price 값은 56000입니다.",
         "evidence_ids": [
           "market.ev.006"
         ],
@@ -1065,7 +894,7 @@
       },
       {
         "claim_id": "market.cl.003",
-        "text": "LX세미콘 stock_data.change 값은 -3900입니다.",
+        "text": "LX세미콘 stock_data.change 값은 4000입니다.",
         "evidence_ids": [
           "market.ev.009"
         ],
@@ -1080,7 +909,7 @@
       },
       {
         "claim_id": "market.cl.004",
-        "text": "LX세미콘 stock_data.change_rate 값은 -6.5%입니다.",
+        "text": "LX세미콘 stock_data.change_rate 값은 7.69%입니다.",
         "evidence_ids": [
           "market.ev.010"
         ],
@@ -1095,7 +924,7 @@
       },
       {
         "claim_id": "market.cl.005",
-        "text": "LX세미콘 stock_data.raw.clpr 값은 56100입니다.",
+        "text": "LX세미콘 stock_data.raw.clpr 값은 56000입니다.",
         "evidence_ids": [
           "market.ev.016"
         ],
@@ -1110,7 +939,7 @@
       },
       {
         "claim_id": "market.cl.006",
-        "text": "LX세미콘 stock_data.raw.vs 값은 -3900입니다.",
+        "text": "LX세미콘 stock_data.raw.vs 값은 4000입니다.",
         "evidence_ids": [
           "market.ev.017"
         ],
@@ -1125,7 +954,7 @@
       },
       {
         "claim_id": "market.auto_cl.007",
-        "text": "stock_data.raw.fltRt 값은 -6.5%입니다.",
+        "text": "stock_data.raw.fltRt 값은 7.69%입니다.",
         "evidence_ids": [
           "market.ev.018"
         ],
@@ -1140,7 +969,7 @@
       },
       {
         "claim_id": "market.auto_cl.009",
-        "text": "stock_data.raw.mkp 값은 58,100입니다.",
+        "text": "stock_data.raw.mkp 값은 53,600입니다.",
         "evidence_ids": [
           "market.ev.019"
         ],
@@ -1155,7 +984,7 @@
       },
       {
         "claim_id": "market.auto_cl.011",
-        "text": "stock_data.raw.hipr 값은 58,800입니다.",
+        "text": "stock_data.raw.hipr 값은 56,500입니다.",
         "evidence_ids": [
           "market.ev.020"
         ],

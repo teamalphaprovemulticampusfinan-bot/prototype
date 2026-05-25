@@ -1,10 +1,10 @@
 {
-  "status": "PASS_WITH_WARNINGS",
+  "status": "PASS",
   "issues": [
     {
-      "severity": "MEDIUM",
-      "code": "MISSING_OPERATING_PROFIT",
-      "message": "최근 연도 operating_profit 값이 없습니다."
+      "severity": "INFO",
+      "code": "NO_MAJOR_WARNINGS",
+      "message": "주요 validation warning 없음"
     }
   ],
   "audit_trail": [
@@ -16,7 +16,7 @@
     {
       "step": "price_history",
       "status": "OK",
-      "rows": 1221
+      "rows": 1140
     },
     {
       "step": "share_count",
@@ -31,17 +31,17 @@
     {
       "step": "market_cap",
       "status": "OK",
-      "market_cap": 5517030472400.0
+      "market_cap": 1995260575650.0
     },
     {
       "step": "liquidity_proxy",
       "status": "OK",
-      "avg_trading_value_20d": 85839698835.0
+      "avg_trading_value_20d": 27660307397.5
     },
     {
-      "step": "workbook_created",
+      "step": "workbook_available",
       "status": "OK",
-      "path": "C:\\Agent_6.8\\data\\반도체\\원익IPS\\valuation\\wonik_ips_valuation_workbook.xlsx"
+      "path": "C:\\Agent_6.9\\data\\반도체\\원익IPS\\valuation\\wonik_ips_valuation_workbook.xlsx"
     }
   ],
   "principle": "valuation_agent 자체 데이터/모델 일관성 검증; 기존 web-auditor 의존 없음"

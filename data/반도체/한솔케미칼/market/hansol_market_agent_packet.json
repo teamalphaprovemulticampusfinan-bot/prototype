@@ -487,201 +487,51 @@
   ],
   "raw_payload": {
     "analysis": {
-      "agent": "market",
       "company": "한솔케미칼",
       "opinion": "보유",
-      "confidence": 0.7,
-      "market_summary": {
-        "oecd_interpretation": "OECD 경기선행지수가 98.99로 하락하며 거시 경제의 불확실성을 시사합니다. 이는 전반적인 경기 둔화 가능성을 나타내며 투자 심리에 부정적인 영향을 줄 수 있습니다.",
-        "industry_stage": "한솔케미칼이 속한 전자재료 및 이차전지 재료 산업은 AI 수요 확대에 따른 반도체 업황 호조로 성장 단계에 있습니다. 이는 해당 산업의 높은 매력도를 보여줍니다.",
-        "value_chain_position": "한솔케미칼은 소재 부문에서 직접 생산하는 기업으로, 밸류체인 내에서 중요한 위치를 차지합니다. 이는 수요 증가의 직접적인 수혜를 받을 수 있는 강점을 가집니다.",
-        "competitive_position": "한솔케미칼은 반도체용 테이프 등 특수 소재에서 경쟁력을 보유하고 있으나, 경쟁 강도에 대한 구체적인 데이터는 제한적입니다. 중간 수준의 경쟁 구도로 평가됩니다.",
-        "market_momentum": "주가는 286,500원으로 상승세를 보이고 있으나, OECD 경기선행지수 하락은 시장 모멘텀에 대한 불확실성을 높입니다. 변동성 확대 가능성이 있습니다."
-      },
-      "qualitative_rubric": {
-        "macro_cycle": {
-          "assessment": "하",
-          "reason": "OECD 경기선행지수 하락은 거시 경제 불확실성을 높여 부정적인 신호로 작용합니다."
-        },
-        "industry_attractiveness": {
-          "assessment": "상",
-          "reason": "AI 수요 확대에 따른 반도체 업황 호조는 전자재료 및 이차전지 재료 산업의 높은 성장성을 시사합니다."
-        },
-        "value_chain_position": {
-          "assessment": "상",
-          "reason": "소재 부문에서 직접 생산하며, 전자재료 및 이차전지 재료 등 핵심 산업에 필수적인 제품을 공급합니다."
-        },
-        "competitive_position": {
-          "assessment": "중",
-          "reason": "특수 소재 분야에서 경쟁력을 보유하나, 경쟁사 대비 구체적인 시장 점유율 및 기술 우위 데이터가 부족합니다."
-        },
-        "market_momentum": {
-          "assessment": "중",
-          "reason": "주가는 상승세를 보이나, 거시 경제 불확실성으로 인해 시장 모멘텀의 지속성에 대한 판단이 유보적입니다."
-        },
-        "policy_disclosure_signal": {
-          "assessment": "중",
-          "reason": "반도체 소재 관련 정책 수혜 가능성이 있으나, 구체적인 정책 효과 및 공시 내용에 대한 추가 분석이 필요합니다."
-        },
-        "downside_risk": {
-          "assessment": "중",
-          "reason": "OECD 경기선행지수 하락으로 인한 거시 경제 불확실성이 주요 하방 리스크 요인으로 작용할 수 있습니다."
-        }
-      },
-      "bwm_assessment": {
-        "best_criterion": "산업 매력도",
-        "worst_criterion": "거시 사이클",
-        "judgment_effect": "산업의 긍정적 전망에도 불구하고 거시 경제의 불확실성이 투자 의견을 '보유'로 유지하는 주요 요인입니다."
-      },
+      "confidence": 0.8,
+      "summary": "AI 수요 확대에 따른 반도체 업황 호조로 산업 성장이 기대되나, OECD 경기선행지수 하락으로 거시 경제 불확실성이 존재합니다. 데이터 제한으로 인한 분석 한계도 있습니다. 따라서 현재로서는 '보유' 의견을 제시합니다.",
+      "total_score": 55,
       "scoring": {
         "거시환경": {
           "score": 5,
-          "max": 20,
-          "reason": "OECD 경기선행지수 하락으로 거시 경제 환경이 부정적입니다."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "산업매력도": {
           "score": 18,
-          "max": 20,
-          "reason": "AI 수요 확대에 따른 반도체 업황 호조로 산업 성장성이 매우 높습니다."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "경쟁위치": {
           "score": 12,
-          "max": 20,
-          "reason": "특수 소재 분야 경쟁력은 있으나, 경쟁 강도에 대한 데이터가 제한적입니다."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "정책수혜": {
           "score": 10,
-          "max": 20,
-          "reason": "반도체 소재 관련 정책 수혜 가능성이 있으나, 구체적인 효과는 불확실합니다."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "시장모멘텀": {
           "score": 10,
-          "max": 20,
-          "reason": "주가 상승세는 있으나 거시 경제 불확실성으로 모멘텀 지속성이 불확실합니다."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         }
       },
-      "total_score": 55,
-      "claims": [
-        {
-          "claim_id": "market.cl.001",
-          "text": "AI 수요 확대에 따른 반도체 업황 호조로 한솔케미칼의 핵심 사업인 전자재료 및 이차전지 재료 산업의 성장이 기대됩니다.",
-          "evidence_ids": [
-            "market.ev.002",
-            "market.ev.003",
-            "market.ev.005"
-          ]
-        },
-        {
-          "claim_id": "market.cl.002",
-          "text": "OECD 경기선행지수 하락은 거시 경제 불확실성을 높이며, 이는 투자에 부담으로 작용할 수 있습니다.",
-          "evidence_ids": [
-            "market.ev.001"
-          ]
-        },
-        {
-          "claim_id": "market.cl.003",
-          "text": "한솔케미칼은 반도체용 테이프와 같은 특수 소재에서 경쟁력을 갖추고 있습니다.",
-          "evidence_ids": [
-            "market.ev.004"
-          ]
-        }
-      ],
-      "evidences": [
-        {
-          "evidence_id": "market.ev.001",
-          "source_type": "oecd",
-          "source": "oecd",
-          "metric": "경기선행지수",
-          "value": 98.99,
-          "unit": null,
-          "period": "최신",
-          "snippet": "OECD 경기선행지수 (최신): {\"G20\": 98.99, \"한국\": 98.99, \"미국\": 98.99, \"중국\": 98.99}"
-        },
-        {
-          "evidence_id": "market.ev.002",
-          "source_type": "news",
-          "source": "Naver News",
-          "metric": "업황",
-          "value": null,
-          "unit": null,
-          "period": "Sun, 24 May 2026",
-          "snippet": "제조업 경기심리 4개월 만에 반등… 반도체 ·화학이 끌었다"
-        },
-        {
-          "evidence_id": "market.ev.003",
-          "source_type": "news",
-          "source": "Naver News",
-          "metric": "업황",
-          "value": null,
-          "unit": null,
-          "period": "Sun, 24 May 2026",
-          "snippet": "[2026 하반기 전망] AI가 띄운 반도체 , 中에 눌린 가전···전자산업 희비"
-        },
-        {
-          "evidence_id": "market.ev.004",
-          "source_type": "dart",
-          "source": "DART",
-          "metric": "경쟁력",
-          "value": null,
-          "unit": null,
-          "period": "2026-05-24T20:40:28.238730",
-          "snippet": "한솔케미칼은 반도체용 테이프와 같은 특수 소재에서 경쟁력을 갖추고 있습니다."
-        },
-        {
-          "evidence_id": "market.ev.005",
-          "source_type": "static",
-          "source": "엑셀",
-          "metric": "요약",
-          "value": null,
-          "unit": null,
-          "period": null,
-          "snippet": "AI 수요 확대에 따른 반도체 업황 호조로 한솔케미칼의 핵심 사업인 전자재료 및 이차전지 재료 산업의 성장이 기대됩니다."
-        }
-      ],
+      "market_environment": {
+        "oecd_cli": "",
+        "industry_stage": "{'마켓점수': {'기업명': '한솔케미칼', '투자의견': '보유', '총점': '55', '거시환경': '5', '산업매력도': '18', '경쟁위치': '12', '정책수혜': '10', '시장모멘텀': '10', '요약': \"AI 수요 확대에 따른 반도체 업황 호조로 산업 성장이 기대되나, OECD 경기선행지수 하락으로 거시 경제 불확실성이 존재합니다. 데이터 제한으로 인한 분석 한계도 있습니다. 따라서 현재로서는 '보유' 의견을 제시합니다.\"}}",
+        "value_chain_position": "소재",
+        "competition": ""
+      },
       "risks": [
-        {
-          "risk": "거시 경제 불확실성",
-          "severity": "중",
-          "basis": "OECD 경기선행지수 하락"
-        },
-        {
-          "risk": "데이터 제한으로 인한 분석 한계",
-          "severity": "중",
-          "basis": "LLM 호출 오류로 인한 데이터 제한"
-        }
+        "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 155 column 6 (char 4323)",
+        "밸류체인 위치 확인: 소재"
       ],
-      "opportunities": [
-        {
-          "opportunity": "AI 수요 확대에 따른 반도체 업황 호조",
-          "basis": "전자재료 및 이차전지 재료 산업 성장 기대"
-        }
-      ],
-      "summary": "AI 수요 확대에 따른 반도체 업황 호조로 산업 성장이 기대되나, OECD 경기선행지수 하락으로 거시 경제 불확실성이 존재합니다. 데이터 제한으로 인한 분석 한계도 있습니다. 따라서 현재로서는 '보유' 의견을 제시합니다.",
-      "raw_payload": {
-        "stock_used": true,
-        "oecd_used": true,
-        "static_used": true,
-        "news_used": true,
-        "dart_used": true
-      }
+      "opportunities": [],
+      "error": "Expecting ',' delimiter: line 155 column 6 (char 4323)",
+      "fallback_source": "market_final_static_data"
     },
-    "original_opportunities": [
-      {
-        "opportunity": "AI 수요 확대에 따른 반도체 업황 호조",
-        "basis": "전자재료 및 이차전지 재료 산업 성장 기대"
-      }
-    ],
+    "original_opportunities": [],
     "original_risks": [
-      {
-        "risk": "거시 경제 불확실성",
-        "severity": "중",
-        "basis": "OECD 경기선행지수 하락"
-      },
-      {
-        "risk": "데이터 제한으로 인한 분석 한계",
-        "severity": "중",
-        "basis": "LLM 호출 오류로 인한 데이터 제한"
-      }
+      "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 155 column 6 (char 4323)",
+      "밸류체인 위치 확인: 소재"
     ],
     "removed_bad_evidence_ids": [
       "market.ev.unverified"
@@ -691,28 +541,23 @@
   "scoring": {
     "거시환경": {
       "score": 5,
-      "max": 20,
-      "reason": "OECD 경기선행지수 하락으로 거시 경제 환경이 부정적입니다."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "산업매력도": {
       "score": 18,
-      "max": 20,
-      "reason": "AI 수요 확대에 따른 반도체 업황 호조로 산업 성장성이 매우 높습니다."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "경쟁위치": {
       "score": 12,
-      "max": 20,
-      "reason": "특수 소재 분야 경쟁력은 있으나, 경쟁 강도에 대한 데이터가 제한적입니다."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "정책수혜": {
       "score": 10,
-      "max": 20,
-      "reason": "반도체 소재 관련 정책 수혜 가능성이 있으나, 구체적인 효과는 불확실합니다."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "시장모멘텀": {
       "score": 10,
-      "max": 20,
-      "reason": "주가 상승세는 있으나 거시 경제 불확실성으로 모멘텀 지속성이 불확실합니다."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     }
   },
   "packet_version": "grounded_agent_v3",

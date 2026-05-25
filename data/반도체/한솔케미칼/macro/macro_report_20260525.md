@@ -1,0 +1,264 @@
+# 📊 매크로 분석 리포트 (반도체 딥테크 섹터)
+
+## 📘 지표 설명
+
+### 🔢 점수 Score
+- 매크로 환경을 종합한 점수입니다.
+- 양수는 위험자산에 우호적, 음수는 위험자산에 비우호적입니다.
+
+| 점수 구간 | 의미 |
+|---|---|
+| +4 이상 | 강한 매수 환경 |
+| +2 ~ +3 | 매수 우위 |
+| -1 ~ +1 | 중립 |
+| -2 ~ -3 | 매도 우위 |
+| -4 이하 | 강한 매도 환경 |
+
+### ⚠️ 위험도 Risk Level
+
+| 위험도 | 의미 |
+|---|---|
+| LOW | 매우 안정 |
+| MEDIUM_LOW | 비교적 안정 |
+| NEUTRAL | 중립 / 방향성 불확실 |
+| MEDIUM_HIGH | 리스크 증가 |
+| HIGH | 매우 위험 |
+
+### 🎯 신뢰도 Confidence
+- 0에 가까울수록 불확실, 1에 가까울수록 확신이 강합니다.
+- 데이터 커버리지가 낮으면 penalty가 적용됩니다.
+
+| 신뢰도 | 의미 |
+|---|---|
+| 0.7 이상 | 높은 신뢰 |
+| 0.4 ~ 0.7 | 중간 신뢰 |
+| 0.4 이하 | 낮은 신뢰 |
+
+---
+
+## 🧾 요약
+
+- 생성 시각: 2026-05-25 19:58:12
+- 신호: **BUY**
+- 점수: 8
+- 위험도: LOW
+- 신뢰도: 1.0
+- 커버리지: 100% (penalty: 0.0)
+
+---
+
+## 📌 한 줄 요약
+
+매크로 환경 점수는 8점으로, 위험자산에 우호적인 환경입니다. 위험도는 LOW입니다.
+
+---
+
+## 📡 데이터 커버리지
+
+- 사용 가능: ecos_일별, ext_일별, 시장벤치마크, ecos_월별, ecos_분기별, ext_월별, 뉴스, 규제
+- 누락: 없음
+- 커버리지 비율: 100%
+
+---
+
+## 🔍 판단 근거
+
+- 미국 하이일드 스프레드 확대 → 글로벌 신용 리스크 증가
+- 전체 시장 20일 수익률 양수 → 시장/섹터 방향성 우호
+- 한국 시장 20일 수익률 양수 → 시장/섹터 방향성 우호
+- 미국 시장 20일 수익률 양수 → 시장/섹터 방향성 우호
+- 반도체 섹터 20일 수익률 양수 → 시장/섹터 방향성 우호
+- 전체 시장 20/60일 모멘텀 음수 → 추세 약화
+- 반도체 섹터 20/60일 모멘텀 음수 → 추세 약화
+- 시장 risk-off 비율 25% 이하 → 벤치마크 약세 비중 낮음
+- CPI 전년비 116.5% — 고물가 구간 → 금리 인하 기대 약화
+- BSI 전망 67.0 — 기업 경기 비관 우위
+- 실업률 2.4% — 고용 양호
+- GDP 전년비 1.8% — 완만한 성장 → 중립적
+- GDP 전기비 1.3% — 전분기 대비 가속 성장
+- oecd_cli_한국 100.32 상승 → 경기 개선 신호
+- oecd_cli_미국 99.86 상승 → 경기 개선 신호
+- g20_cli 100.03 상승 → 경기 개선 신호
+- 뉴스 긍정/부정 신호 중립
+- 규제 리스크 신호 약함
+- ecos_일별/미국_국채_13주: rolling z-score 하단 3σ 이상 (변화율 0.00%, z=-3.97)
+- ecos_일별/미국_단기금리_3m: rolling z-score 하단 3σ 이상 (변화율 0.00%, z=-3.92)
+- ecos_일별/미국_회사채_aaa: 1기간 변화율 급등 주의 구간 (변화율 1.28%, z=-0.69)
+- ecos_일별/krx_반도체_지수_변동성_z_252일: rolling z-score 하단 2σ 이상 (변화율 0.00%, z=-2.50)
+- ext_일별/미국_국채_13주: rolling z-score 하단 3σ 이상 (변화율 0.00%, z=-3.97)
+- ext_일별/미국_단기금리_3m: rolling z-score 하단 3σ 이상 (변화율 0.00%, z=-3.92)
+- ext_일별/미국_회사채_aaa: 1기간 변화율 급등 주의 구간 (변화율 1.28%, z=-0.69)
+- ext_일별/krx_반도체_지수_변동성_z_252일: rolling z-score 하단 2σ 이상 (변화율 0.00%, z=-2.50)
+- 소재/화학 기업 + 원자재 가격 하락 압력 → 원가 부담 완화
+- 딥테크/장기 성장 기업 + 금리 상승 압력 → 할인율·자금조달 민감도 부담
+
+---
+
+## 📊 항목별 핵심 수치 (Score Breakdown)
+
+### ecos_일별
+- 국고채_10년_level: 2.815
+- 국고채_10년_diff: 0.0
+- 국고채_10년_criteria: {'method': 'empirical_percentile', 'lookback_observations': 2800, 'high': 3.372, 'low': 1.7222000000000004, 'high_q': 0.8, 'low_q': 0.2}
+- 국고채_3년_level: 2.426
+- 국고채_3년_diff: 0.0
+- 국고채_3년_criteria: {'method': 'empirical_percentile', 'lookback_observations': 2800, 'high': 3.296, 'low': 1.301, 'high_q': 0.8, 'low_q': 0.2}
+- 콜금리_level: 2.521
+- 콜금리_diff: 0.0
+- 콜금리_criteria: {'method': 'empirical_percentile', 'lookback_observations': 2800, 'high': 3.4352000000000005, 'low': 0.75, 'high_q': 0.8, 'low_q': 0.2}
+- cd금리_91일_level: 2.53
+- cd금리_91일_diff: 0.0
+- cd금리_91일_criteria: {'method': 'empirical_percentile', 'lookback_observations': 2800, 'high': 3.57, 'low': 1.1, 'high_q': 0.8, 'low_q': 0.2}
+- 국고채_10년_3년_스프레드: 0.389
+- 국고채_10년_3년_스프레드_criteria: {'method': 'empirical_percentile', 'lookback_observations': 2800, 'high': 0.5012000000000003, 'low': 0.09099999999999962, 'high_q': 0.8, 'low_q': 0.2}
+- 원달러_level: 1388.6
+- 원달러_diff: 0.0
+- 원달러_criteria: {'method': 'empirical_percentile', 'lookback_observations': 2800, 'high': 1348.3, 'low': 1128.3, 'high_q': 0.8, 'low_q': 0.2}
+- 신용스프레드_bbb-_level: 6.32
+- 신용스프레드_bbb-_diff: 0.0
+- 신용스프레드_aa-_level: 0.48
+- 신용스프레드_aa-_diff: 0.0
+- 국고채_10년_zone: `neutral`
+- 국고채_3년_zone: `neutral`
+- 콜금리_zone: `neutral`
+- cd금리_91일_zone: `neutral`
+- 원달러_zone: `high`
+- 신용스프레드_bbb-_zone: `low`
+- 신용스프레드_aa-_zone: `low`
+
+### ext_일별
+- 미국_국채_10년_2년_스프레드: 0.637
+- 미국_국채_10년_2년_스프레드_diff: 0.0
+- 미국_국채_10년_2년_스프레드_criteria: {'method': 'empirical_percentile', 'lookback_observations': 2800, 'high': 0.5810000157356262, 'low': -0.35199993324279755, 'high_q': 0.8, 'low_q': 0.2}
+- 미국_국채_10년_level: 4.227
+- 미국_국채_10년_diff: 0.0
+- 미국_국채_10년_criteria: {'method': 'empirical_percentile', 'lookback_observations': 2800, 'high': 4.196000099182129, 'low': 1.5299999713897705, 'high_q': 0.8, 'low_q': 0.2}
+- 미국_국채_13주_level: 4.043
+- 미국_국채_13주_diff: 0.0
+- 미국_국채_13주_criteria: {'method': 'empirical_percentile', 'lookback_observations': 2800, 'high': 4.660999870300294, 'low': 0.1000000014901161, 'high_q': 0.8, 'low_q': 0.2}
+- 달러인덱스_dxy_level: 97.77
+- 달러인덱스_dxy_diff: 0.0
+- 달러인덱스_dxy_criteria: {'method': 'empirical_percentile', 'lookback_observations': 2800, 'high': 104.19200134277344, 'low': 93.70399932861328, 'high_q': 0.8, 'low_q': 0.2}
+- 유가_평균_diff: 0.0
+- 유가_wti_diff: 0.0
+- 유가_brent_diff: 0.0
+- 구리_diff: 0.0
+- 미국_하이일드_스프레드_level: 2.84
+- 미국_하이일드_스프레드_diff: 0.02
+- 미국_국채_10년_zone: `high`
+- 미국_국채_13주_zone: `neutral`
+- 달러인덱스_dxy_zone: `neutral`
+
+### ecos_월별
+- 한국_기준금리_level: 2.5
+- 한국_기준금리_diff: 0.0
+- 한국_기준금리_criteria: {'method': 'empirical_percentile', 'lookback_observations': 92, 'high': 3.5, 'low': 0.75, 'high_q': 0.8, 'low_q': 0.2}
+- cpi_전년비_level: 116.45
+- bsi_전산업_전망_level: 67.0
+- 실업률_level: 2.4
+- 한국_기준금리_zone: `neutral`
+- cpi_전년비_zone: `high`
+- bsi_전산업_전망_zone: `low`
+
+### ecos_분기별
+- gdp성장률_전년비_level: 1.8
+- gdp성장률_전기비_level: 1.3
+
+### ext_월별
+- 미국_기준금리_ffr_level: 4.33
+- 미국_기준금리_ffr_diff: 0.0
+- 미국_기준금리_ffr_criteria: {'method': 'empirical_percentile', 'lookback_observations': 92, 'high': 4.794, 'low': 0.09, 'high_q': 0.8, 'low_q': 0.2}
+- 미국_실업률_level: 4.3
+- oecd_cli_한국_level: 100.3238
+- oecd_cli_한국_diff: 0.1594
+- oecd_cli_미국_level: 99.8597
+- oecd_cli_미국_diff: 0.0677
+- g20_cli_level: 100.0273
+- g20_cli_diff: 0.0392
+- 미국_기준금리_ffr_zone: `neutral`
+- 미국_실업률_zone: `neutral`
+- oecd_cli_한국_zone: `neutral`
+- oecd_cli_미국_zone: `neutral`
+- g20_cli_zone: `neutral`
+
+### 뉴스
+- positive_keyword_count: 0
+- negative_keyword_count: 0
+
+### 규제
+- regulation_risk_keyword_count: 0
+
+---
+
+## 🤖 LLM 보조 분석 (반도체 딥테크 섹터 관점)
+
+### 요약
+현재 매크로 환경은 전반적으로 중립적인 우호성을 보이며, 리스크 레벨은 'medium'으로 평가됩니다. 이는 반도체 딥테크 기업 투자에 있어 신중한 접근이 필요한 시점임을 시사합니다.
+
+### 매크로 해석
+유동성 측면에서 국고채, 콜금리, CD 금리 등 주요 금리 수준이 과거 2800일 관측치의 80% 분위수 하단에 근접하거나 그 이하에 위치하여 유동성 공급이 원활한 환경입니다. 이는 반도체 섹터의 자금 조달 및 투자 활동에 긍정적인 영향을 줄 수 있습니다. 신용 리스크는 국고채 10년-3년 스프레드가 과거 관측치의 20% 분위수 하단에 근접하여 신용 경색 우려가 낮음을 시사합니다. 이는 반도체 기업들의 재무 건전성 유지에 유리한 환경입니다. 환율 측면에서 원달러 환율이 과거 2800일 관측치의 80% 분위수 상단에 근접하여 높은 수준을 유지하고 있습니다. 이는 반도체 수출 기업의 원화 환산 실적에 단기적으로 긍정적일 수 있으나, 과도한 환율 상승은 수입 원가 부담 증가 및 글로벌 수요 둔화 우려를 야기할 수 있습니다. 인플레이션은 월별 CPI 레벨이 과거 관측치 대비 명확한 방향성을 제시하지 않으나, 전반적인 금리 수준이 안정적인 흐름을 보이고 있습니다. 투자심리 및 뉴스 측면에서는 긍정적 또는 부정적 키워드 언급이 없어 중립적인 상황입니다. 이는 반도체 섹터의 투자 심리에 큰 영향을 미치지 않는 중립적인 환경입니다. 규제 리스크 측면에서도 관련 키워드 언급이 없어 현재로서는 규제 관련 불확실성이 낮은 상황입니다. 이는 반도체 딥테크 기업들의 사업 운영에 있어 직접적인 부담 요인이 적음을 의미합니다.
+
+### 🔬 반도체 섹터 종합 영향
+현재 매크로 환경은 금리 수준이 안정적이고 유동성이 풍부하여 반도체 딥테크 기업의 투자 및 운영에 긍정적인 기반을 제공합니다. 다만, 높은 원달러 환율은 수출 기업의 실적에 단기적 이점을 줄 수 있으나, 장기적으로는 글로벌 수요 및 원가 부담에 대한 모니터링이 필요합니다. 전반적으로는 신중한 관망세를 유지하며 개별 기업의 펀더멘털과 AI Capex 사이클 등 섹터별 요인을 면밀히 분석할 필요가 있습니다.
+
+### 주요 리스크
+- 원달러 환율 레벨 (1388.6)이 과거 2800일 관측치의 80% 분위수 상단에 근접하여 높은 수준을 유지하고 있습니다.
+- 미국 국채 10년 레벨 (4.227)이 과거 2800일 관측치의 80% 분위수 상단에 근접하여 높은 수준을 유지하고 있습니다.
+- 미국 기준금리 FFR 레벨 (4.33)이 과거 92개월 관측치의 80% 분위수 상단에 근접하여 높은 수준을 유지하고 있습니다.
+
+### 📌 확인 포인트 (Watch Points)
+
+| 지표 | 현재 상태 | 주의 기준 | 반도체 관련성 |
+|---|---|---|---|
+| 원달러 환율 | 1388.6으로 높은 수준 유지 | 과거 80% 분위수 상단 근접, 추가 상승 시 수입 원가 부담 및 수요 둔화 우려 | 수출 비중 높은 반도체 기업의 실적 및 가격 경쟁력에 영향 |
+| 미국 국채 10년 금리 | 4.227%로 높은 수준 유지 | 과거 80% 분위수 상단 근접, 고금리 장기화 시 성장주 밸류에이션 할인 요인으로 작용 | 반도체 딥테크 기업의 투자 비용 및 밸류에이션에 영향 |
+| OECD CLI (한국) | 100.3238로 기준선 상회 | 미국 CLI 대비 상승폭 둔화, 향후 경기 흐름에 대한 추가 확인 필요 | 국내 반도체 수요 및 투자 심리에 간접적인 영향 |
+
+### 🔗 근거 연결 (Evidence Links)
+
+- **[macro_ev_1]** 주요 금리 수준이 과거 관측치의 80% 분위수 하단에 근접하거나 그 이하에 위치하여 유동성 공급이 원활한 환경입니다. _(출처: ecos_일별)_
+- **[macro_ev_2]** 국고채 10년-3년 스프레드가 과거 관측치의 20% 분위수 하단에 근접하여 신용 경색 우려가 낮습니다. _(출처: ecos_일별)_
+- **[macro_ev_3]** 원달러 환율이 과거 2800일 관측치의 80% 분위수 상단에 근접하여 높은 수준을 유지하고 있습니다. _(출처: ecos_일별)_
+- **[macro_ev_4]** 미국 국채 10년 레벨이 과거 2800일 관측치의 80% 분위수 상단에 근접하여 높은 수준을 유지하고 있습니다. _(출처: ext_일별)_
+- **[macro_ev_5]** 미국 기준금리 FFR 레벨이 과거 92개월 관측치의 80% 분위수 상단에 근접하여 높은 수준을 유지하고 있습니다. _(출처: ext_월별)_
+
+---
+
+## 📂 상세 데이터
+
+### 시장벤치마크
+- market_benchmark_available: True
+- kospi_지수: 3186.01
+- kosdaq_지수: 796.91
+- krx_반도체_지수: 3921.15
+- 코스피200: 430.12
+- 나스닥: 21455.55
+- sox_반도체_지수: 5668.9399
+- s&p500: 6460.26
+- 시장수익률_20일: 3.1798
+- 시장수익률_60일: 8.7621
+- 시장변동성_20일: 12.9429
+- 시장변동성_z_252일: -0.8675
+- 시장모멘텀_20_60: -5.0306
+- 시장_risk_off_비율: 0.2143
+- 한국시장수익률_20일: 2.4968
+- 미국시장수익률_20일: 3.7316
+- 반도체섹터수익률_20일: 3.8044
+- 반도체섹터변동성_20일: 21.9761
+- 반도체섹터모멘텀_20_60: -9.9655
+- available_market_benchmark_columns: ['kospi_지수', 'kosdaq_지수', 'krx_반도체_지수', '코스피200', '나스닥', 'sox_반도체_지수', 's&p500', '시장수익률_20일', '시장수익률_60일', '시장변동성_20일', '시장변동성_z_252일', '시장모멘텀_20_60', '시장_risk_off_비율', '한국시장수익률_20일', '미국시장수익률_20일', '반도체섹터수익률_20일', '반도체섹터변동성_20일', '반도체섹터모멘텀_20_60']
+
+### 변화율_rolling_기준
+- score_raw: 8
+- score_capped: 4
+- details: {'ecos_일별': {'rolling_available': True, 'method': 'backward_looking_pct_change + rolling_zscore + empirical_quantile_cutoff', 'basis': {'daily_horizons': ['1영업일', '5영업일', '20영업일', '60영업일'], 'monthly_horizons': ['1개월', '3개월', '6개월', '12개월'], 'zscore_watch': '|z| >= 2.0', 'zscore_extreme': '|z| >= 3.0', 'shock_watch_quantile': '5% / 95%', 'shock_extreme_quantile': '1% / 99%', 'no_lookahead': '현재값은 rolling 평균/표준편차/cutoff 산정에서 제외'}, 'dataset_score_raw': 2, 'dataset_score_capped': 2, 'triggered_count': 4, 'triggered_items': [{'indicator': '미국_국채_13주', 'direction_rule': 'risk_up', 'z_alert': -2, 'shock_flag': 0, 'latest_1_period_change_pct': 0.0, 'latest_zscore': -3.9713, 'score_impact': 2}, {'indicator': '미국_단기금리_3m', 'direction_rule': 'risk_up', 'z_alert': -2, 'shock_flag': 0, 'latest_1_period_change_pct': 0.0, 'latest_zscore': -3.9211, 'score_impact': 2}, {'indicator': '미국_회사채_aaa', 'direction_rule': 'risk_up', 'z_alert': 0, 'shock_flag': 1, 'latest_1_period_change_pct': 1.2766, 'latest_zscore': -0.6898, 'score_impact': -1}, {'indicator': 'krx_반도체_지수_변동성_z_252일', 'direction_rule': 'market_up', 'z_alert': -1, 'shock_flag': 0, 'latest_1_period_change_pct': 0.0, 'latest_zscore': -2.4956, 'score_impact': -1}]}, 'ext_일별': {'rolling_available': True, 'method': 'backward_looking_pct_change + rolling_zscore + empirical_quantile_cutoff', 'basis': {'daily_horizons': ['1영업일', '5영업일', '20영업일', '60영업일'], 'monthly_horizons': ['1개월', '3개월', '6개월', '12개월'], 'zscore_watch': '|z| >= 2.0', 'zscore_extreme': '|z| >= 3.0', 'shock_watch_quantile': '5% / 95%', 'shock_extreme_quantile': '1% / 99%', 'no_lookahead': '현재값은 rolling 평균/표준편차/cutoff 산정에서 제외'}, 'dataset_score_raw': 2, 'dataset_score_capped': 2, 'triggered_count': 4, 'triggered_items': [{'indicator': '미국_국채_13주', 'direction_rule': 'risk_up', 'z_alert': -2, 'shock_flag': 0, 'latest_1_period_change_pct': 0.0, 'latest_zscore': -3.9713, 'score_impact': 2}, {'indicator': '미국_단기금리_3m', 'direction_rule': 'risk_up', 'z_alert': -2, 'shock_flag': 0, 'latest_1_period_change_pct': 0.0, 'latest_zscore': -3.9211, 'score_impact': 2}, {'indicator': '미국_회사채_aaa', 'direction_rule': 'risk_up', 'z_alert': 0, 'shock_flag': 1, 'latest_1_period_change_pct': 1.2766, 'latest_zscore': -0.6898, 'score_impact': -1}, {'indicator': 'krx_반도체_지수_변동성_z_252일', 'direction_rule': 'market_up', 'z_alert': -1, 'shock_flag': 0, 'latest_1_period_change_pct': 0.0, 'latest_zscore': -2.4956, 'score_impact': -1}]}, 'ecos_월별': {'rolling_available': True, 'method': 'backward_looking_pct_change + rolling_zscore + empirical_quantile_cutoff', 'basis': {'daily_horizons': ['1영업일', '5영업일', '20영업일', '60영업일'], 'monthly_horizons': ['1개월', '3개월', '6개월', '12개월'], 'zscore_watch': '|z| >= 2.0', 'zscore_extreme': '|z| >= 3.0', 'shock_watch_quantile': '5% / 95%', 'shock_extreme_quantile': '1% / 99%', 'no_lookahead': '현재값은 rolling 평균/표준편차/cutoff 산정에서 제외'}, 'dataset_score_raw': 10, 'dataset_score_capped': 2, 'triggered_count': 13, 'triggered_items': [{'indicator': '나스닥_수익률_1일', 'direction_rule': 'market_up', 'z_alert': 0, 'shock_flag': 2, 'latest_1_period_change_pct': 3265.5381, 'latest_zscore': -0.7868, 'score_impact': 2}, {'indicator': '나스닥_변동성_20일', 'direction_rule': 'market_up', 'z_alert': 0, 'shock_flag': 2, 'latest_1_period_change_pct': 166.3053, 'latest_zscore': -0.6918, 'score_impact': 2}, {'indicator': '반도체섹터수익률_20일', 'direction_rule': 'market_up', 'z_alert': 0, 'shock_flag': 2, 'latest_1_period_change_pct': 36757.9409, 'latest_zscore': 0.3684, 'score_impact': 2}, {'indicator': 'krx_반도체_지수_수익률_20일', 'direction_rule': 'market_up', 'z_alert': 0, 'shock_flag': 1, 'latest_1_period_change_pct': 606.7652, 'latest_zscore': 0.5178, 'score_impact': 1}, {'indicator': 's&p500_수익률_20일', 'direction_rule': 'market_up', 'z_alert': 0, 'shock_flag': 1, 'latest_1_period_change_pct': 272.623, 'latest_zscore': 0.6065, 'score_impact': 1}, {'indicator': '나스닥', 'direction_rule': 'market_up', 'z_alert': 1, 'shock_flag': 0, 'latest_1_period_change_pct': 1.577, 'latest_zscore': 2.5008, 'score_impact': 1}, {'indicator': 'sox_반도체_지수', 'direction_rule': 'market_up', 'z_alert': 1, 'shock_flag': 0, 'latest_1_period_change_pct': 1.0881, 'latest_zscore': 2.0558, 'score_impact': 1}, {'indicator': 's&p500', 'direction_rule': 'market_up', 'z_alert': 1, 'shock_flag': 0, 'latest_1_period_change_pct': 1.9067, 'latest_zscore': 2.3237, 'score_impact': 1}, {'indicator': 'kospi_지수_모멘텀_20_60', 'direction_rule': 'market_up', 'z_alert': -1, 'shock_flag': 0, 'latest_1_period_change_pct': -29.9639, 'latest_zscore': -2.0119, 'score_impact': -1}, {'indicator': 'krx_반도체_지수_변동성_z_252일', 'direction_rule': 'market_up', 'z_alert': -1, 'shock_flag': 0, 'latest_1_period_change_pct': 40.7428, 'latest_zscore': -2.3359, 'score_impact': -1}, {'indicator': '미국_회사채_bbb', 'direction_rule': 'risk_up', 'z_alert': -1, 'shock_flag': 0, 'latest_1_period_change_pct': -3.2258, 'latest_zscore': -2.236, 'score_impact': 1}, {'indicator': '원유로', 'direction_rule': 'neutral', 'z_alert': 1, 'shock_flag': 0, 'latest_1_period_change_pct': 2.6582, 'latest_zscore': 2.6244, 'score_impact': 0}]}, 'ext_월별': {'rolling_available': True, 'method': 'backward_looking_pct_change + rolling_zscore + empirical_quantile_cutoff', 'basis': {'daily_horizons': ['1영업일', '5영업일', '20영업일', '60영업일'], 'monthly_horizons': ['1개월', '3개월', '6개월', '12개월'], 'zscore_watch': '|z| >= 2.0', 'zscore_extreme': '|z| >= 3.0', 'shock_watch_quantile': '5% / 95%', 'shock_extreme_quantile': '1% / 99%', 'no_lookahead': '현재값은 rolling 평균/표준편차/cutoff 산정에서 제외'}, 'dataset_score_raw': 10, 'dataset_score_capped': 2, 'triggered_count': 13, 'triggered_items': [{'indicator': '나스닥_수익률_1일', 'direction_rule': 'market_up', 'z_alert': 0, 'shock_flag': 2, 'latest_1_period_change_pct': 3265.5381, 'latest_zscore': -0.7868, 'score_impact': 2}, {'indicator': '나스닥_변동성_20일', 'direction_rule': 'market_up', 'z_alert': 0, 'shock_flag': 2, 'latest_1_period_change_pct': 166.3053, 'latest_zscore': -0.6918, 'score_impact': 2}, {'indicator': '반도체섹터수익률_20일', 'direction_rule': 'market_up', 'z_alert': 0, 'shock_flag': 2, 'latest_1_period_change_pct': 36757.9409, 'latest_zscore': 0.3684, 'score_impact': 2}, {'indicator': 'krx_반도체_지수_수익률_20일', 'direction_rule': 'market_up', 'z_alert': 0, 'shock_flag': 1, 'latest_1_period_change_pct': 606.7652, 'latest_zscore': 0.5178, 'score_impact': 1}, {'indicator': 's&p500_수익률_20일', 'direction_rule': 'market_up', 'z_alert': 0, 'shock_flag': 1, 'latest_1_period_change_pct': 272.623, 'latest_zscore': 0.6065, 'score_impact': 1}, {'indicator': '나스닥', 'direction_rule': 'market_up', 'z_alert': 1, 'shock_flag': 0, 'latest_1_period_change_pct': 1.577, 'latest_zscore': 2.5008, 'score_impact': 1}, {'indicator': 'sox_반도체_지수', 'direction_rule': 'market_up', 'z_alert': 1, 'shock_flag': 0, 'latest_1_period_change_pct': 1.0881, 'latest_zscore': 2.0558, 'score_impact': 1}, {'indicator': 's&p500', 'direction_rule': 'market_up', 'z_alert': 1, 'shock_flag': 0, 'latest_1_period_change_pct': 1.9067, 'latest_zscore': 2.3237, 'score_impact': 1}, {'indicator': 'kospi_지수_모멘텀_20_60', 'direction_rule': 'market_up', 'z_alert': -1, 'shock_flag': 0, 'latest_1_period_change_pct': -29.9639, 'latest_zscore': -2.0119, 'score_impact': -1}, {'indicator': 'krx_반도체_지수_변동성_z_252일', 'direction_rule': 'market_up', 'z_alert': -1, 'shock_flag': 0, 'latest_1_period_change_pct': 40.7428, 'latest_zscore': -2.3359, 'score_impact': -1}, {'indicator': '미국_회사채_bbb', 'direction_rule': 'risk_up', 'z_alert': -1, 'shock_flag': 0, 'latest_1_period_change_pct': -3.2258, 'latest_zscore': -2.236, 'score_impact': 1}, {'indicator': '원유로', 'direction_rule': 'neutral', 'z_alert': 1, 'shock_flag': 0, 'latest_1_period_change_pct': 2.6582, 'latest_zscore': 2.6244, 'score_impact': 0}]}}
+
+### 기업별_macro_민감도
+- score: -1
+- reasons: ['소재/화학 기업 + 원자재 가격 하락 압력 → 원가 부담 완화', '딥테크/장기 성장 기업 + 금리 상승 압력 → 할인율·자금조달 민감도 부담']
+- details: {'company': '한솔케미칼', 'company_dir': 'hansol', 'field': '반도체', 'method': 'company_exposure_from_local_disclosures_and_yaml + macro_shock_from_official_timeseries_rolling_criteria', 'score_raw': -1, 'score_capped': -1, 'basis': {'macro_level': '한국은행 ECOS/FRED 등 공식 시계열의 과거분포 20/80 분위 기준', 'macro_rolling': 'rolling z-score ±2σ watch, ±3σ extreme 및 과거분포 5/95·1/99 분위 급등/급락 cutoff', 'export_fx': 'DART 사업보고서의 내수/수출·지역별 매출 또는 사용자가 입력한 외부 CSV export_ratio를 우선 사용', 'raw_material': 'DART 사업보고서 원재료/생산설비·원재료 가격 추이 또는 company.yaml의 명시 제품/소재 키워드 사용', 'equipment_regulation': 'BIS/수출통제 등 규제 뉴스 텍스트와 company.yaml의 반도체 장비 키워드 매칭', 'memory_hbm_demand': 'WSTS/SIA 등 반도체·메모리 수요 proxy 또는 로컬 시장/월별 데이터의 메모리/HBM/반도체 지표 변화율 사용', 'rate_sensitivity': 'DCF/현재가치 원리에 따라 미래 현금흐름 비중이 큰 딥테크·적자·FCF 음수 기업은 금리 충격에 민감하게 표시', 'credit_spread': '회사채/신용스프레드 확대와 기업별 부채비율 cross-section 분위수 결합'}, 'context': {'slug': 'hansol', 'company_name': '한솔케미칼', 'field': '반도체', 'config_path': 'C:\\Agent_6.9\\data\\반도체\\한솔케미칼\\_company_common\\company.yaml', 'finance_csv_path': 'C:\\Agent_6.9\\data\\반도체\\한솔케미칼\\finance\\한솔케미칼_재무.csv', 'external_sensitivity_path': 'C:\\Agent_6.9\\data\\반도체\\_sector_common\\macro_company_sensitivity\\company_sensitivity_external.csv', 'role_flags': {'material_company': True, 'equipment_company': False, 'backend_packaging_company': False, 'hbm_memory_linked': False, 'deeptech_company': True, 'export_keyword_hint': False}, 'role_evidence': {'material_company': ['소재', '화학', '케미칼', '전구체', 'precursor', '고순도', 'chemical'], 'equipment_company': [], 'backend_packaging_company': [], 'hbm_memory_linked': [], 'deeptech_company': ['소재'], 'export_keyword_hint': []}, 'metrics': {'sales': 776356975793.0, 'operating_income': 128825376120.0, 'net_income': 124893890949.0, 'fcf': 51207050483.0, 'debt_ratio_pct': 36.70142565566521, 'current_ratio_pct': 127.78483346179397, 'loss_making': False, 'fcf_negative': False}, 'metric_percentiles': {'debt_ratio_pct': {'available': True, 'observations': 48, 'current': 36.70142565566521, 'pctl_rank': 0.5625, 'q20': 19.93137587284535, 'q50': 32.39323385773789, 'q80': 83.97626273385403, 'method': 'same_field_cross_section_percentile_latest_finance_csv'}, 'fcf': {'available': True, 'observations': 48, 'current': 51207050483.0, 'pctl_rank': 0.7708, 'q20': -5926914990.0, 'q50': 24854117993.5, 'q80': 83339220524.40001, 'method': 'same_field_cross_section_percentile_latest_finance_csv'}}}, 'axes': {'export_fx_sensitivity': {'score': 0, 'exposure_level': 'unknown', 'exposure_metric': None, 'role_keyword_hint': False, 'macro_pressure': {'available': True, 'pressure': 0, 'events': [{'dataset': 'ecos_월별', 'indicator': '원달러', 'latest': 1388.6, 'diff': 5.699999999999818, 'chg1_pct': 0.4121773085544733, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 0, 'zscore': 0.987803946715803, 'pressure_component': 1}, {'dataset': 'ext_월별', 'indicator': '원달러', 'latest': 1388.6, 'diff': 5.699999999999818, 'chg1_pct': 0.4121773085544733, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 0, 'zscore': 0.987803946715803, 'pressure_component': 1}, {'dataset': 'ecos_분기별', 'indicator': '원달러', 'latest': 1382.9, 'diff': -55.59999999999991, 'chg1_pct': None, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 0, 'zscore': None, 'pressure_component': -1}, {'dataset': 'ecos_월별', 'indicator': '달러인덱스_dxy', 'latest': 97.7699966430664, 'diff': -2.2600021362304688, 'chg1_pct': -2.2593243665001594, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 0, 'zscore': -0.47905021901239814, 'pressure_component': -1}, {'dataset': 'ext_월별', 'indicator': '달러인덱스_dxy', 'latest': 97.7699966430664, 'diff': -2.2600021362304688, 'chg1_pct': -2.2593243665001594, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 0, 'zscore': -0.47905021901239814, 'pressure_component': -1}, {'dataset': 'ecos_분기별', 'indicator': '달러인덱스_dxy', 'latest': 100.02999877929688, 'diff': 0.55999755859375, 'chg1_pct': None, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 0, 'zscore': None, 'pressure_component': 1}, {'dataset': 'ecos_일별', 'indicator': '원달러', 'latest': 1388.6, 'diff': 0.0, 'chg1_pct': 0.0, 'chg20_pct': 0.18759018759018087, 'z_alert': 0, 'shock_flag': 0, 'zscore': -0.7787945474903152, 'pressure_component': 0}, {'dataset': 'ext_일별', 'indicator': '원달러', 'latest': 1388.6, 'diff': 0.0, 'chg1_pct': 0.0, 'chg20_pct': 0.18759018759018087, 'z_alert': 0, 'shock_flag': 0, 'zscore': -0.7787945474903152, 'pressure_component': 0}]}, 'basis': 'DART 사업보고서의 내수/수출·지역별 매출 또는 사용자가 입력한 외부 CSV export_ratio를 우선 사용'}, 'raw_material_sensitivity': {'score': 1, 'material_role': True, 'role_evidence': ['소재', '화학', '케미칼', '전구체', 'precursor', '고순도', 'chemical'], 'raw_material_ratio_pct': None, 'raw_material_ratio_level': 'unknown', 'macro_pressure': {'available': True, 'pressure': -3, 'events': [{'dataset': 'ecos_월별', 'indicator': '유가_wti', 'latest': 64.01000213623047, 'diff': -5.25, 'chg1_pct': -7.580132599005052, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 0, 'zscore': -0.6810912620306011, 'pressure_component': -1}, {'dataset': 'ecos_월별', 'indicator': '유가_brent', 'latest': 68.12000274658203, 'diff': -4.409996032714844, 'chg1_pct': -6.080237290688673, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 0, 'zscore': -0.6516144514182349, 'pressure_component': -1}, {'dataset': 'ecos_월별', 'indicator': '유가_평균', 'latest': 66.06500244140625, 'diff': -4.829998016357422, 'chg1_pct': -6.812889463531258, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 0, 'zscore': -0.6665171013877316, 'pressure_component': -1}, {'dataset': 'ecos_월별', 'indicator': '유가_브렌트_wti_스프레드', 'latest': 4.1100006103515625, 'diff': 0.8400039672851562, 'chg1_pct': 25.688221089348005, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 0, 'zscore': -0.20165426429756034, 'pressure_component': 1}, {'dataset': 'ext_월별', 'indicator': '유가_wti', 'latest': 64.01000213623047, 'diff': -5.25, 'chg1_pct': -7.580132599005052, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 0, 'zscore': -0.6810912620306011, 'pressure_component': -1}, {'dataset': 'ext_월별', 'indicator': '유가_brent', 'latest': 68.12000274658203, 'diff': -4.409996032714844, 'chg1_pct': -6.080237290688673, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 0, 'zscore': -0.6516144514182349, 'pressure_component': -1}, {'dataset': 'ext_월별', 'indicator': '유가_평균', 'latest': 66.06500244140625, 'diff': -4.829998016357422, 'chg1_pct': -6.812889463531258, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 0, 'zscore': -0.6665171013877316, 'pressure_component': -1}, {'dataset': 'ext_월별', 'indicator': '유가_브렌트_wti_스프레드', 'latest': 4.1100006103515625, 'diff': 0.8400039672851562, 'chg1_pct': 25.688221089348005, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 0, 'zscore': -0.20165426429756034, 'pressure_component': 1}]}, 'basis': 'DART 사업보고서 원재료/생산설비·원재료 가격 추이 또는 company.yaml의 명시 제품/소재 키워드 사용'}, 'equipment_regulation_sensitivity': {'score': 0, 'equipment_role': False, 'role_evidence': [], 'macro_pressure': {'available': True, 'pressure': 0, 'keyword_count': 0, 'method': 'recent_regulation_keyword_count_tail30'}, 'basis': 'BIS/수출통제 등 규제 뉴스 텍스트와 company.yaml의 반도체 장비 키워드 매칭'}, 'backend_hbm_memory_demand_sensitivity': {'score': 0, 'backend_role': False, 'hbm_memory_linked': False, 'role_evidence': [], 'macro_pressure': {'available': True, 'pressure': 3, 'events': [{'dataset': 'ecos_월별', 'indicator': 'sox_반도체_지수', 'latest': 5668.93994140625, 'diff': 61.02001953125, 'chg1_pct': 1.0881043306846694, 'chg20_pct': None, 'z_alert': 1, 'shock_flag': 0, 'zscore': 2.055807696171339, 'pressure_component': 2}, {'dataset': 'ecos_월별', 'indicator': 'krx_반도체_지수_수익률_20일', 'latest': 5.052001564601438, 'diff': 4.337195378166836, 'chg1_pct': 606.7652267813223, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 1, 'zscore': 0.5178220022906805, 'pressure_component': 2}, {'dataset': 'ecos_월별', 'indicator': 'krx_반도체_지수_변동성_z_252일', 'latest': -2.265881033853194, 'diff': -0.6559368439410493, 'chg1_pct': 40.74283121434441, 'chg20_pct': None, 'z_alert': -1, 'shock_flag': 0, 'zscore': -2.3359258223929196, 'pressure_component': -2}, {'dataset': 'ecos_월별', 'indicator': '반도체섹터수익률_20일', 'latest': 3.80440213135238, 'diff': 3.7940803335478557, 'chg1_pct': 36757.940868448124, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 2, 'zscore': 0.3683643255386787, 'pressure_component': 2}, {'dataset': 'ext_월별', 'indicator': 'sox_반도체_지수', 'latest': 5668.93994140625, 'diff': 61.02001953125, 'chg1_pct': 1.0881043306846694, 'chg20_pct': None, 'z_alert': 1, 'shock_flag': 0, 'zscore': 2.055807696171339, 'pressure_component': 2}, {'dataset': 'ext_월별', 'indicator': 'krx_반도체_지수_수익률_20일', 'latest': 5.052001564601438, 'diff': 4.337195378166836, 'chg1_pct': 606.7652267813223, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 1, 'zscore': 0.5178220022906805, 'pressure_component': 2}, {'dataset': 'ext_월별', 'indicator': 'krx_반도체_지수_변동성_z_252일', 'latest': -2.265881033853194, 'diff': -0.6559368439410493, 'chg1_pct': 40.74283121434441, 'chg20_pct': None, 'z_alert': -1, 'shock_flag': 0, 'zscore': -2.3359258223929196, 'pressure_component': -2}, {'dataset': 'ext_월별', 'indicator': '반도체섹터수익률_20일', 'latest': 3.80440213135238, 'diff': 3.7940803335478557, 'chg1_pct': 36757.940868448124, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 2, 'zscore': 0.3683643255386787, 'pressure_component': 2}]}, 'basis': 'WSTS/SIA 등 반도체·메모리 수요 proxy 또는 로컬 시장/월별 데이터의 메모리/HBM/반도체 지표 변화율 사용'}, 'deeptech_loss_rate_sensitivity': {'score': -2, 'deeptech_role': True, 'loss_making': False, 'fcf_negative': False, 'operating_margin_pct': None, 'net_margin_pct': None, 'fcf': 51207050483.0, 'macro_pressure': {'available': True, 'pressure': 3, 'events': [{'dataset': 'ecos_월별', 'indicator': '국고채_10년', 'latest': 2.815, 'diff': 0.029999999999999805, 'chg1_pct': 1.077199281867136, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 0, 'zscore': -0.15335376940582762, 'pressure_component': 1}, {'dataset': 'ecos_월별', 'indicator': '국고채_3년', 'latest': 2.426, 'diff': -0.03399999999999981, 'chg1_pct': -1.382113821138209, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 0, 'zscore': -0.20987747621776662, 'pressure_component': -1}, {'dataset': 'ecos_월별', 'indicator': '콜금리', 'latest': 2.521, 'diff': 0.007000000000000117, 'chg1_pct': 0.27844073190135266, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 0, 'zscore': 0.10573254406876556, 'pressure_component': 1}, {'dataset': 'ecos_월별', 'indicator': 'cd금리_91일', 'latest': 2.53, 'diff': 0.020000000000000018, 'chg1_pct': 0.7968127490039834, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 0, 'zscore': 0.009941987566288729, 'pressure_component': 1}, {'dataset': 'ecos_월별', 'indicator': '회사채_aa-', 'latest': 2.906, 'diff': -0.04599999999999982, 'chg1_pct': -1.5582655826558156, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 0, 'zscore': -0.4957394268574349, 'pressure_component': -1}, {'dataset': 'ecos_월별', 'indicator': '회사채_bbb-', 'latest': 8.746, 'diff': -0.03599999999999959, 'chg1_pct': -0.4099294010475929, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 0, 'zscore': -0.7585712536539317, 'pressure_component': -1}, {'dataset': 'ecos_월별', 'indicator': '국고채_10년_3년_스프레드', 'latest': 0.3889999999999998, 'diff': 0.06399999999999961, 'chg1_pct': 19.692307692307566, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 0, 'zscore': 0.33597363581245815, 'pressure_component': 1}, {'dataset': 'ext_월별', 'indicator': '국고채_10년', 'latest': 2.815, 'diff': 0.029999999999999805, 'chg1_pct': 1.077199281867136, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 0, 'zscore': -0.15335376940582762, 'pressure_component': 1}]}, 'basis': 'DCF/현재가치 원리에 따라 미래 현금흐름 비중이 큰 딥테크·적자·FCF 음수 기업은 금리 충격에 민감하게 표시'}, 'high_debt_credit_spread_sensitivity': {'score': 0, 'debt_ratio_pct': 36.70142565566521, 'debt_ratio_percentile': {'available': True, 'observations': 48, 'current': 36.70142565566521, 'pctl_rank': 0.5625, 'q20': 19.93137587284535, 'q50': 32.39323385773789, 'q80': 83.97626273385403, 'method': 'same_field_cross_section_percentile_latest_finance_csv'}, 'high_debt_by_same_field_p80': False, 'macro_pressure': {'available': True, 'pressure': -3, 'events': [{'dataset': 'ecos_월별', 'indicator': '회사채_aa-', 'latest': 2.906, 'diff': -0.04599999999999982, 'chg1_pct': -1.5582655826558156, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 0, 'zscore': -0.4957394268574349, 'pressure_component': -1}, {'dataset': 'ecos_월별', 'indicator': '회사채_bbb-', 'latest': 8.746, 'diff': -0.03599999999999959, 'chg1_pct': -0.4099294010475929, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 0, 'zscore': -0.7585712536539317, 'pressure_component': -1}, {'dataset': 'ecos_월별', 'indicator': '신용스프레드_aa-', 'latest': 0.48, 'diff': -0.01200000000000001, 'chg1_pct': -2.4390243902439046, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 0, 'zscore': -1.0056547178557957, 'pressure_component': -1}, {'dataset': 'ecos_월별', 'indicator': '신용스프레드_bbb-', 'latest': 6.32, 'diff': -0.0019999999999997797, 'chg1_pct': -0.03163555836760423, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 0, 'zscore': -1.3278588180807334, 'pressure_component': -1}, {'dataset': 'ext_월별', 'indicator': '회사채_aa-', 'latest': 2.906, 'diff': -0.04599999999999982, 'chg1_pct': -1.5582655826558156, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 0, 'zscore': -0.4957394268574349, 'pressure_component': -1}, {'dataset': 'ext_월별', 'indicator': '회사채_bbb-', 'latest': 8.746, 'diff': -0.03599999999999959, 'chg1_pct': -0.4099294010475929, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 0, 'zscore': -0.7585712536539317, 'pressure_component': -1}, {'dataset': 'ext_월별', 'indicator': '신용스프레드_aa-', 'latest': 0.48, 'diff': -0.01200000000000001, 'chg1_pct': -2.4390243902439046, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 0, 'zscore': -1.0056547178557957, 'pressure_component': -1}, {'dataset': 'ext_월별', 'indicator': '신용스프레드_bbb-', 'latest': 6.32, 'diff': -0.0019999999999997797, 'chg1_pct': -0.03163555836760423, 'chg20_pct': None, 'z_alert': 0, 'shock_flag': 0, 'zscore': -1.3278588180807334, 'pressure_component': -1}]}, 'basis': '회사채/신용스프레드 확대와 기업별 부채비율 cross-section 분위수 결합'}}, 'note': '숫자 노출도가 없으면 임의 수치를 만들지 않고 company.yaml 명시 키워드와 로컬 산출물만 사용합니다.'}
+
+### macro_numeric_criteria
+- ecos_일별: {'국고채_10년': {'method': 'empirical_percentile', 'lookback_observations': 2800, 'high': 3.372, 'low': 1.7222000000000004, 'high_q': 0.8, 'low_q': 0.2, 'latest': 2.815, 'zone': 'neutral'}, '국고채_3년': {'method': 'empirical_percentile', 'lookback_observations': 2800, 'high': 3.296, 'low': 1.301, 'high_q': 0.8, 'low_q': 0.2, 'latest': 2.426, 'zone': 'neutral'}, '콜금리': {'method': 'empirical_percentile', 'lookback_observations': 2800, 'high': 3.4352000000000005, 'low': 0.75, 'high_q': 0.8, 'low_q': 0.2, 'latest': 2.521, 'zone': 'neutral'}, 'cd금리_91일': {'method': 'empirical_percentile', 'lookback_observations': 2800, 'high': 3.57, 'low': 1.1, 'high_q': 0.8, 'low_q': 0.2, 'latest': 2.53, 'zone': 'neutral'}, '국고채_10년_3년_스프레드': {'method': 'empirical_percentile', 'lookback_observations': 2800, 'high': 0.5012000000000003, 'low': 0.09099999999999962, 'high_q': 0.8, 'low_q': 0.2, 'latest': 0.3889999999999998, 'zone': 'neutral'}, '회사채_aa-': {'method': 'empirical_percentile', 'lookback_observations': 2800, 'high': 4.03, 'low': 2.103, 'high_q': 0.8, 'low_q': 0.2, 'latest': 2.906, 'zone': 'neutral'}, '회사채_bbb-': {'method': 'empirical_percentile', 'lookback_observations': 2800, 'high': 10.306, 'low': 8.301, 'high_q': 0.8, 'low_q': 0.2, 'latest': 8.746, 'zone': 'neutral'}, '신용스프레드_aa-': {'method': 'empirical_percentile', 'lookback_observations': 2800, 'high': 0.9372000000000001, 'low': 0.4949999999999999, 'high_q': 0.8, 'low_q': 0.2, 'latest': 0.48, 'zone': 'low'}, '신용스프레드_bbb-': {'method': 'empirical_percentile', 'lookback_observations': 2800, 'high': 7.197999999999999, 'low': 6.499, 'high_q': 0.8, 'low_q': 0.2, 'latest': 6.32, 'zone': 'low'}, '원달러': {'method': 'empirical_percentile', 'lookback_observations': 2800, 'high': 1348.3, 'low': 1128.3, 'high_q': 0.8, 'low_q': 0.2, 'latest': 1388.6, 'zone': 'high'}}
+- ext_일별: {'달러인덱스_dxy': {'method': 'empirical_percentile', 'lookback_observations': 2800, 'high': 104.19200134277344, 'low': 93.70399932861328, 'high_q': 0.8, 'low_q': 0.2, 'latest': 97.7699966430664, 'zone': 'neutral'}, '미국_국채_10년': {'method': 'empirical_percentile', 'lookback_observations': 2800, 'high': 4.196000099182129, 'low': 1.5299999713897705, 'high_q': 0.8, 'low_q': 0.2, 'latest': 4.227000236511231, 'zone': 'high'}, '미국_국채_13주': {'method': 'empirical_percentile', 'lookback_observations': 2800, 'high': 4.660999870300294, 'low': 0.1000000014901161, 'high_q': 0.8, 'low_q': 0.2, 'latest': 4.043000221252441, 'zone': 'neutral'}, '미국_국채_10년_13주_스프레드': {'method': 'empirical_percentile', 'lookback_observations': 2800, 'high': 1.1989999651908874, 'low': -0.7309999465942383, 'high_q': 0.8, 'low_q': 0.2, 'latest': 0.184000015258789, 'zone': 'neutral'}, '미국_국채_10년_2년_스프레드': {'method': 'empirical_percentile', 'lookback_observations': 2800, 'high': 0.5810000157356262, 'low': -0.35199993324279755, 'high_q': 0.8, 'low_q': 0.2, 'latest': 0.6370002365112306, 'zone': 'high'}, '유가_wti': {'method': 'empirical_percentile', 'lookback_observations': 2800, 'high': 79.9800033569336, 'low': 55.773999023437504, 'high_q': 0.8, 'low_q': 0.2, 'latest': 64.01000213623047, 'zone': 'neutral'}, '유가_brent': {'method': 'empirical_percentile', 'lookback_observations': 2800, 'high': 84.48200225830078, 'low': 62.03600082397461, 'high_q': 0.8, 'low_q': 0.2, 'latest': 68.12000274658203, 'zone': 'neutral'}, '유가_평균': {'method': 'empirical_percentile', 'lookback_observations': 2800, 'high': 82.23300323486329, 'low': 58.90999984741211, 'high_q': 0.8, 'low_q': 0.2, 'latest': 66.06500244140625, 'zone': 'neutral'}, '천연가스': {'method': 'empirical_percentile', 'lookback_observations': 2800, 'high': 3.94839997291565, 'low': 2.2933999061584474, 'high_q': 0.8, 'low_q': 0.2, 'latest': 2.996999979019165, 'zone': 'neutral'}, '구리': {'method': 'empirical_percentile', 'lookback_observations': 2800, 'high': 4.361500072479249, 'low': 2.783899927139282, 'high_q': 0.8, 'low_q': 0.2, 'latest': 4.518499851226807, 'zone': 'high'}}
+

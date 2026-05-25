@@ -4,61 +4,61 @@
   "company": "DB하이텍",
   "opinion": "보유",
   "confidence": 0.45,
-  "summary": "DB하이텍에 대해 검증 가능한 핵심 근거는 다음과 같습니다. DB하이텍 stock_data.current_price 값은 157300입니다. DB하이텍 stock_data.change 값은 -13600입니다. DB하이텍 stock_data.change_rate 값은 -7.96%입니다. DB하이텍 stock_data.raw.clpr 값은 157300입니다. DB하이텍 stock_data.raw.vs 값은 -13600입니다.",
+  "summary": "DB하이텍에 대해 검증 가능한 핵심 근거는 다음과 같습니다. DB하이텍 마켓 분석 total_score 값은 35점입니다. DB하이텍 stock_data.current_price 값은 181000입니다. DB하이텍 stock_data.change 값은 19000입니다. DB하이텍 stock_data.change_rate 값은 11.73%입니다. DB하이텍 stock_data.raw.clpr 값은 181000입니다.",
   "key_points": [
-    "DB하이텍 stock_data.current_price 값은 157300입니다.",
-    "DB하이텍 stock_data.change 값은 -13600입니다.",
-    "DB하이텍 stock_data.change_rate 값은 -7.96%입니다.",
-    "DB하이텍 stock_data.raw.clpr 값은 157300입니다.",
-    "DB하이텍 stock_data.raw.vs 값은 -13600입니다."
+    "DB하이텍 마켓 분석 total_score 값은 35점입니다.",
+    "DB하이텍 stock_data.current_price 값은 181000입니다.",
+    "DB하이텍 stock_data.change 값은 19000입니다.",
+    "DB하이텍 stock_data.change_rate 값은 11.73%입니다.",
+    "DB하이텍 stock_data.raw.clpr 값은 181000입니다."
   ],
   "risks": [],
   "claims": [
     {
       "claim_id": "market.cl.001",
-      "text": "DB하이텍 stock_data.current_price 값은 157300입니다.",
+      "text": "DB하이텍 마켓 분석 total_score 값은 35점입니다.",
       "evidence_ids": [
-        "market.ev.005"
+        "market.ev.001"
       ]
     },
     {
       "claim_id": "market.cl.002",
-      "text": "DB하이텍 stock_data.change 값은 -13600입니다.",
+      "text": "DB하이텍 stock_data.current_price 값은 181000입니다.",
       "evidence_ids": [
-        "market.ev.008"
+        "market.ev.006"
       ]
     },
     {
       "claim_id": "market.cl.003",
-      "text": "DB하이텍 stock_data.change_rate 값은 -7.96%입니다.",
+      "text": "DB하이텍 stock_data.change 값은 19000입니다.",
       "evidence_ids": [
         "market.ev.009"
       ]
     },
     {
       "claim_id": "market.cl.004",
-      "text": "DB하이텍 stock_data.raw.clpr 값은 157300입니다.",
+      "text": "DB하이텍 stock_data.change_rate 값은 11.73%입니다.",
       "evidence_ids": [
-        "market.ev.015"
+        "market.ev.010"
       ]
     },
     {
       "claim_id": "market.cl.005",
-      "text": "DB하이텍 stock_data.raw.vs 값은 -13600입니다.",
+      "text": "DB하이텍 stock_data.raw.clpr 값은 181000입니다.",
       "evidence_ids": [
         "market.ev.016"
       ]
     },
     {
       "claim_id": "market.cl.006",
-      "text": "DB하이텍 stock_data.raw.fltRt 값은 -7.96%입니다.",
+      "text": "DB하이텍 stock_data.raw.vs 값은 19000입니다.",
       "evidence_ids": [
         "market.ev.017"
       ]
     },
     {
       "claim_id": "market.auto_cl.007",
-      "text": "stock_data.raw.mkp 값은 169,800입니다.",
+      "text": "stock_data.raw.fltRt 값은 11.73%입니다.",
       "evidence_ids": [
         "market.ev.018"
       ],
@@ -66,7 +66,7 @@
     },
     {
       "claim_id": "market.auto_cl.009",
-      "text": "stock_data.raw.hipr 값은 174,600입니다.",
+      "text": "stock_data.raw.mkp 값은 168,000입니다.",
       "evidence_ids": [
         "market.ev.019"
       ],
@@ -74,7 +74,7 @@
     },
     {
       "claim_id": "market.auto_cl.011",
-      "text": "stock_data.raw.lopr 값은 157,300입니다.",
+      "text": "stock_data.raw.hipr 값은 181,000입니다.",
       "evidence_ids": [
         "market.ev.020"
       ],
@@ -85,6 +85,16 @@
     {
       "evidence_id": "market.ev.001",
       "source_type": "market",
+      "source": "market_graph_analysis",
+      "metric": "total_score",
+      "value": 35,
+      "unit": "score",
+      "period": null,
+      "snippet": "market_graph_analysis | total_score | 값: 35score"
+    },
+    {
+      "evidence_id": "market.ev.002",
+      "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.provider",
       "value": null,
@@ -93,7 +103,7 @@
       "snippet": "stock_data | stock_data.provider | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.002",
+      "evidence_id": "market.ev.003",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.company",
@@ -103,7 +113,7 @@
       "snippet": "stock_data | stock_data.company | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.003",
+      "evidence_id": "market.ev.004",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.ticker",
@@ -113,7 +123,7 @@
       "snippet": "stock_data | stock_data.ticker | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.004",
+      "evidence_id": "market.ev.005",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.krx_code",
@@ -123,17 +133,17 @@
       "snippet": "stock_data | stock_data.krx_code | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.005",
+      "evidence_id": "market.ev.006",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.current_price",
-      "value": 157300,
+      "value": 181000,
       "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.current_price | 값: 157,300원"
+      "snippet": "stock_data | stock_data.current_price | 값: 181,000원"
     },
     {
-      "evidence_id": "market.ev.006",
+      "evidence_id": "market.ev.007",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.currency",
@@ -143,7 +153,7 @@
       "snippet": "stock_data | stock_data.currency | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.007",
+      "evidence_id": "market.ev.008",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.as_of",
@@ -153,27 +163,27 @@
       "snippet": "stock_data | stock_data.as_of | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.008",
-      "source_type": "market",
-      "source": "stock_data",
-      "metric": "stock_data.change",
-      "value": -13600,
-      "unit": null,
-      "period": null,
-      "snippet": "stock_data | stock_data.change | 값: -13,600"
-    },
-    {
       "evidence_id": "market.ev.009",
       "source_type": "market",
       "source": "stock_data",
-      "metric": "stock_data.change_rate",
-      "value": -7.96,
-      "unit": "%",
+      "metric": "stock_data.change",
+      "value": 19000,
+      "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.change_rate | 값: -7.96%"
+      "snippet": "stock_data | stock_data.change | 값: 19,000"
     },
     {
       "evidence_id": "market.ev.010",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change_rate",
+      "value": 11.73,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.change_rate | 값: 11.73%"
+    },
+    {
+      "evidence_id": "market.ev.011",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.raw.basDt",
@@ -183,7 +193,7 @@
       "snippet": "stock_data | stock_data.raw.basDt | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.011",
+      "evidence_id": "market.ev.012",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.raw.srtnCd",
@@ -193,7 +203,7 @@
       "snippet": "stock_data | stock_data.raw.srtnCd | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.012",
+      "evidence_id": "market.ev.013",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.raw.isinCd",
@@ -203,7 +213,7 @@
       "snippet": "stock_data | stock_data.raw.isinCd | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.013",
+      "evidence_id": "market.ev.014",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.raw.itmsNm",
@@ -213,7 +223,7 @@
       "snippet": "stock_data | stock_data.raw.itmsNm | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.014",
+      "evidence_id": "market.ev.015",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.raw.mrktCtg",
@@ -223,70 +233,70 @@
       "snippet": "stock_data | stock_data.raw.mrktCtg | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.015",
-      "source_type": "market",
-      "source": "stock_data",
-      "metric": "stock_data.raw.clpr",
-      "value": 157300,
-      "unit": "원",
-      "period": null,
-      "snippet": "stock_data | stock_data.raw.clpr | 값: 157,300원"
-    },
-    {
       "evidence_id": "market.ev.016",
       "source_type": "market",
       "source": "stock_data",
-      "metric": "stock_data.raw.vs",
-      "value": -13600,
-      "unit": null,
+      "metric": "stock_data.raw.clpr",
+      "value": 181000,
+      "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.vs | 값: -13,600"
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 181,000원"
     },
     {
       "evidence_id": "market.ev.017",
       "source_type": "market",
       "source": "stock_data",
-      "metric": "stock_data.raw.fltRt",
-      "value": -7.96,
-      "unit": "%",
+      "metric": "stock_data.raw.vs",
+      "value": 19000,
+      "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.fltRt | 값: -7.96%"
+      "snippet": "stock_data | stock_data.raw.vs | 값: 19,000"
     },
     {
       "evidence_id": "market.ev.018",
       "source_type": "market",
       "source": "stock_data",
-      "metric": "stock_data.raw.mkp",
-      "value": 169800,
-      "unit": null,
+      "metric": "stock_data.raw.fltRt",
+      "value": 11.73,
+      "unit": "%",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.mkp | 값: 169,800"
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: 11.73%"
     },
     {
       "evidence_id": "market.ev.019",
       "source_type": "market",
       "source": "stock_data",
-      "metric": "stock_data.raw.hipr",
-      "value": 174600,
+      "metric": "stock_data.raw.mkp",
+      "value": 168000,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.hipr | 값: 174,600"
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 168,000"
     },
     {
       "evidence_id": "market.ev.020",
       "source_type": "market",
       "source": "stock_data",
-      "metric": "stock_data.raw.lopr",
-      "value": 157300,
+      "metric": "stock_data.raw.hipr",
+      "value": 181000,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.lopr | 값: 157,300"
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 181,000"
     }
   ],
   "evidence": [
     {
       "evidence_id": "market.ev.001",
       "source_type": "market",
+      "source": "market_graph_analysis",
+      "metric": "total_score",
+      "value": 35,
+      "unit": "score",
+      "period": null,
+      "snippet": "market_graph_analysis | total_score | 값: 35score"
+    },
+    {
+      "evidence_id": "market.ev.002",
+      "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.provider",
       "value": null,
@@ -295,7 +305,7 @@
       "snippet": "stock_data | stock_data.provider | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.002",
+      "evidence_id": "market.ev.003",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.company",
@@ -305,7 +315,7 @@
       "snippet": "stock_data | stock_data.company | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.003",
+      "evidence_id": "market.ev.004",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.ticker",
@@ -315,7 +325,7 @@
       "snippet": "stock_data | stock_data.ticker | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.004",
+      "evidence_id": "market.ev.005",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.krx_code",
@@ -325,17 +335,17 @@
       "snippet": "stock_data | stock_data.krx_code | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.005",
+      "evidence_id": "market.ev.006",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.current_price",
-      "value": 157300,
+      "value": 181000,
       "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.current_price | 값: 157,300원"
+      "snippet": "stock_data | stock_data.current_price | 값: 181,000원"
     },
     {
-      "evidence_id": "market.ev.006",
+      "evidence_id": "market.ev.007",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.currency",
@@ -345,7 +355,7 @@
       "snippet": "stock_data | stock_data.currency | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.007",
+      "evidence_id": "market.ev.008",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.as_of",
@@ -355,27 +365,27 @@
       "snippet": "stock_data | stock_data.as_of | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.008",
-      "source_type": "market",
-      "source": "stock_data",
-      "metric": "stock_data.change",
-      "value": -13600,
-      "unit": null,
-      "period": null,
-      "snippet": "stock_data | stock_data.change | 값: -13,600"
-    },
-    {
       "evidence_id": "market.ev.009",
       "source_type": "market",
       "source": "stock_data",
-      "metric": "stock_data.change_rate",
-      "value": -7.96,
-      "unit": "%",
+      "metric": "stock_data.change",
+      "value": 19000,
+      "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.change_rate | 값: -7.96%"
+      "snippet": "stock_data | stock_data.change | 값: 19,000"
     },
     {
       "evidence_id": "market.ev.010",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change_rate",
+      "value": 11.73,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.change_rate | 값: 11.73%"
+    },
+    {
+      "evidence_id": "market.ev.011",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.raw.basDt",
@@ -385,7 +395,7 @@
       "snippet": "stock_data | stock_data.raw.basDt | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.011",
+      "evidence_id": "market.ev.012",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.raw.srtnCd",
@@ -395,7 +405,7 @@
       "snippet": "stock_data | stock_data.raw.srtnCd | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.012",
+      "evidence_id": "market.ev.013",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.raw.isinCd",
@@ -405,7 +415,7 @@
       "snippet": "stock_data | stock_data.raw.isinCd | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.013",
+      "evidence_id": "market.ev.014",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.raw.itmsNm",
@@ -415,7 +425,7 @@
       "snippet": "stock_data | stock_data.raw.itmsNm | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.014",
+      "evidence_id": "market.ev.015",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.raw.mrktCtg",
@@ -425,96 +435,264 @@
       "snippet": "stock_data | stock_data.raw.mrktCtg | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.015",
-      "source_type": "market",
-      "source": "stock_data",
-      "metric": "stock_data.raw.clpr",
-      "value": 157300,
-      "unit": "원",
-      "period": null,
-      "snippet": "stock_data | stock_data.raw.clpr | 값: 157,300원"
-    },
-    {
       "evidence_id": "market.ev.016",
       "source_type": "market",
       "source": "stock_data",
-      "metric": "stock_data.raw.vs",
-      "value": -13600,
-      "unit": null,
+      "metric": "stock_data.raw.clpr",
+      "value": 181000,
+      "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.vs | 값: -13,600"
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 181,000원"
     },
     {
       "evidence_id": "market.ev.017",
       "source_type": "market",
       "source": "stock_data",
-      "metric": "stock_data.raw.fltRt",
-      "value": -7.96,
-      "unit": "%",
+      "metric": "stock_data.raw.vs",
+      "value": 19000,
+      "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.fltRt | 값: -7.96%"
+      "snippet": "stock_data | stock_data.raw.vs | 값: 19,000"
     },
     {
       "evidence_id": "market.ev.018",
       "source_type": "market",
       "source": "stock_data",
-      "metric": "stock_data.raw.mkp",
-      "value": 169800,
-      "unit": null,
+      "metric": "stock_data.raw.fltRt",
+      "value": 11.73,
+      "unit": "%",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.mkp | 값: 169,800"
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: 11.73%"
     },
     {
       "evidence_id": "market.ev.019",
       "source_type": "market",
       "source": "stock_data",
-      "metric": "stock_data.raw.hipr",
-      "value": 174600,
+      "metric": "stock_data.raw.mkp",
+      "value": 168000,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.hipr | 값: 174,600"
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 168,000"
     },
     {
       "evidence_id": "market.ev.020",
       "source_type": "market",
       "source": "stock_data",
-      "metric": "stock_data.raw.lopr",
-      "value": 157300,
+      "metric": "stock_data.raw.hipr",
+      "value": 181000,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.lopr | 값: 157,300"
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 181,000"
     }
   ],
   "raw_payload": {
     "analysis": {
+      "agent": "market",
       "company": "DB하이텍",
       "opinion": "보유",
-      "confidence": 0.8,
-      "summary": "DB하이텍 분석 중 LLM 호출 오류가 발생해 fallback 결과를 반환합니다.",
-      "total_score": null,
-      "scoring": {},
-      "market_environment": {
-        "oecd_cli": "",
-        "industry_stage": "",
-        "value_chain_position": "",
-        "competition": ""
+      "confidence": 0.7,
+      "market_summary": {
+        "oecd_interpretation": "OECD 경기선행지수가 98.01로 기준선 100을 하회하며 경기 둔화 가능성을 시사합니다. 이는 반도체 산업 전반에 부정적인 영향을 미칠 수 있습니다.",
+        "industry_stage": "DB하이텍이 속한 파운드리 산업은 다품종 소량 생산이 가능한 8인치 공정에서 아날로그 반도체 전문성을 바탕으로 고객 맞춤형 기술을 제공하는 니치 마켓에 위치합니다.",
+        "value_chain_position": "DB하이텍은 IDM/제조/메모리 밸류체인 내에서 직접 생산하는 파운드리 기업으로, 특정 공정 기술에 대한 전문성을 보유하고 있습니다.",
+        "competitive_position": "데이터에 경쟁사 정보가 부족하여 명확한 경쟁 구도 파악이 어렵습니다. 다만, 8인치 파운드리 시장 내에서 특정 기술 전문성을 바탕으로 경쟁할 것으로 예상됩니다.",
+        "market_momentum": "DB하이텍 주가는 181,000원으로 전일 대비 11.73% 상승하며 강한 상승 모멘텀을 보이고 있습니다. 이는 긍정적인 시장 심리를 반영합니다."
       },
-      "risks": [
-        "LLM 호출 실패: Gemini API error status=503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
+      "qualitative_rubric": {
+        "macro_cycle": {
+          "assessment": "하",
+          "reason": "OECD 경기선행지수가 98.01로 기준선 100을 하회하여 경기 둔화 가능성이 존재합니다."
+        },
+        "industry_attractiveness": {
+          "assessment": "중",
+          "reason": "아날로그 반도체 전문성을 바탕으로 한 8인치 파운드리 시장은 안정적인 수요가 있으나, 거시 경제 불확실성이 존재합니다."
+        },
+        "value_chain_position": {
+          "assessment": "중",
+          "reason": "8인치 순수 파운드리 기업으로서 다품종 소량 생산 및 고객 맞춤형 공정 기술 제공은 강점이나, 메모리 산업 내에서의 위치는 명확하지 않습니다."
+        },
+        "competitive_position": {
+          "assessment": "하",
+          "reason": "경쟁사 정보가 부족하여 경쟁 우위를 판단하기 어렵습니다. '후공정 장비' 외 구체적인 경쟁사 데이터가 없습니다."
+        },
+        "market_momentum": {
+          "assessment": "상",
+          "reason": "주가가 전일 대비 11.73% 상승하며 강한 상승세를 보이고 있습니다."
+        },
+        "policy_disclosure_signal": {
+          "assessment": "하",
+          "reason": "DART 최신 공시 데이터가 비어있어 정책 및 공시 관련 신호를 파악하기 어렵습니다."
+        },
+        "downside_risk": {
+          "assessment": "중",
+          "reason": "주가 상승 모멘텀은 강하나, 거시 경제 불확실성과 경쟁 구도 불명확성은 잠재적 하방 리스크 요인입니다."
+        }
+      },
+      "bwm_assessment": {
+        "best_criterion": "시장 모멘텀",
+        "worst_criterion": "경쟁 구도",
+        "judgment_effect": "강한 주가 상승 모멘텀은 긍정적이나, 경쟁사 정보 부족 및 거시 경제 불확실성으로 인해 '보유' 의견을 제시합니다."
+      },
+      "scoring": {
+        "거시환경": {
+          "score": 5,
+          "max": 20,
+          "reason": "OECD 경기선행지수 하락으로 부정적 신호입니다."
+        },
+        "산업매력도": {
+          "score": 10,
+          "max": 20,
+          "reason": "아날로그 반도체 전문 파운드리 시장은 안정적이나 거시 경제 불확실성이 있습니다."
+        },
+        "경쟁위치": {
+          "score": 5,
+          "max": 20,
+          "reason": "경쟁사 정보가 부족하여 경쟁 우위를 판단하기 어렵습니다."
+        },
+        "정책수혜": {
+          "score": 0,
+          "max": 20,
+          "reason": "DART 공시 데이터가 없어 정책 수혜를 파악할 수 없습니다."
+        },
+        "시장모멘텀": {
+          "score": 15,
+          "max": 20,
+          "reason": "주가 상승률이 매우 높습니다."
+        }
+      },
+      "total_score": 35,
+      "claims": [
+        {
+          "claim_id": "market.cl.001",
+          "text": "DB하이텍 주가는 181,000원으로 전일 대비 11.73% 상승하며 강한 시장 모멘텀을 보여주고 있습니다.",
+          "evidence_ids": [
+            "market.ev.001"
+          ]
+        },
+        {
+          "claim_id": "market.cl.002",
+          "text": "OECD 경기선행지수가 98.01로 기준선 100을 하회하여 거시 경제 환경이 부정적입니다.",
+          "evidence_ids": [
+            "market.ev.002"
+          ]
+        },
+        {
+          "claim_id": "market.cl.003",
+          "text": "DB하이텍은 8인치 순수 파운드리 기업으로 아날로그 반도체 전문성을 보유하고 있습니다.",
+          "evidence_ids": [
+            "market.ev.003"
+          ]
+        }
       ],
-      "opportunities": [],
-      "error": "Gemini API error status=503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
+      "evidences": [
+        {
+          "evidence_id": "market.ev.001",
+          "source_type": "stock",
+          "source": "public_data",
+          "metric": "current_price",
+          "value": 181000,
+          "unit": "KRW",
+          "period": "20260521",
+          "snippet": "DB하이텍 주가는 181000원이며, 전일 대비 19000원 (11.73%) 상승했습니다."
+        },
+        {
+          "evidence_id": "market.ev.002",
+          "source_type": "oecd",
+          "source": "OECD",
+          "metric": "경기선행지수",
+          "value": 98.01,
+          "unit": null,
+          "period": "최신",
+          "snippet": "OECD 경기선행지수: 한국 98.01, 미국 98.01, 중국 98.01"
+        },
+        {
+          "evidence_id": "market.ev.003",
+          "source_type": "static",
+          "source": "엑셀",
+          "metric": "process",
+          "value": "8인치 순수 파운드리",
+          "unit": null,
+          "period": null,
+          "snippet": "DB하이텍은 8인치 순수 파운드리 기업으로 다품종 소량 생산이 가능하며, 특히 Analog 반도체 전문성을 바탕으로 고객 맞춤형 공정 기술을 제공하고 있다."
+        }
+      ],
+      "risks": [
+        {
+          "risk": "거시 경제 불확실성",
+          "severity": "중",
+          "basis": "OECD 경기선행지수 하락"
+        },
+        {
+          "risk": "경쟁 구도 불명확",
+          "severity": "중",
+          "basis": "경쟁사 정보 부족"
+        }
+      ],
+      "opportunities": [
+        {
+          "opportunity": "아날로그 반도체 전문 파운드리 시장 성장",
+          "basis": "DB하이텍의 핵심 기술력"
+        }
+      ],
+      "summary": "DB하이텍은 강한 주가 상승 모멘텀을 보이고 있으나, 거시 경제 불확실성과 경쟁 구도 불명확성으로 인해 '보유' 의견을 제시합니다. 아날로그 반도체 전문 파운드리 시장에서의 경쟁력은 긍정적입니다.",
+      "raw_payload": {
+        "stock_used": true,
+        "oecd_used": true,
+        "static_used": true,
+        "news_used": false,
+        "dart_used": false
+      }
     },
-    "original_opportunities": [],
+    "original_opportunities": [
+      {
+        "opportunity": "아날로그 반도체 전문 파운드리 시장 성장",
+        "basis": "DB하이텍의 핵심 기술력"
+      }
+    ],
     "original_risks": [
-      "LLM 호출 실패: Gemini API error status=503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
+      {
+        "risk": "거시 경제 불확실성",
+        "severity": "중",
+        "basis": "OECD 경기선행지수 하락"
+      },
+      {
+        "risk": "경쟁 구도 불명확",
+        "severity": "중",
+        "basis": "경쟁사 정보 부족"
+      }
     ],
     "removed_bad_evidence_ids": [
       "market.ev.unverified"
     ]
   },
-  "total_score": null,
-  "scoring": {},
+  "total_score": 35,
+  "scoring": {
+    "거시환경": {
+      "score": 5,
+      "max": 20,
+      "reason": "OECD 경기선행지수 하락으로 부정적 신호입니다."
+    },
+    "산업매력도": {
+      "score": 10,
+      "max": 20,
+      "reason": "아날로그 반도체 전문 파운드리 시장은 안정적이나 거시 경제 불확실성이 있습니다."
+    },
+    "경쟁위치": {
+      "score": 5,
+      "max": 20,
+      "reason": "경쟁사 정보가 부족하여 경쟁 우위를 판단하기 어렵습니다."
+    },
+    "정책수혜": {
+      "score": 0,
+      "max": 20,
+      "reason": "DART 공시 데이터가 없어 정책 수혜를 파악할 수 없습니다."
+    },
+    "시장모멘텀": {
+      "score": 15,
+      "max": 20,
+      "reason": "주가 상승률이 매우 높습니다."
+    }
+  },
   "packet_version": "grounded_agent_v3",
   "pre_sanitize_grounding_check": {
     "score": 1.0,
@@ -524,21 +702,36 @@
     "supported_count": 6,
     "unsupported_count": 0,
     "supported_claims": [
-      "DB하이텍 stock_data.current_price 값은 157300입니다.",
-      "DB하이텍 stock_data.change 값은 -13600입니다.",
-      "DB하이텍 stock_data.change_rate 값은 -7.96%입니다.",
-      "DB하이텍 stock_data.raw.clpr 값은 157300입니다.",
-      "DB하이텍 stock_data.raw.vs 값은 -13600입니다.",
-      "DB하이텍 stock_data.raw.fltRt 값은 -7.96%입니다."
+      "DB하이텍 마켓 분석 total_score 값은 35점입니다.",
+      "DB하이텍 stock_data.current_price 값은 181000입니다.",
+      "DB하이텍 stock_data.change 값은 19000입니다.",
+      "DB하이텍 stock_data.change_rate 값은 11.73%입니다.",
+      "DB하이텍 stock_data.raw.clpr 값은 181000입니다.",
+      "DB하이텍 stock_data.raw.vs 값은 19000입니다."
     ],
     "unsupported_claims": [],
     "issues": [],
     "claim_results": [
       {
         "claim_id": "market.cl.001",
-        "text": "DB하이텍 stock_data.current_price 값은 157300입니다.",
+        "text": "DB하이텍 마켓 분석 total_score 값은 35점입니다.",
         "evidence_ids": [
-          "market.ev.005"
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "DB하이텍 stock_data.current_price 값은 181000입니다.",
+        "evidence_ids": [
+          "market.ev.006"
         ],
         "supported": true,
         "score": 0.85,
@@ -548,29 +741,14 @@
         "missing_concepts": [],
         "concept_matches": {
           "price": [
-            "market.ev.005"
+            "market.ev.006"
           ]
         },
         "reason": "supported"
       },
       {
-        "claim_id": "market.cl.002",
-        "text": "DB하이텍 stock_data.change 값은 -13600입니다.",
-        "evidence_ids": [
-          "market.ev.008"
-        ],
-        "supported": true,
-        "score": 0.85,
-        "number_ratio": 1.0,
-        "token_ratio": 0.25,
-        "concept_ratio": 1.0,
-        "missing_concepts": [],
-        "concept_matches": {},
-        "reason": "supported"
-      },
-      {
         "claim_id": "market.cl.003",
-        "text": "DB하이텍 stock_data.change_rate 값은 -7.96%입니다.",
+        "text": "DB하이텍 stock_data.change 값은 19000입니다.",
         "evidence_ids": [
           "market.ev.009"
         ],
@@ -585,9 +763,9 @@
       },
       {
         "claim_id": "market.cl.004",
-        "text": "DB하이텍 stock_data.raw.clpr 값은 157300입니다.",
+        "text": "DB하이텍 stock_data.change_rate 값은 11.73%입니다.",
         "evidence_ids": [
-          "market.ev.015"
+          "market.ev.010"
         ],
         "supported": true,
         "score": 0.85,
@@ -600,7 +778,7 @@
       },
       {
         "claim_id": "market.cl.005",
-        "text": "DB하이텍 stock_data.raw.vs 값은 -13600입니다.",
+        "text": "DB하이텍 stock_data.raw.clpr 값은 181000입니다.",
         "evidence_ids": [
           "market.ev.016"
         ],
@@ -615,7 +793,7 @@
       },
       {
         "claim_id": "market.cl.006",
-        "text": "DB하이텍 stock_data.raw.fltRt 값은 -7.96%입니다.",
+        "text": "DB하이텍 stock_data.raw.vs 값은 19000입니다.",
         "evidence_ids": [
           "market.ev.017"
         ],
@@ -638,24 +816,39 @@
     "supported_count": 9,
     "unsupported_count": 0,
     "supported_claims": [
-      "DB하이텍 stock_data.current_price 값은 157300입니다.",
-      "DB하이텍 stock_data.change 값은 -13600입니다.",
-      "DB하이텍 stock_data.change_rate 값은 -7.96%입니다.",
-      "DB하이텍 stock_data.raw.clpr 값은 157300입니다.",
-      "DB하이텍 stock_data.raw.vs 값은 -13600입니다.",
-      "DB하이텍 stock_data.raw.fltRt 값은 -7.96%입니다.",
-      "stock_data.raw.mkp 값은 169,800입니다.",
-      "stock_data.raw.hipr 값은 174,600입니다.",
-      "stock_data.raw.lopr 값은 157,300입니다."
+      "DB하이텍 마켓 분석 total_score 값은 35점입니다.",
+      "DB하이텍 stock_data.current_price 값은 181000입니다.",
+      "DB하이텍 stock_data.change 값은 19000입니다.",
+      "DB하이텍 stock_data.change_rate 값은 11.73%입니다.",
+      "DB하이텍 stock_data.raw.clpr 값은 181000입니다.",
+      "DB하이텍 stock_data.raw.vs 값은 19000입니다.",
+      "stock_data.raw.fltRt 값은 11.73%입니다.",
+      "stock_data.raw.mkp 값은 168,000입니다.",
+      "stock_data.raw.hipr 값은 181,000입니다."
     ],
     "unsupported_claims": [],
     "issues": [],
     "claim_results": [
       {
         "claim_id": "market.cl.001",
-        "text": "DB하이텍 stock_data.current_price 값은 157300입니다.",
+        "text": "DB하이텍 마켓 분석 total_score 값은 35점입니다.",
         "evidence_ids": [
-          "market.ev.005"
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "DB하이텍 stock_data.current_price 값은 181000입니다.",
+        "evidence_ids": [
+          "market.ev.006"
         ],
         "supported": true,
         "score": 0.85,
@@ -665,29 +858,14 @@
         "missing_concepts": [],
         "concept_matches": {
           "price": [
-            "market.ev.005"
+            "market.ev.006"
           ]
         },
         "reason": "supported"
       },
       {
-        "claim_id": "market.cl.002",
-        "text": "DB하이텍 stock_data.change 값은 -13600입니다.",
-        "evidence_ids": [
-          "market.ev.008"
-        ],
-        "supported": true,
-        "score": 0.85,
-        "number_ratio": 1.0,
-        "token_ratio": 0.25,
-        "concept_ratio": 1.0,
-        "missing_concepts": [],
-        "concept_matches": {},
-        "reason": "supported"
-      },
-      {
         "claim_id": "market.cl.003",
-        "text": "DB하이텍 stock_data.change_rate 값은 -7.96%입니다.",
+        "text": "DB하이텍 stock_data.change 값은 19000입니다.",
         "evidence_ids": [
           "market.ev.009"
         ],
@@ -702,9 +880,9 @@
       },
       {
         "claim_id": "market.cl.004",
-        "text": "DB하이텍 stock_data.raw.clpr 값은 157300입니다.",
+        "text": "DB하이텍 stock_data.change_rate 값은 11.73%입니다.",
         "evidence_ids": [
-          "market.ev.015"
+          "market.ev.010"
         ],
         "supported": true,
         "score": 0.85,
@@ -717,7 +895,7 @@
       },
       {
         "claim_id": "market.cl.005",
-        "text": "DB하이텍 stock_data.raw.vs 값은 -13600입니다.",
+        "text": "DB하이텍 stock_data.raw.clpr 값은 181000입니다.",
         "evidence_ids": [
           "market.ev.016"
         ],
@@ -732,7 +910,7 @@
       },
       {
         "claim_id": "market.cl.006",
-        "text": "DB하이텍 stock_data.raw.fltRt 값은 -7.96%입니다.",
+        "text": "DB하이텍 stock_data.raw.vs 값은 19000입니다.",
         "evidence_ids": [
           "market.ev.017"
         ],
@@ -747,7 +925,7 @@
       },
       {
         "claim_id": "market.auto_cl.007",
-        "text": "stock_data.raw.mkp 값은 169,800입니다.",
+        "text": "stock_data.raw.fltRt 값은 11.73%입니다.",
         "evidence_ids": [
           "market.ev.018"
         ],
@@ -762,7 +940,7 @@
       },
       {
         "claim_id": "market.auto_cl.009",
-        "text": "stock_data.raw.hipr 값은 174,600입니다.",
+        "text": "stock_data.raw.mkp 값은 168,000입니다.",
         "evidence_ids": [
           "market.ev.019"
         ],
@@ -777,7 +955,7 @@
       },
       {
         "claim_id": "market.auto_cl.011",
-        "text": "stock_data.raw.lopr 값은 157,300입니다.",
+        "text": "stock_data.raw.hipr 값은 181,000입니다.",
         "evidence_ids": [
           "market.ev.020"
         ],
@@ -800,24 +978,39 @@
     "supported_count": 9,
     "unsupported_count": 0,
     "supported_claims": [
-      "DB하이텍 stock_data.current_price 값은 157300입니다.",
-      "DB하이텍 stock_data.change 값은 -13600입니다.",
-      "DB하이텍 stock_data.change_rate 값은 -7.96%입니다.",
-      "DB하이텍 stock_data.raw.clpr 값은 157300입니다.",
-      "DB하이텍 stock_data.raw.vs 값은 -13600입니다.",
-      "DB하이텍 stock_data.raw.fltRt 값은 -7.96%입니다.",
-      "stock_data.raw.mkp 값은 169,800입니다.",
-      "stock_data.raw.hipr 값은 174,600입니다.",
-      "stock_data.raw.lopr 값은 157,300입니다."
+      "DB하이텍 마켓 분석 total_score 값은 35점입니다.",
+      "DB하이텍 stock_data.current_price 값은 181000입니다.",
+      "DB하이텍 stock_data.change 값은 19000입니다.",
+      "DB하이텍 stock_data.change_rate 값은 11.73%입니다.",
+      "DB하이텍 stock_data.raw.clpr 값은 181000입니다.",
+      "DB하이텍 stock_data.raw.vs 값은 19000입니다.",
+      "stock_data.raw.fltRt 값은 11.73%입니다.",
+      "stock_data.raw.mkp 값은 168,000입니다.",
+      "stock_data.raw.hipr 값은 181,000입니다."
     ],
     "unsupported_claims": [],
     "issues": [],
     "claim_results": [
       {
         "claim_id": "market.cl.001",
-        "text": "DB하이텍 stock_data.current_price 값은 157300입니다.",
+        "text": "DB하이텍 마켓 분석 total_score 값은 35점입니다.",
         "evidence_ids": [
-          "market.ev.005"
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "DB하이텍 stock_data.current_price 값은 181000입니다.",
+        "evidence_ids": [
+          "market.ev.006"
         ],
         "supported": true,
         "score": 0.85,
@@ -827,29 +1020,14 @@
         "missing_concepts": [],
         "concept_matches": {
           "price": [
-            "market.ev.005"
+            "market.ev.006"
           ]
         },
         "reason": "supported"
       },
       {
-        "claim_id": "market.cl.002",
-        "text": "DB하이텍 stock_data.change 값은 -13600입니다.",
-        "evidence_ids": [
-          "market.ev.008"
-        ],
-        "supported": true,
-        "score": 0.85,
-        "number_ratio": 1.0,
-        "token_ratio": 0.25,
-        "concept_ratio": 1.0,
-        "missing_concepts": [],
-        "concept_matches": {},
-        "reason": "supported"
-      },
-      {
         "claim_id": "market.cl.003",
-        "text": "DB하이텍 stock_data.change_rate 값은 -7.96%입니다.",
+        "text": "DB하이텍 stock_data.change 값은 19000입니다.",
         "evidence_ids": [
           "market.ev.009"
         ],
@@ -864,9 +1042,9 @@
       },
       {
         "claim_id": "market.cl.004",
-        "text": "DB하이텍 stock_data.raw.clpr 값은 157300입니다.",
+        "text": "DB하이텍 stock_data.change_rate 값은 11.73%입니다.",
         "evidence_ids": [
-          "market.ev.015"
+          "market.ev.010"
         ],
         "supported": true,
         "score": 0.85,
@@ -879,7 +1057,7 @@
       },
       {
         "claim_id": "market.cl.005",
-        "text": "DB하이텍 stock_data.raw.vs 값은 -13600입니다.",
+        "text": "DB하이텍 stock_data.raw.clpr 값은 181000입니다.",
         "evidence_ids": [
           "market.ev.016"
         ],
@@ -894,7 +1072,7 @@
       },
       {
         "claim_id": "market.cl.006",
-        "text": "DB하이텍 stock_data.raw.fltRt 값은 -7.96%입니다.",
+        "text": "DB하이텍 stock_data.raw.vs 값은 19000입니다.",
         "evidence_ids": [
           "market.ev.017"
         ],
@@ -909,7 +1087,7 @@
       },
       {
         "claim_id": "market.auto_cl.007",
-        "text": "stock_data.raw.mkp 값은 169,800입니다.",
+        "text": "stock_data.raw.fltRt 값은 11.73%입니다.",
         "evidence_ids": [
           "market.ev.018"
         ],
@@ -924,7 +1102,7 @@
       },
       {
         "claim_id": "market.auto_cl.009",
-        "text": "stock_data.raw.hipr 값은 174,600입니다.",
+        "text": "stock_data.raw.mkp 값은 168,000입니다.",
         "evidence_ids": [
           "market.ev.019"
         ],
@@ -939,7 +1117,7 @@
       },
       {
         "claim_id": "market.auto_cl.011",
-        "text": "stock_data.raw.lopr 값은 157,300입니다.",
+        "text": "stock_data.raw.hipr 값은 181,000입니다.",
         "evidence_ids": [
           "market.ev.020"
         ],

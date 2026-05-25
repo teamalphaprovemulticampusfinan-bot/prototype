@@ -3,6 +3,51 @@
   "company": "가온칩스",
   "company_dir": "gaochips",
   "opinion": "보유",
+  "tech_signal": 0.328555,
+  "history_tech_feature": {
+    "signal": 0.328555,
+    "status": "OK_TECH_HISTORY_ASOF",
+    "source": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\gaochips_kipris_patents_normalized.csv;C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\gaochips_tech_patent_normalized.csv;C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\gaochips_kipris_bibliographic_normalized.csv;C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\gaochips_kipris_claims_normalized.csv;C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\gaochips_kipris_plus_claim_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\gaochips_kipris_plus_family_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\gaochips_kipris_plus_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\gaochips_kipris_tech_ml_enriched.csv;C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\source\\gaochips_kipris_plus_bibliographic_raw.csv;C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\quanified_metrix.csv;C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\tech_excel_frame_items.csv",
+    "as_of_date": "2025-08-31",
+    "company": "가온칩스",
+    "ticker": "399720.KQ",
+    "stock_code": "399720",
+    "base_signal": 0.346278,
+    "evidence_confidence": 0.77752,
+    "commercialization_gate_signal": 0.237268,
+    "technology_risk_penalty": 0.0,
+    "ip_quality_signal": 0.215875,
+    "lifecycle_signal": 0.0,
+    "technology_differentiation_signal": 0.032768,
+    "commercialization_signal": 0.94907,
+    "rnd_sustainability_signal": 0.46468,
+    "peer_position_signal": -0.185714,
+    "tech_to_value_signal": 0.60099,
+    "certification_signal": 0.0,
+    "qualification_signal": 0.0,
+    "cost_yield_signal": 0.0,
+    "workforce_signal": 0.0,
+    "government_rd_signal": 0.0,
+    "licensing_signal": 0.0,
+    "dispute_risk_signal": 0.0,
+    "failure_delay_signal": 0.0,
+    "intangible_accounting_signal": 0.0,
+    "patent_records_asof": 153,
+    "dated_records_asof": 92,
+    "undated_records_used": 127,
+    "files_used": 72,
+    "notes": "Tech history signal uses dated patent/IP, TRL/readiness, certification, qualification, commercialization, R&D/workforce, risk and accounting evidence before as_of_date; no Buy/Hold/Sell threshold is applied.",
+    "frequency": "monthly",
+    "formula": "final=base_signal*evidence_confidence + 0.25*commercialization_gate_signal - 0.35*technology_risk_penalty",
+    "research_basis": [
+      "Hall-Jaffe-Trajtenberg patent citations/value; Lanjouw-Schankerman patent quality; OECD patent quality composite indicators",
+      "DoD/NASA TRL and TRA maturity framework",
+      "IFC/Bpifrance deep-tech development-stage financing framework",
+      "Text-based industry/technology relatedness literature for peer/differentiation evidence"
+    ],
+    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\tech_history_features_2025-08-31.json",
+    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\tech_history_features_2025-08-31.csv"
+  },
   "claims": [
     {
       "claim_id": "tech.cl.000",
@@ -84,35 +129,35 @@
     {
       "title": "가온칩스 KIPRIS/특허 정량화 요약",
       "url": "",
-      "path": "data\\반도체\\가온칩스\\tech\\source\\gaochips_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\source\\gaochips_kipris_plus_bibliographic_raw.csv",
       "snippet": "가온칩스 KIPRIS/특허 정량화 요약 본 특허 근거는 KIPRIS API/CSV/엑셀/TXT 원천 파일을 정규화해 산출했다. [정량 지표] - 특허 원천 파일 수: 1개 - 정규화 특허 레코드 수: 4건 - 출원인/권리자 회사 매칭 특허 수: 4건 - 등록 특허 수: 4건 - 존속 가능 특허 수: 4건 - 최근 5년 특허 수: 4건 - IPC/CPC 기술분류 수: 3개 - H01L 반도체 IPC 특허 수: 0건 - 반도체 핵심 IPC 특허 수: 3건 - 특허-기술 키워드 매칭 수: 2회 - 특허 포트폴리오 연도 범위: 2021~2025 - KIPRIS 총 특허 수: 4.0건 - KIPRIS 등록 특허 수(추정): 4.",
       "relevance_score": 30
     },
     {
       "title": "다중 기판 SoC 시스템에서 JTAG 동기화 운영 장치 및 방법",
       "url": "",
-      "path": "data\\반도체\\가온칩스\\tech\\source\\gaochips_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\source\\gaochips_kipris_plus_bibliographic_raw.csv",
       "snippet": "다중 기판 SoC 시스템에서 JTAG 동기화 운영 장치 및 방법 | (주)가온칩스 | 등록 | 2025 | 출원번호 1020250029605; 등록번호 1029574270000 | IPC/CPC: G01R | 기술매칭: Test, 기판 | 초록: 본 발명은 SoC 시스템에서 제이택(Joint Test Action Group: JTAG) 동기화 운영 장치 및 방법에 관한 것으로, 더욱 상세하게는 다중 기판(Multi-Die, 또는 \"멀티-다이\"라 함)으로 구성되는 SoC 시스템에서 다수의 다이 중 하나를 마스터로 설정하고, 마스터로 설정된 마스터 다이(Master Die)에서 JTAG 정책이 설정되면 복수의 슬레이브 다이",
       "relevance_score": 73.5
     },
     {
       "title": "다이나믹 클럭 게이팅 장치",
       "url": "",
-      "path": "data\\반도체\\가온칩스\\tech\\source\\gaochips_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\source\\gaochips_kipris_plus_bibliographic_raw.csv",
       "snippet": "다이나믹 클럭 게이팅 장치 | (주)가온칩스 | 등록 | 2021 | 출원번호 1020210158969; 등록번호 1023813610000 | IPC/CPC: H03K, G06F | 기술매칭: 기술 키워드 미확인 | 초록: 다이나믹 클럭 게이팅 장치가 개시된다. 일 실시예에 따른 클럭 게이팅 장치는 마스터 장치로부터 트랜잭션 시작 신호를 획득하거나, 슬레이브 장치로부터 트랜잭션 종료 신호를 획득하는 클럭 신호 활성화 모듈; 및 클럭 신호를 획득하고 상기 슬레이브 장치에 상기 클럭 신호를 제공하는 클럭 신호 제공모듈을 포함하고, 상기 클럭 신호 활성화 모듈은 상기 트랜잭션 시작 신호를 획득한 경우, 상기 클럭 신",
       "relevance_score": 69.0
     },
     {
       "title": "오실레이터 오토 트리밍 방법 및 이를 이용한 장치",
       "url": "",
-      "path": "data\\반도체\\가온칩스\\tech\\source\\gaochips_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\source\\gaochips_kipris_plus_bibliographic_raw.csv",
       "snippet": "오실레이터 오토 트리밍 방법 및 이를 이용한 장치 | (주)가온칩스 | 등록 | 2021 | 출원번호 1020210162801; 등록번호 1023813470000 | IPC/CPC: H03K | 기술매칭: 기술 키워드 미확인 | 초록: 오실레이터 오토 트리밍 방법 및 이를 이용한 장치가 개시된다. 일 실시예에 따른 칩에 포함되는 오실레이터를 오토 트리밍하기 위한 오실레이터 오토 트리밍 방법은, 오실레이터 클럭 신호의 구동 주파수에 따라 오실레이터 클럭 신호를 발생하는 제1 단계; 오실레이터 클럭 신호를 기준 시간동안 카운팅하여 제1 카운팅 결과값을 획득하는 제2 단계; 기준 클럭 신호를 상기 기준 시간동안 카운팅하여 제",
       "relevance_score": 67.5
     },
     {
       "title": "테일러 급수를 이용한 제곱근 연산 방법 및 이를 이용한 장치",
       "url": "",
-      "path": "data\\반도체\\가온칩스\\tech\\source\\gaochips_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\source\\gaochips_kipris_plus_bibliographic_raw.csv",
       "snippet": "테일러 급수를 이용한 제곱근 연산 방법 및 이를 이용한 장치 | (주)가온칩스 | 등록 | 2021 | 출원번호 1020210131634; 등록번호 1023365350000 | IPC/CPC: G06F | 기술매칭: 기술 키워드 미확인 | 초록: 테일러 급수를 이용한 제곱근 연산 방법 및 이를 이용한 장치에 관한 것이다. 일 실시예에 따른 테일러 급수를 이용하여 고정 소수점 체계에서 제곱근 연산을 수행하는 제어장치는 피제곱근을 부호부, 정수부 및 소수부를 포함하는 고정 소수점 데이터로 변환하고, 변환된 고정 소수점 데이터를 기초로 2의 차수 및 테일러 급수의 복수의 항에 포함되는 제1 파라미터를 산출하는 피제곱근 전처리",
       "relevance_score": 67.5
     }
@@ -303,7 +348,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\가온칩스\\tech\\gaochips_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\가온칩스\\tech\\gaochips_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-20T21:35:50",
+      "generated_at": "2026-05-25T20:59:38",
       "core_counts": {
         "total_patents": 4,
         "registered_patents_estimated": 4,
@@ -374,7 +419,7 @@
   "tech_chair_summary": {
     "agent": "tech",
     "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-    "created_at": "2026-05-20T21:36:23",
+    "created_at": "2026-05-25T21:03:34",
     "field": "반도체",
     "company": "가온칩스",
     "company_name": "가온칩스",
@@ -406,17 +451,17 @@
       "ip_evidence_composite_bridge_signal": "IP_EVIDENCE_POSITIVE",
       "ip_evidence_composite_adjustment_points": 1.0,
       "ip_evidence_composite_data_coverage_rate": 1.0,
-      "ip_evidence_composite_source_file": "data/반도체/가온칩스/tech/tech_ip_evidence_composite.json",
+      "ip_evidence_composite_source_file": "C:/Agent_6.9/data/반도체/가온칩스/tech/tech_ip_evidence_composite.json",
       "peer_adjusted_bridge_score_before_ip_evidence": 39.5,
       "final_bridge_score_after_ip_evidence": 40.5,
       "ip_evidence_adjusted_score": 40.5,
       "ip_evidence_formula": "final_bridge_score_after_ip_evidence = peer_adjusted_bridge_score_before_ip_evidence + ip_evidence_composite_adjustment_points",
       "ip_evidence_adjusted_grade": "TECH_EVIDENCE_WEAK",
-      "investor_final_tech_score": 48.65,
+      "investor_final_tech_score": 59.05,
       "investor_final_tech_grade": {
-        "code": "EVIDENCE_WEAK_OR_EARLY",
-        "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
-        "threshold": 0.0
+        "code": "COMMERCIALIZATION_WATCH",
+        "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+        "threshold": 52.0
       },
       "value_evidence_score": 82.72,
       "value_evidence_label": "VALUE_EVIDENCE_STRONG"
@@ -480,14 +525,14 @@
       }
     ],
     "ip_quant_signals": {
-      "normalized_patent_text_records": 89,
-      "company_matched_patents": 61,
+      "normalized_patent_text_records": 1649,
+      "company_matched_patents": 1621,
       "registered_patents": 55,
-      "alive_patents": 61,
-      "recent_5y_patents": 4,
+      "alive_patents": 1621,
+      "recent_5y_patents": 1560,
       "ipc_cpc_classes": null,
       "core_ipc_h01l_patents": null,
-      "keyword_matches": null
+      "keyword_matches": 9360
     },
     "selected_ml": {
       "peer_ml": {
@@ -497,9 +542,9 @@
         "cluster_name": null
       },
       "tech_ip_strength": {
-        "score": 38.07,
+        "score": 59.65,
         "percentile": 50.0,
-        "patent_momentum_score": 4.92,
+        "patent_momentum_score": 97.18,
         "dominant_topic": null
       },
       "technology_differentiation": {
@@ -663,15 +708,15 @@
       "ip_evidence_bridge_signal": "IP_EVIDENCE_POSITIVE",
       "ip_evidence_bridge_adjustment_points": 1.0,
       "final_bridge_score_after_ip_evidence": 40.5,
-      "investor_final_tech_score": 48.65,
+      "investor_final_tech_score": 59.05,
       "investor_final_tech_grade": {
-        "code": "EVIDENCE_WEAK_OR_EARLY",
-        "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
-        "threshold": 0.0
+        "code": "COMMERCIALIZATION_WATCH",
+        "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+        "threshold": 52.0
       },
       "investor_evidence_count": 9,
-      "excel_quantified_evidence_score": 45.0,
-      "commercialization_and_funding_signal_score": 55.5
+      "excel_quantified_evidence_score": 90.0,
+      "commercialization_and_funding_signal_score": 69.5
     },
     "ip_legal_features": {
       "total_patents": 4,
@@ -944,7 +989,7 @@
       "company_name": "가온칩스",
       "field": "반도체",
       "status": "OK",
-      "created_at": "2026-05-20T21:36:06",
+      "created_at": "2026-05-25T20:59:44",
       "weights": {
         "legal_stability": 0.25,
         "claim_defense": 0.3,
@@ -1040,17 +1085,17 @@
       "tech_full_appendix_json": ""
     },
     "ip_evidence_bridge_adjustment_status": "APPLIED",
-    "ip_evidence_bridge_adjustment_applied_at": "2026-05-20T21:36:23",
+    "ip_evidence_bridge_adjustment_applied_at": "2026-05-25T21:04:11",
     "tech_investor_view": {
       "version": "tech-investor-scorecard-v2",
-      "generated_at": "2026-05-20T21:36:30",
+      "generated_at": "2026-05-25T21:06:06",
       "company_slug": "gaochips",
       "company_name": "가온칩스",
-      "final_tech_investor_score": 48.65,
+      "final_tech_investor_score": 59.05,
       "final_tech_investor_grade": {
-        "code": "EVIDENCE_WEAK_OR_EARLY",
-        "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
-        "threshold": 0.0
+        "code": "COMMERCIALIZATION_WATCH",
+        "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+        "threshold": 52.0
       },
       "score_policy": {
         "description": "개인투자자용 최종 Tech 점수는 기술-사업화 연결 가능성, IP 품질, Excel/DART 정량 근거, 근거 신뢰도, 딥테크 성장투자 지속성을 하나로 합성한다.",
@@ -1210,53 +1255,54 @@
         },
         "excel_quantified_evidence": {
           "label": "Excel 기반 정량 근거",
-          "score": 45.0,
+          "score": 90.0,
           "weight": 0.15,
           "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지",
           "meta": {
-            "score": 45.0,
-            "company_item_count": 8,
-            "filled_count": 0,
+            "score": 90.0,
+            "company_item_count": 22,
+            "filled_count": 22,
             "metric_row_count": 0,
-            "numeric_signal_count": 0,
-            "category_count": 7,
+            "numeric_signal_count": 111,
+            "category_count": 8,
             "unique_metric_count": 0,
             "formula_rule_count": 0,
-            "coverage_ratio": 0.0,
-            "numeric_density": 0.0
+            "coverage_ratio": 1.0,
+            "numeric_density": 5.0455
           }
         },
         "evidence_confidence": {
           "label": "근거 직접성·충분성",
-          "score": 41.27,
+          "score": 56.27,
           "weight": 0.15,
           "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성",
           "meta": {
-            "score": 41.27,
+            "score": 56.27,
             "evidence_count": 3,
             "claim_count": 3,
             "patent_count": 4,
-            "excel_coverage_ratio": 0.0
+            "excel_coverage_ratio": 1.0
           }
         },
         "commercialization_and_funding_signal": {
           "label": "사업화·성장자금 지속성",
-          "score": 55.5,
+          "score": 69.5,
           "weight": 0.1,
           "meaning": "R&D·특허·정부과제·기술이전·CAPEX/희석성 자금조달이 사업화와 연결되는 정도",
           "meta": {
-            "score": 55.5,
-            "detected_signal_groups": [],
+            "score": 69.5,
+            "detected_signal_groups": [
+              "commercial"
+            ],
             "detected_flags": {
               "rd": false,
-              "commercial": false,
+              "commercial": true,
               "government": false,
               "transfer": false,
               "funding": false
             },
             "recent_5y_patents": null,
             "warnings": [
-              "customer_mass_production_revenue_signal_limited",
               "rd_or_recent_patent_continuity_limited",
               "capital_raising_signal_not_explicitly_detected"
             ],
@@ -1284,31 +1330,31 @@
         {
           "component": "excel_quantified_evidence",
           "label": "Excel 기반 정량 근거",
-          "score": 45.0,
+          "score": 90.0,
           "weight": 0.15,
-          "weighted_score": 6.75,
+          "weighted_score": 13.5,
           "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지"
         },
         {
           "component": "evidence_confidence",
           "label": "근거 직접성·충분성",
-          "score": 41.27,
+          "score": 56.27,
           "weight": 0.15,
-          "weighted_score": 6.1905,
+          "weighted_score": 8.4405,
           "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성"
         },
         {
           "component": "commercialization_and_funding_signal",
           "label": "사업화·성장자금 지속성",
-          "score": 55.5,
+          "score": 69.5,
           "weight": 0.1,
-          "weighted_score": 5.55,
+          "weighted_score": 6.95,
           "meaning": "R&D·특허·정부과제·기술이전·CAPEX/희석성 자금조달이 사업화와 연결되는 정도"
         }
       ],
       "key_takeaways": [
-        "가온칩스의 개인투자자용 Tech 최종 점수는 48.65/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
-        "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(40.5)와 IP Evidence(69.78) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+        "가온칩스의 개인투자자용 Tech 최종 점수는 59.05/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
+        "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(40.5)와 IP Evidence(69.78) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
         "투자자가 확인할 핵심 근거는 9개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
       ],
       "investor_evidence": [
@@ -1375,7 +1421,7 @@
         {
           "source": "tech_summary",
           "title": "Tech Agent 핵심 해석",
-          "detail": "가온칩스의 개인투자자용 Tech 최종 점수는 48.65/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
+          "detail": "가온칩스의 개인투자자용 Tech 최종 점수는 57.65/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
           "value": null,
           "unit": null,
           "path": null,
@@ -1385,7 +1431,7 @@
         {
           "source": "tech_summary",
           "title": "Tech Agent 핵심 해석",
-          "detail": "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(40.5)와 IP Evidence(69.78) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+          "detail": "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(40.5)와 IP Evidence(69.78) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
           "value": null,
           "unit": null,
           "path": null,
@@ -1425,21 +1471,22 @@
       }
     },
     "key_takeaways": [
-      "가온칩스의 개인투자자용 Tech 최종 점수는 48.65/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
-      "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(40.5)와 IP Evidence(69.78) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+      "가온칩스의 개인투자자용 Tech 최종 점수는 59.05/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
+      "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(40.5)와 IP Evidence(69.78) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
       "투자자가 확인할 핵심 근거는 9개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다.",
+      "가온칩스의 개인투자자용 Tech 최종 점수는 57.65/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
       "투자자가 확인할 핵심 근거는 6개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
     ],
     "value_evidence_bridge": {
       "agent": "tech_intake",
       "artifact": "tech_intake_value_evidence_bridge",
       "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-      "created_at": "2026-05-20T21:36:29",
+      "created_at": "2026-05-25T21:06:05",
       "field": "반도체",
       "company": "가온칩스",
       "company_dir": "gaochips",
       "company_slug": "gaochips",
-      "source_document_count": 131,
+      "source_document_count": 150,
       "source_documents": [
         {
           "source_group": "KIPRIS",
@@ -1827,6 +1874,18 @@
         },
         {
           "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/가온칩스/tech/tech_history_features_2025-08-31.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/가온칩스/tech/tech_history_features_2025-08-31.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/가온칩스/tech/tech_intake_manifest.json",
           "detected_url_count": 0,
           "fallback_url_count": 2
@@ -2085,6 +2144,120 @@
         },
         {
           "source_group": "VALUATION",
+          "source_file": "data/반도체/가온칩스/valuation/intake/company_profile.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/가온칩스/valuation/intake/cross_agent_signals_for_valuation.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/가온칩스/valuation/intake/dcf_inputs.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/가온칩스/valuation/intake/dilution_events.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/가온칩스/valuation/intake/eval_price_history.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/가온칩스/valuation/intake/eval_price_history_monthly.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/가온칩스/valuation/intake/eval_price_history_monthly_v43.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/가온칩스/valuation/intake/eval_price_history_monthly_v44.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/가온칩스/valuation/intake/eval_price_history_monthly_v45.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/가온칩스/valuation/intake/eval_price_history_v43.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/가온칩스/valuation/intake/eval_price_history_v44.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/가온칩스/valuation/intake/eval_price_history_v45.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/가온칩스/valuation/intake/financials_normalized.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/가온칩스/valuation/intake/financials_raw.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/가온칩스/valuation/intake/peer_multiples.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/가온칩스/valuation/intake/price_history.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/가온칩스/valuation/intake/relative_valuation_inputs.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/가온칩스/valuation/intake/shares_outstanding.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/가온칩스/valuation/intake/valuation_assumptions.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
           "source_file": "data/반도체/가온칩스/valuation/intake/valuation_assumptions.json",
           "detected_url_count": 0,
           "fallback_url_count": 5
@@ -2199,19 +2372,7 @@
         },
         {
           "source_group": "FINANCE",
-          "source_file": "data/반도체/가온칩스/finance/가온칩스_stock.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "FINANCE",
           "source_file": "data/반도체/가온칩스/finance/가온칩스_재무.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/가온칩스/finance/가온칩스_재무데이터.csv",
           "detected_url_count": 0,
           "fallback_url_count": 5
         },
@@ -2262,25 +2423,34 @@
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93e385739107ee7585343ee96a2a4ae871678c90d05bb9e354fe4abfdeaa919282a3f9be7a8fe03c8c1b85e476a7fcc4a017ca7ff1375cf7b6",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93e385739107ee7585343ee96a2a4ae8711f224365348ac878b6e99442a62803571cc7bde8f0164a7632fcb07059d8e82b2e1b35f41676c2d6",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93c727eb51885767c849dbd9affe98e348e88b55426e22a6a4a3583be59ab1d448018329022e12334f31d34494983f15b6bfd514ff1cb451e3",
+            "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210131634&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+            "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210158969&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+            "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210162801&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+            "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020250029605&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
             "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/applicantNameSearchInfo",
+            "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020250029605&registerNumber=1029574270000&registrationNumber=1029574270000&format=xml",
+            "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210162801&registerNumber=1023813470000&registrationNumber=1023813470000&format=xml",
+            "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210158969&registerNumber=1023813610000&registrationNumber=1023813610000&format=xml",
+            "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210131634&registerNumber=1023365350000&registrationNumber=1023365350000&format=xml",
+            "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020250029605",
+            "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210162801",
+            "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210158969",
+            "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210131634",
             "https://www.kipris.or.kr/khome/main.jsp",
             "https://plus.kipris.or.kr/",
             "https://www.google.com/search?q=%EA%B0%80%EC%98%A8%EC%B9%A9%EC%8A%A4+KIPRIS+%ED%8A%B9%ED%97%88",
+            "http://www.w3.org/2001/XMLSchema-instance",
+            "http://www.nepes.co.kr",
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
             "https://www.google.com/search?q=%EA%B0%80%EC%98%A8%EC%B9%A9%EC%8A%A4+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
-            "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
-            "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
-            "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1126",
             "https://www.google.com/search?q=%EA%B0%80%EC%98%A8%EC%B9%A9%EC%8A%A4+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
             "https://www.google.com/search?q=%EA%B0%80%EC%98%A8%EC%B9%A9%EC%8A%A4+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
             "https://www.google.com/search?q=%EA%B0%80%EC%98%A8%EC%B9%A9%EC%8A%A4+IR",
             "https://www.google.com/search?q=%EA%B0%80%EC%98%A8%EC%B9%A9%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
             "https://www.google.com/search?q=%EA%B0%80%EC%98%A8%EC%B9%A9%EC%8A%A4+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
-            "https://www.google.com/search?q=%EA%B0%80%EC%98%A8%EC%B9%A9%EC%8A%A4+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
-            "https://dart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "http://www.w3.org/2001/XMLSchema-instance",
-            "http://www.nepes.co.kr",
-            "https://opendart.fss.or.kr/"
+            "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
+            "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1126"
           ],
           "fallback_urls": [
             "https://www.google.com/search?q=%EA%B0%80%EC%98%A8%EC%B9%A9%EC%8A%A4+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
@@ -2299,11 +2469,11 @@
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93e385739107ee7585343ee96a2a4ae871678c90d05bb9e354fe4abfdeaa919282a3f9be7a8fe03c8c1b85e476a7fcc4a017ca7ff1375cf7b6",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93e385739107ee7585343ee96a2a4ae8711f224365348ac878b6e99442a62803571cc7bde8f0164a7632fcb07059d8e82b2e1b35f41676c2d6",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93c727eb51885767c849dbd9affe98e348e88b55426e22a6a4a3583be59ab1d448018329022e12334f31d34494983f15b6bfd514ff1cb451e3",
-            "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/applicantNameSearchInfo",
+            "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210131634&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+            "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210158969&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
             "https://www.google.com/search?q=%EA%B0%80%EC%98%A8%EC%B9%A9%EC%8A%A4+KIPRIS+%ED%8A%B9%ED%97%88",
             "https://www.google.com/search?q=%EA%B0%80%EC%98%A8%EC%B9%A9%EC%8A%A4+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
-            "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
-            "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
+            "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/applicantNameSearchInfo",
             "https://www.google.com/search?q=%EA%B0%80%EC%98%A8%EC%B9%A9%EC%8A%A4+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
             "https://www.google.com/search?q=%EA%B0%80%EC%98%A8%EC%B9%A9%EC%8A%A4+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
             "https://www.google.com/search?q=%EA%B0%80%EC%98%A8%EC%B9%A9%EC%8A%A4+IR",
@@ -2693,24 +2863,7 @@
                 "매출",
                 "성장"
               ],
-              "snippet": "summary: 가온칩스는 2024년 매출이 전년 대비 크게 성장했으나, 영업이익률은 하락하며 수익성이 악화되는 모습을 보였다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EA%B0%80%EC%98%A8%EC%B9%A9%EC%8A%A4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/가온칩스/finance/가온칩스_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "매출"
-              ],
-              "snippet": "2025년에는 매출 감소와 함께 영업이익 및 순이익이 큰 폭의 적자를 기록하며 재무 상태가 크게 악화될 것으로 전망된다.",
+              "snippet": "summary: 가온칩스는 2023년 이후 매출이 꾸준히 성장하며 외형 확대를 지속하고 있으나, 2024년 영업이익률은 하락하며 수익성 개선 여부가 관건이다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -2726,28 +2879,9 @@
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
                 "매출",
-                "매출액",
                 "성장"
               ],
-              "snippet": "key_thesis: 2024년 매출액이 964억 원으로 전년 대비 51.7% 증가하며 외형 성장을 달성했다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EA%B0%80%EC%98%A8%EC%B9%A9%EC%8A%A4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/가온칩스/finance/가온칩스_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "매출",
-                "매출액"
-              ],
-              "snippet": "key_thesis: 2025년에는 매출액이 685억 원으로 감소하고 영업이익률은 -24.4%로 큰 폭의 적자를 기록할 것으로 전망된다.",
+              "snippet": "key_thesis: 2023년 매출성장률 46.8%, 2024년 51.7%로 가파른 외형 성장을 기록하고 있다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -2783,7 +2917,7 @@
                 "매출",
                 "성장"
               ],
-              "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수",
+              "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -2800,7 +2934,24 @@
               "matched_keywords": [
                 "sales"
               ],
-              "snippet": "sales: 68510181008.0",
+              "snippet": "sales: 96492001688.0",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EA%B0%80%EC%98%A8%EC%B9%A9%EC%8A%A4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/가온칩스/finance/가온칩스_finance_agent_packet.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "sales"
+              ],
+              "snippet": "sales_growth: 51.72330605815758",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -2817,7 +2968,24 @@
               "matched_keywords": [
                 "sales"
               ],
-              "snippet": "year: 2023 | sales: 63597349804.0 | operating_income: 4351646460.0 | net_income: 6344445918.0 | total_assets: 94609678796.0 | total_liabilities: 32590129089.0 | total_equity: 62019549707.0 | capex: 10884020503 | ocf: 10813552396 | fcf: -70468107 | interest: 839036639.0 | ROE: 10.22975166374663 | 영업이익률: 6.842496540203786 | 부채비율: 52.54815496559729 | 이자보상배율: 5.186479657415771",
+              "snippet": "year: 2022 | sales: 43320504880.0 | operating_income: 3899765486.0 | net_income: 4418777712.0 | total_assets: 73181102067.0 | total_liabilities: 18791727827.0 | total_equity: 54389374240.0 | current_assets: 54993351356.0 | current_liabilities: 14380377375.0 | capex: 11719929827 | ocf: 5920392540 | fcf: -5799537287 | interest_expense: 1079131525.0 | roe: 8.124340045725814 | operating_margin: 9.002123813659486 | curren",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EA%B0%80%EC%98%A8%EC%B9%A9%EC%8A%A4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/가온칩스/finance/가온칩스_재무.csv",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "sales"
+              ],
+              "snippet": "year: 2023 | sales: 63597349804.0 | operating_income: 4351646460.0 | net_income: 6344445918.0 | total_assets: 94609678796.0 | total_liabilities: 32590129089.0 | total_equity: 62019549707.0 | current_assets: 64354916686.0 | current_liabilities: 24817647312.0 | capex: 10884020503 | ocf: 10813552396 | fcf: -70468107 | interest_expense: 839036639.0 | roe: 10.22975166374663 | operating_margin: 6.842496540203786 | current_",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -2849,7 +3017,7 @@
                 "영업이익률",
                 "수익성"
               ],
-              "snippet": "summary: 가온칩스는 2024년 매출이 전년 대비 크게 성장했으나, 영업이익률은 하락하며 수익성이 악화되는 모습을 보였다.",
+              "snippet": "summary: 가온칩스는 2023년 이후 매출이 꾸준히 성장하며 외형 확대를 지속하고 있으나, 2024년 영업이익률은 하락하며 수익성 개선 여부가 관건이다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -2864,44 +3032,9 @@
               "source_file": "data/반도체/가온칩스/finance/가온칩스_finance.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
-                "영업이익률"
+                "현금흐름"
               ],
-              "snippet": "key_thesis: 2024년 영업이익률은 3.7%로 2023년 6.8% 대비 하락했으나, 순이익은 75억 원으로 증가했다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EA%B0%80%EC%98%A8%EC%B9%A9%EC%8A%A4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/가온칩스/finance/가온칩스_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "영업이익률"
-              ],
-              "snippet": "key_thesis: 2025년에는 매출액이 685억 원으로 감소하고 영업이익률은 -24.4%로 큰 폭의 적자를 기록할 것으로 전망된다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EA%B0%80%EC%98%A8%EC%B9%A9%EC%8A%A4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/가온칩스/finance/가온칩스_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "영업이익률",
-                "수익성"
-              ],
-              "snippet": "key_risks: 2025년 영업이익률이 -24.4%로 예상되며, 이는 본업에서의 수익성 확보에 대한 불확실성을 시사한다.",
+              "snippet": "2024년 자유현금흐름은 양수로 전환되었으나, 부채비율은 지속적으로 상승하는 추세를 보여 재무 건전성 관리가 필요하다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -2919,7 +3052,60 @@
                 "현금흐름",
                 "FCF"
               ],
-              "snippet": "key_risks: 2025년 자유현금흐름(FCF)이 -98억 원으로 예상되어 투자 및 운영 자금 확보에 대한 부담이 증가할 수 있다.",
+              "snippet": "key_thesis: 2024년 자유현금흐름(FCF)이 11조 원 이상으로 크게 개선되며 현금 창출 능력이 향상되었다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EA%B0%80%EC%98%A8%EC%B9%A9%EC%8A%A4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/가온칩스/finance/가온칩스_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "영업이익률",
+                "수익성"
+              ],
+              "snippet": "key_risks: 2024년 영업이익률이 3.65%로 전년 대비 하락하여 수익성 개선 여부에 대한 면밀한 확인이 필요하다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EA%B0%80%EC%98%A8%EC%B9%A9%EC%8A%A4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/가온칩스/finance/가온칩스_finance_agent_packet.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "영업이익률",
+                "수익성"
+              ],
+              "snippet": "report_core_points: 영업이익률: 가온칩스 2024 기준 영업이익률 값은 3.65%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EA%B0%80%EC%98%A8%EC%B9%A9%EC%8A%A4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/가온칩스/finance/가온칩스_finance_agent_packet.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "수익성"
+              ],
+              "snippet": "report_core_points: ROE: 가온칩스 2024 기준 ROE 값은 10.86%이며, 자기자본 대비 수익성 수준을 확인하는 지표입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -2936,7 +3122,7 @@
               "matched_keywords": [
                 "FCF"
               ],
-              "snippet": "report_core_points: FCF: 가온칩스 2025 기준 FCF 값은 -9,819,437,266원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+              "snippet": "report_core_points: FCF: 가온칩스 2024 기준 FCF 값은 11,044,131,709원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -2953,24 +3139,7 @@
               "matched_keywords": [
                 "영업이익률"
               ],
-              "snippet": "missing_prompt_metrics: 영업이익률",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EA%B0%80%EC%98%A8%EC%B9%A9%EC%8A%A4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/가온칩스/finance/가온칩스_finance_agent_packet.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "FCF"
-              ],
-              "snippet": "metric: fcf",
+              "snippet": "label: 영업이익률",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3186,7 +3355,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\가온칩스\\tech\\gaochips_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\가온칩스\\tech\\gaochips_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-20T21:35:50",
+      "generated_at": "2026-05-25T20:59:38",
       "core_counts": {
         "total_patents": 4,
         "registered_patents_estimated": 4,
@@ -3251,8 +3420,8 @@
     "bridge_signal": "IP_QUALITY_MODERATE"
   },
   "formula_catalog_summary": {
-    "json": "data\\반도체\\가온칩스\\tech\\gaochips_tech_formula_rules.json",
-    "md": "data\\반도체\\가온칩스\\tech\\gaochips_tech_formula_rules.md",
+    "json": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\gaochips_tech_formula_rules.json",
+    "md": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\gaochips_tech_formula_rules.md",
     "rule_count": 34
   },
   "evidence_harvest_summary": {
@@ -3288,6 +3457,8 @@
     "tech_full_appendix_json": null,
     "tech_chair_summary_json": "data/반도체/가온칩스/tech/tech_chair_summary.json",
     "tech_chair_summary_md": "data/반도체/가온칩스/tech/gaochips_tech_chair_summary.md",
+    "tech_history_feature_json": "data/반도체/가온칩스/tech/tech_history_features_2025-08-31.json",
+    "tech_history_feature_csv": "data/반도체/가온칩스/tech/tech_history_features_2025-08-31.csv",
     "tech_json": "data/반도체/가온칩스/tech/gaochips_tech.json",
     "tech_agent_packet_json": "data/반도체/가온칩스/tech/gaochips_tech_agent_packet.json"
   },
@@ -4124,7 +4295,7 @@
     "field": "반도체",
     "source_csv": "data\\반도체\\가온칩스\\tech\\gaochips_kipris_patents_normalized.csv",
     "enriched_csv": "data\\반도체\\가온칩스\\tech\\gaochips_kipris_tech_ml_enriched.csv",
-    "generated_at": "2026-05-20T21:35:50",
+    "generated_at": "2026-05-25T20:59:38",
     "core_counts": {
       "total_patents": 4,
       "registered_patents_estimated": 4,
