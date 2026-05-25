@@ -1,0 +1,1 @@
+print("data_intake 모듈 로드됨")

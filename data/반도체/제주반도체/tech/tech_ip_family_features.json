@@ -1,0 +1,72 @@
+{
+  "company_slug": "jeju_semicon",
+  "company_name": "제주반도체",
+  "status": "OK",
+  "input_csv": "data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_bibliographic_normalized.csv",
+  "family_csv": "data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_family_normalized.csv",
+  "target_patent_count": 26,
+  "family_record_count": 8,
+  "patents_with_family": 2,
+  "patents_with_overseas_family": 2,
+  "overseas_family_record_count": 8,
+  "family_collection_coverage": 0.0769,
+  "overseas_family_patent_rate": 0.0769,
+  "pct_patents": 0,
+  "us_patents": 2,
+  "jp_patents": 1,
+  "ep_patents": 1,
+  "cn_patents": 0,
+  "detected_overseas_regions": [
+    "EP",
+    "JP",
+    "US"
+  ],
+  "global_extension_score": 17.38,
+  "bridge_adjustment_points": -1.0,
+  "bridge_signal": "IP_GLOBAL_EXTENSION_WEAK",
+  "top_overseas_family_patents": [
+    {
+      "application_number": "1020060123214",
+      "title": "디지털 이미지 테스트 부재의 광원 밝기 균일화 장치 및방법과 이를 이용한 디지털 이미지 색상 테스트 장치 및방법",
+      "family_record_count": 6,
+      "overseas_family_record_count": 6,
+      "jurisdictions": [
+        "EP",
+        "JP",
+        "US"
+      ],
+      "has_pct_or_wo": false,
+      "has_us": true,
+      "has_jp": true,
+      "has_ep": true,
+      "has_cn": false
+    },
+    {
+      "application_number": "1020150124769",
+      "title": "다양한 형태의 디스플레이 장치에 적용 가능한 반도체 메모리 디바이스",
+      "family_record_count": 2,
+      "overseas_family_record_count": 2,
+      "jurisdictions": [
+        "US"
+      ],
+      "has_pct_or_wo": false,
+      "has_us": true,
+      "has_jp": false,
+      "has_ep": false,
+      "has_cn": false
+    }
+  ],
+  "usage_rule": "Use this as an IP global expansion feature in Tech-to-Value Bridge. It indicates whether the patent portfolio has overseas family extension, but it is not direct revenue or commercialization evidence.",
+  "parse_error_count": 24,
+  "raw_jsonl": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_kipris_plus_family_raw.jsonl",
+  "request_targets_csv": "data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_plus_family_request_targets.csv",
+  "created_at": "2026-05-20T21:28:41",
+  "request_config": {
+    "endpoint": "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
+    "key_param": "ServiceKey",
+    "app_param": "applicationNumber",
+    "api_key": "***KEY***",
+    "timeout": 90,
+    "sleep_sec": 0.8
+  }
+}

@@ -1,0 +1,570 @@
+{
+  "agent": "issue",
+  "company_name": "에스티아이",
+  "company": "에스티아이",
+  "company_dir": "sti",
+  "opinion": "보유",
+  "confidence": 0.5,
+  "summary": "에스티아이에 대해 검증 가능한 핵심 근거는 다음과 같습니다. news_count 값은 10count입니다. rss_count 값은 18count입니다. related_keyword_count 값은 0count입니다.",
+  "key_points": [
+    "news_count 값은 10count입니다.",
+    "rss_count 값은 18count입니다.",
+    "related_keyword_count 값은 0count입니다."
+  ],
+  "risks": [],
+  "claims": [
+    {
+      "claim_id": "issue.auto_cl.001",
+      "text": "news_count 값은 10count입니다.",
+      "evidence_ids": [
+        "issue.ev.001"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "issue.auto_cl.003",
+      "text": "rss_count 값은 18count입니다.",
+      "evidence_ids": [
+        "issue.ev.002"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "issue.auto_cl.005",
+      "text": "related_keyword_count 값은 0count입니다.",
+      "evidence_ids": [
+        "issue.ev.003"
+      ],
+      "claim_type": "point"
+    }
+  ],
+  "evidences": [
+    {
+      "evidence_id": "issue.ev.001",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "news_count",
+      "value": 10,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | news_count | 값: 10count"
+    },
+    {
+      "evidence_id": "issue.ev.002",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "rss_count",
+      "value": 18,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | rss_count | 값: 18count"
+    },
+    {
+      "evidence_id": "issue.ev.003",
+      "source_type": "issue",
+      "source": "issue_keywords_workbook",
+      "metric": "related_keyword_count",
+      "value": 0,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_keywords_workbook | related_keyword_count | 값: 0count"
+    },
+    {
+      "evidence_id": "issue.ev.004",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 10:02:00 +0900",
+      "snippet": "Naver News | Mon, 18 May 2026 10:02:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.005",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 04 May 2026 10:00:00 +0900",
+      "snippet": "Naver News | Mon, 04 May 2026 10:00:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.006",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Fri, 10 Apr 2026 11:15:00 +0900",
+      "snippet": "Naver News | Fri, 10 Apr 2026 11:15:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.007",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 09 Apr 2026 14:52:00 +0900",
+      "snippet": "Naver News | Thu, 09 Apr 2026 14:52:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.008",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 31 Mar 2026 13:24:00 +0900",
+      "snippet": "Naver News | Tue, 31 Mar 2026 13:24:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.009",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:44 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:44 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.010",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:41 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:41 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.011",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:46:28 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:46:28 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.012",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:36:05 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:36:05 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.013",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:24:00 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:24:00 +0000 기준 rss_title | 값: 확인 불가"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "issue.ev.001",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "news_count",
+      "value": 10,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | news_count | 값: 10count"
+    },
+    {
+      "evidence_id": "issue.ev.002",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "rss_count",
+      "value": 18,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | rss_count | 값: 18count"
+    },
+    {
+      "evidence_id": "issue.ev.003",
+      "source_type": "issue",
+      "source": "issue_keywords_workbook",
+      "metric": "related_keyword_count",
+      "value": 0,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_keywords_workbook | related_keyword_count | 값: 0count"
+    },
+    {
+      "evidence_id": "issue.ev.004",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 10:02:00 +0900",
+      "snippet": "Naver News | Mon, 18 May 2026 10:02:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.005",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 04 May 2026 10:00:00 +0900",
+      "snippet": "Naver News | Mon, 04 May 2026 10:00:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.006",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Fri, 10 Apr 2026 11:15:00 +0900",
+      "snippet": "Naver News | Fri, 10 Apr 2026 11:15:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.007",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 09 Apr 2026 14:52:00 +0900",
+      "snippet": "Naver News | Thu, 09 Apr 2026 14:52:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.008",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 31 Mar 2026 13:24:00 +0900",
+      "snippet": "Naver News | Tue, 31 Mar 2026 13:24:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.009",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:44 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:44 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.010",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:41 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:41 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.011",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:46:28 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:46:28 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.012",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:36:05 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:36:05 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.013",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:24:00 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:24:00 +0000 기준 rss_title | 값: 확인 불가"
+    }
+  ],
+  "fallback_used": false,
+  "warning_note": "검증 불가 claim 6개를 제거한 뒤 grounding 기준을 재검증했습니다.",
+  "raw_payload": {
+    "analysis_text": "opinion: 보유\nconfidence: 0.65\n\n1.  **핵심 이슈 요약**\n    에스티아이(STI)는 최근 한국 증시에서 HBM(고대역폭메모리) 및 CXL(Compute Express Link) 관련주로 분류되며 주가 변동성을 보이고 있다. 미국 빅테크 기업들의 AI 인프라 투자 확대에 따른 긍정적 영향과 마이크론의 실적 발표 이후 메모리 반도체 업황에 대한 우려가 혼재하는 상황이다. 특히, 에스티아이는 마이크론의 싱가포르 생산시설에 주력 제품을 납품한 실적이 있으며, 이는 HBM 시장 성장과 연관될 수 있는 잠재적 요인으로 작용한다.\n\n2.  **기업에 미치는 영향**\n    에스티아이는 HBM 및 AI 관련 반도체 장비 및 부품 공급망의 일부로서, 관련 시장의 성장 및 투자 확대에 따른 수혜를 기대할 수 있다. 그러나 거시 경제 환경 변화, 주요 고객사의 투자 결정, 경쟁 심화 등 외부 요인에 따라 실적 및 주가에 직접적인 영향을 받을 수 있다.\n\n3.  **긍정 시그널**\n    *   **HBM 시장 성장 수혜 기대:** 에스티아이는 마이크론의 싱가포르 생산시설에 주력 제품을 납품한 실적이 있으며, 이는 HBM 시장의 성장과 함께 추가적인 수주 및 매출 증대로 이어질 가능성이 있다.\n    *   **AI 투자 확대:** 메타, 마이크로소프트 등 빅테크 기업들의 AI 인프라 투자 확대는 HBM 및 관련 반도체 수요 증가로 이어져 에스티아이에게 긍정적인 영향을 줄 수 있다.\n    *   **주요 고객사와의 협력:** 마이크론과의 장기적인 협력 가능성이 언급되며, 이는 안정적인 사업 기반 확보에 기여할 수 있다.\n\n4.  **부정 시그널/리스크**\n    *   **시장 변동성:** 엔비디아 등 주요 변수에 따라 HBM 및 CXL 관련주들이 장중 급락하는 등 높은 변동성을 보이고 있어 투자 불확실성이 존재한다.\n    *   **메모리 업황 우려:** 마이크론의 실적 발표 이후 메모리 반도체 피크 아웃(정점 통과) 우려가 제기되며, 이는 반도체 장비 및 부품 업계 전반에 부정적인 영향을 미칠 수 있다.\n    *   **실적 편차 가능성:** 과거 엘앤케이바이오 사례에서 언급된 '실적 편차'와 같은 이슈가 발생할 경우, 기업의 재무 건전성 및 주가에 부정적인 영향을 줄 수 있다. (단, 이는 에스티아이 자체의 직접적인 이슈가 아닌, 유사 사례 언급으로 해석해야 함)\n    *   **공개된 내부 키워드 부재:** 기업의 구체적인 사업 전략, 신규 투자 계획, 기술 개발 현황 등 내부적인 강점이나 리스크 요인에 대한 정보가 부족하여 투자 판단의 근거가 제한적이다.\n\n5.  **향후 체크포인트**\n    *   **HBM 시장 동향 및 주요 고객사(마이크론 등)의 투자 계획:** HBM 시장의 성장 속도와 주요 고객사들의 신규 투자 및 생산 능력 확대 계획을 지속적으로 모니터링해야 한다.\n    *   **에스티아이의 신규 수주 및 실적 발표:** 향후 발표될 신규 수주 정보와 분기별 실적 발표를 통해 기업의 실제 사업 성과를 확인해야 한다.\n    *   **반도체 업황 전반의 흐름:** 거시 경제 지표, 글로벌 반도체 수요 전망 등 반도체 산업 전반의 흐름을 주시하며 투자 전략을 조정할 필요가 있다.\n    *   **경쟁 환경 변화:** HBM 및 AI 관련 반도체 장비 시장의 경쟁 심화 여부를 파악해야 한다.",
+    "markdown_report": "# 에스티아이 이슈 리포트\n\n## 분석 결과\nopinion: 보유\nconfidence: 0.65\n\n1.  **핵심 이슈 요약**\n    에스티아이(STI)는 최근 한국 증시에서 HBM(고대역폭메모리) 및 CXL(Compute Express Link) 관련주로 분류되며 주가 변동성을 보이고 있다. 미국 빅테크 기업들의 AI 인프라 투자 확대에 따른 긍정적 영향과 마이크론의 실적 발표 이후 메모리 반도체 업황에 대한 우려가 혼재하는 상황이다. 특히, 에스티아이는 마이크론의 싱가포르 생산시설에 주력 제품을 납품한 실적이 있으며, 이는 HBM 시장 성장과 연관될 수 있는 잠재적 요인으로 작용한다.\n\n2.  **기업에 미치는 영향**\n    에스티아이는 HBM 및 AI 관련 반도체 장비 및 부품 공급망의 일부로서, 관련 시장의 성장 및 투자 확대에 따른 수혜를 기대할 수 있다. 그러나 거시 경제 환경 변화, 주요 고객사의 투자 결정, 경쟁 심화 등 외부 요인에 따라 실적 및 주가에 직접적인 영향을 받을 수 있다.\n\n3.  **긍정 시그널**\n    *   **HBM 시장 성장 수혜 기대:** 에스티아이는 마이크론의 싱가포르 생산시설에 주력 제품을 납품한 실적이 있으며, 이는 HBM 시장의 성장과 함께 추가적인 수주 및 매출 증대로 이어질 가능성이 있다.\n    *   **AI 투자 확대:** 메타, 마이크로소프트 등 빅테크 기업들의 AI 인프라 투자 확대는 HBM 및 관련 반도체 수요 증가로 이어져 에스티아이에게 긍정적인 영향을 줄 수 있다.\n    *   **주요 고객사와의 협력:** 마이크론과의 장기적인 협력 가능성이 언급되며, 이는 안정적인 사업 기반 확보에 기여할 수 있다.\n\n4.  **부정 시그널/리스크**\n    *   **시장 변동성:** 엔비디아 등 주요 변수에 따라 HBM 및 CXL 관련주들이 장중 급락하는 등 높은 변동성을 보이고 있어 투자 불확실성이 존재한다.\n    *   **메모리 업황 우려:** 마이크론의 실적 발표 이후 메모리 반도체 피크 아웃(정점 통과) 우려가 제기되며, 이는 반도체 장비 및 부품 업계 전반에 부정적인 영향을 미칠 수 있다.\n    *   **실적 편차 가능성:** 과거 엘앤케이바이오 사례에서 언급된 '실적 편차'와 같은 이슈가 발생할 경우, 기업의 재무 건전성 및 주가에 부정적인 영향을 줄 수 있다. (단, 이는 에스티아이 자체의 직접적인 이슈가 아닌, 유사 사례 언급으로 해석해야 함)\n    *   **공개된 내부 키워드 부재:** 기업의 구체적인 사업 전략, 신규 투자 계획, 기술 개발 현황 등 내부적인 강점이나 리스크 요인에 대한 정보가 부족하여 투자 판단의 근거가 제한적이다.\n\n5.  **향후 체크포인트**\n    *   **HBM 시장 동향 및 주요 고객사(마이크론 등)의 투자 계획:** HBM 시장의 성장 속도와 주요 고객사들의 신규 투자 및 생산 능력 확대 계획을 지속적으로 모니터링해야 한다.\n    *   **에스티아이의 신규 수주 및 실적 발표:** 향후 발표될 신규 수주 정보와 분기별 실적 발표를 통해 기업의 실제 사업 성과를 확인해야 한다.\n    *   **반도체 업황 전반의 흐름:** 거시 경제 지표, 글로벌 반도체 수요 전망 등 반도체 산업 전반의 흐름을 주시하며 투자 전략을 조정할 필요가 있다.\n    *   **경쟁 환경 변화:** HBM 및 AI 관련 반도체 장비 시장의 경쟁 심화 여부를 파악해야 한다.\n",
+    "news_count": 10,
+    "rss_count": 18,
+    "related_keyword_count": 0,
+    "df_news_rows": 139,
+    "llm_error": null,
+    "graph_claims_original": [],
+    "removed_ungrounded_claims": [
+      "에스티아이 관련 공개 뉴스 제목: 美 AI 훈풍...한국증시 HBM ·CXL주 '장중 껑충'",
+      "에스티아이 관련 공개 뉴스 제목: 삼성전자·SK하이닉스 오르니 ‘소부장’도 주목, 메모리 슈퍼 사이클에...",
+      "에스티아이 관련 공개 뉴스 제목: 한국증시 HBM · CXL주 '장중 뚝'...엔비디아가 변수?",
+      "에스티아이 이슈 분석에서 수집된 RSS 항목 수는 18건입니다.",
+      "에스티아이 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+      "에스티아이 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다."
+    ],
+    "removed_bad_evidence_ids": [
+      "issue.ev.unverified"
+    ]
+  },
+  "packet_version": "grounded_agent_v3",
+  "pre_sanitize_grounding_check": {
+    "score": 0.0,
+    "pass": false,
+    "pass_threshold": 0.75,
+    "claim_count": 6,
+    "supported_count": 0,
+    "unsupported_count": 6,
+    "supported_claims": [],
+    "unsupported_claims": [
+      "에스티아이 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+      "에스티아이 이슈 분석에서 수집된 RSS 항목 수는 18건입니다.",
+      "에스티아이 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다.",
+      "에스티아이 관련 공개 뉴스 제목: 한국증시 HBM · CXL주 '장중 뚝'...엔비디아가 변수?",
+      "에스티아이 관련 공개 뉴스 제목: 美 AI 훈풍...한국증시 HBM ·CXL주 '장중 껑충'",
+      "에스티아이 관련 공개 뉴스 제목: 삼성전자·SK하이닉스 오르니 ‘소부장’도 주목, 메모리 슈퍼 사이클에..."
+    ],
+    "issues": [
+      "issue.cl.001: evidence와 claim 연결이 약합니다.",
+      "issue.cl.002: evidence와 claim 연결이 약합니다.",
+      "issue.cl.003: evidence와 claim 연결이 약합니다.",
+      "issue.cl.004: evidence와 claim 연결이 약합니다.",
+      "issue.cl.005: evidence와 claim 연결이 약합니다.",
+      "issue.cl.006: evidence와 claim 연결이 약합니다."
+    ],
+    "claim_results": [
+      {
+        "claim_id": "issue.cl.001",
+        "text": "에스티아이 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.002",
+        "text": "에스티아이 이슈 분석에서 수집된 RSS 항목 수는 18건입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.003",
+        "text": "에스티아이 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.004",
+        "text": "에스티아이 관련 공개 뉴스 제목: 한국증시 HBM · CXL주 '장중 뚝'...엔비디아가 변수?",
+        "evidence_ids": [
+          "issue.ev.004"
+        ],
+        "supported": false,
+        "score": 0.55,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.005",
+        "text": "에스티아이 관련 공개 뉴스 제목: 美 AI 훈풍...한국증시 HBM ·CXL주 '장중 껑충'",
+        "evidence_ids": [
+          "issue.ev.005"
+        ],
+        "supported": false,
+        "score": 0.55,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.006",
+        "text": "에스티아이 관련 공개 뉴스 제목: 삼성전자·SK하이닉스 오르니 ‘소부장’도 주목, 메모리 슈퍼 사이클에...",
+        "evidence_ids": [
+          "issue.ev.006"
+        ],
+        "supported": false,
+        "score": 0.55,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      }
+    ]
+  },
+  "post_atomic_grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 3,
+    "supported_count": 3,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "news_count 값은 10count입니다.",
+      "rss_count 값은 18count입니다.",
+      "related_keyword_count 값은 0count입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "issue.auto_cl.001",
+        "text": "news_count 값은 10count입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.003",
+        "text": "rss_count 값은 18count입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.005",
+        "text": "related_keyword_count 값은 0count입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  },
+  "grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 3,
+    "supported_count": 3,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "news_count 값은 10count입니다.",
+      "rss_count 값은 18count입니다.",
+      "related_keyword_count 값은 0count입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "issue.auto_cl.001",
+        "text": "news_count 값은 10count입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.003",
+        "text": "rss_count 값은 18count입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.005",
+        "text": "related_keyword_count 값은 0count입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  }
+}

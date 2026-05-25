@@ -1,0 +1,223 @@
+{
+  "agent_name": "finance",
+  "company_name": "LX세미콘",
+  "company_dir": "lxsemicon",
+  "industry_type": "deeptech_semiconductor",
+  "summary": "LX세미콘은 2024년 매출이 소폭 감소했으나 영업이익률은 개선되었고, 2025년에는 매출과 영업이익 모두 감소할 것으로 전망된다. ROE는 2024년 소폭 상승 후 2025년에는 하락할 것으로 예상되며, 부채비율은 2024년 상승 후 2025년에는 다시 낮아질 것으로 보인다. 최근 1개월 주가 데이터는 상당한 변동성과 함께 상승세를 보이고 있으나, 과거 연간 MDD가 높은 수준이었던 점을 고려할 때 투자 시 주의가 필요하다.",
+  "key_thesis": [
+    "2024년 영업이익률이 8.96%로 전년 대비 2.17%p 상승하며 수익성이 개선되는 모습을 보였다.",
+    "2024년 ROE가 12.09%로 전년 대비 1.73%p 상승하며 자본 효율성이 소폭 개선되었다.",
+    "2024년 부채비율이 38.92%로 전년 대비 15.55%p 상승했으나, 2025년에는 24.36%로 다시 낮아질 것으로 전망된다.",
+    "최근 1개월 주가 데이터에서 2026년 4월 24일 하루에 10.37%의 높은 상승률을 기록하는 등 단기적인 주가 모멘텀이 관찰된다.",
+    "2026년 연수익률이 26.88%로 이전 연도들의 마이너스 수익률에서 크게 반등했다."
+  ],
+  "key_risks": [
+    "2025년 매출액이 1조 6,390억 원으로 2024년 대비 12.15% 감소할 것으로 전망되어 성장성에 대한 우려가 있다.",
+    "2025년 영업이익률이 6.64%로 2024년 대비 2.31%p 하락할 것으로 예상되어 수익성 둔화 가능성이 있다.",
+    "2025년 ROE가 7.34%로 2024년 대비 4.75%p 하락할 것으로 전망되어 자본 효율성이 저하될 수 있다.",
+    "2024년 연간 MDD가 -42.18%로 높은 수준이었으며, 최근 1개월 주가 데이터에서도 -39.56%의 드로다운이 관찰되어 높은 변동성 리스크가 존재한다.",
+    "2024년 이자보상배율이 4.94배로 전년 대비 소폭 하락했으며, 2025년에는 6.30배로 회복될 것으로 보이나 이자 비용 부담에 대한 지속적인 모니터링이 필요하다."
+  ],
+  "report_core_points": [
+    "FCF: LX세미콘 2025 기준 FCF 값은 107,939,328,796원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+    "연수익률: LX세미콘 2026 기준 연수익률 값은 26.88%이며, 해당 연도 주가 성과를 보여주는 지표입니다.",
+    "연간 MDD: LX세미콘 2026 기준 연간 MDD 값은 -23.13%이며, 투자자가 경험할 수 있는 최대 낙폭 위험을 보여주는 지표입니다.",
+    "거래량: LX세미콘 2026 기준 거래량 값은 112672.00주이며, 해당 연도 평균 거래량을 통해 시장 관심과 유동성을 확인하는 지표입니다.",
+    "이동평균 대비 비율: LX세미콘 2026 기준 이동평균 대비 비율 값은 1.17배이며, 거래량이 이동평균 대비 어느 수준인지 보여주는 수급 지표입니다."
+  ],
+  "missing_prompt_metrics": [
+    "매출성장률",
+    "영업이익률",
+    "ROE",
+    "부채비율",
+    "변동성지수"
+  ],
+  "evidence": [
+    {
+      "evidence_id": "finance.ev.004",
+      "source_type": "financial_csv",
+      "source": "LX세미콘_재무.csv",
+      "metric": "fcf",
+      "label": "FCF",
+      "value": 107939328796.0,
+      "unit": "원",
+      "period": "2025",
+      "snippet": "LX세미콘 2025 기준 FCF 값은 107,939,328,796원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.007",
+      "source_type": "stock_csv",
+      "source": "LX세미콘_주식.csv",
+      "metric": "annual_return_%",
+      "label": "연수익률",
+      "value": 26.88,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "LX세미콘 2026 기준 연수익률 값은 26.88%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.008",
+      "source_type": "stock_csv",
+      "source": "LX세미콘_주식.csv",
+      "metric": "annual_mdd_%",
+      "label": "연간 MDD",
+      "value": -23.13,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "LX세미콘 2026 기준 연간 MDD 값은 -23.13%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.009",
+      "source_type": "stock_csv",
+      "source": "LX세미콘_주식.csv",
+      "metric": "volume_mean",
+      "label": "거래량",
+      "value": 112672.0,
+      "unit": "주",
+      "period": "2026",
+      "snippet": "LX세미콘 2026 기준 거래량 값은 112672주입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.010",
+      "source_type": "stock_csv",
+      "source": "LX세미콘_주식.csv",
+      "metric": "volume_ma_ratio_mean",
+      "label": "이동평균 대비 비율",
+      "value": 1.1695,
+      "unit": "배",
+      "period": "2026",
+      "snippet": "LX세미콘 2026 기준 이동평균 대비 비율 값은 1.1695배입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.012",
+      "source_type": "stock_csv",
+      "source": "LX세미콘_주식.csv",
+      "metric": "latest_close",
+      "label": "최근 종가",
+      "value": 62300.0,
+      "unit": "원",
+      "period": "2026-05-13",
+      "snippet": "LX세미콘 2026-05-13 최근 종가 값은 62,300원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.013",
+      "source_type": "warning_stock_csv",
+      "source": "투자경고종목.csv",
+      "metric": "warning_stock",
+      "label": "투자경고 여부",
+      "value": 0.0,
+      "unit": null,
+      "period": "최근",
+      "snippet": "LX세미콘 투자경고종목 해당 여부 값은 0입니다.",
+      "prompt_rationale": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "finance.safe_cl.004",
+      "text": "LX세미콘 2025 기준 FCF 값은 107,939,328,796원입니다.",
+      "evidence_ids": [
+        "finance.ev.004"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.007",
+      "text": "LX세미콘 2026 기준 연수익률 값은 26.88%입니다.",
+      "evidence_ids": [
+        "finance.ev.007"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.008",
+      "text": "LX세미콘 2026 기준 연간 MDD 값은 -23.13%입니다.",
+      "evidence_ids": [
+        "finance.ev.008"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.009",
+      "text": "LX세미콘 2026 기준 거래량 값은 112672주입니다.",
+      "evidence_ids": [
+        "finance.ev.009"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.010",
+      "text": "LX세미콘 2026 기준 이동평균 대비 비율 값은 1.1695배입니다.",
+      "evidence_ids": [
+        "finance.ev.010"
+      ],
+      "audit_safe": true
+    }
+  ],
+  "warning_note": null,
+  "source_contexts": [
+    "financial_csv=LX세미콘_재무.csv",
+    "stock_csv=LX세미콘_주식.csv",
+    "warning_stock_csv=투자경고종목.csv",
+    "prompts.py summary/key_thesis/key_risks are preserved in the Chair View where available.",
+    "First Auditor claims are CSV-grounded one-to-one evidence claims for stable actual-information verification.",
+    "필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수"
+  ],
+  "raw_payload": {
+    "latest_financial_row": {
+      "year": 2025,
+      "sales": 1639070665791.0,
+      "operating_income": 108856055553.0,
+      "net_income": 82633081344.0,
+      "total_assets": 1399843476485.0,
+      "total_liabilities": 274236911903.0,
+      "total_equity": 1125606564582.0,
+      "rnd": 3455432443,
+      "capex": 29147204043,
+      "ocf": 137086532839,
+      "fcf": 107939328796,
+      "interest": 17269395620.0,
+      "ROE": 7.341204639712299,
+      "영업이익률": 6.641327785612409,
+      "부채비율": 24.36347837086748,
+      "이자보상배율": 6.303408523858926
+    },
+    "latest_stock_metric": {
+      "year": 2026,
+      "annual_return_%": 26.88,
+      "annual_mdd_%": -23.13
+    },
+    "latest_yearly_summary": {
+      "year": 2026,
+      "close_start": 49100.48,
+      "close_end": 62300.0,
+      "close_high": 65700.0,
+      "close_low": 47200.0,
+      "volume_mean": 112672.0,
+      "volume_ma_ratio_mean": 1.1695
+    },
+    "latest_recent_stock_row": {
+      "Date": "2026-05-13",
+      "Open": 59700.0,
+      "High": 62900.0,
+      "Low": 59700.0,
+      "Close": 62300.0,
+      "Volume": 195931,
+      "Change": 0.0470588235294118,
+      "VKOSPI": NaN,
+      "일수익률_%": 4.70588235294118,
+      "누적최고가": 85874.3046875,
+      "드로다운_%": -27.4521054619165,
+      "거래량_20일평균": 185832.0,
+      "거래량_이동평균대비비율": 1.0543447845365708
+    },
+    "audit_policy": "prompts_py_used_for_interpretation_claims_grounded_by_local_csv"
+  },
+  "packet_version": "finance_prompts_grounded_v4_compact"
+}

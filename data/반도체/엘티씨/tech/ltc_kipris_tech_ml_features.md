@@ -1,0 +1,60 @@
+# 엘티씨 KIPRIS Tech ML Features
+
+## 1. Source
+- source_csv: `data\반도체\엘티씨\tech\ltc_kipris_patents_normalized.csv`
+- enriched_csv: `data\반도체\엘티씨\tech\ltc_kipris_tech_ml_enriched.csv`
+- generated_at: 2026-05-20T20:35:51
+
+## 2. Core Counts
+- total_patents: 506
+- registered_patents_estimated: 336
+- alive_patents_estimated: 238
+- recent_5y_application_patents: 145
+- h01l_core_patents: 1
+- semiconductor_related_ipc_patents: 49
+- ipc_subclass_count: 146
+- tech_keyword_match_total: 146
+
+## 3. Core Rates
+- registration_rate_estimated: 0.664
+- alive_rate_among_registered_estimated: 0.7083
+- recent_5y_application_rate: 0.2866
+- h01l_core_rate: 0.002
+- semiconductor_related_ipc_rate: 0.0968
+
+## 4. Year Features
+- application_year_range: 1996 ~ 2025
+- application_year_span: 30
+
+## 5. Scores
+- legal_stability_score_estimated: 67.33
+- portfolio_momentum_score: 75.03
+- ip_technology_fit_score: 31.31
+- kipris_tech_ml_score: 58.83
+
+## 6. Tech-to-Value Bridge Adjustment
+- bridge_signal: IP_QUALITY_MODERATE
+- bridge_adjustment_points: 1.0
+- usage_rule: Add this as a conservative KIPRIS/IP feature adjustment to Tech-to-Value Bridge, but do not treat it as direct commercialization evidence.
+
+## 7. Top IPC Subclass
+- H02J: 22
+- G06Q: 19
+- A23L: 18
+- F16B: 17
+- F16N: 15
+- G01N: 15
+- H01M: 15
+- G16H: 14
+- G03F: 13
+- C10M: 13
+- H10P: 12
+- C30B: 12
+- C09K: 11
+- G01R: 9
+- F21V: 9
+
+## 8. Cautions
+- final_disposal is not present in the source CSV, so legal status is estimated from register_status/register_number/register_date.
+- register_date appears unavailable or unparsable in the current source, so registration year range should not be overclaimed.
+- KIPRIS/IP score supports technology defensibility, but customer adoption, mass production, sales conversion, and FCF conversion must be verified separately.

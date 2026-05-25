@@ -1,0 +1,1420 @@
+{
+  "agent": "tech",
+  "version": "v11_excel_frame_actual_source_concise_quantification",
+  "company": "ISC",
+  "company_dir": "isc",
+  "opinion": "보유",
+  "tech_score": 21,
+  "score_report": {
+    "company_name": "ISC",
+    "axes": [
+      {
+        "category": "대표 기술",
+        "axis": "기술성",
+        "score": 3,
+        "reason": "직접근거 1건, 공식/DART/IR/특허 근거 0건, 정량화 지표 7건",
+        "result": "ISC은 테스트, 양산, 공정 기반 기술/공정 기업으로, 관련 기술은 실제 원천에서 0회 확인됩니다. 해당 기술은 0개 제품·공정 영역과 연결되며, 양산·공정·기술 문맥을 통해 구현 방향을 판단합니다."
+      },
+      {
+        "category": "핵심 제품/서비스",
+        "axis": "수익성 기여",
+        "score": 3,
+        "reason": "직접근거 3건, 공식/DART/IR/특허 근거 0건, 정량화 지표 3건",
+        "result": "핵심 제품/서비스는 테스트 중심으로 확인됩니다. 실제 원천 기준 0개 제품·서비스 축이 추출되며, 매출·성장 정량 신호는 DART/IR 문맥과 결합해 수익성 기여 판단에 사용합니다."
+      },
+      {
+        "category": "고객 구매 이유",
+        "axis": "고객 채택도",
+        "score": 3,
+        "reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 9건",
+        "result": "고객 구매 이유는 핵심 기술 관련 성능·품질·양산 효익으로 정리됩니다. 실제 근거에서 고객 효익 신호 0개가 확인되며, 단순 기술 키워드가 아니라 적용처·성능·양산 문맥과 함께 해석합니다."
+      },
+      {
+        "category": "경쟁 우위/대체가능성",
+        "axis": "진입장벽",
+        "score": 3,
+        "reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 12건",
+        "result": "경쟁 우위는 특허, 양산와 연결된 특허·공정·양산 경험을 중심으로 확인됩니다. 대체가능성 판단에는 특허 수 자체보다 고객 승인, 공정 난이도, 양산 경험 등 0개 장벽 신호를 함께 반영합니다."
+      },
+      {
+        "category": "활용 및 확장 산업",
+        "axis": "확장성",
+        "score": 3,
+        "reason": "직접근거 3건, 공식/DART/IR/특허 근거 0건, 정량화 지표 3건",
+        "result": "활용·확장 산업은 EV로 확인됩니다. 실제 수집 근거에서 0개 적용 산업/Application이 추출되어 기술 확장성을 보조적으로 설명합니다."
+      },
+      {
+        "category": "진입 부담/장벽",
+        "axis": "양산성",
+        "score": 3,
+        "reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 6건",
+        "result": "진입 부담은 양산 공정, 고객 승인, 품질 검증, 노하우 축적 여부를 중심으로 판단됩니다. 현재 근거에서는 0개 장벽 신호가 확인되며, 이는 기술성보다 사업화 방어력 판단에 활용됩니다."
+      },
+      {
+        "category": "R&D 강도",
+        "axis": "투자 지속성",
+        "score": 3,
+        "reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 6건",
+        "result": "R&D 강도는 연구개발·설비투자·개발과제의 지속성을 기준으로 봅니다. 실제 근거에서 R&D/투자 신호 0개가 확인되며, 기술 유지·개선 가능성의 보조 지표로 사용합니다."
+      }
+    ],
+    "details": [
+      {
+        "category": "대표 기술",
+        "axis": "기술성",
+        "score": 3,
+        "reason": "직접근거 1건, 공식/DART/IR/특허 근거 0건, 정량화 지표 7건",
+        "result": "ISC은 테스트, 양산, 공정 기반 기술/공정 기업으로, 관련 기술은 실제 원천에서 0회 확인됩니다. 해당 기술은 0개 제품·공정 영역과 연결되며, 양산·공정·기술 문맥을 통해 구현 방향을 판단합니다."
+      },
+      {
+        "category": "핵심 제품/서비스",
+        "axis": "수익성 기여",
+        "score": 3,
+        "reason": "직접근거 3건, 공식/DART/IR/특허 근거 0건, 정량화 지표 3건",
+        "result": "핵심 제품/서비스는 테스트 중심으로 확인됩니다. 실제 원천 기준 0개 제품·서비스 축이 추출되며, 매출·성장 정량 신호는 DART/IR 문맥과 결합해 수익성 기여 판단에 사용합니다."
+      },
+      {
+        "category": "고객 구매 이유",
+        "axis": "고객 채택도",
+        "score": 3,
+        "reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 9건",
+        "result": "고객 구매 이유는 핵심 기술 관련 성능·품질·양산 효익으로 정리됩니다. 실제 근거에서 고객 효익 신호 0개가 확인되며, 단순 기술 키워드가 아니라 적용처·성능·양산 문맥과 함께 해석합니다."
+      },
+      {
+        "category": "경쟁 우위/대체가능성",
+        "axis": "진입장벽",
+        "score": 3,
+        "reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 12건",
+        "result": "경쟁 우위는 특허, 양산와 연결된 특허·공정·양산 경험을 중심으로 확인됩니다. 대체가능성 판단에는 특허 수 자체보다 고객 승인, 공정 난이도, 양산 경험 등 0개 장벽 신호를 함께 반영합니다."
+      },
+      {
+        "category": "활용 및 확장 산업",
+        "axis": "확장성",
+        "score": 3,
+        "reason": "직접근거 3건, 공식/DART/IR/특허 근거 0건, 정량화 지표 3건",
+        "result": "활용·확장 산업은 EV로 확인됩니다. 실제 수집 근거에서 0개 적용 산업/Application이 추출되어 기술 확장성을 보조적으로 설명합니다."
+      },
+      {
+        "category": "진입 부담/장벽",
+        "axis": "양산성",
+        "score": 3,
+        "reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 6건",
+        "result": "진입 부담은 양산 공정, 고객 승인, 품질 검증, 노하우 축적 여부를 중심으로 판단됩니다. 현재 근거에서는 0개 장벽 신호가 확인되며, 이는 기술성보다 사업화 방어력 판단에 활용됩니다."
+      },
+      {
+        "category": "R&D 강도",
+        "axis": "투자 지속성",
+        "score": 3,
+        "reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 6건",
+        "result": "R&D 강도는 연구개발·설비투자·개발과제의 지속성을 기준으로 봅니다. 실제 근거에서 R&D/투자 신호 0개가 확인되며, 기술 유지·개선 가능성의 보조 지표로 사용합니다."
+      }
+    ],
+    "total_score": 21,
+    "max_score": 35,
+    "strengths": [],
+    "weaknesses": [],
+    "judgment": "기술 경쟁형",
+    "quality_flags": [
+      "DART 사업보고서 본문 미수집: DART_API_KEY 또는 stock_code 확인 필요",
+      "공식 홈페이지/IR 본문 미수집: company.yaml URL 또는 네트워크 접근 확인 필요",
+      "KIPRIS Tech ML features merged into Tech Agent runtime outputs.",
+      "특허/IP: 특허 레코드는 있으나 출원인/권리자 회사명 매칭이 약합니다. applicant 검색어를 확인하세요."
+    ]
+  },
+  "tech_to_value_inputs": {
+    "score": 43.0,
+    "tech_agent_raw_score": 60.0,
+    "base_signal_score": 52.0,
+    "auditor_adjusted_score": 42.0,
+    "auditor_conservative_adjustment": 18.0,
+    "grade": "TECH_FINANCE_GAP",
+    "policy": "기술 우위는 고객사 채택, 양산, 매출 전환, FCF 개선 근거와 연결될 때만 가치평가 가산 요인으로 반영한다.",
+    "interpretation": "기술·제품 근거가 가치평가 보조 근거로 쓰이려면 고객 적용, 양산, 매출/현금흐름 연결이 함께 확인되어야 합니다.",
+    "components": {
+      "commercialization_hits": 4,
+      "production_hits": 4,
+      "value_hits": 0,
+      "ip_hits": 2,
+      "official_doc_count": 21,
+      "quantitative_signal_count": 46
+    },
+    "penalties": [
+      "매출·수익성·FCF 연결 근거 부족"
+    ],
+    "evidence_samples": [
+      {
+        "snippet": "ISC은 Universe CSV에서 '테스트/소켓' peer_group으로 분류되어 있습니다.",
+        "source_type": "local_data",
+        "source_title": "isc_tech_local_proxy_evidence.md",
+        "source_url": "",
+        "source_path": "data\\반도체\\ISC\\tech\\source\\isc_tech_local_proxy_evidence.md",
+        "source_plan_matched": false,
+        "hits": [
+          "테스트"
+        ]
+      },
+      {
+        "snippet": "ISC은 Universe CSV에서 '테스트/소켓' peer_group으로 분류되어 있습니다.",
+        "source_type": "local_data",
+        "source_title": "isc_tech_local_proxy_evidence.md",
+        "source_url": "",
+        "source_path": "data\\반도체\\ISC\\tech\\source\\isc_tech_local_proxy_evidence.md",
+        "source_plan_matched": false,
+        "hits": [
+          "테스트"
+        ]
+      },
+      {
+        "snippet": "ISC은 Universe CSV에서 '테스트/소켓' peer_group으로 분류되어 있습니다.",
+        "source_type": "local_data",
+        "source_title": "isc_tech_local_proxy_evidence.md",
+        "source_url": "",
+        "source_path": "data\\반도체\\ISC\\tech\\source\\isc_tech_local_proxy_evidence.md",
+        "source_plan_matched": false,
+        "hits": [
+          "테스트"
+        ]
+      },
+      {
+        "snippet": "ISC은 Universe CSV에서 '테스트/소켓' peer_group으로 분류되어 있습니다.",
+        "source_type": "local_data",
+        "source_title": "isc_tech_local_proxy_evidence.md",
+        "source_url": "",
+        "source_path": "data\\반도체\\ISC\\tech\\source\\isc_tech_local_proxy_evidence.md",
+        "source_plan_matched": false,
+        "hits": [
+          "테스트"
+        ]
+      },
+      {
+        "snippet": "# ISC Tech Local Proxy Evidence",
+        "source_type": "local_data",
+        "source_title": "isc_tech_local_proxy_evidence.md",
+        "source_url": "",
+        "source_path": "data\\반도체\\ISC\\tech\\source\\isc_tech_local_proxy_evidence.md",
+        "source_plan_matched": false,
+        "hits": [
+          "EV"
+        ]
+      },
+      {
+        "snippet": "# ISC Tech Local Proxy Evidence",
+        "source_type": "local_data",
+        "source_title": "isc_tech_local_proxy_evidence.md",
+        "source_url": "",
+        "source_path": "data\\반도체\\ISC\\tech\\source\\isc_tech_local_proxy_evidence.md",
+        "source_plan_matched": false,
+        "hits": [
+          "EV"
+        ]
+      },
+      {
+        "snippet": "# ISC Tech Local Proxy Evidence",
+        "source_type": "local_data",
+        "source_title": "isc_tech_local_proxy_evidence.md",
+        "source_url": "",
+        "source_path": "data\\반도체\\ISC\\tech\\source\\isc_tech_local_proxy_evidence.md",
+        "source_plan_matched": false,
+        "hits": [
+          "EV"
+        ]
+      }
+    ],
+    "score_before_kipris_tech_ml_adjustment": 42.0,
+    "kipris_tech_ml_features": {
+      "company_slug": "isc",
+      "company_name": "ISC",
+      "field": "반도체",
+      "source_csv": "data\\반도체\\ISC\\tech\\isc_kipris_patents_normalized.csv",
+      "enriched_csv": "data\\반도체\\ISC\\tech\\isc_kipris_tech_ml_enriched.csv",
+      "generated_at": "2026-05-20T22:29:22",
+      "core_counts": {
+        "total_patents": 30,
+        "registered_patents_estimated": 28,
+        "alive_patents_estimated": 28,
+        "negative_disposal_patents_estimated": 1,
+        "recent_5y_application_patents": 3,
+        "h01l_core_patents": 0,
+        "semiconductor_related_ipc_patents": 28,
+        "ipc_subclass_count": 5,
+        "ipc_main_group_count": 8,
+        "tech_keyword_match_total": 31,
+        "tech_keyword_match_avg": 1.0333
+      },
+      "core_rates": {
+        "registration_rate_estimated": 0.9333,
+        "alive_rate_total_estimated": 0.9333,
+        "alive_rate_among_registered_estimated": 1.0,
+        "negative_disposal_rate_estimated": 0.0333,
+        "recent_5y_application_rate": 0.1,
+        "h01l_core_rate": 0.0,
+        "semiconductor_related_ipc_rate": 0.9333
+      },
+      "year_features": {
+        "application_year_min": 2008,
+        "application_year_max": 2025,
+        "application_year_span": 18,
+        "recent_5y_threshold": 2021
+      },
+      "scores": {
+        "legal_stability_score_estimated": 96.67,
+        "portfolio_momentum_score": 22.85,
+        "ip_technology_fit_score": 47.17,
+        "kipris_tech_ml_score": 59.67
+      },
+      "tech_to_value_bridge_adjustment": {
+        "bridge_adjustment_points": 1.0,
+        "bridge_signal": "IP_QUALITY_MODERATE",
+        "usage_rule": "Add this as a conservative KIPRIS/IP feature adjustment to Tech-to-Value Bridge, but do not treat it as direct commercialization evidence."
+      },
+      "top_ipc_subclass": {
+        "G01R": 24,
+        "H01R": 3,
+        "H10P": 1,
+        "H01B": 1,
+        "H02M": 1
+      },
+      "top_ipc_main_group": {
+        "G01R 1": 17,
+        "G01R 31": 7,
+        "H10P 74": 1,
+        "H01R 43": 1,
+        "H01B 1": 1,
+        "H01R 11": 1,
+        "H02M 3": 1,
+        "H01R 33": 1
+      },
+      "top_applicants": {},
+      "cautions": [
+        "final_disposal is not present in the source CSV, so legal status is estimated from register_status/register_number/register_date.",
+        "register_date appears unavailable or unparsable in the current source, so registration year range should not be overclaimed.",
+        "KIPRIS/IP score supports technology defensibility, but customer adoption, mass production, sales conversion, and FCF conversion must be verified separately."
+      ],
+      "_source_file": "data/반도체/ISC/tech/isc_kipris_tech_ml_features.json"
+    },
+    "kipris_tech_ml_score": 59.67,
+    "legal_stability_score_estimated": 96.67,
+    "portfolio_momentum_score": 22.85,
+    "ip_technology_fit_score": 47.17,
+    "bridge_adjustment_points": 1.0,
+    "bridge_signal": "IP_QUALITY_MODERATE",
+    "kipris_bridge_usage_rule": "Add this as a conservative KIPRIS/IP feature adjustment to Tech-to-Value Bridge, but do not treat it as direct commercialization evidence.",
+    "kipris_bridge_applied": true
+  },
+  "claims": [
+    {
+      "claim_id": "tech.cl.000",
+      "text": "ISC의 Tech-to-Value Bridge Score는 43.0/100이며 판정은 TECH_FINANCE_GAP이다.",
+      "evidence_ids": [
+        "tech.ev.000"
+      ]
+    },
+    {
+      "claim_id": "tech.cl.001",
+      "text": "ISC는 원천 문서 기준 WLP/FOWLP·반도체 패키징·후공정 관련 기술 또는 제품 축을 보유한 기업으로 확인된다.",
+      "evidence_ids": [
+        "tech.ev.001"
+      ]
+    },
+    {
+      "claim_id": "tech.cl.002",
+      "text": "ISC의 기술성은 사업화 가능성을 보조하지만, 최종 가치평가 가산에는 고객 채택·양산·매출 전환·FCF 개선 근거와의 결합 검증이 필요하다.",
+      "evidence_ids": [
+        "tech.ev.000",
+        "tech.ev.002"
+      ]
+    },
+    {
+      "claim_id": "tech.cl.003",
+      "text": "KIPRIS 정규화 데이터 기준 ISC 관련 특허는 회사 매칭 0건, 등록 특허 28건, 최근 5년 특허 3건으로 집계된다.",
+      "evidence_ids": [
+        "tech.ev.003"
+      ]
+    }
+  ],
+  "evidences": [
+    {
+      "evidence_id": "tech.ev.000",
+      "source_type": "tech_to_value_bridge",
+      "source": "Tech Agent internal scoring with actual-source evidence and KIPRIS patent overlay",
+      "metric": "Tech-to-Value Bridge Score",
+      "value": 43.0,
+      "unit": "/100",
+      "period": null,
+      "snippet": "Tech-to-Value Bridge Score: 43.0 / 100; 판정: TECH_FINANCE_GAP; 원칙: 기술 우위는 고객사 채택, 양산, 매출 전환, FCF 개선 근거와 연결될 때만 가치평가 가산 요인으로 반영한다."
+    },
+    {
+      "evidence_id": "tech.ev.001",
+      "source_type": "local_data",
+      "source": "data\\반도체\\ISC\\tech\\source\\isc_tech_local_proxy_evidence.md",
+      "metric": "대표 기술 및 핵심 제품",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "ISC은 Universe CSV에서 '테스트/소켓' peer_group으로 분류되어 있습니다."
+    },
+    {
+      "evidence_id": "tech.ev.002",
+      "source_type": "local_data",
+      "source": "data\\반도체\\ISC\\tech\\source\\isc_tech_local_proxy_evidence.md",
+      "metric": "사업화·확장성 보조 근거",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "# ISC Tech Local Proxy Evidence"
+    },
+    {
+      "evidence_id": "tech.ev.003",
+      "source_type": "kipris_patent",
+      "source": "data/반도체/ISC/tech/source/KIPRIS patent file",
+      "metric": "KIPRIS 특허 정량 지표",
+      "value": 0,
+      "unit": "건",
+      "period": null,
+      "snippet": "KIPRIS 정규화 결과: 전체 정규화 30건, 회사 매칭 0건, 등록 특허 28건, 존속 가능 특허 28건, 최근 5년 특허 3건, H01L 반도체 핵심 IPC 0건, 주요 IPC/CPC: G01R, H02H, H02M, H01G, H10P. 대표 특허: 전원 공급 장치 및 이를 포함하는 번인 테스트 장치(2017, 등록, 기술매칭: 테스트, 반도체); 검사용 커넥터(2024, 등록, 기술매칭: 기판); 인터페이스 보드(2015, 등록, 기술매칭: 테스트, 기판, 반도체)"
+    }
+  ],
+  "categories": [
+    {
+      "category": "대표 기술",
+      "axis": "기술성",
+      "major_source_plan": "사업 보고서, 기업 홈페이지, 특허 사이트",
+      "middle_source_plan": "사업보고서: 사업의 내용 → 주요 제품 및 서비스 / 연구개발활동 / 생산공정·기술설명 / 원재료 및 전구체 설명 / 신규사업 내용 기업 홈페이지: 기술소개 / 제품기술 페이지 / 소재·공정 설명 페이지 / Application(적용 분야) 페이지 / R&D센터 소개 특허 사이트: 대표 등록특허 초록 / 청구항 / IPC·CPC 분류 / 특허 패밀리 / 피인용 특허",
+      "quantifiable_plan": "기술 키워드 등장 빈도, 적용 제품/공정 수, 수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등 : 따로 추출?)",
+      "items": [
+        {
+          "item_name": "핵심 기술 키워드",
+          "category": "대표 기술",
+          "axis": "기술성",
+          "major_source_plan": "사업 보고서, 기업 홈페이지, 특허 사이트",
+          "middle_source_plan": "사업보고서: 사업의 내용 → 주요 제품 및 서비스 / 연구개발활동 / 생산공정·기술설명 / 원재료 및 전구체 설명 / 신규사업 내용 기업 홈페이지: 기술소개 / 제품기술 페이지 / 소재·공정 설명 페이지 / Application(적용 분야) 페이지 / R&D센터 소개 특허 사이트: 대표 등록특허 초록 / 청구항 / IPC·CPC 분류 / 특허 패밀리 / 피인용 특허",
+          "quantifiable_plan": "기술 키워드 등장 빈도, 적용 제품/공정 수, 수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등 : 따로 추출?)",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "기술 키워드 등장 빈도",
+              "value": 156,
+              "unit": "회",
+              "formula": "DART/IR/공식/특허/로컬 기술 원천에서 핵심 기술 키워드 출현 횟수 합산",
+              "detail": {
+                "테스트": 43,
+                "양산": 31,
+                "공정": 29,
+                "수율": 23,
+                "AI": 14,
+                "EV": 7,
+                "HPC": 6,
+                "EMI": 3
+              }
+            },
+            {
+              "metric_name": "확인 핵심 기술 수",
+              "value": 8,
+              "unit": "개",
+              "formula": "등장 빈도 1회 이상인 핵심 기술 후보 고유 개수",
+              "detail": [
+                "테스트",
+                "양산",
+                "공정",
+                "수율",
+                "AI",
+                "EV",
+                "HPC",
+                "EMI"
+              ]
+            },
+            {
+              "metric_name": "수식 시트 매칭 지표 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "tech_template.xlsx 수식/정량화 시트와 원문 수치 문맥의 매칭 개수",
+              "detail": [
+                "기술 키워드 등장 빈도"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "적용 방식",
+          "category": "대표 기술",
+          "axis": "기술성",
+          "major_source_plan": "사업 보고서, 기업 홈페이지, 특허 사이트",
+          "middle_source_plan": "사업보고서: 사업의 내용 → 주요 제품 및 서비스 / 연구개발활동 / 생산공정·기술설명 / 원재료 및 전구체 설명 / 신규사업 내용 기업 홈페이지: 기술소개 / 제품기술 페이지 / 소재·공정 설명 페이지 / Application(적용 분야) 페이지 / R&D센터 소개 특허 사이트: 대표 등록특허 초록 / 청구항 / IPC·CPC 분류 / 특허 패밀리 / 피인용 특허",
+          "quantifiable_plan": "기술 키워드 등장 빈도, 적용 제품/공정 수, 수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등 : 따로 추출?)",
+          "evidence": [
+            {
+              "snippet": "ISC은 Universe CSV에서 '테스트/소켓' peer_group으로 분류되어 있습니다.",
+              "source_type": "local_data",
+              "source_title": "isc_tech_local_proxy_evidence.md",
+              "source_url": "",
+              "source_path": "data\\반도체\\ISC\\tech\\source\\isc_tech_local_proxy_evidence.md",
+              "source_plan_matched": false,
+              "hits": [
+                "테스트"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "적용 제품/공정 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "근거 문장 내 적용 제품·공정·Application 고유 키워드 수",
+              "detail": [
+                "테스트"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "핵심 성능 요소",
+          "category": "대표 기술",
+          "axis": "기술성",
+          "major_source_plan": "사업 보고서, 기업 홈페이지, 특허 사이트",
+          "middle_source_plan": "사업보고서: 사업의 내용 → 주요 제품 및 서비스 / 연구개발활동 / 생산공정·기술설명 / 원재료 및 전구체 설명 / 신규사업 내용 기업 홈페이지: 기술소개 / 제품기술 페이지 / 소재·공정 설명 페이지 / Application(적용 분야) 페이지 / R&D센터 소개 특허 사이트: 대표 등록특허 초록 / 청구항 / IPC·CPC 분류 / 특허 패밀리 / 피인용 특허",
+          "quantifiable_plan": "기술 키워드 등장 빈도, 적용 제품/공정 수, 수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등 : 따로 추출?)",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "적용 제품/공정 수",
+              "value": 2,
+              "unit": "개",
+              "formula": "근거 문장 내 적용 제품·공정·Application 고유 키워드 수",
+              "detail": [
+                "테스트",
+                "EMI"
+              ]
+            },
+            {
+              "metric_name": "성능/공정 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "성능·수율·공정·양산 문맥에서 숫자가 포함된 문장 수",
+              "detail": [
+                {
+                  "value": "095",
+                  "unit": "",
+                  "context": "# ISC Tech Local Proxy Evidence stock_code: 095340 peer_group: 테스트/소켓 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            },
+            {
+              "metric_name": "수식 시트 매칭 지표 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "tech_template.xlsx 수식/정량화 시트와 원문 수치 문맥의 매칭 개수",
+              "detail": [
+                "기술 키워드 등장 빈도"
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 1,
+      "quant_metric_count": 7,
+      "score": 3,
+      "score_reason": "직접근거 1건, 공식/DART/IR/특허 근거 0건, 정량화 지표 7건",
+      "result": "ISC은 테스트, 양산, 공정 기반 기술/공정 기업으로, 관련 기술은 실제 원천에서 0회 확인됩니다. 해당 기술은 0개 제품·공정 영역과 연결되며, 양산·공정·기술 문맥을 통해 구현 방향을 판단합니다."
+    },
+    {
+      "category": "핵심 제품/서비스",
+      "axis": "수익성 기여",
+      "major_source_plan": "사업 보고서 - 매출 구성 홈페이지 매출구성 IR 발표자료",
+      "middle_source_plan": "사업보고서: 사업부문별 매출 / 제품별 매출 / 주요 제품 매출 비중 / 수출 비중 / 사업부별 실적 홈페이지: 제품 포트폴리오 / 제품 카테고리 / 베스트셀러·주력제품 / 응용처별 제품 분류 IR: Company Overview / Product Portfolio / Revenue Breakdown / Business Segment / 성장동력 슬라이드",
+      "quantifiable_plan": "매출 비중 %, 전년 성장률 %, 제품 수, 고객 산업 수",
+      "items": [
+        {
+          "item_name": "제품명/서비스명",
+          "category": "핵심 제품/서비스",
+          "axis": "수익성 기여",
+          "major_source_plan": "사업 보고서 - 매출 구성 홈페이지 매출구성 IR 발표자료",
+          "middle_source_plan": "사업보고서: 사업부문별 매출 / 제품별 매출 / 주요 제품 매출 비중 / 수출 비중 / 사업부별 실적 홈페이지: 제품 포트폴리오 / 제품 카테고리 / 베스트셀러·주력제품 / 응용처별 제품 분류 IR: Company Overview / Product Portfolio / Revenue Breakdown / Business Segment / 성장동력 슬라이드",
+          "quantifiable_plan": "매출 비중 %, 전년 성장률 %, 제품 수, 고객 산업 수",
+          "evidence": [
+            {
+              "snippet": "ISC은 Universe CSV에서 '테스트/소켓' peer_group으로 분류되어 있습니다.",
+              "source_type": "local_data",
+              "source_title": "isc_tech_local_proxy_evidence.md",
+              "source_url": "",
+              "source_path": "data\\반도체\\ISC\\tech\\source\\isc_tech_local_proxy_evidence.md",
+              "source_plan_matched": false,
+              "hits": [
+                "테스트"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "제품/서비스 축 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "제품·서비스 후보 고유 키워드 수",
+              "detail": [
+                "테스트"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "적용 기술",
+          "category": "핵심 제품/서비스",
+          "axis": "수익성 기여",
+          "major_source_plan": "사업 보고서 - 매출 구성 홈페이지 매출구성 IR 발표자료",
+          "middle_source_plan": "사업보고서: 사업부문별 매출 / 제품별 매출 / 주요 제품 매출 비중 / 수출 비중 / 사업부별 실적 홈페이지: 제품 포트폴리오 / 제품 카테고리 / 베스트셀러·주력제품 / 응용처별 제품 분류 IR: Company Overview / Product Portfolio / Revenue Breakdown / Business Segment / 성장동력 슬라이드",
+          "quantifiable_plan": "매출 비중 %, 전년 성장률 %, 제품 수, 고객 산업 수",
+          "evidence": [
+            {
+              "snippet": "ISC은 Universe CSV에서 '테스트/소켓' peer_group으로 분류되어 있습니다.",
+              "source_type": "local_data",
+              "source_title": "isc_tech_local_proxy_evidence.md",
+              "source_url": "",
+              "source_path": "data\\반도체\\ISC\\tech\\source\\isc_tech_local_proxy_evidence.md",
+              "source_plan_matched": false,
+              "hits": [
+                "테스트"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "제품/서비스 축 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "제품·서비스 후보 고유 키워드 수",
+              "detail": [
+                "테스트"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "주요 고객군",
+          "category": "핵심 제품/서비스",
+          "axis": "수익성 기여",
+          "major_source_plan": "사업 보고서 - 매출 구성 홈페이지 매출구성 IR 발표자료",
+          "middle_source_plan": "사업보고서: 사업부문별 매출 / 제품별 매출 / 주요 제품 매출 비중 / 수출 비중 / 사업부별 실적 홈페이지: 제품 포트폴리오 / 제품 카테고리 / 베스트셀러·주력제품 / 응용처별 제품 분류 IR: Company Overview / Product Portfolio / Revenue Breakdown / Business Segment / 성장동력 슬라이드",
+          "quantifiable_plan": "매출 비중 %, 전년 성장률 %, 제품 수, 고객 산업 수",
+          "evidence": [
+            {
+              "snippet": "ISC은 Universe CSV에서 '테스트/소켓' peer_group으로 분류되어 있습니다.",
+              "source_type": "local_data",
+              "source_title": "isc_tech_local_proxy_evidence.md",
+              "source_url": "",
+              "source_path": "data\\반도체\\ISC\\tech\\source\\isc_tech_local_proxy_evidence.md",
+              "source_plan_matched": false,
+              "hits": [
+                "테스트"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "제품/서비스 축 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "제품·서비스 후보 고유 키워드 수",
+              "detail": [
+                "테스트"
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 3,
+      "quant_metric_count": 3,
+      "score": 3,
+      "score_reason": "직접근거 3건, 공식/DART/IR/특허 근거 0건, 정량화 지표 3건",
+      "result": "핵심 제품/서비스는 테스트 중심으로 확인됩니다. 실제 원천 기준 0개 제품·서비스 축이 추출되며, 매출·성장 정량 신호는 DART/IR 문맥과 결합해 수익성 기여 판단에 사용합니다."
+    },
+    {
+      "category": "고객 구매 이유",
+      "axis": "고객 채택도",
+      "major_source_plan": "1) IR 2) 제품 홍보 자료 3) 인터뷰 기사",
+      "middle_source_plan": "IR: Investment Highlights / 제품 경쟁력 / 고객사 채택 배경 / 고객 효익 설명 슬라이드 / 양산 적용 사례 제품 홍보 자료: 제품 브로슈어 / 기술소개서 / 데이터시트 / Application Note / 비교표 / FAQ 인터뷰 기사: 고객이 선택한 이유 / 채택 배경 / 기존 대안 대비 개선점 / 산업 현장 적용 사례 / 신규 수요처 언급",
+      "quantifiable_plan": "성능 개선율 %, 원가 절감률 %, 처리속도, 불량률 감소, 수명 증가, 고객사 수",
+      "items": [
+        {
+          "item_name": "고객 효익",
+          "category": "고객 구매 이유",
+          "axis": "고객 채택도",
+          "major_source_plan": "1) IR 2) 제품 홍보 자료 3) 인터뷰 기사",
+          "middle_source_plan": "IR: Investment Highlights / 제품 경쟁력 / 고객사 채택 배경 / 고객 효익 설명 슬라이드 / 양산 적용 사례 제품 홍보 자료: 제품 브로슈어 / 기술소개서 / 데이터시트 / Application Note / 비교표 / FAQ 인터뷰 기사: 고객이 선택한 이유 / 채택 배경 / 기존 대안 대비 개선점 / 산업 현장 적용 사례 / 신규 수요처 언급",
+          "quantifiable_plan": "성능 개선율 %, 원가 절감률 %, 처리속도, 불량률 감소, 수명 증가, 고객사 수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "고객 효익 키워드 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "성능·원가·품질·수율 등 고객 효익 표현 고유 개수",
+              "detail": []
+            },
+            {
+              "metric_name": "효익 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "성능·원가·수율·처리속도 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "095",
+                  "unit": "",
+                  "context": "# ISC Tech Local Proxy Evidence stock_code: 095340 peer_group: 테스트/소켓 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            },
+            {
+              "metric_name": "수식 시트 매칭 지표 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "tech_template.xlsx 수식/정량화 시트와 원문 수치 문맥의 매칭 개수",
+              "detail": [
+                "고객사 수"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "경쟁 제품 대비 장점",
+          "category": "고객 구매 이유",
+          "axis": "고객 채택도",
+          "major_source_plan": "1) IR 2) 제품 홍보 자료 3) 인터뷰 기사",
+          "middle_source_plan": "IR: Investment Highlights / 제품 경쟁력 / 고객사 채택 배경 / 고객 효익 설명 슬라이드 / 양산 적용 사례 제품 홍보 자료: 제품 브로슈어 / 기술소개서 / 데이터시트 / Application Note / 비교표 / FAQ 인터뷰 기사: 고객이 선택한 이유 / 채택 배경 / 기존 대안 대비 개선점 / 산업 현장 적용 사례 / 신규 수요처 언급",
+          "quantifiable_plan": "성능 개선율 %, 원가 절감률 %, 처리속도, 불량률 감소, 수명 증가, 고객사 수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "고객 효익 키워드 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "성능·원가·품질·수율 등 고객 효익 표현 고유 개수",
+              "detail": []
+            },
+            {
+              "metric_name": "효익 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "성능·원가·수율·처리속도 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "095",
+                  "unit": "",
+                  "context": "# ISC Tech Local Proxy Evidence stock_code: 095340 peer_group: 테스트/소켓 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            },
+            {
+              "metric_name": "수식 시트 매칭 지표 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "tech_template.xlsx 수식/정량화 시트와 원문 수치 문맥의 매칭 개수",
+              "detail": [
+                "고객사 수"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "실제 적용 사례",
+          "category": "고객 구매 이유",
+          "axis": "고객 채택도",
+          "major_source_plan": "1) IR 2) 제품 홍보 자료 3) 인터뷰 기사",
+          "middle_source_plan": "IR: Investment Highlights / 제품 경쟁력 / 고객사 채택 배경 / 고객 효익 설명 슬라이드 / 양산 적용 사례 제품 홍보 자료: 제품 브로슈어 / 기술소개서 / 데이터시트 / Application Note / 비교표 / FAQ 인터뷰 기사: 고객이 선택한 이유 / 채택 배경 / 기존 대안 대비 개선점 / 산업 현장 적용 사례 / 신규 수요처 언급",
+          "quantifiable_plan": "성능 개선율 %, 원가 절감률 %, 처리속도, 불량률 감소, 수명 증가, 고객사 수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "고객 효익 키워드 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "성능·원가·품질·수율 등 고객 효익 표현 고유 개수",
+              "detail": []
+            },
+            {
+              "metric_name": "효익 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "성능·원가·수율·처리속도 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "095",
+                  "unit": "",
+                  "context": "# ISC Tech Local Proxy Evidence stock_code: 095340 peer_group: 테스트/소켓 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            },
+            {
+              "metric_name": "수식 시트 매칭 지표 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "tech_template.xlsx 수식/정량화 시트와 원문 수치 문맥의 매칭 개수",
+              "detail": [
+                "고객사 수"
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 0,
+      "quant_metric_count": 9,
+      "score": 3,
+      "score_reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 9건",
+      "result": "고객 구매 이유는 핵심 기술 관련 성능·품질·양산 효익으로 정리됩니다. 실제 근거에서 고객 효익 신호 0개가 확인되며, 단순 기술 키워드가 아니라 적용처·성능·양산 문맥과 함께 해석합니다."
+    },
+    {
+      "category": "경쟁 우위/대체가능성",
+      "axis": "진입장벽",
+      "major_source_plan": "사업보고서 / 특허 / 기사",
+      "middle_source_plan": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+      "quantifiable_plan": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+      "items": [
+        {
+          "item_name": "등록 특허",
+          "category": "경쟁 우위/대체가능성",
+          "axis": "진입장벽",
+          "major_source_plan": "사업보고서 / 특허 / 기사",
+          "middle_source_plan": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+          "quantifiable_plan": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 2,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": [
+                "특허",
+                "양산"
+              ]
+            },
+            {
+              "metric_name": "특허/산업재산권 근거 문서 수",
+              "value": 0,
+              "unit": "건",
+              "formula": "source_type=patent로 분류된 로컬/KIPRIS/웹 근거 문서 수",
+              "detail": []
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "095",
+                  "unit": "",
+                  "context": "# ISC Tech Local Proxy Evidence stock_code: 095340 peer_group: 테스트/소켓 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "제조 노하우",
+          "category": "경쟁 우위/대체가능성",
+          "axis": "진입장벽",
+          "major_source_plan": "사업보고서 / 특허 / 기사",
+          "middle_source_plan": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+          "quantifiable_plan": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 2,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": [
+                "특허",
+                "양산"
+              ]
+            },
+            {
+              "metric_name": "특허/산업재산권 근거 문서 수",
+              "value": 0,
+              "unit": "건",
+              "formula": "source_type=patent로 분류된 로컬/KIPRIS/웹 근거 문서 수",
+              "detail": []
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "095",
+                  "unit": "",
+                  "context": "# ISC Tech Local Proxy Evidence stock_code: 095340 peer_group: 테스트/소켓 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "고객사 레퍼런스",
+          "category": "경쟁 우위/대체가능성",
+          "axis": "진입장벽",
+          "major_source_plan": "사업보고서 / 특허 / 기사",
+          "middle_source_plan": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+          "quantifiable_plan": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 2,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": [
+                "특허",
+                "양산"
+              ]
+            },
+            {
+              "metric_name": "특허/산업재산권 근거 문서 수",
+              "value": 0,
+              "unit": "건",
+              "formula": "source_type=patent로 분류된 로컬/KIPRIS/웹 근거 문서 수",
+              "detail": []
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "095",
+                  "unit": "",
+                  "context": "# ISC Tech Local Proxy Evidence stock_code: 095340 peer_group: 테스트/소켓 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "대체가능성",
+          "category": "경쟁 우위/대체가능성",
+          "axis": "진입장벽",
+          "major_source_plan": "사업보고서 / 특허 / 기사",
+          "middle_source_plan": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+          "quantifiable_plan": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 2,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": [
+                "특허",
+                "양산"
+              ]
+            },
+            {
+              "metric_name": "특허/산업재산권 근거 문서 수",
+              "value": 0,
+              "unit": "건",
+              "formula": "source_type=patent로 분류된 로컬/KIPRIS/웹 근거 문서 수",
+              "detail": []
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "095",
+                  "unit": "",
+                  "context": "# ISC Tech Local Proxy Evidence stock_code: 095340 peer_group: 테스트/소켓 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 0,
+      "quant_metric_count": 12,
+      "score": 3,
+      "score_reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 12건",
+      "result": "경쟁 우위는 특허, 양산와 연결된 특허·공정·양산 경험을 중심으로 확인됩니다. 대체가능성 판단에는 특허 수 자체보다 고객 승인, 공정 난이도, 양산 경험 등 0개 장벽 신호를 함께 반영합니다."
+    },
+    {
+      "category": "활용 및 확장 산업",
+      "axis": "확장성",
+      "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+      "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+      "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+      "items": [
+        {
+          "item_name": "활용 산업",
+          "category": "활용 및 확장 산업",
+          "axis": "확장성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [
+            {
+              "snippet": "# ISC Tech Local Proxy Evidence",
+              "source_type": "local_data",
+              "source_title": "isc_tech_local_proxy_evidence.md",
+              "source_url": "",
+              "source_path": "data\\반도체\\ISC\\tech\\source\\isc_tech_local_proxy_evidence.md",
+              "source_plan_matched": false,
+              "hits": [
+                "EV"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "활용/확장 산업 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "근거 문장 내 전방산업/Application 고유 개수",
+              "detail": [
+                "EV"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "확장 가능 제품",
+          "category": "활용 및 확장 산업",
+          "axis": "확장성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [
+            {
+              "snippet": "# ISC Tech Local Proxy Evidence",
+              "source_type": "local_data",
+              "source_title": "isc_tech_local_proxy_evidence.md",
+              "source_url": "",
+              "source_path": "data\\반도체\\ISC\\tech\\source\\isc_tech_local_proxy_evidence.md",
+              "source_plan_matched": false,
+              "hits": [
+                "EV"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "활용/확장 산업 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "근거 문장 내 전방산업/Application 고유 개수",
+              "detail": [
+                "EV"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "전방 시장",
+          "category": "활용 및 확장 산업",
+          "axis": "확장성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [
+            {
+              "snippet": "# ISC Tech Local Proxy Evidence",
+              "source_type": "local_data",
+              "source_title": "isc_tech_local_proxy_evidence.md",
+              "source_url": "",
+              "source_path": "data\\반도체\\ISC\\tech\\source\\isc_tech_local_proxy_evidence.md",
+              "source_plan_matched": false,
+              "hits": [
+                "EV"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "활용/확장 산업 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "근거 문장 내 전방산업/Application 고유 개수",
+              "detail": [
+                "EV"
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 3,
+      "quant_metric_count": 3,
+      "score": 3,
+      "score_reason": "직접근거 3건, 공식/DART/IR/특허 근거 0건, 정량화 지표 3건",
+      "result": "활용·확장 산업은 EV로 확인됩니다. 실제 수집 근거에서 0개 적용 산업/Application이 추출되어 기술 확장성을 보조적으로 설명합니다."
+    },
+    {
+      "category": "진입 부담/장벽",
+      "axis": "양산성",
+      "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+      "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+      "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+      "items": [
+        {
+          "item_name": "인증/승인",
+          "category": "진입 부담/장벽",
+          "axis": "양산성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 2,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": [
+                "특허",
+                "양산"
+              ]
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "095",
+                  "unit": "",
+                  "context": "# ISC Tech Local Proxy Evidence stock_code: 095340 peer_group: 테스트/소켓 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "양산 난이도",
+          "category": "진입 부담/장벽",
+          "axis": "양산성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 2,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": [
+                "특허",
+                "양산"
+              ]
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "095",
+                  "unit": "",
+                  "context": "# ISC Tech Local Proxy Evidence stock_code: 095340 peer_group: 테스트/소켓 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "전환 비용",
+          "category": "진입 부담/장벽",
+          "axis": "양산성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 2,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": [
+                "특허",
+                "양산"
+              ]
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "095",
+                  "unit": "",
+                  "context": "# ISC Tech Local Proxy Evidence stock_code: 095340 peer_group: 테스트/소켓 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 0,
+      "quant_metric_count": 6,
+      "score": 3,
+      "score_reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 6건",
+      "result": "진입 부담은 양산 공정, 고객 승인, 품질 검증, 노하우 축적 여부를 중심으로 판단됩니다. 현재 근거에서는 0개 장벽 신호가 확인되며, 이는 기술성보다 사업화 방어력 판단에 활용됩니다."
+    },
+    {
+      "category": "R&D 강도",
+      "axis": "투자 지속성",
+      "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+      "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+      "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+      "items": [
+        {
+          "item_name": "연구개발비",
+          "category": "R&D 강도",
+          "axis": "투자 지속성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "R&D/투자 신호 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "연구개발·설비투자·과제·인력 문맥 신호 수",
+              "detail": [
+                "특허"
+              ]
+            },
+            {
+              "metric_name": "R&D 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "연구개발·투자 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "095",
+                  "unit": "",
+                  "context": "# ISC Tech Local Proxy Evidence stock_code: 095340 peer_group: 테스트/소켓 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "개발 과제",
+          "category": "R&D 강도",
+          "axis": "투자 지속성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "R&D/투자 신호 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "연구개발·설비투자·과제·인력 문맥 신호 수",
+              "detail": [
+                "특허"
+              ]
+            },
+            {
+              "metric_name": "R&D 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "연구개발·투자 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "095",
+                  "unit": "",
+                  "context": "# ISC Tech Local Proxy Evidence stock_code: 095340 peer_group: 테스트/소켓 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "설비투자/인력",
+          "category": "R&D 강도",
+          "axis": "투자 지속성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "R&D/투자 신호 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "연구개발·설비투자·과제·인력 문맥 신호 수",
+              "detail": [
+                "특허"
+              ]
+            },
+            {
+              "metric_name": "R&D 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "연구개발·투자 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "095",
+                  "unit": "",
+                  "context": "# ISC Tech Local Proxy Evidence stock_code: 095340 peer_group: 테스트/소켓 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 0,
+      "quant_metric_count": 6,
+      "score": 3,
+      "score_reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 6건",
+      "result": "R&D 강도는 연구개발·설비투자·개발과제의 지속성을 기준으로 봅니다. 실제 근거에서 R&D/투자 신호 0개가 확인되며, 기술 유지·개선 가능성의 보조 지표로 사용합니다."
+    }
+  ],
+  "source_contexts": [
+    {
+      "title": "isc_tech_local_proxy_evidence.json",
+      "source_type": "local_data",
+      "url": "",
+      "path": "data\\반도체\\ISC\\tech\\source\\isc_tech_local_proxy_evidence.json",
+      "snippet": "{\"status\": \"FALLBACK_LOCAL_PROXY\", \"generated_at\": \"2026-05-15T09:22:46\", \"company_slug\": \"isc\", \"company_name\": \"ISC\", \"field\": \"반도체\", \"peer_group\": \"테스트/소켓\", \"stock_code\": \"095340\", \"market\": \"KOSDAQ\", \"technology_keywords\": [\"반도체\", \"공정\", \"양산\", \"고객\", \"R&D\", \"특허\", \"기술경쟁력\", \"테스트\", \"검사\", \"소켓\", \"신뢰성\", \"수율\", \"인터페이스\"], \"source_text\": \"# ISC Tech Local Proxy Evidence\\n\\n- company_name: ISC\\n- company_slug: isc\\n- stock_code: 095340\\n- market: KOSDAQ\\n",
+      "relevance_score": 16.7
+    },
+    {
+      "title": "isc_tech_local_proxy_evidence.md",
+      "source_type": "local_data",
+      "url": "",
+      "path": "data\\반도체\\ISC\\tech\\source\\isc_tech_local_proxy_evidence.md",
+      "snippet": "# ISC Tech Local Proxy Evidence company_name: ISC company_slug: isc stock_code: 095340 market: KOSDAQ peer_group: 테스트/소켓 evidence_status: FALLBACK_LOCAL_PROXY universe_lock: universe_30_semiconductor_20260514 locked_as_of: 2026-05-14 ## 사용 원칙 이 파일은 KIPRIS Plus, DART 사업보고서, 회사 IR, 공식 웹 수집이 아직 완료되지 않은 신규 Universe 기업을 위해 생성한 Tech Agent 부트스트랩 근거입니다. 수익률 확인 후 기업을 교체하지 않는 locked universe 원칙을 지키기 위한 초기 로컬 근거이며, 특허 수·고객사·수주·양산 실적을 임의로 확정하지 않습니다. Chair와 A",
+      "relevance_score": 16.7
+    },
+    {
+      "title": "company.yaml",
+      "source_type": "local_data",
+      "url": "",
+      "path": "data\\반도체\\ISC\\_company_common\\company.yaml",
+      "snippet": "# Auto-generated by scripts/bootstrap_chair_25_universe.py # Keep this fixed once evaluation starts. slug: \"isc\" company_dir: \"isc\" corp_name: \"ISC\" display_name: \"ISC\" output_name: \"ISC\" field: \"반도체\" industry_field: \"반도체\" sector: \"반도체\" peer_group: \"테스트/소켓\" stock_code: \"095340\" ticker: \"095340.KQ\" market: \"KOSDAQ\" include_in_evaluation: true universe_name: \"universe_30_semiconductor_20260514\" locked_as_of: \"2026-05-14\" finance_file: \"ISC_재무.csv\"",
+      "relevance_score": 14.6
+    },
+    {
+      "title": "ISC KIPRIS/특허 정량화 요약",
+      "source_type": "patent",
+      "url": "",
+      "path": "data\\반도체\\ISC\\tech\\source\\isc_kipris_plus_bibliographic_raw.csv",
+      "snippet": "ISC KIPRIS/특허 정량화 요약 본 특허 근거는 KIPRIS API/CSV/엑셀/TXT 원천 파일을 정규화해 산출했다. [정량 지표] - 특허 원천 파일 수: 1개 - 정규화 특허 레코드 수: 30건 - 출원인/권리자 회사 매칭 특허 수: 0건 - 등록 특허 수: 28건 - 존속 가능 특허 수: 28건 - 최근 5년 특허 수: 3건 - IPC/CPC 기술분류 수: 8개 - H01L 반도체 IPC 특허 수: 0건 - 반도체 핵심 IPC 특허 수: 30건 - 특허-기술 키워드 매칭 수: 26회 - 특허 포트폴리오 연도 범위: 2008~2025 - KIPRIS 총 특허 수: 30.0건 - KIPRIS 등록 특허 수(추정): 28.0건 - KIPRIS 존속 가능 특허 수(추정): 28.0건 - KIPRIS 등록률(추정): 93.33% - KIPRIS 존속률(전체 대비 추정): 93.33% - KI",
+      "relevance_score": 30
+    },
+    {
+      "title": "전원 공급 장치 및 이를 포함하는 번인 테스트 장치",
+      "source_type": "patent",
+      "url": "",
+      "path": "data\\반도체\\ISC\\tech\\source\\isc_kipris_plus_bibliographic_raw.csv",
+      "snippet": "전원 공급 장치 및 이를 포함하는 번인 테스트 장치 | 주식회사 아이에스시 | 등록 | 2017 | 출원번호 1020170087823; 등록번호 1023820140000 | IPC/CPC: H02M, H02H, G01R | 기술매칭: 테스트, 반도체 | 초록: 전원 공급 장치와 이를 포함하는 번인 테스트 장치가 개시된다. 상기 번인 테스트 장치는, 반도체 패키지들과 각각 연결되는 소켓 보드들이 장착된 테스트 보드와, 상기 반도체 패키지들에 테스트 전압을 인가하기 위하여 상기 소켓 보드들과 연결되는 제1 전원 공급부와, 상기 테스트 전압과 동일한 보조 전압을 제공하는 제2 전원 공급부와, 상기 소켓 보드들에 각각 장착되며 상기 제2 전원 공급부로부터",
+      "relevance_score": 52.5
+    },
+    {
+      "title": "검사용 커넥터",
+      "source_type": "patent",
+      "url": "",
+      "path": "data\\반도체\\ISC\\tech\\source\\isc_kipris_plus_bibliographic_raw.csv",
+      "snippet": "검사용 커넥터 | 주식회사 아이에스시 | 등록 | 2024 | 출원번호 1020240202821; 등록번호 1029519610000 | IPC/CPC: G01R, H01G | 기술매칭: 기판 | 초록: 본 발명은 검사용 커넥터에 대한 것으로서, 더욱 상세하게는 적층 세라믹 콘덴서와 검사 장치 사이에 배치되어 적층 세라믹 콘덴서의 전기적 검사를 위한 검사용 커넥터에 있어서, 적층 세라믹 콘덴서에 검사 장치로부터 인가된 검사용 신호를 공급하고 상하방향으로 길게 연장된 다수의 와이어 핀과, 상기 검사 장치 측에 설치되고, 상기 와이어 핀을 지지하고, 상기 와이어 핀의 적어도 일부가 돌출되게 하는",
+      "relevance_score": 52.0
+    },
+    {
+      "title": "인터페이스 보드",
+      "source_type": "patent",
+      "url": "",
+      "path": "data\\반도체\\ISC\\tech\\source\\isc_kipris_plus_bibliographic_raw.csv",
+      "snippet": "인터페이스 보드 | 주식회사 아이에스시 | 등록 | 2015 | 출원번호 1020150160837; 등록번호 1024006160000 | IPC/CPC: H10P | 기술매칭: 테스트, 기판, 반도체 | 초록: 인터페이스 보드는 반도체 패키지와 직접 접촉하기 위한 소켓 기판과 테스트 헤드 사이에 구비되며, 상부면에 평탄한 제1 영역과 오목한 제2 영역을 갖는 보드 몸체와, 상기 제1 영역에서 상기 보드 몸체의 상하를 관통하며, 복수의 테스트 신호들, 전원 전압, 접지 전압을 전달하기 위한 제1 비아들과, 상기 제2 영역에서 상기 보드 몸체의 상하를 관통하며, 상기 전원 전압을 전달하기 위한 제2 비",
+      "relevance_score": 48.5
+    },
+    {
+      "title": "반도체 검사용 소켓의 판형 검사용 콘택터",
+      "source_type": "patent",
+      "url": "",
+      "path": "data\\반도체\\ISC\\tech\\source\\isc_kipris_plus_bibliographic_raw.csv",
+      "snippet": "반도체 검사용 소켓의 판형 검사용 콘택터 | 주식회사 아이에스시 | 등록 | 2014 | 출원번호 1020140011988; 등록번호 1013963770000 | IPC/CPC: G01R | 기술매칭: 테스트, 기판, 반도체 | 초록: 본 발명은 반도체 검사용 소켓의 판형 검사용 콘택터에 관한 것이다. 판형 검사용 콘택터는 반도체 디바이스의 전기적인 특성을 테스트하기 위하여, 반도체 검사용 소켓에 복수 개가 구비된다. 판형 검사용 콘택터는 반도체 디바이스의 범프 전극과 테스트 회로기판의 패드 사이를 전기적으로 연결시킨다. 이를 위해 판형 검사용 콘택터는 한쌍의 상부 플런저와 하부 플런저 및 압축 코일 스프링을 포함한다. 상",
+      "relevance_score": 48.5
+    },
+    {
+      "title": "판형 도전입자를 포함한 실리콘 콘택터",
+      "source_type": "patent",
+      "url": "",
+      "path": "data\\반도체\\ISC\\tech\\source\\isc_kipris_plus_bibliographic_raw.csv",
+      "snippet": "판형 도전입자를 포함한 실리콘 콘택터 | 주식회사 아이에스시 | 등록 | 2008 | 출원번호 1020080034696; 등록번호 1009527120000 | IPC/CPC: G01R | 기술매칭: 테스트, 반도체, 소자 | 초록: 본 발명은 실리콘 콘택터에 관한 것으로서, 더욱 상세하게는 일측이 반도체 테스트장비의 테스트단자와 접촉되고, 타측은 반도체소자의 리드단자와 접촉되어 반도체 테스트장비에 이용되는 실리콘 콘택터에 있어서, 리드단자 및 테스트 단자와 대응되는 영역에 형성되고, 실리콘 고무 및 도전입자를 포함하는 도전성 실리콘부; 및 도전성 실리콘부 사이에서 리드단자와 접촉되지 않는 영역에 상하방향으로 실리콘 고무",
+      "relevance_score": 48.5
+    },
+    {
+      "title": "반도체 디바이스를 검사하기 위한 테스트 콘택터",
+      "source_type": "patent",
+      "url": "",
+      "path": "data\\반도체\\ISC\\tech\\source\\isc_kipris_plus_bibliographic_raw.csv",
+      "snippet": "반도체 디바이스를 검사하기 위한 테스트 콘택터 | 주식회사 아이에스시 | 등록 | 2013 | 출원번호 1020130162899; 등록번호 1015110330000 | IPC/CPC: G01R | 기술매칭: Test, 테스트, 반도체 | 초록: 본 발명은 반도체 디바이스와 테스트 장치 간의 전기적 연결을 단속하여 반도체 디바이스의 전기적 성능을 검사하기 위한 테스트 콘택터(Test Contactor)에 관한 것으로, 더욱 상세하게는 상변 또는 하변에 복수 개의 돌기가 구비되거나 면이 관통되도록 복수 개의 통공이 형성된 도전성의 판재가 코일링(coiling) 되어 형성된 도전성 판재 스프링을 반도체 디바이스의 단자와 접촉되는 접촉부에",
+      "relevance_score": 48.5
+    },
+    {
+      "title": "테스트용 소켓",
+      "source_type": "patent",
+      "url": "",
+      "path": "data\\반도체\\ISC\\tech\\source\\isc_kipris_plus_bibliographic_raw.csv",
+      "snippet": "테스트용 소켓 | 주식회사 아이에스시 | 등록 | 2011 | 출원번호 1020110011929; 등록번호 1010326480000 | IPC/CPC: H01R, H10P, G01R | 기술매칭: 테스트, 반도체 | 초록: 본 발명은 테스트 장치에 대한 것으로서, 더욱 상세하게는 반도체 디바이스의 접촉단자를 테스트 장치의 검침단자와 전기적으로 연결시키기 위한 테스트용 소켓으로서, 상기 테스트 장치의 검침단자에 전기적으로 연결되는 전도체가 마련되며 상기 전도체의 상측에 수용공간이 형성되는 소켓본체; 상기 소켓본체의 상기 수용공간에 배치되고 상기 반도체 디바이스를 수용할 수 있는 수납공간이 중앙부에 마련되는 플로우",
+      "relevance_score": 48.5
+    },
+    {
+      "title": "저항 감소를 통한 도전 강화 특징을 갖는 검사용 콘택터 및 그의 제조방법",
+      "source_type": "patent",
+      "url": "",
+      "path": "data\\반도체\\ISC\\tech\\source\\isc_kipris_plus_bibliographic_raw.csv",
+      "snippet": "저항 감소를 통한 도전 강화 특징을 갖는 검사용 콘택터 및 그의 제조방법 | 가천대학교 산학협력단|주식회사 아이에스시 | 등록 | 2022 | 출원번호 1020220049406; 등록번호 1027568410000 | IPC/CPC: G01R | 기술매칭: 기술 키워드 미확인 | 초록: 저항 감소를 통한 도전 강화 특징을 갖는 검사용 콘택터 및 그의 제조방법이 개시된다. 상기 검사용 콘택터(10)는 피검사 디바이스(20)와 검사장치(30)의 사이에 배치되어 피검사 디바이스의 단자(21)와 검사장치의 패드(31)를 서로 전기적으로 접속시키기 위한 검사용 콘택터(10)에 있어서, 복수의 도전성 입자(110) 및 복수의 도전성 복합나노로드(120)를 포함하고, 서로 이격되어 형성",
+      "relevance_score": 47.5
+    },
+    {
+      "title": "전기적 접속체 및 그 전기적 접속체를 포함한 테스트 소켓",
+      "source_type": "patent",
+      "url": "",
+      "path": "data\\반도체\\ISC\\tech\\source\\isc_kipris_plus_bibliographic_raw.csv",
+      "snippet": "전기적 접속체 및 그 전기적 접속체를 포함한 테스트 소켓 | 주식회사 아이에스시 | 등록 | 2009 | 출원번호 1020090003738; 등록번호 1011458860000 | IPC/CPC: G01R, H10P | 기술매칭: 테스트, 반도체 | 초록: 본 발명은 전기적 접속체 및 그 전기적 접속체를 포함한 테스트 소켓에 대한 것으로서, 더욱 상세하게는 반도체 디바이스의 단자와 전기적으로 접속되는 전기적 접속체에 있어서, 상기 반도체 디바이스의 단자와 접속가능한 위치에 배치되는 다수의 도전부; 및 상기 다수의 도전부와 각각 결합하여 그 도전부를 지지하기 위한 지지부재;로 구성되고, 상기 도전부에는, 고경도의 탄성물질 내에 다수의 전도성입자가",
+      "relevance_score": 47.0
+    },
+    {
+      "title": "도전성 분말 및 이를 포함하는 검사용 커넥터",
+      "source_type": "patent",
+      "url": "",
+      "path": "data\\반도체\\ISC\\tech\\source\\isc_kipris_plus_bibliographic_raw.csv",
+      "snippet": "도전성 분말 및 이를 포함하는 검사용 커넥터 | 주식회사 아이에스시 | 등록 | 2019 | 출원번호 1020190032568; 등록번호 1021137320000 | IPC/CPC: H01B, C08L, H10P | 기술매칭: 기술 키워드 미확인 | 초록: 본 개시는 일 측면에 있어서 코어 입자; 및 상기 코어 입자의 표면을 둘러싸는 중합체층을 포함하고, 상기 중합체층에는 복수의 도전성 입자가 결합되어 있고, 상기 중합체는 하나 이상의 불포화 탄화수소, 방향족 탄화수소, 또는 둘 다를 포함하는 것인, 도전성 분말에 관한 것이다. 본 개시는 일 측면에 있어서, 상기 도전성 분말을 포함하는 도전부, 및 절연성 재질의 시트를 포함하는 검사용 커넥터에",
+      "relevance_score": 46.5
+    },
+    {
+      "title": "이방 도전성 커넥터, 프로브 부재 및 웨이퍼 검사 장치",
+      "source_type": "patent",
+      "url": "",
+      "path": "data\\반도체\\ISC\\tech\\source\\isc_kipris_plus_bibliographic_raw.csv",
+      "snippet": "이방 도전성 커넥터, 프로브 부재 및 웨이퍼 검사 장치 | 주식회사 아이에스시 | 등록 | 2008 | 출원번호 1020097020916; 등록번호 1014021440000 | IPC/CPC: H01R, H01B, G01R | 기술매칭: 웨이퍼 | 초록: 본 발명은, 검사 대상인 웨이퍼가 대면적의 것으로, 집적 회로의 피검사 전극의 총수가 10000 이상인 것이라도, 가압되었을 때에, 모든 도전부에서 균일한 도통성이 얻어지는 이방 도전성 커넥터, 프로브 부재 및 이것을 구비한 웨이퍼 검사 장치를 제공한다. 본 발명의 이방 도전성 커넥터는, 복수의 이방 도전막 배치용 구멍이 형성된 프레임판과, 프레임판의 이방 도전막 배치용 구멍 내에 배치되고,",
+      "relevance_score": 45.5
+    }
+  ],
+  "limitations": [
+    "tech_template.xlsx의 기업별 예시값은 복사 근거로 사용하지 않고, 대출처·중출처·정량화 규칙만 추출 설계로 사용합니다.",
+    "기술 점수만으로 매수/매도 결론을 만들지 않고 Tech-to-Value Bridge로 고객 채택·양산·매출 전환·FCF 연결성을 확인합니다.",
+    "회사 식별어가 약하거나 타기업 중심인 URL은 제외합니다."
+  ],
+  "evidence_harvest_summary": {
+    "document_count": 3,
+    "accepted_url_count": 0,
+    "rejected_url_count": 0,
+    "quality_flags": [
+      "DART 사업보고서 본문 미수집: DART_API_KEY 또는 stock_code 확인 필요",
+      "공식 홈페이지/IR 본문 미수집: company.yaml URL 또는 네트워크 접근 확인 필요",
+      "KIPRIS Tech ML features merged into Tech Agent runtime outputs.",
+      "특허/IP: 특허 레코드는 있으나 출원인/권리자 회사명 매칭이 약합니다. applicant 검색어를 확인하세요."
+    ],
+    "template_usage": "framework_only: base/formula sheet source plan, no company-example content copied as evidence"
+  }
+}

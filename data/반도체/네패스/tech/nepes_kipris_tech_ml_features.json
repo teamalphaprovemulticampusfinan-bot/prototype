@@ -1,0 +1,87 @@
+{
+  "company_slug": "nepes",
+  "company_name": "네패스",
+  "field": "반도체",
+  "source_csv": "data\\반도체\\네패스\\tech\\nepes_kipris_patents_normalized.csv",
+  "enriched_csv": "data\\반도체\\네패스\\tech\\nepes_kipris_tech_ml_enriched.csv",
+  "generated_at": "2026-05-21T21:09:37",
+  "core_counts": {
+    "total_patents": 423,
+    "registered_patents_estimated": 311,
+    "alive_patents_estimated": 242,
+    "negative_disposal_patents_estimated": 158,
+    "recent_5y_application_patents": 111,
+    "h01l_core_patents": 6,
+    "semiconductor_related_ipc_patents": 243,
+    "ipc_subclass_count": 65,
+    "ipc_main_group_count": 115,
+    "tech_keyword_match_total": 858,
+    "tech_keyword_match_avg": 2.0284
+  },
+  "core_rates": {
+    "registration_rate_estimated": 0.7352,
+    "alive_rate_total_estimated": 0.5721,
+    "alive_rate_among_registered_estimated": 0.7781,
+    "negative_disposal_rate_estimated": 0.3735,
+    "recent_5y_application_rate": 0.2624,
+    "h01l_core_rate": 0.0142,
+    "semiconductor_related_ipc_rate": 0.5745
+  },
+  "year_features": {
+    "application_year_min": 1998,
+    "application_year_max": 2025,
+    "application_year_span": 28,
+    "recent_5y_threshold": 2021
+  },
+  "scores": {
+    "legal_stability_score_estimated": 74.36,
+    "portfolio_momentum_score": 74.18,
+    "ip_technology_fit_score": 65.39,
+    "kipris_tech_ml_score": 71.62
+  },
+  "tech_to_value_bridge_adjustment": {
+    "bridge_adjustment_points": 2.0,
+    "bridge_signal": "IP_QUALITY_POSITIVE",
+    "usage_rule": "Add this as a conservative KIPRIS/IP feature adjustment to Tech-to-Value Bridge, but do not treat it as direct commercialization evidence."
+  },
+  "top_ipc_subclass": {
+    "H10W": 160,
+    "H10B": 26,
+    "H01M": 26,
+    "G06F": 24,
+    "H10P": 14,
+    "C09D": 13,
+    "G02F": 12,
+    "C09K": 10,
+    "C09J": 8,
+    "H10H": 7,
+    "C07F": 6,
+    "F21V": 6,
+    "H05K": 5,
+    "G03F": 5,
+    "C08G": 4
+  },
+  "top_ipc_main_group": {
+    "H10W 70": 67,
+    "H10B 80": 26,
+    "G06F 3": 24,
+    "H01M 50": 19,
+    "H10W 72": 19,
+    "H10W 20": 15,
+    "H10W 29": 15,
+    "G02F 1": 12,
+    "H10W 40": 12,
+    "H10W 74": 10,
+    "C09K 11": 8,
+    "H10W 42": 7,
+    "H10W 76": 7,
+    "H10W 44": 7,
+    "H10P 72": 7
+  },
+  "top_applicants": {},
+  "cautions": [
+    "final_disposal is not present in the source CSV, so legal status is estimated from register_status/register_number/register_date.",
+    "register_date appears unavailable or unparsable in the current source, so registration year range should not be overclaimed.",
+    "KIPRIS/IP score supports technology defensibility, but customer adoption, mass production, sales conversion, and FCF conversion must be verified separately."
+  ]
+}

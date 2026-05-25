@@ -1,0 +1,53 @@
+[
+  {
+    "endpoint": "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/applicantNameSearchInfo",
+    "query": "에스티아이",
+    "query_param": "applicant",
+    "key_param": "accessKey",
+    "page_no": 1,
+    "status_code": 200,
+    "row_count_raw": 30,
+    "meta": {
+      "raw_prefix": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n\r\n\r\n\r\n\r\n<response>\r\n\t<header>\r\n\t\t<resultCode>00</resultCode>\r\n\t\t<resultMsg>success</resultMsg>\r\n\t</header>\r\n\t<body>\r\n\t\t<items>\r\n\t\t\t<PatentUtilityInfo>\r\n\t\t\t\t<Applicant>디파트먼트 오브 사이언스 앤드 테크놀로지 - 어드밴스드 사이언스 앤드 테크놀로지 인스티튜트</Applicant>\r\n\t\t\t\t<ApplicationDate>20240927",
+      "format": "xml",
+      "resultCode": "00",
+      "resultMsg": "success"
+    },
+    "started_at": "2026-05-20T18:36:56",
+    "ended_at": "2026-05-20T18:36:57"
+  },
+  {
+    "endpoint": "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/applicantNameSearchInfo",
+    "query": "에스티아이",
+    "query_param": "applicant",
+    "key_param": "accessKey",
+    "page_no": 2,
+    "status_code": 200,
+    "row_count_raw": 30,
+    "meta": {
+      "raw_prefix": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n\r\n\r\n\r\n\r\n<response>\r\n\t<header>\r\n\t\t<resultCode>00</resultCode>\r\n\t\t<resultMsg>success</resultMsg>\r\n\t</header>\r\n\t<body>\r\n\t\t<items>\r\n\t\t\t<PatentUtilityInfo>\r\n\t\t\t\t<Applicant>(주)에스티아이</Applicant>\r\n\t\t\t\t<ApplicationDate>20060222</ApplicationDate>\r\n\t\t\t\t<ApplicationNumber",
+      "format": "xml",
+      "resultCode": "00",
+      "resultMsg": "success"
+    },
+    "started_at": "2026-05-20T18:36:58",
+    "ended_at": "2026-05-20T18:36:58"
+  },
+  {
+    "endpoint": "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/applicantNameSearchInfo",
+    "query": "에스티아이",
+    "query_param": "applicant",
+    "key_param": "accessKey",
+    "page_no": 3,
+    "status_code": 200,
+    "row_count_raw": 0,
+    "meta": {
+      "raw_prefix": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n\r\n\r\n\r\n\r\n<response>\r\n\t<header>\r\n\t\t<resultCode>00</resultCode>\r\n\t\t<resultMsg>success</resultMsg>\r\n\t</header>\r\n\t<body>\r\n\t\t<items>\r\n\t\t\t<TotalSearchCount>605</TotalSearchCount>\r\n\t\t\t<SearchStartNumber>1000</SearchStartNumber>\r\n\t\t</items>\r\n\t</body>\r\n</response>",
+      "format": "xml",
+      "resultCode": "00",
+      "resultMsg": "success"
+    },
+    "started_at": "2026-05-20T18:36:59",
+    "ended_at": "2026-05-20T18:36:59"
+  }
+]

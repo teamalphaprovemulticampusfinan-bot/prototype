@@ -1,0 +1,1153 @@
+{
+  "agent": "market",
+  "company_name": "엘티씨",
+  "company": "엘티씨",
+  "opinion": "보유",
+  "confidence": 0.45,
+  "summary": "엘티씨에 대해 검증 가능한 핵심 근거는 다음과 같습니다. 엘티씨 마켓 분석 total_score 값은 60점입니다. 엘티씨 stock_data.current_price 값은 42700입니다. 엘티씨 stock_data.change 값은 3600입니다. 엘티씨 stock_data.change_rate 값은 9.21%입니다. 엘티씨 stock_data.raw.clpr 값은 42700입니다.",
+  "key_points": [
+    "엘티씨 마켓 분석 total_score 값은 60점입니다.",
+    "엘티씨 stock_data.current_price 값은 42700입니다.",
+    "엘티씨 stock_data.change 값은 3600입니다.",
+    "엘티씨 stock_data.change_rate 값은 9.21%입니다.",
+    "엘티씨 stock_data.raw.clpr 값은 42700입니다."
+  ],
+  "risks": [],
+  "claims": [
+    {
+      "claim_id": "market.cl.001",
+      "text": "엘티씨 마켓 분석 total_score 값은 60점입니다.",
+      "evidence_ids": [
+        "market.ev.001"
+      ]
+    },
+    {
+      "claim_id": "market.cl.002",
+      "text": "엘티씨 stock_data.current_price 값은 42700입니다.",
+      "evidence_ids": [
+        "market.ev.006"
+      ]
+    },
+    {
+      "claim_id": "market.cl.003",
+      "text": "엘티씨 stock_data.change 값은 3600입니다.",
+      "evidence_ids": [
+        "market.ev.009"
+      ]
+    },
+    {
+      "claim_id": "market.cl.004",
+      "text": "엘티씨 stock_data.change_rate 값은 9.21%입니다.",
+      "evidence_ids": [
+        "market.ev.010"
+      ]
+    },
+    {
+      "claim_id": "market.cl.005",
+      "text": "엘티씨 stock_data.raw.clpr 값은 42700입니다.",
+      "evidence_ids": [
+        "market.ev.016"
+      ]
+    },
+    {
+      "claim_id": "market.cl.006",
+      "text": "엘티씨 stock_data.raw.vs 값은 3600입니다.",
+      "evidence_ids": [
+        "market.ev.017"
+      ]
+    },
+    {
+      "claim_id": "market.auto_cl.007",
+      "text": "stock_data.raw.fltRt 값은 9.21%입니다.",
+      "evidence_ids": [
+        "market.ev.018"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "market.auto_cl.009",
+      "text": "stock_data.raw.mkp 값은 39,100입니다.",
+      "evidence_ids": [
+        "market.ev.019"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "market.auto_cl.011",
+      "text": "stock_data.raw.hipr 값은 43,000입니다.",
+      "evidence_ids": [
+        "market.ev.020"
+      ],
+      "claim_type": "point"
+    }
+  ],
+  "evidences": [
+    {
+      "evidence_id": "market.ev.001",
+      "source_type": "market",
+      "source": "market_graph_analysis",
+      "metric": "total_score",
+      "value": 60,
+      "unit": "score",
+      "period": null,
+      "snippet": "market_graph_analysis | total_score | 값: 60score"
+    },
+    {
+      "evidence_id": "market.ev.002",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.provider",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.provider | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.003",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.company",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.company | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.004",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.ticker",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.ticker | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.005",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.krx_code",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.krx_code | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.006",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.current_price",
+      "value": 42700,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.current_price | 값: 42,700원"
+    },
+    {
+      "evidence_id": "market.ev.007",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.currency",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.currency | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.008",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.as_of",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.as_of | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.009",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change",
+      "value": 3600,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.change | 값: 3,600"
+    },
+    {
+      "evidence_id": "market.ev.010",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change_rate",
+      "value": 9.21,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.change_rate | 값: 9.21%"
+    },
+    {
+      "evidence_id": "market.ev.011",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.basDt",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.basDt | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.012",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.srtnCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.srtnCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.013",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.isinCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.isinCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.014",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.itmsNm",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.itmsNm | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.015",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mrktCtg",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mrktCtg | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.016",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.clpr",
+      "value": 42700,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 42,700원"
+    },
+    {
+      "evidence_id": "market.ev.017",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.vs",
+      "value": 3600,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.vs | 값: 3,600"
+    },
+    {
+      "evidence_id": "market.ev.018",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.fltRt",
+      "value": 9.21,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: 9.21%"
+    },
+    {
+      "evidence_id": "market.ev.019",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mkp",
+      "value": 39100,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 39,100"
+    },
+    {
+      "evidence_id": "market.ev.020",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.hipr",
+      "value": 43000,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 43,000"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "market.ev.001",
+      "source_type": "market",
+      "source": "market_graph_analysis",
+      "metric": "total_score",
+      "value": 60,
+      "unit": "score",
+      "period": null,
+      "snippet": "market_graph_analysis | total_score | 값: 60score"
+    },
+    {
+      "evidence_id": "market.ev.002",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.provider",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.provider | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.003",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.company",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.company | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.004",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.ticker",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.ticker | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.005",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.krx_code",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.krx_code | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.006",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.current_price",
+      "value": 42700,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.current_price | 값: 42,700원"
+    },
+    {
+      "evidence_id": "market.ev.007",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.currency",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.currency | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.008",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.as_of",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.as_of | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.009",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change",
+      "value": 3600,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.change | 값: 3,600"
+    },
+    {
+      "evidence_id": "market.ev.010",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change_rate",
+      "value": 9.21,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.change_rate | 값: 9.21%"
+    },
+    {
+      "evidence_id": "market.ev.011",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.basDt",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.basDt | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.012",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.srtnCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.srtnCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.013",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.isinCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.isinCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.014",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.itmsNm",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.itmsNm | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.015",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mrktCtg",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mrktCtg | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.016",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.clpr",
+      "value": 42700,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 42,700원"
+    },
+    {
+      "evidence_id": "market.ev.017",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.vs",
+      "value": 3600,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.vs | 값: 3,600"
+    },
+    {
+      "evidence_id": "market.ev.018",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.fltRt",
+      "value": 9.21,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: 9.21%"
+    },
+    {
+      "evidence_id": "market.ev.019",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mkp",
+      "value": 39100,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 39,100"
+    },
+    {
+      "evidence_id": "market.ev.020",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.hipr",
+      "value": 43000,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 43,000"
+    }
+  ],
+  "raw_payload": {
+    "analysis": {
+      "agent": "market",
+      "company": "엘티씨",
+      "opinion": "보유",
+      "confidence": 0.6,
+      "market_summary": {
+        "oecd_interpretation": "OECD 경기선행지수는 한국, 미국, 중국 등 주요국에서 98.01로 하락세를 보이고 있어 전반적인 경기 둔화 가능성을 시사합니다. 이는 반도체 산업 전반에 부정적인 영향을 미칠 수 있습니다.",
+        "industry_stage": "엘티씨가 속한 반도체 소재 및 장비 산업은 AI, HBM 등 신규 수요에 힘입어 성장기 초입 또는 중반에 위치하고 있습니다. 다만, 레거시 반도체는 쇠퇴기에 접어들고 있습니다.",
+        "value_chain_position": "엘티씨는 전공정 소재 및 장비 분야에서 PR 박리액, 세정액·식각액, TSV 세정 장비 등을 공급하며 밸류체인 내에서 중요한 위치를 차지하고 있습니다. 이는 첨단 반도체 수요 증가의 수혜를 직접적으로 받을 수 있는 강점입니다.",
+        "competitive_position": "엘티씨는 '높음' 수준의 경쟁 강도 속에서 고객사의 공정 변화에 맞춘 신제품 개발 및 품질 향상으로 차별화를 꾀하고 있습니다. 그러나 구체적인 경쟁사 대비 점유율이나 기술 우위는 추가 분석이 필요합니다.",
+        "market_momentum": "엘티씨의 주가는 2026년 5월 19일 기준 42,700원으로 전일 대비 9.21% 상승하며 강한 상승 모멘텀을 보여주고 있습니다. 이는 시장의 긍정적인 반응을 나타냅니다."
+      },
+      "qualitative_rubric": {
+        "macro_cycle": {
+          "assessment": "하",
+          "reason": "OECD 경기선행지수가 하락세를 보이며 전반적인 경기 둔화 가능성을 시사합니다."
+        },
+        "industry_attractiveness": {
+          "assessment": "상",
+          "reason": "AI, HBM 등 신규 수요로 반도체 산업의 성장성이 높으며, 엘티씨의 핵심 세그먼트인 AI·HBM 반도체는 성장기 초입에 있습니다."
+        },
+        "value_chain_position": {
+          "assessment": "상",
+          "reason": "전공정 소재 및 장비 분야에서 핵심 제품을 공급하며 첨단 반도체 수요 증가의 직접적인 수혜가 예상됩니다."
+        },
+        "competitive_position": {
+          "assessment": "중",
+          "reason": "경쟁 강도는 높으나, 품질 및 기술력으로 차별화를 시도하고 있습니다. 다만, 구체적인 경쟁 우위는 추가 확인이 필요합니다."
+        },
+        "market_momentum": {
+          "assessment": "상",
+          "reason": "최근 주가가 9.21% 상승하며 강한 상승 모멘텀을 보여주고 있습니다."
+        },
+        "policy_disclosure_signal": {
+          "assessment": "중",
+          "reason": "정부 R&D 지원 및 세액공제 등 정책적 지원이 있으나, 구체적인 수혜 규모는 불확실합니다. DART 공시상 사업 내용은 긍정적입니다."
+        },
+        "downside_risk": {
+          "assessment": "중",
+          "reason": "주가 상승 모멘텀은 강하나, 거시 경제 둔화 가능성과 높은 경쟁 강도는 잠재적 하방 리스크로 작용할 수 있습니다."
+        }
+      },
+      "bwm_assessment": {
+        "best_criterion": "산업 매력도",
+        "worst_criterion": "거시 사이클",
+        "judgment_effect": "산업의 높은 성장성과 엘티씨의 밸류체인 내 위치는 긍정적이나, 거시 경제 둔화 가능성이 투자 의견에 보수적인 영향을 미칩니다."
+      },
+      "scoring": {
+        "거시환경": {
+          "score": 5,
+          "max": 20,
+          "reason": "OECD 경기선행지수 하락으로 부정적 신호가 감지됩니다."
+        },
+        "산업매력도": {
+          "score": 18,
+          "max": 20,
+          "reason": "AI, HBM 등 신규 수요로 반도체 산업의 성장성이 매우 높습니다."
+        },
+        "경쟁위치": {
+          "score": 12,
+          "max": 20,
+          "reason": "밸류체인 내 위치는 우수하나, 경쟁 강도가 높고 구체적인 경쟁 우위는 추가 확인이 필요합니다."
+        },
+        "정책수혜": {
+          "score": 10,
+          "max": 20,
+          "reason": "정부 R&D 지원 등 긍정적 정책이 있으나, 직접적인 수혜 규모는 불확실합니다."
+        },
+        "시장모멘텀": {
+          "score": 15,
+          "max": 20,
+          "reason": "최근 주가 상승률이 높아 시장의 긍정적인 반응을 보여줍니다."
+        }
+      },
+      "total_score": 60,
+      "claims": [
+        {
+          "claim_id": "market.cl.001",
+          "text": "엘티씨는 AI 및 HBM 반도체 시장 성장에 따른 수혜가 기대됩니다.",
+          "evidence_ids": [
+            "market.ev.002"
+          ]
+        },
+        {
+          "claim_id": "market.cl.002",
+          "text": "최근 주가 상승은 시장의 긍정적인 모멘텀을 반영합니다.",
+          "evidence_ids": [
+            "market.ev.001"
+          ]
+        },
+        {
+          "claim_id": "market.cl.003",
+          "text": "거시 경제 둔화 가능성은 잠재적 리스크 요인입니다.",
+          "evidence_ids": [
+            "market.ev.003"
+          ]
+        }
+      ],
+      "evidences": [
+        {
+          "evidence_id": "market.ev.001",
+          "source_type": "stock",
+          "source": "public_data",
+          "metric": "change_rate",
+          "value": 9.21,
+          "unit": "%",
+          "period": "20260519",
+          "snippet": "current_price: 42700, change: 3600, change_rate: 9.21"
+        },
+        {
+          "evidence_id": "market.ev.002",
+          "source_type": "static",
+          "source": "밸류체인 & 경쟁구조",
+          "metric": "핵심 세그먼트",
+          "value": "AI·HBM: 성장기 초입",
+          "unit": null,
+          "period": null,
+          "snippet": "핵심 세그먼트: AI·HBM 반도체: 성장기 초입"
+        },
+        {
+          "evidence_id": "market.ev.003",
+          "source_type": "oecd",
+          "source": "OECD 경기선행지수",
+          "metric": "한국",
+          "value": 98.01,
+          "unit": "Index",
+          "period": "최신",
+          "snippet": "OECD 경기선행지수 (최신): {\"G20\": 98.01, \"한국\": 98.01, \"미국\": 98.01, \"중국\": 98.01}"
+        },
+        {
+          "evidence_id": "market.ev.004",
+          "source_type": "dart",
+          "source": "DART 최신 공시",
+          "metric": "differentiation",
+          "value": "당사는 디스플레이 및 반도체 제조 공정에서 사용되는 다양한 공정용 전자재료를 개발 및 공급하며, 품질과 기술력에서 높은 평가를 받고 있습니다. 고객사의 공정 변화에 맞춰 신제품 개발 및 품질 향상을 지속적으로 추진하고 있습니다.",
+          "unit": null,
+          "period": null,
+          "snippet": "differentiation: 당사는 디스플레이 및 반도체 제조 공정에서 사용되는 다양한 공정용 전자재료를 개발 및 공급하며, 품질과 기술력에서 높은 평가를 받고 있습니다. 고객사의 공정 변화에 맞춰 신제품 개발 및 품질 향상을 지속적으로 추진하고 있습니다."
+        }
+      ],
+      "risks": [
+        {
+          "risk": "거시 경제 둔화로 인한 반도체 수요 감소",
+          "severity": "중",
+          "basis": "OECD 경기선행지수 하락"
+        },
+        {
+          "risk": "높은 경쟁 강도로 인한 수익성 압박",
+          "severity": "중",
+          "basis": "DART 공시상 '높음' 수준의 경쟁 강도"
+        }
+      ],
+      "opportunities": [
+        {
+          "opportunity": "AI 및 HBM 시장 성장에 따른 수혜",
+          "basis": "핵심 세그먼트 분석상 AI·HBM 반도체 성장기 초입"
+        },
+        {
+          "opportunity": "첨단 공정용 소재 및 장비 수요 증가",
+          "basis": "엘티씨의 밸류체인 내 위치 및 제품군"
+        }
+      ],
+      "summary": "엘티씨는 AI 및 HBM 시장 성장에 따른 수혜가 기대되며, 최근 주가 모멘텀도 긍정적입니다. 다만, 거시 경제 둔화 가능성과 높은 경쟁 강도는 잠재적 리스크 요인으로 작용할 수 있어 '보유' 의견을 제시합니다.",
+      "raw_payload": {
+        "stock_used": true,
+        "oecd_used": true,
+        "static_used": true,
+        "news_used": false,
+        "dart_used": true
+      }
+    },
+    "original_opportunities": [
+      {
+        "opportunity": "AI 및 HBM 시장 성장에 따른 수혜",
+        "basis": "핵심 세그먼트 분석상 AI·HBM 반도체 성장기 초입"
+      },
+      {
+        "opportunity": "첨단 공정용 소재 및 장비 수요 증가",
+        "basis": "엘티씨의 밸류체인 내 위치 및 제품군"
+      }
+    ],
+    "original_risks": [
+      {
+        "risk": "거시 경제 둔화로 인한 반도체 수요 감소",
+        "severity": "중",
+        "basis": "OECD 경기선행지수 하락"
+      },
+      {
+        "risk": "높은 경쟁 강도로 인한 수익성 압박",
+        "severity": "중",
+        "basis": "DART 공시상 '높음' 수준의 경쟁 강도"
+      }
+    ],
+    "removed_bad_evidence_ids": [
+      "market.ev.unverified"
+    ]
+  },
+  "total_score": 60,
+  "scoring": {
+    "거시환경": {
+      "score": 5,
+      "max": 20,
+      "reason": "OECD 경기선행지수 하락으로 부정적 신호가 감지됩니다."
+    },
+    "산업매력도": {
+      "score": 18,
+      "max": 20,
+      "reason": "AI, HBM 등 신규 수요로 반도체 산업의 성장성이 매우 높습니다."
+    },
+    "경쟁위치": {
+      "score": 12,
+      "max": 20,
+      "reason": "밸류체인 내 위치는 우수하나, 경쟁 강도가 높고 구체적인 경쟁 우위는 추가 확인이 필요합니다."
+    },
+    "정책수혜": {
+      "score": 10,
+      "max": 20,
+      "reason": "정부 R&D 지원 등 긍정적 정책이 있으나, 직접적인 수혜 규모는 불확실합니다."
+    },
+    "시장모멘텀": {
+      "score": 15,
+      "max": 20,
+      "reason": "최근 주가 상승률이 높아 시장의 긍정적인 반응을 보여줍니다."
+    }
+  },
+  "packet_version": "grounded_agent_v3",
+  "pre_sanitize_grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 6,
+    "supported_count": 6,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "엘티씨 마켓 분석 total_score 값은 60점입니다.",
+      "엘티씨 stock_data.current_price 값은 42700입니다.",
+      "엘티씨 stock_data.change 값은 3600입니다.",
+      "엘티씨 stock_data.change_rate 값은 9.21%입니다.",
+      "엘티씨 stock_data.raw.clpr 값은 42700입니다.",
+      "엘티씨 stock_data.raw.vs 값은 3600입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "market.cl.001",
+        "text": "엘티씨 마켓 분석 total_score 값은 60점입니다.",
+        "evidence_ids": [
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "엘티씨 stock_data.current_price 값은 42700입니다.",
+        "evidence_ids": [
+          "market.ev.006"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {
+          "price": [
+            "market.ev.006"
+          ]
+        },
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.003",
+        "text": "엘티씨 stock_data.change 값은 3600입니다.",
+        "evidence_ids": [
+          "market.ev.009"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.004",
+        "text": "엘티씨 stock_data.change_rate 값은 9.21%입니다.",
+        "evidence_ids": [
+          "market.ev.010"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.005",
+        "text": "엘티씨 stock_data.raw.clpr 값은 42700입니다.",
+        "evidence_ids": [
+          "market.ev.016"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.006",
+        "text": "엘티씨 stock_data.raw.vs 값은 3600입니다.",
+        "evidence_ids": [
+          "market.ev.017"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  },
+  "post_atomic_grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 9,
+    "supported_count": 9,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "엘티씨 마켓 분석 total_score 값은 60점입니다.",
+      "엘티씨 stock_data.current_price 값은 42700입니다.",
+      "엘티씨 stock_data.change 값은 3600입니다.",
+      "엘티씨 stock_data.change_rate 값은 9.21%입니다.",
+      "엘티씨 stock_data.raw.clpr 값은 42700입니다.",
+      "엘티씨 stock_data.raw.vs 값은 3600입니다.",
+      "stock_data.raw.fltRt 값은 9.21%입니다.",
+      "stock_data.raw.mkp 값은 39,100입니다.",
+      "stock_data.raw.hipr 값은 43,000입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "market.cl.001",
+        "text": "엘티씨 마켓 분석 total_score 값은 60점입니다.",
+        "evidence_ids": [
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "엘티씨 stock_data.current_price 값은 42700입니다.",
+        "evidence_ids": [
+          "market.ev.006"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {
+          "price": [
+            "market.ev.006"
+          ]
+        },
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.003",
+        "text": "엘티씨 stock_data.change 값은 3600입니다.",
+        "evidence_ids": [
+          "market.ev.009"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.004",
+        "text": "엘티씨 stock_data.change_rate 값은 9.21%입니다.",
+        "evidence_ids": [
+          "market.ev.010"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.005",
+        "text": "엘티씨 stock_data.raw.clpr 값은 42700입니다.",
+        "evidence_ids": [
+          "market.ev.016"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.006",
+        "text": "엘티씨 stock_data.raw.vs 값은 3600입니다.",
+        "evidence_ids": [
+          "market.ev.017"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.007",
+        "text": "stock_data.raw.fltRt 값은 9.21%입니다.",
+        "evidence_ids": [
+          "market.ev.018"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.009",
+        "text": "stock_data.raw.mkp 값은 39,100입니다.",
+        "evidence_ids": [
+          "market.ev.019"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.011",
+        "text": "stock_data.raw.hipr 값은 43,000입니다.",
+        "evidence_ids": [
+          "market.ev.020"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  },
+  "grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 9,
+    "supported_count": 9,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "엘티씨 마켓 분석 total_score 값은 60점입니다.",
+      "엘티씨 stock_data.current_price 값은 42700입니다.",
+      "엘티씨 stock_data.change 값은 3600입니다.",
+      "엘티씨 stock_data.change_rate 값은 9.21%입니다.",
+      "엘티씨 stock_data.raw.clpr 값은 42700입니다.",
+      "엘티씨 stock_data.raw.vs 값은 3600입니다.",
+      "stock_data.raw.fltRt 값은 9.21%입니다.",
+      "stock_data.raw.mkp 값은 39,100입니다.",
+      "stock_data.raw.hipr 값은 43,000입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "market.cl.001",
+        "text": "엘티씨 마켓 분석 total_score 값은 60점입니다.",
+        "evidence_ids": [
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "엘티씨 stock_data.current_price 값은 42700입니다.",
+        "evidence_ids": [
+          "market.ev.006"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {
+          "price": [
+            "market.ev.006"
+          ]
+        },
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.003",
+        "text": "엘티씨 stock_data.change 값은 3600입니다.",
+        "evidence_ids": [
+          "market.ev.009"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.004",
+        "text": "엘티씨 stock_data.change_rate 값은 9.21%입니다.",
+        "evidence_ids": [
+          "market.ev.010"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.005",
+        "text": "엘티씨 stock_data.raw.clpr 값은 42700입니다.",
+        "evidence_ids": [
+          "market.ev.016"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.006",
+        "text": "엘티씨 stock_data.raw.vs 값은 3600입니다.",
+        "evidence_ids": [
+          "market.ev.017"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.007",
+        "text": "stock_data.raw.fltRt 값은 9.21%입니다.",
+        "evidence_ids": [
+          "market.ev.018"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.009",
+        "text": "stock_data.raw.mkp 값은 39,100입니다.",
+        "evidence_ids": [
+          "market.ev.019"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.011",
+        "text": "stock_data.raw.hipr 값은 43,000입니다.",
+        "evidence_ids": [
+          "market.ev.020"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  }
+}

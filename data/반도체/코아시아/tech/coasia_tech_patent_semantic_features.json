@@ -1,0 +1,153 @@
+{
+  "status": "OK",
+  "created_at": "2026-05-20T21:35:09",
+  "company_slug": "coasia",
+  "company_name": "코아시아",
+  "source_csv": "data\\반도체\\코아시아\\tech\\coasia_kipris_bibliographic_normalized.csv",
+  "method": "TFIDF_COSINE_FALLBACK",
+  "patent_text_count": 30,
+  "semantic_similarity_avg": 0.0844,
+  "top_pairs": [
+    {
+      "left_index": 1,
+      "right_index": 8,
+      "similarity": 0.8159,
+      "left_source_index": 1,
+      "right_source_index": 8
+    },
+    {
+      "left_index": 1,
+      "right_index": 4,
+      "similarity": 0.7734,
+      "left_source_index": 1,
+      "right_source_index": 4
+    },
+    {
+      "left_index": 4,
+      "right_index": 8,
+      "similarity": 0.7147,
+      "left_source_index": 4,
+      "right_source_index": 8
+    },
+    {
+      "left_index": 6,
+      "right_index": 9,
+      "similarity": 0.6866,
+      "left_source_index": 6,
+      "right_source_index": 9
+    },
+    {
+      "left_index": 1,
+      "right_index": 9,
+      "similarity": 0.6058,
+      "left_source_index": 1,
+      "right_source_index": 9
+    },
+    {
+      "left_index": 1,
+      "right_index": 2,
+      "similarity": 0.6043,
+      "left_source_index": 1,
+      "right_source_index": 2
+    },
+    {
+      "left_index": 2,
+      "right_index": 8,
+      "similarity": 0.581,
+      "left_source_index": 2,
+      "right_source_index": 8
+    },
+    {
+      "left_index": 1,
+      "right_index": 6,
+      "similarity": 0.5784,
+      "left_source_index": 1,
+      "right_source_index": 6
+    },
+    {
+      "left_index": 0,
+      "right_index": 7,
+      "similarity": 0.5601,
+      "left_source_index": 0,
+      "right_source_index": 7
+    },
+    {
+      "left_index": 8,
+      "right_index": 9,
+      "similarity": 0.5586,
+      "left_source_index": 8,
+      "right_source_index": 9
+    },
+    {
+      "left_index": 4,
+      "right_index": 9,
+      "similarity": 0.5576,
+      "left_source_index": 4,
+      "right_source_index": 9
+    },
+    {
+      "left_index": 4,
+      "right_index": 6,
+      "similarity": 0.5447,
+      "left_source_index": 4,
+      "right_source_index": 6
+    },
+    {
+      "left_index": 6,
+      "right_index": 8,
+      "similarity": 0.5418,
+      "left_source_index": 6,
+      "right_source_index": 8
+    },
+    {
+      "left_index": 2,
+      "right_index": 4,
+      "similarity": 0.5324,
+      "left_source_index": 2,
+      "right_source_index": 4
+    },
+    {
+      "left_index": 0,
+      "right_index": 4,
+      "similarity": 0.5254,
+      "left_source_index": 0,
+      "right_source_index": 4
+    },
+    {
+      "left_index": 2,
+      "right_index": 9,
+      "similarity": 0.5218,
+      "left_source_index": 2,
+      "right_source_index": 9
+    },
+    {
+      "left_index": 0,
+      "right_index": 1,
+      "similarity": 0.513,
+      "left_source_index": 0,
+      "right_source_index": 1
+    },
+    {
+      "left_index": 0,
+      "right_index": 8,
+      "similarity": 0.4959,
+      "left_source_index": 0,
+      "right_source_index": 8
+    },
+    {
+      "left_index": 1,
+      "right_index": 16,
+      "similarity": 0.4894,
+      "left_source_index": 1,
+      "right_source_index": 16
+    },
+    {
+      "left_index": 2,
+      "right_index": 6,
+      "similarity": 0.489,
+      "left_source_index": 2,
+      "right_source_index": 6
+    }
+  ],
+  "usage_note": "This is an offline fallback inspired by PatentSBERTa-style semantic patent distance. If sentence-transformers and AI-Growth-Lab/PatentSBERTa are installed later, this layer can be upgraded."
+}

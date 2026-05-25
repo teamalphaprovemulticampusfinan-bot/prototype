@@ -1,0 +1,223 @@
+{
+  "agent_name": "finance",
+  "company_name": "월덱스",
+  "company_dir": "woldex",
+  "industry_type": "deeptech_semiconductor",
+  "summary": "월덱스는 2024년까지 매출과 이익이 성장했으나, 2025년에는 매출과 영업이익이 감소하며 수익성이 하락하는 모습을 보였다. 2023년과 2024년에는 높은 ROE와 영업이익률을 기록했으나, 2025년에는 이 수치들이 크게 하락했다. 주가는 2025년 이후 반등세를 보였으나, 최근 1개월 데이터에서 상당한 변동성과 드로다운이 관찰된다.",
+  "key_thesis": [
+    "2023년과 2024년에는 각각 28.8조원, 30.7조원의 매출을 기록하며 성장세를 보였고, 영업이익률도 22.5%, 22.9%로 견조한 수준을 유지했다.",
+    "2023년 ROE는 22.48%, 2024년 ROE는 21.15%로 높은 수준을 기록하며 자본 효율성이 양호했음을 시사한다.",
+    "2023년 717억, 2024년 286억의 잉여현금흐름(FCF)을 창출하며 현금 창출 능력을 보여주었다.",
+    "2023년 부채비율 30.98%, 2024년 27.42%로 재무 건전성이 양호한 수준을 유지했다.",
+    "2025년 연수익률 31.94%, 2026년 연수익률 39.41%로 최근 주가 상승 모멘텀이 강하게 나타나고 있다.",
+    "2026년 연간 MDD가 -14.81%로 이전 연도 대비 개선된 모습을 보이고 있다."
+  ],
+  "key_risks": [
+    "2025년 매출액이 29.1조원으로 전년 대비 감소했으며, 영업이익과 순이익 또한 각각 585억, 409억으로 크게 하락하여 수익성 둔화가 우려된다.",
+    "2025년 ROE가 11.82%로 이전 연도 대비 절반 가까이 하락했으며, 영업이익률 또한 20.07%로 감소하여 수익성 악화 추세를 보여준다.",
+    "2025년 이자보상배율이 7.14배로 이전 연도 36.37배 대비 크게 하락하여 이자 지급 능력이 약화되었음을 시사한다.",
+    "최근 1개월 주가 데이터에서 2026년 5월 12일 -3.28%의 일일 수익률과 -11.30%의 누적 드로다운이 관찰되는 등 높은 변동성을 보이고 있다.",
+    "2026년 거래량 이동평균 대비 비율이 평균 1.1563으로, 일부 구간에서 거래량이 평균 이상으로 증가하며 주가 변동성을 동반하고 있다."
+  ],
+  "report_core_points": [
+    "FCF: 월덱스 2025 기준 FCF 값은 49,871,564,590원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+    "연수익률: 월덱스 2026 기준 연수익률 값은 39.41%이며, 해당 연도 주가 성과를 보여주는 지표입니다.",
+    "연간 MDD: 월덱스 2026 기준 연간 MDD 값은 -14.81%이며, 투자자가 경험할 수 있는 최대 낙폭 위험을 보여주는 지표입니다.",
+    "거래량: 월덱스 2026 기준 거래량 값은 153821.00주이며, 해당 연도 평균 거래량을 통해 시장 관심과 유동성을 확인하는 지표입니다.",
+    "이동평균 대비 비율: 월덱스 2026 기준 이동평균 대비 비율 값은 1.16배이며, 거래량이 이동평균 대비 어느 수준인지 보여주는 수급 지표입니다."
+  ],
+  "missing_prompt_metrics": [
+    "매출성장률",
+    "영업이익률",
+    "ROE",
+    "부채비율",
+    "변동성지수"
+  ],
+  "evidence": [
+    {
+      "evidence_id": "finance.ev.004",
+      "source_type": "financial_csv",
+      "source": "월덱스_재무.csv",
+      "metric": "fcf",
+      "label": "FCF",
+      "value": 49871564590.0,
+      "unit": "원",
+      "period": "2025",
+      "snippet": "월덱스 2025 기준 FCF 값은 49,871,564,590원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.007",
+      "source_type": "stock_csv",
+      "source": "월덱스_주식.csv",
+      "metric": "annual_return_%",
+      "label": "연수익률",
+      "value": 39.41,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "월덱스 2026 기준 연수익률 값은 39.41%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.008",
+      "source_type": "stock_csv",
+      "source": "월덱스_주식.csv",
+      "metric": "annual_mdd_%",
+      "label": "연간 MDD",
+      "value": -14.81,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "월덱스 2026 기준 연간 MDD 값은 -14.81%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.009",
+      "source_type": "stock_csv",
+      "source": "월덱스_주식.csv",
+      "metric": "volume_mean",
+      "label": "거래량",
+      "value": 153821.0,
+      "unit": "주",
+      "period": "2026",
+      "snippet": "월덱스 2026 기준 거래량 값은 153821주입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.010",
+      "source_type": "stock_csv",
+      "source": "월덱스_주식.csv",
+      "metric": "volume_ma_ratio_mean",
+      "label": "이동평균 대비 비율",
+      "value": 1.1563,
+      "unit": "배",
+      "period": "2026",
+      "snippet": "월덱스 2026 기준 이동평균 대비 비율 값은 1.1563배입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.012",
+      "source_type": "stock_csv",
+      "source": "월덱스_주식.csv",
+      "metric": "latest_close",
+      "label": "최근 종가",
+      "value": 30950.0,
+      "unit": "원",
+      "period": "2026-05-13",
+      "snippet": "월덱스 2026-05-13 최근 종가 값은 30,950원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.013",
+      "source_type": "warning_stock_csv",
+      "source": "투자경고종목.csv",
+      "metric": "warning_stock",
+      "label": "투자경고 여부",
+      "value": 0.0,
+      "unit": null,
+      "period": "최근",
+      "snippet": "월덱스 투자경고종목 해당 여부 값은 0입니다.",
+      "prompt_rationale": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "finance.safe_cl.004",
+      "text": "월덱스 2025 기준 FCF 값은 49,871,564,590원입니다.",
+      "evidence_ids": [
+        "finance.ev.004"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.007",
+      "text": "월덱스 2026 기준 연수익률 값은 39.41%입니다.",
+      "evidence_ids": [
+        "finance.ev.007"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.008",
+      "text": "월덱스 2026 기준 연간 MDD 값은 -14.81%입니다.",
+      "evidence_ids": [
+        "finance.ev.008"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.009",
+      "text": "월덱스 2026 기준 거래량 값은 153821주입니다.",
+      "evidence_ids": [
+        "finance.ev.009"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.010",
+      "text": "월덱스 2026 기준 이동평균 대비 비율 값은 1.1563배입니다.",
+      "evidence_ids": [
+        "finance.ev.010"
+      ],
+      "audit_safe": true
+    }
+  ],
+  "warning_note": null,
+  "source_contexts": [
+    "financial_csv=월덱스_재무.csv",
+    "stock_csv=월덱스_주식.csv",
+    "warning_stock_csv=투자경고종목.csv",
+    "prompts.py summary/key_thesis/key_risks are preserved in the Chair View where available.",
+    "First Auditor claims are CSV-grounded one-to-one evidence claims for stable actual-information verification.",
+    "필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수"
+  ],
+  "raw_payload": {
+    "latest_financial_row": {
+      "year": 2025,
+      "sales": 291764969976.0,
+      "operating_income": 58544362713.0,
+      "net_income": 40972466221.0,
+      "total_assets": 429672762944.0,
+      "total_liabilities": 83071411079.0,
+      "total_equity": 346601351865.0,
+      "capex": 10888216177,
+      "ocf": 60759780767,
+      "fcf": 49871564590,
+      "interest": 8201187533.0,
+      "ROE": 11.821207851768168,
+      "영업이익률": 20.065590025360397,
+      "부채비율": 23.967422698153825,
+      "이자보상배율": 7.13852261973388
+    },
+    "latest_stock_metric": {
+      "year": 2026,
+      "annual_return_%": 39.41,
+      "annual_mdd_%": -14.81
+    },
+    "latest_yearly_summary": {
+      "year": 2026,
+      "close_start": 22200.0,
+      "close_end": 30950.0,
+      "close_high": 34950.0,
+      "close_low": 21950.0,
+      "volume_mean": 153821.0,
+      "volume_ma_ratio_mean": 1.1563
+    },
+    "latest_recent_stock_row": {
+      "Date": "2026-05-13",
+      "Open": 30400.0,
+      "High": 31250.0,
+      "Low": 29550.0,
+      "Close": 30950.0,
+      "Volume": 97787,
+      "Change": -0.0016129032258064,
+      "VKOSPI": NaN,
+      "일수익률_%": -0.16129032258064,
+      "누적최고가": 34950.0,
+      "드로다운_%": -11.444921316165956,
+      "거래량_20일평균": 130327.0,
+      "거래량_이동평균대비비율": 0.7503203480476034
+    },
+    "audit_policy": "prompts_py_used_for_interpretation_claims_grounded_by_local_csv"
+  },
+  "packet_version": "finance_prompts_grounded_v4_compact"
+}

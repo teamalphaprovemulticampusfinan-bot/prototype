@@ -1,0 +1,1427 @@
+{
+  "agent": "tech",
+  "version": "v11_excel_frame_actual_source_concise_quantification",
+  "company": "제주반도체",
+  "company_dir": "jeju_semicon",
+  "opinion": "보유",
+  "tech_score": 21,
+  "score_report": {
+    "company_name": "제주반도체",
+    "axes": [
+      {
+        "category": "대표 기술",
+        "axis": "기술성",
+        "score": 3,
+        "reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 6건",
+        "result": "제주반도체은 양산, 공정, EMI 기반 기술/공정 기업으로, 관련 기술은 실제 원천에서 0회 확인됩니다. 해당 기술은 0개 제품·공정 영역과 연결되며, 양산·공정·기술 문맥을 통해 구현 방향을 판단합니다."
+      },
+      {
+        "category": "핵심 제품/서비스",
+        "axis": "수익성 기여",
+        "score": 3,
+        "reason": "직접근거 6건, 공식/DART/IR/특허 근거 0건, 정량화 지표 3건",
+        "result": "핵심 제품/서비스는 EV 중심으로 확인됩니다. 실제 원천 기준 0개 제품·서비스 축이 추출되며, 매출·성장 정량 신호는 DART/IR 문맥과 결합해 수익성 기여 판단에 사용합니다."
+      },
+      {
+        "category": "고객 구매 이유",
+        "axis": "고객 채택도",
+        "score": 3,
+        "reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 9건",
+        "result": "고객 구매 이유는 핵심 기술 관련 성능·품질·양산 효익으로 정리됩니다. 실제 근거에서 고객 효익 신호 0개가 확인되며, 단순 기술 키워드가 아니라 적용처·성능·양산 문맥과 함께 해석합니다."
+      },
+      {
+        "category": "경쟁 우위/대체가능성",
+        "axis": "진입장벽",
+        "score": 3,
+        "reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 12건",
+        "result": "경쟁 우위는 핵심 기술와 연결된 특허·공정·양산 경험을 중심으로 확인됩니다. 대체가능성 판단에는 특허 수 자체보다 고객 승인, 공정 난이도, 양산 경험 등 0개 장벽 신호를 함께 반영합니다."
+      },
+      {
+        "category": "활용 및 확장 산업",
+        "axis": "확장성",
+        "score": 3,
+        "reason": "직접근거 3건, 공식/DART/IR/특허 근거 0건, 정량화 지표 3건",
+        "result": "활용·확장 산업은 EV로 확인됩니다. 실제 수집 근거에서 0개 적용 산업/Application이 추출되어 기술 확장성을 보조적으로 설명합니다."
+      },
+      {
+        "category": "진입 부담/장벽",
+        "axis": "양산성",
+        "score": 3,
+        "reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 6건",
+        "result": "진입 부담은 양산 공정, 고객 승인, 품질 검증, 노하우 축적 여부를 중심으로 판단됩니다. 현재 근거에서는 0개 장벽 신호가 확인되며, 이는 기술성보다 사업화 방어력 판단에 활용됩니다."
+      },
+      {
+        "category": "R&D 강도",
+        "axis": "투자 지속성",
+        "score": 3,
+        "reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 6건",
+        "result": "R&D 강도는 연구개발·설비투자·개발과제의 지속성을 기준으로 봅니다. 실제 근거에서 R&D/투자 신호 0개가 확인되며, 기술 유지·개선 가능성의 보조 지표로 사용합니다."
+      }
+    ],
+    "details": [
+      {
+        "category": "대표 기술",
+        "axis": "기술성",
+        "score": 3,
+        "reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 6건",
+        "result": "제주반도체은 양산, 공정, EMI 기반 기술/공정 기업으로, 관련 기술은 실제 원천에서 0회 확인됩니다. 해당 기술은 0개 제품·공정 영역과 연결되며, 양산·공정·기술 문맥을 통해 구현 방향을 판단합니다."
+      },
+      {
+        "category": "핵심 제품/서비스",
+        "axis": "수익성 기여",
+        "score": 3,
+        "reason": "직접근거 6건, 공식/DART/IR/특허 근거 0건, 정량화 지표 3건",
+        "result": "핵심 제품/서비스는 EV 중심으로 확인됩니다. 실제 원천 기준 0개 제품·서비스 축이 추출되며, 매출·성장 정량 신호는 DART/IR 문맥과 결합해 수익성 기여 판단에 사용합니다."
+      },
+      {
+        "category": "고객 구매 이유",
+        "axis": "고객 채택도",
+        "score": 3,
+        "reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 9건",
+        "result": "고객 구매 이유는 핵심 기술 관련 성능·품질·양산 효익으로 정리됩니다. 실제 근거에서 고객 효익 신호 0개가 확인되며, 단순 기술 키워드가 아니라 적용처·성능·양산 문맥과 함께 해석합니다."
+      },
+      {
+        "category": "경쟁 우위/대체가능성",
+        "axis": "진입장벽",
+        "score": 3,
+        "reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 12건",
+        "result": "경쟁 우위는 핵심 기술와 연결된 특허·공정·양산 경험을 중심으로 확인됩니다. 대체가능성 판단에는 특허 수 자체보다 고객 승인, 공정 난이도, 양산 경험 등 0개 장벽 신호를 함께 반영합니다."
+      },
+      {
+        "category": "활용 및 확장 산업",
+        "axis": "확장성",
+        "score": 3,
+        "reason": "직접근거 3건, 공식/DART/IR/특허 근거 0건, 정량화 지표 3건",
+        "result": "활용·확장 산업은 EV로 확인됩니다. 실제 수집 근거에서 0개 적용 산업/Application이 추출되어 기술 확장성을 보조적으로 설명합니다."
+      },
+      {
+        "category": "진입 부담/장벽",
+        "axis": "양산성",
+        "score": 3,
+        "reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 6건",
+        "result": "진입 부담은 양산 공정, 고객 승인, 품질 검증, 노하우 축적 여부를 중심으로 판단됩니다. 현재 근거에서는 0개 장벽 신호가 확인되며, 이는 기술성보다 사업화 방어력 판단에 활용됩니다."
+      },
+      {
+        "category": "R&D 강도",
+        "axis": "투자 지속성",
+        "score": 3,
+        "reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 6건",
+        "result": "R&D 강도는 연구개발·설비투자·개발과제의 지속성을 기준으로 봅니다. 실제 근거에서 R&D/투자 신호 0개가 확인되며, 기술 유지·개선 가능성의 보조 지표로 사용합니다."
+      }
+    ],
+    "total_score": 21,
+    "max_score": 35,
+    "strengths": [],
+    "weaknesses": [],
+    "judgment": "기술 경쟁형",
+    "quality_flags": [
+      "DART 사업보고서 본문 미수집: DART_API_KEY 또는 stock_code 확인 필요",
+      "공식 홈페이지/IR 본문 미수집: company.yaml URL 또는 네트워크 접근 확인 필요",
+      "KIPRIS Tech ML features merged into Tech Agent runtime outputs."
+    ]
+  },
+  "tech_to_value_inputs": {
+    "score": 37.0,
+    "tech_agent_raw_score": 60.0,
+    "base_signal_score": 49.0,
+    "auditor_adjusted_score": 39.0,
+    "auditor_conservative_adjustment": 21.0,
+    "grade": "TECH_FINANCE_GAP",
+    "policy": "기술 우위는 고객사 채택, 양산, 매출 전환, FCF 개선 근거와 연결될 때만 가치평가 가산 요인으로 반영한다.",
+    "interpretation": "기술·제품 근거가 가치평가 보조 근거로 쓰이려면 고객 적용, 양산, 매출/현금흐름 연결이 함께 확인되어야 합니다.",
+    "components": {
+      "commercialization_hits": 4,
+      "production_hits": 3,
+      "value_hits": 0,
+      "ip_hits": 2,
+      "official_doc_count": 21,
+      "quantitative_signal_count": 45
+    },
+    "penalties": [
+      "매출·수익성·FCF 연결 근거 부족"
+    ],
+    "evidence_samples": [
+      {
+        "snippet": "# 제주반도체 Tech Local Proxy Evidence",
+        "source_type": "local_data",
+        "source_title": "jeju_semicon_tech_local_proxy_evidence.md",
+        "source_url": "",
+        "source_path": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_tech_local_proxy_evidence.md",
+        "source_plan_matched": false,
+        "hits": [
+          "반도체"
+        ]
+      },
+      {
+        "snippet": "corp_name: \"제주반도체\"",
+        "source_type": "local_data",
+        "source_title": "company.yaml",
+        "source_url": "",
+        "source_path": "data\\반도체\\제주반도체\\_company_common\\company.yaml",
+        "source_plan_matched": false,
+        "hits": [
+          "반도체"
+        ]
+      },
+      {
+        "snippet": "# 제주반도체 Tech Local Proxy Evidence",
+        "source_type": "local_data",
+        "source_title": "jeju_semicon_tech_local_proxy_evidence.md",
+        "source_url": "",
+        "source_path": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_tech_local_proxy_evidence.md",
+        "source_plan_matched": false,
+        "hits": [
+          "반도체"
+        ]
+      },
+      {
+        "snippet": "corp_name: \"제주반도체\"",
+        "source_type": "local_data",
+        "source_title": "company.yaml",
+        "source_url": "",
+        "source_path": "data\\반도체\\제주반도체\\_company_common\\company.yaml",
+        "source_plan_matched": false,
+        "hits": [
+          "반도체"
+        ]
+      },
+      {
+        "snippet": "# 제주반도체 Tech Local Proxy Evidence",
+        "source_type": "local_data",
+        "source_title": "jeju_semicon_tech_local_proxy_evidence.md",
+        "source_url": "",
+        "source_path": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_tech_local_proxy_evidence.md",
+        "source_plan_matched": false,
+        "hits": [
+          "반도체"
+        ]
+      },
+      {
+        "snippet": "corp_name: \"제주반도체\"",
+        "source_type": "local_data",
+        "source_title": "company.yaml",
+        "source_url": "",
+        "source_path": "data\\반도체\\제주반도체\\_company_common\\company.yaml",
+        "source_plan_matched": false,
+        "hits": [
+          "반도체"
+        ]
+      },
+      {
+        "snippet": "# 제주반도체 Tech Local Proxy Evidence",
+        "source_type": "local_data",
+        "source_title": "jeju_semicon_tech_local_proxy_evidence.md",
+        "source_url": "",
+        "source_path": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_tech_local_proxy_evidence.md",
+        "source_plan_matched": false,
+        "hits": [
+          "EV"
+        ]
+      },
+      {
+        "snippet": "# 제주반도체 Tech Local Proxy Evidence",
+        "source_type": "local_data",
+        "source_title": "jeju_semicon_tech_local_proxy_evidence.md",
+        "source_url": "",
+        "source_path": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_tech_local_proxy_evidence.md",
+        "source_plan_matched": false,
+        "hits": [
+          "EV"
+        ]
+      }
+    ],
+    "score_before_kipris_tech_ml_adjustment": 39.0,
+    "kipris_tech_ml_features": {
+      "company_slug": "jeju_semicon",
+      "company_name": "제주반도체",
+      "field": "반도체",
+      "source_csv": "data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_patents_normalized.csv",
+      "enriched_csv": "data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_tech_ml_enriched.csv",
+      "generated_at": "2026-05-20T21:27:29",
+      "core_counts": {
+        "total_patents": 26,
+        "registered_patents_estimated": 20,
+        "alive_patents_estimated": 3,
+        "negative_disposal_patents_estimated": 23,
+        "recent_5y_application_patents": 0,
+        "h01l_core_patents": 0,
+        "semiconductor_related_ipc_patents": 3,
+        "ipc_subclass_count": 5,
+        "ipc_main_group_count": 9,
+        "tech_keyword_match_total": 42,
+        "tech_keyword_match_avg": 1.6154
+      },
+      "core_rates": {
+        "registration_rate_estimated": 0.7692,
+        "alive_rate_total_estimated": 0.1154,
+        "alive_rate_among_registered_estimated": 0.15,
+        "negative_disposal_rate_estimated": 0.8846,
+        "recent_5y_application_rate": 0.0,
+        "h01l_core_rate": 0.0,
+        "semiconductor_related_ipc_rate": 0.1154
+      },
+      "year_features": {
+        "application_year_min": 2000,
+        "application_year_max": 2015,
+        "application_year_span": 16,
+        "recent_5y_threshold": 2021
+      },
+      "scores": {
+        "legal_stability_score_estimated": 42.52,
+        "portfolio_momentum_score": 16.0,
+        "ip_technology_fit_score": 24.36,
+        "kipris_tech_ml_score": 29.12
+      },
+      "tech_to_value_bridge_adjustment": {
+        "bridge_adjustment_points": -2.0,
+        "bridge_signal": "IP_QUALITY_WEAK",
+        "usage_rule": "Add this as a conservative KIPRIS/IP feature adjustment to Tech-to-Value Bridge, but do not treat it as direct commercialization evidence."
+      },
+      "top_ipc_subclass": {
+        "G11C": 21,
+        "H10W": 2,
+        "G05F": 1,
+        "H10P": 1,
+        "H04N": 1
+      },
+      "top_ipc_main_group": {
+        "G11C 11": 10,
+        "G11C 8": 4,
+        "G11C 29": 4,
+        "G11C 7": 3,
+        "G05F 3": 1,
+        "H10P 76": 1,
+        "H10W 40": 1,
+        "H10W 10": 1,
+        "H04N 17": 1
+      },
+      "top_applicants": {},
+      "cautions": [
+        "final_disposal is not present in the source CSV, so legal status is estimated from register_status/register_number/register_date.",
+        "register_date appears unavailable or unparsable in the current source, so registration year range should not be overclaimed.",
+        "KIPRIS/IP score supports technology defensibility, but customer adoption, mass production, sales conversion, and FCF conversion must be verified separately."
+      ],
+      "_source_file": "data/반도체/제주반도체/tech/jeju_semicon_kipris_tech_ml_features.json"
+    },
+    "kipris_tech_ml_score": 29.12,
+    "legal_stability_score_estimated": 42.52,
+    "portfolio_momentum_score": 16.0,
+    "ip_technology_fit_score": 24.36,
+    "bridge_adjustment_points": -2.0,
+    "bridge_signal": "IP_QUALITY_WEAK",
+    "kipris_bridge_usage_rule": "Add this as a conservative KIPRIS/IP feature adjustment to Tech-to-Value Bridge, but do not treat it as direct commercialization evidence.",
+    "kipris_bridge_applied": true
+  },
+  "claims": [
+    {
+      "claim_id": "tech.cl.000",
+      "text": "제주반도체의 Tech-to-Value Bridge Score는 37.0/100이며 판정은 TECH_FINANCE_GAP이다.",
+      "evidence_ids": [
+        "tech.ev.000"
+      ]
+    },
+    {
+      "claim_id": "tech.cl.001",
+      "text": "제주반도체는 원천 문서 기준 WLP/FOWLP·반도체 패키징·후공정 관련 기술 또는 제품 축을 보유한 기업으로 확인된다.",
+      "evidence_ids": [
+        "tech.ev.001",
+        "tech.ev.002"
+      ]
+    },
+    {
+      "claim_id": "tech.cl.002",
+      "text": "제주반도체의 기술성은 사업화 가능성을 보조하지만, 최종 가치평가 가산에는 고객 채택·양산·매출 전환·FCF 개선 근거와의 결합 검증이 필요하다.",
+      "evidence_ids": [
+        "tech.ev.000",
+        "tech.ev.003"
+      ]
+    },
+    {
+      "claim_id": "tech.cl.003",
+      "text": "KIPRIS 정규화 데이터 기준 제주반도체 관련 특허는 회사 매칭 26건, 등록 특허 20건, 최근 5년 특허 0건으로 집계된다.",
+      "evidence_ids": [
+        "tech.ev.004"
+      ]
+    }
+  ],
+  "evidences": [
+    {
+      "evidence_id": "tech.ev.000",
+      "source_type": "tech_to_value_bridge",
+      "source": "Tech Agent internal scoring with actual-source evidence and KIPRIS patent overlay",
+      "metric": "Tech-to-Value Bridge Score",
+      "value": 37.0,
+      "unit": "/100",
+      "period": null,
+      "snippet": "Tech-to-Value Bridge Score: 37.0 / 100; 판정: TECH_FINANCE_GAP; 원칙: 기술 우위는 고객사 채택, 양산, 매출 전환, FCF 개선 근거와 연결될 때만 가치평가 가산 요인으로 반영한다."
+    },
+    {
+      "evidence_id": "tech.ev.001",
+      "source_type": "local_data",
+      "source": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_tech_local_proxy_evidence.md",
+      "metric": "대표 기술 및 핵심 제품",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "# 제주반도체 Tech Local Proxy Evidence"
+    },
+    {
+      "evidence_id": "tech.ev.002",
+      "source_type": "local_data",
+      "source": "data\\반도체\\제주반도체\\_company_common\\company.yaml",
+      "metric": "대표 기술 및 핵심 제품",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "corp_name: \"제주반도체\""
+    },
+    {
+      "evidence_id": "tech.ev.003",
+      "source_type": "local_data",
+      "source": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_tech_local_proxy_evidence.md",
+      "metric": "사업화·확장성 보조 근거",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "# 제주반도체 Tech Local Proxy Evidence"
+    },
+    {
+      "evidence_id": "tech.ev.004",
+      "source_type": "kipris_patent",
+      "source": "data/반도체/제주반도체/tech/source/KIPRIS patent file",
+      "metric": "KIPRIS 특허 정량 지표",
+      "value": 26,
+      "unit": "건",
+      "period": null,
+      "snippet": "KIPRIS 정규화 결과: 전체 정규화 26건, 회사 매칭 26건, 등록 특허 20건, 존속 가능 특허 3건, 최근 5년 특허 0건, H01L 반도체 핵심 IPC 0건, 주요 IPC/CPC: G05F, G11C, H10F, H10W, H10P. 대표 특허: 반도체 디바이스의 파워업 회로(2008, 등록, 기술매칭: 반도체, 소자); 크로스 토크를 감소시키는 이미지 센서의 소자 분리 구조체및 그 제조방법(2005, 소멸, 기술매칭: 기판, 반도체, 소자); 다양한 형태의 디스플레이 장치에 적용 가능한 반도체 메모리 디바이스(2015, 등록, 기술매칭: 반도체)"
+    }
+  ],
+  "categories": [
+    {
+      "category": "대표 기술",
+      "axis": "기술성",
+      "major_source_plan": "사업 보고서, 기업 홈페이지, 특허 사이트",
+      "middle_source_plan": "사업보고서: 사업의 내용 → 주요 제품 및 서비스 / 연구개발활동 / 생산공정·기술설명 / 원재료 및 전구체 설명 / 신규사업 내용 기업 홈페이지: 기술소개 / 제품기술 페이지 / 소재·공정 설명 페이지 / Application(적용 분야) 페이지 / R&D센터 소개 특허 사이트: 대표 등록특허 초록 / 청구항 / IPC·CPC 분류 / 특허 패밀리 / 피인용 특허",
+      "quantifiable_plan": "기술 키워드 등장 빈도, 적용 제품/공정 수, 수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등 : 따로 추출?)",
+      "items": [
+        {
+          "item_name": "핵심 기술 키워드",
+          "category": "대표 기술",
+          "axis": "기술성",
+          "major_source_plan": "사업 보고서, 기업 홈페이지, 특허 사이트",
+          "middle_source_plan": "사업보고서: 사업의 내용 → 주요 제품 및 서비스 / 연구개발활동 / 생산공정·기술설명 / 원재료 및 전구체 설명 / 신규사업 내용 기업 홈페이지: 기술소개 / 제품기술 페이지 / 소재·공정 설명 페이지 / Application(적용 분야) 페이지 / R&D센터 소개 특허 사이트: 대표 등록특허 초록 / 청구항 / IPC·CPC 분류 / 특허 패밀리 / 피인용 특허",
+          "quantifiable_plan": "기술 키워드 등장 빈도, 적용 제품/공정 수, 수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등 : 따로 추출?)",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "기술 키워드 등장 빈도",
+              "value": 112,
+              "unit": "회",
+              "formula": "DART/IR/공식/특허/로컬 기술 원천에서 핵심 기술 키워드 출현 횟수 합산",
+              "detail": {
+                "양산": 31,
+                "공정": 29,
+                "EMI": 17,
+                "AI": 14,
+                "수율": 8,
+                "EV": 7,
+                "HPC": 6
+              }
+            },
+            {
+              "metric_name": "확인 핵심 기술 수",
+              "value": 7,
+              "unit": "개",
+              "formula": "등장 빈도 1회 이상인 핵심 기술 후보 고유 개수",
+              "detail": [
+                "양산",
+                "공정",
+                "EMI",
+                "AI",
+                "수율",
+                "EV",
+                "HPC"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "적용 방식",
+          "category": "대표 기술",
+          "axis": "기술성",
+          "major_source_plan": "사업 보고서, 기업 홈페이지, 특허 사이트",
+          "middle_source_plan": "사업보고서: 사업의 내용 → 주요 제품 및 서비스 / 연구개발활동 / 생산공정·기술설명 / 원재료 및 전구체 설명 / 신규사업 내용 기업 홈페이지: 기술소개 / 제품기술 페이지 / 소재·공정 설명 페이지 / Application(적용 분야) 페이지 / R&D센터 소개 특허 사이트: 대표 등록특허 초록 / 청구항 / IPC·CPC 분류 / 특허 패밀리 / 피인용 특허",
+          "quantifiable_plan": "기술 키워드 등장 빈도, 적용 제품/공정 수, 수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등 : 따로 추출?)",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "적용 제품/공정 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "근거 문장 내 적용 제품·공정·Application 고유 키워드 수",
+              "detail": [
+                "EMI"
+              ]
+            },
+            {
+              "metric_name": "성능/공정 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "성능·수율·공정·양산 문맥에서 숫자가 포함된 문장 수",
+              "detail": [
+                {
+                  "value": "080",
+                  "unit": "",
+                  "context": "제주반도체 company_slug: jeju_semicon stock_code: 080220 peer_group: 팹리스/메모리 evidence_status: FALLBACK_LOCAL_PROXY universe_lock"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "핵심 성능 요소",
+          "category": "대표 기술",
+          "axis": "기술성",
+          "major_source_plan": "사업 보고서, 기업 홈페이지, 특허 사이트",
+          "middle_source_plan": "사업보고서: 사업의 내용 → 주요 제품 및 서비스 / 연구개발활동 / 생산공정·기술설명 / 원재료 및 전구체 설명 / 신규사업 내용 기업 홈페이지: 기술소개 / 제품기술 페이지 / 소재·공정 설명 페이지 / Application(적용 분야) 페이지 / R&D센터 소개 특허 사이트: 대표 등록특허 초록 / 청구항 / IPC·CPC 분류 / 특허 패밀리 / 피인용 특허",
+          "quantifiable_plan": "기술 키워드 등장 빈도, 적용 제품/공정 수, 수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등 : 따로 추출?)",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "적용 제품/공정 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "근거 문장 내 적용 제품·공정·Application 고유 키워드 수",
+              "detail": [
+                "EMI"
+              ]
+            },
+            {
+              "metric_name": "성능/공정 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "성능·수율·공정·양산 문맥에서 숫자가 포함된 문장 수",
+              "detail": [
+                {
+                  "value": "080",
+                  "unit": "",
+                  "context": "제주반도체 company_slug: jeju_semicon stock_code: 080220 peer_group: 팹리스/메모리 evidence_status: FALLBACK_LOCAL_PROXY universe_lock"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 0,
+      "quant_metric_count": 6,
+      "score": 3,
+      "score_reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 6건",
+      "result": "제주반도체은 양산, 공정, EMI 기반 기술/공정 기업으로, 관련 기술은 실제 원천에서 0회 확인됩니다. 해당 기술은 0개 제품·공정 영역과 연결되며, 양산·공정·기술 문맥을 통해 구현 방향을 판단합니다."
+    },
+    {
+      "category": "핵심 제품/서비스",
+      "axis": "수익성 기여",
+      "major_source_plan": "사업 보고서 - 매출 구성 홈페이지 매출구성 IR 발표자료",
+      "middle_source_plan": "사업보고서: 사업부문별 매출 / 제품별 매출 / 주요 제품 매출 비중 / 수출 비중 / 사업부별 실적 홈페이지: 제품 포트폴리오 / 제품 카테고리 / 베스트셀러·주력제품 / 응용처별 제품 분류 IR: Company Overview / Product Portfolio / Revenue Breakdown / Business Segment / 성장동력 슬라이드",
+      "quantifiable_plan": "매출 비중 %, 전년 성장률 %, 제품 수, 고객 산업 수",
+      "items": [
+        {
+          "item_name": "제품명/서비스명",
+          "category": "핵심 제품/서비스",
+          "axis": "수익성 기여",
+          "major_source_plan": "사업 보고서 - 매출 구성 홈페이지 매출구성 IR 발표자료",
+          "middle_source_plan": "사업보고서: 사업부문별 매출 / 제품별 매출 / 주요 제품 매출 비중 / 수출 비중 / 사업부별 실적 홈페이지: 제품 포트폴리오 / 제품 카테고리 / 베스트셀러·주력제품 / 응용처별 제품 분류 IR: Company Overview / Product Portfolio / Revenue Breakdown / Business Segment / 성장동력 슬라이드",
+          "quantifiable_plan": "매출 비중 %, 전년 성장률 %, 제품 수, 고객 산업 수",
+          "evidence": [
+            {
+              "snippet": "# 제주반도체 Tech Local Proxy Evidence",
+              "source_type": "local_data",
+              "source_title": "jeju_semicon_tech_local_proxy_evidence.md",
+              "source_url": "",
+              "source_path": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_tech_local_proxy_evidence.md",
+              "source_plan_matched": false,
+              "hits": [
+                "반도체"
+              ]
+            },
+            {
+              "snippet": "corp_name: \"제주반도체\"",
+              "source_type": "local_data",
+              "source_title": "company.yaml",
+              "source_url": "",
+              "source_path": "data\\반도체\\제주반도체\\_company_common\\company.yaml",
+              "source_plan_matched": false,
+              "hits": [
+                "반도체"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "제품/서비스 축 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "제품·서비스 후보 고유 키워드 수",
+              "detail": [
+                "EV"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "적용 기술",
+          "category": "핵심 제품/서비스",
+          "axis": "수익성 기여",
+          "major_source_plan": "사업 보고서 - 매출 구성 홈페이지 매출구성 IR 발표자료",
+          "middle_source_plan": "사업보고서: 사업부문별 매출 / 제품별 매출 / 주요 제품 매출 비중 / 수출 비중 / 사업부별 실적 홈페이지: 제품 포트폴리오 / 제품 카테고리 / 베스트셀러·주력제품 / 응용처별 제품 분류 IR: Company Overview / Product Portfolio / Revenue Breakdown / Business Segment / 성장동력 슬라이드",
+          "quantifiable_plan": "매출 비중 %, 전년 성장률 %, 제품 수, 고객 산업 수",
+          "evidence": [
+            {
+              "snippet": "# 제주반도체 Tech Local Proxy Evidence",
+              "source_type": "local_data",
+              "source_title": "jeju_semicon_tech_local_proxy_evidence.md",
+              "source_url": "",
+              "source_path": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_tech_local_proxy_evidence.md",
+              "source_plan_matched": false,
+              "hits": [
+                "반도체"
+              ]
+            },
+            {
+              "snippet": "corp_name: \"제주반도체\"",
+              "source_type": "local_data",
+              "source_title": "company.yaml",
+              "source_url": "",
+              "source_path": "data\\반도체\\제주반도체\\_company_common\\company.yaml",
+              "source_plan_matched": false,
+              "hits": [
+                "반도체"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "제품/서비스 축 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "제품·서비스 후보 고유 키워드 수",
+              "detail": [
+                "EV"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "주요 고객군",
+          "category": "핵심 제품/서비스",
+          "axis": "수익성 기여",
+          "major_source_plan": "사업 보고서 - 매출 구성 홈페이지 매출구성 IR 발표자료",
+          "middle_source_plan": "사업보고서: 사업부문별 매출 / 제품별 매출 / 주요 제품 매출 비중 / 수출 비중 / 사업부별 실적 홈페이지: 제품 포트폴리오 / 제품 카테고리 / 베스트셀러·주력제품 / 응용처별 제품 분류 IR: Company Overview / Product Portfolio / Revenue Breakdown / Business Segment / 성장동력 슬라이드",
+          "quantifiable_plan": "매출 비중 %, 전년 성장률 %, 제품 수, 고객 산업 수",
+          "evidence": [
+            {
+              "snippet": "# 제주반도체 Tech Local Proxy Evidence",
+              "source_type": "local_data",
+              "source_title": "jeju_semicon_tech_local_proxy_evidence.md",
+              "source_url": "",
+              "source_path": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_tech_local_proxy_evidence.md",
+              "source_plan_matched": false,
+              "hits": [
+                "반도체"
+              ]
+            },
+            {
+              "snippet": "corp_name: \"제주반도체\"",
+              "source_type": "local_data",
+              "source_title": "company.yaml",
+              "source_url": "",
+              "source_path": "data\\반도체\\제주반도체\\_company_common\\company.yaml",
+              "source_plan_matched": false,
+              "hits": [
+                "반도체"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "제품/서비스 축 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "제품·서비스 후보 고유 키워드 수",
+              "detail": [
+                "EV"
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 6,
+      "quant_metric_count": 3,
+      "score": 3,
+      "score_reason": "직접근거 6건, 공식/DART/IR/특허 근거 0건, 정량화 지표 3건",
+      "result": "핵심 제품/서비스는 EV 중심으로 확인됩니다. 실제 원천 기준 0개 제품·서비스 축이 추출되며, 매출·성장 정량 신호는 DART/IR 문맥과 결합해 수익성 기여 판단에 사용합니다."
+    },
+    {
+      "category": "고객 구매 이유",
+      "axis": "고객 채택도",
+      "major_source_plan": "1) IR 2) 제품 홍보 자료 3) 인터뷰 기사",
+      "middle_source_plan": "IR: Investment Highlights / 제품 경쟁력 / 고객사 채택 배경 / 고객 효익 설명 슬라이드 / 양산 적용 사례 제품 홍보 자료: 제품 브로슈어 / 기술소개서 / 데이터시트 / Application Note / 비교표 / FAQ 인터뷰 기사: 고객이 선택한 이유 / 채택 배경 / 기존 대안 대비 개선점 / 산업 현장 적용 사례 / 신규 수요처 언급",
+      "quantifiable_plan": "성능 개선율 %, 원가 절감률 %, 처리속도, 불량률 감소, 수명 증가, 고객사 수",
+      "items": [
+        {
+          "item_name": "고객 효익",
+          "category": "고객 구매 이유",
+          "axis": "고객 채택도",
+          "major_source_plan": "1) IR 2) 제품 홍보 자료 3) 인터뷰 기사",
+          "middle_source_plan": "IR: Investment Highlights / 제품 경쟁력 / 고객사 채택 배경 / 고객 효익 설명 슬라이드 / 양산 적용 사례 제품 홍보 자료: 제품 브로슈어 / 기술소개서 / 데이터시트 / Application Note / 비교표 / FAQ 인터뷰 기사: 고객이 선택한 이유 / 채택 배경 / 기존 대안 대비 개선점 / 산업 현장 적용 사례 / 신규 수요처 언급",
+          "quantifiable_plan": "성능 개선율 %, 원가 절감률 %, 처리속도, 불량률 감소, 수명 증가, 고객사 수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "고객 효익 키워드 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "성능·원가·품질·수율 등 고객 효익 표현 고유 개수",
+              "detail": []
+            },
+            {
+              "metric_name": "효익 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "성능·원가·수율·처리속도 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "080",
+                  "unit": "",
+                  "context": "제주반도체 company_slug: jeju_semicon stock_code: 080220 peer_group: 팹리스/메모리 evidence_status: FALLBACK_LOCAL_PROXY universe_lock"
+                }
+              ]
+            },
+            {
+              "metric_name": "수식 시트 매칭 지표 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "tech_template.xlsx 수식/정량화 시트와 원문 수치 문맥의 매칭 개수",
+              "detail": [
+                "고객사 수"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "경쟁 제품 대비 장점",
+          "category": "고객 구매 이유",
+          "axis": "고객 채택도",
+          "major_source_plan": "1) IR 2) 제품 홍보 자료 3) 인터뷰 기사",
+          "middle_source_plan": "IR: Investment Highlights / 제품 경쟁력 / 고객사 채택 배경 / 고객 효익 설명 슬라이드 / 양산 적용 사례 제품 홍보 자료: 제품 브로슈어 / 기술소개서 / 데이터시트 / Application Note / 비교표 / FAQ 인터뷰 기사: 고객이 선택한 이유 / 채택 배경 / 기존 대안 대비 개선점 / 산업 현장 적용 사례 / 신규 수요처 언급",
+          "quantifiable_plan": "성능 개선율 %, 원가 절감률 %, 처리속도, 불량률 감소, 수명 증가, 고객사 수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "고객 효익 키워드 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "성능·원가·품질·수율 등 고객 효익 표현 고유 개수",
+              "detail": []
+            },
+            {
+              "metric_name": "효익 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "성능·원가·수율·처리속도 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "080",
+                  "unit": "",
+                  "context": "제주반도체 company_slug: jeju_semicon stock_code: 080220 peer_group: 팹리스/메모리 evidence_status: FALLBACK_LOCAL_PROXY universe_lock"
+                }
+              ]
+            },
+            {
+              "metric_name": "수식 시트 매칭 지표 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "tech_template.xlsx 수식/정량화 시트와 원문 수치 문맥의 매칭 개수",
+              "detail": [
+                "고객사 수"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "실제 적용 사례",
+          "category": "고객 구매 이유",
+          "axis": "고객 채택도",
+          "major_source_plan": "1) IR 2) 제품 홍보 자료 3) 인터뷰 기사",
+          "middle_source_plan": "IR: Investment Highlights / 제품 경쟁력 / 고객사 채택 배경 / 고객 효익 설명 슬라이드 / 양산 적용 사례 제품 홍보 자료: 제품 브로슈어 / 기술소개서 / 데이터시트 / Application Note / 비교표 / FAQ 인터뷰 기사: 고객이 선택한 이유 / 채택 배경 / 기존 대안 대비 개선점 / 산업 현장 적용 사례 / 신규 수요처 언급",
+          "quantifiable_plan": "성능 개선율 %, 원가 절감률 %, 처리속도, 불량률 감소, 수명 증가, 고객사 수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "고객 효익 키워드 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "성능·원가·품질·수율 등 고객 효익 표현 고유 개수",
+              "detail": []
+            },
+            {
+              "metric_name": "효익 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "성능·원가·수율·처리속도 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "080",
+                  "unit": "",
+                  "context": "제주반도체 company_slug: jeju_semicon stock_code: 080220 peer_group: 팹리스/메모리 evidence_status: FALLBACK_LOCAL_PROXY universe_lock"
+                }
+              ]
+            },
+            {
+              "metric_name": "수식 시트 매칭 지표 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "tech_template.xlsx 수식/정량화 시트와 원문 수치 문맥의 매칭 개수",
+              "detail": [
+                "고객사 수"
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 0,
+      "quant_metric_count": 9,
+      "score": 3,
+      "score_reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 9건",
+      "result": "고객 구매 이유는 핵심 기술 관련 성능·품질·양산 효익으로 정리됩니다. 실제 근거에서 고객 효익 신호 0개가 확인되며, 단순 기술 키워드가 아니라 적용처·성능·양산 문맥과 함께 해석합니다."
+    },
+    {
+      "category": "경쟁 우위/대체가능성",
+      "axis": "진입장벽",
+      "major_source_plan": "사업보고서 / 특허 / 기사",
+      "middle_source_plan": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+      "quantifiable_plan": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+      "items": [
+        {
+          "item_name": "등록 특허",
+          "category": "경쟁 우위/대체가능성",
+          "axis": "진입장벽",
+          "major_source_plan": "사업보고서 / 특허 / 기사",
+          "middle_source_plan": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+          "quantifiable_plan": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": []
+            },
+            {
+              "metric_name": "특허/산업재산권 근거 문서 수",
+              "value": 0,
+              "unit": "건",
+              "formula": "source_type=patent로 분류된 로컬/KIPRIS/웹 근거 문서 수",
+              "detail": []
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "080",
+                  "unit": "",
+                  "context": "제주반도체 company_slug: jeju_semicon stock_code: 080220 peer_group: 팹리스/메모리 evidence_status: FALLBACK_LOCAL_PROXY universe_lock"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "제조 노하우",
+          "category": "경쟁 우위/대체가능성",
+          "axis": "진입장벽",
+          "major_source_plan": "사업보고서 / 특허 / 기사",
+          "middle_source_plan": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+          "quantifiable_plan": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": []
+            },
+            {
+              "metric_name": "특허/산업재산권 근거 문서 수",
+              "value": 0,
+              "unit": "건",
+              "formula": "source_type=patent로 분류된 로컬/KIPRIS/웹 근거 문서 수",
+              "detail": []
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "080",
+                  "unit": "",
+                  "context": "제주반도체 company_slug: jeju_semicon stock_code: 080220 peer_group: 팹리스/메모리 evidence_status: FALLBACK_LOCAL_PROXY universe_lock"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "고객사 레퍼런스",
+          "category": "경쟁 우위/대체가능성",
+          "axis": "진입장벽",
+          "major_source_plan": "사업보고서 / 특허 / 기사",
+          "middle_source_plan": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+          "quantifiable_plan": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": []
+            },
+            {
+              "metric_name": "특허/산업재산권 근거 문서 수",
+              "value": 0,
+              "unit": "건",
+              "formula": "source_type=patent로 분류된 로컬/KIPRIS/웹 근거 문서 수",
+              "detail": []
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "080",
+                  "unit": "",
+                  "context": "제주반도체 company_slug: jeju_semicon stock_code: 080220 peer_group: 팹리스/메모리 evidence_status: FALLBACK_LOCAL_PROXY universe_lock"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "대체가능성",
+          "category": "경쟁 우위/대체가능성",
+          "axis": "진입장벽",
+          "major_source_plan": "사업보고서 / 특허 / 기사",
+          "middle_source_plan": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+          "quantifiable_plan": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": []
+            },
+            {
+              "metric_name": "특허/산업재산권 근거 문서 수",
+              "value": 0,
+              "unit": "건",
+              "formula": "source_type=patent로 분류된 로컬/KIPRIS/웹 근거 문서 수",
+              "detail": []
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "080",
+                  "unit": "",
+                  "context": "제주반도체 company_slug: jeju_semicon stock_code: 080220 peer_group: 팹리스/메모리 evidence_status: FALLBACK_LOCAL_PROXY universe_lock"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 0,
+      "quant_metric_count": 12,
+      "score": 3,
+      "score_reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 12건",
+      "result": "경쟁 우위는 핵심 기술와 연결된 특허·공정·양산 경험을 중심으로 확인됩니다. 대체가능성 판단에는 특허 수 자체보다 고객 승인, 공정 난이도, 양산 경험 등 0개 장벽 신호를 함께 반영합니다."
+    },
+    {
+      "category": "활용 및 확장 산업",
+      "axis": "확장성",
+      "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+      "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+      "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+      "items": [
+        {
+          "item_name": "활용 산업",
+          "category": "활용 및 확장 산업",
+          "axis": "확장성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [
+            {
+              "snippet": "# 제주반도체 Tech Local Proxy Evidence",
+              "source_type": "local_data",
+              "source_title": "jeju_semicon_tech_local_proxy_evidence.md",
+              "source_url": "",
+              "source_path": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_tech_local_proxy_evidence.md",
+              "source_plan_matched": false,
+              "hits": [
+                "EV"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "활용/확장 산업 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "근거 문장 내 전방산업/Application 고유 개수",
+              "detail": [
+                "EV"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "확장 가능 제품",
+          "category": "활용 및 확장 산업",
+          "axis": "확장성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [
+            {
+              "snippet": "# 제주반도체 Tech Local Proxy Evidence",
+              "source_type": "local_data",
+              "source_title": "jeju_semicon_tech_local_proxy_evidence.md",
+              "source_url": "",
+              "source_path": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_tech_local_proxy_evidence.md",
+              "source_plan_matched": false,
+              "hits": [
+                "EV"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "활용/확장 산업 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "근거 문장 내 전방산업/Application 고유 개수",
+              "detail": [
+                "EV"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "전방 시장",
+          "category": "활용 및 확장 산업",
+          "axis": "확장성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [
+            {
+              "snippet": "# 제주반도체 Tech Local Proxy Evidence",
+              "source_type": "local_data",
+              "source_title": "jeju_semicon_tech_local_proxy_evidence.md",
+              "source_url": "",
+              "source_path": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_tech_local_proxy_evidence.md",
+              "source_plan_matched": false,
+              "hits": [
+                "EV"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "활용/확장 산업 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "근거 문장 내 전방산업/Application 고유 개수",
+              "detail": [
+                "EV"
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 3,
+      "quant_metric_count": 3,
+      "score": 3,
+      "score_reason": "직접근거 3건, 공식/DART/IR/특허 근거 0건, 정량화 지표 3건",
+      "result": "활용·확장 산업은 EV로 확인됩니다. 실제 수집 근거에서 0개 적용 산업/Application이 추출되어 기술 확장성을 보조적으로 설명합니다."
+    },
+    {
+      "category": "진입 부담/장벽",
+      "axis": "양산성",
+      "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+      "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+      "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+      "items": [
+        {
+          "item_name": "인증/승인",
+          "category": "진입 부담/장벽",
+          "axis": "양산성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": []
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "080",
+                  "unit": "",
+                  "context": "제주반도체 company_slug: jeju_semicon stock_code: 080220 peer_group: 팹리스/메모리 evidence_status: FALLBACK_LOCAL_PROXY universe_lock"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "양산 난이도",
+          "category": "진입 부담/장벽",
+          "axis": "양산성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": []
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "080",
+                  "unit": "",
+                  "context": "제주반도체 company_slug: jeju_semicon stock_code: 080220 peer_group: 팹리스/메모리 evidence_status: FALLBACK_LOCAL_PROXY universe_lock"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "전환 비용",
+          "category": "진입 부담/장벽",
+          "axis": "양산성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": []
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "080",
+                  "unit": "",
+                  "context": "제주반도체 company_slug: jeju_semicon stock_code: 080220 peer_group: 팹리스/메모리 evidence_status: FALLBACK_LOCAL_PROXY universe_lock"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 0,
+      "quant_metric_count": 6,
+      "score": 3,
+      "score_reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 6건",
+      "result": "진입 부담은 양산 공정, 고객 승인, 품질 검증, 노하우 축적 여부를 중심으로 판단됩니다. 현재 근거에서는 0개 장벽 신호가 확인되며, 이는 기술성보다 사업화 방어력 판단에 활용됩니다."
+    },
+    {
+      "category": "R&D 강도",
+      "axis": "투자 지속성",
+      "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+      "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+      "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+      "items": [
+        {
+          "item_name": "연구개발비",
+          "category": "R&D 강도",
+          "axis": "투자 지속성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "R&D/투자 신호 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "연구개발·설비투자·과제·인력 문맥 신호 수",
+              "detail": []
+            },
+            {
+              "metric_name": "R&D 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "연구개발·투자 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "080",
+                  "unit": "",
+                  "context": "제주반도체 company_slug: jeju_semicon stock_code: 080220 peer_group: 팹리스/메모리 evidence_status: FALLBACK_LOCAL_PROXY universe_lock"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "개발 과제",
+          "category": "R&D 강도",
+          "axis": "투자 지속성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "R&D/투자 신호 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "연구개발·설비투자·과제·인력 문맥 신호 수",
+              "detail": []
+            },
+            {
+              "metric_name": "R&D 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "연구개발·투자 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "080",
+                  "unit": "",
+                  "context": "제주반도체 company_slug: jeju_semicon stock_code: 080220 peer_group: 팹리스/메모리 evidence_status: FALLBACK_LOCAL_PROXY universe_lock"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "설비투자/인력",
+          "category": "R&D 강도",
+          "axis": "투자 지속성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "R&D/투자 신호 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "연구개발·설비투자·과제·인력 문맥 신호 수",
+              "detail": []
+            },
+            {
+              "metric_name": "R&D 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "연구개발·투자 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "080",
+                  "unit": "",
+                  "context": "제주반도체 company_slug: jeju_semicon stock_code: 080220 peer_group: 팹리스/메모리 evidence_status: FALLBACK_LOCAL_PROXY universe_lock"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 0,
+      "quant_metric_count": 6,
+      "score": 3,
+      "score_reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 6건",
+      "result": "R&D 강도는 연구개발·설비투자·개발과제의 지속성을 기준으로 봅니다. 실제 근거에서 R&D/투자 신호 0개가 확인되며, 기술 유지·개선 가능성의 보조 지표로 사용합니다."
+    }
+  ],
+  "source_contexts": [
+    {
+      "title": "jeju_semicon_tech_local_proxy_evidence.json",
+      "source_type": "local_data",
+      "url": "",
+      "path": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_tech_local_proxy_evidence.json",
+      "snippet": "{\"status\": \"FALLBACK_LOCAL_PROXY\", \"generated_at\": \"2026-05-15T09:13:11\", \"company_slug\": \"jeju_semicon\", \"company_name\": \"제주반도체\", \"field\": \"반도체\", \"peer_group\": \"팹리스/메모리\", \"stock_code\": \"080220\", \"market\": \"KOSDAQ\", \"technology_keywords\": [\"반도체\", \"공정\", \"양산\", \"고객\", \"R&D\", \"특허\", \"기술경쟁력\", \"팹리스\", \"설계\", \"시스템반도체\", \"MCU\", \"SoC\", \"메모리\", \"반도체 설계\", \"스토리지\"], \"source_text\": \"# 제주반도체 Tech Local Proxy Evidence\\n\\n- company_name: 제주반도체\\n- company_slug: jeju_sem",
+      "relevance_score": 16.0
+    },
+    {
+      "title": "jeju_semicon_tech_local_proxy_evidence.md",
+      "source_type": "local_data",
+      "url": "",
+      "path": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_tech_local_proxy_evidence.md",
+      "snippet": "# 제주반도체 Tech Local Proxy Evidence company_name: 제주반도체 company_slug: jeju_semicon stock_code: 080220 market: KOSDAQ peer_group: 팹리스/메모리 evidence_status: FALLBACK_LOCAL_PROXY universe_lock: universe_30_semiconductor_20260514 locked_as_of: 2026-05-14 ## 사용 원칙 이 파일은 KIPRIS Plus, DART 사업보고서, 회사 IR, 공식 웹 수집이 아직 완료되지 않은 신규 Universe 기업을 위해 생성한 Tech Agent 부트스트랩 근거입니다. 수익률 확인 후 기업을 교체하지 않는 locked universe 원칙을 지키기 위한 초기 로컬 근거이며, 특허 수·고객사·수주·양산 실적을 임의로 확정하지",
+      "relevance_score": 16.0
+    },
+    {
+      "title": "company.yaml",
+      "source_type": "local_data",
+      "url": "",
+      "path": "data\\반도체\\제주반도체\\_company_common\\company.yaml",
+      "snippet": "# Auto-generated by scripts/bootstrap_chair_25_universe.py # Keep this fixed once evaluation starts. slug: \"jeju_semicon\" company_dir: \"jeju_semicon\" corp_name: \"제주반도체\" display_name: \"제주반도체\" output_name: \"제주반도체\" field: \"반도체\" industry_field: \"반도체\" sector: \"반도체\" peer_group: \"팹리스/메모리\" stock_code: \"080220\" ticker: \"080220.KQ\" market: \"KOSDAQ\" include_in_evaluation: true universe_name: \"universe_30_semiconductor_20260514\" locked_as_of: \"2026-05-14\" fi",
+      "relevance_score": 13.9
+    },
+    {
+      "title": "제주반도체 KIPRIS/특허 정량화 요약",
+      "source_type": "patent",
+      "url": "",
+      "path": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_kipris_plus_bibliographic_raw.csv",
+      "snippet": "제주반도체 KIPRIS/특허 정량화 요약 본 특허 근거는 KIPRIS API/CSV/엑셀/TXT 원천 파일을 정규화해 산출했다. [정량 지표] - 특허 원천 파일 수: 1개 - 정규화 특허 레코드 수: 26건 - 출원인/권리자 회사 매칭 특허 수: 26건 - 등록 특허 수: 20건 - 존속 가능 특허 수: 3건 - 최근 5년 특허 수: 0건 - IPC/CPC 기술분류 수: 6개 - H01L 반도체 IPC 특허 수: 0건 - 반도체 핵심 IPC 특허 수: 3건 - 특허-기술 키워드 매칭 수: 25회 - 특허 포트폴리오 연도 범위: 2000~2015 - KIPRIS 총 특허 수: 26.0건 - KIPRIS 등록 특허 수(추정): 20.0건 - KIPRIS 존속 가능 특허 수(추정): 3.0건 - KIPRIS 등록률(추정): 76.92% - KIPRIS 존속률(전체 대비 추정): 11.54% - KI",
+      "relevance_score": 30
+    },
+    {
+      "title": "반도체 디바이스의 파워업 회로",
+      "source_type": "patent",
+      "url": "",
+      "path": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_kipris_plus_bibliographic_raw.csv",
+      "snippet": "반도체 디바이스의 파워업 회로 | 주식회사 제주반도체 | 등록 | 2008 | 출원번호 1020080002056; 등록번호 1008978780000 | IPC/CPC: G05F, G11C | 기술매칭: 반도체, 소자 | 초록: 반도체 디바이스의 파워업 회로가 게시된다. 본 발명의 파워업 신호 발생회로는 엔모스 트랜지스터 디바이스 및 제1 부하소자를 포함하여, 감지신호를 발생하는 레벨 감지부로서, 상기 엔모스 트랜지스터는 감지신호와 접지전압 사이에 형성되고, 상기 외부전원전압의 상승에 응답하여 상기 감지신호를 풀다운하도록 구동되며, 상기 제1 부하소자는 상기 감지신호와 외부전원전압 사이에 형성되는 상기 레벨 감지부;",
+      "relevance_score": 67.0
+    },
+    {
+      "title": "크로스 토크를 감소시키는 이미지 센서의 소자 분리 구조체및 그 제조방법",
+      "source_type": "patent",
+      "url": "",
+      "path": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_kipris_plus_bibliographic_raw.csv",
+      "snippet": "크로스 토크를 감소시키는 이미지 센서의 소자 분리 구조체및 그 제조방법 | 주식회사 제주반도체 | 소멸 | 2005 | 출원번호 1020050078985; 등록번호 1006706060000 | IPC/CPC: H10W, H10F | 기술매칭: 기판, 반도체, 소자 | 초록: 이미지 센서의 크로스토크를 효과적으로 감소시키는 소자 분리 구조체 및 그 제조방법이 개시된다. 본 발명의 소자 분리 구조체는 반도체 기판 상의 소정의 영역에 깊은 트렌치를 형성하고 상기 트렌치의 내부에 광차단막을 매립한다. 그리고 상기 트렌치의 외측벽에 채널 스탑 영역을 형성하여 이미지 센서의 픽셀 간의 분리 영역을 형성한다. 따라서, 깊은 트렌치를 형성하여 이웃하는 픽셀영역으로 광전자가 용",
+      "relevance_score": 65.0
+    },
+    {
+      "title": "다양한 형태의 디스플레이 장치에 적용 가능한 반도체 메모리 디바이스",
+      "source_type": "patent",
+      "url": "",
+      "path": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_kipris_plus_bibliographic_raw.csv",
+      "snippet": "다양한 형태의 디스플레이 장치에 적용 가능한 반도체 메모리 디바이스 | 주식회사 제주반도체 | 등록 | 2015 | 출원번호 1020150124769; 등록번호 1017716260000 | IPC/CPC: G11C | 기술매칭: 반도체 | 초록: 다양한 형태의 디스플레이 장치에 적용 가능한 반도체 메모리 디바이스가 게시된다. 본 발명의 반도체 메모리 디바이스는 메모리 어레이; 상기 메모리 어레이의 워드라인을 선택하여 구동하는 로우 선택 블락; 상기 데이터 라인의 상기 영상 데이터를 입출력하도록 구동되는 칼럼 선택 블락; 최종 로우 어드레스 및 최종 칼럼 어드레스로 저장하는 최종 어드레스 저장 블락; 및 선택 로우 어드레스 및 선택 칼",
+      "relevance_score": 62.5
+    },
+    {
+      "title": "공정조건에 안정적인 온도 보상형 셀프 리프레쉬 제어 회로",
+      "source_type": "patent",
+      "url": "",
+      "path": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_kipris_plus_bibliographic_raw.csv",
+      "snippet": "공정조건에 안정적인 온도 보상형 셀프 리프레쉬 제어 회로 | 주식회사 제주반도체 | 등록 | 2008 | 출원번호 1020080008397; 등록번호 1009092240000 | IPC/CPC: G11C | 기술매칭: 공정 | 초록: 공정조건에 안정적인 온도 보상형 셀프 리프레쉬 제어 회로가 게시된다. 본 발명의 온도 보상형 셀프 리프레쉬 제어 회로에서는, 저응답신호들과 고응답신호는 온도의 변화에 따라 동일한 방향으로 전압레벨이 변화된다. 또한, 상기 고응답신호를 생성하는 고응답신호 발생부와 상기 저응답신호를 생성하는 저응답신호 발생부는 매우 유사한 구조로 구현된다. 그리고, 상기 발진신호 생성부에서 생성되는 상기 발진신",
+      "relevance_score": 62.5
+    },
+    {
+      "title": "반도체 장치 및 그의 레이아웃 배치방법",
+      "source_type": "patent",
+      "url": "",
+      "path": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_kipris_plus_bibliographic_raw.csv",
+      "snippet": "반도체 장치 및 그의 레이아웃 배치방법 | 주식회사 제주반도체 | 소멸 | 2003 | 출원번호 1020030036011; 등록번호 1005018000000 | IPC/CPC: H10P, H10W | 기술매칭: 테스트, 반도체 | 초록: 반도체 장치 및 그의 레이아웃 배치방법이 게시된다. 본 발명의 반도체 장치 및 그의 레이아웃 배치방법에 의하면, 습기침투 방지회로의 바깥쪽에 리페어 정렬키를 배치함으로써, 소요되는 레이아웃 면적이 현저히 감소된다. 또한, 테스트 후에는 기능적 동작을 하지 않는 리페어 정렬키가 반도체 칩의 모서리 부분에 배치됨으로써, 다이아몬드 톱으로 칩의 절단(sawing) 작업을 하는 동안에 비롯 파손된다",
+      "relevance_score": 62.0
+    },
+    {
+      "title": "반도체 장치의 배선 방법",
+      "source_type": "patent",
+      "url": "",
+      "path": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_kipris_plus_bibliographic_raw.csv",
+      "snippet": "반도체 장치의 배선 방법 | 주식회사 제주반도체 | 소멸 | 2003 | 출원번호 1020030038020; 등록번호 1004880070000 | IPC/CPC: H10W | 기술매칭: 공정, 반도체 | 초록: 반도체 장치의 배선 방법이 게시된다. 본 발명의 반도체 장치의 배선 방법에 의하면, 제1 및 제2 파워레일들이 제1 공정단계에서 형성되는 메탈층과 제2 공정단계에서 형성되는 메탈층이 결합하여 형성된다. 이때, 접속점들은 제1 파워레일들과 제2 파워레일들의 전기적 특성의 차이가 최소화되도록 하는 적절한 지점이 선택된다. 그러므로, 본 발명의 반도체 장치의 배선 방법에 의하면, RC 지연 등의",
+      "relevance_score": 60.5
+    },
+    {
+      "title": "로우 리던던시 리페어 효율을 증가시키는 반도체 메모리장치",
+      "source_type": "patent",
+      "url": "",
+      "path": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_kipris_plus_bibliographic_raw.csv",
+      "snippet": "로우 리던던시 리페어 효율을 증가시키는 반도체 메모리장치 | 주식회사 제주반도체 | 소멸 | 2000 | 출원번호 1020000064853; 등록번호 1005727580000 | IPC/CPC: G11C | 기술매칭: 수율, 반도체 | 초록: 로우 리던던시 리페어 효율을 증가시키는 반도체 메모리 장치가 공개된다. 본 발명에 따른 반도체 메모리 장치는 메모리셀 어레이, 워드라인 디코딩부 및 리던던시 선택회로를 구비한다. 메모리셀 어레이는 워드라인 방향으로는 노말 메모리셀 어레이와 리던던시 메모리셀 어레이로 나뉘어지고, 비트라인 방향으로는 다수의 블록으로 나뉘어진다. 워드라인 디코딩부는 어드레스 신호를 디코딩하여, 어드레스 신호에 대",
+      "relevance_score": 60.5
+    },
+    {
+      "title": "웨이브 파이프라이닝 구조의 데이터 출력 회로를 가지는동기식 반도체 메모리 장치",
+      "source_type": "patent",
+      "url": "",
+      "path": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_kipris_plus_bibliographic_raw.csv",
+      "snippet": "웨이브 파이프라이닝 구조의 데이터 출력 회로를 가지는동기식 반도체 메모리 장치 | 주식회사 제주반도체 | 소멸 | 2002 | 출원번호 1020020029342; 등록번호 1004212510000 | IPC/CPC: G11C | 기술매칭: 반도체 | 초록: 웨이브 파이프라이닝 구조의 데이터 출력 회로를 가지는 동기식 반도체 메모리 장치가 게시된다. 본 발명의 반도체 메모리 장치는 감지증폭 인에이블 신호에 응답하여 인에이블되어, 데이터 전송선에 전송된 제1 데이터와 제2 데이터를 감지증폭하는 감지증폭부로서, 감지증폭 인에이블 신호는 외부클락신호에 응답하여 활성화되는 감지증폭부; 제1 및 제2 수신제어신호에 각각 응답하여, 감지증폭부에 의하여 증폭",
+      "relevance_score": 57.5
+    },
+    {
+      "title": "디지털 이미지 테스트 부재의 광원 밝기 균일화 장치 및방법과 이를 이용한 디지털 이미지 색상 테스트 장치 및방법",
+      "source_type": "patent",
+      "url": "",
+      "path": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_kipris_plus_bibliographic_raw.csv",
+      "snippet": "디지털 이미지 테스트 부재의 광원 밝기 균일화 장치 및방법과 이를 이용한 디지털 이미지 색상 테스트 장치 및방법 | 주식회사 제주반도체 | 소멸 | 2006 | 출원번호 1020060123214; 등록번호 1007623610000 | IPC/CPC: H04N | 기술매칭: 테스트 | 초록: 본 발명은 디지털 이미지 테스트 부재의 광원 밝기 균일화 장치 및 방법과 이를 이용한 디지털 이미지 색상 테스트 장치 및 방법에 관한 것으로서, 그 디지털 이미지 색상 테스트 장치는 밀폐된 공간에 설치되며, 광원들이 장착되고 소정 각도씩 회전가능하며, 다각형의 통 형태로 된 다각형 회전판; 디지털 이미지를 테스트하기 위해 밀폐된 공간의 한 면에 부착되어 있는 이미지 테스트 부재에 빛을 비추며",
+      "relevance_score": 57.5
+    },
+    {
+      "title": "동기식 반도체 메모리 장치의 열선택 제어 회로 및 열선택신호 구동 방법",
+      "source_type": "patent",
+      "url": "",
+      "path": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_kipris_plus_bibliographic_raw.csv",
+      "snippet": "동기식 반도체 메모리 장치의 열선택 제어 회로 및 열선택신호 구동 방법 | 주식회사 제주반도체 | 소멸 | 2002 | 출원번호 1020020019377; 등록번호 1005222580000 | IPC/CPC: G11C | 기술매칭: 반도체 | 초록: 동기식 반도체 메모리 장치의 열선택 제어 회로 및 열선택 신호 구동 방법이 게시된다. 본 발명의 열선택 제어 회로는 외부 클락 신호에 응답하여, 독출/기입 클락 신호를 발생시키는 기준 클락 발생 수단으로서, 독출/기입 클락 신호는 외부 클락 신호의 활성화에 응답하여 소정폭의 펄스로 활성화하는 기준 클락 발생 수단; 및 상기 열선택부를 인에이블시키는 열선택 인에이블 신호를 발생하는 인에이블 신",
+      "relevance_score": 57.5
+    },
+    {
+      "title": "대기 모드에서 대기 전류를 감소시키는 반도체 메모리 장치",
+      "source_type": "patent",
+      "url": "",
+      "path": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_kipris_plus_bibliographic_raw.csv",
+      "snippet": "대기 모드에서 대기 전류를 감소시키는 반도체 메모리 장치 | 주식회사 제주반도체 | 소멸 | 2000 | 출원번호 1020000075411; 등록번호 1005673590000 | IPC/CPC: G11C | 기술매칭: 반도체 | 초록: 대기 모드에서 대기 전류를 감소시키는 반도체 메모리 장치가 게시된다. 본 발명의 반도체 메모리 장치는 제1 및 제2 공급단자를 통하여, 소정의 제1 및 제2 디벨로프 전압을 공급받아, 상기 비트 라인 및 상기 상보 비트 라인 중 어느 하나를 상기 제1 디벨로프 전압으로 디벨로프하고, 상기 비트 라인 및 상기 상보 비트 라인 중 나머지 하나는 상기 제2 디벨로프 전압으로 디벨로프하는 센스 앰프",
+      "relevance_score": 57.5
+    }
+  ],
+  "limitations": [
+    "tech_template.xlsx의 기업별 예시값은 복사 근거로 사용하지 않고, 대출처·중출처·정량화 규칙만 추출 설계로 사용합니다.",
+    "기술 점수만으로 매수/매도 결론을 만들지 않고 Tech-to-Value Bridge로 고객 채택·양산·매출 전환·FCF 연결성을 확인합니다.",
+    "회사 식별어가 약하거나 타기업 중심인 URL은 제외합니다."
+  ],
+  "evidence_harvest_summary": {
+    "document_count": 3,
+    "accepted_url_count": 0,
+    "rejected_url_count": 0,
+    "quality_flags": [
+      "DART 사업보고서 본문 미수집: DART_API_KEY 또는 stock_code 확인 필요",
+      "공식 홈페이지/IR 본문 미수집: company.yaml URL 또는 네트워크 접근 확인 필요",
+      "KIPRIS Tech ML features merged into Tech Agent runtime outputs."
+    ],
+    "template_usage": "framework_only: base/formula sheet source plan, no company-example content copied as evidence"
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "agent_name": "finance",
+  "company_name": "ISC",
+  "company_dir": "isc",
+  "industry_type": "deeptech",
+  "summary": "ISC는 2023년 이후 매출이 꾸준히 성장하며 2025년에는 2,200억 원을 넘어섰습니다. 영업이익률 또한 20% 이상으로 높은 수준을 유지하며 수익성이 개선되는 추세를 보입니다. 다만, 2026년 들어 주가 변동성이 확대되고 최대 낙폭(MDD)이 상당한 수준으로 나타나 투자 시 주의가 필요합니다.",
+  "key_thesis": [
+    "2023년 1,402억 원에서 2025년 2,201억 원으로 매출이 지속적으로 성장하는 추세를 보입니다.",
+    "영업이익률이 2023년 7.7%에서 2025년 27.3%로 크게 개선되며 수익성이 강화되었습니다.",
+    "2025년 ROE가 10.5%를 기록하며 자본 효율성이 향상되었습니다.",
+    "2023년 77억 원이었던 잉여현금흐름(FCF)이 2025년 353억 원으로 증가하며 현금 창출 능력이 개선되었습니다.",
+    "2026년 연수익률이 103.33%로 높은 상승률을 기록했습니다."
+  ],
+  "key_risks": [
+    "2026년 4월 기준, 누적 최고가 대비 최대 낙폭(MDD)이 -20.11%로 상당한 수준입니다.",
+    "2026년 4월 13일 종가 기준, 일일 수익률이 -15.92%로 큰 폭의 하락이 관찰되었습니다.",
+    "2026년 5월 12일 거래량 이동평균 대비 비율이 1.38로, 평균 거래량 대비 높은 수준의 거래가 발생했습니다.",
+    "2025년 부채비율이 15.9%로 전년 대비 소폭 상승했으며, 2026년 주가 데이터만으로는 재무 건전성 추세를 파악하기 어렵습니다."
+  ],
+  "report_core_points": [
+    "FCF: ISC 2025 기준 FCF 값은 35,377,885,221원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+    "연수익률: ISC 2026 기준 연수익률 값은 103.33%이며, 해당 연도 주가 성과를 보여주는 지표입니다.",
+    "연간 MDD: ISC 2026 기준 연간 MDD 값은 -20.11%이며, 투자자가 경험할 수 있는 최대 낙폭 위험을 보여주는 지표입니다.",
+    "거래량: ISC 2026 기준 거래량 값은 304275.00주이며, 해당 연도 평균 거래량을 통해 시장 관심과 유동성을 확인하는 지표입니다.",
+    "이동평균 대비 비율: ISC 2026 기준 이동평균 대비 비율 값은 1.07배이며, 거래량이 이동평균 대비 어느 수준인지 보여주는 수급 지표입니다."
+  ],
+  "missing_prompt_metrics": [
+    "매출성장률",
+    "영업이익률",
+    "ROE",
+    "부채비율",
+    "변동성지수"
+  ],
+  "evidence": [
+    {
+      "evidence_id": "finance.ev.004",
+      "source_type": "financial_csv",
+      "source": "ISC_재무.csv",
+      "metric": "fcf",
+      "label": "FCF",
+      "value": 35377885221.0,
+      "unit": "원",
+      "period": "2025",
+      "snippet": "ISC 2025 기준 FCF 값은 35,377,885,221원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.007",
+      "source_type": "stock_csv",
+      "source": "ISC_주식.csv",
+      "metric": "annual_return_%",
+      "label": "연수익률",
+      "value": 103.33,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "ISC 2026 기준 연수익률 값은 103.33%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.008",
+      "source_type": "stock_csv",
+      "source": "ISC_주식.csv",
+      "metric": "annual_mdd_%",
+      "label": "연간 MDD",
+      "value": -20.11,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "ISC 2026 기준 연간 MDD 값은 -20.11%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.009",
+      "source_type": "stock_csv",
+      "source": "ISC_주식.csv",
+      "metric": "volume_mean",
+      "label": "거래량",
+      "value": 304275.0,
+      "unit": "주",
+      "period": "2026",
+      "snippet": "ISC 2026 기준 거래량 값은 304275주입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.010",
+      "source_type": "stock_csv",
+      "source": "ISC_주식.csv",
+      "metric": "volume_ma_ratio_mean",
+      "label": "이동평균 대비 비율",
+      "value": 1.0671,
+      "unit": "배",
+      "period": "2026",
+      "snippet": "ISC 2026 기준 이동평균 대비 비율 값은 1.0671배입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.012",
+      "source_type": "stock_csv",
+      "source": "ISC_주식.csv",
+      "metric": "latest_close",
+      "label": "최근 종가",
+      "value": 244000.0,
+      "unit": "원",
+      "period": "2026-05-13",
+      "snippet": "ISC 2026-05-13 최근 종가 값은 244,000원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.013",
+      "source_type": "warning_stock_csv",
+      "source": "투자경고종목.csv",
+      "metric": "warning_stock",
+      "label": "투자경고 여부",
+      "value": 0.0,
+      "unit": null,
+      "period": "최근",
+      "snippet": "ISC 투자경고종목 해당 여부 값은 0입니다.",
+      "prompt_rationale": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "finance.safe_cl.004",
+      "text": "ISC 2025 기준 FCF 값은 35,377,885,221원입니다.",
+      "evidence_ids": [
+        "finance.ev.004"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.007",
+      "text": "ISC 2026 기준 연수익률 값은 103.33%입니다.",
+      "evidence_ids": [
+        "finance.ev.007"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.008",
+      "text": "ISC 2026 기준 연간 MDD 값은 -20.11%입니다.",
+      "evidence_ids": [
+        "finance.ev.008"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.009",
+      "text": "ISC 2026 기준 거래량 값은 304275주입니다.",
+      "evidence_ids": [
+        "finance.ev.009"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.010",
+      "text": "ISC 2026 기준 이동평균 대비 비율 값은 1.0671배입니다.",
+      "evidence_ids": [
+        "finance.ev.010"
+      ],
+      "audit_safe": true
+    }
+  ],
+  "warning_note": null,
+  "source_contexts": [
+    "financial_csv=ISC_재무.csv",
+    "stock_csv=ISC_주식.csv",
+    "warning_stock_csv=투자경고종목.csv",
+    "prompts.py summary/key_thesis/key_risks are preserved in the Chair View where available.",
+    "First Auditor claims are CSV-grounded one-to-one evidence claims for stable actual-information verification.",
+    "필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수"
+  ],
+  "raw_payload": {
+    "latest_financial_row": {
+      "year": 2025,
+      "sales": 220194751972.0,
+      "operating_income": 60053887115.0,
+      "net_income": 56343270511.0,
+      "total_assets": 622420256911.0,
+      "total_liabilities": 85159587468.0,
+      "total_equity": 537260669443.0,
+      "capex": 6334135777,
+      "ocf": 41712020998,
+      "fcf": 35377885221,
+      "interest": 9130591765.0,
+      "ROE": 10.48713850009035,
+      "영업이익률": 27.27307829872188,
+      "부채비율": 15.850701961170618,
+      "이자보상배율": 6.577217409412894
+    },
+    "latest_stock_metric": {
+      "year": 2026,
+      "annual_return_%": 103.33,
+      "annual_mdd_%": -20.11
+    },
+    "latest_yearly_summary": {
+      "year": 2026,
+      "close_start": 120000.0,
+      "close_end": 244000.0,
+      "close_high": 271000.0,
+      "close_low": 99300.0,
+      "volume_mean": 304275.0,
+      "volume_ma_ratio_mean": 1.0671
+    },
+    "latest_recent_stock_row": {
+      "Date": "2026-05-13",
+      "Open": 241500.0,
+      "High": 247000.0,
+      "Low": 236500.0,
+      "Close": 244000.0,
+      "Volume": 155981,
+      "Change": -0.0181086519114688,
+      "VKOSPI": NaN,
+      "일수익률_%": -1.81086519114688,
+      "누적최고가": 271000.0,
+      "드로다운_%": -9.963099630996307,
+      "거래량_20일평균": 254169.65,
+      "거래량_이동평균대비비율": 0.6136885344099896
+    },
+    "audit_policy": "prompts_py_used_for_interpretation_claims_grounded_by_local_csv"
+  },
+  "packet_version": "finance_prompts_grounded_v4_compact"
+}

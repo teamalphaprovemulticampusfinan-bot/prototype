@@ -1,0 +1,181 @@
+{
+  "company_dir": "psk",
+  "company": "피에스케이",
+  "created_at": "2026-05-20T21:45:43",
+  "input_patent_csv": "data\\반도체\\피에스케이\\tech\\source\\psk_kipris_plus_bibliographic_raw.csv",
+  "model_info": {
+    "module": "Tech ML Signal Builder",
+    "algorithm": "TF-IDF + KMeans",
+    "sklearn_available": true,
+    "purpose": "KIPRIS patent portfolio clustering, patent momentum scoring, commercialization watch signal generation"
+  },
+  "tech_ml_label": "TECH_EVIDENCE_WEAK",
+  "tech_ml_label_description": "특허·기술 정량 신호가 충분하지 않아 근거 보강 필요형으로 해석합니다.",
+  "patent_ml_score": 40.78,
+  "bridge_score": 0.0,
+  "bridge_label": "",
+  "normalized_patent_records": 25,
+  "company_matched_patents": 25,
+  "registered_patents": 6,
+  "alive_patents": 6,
+  "recent_5y_patents": 22,
+  "recent_5y_ratio": 0.88,
+  "ipc_cpc_count": 9,
+  "ipc_cpc_examples": [
+    "B23K",
+    "B25B",
+    "F16K",
+    "G01B",
+    "G06T",
+    "H01J",
+    "H01S",
+    "H05H",
+    "H10P"
+  ],
+  "h01l_patents": 0,
+  "patent_year_range": "2015~2025",
+  "technology_keyword_hits": {
+    "반도체": 2,
+    "공정": 29
+  },
+  "technology_keyword_hit_total": 31,
+  "clustering": {
+    "method": "tfidf_kmeans",
+    "sklearn_available": true,
+    "cluster_count": 3,
+    "clusters": [
+      {
+        "cluster_id": 2,
+        "size": 11,
+        "top_terms": [
+          "상기",
+          "처리",
+          "h10p",
+          "기판",
+          "기판 처리",
+          "지지",
+          "기판을",
+          "기판의"
+        ],
+        "sample_titles": [
+          "기판 처리 장치 및 기판 처리 장치의 제어 방법",
+          "기판 처리 장치용 유지보수 기구",
+          "기판 처리 방법",
+          "기판 처리 장치",
+          "기판 처리 장치 및 기판 처리 방법"
+        ]
+      },
+      {
+        "cluster_id": 0,
+        "size": 9,
+        "top_terms": [
+          "상기",
+          "처리",
+          "플라즈마",
+          "공간",
+          "상기 처리",
+          "가이드",
+          "공정",
+          "기판을"
+        ],
+        "sample_titles": [
+          "기판 처리 방법",
+          "기판 처리 장치 및 플라즈마 발생 유닛",
+          "기판 처리 장치 및 플라즈마 발생 유닛",
+          "기판 처리 장치",
+          "플라즈마 발생 유닛 및 기판 처리 장치"
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "size": 5,
+        "top_terms": [
+          "상기",
+          "제1",
+          "레이저",
+          "제2",
+          "단계",
+          "b23k",
+          "상기 제1",
+          "절단"
+        ],
+        "sample_titles": [
+          "기판 처리 장치",
+          "웨이퍼 절단 방법",
+          "레이저 빔 편향 시스템을 이용한 기판 절단 방법",
+          "기판처리장치 및 그 동작방법",
+          "양방향 게이트밸브"
+        ]
+      }
+    ],
+    "technology_concentration_index": 0.3632,
+    "feature_count": 1500
+  },
+  "representative_patents": [
+    {
+      "title": "웨이퍼 절단 방법",
+      "application_date": "20250612",
+      "register_date": "20260504",
+      "register_status": "등록",
+      "ipc": "H10P 54/00|H10P 50/20|H10P 50/00|B23K 26/364",
+      "applicant": ""
+    },
+    {
+      "title": "기판 처리 방법",
+      "application_date": "20220907",
+      "register_date": "20260512",
+      "register_status": "등록",
+      "ipc": "H10P 72/00|H01J 37/32|G06T 7/00",
+      "applicant": ""
+    },
+    {
+      "title": "플라즈마 발생 유닛 및 기판 처리 장치",
+      "application_date": "20210401",
+      "register_date": "20211102",
+      "register_status": "등록",
+      "ipc": "H01J 37/32|H05H 1/46",
+      "applicant": ""
+    },
+    {
+      "title": "플라즈마 발생 유닛 및 이를 포함하는 기판 처리 장치",
+      "application_date": "20211229",
+      "register_date": "20240401",
+      "register_status": "등록",
+      "ipc": "H01J 37/32",
+      "applicant": ""
+    },
+    {
+      "title": "공압 밸브 장치 및 공압 밸브 모니터링 방법",
+      "application_date": "20190430",
+      "register_date": "20201125",
+      "register_status": "등록",
+      "ipc": "F16K 37/00",
+      "applicant": ""
+    }
+  ],
+  "commercialization_score": 80.0,
+  "commercialization_level": "STRONG",
+  "commercialization_keyword_hits": 386,
+  "commercialization_keywords": {
+    "고객": 33,
+    "채택": 6,
+    "양산": 27,
+    "공급": 20,
+    "매출": 18,
+    "실적": 1,
+    "FCF": 4,
+    "현금흐름": 1,
+    "revenue": 1
+  },
+  "chair_reflection_points": [
+    "Tech ML 판정은 TECH_EVIDENCE_WEAK이며, 기존 Tech-to-Value Bridge 판정과 함께 기술 섹션의 보조 신호로 사용합니다.",
+    "특허 클러스터링 결과는 핵심 기술 축과 기술 포트폴리오 집중도를 설명하는 근거로 반영합니다.",
+    "최근 5년 특허와 등록·존속 가능 특허는 기술 지속성 및 진입장벽의 보조 지표로 활용합니다.",
+    "고객 채택, 양산, 매출 전환, FCF 개선 근거가 약하면 기술 점수만으로 매수 의견을 강화하지 않습니다."
+  ],
+  "notes": [
+    "Tech ML은 특허 텍스트, 초록, IPC/CPC, 등록상태, 최근 출원 흐름을 기반으로 기술 포트폴리오를 구조화합니다.",
+    "특허 수와 클러스터 수는 기술 지속성의 보조 근거이며, 단독으로 매출 성장이나 주가 상승을 의미하지 않습니다.",
+    "사업화 판단은 고객 채택, 양산, 매출 전환, FCF 개선 근거와 함께 해석해야 합니다."
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "company_dir": "tck",
+  "company": "티씨케이",
+  "created_at": "2026-05-20T22:26:54",
+  "input_patent_csv": "data\\반도체\\티씨케이\\tech\\source\\tck_kipris_plus_bibliographic_raw.csv",
+  "model_info": {
+    "module": "Tech ML Signal Builder",
+    "algorithm": "TF-IDF + KMeans",
+    "sklearn_available": true,
+    "purpose": "KIPRIS patent portfolio clustering, patent momentum scoring, commercialization watch signal generation"
+  },
+  "tech_ml_label": "COMMERCIALIZATION_WATCH",
+  "tech_ml_label_description": "기술 포트폴리오는 확인되지만 사업화 연결 근거는 추가 확인이 필요한 사업화 추적형입니다.",
+  "patent_ml_score": 59.86,
+  "bridge_score": 0.0,
+  "bridge_label": "",
+  "normalized_patent_records": 30,
+  "company_matched_patents": 30,
+  "registered_patents": 22,
+  "alive_patents": 21,
+  "recent_5y_patents": 7,
+  "recent_5y_ratio": 0.2333,
+  "ipc_cpc_count": 22,
+  "ipc_cpc_examples": [
+    "B23B",
+    "B23C",
+    "B24B",
+    "B26D",
+    "B26F",
+    "B28D",
+    "C01B",
+    "C04B",
+    "C23C",
+    "C30B",
+    "F41H",
+    "G01M",
+    "G06Q",
+    "G08B",
+    "G08C",
+    "H01J",
+    "H01M",
+    "H05H",
+    "H10D",
+    "H10H"
+  ],
+  "h01l_patents": 0,
+  "patent_year_range": "2009~2024",
+  "technology_keyword_hits": {
+    "반도체": 37,
+    "소재": 7,
+    "공정": 14
+  },
+  "technology_keyword_hit_total": 58,
+  "clustering": {
+    "method": "tfidf_kmeans",
+    "sklearn_available": true,
+    "cluster_count": 3,
+    "clusters": [
+      {
+        "cluster_id": 1,
+        "size": 12,
+        "top_terms": [
+          "반도체",
+          "제조용",
+          "반도체 제조용",
+          "다른",
+          "h10p",
+          "층을",
+          "sic",
+          "갖는"
+        ],
+        "sample_titles": [
+          "반도체 공정 부품 재생방법",
+          "반도체 제조용 부품의 재생 방법 및 재생된 반도체 제조용 부품",
+          "반도체 제조용 부품의 재생 방법 및 재생된 반도체 제조용 부품",
+          "CVD 방식으로 형성된 SIC 구조체",
+          "탄화탄탈 복합재"
+        ]
+      },
+      {
+        "cluster_id": 2,
+        "size": 10,
+        "top_terms": [
+          "상기",
+          "실리콘",
+          "sic",
+          "실리콘 카바이드",
+          "카바이드",
+          "잉곳의",
+          "단계와",
+          "단계와 상기"
+        ],
+        "sample_titles": [
+          "건식식각장치의 포커스링 제조방법",
+          "실리콘 카바이드 복합체 및 그 제조방법",
+          "건식식각장치의 SiC 구조물 및 그 제조방법",
+          "실리콘 카바이드 구조물 및 그 제조방법",
+          "판재의 홀 가공용 지그"
+        ]
+      },
+      {
+        "cluster_id": 0,
+        "size": 8,
+        "top_terms": [
+          "h01m",
+          "c01b",
+          "세라믹",
+          "이의",
+          "상기",
+          "탄화붕소",
+          "실리콘",
+          "포함하는"
+        ],
+        "sample_titles": [
+          "음극 활물질, 그의 제조 방법 및 그를 포함하는 리튬이차전지",
+          "탄화붕소 소재",
+          "활성탄 및 이의 제조방법",
+          "탄소-실리콘 복합체 및 이의 제조방법",
+          "흑연 및 실리콘을 포함하는 음극활물질 및 이의 제조방법"
+        ]
+      }
+    ],
+    "technology_concentration_index": 0.3422,
+    "feature_count": 1500
+  },
+  "representative_patents": [
+    {
+      "title": "반도체 제조용 부품의 재생 방법 및 재생된 반도체 제조용 부품",
+      "application_date": "20210602",
+      "register_date": "20230410",
+      "register_status": "등록",
+      "ipc": "H10P 50/20|H10P 10/00|H10P 50/28|H10P 72/00",
+      "applicant": ""
+    },
+    {
+      "title": "투과도가 다른 복수 개의 층을 갖는 SiC 반도체 제조용 부품 및 그 제조방법",
+      "application_date": "20210914",
+      "register_date": "20231025",
+      "register_status": "등록",
+      "ipc": "H10D 62/80|H10P 10/00",
+      "applicant": ""
+    },
+    {
+      "title": "슬러리 막힘 방지 구조를 갖는 CMP용 멀티노즐",
+      "application_date": "20210510",
+      "register_date": "20210818",
+      "register_status": "등록",
+      "ipc": "B24B 57/02|H10P 72/00|B24B 37/10",
+      "applicant": ""
+    },
+    {
+      "title": "탄화붕소 소재",
+      "application_date": "20200702",
+      "register_date": "20210602",
+      "register_status": "등록",
+      "ipc": "C01B 32/991|C30B 29/36|C30B 25/00|F41H 1/02|H01J 37/32|B23B 27/18|B23C 5/16",
+      "applicant": ""
+    },
+    {
+      "title": "탄소-실리콘 복합체 및 이의 제조방법",
+      "application_date": "20201201",
+      "register_date": "20230519",
+      "register_status": "등록",
+      "ipc": "H01M 4/36|H01M 4/587|H01M 4/38|H01M 4/62|C01B 32/05|C01B 32/21|C01B 33/18|H01M 10/052",
+      "applicant": ""
+    }
+  ],
+  "commercialization_score": 80.0,
+  "commercialization_level": "STRONG",
+  "commercialization_keyword_hits": 353,
+  "commercialization_keywords": {
+    "고객": 32,
+    "채택": 6,
+    "양산": 26,
+    "공급": 1,
+    "매출": 18,
+    "실적": 1,
+    "FCF": 4,
+    "현금흐름": 1,
+    "revenue": 1
+  },
+  "chair_reflection_points": [
+    "Tech ML 판정은 COMMERCIALIZATION_WATCH이며, 기존 Tech-to-Value Bridge 판정과 함께 기술 섹션의 보조 신호로 사용합니다.",
+    "특허 클러스터링 결과는 핵심 기술 축과 기술 포트폴리오 집중도를 설명하는 근거로 반영합니다.",
+    "최근 5년 특허와 등록·존속 가능 특허는 기술 지속성 및 진입장벽의 보조 지표로 활용합니다.",
+    "고객 채택, 양산, 매출 전환, FCF 개선 근거가 약하면 기술 점수만으로 매수 의견을 강화하지 않습니다.",
+    "기술성은 확인되지만 사업화 연결 근거를 계속 확인해야 하므로 Chair는 관찰형 보조 신호로 반영해야 합니다."
+  ],
+  "notes": [
+    "Tech ML은 특허 텍스트, 초록, IPC/CPC, 등록상태, 최근 출원 흐름을 기반으로 기술 포트폴리오를 구조화합니다.",
+    "특허 수와 클러스터 수는 기술 지속성의 보조 근거이며, 단독으로 매출 성장이나 주가 상승을 의미하지 않습니다.",
+    "사업화 판단은 고객 채택, 양산, 매출 전환, FCF 개선 근거와 함께 해석해야 합니다."
+  ]
+}

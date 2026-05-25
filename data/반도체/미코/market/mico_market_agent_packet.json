@@ -1,0 +1,1181 @@
+{
+  "agent": "market",
+  "company_name": "미코",
+  "company": "미코",
+  "opinion": "보유",
+  "confidence": 0.45,
+  "summary": "미코에 대해 검증 가능한 핵심 근거는 다음과 같습니다. 미코 마켓 분석 total_score 값은 72점입니다. 미코 stock_data.current_price 값은 20200입니다. 미코 stock_data.change 값은 -850입니다. 미코 stock_data.change_rate 값은 -4.04%입니다. 미코 stock_data.raw.clpr 값은 20200입니다.",
+  "key_points": [
+    "미코 마켓 분석 total_score 값은 72점입니다.",
+    "미코 stock_data.current_price 값은 20200입니다.",
+    "미코 stock_data.change 값은 -850입니다.",
+    "미코 stock_data.change_rate 값은 -4.04%입니다.",
+    "미코 stock_data.raw.clpr 값은 20200입니다."
+  ],
+  "risks": [],
+  "claims": [
+    {
+      "claim_id": "market.cl.001",
+      "text": "미코 마켓 분석 total_score 값은 72점입니다.",
+      "evidence_ids": [
+        "market.ev.001"
+      ]
+    },
+    {
+      "claim_id": "market.cl.002",
+      "text": "미코 stock_data.current_price 값은 20200입니다.",
+      "evidence_ids": [
+        "market.ev.006"
+      ]
+    },
+    {
+      "claim_id": "market.cl.003",
+      "text": "미코 stock_data.change 값은 -850입니다.",
+      "evidence_ids": [
+        "market.ev.009"
+      ]
+    },
+    {
+      "claim_id": "market.cl.004",
+      "text": "미코 stock_data.change_rate 값은 -4.04%입니다.",
+      "evidence_ids": [
+        "market.ev.010"
+      ]
+    },
+    {
+      "claim_id": "market.cl.005",
+      "text": "미코 stock_data.raw.clpr 값은 20200입니다.",
+      "evidence_ids": [
+        "market.ev.016"
+      ]
+    },
+    {
+      "claim_id": "market.cl.006",
+      "text": "미코 stock_data.raw.vs 값은 -850입니다.",
+      "evidence_ids": [
+        "market.ev.017"
+      ]
+    },
+    {
+      "claim_id": "market.auto_cl.007",
+      "text": "stock_data.raw.fltRt 값은 -4.04%입니다.",
+      "evidence_ids": [
+        "market.ev.018"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "market.auto_cl.009",
+      "text": "stock_data.raw.mkp 값은 20,900입니다.",
+      "evidence_ids": [
+        "market.ev.019"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "market.auto_cl.011",
+      "text": "stock_data.raw.hipr 값은 21,750입니다.",
+      "evidence_ids": [
+        "market.ev.020"
+      ],
+      "claim_type": "point"
+    }
+  ],
+  "evidences": [
+    {
+      "evidence_id": "market.ev.001",
+      "source_type": "market",
+      "source": "market_graph_analysis",
+      "metric": "total_score",
+      "value": 72,
+      "unit": "score",
+      "period": null,
+      "snippet": "market_graph_analysis | total_score | 값: 72score"
+    },
+    {
+      "evidence_id": "market.ev.002",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.provider",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.provider | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.003",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.company",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.company | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.004",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.ticker",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.ticker | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.005",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.krx_code",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.krx_code | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.006",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.current_price",
+      "value": 20200,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.current_price | 값: 20,200원"
+    },
+    {
+      "evidence_id": "market.ev.007",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.currency",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.currency | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.008",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.as_of",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.as_of | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.009",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change",
+      "value": -850,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.change | 값: -850"
+    },
+    {
+      "evidence_id": "market.ev.010",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change_rate",
+      "value": -4.04,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.change_rate | 값: -4.04%"
+    },
+    {
+      "evidence_id": "market.ev.011",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.basDt",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.basDt | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.012",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.srtnCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.srtnCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.013",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.isinCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.isinCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.014",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.itmsNm",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.itmsNm | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.015",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mrktCtg",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mrktCtg | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.016",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.clpr",
+      "value": 20200,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 20,200원"
+    },
+    {
+      "evidence_id": "market.ev.017",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.vs",
+      "value": -850,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.vs | 값: -850"
+    },
+    {
+      "evidence_id": "market.ev.018",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.fltRt",
+      "value": -4.04,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: -4.04%"
+    },
+    {
+      "evidence_id": "market.ev.019",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mkp",
+      "value": 20900,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 20,900"
+    },
+    {
+      "evidence_id": "market.ev.020",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.hipr",
+      "value": 21750,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 21,750"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "market.ev.001",
+      "source_type": "market",
+      "source": "market_graph_analysis",
+      "metric": "total_score",
+      "value": 72,
+      "unit": "score",
+      "period": null,
+      "snippet": "market_graph_analysis | total_score | 값: 72score"
+    },
+    {
+      "evidence_id": "market.ev.002",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.provider",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.provider | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.003",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.company",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.company | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.004",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.ticker",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.ticker | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.005",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.krx_code",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.krx_code | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.006",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.current_price",
+      "value": 20200,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.current_price | 값: 20,200원"
+    },
+    {
+      "evidence_id": "market.ev.007",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.currency",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.currency | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.008",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.as_of",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.as_of | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.009",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change",
+      "value": -850,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.change | 값: -850"
+    },
+    {
+      "evidence_id": "market.ev.010",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change_rate",
+      "value": -4.04,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.change_rate | 값: -4.04%"
+    },
+    {
+      "evidence_id": "market.ev.011",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.basDt",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.basDt | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.012",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.srtnCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.srtnCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.013",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.isinCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.isinCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.014",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.itmsNm",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.itmsNm | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.015",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mrktCtg",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mrktCtg | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.016",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.clpr",
+      "value": 20200,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 20,200원"
+    },
+    {
+      "evidence_id": "market.ev.017",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.vs",
+      "value": -850,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.vs | 값: -850"
+    },
+    {
+      "evidence_id": "market.ev.018",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.fltRt",
+      "value": -4.04,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: -4.04%"
+    },
+    {
+      "evidence_id": "market.ev.019",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mkp",
+      "value": 20900,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 20,900"
+    },
+    {
+      "evidence_id": "market.ev.020",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.hipr",
+      "value": 21750,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 21,750"
+    }
+  ],
+  "raw_payload": {
+    "analysis": {
+      "agent": "market",
+      "company": "미코",
+      "opinion": "보유",
+      "confidence": 0.6,
+      "market_summary": {
+        "oecd_interpretation": "OECD 경기선행지수가 98.01로 기준선(100) 하회하며 글로벌 경기 둔화 가능성을 시사합니다. 이는 전반적인 산업 투자 심리에 부정적인 영향을 줄 수 있습니다.",
+        "industry_stage": "미코가 속한 반도체 산업은 AI·HBM 등 일부 세그먼트에서 성장기를 보이나, 메모리 및 레거시 반도체는 성숙기 또는 쇠퇴기에 진입하며 산업 내에서도 차별화가 나타나고 있습니다.",
+        "value_chain_position": "미코는 반도체 및 디스플레이 장비 부품 제조와 세정/코팅 서비스 제공을 통해 밸류체인 내에서 차별화된 기술력을 보유하고 있습니다. 이는 특정 공정에서의 경쟁 우위를 확보할 수 있는 잠재력을 시사합니다.",
+        "competitive_position": "경쟁 강도는 중간 수준으로 평가되며, 미코는 특정 부품 제조 및 서비스 제공에서 차별화된 기술력을 바탕으로 경쟁 우위를 확보하려는 노력을 하고 있습니다. 다만, 구체적인 경쟁사 대비 점유율이나 기술 격차에 대한 정보는 부족합니다.",
+        "market_momentum": "현재 주가는 20,200원으로, 전일 대비 4.04% 하락하며 약세를 보이고 있습니다. 이는 단기적인 시장 변동성을 나타내며, 업황 회복 기대감과 함께 투자 심리가 혼재된 상황입니다."
+      },
+      "qualitative_rubric": {
+        "macro_cycle": {
+          "assessment": "중",
+          "reason": "OECD 경기선행지수가 기준선 하회하며 글로벌 경기 둔화 가능성을 시사하나, 이는 보조 신호로 활용됩니다."
+        },
+        "industry_attractiveness": {
+          "assessment": "상",
+          "reason": "AI·HBM 등 성장하는 반도체 세그먼트와 바이오, 배터리 산업의 성장 잠재력이 높습니다."
+        },
+        "value_chain_position": {
+          "assessment": "상",
+          "reason": "반도체 및 디스플레이 장비 부품 제조와 서비스 제공에서 차별화된 기술력을 보유하고 있습니다."
+        },
+        "competitive_position": {
+          "assessment": "중",
+          "reason": "경쟁 강도는 중간 수준이며, 차별화된 기술력으로 경쟁 우위를 확보하려는 노력이 있습니다. 다만, 구체적인 경쟁력 지표는 부족합니다."
+        },
+        "market_momentum": {
+          "assessment": "중",
+          "reason": "최근 주가 하락세를 보이고 있으나, 반도체 업황 회복 기대감과 함께 투자 심리가 혼재되어 방향성 판단이 어렵습니다."
+        },
+        "policy_disclosure_signal": {
+          "assessment": "상",
+          "reason": "정부의 R&D 지원 확대, 세액공제 검토 등 정책적 수혜가 기대되며, DART 공시를 통해 사업 내용이 명확히 확인되었습니다."
+        },
+        "downside_risk": {
+          "assessment": "중",
+          "reason": "글로벌 경기 둔화 가능성, 반도체 산업 내 세그먼트별 차별화, 경쟁 심화 가능성 등이 잠재적 하방 리스크로 작용할 수 있습니다."
+        }
+      },
+      "bwm_assessment": {
+        "best_criterion": "산업 매력도 및 정책/공시 신호",
+        "worst_criterion": "경쟁 구도 및 시장 모멘텀",
+        "judgment_effect": "산업의 성장성과 정책적 지원은 긍정적이나, 경쟁 구도 및 시장 모멘텀의 불확실성으로 인해 '보유' 의견을 제시합니다."
+      },
+      "scoring": {
+        "거시환경": {
+          "score": 12,
+          "max": 20,
+          "reason": "OECD 경기선행지수 하회는 부정적이나, 거시 환경은 보조 지표로 활용됩니다."
+        },
+        "산업매력도": {
+          "score": 18,
+          "max": 20,
+          "reason": "AI·HBM 등 성장하는 반도체 세그먼트와 바이오, 배터리 산업의 높은 성장 잠재력이 긍정적입니다."
+        },
+        "경쟁위치": {
+          "score": 14,
+          "max": 20,
+          "reason": "차별화된 기술력은 강점이나, 경쟁 강도 중간 및 구체적 지표 부족으로 인해 보통 수준입니다."
+        },
+        "정책수혜": {
+          "score": 18,
+          "max": 20,
+          "reason": "정부의 R&D 지원 확대, 세액공제 검토 등 정책적 수혜가 기대되며, 사업 내용이 명확히 확인되었습니다."
+        },
+        "시장모멘텀": {
+          "score": 10,
+          "max": 20,
+          "reason": "최근 주가 하락 및 투자 심리 혼재로 인해 모멘텀이 약합니다."
+        }
+      },
+      "total_score": 72,
+      "claims": [
+        {
+          "claim_id": "market.cl.001",
+          "text": "미코는 반도체 및 디스플레이 장비 부품 제조와 세정/코팅 서비스 제공에서 차별화된 기술력을 보유하고 있습니다.",
+          "evidence_ids": [
+            "market.ev.005"
+          ]
+        },
+        {
+          "claim_id": "market.cl.002",
+          "text": "AI·HBM 등 성장하는 반도체 세그먼트와 바이오, 배터리 산업의 높은 성장 잠재력은 미코에게 긍정적인 산업 환경을 제공합니다.",
+          "evidence_ids": [
+            "market.ev.003"
+          ]
+        },
+        {
+          "claim_id": "market.cl.003",
+          "text": "정부의 R&D 지원 확대 및 세액공제 검토 등 정책적 수혜가 기대됩니다.",
+          "evidence_ids": [
+            "market.ev.004"
+          ]
+        }
+      ],
+      "evidences": [
+        {
+          "evidence_id": "market.ev.001",
+          "source_type": "oecd",
+          "source": "OECD",
+          "metric": "경기선행지수",
+          "value": 98.01,
+          "unit": null,
+          "period": "최신",
+          "snippet": "OECD 경기선행지수 (최신): {\"G20\": 98.01, \"한국\": 98.01, \"미국\": 98.01, \"중국\": 98.01}"
+        },
+        {
+          "evidence_id": "market.ev.002",
+          "source_type": "stock",
+          "source": "public_data",
+          "metric": "current_price",
+          "value": 20200,
+          "unit": "KRW",
+          "period": "20260519",
+          "snippet": "{\"provider\": \"public_data\", \"company\": \"미코\", \"ticker\": \"059090.KQ\", \"krx_code\": \"059090\", \"current_price\": 20200, \"currency\": \"KRW\", \"as_of\": \"20260519\", \"change\": -850, \"change_rate\": -4.04, \"warning_stock\": \"\", \"raw\": {\"basDt\": \"20260519\", \"srtnCd\": \"059090\", \"isinCd\": \"KR7059090001\", \"itmsNm\": \"미코\", \"mrktCtg\": \"KOSDAQ\", \"clpr\": \"20200\", \"vs\": \"-850\", \"fltRt\": \"-4.04\", \"mkp\": \"20900\", \"hipr\": \"21750\", \"lopr\": \"19680\", \"trqu\": \"514088\", \"trPrc\": \"10441746220\", \"lstgStCnt\": \"33416778\", \"mrktTotAmt\": \"675018915600\"}}"
+        },
+        {
+          "evidence_id": "market.ev.003",
+          "source_type": "static",
+          "source": "엑셀",
+          "metric": "성장률",
+          "value": 30,
+          "unit": "%",
+          "period": "2025",
+          "snippet": "\"시장 성장률\": {\"반도체\": \"전체 +30% (2025)\nAI 반도체 +40% 이상\", \"배터리\": \"장기 +15~20%\n단기 캐즘 조정 중\", \"바이오\": \"바이오의약품\n연 +10~15%\"}"
+        },
+        {
+          "evidence_id": "market.ev.004",
+          "source_type": "static",
+          "source": "엑셀",
+          "metric": "정책",
+          "value": null,
+          "unit": null,
+          "period": null,
+          "snippet": "\"policy\": {\"policies\": [\"세액공제 직접환급 및 이월공제기간 연장 검토\", \"국민성장펀드 금융 지원 강화\", \"R&D 지원 확대\", \"으뜸효율 환급사업\"], \"trends\": [\"반도체 올해 전세계 시장 약 30% 증가 예상\", \"바이오 2024년 163억불 최대 수출 달성\", \"배터리 전기차 성장 둔화, 중국 점유율 확대\", \"중전기기 장기 호황, 수출 호조세\", \"ESS 시장 중장기 수요 확대 기대\"]}"
+        },
+        {
+          "evidence_id": "market.ev.005",
+          "source_type": "dart",
+          "source": "DART",
+          "metric": "differentiation",
+          "value": null,
+          "unit": null,
+          "period": null,
+          "snippet": "\"differentiation\": \"미코는 반도체 및 디스플레이 장비를 구성하는 부품을 제작하고 있으며, 세정 및 코팅 서비스 용역을 제공하는 점에서 차별화된 기술력을 보유하고 있습니다.\""
+        }
+      ],
+      "risks": [
+        {
+          "risk": "글로벌 경기 둔화 가능성",
+          "severity": "중",
+          "basis": "OECD 경기선행지수 하회"
+        },
+        {
+          "risk": "반도체 산업 내 세그먼트별 차별화",
+          "severity": "중",
+          "basis": "성숙기/쇠퇴기 세그먼트의 영향 가능성"
+        },
+        {
+          "risk": "경쟁 심화 가능성",
+          "severity": "중",
+          "basis": "중간 수준의 경쟁 강도"
+        }
+      ],
+      "opportunities": [
+        {
+          "opportunity": "AI·HBM 등 성장하는 반도체 세그먼트 수혜",
+          "basis": "산업 매력도 높음"
+        },
+        {
+          "opportunity": "정부 정책 지원 수혜",
+          "basis": "R&D 지원, 세액공제 등 정책 수혜 기대"
+        },
+        {
+          "opportunity": "차별화된 기술력을 통한 경쟁 우위 확보",
+          "basis": "부품 제조 및 서비스 제공에서의 차별화된 기술력"
+        }
+      ],
+      "summary": "미코는 AI·HBM 등 성장하는 반도체 산업 환경과 정부 정책 지원에 힘입어 긍정적인 전망을 가지고 있습니다. 다만, 글로벌 경기 둔화 가능성과 경쟁 심화 가능성을 고려하여 '보유' 의견을 제시합니다.",
+      "raw_payload": {
+        "stock_used": true,
+        "oecd_used": true,
+        "static_used": true,
+        "news_used": true,
+        "dart_used": true
+      }
+    },
+    "original_opportunities": [
+      {
+        "opportunity": "AI·HBM 등 성장하는 반도체 세그먼트 수혜",
+        "basis": "산업 매력도 높음"
+      },
+      {
+        "opportunity": "정부 정책 지원 수혜",
+        "basis": "R&D 지원, 세액공제 등 정책 수혜 기대"
+      },
+      {
+        "opportunity": "차별화된 기술력을 통한 경쟁 우위 확보",
+        "basis": "부품 제조 및 서비스 제공에서의 차별화된 기술력"
+      }
+    ],
+    "original_risks": [
+      {
+        "risk": "글로벌 경기 둔화 가능성",
+        "severity": "중",
+        "basis": "OECD 경기선행지수 하회"
+      },
+      {
+        "risk": "반도체 산업 내 세그먼트별 차별화",
+        "severity": "중",
+        "basis": "성숙기/쇠퇴기 세그먼트의 영향 가능성"
+      },
+      {
+        "risk": "경쟁 심화 가능성",
+        "severity": "중",
+        "basis": "중간 수준의 경쟁 강도"
+      }
+    ],
+    "removed_bad_evidence_ids": [
+      "market.ev.unverified"
+    ]
+  },
+  "total_score": 72,
+  "scoring": {
+    "거시환경": {
+      "score": 12,
+      "max": 20,
+      "reason": "OECD 경기선행지수 하회는 부정적이나, 거시 환경은 보조 지표로 활용됩니다."
+    },
+    "산업매력도": {
+      "score": 18,
+      "max": 20,
+      "reason": "AI·HBM 등 성장하는 반도체 세그먼트와 바이오, 배터리 산업의 높은 성장 잠재력이 긍정적입니다."
+    },
+    "경쟁위치": {
+      "score": 14,
+      "max": 20,
+      "reason": "차별화된 기술력은 강점이나, 경쟁 강도 중간 및 구체적 지표 부족으로 인해 보통 수준입니다."
+    },
+    "정책수혜": {
+      "score": 18,
+      "max": 20,
+      "reason": "정부의 R&D 지원 확대, 세액공제 검토 등 정책적 수혜가 기대되며, 사업 내용이 명확히 확인되었습니다."
+    },
+    "시장모멘텀": {
+      "score": 10,
+      "max": 20,
+      "reason": "최근 주가 하락 및 투자 심리 혼재로 인해 모멘텀이 약합니다."
+    }
+  },
+  "packet_version": "grounded_agent_v3",
+  "pre_sanitize_grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 6,
+    "supported_count": 6,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "미코 마켓 분석 total_score 값은 72점입니다.",
+      "미코 stock_data.current_price 값은 20200입니다.",
+      "미코 stock_data.change 값은 -850입니다.",
+      "미코 stock_data.change_rate 값은 -4.04%입니다.",
+      "미코 stock_data.raw.clpr 값은 20200입니다.",
+      "미코 stock_data.raw.vs 값은 -850입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "market.cl.001",
+        "text": "미코 마켓 분석 total_score 값은 72점입니다.",
+        "evidence_ids": [
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "미코 stock_data.current_price 값은 20200입니다.",
+        "evidence_ids": [
+          "market.ev.006"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {
+          "price": [
+            "market.ev.006"
+          ]
+        },
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.003",
+        "text": "미코 stock_data.change 값은 -850입니다.",
+        "evidence_ids": [
+          "market.ev.009"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.004",
+        "text": "미코 stock_data.change_rate 값은 -4.04%입니다.",
+        "evidence_ids": [
+          "market.ev.010"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.005",
+        "text": "미코 stock_data.raw.clpr 값은 20200입니다.",
+        "evidence_ids": [
+          "market.ev.016"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.006",
+        "text": "미코 stock_data.raw.vs 값은 -850입니다.",
+        "evidence_ids": [
+          "market.ev.017"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  },
+  "post_atomic_grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 9,
+    "supported_count": 9,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "미코 마켓 분석 total_score 값은 72점입니다.",
+      "미코 stock_data.current_price 값은 20200입니다.",
+      "미코 stock_data.change 값은 -850입니다.",
+      "미코 stock_data.change_rate 값은 -4.04%입니다.",
+      "미코 stock_data.raw.clpr 값은 20200입니다.",
+      "미코 stock_data.raw.vs 값은 -850입니다.",
+      "stock_data.raw.fltRt 값은 -4.04%입니다.",
+      "stock_data.raw.mkp 값은 20,900입니다.",
+      "stock_data.raw.hipr 값은 21,750입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "market.cl.001",
+        "text": "미코 마켓 분석 total_score 값은 72점입니다.",
+        "evidence_ids": [
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "미코 stock_data.current_price 값은 20200입니다.",
+        "evidence_ids": [
+          "market.ev.006"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {
+          "price": [
+            "market.ev.006"
+          ]
+        },
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.003",
+        "text": "미코 stock_data.change 값은 -850입니다.",
+        "evidence_ids": [
+          "market.ev.009"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.004",
+        "text": "미코 stock_data.change_rate 값은 -4.04%입니다.",
+        "evidence_ids": [
+          "market.ev.010"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.005",
+        "text": "미코 stock_data.raw.clpr 값은 20200입니다.",
+        "evidence_ids": [
+          "market.ev.016"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.006",
+        "text": "미코 stock_data.raw.vs 값은 -850입니다.",
+        "evidence_ids": [
+          "market.ev.017"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.007",
+        "text": "stock_data.raw.fltRt 값은 -4.04%입니다.",
+        "evidence_ids": [
+          "market.ev.018"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.009",
+        "text": "stock_data.raw.mkp 값은 20,900입니다.",
+        "evidence_ids": [
+          "market.ev.019"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.011",
+        "text": "stock_data.raw.hipr 값은 21,750입니다.",
+        "evidence_ids": [
+          "market.ev.020"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  },
+  "grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 9,
+    "supported_count": 9,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "미코 마켓 분석 total_score 값은 72점입니다.",
+      "미코 stock_data.current_price 값은 20200입니다.",
+      "미코 stock_data.change 값은 -850입니다.",
+      "미코 stock_data.change_rate 값은 -4.04%입니다.",
+      "미코 stock_data.raw.clpr 값은 20200입니다.",
+      "미코 stock_data.raw.vs 값은 -850입니다.",
+      "stock_data.raw.fltRt 값은 -4.04%입니다.",
+      "stock_data.raw.mkp 값은 20,900입니다.",
+      "stock_data.raw.hipr 값은 21,750입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "market.cl.001",
+        "text": "미코 마켓 분석 total_score 값은 72점입니다.",
+        "evidence_ids": [
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "미코 stock_data.current_price 값은 20200입니다.",
+        "evidence_ids": [
+          "market.ev.006"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {
+          "price": [
+            "market.ev.006"
+          ]
+        },
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.003",
+        "text": "미코 stock_data.change 값은 -850입니다.",
+        "evidence_ids": [
+          "market.ev.009"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.004",
+        "text": "미코 stock_data.change_rate 값은 -4.04%입니다.",
+        "evidence_ids": [
+          "market.ev.010"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.005",
+        "text": "미코 stock_data.raw.clpr 값은 20200입니다.",
+        "evidence_ids": [
+          "market.ev.016"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.006",
+        "text": "미코 stock_data.raw.vs 값은 -850입니다.",
+        "evidence_ids": [
+          "market.ev.017"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.007",
+        "text": "stock_data.raw.fltRt 값은 -4.04%입니다.",
+        "evidence_ids": [
+          "market.ev.018"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.009",
+        "text": "stock_data.raw.mkp 값은 20,900입니다.",
+        "evidence_ids": [
+          "market.ev.019"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.011",
+        "text": "stock_data.raw.hipr 값은 21,750입니다.",
+        "evidence_ids": [
+          "market.ev.020"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  }
+}

@@ -1,0 +1,794 @@
+{
+  "소재": {
+    "sector_label": "소재",
+    "peer_group": "소재",
+    "semiconductor_tag": "소재",
+    "focal_companies": [
+      {
+        "company_name": "한솔케미칼",
+        "ticker": "014680",
+        "market": "KOSPI",
+        "selection_score": 1100.2721,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.8364696976606926",
+        "credit_confidence": "0.9711543901439185",
+        "review_flag": "OK",
+        "include_in_chair": 1
+      },
+      {
+        "company_name": "엘티씨",
+        "ticker": "170920",
+        "market": "KOSDAQ",
+        "selection_score": 1090.7717,
+        "valuation_proxy_label": "FAIR",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.6353016273848794",
+        "credit_confidence": "0.9205018564538214",
+        "review_flag": "OK",
+        "include_in_chair": 1
+      },
+      {
+        "company_name": "덕산테코피아",
+        "ticker": "317330",
+        "market": "KOSDAQ",
+        "selection_score": 1026.9482,
+        "valuation_proxy_label": "EXPENSIVE",
+        "credit_proxy_label": "HIGH_RISK",
+        "valuation_confidence": "0.9683283970250778",
+        "credit_confidence": "0.9663044353705786",
+        "review_flag": "AUDITOR_REVIEW;CREDIT_ANOMALY_TOP15PCT",
+        "include_in_chair": 1
+      }
+    ],
+    "reference_companies": [
+      {
+        "company_name": "월덱스",
+        "ticker": "101160",
+        "market": "KOSDAQ",
+        "selection_score": 105.8433,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.9476922450763601",
+        "credit_confidence": "0.9681016473230849",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "이엔에프테크놀로지",
+        "ticker": "102710",
+        "market": "KOSDAQ",
+        "selection_score": 102.8683,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.9371627732042065",
+        "credit_confidence": "0.8730332003988217",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "원익머트리얼즈",
+        "ticker": "104830",
+        "market": "KOSDAQ",
+        "selection_score": 96.2459,
+        "valuation_proxy_label": "FAIR",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.9160049727267536",
+        "credit_confidence": "0.9269592012859288",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "솔브레인홀딩스",
+        "ticker": "036830",
+        "market": "KOSDAQ GLOBAL",
+        "selection_score": 95.5907,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.5229115612060397",
+        "credit_confidence": "0.8942479649490351",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      }
+    ],
+    "all_companies": [
+      {
+        "company_name": "한솔케미칼",
+        "ticker": "014680",
+        "market": "KOSPI",
+        "selection_score": 1100.2721,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.8364696976606926",
+        "credit_confidence": "0.9711543901439185",
+        "review_flag": "OK",
+        "include_in_chair": 1
+      },
+      {
+        "company_name": "엘티씨",
+        "ticker": "170920",
+        "market": "KOSDAQ",
+        "selection_score": 1090.7717,
+        "valuation_proxy_label": "FAIR",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.6353016273848794",
+        "credit_confidence": "0.9205018564538214",
+        "review_flag": "OK",
+        "include_in_chair": 1
+      },
+      {
+        "company_name": "덕산테코피아",
+        "ticker": "317330",
+        "market": "KOSDAQ",
+        "selection_score": 1026.9482,
+        "valuation_proxy_label": "EXPENSIVE",
+        "credit_proxy_label": "HIGH_RISK",
+        "valuation_confidence": "0.9683283970250778",
+        "credit_confidence": "0.9663044353705786",
+        "review_flag": "AUDITOR_REVIEW;CREDIT_ANOMALY_TOP15PCT",
+        "include_in_chair": 1
+      },
+      {
+        "company_name": "월덱스",
+        "ticker": "101160",
+        "market": "KOSDAQ",
+        "selection_score": 105.8433,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.9476922450763601",
+        "credit_confidence": "0.9681016473230849",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "이엔에프테크놀로지",
+        "ticker": "102710",
+        "market": "KOSDAQ",
+        "selection_score": 102.8683,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.9371627732042065",
+        "credit_confidence": "0.8730332003988217",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "원익머트리얼즈",
+        "ticker": "104830",
+        "market": "KOSDAQ",
+        "selection_score": 96.2459,
+        "valuation_proxy_label": "FAIR",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.9160049727267536",
+        "credit_confidence": "0.9269592012859288",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "솔브레인홀딩스",
+        "ticker": "036830",
+        "market": "KOSDAQ GLOBAL",
+        "selection_score": 95.5907,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.5229115612060397",
+        "credit_confidence": "0.8942479649490351",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      }
+    ]
+  },
+  "후공정_패키징_테스트": {
+    "sector_label": "후공정/패키징/테스트",
+    "peer_group": "후공정/패키징/테스트",
+    "semiconductor_tag": "후공정/패키징/테스트",
+    "focal_companies": [
+      {
+        "company_name": "네패스",
+        "ticker": "033640",
+        "market": "KOSDAQ",
+        "selection_score": 1082.296,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "MEDIUM_RISK",
+        "valuation_confidence": "0.8763685947958789",
+        "credit_confidence": "0.5963458259503356",
+        "review_flag": "OK",
+        "include_in_chair": 1
+      },
+      {
+        "company_name": "한미반도체",
+        "ticker": "042700",
+        "market": "KOSPI",
+        "selection_score": 1071.7905,
+        "valuation_proxy_label": "FAIR",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.618072727307107",
+        "credit_confidence": "0.9350232170644448",
+        "review_flag": "AUDITOR_REVIEW;CREDIT_ANOMALY_TOP15PCT",
+        "include_in_chair": 1
+      }
+    ],
+    "reference_companies": [
+      {
+        "company_name": "성우테크론",
+        "ticker": "045300",
+        "market": "KOSDAQ",
+        "selection_score": 103.7292,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.9526864248076319",
+        "credit_confidence": "0.869939352370702",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "링크제니시스",
+        "ticker": "219420",
+        "market": "KOSDAQ",
+        "selection_score": 101.6276,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.8724992666433111",
+        "credit_confidence": "0.8663667518810074",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "프로텍",
+        "ticker": "053610",
+        "market": "KOSDAQ",
+        "selection_score": 98.1146,
+        "valuation_proxy_label": "FAIR",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.8971257561900263",
+        "credit_confidence": "0.9163768919768406",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "프로이천",
+        "ticker": "321260",
+        "market": "KOSDAQ",
+        "selection_score": 97.1758,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.9481469936627798",
+        "credit_confidence": "0.7571217577270841",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      }
+    ],
+    "all_companies": [
+      {
+        "company_name": "네패스",
+        "ticker": "033640",
+        "market": "KOSDAQ",
+        "selection_score": 1082.296,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "MEDIUM_RISK",
+        "valuation_confidence": "0.8763685947958789",
+        "credit_confidence": "0.5963458259503356",
+        "review_flag": "OK",
+        "include_in_chair": 1
+      },
+      {
+        "company_name": "한미반도체",
+        "ticker": "042700",
+        "market": "KOSPI",
+        "selection_score": 1071.7905,
+        "valuation_proxy_label": "FAIR",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.618072727307107",
+        "credit_confidence": "0.9350232170644448",
+        "review_flag": "AUDITOR_REVIEW;CREDIT_ANOMALY_TOP15PCT",
+        "include_in_chair": 1
+      },
+      {
+        "company_name": "성우테크론",
+        "ticker": "045300",
+        "market": "KOSDAQ",
+        "selection_score": 103.7292,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.9526864248076319",
+        "credit_confidence": "0.869939352370702",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "링크제니시스",
+        "ticker": "219420",
+        "market": "KOSDAQ",
+        "selection_score": 101.6276,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.8724992666433111",
+        "credit_confidence": "0.8663667518810074",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "프로텍",
+        "ticker": "053610",
+        "market": "KOSDAQ",
+        "selection_score": 98.1146,
+        "valuation_proxy_label": "FAIR",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.8971257561900263",
+        "credit_confidence": "0.9163768919768406",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "프로이천",
+        "ticker": "321260",
+        "market": "KOSDAQ",
+        "selection_score": 97.1758,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.9481469936627798",
+        "credit_confidence": "0.7571217577270841",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      }
+    ]
+  },
+  "idm_제조_메모리": {
+    "sector_label": "IDM/제조/메모리",
+    "peer_group": "IDM/제조/메모리",
+    "semiconductor_tag": "IDM/제조/메모리",
+    "focal_companies": [],
+    "reference_companies": [
+      {
+        "company_name": "메카로",
+        "ticker": "241770",
+        "market": "KOSDAQ",
+        "selection_score": 104.6945,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.9154158498128573",
+        "credit_confidence": "0.9196609311939408",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "DB하이텍",
+        "ticker": "000990",
+        "market": "KOSPI",
+        "selection_score": 102.7644,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.9104444876024207",
+        "credit_confidence": "0.9880726272379208",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "엘디티",
+        "ticker": "096870",
+        "market": "KOSDAQ",
+        "selection_score": 100.8588,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.8817908899004964",
+        "credit_confidence": "0.8068970516192283",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "한양디지텍",
+        "ticker": "078350",
+        "market": "KOSDAQ",
+        "selection_score": 98.058,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.8705426081647281",
+        "credit_confidence": "0.7978732006060483",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      }
+    ],
+    "all_companies": [
+      {
+        "company_name": "메카로",
+        "ticker": "241770",
+        "market": "KOSDAQ",
+        "selection_score": 104.6945,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.9154158498128573",
+        "credit_confidence": "0.9196609311939408",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "DB하이텍",
+        "ticker": "000990",
+        "market": "KOSPI",
+        "selection_score": 102.7644,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.9104444876024207",
+        "credit_confidence": "0.9880726272379208",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "엘디티",
+        "ticker": "096870",
+        "market": "KOSDAQ",
+        "selection_score": 100.8588,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.8817908899004964",
+        "credit_confidence": "0.8068970516192283",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "한양디지텍",
+        "ticker": "078350",
+        "market": "KOSDAQ",
+        "selection_score": 98.058,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.8705426081647281",
+        "credit_confidence": "0.7978732006060483",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      }
+    ]
+  },
+  "팹리스_설계": {
+    "sector_label": "팹리스/설계",
+    "peer_group": "팹리스/설계",
+    "semiconductor_tag": "팹리스/설계",
+    "focal_companies": [],
+    "reference_companies": [
+      {
+        "company_name": "LX세미콘",
+        "ticker": "108320",
+        "market": "KOSPI",
+        "selection_score": 104.1154,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.951012131492064",
+        "credit_confidence": "0.9675260077633142",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "아이앤씨",
+        "ticker": "052860",
+        "market": "KOSDAQ",
+        "selection_score": 103.9195,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.9267130449922303",
+        "credit_confidence": "0.8920304728976969",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "매커스",
+        "ticker": "093520",
+        "market": "KOSDAQ",
+        "selection_score": 102.2068,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.9375173489226767",
+        "credit_confidence": "0.8297390345025338",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "티에스이",
+        "ticker": "131290",
+        "market": "KOSDAQ",
+        "selection_score": 97.2329,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.7390287615028212",
+        "credit_confidence": "0.9709748314872512",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      }
+    ],
+    "all_companies": [
+      {
+        "company_name": "LX세미콘",
+        "ticker": "108320",
+        "market": "KOSPI",
+        "selection_score": 104.1154,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.951012131492064",
+        "credit_confidence": "0.9675260077633142",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "아이앤씨",
+        "ticker": "052860",
+        "market": "KOSDAQ",
+        "selection_score": 103.9195,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.9267130449922303",
+        "credit_confidence": "0.8920304728976969",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "매커스",
+        "ticker": "093520",
+        "market": "KOSDAQ",
+        "selection_score": 102.2068,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.9375173489226767",
+        "credit_confidence": "0.8297390345025338",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "티에스이",
+        "ticker": "131290",
+        "market": "KOSDAQ",
+        "selection_score": 97.2329,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.7390287615028212",
+        "credit_confidence": "0.9709748314872512",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      }
+    ]
+  },
+  "장비": {
+    "sector_label": "장비",
+    "peer_group": "장비",
+    "semiconductor_tag": "장비",
+    "focal_companies": [],
+    "reference_companies": [
+      {
+        "company_name": "비아트론",
+        "ticker": "141000",
+        "market": "KOSDAQ",
+        "selection_score": 104.0061,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.934708213344448",
+        "credit_confidence": "0.9411184099481913",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "케이씨",
+        "ticker": "029460",
+        "market": "KOSPI",
+        "selection_score": 102.703,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.9151708177015135",
+        "credit_confidence": "0.883115363364621",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "KPX케미칼",
+        "ticker": "025000",
+        "market": "KOSPI",
+        "selection_score": 102.5372,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.9091955435785402",
+        "credit_confidence": "0.9222174142026104",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "GST",
+        "ticker": "083450",
+        "market": "KOSDAQ",
+        "selection_score": 102.0405,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.900491542853433",
+        "credit_confidence": "0.9914514013000448",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      }
+    ],
+    "all_companies": [
+      {
+        "company_name": "비아트론",
+        "ticker": "141000",
+        "market": "KOSDAQ",
+        "selection_score": 104.0061,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.934708213344448",
+        "credit_confidence": "0.9411184099481913",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "케이씨",
+        "ticker": "029460",
+        "market": "KOSPI",
+        "selection_score": 102.703,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.9151708177015135",
+        "credit_confidence": "0.883115363364621",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "KPX케미칼",
+        "ticker": "025000",
+        "market": "KOSPI",
+        "selection_score": 102.5372,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.9091955435785402",
+        "credit_confidence": "0.9222174142026104",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "GST",
+        "ticker": "083450",
+        "market": "KOSDAQ",
+        "selection_score": 102.0405,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.900491542853433",
+        "credit_confidence": "0.9914514013000448",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      }
+    ]
+  },
+  "부품_기판": {
+    "sector_label": "부품/기판",
+    "peer_group": "부품/기판",
+    "semiconductor_tag": "부품/기판",
+    "focal_companies": [],
+    "reference_companies": [
+      {
+        "company_name": "인터플렉스",
+        "ticker": "051370",
+        "market": "KOSDAQ",
+        "selection_score": 96.2323,
+        "valuation_proxy_label": "FAIR",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.904555257888918",
+        "credit_confidence": "0.8421993774288782",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "자화전자",
+        "ticker": "033240",
+        "market": "KOSPI",
+        "selection_score": 94.292,
+        "valuation_proxy_label": "FAIR",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.9380223994723259",
+        "credit_confidence": "0.7827117376718701",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "비에이치",
+        "ticker": "090460",
+        "market": "KOSPI",
+        "selection_score": 87.4992,
+        "valuation_proxy_label": "FAIR",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.5078538652826",
+        "credit_confidence": "0.8498731799769995",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "이수페타시스",
+        "ticker": "007660",
+        "market": "KOSPI",
+        "selection_score": 86.8099,
+        "valuation_proxy_label": "FAIR",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.599589540069591",
+        "credit_confidence": "0.8732919913777979",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      }
+    ],
+    "all_companies": [
+      {
+        "company_name": "인터플렉스",
+        "ticker": "051370",
+        "market": "KOSDAQ",
+        "selection_score": 96.2323,
+        "valuation_proxy_label": "FAIR",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.904555257888918",
+        "credit_confidence": "0.8421993774288782",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "자화전자",
+        "ticker": "033240",
+        "market": "KOSPI",
+        "selection_score": 94.292,
+        "valuation_proxy_label": "FAIR",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.9380223994723259",
+        "credit_confidence": "0.7827117376718701",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "비에이치",
+        "ticker": "090460",
+        "market": "KOSPI",
+        "selection_score": 87.4992,
+        "valuation_proxy_label": "FAIR",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.5078538652826",
+        "credit_confidence": "0.8498731799769995",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      },
+      {
+        "company_name": "이수페타시스",
+        "ticker": "007660",
+        "market": "KOSPI",
+        "selection_score": 86.8099,
+        "valuation_proxy_label": "FAIR",
+        "credit_proxy_label": "LOW_RISK",
+        "valuation_confidence": "0.599589540069591",
+        "credit_confidence": "0.8732919913777979",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      }
+    ]
+  },
+  "부품_웨이퍼캐리어": {
+    "sector_label": "부품/웨이퍼캐리어",
+    "peer_group": "부품/기판",
+    "semiconductor_tag": "부품/웨이퍼캐리어",
+    "focal_companies": [],
+    "reference_companies": [
+      {
+        "company_name": "3S",
+        "ticker": "060310",
+        "market": "KOSDAQ",
+        "selection_score": 47.3145,
+        "valuation_proxy_label": "EXPENSIVE",
+        "credit_proxy_label": "HIGH_RISK",
+        "valuation_confidence": "0.8755971854841007",
+        "credit_confidence": "0.9688627439088098",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      }
+    ],
+    "all_companies": [
+      {
+        "company_name": "3S",
+        "ticker": "060310",
+        "market": "KOSDAQ",
+        "selection_score": 47.3145,
+        "valuation_proxy_label": "EXPENSIVE",
+        "credit_proxy_label": "HIGH_RISK",
+        "valuation_confidence": "0.8755971854841007",
+        "credit_confidence": "0.9688627439088098",
+        "review_flag": "OK",
+        "include_in_chair": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "agent_name": "finance",
+  "company_name": "텔레칩스",
+  "company_dir": "telechips",
+  "industry_type": "deeptech_semiconductor",
+  "summary": "텔레칩스는 2023년 견조한 매출과 영업이익을 기록했으나, 2024년과 2025년에는 매출이 소폭 감소하고 영업이익 및 순이익이 큰 폭으로 적자 전환하며 수익성이 악화되는 추세를 보였다. 부채비율은 2025년에 157%까지 상승하며 재무 건전성에 대한 우려가 커지고 있다. 주가는 최근 1개월간 변동성이 확대되었으며, 연간 MDD 또한 높은 수준을 기록하고 있어 투자 시 주의가 필요하다.",
+  "key_thesis": [
+    "2023년 매출액 1,910억, 영업이익 167억, 순이익 626억을 기록하며 견조한 실적을 달성했다.",
+    "2023년 ROE 25.44%, 영업이익률 8.78%를 기록하며 수익성이 양호했다.",
+    "2023년 잉여현금흐름(FCF)은 45억을 기록하며 현금 창출 능력을 보여주었다.",
+    "2023년 부채비율 52.23%, 이자보상배율 5.21배로 재무 건전성이 양호했다.",
+    "최근 1개월 주가 데이터에서 2026년 5월 8일 14.72%의 높은 일일 수익률을 기록하며 단기적인 주가 상승 모멘텀이 나타났다."
+  ],
+  "key_risks": [
+    "2024년 영업이익률 2.61%, 2025년 -3.21%로 수익성이 급격히 악화되었으며, 2025년 순이익은 -616억을 기록했다.",
+    "2024년 ROE -19.11%, 2025년 -43.11%로 자본 대비 수익성이 크게 하락했다.",
+    "2024년 잉여현금흐름(FCF)은 -167억, 2025년 -334억으로 대규모 마이너스를 기록하며 현금 창출 능력이 저하되었다.",
+    "2024년 부채비율 87.31%, 2025년 157.06%로 급증하며 재무 건전성에 대한 우려가 커지고 있다.",
+    "2025년 이자보상배율 -6.05배로 이자 지급 능력이 악화되었다.",
+    "최근 1개월 주가 데이터에서 2026년 5월 8일 366만 주의 거래량과 함께 큰 폭의 상승이 있었으나, 이전 최고가 대비 상당한 수준의 드로다운(-52.32%)을 기록하고 있어 변동성이 매우 크다.",
+    "2024년 연간 MDD -70.55%로 큰 폭의 하락을 경험했으며, 2025년 연간 MDD -37.78%, 2026년 연간 MDD -29.31%로 높은 변동성이 지속되고 있다.",
+    "연간 MDD -29.31%로 주가 낙폭 리스크를 확인해야 합니다."
+  ],
+  "report_core_points": [
+    "FCF: 텔레칩스 2025 기준 FCF 값은 -33,477,697,425원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+    "연수익률: 텔레칩스 2026 기준 연수익률 값은 9.74%이며, 해당 연도 주가 성과를 보여주는 지표입니다.",
+    "연간 MDD: 텔레칩스 2026 기준 연간 MDD 값은 -29.31%이며, 투자자가 경험할 수 있는 최대 낙폭 위험을 보여주는 지표입니다.",
+    "거래량: 텔레칩스 2026 기준 거래량 값은 314985.00주이며, 해당 연도 평균 거래량을 통해 시장 관심과 유동성을 확인하는 지표입니다.",
+    "이동평균 대비 비율: 텔레칩스 2026 기준 이동평균 대비 비율 값은 1.05배이며, 거래량이 이동평균 대비 어느 수준인지 보여주는 수급 지표입니다."
+  ],
+  "missing_prompt_metrics": [
+    "매출성장률",
+    "영업이익률",
+    "ROE",
+    "부채비율",
+    "변동성지수"
+  ],
+  "evidence": [
+    {
+      "evidence_id": "finance.ev.004",
+      "source_type": "financial_csv",
+      "source": "텔레칩스_재무.csv",
+      "metric": "fcf",
+      "label": "FCF",
+      "value": -33477697425.0,
+      "unit": "원",
+      "period": "2025",
+      "snippet": "텔레칩스 2025 기준 FCF 값은 -33,477,697,425원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.007",
+      "source_type": "stock_csv",
+      "source": "텔레칩스_주식.csv",
+      "metric": "annual_return_%",
+      "label": "연수익률",
+      "value": 9.74,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "텔레칩스 2026 기준 연수익률 값은 9.74%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.008",
+      "source_type": "stock_csv",
+      "source": "텔레칩스_주식.csv",
+      "metric": "annual_mdd_%",
+      "label": "연간 MDD",
+      "value": -29.31,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "텔레칩스 2026 기준 연간 MDD 값은 -29.31%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.009",
+      "source_type": "stock_csv",
+      "source": "텔레칩스_주식.csv",
+      "metric": "volume_mean",
+      "label": "거래량",
+      "value": 314985.0,
+      "unit": "주",
+      "period": "2026",
+      "snippet": "텔레칩스 2026 기준 거래량 값은 314985주입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.010",
+      "source_type": "stock_csv",
+      "source": "텔레칩스_주식.csv",
+      "metric": "volume_ma_ratio_mean",
+      "label": "이동평균 대비 비율",
+      "value": 1.053,
+      "unit": "배",
+      "period": "2026",
+      "snippet": "텔레칩스 2026 기준 이동평균 대비 비율 값은 1.0530배입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.012",
+      "source_type": "stock_csv",
+      "source": "텔레칩스_주식.csv",
+      "metric": "latest_close",
+      "label": "최근 종가",
+      "value": 17810.0,
+      "unit": "원",
+      "period": "2026-05-13",
+      "snippet": "텔레칩스 2026-05-13 최근 종가 값은 17,810원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.013",
+      "source_type": "warning_stock_csv",
+      "source": "투자경고종목.csv",
+      "metric": "warning_stock",
+      "label": "투자경고 여부",
+      "value": 0.0,
+      "unit": null,
+      "period": "최근",
+      "snippet": "텔레칩스 투자경고종목 해당 여부 값은 0입니다.",
+      "prompt_rationale": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "finance.safe_cl.004",
+      "text": "텔레칩스 2025 기준 FCF 값은 -33,477,697,425원입니다.",
+      "evidence_ids": [
+        "finance.ev.004"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.007",
+      "text": "텔레칩스 2026 기준 연수익률 값은 9.74%입니다.",
+      "evidence_ids": [
+        "finance.ev.007"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.008",
+      "text": "텔레칩스 2026 기준 연간 MDD 값은 -29.31%입니다.",
+      "evidence_ids": [
+        "finance.ev.008"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.009",
+      "text": "텔레칩스 2026 기준 거래량 값은 314985주입니다.",
+      "evidence_ids": [
+        "finance.ev.009"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.010",
+      "text": "텔레칩스 2026 기준 이동평균 대비 비율 값은 1.0530배입니다.",
+      "evidence_ids": [
+        "finance.ev.010"
+      ],
+      "audit_safe": true
+    }
+  ],
+  "warning_note": null,
+  "source_contexts": [
+    "financial_csv=텔레칩스_재무.csv",
+    "stock_csv=텔레칩스_주식.csv",
+    "warning_stock_csv=투자경고종목.csv",
+    "prompts.py summary/key_thesis/key_risks are preserved in the Chair View where available.",
+    "First Auditor claims are CSV-grounded one-to-one evidence claims for stable actual-information verification.",
+    "필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수"
+  ],
+  "raw_payload": {
+    "latest_financial_row": {
+      "year": 2025,
+      "sales": 192802105423.0,
+      "operating_income": -6189468061.0,
+      "net_income": -61632672813.0,
+      "total_assets": 367539039334.0,
+      "total_liabilities": 224563422453.0,
+      "total_equity": 142975616881.0,
+      "rnd": 1056119038,
+      "capex": 24341229378,
+      "ocf": -9136468047,
+      "fcf": -33477697425,
+      "interest": 1022345987.0,
+      "ROE": -43.10712145015431,
+      "영업이익률": -3.210269953961632,
+      "부채비율": 157.06413957276808,
+      "이자보상배율": -6.054181402093184
+    },
+    "latest_stock_metric": {
+      "year": 2026,
+      "annual_return_%": 9.74,
+      "annual_mdd_%": -29.31
+    },
+    "latest_yearly_summary": {
+      "year": 2026,
+      "close_start": 16230.0,
+      "close_end": 17810.0,
+      "close_high": 17810.0,
+      "close_low": 11480.0,
+      "volume_mean": 314985.0,
+      "volume_ma_ratio_mean": 1.053
+    },
+    "latest_recent_stock_row": {
+      "Date": "2026-05-13",
+      "Open": 16450.0,
+      "High": 18230.0,
+      "Low": 16020.0,
+      "Close": 17810.0,
+      "Volume": 868342,
+      "Change": 0.0513577331759149,
+      "VKOSPI": NaN,
+      "일수익률_%": 5.13577331759149,
+      "누적최고가": 34983.9375,
+      "드로다운_%": -49.09092208388493,
+      "거래량_20일평균": 526868.25,
+      "거래량_이동평균대비비율": 1.6481198098386076
+    },
+    "audit_policy": "prompts_py_used_for_interpretation_claims_grounded_by_local_csv"
+  },
+  "packet_version": "finance_prompts_grounded_v4_compact"
+}

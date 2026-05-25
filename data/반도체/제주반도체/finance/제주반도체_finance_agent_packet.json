@@ -1,0 +1,223 @@
+{
+  "agent_name": "finance",
+  "company_name": "제주반도체",
+  "company_dir": "jeju_semicon",
+  "industry_type": "deeptech_semiconductor",
+  "summary": "제주반도체는 2025년 매출이 전년 대비 약 86% 증가하며 가파른 성장세를 기록했으나, 2024년에는 영업이익률이 5.9%로 하락하며 수익성이 둔화되는 모습을 보였다. 2025년에는 영업이익률이 11.8%로 회복되었고 ROE 또한 17.39%로 상승하며 긍정적인 재무 성과를 나타냈다. 최근 1개월 주가 데이터에서는 큰 폭의 상승과 하락이 반복되며 높은 변동성을 보이고 있으며, 2026년 4월 24일에는 18.16%의 높은 일일 수익률을 기록했으나 이후 하락세를 보였다.",
+  "key_thesis": [
+    "2025년 매출액이 3,022억 원으로 전년 대비 86.17% 증가하며 가파른 성장세를 시현했다.",
+    "2025년 영업이익률이 11.87%로 전년 5.90% 대비 크게 개선되었으며, ROE 또한 17.39%로 상승했다.",
+    "2025년 잉여현금흐름(FCF)이 228억 원으로 흑자전환하며 현금 창출 능력이 회복되었다.",
+    "2026년 4월 24일 주가에서 18.16%의 높은 일일 수익률을 기록하며 단기적인 강한 매수세를 보여주었다.",
+    "2025년 연간 수익률 186.41%를 기록하며 높은 주가 상승 모멘텀을 보여주었다."
+  ],
+  "key_risks": [
+    "2024년 영업이익률이 5.90%로 전년 12.23% 대비 절반 수준으로 하락하며 수익성 둔화 우려가 있었다.",
+    "2024년 잉여현금흐름(FCF)이 -125억 원으로 마이너스를 기록하며 현금 창출에 어려움을 겪었다.",
+    "2025년 부채비율이 47.94%로 전년 22.36% 대비 크게 상승하여 재무 건전성에 대한 점검이 필요하다.",
+    "최근 1개월 주가 데이터에서 2026년 4월 24일 이후 하락세를 보이며 변동성이 높은 모습을 나타내고 있다.",
+    "2026년 연간 MDD가 -31.04%로 높은 수준을 기록하여 투자 시 상당한 가격 하락 위험에 노출될 수 있다.",
+    "연간 MDD -31.04%로 주가 낙폭 리스크를 확인해야 합니다."
+  ],
+  "report_core_points": [
+    "FCF: 제주반도체 2025 기준 FCF 값은 22,830,145,551원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+    "연수익률: 제주반도체 2026 기준 연수익률 값은 92.17%이며, 해당 연도 주가 성과를 보여주는 지표입니다.",
+    "연간 MDD: 제주반도체 2026 기준 연간 MDD 값은 -31.04%이며, 투자자가 경험할 수 있는 최대 낙폭 위험을 보여주는 지표입니다.",
+    "거래량: 제주반도체 2026 기준 거래량 값은 3822400.00주이며, 해당 연도 평균 거래량을 통해 시장 관심과 유동성을 확인하는 지표입니다.",
+    "이동평균 대비 비율: 제주반도체 2026 기준 이동평균 대비 비율 값은 1.11배이며, 거래량이 이동평균 대비 어느 수준인지 보여주는 수급 지표입니다."
+  ],
+  "missing_prompt_metrics": [
+    "매출성장률",
+    "영업이익률",
+    "ROE",
+    "부채비율",
+    "변동성지수"
+  ],
+  "evidence": [
+    {
+      "evidence_id": "finance.ev.004",
+      "source_type": "financial_csv",
+      "source": "제주반도체_재무.csv",
+      "metric": "fcf",
+      "label": "FCF",
+      "value": 22830145551.0,
+      "unit": "원",
+      "period": "2025",
+      "snippet": "제주반도체 2025 기준 FCF 값은 22,830,145,551원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.007",
+      "source_type": "stock_csv",
+      "source": "제주반도체_주식.csv",
+      "metric": "annual_return_%",
+      "label": "연수익률",
+      "value": 92.17,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "제주반도체 2026 기준 연수익률 값은 92.17%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.008",
+      "source_type": "stock_csv",
+      "source": "제주반도체_주식.csv",
+      "metric": "annual_mdd_%",
+      "label": "연간 MDD",
+      "value": -31.04,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "제주반도체 2026 기준 연간 MDD 값은 -31.04%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.009",
+      "source_type": "stock_csv",
+      "source": "제주반도체_주식.csv",
+      "metric": "volume_mean",
+      "label": "거래량",
+      "value": 3822400.0,
+      "unit": "주",
+      "period": "2026",
+      "snippet": "제주반도체 2026 기준 거래량 값은 3822400주입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.010",
+      "source_type": "stock_csv",
+      "source": "제주반도체_주식.csv",
+      "metric": "volume_ma_ratio_mean",
+      "label": "이동평균 대비 비율",
+      "value": 1.1144,
+      "unit": "배",
+      "period": "2026",
+      "snippet": "제주반도체 2026 기준 이동평균 대비 비율 값은 1.1144배입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.012",
+      "source_type": "stock_csv",
+      "source": "제주반도체_주식.csv",
+      "metric": "latest_close",
+      "label": "최근 종가",
+      "value": 58900.0,
+      "unit": "원",
+      "period": "2026-05-13",
+      "snippet": "제주반도체 2026-05-13 최근 종가 값은 58,900원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.013",
+      "source_type": "warning_stock_csv",
+      "source": "투자경고종목.csv",
+      "metric": "warning_stock",
+      "label": "투자경고 여부",
+      "value": 0.0,
+      "unit": null,
+      "period": "최근",
+      "snippet": "제주반도체 투자경고종목 해당 여부 값은 0입니다.",
+      "prompt_rationale": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "finance.safe_cl.004",
+      "text": "제주반도체 2025 기준 FCF 값은 22,830,145,551원입니다.",
+      "evidence_ids": [
+        "finance.ev.004"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.007",
+      "text": "제주반도체 2026 기준 연수익률 값은 92.17%입니다.",
+      "evidence_ids": [
+        "finance.ev.007"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.008",
+      "text": "제주반도체 2026 기준 연간 MDD 값은 -31.04%입니다.",
+      "evidence_ids": [
+        "finance.ev.008"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.009",
+      "text": "제주반도체 2026 기준 거래량 값은 3822400주입니다.",
+      "evidence_ids": [
+        "finance.ev.009"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.010",
+      "text": "제주반도체 2026 기준 이동평균 대비 비율 값은 1.1144배입니다.",
+      "evidence_ids": [
+        "finance.ev.010"
+      ],
+      "audit_safe": true
+    }
+  ],
+  "warning_note": null,
+  "source_contexts": [
+    "financial_csv=제주반도체_재무.csv",
+    "stock_csv=제주반도체_주식.csv",
+    "warning_stock_csv=투자경고종목.csv",
+    "prompts.py summary/key_thesis/key_risks are preserved in the Chair View where available.",
+    "First Auditor claims are CSV-grounded one-to-one evidence claims for stable actual-information verification.",
+    "필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수"
+  ],
+  "raw_payload": {
+    "latest_financial_row": {
+      "year": 2025,
+      "sales": 302230571186.0,
+      "operating_income": 35873972312.0,
+      "net_income": 39499088944.0,
+      "total_assets": 335988104339.0,
+      "total_liabilities": 108883598978.0,
+      "total_equity": 227104505361.0,
+      "capex": 2724757610,
+      "ocf": 25554903161,
+      "fcf": 22830145551,
+      "interest": 1512495505.0,
+      "ROE": 17.3924726333426,
+      "영업이익률": 11.86973646353012,
+      "부채비율": 47.944270768614295,
+      "이자보상배율": 23.71839929005277
+    },
+    "latest_stock_metric": {
+      "year": 2026,
+      "annual_return_%": 92.17,
+      "annual_mdd_%": -31.04
+    },
+    "latest_yearly_summary": {
+      "year": 2026,
+      "close_start": 30650.0,
+      "close_end": 58900.0,
+      "close_high": 58900.0,
+      "close_low": 29050.0,
+      "volume_mean": 3822400.0,
+      "volume_ma_ratio_mean": 1.1144
+    },
+    "latest_recent_stock_row": {
+      "Date": "2026-05-13",
+      "Open": 53700.0,
+      "High": 59300.0,
+      "Low": 53200.0,
+      "Close": 58900.0,
+      "Volume": 3620050,
+      "Change": 0.0670289855072463,
+      "VKOSPI": NaN,
+      "일수익률_%": 6.70289855072463,
+      "누적최고가": 58900.0,
+      "드로다운_%": 0.0,
+      "거래량_20일평균": 4334574.25,
+      "거래량_이동평균대비비율": 0.8351569937924123
+    },
+    "audit_policy": "prompts_py_used_for_interpretation_claims_grounded_by_local_csv"
+  },
+  "packet_version": "finance_prompts_grounded_v4_compact"
+}

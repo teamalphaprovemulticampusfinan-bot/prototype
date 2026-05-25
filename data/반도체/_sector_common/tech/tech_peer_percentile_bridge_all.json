@@ -1,0 +1,1235 @@
+{
+  "created_at": "2026-05-07T22:07:52",
+  "packets": [
+    {
+      "created_at": "2026-05-07T22:07:51",
+      "module": "tech_peer_percentile_bridge",
+      "method": "Reference Universe percentile correction for Tech-to-Value Bridge",
+      "company_dir": "hansol",
+      "company_name": "한솔케미칼",
+      "ticker": "014680",
+      "sector_label": "소재",
+      "peer_group": "소재",
+      "cluster_id": 6,
+      "cluster_name": "반도체 후공정/패키징 cluster",
+      "sample_size": {
+        "universe": 30,
+        "same_cluster": 5,
+        "same_sector": 7,
+        "focal": 5
+      },
+      "base_bridge_score": 73.0,
+      "base_raw_tech_score": 100.0,
+      "base_bridge_grade": "COMMERCIALIZATION_WATCH",
+      "peer_composite_percentile": 80.58,
+      "peer_percentile_band": "peer 상위권",
+      "peer_adjustment_points": 4.89,
+      "peer_adjustment_reason": "peer composite percentile 80.58 기준 보정 +4.89점",
+      "peer_adjusted_bridge_score": 77.89,
+      "peer_adjusted_grade": "COMMERCIALIZATION_WATCH",
+      "peer_adjusted_interpretation": "peer 대비 기술·IP 신호는 유효하지만 고객 채택·양산·매출·FCF 연결은 계속 추적해야 합니다.",
+      "conservative_cap_applied": false,
+      "metrics": {
+        "universe_percentiles": {
+          "selection_score": {
+            "value": 1100.2721,
+            "percentile": 98.33,
+            "band": "peer 상위권",
+            "higher_is_better": true,
+            "description": "valuation/credit 후보 선별 점수",
+            "n": 30
+          },
+          "patent_rows": {
+            "value": 651.0,
+            "percentile": 95.0,
+            "band": "peer 상위권",
+            "higher_is_better": true,
+            "description": "KIPRIS/특허 레코드 수",
+            "n": 30
+          },
+          "document_chars": {
+            "value": 293346.0,
+            "percentile": 95.0,
+            "band": "peer 상위권",
+            "higher_is_better": true,
+            "description": "기술 문서 텍스트 커버리지",
+            "n": 30
+          },
+          "distance_to_centroid": {
+            "value": 0.7444,
+            "percentile": 5.0,
+            "band": "peer 하위권",
+            "higher_is_better": false,
+            "description": "cluster 중심 근접도",
+            "n": 30
+          }
+        },
+        "same_cluster_percentiles": {
+          "selection_score": {
+            "value": 1100.2721,
+            "percentile": 90.0,
+            "band": "peer 상위권",
+            "higher_is_better": true,
+            "description": "valuation/credit 후보 선별 점수",
+            "n": 5
+          },
+          "patent_rows": {
+            "value": 651.0,
+            "percentile": 70.0,
+            "band": "peer 중상위권",
+            "higher_is_better": true,
+            "description": "KIPRIS/특허 레코드 수",
+            "n": 5
+          },
+          "document_chars": {
+            "value": 293346.0,
+            "percentile": 70.0,
+            "band": "peer 중상위권",
+            "higher_is_better": true,
+            "description": "기술 문서 텍스트 커버리지",
+            "n": 5
+          },
+          "distance_to_centroid": {
+            "value": 0.7444,
+            "percentile": 30.0,
+            "band": "peer 중하위권",
+            "higher_is_better": false,
+            "description": "cluster 중심 근접도",
+            "n": 5
+          }
+        },
+        "same_sector_percentiles": {
+          "selection_score": {
+            "value": 1100.2721,
+            "percentile": 92.86,
+            "band": "peer 상위권",
+            "higher_is_better": true,
+            "description": "valuation/credit 후보 선별 점수",
+            "n": 7
+          },
+          "patent_rows": {
+            "value": 651.0,
+            "percentile": 92.86,
+            "band": "peer 상위권",
+            "higher_is_better": true,
+            "description": "KIPRIS/특허 레코드 수",
+            "n": 7
+          },
+          "document_chars": {
+            "value": 293346.0,
+            "percentile": 92.86,
+            "band": "peer 상위권",
+            "higher_is_better": true,
+            "description": "기술 문서 텍스트 커버리지",
+            "n": 7
+          },
+          "distance_to_centroid": {
+            "value": 0.7444,
+            "percentile": 21.43,
+            "band": "peer 중하위권",
+            "higher_is_better": false,
+            "description": "cluster 중심 근접도",
+            "n": 7
+          }
+        },
+        "focal_percentiles": {
+          "selection_score": {
+            "value": 1100.2721,
+            "percentile": 90.0,
+            "band": "peer 상위권",
+            "higher_is_better": true,
+            "description": "valuation/credit 후보 선별 점수",
+            "n": 5
+          },
+          "patent_rows": {
+            "value": 651.0,
+            "percentile": 70.0,
+            "band": "peer 중상위권",
+            "higher_is_better": true,
+            "description": "KIPRIS/특허 레코드 수",
+            "n": 5
+          },
+          "document_chars": {
+            "value": 293346.0,
+            "percentile": 70.0,
+            "band": "peer 중상위권",
+            "higher_is_better": true,
+            "description": "기술 문서 텍스트 커버리지",
+            "n": 5
+          },
+          "distance_to_centroid": {
+            "value": 0.7444,
+            "percentile": 30.0,
+            "band": "peer 중하위권",
+            "higher_is_better": false,
+            "description": "cluster 중심 근접도",
+            "n": 5
+          }
+        },
+        "nearest_similarity_score": 70.7,
+        "cluster_density_score": 75.62
+      },
+      "nearest_peers": [
+        {
+          "company_name": "엘티씨",
+          "ticker": "170920",
+          "sector_label": "소재",
+          "similarity": 0.494922,
+          "similarity_percent": 49.49,
+          "is_focal": 1
+        },
+        {
+          "company_name": "덕산테코피아",
+          "ticker": "317330",
+          "sector_label": "소재",
+          "similarity": 0.288426,
+          "similarity_percent": 28.84,
+          "is_focal": 1
+        },
+        {
+          "company_name": "한미반도체",
+          "ticker": "042700",
+          "sector_label": "후공정/패키징/테스트",
+          "similarity": 0.261842,
+          "similarity_percent": 26.18,
+          "is_focal": 1
+        },
+        {
+          "company_name": "네패스",
+          "ticker": "033640",
+          "sector_label": "후공정/패키징/테스트",
+          "similarity": 0.259956,
+          "similarity_percent": 26.0,
+          "is_focal": 1
+        }
+      ],
+      "current_assignment": {
+        "company_dir": "hansol",
+        "company_name": "한솔케미칼",
+        "ticker": "014680",
+        "sector_label": "소재",
+        "peer_group": "소재",
+        "semiconductor_tag": "소재",
+        "reference_role": "FOCAL_REPORT_TARGET",
+        "include_in_chair": 1,
+        "selected_for_30": 1,
+        "patent_csv": "data\\반도체\\한솔케미칼\\tech\\source\\kipris_hansol_patents.csv",
+        "patent_rows": 651,
+        "document_chars": 293346,
+        "document_source": "universe_csv+kipris_or_outputs",
+        "universe_id": "소재_01_014680",
+        "selection_score": 1100.2721,
+        "is_focal": 1,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "LOW_RISK",
+        "review_flag": "OK",
+        "cluster_id": 6,
+        "distance_to_centroid": 0.74441,
+        "top_terms": "한솔케미칼|h01m|있다|있게|c08f|조성물|제조방법|있는|자동차용|대한솔루션",
+        "normalized_patent_records": 651,
+        "company_matched_patents": 255,
+        "registered_patents": 409,
+        "alive_patents": 347,
+        "recent_5y_patents": 353,
+        "ipc_cpc_count": 217,
+        "h01l_patents": 0,
+        "technology_keyword_hit_total": 28,
+        "patent_ml_score": 89.59
+      },
+      "chair_reflection": {
+        "principle": "peer percentile은 기술/IP 포트폴리오의 상대적 위치를 보정하는 ML 신호이며, 고객 채택·양산·매출 전환·FCF 확인 전에는 단독 매수 근거로 쓰지 않는다.",
+        "score_use": "Chair 기술 섹션에는 base Bridge 점수와 peer percentile 보정 점수를 함께 표시한다.",
+        "audit_note": "보정은 reference universe 내부 상대평가이며 미래 수익률이나 투자 성과 검증이 아니다."
+      },
+      "source_files": {
+        "tech_peer_clusters": "data\\반도체\\_sector_common\\ml_universe\\tech_peer_clusters.json",
+        "tech_to_value_inputs": "data\\반도체\\한솔케미칼\\tech\\hansol_tech_to_value_inputs.json",
+        "tech_ml_signal": "data\\반도체\\한솔케미칼\\tech\\hansol_tech_ml_signal.json"
+      }
+    },
+    {
+      "created_at": "2026-05-07T22:07:51",
+      "module": "tech_peer_percentile_bridge",
+      "method": "Reference Universe percentile correction for Tech-to-Value Bridge",
+      "company_dir": "ltc",
+      "company_name": "엘티씨",
+      "ticker": "170920",
+      "sector_label": "소재",
+      "peer_group": "소재",
+      "cluster_id": 6,
+      "cluster_name": "반도체 후공정/패키징 cluster",
+      "sample_size": {
+        "universe": 30,
+        "same_cluster": 5,
+        "same_sector": 7,
+        "focal": 5
+      },
+      "base_bridge_score": 64.0,
+      "base_raw_tech_score": 100.0,
+      "base_bridge_grade": "COMMERCIALIZATION_WATCH",
+      "peer_composite_percentile": 76.17,
+      "peer_percentile_band": "peer 중상위권",
+      "peer_adjustment_points": 4.19,
+      "peer_adjustment_reason": "peer composite percentile 76.17 기준 보정 +4.19점",
+      "peer_adjusted_bridge_score": 68.19,
+      "peer_adjusted_grade": "TECH_FINANCE_GAP",
+      "peer_adjusted_interpretation": "기술·IP 신호만으로 가치평가 가산을 확대하기 어렵고 재무 전환 근거 확인이 필요합니다.",
+      "conservative_cap_applied": false,
+      "metrics": {
+        "universe_percentiles": {
+          "selection_score": {
+            "value": 1090.7717,
+            "percentile": 95.0,
+            "band": "peer 상위권",
+            "higher_is_better": true,
+            "description": "valuation/credit 후보 선별 점수",
+            "n": 30
+          },
+          "patent_rows": {
+            "value": 506.0,
+            "percentile": 91.67,
+            "band": "peer 상위권",
+            "higher_is_better": true,
+            "description": "KIPRIS/특허 레코드 수",
+            "n": 30
+          },
+          "document_chars": {
+            "value": 264192.0,
+            "percentile": 91.67,
+            "band": "peer 상위권",
+            "higher_is_better": true,
+            "description": "기술 문서 텍스트 커버리지",
+            "n": 30
+          },
+          "distance_to_centroid": {
+            "value": 0.6777,
+            "percentile": 15.0,
+            "band": "peer 하위권",
+            "higher_is_better": false,
+            "description": "cluster 중심 근접도",
+            "n": 30
+          }
+        },
+        "same_cluster_percentiles": {
+          "selection_score": {
+            "value": 1090.7717,
+            "percentile": 70.0,
+            "band": "peer 중상위권",
+            "higher_is_better": true,
+            "description": "valuation/credit 후보 선별 점수",
+            "n": 5
+          },
+          "patent_rows": {
+            "value": 506.0,
+            "percentile": 50.0,
+            "band": "peer 중위권",
+            "higher_is_better": true,
+            "description": "KIPRIS/특허 레코드 수",
+            "n": 5
+          },
+          "document_chars": {
+            "value": 264192.0,
+            "percentile": 50.0,
+            "band": "peer 중위권",
+            "higher_is_better": true,
+            "description": "기술 문서 텍스트 커버리지",
+            "n": 5
+          },
+          "distance_to_centroid": {
+            "value": 0.6777,
+            "percentile": 90.0,
+            "band": "peer 상위권",
+            "higher_is_better": false,
+            "description": "cluster 중심 근접도",
+            "n": 5
+          }
+        },
+        "same_sector_percentiles": {
+          "selection_score": {
+            "value": 1090.7717,
+            "percentile": 78.57,
+            "band": "peer 중상위권",
+            "higher_is_better": true,
+            "description": "valuation/credit 후보 선별 점수",
+            "n": 7
+          },
+          "patent_rows": {
+            "value": 506.0,
+            "percentile": 78.57,
+            "band": "peer 중상위권",
+            "higher_is_better": true,
+            "description": "KIPRIS/특허 레코드 수",
+            "n": 7
+          },
+          "document_chars": {
+            "value": 264192.0,
+            "percentile": 78.57,
+            "band": "peer 중상위권",
+            "higher_is_better": true,
+            "description": "기술 문서 텍스트 커버리지",
+            "n": 7
+          },
+          "distance_to_centroid": {
+            "value": 0.6777,
+            "percentile": 35.71,
+            "band": "peer 중하위권",
+            "higher_is_better": false,
+            "description": "cluster 중심 근접도",
+            "n": 7
+          }
+        },
+        "focal_percentiles": {
+          "selection_score": {
+            "value": 1090.7717,
+            "percentile": 70.0,
+            "band": "peer 중상위권",
+            "higher_is_better": true,
+            "description": "valuation/credit 후보 선별 점수",
+            "n": 5
+          },
+          "patent_rows": {
+            "value": 506.0,
+            "percentile": 50.0,
+            "band": "peer 중위권",
+            "higher_is_better": true,
+            "description": "KIPRIS/특허 레코드 수",
+            "n": 5
+          },
+          "document_chars": {
+            "value": 264192.0,
+            "percentile": 50.0,
+            "band": "peer 중위권",
+            "higher_is_better": true,
+            "description": "기술 문서 텍스트 커버리지",
+            "n": 5
+          },
+          "distance_to_centroid": {
+            "value": 0.6777,
+            "percentile": 90.0,
+            "band": "peer 상위권",
+            "higher_is_better": false,
+            "description": "cluster 중심 근접도",
+            "n": 5
+          }
+        },
+        "nearest_similarity_score": 70.7,
+        "cluster_density_score": 75.62
+      },
+      "nearest_peers": [
+        {
+          "company_name": "한솔케미칼",
+          "ticker": "014680",
+          "sector_label": "소재",
+          "similarity": 0.494922,
+          "similarity_percent": 49.49,
+          "is_focal": 1
+        },
+        {
+          "company_name": "한미반도체",
+          "ticker": "042700",
+          "sector_label": "후공정/패키징/테스트",
+          "similarity": 0.372232,
+          "similarity_percent": 37.22,
+          "is_focal": 1
+        },
+        {
+          "company_name": "네패스",
+          "ticker": "033640",
+          "sector_label": "후공정/패키징/테스트",
+          "similarity": 0.355692,
+          "similarity_percent": 35.57,
+          "is_focal": 1
+        },
+        {
+          "company_name": "덕산테코피아",
+          "ticker": "317330",
+          "sector_label": "소재",
+          "similarity": 0.31954,
+          "similarity_percent": 31.95,
+          "is_focal": 1
+        }
+      ],
+      "current_assignment": {
+        "company_dir": "ltc",
+        "company_name": "엘티씨",
+        "ticker": "170920",
+        "sector_label": "소재",
+        "peer_group": "소재",
+        "semiconductor_tag": "소재",
+        "reference_role": "FOCAL_REPORT_TARGET",
+        "include_in_chair": 1,
+        "selected_for_30": 1,
+        "patent_csv": "data\\반도체\\엘티씨\\tech\\source\\kipris_ltc_patents.csv",
+        "patent_rows": 506,
+        "document_chars": 264192,
+        "document_source": "universe_csv+kipris_or_outputs",
+        "universe_id": "소재_02_170920",
+        "selection_score": 1090.7717,
+        "is_focal": 1,
+        "valuation_proxy_label": "FAIR",
+        "credit_proxy_label": "LOW_RISK",
+        "review_flag": "OK",
+        "cluster_id": 6,
+        "distance_to_centroid": 0.67768,
+        "top_terms": "있다|위한|있는|제1|윤활유|것으로|의해|것을|따른|따라",
+        "normalized_patent_records": 506,
+        "company_matched_patents": 92,
+        "registered_patents": 336,
+        "alive_patents": 238,
+        "recent_5y_patents": 145,
+        "ipc_cpc_count": 248,
+        "h01l_patents": 1,
+        "technology_keyword_hit_total": 43,
+        "patent_ml_score": 89.39
+      },
+      "chair_reflection": {
+        "principle": "peer percentile은 기술/IP 포트폴리오의 상대적 위치를 보정하는 ML 신호이며, 고객 채택·양산·매출 전환·FCF 확인 전에는 단독 매수 근거로 쓰지 않는다.",
+        "score_use": "Chair 기술 섹션에는 base Bridge 점수와 peer percentile 보정 점수를 함께 표시한다.",
+        "audit_note": "보정은 reference universe 내부 상대평가이며 미래 수익률이나 투자 성과 검증이 아니다."
+      },
+      "source_files": {
+        "tech_peer_clusters": "data\\반도체\\_sector_common\\ml_universe\\tech_peer_clusters.json",
+        "tech_to_value_inputs": "data\\반도체\\엘티씨\\tech\\ltc_tech_to_value_inputs.json",
+        "tech_ml_signal": "data\\반도체\\엘티씨\\tech\\ltc_tech_ml_signal.json"
+      }
+    },
+    {
+      "created_at": "2026-05-07T22:07:52",
+      "module": "tech_peer_percentile_bridge",
+      "method": "Reference Universe percentile correction for Tech-to-Value Bridge",
+      "company_dir": "nepes",
+      "company_name": "네패스",
+      "ticker": "033640",
+      "sector_label": "후공정/패키징/테스트",
+      "peer_group": "후공정/패키징/테스트",
+      "cluster_id": 6,
+      "cluster_name": "반도체 후공정/패키징 cluster",
+      "sample_size": {
+        "universe": 30,
+        "same_cluster": 5,
+        "same_sector": 6,
+        "focal": 5
+      },
+      "base_bridge_score": 77.0,
+      "base_raw_tech_score": 100.0,
+      "base_bridge_grade": "COMMERCIALIZATION_WATCH",
+      "peer_composite_percentile": 72.08,
+      "peer_percentile_band": "peer 중상위권",
+      "peer_adjustment_points": 3.53,
+      "peer_adjustment_reason": "peer composite percentile 72.08 기준 보정 +3.53점",
+      "peer_adjusted_bridge_score": 80.53,
+      "peer_adjusted_grade": "COMMERCIALIZATION_WATCH",
+      "peer_adjusted_interpretation": "peer 대비 기술·IP 신호는 유효하지만 고객 채택·양산·매출·FCF 연결은 계속 추적해야 합니다.",
+      "conservative_cap_applied": false,
+      "metrics": {
+        "universe_percentiles": {
+          "selection_score": {
+            "value": 1082.296,
+            "percentile": 91.67,
+            "band": "peer 상위권",
+            "higher_is_better": true,
+            "description": "valuation/credit 후보 선별 점수",
+            "n": 30
+          },
+          "patent_rows": {
+            "value": 420.0,
+            "percentile": 88.33,
+            "band": "peer 상위권",
+            "higher_is_better": true,
+            "description": "KIPRIS/특허 레코드 수",
+            "n": 30
+          },
+          "document_chars": {
+            "value": 200762.0,
+            "percentile": 88.33,
+            "band": "peer 상위권",
+            "higher_is_better": true,
+            "description": "기술 문서 텍스트 커버리지",
+            "n": 30
+          },
+          "distance_to_centroid": {
+            "value": 0.7013,
+            "percentile": 8.33,
+            "band": "peer 하위권",
+            "higher_is_better": false,
+            "description": "cluster 중심 근접도",
+            "n": 30
+          }
+        },
+        "same_cluster_percentiles": {
+          "selection_score": {
+            "value": 1082.296,
+            "percentile": 50.0,
+            "band": "peer 중위권",
+            "higher_is_better": true,
+            "description": "valuation/credit 후보 선별 점수",
+            "n": 5
+          },
+          "patent_rows": {
+            "value": 420.0,
+            "percentile": 30.0,
+            "band": "peer 중하위권",
+            "higher_is_better": true,
+            "description": "KIPRIS/특허 레코드 수",
+            "n": 5
+          },
+          "document_chars": {
+            "value": 200762.0,
+            "percentile": 30.0,
+            "band": "peer 중하위권",
+            "higher_is_better": true,
+            "description": "기술 문서 텍스트 커버리지",
+            "n": 5
+          },
+          "distance_to_centroid": {
+            "value": 0.7013,
+            "percentile": 50.0,
+            "band": "peer 중위권",
+            "higher_is_better": false,
+            "description": "cluster 중심 근접도",
+            "n": 5
+          }
+        },
+        "same_sector_percentiles": {
+          "selection_score": {
+            "value": 1082.296,
+            "percentile": 91.67,
+            "band": "peer 상위권",
+            "higher_is_better": true,
+            "description": "valuation/credit 후보 선별 점수",
+            "n": 6
+          },
+          "patent_rows": {
+            "value": 420.0,
+            "percentile": 75.0,
+            "band": "peer 중상위권",
+            "higher_is_better": true,
+            "description": "KIPRIS/특허 레코드 수",
+            "n": 6
+          },
+          "document_chars": {
+            "value": 200762.0,
+            "percentile": 75.0,
+            "band": "peer 중상위권",
+            "higher_is_better": true,
+            "description": "기술 문서 텍스트 커버리지",
+            "n": 6
+          },
+          "distance_to_centroid": {
+            "value": 0.7013,
+            "percentile": 8.33,
+            "band": "peer 하위권",
+            "higher_is_better": false,
+            "description": "cluster 중심 근접도",
+            "n": 6
+          }
+        },
+        "focal_percentiles": {
+          "selection_score": {
+            "value": 1082.296,
+            "percentile": 50.0,
+            "band": "peer 중위권",
+            "higher_is_better": true,
+            "description": "valuation/credit 후보 선별 점수",
+            "n": 5
+          },
+          "patent_rows": {
+            "value": 420.0,
+            "percentile": 30.0,
+            "band": "peer 중하위권",
+            "higher_is_better": true,
+            "description": "KIPRIS/특허 레코드 수",
+            "n": 5
+          },
+          "document_chars": {
+            "value": 200762.0,
+            "percentile": 30.0,
+            "band": "peer 중하위권",
+            "higher_is_better": true,
+            "description": "기술 문서 텍스트 커버리지",
+            "n": 5
+          },
+          "distance_to_centroid": {
+            "value": 0.7013,
+            "percentile": 50.0,
+            "band": "peer 중위권",
+            "higher_is_better": false,
+            "description": "cluster 중심 근접도",
+            "n": 5
+          }
+        },
+        "nearest_similarity_score": 82.21,
+        "cluster_density_score": 75.62
+      },
+      "nearest_peers": [
+        {
+          "company_name": "한미반도체",
+          "ticker": "042700",
+          "sector_label": "후공정/패키징/테스트",
+          "similarity": 0.575525,
+          "similarity_percent": 57.55,
+          "is_focal": 1
+        },
+        {
+          "company_name": "엘티씨",
+          "ticker": "170920",
+          "sector_label": "소재",
+          "similarity": 0.355692,
+          "similarity_percent": 35.57,
+          "is_focal": 1
+        },
+        {
+          "company_name": "덕산테코피아",
+          "ticker": "317330",
+          "sector_label": "소재",
+          "similarity": 0.269704,
+          "similarity_percent": 26.97,
+          "is_focal": 1
+        },
+        {
+          "company_name": "한솔케미칼",
+          "ticker": "014680",
+          "sector_label": "소재",
+          "similarity": 0.259956,
+          "similarity_percent": 26.0,
+          "is_focal": 1
+        }
+      ],
+      "current_assignment": {
+        "company_dir": "nepes",
+        "company_name": "네패스",
+        "ticker": "033640",
+        "sector_label": "후공정/패키징/테스트",
+        "peer_group": "후공정/패키징/테스트",
+        "semiconductor_tag": "후공정/패키징/테스트",
+        "reference_role": "FOCAL_REPORT_TARGET",
+        "include_in_chair": 1,
+        "selected_for_30": 1,
+        "patent_csv": "data\\반도체\\네패스\\tech\\source\\kipris_nepes_patents.csv",
+        "patent_rows": 420,
+        "document_chars": 200762,
+        "document_source": "universe_csv+kipris_or_outputs",
+        "universe_id": "후공정_패키징_테스트_01_033640",
+        "selection_score": 1082.296,
+        "is_focal": 1,
+        "valuation_proxy_label": "ATTRACTIVE",
+        "credit_proxy_label": "MEDIUM_RISK",
+        "review_flag": "OK",
+        "cluster_id": 6,
+        "distance_to_centroid": 0.701323,
+        "top_terms": "반도체|h10w|제1|네패스|패키지|반도체 패키지|재배선|제2|상에|전기적으로",
+        "normalized_patent_records": 420,
+        "company_matched_patents": 408,
+        "registered_patents": 310,
+        "alive_patents": 241,
+        "recent_5y_patents": 108,
+        "ipc_cpc_count": 102,
+        "h01l_patents": 6,
+        "technology_keyword_hit_total": 2,
+        "patent_ml_score": 86.69
+      },
+      "chair_reflection": {
+        "principle": "peer percentile은 기술/IP 포트폴리오의 상대적 위치를 보정하는 ML 신호이며, 고객 채택·양산·매출 전환·FCF 확인 전에는 단독 매수 근거로 쓰지 않는다.",
+        "score_use": "Chair 기술 섹션에는 base Bridge 점수와 peer percentile 보정 점수를 함께 표시한다.",
+        "audit_note": "보정은 reference universe 내부 상대평가이며 미래 수익률이나 투자 성과 검증이 아니다."
+      },
+      "source_files": {
+        "tech_peer_clusters": "data\\반도체\\_sector_common\\ml_universe\\tech_peer_clusters.json",
+        "tech_to_value_inputs": "data\\반도체\\네패스\\tech\\nepes_tech_to_value_inputs.json",
+        "tech_ml_signal": "data\\반도체\\네패스\\tech\\nepes_tech_ml_signal.json"
+      }
+    },
+    {
+      "created_at": "2026-05-07T22:07:52",
+      "module": "tech_peer_percentile_bridge",
+      "method": "Reference Universe percentile correction for Tech-to-Value Bridge",
+      "company_dir": "hanmi",
+      "company_name": "한미반도체",
+      "ticker": "042700",
+      "sector_label": "후공정/패키징/테스트",
+      "peer_group": "후공정/패키징/테스트",
+      "cluster_id": 6,
+      "cluster_name": "반도체 후공정/패키징 cluster",
+      "sample_size": {
+        "universe": 30,
+        "same_cluster": 5,
+        "same_sector": 6,
+        "focal": 5
+      },
+      "base_bridge_score": 84.0,
+      "base_raw_tech_score": 100.0,
+      "base_bridge_grade": "VALUE_CONVERSION_CONFIRMED",
+      "peer_composite_percentile": 70.81,
+      "peer_percentile_band": "peer 중상위권",
+      "peer_adjustment_points": 3.33,
+      "peer_adjustment_reason": "peer composite percentile 70.81 기준 보정 +3.33점",
+      "peer_adjusted_bridge_score": 87.33,
+      "peer_adjusted_grade": "VALUE_CONVERSION_CONFIRMED",
+      "peer_adjusted_interpretation": "peer 상위권 기술·IP 신호가 확인되어 기술-가치 연결을 긍정 보조 근거로 반영할 수 있습니다.",
+      "conservative_cap_applied": false,
+      "metrics": {
+        "universe_percentiles": {
+          "selection_score": {
+            "value": 1071.7905,
+            "percentile": 88.33,
+            "band": "peer 상위권",
+            "higher_is_better": true,
+            "description": "valuation/credit 후보 선별 점수",
+            "n": 30
+          },
+          "patent_rows": {
+            "value": 896.0,
+            "percentile": 98.33,
+            "band": "peer 상위권",
+            "higher_is_better": true,
+            "description": "KIPRIS/특허 레코드 수",
+            "n": 30
+          },
+          "document_chars": {
+            "value": 390296.0,
+            "percentile": 98.33,
+            "band": "peer 상위권",
+            "higher_is_better": true,
+            "description": "기술 문서 텍스트 커버리지",
+            "n": 30
+          },
+          "distance_to_centroid": {
+            "value": 0.7003,
+            "percentile": 11.67,
+            "band": "peer 하위권",
+            "higher_is_better": false,
+            "description": "cluster 중심 근접도",
+            "n": 30
+          }
+        },
+        "same_cluster_percentiles": {
+          "selection_score": {
+            "value": 1071.7905,
+            "percentile": 30.0,
+            "band": "peer 중하위권",
+            "higher_is_better": true,
+            "description": "valuation/credit 후보 선별 점수",
+            "n": 5
+          },
+          "patent_rows": {
+            "value": 896.0,
+            "percentile": 90.0,
+            "band": "peer 상위권",
+            "higher_is_better": true,
+            "description": "KIPRIS/특허 레코드 수",
+            "n": 5
+          },
+          "document_chars": {
+            "value": 390296.0,
+            "percentile": 90.0,
+            "band": "peer 상위권",
+            "higher_is_better": true,
+            "description": "기술 문서 텍스트 커버리지",
+            "n": 5
+          },
+          "distance_to_centroid": {
+            "value": 0.7003,
+            "percentile": 70.0,
+            "band": "peer 중상위권",
+            "higher_is_better": false,
+            "description": "cluster 중심 근접도",
+            "n": 5
+          }
+        },
+        "same_sector_percentiles": {
+          "selection_score": {
+            "value": 1071.7905,
+            "percentile": 75.0,
+            "band": "peer 중상위권",
+            "higher_is_better": true,
+            "description": "valuation/credit 후보 선별 점수",
+            "n": 6
+          },
+          "patent_rows": {
+            "value": 896.0,
+            "percentile": 91.67,
+            "band": "peer 상위권",
+            "higher_is_better": true,
+            "description": "KIPRIS/특허 레코드 수",
+            "n": 6
+          },
+          "document_chars": {
+            "value": 390296.0,
+            "percentile": 91.67,
+            "band": "peer 상위권",
+            "higher_is_better": true,
+            "description": "기술 문서 텍스트 커버리지",
+            "n": 6
+          },
+          "distance_to_centroid": {
+            "value": 0.7003,
+            "percentile": 25.0,
+            "band": "peer 중하위권",
+            "higher_is_better": false,
+            "description": "cluster 중심 근접도",
+            "n": 6
+          }
+        },
+        "focal_percentiles": {
+          "selection_score": {
+            "value": 1071.7905,
+            "percentile": 30.0,
+            "band": "peer 중하위권",
+            "higher_is_better": true,
+            "description": "valuation/credit 후보 선별 점수",
+            "n": 5
+          },
+          "patent_rows": {
+            "value": 896.0,
+            "percentile": 90.0,
+            "band": "peer 상위권",
+            "higher_is_better": true,
+            "description": "KIPRIS/특허 레코드 수",
+            "n": 5
+          },
+          "document_chars": {
+            "value": 390296.0,
+            "percentile": 90.0,
+            "band": "peer 상위권",
+            "higher_is_better": true,
+            "description": "기술 문서 텍스트 커버리지",
+            "n": 5
+          },
+          "distance_to_centroid": {
+            "value": 0.7003,
+            "percentile": 70.0,
+            "band": "peer 중상위권",
+            "higher_is_better": false,
+            "description": "cluster 중심 근접도",
+            "n": 5
+          }
+        },
+        "nearest_similarity_score": 82.21,
+        "cluster_density_score": 75.62
+      },
+      "nearest_peers": [
+        {
+          "company_name": "네패스",
+          "ticker": "033640",
+          "sector_label": "후공정/패키징/테스트",
+          "similarity": 0.575525,
+          "similarity_percent": 57.55,
+          "is_focal": 1
+        },
+        {
+          "company_name": "엘티씨",
+          "ticker": "170920",
+          "sector_label": "소재",
+          "similarity": 0.372232,
+          "similarity_percent": 37.22,
+          "is_focal": 1
+        },
+        {
+          "company_name": "한솔케미칼",
+          "ticker": "014680",
+          "sector_label": "소재",
+          "similarity": 0.261842,
+          "similarity_percent": 26.18,
+          "is_focal": 1
+        },
+        {
+          "company_name": "덕산테코피아",
+          "ticker": "317330",
+          "sector_label": "소재",
+          "similarity": 0.254723,
+          "similarity_percent": 25.47,
+          "is_focal": 1
+        }
+      ],
+      "current_assignment": {
+        "company_dir": "hanmi",
+        "company_name": "한미반도체",
+        "ticker": "042700",
+        "sector_label": "후공정/패키징/테스트",
+        "peer_group": "후공정/패키징/테스트",
+        "semiconductor_tag": "후공정/패키징/테스트",
+        "reference_role": "FOCAL_REPORT_TARGET",
+        "include_in_chair": 1,
+        "selected_for_30": 1,
+        "patent_csv": "data\\반도체\\한미반도체\\tech\\source\\kipris_hanmi_patents.csv",
+        "patent_rows": 896,
+        "document_chars": 390296,
+        "document_source": "universe_csv+kipris_or_outputs",
+        "universe_id": "후공정_패키징_테스트_02_042700",
+        "selection_score": 1071.7905,
+        "is_focal": 1,
+        "valuation_proxy_label": "FAIR",
+        "credit_proxy_label": "LOW_RISK",
+        "review_flag": "AUDITOR_REVIEW;CREDIT_ANOMALY_TOP15PCT",
+        "cluster_id": 6,
+        "distance_to_centroid": 0.70034,
+        "top_terms": "반도체|h10p|a61k|패키지|한미반도체|반도체 패키지|이의|있는|한미반도체 반도체|한미약품",
+        "normalized_patent_records": 896,
+        "company_matched_patents": 500,
+        "registered_patents": 511,
+        "alive_patents": 321,
+        "recent_5y_patents": 186,
+        "ipc_cpc_count": 133,
+        "h01l_patents": 1,
+        "technology_keyword_hit_total": 25,
+        "patent_ml_score": 77.52
+      },
+      "chair_reflection": {
+        "principle": "peer percentile은 기술/IP 포트폴리오의 상대적 위치를 보정하는 ML 신호이며, 고객 채택·양산·매출 전환·FCF 확인 전에는 단독 매수 근거로 쓰지 않는다.",
+        "score_use": "Chair 기술 섹션에는 base Bridge 점수와 peer percentile 보정 점수를 함께 표시한다.",
+        "audit_note": "보정은 reference universe 내부 상대평가이며 미래 수익률이나 투자 성과 검증이 아니다."
+      },
+      "source_files": {
+        "tech_peer_clusters": "data\\반도체\\_sector_common\\ml_universe\\tech_peer_clusters.json",
+        "tech_to_value_inputs": "data\\반도체\\한미반도체\\tech\\hanmi_tech_to_value_inputs.json",
+        "tech_ml_signal": "data\\반도체\\한미반도체\\tech\\hanmi_tech_ml_signal.json"
+      }
+    },
+    {
+      "created_at": "2026-05-07T22:07:52",
+      "module": "tech_peer_percentile_bridge",
+      "method": "Reference Universe percentile correction for Tech-to-Value Bridge",
+      "company_dir": "duksan",
+      "company_name": "덕산테코피아",
+      "ticker": "317330",
+      "sector_label": "소재",
+      "peer_group": "소재",
+      "cluster_id": 6,
+      "cluster_name": "반도체 후공정/패키징 cluster",
+      "sample_size": {
+        "universe": 30,
+        "same_cluster": 5,
+        "same_sector": 7,
+        "focal": 5
+      },
+      "base_bridge_score": 80.0,
+      "base_raw_tech_score": 100.0,
+      "base_bridge_grade": "VALUE_CONVERSION_CONFIRMED",
+      "peer_composite_percentile": 59.23,
+      "peer_percentile_band": "peer 중위권",
+      "peer_adjustment_points": 1.48,
+      "peer_adjustment_reason": "peer composite percentile 59.23 기준 보정 +1.48점",
+      "peer_adjusted_bridge_score": 81.48,
+      "peer_adjusted_grade": "COMMERCIALIZATION_WATCH",
+      "peer_adjusted_interpretation": "peer 대비 기술·IP 신호는 유효하지만 고객 채택·양산·매출·FCF 연결은 계속 추적해야 합니다.",
+      "conservative_cap_applied": false,
+      "metrics": {
+        "universe_percentiles": {
+          "selection_score": {
+            "value": 1026.9482,
+            "percentile": 85.0,
+            "band": "peer 상위권",
+            "higher_is_better": true,
+            "description": "valuation/credit 후보 선별 점수",
+            "n": 30
+          },
+          "patent_rows": {
+            "value": 38.0,
+            "percentile": 85.0,
+            "band": "peer 상위권",
+            "higher_is_better": true,
+            "description": "KIPRIS/특허 레코드 수",
+            "n": 30
+          },
+          "document_chars": {
+            "value": 35526.0,
+            "percentile": 85.0,
+            "band": "peer 상위권",
+            "higher_is_better": true,
+            "description": "기술 문서 텍스트 커버리지",
+            "n": 30
+          },
+          "distance_to_centroid": {
+            "value": 0.7895,
+            "percentile": 1.67,
+            "band": "peer 하위권",
+            "higher_is_better": false,
+            "description": "cluster 중심 근접도",
+            "n": 30
+          }
+        },
+        "same_cluster_percentiles": {
+          "selection_score": {
+            "value": 1026.9482,
+            "percentile": 10.0,
+            "band": "peer 하위권",
+            "higher_is_better": true,
+            "description": "valuation/credit 후보 선별 점수",
+            "n": 5
+          },
+          "patent_rows": {
+            "value": 38.0,
+            "percentile": 10.0,
+            "band": "peer 하위권",
+            "higher_is_better": true,
+            "description": "KIPRIS/특허 레코드 수",
+            "n": 5
+          },
+          "document_chars": {
+            "value": 35526.0,
+            "percentile": 10.0,
+            "band": "peer 하위권",
+            "higher_is_better": true,
+            "description": "기술 문서 텍스트 커버리지",
+            "n": 5
+          },
+          "distance_to_centroid": {
+            "value": 0.7895,
+            "percentile": 10.0,
+            "band": "peer 하위권",
+            "higher_is_better": false,
+            "description": "cluster 중심 근접도",
+            "n": 5
+          }
+        },
+        "same_sector_percentiles": {
+          "selection_score": {
+            "value": 1026.9482,
+            "percentile": 64.29,
+            "band": "peer 중상위권",
+            "higher_is_better": true,
+            "description": "valuation/credit 후보 선별 점수",
+            "n": 7
+          },
+          "patent_rows": {
+            "value": 38.0,
+            "percentile": 64.29,
+            "band": "peer 중상위권",
+            "higher_is_better": true,
+            "description": "KIPRIS/특허 레코드 수",
+            "n": 7
+          },
+          "document_chars": {
+            "value": 35526.0,
+            "percentile": 64.29,
+            "band": "peer 중상위권",
+            "higher_is_better": true,
+            "description": "기술 문서 텍스트 커버리지",
+            "n": 7
+          },
+          "distance_to_centroid": {
+            "value": 0.7895,
+            "percentile": 7.14,
+            "band": "peer 하위권",
+            "higher_is_better": false,
+            "description": "cluster 중심 근접도",
+            "n": 7
+          }
+        },
+        "focal_percentiles": {
+          "selection_score": {
+            "value": 1026.9482,
+            "percentile": 10.0,
+            "band": "peer 하위권",
+            "higher_is_better": true,
+            "description": "valuation/credit 후보 선별 점수",
+            "n": 5
+          },
+          "patent_rows": {
+            "value": 38.0,
+            "percentile": 10.0,
+            "band": "peer 하위권",
+            "higher_is_better": true,
+            "description": "KIPRIS/특허 레코드 수",
+            "n": 5
+          },
+          "document_chars": {
+            "value": 35526.0,
+            "percentile": 10.0,
+            "band": "peer 하위권",
+            "higher_is_better": true,
+            "description": "기술 문서 텍스트 커버리지",
+            "n": 5
+          },
+          "distance_to_centroid": {
+            "value": 0.7895,
+            "percentile": 10.0,
+            "band": "peer 하위권",
+            "higher_is_better": false,
+            "description": "cluster 중심 근접도",
+            "n": 5
+          }
+        },
+        "nearest_similarity_score": 45.64,
+        "cluster_density_score": 75.62
+      },
+      "nearest_peers": [
+        {
+          "company_name": "엘티씨",
+          "ticker": "170920",
+          "sector_label": "소재",
+          "similarity": 0.31954,
+          "similarity_percent": 31.95,
+          "is_focal": 1
+        },
+        {
+          "company_name": "한솔케미칼",
+          "ticker": "014680",
+          "sector_label": "소재",
+          "similarity": 0.288426,
+          "similarity_percent": 28.84,
+          "is_focal": 1
+        },
+        {
+          "company_name": "네패스",
+          "ticker": "033640",
+          "sector_label": "후공정/패키징/테스트",
+          "similarity": 0.269704,
+          "similarity_percent": 26.97,
+          "is_focal": 1
+        },
+        {
+          "company_name": "한미반도체",
+          "ticker": "042700",
+          "sector_label": "후공정/패키징/테스트",
+          "similarity": 0.254723,
+          "similarity_percent": 25.47,
+          "is_focal": 1
+        }
+      ],
+      "current_assignment": {
+        "company_dir": "duksan",
+        "company_name": "덕산테코피아",
+        "ticker": "317330",
+        "sector_label": "소재",
+        "peer_group": "소재",
+        "semiconductor_tag": "소재",
+        "reference_role": "FOCAL_REPORT_TARGET",
+        "include_in_chair": 1,
+        "selected_for_30": 1,
+        "patent_csv": "data\\반도체\\덕산테코피아\\tech\\source\\kipris_duksan_patents.csv",
+        "patent_rows": 38,
+        "document_chars": 35526,
+        "document_source": "universe_csv+kipris_or_outputs",
+        "universe_id": "소재_03_317330",
+        "selection_score": 1026.9482,
+        "is_focal": 1,
+        "valuation_proxy_label": "EXPENSIVE",
+        "credit_proxy_label": "HIGH_RISK",
+        "review_flag": "AUDITOR_REVIEW;CREDIT_ANOMALY_TOP15PCT",
+        "cluster_id": 6,
+        "distance_to_centroid": 0.789461,
+        "top_terms": "덕산테코피아|반도체|정량화|수지|조성물|특허|등록|있다|g03f|캐니스터",
+        "normalized_patent_records": 38,
+        "company_matched_patents": 38,
+        "registered_patents": 30,
+        "alive_patents": 29,
+        "recent_5y_patents": 5,
+        "ipc_cpc_count": 27,
+        "h01l_patents": 0,
+        "technology_keyword_hit_total": 8,
+        "patent_ml_score": 49.23
+      },
+      "chair_reflection": {
+        "principle": "peer percentile은 기술/IP 포트폴리오의 상대적 위치를 보정하는 ML 신호이며, 고객 채택·양산·매출 전환·FCF 확인 전에는 단독 매수 근거로 쓰지 않는다.",
+        "score_use": "Chair 기술 섹션에는 base Bridge 점수와 peer percentile 보정 점수를 함께 표시한다.",
+        "audit_note": "보정은 reference universe 내부 상대평가이며 미래 수익률이나 투자 성과 검증이 아니다."
+      },
+      "source_files": {
+        "tech_peer_clusters": "data\\반도체\\_sector_common\\ml_universe\\tech_peer_clusters.json",
+        "tech_to_value_inputs": "data\\반도체\\덕산테코피아\\tech\\duksan_tech_to_value_inputs.json",
+        "tech_ml_signal": "data\\반도체\\덕산테코피아\\tech\\duksan_tech_ml_signal.json"
+      }
+    }
+  ]
+}

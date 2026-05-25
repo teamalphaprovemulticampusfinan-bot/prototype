@@ -1,0 +1,32 @@
+{
+  "date": "20260525",
+  "save_dir": "C:\\Agent_6.9\\data\\_global_common\\macro",
+  "file_count": 4,
+  "files": [
+    {
+      "file": "macro_run_summary_20260525.csv",
+      "size_kb": 0.24,
+      "modified_at": "2026-05-25 04:05:30"
+    },
+    {
+      "file": "macro_공통_20260525.csv",
+      "size_kb": 18.26,
+      "modified_at": "2026-05-25 00:24:18"
+    },
+    {
+      "file": "macro_월별_20260525.csv",
+      "size_kb": 172.3,
+      "modified_at": "2026-05-25 00:24:18"
+    },
+    {
+      "file": "macro_일별_20260525.csv",
+      "size_kb": 3452.8,
+      "modified_at": "2026-05-25 00:24:18"
+    }
+  ],
+  "notes": [
+    "GDELT/Serper/NewsAPI failures are non-fatal because RSS, Google News RSS, official fallback, USGS, FRED and PortWatch layers are merged.",
+    "SMM login-protected prices are not bypassed. Use SMM_COOKIE or SMM_BEARER_TOKEN only with legitimate access.",
+    "Set MACRO_FORCE_REFRESH=1 to force full recollection; otherwise same-day outputs are reused to avoid bottlenecks."
+  ]
+}

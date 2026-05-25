@@ -1,0 +1,42 @@
+{
+  "agent": "finance",
+  "status": "PARTIAL",
+  "created_at": "2026-05-20T13:57:54",
+  "started_at": "2026-05-20T13:57:20",
+  "ended_at": "2026-05-20T13:57:54",
+  "company_dir": "isc",
+  "company": "ISC",
+  "field": "반도체",
+  "stock_code": "095340",
+  "mode": "all",
+  "years": [
+    2023,
+    2024,
+    2025
+  ],
+  "force_fetch": false,
+  "steps": [
+    {
+      "name": "warning",
+      "status": "FAILED",
+      "started_at": "2026-05-20T13:57:20",
+      "ended_at": "2026-05-20T13:57:28",
+      "error": "Message: session not created\nfrom unknown error: cannot find Chrome binary; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception\nStacktrace:\n\tGetHandleVerifier [0x0xe7ba83+63395]\n\tGetHandleVerifier [0x0xe7bac4+63460]\n\t(No symbol) [0x0xcc2113]\n\t(No symbol) [0x0xcf3c06]\n\t(No symbol) [0x0xcf11a9]\n\t(No symbol) [0x0xd3ae57]\n\t(No symbol) [0x0xd3a74a]\n\t(No symbol) [0x0xd2f1a6]\n\t(No symbol) [0x0xcfe7b2]\n\t(No symbol) [0x0xcff654]\n\tGetHandleVerifier [0x0x10f8883+2672035]\n\tGetHandleVerifier [0x0x10f3cba+2652634]\n\tGetHandleVerifier [0x0xea2bca+223466]\n\tGetHandleVerifier [0x0xe92cb8+158168]\n\tGetHandleVerifier [0x0xe9978d+185517]\n\tGetHandleVerifier [0x0xe83b78+96408]\n\tGetHandleVerifier [0x0xe83d02+96802]\n\tGetHandleVerifier [0x0xe6e90a+9770]\n\tBaseThreadInitThunk [0x0x76657ba9+25]\n\tRtlInitializeExceptionChain [0x0x7771c3ab+107]\n\tRtlClearBits [0x0x7771c32f+191]\n",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Agent_6.8\\src\\data_intake\\finance_intake\\runner.py\", line 541, in _step\n    func()\n  File \"C:\\Agent_6.8\\src\\data_intake\\finance_intake\\runner.py\", line 563, in <lambda>\n    _step(\"warning\", lambda: run_warning(WarningConfig(mode=\"update\", days=1)))\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\src\\data_intake\\finance_intake\\runner.py\", line 123, in run_warning\n    latest_file = fetch_kind_warning_excel(\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\src\\data_intake\\finance_intake\\collector.py\", line 587, in fetch_kind_warning_excel\n    driver = webdriver.Chrome(\n             ^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\selenium\\webdriver\\chrome\\webdriver.py\", line 45, in __init__\n    super().__init__(\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\selenium\\webdriver\\chromium\\webdriver.py\", line 66, in __init__\n    super().__init__(command_executor=executor, options=self.options)\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\webdriver.py\", line 25, in __init__\n    super().__init__(*args, **kwargs)\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 274, in __init__\n    self.start_session(capabilities)\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 370, in start_session\n    response = self.execute(Command.NEW_SESSION, caps)[\"value\"]\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 450, in execute\n    self.error_handler.check_response(response)\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 232, in check_response\n    raise exception_class(message, screen, stacktrace)\nselenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom unknown error: cannot find Chrome binary; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception\nStacktrace:\n\tGetHandleVerifier [0x0xe7ba83+63395]\n\tGetHandleVerifier [0x0xe7bac4+63460]\n\t(No symbol) [0x0xcc2113]\n\t(No symbol) [0x0xcf3c06]\n\t(No symbol) [0x0xcf11a9]\n\t(No symbol) [0x0xd3ae57]\n\t(No symbol) [0x0xd3a74a]\n\t(No symbol) [0x0xd2f1a6]\n\t(No symbol) [0x0xcfe7b2]\n\t(No symbol) [0x0xcff654]\n\tGetHandleVerifier [0x0x10f8883+2672035]\n\tGetHandleVerifier [0x0x10f3cba+2652634]\n\tGetHandleVerifier [0x0xea2bca+223466]\n\tGetHandleVerifier [0x0xe92cb8+158168]\n\tGetHandleVerifier [0x0xe9978d+185517]\n\tGetHandleVerifier [0x0xe83b78+96408]\n\tGetHandleVerifier [0x0xe83d02+96802]\n\tGetHandleVerifier [0x0xe6e90a+9770]\n\tBaseThreadInitThunk [0x0x76657ba9+25]\n\tRtlInitializeExceptionChain [0x0x7771c3ab+107]\n\tRtlClearBits [0x0x7771c32f+191]\n\n"
+    },
+    {
+      "name": "financial",
+      "status": "OK",
+      "started_at": "2026-05-20T13:57:28",
+      "ended_at": "2026-05-20T13:57:54"
+    },
+    {
+      "name": "stock",
+      "status": "FAILED",
+      "started_at": "2026-05-20T13:57:54",
+      "ended_at": "2026-05-20T13:57:54",
+      "error": "'날짜' is not in list",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Agent_6.8\\src\\data_intake\\finance_intake\\runner.py\", line 541, in _step\n    func()\n  File \"C:\\Agent_6.8\\src\\data_intake\\finance_intake\\runner.py\", line 571, in <lambda>\n    _step(\"stock\", lambda: run_stock(StockConfig(stock_code=resolved_stock), sector=field))\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\src\\data_intake\\finance_intake\\runner.py\", line 248, in run_stock\n    old_df = pd.read_csv(output_path, index_col=\"날짜\", parse_dates=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\readers.py\", line 1026, in read_csv\n    return _read(filepath_or_buffer, kwds)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\readers.py\", line 620, in _read\n    parser = TextFileReader(filepath_or_buffer, **kwds)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\readers.py\", line 1620, in __init__\n    self._engine = self._make_engine(f, self.engine)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\readers.py\", line 1898, in _make_engine\n    return mapping[engine](f, **self.options)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\c_parser_wrapper.py\", line 162, in __init__\n    self._set_noconvert_columns()\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\c_parser_wrapper.py\", line 215, in _set_noconvert_columns\n    noconvert_columns = self._set_noconvert_dtype_columns(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\base_parser.py\", line 673, in _set_noconvert_dtype_columns\n    noconvert_columns.add(_set(k))\n                          ^^^^^^^\n  File \"C:\\Agent_6.8\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\base_parser.py\", line 650, in _set\n    x = col_indices[names.index(x)]\n                    ^^^^^^^^^^^^^^\nValueError: '날짜' is not in list\n"
+    }
+  ]
+}

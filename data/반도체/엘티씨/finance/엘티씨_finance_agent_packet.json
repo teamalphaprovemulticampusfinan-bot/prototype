@@ -1,0 +1,248 @@
+{
+  "agent_name": "finance",
+  "company_name": "엘티씨",
+  "company_dir": "ltc",
+  "industry_type": "CFS",
+  "summary": "엘티씨는 2023년 큰 폭의 영업손실과 순손실을 기록했으나, 2024년에는 매출이 크게 증가하며 흑자전환에 성공했고 2025년에도 성장세를 이어갈 것으로 전망된다. 다만, 2023년 높은 부채비율과 이자보상배율이 음수였던 점을 고려할 때 재무 건전성 및 이자 지급 능력에 대한 지속적인 관찰이 필요하다. 주가는 2025년 큰 폭의 연수익률 상승을 기록했으나, 높은 변동성과 상당한 기간 MDD를 보여 투자 시 주의가 요구된다.",
+  "key_thesis": [
+    "2023년 큰 폭의 영업손실(-160억 원) 및 순손실(-279억 원)에서 2024년 영업이익 241억 원, 순이익 144억 원으로 흑자전환에 성공하며 수익성이 개선되었다.",
+    "매출액이 2023년 1133억 원에서 2024년 2769억 원으로 144% 이상 급증했으며, 2025년에는 3103억 원으로 추가 성장할 것으로 예상된다.",
+    "2024년 영업이익률이 8.7%로 개선되었고, 2025년에는 9.5%로 상승하며 수익성이 점진적으로 향상되는 추세를 보인다.",
+    "2024년 ROE가 7.7%로 양전환되었고, 2025년에는 8.1%를 기록하며 자본 효율성이 회복되고 있다.",
+    "2024년 잉여현금흐름(FCF)이 65억 원으로 양전환되었고, 2025년에는 150억 원으로 증가하며 현금 창출 능력이 강화되고 있다.",
+    "2025년 연수익률이 122.62%로 크게 상승하며 주가 상승 모멘텀이 강하게 나타났다."
+  ],
+  "key_risks": [
+    "2023년 부채비율이 172.7%로 매우 높았으며, 2024년 73.9%, 2025년 71.3%로 개선되었으나 여전히 재무 레버리지 부담이 존재한다.",
+    "2023년 이자보상배율이 -0.91로 이자 지급 능력이 부족했으나, 2024년 1.46, 2025년 3.28로 개선되어 이자 지급 능력이 회복되고 있다.",
+    "2025년 연간 MDD가 -27.99%로 상당한 수준이며, 최근 1개월 주가 데이터에서도 최대 -26.71%의 드로다운이 관찰되어 높은 변동성 리스크가 존재한다.",
+    "2025년 거래량 이동평균 대비 비율이 평균 1.0762로, 일부 구간에서 거래량 급증이 나타나 주가 변동성을 확대시키는 요인이 될 수 있다.",
+    "2023년 R&D 투자 비중이 매출액 대비 10.3%였으나, 2024년 3.25%, 2025년 3.39%로 감소하여 향후 기술 경쟁력 유지에 대한 점검이 필요할 수 있다.",
+    "연간 MDD -27.99%로 주가 낙폭 리스크를 확인해야 합니다."
+  ],
+  "report_core_points": [
+    "FCF: 엘티씨 2025 기준 FCF 값은 15,016,522,030원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+    "연수익률: 엘티씨 2025 기준 연수익률 값은 122.62%이며, 해당 연도 주가 성과를 보여주는 지표입니다.",
+    "연간 MDD: 엘티씨 2025 기준 연간 MDD 값은 -27.99%이며, 투자자가 경험할 수 있는 최대 낙폭 위험을 보여주는 지표입니다.",
+    "거래량: 엘티씨 2025 기준 거래량 값은 172336.00주이며, 해당 연도 평균 거래량을 통해 시장 관심과 유동성을 확인하는 지표입니다.",
+    "이동평균 대비 비율: 엘티씨 2025 기준 이동평균 대비 비율 값은 1.08배이며, 거래량이 이동평균 대비 어느 수준인지 보여주는 수급 지표입니다.",
+    "변동성지수: 엘티씨 2025 기준 변동성지수 값은 1620.10이며, 시장 변동성 환경을 함께 확인하기 위한 보조 지표입니다."
+  ],
+  "missing_prompt_metrics": [
+    "매출성장률",
+    "영업이익률",
+    "ROE",
+    "부채비율"
+  ],
+  "evidence": [
+    {
+      "evidence_id": "finance.ev.004",
+      "source_type": "financial_csv",
+      "source": "엘티씨_재무.csv",
+      "metric": "fcf",
+      "label": "FCF",
+      "value": 15016522030.0,
+      "unit": "원",
+      "period": "2025",
+      "snippet": "엘티씨 2025 기준 FCF 값은 15,016,522,030원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.007",
+      "source_type": "stock_csv",
+      "source": "엘티씨_주식.csv",
+      "metric": "annual_return_%",
+      "label": "연수익률",
+      "value": 122.62,
+      "unit": "%",
+      "period": "2025",
+      "snippet": "엘티씨 2025 기준 연수익률 값은 122.62%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.008",
+      "source_type": "stock_csv",
+      "source": "엘티씨_주식.csv",
+      "metric": "annual_mdd_%",
+      "label": "연간 MDD",
+      "value": -27.99,
+      "unit": "%",
+      "period": "2025",
+      "snippet": "엘티씨 2025 기준 연간 MDD 값은 -27.99%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.009",
+      "source_type": "stock_csv",
+      "source": "엘티씨_주식.csv",
+      "metric": "volume_mean",
+      "label": "거래량",
+      "value": 172336.0,
+      "unit": "주",
+      "period": "2025",
+      "snippet": "엘티씨 2025 기준 거래량 값은 172336주입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.010",
+      "source_type": "stock_csv",
+      "source": "엘티씨_주식.csv",
+      "metric": "volume_ma_ratio_mean",
+      "label": "이동평균 대비 비율",
+      "value": 1.0762,
+      "unit": "배",
+      "period": "2025",
+      "snippet": "엘티씨 2025 기준 이동평균 대비 비율 값은 1.0762배입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.011",
+      "source_type": "stock_csv",
+      "source": "엘티씨_주식.csv",
+      "metric": "vkospi_mean",
+      "label": "변동성지수",
+      "value": 1620.1,
+      "unit": null,
+      "period": "2025",
+      "snippet": "엘티씨 2025 기준 변동성지수 값은 1620.10입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.012",
+      "source_type": "stock_csv",
+      "source": "엘티씨_주식.csv",
+      "metric": "latest_close",
+      "label": "최근 종가",
+      "value": 19190.0,
+      "unit": "원",
+      "period": "2025-12-30",
+      "snippet": "엘티씨 2025-12-30 최근 종가 값은 19,190원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.013",
+      "source_type": "warning_stock_csv",
+      "source": "투자경고종목.csv",
+      "metric": "warning_stock",
+      "label": "투자경고 여부",
+      "value": 0.0,
+      "unit": null,
+      "period": "최근",
+      "snippet": "엘티씨 투자경고종목 해당 여부 값은 0입니다.",
+      "prompt_rationale": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "finance.safe_cl.004",
+      "text": "엘티씨 2025 기준 FCF 값은 15,016,522,030원입니다.",
+      "evidence_ids": [
+        "finance.ev.004"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.007",
+      "text": "엘티씨 2025 기준 연수익률 값은 122.62%입니다.",
+      "evidence_ids": [
+        "finance.ev.007"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.008",
+      "text": "엘티씨 2025 기준 연간 MDD 값은 -27.99%입니다.",
+      "evidence_ids": [
+        "finance.ev.008"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.009",
+      "text": "엘티씨 2025 기준 거래량 값은 172336주입니다.",
+      "evidence_ids": [
+        "finance.ev.009"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.010",
+      "text": "엘티씨 2025 기준 이동평균 대비 비율 값은 1.0762배입니다.",
+      "evidence_ids": [
+        "finance.ev.010"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.011",
+      "text": "엘티씨 2025 기준 변동성지수 값은 1620.10입니다.",
+      "evidence_ids": [
+        "finance.ev.011"
+      ],
+      "audit_safe": true
+    }
+  ],
+  "warning_note": null,
+  "source_contexts": [
+    "financial_csv=엘티씨_재무.csv",
+    "stock_csv=엘티씨_주식.csv",
+    "warning_stock_csv=투자경고종목.csv",
+    "prompts.py summary/key_thesis/key_risks are preserved in the Chair View where available.",
+    "First Auditor claims are CSV-grounded one-to-one evidence claims for stable actual-information verification.",
+    "필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율"
+  ],
+  "raw_payload": {
+    "latest_financial_row": {
+      "year": 2025,
+      "sales": 310384726014.0,
+      "operating_income": 29629435023.0,
+      "net_income": 18189648458.0,
+      "total_assets": 383387868522.0,
+      "total_liabilities": 159648759353.0,
+      "total_equity": 223739109169.0,
+      "rnd": 10509532000,
+      "capex": 10130151698,
+      "ocf": 25146673728,
+      "fcf": 15016522030,
+      "interest": 9028773803.0,
+      "ROE": 8.129847537857387,
+      "영업이익률": 9.54603514274203,
+      "부채비율": 71.35487396278594,
+      "이자보상배율": 3.281667662684716
+    },
+    "latest_stock_metric": {
+      "year": 2025,
+      "annual_return_%": 122.62,
+      "annual_mdd_%": -27.99
+    },
+    "latest_yearly_summary": {
+      "year": 2025,
+      "close_start": 8620.0,
+      "close_end": 19190.0,
+      "close_high": 21900.0,
+      "close_low": 8310.0,
+      "volume_mean": 172336.0,
+      "volume_ma_ratio_mean": 1.0762,
+      "vkospi_mean": 1620.1
+    },
+    "latest_recent_stock_row": {
+      "Date": "2025-12-30",
+      "Open": 18900,
+      "High": 19330,
+      "Low": 18730,
+      "Close": 19190,
+      "Volume": 58403,
+      "Change": 0.012130802,
+      "VIX": 14.32999992,
+      "VKOSPI": 2432.16,
+      "일수익률_%": 1.213080169,
+      "누적최고가": 21900,
+      "드로다운_%": -12.37442922,
+      "거래량_20일평균": 131843.1,
+      "거래량_이동평균대비비율": 0.442973504,
+      "기간MDD_%": -58.48765432
+    },
+    "audit_policy": "prompts_py_used_for_interpretation_claims_grounded_by_local_csv"
+  },
+  "packet_version": "finance_prompts_grounded_v4_compact"
+}

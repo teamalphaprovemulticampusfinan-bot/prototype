@@ -1,0 +1,224 @@
+{
+  "agent_name": "finance",
+  "company_name": "유진테크",
+  "company_dir": "eugene_tech",
+  "industry_type": "deeptech_semiconductor",
+  "summary": "유진테크는 2024년 매출 및 영업이익이 크게 성장하며 견조한 실적을 기록했으나, 2025년에는 매출은 소폭 증가했으나 영업이익률이 하락하며 수익성이 다소 둔화되는 모습을 보였다. 2023년 대비 2024년 ROE와 영업이익률이 크게 개선되었으나, 2025년에는 다시 하락하는 추세를 보였다. 최근 1개월 주가 데이터는 상당한 변동성을 나타내고 있으며, 2026년 연수익률은 56.34%로 높으나 연간 MDD는 -25.08%로 높은 편이다.",
+  "key_thesis": [
+    "2024년 매출액이 3,380억 원으로 전년 대비 22.2% 성장했으며, 영업이익은 611억 원으로 151.5% 급증하며 수익성이 크게 개선되었다.",
+    "2024년 ROE는 15.02%로 2023년 6.89% 대비 두 배 이상 상승했으며, 영업이익률 또한 18.10%로 2023년 8.80% 대비 크게 개선되었다.",
+    "2025년 R&D 투자액이 38억 5천만 원으로 2023년 및 2024년 대비 크게 증가하여 미래 성장 동력 확보를 위한 노력이 강화되고 있다.",
+    "2024년 잉여현금흐름(FCF)은 521억 원으로 전년 대비 크게 증가했으며, 2025년에도 452억 원을 기록하며 꾸준한 현금 창출 능력을 보여주고 있다.",
+    "2026년 연수익률은 56.34%로 높은 수준을 기록하며 주가 상승 모멘텀을 보여주고 있다."
+  ],
+  "key_risks": [
+    "2025년 영업이익률이 14.75%로 2024년 18.10% 대비 하락했으며, 순이익 또한 444억 원으로 전년 대비 감소하여 수익성 둔화 가능성을 시사한다.",
+    "2025년 ROE가 9.05%로 2024년 15.02% 대비 크게 하락했으며, 이는 자본 대비 수익성이 다시 악화되었음을 의미한다.",
+    "최근 1개월 주가 데이터에서 2026년 4월 30일 일일 수익률이 -7.14%로 급락했으며, 2026년 5월 12일에는 -11.44%의 큰 폭 하락을 기록하는 등 높은 변동성을 보이고 있다.",
+    "2026년 연간 MDD가 -25.08%로 높은 수준이며, 이는 투자 기간 동안 상당한 손실을 경험할 수 있음을 나타낸다.",
+    "2024년 부채비율이 23.81%로 2023년 18.59% 대비 상승했으며, 2025년에는 18.16%로 다시 하락했으나 재무 레버리지 변동성을 고려할 필요가 있다.",
+    "연간 MDD -25.08%로 주가 낙폭 리스크를 확인해야 합니다."
+  ],
+  "report_core_points": [
+    "FCF: 유진테크 2025 기준 FCF 값은 45,229,353,664원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+    "연수익률: 유진테크 2026 기준 연수익률 값은 56.34%이며, 해당 연도 주가 성과를 보여주는 지표입니다.",
+    "연간 MDD: 유진테크 2026 기준 연간 MDD 값은 -25.08%이며, 투자자가 경험할 수 있는 최대 낙폭 위험을 보여주는 지표입니다.",
+    "거래량: 유진테크 2026 기준 거래량 값은 295421.00주이며, 해당 연도 평균 거래량을 통해 시장 관심과 유동성을 확인하는 지표입니다.",
+    "이동평균 대비 비율: 유진테크 2026 기준 이동평균 대비 비율 값은 1.03배이며, 거래량이 이동평균 대비 어느 수준인지 보여주는 수급 지표입니다."
+  ],
+  "missing_prompt_metrics": [
+    "매출성장률",
+    "영업이익률",
+    "ROE",
+    "부채비율",
+    "변동성지수"
+  ],
+  "evidence": [
+    {
+      "evidence_id": "finance.ev.004",
+      "source_type": "financial_csv",
+      "source": "유진테크_재무.csv",
+      "metric": "fcf",
+      "label": "FCF",
+      "value": 45229353664.0,
+      "unit": "원",
+      "period": "2025",
+      "snippet": "유진테크 2025 기준 FCF 값은 45,229,353,664원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.007",
+      "source_type": "stock_csv",
+      "source": "유진테크_주식.csv",
+      "metric": "annual_return_%",
+      "label": "연수익률",
+      "value": 56.34,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "유진테크 2026 기준 연수익률 값은 56.34%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.008",
+      "source_type": "stock_csv",
+      "source": "유진테크_주식.csv",
+      "metric": "annual_mdd_%",
+      "label": "연간 MDD",
+      "value": -25.08,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "유진테크 2026 기준 연간 MDD 값은 -25.08%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.009",
+      "source_type": "stock_csv",
+      "source": "유진테크_주식.csv",
+      "metric": "volume_mean",
+      "label": "거래량",
+      "value": 295421.0,
+      "unit": "주",
+      "period": "2026",
+      "snippet": "유진테크 2026 기준 거래량 값은 295421주입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.010",
+      "source_type": "stock_csv",
+      "source": "유진테크_주식.csv",
+      "metric": "volume_ma_ratio_mean",
+      "label": "이동평균 대비 비율",
+      "value": 1.0275,
+      "unit": "배",
+      "period": "2026",
+      "snippet": "유진테크 2026 기준 이동평균 대비 비율 값은 1.0275배입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.012",
+      "source_type": "stock_csv",
+      "source": "유진테크_주식.csv",
+      "metric": "latest_close",
+      "label": "최근 종가",
+      "value": 133600.0,
+      "unit": "원",
+      "period": "2026-05-13",
+      "snippet": "유진테크 2026-05-13 최근 종가 값은 133,600원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.013",
+      "source_type": "warning_stock_csv",
+      "source": "투자경고종목.csv",
+      "metric": "warning_stock",
+      "label": "투자경고 여부",
+      "value": 0.0,
+      "unit": null,
+      "period": "최근",
+      "snippet": "유진테크 투자경고종목 해당 여부 값은 0입니다.",
+      "prompt_rationale": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "finance.safe_cl.004",
+      "text": "유진테크 2025 기준 FCF 값은 45,229,353,664원입니다.",
+      "evidence_ids": [
+        "finance.ev.004"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.007",
+      "text": "유진테크 2026 기준 연수익률 값은 56.34%입니다.",
+      "evidence_ids": [
+        "finance.ev.007"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.008",
+      "text": "유진테크 2026 기준 연간 MDD 값은 -25.08%입니다.",
+      "evidence_ids": [
+        "finance.ev.008"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.009",
+      "text": "유진테크 2026 기준 거래량 값은 295421주입니다.",
+      "evidence_ids": [
+        "finance.ev.009"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.010",
+      "text": "유진테크 2026 기준 이동평균 대비 비율 값은 1.0275배입니다.",
+      "evidence_ids": [
+        "finance.ev.010"
+      ],
+      "audit_safe": true
+    }
+  ],
+  "warning_note": null,
+  "source_contexts": [
+    "financial_csv=유진테크_재무.csv",
+    "stock_csv=유진테크_주식.csv",
+    "warning_stock_csv=투자경고종목.csv",
+    "prompts.py summary/key_thesis/key_risks are preserved in the Chair View where available.",
+    "First Auditor claims are CSV-grounded one-to-one evidence claims for stable actual-information verification.",
+    "필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수"
+  ],
+  "raw_payload": {
+    "latest_financial_row": {
+      "year": 2025,
+      "sales": 350324287104.0,
+      "operating_income": 51671713116.0,
+      "net_income": 44481997780.0,
+      "total_assets": 580613743719.0,
+      "total_liabilities": 89220820383.0,
+      "total_equity": 491392923336.0,
+      "rnd": 3853183732,
+      "capex": 21247464576,
+      "ocf": 66476818240,
+      "fcf": 45229353664,
+      "interest": 1465548901.0,
+      "ROE": 9.052225961663783,
+      "영업이익률": 14.749680515487734,
+      "부채비율": 18.156716579736624,
+      "이자보상배율": 35.25758374950328
+    },
+    "latest_stock_metric": {
+      "year": 2026,
+      "annual_return_%": 56.34,
+      "annual_mdd_%": -25.08
+    },
+    "latest_yearly_summary": {
+      "year": 2026,
+      "close_start": 85455.13,
+      "close_end": 133600.0,
+      "close_high": 150300.0,
+      "close_low": 75372.23,
+      "volume_mean": 295421.0,
+      "volume_ma_ratio_mean": 1.0275
+    },
+    "latest_recent_stock_row": {
+      "Date": "2026-05-13",
+      "Open": 127600.0,
+      "High": 133800.0,
+      "Low": 120700.0,
+      "Close": 133600.0,
+      "Volume": 275176,
+      "Change": 0.0037565740045077,
+      "VKOSPI": NaN,
+      "일수익률_%": 0.37565740045077,
+      "누적최고가": 150300.0,
+      "드로다운_%": -11.111111111111116,
+      "거래량_20일평균": 243007.75,
+      "거래량_이동평균대비비율": 1.1323754077802046
+    },
+    "audit_policy": "prompts_py_used_for_interpretation_claims_grounded_by_local_csv"
+  },
+  "packet_version": "finance_prompts_grounded_v4_compact"
+}

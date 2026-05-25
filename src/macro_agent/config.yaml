@@ -1,0 +1,131 @@
+# macro_agent/config.yaml
+# 수준 기반 임계값과 섹터별 가중치를 관리한다.
+# 코드를 건드리지 않고 이 파일만 수정하면 섹터별 가중치 조정이 가능하다.
+
+# ============================================================
+# 수준 기반 임계값 (Level Thresholds)
+# high: 이 값 이상이면 고수준 구간 → 가중치 2배 적용
+# low:  이 값 이하이면 저수준 구간
+# ============================================================
+thresholds:
+  # 국내 금리
+  국고채_10년:       { high: 4.0,   low: 2.0   }
+  국고채_3년:        { high: 3.5,   low: 1.5   }
+  콜금리:            { high: 3.5,   low: 1.5   }
+  cd금리_91일:       { high: 3.5,   low: 1.5   }
+  # 신용스프레드
+  신용스프레드_bbb-: { high: 4.0,   low: 2.0   }
+  신용스프레드_aa-:  { high: 2.0,   low: 0.8   }
+  # 환율
+  원달러:            { high: 1400,  low: 1200  }
+  # 미국 금리
+  미국_국채_10년:    { high: 4.5,   low: 2.5   }
+  미국_국채_13주:    { high: 5.0,   low: 2.0   }
+  # 달러인덱스
+  달러인덱스_dxy:    { high: 105,   low: 95    }
+  # OECD CLI (100 기준선)
+  oecd_cli_한국:     { high: 101.0, low: 99.0  }
+  oecd_cli_미국:     { high: 101.0, low: 99.0  }
+  g20_cli:           { high: 101.0, low: 99.0  }
+  # CPI
+  cpi_전년비:        { high: 3.0,   low: 1.0   }
+  # 실업률
+  미국_실업률:       { high: 5.0,   low: 3.5   }
+  # BSI (100 기준선)
+  bsi_전산업_전망:   { high: 102,   low: 98    }
+
+# ============================================================
+# 섹터별 가중치 (Sector Weights)
+# 기본값(default)을 기준으로 섹터별로 조정한다.
+# up_weight:   해당 지표 상승 시 점수 변화 (음수 = 부정적)
+# down_weight: 해당 지표 하락 시 점수 변화 (양수 = 긍정적)
+# high_multiplier: 고수준 구간에서 가중치 배수
+# ============================================================
+sector_weights:
+  default:
+    원달러:
+      up_weight: -1
+      down_weight: 1
+      high_multiplier: 2
+    국고채_10년:
+      up_weight: -1
+      down_weight: 1
+      high_multiplier: 2
+    미국_기준금리_ffr:
+      up_weight: -1
+      down_weight: 2      # Fed 금리인하는 시장에 강한 긍정 신호
+      high_multiplier: 2
+    달러인덱스_dxy:
+      up_weight: -1
+      down_weight: 1
+      high_multiplier: 2
+    구리:
+      up_weight: 1
+      down_weight: -1
+      high_multiplier: 1
+
+  반도체:
+    원달러:
+      up_weight: -1       # 수출 비중 높아 원화 약세는 단기 실적 긍정이지만
+      down_weight: 1      # 과도한 강세는 수요 둔화 우려
+      high_multiplier: 2  # 1400원 이상 구간에서는 환율 리스크 가중
+    달러인덱스_dxy:
+      up_weight: -1
+      down_weight: 1
+      high_multiplier: 2
+    구리:
+      up_weight: 1        # 경기 선행 지표로 반도체 수요와 연동
+      down_weight: -1
+      high_multiplier: 1
+    미국_기준금리_ffr:
+      up_weight: -1
+      down_weight: 2
+      high_multiplier: 2
+    국고채_10년:
+      up_weight: -1
+      down_weight: 1
+      high_multiplier: 2
+
+  바이오:
+    원달러:
+      up_weight: -1
+      down_weight: 1
+      high_multiplier: 2
+    달러인덱스_dxy:
+      up_weight: -1
+      down_weight: 1
+      high_multiplier: 2
+    구리:
+      up_weight: 0        # 바이오는 구리 가격 영향 낮음
+      down_weight: 0
+      high_multiplier: 1
+    미국_기준금리_ffr:
+      up_weight: -1
+      down_weight: 2
+      high_multiplier: 2
+    국고채_10년:
+      up_weight: -1
+      down_weight: 1
+      high_multiplier: 2
+
+  이차전지:
+    원달러:
+      up_weight: -1
+      down_weight: 1
+      high_multiplier: 2
+    달러인덱스_dxy:
+      up_weight: -1
+      down_weight: 1
+      high_multiplier: 2
+    구리:
+      up_weight: 1        # 이차전지 핵심 원자재 → 구리 상승은 원가 부담
+      down_weight: -1
+      high_multiplier: 2  # 구리 고수준에서 추가 상승은 원가 압박 심화
+    미국_기준금리_ffr:
+      up_weight: -1
+      down_weight: 2
+      high_multiplier: 2
+    국고채_10년:
+      up_weight: -1
+      down_weight: 1
+      high_multiplier: 2

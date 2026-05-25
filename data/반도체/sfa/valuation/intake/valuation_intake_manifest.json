@@ -1,0 +1,121 @@
+{
+  "pipeline": "valuation_intake",
+  "status": "WARN_NO_LIVE_DATA",
+  "created_at": "2026-05-25T03:39:56",
+  "started_at": "2026-05-25T03:38:08",
+  "company": "SFA 반도체",
+  "company_dir": "sfa",
+  "skip_network": false,
+  "years": 5,
+  "outputs": {
+    "intake_dir": "data/반도체/sfa/valuation/intake",
+    "valuation_source_map": "data/반도체/sfa/valuation/intake/valuation_source_map.json",
+    "template_catalog_csv": "data/반도체/sfa/valuation/intake/valuation_modeling_template_catalog.csv",
+    "template_catalog_json": "data/반도체/sfa/valuation/intake/valuation_modeling_template_catalog.json",
+    "raw_dart_accounts_csv": "data/반도체/sfa/valuation/intake/valuation_raw_dart_accounts.csv",
+    "normalized_financials_csv": "data/반도체/sfa/valuation/intake/valuation_normalized_financials.csv",
+    "price_history_csv": "data/반도체/sfa/valuation/intake/valuation_price_history.csv",
+    "share_count_csv": "data/반도체/sfa/valuation/intake/valuation_share_count.csv",
+    "price_summary_json": "data/반도체/sfa/valuation/intake/valuation_price_summary.json",
+    "market_snapshot_json": "data/반도체/sfa/valuation/intake/valuation_market_snapshot.json",
+    "market_snapshot_csv": "data/반도체/sfa/valuation/intake/valuation_market_snapshot.csv",
+    "peer_input_csv": "data/반도체/sfa/valuation/intake/valuation_peer_input.csv",
+    "assumptions_json": "data/반도체/sfa/valuation/intake/valuation_assumptions.json",
+    "reference_universe_208_csv": "data/반도체/sfa/valuation/intake/valuation_reference_universe_208.csv",
+    "reference_universe_focus_csv": "data/반도체/sfa/valuation/intake/valuation_reference_universe_focus.csv",
+    "reference_universe_summary_json": "data/반도체/sfa/valuation/intake/valuation_reference_universe_summary.json"
+  },
+  "counts": {
+    "raw_dart_accounts": 0,
+    "normalized_financial_years": 0,
+    "price_rows": 0,
+    "share_count_rows": 0,
+    "market_snapshot_metric_count": 0,
+    "peer_rows": 5,
+    "reference_universe_rows": 208,
+    "reference_focus_rows": 40,
+    "template_archetypes": 9
+  },
+  "price_summary": {
+    "latest_close": null,
+    "return_1y": null,
+    "volatility_annualized": null,
+    "mdd": null,
+    "price_rows": 0,
+    "market_cap": null
+  },
+  "share_summary": {
+    "shares_outstanding": null,
+    "share_count_year": null,
+    "share_count_source": null
+  },
+  "reference_universe_summary": {
+    "status": "OK",
+    "created_at": "2026-05-25T03:38:08",
+    "reference_universe_rows": 208,
+    "focus_rows": 40,
+    "focal_5_rows": 30,
+    "target_company": "SFA 반도체",
+    "target_peer_group": "해당 없음",
+    "target_peer_group_size": 0,
+    "attractive_rows": 43,
+    "high_risk_rows": 67,
+    "target_reference_row": {},
+    "note": "Valuation Agent는 live DCF/PSR 산출과 별도로 208개 반도체 universe의 proxy score를 활용해 상대 위치를 보조 판단합니다.",
+    "source_path": "data/반도체/_sector_common/ml_universe/valuation_credit_ml_overlay_candidate.csv",
+    "exported_at": "2026-05-25T03:38:08"
+  },
+  "diagnostics": [
+    "DART API key detected for valuation intake.",
+    "DART corp_code not resolved for SFA 반도체 ().",
+    "yfinance price fetch skipped: yfinance not installed or ticker missing.",
+    "Yahoo chart price fetch skipped: requests not installed or ticker missing.",
+    "Naver price fetch skipped: requests not installed or stock code missing.",
+    "Naver day-table fetch skipped: requests not installed or stock code missing.",
+    "All valuation price providers returned 0 rows for SFA 반도체 (/).",
+    "DART share-count corp_code not resolved for SFA 반도체 ().",
+    "Naver market snapshot skipped: requests not installed or stock code missing.",
+    "peer:nepes: price provider selected: yfinance, rows=730",
+    "peer:nepes: DART corp_code resolved from cache for 네패스/033640.",
+    "peer:hanmi: price provider selected: yfinance, rows=730",
+    "peer:hanmi: DART corp_code resolved from cache for 한미반도체/042700.",
+    "peer:hansol: price provider selected: yfinance, rows=730",
+    "peer:hansol: DART corp_code resolved from cache for 한솔케미칼/014680.",
+    "peer:duksan: price provider selected: yfinance, rows=730",
+    "peer:duksan: DART corp_code resolved from cache for 덕산테코피아/317330.",
+    "peer:ltc: price provider selected: yfinance, rows=729",
+    "peer:ltc: DART corp_code resolved from cache for 엘티씨/170920.",
+    "Market snapshot enrichment produced no usable metrics; check DART/price/share-count intake."
+  ],
+  "as_of_date": "",
+  "eval_valuation_enhancer": {
+    "version": "v35",
+    "as_of_date": "",
+    "intake_files": [
+      "company_profile.json",
+      "financials_raw.csv",
+      "financials_normalized.csv",
+      "price_history.csv",
+      "shares_outstanding.csv",
+      "dilution_events.csv",
+      "valuation_assumptions.csv",
+      "peer_multiples.csv",
+      "dcf_inputs.json",
+      "relative_valuation_inputs.json",
+      "cross_agent_signals_for_valuation.json"
+    ],
+    "row_counts": {
+      "financials_normalized": 0,
+      "price_history": 0,
+      "shares_outstanding": 0,
+      "dilution_events": 1,
+      "peer_multiples": 5,
+      "valuation_assumptions": 1
+    },
+    "sector_common_dir": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\valuation",
+    "notes": [
+      "All dated rows are filtered to VALUATION_AS_OF_DATE / ALPHAPROVE_DATA_CUTOFF_DATE when provided.",
+      "No Buy/Hold/Sell thresholds are applied here; only continuous feature signals are prepared."
+    ]
+  }
+}

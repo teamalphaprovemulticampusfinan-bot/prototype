@@ -1,0 +1,223 @@
+{
+  "agent_name": "finance",
+  "company_name": "원익IPS",
+  "company_dir": "wonik_ips",
+  "industry_type": "deeptech_semiconductor",
+  "summary": "원익IPS는 2023년 영업이익 및 순이익 적자를 기록했으나, 2024년 흑자전환에 성공하며 2025년에는 매출액 9097억원, 영업이익 738억원으로 큰 폭의 성장이 예상된다. 2025년 기준 영업이익률 8.11%, ROE 8.66%로 수익성이 개선될 전망이며, 부채비율도 20.06%로 안정적인 수준을 유지할 것으로 보인다. 최근 1개월 주가 데이터는 상당한 변동성을 보였으며, 특히 4월 말 급락 후 5월 초 반등하는 패턴을 나타냈다.",
+  "key_thesis": [
+    "2024년 영업이익 106억원, 순이익 207억원으로 흑자전환에 성공하며 수익성 개선의 기반을 마련했다.",
+    "2025년 예상 매출액 9097억원, 영업이익 738억원으로 전년 대비 각각 21.6%, 594.8%의 높은 성장률이 전망된다.",
+    "2025년 예상 영업이익률 8.11%, ROE 8.66%로 수익성이 크게 개선될 것으로 예상된다.",
+    "2025년 예상 부채비율 20.06%로 재무 건전성이 양호한 수준을 유지할 것으로 보인다.",
+    "2025년 예상 자유현금흐름(FCF)은 1246억원으로 대폭 증가하여 투자 및 운영 자금 확보에 긍정적이다.",
+    "2025년 연수익률 208.15%를 기록하며 전년도 부진을 만회하고 주가 상승 모멘텀을 보여주었다."
+  ],
+  "key_risks": [
+    "2023년 영업이익률 -2.62%, ROE -1.56%로 큰 폭의 적자를 기록하며 수익성 변동성이 높았다.",
+    "최근 1개월 주가 데이터에서 최대 드로다운(MDD)이 -21.55%에 달하는 등 높은 변동성을 보였다.",
+    "2024년 연간 MDD가 -49.41%로 매우 높아 투자 시 상당한 손실 위험이 존재했다.",
+    "최근 1개월 주가 데이터에서 거래량 이동평균 대비 비율이 2.3배까지 상승하는 등 특정 시점에 거래량이 급증하며 변동성이 확대되는 패턴이 관찰되었다."
+  ],
+  "report_core_points": [
+    "FCF: 원익IPS 2025 기준 FCF 값은 124,603,677,379원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+    "연수익률: 원익IPS 2026 기준 연수익률 값은 64.00%이며, 해당 연도 주가 성과를 보여주는 지표입니다.",
+    "연간 MDD: 원익IPS 2026 기준 연간 MDD 값은 -21.55%이며, 투자자가 경험할 수 있는 최대 낙폭 위험을 보여주는 지표입니다.",
+    "거래량: 원익IPS 2026 기준 거래량 값은 775807.00주이며, 해당 연도 평균 거래량을 통해 시장 관심과 유동성을 확인하는 지표입니다.",
+    "이동평균 대비 비율: 원익IPS 2026 기준 이동평균 대비 비율 값은 1.03배이며, 거래량이 이동평균 대비 어느 수준인지 보여주는 수급 지표입니다."
+  ],
+  "missing_prompt_metrics": [
+    "매출성장률",
+    "영업이익률",
+    "ROE",
+    "부채비율",
+    "변동성지수"
+  ],
+  "evidence": [
+    {
+      "evidence_id": "finance.ev.004",
+      "source_type": "financial_csv",
+      "source": "원익IPS_재무.csv",
+      "metric": "fcf",
+      "label": "FCF",
+      "value": 124603677379.0,
+      "unit": "원",
+      "period": "2025",
+      "snippet": "원익IPS 2025 기준 FCF 값은 124,603,677,379원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.007",
+      "source_type": "stock_csv",
+      "source": "원익IPS_주식.csv",
+      "metric": "annual_return_%",
+      "label": "연수익률",
+      "value": 64.0,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "원익IPS 2026 기준 연수익률 값은 64.00%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.008",
+      "source_type": "stock_csv",
+      "source": "원익IPS_주식.csv",
+      "metric": "annual_mdd_%",
+      "label": "연간 MDD",
+      "value": -21.55,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "원익IPS 2026 기준 연간 MDD 값은 -21.55%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.009",
+      "source_type": "stock_csv",
+      "source": "원익IPS_주식.csv",
+      "metric": "volume_mean",
+      "label": "거래량",
+      "value": 775807.0,
+      "unit": "주",
+      "period": "2026",
+      "snippet": "원익IPS 2026 기준 거래량 값은 775807주입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.010",
+      "source_type": "stock_csv",
+      "source": "원익IPS_주식.csv",
+      "metric": "volume_ma_ratio_mean",
+      "label": "이동평균 대비 비율",
+      "value": 1.0341,
+      "unit": "배",
+      "period": "2026",
+      "snippet": "원익IPS 2026 기준 이동평균 대비 비율 값은 1.0341배입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.012",
+      "source_type": "stock_csv",
+      "source": "원익IPS_주식.csv",
+      "metric": "latest_close",
+      "label": "최근 종가",
+      "value": 131200.0,
+      "unit": "원",
+      "period": "2026-05-13",
+      "snippet": "원익IPS 2026-05-13 최근 종가 값은 131,200원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.013",
+      "source_type": "warning_stock_csv",
+      "source": "투자경고종목.csv",
+      "metric": "warning_stock",
+      "label": "투자경고 여부",
+      "value": 0.0,
+      "unit": null,
+      "period": "최근",
+      "snippet": "원익IPS 투자경고종목 해당 여부 값은 0입니다.",
+      "prompt_rationale": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "finance.safe_cl.004",
+      "text": "원익IPS 2025 기준 FCF 값은 124,603,677,379원입니다.",
+      "evidence_ids": [
+        "finance.ev.004"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.007",
+      "text": "원익IPS 2026 기준 연수익률 값은 64.00%입니다.",
+      "evidence_ids": [
+        "finance.ev.007"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.008",
+      "text": "원익IPS 2026 기준 연간 MDD 값은 -21.55%입니다.",
+      "evidence_ids": [
+        "finance.ev.008"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.009",
+      "text": "원익IPS 2026 기준 거래량 값은 775807주입니다.",
+      "evidence_ids": [
+        "finance.ev.009"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.010",
+      "text": "원익IPS 2026 기준 이동평균 대비 비율 값은 1.0341배입니다.",
+      "evidence_ids": [
+        "finance.ev.010"
+      ],
+      "audit_safe": true
+    }
+  ],
+  "warning_note": null,
+  "source_contexts": [
+    "financial_csv=원익IPS_재무.csv",
+    "stock_csv=원익IPS_주식.csv",
+    "warning_stock_csv=투자경고종목.csv",
+    "prompts.py summary/key_thesis/key_risks are preserved in the Chair View where available.",
+    "First Auditor claims are CSV-grounded one-to-one evidence claims for stable actual-information verification.",
+    "필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수"
+  ],
+  "raw_payload": {
+    "latest_financial_row": {
+      "year": 2025,
+      "sales": 909795691103.0,
+      "operating_income": 73814129967.0,
+      "net_income": 84028556164.0,
+      "total_assets": 1164636219440.0,
+      "total_liabilities": 194620663488.0,
+      "total_equity": 970015555952.0,
+      "rnd": 10021654667,
+      "capex": 32003350977,
+      "ocf": 156607028356,
+      "fcf": 124603677379,
+      "interest": 10942997.0,
+      "ROE": 8.66259882621491,
+      "영업이익률": 8.113264405276606,
+      "부채비율": 20.063664164333314,
+      "이자보상배율": 6745.330366717637
+    },
+    "latest_stock_metric": {
+      "year": 2026,
+      "annual_return_%": 64.0,
+      "annual_mdd_%": -21.55
+    },
+    "latest_yearly_summary": {
+      "year": 2026,
+      "close_start": 80000.0,
+      "close_end": 131200.0,
+      "close_high": 141600.0,
+      "close_low": 73300.0,
+      "volume_mean": 775807.0,
+      "volume_ma_ratio_mean": 1.0341
+    },
+    "latest_recent_stock_row": {
+      "Date": "2026-05-13",
+      "Open": 124500.0,
+      "High": 131200.0,
+      "Low": 120600.0,
+      "Close": 131200.0,
+      "Volume": 587060,
+      "Change": 0.0496,
+      "VKOSPI": NaN,
+      "일수익률_%": 4.96,
+      "누적최고가": 141600.0,
+      "드로다운_%": -7.344632768361581,
+      "거래량_20일평균": 690320.8,
+      "거래량_이동평균대비비율": 0.8504162122885476
+    },
+    "audit_policy": "prompts_py_used_for_interpretation_claims_grounded_by_local_csv"
+  },
+  "packet_version": "finance_prompts_grounded_v4_compact"
+}

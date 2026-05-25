@@ -1,0 +1,11 @@
+methodology: src_eval valuation history evaluation
+classification: vc_role based peer selection
+signal_blocks:
+  - intrinsic_value_signal
+  - relative_value_signal
+  - financial_quality_signal
+  - price_position_signal
+  - dilution_penalty
+  - discount_rate_pressure
+  - cross_agent_assumption_signal
+note: final Buy/Hold/Sell decision is produced by DMA/probability tensor, not fixed thresholds.

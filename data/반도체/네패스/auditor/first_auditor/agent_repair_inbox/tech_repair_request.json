@@ -1,0 +1,32 @@
+{
+  "repair_schema_version": "first_auditor_3stage_v1",
+  "created_at": "2026-05-18T04:00:24.239917+00:00",
+  "company_dir": "nepes",
+  "company": "네패스",
+  "target_agent": "tech",
+  "pass_condition": "actual_match >= 75%",
+  "current_actual_match": 0.376,
+  "stage_scores": {
+    "stage1_basic_consistency": 0.55,
+    "stage2_framework": 0.0,
+    "stage3_decision_readiness": 0.6
+  },
+  "issues": [
+    "possible unit/scale mismatch: 2580",
+    "framework criterion not visible: technology",
+    "framework criterion not visible: commercialization",
+    "framework criterion not visible: ip_quality",
+    "framework criterion not visible: rnd",
+    "framework criterion not visible: bridge",
+    "quantitative decision basis is weak"
+  ],
+  "required_fix": [
+    "원천 파일/해당 기업과 연결되지 않는 문장을 제거하세요.",
+    "숫자·단위·기간은 원천 CSV/JSON/공시/뉴스/RSS 값과 같은 스케일로 작성하세요.",
+    "589억을 5890억처럼 10배/100배 과장하는 단위 오류를 금지합니다.",
+    "Issue/Market/Macro 외부 API 결과는 기업명·섹터·투자 영향과 직접 관련된 것만 남기세요.",
+    "Tech는 특허 수 자체보다 등록/존속/청구항/인용/패밀리와 사업화 연결성을 분리하세요.",
+    "Finance/Valuation은 CB/BW·유상증자·희석·오버행 가능성이 있으면 별도 위험으로 표시하세요."
+  ],
+  "current_packet_preview": "{\"agent\": \"tech\", \"company_name\": \"네패스\", \"summary\": \"tech 실행 실패: [SSL: ENCRYPTED_LENGTH_TOO_LONG] encrypted length too long (_ssl.c:2580)\", \"key_risks\": [\"tech 산출물 확인 제한\"], \"status\": \"FAILED\", \"agent_name\": \"tech\"}"
+}

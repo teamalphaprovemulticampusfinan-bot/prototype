@@ -1,0 +1,224 @@
+{
+  "agent_name": "finance",
+  "company_name": "가온칩스",
+  "company_dir": "gaochips",
+  "industry_type": "deeptech_semiconductor",
+  "summary": "가온칩스는 2024년 매출이 전년 대비 크게 성장했으나, 영업이익률은 하락하며 수익성이 악화되는 모습을 보였다. 2025년에는 매출 감소와 함께 영업이익 및 순이익이 큰 폭의 적자를 기록하며 재무 상태가 크게 악화될 것으로 전망된다. 주가는 2024년 큰 폭의 하락 후 2025년 반등했으나, 2026년 들어 변동성이 확대되며 높은 수준의 드로다운을 기록하고 있다.",
+  "key_thesis": [
+    "2024년 매출액이 964억 원으로 전년 대비 51.7% 증가하며 외형 성장을 달성했다.",
+    "2024년 영업이익률은 3.7%로 2023년 6.8% 대비 하락했으나, 순이익은 75억 원으로 증가했다.",
+    "2025년에는 매출액이 685억 원으로 감소하고 영업이익률은 -24.4%로 큰 폭의 적자를 기록할 것으로 전망된다.",
+    "2024년 연수익률은 -34.1%를 기록했으나, 2025년에는 24.6%로 반등했다.",
+    "2026년 1분기 기준 주가는 69,500원으로 연초 대비 31.6% 상승했으며, 최고가 대비 42.3% 하락한 상태다."
+  ],
+  "key_risks": [
+    "2025년 영업이익률이 -24.4%로 예상되며, 이는 본업에서의 수익성 확보에 대한 불확실성을 시사한다.",
+    "2025년 부채비율이 191.3%로 급증할 것으로 예상되어 재무 건전성에 대한 심각한 우려가 제기된다.",
+    "2025년 이자보상배율이 -1.8배로 예상되어 이자 지급 능력에 대한 의문이 발생한다.",
+    "2024년 연간 MDD가 -77.6%로 매우 높아 주가 변동성에 따른 투자 위험이 크다.",
+    "2026년 5월 12일 기준 주가 드로다운이 -47.6%로 최근 주가 하락세가 두드러진다.",
+    "2025년 자유현금흐름(FCF)이 -98억 원으로 예상되어 투자 및 운영 자금 확보에 대한 부담이 증가할 수 있다.",
+    "연간 MDD -28.74%로 주가 낙폭 리스크를 확인해야 합니다."
+  ],
+  "report_core_points": [
+    "FCF: 가온칩스 2025 기준 FCF 값은 -9,819,437,266원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+    "연수익률: 가온칩스 2026 기준 연수익률 값은 31.63%이며, 해당 연도 주가 성과를 보여주는 지표입니다.",
+    "연간 MDD: 가온칩스 2026 기준 연간 MDD 값은 -28.74%이며, 투자자가 경험할 수 있는 최대 낙폭 위험을 보여주는 지표입니다.",
+    "거래량: 가온칩스 2026 기준 거래량 값은 200002.00주이며, 해당 연도 평균 거래량을 통해 시장 관심과 유동성을 확인하는 지표입니다.",
+    "이동평균 대비 비율: 가온칩스 2026 기준 이동평균 대비 비율 값은 1.09배이며, 거래량이 이동평균 대비 어느 수준인지 보여주는 수급 지표입니다."
+  ],
+  "missing_prompt_metrics": [
+    "매출성장률",
+    "영업이익률",
+    "ROE",
+    "부채비율",
+    "변동성지수"
+  ],
+  "evidence": [
+    {
+      "evidence_id": "finance.ev.004",
+      "source_type": "financial_csv",
+      "source": "가온칩스_재무.csv",
+      "metric": "fcf",
+      "label": "FCF",
+      "value": -9819437266.0,
+      "unit": "원",
+      "period": "2025",
+      "snippet": "가온칩스 2025 기준 FCF 값은 -9,819,437,266원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.007",
+      "source_type": "stock_csv",
+      "source": "가온칩스_주식.csv",
+      "metric": "annual_return_%",
+      "label": "연수익률",
+      "value": 31.63,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "가온칩스 2026 기준 연수익률 값은 31.63%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.008",
+      "source_type": "stock_csv",
+      "source": "가온칩스_주식.csv",
+      "metric": "annual_mdd_%",
+      "label": "연간 MDD",
+      "value": -28.74,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "가온칩스 2026 기준 연간 MDD 값은 -28.74%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.009",
+      "source_type": "stock_csv",
+      "source": "가온칩스_주식.csv",
+      "metric": "volume_mean",
+      "label": "거래량",
+      "value": 200002.0,
+      "unit": "주",
+      "period": "2026",
+      "snippet": "가온칩스 2026 기준 거래량 값은 200002주입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.010",
+      "source_type": "stock_csv",
+      "source": "가온칩스_주식.csv",
+      "metric": "volume_ma_ratio_mean",
+      "label": "이동평균 대비 비율",
+      "value": 1.086,
+      "unit": "배",
+      "period": "2026",
+      "snippet": "가온칩스 2026 기준 이동평균 대비 비율 값은 1.0860배입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.012",
+      "source_type": "stock_csv",
+      "source": "가온칩스_주식.csv",
+      "metric": "latest_close",
+      "label": "최근 종가",
+      "value": 69500.0,
+      "unit": "원",
+      "period": "2026-05-13",
+      "snippet": "가온칩스 2026-05-13 최근 종가 값은 69,500원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.013",
+      "source_type": "warning_stock_csv",
+      "source": "투자경고종목.csv",
+      "metric": "warning_stock",
+      "label": "투자경고 여부",
+      "value": 0.0,
+      "unit": null,
+      "period": "최근",
+      "snippet": "가온칩스 투자경고종목 해당 여부 값은 0입니다.",
+      "prompt_rationale": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "finance.safe_cl.004",
+      "text": "가온칩스 2025 기준 FCF 값은 -9,819,437,266원입니다.",
+      "evidence_ids": [
+        "finance.ev.004"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.007",
+      "text": "가온칩스 2026 기준 연수익률 값은 31.63%입니다.",
+      "evidence_ids": [
+        "finance.ev.007"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.008",
+      "text": "가온칩스 2026 기준 연간 MDD 값은 -28.74%입니다.",
+      "evidence_ids": [
+        "finance.ev.008"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.009",
+      "text": "가온칩스 2026 기준 거래량 값은 200002주입니다.",
+      "evidence_ids": [
+        "finance.ev.009"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.010",
+      "text": "가온칩스 2026 기준 이동평균 대비 비율 값은 1.0860배입니다.",
+      "evidence_ids": [
+        "finance.ev.010"
+      ],
+      "audit_safe": true
+    }
+  ],
+  "warning_note": null,
+  "source_contexts": [
+    "financial_csv=가온칩스_재무.csv",
+    "stock_csv=가온칩스_주식.csv",
+    "warning_stock_csv=투자경고종목.csv",
+    "prompts.py summary/key_thesis/key_risks are preserved in the Chair View where available.",
+    "First Auditor claims are CSV-grounded one-to-one evidence claims for stable actual-information verification.",
+    "필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수"
+  ],
+  "raw_payload": {
+    "latest_financial_row": {
+      "year": 2025,
+      "sales": 68510181008.0,
+      "operating_income": -16721496228.0,
+      "net_income": -14369143365.0,
+      "total_assets": 159310899656.0,
+      "total_liabilities": 104622741139.0,
+      "total_equity": 54688158517.0,
+      "capex": 8330257678,
+      "ocf": -1489179588,
+      "fcf": -9819437266,
+      "interest": 9046305049.0,
+      "ROE": -26.27468862483878,
+      "영업이익률": -24.407315791571783,
+      "부채비율": 191.30785160095976,
+      "이자보상배율": -1.8484338232490216
+    },
+    "latest_stock_metric": {
+      "year": 2026,
+      "annual_return_%": 31.63,
+      "annual_mdd_%": -28.74
+    },
+    "latest_yearly_summary": {
+      "year": 2026,
+      "close_start": 52800.0,
+      "close_end": 69500.0,
+      "close_high": 79900.0,
+      "close_low": 52600.0,
+      "volume_mean": 200002.0,
+      "volume_ma_ratio_mean": 1.086
+    },
+    "latest_recent_stock_row": {
+      "Date": "2026-05-13",
+      "Open": 62700.0,
+      "High": 69700.0,
+      "Low": 61700.0,
+      "Close": 69500.0,
+      "Volume": 176080,
+      "Change": 0.079192546583851,
+      "VKOSPI": NaN,
+      "일수익률_%": 7.9192546583851,
+      "누적최고가": 123000.0,
+      "드로다운_%": -43.49593495934959,
+      "거래량_20일평균": 214689.75,
+      "거래량_이동평균대비비율": 0.8201602545067941
+    },
+    "audit_policy": "prompts_py_used_for_interpretation_claims_grounded_by_local_csv"
+  },
+  "packet_version": "finance_prompts_grounded_v4_compact"
+}

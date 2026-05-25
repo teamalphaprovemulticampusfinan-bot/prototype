@@ -1,0 +1,1175 @@
+{
+  "agent": "market",
+  "company_name": "테스",
+  "company": "테스",
+  "opinion": "보유",
+  "confidence": 0.45,
+  "summary": "테스에 대해 검증 가능한 핵심 근거는 다음과 같습니다. 테스 마켓 분석 total_score 값은 71점입니다. 테스 stock_data.current_price 값은 112400입니다. 테스 stock_data.change 값은 -3700입니다. 테스 stock_data.change_rate 값은 -3.19%입니다. 테스 stock_data.raw.clpr 값은 112400입니다.",
+  "key_points": [
+    "테스 마켓 분석 total_score 값은 71점입니다.",
+    "테스 stock_data.current_price 값은 112400입니다.",
+    "테스 stock_data.change 값은 -3700입니다.",
+    "테스 stock_data.change_rate 값은 -3.19%입니다.",
+    "테스 stock_data.raw.clpr 값은 112400입니다."
+  ],
+  "risks": [],
+  "claims": [
+    {
+      "claim_id": "market.cl.001",
+      "text": "테스 마켓 분석 total_score 값은 71점입니다.",
+      "evidence_ids": [
+        "market.ev.001"
+      ]
+    },
+    {
+      "claim_id": "market.cl.002",
+      "text": "테스 stock_data.current_price 값은 112400입니다.",
+      "evidence_ids": [
+        "market.ev.006"
+      ]
+    },
+    {
+      "claim_id": "market.cl.003",
+      "text": "테스 stock_data.change 값은 -3700입니다.",
+      "evidence_ids": [
+        "market.ev.009"
+      ]
+    },
+    {
+      "claim_id": "market.cl.004",
+      "text": "테스 stock_data.change_rate 값은 -3.19%입니다.",
+      "evidence_ids": [
+        "market.ev.010"
+      ]
+    },
+    {
+      "claim_id": "market.cl.005",
+      "text": "테스 stock_data.raw.clpr 값은 112400입니다.",
+      "evidence_ids": [
+        "market.ev.016"
+      ]
+    },
+    {
+      "claim_id": "market.cl.006",
+      "text": "테스 stock_data.raw.vs 값은 -3700입니다.",
+      "evidence_ids": [
+        "market.ev.017"
+      ]
+    },
+    {
+      "claim_id": "market.auto_cl.007",
+      "text": "stock_data.raw.fltRt 값은 -3.19%입니다.",
+      "evidence_ids": [
+        "market.ev.018"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "market.auto_cl.009",
+      "text": "stock_data.raw.mkp 값은 115,000입니다.",
+      "evidence_ids": [
+        "market.ev.019"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "market.auto_cl.011",
+      "text": "stock_data.raw.hipr 값은 118,500입니다.",
+      "evidence_ids": [
+        "market.ev.020"
+      ],
+      "claim_type": "point"
+    }
+  ],
+  "evidences": [
+    {
+      "evidence_id": "market.ev.001",
+      "source_type": "market",
+      "source": "market_graph_analysis",
+      "metric": "total_score",
+      "value": 71,
+      "unit": "score",
+      "period": null,
+      "snippet": "market_graph_analysis | total_score | 값: 71score"
+    },
+    {
+      "evidence_id": "market.ev.002",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.provider",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.provider | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.003",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.company",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.company | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.004",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.ticker",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.ticker | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.005",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.krx_code",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.krx_code | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.006",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.current_price",
+      "value": 112400,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.current_price | 값: 112,400원"
+    },
+    {
+      "evidence_id": "market.ev.007",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.currency",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.currency | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.008",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.as_of",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.as_of | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.009",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change",
+      "value": -3700,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.change | 값: -3,700"
+    },
+    {
+      "evidence_id": "market.ev.010",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change_rate",
+      "value": -3.19,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.change_rate | 값: -3.19%"
+    },
+    {
+      "evidence_id": "market.ev.011",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.basDt",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.basDt | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.012",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.srtnCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.srtnCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.013",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.isinCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.isinCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.014",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.itmsNm",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.itmsNm | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.015",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mrktCtg",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mrktCtg | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.016",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.clpr",
+      "value": 112400,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 112,400원"
+    },
+    {
+      "evidence_id": "market.ev.017",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.vs",
+      "value": -3700,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.vs | 값: -3,700"
+    },
+    {
+      "evidence_id": "market.ev.018",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.fltRt",
+      "value": -3.19,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: -3.19%"
+    },
+    {
+      "evidence_id": "market.ev.019",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mkp",
+      "value": 115000,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 115,000"
+    },
+    {
+      "evidence_id": "market.ev.020",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.hipr",
+      "value": 118500,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 118,500"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "market.ev.001",
+      "source_type": "market",
+      "source": "market_graph_analysis",
+      "metric": "total_score",
+      "value": 71,
+      "unit": "score",
+      "period": null,
+      "snippet": "market_graph_analysis | total_score | 값: 71score"
+    },
+    {
+      "evidence_id": "market.ev.002",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.provider",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.provider | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.003",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.company",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.company | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.004",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.ticker",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.ticker | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.005",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.krx_code",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.krx_code | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.006",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.current_price",
+      "value": 112400,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.current_price | 값: 112,400원"
+    },
+    {
+      "evidence_id": "market.ev.007",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.currency",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.currency | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.008",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.as_of",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.as_of | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.009",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change",
+      "value": -3700,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.change | 값: -3,700"
+    },
+    {
+      "evidence_id": "market.ev.010",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change_rate",
+      "value": -3.19,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.change_rate | 값: -3.19%"
+    },
+    {
+      "evidence_id": "market.ev.011",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.basDt",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.basDt | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.012",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.srtnCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.srtnCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.013",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.isinCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.isinCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.014",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.itmsNm",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.itmsNm | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.015",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mrktCtg",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mrktCtg | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.016",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.clpr",
+      "value": 112400,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 112,400원"
+    },
+    {
+      "evidence_id": "market.ev.017",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.vs",
+      "value": -3700,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.vs | 값: -3,700"
+    },
+    {
+      "evidence_id": "market.ev.018",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.fltRt",
+      "value": -3.19,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: -3.19%"
+    },
+    {
+      "evidence_id": "market.ev.019",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mkp",
+      "value": 115000,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 115,000"
+    },
+    {
+      "evidence_id": "market.ev.020",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.hipr",
+      "value": 118500,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 118,500"
+    }
+  ],
+  "raw_payload": {
+    "analysis": {
+      "agent": "market",
+      "company": "테스",
+      "opinion": "보유",
+      "confidence": 0.6,
+      "market_summary": {
+        "oecd_interpretation": "OECD 경기선행지수가 98.01로 기준선(100) 하회하며 경기 둔화 가능성을 시사합니다. 이는 전반적인 투자 심리에 부정적인 영향을 줄 수 있습니다.",
+        "industry_stage": "테스가 속한 반도체 장비 산업은 AI·HBM 등 신규 세그먼트의 성장기 진입과 기존 메모리 산업의 성숙기 및 레거시 산업의 쇠퇴기가 혼재된 상황입니다. 전반적으로는 성장기 초입 또는 중반으로 볼 수 있습니다.",
+        "value_chain_position": "테스는 반도체 전공정 장비 제조사로서 밸류체인 상에서 핵심적인 역할을 수행합니다. 특히 PECVD와 같은 고급 장비 제공 및 맞춤 생산 방식은 수요 증가의 직접적인 수혜를 기대하게 합니다.",
+        "competitive_position": "반도체 장비 시장은 높은 기술 진입 장벽과 소수 기업의 과점 구조를 보입니다. 테스는 주문 맞춤 생산으로 경쟁 우위를 확보하려 하지만, 경쟁 강도는 '높음'으로 평가됩니다.",
+        "market_momentum": "현재 테스의 주가는 112,400원으로 전일 대비 3.19% 하락했습니다. 최근 반도체 업황 회복 기대감과 삼성전자 파업 이슈가 혼재하며 변동성이 높은 상황입니다."
+      },
+      "qualitative_rubric": {
+        "macro_cycle": {
+          "assessment": "중",
+          "reason": "OECD 경기선행지수가 기준선 하회하며 경기 둔화 가능성을 시사하나, 반도체 산업 자체의 성장 동력은 별개로 작용할 수 있습니다."
+        },
+        "industry_attractiveness": {
+          "assessment": "상",
+          "reason": "AI·HBM 등 신규 반도체 세그먼트의 높은 성장률과 전 세계 반도체 시장의 약 30% 증가 예상은 산업 매력도를 높입니다."
+        },
+        "value_chain_position": {
+          "assessment": "상",
+          "reason": "반도체 전공정 장비 제조사로서 첨단 공정 장비 공급을 통해 밸류체인 내 핵심적인 위치를 차지하며 직접적인 수혜가 기대됩니다."
+        },
+        "competitive_position": {
+          "assessment": "중",
+          "reason": "높은 경쟁 강도 속에서 맞춤 생산 방식으로 차별화를 시도하고 있으나, 시장 내 지배적인 플레이어들과의 경쟁은 여전히 치열합니다."
+        },
+        "market_momentum": {
+          "assessment": "중",
+          "reason": "최근 주가 하락세와 삼성전자 파업 이슈 등 부정적 뉴스가 있으나, 반도체 업황 회복 기대감은 여전히 존재하여 방향성 판단이 어렵습니다."
+        },
+        "policy_disclosure_signal": {
+          "assessment": "상",
+          "reason": "정부의 R&D 지원 확대, 세액공제 검토 등 반도체 산업 육성 정책은 긍정적 신호이며, DART 공시상 사업 개요와 매출 비중은 사업 모델의 명확성을 보여줍니다."
+        },
+        "downside_risk": {
+          "assessment": "중",
+          "reason": "삼성전자 파업으로 인한 생산 차질 가능성, 환율 상승, 반도체 업황 피크아웃 논란 등 단기적인 하방 압력 요인이 존재합니다."
+        }
+      },
+      "bwm_assessment": {
+        "best_criterion": "산업 매력도",
+        "worst_criterion": "시장 모멘텀",
+        "judgment_effect": "산업의 높은 성장성과 테스의 밸류체인 내 중요성은 긍정적이나, 현재 시장 모멘텀의 불확실성과 단기 리스크 요인이 투자 의견을 '보유'로 조정하게 합니다."
+      },
+      "scoring": {
+        "거시환경": {
+          "score": 12,
+          "max": 20,
+          "reason": "OECD 경기선행지수 하회는 부정적이나, 반도체 산업 자체의 성장 동력은 별개로 작용할 수 있어 중립적으로 평가합니다."
+        },
+        "산업매력도": {
+          "score": 18,
+          "max": 20,
+          "reason": "AI·HBM 등 신규 세그먼트의 높은 성장률과 전 세계 반도체 시장의 약 30% 증가 예상은 산업 매력도를 높게 평가합니다."
+        },
+        "경쟁위치": {
+          "score": 14,
+          "max": 20,
+          "reason": "높은 경쟁 강도 속에서 맞춤 생산 방식으로 차별화를 시도하고 있으나, 시장 내 지배적인 플레이어들과의 경쟁은 여전히 치열합니다."
+        },
+        "정책수혜": {
+          "score": 17,
+          "max": 20,
+          "reason": "정부의 R&D 지원 확대, 세액공제 검토 등 반도체 산업 육성 정책은 긍정적 신호이며, DART 공시상 사업 모델의 명확성은 긍정적입니다."
+        },
+        "시장모멘텀": {
+          "score": 10,
+          "max": 20,
+          "reason": "최근 주가 하락세와 삼성전자 파업 이슈 등 부정적 뉴스가 있으나, 반도체 업황 회복 기대감은 여전히 존재하여 방향성 판단이 어렵습니다."
+        }
+      },
+      "total_score": 71,
+      "claims": [
+        {
+          "claim_id": "market.cl.001",
+          "text": "테스는 반도체 전공정 장비 제조사로서 AI·HBM 등 성장하는 반도체 세그먼트의 수혜가 기대됩니다.",
+          "evidence_ids": [
+            "market.ev.003",
+            "market.ev.004"
+          ]
+        },
+        {
+          "claim_id": "market.cl.002",
+          "text": "삼성전자 파업 이슈와 환율 상승은 단기적인 주가 하방 리스크로 작용할 수 있습니다.",
+          "evidence_ids": [
+            "market.ev.002",
+            "market.ev.005"
+          ]
+        },
+        {
+          "claim_id": "market.cl.003",
+          "text": "정부의 반도체 산업 육성 정책은 테스에게 긍정적인 영향을 줄 수 있습니다.",
+          "evidence_ids": [
+            "market.ev.004"
+          ]
+        }
+      ],
+      "evidences": [
+        {
+          "evidence_id": "market.ev.001",
+          "source_type": "stock",
+          "source": "public_data",
+          "metric": "current_price",
+          "value": 112400,
+          "unit": "KRW",
+          "period": "20260519",
+          "snippet": "current_price: 112400, change_rate: -3.19"
+        },
+        {
+          "evidence_id": "market.ev.002",
+          "source_type": "news",
+          "source": "Naver News",
+          "metric": null,
+          "value": null,
+          "unit": null,
+          "period": "20260520",
+          "snippet": "환율 이틀째 1500원대, 코스피 급락… 공포 덮친 금융시장"
+        },
+        {
+          "evidence_id": "market.ev.003",
+          "source_type": "static",
+          "source": "밸류체인 & 경쟁구조",
+          "metric": "시장 성장률",
+          "value": 30,
+          "unit": "%",
+          "period": "2025",
+          "snippet": "반도체 올해 전세계 시장 약 30% 증가 예상"
+        },
+        {
+          "evidence_id": "market.ev.004",
+          "source_type": "static",
+          "source": "밸류체인 & 경쟁구조",
+          "metric": null,
+          "value": null,
+          "unit": null,
+          "period": null,
+          "snippet": "AI·HBM: 성장기\n반도체 장비: 성장기\nR&D 지원 확대"
+        },
+        {
+          "evidence_id": "market.ev.005",
+          "source_type": "news",
+          "source": "Naver News",
+          "metric": null,
+          "value": null,
+          "unit": null,
+          "period": "20260520",
+          "snippet": "삼성전자 노사 협상 결렬…노조, 21일부터 총파업 돌입"
+        }
+      ],
+      "risks": [
+        {
+          "risk": "삼성전자 파업으로 인한 생산 차질 및 공급망 불안정",
+          "severity": "중",
+          "basis": "삼성전자 노사 협상 결렬 및 총파업 돌입 뉴스"
+        },
+        {
+          "risk": "환율 상승으로 인한 원자재 수입 비용 증가 및 투자 심리 위축",
+          "severity": "중",
+          "basis": "환율 1500원대 진입 및 코스피 급락 뉴스"
+        },
+        {
+          "risk": "반도체 업황 피크아웃 논란 및 투자 심리 위축",
+          "severity": "중",
+          "basis": "글로벌 반도체 피크아웃 가능성 및 메모리 업황 피크아웃 논란 뉴스"
+        }
+      ],
+      "opportunities": [
+        {
+          "opportunity": "AI·HBM 등 신규 반도체 시장 성장에 따른 전공정 장비 수요 증가",
+          "basis": "AI·HBM 반도체 성장기 진입 및 시장 성장률 전망"
+        },
+        {
+          "opportunity": "정부의 반도체 산업 육성 정책 수혜",
+          "basis": "R&D 지원 확대, 세액공제 검토 등 정책 내용"
+        }
+      ],
+      "summary": "테스는 AI·HBM 등 성장하는 반도체 시장의 수혜가 기대되나, 삼성전자 파업 및 환율 상승 등 단기 리스크 요인이 존재합니다. 따라서 현재 시점에서는 '보유' 의견을 제시합니다.",
+      "raw_payload": {
+        "stock_used": true,
+        "oecd_used": true,
+        "static_used": true,
+        "news_used": true,
+        "dart_used": true
+      }
+    },
+    "original_opportunities": [
+      {
+        "opportunity": "AI·HBM 등 신규 반도체 시장 성장에 따른 전공정 장비 수요 증가",
+        "basis": "AI·HBM 반도체 성장기 진입 및 시장 성장률 전망"
+      },
+      {
+        "opportunity": "정부의 반도체 산업 육성 정책 수혜",
+        "basis": "R&D 지원 확대, 세액공제 검토 등 정책 내용"
+      }
+    ],
+    "original_risks": [
+      {
+        "risk": "삼성전자 파업으로 인한 생산 차질 및 공급망 불안정",
+        "severity": "중",
+        "basis": "삼성전자 노사 협상 결렬 및 총파업 돌입 뉴스"
+      },
+      {
+        "risk": "환율 상승으로 인한 원자재 수입 비용 증가 및 투자 심리 위축",
+        "severity": "중",
+        "basis": "환율 1500원대 진입 및 코스피 급락 뉴스"
+      },
+      {
+        "risk": "반도체 업황 피크아웃 논란 및 투자 심리 위축",
+        "severity": "중",
+        "basis": "글로벌 반도체 피크아웃 가능성 및 메모리 업황 피크아웃 논란 뉴스"
+      }
+    ],
+    "removed_bad_evidence_ids": [
+      "market.ev.unverified"
+    ]
+  },
+  "total_score": 71,
+  "scoring": {
+    "거시환경": {
+      "score": 12,
+      "max": 20,
+      "reason": "OECD 경기선행지수 하회는 부정적이나, 반도체 산업 자체의 성장 동력은 별개로 작용할 수 있어 중립적으로 평가합니다."
+    },
+    "산업매력도": {
+      "score": 18,
+      "max": 20,
+      "reason": "AI·HBM 등 신규 세그먼트의 높은 성장률과 전 세계 반도체 시장의 약 30% 증가 예상은 산업 매력도를 높게 평가합니다."
+    },
+    "경쟁위치": {
+      "score": 14,
+      "max": 20,
+      "reason": "높은 경쟁 강도 속에서 맞춤 생산 방식으로 차별화를 시도하고 있으나, 시장 내 지배적인 플레이어들과의 경쟁은 여전히 치열합니다."
+    },
+    "정책수혜": {
+      "score": 17,
+      "max": 20,
+      "reason": "정부의 R&D 지원 확대, 세액공제 검토 등 반도체 산업 육성 정책은 긍정적 신호이며, DART 공시상 사업 모델의 명확성은 긍정적입니다."
+    },
+    "시장모멘텀": {
+      "score": 10,
+      "max": 20,
+      "reason": "최근 주가 하락세와 삼성전자 파업 이슈 등 부정적 뉴스가 있으나, 반도체 업황 회복 기대감은 여전히 존재하여 방향성 판단이 어렵습니다."
+    }
+  },
+  "packet_version": "grounded_agent_v3",
+  "pre_sanitize_grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 6,
+    "supported_count": 6,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "테스 마켓 분석 total_score 값은 71점입니다.",
+      "테스 stock_data.current_price 값은 112400입니다.",
+      "테스 stock_data.change 값은 -3700입니다.",
+      "테스 stock_data.change_rate 값은 -3.19%입니다.",
+      "테스 stock_data.raw.clpr 값은 112400입니다.",
+      "테스 stock_data.raw.vs 값은 -3700입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "market.cl.001",
+        "text": "테스 마켓 분석 total_score 값은 71점입니다.",
+        "evidence_ids": [
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "테스 stock_data.current_price 값은 112400입니다.",
+        "evidence_ids": [
+          "market.ev.006"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {
+          "price": [
+            "market.ev.006"
+          ]
+        },
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.003",
+        "text": "테스 stock_data.change 값은 -3700입니다.",
+        "evidence_ids": [
+          "market.ev.009"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.004",
+        "text": "테스 stock_data.change_rate 값은 -3.19%입니다.",
+        "evidence_ids": [
+          "market.ev.010"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.005",
+        "text": "테스 stock_data.raw.clpr 값은 112400입니다.",
+        "evidence_ids": [
+          "market.ev.016"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.006",
+        "text": "테스 stock_data.raw.vs 값은 -3700입니다.",
+        "evidence_ids": [
+          "market.ev.017"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  },
+  "post_atomic_grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 9,
+    "supported_count": 9,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "테스 마켓 분석 total_score 값은 71점입니다.",
+      "테스 stock_data.current_price 값은 112400입니다.",
+      "테스 stock_data.change 값은 -3700입니다.",
+      "테스 stock_data.change_rate 값은 -3.19%입니다.",
+      "테스 stock_data.raw.clpr 값은 112400입니다.",
+      "테스 stock_data.raw.vs 값은 -3700입니다.",
+      "stock_data.raw.fltRt 값은 -3.19%입니다.",
+      "stock_data.raw.mkp 값은 115,000입니다.",
+      "stock_data.raw.hipr 값은 118,500입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "market.cl.001",
+        "text": "테스 마켓 분석 total_score 값은 71점입니다.",
+        "evidence_ids": [
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "테스 stock_data.current_price 값은 112400입니다.",
+        "evidence_ids": [
+          "market.ev.006"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {
+          "price": [
+            "market.ev.006"
+          ]
+        },
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.003",
+        "text": "테스 stock_data.change 값은 -3700입니다.",
+        "evidence_ids": [
+          "market.ev.009"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.004",
+        "text": "테스 stock_data.change_rate 값은 -3.19%입니다.",
+        "evidence_ids": [
+          "market.ev.010"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.005",
+        "text": "테스 stock_data.raw.clpr 값은 112400입니다.",
+        "evidence_ids": [
+          "market.ev.016"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.006",
+        "text": "테스 stock_data.raw.vs 값은 -3700입니다.",
+        "evidence_ids": [
+          "market.ev.017"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.007",
+        "text": "stock_data.raw.fltRt 값은 -3.19%입니다.",
+        "evidence_ids": [
+          "market.ev.018"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.009",
+        "text": "stock_data.raw.mkp 값은 115,000입니다.",
+        "evidence_ids": [
+          "market.ev.019"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.011",
+        "text": "stock_data.raw.hipr 값은 118,500입니다.",
+        "evidence_ids": [
+          "market.ev.020"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  },
+  "grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 9,
+    "supported_count": 9,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "테스 마켓 분석 total_score 값은 71점입니다.",
+      "테스 stock_data.current_price 값은 112400입니다.",
+      "테스 stock_data.change 값은 -3700입니다.",
+      "테스 stock_data.change_rate 값은 -3.19%입니다.",
+      "테스 stock_data.raw.clpr 값은 112400입니다.",
+      "테스 stock_data.raw.vs 값은 -3700입니다.",
+      "stock_data.raw.fltRt 값은 -3.19%입니다.",
+      "stock_data.raw.mkp 값은 115,000입니다.",
+      "stock_data.raw.hipr 값은 118,500입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "market.cl.001",
+        "text": "테스 마켓 분석 total_score 값은 71점입니다.",
+        "evidence_ids": [
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "테스 stock_data.current_price 값은 112400입니다.",
+        "evidence_ids": [
+          "market.ev.006"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {
+          "price": [
+            "market.ev.006"
+          ]
+        },
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.003",
+        "text": "테스 stock_data.change 값은 -3700입니다.",
+        "evidence_ids": [
+          "market.ev.009"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.004",
+        "text": "테스 stock_data.change_rate 값은 -3.19%입니다.",
+        "evidence_ids": [
+          "market.ev.010"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.005",
+        "text": "테스 stock_data.raw.clpr 값은 112400입니다.",
+        "evidence_ids": [
+          "market.ev.016"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.006",
+        "text": "테스 stock_data.raw.vs 값은 -3700입니다.",
+        "evidence_ids": [
+          "market.ev.017"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.007",
+        "text": "stock_data.raw.fltRt 값은 -3.19%입니다.",
+        "evidence_ids": [
+          "market.ev.018"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.009",
+        "text": "stock_data.raw.mkp 값은 115,000입니다.",
+        "evidence_ids": [
+          "market.ev.019"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.011",
+        "text": "stock_data.raw.hipr 값은 118,500입니다.",
+        "evidence_ids": [
+          "market.ev.020"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  }
+}

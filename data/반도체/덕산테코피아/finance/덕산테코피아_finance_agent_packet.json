@@ -1,0 +1,247 @@
+{
+  "agent_name": "finance",
+  "company_name": "덕산테코피아",
+  "company_dir": "duksan",
+  "industry_type": "CFS",
+  "summary": "덕산테코피아는 2023년부터 2025년까지 매출은 꾸준히 증가했으나, 영업이익과 순이익은 지속적으로 적자를 기록하며 수익성 개선이 시급한 상황이다. 부채비율은 2025년 507%까지 상승하며 재무 건전성에 대한 우려가 커지고 있다. 주가는 2025년 큰 폭의 하락세를 보였으며, 최근 1개월간의 데이터에서도 높은 변동성과 상당한 수준의 드로다운이 관찰된다.",
+  "key_thesis": [
+    "2023년 940억 원에서 2025년 1,120억 원으로 매출이 꾸준히 증가하는 추세를 보이고 있다.",
+    "2024년 86억 원, 2025년 89억 원으로 R&D 투자가 지속되고 있어 미래 성장 동력 확보 노력이 있음을 시사한다.",
+    "2024년 1383.84에서 2025년 1620.1로 VKOSPI 평균값이 상승하는 등 시장 변동성이 확대되는 국면에서 주가 움직임을 보였다.",
+    "2024년 거래량 이동평균 대비 비율 평균이 1.0205로 거래량이 평균 수준을 유지했으나, 2025년에는 0.9919로 소폭 하락했다."
+  ],
+  "key_risks": [
+    "2023년 -622억 원, 2024년 -302억 원, 2025년 -430억 원으로 영업이익이 지속적으로 큰 폭의 적자를 기록하고 있다.",
+    "2023년 -10.46%, 2024년 -35.28%, 2025년 -99.13%로 ROE가 지속적으로 악화되며 자본 효율성이 매우 낮은 상태다.",
+    "2023년 179.08%, 2024년 222.24%, 2025년 507.37%로 부채비율이 급격히 상승하여 재무 건전성에 심각한 우려가 제기된다.",
+    "2025년 연수익률이 -44.07%로 큰 폭의 하락세를 보였으며, 연간 MDD 또한 -59.97%로 높은 수준을 기록했다.",
+    "최근 1개월 주가 데이터에서 누적최고가 대비 드로다운이 -65% 이상으로 매우 높은 수준을 유지하고 있으며, 단기적으로도 상당한 변동성을 보이고 있다.",
+    "이자보상배율이 2023년 -0.34, 2024년 -0.36, 2025년 -0.56으로 지속적으로 마이너스 값을 기록하며 이자 지급 능력에 대한 우려가 크다.",
+    "연간 MDD -59.97%로 주가 낙폭 리스크를 확인해야 합니다."
+  ],
+  "report_core_points": [
+    "FCF: 덕산테코피아 2025 기준 FCF 값은 -51,887,522,634원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+    "연수익률: 덕산테코피아 2025 기준 연수익률 값은 -44.07%이며, 해당 연도 주가 성과를 보여주는 지표입니다.",
+    "연간 MDD: 덕산테코피아 2025 기준 연간 MDD 값은 -59.97%이며, 투자자가 경험할 수 있는 최대 낙폭 위험을 보여주는 지표입니다.",
+    "거래량: 덕산테코피아 2025 기준 거래량 값은 176337.00주이며, 해당 연도 평균 거래량을 통해 시장 관심과 유동성을 확인하는 지표입니다.",
+    "이동평균 대비 비율: 덕산테코피아 2025 기준 이동평균 대비 비율 값은 0.99배이며, 거래량이 이동평균 대비 어느 수준인지 보여주는 수급 지표입니다.",
+    "변동성지수: 덕산테코피아 2025 기준 변동성지수 값은 1620.10이며, 시장 변동성 환경을 함께 확인하기 위한 보조 지표입니다."
+  ],
+  "missing_prompt_metrics": [
+    "매출성장률",
+    "영업이익률",
+    "ROE",
+    "부채비율"
+  ],
+  "evidence": [
+    {
+      "evidence_id": "finance.ev.004",
+      "source_type": "financial_csv",
+      "source": "덕산테코피아_재무.csv",
+      "metric": "fcf",
+      "label": "FCF",
+      "value": -51887522634.0,
+      "unit": "원",
+      "period": "2025",
+      "snippet": "덕산테코피아 2025 기준 FCF 값은 -51,887,522,634원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.007",
+      "source_type": "stock_csv",
+      "source": "덕산테코피아_주식.csv",
+      "metric": "annual_return_%",
+      "label": "연수익률",
+      "value": -44.07,
+      "unit": "%",
+      "period": "2025",
+      "snippet": "덕산테코피아 2025 기준 연수익률 값은 -44.07%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.008",
+      "source_type": "stock_csv",
+      "source": "덕산테코피아_주식.csv",
+      "metric": "annual_mdd_%",
+      "label": "연간 MDD",
+      "value": -59.97,
+      "unit": "%",
+      "period": "2025",
+      "snippet": "덕산테코피아 2025 기준 연간 MDD 값은 -59.97%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.009",
+      "source_type": "stock_csv",
+      "source": "덕산테코피아_주식.csv",
+      "metric": "volume_mean",
+      "label": "거래량",
+      "value": 176337.0,
+      "unit": "주",
+      "period": "2025",
+      "snippet": "덕산테코피아 2025 기준 거래량 값은 176337주입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.010",
+      "source_type": "stock_csv",
+      "source": "덕산테코피아_주식.csv",
+      "metric": "volume_ma_ratio_mean",
+      "label": "이동평균 대비 비율",
+      "value": 0.9919,
+      "unit": "배",
+      "period": "2025",
+      "snippet": "덕산테코피아 2025 기준 이동평균 대비 비율 값은 0.9919배입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.011",
+      "source_type": "stock_csv",
+      "source": "덕산테코피아_주식.csv",
+      "metric": "vkospi_mean",
+      "label": "변동성지수",
+      "value": 1620.1,
+      "unit": null,
+      "period": "2025",
+      "snippet": "덕산테코피아 2025 기준 변동성지수 값은 1620.10입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.012",
+      "source_type": "stock_csv",
+      "source": "덕산테코피아_주식.csv",
+      "metric": "latest_close",
+      "label": "최근 종가",
+      "value": 16920.0,
+      "unit": "원",
+      "period": "2025-12-30",
+      "snippet": "덕산테코피아 2025-12-30 최근 종가 값은 16,920원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.013",
+      "source_type": "warning_stock_csv",
+      "source": "투자경고종목.csv",
+      "metric": "warning_stock",
+      "label": "투자경고 여부",
+      "value": 1.0,
+      "unit": null,
+      "period": "2026-04-17",
+      "snippet": "덕산테코피아: 투자경고종목 목록에 포함되어 있으므로 단기 과열 및 변동성 확대 가능성에 유의해야 합니다.",
+      "prompt_rationale": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "finance.safe_cl.004",
+      "text": "덕산테코피아 2025 기준 FCF 값은 -51,887,522,634원입니다.",
+      "evidence_ids": [
+        "finance.ev.004"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.007",
+      "text": "덕산테코피아 2025 기준 연수익률 값은 -44.07%입니다.",
+      "evidence_ids": [
+        "finance.ev.007"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.008",
+      "text": "덕산테코피아 2025 기준 연간 MDD 값은 -59.97%입니다.",
+      "evidence_ids": [
+        "finance.ev.008"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.009",
+      "text": "덕산테코피아 2025 기준 거래량 값은 176337주입니다.",
+      "evidence_ids": [
+        "finance.ev.009"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.010",
+      "text": "덕산테코피아 2025 기준 이동평균 대비 비율 값은 0.9919배입니다.",
+      "evidence_ids": [
+        "finance.ev.010"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.011",
+      "text": "덕산테코피아 2025 기준 변동성지수 값은 1620.10입니다.",
+      "evidence_ids": [
+        "finance.ev.011"
+      ],
+      "audit_safe": true
+    }
+  ],
+  "warning_note": "덕산테코피아: 투자경고종목 목록에 포함되어 있으므로 단기 과열 및 변동성 확대 가능성에 유의해야 합니다.",
+  "source_contexts": [
+    "financial_csv=덕산테코피아_재무.csv",
+    "stock_csv=덕산테코피아_주식.csv",
+    "warning_stock_csv=투자경고종목.csv",
+    "prompts.py summary/key_thesis/key_risks are preserved in the Chair View where available.",
+    "First Auditor claims are CSV-grounded one-to-one evidence claims for stable actual-information verification.",
+    "필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율"
+  ],
+  "raw_payload": {
+    "latest_financial_row": {
+      "year": 2025,
+      "sales": 112078954483.0,
+      "operating_income": -43026410473.0,
+      "net_income": -105550462258.0,
+      "total_assets": 646705781509.0,
+      "total_liabilities": 540230144773.0,
+      "total_equity": 106475636736.0,
+      "rnd": 8995359000,
+      "capex": 30497181445,
+      "ocf": -21390341189,
+      "fcf": -51887522634,
+      "interest": 76936683973.0,
+      "ROE": -99.13109279609763,
+      "영업이익률": -38.38937530375178,
+      "부채비율": 507.3744204155064,
+      "이자보상배율": -0.5592444104830356
+    },
+    "latest_stock_metric": {
+      "year": 2025,
+      "annual_return_%": -44.07,
+      "annual_mdd_%": -59.97
+    },
+    "latest_yearly_summary": {
+      "year": 2025,
+      "close_start": 30250.0,
+      "close_end": 16920.0,
+      "close_high": 37600.0,
+      "close_low": 15050.0,
+      "volume_mean": 176337.0,
+      "volume_ma_ratio_mean": 0.9919,
+      "vkospi_mean": 1620.1
+    },
+    "latest_recent_stock_row": {
+      "Date": "2025-12-30",
+      "Open": 17060,
+      "High": 17100,
+      "Low": 16790,
+      "Close": 16920,
+      "Volume": 88236,
+      "Change": -0.015706806,
+      "VIX": 14.32999992,
+      "VKOSPI": 2432.16,
+      "일수익률_%": -1.570680628,
+      "누적최고가": 61400,
+      "드로다운_%": -72.44299674,
+      "거래량_20일평균": 121760.7,
+      "거래량_이동평균대비비율": 0.724667319,
+      "기간MDD_%": -75.48859935
+    },
+    "audit_policy": "prompts_py_used_for_interpretation_claims_grounded_by_local_csv"
+  },
+  "packet_version": "finance_prompts_grounded_v4_compact"
+}

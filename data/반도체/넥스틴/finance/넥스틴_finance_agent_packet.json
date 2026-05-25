@@ -1,0 +1,222 @@
+{
+  "agent_name": "finance",
+  "company_name": "넥스틴",
+  "company_dir": "nextin",
+  "industry_type": "deeptech_semiconductor",
+  "summary": "넥스틴은 2023년과 2024년에 걸쳐 높은 영업이익률과 ROE를 기록하며 견조한 수익성을 보였으나, 2025년에는 매출 감소와 함께 영업이익 및 순이익이 적자 전환하며 수익성 악화가 두드러졌다. 2024년까지는 긍정적인 재무 상태를 유지했으나, 2025년에는 부채비율이 급증하고 이자보상배율이 1 미만으로 하락하며 재무 건전성에 대한 우려가 커졌다. 최근 1개월 주가 데이터는 상당한 변동성과 함께 누적 최고가 대비 높은 수준의 하락률(MDD)을 보이고 있다.",
+  "key_thesis": [
+    "2023년 41.13%의 높은 영업이익률과 24.36%의 ROE를 기록하며 뛰어난 수익성을 보여주었다.",
+    "2024년에는 매출액이 1137억 원으로 증가하고 영업이익률 41.31%, ROE 24.38%를 유지하며 성장세를 이어갔다.",
+    "2024년까지 부채비율이 20.41%로 낮게 유지되어 재무 안정성이 양호했다.",
+    "2024년 긍정적인 영업활동현금흐름(OCF) 427억 원과 잉여현금흐름(FCF) 269억 원을 기록하며 현금 창출 능력을 입증했다."
+  ],
+  "key_risks": [
+    "2025년 매출액이 669억 원으로 급감하고 영업이익률 -1.73%, ROE -1.76%를 기록하며 수익성이 크게 악화되었다.",
+    "2025년 부채비율이 48.45%로 급증하고 이자보상배율이 -0.86으로 하락하여 재무 건전성에 심각한 우려가 발생했다.",
+    "2025년 잉여현금흐름(FCF)이 -415억 원으로 대폭 감소하며 현금 창출 능력에 대한 의문이 제기된다.",
+    "최근 1개월 주가 데이터에서 누적 최고가 대비 최대 -36.55%의 연간 MDD를 기록하며 높은 변동성을 보이고 있다.",
+    "2026년 연수익률이 -5.71%로 마이너스를 기록하며 주가 하락세가 지속되고 있다.",
+    "연간 MDD -36.55%로 주가 낙폭 리스크를 확인해야 합니다."
+  ],
+  "report_core_points": [
+    "FCF: 넥스틴 2025 기준 FCF 값은 -41,568,110,981원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+    "연수익률: 넥스틴 2026 기준 연수익률 값은 -5.71%이며, 해당 연도 주가 성과를 보여주는 지표입니다.",
+    "연간 MDD: 넥스틴 2026 기준 연간 MDD 값은 -36.55%이며, 투자자가 경험할 수 있는 최대 낙폭 위험을 보여주는 지표입니다.",
+    "거래량: 넥스틴 2026 기준 거래량 값은 99859.00주이며, 해당 연도 평균 거래량을 통해 시장 관심과 유동성을 확인하는 지표입니다.",
+    "이동평균 대비 비율: 넥스틴 2026 기준 이동평균 대비 비율 값은 1.00배이며, 거래량이 이동평균 대비 어느 수준인지 보여주는 수급 지표입니다."
+  ],
+  "missing_prompt_metrics": [
+    "매출성장률",
+    "영업이익률",
+    "ROE",
+    "부채비율",
+    "변동성지수"
+  ],
+  "evidence": [
+    {
+      "evidence_id": "finance.ev.004",
+      "source_type": "financial_csv",
+      "source": "넥스틴_재무.csv",
+      "metric": "fcf",
+      "label": "FCF",
+      "value": -41568110981.0,
+      "unit": "원",
+      "period": "2025",
+      "snippet": "넥스틴 2025 기준 FCF 값은 -41,568,110,981원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.007",
+      "source_type": "stock_csv",
+      "source": "넥스틴_주식.csv",
+      "metric": "annual_return_%",
+      "label": "연수익률",
+      "value": -5.71,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "넥스틴 2026 기준 연수익률 값은 -5.71%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.008",
+      "source_type": "stock_csv",
+      "source": "넥스틴_주식.csv",
+      "metric": "annual_mdd_%",
+      "label": "연간 MDD",
+      "value": -36.55,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "넥스틴 2026 기준 연간 MDD 값은 -36.55%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.009",
+      "source_type": "stock_csv",
+      "source": "넥스틴_주식.csv",
+      "metric": "volume_mean",
+      "label": "거래량",
+      "value": 99859.0,
+      "unit": "주",
+      "period": "2026",
+      "snippet": "넥스틴 2026 기준 거래량 값은 99859주입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.010",
+      "source_type": "stock_csv",
+      "source": "넥스틴_주식.csv",
+      "metric": "volume_ma_ratio_mean",
+      "label": "이동평균 대비 비율",
+      "value": 1.0037,
+      "unit": "배",
+      "period": "2026",
+      "snippet": "넥스틴 2026 기준 이동평균 대비 비율 값은 1.0037배입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.012",
+      "source_type": "stock_csv",
+      "source": "넥스틴_주식.csv",
+      "metric": "latest_close",
+      "label": "최근 종가",
+      "value": 69300.0,
+      "unit": "원",
+      "period": "2026-05-13",
+      "snippet": "넥스틴 2026-05-13 최근 종가 값은 69,300원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.013",
+      "source_type": "warning_stock_csv",
+      "source": "투자경고종목.csv",
+      "metric": "warning_stock",
+      "label": "투자경고 여부",
+      "value": 0.0,
+      "unit": null,
+      "period": "최근",
+      "snippet": "넥스틴 투자경고종목 해당 여부 값은 0입니다.",
+      "prompt_rationale": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "finance.safe_cl.004",
+      "text": "넥스틴 2025 기준 FCF 값은 -41,568,110,981원입니다.",
+      "evidence_ids": [
+        "finance.ev.004"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.007",
+      "text": "넥스틴 2026 기준 연수익률 값은 -5.71%입니다.",
+      "evidence_ids": [
+        "finance.ev.007"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.008",
+      "text": "넥스틴 2026 기준 연간 MDD 값은 -36.55%입니다.",
+      "evidence_ids": [
+        "finance.ev.008"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.009",
+      "text": "넥스틴 2026 기준 거래량 값은 99859주입니다.",
+      "evidence_ids": [
+        "finance.ev.009"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.010",
+      "text": "넥스틴 2026 기준 이동평균 대비 비율 값은 1.0037배입니다.",
+      "evidence_ids": [
+        "finance.ev.010"
+      ],
+      "audit_safe": true
+    }
+  ],
+  "warning_note": null,
+  "source_contexts": [
+    "financial_csv=넥스틴_재무.csv",
+    "stock_csv=넥스틴_주식.csv",
+    "warning_stock_csv=투자경고종목.csv",
+    "prompts.py summary/key_thesis/key_risks are preserved in the Chair View where available.",
+    "First Auditor claims are CSV-grounded one-to-one evidence claims for stable actual-information verification.",
+    "필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수"
+  ],
+  "raw_payload": {
+    "latest_financial_row": {
+      "year": 2025,
+      "sales": 66914327141.0,
+      "operating_income": -1160803724.0,
+      "net_income": -2645744570.0,
+      "total_assets": 222879250398.0,
+      "total_liabilities": 72740126627.0,
+      "total_equity": 150139123771.0,
+      "capex": 30459468030,
+      "ocf": -11108642951,
+      "fcf": -41568110981,
+      "interest": 1351014202.0,
+      "ROE": -1.762195291638592,
+      "영업이익률": -1.7347611096110809,
+      "부채비율": 48.44848218106496,
+      "이자보상배율": -0.8592091202902099
+    },
+    "latest_stock_metric": {
+      "year": 2026,
+      "annual_return_%": -5.71,
+      "annual_mdd_%": -36.55
+    },
+    "latest_yearly_summary": {
+      "year": 2026,
+      "close_start": 73500.0,
+      "close_end": 69300.0,
+      "close_high": 98500.0,
+      "close_low": 62500.0,
+      "volume_mean": 99859.0,
+      "volume_ma_ratio_mean": 1.0037
+    },
+    "latest_recent_stock_row": {
+      "Date": "2026-05-13",
+      "Open": 68500.0,
+      "High": 71500.0,
+      "Low": 66500.0,
+      "Close": 69300.0,
+      "Volume": 99432,
+      "Change": 0.0,
+      "VKOSPI": NaN,
+      "일수익률_%": 0.0,
+      "누적최고가": 98500.0,
+      "드로다운_%": -29.644670050761423,
+      "거래량_20일평균": 89037.45,
+      "거래량_이동평균대비비율": 1.1167435725079728
+    },
+    "audit_policy": "prompts_py_used_for_interpretation_claims_grounded_by_local_csv"
+  },
+  "packet_version": "finance_prompts_grounded_v4_compact"
+}

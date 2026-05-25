@@ -1,0 +1,223 @@
+{
+  "agent_name": "finance",
+  "company_name": "테스",
+  "company_dir": "tes",
+  "industry_type": "deeptech_semiconductor",
+  "summary": "테스는 2023년 영업이익 적자에서 2024년 흑자 전환하며 매출과 이익이 크게 성장하는 추세를 보이고 있습니다. 2025년에도 이러한 성장세가 이어질 것으로 전망되나, 2024년 자유현금흐름이 마이너스를 기록한 점은 투자 시 고려해야 할 부분입니다. 주가는 2025년 큰 폭의 상승률을 기록했으나, 최근 1개월간 상당한 변동성과 하락폭을 보이며 높은 변동성을 나타내고 있습니다.",
+  "key_thesis": [
+    "2023년 영업이익률 -3.99%에서 2024년 16.03%로 급등하며 수익성이 크게 개선되었고, 2025년에는 16.47%로 유지될 것으로 보입니다.",
+    "2023년 ROE 0.52%에서 2024년 12.90%로 상승했으며, 2025년에는 14.53%로 추가 상승이 예상되어 자본 효율성이 개선되고 있습니다.",
+    "매출액은 2023년 1,469억원에서 2025년 3,511억원으로 2년 만에 2배 이상 성장할 것으로 전망됩니다.",
+    "2025년 영업이익은 578억원으로 2024년 대비 50% 이상 증가할 것으로 예상되어 가파른 이익 성장세를 보여줍니다.",
+    "2025년 이자보상배율이 6.64로 개선되어 이자 지급 능력이 향상되었습니다."
+  ],
+  "key_risks": [
+    "2024년 자유현금흐름(FCF)이 -243억원을 기록하며 마이너스로 전환되었고, 이는 투자 및 운전자본 증가로 인한 현금 유출 가능성을 시사합니다.",
+    "최근 1개월 주가 데이터에서 최고가 대비 최대 -28.15%의 드로다운(MDD)이 관찰되어 높은 변동성 리스크가 존재합니다.",
+    "2024년 부채비율이 15.32%에서 2025년 24.43%로 상승하는 추세이며, 이는 재무 레버리지 증가 가능성을 나타냅니다.",
+    "2024년 이자보상배율이 -9.52로 큰 폭의 적자를 기록했으며, 2025년 6.64로 개선되었으나 이자 지급 부담에 대한 지속적인 모니터링이 필요합니다.",
+    "2026년 5월 13일 기준, 최근 1개월간 거래량 이동평균 대비 비율이 1.83으로 높게 나타나 단기적인 주가 급등 후 조정 가능성을 시사합니다.",
+    "연간 MDD -28.15%로 주가 낙폭 리스크를 확인해야 합니다."
+  ],
+  "report_core_points": [
+    "FCF: 테스 2025 기준 FCF 값은 49,284,217,786원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+    "연수익률: 테스 2026 기준 연수익률 값은 130.26%이며, 해당 연도 주가 성과를 보여주는 지표입니다.",
+    "연간 MDD: 테스 2026 기준 연간 MDD 값은 -28.15%이며, 투자자가 경험할 수 있는 최대 낙폭 위험을 보여주는 지표입니다.",
+    "거래량: 테스 2026 기준 거래량 값은 456878.00주이며, 해당 연도 평균 거래량을 통해 시장 관심과 유동성을 확인하는 지표입니다.",
+    "이동평균 대비 비율: 테스 2026 기준 이동평균 대비 비율 값은 1.10배이며, 거래량이 이동평균 대비 어느 수준인지 보여주는 수급 지표입니다."
+  ],
+  "missing_prompt_metrics": [
+    "매출성장률",
+    "영업이익률",
+    "ROE",
+    "부채비율",
+    "변동성지수"
+  ],
+  "evidence": [
+    {
+      "evidence_id": "finance.ev.004",
+      "source_type": "financial_csv",
+      "source": "테스_재무.csv",
+      "metric": "fcf",
+      "label": "FCF",
+      "value": 49284217786.0,
+      "unit": "원",
+      "period": "2025",
+      "snippet": "테스 2025 기준 FCF 값은 49,284,217,786원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.007",
+      "source_type": "stock_csv",
+      "source": "테스_주식.csv",
+      "metric": "annual_return_%",
+      "label": "연수익률",
+      "value": 130.26,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "테스 2026 기준 연수익률 값은 130.26%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.008",
+      "source_type": "stock_csv",
+      "source": "테스_주식.csv",
+      "metric": "annual_mdd_%",
+      "label": "연간 MDD",
+      "value": -28.15,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "테스 2026 기준 연간 MDD 값은 -28.15%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.009",
+      "source_type": "stock_csv",
+      "source": "테스_주식.csv",
+      "metric": "volume_mean",
+      "label": "거래량",
+      "value": 456878.0,
+      "unit": "주",
+      "period": "2026",
+      "snippet": "테스 2026 기준 거래량 값은 456878주입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.010",
+      "source_type": "stock_csv",
+      "source": "테스_주식.csv",
+      "metric": "volume_ma_ratio_mean",
+      "label": "이동평균 대비 비율",
+      "value": 1.0963,
+      "unit": "배",
+      "period": "2026",
+      "snippet": "테스 2026 기준 이동평균 대비 비율 값은 1.0963배입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.012",
+      "source_type": "stock_csv",
+      "source": "테스_주식.csv",
+      "metric": "latest_close",
+      "label": "최근 종가",
+      "value": 122500.0,
+      "unit": "원",
+      "period": "2026-05-13",
+      "snippet": "테스 2026-05-13 최근 종가 값은 122,500원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.013",
+      "source_type": "warning_stock_csv",
+      "source": "투자경고종목.csv",
+      "metric": "warning_stock",
+      "label": "투자경고 여부",
+      "value": 0.0,
+      "unit": null,
+      "period": "최근",
+      "snippet": "테스 투자경고종목 해당 여부 값은 0입니다.",
+      "prompt_rationale": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "finance.safe_cl.004",
+      "text": "테스 2025 기준 FCF 값은 49,284,217,786원입니다.",
+      "evidence_ids": [
+        "finance.ev.004"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.007",
+      "text": "테스 2026 기준 연수익률 값은 130.26%입니다.",
+      "evidence_ids": [
+        "finance.ev.007"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.008",
+      "text": "테스 2026 기준 연간 MDD 값은 -28.15%입니다.",
+      "evidence_ids": [
+        "finance.ev.008"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.009",
+      "text": "테스 2026 기준 거래량 값은 456878주입니다.",
+      "evidence_ids": [
+        "finance.ev.009"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.010",
+      "text": "테스 2026 기준 이동평균 대비 비율 값은 1.0963배입니다.",
+      "evidence_ids": [
+        "finance.ev.010"
+      ],
+      "audit_safe": true
+    }
+  ],
+  "warning_note": null,
+  "source_contexts": [
+    "financial_csv=테스_재무.csv",
+    "stock_csv=테스_주식.csv",
+    "warning_stock_csv=투자경고종목.csv",
+    "prompts.py summary/key_thesis/key_risks are preserved in the Chair View where available.",
+    "First Auditor claims are CSV-grounded one-to-one evidence claims for stable actual-information verification.",
+    "필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수"
+  ],
+  "raw_payload": {
+    "latest_financial_row": {
+      "year": 2025,
+      "sales": 351115732341.0,
+      "operating_income": 57838170556.0,
+      "net_income": 56917796576.0,
+      "total_assets": 487468886334.0,
+      "total_liabilities": 95715119836.0,
+      "total_equity": 391753766498.0,
+      "capex": 33138641704,
+      "ocf": 82422859490,
+      "fcf": 49284217786,
+      "interest": 8714524529.0,
+      "ROE": 14.52897239120497,
+      "영업이익률": 16.4726798683655,
+      "부채비율": 24.432469582009407,
+      "이자보상배율": 6.636985226621077
+    },
+    "latest_stock_metric": {
+      "year": 2026,
+      "annual_return_%": 130.26,
+      "annual_mdd_%": -28.15
+    },
+    "latest_yearly_summary": {
+      "year": 2026,
+      "close_start": 53200.0,
+      "close_end": 122500.0,
+      "close_high": 122500.0,
+      "close_low": 47300.0,
+      "volume_mean": 456878.0,
+      "volume_ma_ratio_mean": 1.0963
+    },
+    "latest_recent_stock_row": {
+      "Date": "2026-05-13",
+      "Open": 104800.0,
+      "High": 124900.0,
+      "Low": 96100.0,
+      "Close": 122500.0,
+      "Volume": 724968,
+      "Change": 0.1279926335174954,
+      "VKOSPI": NaN,
+      "일수익률_%": 12.79926335174954,
+      "누적최고가": 122500.0,
+      "드로다운_%": 0.0,
+      "거래량_20일평균": 396201.3,
+      "거래량_이동평균대비비율": 1.8297971258549632
+    },
+    "audit_policy": "prompts_py_used_for_interpretation_claims_grounded_by_local_csv"
+  },
+  "packet_version": "finance_prompts_grounded_v4_compact"
+}

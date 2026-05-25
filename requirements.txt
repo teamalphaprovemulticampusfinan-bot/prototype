@@ -1,0 +1,81 @@
+# AlphaProve / 
+# Python 3.12 권장
+# 기존 requirements.txt의 중복 pin(matplotlib>=3.8.0 vs matplotlib==3.7.5 등)을 정리한 버전입니다.
+
+# LLM / Agent framework
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-openai>=0.1.0
+langgraph>=0.2.0
+langchain-nvidia-ai-endpoints>=1.2.1
+langchain-anthropic>=0.1.0
+anthropic>=0.34.0
+openai>=1.0.0
+python-dotenv>=1.0.1
+pydantic>=2.0.0
+PyYAML>=6.0.0
+
+# HTTP / crawling / parsing
+requests>=2.32.3
+beautifulsoup4>=4.12.0
+bs4>=0.0.2
+lxml>=5.0.0
+feedparser>=6.0.11
+urllib3>=2.2.0
+selenium>=4.23.0
+webdriver-manager>=4.0.0
+
+# Data analysis / Excel
+numpy>=1.26.4,<2.0
+pandas>=2.2.0,<3.0
+pandas-datareader>=0.10.0
+openpyxl>=3.1.0
+xlrd>=2.0.0
+pyarrow>=15.0.0
+
+# Finance / market data
+yfinance>=0.2.40
+fredapi>=0.5.2
+pykrx>=1.0.51
+
+# ML / stats / visualization
+scipy>=1.12.0
+scikit-learn>=1.4.0
+joblib>=1.4.0
+threadpoolctl>=3.5.0
+matplotlib>=3.8.0,<3.11
+contourpy>=1.2.0
+kiwisolver>=1.4.5
+pillow>=10.4.0
+plotly>=5.20.0
+altair>=5.4.0
+umap-learn>=0.5.6
+seaborn>=0.13.2
+
+# PDF / document parsing
+pdfminer.six>=20231228
+pdfplumber>=0.11.0
+
+# App / notebook utilities used by team-a-main style files
+streamlit>=1.40.0
+jupyter>=1.0.0
+ipykernel>=6.29.0
+ipywidgets>=8.1.0
+rich>=13.9.0
+tqdm>=4.67.0
+
+# Misc compatibility
+python-dateutil>=2.9.0.post0
+pytz>=2024.1
+tzdata>=2024.2
+packaging>=24.0
+typing_extensions>=4.12.0
+protobuf>=5.0.0
+streamlit>=1.57.0
+plotly>=6.7.0
+# Google Sheets history backend
+# service account 기반으로 Google Sheets를 DB처럼 사용
+# 설치: pip install google-api-python-client google-auth google-auth-httplib2
+google-api-python-client>=2.150.0
+google-auth>=2.30.0
+google-auth-httplib2>=0.2.0

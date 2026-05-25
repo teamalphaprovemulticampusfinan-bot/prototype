@@ -1,0 +1,1164 @@
+{
+  "agent": "market",
+  "company_name": "동진쎄미켐",
+  "company": "동진쎄미켐",
+  "opinion": "보유",
+  "confidence": 0.45,
+  "summary": "동진쎄미켐에 대해 검증 가능한 핵심 근거는 다음과 같습니다. 동진쎄미켐 마켓 분석 total_score 값은 74점입니다. 동진쎄미켐 stock_data.current_price 값은 57600입니다. 동진쎄미켐 stock_data.change 값은 1500입니다. 동진쎄미켐 stock_data.change_rate 값은 2.67%입니다. 동진쎄미켐 stock_data.raw.clpr 값은 57600입니다.",
+  "key_points": [
+    "동진쎄미켐 마켓 분석 total_score 값은 74점입니다.",
+    "동진쎄미켐 stock_data.current_price 값은 57600입니다.",
+    "동진쎄미켐 stock_data.change 값은 1500입니다.",
+    "동진쎄미켐 stock_data.change_rate 값은 2.67%입니다.",
+    "동진쎄미켐 stock_data.raw.clpr 값은 57600입니다."
+  ],
+  "risks": [],
+  "claims": [
+    {
+      "claim_id": "market.cl.001",
+      "text": "동진쎄미켐 마켓 분석 total_score 값은 74점입니다.",
+      "evidence_ids": [
+        "market.ev.001"
+      ]
+    },
+    {
+      "claim_id": "market.cl.002",
+      "text": "동진쎄미켐 stock_data.current_price 값은 57600입니다.",
+      "evidence_ids": [
+        "market.ev.006"
+      ]
+    },
+    {
+      "claim_id": "market.cl.003",
+      "text": "동진쎄미켐 stock_data.change 값은 1500입니다.",
+      "evidence_ids": [
+        "market.ev.009"
+      ]
+    },
+    {
+      "claim_id": "market.cl.004",
+      "text": "동진쎄미켐 stock_data.change_rate 값은 2.67%입니다.",
+      "evidence_ids": [
+        "market.ev.010"
+      ]
+    },
+    {
+      "claim_id": "market.cl.005",
+      "text": "동진쎄미켐 stock_data.raw.clpr 값은 57600입니다.",
+      "evidence_ids": [
+        "market.ev.016"
+      ]
+    },
+    {
+      "claim_id": "market.cl.006",
+      "text": "동진쎄미켐 stock_data.raw.vs 값은 1500입니다.",
+      "evidence_ids": [
+        "market.ev.017"
+      ]
+    },
+    {
+      "claim_id": "market.auto_cl.007",
+      "text": "stock_data.raw.fltRt 값은 2.67%입니다.",
+      "evidence_ids": [
+        "market.ev.018"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "market.auto_cl.009",
+      "text": "stock_data.raw.mkp 값은 55,500입니다.",
+      "evidence_ids": [
+        "market.ev.019"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "market.auto_cl.011",
+      "text": "stock_data.raw.hipr 값은 60,400입니다.",
+      "evidence_ids": [
+        "market.ev.020"
+      ],
+      "claim_type": "point"
+    }
+  ],
+  "evidences": [
+    {
+      "evidence_id": "market.ev.001",
+      "source_type": "market",
+      "source": "market_graph_analysis",
+      "metric": "total_score",
+      "value": 74,
+      "unit": "score",
+      "period": null,
+      "snippet": "market_graph_analysis | total_score | 값: 74score"
+    },
+    {
+      "evidence_id": "market.ev.002",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.provider",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.provider | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.003",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.company",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.company | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.004",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.ticker",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.ticker | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.005",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.krx_code",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.krx_code | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.006",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.current_price",
+      "value": 57600,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.current_price | 값: 57,600원"
+    },
+    {
+      "evidence_id": "market.ev.007",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.currency",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.currency | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.008",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.as_of",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.as_of | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.009",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change",
+      "value": 1500,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.change | 값: 1,500"
+    },
+    {
+      "evidence_id": "market.ev.010",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change_rate",
+      "value": 2.67,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.change_rate | 값: 2.67%"
+    },
+    {
+      "evidence_id": "market.ev.011",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.basDt",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.basDt | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.012",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.srtnCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.srtnCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.013",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.isinCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.isinCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.014",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.itmsNm",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.itmsNm | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.015",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mrktCtg",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mrktCtg | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.016",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.clpr",
+      "value": 57600,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 57,600원"
+    },
+    {
+      "evidence_id": "market.ev.017",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.vs",
+      "value": 1500,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.vs | 값: 1,500"
+    },
+    {
+      "evidence_id": "market.ev.018",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.fltRt",
+      "value": 2.67,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: 2.67%"
+    },
+    {
+      "evidence_id": "market.ev.019",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mkp",
+      "value": 55500,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 55,500"
+    },
+    {
+      "evidence_id": "market.ev.020",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.hipr",
+      "value": 60400,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 60,400"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "market.ev.001",
+      "source_type": "market",
+      "source": "market_graph_analysis",
+      "metric": "total_score",
+      "value": 74,
+      "unit": "score",
+      "period": null,
+      "snippet": "market_graph_analysis | total_score | 값: 74score"
+    },
+    {
+      "evidence_id": "market.ev.002",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.provider",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.provider | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.003",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.company",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.company | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.004",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.ticker",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.ticker | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.005",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.krx_code",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.krx_code | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.006",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.current_price",
+      "value": 57600,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.current_price | 값: 57,600원"
+    },
+    {
+      "evidence_id": "market.ev.007",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.currency",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.currency | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.008",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.as_of",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.as_of | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.009",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change",
+      "value": 1500,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.change | 값: 1,500"
+    },
+    {
+      "evidence_id": "market.ev.010",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change_rate",
+      "value": 2.67,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.change_rate | 값: 2.67%"
+    },
+    {
+      "evidence_id": "market.ev.011",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.basDt",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.basDt | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.012",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.srtnCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.srtnCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.013",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.isinCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.isinCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.014",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.itmsNm",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.itmsNm | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.015",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mrktCtg",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mrktCtg | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.016",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.clpr",
+      "value": 57600,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 57,600원"
+    },
+    {
+      "evidence_id": "market.ev.017",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.vs",
+      "value": 1500,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.vs | 값: 1,500"
+    },
+    {
+      "evidence_id": "market.ev.018",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.fltRt",
+      "value": 2.67,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: 2.67%"
+    },
+    {
+      "evidence_id": "market.ev.019",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mkp",
+      "value": 55500,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 55,500"
+    },
+    {
+      "evidence_id": "market.ev.020",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.hipr",
+      "value": 60400,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 60,400"
+    }
+  ],
+  "raw_payload": {
+    "analysis": {
+      "agent": "market",
+      "company": "동진쎄미켐",
+      "opinion": "보유",
+      "confidence": 0.6,
+      "market_summary": {
+        "oecd_interpretation": "OECD 경기선행지수가 98.01로 기준선 100을 하회하며 경기 둔화 가능성을 시사합니다.",
+        "industry_stage": "동진쎄미켐이 속한 반도체 소재 산업은 AI·HBM 등 성장 세그먼트와 메모리·레거시 등 성숙/쇠퇴 세그먼트가 혼재된 상황입니다.",
+        "value_chain_position": "반도체 소재 분야에서 국산화 정책 수혜와 핵심 소재 공급 안정화라는 긍정적 요인이 있으나, EUV 장비 독점 등 기술 진입 장벽이 높습니다.",
+        "competitive_position": "반도체 소재 분야는 국산화 기회 확대와 함께 경쟁이 심화되는 구조이며, 동진쎄미켐은 포토레지스트 등에서 국내 개발 및 실적 성장세를 보입니다.",
+        "market_momentum": "최근 주가는 57,600원으로 상승세를 보이고 있으나, 삼성전자 노사 이슈 등 반도체 업황 변동성에 영향을 받을 수 있습니다."
+      },
+      "qualitative_rubric": {
+        "macro_cycle": {
+          "assessment": "중",
+          "reason": "OECD 경기선행지수가 기준선 하회하며 경기 둔화 가능성을 시사하나, 반도체 산업 자체의 수요는 견조한 편입니다."
+        },
+        "industry_attractiveness": {
+          "assessment": "상",
+          "reason": "AI·HBM 등 첨단 반도체 분야의 높은 성장률과 반도체 장비·소재 국산화 정책 수혜가 긍정적입니다."
+        },
+        "value_chain_position": {
+          "assessment": "중",
+          "reason": "반도체 소재 분야에서 국산화 정책 수혜 및 공급 안정화가 기대되나, 첨단 공정 기술 진입 장벽이 높습니다."
+        },
+        "competitive_position": {
+          "assessment": "중",
+          "reason": "반도체 소재 국산화 기회가 있으나, 중국의 추격과 가격 경쟁 심화 가능성이 존재합니다."
+        },
+        "market_momentum": {
+          "assessment": "중",
+          "reason": "최근 주가는 상승세를 보이나, 삼성전자 노사 이슈 등 반도체 업황 변동성에 따른 단기적 불확실성이 존재합니다."
+        },
+        "policy_disclosure_signal": {
+          "assessment": "상",
+          "reason": "반도체 소재 국산화 정책 수혜, 세액공제 및 R&D 지원 확대 등 긍정적인 정책 환경이 조성되어 있습니다."
+        },
+        "downside_risk": {
+          "assessment": "중",
+          "reason": "삼성전자 노사 이슈로 인한 반도체 업황 변동성 확대 가능성, 글로벌 경쟁 심화 등이 잠재적 하방 리스크 요인입니다."
+        }
+      },
+      "bwm_assessment": {
+        "best_criterion": "산업 매력도",
+        "worst_criterion": "시장 모멘텀",
+        "judgment_effect": "산업의 높은 성장성과 정책 수혜는 긍정적이나, 단기적인 시장 모멘텀의 불확실성으로 인해 보유 의견을 제시합니다."
+      },
+      "scoring": {
+        "거시환경": {
+          "score": 12,
+          "max": 20,
+          "reason": "OECD 경기선행지수 하락은 부정적이나, 반도체 산업 자체의 수요는 견조하여 중립적인 평가입니다."
+        },
+        "산업매력도": {
+          "score": 18,
+          "max": 20,
+          "reason": "AI·HBM 등 첨단 반도체 분야의 높은 성장성과 반도체 소재 국산화 정책 수혜가 매우 긍정적입니다."
+        },
+        "경쟁위치": {
+          "score": 14,
+          "max": 20,
+          "reason": "소재 국산화 기회는 있으나, 경쟁 심화 및 중국 추격 가능성으로 인해 중립적인 평가입니다."
+        },
+        "정책수혜": {
+          "score": 18,
+          "max": 20,
+          "reason": "반도체 소재 국산화, R&D 지원 확대 등 정부 정책의 직접적인 수혜가 기대됩니다."
+        },
+        "시장모멘텀": {
+          "score": 12,
+          "max": 20,
+          "reason": "최근 주가 상승세는 긍정적이나, 삼성전자 노사 이슈 등 단기적 불확실성으로 인해 모멘텀이 약화될 수 있습니다."
+        }
+      },
+      "total_score": 74,
+      "claims": [
+        {
+          "claim_id": "market.cl.001",
+          "text": "동진쎄미켐은 반도체 및 디스플레이용 전자재료 제조를 주력으로 하며, 차세대 신재생에너지 기술 개발에도 집중하고 있습니다.",
+          "evidence_ids": [
+            "market.ev.005"
+          ]
+        },
+        {
+          "claim_id": "market.cl.002",
+          "text": "반도체 소재 분야는 국산화 정책 수혜와 함께 경쟁이 심화되는 구조이며, 동진쎄미켐은 포토레지스트 등에서 국내 개발 및 실적 성장세를 보입니다.",
+          "evidence_ids": [
+            "market.ev.004",
+            "market.ev.003"
+          ]
+        },
+        {
+          "claim_id": "market.cl.003",
+          "text": "AI·HBM 등 첨단 반도체 분야의 높은 성장률과 반도체 장비·소재 국산화 정책 수혜가 긍정적입니다.",
+          "evidence_ids": [
+            "market.ev.002"
+          ]
+        }
+      ],
+      "evidences": [
+        {
+          "evidence_id": "market.ev.001",
+          "source_type": "stock",
+          "source": "public_data",
+          "metric": "current_price",
+          "value": 57600,
+          "unit": "KRW",
+          "period": "20260519",
+          "snippet": "current_price: 57600"
+        },
+        {
+          "evidence_id": "market.ev.002",
+          "source_type": "static",
+          "source": "밸류체인 & 경쟁구조",
+          "metric": "시장 성장률",
+          "value": 30,
+          "unit": "%",
+          "period": "2025",
+          "snippet": "반도체: 전체 +30% (2025)"
+        },
+        {
+          "evidence_id": "market.ev.003",
+          "source_type": "static",
+          "source": "밸류체인 & 경쟁구조",
+          "metric": "반도체 소재",
+          "value": null,
+          "unit": null,
+          "period": null,
+          "snippet": "반도체 소재: 성장기 중반"
+        },
+        {
+          "evidence_id": "market.ev.004",
+          "source_type": "static",
+          "source": "밸류체인 & 경쟁구조",
+          "metric": "반도체 소재",
+          "value": null,
+          "unit": null,
+          "period": null,
+          "snippet": "소부장 국산화 정책 수혜\n일본 수출규제 이후 기회\n핵심 소재 공급 안정화"
+        },
+        {
+          "evidence_id": "market.ev.005",
+          "source_type": "dart",
+          "source": "DART 최신 공시",
+          "metric": "differentiation",
+          "value": "회사는 반도체 및 디스플레이용 감광액, 반사방지막 등 여러 전자재료를 제조 및 판매하고 있으며, 차세대 신재생에너지 관련 기술 개발에도 집중하고 있습니다.",
+          "unit": null,
+          "period": null,
+          "snippet": "회사는 반도체 및 디스플레이용 감광액, 반사방지막 등 여러 전자재료를 제조 및 판매하고 있으며, 차세대 신재생에너지 관련 기술 개발에도 집중하고 있습니다."
+        }
+      ],
+      "risks": [
+        {
+          "risk": "삼성전자 노사 이슈로 인한 반도체 업황 변동성 확대",
+          "severity": "중",
+          "basis": "업황 뉴스"
+        },
+        {
+          "risk": "글로벌 경쟁 심화 및 중국의 추격",
+          "severity": "중",
+          "basis": "밸류체인 & 경쟁구조"
+        }
+      ],
+      "opportunities": [
+        {
+          "opportunity": "AI·HBM 등 첨단 반도체 시장의 높은 성장세",
+          "basis": "밸류체인 & 경쟁구조"
+        },
+        {
+          "opportunity": "반도체 소재 국산화 정책 및 R&D 지원 확대",
+          "basis": "밸류체인 & 경쟁구조, DART 최신 공시"
+        }
+      ],
+      "summary": "동진쎄미켐은 AI·HBM 등 성장하는 반도체 시장과 정책 수혜를 바탕으로 긍정적인 전망을 보입니다. 다만, 삼성전자 노사 이슈 등 단기적인 시장 변동성을 고려하여 보유 의견을 제시합니다.",
+      "raw_payload": {
+        "stock_used": true,
+        "oecd_used": true,
+        "static_used": true,
+        "news_used": true,
+        "dart_used": true
+      }
+    },
+    "original_opportunities": [
+      {
+        "opportunity": "AI·HBM 등 첨단 반도체 시장의 높은 성장세",
+        "basis": "밸류체인 & 경쟁구조"
+      },
+      {
+        "opportunity": "반도체 소재 국산화 정책 및 R&D 지원 확대",
+        "basis": "밸류체인 & 경쟁구조, DART 최신 공시"
+      }
+    ],
+    "original_risks": [
+      {
+        "risk": "삼성전자 노사 이슈로 인한 반도체 업황 변동성 확대",
+        "severity": "중",
+        "basis": "업황 뉴스"
+      },
+      {
+        "risk": "글로벌 경쟁 심화 및 중국의 추격",
+        "severity": "중",
+        "basis": "밸류체인 & 경쟁구조"
+      }
+    ],
+    "removed_bad_evidence_ids": [
+      "market.ev.unverified"
+    ]
+  },
+  "total_score": 74,
+  "scoring": {
+    "거시환경": {
+      "score": 12,
+      "max": 20,
+      "reason": "OECD 경기선행지수 하락은 부정적이나, 반도체 산업 자체의 수요는 견조하여 중립적인 평가입니다."
+    },
+    "산업매력도": {
+      "score": 18,
+      "max": 20,
+      "reason": "AI·HBM 등 첨단 반도체 분야의 높은 성장성과 반도체 소재 국산화 정책 수혜가 매우 긍정적입니다."
+    },
+    "경쟁위치": {
+      "score": 14,
+      "max": 20,
+      "reason": "소재 국산화 기회는 있으나, 경쟁 심화 및 중국 추격 가능성으로 인해 중립적인 평가입니다."
+    },
+    "정책수혜": {
+      "score": 18,
+      "max": 20,
+      "reason": "반도체 소재 국산화, R&D 지원 확대 등 정부 정책의 직접적인 수혜가 기대됩니다."
+    },
+    "시장모멘텀": {
+      "score": 12,
+      "max": 20,
+      "reason": "최근 주가 상승세는 긍정적이나, 삼성전자 노사 이슈 등 단기적 불확실성으로 인해 모멘텀이 약화될 수 있습니다."
+    }
+  },
+  "packet_version": "grounded_agent_v3",
+  "pre_sanitize_grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 6,
+    "supported_count": 6,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "동진쎄미켐 마켓 분석 total_score 값은 74점입니다.",
+      "동진쎄미켐 stock_data.current_price 값은 57600입니다.",
+      "동진쎄미켐 stock_data.change 값은 1500입니다.",
+      "동진쎄미켐 stock_data.change_rate 값은 2.67%입니다.",
+      "동진쎄미켐 stock_data.raw.clpr 값은 57600입니다.",
+      "동진쎄미켐 stock_data.raw.vs 값은 1500입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "market.cl.001",
+        "text": "동진쎄미켐 마켓 분석 total_score 값은 74점입니다.",
+        "evidence_ids": [
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "동진쎄미켐 stock_data.current_price 값은 57600입니다.",
+        "evidence_ids": [
+          "market.ev.006"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {
+          "price": [
+            "market.ev.006"
+          ]
+        },
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.003",
+        "text": "동진쎄미켐 stock_data.change 값은 1500입니다.",
+        "evidence_ids": [
+          "market.ev.009"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.004",
+        "text": "동진쎄미켐 stock_data.change_rate 값은 2.67%입니다.",
+        "evidence_ids": [
+          "market.ev.010"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.005",
+        "text": "동진쎄미켐 stock_data.raw.clpr 값은 57600입니다.",
+        "evidence_ids": [
+          "market.ev.016"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.006",
+        "text": "동진쎄미켐 stock_data.raw.vs 값은 1500입니다.",
+        "evidence_ids": [
+          "market.ev.017"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  },
+  "post_atomic_grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 9,
+    "supported_count": 9,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "동진쎄미켐 마켓 분석 total_score 값은 74점입니다.",
+      "동진쎄미켐 stock_data.current_price 값은 57600입니다.",
+      "동진쎄미켐 stock_data.change 값은 1500입니다.",
+      "동진쎄미켐 stock_data.change_rate 값은 2.67%입니다.",
+      "동진쎄미켐 stock_data.raw.clpr 값은 57600입니다.",
+      "동진쎄미켐 stock_data.raw.vs 값은 1500입니다.",
+      "stock_data.raw.fltRt 값은 2.67%입니다.",
+      "stock_data.raw.mkp 값은 55,500입니다.",
+      "stock_data.raw.hipr 값은 60,400입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "market.cl.001",
+        "text": "동진쎄미켐 마켓 분석 total_score 값은 74점입니다.",
+        "evidence_ids": [
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "동진쎄미켐 stock_data.current_price 값은 57600입니다.",
+        "evidence_ids": [
+          "market.ev.006"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {
+          "price": [
+            "market.ev.006"
+          ]
+        },
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.003",
+        "text": "동진쎄미켐 stock_data.change 값은 1500입니다.",
+        "evidence_ids": [
+          "market.ev.009"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.004",
+        "text": "동진쎄미켐 stock_data.change_rate 값은 2.67%입니다.",
+        "evidence_ids": [
+          "market.ev.010"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.005",
+        "text": "동진쎄미켐 stock_data.raw.clpr 값은 57600입니다.",
+        "evidence_ids": [
+          "market.ev.016"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.006",
+        "text": "동진쎄미켐 stock_data.raw.vs 값은 1500입니다.",
+        "evidence_ids": [
+          "market.ev.017"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.007",
+        "text": "stock_data.raw.fltRt 값은 2.67%입니다.",
+        "evidence_ids": [
+          "market.ev.018"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.009",
+        "text": "stock_data.raw.mkp 값은 55,500입니다.",
+        "evidence_ids": [
+          "market.ev.019"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.011",
+        "text": "stock_data.raw.hipr 값은 60,400입니다.",
+        "evidence_ids": [
+          "market.ev.020"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  },
+  "grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 9,
+    "supported_count": 9,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "동진쎄미켐 마켓 분석 total_score 값은 74점입니다.",
+      "동진쎄미켐 stock_data.current_price 값은 57600입니다.",
+      "동진쎄미켐 stock_data.change 값은 1500입니다.",
+      "동진쎄미켐 stock_data.change_rate 값은 2.67%입니다.",
+      "동진쎄미켐 stock_data.raw.clpr 값은 57600입니다.",
+      "동진쎄미켐 stock_data.raw.vs 값은 1500입니다.",
+      "stock_data.raw.fltRt 값은 2.67%입니다.",
+      "stock_data.raw.mkp 값은 55,500입니다.",
+      "stock_data.raw.hipr 값은 60,400입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "market.cl.001",
+        "text": "동진쎄미켐 마켓 분석 total_score 값은 74점입니다.",
+        "evidence_ids": [
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "동진쎄미켐 stock_data.current_price 값은 57600입니다.",
+        "evidence_ids": [
+          "market.ev.006"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {
+          "price": [
+            "market.ev.006"
+          ]
+        },
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.003",
+        "text": "동진쎄미켐 stock_data.change 값은 1500입니다.",
+        "evidence_ids": [
+          "market.ev.009"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.004",
+        "text": "동진쎄미켐 stock_data.change_rate 값은 2.67%입니다.",
+        "evidence_ids": [
+          "market.ev.010"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.005",
+        "text": "동진쎄미켐 stock_data.raw.clpr 값은 57600입니다.",
+        "evidence_ids": [
+          "market.ev.016"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.006",
+        "text": "동진쎄미켐 stock_data.raw.vs 값은 1500입니다.",
+        "evidence_ids": [
+          "market.ev.017"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.007",
+        "text": "stock_data.raw.fltRt 값은 2.67%입니다.",
+        "evidence_ids": [
+          "market.ev.018"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.009",
+        "text": "stock_data.raw.mkp 값은 55,500입니다.",
+        "evidence_ids": [
+          "market.ev.019"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.011",
+        "text": "stock_data.raw.hipr 값은 60,400입니다.",
+        "evidence_ids": [
+          "market.ev.020"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  }
+}
