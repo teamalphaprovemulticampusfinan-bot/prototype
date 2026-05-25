@@ -1,0 +1,405 @@
+{
+  "repair_schema_version": "first_auditor_v2_evidence_id_required",
+  "created_at": "2026-04-28T14:19:51.685083+00:00",
+  "company_dir": "nepes",
+  "company": "네패스",
+  "target_agent": "issue",
+  "pass_condition": "actual_match_ratio >= 75%",
+  "current_actual_match_ratio": 0.5312,
+  "local_issues": [
+    "evidence_contract enforcement failed: enforce_evidence_contract() missing 1 required keyword-only argument: 'agent_name'"
+  ],
+  "contract": {
+    "score": 0.9708,
+    "evidence_count": 12,
+    "strong_evidence_count": 11,
+    "claim_count": 1,
+    "evidence_id_coverage": 1.0,
+    "valid_evidence_ref_coverage": 1.0,
+    "non_self_evidence_coverage": 0.9167
+  },
+  "claim_scores": [
+    {
+      "score": 0.45,
+      "text_support": 0.6,
+      "numeric_support": 1.0,
+      "has_strong_evidence": false,
+      "has_any_evidence": true,
+      "claim_index": 1,
+      "claim_text": "검증 가능한 핵심 주장이 부족합니다.",
+      "evidence_ids": [
+        "issue.ev.unverified"
+      ],
+      "selected_evidence_count": 1
+    }
+  ],
+  "llm_reason": "AUDITOR LLM failed: 404 page not found",
+  "unsupported_claims": [],
+  "current_opinion_json": {
+    "agent": "issue",
+    "company_name": "네패스",
+    "company": "네패스",
+    "opinion": "보유",
+    "confidence": 0.55,
+    "summary": "검증 가능한 핵심 근거가 부족하여 보수적 판단이 필요합니다.",
+    "key_points": [],
+    "risks": [],
+    "claims": [
+      {
+        "claim_id": "issue.cl.001",
+        "text": "검증 가능한 핵심 주장이 부족합니다.",
+        "evidence_ids": [
+          "issue.ev.unverified"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "issue.ev.001",
+        "source_type": "rss",
+        "source": "https://semiengineering.com/new-cpu-memory-module/",
+        "metric": "rss_item",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "https://semiengineering.com/new-cpu-memory-module/ | rss_item | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.002",
+        "source_type": "rss",
+        "source": "https://semiengineering.com/research-bits-apr-28/",
+        "metric": "rss_item",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "https://semiengineering.com/research-bits-apr-28/ | rss_item | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.003",
+        "source_type": "rss",
+        "source": "https://semiengineering.com/when-semiconductor-materials-misbehave/",
+        "metric": "rss_item",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "https://semiengineering.com/when-semiconductor-materials-misbehave/ | rss_item | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.004",
+        "source_type": "rss",
+        "source": "https://semiengineering.com/tsmc-tech-symposium-2026-by-the-numbers/",
+        "metric": "rss_item",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "https://semiengineering.com/tsmc-tech-symposium-2026-by-the-numbers/ | rss_item | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.005",
+        "source_type": "rss",
+        "source": "https://semiengineering.com/chip-industry-week-in-review-135/",
+        "metric": "rss_item",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "https://semiengineering.com/chip-industry-week-in-review-135/ | rss_item | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.006",
+        "source_type": "rss",
+        "source": "https://semiengineering.com/system-in-package-challenges/",
+        "metric": "rss_item",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "https://semiengineering.com/system-in-package-challenges/ | rss_item | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.007",
+        "source_type": "rss",
+        "source": "https://semiengineering.com/can-edge-ai-keep-up/",
+        "metric": "rss_item",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "https://semiengineering.com/can-edge-ai-keep-up/ | rss_item | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.008",
+        "source_type": "rss",
+        "source": "https://semiengineering.com/blog-review-apr-22/",
+        "metric": "rss_item",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "https://semiengineering.com/blog-review-apr-22/ | rss_item | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.009",
+        "source_type": "rss",
+        "source": "https://semiengineering.com/tsv-complexity-leads-to-manufacturing-bottleneck/",
+        "metric": "rss_item",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "https://semiengineering.com/tsv-complexity-leads-to-manufacturing-bottleneck/ | rss_item | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.010",
+        "source_type": "rss",
+        "source": "https://semiengineering.com/chip-industry-technical-paper-roundup-apr-21/",
+        "metric": "rss_item",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "https://semiengineering.com/chip-industry-technical-paper-roundup-apr-21/ | rss_item | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.011",
+        "source_type": "issue_keyword_excel",
+        "source": "Issue_Integration.xlsx",
+        "metric": "related_keyword_row",
+        "value": null,
+        "unit": "건",
+        "period": null,
+        "snippet": "Issue_Integration.xlsx | related_keyword_row | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.unverified",
+        "source_type": "agent_output_unverified",
+        "source": "issue_output",
+        "metric": null,
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "검증 가능한 원천 evidence가 부족합니다."
+      }
+    ],
+    "fallback_used": false,
+    "warning_note": "검증 불가 claim 1개를 제거한 뒤 grounding 기준을 재검증했습니다. 최종 grounding score가 기준(0.75)에 미달했습니다. score=0.0",
+    "raw_payload": {
+      "analysis_text": "### 네패스 기업 이슈 분석 보고서\n\n**1. 핵심 이슈 요약**\n*   **고도화된 패키징 수요 증가:** TSV(Through-Silicon Via) 기술의 복잡성 심화로 인한 제조 병목 현상 발생 및 System-in-Package (SiP) 기술적 난제 대두.\n*   **차세대 메모리 모듈 진화:** 새로운 CPU 메모리 모듈 (HBM 등) 수요 확대 및 에지 AI (Edge AI) 를 위한 고성능 컴퓨팅 인프라 요구 가속화.\n*   **반도체 소재 및 공정 이슈:** 반도체 소재의 물성 한계 (Misbehave) 및 TSMC 등 파운드리사의 차세대 기술 심포지엄 (2026) 을 통한 기술 로드맵 재확인.\n\n**2. 기업에 미치는 영향**\n*   **수혜 가능성:** 네패스의 핵심 사업인 '반도체 패키징 소재 (절연체, 접착제 등)'는 TSV 및 SiP 공정 고도화에 필수적임. TSV 복잡성 증가와 SiP 도전 과제는 고부가가치 소재 수요를 직접적으로 견인할 것으로 예상.\n*   **공급망 리스크:** TSMC 등 주요 파운드리사의 2026 년 기술 로드맵이 구체화됨에 따라, 네패스는 이에 부합하는 차세대 소재 개발 속도가 경쟁력의 핵심 변수가 됨.\n*   **시장 확대:** 에지 AI 및 차세대 CPU 메모리 모듈 시장 성장은 네패스의 주요 타겟 시장인 고밀도 패키징 소재 시장 규모를 확대할 것.\n\n**3. 긍정/부정 시그널**\n*   **✅ 긍정 시그널:**\n    *   TSV 및 SiP 기술적 난제 해결을 위한 소재 수요 급증 (고마진 제품 라인업 기회).\n    *   AI 및 고성능 컴퓨팅 (HPC) 트렌드에 따른 메모리 모듈 업그레이드 사이클 진입.\n*   **⚠️ 부정/리스크 시그널:**\n    *   TSV 공정 복잡성으로 인한 제조 병목이 장기화될 경우, 소재 공급망의 수급 불균형 또는 납기 지연 우려.\n    *   반도체 소재의 물성 한계로 인한 기술적 실패 리스크 및 R&D 비용 증가 가능성.\n\n**4. 향후 체크포인트**\n*   **TSV/SiP 소재 수주 동향:** 주요 고객사 (파운드리, OSAT) 의 TSV 공정 확대에 따른 네패스 소재 인증 및 양산 수주 현황.\n*   **HBM/차세대 메모리 모듈 대응:** 새로운 CPU 메모리 모듈 출시와 연동된 네패스 소재 적용 여부 및 기술적 호환성.\n*   **기술 로드맵 정합성:** TSMC Tech Symposium 2026 등 주요 행사에서 발표된 공정 미세화/고집적화 방향과 네패스 R&D 방향성의 일치도.\n*   **에지 AI 시장 점유율:** 에지 AI 칩셋 확대에 따른 패키징 소재 시장에서의 경쟁사 대비 기술 우위 확보 여부.",
+      "markdown_report": "# 네패스 이슈 리포트\n\n## 내부 연관 키워드\n\n## 분석 결과\n### 네패스 기업 이슈 분석 보고서\n\n**1. 핵심 이슈 요약**\n*   **고도화된 패키징 수요 증가:** TSV(Through-Silicon Via) 기술의 복잡성 심화로 인한 제조 병목 현상 발생 및 System-in-Package (SiP) 기술적 난제 대두.\n*   **차세대 메모리 모듈 진화:** 새로운 CPU 메모리 모듈 (HBM 등) 수요 확대 및 에지 AI (Edge AI) 를 위한 고성능 컴퓨팅 인프라 요구 가속화.\n*   **반도체 소재 및 공정 이슈:** 반도체 소재의 물성 한계 (Misbehave) 및 TSMC 등 파운드리사의 차세대 기술 심포지엄 (2026) 을 통한 기술 로드맵 재확인.\n\n**2. 기업에 미치는 영향**\n*   **수혜 가능성:** 네패스의 핵심 사업인 '반도체 패키징 소재 (절연체, 접착제 등)'는 TSV 및 SiP 공정 고도화에 필수적임. TSV 복잡성 증가와 SiP 도전 과제는 고부가가치 소재 수요를 직접적으로 견인할 것으로 예상.\n*   **공급망 리스크:** TSMC 등 주요 파운드리사의 2026 년 기술 로드맵이 구체화됨에 따라, 네패스는 이에 부합하는 차세대 소재 개발 속도가 경쟁력의 핵심 변수가 됨.\n*   **시장 확대:** 에지 AI 및 차세대 CPU 메모리 모듈 시장 성장은 네패스의 주요 타겟 시장인 고밀도 패키징 소재 시장 규모를 확대할 것.\n\n**3. 긍정/부정 시그널**\n*   **✅ 긍정 시그널:**\n    *   TSV 및 SiP 기술적 난제 해결을 위한 소재 수요 급증 (고마진 제품 라인업 기회).\n    *   AI 및 고성능 컴퓨팅 (HPC) 트렌드에 따른 메모리 모듈 업그레이드 사이클 진입.\n*   **⚠️ 부정/리스크 시그널:**\n    *   TSV 공정 복잡성으로 인한 제조 병목이 장기화될 경우, 소재 공급망의 수급 불균형 또는 납기 지연 우려.\n    *   반도체 소재의 물성 한계로 인한 기술적 실패 리스크 및 R&D 비용 증가 가능성.\n\n**4. 향후 체크포인트**\n*   **TSV/SiP 소재 수주 동향:** 주요 고객사 (파운드리, OSAT) 의 TSV 공정 확대에 따른 네패스 소재 인증 및 양산 수주 현황.\n*   **HBM/차세대 메모리 모듈 대응:** 새로운 CPU 메모리 모듈 출시와 연동된 네패스 소재 적용 여부 및 기술적 호환성.\n*   **기술 로드맵 정합성:** TSMC Tech Symposium 2026 등 주요 행사에서 발표된 공정 미세화/고집적화 방향과 네패스 R&D 방향성의 일치도.\n*   **에지 AI 시장 점유율:** 에지 AI 칩셋 확대에 따른 패키징 소재 시장에서의 경쟁사 대비 기술 우위 확보 여부.\n",
+      "news_count": 0,
+      "rss_count": 11,
+      "related_keyword_count": 1,
+      "llm_error": null,
+      "removed_ungrounded_claims": [
+        "검증 가능한 핵심 주장이 부족합니다."
+      ],
+      "removed_bad_evidence_ids": [
+        "issue.ev.unverified"
+      ]
+    },
+    "evidences": [
+      {
+        "evidence_id": "issue.ev.001",
+        "source_type": "rss",
+        "source": "https://semiengineering.com/new-cpu-memory-module/",
+        "metric": "rss_item",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "https://semiengineering.com/new-cpu-memory-module/ | rss_item | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.002",
+        "source_type": "rss",
+        "source": "https://semiengineering.com/research-bits-apr-28/",
+        "metric": "rss_item",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "https://semiengineering.com/research-bits-apr-28/ | rss_item | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.003",
+        "source_type": "rss",
+        "source": "https://semiengineering.com/when-semiconductor-materials-misbehave/",
+        "metric": "rss_item",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "https://semiengineering.com/when-semiconductor-materials-misbehave/ | rss_item | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.004",
+        "source_type": "rss",
+        "source": "https://semiengineering.com/tsmc-tech-symposium-2026-by-the-numbers/",
+        "metric": "rss_item",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "https://semiengineering.com/tsmc-tech-symposium-2026-by-the-numbers/ | rss_item | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.005",
+        "source_type": "rss",
+        "source": "https://semiengineering.com/chip-industry-week-in-review-135/",
+        "metric": "rss_item",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "https://semiengineering.com/chip-industry-week-in-review-135/ | rss_item | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.006",
+        "source_type": "rss",
+        "source": "https://semiengineering.com/system-in-package-challenges/",
+        "metric": "rss_item",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "https://semiengineering.com/system-in-package-challenges/ | rss_item | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.007",
+        "source_type": "rss",
+        "source": "https://semiengineering.com/can-edge-ai-keep-up/",
+        "metric": "rss_item",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "https://semiengineering.com/can-edge-ai-keep-up/ | rss_item | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.008",
+        "source_type": "rss",
+        "source": "https://semiengineering.com/blog-review-apr-22/",
+        "metric": "rss_item",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "https://semiengineering.com/blog-review-apr-22/ | rss_item | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.009",
+        "source_type": "rss",
+        "source": "https://semiengineering.com/tsv-complexity-leads-to-manufacturing-bottleneck/",
+        "metric": "rss_item",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "https://semiengineering.com/tsv-complexity-leads-to-manufacturing-bottleneck/ | rss_item | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.010",
+        "source_type": "rss",
+        "source": "https://semiengineering.com/chip-industry-technical-paper-roundup-apr-21/",
+        "metric": "rss_item",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "https://semiengineering.com/chip-industry-technical-paper-roundup-apr-21/ | rss_item | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.011",
+        "source_type": "issue_keyword_excel",
+        "source": "Issue_Integration.xlsx",
+        "metric": "related_keyword_row",
+        "value": null,
+        "unit": "건",
+        "period": null,
+        "snippet": "Issue_Integration.xlsx | related_keyword_row | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.unverified",
+        "source_type": "agent_output_unverified",
+        "source": "issue_output",
+        "metric": null,
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "검증 가능한 원천 evidence가 부족합니다."
+      }
+    ],
+    "packet_version": "grounded_agent_v3",
+    "pre_sanitize_grounding_check": {
+      "score": 0.0,
+      "pass": false,
+      "pass_threshold": 0.75,
+      "claim_count": 1,
+      "supported_count": 0,
+      "unsupported_count": 1,
+      "supported_claims": [],
+      "unsupported_claims": [
+        "검증 가능한 핵심 주장이 부족합니다."
+      ],
+      "issues": [
+        "issue.cl.001: 검증 불가 source_type만 연결되어 있습니다."
+      ],
+      "claim_results": [
+        {
+          "claim_id": "issue.cl.001",
+          "text": "검증 가능한 핵심 주장이 부족합니다.",
+          "supported": false,
+          "score": 0.0,
+          "reason": "검증 불가 source_type만 연결되어 있습니다."
+        }
+      ]
+    },
+    "post_atomic_grounding_check": {
+      "score": 0.0,
+      "pass": false,
+      "pass_threshold": 0.75,
+      "supported_claims": [],
+      "unsupported_claims": [
+        "claims[]가 비어 있습니다."
+      ],
+      "issues": [
+        "claims[]가 비어 있습니다."
+      ],
+      "claim_count": 0,
+      "supported_count": 0,
+      "unsupported_count": 0,
+      "claim_results": []
+    },
+    "grounding_check": {
+      "score": 0.0,
+      "pass": false,
+      "pass_threshold": 0.75,
+      "supported_claims": [],
+      "unsupported_claims": [
+        "claims[]가 비어 있습니다."
+      ],
+      "issues": [
+        "claims[]가 비어 있습니다."
+      ],
+      "claim_count": 0,
+      "supported_count": 0,
+      "unsupported_count": 0,
+      "claim_results": []
+    }
+  },
+  "required_fix": [
+    "각 핵심 주장마다 evidence_id를 반드시 붙이세요.",
+    "evidence_id는 evidences 배열 안에 실제 존재해야 합니다.",
+    "source_type이 agent_output_unverified, llm_only, self_generated인 근거는 실제 근거로 인정하지 않습니다.",
+    "수치 주장에는 기간, 단위, 원천값을 함께 넣으세요.",
+    "공시, 재무 CSV, 가격 CSV, RSS/뉴스 스니펫, 공식 문서에서 확인 가능한 주장만 남기세요.",
+    "확인 불가능한 고객사, 계약, 수주, 전망 수치는 삭제하거나 '확인 필요'로 낮추세요.",
+    "템플릿 문장이나 사용자에게 입력을 요구하는 문장은 최종 JSON에 넣지 마세요."
+  ],
+  "expected_minimum_shape": {
+    "claims": [
+      {
+        "claim": "검증 가능한 핵심 주장",
+        "evidence_ids": [
+          "agent.ev.001"
+        ]
+      }
+    ],
+    "evidences": [
+      {
+        "evidence_id": "agent.ev.001",
+        "source_type": "financial | price | rss | news | filing | official | macro | technology",
+        "source": "원천 파일명 또는 URL 또는 데이터셋명",
+        "metric": "수치명 또는 근거명",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "근거 원문 또는 원천값 요약"
+      }
+    ]
+  }
+}

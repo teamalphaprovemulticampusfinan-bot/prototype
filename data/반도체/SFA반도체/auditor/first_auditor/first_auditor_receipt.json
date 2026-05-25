@@ -1,6 +1,6 @@
 {
   "packet_version": "first_auditor_fixed_3stage_local_v2",
-  "created_at": "2026-05-25T03:50:47.432327+00:00",
+  "created_at": "2026-05-25T07:35:28.423219+00:00",
   "company_dir": "sfa",
   "company": "SFA반도체",
   "stage_count": 3,
@@ -19,7 +19,7 @@
     "passed": true,
     "pass_threshold": 0.75,
     "min_actual_match_ratio": 0.8685,
-    "avg_actual_match_ratio": 0.9228,
+    "avg_actual_match_ratio": 0.9207,
     "failed_agents": [],
     "agent_results": {
       "finance": {
@@ -44,7 +44,7 @@
           "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
           "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
           "alpha": 0.99,
-          "history_csv": null,
+          "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
           "history_used": false,
           "history_observations": 0,
           "available_models": [
@@ -156,7 +156,7 @@
               "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
               "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
               "alpha": 0.99,
-              "history_csv": null,
+              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
               "history_used": false,
               "history_observations": 0,
               "available_models": [
@@ -272,7 +272,7 @@
                 "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
                 "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
                 "alpha": 0.99,
-                "history_csv": null,
+                "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
                 "history_used": false,
                 "history_observations": 0,
                 "available_models": [
@@ -371,7 +371,7 @@
               "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
               "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
               "alpha": 0.99,
-              "history_csv": null,
+              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
               "history_used": false,
               "history_observations": 0,
               "available_models": [
@@ -459,7 +459,7 @@
             "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
             "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
             "alpha": 0.99,
-            "history_csv": null,
+            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
             "history_used": false,
             "history_observations": 0,
             "available_models": [
@@ -577,11 +577,11 @@
         "agent": "market",
         "status": "PASS",
         "passed": true,
-        "actual_match": 0.9611,
-        "actual_match_ratio": 0.9611,
+        "actual_match": 0.9487,
+        "actual_match_ratio": 0.9487,
         "pass_threshold": 0.75,
         "stage_scores": {
-          "stage1_basic_consistency": 0.8833,
+          "stage1_basic_consistency": 0.8462,
           "stage2_framework": 1.0,
           "stage3_decision_readiness": 1.0
         },
@@ -595,7 +595,7 @@
           "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
           "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
           "alpha": 0.99,
-          "history_csv": null,
+          "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
           "history_used": false,
           "history_observations": 0,
           "available_models": [
@@ -609,7 +609,7 @@
             "stage3_decision_readiness": 1.0
           },
           "current_signals": {
-            "stage1_basic_consistency": 0.8833,
+            "stage1_basic_consistency": 0.8462,
             "stage2_framework": 1.0,
             "stage3_decision_readiness": 1.0
           },
@@ -652,23 +652,25 @@
         "stages": {
           "stage1": {
             "stage": "stage1_basic_hallucination_unit_scope_consistency_guardrail",
-            "score": 0.8833,
+            "score": 0.8462,
             "numeric_guardrail": {
-              "score": 0.65,
+              "score": 0.5385,
               "checked_numbers": 13,
-              "matched_numbers": 9,
+              "matched_numbers": 7,
               "scale_mismatch_examples": [
-                "claim 113 ↔ source 1.1173295032440196",
-                "claim 113 ↔ source 1.1171971379225265",
-                "claim 113 ↔ source 1.118908573391569",
-                "claim 113 ↔ source 1.132093885717074",
-                "claim 113 ↔ source 1.108468818247998"
+                "claim 122 ↔ source 12.53",
+                "claim 122 ↔ source 12.49",
+                "claim 122 ↔ source 12.42",
+                "claim 122 ↔ source 12.46",
+                "claim 122 ↔ source 12.4"
               ],
               "issues": [
-                "possible unit/scale mismatch: 113",
-                "possible unit/scale mismatch: 3749",
-                "possible unit/scale mismatch: 113",
-                "possible unit/scale mismatch: 3749"
+                "possible unit/scale mismatch: 122",
+                "possible unit/scale mismatch: 18",
+                "possible unit/scale mismatch: 3793",
+                "possible unit/scale mismatch: 122",
+                "possible unit/scale mismatch: 18",
+                "possible unit/scale mismatch: 3793"
               ]
             },
             "source_scope_guardrail": {
@@ -700,7 +702,7 @@
               "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
               "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
               "alpha": 0.99,
-              "history_csv": null,
+              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
               "history_used": false,
               "history_observations": 0,
               "available_models": [
@@ -714,7 +716,7 @@
                 "consistency_guardrail": 1.0
               },
               "current_signals": {
-                "numeric_guardrail": 0.65,
+                "numeric_guardrail": 0.5385,
                 "source_scope_guardrail": 1.0,
                 "consistency_guardrail": 1.0
               },
@@ -744,10 +746,12 @@
               }
             },
             "issues": [
-              "possible unit/scale mismatch: 113",
-              "possible unit/scale mismatch: 3749",
-              "possible unit/scale mismatch: 113",
-              "possible unit/scale mismatch: 3749"
+              "possible unit/scale mismatch: 122",
+              "possible unit/scale mismatch: 18",
+              "possible unit/scale mismatch: 3793",
+              "possible unit/scale mismatch: 122",
+              "possible unit/scale mismatch: 18",
+              "possible unit/scale mismatch: 3793"
             ],
             "warnings": []
           },
@@ -802,7 +806,7 @@
                 "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
                 "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
                 "alpha": 0.99,
-                "history_csv": null,
+                "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
                 "history_used": false,
                 "history_observations": 0,
                 "available_models": [
@@ -875,7 +879,7 @@
               "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
               "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
               "alpha": 0.99,
-              "history_csv": null,
+              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
               "history_used": false,
               "history_observations": 0,
               "available_models": [
@@ -963,7 +967,7 @@
             "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
             "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
             "alpha": 0.99,
-            "history_csv": null,
+            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
             "history_used": false,
             "history_observations": 0,
             "available_models": [
@@ -1026,26 +1030,30 @@
           }
         },
         "issues": [
-          "possible unit/scale mismatch: 113",
-          "possible unit/scale mismatch: 3749",
-          "possible unit/scale mismatch: 113",
-          "possible unit/scale mismatch: 3749"
+          "possible unit/scale mismatch: 122",
+          "possible unit/scale mismatch: 18",
+          "possible unit/scale mismatch: 3793",
+          "possible unit/scale mismatch: 122",
+          "possible unit/scale mismatch: 18",
+          "possible unit/scale mismatch: 3793"
         ],
         "supported_claims": [
           "SFA반도체는 AI 투자 확대에 따른 반도체 후공정 산업의 높은 성장 잠재력과 최근 주가 상승 모멘텀을 바탕으로 긍정적인 전망을 보입니다. 그러나 불확실한 거시 경제 환경과 경쟁 심화 가능성은 보유 의견을 유지하는 주요 근거입니다.",
-          "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 113 column 6 (char 3749)",
+          "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Unterminated string starting at: line 122 column 18 (char 3793)",
           "밸류체인 위치 확인: 후공정/패키징/테스트",
           "SFA반도체의 Market Agent는 return 지표로 annual_return=2.3011272141706924, recent_1m_return=0.3540290620871862을 제공합니다.",
           "SFA반도체의 Market Agent는 drawdown 지표로 mdd=-0.28177458033573144, volatility=0.7184013175756535를 제공합니다.",
           "SFA반도체의 Market Agent는 liquidity 지표로 avg_trading_value_20d=130416634941.0, turnover_proxy=None, liquidity_status=HIGH를 제공합니다.",
-          "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 113 column 6 (char 3749)",
+          "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Unterminated string starting at: line 122 column 18 (char 3793)",
           "밸류체인 위치 확인: 후공정/패키징/테스트"
         ],
         "unsupported_claims": [
-          "possible unit/scale mismatch: 113",
-          "possible unit/scale mismatch: 3749",
-          "possible unit/scale mismatch: 113",
-          "possible unit/scale mismatch: 3749"
+          "possible unit/scale mismatch: 122",
+          "possible unit/scale mismatch: 18",
+          "possible unit/scale mismatch: 3793",
+          "possible unit/scale mismatch: 122",
+          "possible unit/scale mismatch: 18",
+          "possible unit/scale mismatch: 3793"
         ]
       },
       "tech": {
@@ -1070,7 +1078,7 @@
           "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
           "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
           "alpha": 0.99,
-          "history_csv": null,
+          "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
           "history_used": false,
           "history_observations": 0,
           "available_models": [
@@ -1180,7 +1188,7 @@
               "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
               "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
               "alpha": 0.99,
-              "history_csv": null,
+              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
               "history_used": false,
               "history_observations": 0,
               "available_models": [
@@ -1292,7 +1300,7 @@
                 "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
                 "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
                 "alpha": 0.99,
-                "history_csv": null,
+                "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
                 "history_used": false,
                 "history_observations": 0,
                 "available_models": [
@@ -1373,7 +1381,7 @@
               "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
               "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
               "alpha": 0.99,
-              "history_csv": null,
+              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
               "history_used": false,
               "history_observations": 0,
               "available_models": [
@@ -1458,7 +1466,7 @@
             "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
             "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
             "alpha": 0.99,
-            "history_csv": null,
+            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
             "history_used": false,
             "history_observations": 0,
             "available_models": [
@@ -1564,7 +1572,7 @@
           "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
           "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
           "alpha": 0.99,
-          "history_csv": null,
+          "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
           "history_used": false,
           "history_observations": 0,
           "available_models": [
@@ -1670,7 +1678,7 @@
               "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
               "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
               "alpha": 0.99,
-              "history_csv": null,
+              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
               "history_used": false,
               "history_observations": 0,
               "available_models": [
@@ -1780,7 +1788,7 @@
                 "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
                 "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
                 "alpha": 0.99,
-                "history_csv": null,
+                "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
                 "history_used": false,
                 "history_observations": 0,
                 "available_models": [
@@ -1870,7 +1878,7 @@
               "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
               "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
               "alpha": 0.99,
-              "history_csv": null,
+              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
               "history_used": false,
               "history_observations": 0,
               "available_models": [
@@ -1959,7 +1967,7 @@
             "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
             "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
             "alpha": 0.99,
-            "history_csv": null,
+            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
             "history_used": false,
             "history_observations": 0,
             "available_models": [
@@ -2076,7 +2084,7 @@
           "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
           "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
           "alpha": 0.99,
-          "history_csv": null,
+          "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
           "history_used": false,
           "history_observations": 0,
           "available_models": [
@@ -2140,8 +2148,6 @@
               "matched_numbers": 6,
               "scale_mismatch_examples": [
                 "claim 10 ↔ source 001",
-                "claim 10 ↔ source 001",
-                "claim 10 ↔ source 001",
                 "claim 10 ↔ source 001"
               ],
               "issues": []
@@ -2172,7 +2178,7 @@
               "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
               "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
               "alpha": 0.99,
-              "history_csv": null,
+              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
               "history_used": false,
               "history_observations": 0,
               "available_models": [
@@ -2265,7 +2271,7 @@
               "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
               "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
               "alpha": 0.99,
-              "history_csv": null,
+              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
               "history_used": false,
               "history_observations": 0,
               "available_models": [
@@ -2333,9 +2339,9 @@
         },
         "issues": [],
         "supported_claims": [
-          "SFA반도체에 대해 검증 가능한 핵심 근거는 다음과 같습니다. news_count 값은 10count입니다. rss_count 값은 10count입니다. related_keyword_count 값은 0count입니다.",
+          "SFA반도체에 대해 검증 가능한 핵심 근거는 다음과 같습니다. news_count 값은 10count입니다. rss_count 값은 11count입니다. related_keyword_count 값은 0count입니다.",
           "news_count 값은 10count입니다.",
-          "rss_count 값은 10count입니다.",
+          "rss_count 값은 11count입니다.",
           "related_keyword_count 값은 0count입니다."
         ],
         "unsupported_claims": []
@@ -2362,7 +2368,7 @@
           "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
           "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
           "alpha": 0.99,
-          "history_csv": null,
+          "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
           "history_used": false,
           "history_observations": 0,
           "available_models": [
@@ -2461,7 +2467,7 @@
               "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
               "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
               "alpha": 0.99,
-              "history_csv": null,
+              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
               "history_used": false,
               "history_observations": 0,
               "available_models": [
@@ -2554,7 +2560,7 @@
               "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
               "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
               "alpha": 0.99,
-              "history_csv": null,
+              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
               "history_used": false,
               "history_observations": 0,
               "available_models": [
@@ -2651,7 +2657,7 @@
         "prior_policy": "uniform_prior_over_available_agents; no fixed finance/tech/valuation base weights",
         "update_formula": "pi_pred_i = pi_prev_i^alpha / sum_j(pi_prev_j^alpha); pi_post_i = pi_pred_i * predictive_likelihood_i / sum_j(pi_pred_j * predictive_likelihood_j)",
         "alpha": 0.99,
-        "history_csv": null,
+        "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
         "history_used": false,
         "history_observations": 0,
         "available_agents": [
@@ -2798,7 +2804,7 @@
             "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
             "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
             "alpha": 0.99,
-            "history_csv": null,
+            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
             "history_used": false,
             "history_observations": 0,
             "available_models": [
@@ -2937,7 +2943,7 @@
             "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
             "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
             "alpha": 0.99,
-            "history_csv": null,
+            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
             "history_used": false,
             "history_observations": 0,
             "available_models": [
@@ -3063,7 +3069,7 @@
             "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
             "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
             "alpha": 0.99,
-            "history_csv": null,
+            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
             "history_used": false,
             "history_observations": 0,
             "available_models": [
@@ -3174,7 +3180,7 @@
             "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
             "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
             "alpha": 0.99,
-            "history_csv": null,
+            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
             "history_used": false,
             "history_observations": 0,
             "available_models": [
@@ -3315,7 +3321,7 @@
         "method": "dma_signal_soft_posterior_reject_option_no_fixed_band_v50",
         "formula": "P_current(y=c|F_t)=sum_i pi_i,t * I(label_i,t=c)",
         "selection_policy": "final_recommendation follows stronger Buy-vs-Sell posterior; Hold is reject/no-trade only for tied or unavailable direction; weighted_signal is diagnostic only",
-        "history_csv": null,
+        "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260522_150418\\bt_2025_2026_v49\\signal_df_monthly_2025-01_to_2026-05.csv",
         "history_used": false,
         "history_observations": 0,
         "smoothing": 0.5,
@@ -3526,7 +3532,7 @@
         "industry_type": "deeptech_semiconductor",
         "summary": "SFA반도체는 AI 투자 확대에 따른 반도체 후공정 산업의 높은 성장 잠재력과 최근 주가 상승 모멘텀을 바탕으로 긍정적인 전망을 보입니다. 그러나 불확실한 거시 경제 환경과 경쟁 심화 가능성은 보유 의견을 유지하는 주요 근거입니다.",
         "key_risks": [
-          "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 113 column 6 (char 3749)",
+          "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Unterminated string starting at: line 122 column 18 (char 3793)",
           "밸류체인 위치 확인: 후공정/패키징/테스트"
         ],
         "audit_trace": {
@@ -3544,17 +3550,19 @@
           "policy": "specialist agent files are not modified; this compact packet is generated by auditor_agent only"
         },
         "auditor_status": "PASS",
-        "auditor_actual_match": 0.9611,
+        "auditor_actual_match": 0.9487,
         "auditor_stage_scores": {
-          "stage1_basic_consistency": 0.8833,
+          "stage1_basic_consistency": 0.8462,
           "stage2_framework": 1.0,
           "stage3_decision_readiness": 1.0
         },
         "auditor_issues": [
-          "possible unit/scale mismatch: 113",
-          "possible unit/scale mismatch: 3749",
-          "possible unit/scale mismatch: 113",
-          "possible unit/scale mismatch: 3749"
+          "possible unit/scale mismatch: 122",
+          "possible unit/scale mismatch: 18",
+          "possible unit/scale mismatch: 3793",
+          "possible unit/scale mismatch: 122",
+          "possible unit/scale mismatch: 18",
+          "possible unit/scale mismatch: 3793"
         ],
         "auditor_recommendation": "보유",
         "auditor_signal": 0.1684,
@@ -3844,7 +3852,7 @@
         "warning_note": "검증 불가 claim 6개를 제거한 뒤 grounding 기준을 재검증했습니다.",
         "metrics": {
           "news_count": 10,
-          "rss_count": 10,
+          "rss_count": 11,
           "related_keyword_count": 0,
           "df_news_rows": 139
         },
