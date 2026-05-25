@@ -73,6 +73,29 @@ def _env_int(name: str, default: int) -> int:
         return default
 
 
+def _env_date(*names: str) -> str | None:
+    for name in names:
+        value = os.getenv(name, "").strip()
+        if value:
+            return value
+    return None
+
+
+def _resolve_finance_years(explicit_years: list[int] | None) -> list[int] | None:
+    if explicit_years:
+        return explicit_years
+    start_raw = os.getenv("FINANCE_FINANCIAL_START_YEAR") or os.getenv("FINANCE_START_DATE", "2021")[:4]
+    end_raw = os.getenv("FINANCE_FINANCIAL_END_YEAR") or os.getenv("FINANCE_CUTOFF_YEAR", "")
+    try:
+        start_year = int(str(start_raw)[:4])
+        end_year = int(float(str(end_raw))) if str(end_raw).strip() else None
+    except Exception:
+        return None
+    if end_year is None or end_year < start_year:
+        return None
+    return list(range(start_year, end_year + 1))
+
+
 def _direct_agent_only_record(agent: str) -> dict[str, Any]:
     message = (
         f"{agent}_agent는 별도 data_intake 단계 없이 직접 실행하는 구조입니다. "
@@ -217,7 +240,7 @@ def _run_finance_intake(
             field=field,
             stock_code=stock_code,
             mode=mode,
-            years=years or [2023, 2024, 2025],
+            years=_resolve_finance_years(years),
             force_fetch=force_fetch,
             skip_network=False,
             continue_on_error=continue_on_error,
@@ -271,8 +294,15 @@ def _call_optional_intake(agent: str, *, company_dir: str, company: str, field: 
                     except TypeError:
                         fn()
                 else:
+                    kwargs: dict[str, Any] = {"company_dir": company_dir, "company": company, "field": field}
+                    if agent == "market":
+                        kwargs["start_date"] = _env_date("MARKET_START_DATE", "ALPHAPROVE_DATA_START_DATE")
+                        kwargs["end_date"] = _env_date("MARKET_END_DATE", "MARKET_AS_OF_DATE", "ALPHAPROVE_DATA_CUTOFF_DATE")
+                    elif agent == "issue":
+                        kwargs["start_date"] = _env_date("ISSUE_START_DATE", "ALPHAPROVE_DATA_START_DATE")
+                        kwargs["end_date"] = _env_date("ISSUE_END_DATE", "ISSUE_AS_OF_DATE", "ALPHAPROVE_DATA_CUTOFF_DATE")
                     try:
-                        fn(company_dir=company_dir, company=company, field=field)
+                        fn(**kwargs)
                     except TypeError:
                         try:
                             fn(company, company_dir=company_dir)

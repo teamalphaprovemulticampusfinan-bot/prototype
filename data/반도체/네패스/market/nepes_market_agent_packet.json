@@ -487,192 +487,51 @@
   ],
   "raw_payload": {
     "analysis": {
-      "agent": "market",
       "company": "네패스",
       "opinion": "보유",
-      "confidence": 0.7,
-      "market_summary": {
-        "oecd_interpretation": "OECD 경기선행지수가 98.01로 기준치 하회하며 경기 둔화 가능성을 시사합니다. 이는 전반적인 투자 심리에 부정적인 영향을 줄 수 있습니다.",
-        "industry_stage": "네패스가 속한 반도체 후공정/패키징 산업은 AI 시대의 핵심 기술로 높은 성장 잠재력을 지닙니다.",
-        "value_chain_position": "네패스는 후공정/패키징/테스트 분야에서 전자재료 사업까지 영위하며 밸류체인 내에서 중요한 위치를 차지합니다.",
-        "competitive_position": "경쟁이 치열한 후공정 분야에서 네패스는 첨단 기술력을 바탕으로 경쟁 우위를 확보하려 노력하고 있습니다.",
-        "market_momentum": "최근 주가 상승률이 높으나, 거시 경제 불확실성과 경쟁 강도가 시장 모멘텀에 변동성을 야기할 수 있습니다."
-      },
-      "qualitative_rubric": {
-        "macro_cycle": {
-          "assessment": "하",
-          "reason": "OECD 경기선행지수가 98.01로 기준치 하회하며 경기 둔화 가능성을 시사합니다."
-        },
-        "industry_attractiveness": {
-          "assessment": "상",
-          "reason": "AI 시대의 핵심인 반도체 후공정/패키징 분야는 높은 성장 잠재력을 가지고 있습니다."
-        },
-        "value_chain_position": {
-          "assessment": "상",
-          "reason": "첨단 후공정 파운드리 및 전자재료 사업을 통해 밸류체인 내에서 필수적인 역할을 수행합니다."
-        },
-        "competitive_position": {
-          "assessment": "중",
-          "reason": "후공정 분야는 경쟁이 치열하나, 네패스는 첨단 기술력으로 경쟁력을 확보하고 있습니다."
-        },
-        "market_momentum": {
-          "assessment": "상",
-          "reason": "최근 주가 상승률이 19.76%로 높으며, 시장 모멘텀이 긍정적입니다."
-        },
-        "policy_disclosure_signal": {
-          "assessment": "중",
-          "reason": "반도체 소재, 후공정 장비 등 정책 수혜 가능성이 있으나, DART 공시 정보는 부족합니다."
-        },
-        "downside_risk": {
-          "assessment": "중",
-          "reason": "거시 경제 불확실성과 높은 경쟁 강도가 하방 리스크로 작용할 수 있습니다."
-        }
-      },
-      "bwm_assessment": {
-        "best_criterion": "산업 매력도",
-        "worst_criterion": "거시 사이클",
-        "judgment_effect": "산업의 높은 성장 잠재력에도 불구하고, 거시 경제 불확실성이 투자 의견에 보수적인 영향을 미칩니다."
-      },
+      "confidence": 0.8,
+      "summary": "네패스는 AI 시대의 핵심인 반도체 후공정/패키징 분야에서 높은 성장 잠재력을 보유하고 있습니다. 최근 주가 모멘텀은 긍정적이나, 거시 경제 불확실성과 경쟁 심화가 리스크 요인으로 작용합니다. 따라서 '보유' 의견을 제시합니다.",
+      "total_score": 75,
       "scoring": {
         "거시환경": {
           "score": 12,
-          "max": 20,
-          "reason": "OECD 경기선행지수 하락으로 거시 환경이 부정적입니다."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "산업매력도": {
           "score": 18,
-          "max": 20,
-          "reason": "AI 시대의 핵심인 반도체 후공정/패키징 산업의 성장 잠재력이 높습니다."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "경쟁위치": {
           "score": 15,
-          "max": 20,
-          "reason": "후공정 분야 경쟁이 치열하나, 네패스의 기술력이 경쟁 우위를 제공합니다."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "정책수혜": {
           "score": 14,
-          "max": 20,
-          "reason": "반도체 소재, 후공정 장비 등 정책 수혜 가능성이 존재합니다."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "시장모멘텀": {
           "score": 16,
-          "max": 20,
-          "reason": "최근 주가 상승률이 높고 시장 모멘텀이 긍정적입니다."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         }
       },
-      "total_score": 75,
-      "claims": [
-        {
-          "claim_id": "market.cl.001",
-          "text": "네패스는 AI 시대의 핵심인 반도체 후공정/패키징 분야에서 높은 성장 잠재력을 가지고 있습니다.",
-          "evidence_ids": [
-            "market.ev.001",
-            "market.ev.002"
-          ]
-        },
-        {
-          "claim_id": "market.cl.002",
-          "text": "최근 주가 모멘텀은 긍정적이나, 거시 경제 불확실성과 높은 경쟁 강도가 리스크 요인으로 작용합니다.",
-          "evidence_ids": [
-            "market.ev.003",
-            "market.ev.004"
-          ]
-        }
-      ],
-      "evidences": [
-        {
-          "evidence_id": "market.ev.001",
-          "source_type": "static",
-          "source": "엑셀",
-          "metric": "밸류체인 위치",
-          "value": "후공정/패키징/테스트",
-          "unit": null,
-          "period": null,
-          "snippet": "네패스는 첨단 후공정 파운드리 사업과 반도체/디스플레이 제조에 사용되는 전자재료사업을 통해 스마트폰 및 다양한 전자기기에 필수적인 기술을 제공합니다."
-        },
-        {
-          "evidence_id": "market.ev.002",
-          "source_type": "static",
-          "source": "엑셀",
-          "metric": "산업매력도",
-          "value": "18",
-          "unit": "/20",
-          "period": null,
-          "snippet": "네패스는 AI 시대의 핵심인 반도체 후공정/패키징 분야에서 높은 성장 잠재력을 가지고 있습니다."
-        },
-        {
-          "evidence_id": "market.ev.003",
-          "source_type": "stock",
-          "source": "public_data",
-          "metric": "change_rate",
-          "value": 19.76,
-          "unit": "%",
-          "period": "20260521",
-          "snippet": "change_rate: 19.76"
-        },
-        {
-          "evidence_id": "market.ev.004",
-          "source_type": "oecd",
-          "source": "OECD",
-          "metric": "경기선행지수",
-          "value": 98.01,
-          "unit": null,
-          "period": "최신",
-          "snippet": "OECD 경기선행지수 (최신): {\"G20\": 98.01, \"한국\": 98.01, \"미국\": 98.01, \"중국\": 98.01}"
-        }
-      ],
+      "market_environment": {
+        "oecd_cli": "",
+        "industry_stage": "{'마켓점수': {'기업명': '네패스', '투자의견': '보유', '총점': '75', '거시환경': '12', '산업매력도': '18', '경쟁위치': '15', '정책수혜': '14', '시장모멘텀': '16', '요약': \"네패스는 AI 시대의 핵심인 반도체 후공정/패키징 분야에서 높은 성장 잠재력을 보유하고 있습니다. 최근 주가 모멘텀은 긍정적이나, 거시 경제 불확실성과 경쟁 심화가 리스크 요인으로 작용합니다. 따라서 '보유' 의견을 제시합니다.\"}}",
+        "value_chain_position": "후공정/패키징/테스트",
+        "competition": ""
+      },
       "risks": [
-        {
-          "risk": "거시 경제 불확실성",
-          "severity": "중",
-          "basis": "OECD 경기선행지수 하락"
-        },
-        {
-          "risk": "높은 경쟁 강도",
-          "severity": "중",
-          "basis": "후공정/패키징 산업의 경쟁 심화"
-        }
+        "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 160 column 6 (char 4338)",
+        "밸류체인 위치 확인: 후공정/패키징/테스트"
       ],
-      "opportunities": [
-        {
-          "opportunity": "AI 시대 반도체 후공정/패키징 수요 증가",
-          "basis": "산업의 높은 성장 잠재력"
-        },
-        {
-          "opportunity": "정책 수혜 가능성",
-          "basis": "반도체 소재, 후공정 장비 등 관련 정책"
-        }
-      ],
-      "summary": "네패스는 AI 시대의 핵심인 반도체 후공정/패키징 분야에서 높은 성장 잠재력을 보유하고 있습니다. 최근 주가 모멘텀은 긍정적이나, 거시 경제 불확실성과 경쟁 심화가 리스크 요인으로 작용합니다. 따라서 '보유' 의견을 제시합니다.",
-      "raw_payload": {
-        "stock_used": true,
-        "oecd_used": true,
-        "static_used": true,
-        "news_used": true,
-        "dart_used": false
-      }
+      "opportunities": [],
+      "error": "Expecting ',' delimiter: line 160 column 6 (char 4338)",
+      "fallback_source": "market_final_static_data"
     },
-    "original_opportunities": [
-      {
-        "opportunity": "AI 시대 반도체 후공정/패키징 수요 증가",
-        "basis": "산업의 높은 성장 잠재력"
-      },
-      {
-        "opportunity": "정책 수혜 가능성",
-        "basis": "반도체 소재, 후공정 장비 등 관련 정책"
-      }
-    ],
+    "original_opportunities": [],
     "original_risks": [
-      {
-        "risk": "거시 경제 불확실성",
-        "severity": "중",
-        "basis": "OECD 경기선행지수 하락"
-      },
-      {
-        "risk": "높은 경쟁 강도",
-        "severity": "중",
-        "basis": "후공정/패키징 산업의 경쟁 심화"
-      }
+      "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 160 column 6 (char 4338)",
+      "밸류체인 위치 확인: 후공정/패키징/테스트"
     ],
     "removed_bad_evidence_ids": [
       "market.ev.unverified"
@@ -682,28 +541,23 @@
   "scoring": {
     "거시환경": {
       "score": 12,
-      "max": 20,
-      "reason": "OECD 경기선행지수 하락으로 거시 환경이 부정적입니다."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "산업매력도": {
       "score": 18,
-      "max": 20,
-      "reason": "AI 시대의 핵심인 반도체 후공정/패키징 산업의 성장 잠재력이 높습니다."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "경쟁위치": {
       "score": 15,
-      "max": 20,
-      "reason": "후공정 분야 경쟁이 치열하나, 네패스의 기술력이 경쟁 우위를 제공합니다."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "정책수혜": {
       "score": 14,
-      "max": 20,
-      "reason": "반도체 소재, 후공정 장비 등 정책 수혜 가능성이 존재합니다."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "시장모멘텀": {
       "score": 16,
-      "max": 20,
-      "reason": "최근 주가 상승률이 높고 시장 모멘텀이 긍정적입니다."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     }
   },
   "packet_version": "grounded_agent_v3",

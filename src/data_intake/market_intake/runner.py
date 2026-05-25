@@ -75,6 +75,8 @@ def run_market_intake(
     """
 
     started = datetime.now()
+    start_date = start_date or os.getenv("MARKET_START_DATE") or "2021-01-01"
+    end_date = end_date or os.getenv("MARKET_END_DATE") or os.getenv("MARKET_AS_OF_DATE") or os.getenv("ALPHAPROVE_DATA_CUTOFF_DATE")
     company_name = company or company_dir
     out_dir = company_agent_dir(company_dir, "market", create=True) / "intake"
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -110,6 +112,8 @@ def run_market_intake(
         "company_dir": company_dir,
         "company": company_name,
         "field": field,
+        "start_date": start_date,
+        "end_date": end_date,
         "market_semiconductor_daily": sector_daily,
         "legacy_collection_csv": collection_csv,
         "errors": errors,

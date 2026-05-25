@@ -546,7 +546,7 @@
       "score": 3,
       "reasons": [
         "후공정/HBM·메모리 연계 기업 + 메모리/반도체 수요 proxy 개선 → 수요 민감도 우호",
-        "딥테크/장기 성장 기업 + 금리 하락 압력 → 할인율·자금조달 부담 완화",
+        "딥테크/장기 성장·적자 기업 + 금리 하락 압력 → 할인율·자금조달 부담 완화",
         "부채비율 상위 20% 기업 + 신용스프레드 축소 압력 → 차입/신용 부담 완화"
       ],
       "details": {
@@ -607,21 +607,21 @@
             "export_keyword_hint": []
           },
           "metrics": {
-            "sales": 521439287008.0,
-            "operating_income": 23761125843.0,
-            "net_income": 20158821632.0,
-            "fcf": 48916811853.0,
-            "debt_ratio_pct": 183.67051891918013,
-            "current_ratio_pct": 86.23919898913447,
-            "loss_making": false,
+            "sales": 464331506206.0,
+            "operating_income": 3401796348.0,
+            "net_income": -79400160862.0,
+            "fcf": 76982789976.0,
+            "debt_ratio_pct": 242.6581127836809,
+            "current_ratio_pct": 49.56987412092565,
+            "loss_making": true,
             "fcf_negative": false
           },
           "metric_percentiles": {
             "debt_ratio_pct": {
               "available": true,
               "observations": 48,
-              "current": 183.67051891918013,
-              "pctl_rank": 0.9167,
+              "current": 242.6581127836809,
+              "pctl_rank": 1.0,
               "q20": 19.84318367852004,
               "q50": 31.756309575260122,
               "q80": 83.97626273385403,
@@ -630,8 +630,8 @@
             "fcf": {
               "available": true,
               "observations": 48,
-              "current": 48916811853.0,
-              "pctl_rank": 0.7083,
+              "current": 76982789976.0,
+              "pctl_rank": 0.7708,
               "q20": -5926914990.0,
               "q50": 24854117993.5,
               "q80": 99231903416.0,
@@ -991,11 +991,11 @@
           "deeptech_loss_rate_sensitivity": {
             "score": 1,
             "deeptech_role": true,
-            "loss_making": false,
+            "loss_making": true,
             "fcf_negative": false,
             "operating_margin_pct": null,
             "net_margin_pct": null,
-            "fcf": 48916811853.0,
+            "fcf": 76982789976.0,
             "macro_pressure": {
               "available": true,
               "pressure": -3,
@@ -1102,12 +1102,12 @@
           },
           "high_debt_credit_spread_sensitivity": {
             "score": 1,
-            "debt_ratio_pct": 183.67051891918013,
+            "debt_ratio_pct": 242.6581127836809,
             "debt_ratio_percentile": {
               "available": true,
               "observations": 48,
-              "current": 183.67051891918013,
-              "pctl_rank": 0.9167,
+              "current": 242.6581127836809,
+              "pctl_rank": 1.0,
               "q20": 19.84318367852004,
               "q50": 31.756309575260122,
               "q80": 83.97626273385403,
@@ -1224,7 +1224,7 @@
     }
   },
   "raw_payload": {
-    "created_at": "2026-05-25 16:51:15",
+    "created_at": "2026-05-25 19:14:33",
     "signal": "BUY",
     "score": 10,
     "risk_level": "LOW",
@@ -1274,7 +1274,7 @@
       "ext_일별/sox_반도체_지수_수익률_60일: 1기간 변화율 급등 극단 구간 (변화율 609.44%, z=-0.62)",
       "ext_일별/반도체섹터수익률_20일: 1기간 변화율 급등 극단 구간 (변화율 897.63%, z=0.27)",
       "후공정/HBM·메모리 연계 기업 + 메모리/반도체 수요 proxy 개선 → 수요 민감도 우호",
-      "딥테크/장기 성장 기업 + 금리 하락 압력 → 할인율·자금조달 부담 완화",
+      "딥테크/장기 성장·적자 기업 + 금리 하락 압력 → 할인율·자금조달 부담 완화",
       "부채비율 상위 20% 기업 + 신용스프레드 축소 압력 → 차입/신용 부담 완화"
     ],
     "details": {
@@ -2049,7 +2049,7 @@
         "score": 3,
         "reasons": [
           "후공정/HBM·메모리 연계 기업 + 메모리/반도체 수요 proxy 개선 → 수요 민감도 우호",
-          "딥테크/장기 성장 기업 + 금리 하락 압력 → 할인율·자금조달 부담 완화",
+          "딥테크/장기 성장·적자 기업 + 금리 하락 압력 → 할인율·자금조달 부담 완화",
           "부채비율 상위 20% 기업 + 신용스프레드 축소 압력 → 차입/신용 부담 완화"
         ],
         "details": {
@@ -2110,21 +2110,21 @@
               "export_keyword_hint": []
             },
             "metrics": {
-              "sales": 521439287008.0,
-              "operating_income": 23761125843.0,
-              "net_income": 20158821632.0,
-              "fcf": 48916811853.0,
-              "debt_ratio_pct": 183.67051891918013,
-              "current_ratio_pct": 86.23919898913447,
-              "loss_making": false,
+              "sales": 464331506206.0,
+              "operating_income": 3401796348.0,
+              "net_income": -79400160862.0,
+              "fcf": 76982789976.0,
+              "debt_ratio_pct": 242.6581127836809,
+              "current_ratio_pct": 49.56987412092565,
+              "loss_making": true,
               "fcf_negative": false
             },
             "metric_percentiles": {
               "debt_ratio_pct": {
                 "available": true,
                 "observations": 48,
-                "current": 183.67051891918013,
-                "pctl_rank": 0.9167,
+                "current": 242.6581127836809,
+                "pctl_rank": 1.0,
                 "q20": 19.84318367852004,
                 "q50": 31.756309575260122,
                 "q80": 83.97626273385403,
@@ -2133,8 +2133,8 @@
               "fcf": {
                 "available": true,
                 "observations": 48,
-                "current": 48916811853.0,
-                "pctl_rank": 0.7083,
+                "current": 76982789976.0,
+                "pctl_rank": 0.7708,
                 "q20": -5926914990.0,
                 "q50": 24854117993.5,
                 "q80": 99231903416.0,
@@ -2494,11 +2494,11 @@
             "deeptech_loss_rate_sensitivity": {
               "score": 1,
               "deeptech_role": true,
-              "loss_making": false,
+              "loss_making": true,
               "fcf_negative": false,
               "operating_margin_pct": null,
               "net_margin_pct": null,
-              "fcf": 48916811853.0,
+              "fcf": 76982789976.0,
               "macro_pressure": {
                 "available": true,
                 "pressure": -3,
@@ -2605,12 +2605,12 @@
             },
             "high_debt_credit_spread_sensitivity": {
               "score": 1,
-              "debt_ratio_pct": 183.67051891918013,
+              "debt_ratio_pct": 242.6581127836809,
               "debt_ratio_percentile": {
                 "available": true,
                 "observations": 48,
-                "current": 183.67051891918013,
-                "pctl_rank": 0.9167,
+                "current": 242.6581127836809,
+                "pctl_rank": 1.0,
                 "q20": 19.84318367852004,
                 "q50": 31.756309575260122,
                 "q80": 83.97626273385403,

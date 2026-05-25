@@ -1,0 +1,572 @@
+{
+  "company_dir": "nepes",
+  "company_name": "네패스",
+  "method": "Patent Momentum Score + Conservative Tech-to-Value Evidence Confidence",
+  "patent_momentum": {
+    "patent_momentum_score": 52.64,
+    "baseline_step9_momentum_score": 36.05,
+    "recalibrated_momentum_signal": 77.53,
+    "grade": "WATCH_MOMENTUM",
+    "grade_kr": "최근 특허 모멘텀 추적 필요",
+    "component_scores": {
+      "recent_activity_score": 58.94,
+      "active_continuity_score": 96.06,
+      "registration_quality_score": 96.01,
+      "sustained_activity_score": 90.0,
+      "technology_continuity_score": 65.39
+    },
+    "raw_signals": {
+      "base_patent_momentum_score": 36.05,
+      "normalized_patent_records": 840.0,
+      "company_matched_patents": 828.0,
+      "registered_patents": 477.0,
+      "alive_patents": 517.0,
+      "recent_5y_patents": 122.0,
+      "ipc_cpc_classes": 102.0,
+      "core_ipc_h01l_patents": 12.0,
+      "patent_keyword_matches": 1652.0,
+      "recent_5y_ratio": 14.73,
+      "active_patent_ratio": 62.44,
+      "registered_patent_ratio": 57.61,
+      "core_ipc_ratio": 1.45,
+      "start_year": 1990,
+      "end_year": 2029,
+      "span_years": 40
+    },
+    "interpretation": "Patent Momentum Score는 최근 특허 활동, 존속 특허 비중, 등록 특허 비중, 포트폴리오 지속 기간, IPC/CPC 기반 기술 지속성을 결합한 보조 지표입니다. 이 점수는 미래 수익률 예측이 아니라 기술 활동의 현재성·지속성을 설명합니다."
+  },
+  "tech_to_value_evidence_confidence": {
+    "tech_to_value_evidence_confidence_score": 79.7,
+    "raw_weighted_score_before_direct_cap": 79.7,
+    "grade": "EVIDENCE_STRONG",
+    "grade_kr": "기술-가치 연결 직접 근거 강함",
+    "direct_dimension_count": 3,
+    "indirect_only_dimension_count": 1,
+    "dimensions": {
+      "customer_adoption": {
+        "dimension": "customer_adoption",
+        "dimension_label": "고객 채택",
+        "score": 88.0,
+        "status": "DIRECT_CONFIRMED",
+        "status_kr": "직접 근거",
+        "evidence_hit_count": 20,
+        "direct_evidence_count": 8,
+        "indirect_evidence_count": 12,
+        "limited_evidence_count": 0,
+        "top_direct_evidence": [
+          {
+            "source_type": "company_ir",
+            "source": "data\\반도체\\네패스\\tech\\tech.json",
+            "matched_keywords": [
+              "고객",
+              "공급"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "특히, 김 사장은 국내 최초로 600×600mm 패널레벨패키지(PLP)를 양산하고, CPB(Copper Pillar Bumping) 기술 기반의 AI 데이터센터용 전력반도체 시장 진입을 통해 글로벌 고객 발굴과 공급망 안정에 중추적 역할을 수행했다."
+          },
+          {
+            "source_type": "company_ir",
+            "source": "data\\반도체\\네패스\\tech\\tech.json",
+            "matched_keywords": [
+              "고객"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "네패스는 첨단 패키징 기술력, AI 반도체 대응 역량, 글로벌 고객 기반 확대 성과 등에서 우수한 평가를 받은 것으로 알려졌다.한편, 혁신 프리미어 프로그램은 오는 2026년부터 매년 1,000개 기업을 대상으로 지원을 확대해 나갈 예정이며, 이번 1차 선정 기업은 2026년 말까지 집중적인 정책 지원 대상에 포함된다."
+          },
+          {
+            "source_type": "company_ir",
+            "source": "data\\반도체\\네패스\\tech\\tech.json",
+            "matched_keywords": [
+              "공급"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "지난해 12월2일 한국IR협의회는 AI 서버용 반도체 수요 증가가 고성능 패키징 수요를 확대시키는 한편, 미·중 무역 갈등 등 지정학적 리스크로 반도체 제조 공급망 재편이 가속화됨에 따라 네패스 수혜가 기대된다고 전망했다."
+          }
+        ],
+        "top_indirect_evidence": [
+          {
+            "source_type": "company_ir",
+            "source": "data\\반도체\\네패스\\tech\\tech.json",
+            "matched_keywords": [
+              "공급"
+            ],
+            "has_numeric_signal": false,
+            "has_url_signal": false,
+            "evidence_level": "간접 근거",
+            "level_reason": "1차 출처이나 수치·기간·단위가 부족해 간접 근거로 분류",
+            "hit_score": 88.0,
+            "snippet": "그러면서 “대규모 적자를 보이던 PLP 사업은 중단한 만큼 관련 리스크가 크게 감소한 상황에서 최근 전자재료의 HBM향 매출 확대, 패키징 부문에서 MPS를 통한 AI향 공급 증가가 이루어지고 있는 점이 반영되고 있다”며 “HBM 및 AI 비중 증가, 패키징 및 테스트 부문의 실질적인 실적 개선 정도에 따라 향후 밸류에이션 확대를 기대한다”고 내다봤다."
+          },
+          {
+            "source_type": "company_homepage",
+            "source": "http://www.nepes.co.kr",
+            "matched_keywords": [
+              "수주",
+              "계약"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": true,
+            "evidence_level": "간접 근거",
+            "level_reason": "뉴스·홈페이지·KIPRIS 등은 연결 항목의 보조 근거로만 반영",
+            "hit_score": 49.0,
+            "snippet": "dart_latest_business_report.txt 주식회사 네패스 사 업 보 고 서 (제 36 기) 2025년 01월 01일 2025년 12월 31일 한국거래소 귀중 2026년 03월 18일 제출대상법인 유형 : 면제사유발생 : 이 병 구, 이 창 우 본 점 소 재 지 : 충청북도 음성군 삼성면 금일로 965 번길 105 (전 화) 043 - 240 - 0500 (홈페이지) http://www.nepes.co.kr 작 성 책 임 자 : (전 화) 02 -"
+          },
+          {
+            "source_type": "company_homepage",
+            "source": "https://www.nepes.co.kr/kr/business/energy/smart_film.php",
+            "matched_keywords": [
+              "공급"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": true,
+            "evidence_level": "간접 근거",
+            "level_reason": "뉴스·홈페이지·KIPRIS 등은 연결 항목의 보조 근거로만 반영",
+            "hit_score": 49.0,
+            "snippet": "official same-domain candidate 공식 사이트 내부 기술/제품 후보 링크 Smart Film - Energy - BUSINESS - NEPES | Global top-tier partner 현재 웹브라우저에서는 사이트가 정상적으로 표시되지 않을 수 있습니다. 하여 웹브라우저를 업그레이드 하세요. 2001~2010 1990~2000 청안캠퍼스 홍보관 BUSINESS Semiconductor Overview FOWLP/PLP Artificial"
+          }
+        ],
+        "top_limited_evidence": [],
+        "top_evidence": [
+          {
+            "source_type": "company_ir",
+            "source": "data\\반도체\\네패스\\tech\\tech.json",
+            "matched_keywords": [
+              "고객",
+              "공급"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "특히, 김 사장은 국내 최초로 600×600mm 패널레벨패키지(PLP)를 양산하고, CPB(Copper Pillar Bumping) 기술 기반의 AI 데이터센터용 전력반도체 시장 진입을 통해 글로벌 고객 발굴과 공급망 안정에 중추적 역할을 수행했다."
+          },
+          {
+            "source_type": "company_ir",
+            "source": "data\\반도체\\네패스\\tech\\tech.json",
+            "matched_keywords": [
+              "고객"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "네패스는 첨단 패키징 기술력, AI 반도체 대응 역량, 글로벌 고객 기반 확대 성과 등에서 우수한 평가를 받은 것으로 알려졌다.한편, 혁신 프리미어 프로그램은 오는 2026년부터 매년 1,000개 기업을 대상으로 지원을 확대해 나갈 예정이며, 이번 1차 선정 기업은 2026년 말까지 집중적인 정책 지원 대상에 포함된다."
+          },
+          {
+            "source_type": "company_ir",
+            "source": "data\\반도체\\네패스\\tech\\tech.json",
+            "matched_keywords": [
+              "공급"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "지난해 12월2일 한국IR협의회는 AI 서버용 반도체 수요 증가가 고성능 패키징 수요를 확대시키는 한편, 미·중 무역 갈등 등 지정학적 리스크로 반도체 제조 공급망 재편이 가속화됨에 따라 네패스 수혜가 기대된다고 전망했다."
+          }
+        ]
+      },
+      "mass_production": {
+        "dimension": "mass_production",
+        "dimension_label": "양산",
+        "score": 88.0,
+        "status": "DIRECT_CONFIRMED",
+        "status_kr": "직접 근거",
+        "evidence_hit_count": 80,
+        "direct_evidence_count": 17,
+        "indirect_evidence_count": 63,
+        "limited_evidence_count": 0,
+        "top_direct_evidence": [
+          {
+            "source_type": "dart",
+            "source": "data\\반도체\\네패스\\tech\\tech.json",
+            "matched_keywords": [
+              "공정"
+            ],
+            "has_numeric_signal": false,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "즉, 반도체사업은 당사가 사업화에 성공한 플립칩 Bumping 기술을 확보하여 스마트폰, 서버, 고성능컴퓨터, 웨어러블 디바이스, 자동차 등 다양한 스마트 어프리케이션등의 Chip-set을 위한 WLP(Wafer Level Package), FOWLP/PLP로 국내외에서 확고한 입지를 구축하고 있으며, 전자재료 사업은 고순도재료생산 기술을 바탕으로 반도체, LCD등 미세회로 Pattern을 구성하기 위하여 사용되는 공정재료인 현상액(Developer), Etch"
+          },
+          {
+            "source_type": "company_ir",
+            "source": "data\\반도체\\네패스\\tech\\tech.json",
+            "matched_keywords": [
+              "공정"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "한편, 네패스는 1990년 설립 이후 반도체 후공정 첨단 패키징과 전자재료 분야에서 전문성을 강화해 왔으며, 2022년에는 이병구 회장이 금탑산업훈장을 수훈한 데 이어 이번 대통령 표창으로 우수한 경영성과와 기술력을 다시 한 번 인정받았다."
+          },
+          {
+            "source_type": "company_ir",
+            "source": "data\\반도체\\네패스\\tech\\tech.json",
+            "matched_keywords": [
+              "공정"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "네패스는 광주과학기술원과 1일 GIST 행정동 대회의실에서 이종접합 첨단 패키징 경쟁력 강화를 위한 업무협약(MOU)을 체결했다.이번 협약은 GIST가 보유한 첨단 소재·공정·소자·회로 기반의 인공지능(AI) 반도체 연구 역량과 네패스의 반도체 첨단 패키징 기술 및 산업 노하우를 결합해 향후 온디바이스 AI 반도체 시대에 필수적인 이종접합 첨단 패키징 생태계를 구축하고 지역 반도체 산업 경쟁력을 강화하기 위해 마련했다.양 기관은 이번 협약을 바탕으로 GIST 첨"
+          }
+        ],
+        "top_indirect_evidence": [
+          {
+            "source_type": "company_ir",
+            "source": "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=775",
+            "matched_keywords": [
+              "양산"
+            ],
+            "has_numeric_signal": false,
+            "has_url_signal": true,
+            "evidence_level": "간접 근거",
+            "level_reason": "1차 출처이나 수치·기간·단위가 부족해 간접 근거로 분류",
+            "hit_score": 90.0,
+            "snippet": "네패스가 차세대 패키징 기술로 불리는 '팬아웃-패널레벨패키징(FO-PLP)' 양산을 개시했다. 양산 제품은 전력관리반도체(PMIC)로, FO-PLP를 적용한 ..."
+          },
+          {
+            "source_type": "company_ir",
+            "source": "https://w4.kirs.or.kr/download/research/241219_%EC%9D%BC%EB%B0%98%EC%A0%84%EA%B8%B0%EC%A0%84%EC%9E%90_%EB%84%A4%ED%8C%A8%EC%8A%A4(033640)_%EA%B3%A0%EB%B6%80%EA%B0%80%EA%B0%80%EC%B9%98%20%EA%B8%B0%EC%88%A0%EB%A1%9C%20%EB%AF%B8%EB%9E%98%EB%A5%BC%20%EC%A4%80%EB%B9%84%ED%95%98%EB%8A%94%20%EB%B0%98%EB%8F%84%EC%B2%B4%20%ED%8C%A8%ED%82%A4%EC%A7%95%20%EA%B8%B0%EC%97%85_NICE%EB%94%94%EC%95%A4%EB%B9%84.pdf",
+            "matched_keywords": [
+              "양산"
+            ],
+            "has_numeric_signal": false,
+            "has_url_signal": true,
+            "evidence_level": "간접 근거",
+            "level_reason": "1차 출처이나 수치·기간·단위가 부족해 간접 근거로 분류",
+            "hit_score": 90.0,
+            "snippet": "동사는 WLP 및 FOWLP, FOPLP 등을 생산하는 반도체 부문 사업을 주력으로 영위하고 있으며, WLP 기술. 개발 및 양산, PLP, 초박형 SiP(FOSiP) 양산 기술 ..."
+          },
+          {
+            "source_type": "company_ir",
+            "source": "data\\반도체\\네패스\\tech\\tech.json",
+            "matched_keywords": [
+              "양산"
+            ],
+            "has_numeric_signal": false,
+            "has_url_signal": false,
+            "evidence_level": "간접 근거",
+            "level_reason": "1차 출처이나 수치·기간·단위가 부족해 간접 근거로 분류",
+            "hit_score": 88.0,
+            "snippet": "[보도]네패스, 차세대 패키징 'FO-PLP' 양산 개시...PMIC '세계 최초'"
+          }
+        ],
+        "top_limited_evidence": [],
+        "top_evidence": [
+          {
+            "source_type": "dart",
+            "source": "data\\반도체\\네패스\\tech\\tech.json",
+            "matched_keywords": [
+              "공정"
+            ],
+            "has_numeric_signal": false,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "즉, 반도체사업은 당사가 사업화에 성공한 플립칩 Bumping 기술을 확보하여 스마트폰, 서버, 고성능컴퓨터, 웨어러블 디바이스, 자동차 등 다양한 스마트 어프리케이션등의 Chip-set을 위한 WLP(Wafer Level Package), FOWLP/PLP로 국내외에서 확고한 입지를 구축하고 있으며, 전자재료 사업은 고순도재료생산 기술을 바탕으로 반도체, LCD등 미세회로 Pattern을 구성하기 위하여 사용되는 공정재료인 현상액(Developer), Etch"
+          },
+          {
+            "source_type": "company_ir",
+            "source": "data\\반도체\\네패스\\tech\\tech.json",
+            "matched_keywords": [
+              "공정"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "한편, 네패스는 1990년 설립 이후 반도체 후공정 첨단 패키징과 전자재료 분야에서 전문성을 강화해 왔으며, 2022년에는 이병구 회장이 금탑산업훈장을 수훈한 데 이어 이번 대통령 표창으로 우수한 경영성과와 기술력을 다시 한 번 인정받았다."
+          },
+          {
+            "source_type": "company_ir",
+            "source": "data\\반도체\\네패스\\tech\\tech.json",
+            "matched_keywords": [
+              "공정"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "네패스는 광주과학기술원과 1일 GIST 행정동 대회의실에서 이종접합 첨단 패키징 경쟁력 강화를 위한 업무협약(MOU)을 체결했다.이번 협약은 GIST가 보유한 첨단 소재·공정·소자·회로 기반의 인공지능(AI) 반도체 연구 역량과 네패스의 반도체 첨단 패키징 기술 및 산업 노하우를 결합해 향후 온디바이스 AI 반도체 시대에 필수적인 이종접합 첨단 패키징 생태계를 구축하고 지역 반도체 산업 경쟁력을 강화하기 위해 마련했다.양 기관은 이번 협약을 바탕으로 GIST 첨"
+          }
+        ]
+      },
+      "revenue_conversion": {
+        "dimension": "revenue_conversion",
+        "dimension_label": "매출 전환",
+        "score": 88.0,
+        "status": "DIRECT_CONFIRMED",
+        "status_kr": "직접 근거",
+        "evidence_hit_count": 25,
+        "direct_evidence_count": 9,
+        "indirect_evidence_count": 16,
+        "limited_evidence_count": 0,
+        "top_direct_evidence": [
+          {
+            "source_type": "company_ir",
+            "source": "data\\반도체\\네패스\\tech\\tech.json",
+            "matched_keywords": [
+              "매출",
+              "매출액",
+              "실적"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "[데일리인베스트=권보경 기자] 반도체 후공정 패키징업체 네패스는 지난해 3분기에 매출액이 26% 증가하고 영업이익은 흑자 전환하는 등 실적이 개선됐다."
+          },
+          {
+            "source_type": "dart",
+            "source": "data\\반도체\\네패스\\tech\\tech.json",
+            "matched_keywords": [
+              "매출"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "4.사업 추진현황(조직 및 인력구성 현황, 연구개발활동 내역, 제품 및 서비스 개발 진척도 및 상용화 여부, 매출 발생여부 등) - 교육사업 입찰 제한 개선을 위한 신규업종 추가로 기존 교육사업과 동일한 사업으로 별도의 사업 추진현황은 없습니다."
+          },
+          {
+            "source_type": "company_ir",
+            "source": "https://www.nepes.co.kr/kr/ir/overview.php?idx=1094&bgu=view",
+            "matched_keywords": [
+              "매출",
+              "매출액"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": true,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "네패스, AI서버향 전력 반도체 수요로 턴어라운드 기대 - Overview - IR 24년 매출액 기준 반도체 71%, 전자재료 17%, 이차전지 11%로 구성. - 반도체 부문은 고부가가치 패키징으로 분류되는 WLP(웨이퍼레벨 패키징)가 ... 네패스, AI서버향 전력 반도체 수요로 턴어라운드 기대 - 대신증권 - Overview - IR - NEPES | Global top-tier partner 현재 웹브라우저에서는 사이트가 정상적으로 표시되지 않을 수 있"
+          }
+        ],
+        "top_indirect_evidence": [
+          {
+            "source_type": "company_ir",
+            "source": "https://w4.kirs.or.kr/download/research/260424_%EB%84%A4%ED%8C%A8%EC%8A%A4%EC%95%84%ED%81%AC.pdf",
+            "matched_keywords": [
+              "매출"
+            ],
+            "has_numeric_signal": false,
+            "has_url_signal": true,
+            "evidence_level": "간접 근거",
+            "level_reason": "1차 출처이나 수치·기간·단위가 부족해 간접 근거로 분류",
+            "hit_score": 90.0,
+            "snippet": "하나마이크론은 메모리 패키징 매출 비중이 높아 메모리 업사이클 수혜를 받으며 높은 Valuation을. 받고 있다. 웨이퍼 테스트 업체 중 컨센서스가 존재 ..."
+          },
+          {
+            "source_type": "company_ir",
+            "source": "data\\반도체\\네패스\\tech\\tech.json",
+            "matched_keywords": [
+              "매출",
+              "실적"
+            ],
+            "has_numeric_signal": false,
+            "has_url_signal": false,
+            "evidence_level": "간접 근거",
+            "level_reason": "1차 출처이나 수치·기간·단위가 부족해 간접 근거로 분류",
+            "hit_score": 88.0,
+            "snippet": "그러면서 “대규모 적자를 보이던 PLP 사업은 중단한 만큼 관련 리스크가 크게 감소한 상황에서 최근 전자재료의 HBM향 매출 확대, 패키징 부문에서 MPS를 통한 AI향 공급 증가가 이루어지고 있는 점이 반영되고 있다”며 “HBM 및 AI 비중 증가, 패키징 및 테스트 부문의 실질적인 실적 개선 정도에 따라 향후 밸류에이션 확대를 기대한다”고 내다봤다."
+          },
+          {
+            "source_type": "company_homepage",
+            "source": "http://www.nepes.co.kr",
+            "matched_keywords": [
+              "매출"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": true,
+            "evidence_level": "간접 근거",
+            "level_reason": "뉴스·홈페이지·KIPRIS 등은 연결 항목의 보조 근거로만 반영",
+            "hit_score": 49.0,
+            "snippet": "dart_latest_business_report.txt 주식회사 네패스 사 업 보 고 서 (제 36 기) 2025년 01월 01일 2025년 12월 31일 한국거래소 귀중 2026년 03월 18일 제출대상법인 유형 : 면제사유발생 : 이 병 구, 이 창 우 본 점 소 재 지 : 충청북도 음성군 삼성면 금일로 965 번길 105 (전 화) 043 - 240 - 0500 (홈페이지) http://www.nepes.co.kr 작 성 책 임 자 : (전 화) 02 -"
+          }
+        ],
+        "top_limited_evidence": [],
+        "top_evidence": [
+          {
+            "source_type": "company_ir",
+            "source": "data\\반도체\\네패스\\tech\\tech.json",
+            "matched_keywords": [
+              "매출",
+              "매출액",
+              "실적"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "[데일리인베스트=권보경 기자] 반도체 후공정 패키징업체 네패스는 지난해 3분기에 매출액이 26% 증가하고 영업이익은 흑자 전환하는 등 실적이 개선됐다."
+          },
+          {
+            "source_type": "dart",
+            "source": "data\\반도체\\네패스\\tech\\tech.json",
+            "matched_keywords": [
+              "매출"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "4.사업 추진현황(조직 및 인력구성 현황, 연구개발활동 내역, 제품 및 서비스 개발 진척도 및 상용화 여부, 매출 발생여부 등) - 교육사업 입찰 제한 개선을 위한 신규업종 추가로 기존 교육사업과 동일한 사업으로 별도의 사업 추진현황은 없습니다."
+          },
+          {
+            "source_type": "company_ir",
+            "source": "https://www.nepes.co.kr/kr/ir/overview.php?idx=1094&bgu=view",
+            "matched_keywords": [
+              "매출",
+              "매출액"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": true,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "네패스, AI서버향 전력 반도체 수요로 턴어라운드 기대 - Overview - IR 24년 매출액 기준 반도체 71%, 전자재료 17%, 이차전지 11%로 구성. - 반도체 부문은 고부가가치 패키징으로 분류되는 WLP(웨이퍼레벨 패키징)가 ... 네패스, AI서버향 전력 반도체 수요로 턴어라운드 기대 - 대신증권 - Overview - IR - NEPES | Global top-tier partner 현재 웹브라우저에서는 사이트가 정상적으로 표시되지 않을 수 있"
+          }
+        ]
+      },
+      "fcf_cashflow": {
+        "dimension": "fcf_cashflow",
+        "dimension_label": "FCF/현금흐름",
+        "score": 46.5,
+        "status": "INDIRECT_ONLY",
+        "status_kr": "간접 근거",
+        "evidence_hit_count": 2,
+        "direct_evidence_count": 0,
+        "indirect_evidence_count": 2,
+        "limited_evidence_count": 0,
+        "top_direct_evidence": [],
+        "top_indirect_evidence": [
+          {
+            "source_type": "news",
+            "source": "https://www.etnews.com/20210729000082",
+            "matched_keywords": [
+              "capex"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": true,
+            "evidence_level": "간접 근거",
+            "level_reason": "뉴스·홈페이지·KIPRIS 등은 연결 항목의 보조 근거로만 반영",
+            "hit_score": 49.0,
+            "snippet": "[상장기업 분석] 첨단 반도체 패키징 기술 무장 '네패스' - 전자신문 네패스가 주력으로 하는 시스템 반도체는 메모리보다 다품종 소량 생산 방식이며 기술 난도가 높아 후공정 생태계 분업화가 필요하다. 네패스는 WLP, ... Conference allshowTV 통합마케팅 상품 안내 [상장기업 분석] 첨단 반도체 패키징 기술 무장 '네패스' 발행일 : 2021-07-29 17:00 2021-07-30 테스트부터 패키징까지 반도체 후공정 턴키 제공 첨단 기술로 칩"
+          },
+          {
+            "source_type": "kipris",
+            "source": "Tech Agent internal scoring with actual-source evidence and KIPRIS patent overlay",
+            "matched_keywords": [
+              "fcf"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "간접 근거",
+            "level_reason": "뉴스·홈페이지·KIPRIS 등은 연결 항목의 보조 근거로만 반영",
+            "hit_score": 42.0,
+            "snippet": "Tech-to-Value Bridge Score: 77.0 / 100; 판정: COMMERCIALIZATION_WATCH; 원칙: 기술 우위는 고객사 채택, 양산, 매출 전환, FCF 개선 근거와 연결될 때만 가치평가 가산 요인으로 반영한다."
+          }
+        ],
+        "top_limited_evidence": [],
+        "top_evidence": [
+          {
+            "source_type": "news",
+            "source": "https://www.etnews.com/20210729000082",
+            "matched_keywords": [
+              "capex"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": true,
+            "evidence_level": "간접 근거",
+            "level_reason": "뉴스·홈페이지·KIPRIS 등은 연결 항목의 보조 근거로만 반영",
+            "hit_score": 49.0,
+            "snippet": "[상장기업 분석] 첨단 반도체 패키징 기술 무장 '네패스' - 전자신문 네패스가 주력으로 하는 시스템 반도체는 메모리보다 다품종 소량 생산 방식이며 기술 난도가 높아 후공정 생태계 분업화가 필요하다. 네패스는 WLP, ... Conference allshowTV 통합마케팅 상품 안내 [상장기업 분석] 첨단 반도체 패키징 기술 무장 '네패스' 발행일 : 2021-07-29 17:00 2021-07-30 테스트부터 패키징까지 반도체 후공정 턴키 제공 첨단 기술로 칩"
+          },
+          {
+            "source_type": "kipris",
+            "source": "Tech Agent internal scoring with actual-source evidence and KIPRIS patent overlay",
+            "matched_keywords": [
+              "fcf"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "간접 근거",
+            "level_reason": "뉴스·홈페이지·KIPRIS 등은 연결 항목의 보조 근거로만 반영",
+            "hit_score": 42.0,
+            "snippet": "Tech-to-Value Bridge Score: 77.0 / 100; 판정: COMMERCIALIZATION_WATCH; 원칙: 기술 우위는 고객사 채택, 양산, 매출 전환, FCF 개선 근거와 연결될 때만 가치평가 가산 요인으로 반영한다."
+          }
+        ]
+      }
+    },
+    "scoring_policy": {
+      "direct_sources": [
+        "annual_report",
+        "business_report",
+        "company_disclosure",
+        "company_ir",
+        "dart",
+        "disclosure",
+        "finance_csv",
+        "financial_csv",
+        "ir",
+        "official_filing",
+        "opendart",
+        "quarterly_report",
+        "semiannual_report",
+        "stock_csv"
+      ],
+      "secondary_sources_penalized": [
+        "agent_output",
+        "agent_output_unverified",
+        "analysis_report",
+        "chair_report",
+        "company_ir_report_generated",
+        "generated_report",
+        "llm_summary",
+        "report_output_self_check",
+        "self_generated",
+        "tech_agent_report",
+        "tech_report"
+      ],
+      "direct_evidence_cap_rule": "직접 근거가 확인된 연결 항목 수가 0/1/2개이면 전체 Evidence Confidence를 각각 38/52/64점으로 cap합니다.",
+      "strong_evidence_rule": "DART/IR/공시/재무 CSV의 직접 수치·기간·단위가 있는 경우만 강한 근거로 인정합니다."
+    },
+    "interpretation": "Tech-to-Value Evidence Confidence는 기술성 자체가 아니라 고객 채택, 양산, 매출 전환, FCF/현금흐름 개선 근거가 얼마나 직접 확인되는지를 평가합니다. agent_output, company_ir_report_generated, tech_agent_report 같은 2차 산출물은 감점하며, DART/IR/공시/재무 CSV 직접 수치만 강한 근거로 인정합니다."
+  },
+  "source_files_checked": {
+    "tech_ip_ml": true,
+    "tech_differentiation": true,
+    "evidence_text_units": 230
+  },
+  "chair_policy": "Patent Momentum은 기술 활동의 현재성·지속성을 보조하고, Evidence Confidence는 기술 점수를 최종 가치판단에 얼마나 반영할지 조절하는 보수 게이트로 사용한다."
+}
