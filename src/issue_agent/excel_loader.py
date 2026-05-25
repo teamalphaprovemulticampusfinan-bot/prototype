@@ -53,15 +53,51 @@ def load_issue_frames():
     return df_keywords, df_news
 
 
+def _detect_date_col(df: "pd.DataFrame", preferred: str = "date") -> str | None:
+    candidates = [
+        preferred,
+        "published_date",
+        "publishedAt",
+        "pub_date",
+        "date",
+        "Date",
+        "날짜",
+        "일자",
+        "기준일",
+        "작성일",
+        "게시일",
+        "발행일",
+        "news_date",
+    ]
+    for col in candidates:
+        if col and col in df.columns:
+            return col
+    lowered = {str(c).strip().lower(): c for c in df.columns}
+    for col in candidates:
+        hit = lowered.get(str(col).strip().lower())
+        if hit is not None:
+            return hit
+    return None
+
+
 def load_issue_data():
-    return load_issue_frames()
+    df_keywords, df_news = load_issue_frames()
+    df_keywords = filter_by_cutoff(df_keywords, "", date_col="date")
+    df_news = filter_by_cutoff(df_news, "", date_col="published_date")
+    return df_keywords, df_news
+
+
 def filter_by_cutoff(df: "pd.DataFrame", as_of_date: str, date_col: str = "date") -> "pd.DataFrame":
     import os
     import pandas as pd
     cutoff_str = as_of_date or os.getenv("ISSUE_AS_OF_DATE", "")
     if not cutoff_str:
         return df
-    cutoff = pd.to_datetime(cutoff_str)
-    if date_col not in df.columns:
+    cutoff = pd.to_datetime(cutoff_str, errors="coerce")
+    if pd.isna(cutoff):
         return df
-    return df[pd.to_datetime(df[date_col], errors="coerce") <= cutoff].copy()
+    detected = date_col if date_col in df.columns else _detect_date_col(df, preferred=date_col)
+    if detected is None:
+        return df
+    parsed = pd.to_datetime(df[detected], errors="coerce")
+    return df.loc[parsed.notna() & (parsed <= cutoff)].copy()

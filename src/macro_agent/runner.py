@@ -1,6 +1,7 @@
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import datetime, timedelta
+import os
 from pathlib import Path
 from typing import Any
 
@@ -15,6 +16,54 @@ from .loader import load_macro_data, resolve_macro_input_dir
 from .preprocessor import preprocess_macro_data
 from .reporter import save_csv_report, save_json_report, save_markdown_report
 from .scorer import calculate_macro_score
+
+
+def _parse_macro_date(value: str | None) -> datetime | None:
+    text = str(value or "").strip()
+    if not text:
+        return None
+    text = text.replace(".", "-").replace("/", "-")
+    if "T" in text:
+        text = text.split("T", 1)[0]
+    if " " in text:
+        text = text.split(" ", 1)[0]
+    for fmt in ("%Y%m%d", "%Y-%m-%d", "%Y-%m", "%Y"):
+        try:
+            parsed = datetime.strptime(text, fmt)
+            if fmt == "%Y-%m":
+                # Use first day of next month as exclusive cutoff for a YYYY-MM as-of value.
+                if parsed.month == 12:
+                    return datetime(parsed.year + 1, 1, 1)
+                return datetime(parsed.year, parsed.month + 1, 1)
+            if fmt == "%Y":
+                return datetime(parsed.year + 1, 1, 1)
+            return parsed
+        except Exception:
+            continue
+    return None
+
+
+def _resolve_macro_cutoff(cutoff: str | None) -> str | None:
+    """Resolve macro loader's exclusive cutoff date as YYYYMMDD.
+
+    macro_agent.loader keeps rows where date < cutoff.  Therefore an as-of
+    date of 2025-01-31 is converted to 20250201 so that 2025-01-31 remains
+    available and 2025-02-01 onward is removed.
+    """
+    for key in ("MACRO_CUTOFF_DATE", "MACRO_CUTOFF_EXCLUSIVE_DATE"):
+        parsed = _parse_macro_date(os.getenv(key))
+        if parsed:
+            return parsed.strftime("%Y%m%d")
+
+    for key in ("MACRO_AS_OF_DATE", "MACRO_END_DATE", "ALPHAPROVE_DATA_CUTOFF_DATE"):
+        parsed = _parse_macro_date(os.getenv(key))
+        if parsed:
+            return (parsed + timedelta(days=1)).strftime("%Y%m%d")
+
+    if cutoff:
+        parsed = _parse_macro_date(cutoff)
+        return parsed.strftime("%Y%m%d") if parsed else cutoff
+    return None
 
 
 def _signal_to_opinion(signal: str) -> str:
@@ -118,6 +167,7 @@ def run(date: str = "latest", cutoff: str | None = "20250601", company_dir: str 
     slug = company_dir_from_name(company_dir or company or "macro")
     input_dir = macro_common_dir(create=True)
     run_date = datetime.now().strftime("%Y%m%d") if date == "latest" else date
+    effective_cutoff = _resolve_macro_cutoff(cutoff)
 
     if company_dir or company:
         output_dir = company_agent_dir(slug, "macro", create=True)
@@ -128,16 +178,18 @@ def run(date: str = "latest", cutoff: str | None = "20250601", company_dir: str 
     print(f"📁 입력 데이터 위치: {input_dir}")
     print(f"📁 결과 저장 위치: {output_dir}")
     print(f"📅 분석 기준일: {run_date}")
+    if effective_cutoff:
+        print(f"📅 Macro cutoff(exclusive): {effective_cutoff}")
 
     print("\n[1/6] 데이터 로드 중...")
     try:
-        raw_data = load_macro_data(input_dir=input_dir, date=date, cutoff=cutoff)
+        raw_data = load_macro_data(input_dir=input_dir, date=date, cutoff=effective_cutoff)
     except ValueError as exc:
         if "CSV 파일이 없습니다" not in str(exc) and "raw CSV" not in str(exc):
             raise
         print(f"⚠️ Macro raw CSV 로드 실패: {exc}")
         _run_macro_intake_once_if_missing(input_dir)
-        raw_data = load_macro_data(input_dir=input_dir, date=date, cutoff=cutoff)
+        raw_data = load_macro_data(input_dir=input_dir, date=date, cutoff=effective_cutoff)
 
     print("[2/6] 데이터 전처리 중...")
     clean_data = preprocess_macro_data(raw_data)
