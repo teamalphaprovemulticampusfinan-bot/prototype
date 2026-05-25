@@ -2,12 +2,12 @@
   "agent": "tech_intake",
   "artifact": "tech_intake_value_evidence_bridge",
   "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-  "created_at": "2026-05-20T21:31:22",
+  "created_at": "2026-05-25T20:44:29",
   "field": "반도체",
   "company": "어보브반도체",
   "company_dir": "abov",
   "company_slug": "abov",
-  "source_document_count": 132,
+  "source_document_count": 153,
   "source_documents": [
     {
       "source_group": "KIPRIS",
@@ -401,6 +401,18 @@
     },
     {
       "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/어보브반도체/tech/tech_history_features_2025-08-31.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/어보브반도체/tech/tech_history_features_2025-08-31.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/어보브반도체/tech/tech_intake_manifest.json",
       "detected_url_count": 0,
       "fallback_url_count": 2
@@ -654,6 +666,120 @@
     {
       "source_group": "VALUATION",
       "source_file": "data/반도체/어보브반도체/valuation/abov_valuation_workbook.xlsx",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/어보브반도체/valuation/intake/company_profile.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/어보브반도체/valuation/intake/cross_agent_signals_for_valuation.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/어보브반도체/valuation/intake/dcf_inputs.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/어보브반도체/valuation/intake/dilution_events.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/어보브반도체/valuation/intake/eval_price_history.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/어보브반도체/valuation/intake/eval_price_history_monthly.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/어보브반도체/valuation/intake/eval_price_history_monthly_v43.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/어보브반도체/valuation/intake/eval_price_history_monthly_v44.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/어보브반도체/valuation/intake/eval_price_history_monthly_v45.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/어보브반도체/valuation/intake/eval_price_history_v43.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/어보브반도체/valuation/intake/eval_price_history_v44.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/어보브반도체/valuation/intake/eval_price_history_v45.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/어보브반도체/valuation/intake/financials_normalized.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/어보브반도체/valuation/intake/financials_raw.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/어보브반도체/valuation/intake/peer_multiples.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/어보브반도체/valuation/intake/price_history.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/어보브반도체/valuation/intake/relative_valuation_inputs.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/어보브반도체/valuation/intake/shares_outstanding.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/어보브반도체/valuation/intake/valuation_assumptions.csv",
       "detected_url_count": 0,
       "fallback_url_count": 5
     },
@@ -923,12 +1049,13 @@
         "https://plus.kipris.or.kr/",
         "https://www.google.com/search?q=%EC%96%B4%EB%B3%B4%EB%B8%8C%EB%B0%98%EB%8F%84%EC%B2%B4+KIPRIS+%ED%8A%B9%ED%97%88",
         "https://www.google.com/search?q=%EC%96%B4%EB%B3%B4%EB%B8%8C%EB%B0%98%EB%8F%84%EC%B2%B4+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
-        "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
-        "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
         "https://www.google.com/search?q=%EC%96%B4%EB%B3%B4%EB%B8%8C%EB%B0%98%EB%8F%84%EC%B2%B4+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
         "https://www.google.com/search?q=%EC%96%B4%EB%B3%B4%EB%B8%8C%EB%B0%98%EB%8F%84%EC%B2%B4+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
         "https://www.google.com/search?q=%EC%96%B4%EB%B3%B4%EB%B8%8C%EB%B0%98%EB%8F%84%EC%B2%B4+IR",
         "https://www.google.com/search?q=%EC%96%B4%EB%B3%B4%EB%B8%8C%EB%B0%98%EB%8F%84%EC%B2%B4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+        "https://www.google.com/search?q=%EC%96%B4%EB%B3%B4%EB%B8%8C%EB%B0%98%EB%8F%84%EC%B2%B4+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
+        "https://www.google.com/search?q=%EC%96%B4%EB%B3%B4%EB%B8%8C%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
+        "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
         "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1126"
       ],
       "fallback_urls": [
@@ -952,12 +1079,12 @@
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9300749feecee35418b50d55e461736b5c290f8d69b9456253864b06771ece3e6c6b18a9b67b7590c35337623f4b4f98312b1f76455c3c6d32",
         "https://www.google.com/search?q=%EC%96%B4%EB%B3%B4%EB%B8%8C%EB%B0%98%EB%8F%84%EC%B2%B4+KIPRIS+%ED%8A%B9%ED%97%88",
         "https://www.google.com/search?q=%EC%96%B4%EB%B3%B4%EB%B8%8C%EB%B0%98%EB%8F%84%EC%B2%B4+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
-        "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
-        "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
         "https://www.google.com/search?q=%EC%96%B4%EB%B3%B4%EB%B8%8C%EB%B0%98%EB%8F%84%EC%B2%B4+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
         "https://www.google.com/search?q=%EC%96%B4%EB%B3%B4%EB%B8%8C%EB%B0%98%EB%8F%84%EC%B2%B4+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
         "https://www.google.com/search?q=%EC%96%B4%EB%B3%B4%EB%B8%8C%EB%B0%98%EB%8F%84%EC%B2%B4+IR",
         "https://www.google.com/search?q=%EC%96%B4%EB%B3%B4%EB%B8%8C%EB%B0%98%EB%8F%84%EC%B2%B4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+        "https://www.google.com/search?q=%EC%96%B4%EB%B3%B4%EB%B8%8C%EB%B0%98%EB%8F%84%EC%B2%B4+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
+        "https://www.google.com/search?q=%EC%96%B4%EB%B3%B4%EB%B8%8C%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
         "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
         "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9328f5a912c888a1604ff579e87f821b091a0665246f3173a6cae241fd42c7005fb584f7181202ddb2669153aa54387f5f558cf6b7b6d352be",
@@ -1339,10 +1466,27 @@
           "source_file": "data/반도체/어보브반도체/finance/어보브반도체_finance.json",
           "evidence_level": "DIRECT_EVIDENCE",
           "matched_keywords": [
+            "매출"
+          ],
+          "snippet": "summary: 어보브반도체는 2023년과 2024년에 걸쳐 매출이 감소하고 영업이익 및 순이익이 적자를 기록하며 수익성이 크게 악화되었습니다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=%EC%96%B4%EB%B3%B4%EB%B8%8C%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/어보브반도체/finance/어보브반도체_finance.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
             "매출",
             "성장"
           ],
-          "snippet": "summary: 어보브반도체는 2023년과 2024년 연속으로 영업이익 및 순이익 적자를 기록했으나, 2025년에는 흑자전환에 성공하며 매출도 소폭 성장세를 보였다.",
+          "snippet": "key_thesis: 2022년 44.8%의 높은 매출 성장률을 기록했으나, 2023년 -4.2%, 2024년 -0.1%로 매출 감소세로 전환되었습니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1378,7 +1522,7 @@
             "매출",
             "성장"
           ],
-          "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수",
+          "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1395,7 +1539,24 @@
           "matched_keywords": [
             "sales"
           ],
-          "snippet": "sales: 244123643799.0",
+          "snippet": "sales: 232116611005.0",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=%EC%96%B4%EB%B3%B4%EB%B8%8C%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/어보브반도체/finance/어보브반도체_finance_agent_packet.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "sales"
+          ],
+          "snippet": "sales_growth: -0.1375766024628077",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1412,7 +1573,7 @@
           "matched_keywords": [
             "sales"
           ],
-          "snippet": "year: 2023 | sales: 232436389092.0 | operating_income: -14643077325.0 | net_income: -33443728959.0 | total_assets: 288316792095.0 | total_liabilities: 147690807918.0 | total_equity: 140625984177.0 | capex: 14699011050 | ocf: 32413346108 | fcf: 17714335058 | interest: 11423635091.0 | ROE: -23.782040818932714 | 영업이익률: -6.299821375733111 | 부채비율: 105.02383950046372 | 이자보상배율: -1.2818229231198401",
+          "snippet": "year: 2021 | sales: 167498755290.0 | operating_income: 17622418239.0 | net_income: 13707442319.0 | total_assets: 134011924288.0 | total_liabilities: 22183164030.0 | total_equity: 111828760258.0 | current_assets: 58830567677.0 | current_liabilities: 20457920197.0 | ocf: 13559523477 | fcf: 13559523477 | interest_expense: 160972655.0 | roe: 12.257528642341716 | operating_margin: 10.520924891942819 | current_ratio_%: 287",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1429,41 +1590,7 @@
           "matched_keywords": [
             "sales"
           ],
-          "snippet": "year: 2024 | sales: 232116611005.0 | operating_income: -5100374191.0 | net_income: -18094850997.0 | total_assets: 293039972870.0 | total_liabilities: 138459064716.0 | total_equity: 154580908154.0 | capex: 18625887994 | ocf: 26999461471 | fcf: 8373573477 | interest: 12296554645.0 | ROE: -11.705747632801554 | 영업이익률: -2.197332697955914 | 부채비율: 89.5706115130733 | 이자보상배율: -0.4147807526780604",
-          "urls": [],
-          "fallback_urls": [
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "https://comp.fnguide.com/",
-            "https://www.google.com/search?q=%EC%96%B4%EB%B3%B4%EB%B8%8C%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-          ]
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/어보브반도체/finance/어보브반도체_재무.csv",
-          "evidence_level": "DIRECT_EVIDENCE",
-          "matched_keywords": [
-            "sales"
-          ],
-          "snippet": "year: 2025 | sales: 244123643799.0 | operating_income: 10148185090.0 | net_income: 1959422969.0 | total_assets: 286055183481.0 | total_liabilities: 131612644063.0 | total_equity: 154442539418.0 | capex: 15251339798 | ocf: 14728643363 | fcf: -522696435 | interest: 9472056334.0 | ROE: 1.2687067801292786 | 영업이익률: 4.1569857520050535 | 부채비율: 85.21787103408685 | 이자보상배율: 1.071381412035424",
-          "urls": [],
-          "fallback_urls": [
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "https://comp.fnguide.com/",
-            "https://www.google.com/search?q=%EC%96%B4%EB%B3%B4%EB%B8%8C%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-          ]
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/어보브반도체/finance/어보브반도체_재무데이터.csv",
-          "evidence_level": "DIRECT_EVIDENCE",
-          "matched_keywords": [
-            "sales"
-          ],
-          "snippet": "year: 2021 | sales: 167498755290.0 | operating_income: 17622418239.0 | net_income: 13707442319.0 | total_assets: 134011924288.0 | total_liabilities: 22183164030.0 | total_equity: 111828760258.0 | ocf: 13559523477 | fcf: 13559523477 | interest: 160972655.0 | ROE: 12.257528642341716 | 영업이익률: 10.520924891942819 | 부채비율: 19.836725345806613 | 이자보상배율: 109.47460759096009",
+          "snippet": "year: 2022 | sales: 242576796583.0 | operating_income: 25825288073.0 | net_income: 12654577621.0 | total_assets: 331531563148.0 | total_liabilities: 158462978855.0 | total_equity: 173068584293.0 | current_assets: 127473142993.0 | current_liabilities: 127749153276.0 | capex: 26214011432.0 | ocf: -2411168884 | fcf: -28625180316 | interest_expense: 6496262153.0 | roe: 7.311886020617221 | operating_margin: 10.64623180649",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1492,10 +1619,26 @@
           "source_file": "data/반도체/어보브반도체/finance/어보브반도체_finance.json",
           "evidence_level": "DIRECT_EVIDENCE",
           "matched_keywords": [
-            "현금흐름",
-            "FCF"
+            "수익성"
           ],
-          "snippet": "그러나 2025년 자유현금흐름(FCF)은 마이너스로 전환되었으며, 부채비율은 85% 수준으로 여전히 높은 편이다.",
+          "snippet": "summary: 어보브반도체는 2023년과 2024년에 걸쳐 매출이 감소하고 영업이익 및 순이익이 적자를 기록하며 수익성이 크게 악화되었습니다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=%EC%96%B4%EB%B3%B4%EB%B8%8C%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/어보브반도체/finance/어보브반도체_finance.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "수익성"
+          ],
+          "snippet": "재무적으로는 부채비율이 높은 편이며, ROE 또한 음수 값을 기록하고 있어 재무 건전성 및 수익성 회복 여부에 대한 면밀한 관찰이 요구됩니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1513,7 +1656,41 @@
             "영업이익률",
             "수익성"
           ],
-          "snippet": "key_thesis: 2025년 영업이익률이 4.16%로 흑자전환에 성공하며 수익성 개선의 신호탄을 보였다.",
+          "snippet": "key_thesis: 2021년 10.5%였던 영업이익률이 2023년 -6.3%, 2024년 -2.2%로 크게 하락하며 수익성 악화가 두드러집니다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=%EC%96%B4%EB%B3%B4%EB%B8%8C%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/어보브반도체/finance/어보브반도체_finance.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "수익성"
+          ],
+          "snippet": "key_thesis: ROE는 2021년 12.3%에서 2023년 -23.8%, 2024년 -11.7%로 전환되어 자본 대비 수익성이 부정적인 상황입니다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=%EC%96%B4%EB%B3%B4%EB%B8%8C%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/어보브반도체/finance/어보브반도체_finance.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "수익성"
+          ],
+          "snippet": "key_risks: 2023년과 2024년 연속으로 영업이익이 큰 폭의 적자를 기록하며 본업의 수익성 회복이 시급한 과제입니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1531,7 +1708,7 @@
             "현금흐름",
             "FCF"
           ],
-          "snippet": "key_thesis: 2023년 177억, 2024년 83억의 양호한 잉여현금흐름(FCF)을 기록했으나 2025년에는 -5.2억으로 감소했다.",
+          "snippet": "key_risks: 2022년 -286억 원이었던 잉여현금흐름(FCF)이 2023년 177억 원으로 개선되었으나, 2024년에는 84억 원으로 다시 감소하여 현금 창출 능력의 불확실성이 존재합니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1549,7 +1726,7 @@
             "영업이익률",
             "수익성"
           ],
-          "snippet": "key_risks: 2023년 -6.30%, 2024년 -2.20%의 영업이익률을 기록하며 수익성 확보에 어려움을 겪었다.",
+          "snippet": "key_risks: 영업이익률 -2.20%로 수익성 부담을 확인해야 합니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1561,64 +1738,13 @@
         },
         {
           "source_group": "FINANCE",
-          "source_file": "data/반도체/어보브반도체/finance/어보브반도체_finance.json",
+          "source_file": "data/반도체/어보브반도체/finance/어보브반도체_finance_agent_packet.json",
           "evidence_level": "DIRECT_EVIDENCE",
           "matched_keywords": [
+            "영업이익률",
             "수익성"
           ],
-          "snippet": "key_risks: 2023년 -23.78%, 2024년 -11.71%의 ROE를 기록하며 자본 대비 수익성이 매우 낮은 수준이다.",
-          "urls": [],
-          "fallback_urls": [
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "https://comp.fnguide.com/",
-            "https://www.google.com/search?q=%EC%96%B4%EB%B3%B4%EB%B8%8C%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-          ]
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/어보브반도체/finance/어보브반도체_finance.json",
-          "evidence_level": "DIRECT_EVIDENCE",
-          "matched_keywords": [
-            "현금흐름",
-            "FCF"
-          ],
-          "snippet": "key_risks: 2025년 자유현금흐름(FCF)이 -5.2억으로 마이너스 전환되어 현금 창출 능력에 대한 점검이 필요하다.",
-          "urls": [],
-          "fallback_urls": [
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "https://comp.fnguide.com/",
-            "https://www.google.com/search?q=%EC%96%B4%EB%B3%B4%EB%B8%8C%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-          ]
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/어보브반도체/finance/어보브반도체_finance_agent_packet.json",
-          "evidence_level": "DIRECT_EVIDENCE",
-          "matched_keywords": [
-            "FCF"
-          ],
-          "snippet": "report_core_points: FCF: 어보브반도체 2025 기준 FCF 값은 -522,696,435원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
-          "urls": [],
-          "fallback_urls": [
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "https://comp.fnguide.com/",
-            "https://www.google.com/search?q=%EC%96%B4%EB%B3%B4%EB%B8%8C%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-          ]
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/어보브반도체/finance/어보브반도체_finance_agent_packet.json",
-          "evidence_level": "DIRECT_EVIDENCE",
-          "matched_keywords": [
-            "영업이익률"
-          ],
-          "snippet": "missing_prompt_metrics: 영업이익률",
+          "snippet": "report_core_points: 영업이익률: 어보브반도체 2024 기준 영업이익률 값은 -2.20%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",

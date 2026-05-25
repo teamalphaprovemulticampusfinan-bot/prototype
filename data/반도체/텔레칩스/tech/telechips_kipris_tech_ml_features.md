@@ -3,7 +3,7 @@
 ## 1. Source
 - source_csv: `data\반도체\텔레칩스\tech\telechips_kipris_patents_normalized.csv`
 - enriched_csv: `data\반도체\텔레칩스\tech\telechips_kipris_tech_ml_enriched.csv`
-- generated_at: 2026-05-20T21:31:33
+- generated_at: 2026-05-25T20:48:15
 
 ## 2. Core Counts
 - total_patents: 30

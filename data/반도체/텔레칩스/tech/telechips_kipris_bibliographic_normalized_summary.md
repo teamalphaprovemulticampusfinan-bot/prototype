@@ -9,12 +9,12 @@
 - recent_5y_patents: 13
 
 ## Source Files
-- data\반도체\텔레칩스\tech\source\telechips_kipris_plus_bibliographic_raw.csv
+- C:\Agent_6.9\data\반도체\텔레칩스\tech\source\telechips_kipris_plus_bibliographic_raw.csv
 
 ## Output Files
-- bibliographic_csv: `data\반도체\텔레칩스\tech\telechips_kipris_bibliographic_normalized.csv`
-- patents_csv: `data\반도체\텔레칩스\tech\telechips_kipris_patents_normalized.csv`
-- tech_patent_csv: `data\반도체\텔레칩스\tech\telechips_tech_patent_normalized.csv`
-- request_targets_csv: `data\반도체\텔레칩스\tech\telechips_kipris_plus_request_targets.csv`
-- summary_json: `data\반도체\텔레칩스\tech\telechips_kipris_bibliographic_normalized_summary.json`
-- summary_md: `data\반도체\텔레칩스\tech\telechips_kipris_bibliographic_normalized_summary.md`
+- bibliographic_csv: `C:\Agent_6.9\data\반도체\텔레칩스\tech\telechips_kipris_bibliographic_normalized.csv`
+- patents_csv: `C:\Agent_6.9\data\반도체\텔레칩스\tech\telechips_kipris_patents_normalized.csv`
+- tech_patent_csv: `C:\Agent_6.9\data\반도체\텔레칩스\tech\telechips_tech_patent_normalized.csv`
+- request_targets_csv: `C:\Agent_6.9\data\반도체\텔레칩스\tech\telechips_kipris_plus_request_targets.csv`
+- summary_json: `C:\Agent_6.9\data\반도체\텔레칩스\tech\telechips_kipris_bibliographic_normalized_summary.json`
+- summary_md: `C:\Agent_6.9\data\반도체\텔레칩스\tech\telechips_kipris_bibliographic_normalized_summary.md`

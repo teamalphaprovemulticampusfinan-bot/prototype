@@ -2,26 +2,21 @@
   "status": "PASS",
   "issues": [
     {
-      "severity": "INFO",
-      "code": "NO_MAJOR_WARNINGS",
-      "message": "주요 validation warning 없음"
+      "severity": "LOW",
+      "code": "NO_SHARE_COUNT",
+      "message": "발행주식 수를 확인하지 못해 내재주가/시가총액 기반 지표 일부가 제한될 수 있습니다."
     }
   ],
   "audit_trail": [
     {
       "step": "normalized_financials",
       "status": "OK",
-      "rows": 5
+      "rows": 4
     },
     {
       "step": "price_history",
       "status": "OK",
-      "rows": 1223
-    },
-    {
-      "step": "share_count",
-      "status": "OK",
-      "shares_outstanding": 18430000.0
+      "rows": 1080
     },
     {
       "step": "reference_universe",
@@ -30,18 +25,18 @@
     },
     {
       "step": "market_cap",
-      "status": "OK",
-      "market_cap": 982319000000.0
+      "status": "INFO_NOT_AVAILABLE",
+      "market_cap": null
     },
     {
       "step": "liquidity_proxy",
       "status": "OK",
-      "avg_trading_value_20d": 25987367140.0
+      "avg_trading_value_20d": 3458657487.0
     },
     {
-      "step": "workbook_created",
+      "step": "workbook_available",
       "status": "OK",
-      "path": "C:\\Agent_6.8\\data\\반도체\\GST\\valuation\\gst_valuation_workbook.xlsx"
+      "path": "C:\\Agent_6.9\\data\\반도체\\GST\\valuation\\gst_valuation_workbook.xlsx"
     }
   ],
   "principle": "valuation_agent 자체 데이터/모델 일관성 검증; 기존 web-auditor 의존 없음"

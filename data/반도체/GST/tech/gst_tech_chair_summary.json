@@ -1,7 +1,7 @@
 {
   "agent": "tech",
   "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-  "created_at": "2026-05-20T22:05:25",
+  "created_at": "2026-05-25T22:03:56",
   "field": "반도체",
   "company": "GST",
   "company_name": "GST",
@@ -33,13 +33,13 @@
     "ip_evidence_composite_bridge_signal": "IP_EVIDENCE_WEAK",
     "ip_evidence_composite_adjustment_points": -1.0,
     "ip_evidence_composite_data_coverage_rate": 1.0,
-    "ip_evidence_composite_source_file": "data/반도체/GST/tech/tech_ip_evidence_composite.json",
+    "ip_evidence_composite_source_file": "C:/Agent_6.9/data/반도체/GST/tech/tech_ip_evidence_composite.json",
     "peer_adjusted_bridge_score_before_ip_evidence": 37.0,
     "final_bridge_score_after_ip_evidence": 36.0,
     "ip_evidence_adjusted_score": 36.0,
     "ip_evidence_formula": "final_bridge_score_after_ip_evidence = peer_adjusted_bridge_score_before_ip_evidence + ip_evidence_composite_adjustment_points",
     "ip_evidence_adjusted_grade": "TECH_EVIDENCE_WEAK",
-    "investor_final_tech_score": 40.48,
+    "investor_final_tech_score": 49.48,
     "investor_final_tech_grade": {
       "code": "EVIDENCE_WEAK_OR_EARLY",
       "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
@@ -107,14 +107,14 @@
     }
   ],
   "ip_quant_signals": {
-    "normalized_patent_text_records": 1027,
-    "company_matched_patents": 597,
+    "normalized_patent_text_records": 2587,
+    "company_matched_patents": 2157,
     "registered_patents": 11,
-    "alive_patents": 31,
-    "recent_5y_patents": 2,
+    "alive_patents": 1591,
+    "recent_5y_patents": 1560,
     "ipc_cpc_classes": null,
     "core_ipc_h01l_patents": null,
-    "keyword_matches": 44
+    "keyword_matches": 9404
   },
   "selected_ml": {
     "peer_ml": {
@@ -124,9 +124,9 @@
       "cluster_name": null
     },
     "tech_ip_strength": {
-      "score": 13.84,
+      "score": 50.83,
       "percentile": 50.0,
-      "patent_momentum_score": 0.25,
+      "patent_momentum_score": 79.24,
       "dominant_topic": null
     },
     "technology_differentiation": {
@@ -477,14 +477,14 @@
     "ip_evidence_bridge_signal": "IP_EVIDENCE_WEAK",
     "ip_evidence_bridge_adjustment_points": -1.0,
     "final_bridge_score_after_ip_evidence": 36.0,
-    "investor_final_tech_score": 40.48,
+    "investor_final_tech_score": 49.48,
     "investor_final_tech_grade": {
       "code": "EVIDENCE_WEAK_OR_EARLY",
       "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
       "threshold": 0.0
     },
     "investor_evidence_count": 6,
-    "excel_quantified_evidence_score": 45.0,
+    "excel_quantified_evidence_score": 90.0,
     "commercialization_and_funding_signal_score": 41.5
   },
   "ip_legal_features": {
@@ -938,7 +938,7 @@
     "company_name": "GST",
     "field": "반도체",
     "status": "OK",
-    "created_at": "2026-05-20T22:05:00",
+    "created_at": "2026-05-25T22:01:13",
     "weights": {
       "legal_stability": 0.25,
       "claim_defense": 0.3,
@@ -1032,13 +1032,13 @@
     "tech_investor_scorecard_md": "data/반도체/GST/tech/gst_tech_investor_scorecard.md"
   },
   "ip_evidence_bridge_adjustment_status": "APPLIED",
-  "ip_evidence_bridge_adjustment_applied_at": "2026-05-20T22:05:25",
+  "ip_evidence_bridge_adjustment_applied_at": "2026-05-25T22:03:57",
   "tech_investor_view": {
     "version": "tech-investor-scorecard-v2",
-    "generated_at": "2026-05-20T22:05:26",
+    "generated_at": "2026-05-25T22:03:58",
     "company_slug": "gst",
     "company_name": "GST",
-    "final_tech_investor_score": 40.48,
+    "final_tech_investor_score": 49.48,
     "final_tech_investor_grade": {
       "code": "EVIDENCE_WEAK_OR_EARLY",
       "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
@@ -1202,33 +1202,33 @@
       },
       "excel_quantified_evidence": {
         "label": "Excel 기반 정량 근거",
-        "score": 45.0,
+        "score": 90.0,
         "weight": 0.15,
         "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지",
         "meta": {
-          "score": 45.0,
-          "company_item_count": 8,
-          "filled_count": 0,
+          "score": 90.0,
+          "company_item_count": 22,
+          "filled_count": 22,
           "metric_row_count": 0,
-          "numeric_signal_count": 0,
-          "category_count": 7,
+          "numeric_signal_count": 121,
+          "category_count": 8,
           "unique_metric_count": 0,
           "formula_rule_count": 0,
-          "coverage_ratio": 0.0,
-          "numeric_density": 0.0
+          "coverage_ratio": 1.0,
+          "numeric_density": 5.5
         }
       },
       "evidence_confidence": {
         "label": "근거 직접성·충분성",
-        "score": 43.0,
+        "score": 58.0,
         "weight": 0.15,
         "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성",
         "meta": {
-          "score": 43.0,
+          "score": 58.0,
           "evidence_count": 3,
           "claim_count": 3,
           "patent_count": 30,
-          "excel_coverage_ratio": 0.0
+          "excel_coverage_ratio": 1.0
         }
       },
       "commercialization_and_funding_signal": {
@@ -1276,17 +1276,17 @@
       {
         "component": "excel_quantified_evidence",
         "label": "Excel 기반 정량 근거",
-        "score": 45.0,
+        "score": 90.0,
         "weight": 0.15,
-        "weighted_score": 6.75,
+        "weighted_score": 13.5,
         "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지"
       },
       {
         "component": "evidence_confidence",
         "label": "근거 직접성·충분성",
-        "score": 43.0,
+        "score": 58.0,
         "weight": 0.15,
-        "weighted_score": 6.45,
+        "weighted_score": 8.7,
         "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성"
       },
       {
@@ -1299,8 +1299,8 @@
       }
     ],
     "key_takeaways": [
-      "GST의 개인투자자용 Tech 최종 점수는 40.48/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
-      "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(36.0)와 IP Evidence(43.67) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+      "GST의 개인투자자용 Tech 최종 점수는 49.48/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
+      "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(36.0)와 IP Evidence(43.67) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
       "투자자가 확인할 핵심 근거는 6개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
     ],
     "investor_evidence": [
@@ -1387,20 +1387,20 @@
     }
   },
   "key_takeaways": [
-    "GST의 개인투자자용 Tech 최종 점수는 40.48/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
-    "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(36.0)와 IP Evidence(43.67) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+    "GST의 개인투자자용 Tech 최종 점수는 49.48/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
+    "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(36.0)와 IP Evidence(43.67) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
     "투자자가 확인할 핵심 근거는 6개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
   ],
   "value_evidence_bridge": {
     "agent": "tech_intake",
     "artifact": "tech_intake_value_evidence_bridge",
     "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-    "created_at": "2026-05-20T22:05:32",
+    "created_at": "2026-05-25T22:04:07",
     "field": "반도체",
     "company": "GST",
     "company_dir": "gst",
     "company_slug": "gst",
-    "source_document_count": 132,
+    "source_document_count": 148,
     "source_documents": [
       {
         "source_group": "KIPRIS",
@@ -1573,7 +1573,7 @@
       {
         "source_group": "TECH_OUTPUT",
         "source_file": "data/반도체/GST/tech/gst_tech_intake_value_evidence.json",
-        "detected_url_count": 20,
+        "detected_url_count": 17,
         "fallback_url_count": 0
       },
       {
@@ -1794,6 +1794,18 @@
       },
       {
         "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/GST/tech/tech_history_features_2025-08-31.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/GST/tech/tech_history_features_2025-08-31.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
         "source_file": "data/반도체/GST/tech/tech_intake_manifest.json",
         "detected_url_count": 0,
         "fallback_url_count": 2
@@ -1807,7 +1819,7 @@
       {
         "source_group": "TECH_OUTPUT",
         "source_file": "data/반도체/GST/tech/tech_intake_value_evidence.json",
-        "detected_url_count": 20,
+        "detected_url_count": 17,
         "fallback_url_count": 0
       },
       {
@@ -2052,6 +2064,114 @@
       },
       {
         "source_group": "VALUATION",
+        "source_file": "data/반도체/GST/valuation/intake/company_profile.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/GST/valuation/intake/cross_agent_signals_for_valuation.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/GST/valuation/intake/dcf_inputs.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/GST/valuation/intake/dilution_events.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/GST/valuation/intake/eval_price_history.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/GST/valuation/intake/eval_price_history_monthly.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/GST/valuation/intake/eval_price_history_monthly_v43.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/GST/valuation/intake/eval_price_history_monthly_v44.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/GST/valuation/intake/eval_price_history_monthly_v45.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/GST/valuation/intake/eval_price_history_v43.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/GST/valuation/intake/eval_price_history_v44.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/GST/valuation/intake/eval_price_history_v45.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/GST/valuation/intake/financials_normalized.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/GST/valuation/intake/peer_multiples.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/GST/valuation/intake/price_history.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/GST/valuation/intake/relative_valuation_inputs.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/GST/valuation/intake/shares_outstanding.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/GST/valuation/intake/valuation_assumptions.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
         "source_file": "data/반도체/GST/valuation/intake/valuation_assumptions.json",
         "detected_url_count": 0,
         "fallback_url_count": 5
@@ -2112,12 +2232,6 @@
       },
       {
         "source_group": "VALUATION",
-        "source_file": "data/반도체/GST/valuation/intake/valuation_raw_dart_accounts.csv",
-        "detected_url_count": 0,
-        "fallback_url_count": 5
-      },
-      {
-        "source_group": "VALUATION",
         "source_file": "data/반도체/GST/valuation/intake/valuation_reference_universe_208.csv",
         "detected_url_count": 0,
         "fallback_url_count": 5
@@ -2131,12 +2245,6 @@
       {
         "source_group": "VALUATION",
         "source_file": "data/반도체/GST/valuation/intake/valuation_reference_universe_summary.json",
-        "detected_url_count": 0,
-        "fallback_url_count": 5
-      },
-      {
-        "source_group": "VALUATION",
-        "source_file": "data/반도체/GST/valuation/intake/valuation_share_count.csv",
         "detected_url_count": 0,
         "fallback_url_count": 5
       },
@@ -2166,19 +2274,7 @@
       },
       {
         "source_group": "FINANCE",
-        "source_file": "data/반도체/GST/finance/GST_stock.csv",
-        "detected_url_count": 0,
-        "fallback_url_count": 5
-      },
-      {
-        "source_group": "FINANCE",
         "source_file": "data/반도체/GST/finance/GST_재무.csv",
-        "detected_url_count": 0,
-        "fallback_url_count": 5
-      },
-      {
-        "source_group": "FINANCE",
-        "source_file": "data/반도체/GST/finance/GST_재무데이터.csv",
         "detected_url_count": 0,
         "fallback_url_count": 5
       },
@@ -2191,8 +2287,8 @@
       {
         "source_group": "FINANCE",
         "source_file": "data/반도체/GST/finance/intake/finance_intake_manifest.json",
-        "detected_url_count": 1,
-        "fallback_url_count": 0
+        "detected_url_count": 0,
+        "fallback_url_count": 5
       }
     ],
     "source_url_map": {
@@ -2303,10 +2399,7 @@
           "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9391ad838d05d243aad649ac5f43cee3be3b584d9166db6c1bfb580904da17904ba85adeacfc3d4c503aaa5321d8ff7b63acc43dc99f5650ed",
           "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00d96dc34767c396196405cee0907f5142f1f47a850777e53dc46066c897d145f0cac51e8febe741b759d0ddc40662171d28d73c595d131c13",
           "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726823f89c492cb9613c1e9a1852a875802d0ff968468ee4c6264689ef37ed24d252af3e6cc32a944936739412835c60d67b197ac2d0d218f1c",
-          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00340e12be12b70ba6eda7aed3ef166a44bb85adedd7a18976dcf530d57d707e41ff1e5f0a4c96d7672cc9b01dc39ee71ba155aa6ca6bf6a53",
-          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00b0d99aad8a962e11476248e026d42c3ef683894f6c31f58fe19e401b2972f2e1e96254b7a3f903c71f89d87815df2f0df35309c1ed380370",
-          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e008f2f8727028de39784787813f66d165e729a351dcf12c6a7ade4b4776cc54bfb08c611555285fa4351e86cc829f27e947067678b66826fbe",
-          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93cbb83bf3c06e650a91bbf658a379c93a34191363ac7fa4aedaffb7caa197ca51657576a6f48b29979dc18e373a30c8e8fa7628a4f31e664f",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00340e12be12b70ba6eda7aed3ef166a44bb",
           "http://www.w3.org/2001/XMLSchema-instance",
           "http://www.nepes.co.kr",
           "https://dart.fss.or.kr/",
@@ -2315,12 +2408,13 @@
           "https://plus.kipris.or.kr/",
           "https://www.google.com/search?q=GST+KIPRIS+%ED%8A%B9%ED%97%88",
           "https://www.google.com/search?q=GST+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
-          "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
-          "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
           "https://www.google.com/search?q=GST+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
           "https://www.google.com/search?q=GST+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
           "https://www.google.com/search?q=GST+IR",
           "https://www.google.com/search?q=GST+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+          "https://www.google.com/search?q=GST+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
+          "https://www.google.com/search?q=GST+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
+          "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
           "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1126"
         ],
         "fallback_urls": [
@@ -2344,12 +2438,12 @@
           "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9ccf2ab65a39879348bbf9946e7c8264b8f243eeeae3da4d74c91cddd2cd6bc21a",
           "https://www.google.com/search?q=GST+KIPRIS+%ED%8A%B9%ED%97%88",
           "https://www.google.com/search?q=GST+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
-          "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
-          "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
           "https://www.google.com/search?q=GST+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
           "https://www.google.com/search?q=GST+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
           "https://www.google.com/search?q=GST+IR",
           "https://www.google.com/search?q=GST+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+          "https://www.google.com/search?q=GST+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
+          "https://www.google.com/search?q=GST+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
           "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
           "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
           "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9328f5a912c888a1604ff579e87f821b091a0665246f3173a6cae241fd42c7005fb584f7181202ddb2669153aa54387f5f558cf6b7b6d352be",
@@ -2385,9 +2479,7 @@
         ]
       },
       "FINANCE": {
-        "detected_urls": [
-          "https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception"
-        ],
+        "detected_urls": [],
         "fallback_urls": [
           "https://dart.fss.or.kr/",
           "https://opendart.fss.or.kr/",
@@ -2734,7 +2826,7 @@
               "매출",
               "성장"
             ],
-            "snippet": "summary: GST는 2023년 이후 매출이 꾸준히 성장하며 2025년에는 3,471억 원을 기록할 것으로 예상됩니다.",
+            "snippet": "summary: GST는 2024년 매출이 전년 대비 24% 성장하며 긍정적인 회복세를 보였으나, 영업이익률은 17.1%로 2022년 18.2% 대비 소폭 하락했습니다.",
             "urls": [],
             "fallback_urls": [
               "https://dart.fss.or.kr/",
@@ -2752,7 +2844,7 @@
               "매출",
               "성장"
             ],
-            "snippet": "key_thesis: 2023년 2,792억 원에서 2025년 3,471억 원으로 매출이 꾸준히 성장하는 추세를 보이고 있습니다.",
+            "snippet": "key_thesis: 2024년 매출이 3462억 원으로 전년 대비 24.0% 성장하며 역성장에서 벗어나는 모습을 보였습니다.",
             "urls": [],
             "fallback_urls": [
               "https://dart.fss.or.kr/",
@@ -2788,7 +2880,7 @@
               "매출",
               "성장"
             ],
-            "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수",
+            "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률",
             "urls": [],
             "fallback_urls": [
               "https://dart.fss.or.kr/",
@@ -2805,7 +2897,24 @@
             "matched_keywords": [
               "sales"
             ],
-            "snippet": "sales: 347158632861.0",
+            "snippet": "sales: 346227651802.0",
+            "urls": [],
+            "fallback_urls": [
+              "https://dart.fss.or.kr/",
+              "https://opendart.fss.or.kr/",
+              "https://finance.naver.com/",
+              "https://comp.fnguide.com/",
+              "https://www.google.com/search?q=GST+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+            ]
+          },
+          {
+            "source_group": "FINANCE",
+            "source_file": "data/반도체/GST/finance/GST_finance_agent_packet.json",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "sales"
+            ],
+            "snippet": "sales_growth: 24.000201079170115",
             "urls": [],
             "fallback_urls": [
               "https://dart.fss.or.kr/",
@@ -2822,7 +2931,7 @@
             "matched_keywords": [
               "sales"
             ],
-            "snippet": "year: 2023 | sales: 279215395450.0 | operating_income: 42538138186.0 | net_income: 36937263561.0 | total_assets: 279780462641.0 | total_liabilities: 46679663926.0 | total_equity: 233100798715.0 | capex: 21003798827 | ocf: 47445747808 | fcf: 26441948981 | interest: 92047528.0 | ROE: 15.846047617434907 | 영업이익률: 15.234882774799372 | 부채비율: 20.025527232565494 | 이자보상배율: 462.1323256611519",
+            "snippet": "year: 2021 | sales: 304487495915.0 | operating_income: 46406987615.0 | net_income: 38970170642.0 | total_assets: 206243424515.0 | total_liabilities: 54879817695.0 | total_equity: 151363606820.0 | current_assets: 142215175118.0 | current_liabilities: 50358905379.0 | capex: 12507498658 | ocf: 25550968576 | fcf: 13043469918 | interest_expense: 124132051.0 | roe: 25.74606370760107 | operating_margin: 15.241015883277804 |",
             "urls": [],
             "fallback_urls": [
               "https://dart.fss.or.kr/",
@@ -2839,24 +2948,7 @@
             "matched_keywords": [
               "sales"
             ],
-            "snippet": "year: 2024 | sales: 346227651802.0 | operating_income: 59081495358.0 | net_income: 45862225124.0 | total_assets: 334828453070.0 | total_liabilities: 66534901575.0 | total_equity: 268293551495.0 | capex: 19602771278 | ocf: 54407810220 | fcf: 34805038942 | interest: 298631179.0 | ROE: 17.094046751568946 | 영업이익률: 17.064349150190758 | 부채비율: 24.799292120235684 | 이자보상배율: 197.8410143101635",
-            "urls": [],
-            "fallback_urls": [
-              "https://dart.fss.or.kr/",
-              "https://opendart.fss.or.kr/",
-              "https://finance.naver.com/",
-              "https://comp.fnguide.com/",
-              "https://www.google.com/search?q=GST+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-            ]
-          },
-          {
-            "source_group": "FINANCE",
-            "source_file": "data/반도체/GST/finance/GST_재무.csv",
-            "evidence_level": "DIRECT_EVIDENCE",
-            "matched_keywords": [
-              "sales"
-            ],
-            "snippet": "year: 2025 | sales: 347158632861.0 | operating_income: 59172305188.0 | net_income: 45584238109.0 | total_assets: 386310986387.0 | total_liabilities: 81655482807.0 | total_equity: 304655503580.0 | capex: 12906679791 | ocf: 41591693861 | fcf: 28685014070 | interest: 8471240258.0 | ROE: 14.96255198850526 | 영업이익률: 17.044745423828246 | 부채비율: 26.802562844743733 | 이자보상배율: 6.98508168648851",
+            "snippet": "year: 2022 | sales: 312847806399.0 | operating_income: 56941198199.0 | net_income: 47601992003.0 | total_assets: 251831461020.0 | total_liabilities: 50483188213.0 | total_equity: 201348272807.0 | current_assets: 178862203312.0 | current_liabilities: 43245956020.0 | capex: 6964306082 | ocf: 31483896813 | fcf: 24519590731 | interest_expense: 211244747.0 | roe: 23.641619239827463 | operating_margin: 18.200926148217356 |",
             "urls": [],
             "fallback_urls": [
               "https://dart.fss.or.kr/",
@@ -2885,10 +2977,9 @@
             "source_file": "data/반도체/GST/finance/GST_finance.json",
             "evidence_level": "DIRECT_EVIDENCE",
             "matched_keywords": [
-              "영업이익률",
-              "수익성"
+              "영업이익률"
             ],
-            "snippet": "영업이익률은 15% 이상을 유지하며 견조한 수익성을 보여주고 있으며, ROE 또한 15% 내외로 양호한 수준을 유지하고 있습니다.",
+            "snippet": "summary: GST는 2024년 매출이 전년 대비 24% 성장하며 긍정적인 회복세를 보였으나, 영업이익률은 17.1%로 2022년 18.2% 대비 소폭 하락했습니다.",
             "urls": [],
             "fallback_urls": [
               "https://dart.fss.or.kr/",
@@ -2903,10 +2994,9 @@
             "source_file": "data/반도체/GST/finance/GST_finance.json",
             "evidence_level": "DIRECT_EVIDENCE",
             "matched_keywords": [
-              "영업이익률",
-              "수익성"
+              "영업이익률"
             ],
-            "snippet": "key_thesis: 영업이익률이 2023년 15.2%에서 2025년 17.0%로 상승하며 수익성이 개선되고 있습니다.",
+            "snippet": "key_thesis: 2024년 영업이익률은 17.1%로 2023년 15.2% 대비 개선되었으며, 2022년 18.2% 수준에 근접했습니다.",
             "urls": [],
             "fallback_urls": [
               "https://dart.fss.or.kr/",
@@ -2924,7 +3014,60 @@
               "현금흐름",
               "FCF"
             ],
-            "snippet": "key_thesis: 잉여현금흐름(FCF)은 2023년 264억 원에서 2025년 286억 원으로 증가하며 현금 창출 능력을 보여주고 있습니다.",
+            "snippet": "key_thesis: 2024년 잉여현금흐름(FCF)은 348억 원으로 전년 대비 크게 증가하며 현금 창출 능력이 강화되었습니다.",
+            "urls": [],
+            "fallback_urls": [
+              "https://dart.fss.or.kr/",
+              "https://opendart.fss.or.kr/",
+              "https://finance.naver.com/",
+              "https://comp.fnguide.com/",
+              "https://www.google.com/search?q=GST+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+            ]
+          },
+          {
+            "source_group": "FINANCE",
+            "source_file": "data/반도체/GST/finance/GST_finance.json",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "영업이익률",
+              "수익성"
+            ],
+            "snippet": "key_risks: 2024년 영업이익률이 17.1%로 2022년 18.2% 대비 하락하여 수익성 개선 추세에 대한 추가 확인이 필요합니다.",
+            "urls": [],
+            "fallback_urls": [
+              "https://dart.fss.or.kr/",
+              "https://opendart.fss.or.kr/",
+              "https://finance.naver.com/",
+              "https://comp.fnguide.com/",
+              "https://www.google.com/search?q=GST+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+            ]
+          },
+          {
+            "source_group": "FINANCE",
+            "source_file": "data/반도체/GST/finance/GST_finance_agent_packet.json",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "영업이익률",
+              "수익성"
+            ],
+            "snippet": "report_core_points: 영업이익률: GST 2024 기준 영업이익률 값은 17.06%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다.",
+            "urls": [],
+            "fallback_urls": [
+              "https://dart.fss.or.kr/",
+              "https://opendart.fss.or.kr/",
+              "https://finance.naver.com/",
+              "https://comp.fnguide.com/",
+              "https://www.google.com/search?q=GST+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+            ]
+          },
+          {
+            "source_group": "FINANCE",
+            "source_file": "data/반도체/GST/finance/GST_finance_agent_packet.json",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "수익성"
+            ],
+            "snippet": "report_core_points: ROE: GST 2024 기준 ROE 값은 17.09%이며, 자기자본 대비 수익성 수준을 확인하는 지표입니다.",
             "urls": [],
             "fallback_urls": [
               "https://dart.fss.or.kr/",
@@ -2941,7 +3084,7 @@
             "matched_keywords": [
               "FCF"
             ],
-            "snippet": "report_core_points: FCF: GST 2025 기준 FCF 값은 28,685,014,070원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+            "snippet": "report_core_points: FCF: GST 2024 기준 FCF 값은 34,805,038,942원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
             "urls": [],
             "fallback_urls": [
               "https://dart.fss.or.kr/",
@@ -2958,58 +3101,7 @@
             "matched_keywords": [
               "영업이익률"
             ],
-            "snippet": "missing_prompt_metrics: 영업이익률",
-            "urls": [],
-            "fallback_urls": [
-              "https://dart.fss.or.kr/",
-              "https://opendart.fss.or.kr/",
-              "https://finance.naver.com/",
-              "https://comp.fnguide.com/",
-              "https://www.google.com/search?q=GST+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-            ]
-          },
-          {
-            "source_group": "FINANCE",
-            "source_file": "data/반도체/GST/finance/GST_finance_agent_packet.json",
-            "evidence_level": "DIRECT_EVIDENCE",
-            "matched_keywords": [
-              "FCF"
-            ],
-            "snippet": "metric: fcf",
-            "urls": [],
-            "fallback_urls": [
-              "https://dart.fss.or.kr/",
-              "https://opendart.fss.or.kr/",
-              "https://finance.naver.com/",
-              "https://comp.fnguide.com/",
-              "https://www.google.com/search?q=GST+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-            ]
-          },
-          {
-            "source_group": "FINANCE",
-            "source_file": "data/반도체/GST/finance/GST_finance_agent_packet.json",
-            "evidence_level": "DIRECT_EVIDENCE",
-            "matched_keywords": [
-              "FCF"
-            ],
-            "snippet": "label: FCF",
-            "urls": [],
-            "fallback_urls": [
-              "https://dart.fss.or.kr/",
-              "https://opendart.fss.or.kr/",
-              "https://finance.naver.com/",
-              "https://comp.fnguide.com/",
-              "https://www.google.com/search?q=GST+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-            ]
-          },
-          {
-            "source_group": "FINANCE",
-            "source_file": "data/반도체/GST/finance/GST_finance_agent_packet.json",
-            "evidence_level": "DIRECT_EVIDENCE",
-            "matched_keywords": [
-              "FCF"
-            ],
-            "snippet": "snippet: GST 2025 기준 FCF 값은 28,685,014,070원입니다.",
+            "snippet": "label: 영업이익률",
             "urls": [],
             "fallback_urls": [
               "https://dart.fss.or.kr/",

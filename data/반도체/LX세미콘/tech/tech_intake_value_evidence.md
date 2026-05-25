@@ -1,10 +1,10 @@
 # LX세미콘 Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-20T21:27:19
+- 생성 시각: 2026-05-25T20:32:30
 - 종합 점수: 81.42/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 132개
+- 원천 문서 수: 151개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -32,18 +32,18 @@
 - [DIRECT_EVIDENCE] - 기술 우위가 확인되어도 고객 채택·양산·매출 전환·FCF 직접 근거가 약하면 보수적으로 반영합니다. (source=data/반도체/LX세미콘/tech/_nepes_reference_schema/nepes_tech_chair_summary.md, keywords=양산, urls=http://www.w3.org/2001/XMLSchema-instance, http://www.nepes.co.kr)
 
 ### 매출 전환
-- [DIRECT_EVIDENCE] summary: LX세미콘은 2024년 매출이 소폭 감소했으나 영업이익률은 개선되었고, 2025년에는 매출과 영업이익 모두 감소할 것으로 전망된다. (source=data/반도체/LX세미콘/finance/LX세미콘_finance.json, keywords=매출, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_risks: 2025년 매출액이 1조 6,390억 원으로 2024년 대비 12.15% 감소할 것으로 전망되어 성장성에 대한 우려가 있다. (source=data/반도체/LX세미콘/finance/LX세미콘_finance.json, keywords=매출, 매출액, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: LX세미콘은 2023년 매출이 전년 대비 감소했으나, 2024년에는 소폭 반등하며 역성장에서 벗어나는 모습을 보였습니다. (source=data/반도체/LX세미콘/finance/LX세미콘_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 매출성장률이 -1.88%로 소폭 반등하며 이전의 역성장에서 벗어나는 흐름을 보였습니다. (source=data/반도체/LX세미콘/finance/LX세미콘_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] missing_prompt_metrics: 매출성장률 (source=data/반도체/LX세미콘/finance/LX세미콘_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수 (source=data/반도체/LX세미콘/finance/LX세미콘_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] sales: 1639070665791.0 (source=data/반도체/LX세미콘/finance/LX세미콘_finance_agent_packet.json, keywords=sales, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률 (source=data/반도체/LX세미콘/finance/LX세미콘_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] sales: 1865621538499.0 (source=data/반도체/LX세미콘/finance/LX세미콘_finance_agent_packet.json, keywords=sales, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### 마진·원가·현금흐름 연결
-- [DIRECT_EVIDENCE] summary: LX세미콘은 2024년 매출이 소폭 감소했으나 영업이익률은 개선되었고, 2025년에는 매출과 영업이익 모두 감소할 것으로 전망된다. (source=data/반도체/LX세미콘/finance/LX세미콘_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년 영업이익률이 8.96%로 전년 대비 2.17%p 상승하며 수익성이 개선되는 모습을 보였다. (source=data/반도체/LX세미콘/finance/LX세미콘_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_risks: 2025년 영업이익률이 6.64%로 2024년 대비 2.31%p 하락할 것으로 예상되어 수익성 둔화 가능성이 있다. (source=data/반도체/LX세미콘/finance/LX세미콘_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] report_core_points: FCF: LX세미콘 2025 기준 FCF 값은 107,939,328,796원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다. (source=data/반도체/LX세미콘/finance/LX세미콘_finance_agent_packet.json, keywords=FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] missing_prompt_metrics: 영업이익률 (source=data/반도체/LX세미콘/finance/LX세미콘_finance_agent_packet.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] 다만, 영업이익률과 ROE는 하락세를 지속하며 수익성 악화가 우려됩니다. (source=data/반도체/LX세미콘/finance/LX세미콘_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2021년 385조 원에 달했던 잉여현금흐름(FCF)이 2023년 497억 원으로 감소했으나, 2024년에는 1,268억 원으로 회복세를 보였습니다. (source=data/반도체/LX세미콘/finance/LX세미콘_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2021년 37.04%였던 ROE가 2023년 10.36%, 2024년 12.09%로 하락하며 수익성 개선 여부가 중요합니다. (source=data/반도체/LX세미콘/finance/LX세미콘_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2021년 19.47%였던 영업이익률이 2023년 6.79%, 2024년 8.96%로 하락하며 수익성 지표의 하향 추세가 관찰됩니다. (source=data/반도체/LX세미콘/finance/LX세미콘_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2023년 6.79%, 2024년 8.96%로 하락한 영업이익률은 수익성 악화의 주요 리스크 요인입니다. (source=data/반도체/LX세미콘/finance/LX세미콘_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### IP 품질
 - [DIRECT_EVIDENCE] legal_status: status=COLLECTED, count=None, score=0.4222, signal=None (source=data/반도체/LX세미콘/tech/lxsemicon_tech_ip_legal_features.json, keywords=legal_status, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)

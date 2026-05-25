@@ -1,10 +1,10 @@
 # 에스티아이 Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-20T22:08:51
+- 생성 시각: 2026-05-25T21:51:54
 - 종합 점수: 78.13/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 132개
+- 원천 문서 수: 153개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -32,18 +32,18 @@
 - [DIRECT_EVIDENCE] - 기술 우위가 확인되어도 고객 채택·양산·매출 전환·FCF 직접 근거가 약하면 보수적으로 반영합니다. (source=data/반도체/에스티아이/tech/_nepes_reference_schema/nepes_tech_chair_summary.md, keywords=양산, urls=http://www.w3.org/2001/XMLSchema-instance, http://www.nepes.co.kr)
 
 ### 매출 전환
-- [DIRECT_EVIDENCE] summary: 에스티아이는 2023년 견조한 매출과 영업이익을 기록했으나, 2024년에는 매출이 소폭 증가했음에도 불구하고 영업이익률이 하락하며 수익성이 둔화되는 모습을 보였습니다. (source=data/반도체/에스티아이/finance/에스티아이_finance.json, keywords=매출, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] 2025년에는 매출과 영업이익이 모두 감소하며 수익성이 더욱 악화될 것으로 전망됩니다. (source=data/반도체/에스티아이/finance/에스티아이_finance.json, keywords=매출, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2023년 매출액 3,194억원, 영업이익 239억원으로 견조한 실적을 달성했습니다. (source=data/반도체/에스티아이/finance/에스티아이_finance.json, keywords=매출, 매출액, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_risks: 2024년 영업이익률이 8.2%로 소폭 상승했으나, 매출액 대비 이자 비용 증가로 인해 순이익은 감소했습니다. (source=data/반도체/에스티아이/finance/에스티아이_finance.json, keywords=매출, 매출액, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_risks: 2025년 매출액, 영업이익, 순이익이 모두 감소할 것으로 전망되어 수익성 악화가 우려됩니다. (source=data/반도체/에스티아이/finance/에스티아이_finance.json, keywords=매출, 매출액, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: 에스티아이는 2022년 큰 폭의 매출 성장을 기록했으나, 2023년에는 역성장으로 전환되었습니다. (source=data/반도체/에스티아이/finance/에스티아이_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] 2024년에는 다시 매출이 소폭 성장했으나, 영업이익률은 7~8% 수준으로 유지되고 있습니다. (source=data/반도체/에스티아이/finance/에스티아이_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2022년 매출성장률이 32.21%로 크게 증가했으나, 2023년에는 -24.37%로 역성장했습니다. (source=data/반도체/에스티아이/finance/에스티아이_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 매출성장률은 4.56%로 다시 성장세로 전환되었습니다. (source=data/반도체/에스티아이/finance/에스티아이_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2023년 매출이 24.37% 감소하며 수익성 악화 가능성이 나타났습니다. (source=data/반도체/에스티아이/finance/에스티아이_finance.json, keywords=매출, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### 마진·원가·현금흐름 연결
-- [DIRECT_EVIDENCE] summary: 에스티아이는 2023년 견조한 매출과 영업이익을 기록했으나, 2024년에는 매출이 소폭 증가했음에도 불구하고 영업이익률이 하락하며 수익성이 둔화되는 모습을 보였습니다. (source=data/반도체/에스티아이/finance/에스티아이_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] 2025년에는 매출과 영업이익이 모두 감소하며 수익성이 더욱 악화될 것으로 전망됩니다. (source=data/반도체/에스티아이/finance/에스티아이_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2023년 영업이익률은 7.5%로 양호한 수준을 유지했습니다. (source=data/반도체/에스티아이/finance/에스티아이_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2023년 ROE는 10.1%로 자본 대비 수익성이 양호했습니다. (source=data/반도체/에스티아이/finance/에스티아이_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2023년 잉여현금흐름(FCF)은 246억원을 기록하며 현금 창출 능력을 보여주었습니다. (source=data/반도체/에스티아이/finance/에스티아이_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] 2024년에는 다시 매출이 소폭 성장했으나, 영업이익률은 7~8% 수준으로 유지되고 있습니다. (source=data/반도체/에스티아이/finance/에스티아이_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 영업이익률은 2021년 8.00%에서 2024년 8.17%로 큰 변동 없이 유지되고 있습니다. (source=data/반도체/에스티아이/finance/에스티아이_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2023년 매출이 24.37% 감소하며 수익성 악화 가능성이 나타났습니다. (source=data/반도체/에스티아이/finance/에스티아이_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2024년 영업이익률은 8.17%로 개선되었으나, 2021년 대비 큰 폭의 성장은 보이지 않았습니다. (source=data/반도체/에스티아이/finance/에스티아이_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2024년 FCF가 -23,442,305,540원으로 큰 폭의 마이너스를 기록하며 현금 창출 능력에 대한 점검이 필요합니다. (source=data/반도체/에스티아이/finance/에스티아이_finance.json, keywords=FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### IP 품질
 - [DIRECT_EVIDENCE] legal_status: status=COLLECTED, count=None, score=0.4483, signal=None (source=data/반도체/에스티아이/tech/sti_tech_ip_legal_features.json, keywords=legal_status, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)

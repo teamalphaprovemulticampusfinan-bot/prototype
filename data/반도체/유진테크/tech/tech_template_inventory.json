@@ -1,10 +1,10 @@
 {
   "status": "OK",
-  "created_at": "2026-05-20T21:42:23",
+  "created_at": "2026-05-25T21:19:07",
   "company_slug": "eugene_tech",
   "company_name": "유진테크",
-  "source_template_dir": "data\\반도체\\_sector_common\\templates",
-  "reference_dir": "data\\반도체\\유진테크\\tech\\_template_refs",
+  "source_template_dir": "data/반도체/_sector_common/templates",
+  "reference_dir": "data/반도체/유진테크/tech/_template_refs",
   "templates": [
     {
       "filename": "tech_template.xlsx",
@@ -774,7 +774,7 @@
         }
       ],
       "read_status": "OK",
-      "copied_to": "data\\반도체\\유진테크\\tech\\_template_refs\\tech_template.xlsx"
+      "copied_to": "data/반도체/유진테크/tech/_template_refs/tech_template.xlsx"
     },
     {
       "filename": "tech_template_base.xlsx",
@@ -1544,7 +1544,7 @@
         }
       ],
       "read_status": "OK",
-      "copied_to": "data\\반도체\\유진테크\\tech\\_template_refs\\tech_template_base.xlsx"
+      "copied_to": "data/반도체/유진테크/tech/_template_refs/tech_template_base.xlsx"
     }
   ],
   "usage_rule": "Templates are references for Tech Agent output structure. Never overwrite template values blindly; extract only the schema, sheet names, and calculation frame.",

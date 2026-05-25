@@ -3,6 +3,51 @@
   "company": "덕산테코피아",
   "company_dir": "duksan",
   "opinion": "매수",
+  "tech_signal": 0.38707,
+  "history_tech_feature": {
+    "signal": 0.38707,
+    "status": "OK_TECH_HISTORY_ASOF",
+    "source": "C:\\Agent_6.9\\data\\반도체\\덕산테코피아\\tech\\duksan_kipris_patents_normalized.csv;C:\\Agent_6.9\\data\\반도체\\덕산테코피아\\tech\\source\\kipris_duksan_patents.csv;C:\\Agent_6.9\\data\\반도체\\덕산테코피아\\tech\\duksan_tech_patent_normalized.csv;C:\\Agent_6.9\\data\\반도체\\덕산테코피아\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\덕산테코피아\\tech\\duksan_kipris_bibliographic_normalized.csv;C:\\Agent_6.9\\data\\반도체\\덕산테코피아\\tech\\duksan_kipris_claims_normalized.csv;C:\\Agent_6.9\\data\\반도체\\덕산테코피아\\tech\\duksan_kipris_plus_claim_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\덕산테코피아\\tech\\duksan_kipris_plus_family_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\덕산테코피아\\tech\\duksan_kipris_plus_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\덕산테코피아\\tech\\duksan_kipris_tech_ml_enriched.csv;C:\\Agent_6.9\\data\\반도체\\덕산테코피아\\tech\\source\\duksan_kipris_plus_bibliographic_raw.csv;C:\\Agent_6.9\\data\\반도체\\덕산테코피아\\tech\\quanified_metrix.csv",
+    "as_of_date": "2025-08-31",
+    "company": "덕산테코피아",
+    "ticker": "317330",
+    "stock_code": "317330",
+    "base_signal": 0.426556,
+    "evidence_confidence": 0.780572,
+    "commercialization_gate_signal": 0.216446,
+    "technology_risk_penalty": 0.0,
+    "ip_quality_signal": 0.253354,
+    "lifecycle_signal": 0.349567,
+    "technology_differentiation_signal": 0.222376,
+    "commercialization_signal": 0.865784,
+    "rnd_sustainability_signal": 0.429743,
+    "peer_position_signal": 0.228286,
+    "tech_to_value_signal": 0.636785,
+    "certification_signal": 0.0,
+    "qualification_signal": 0.0,
+    "cost_yield_signal": 0.0,
+    "workforce_signal": 0.0,
+    "government_rd_signal": 0.0,
+    "licensing_signal": 0.0,
+    "dispute_risk_signal": 0.0,
+    "failure_delay_signal": 0.0,
+    "intangible_accounting_signal": 0.0,
+    "patent_records_asof": 851,
+    "dated_records_asof": 390,
+    "undated_records_used": 629,
+    "files_used": 82,
+    "notes": "Tech history signal uses dated patent/IP, TRL/readiness, certification, qualification, commercialization, R&D/workforce, risk and accounting evidence before as_of_date; no Buy/Hold/Sell threshold is applied.",
+    "frequency": "monthly",
+    "formula": "final=base_signal*evidence_confidence + 0.25*commercialization_gate_signal - 0.35*technology_risk_penalty",
+    "research_basis": [
+      "Hall-Jaffe-Trajtenberg patent citations/value; Lanjouw-Schankerman patent quality; OECD patent quality composite indicators",
+      "DoD/NASA TRL and TRA maturity framework",
+      "IFC/Bpifrance deep-tech development-stage financing framework",
+      "Text-based industry/technology relatedness literature for peer/differentiation evidence"
+    ],
+    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\덕산테코피아\\tech\\tech_history_features_2025-08-31.json",
+    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\덕산테코피아\\tech\\tech_history_features_2025-08-31.csv"
+  },
   "claims": [
     {
       "claim_id": "tech.cl.000",
@@ -454,7 +499,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\덕산테코피아\\tech\\duksan_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\덕산테코피아\\tech\\duksan_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-20T20:32:29",
+      "generated_at": "2026-05-25T20:00:04",
       "core_counts": {
         "total_patents": 38,
         "registered_patents_estimated": 30,
@@ -548,7 +593,7 @@
   "tech_chair_summary": {
     "agent": "tech",
     "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-    "created_at": "2026-05-20T20:35:33",
+    "created_at": "2026-05-25T20:03:18",
     "field": "반도체",
     "company": "덕산테코피아",
     "company_name": "덕산테코피아",
@@ -580,7 +625,7 @@
       "ip_evidence_composite_bridge_signal": "IP_EVIDENCE_NEUTRAL",
       "ip_evidence_composite_adjustment_points": 0.0,
       "ip_evidence_composite_data_coverage_rate": 1.0,
-      "ip_evidence_composite_source_file": "data/반도체/덕산테코피아/tech/tech_ip_evidence_composite.json",
+      "ip_evidence_composite_source_file": "C:/Agent_6.9/data/반도체/덕산테코피아/tech/tech_ip_evidence_composite.json",
       "peer_adjusted_bridge_score_before_ip_evidence": 50.72,
       "final_bridge_score_after_ip_evidence": 50.72,
       "ip_evidence_adjusted_score": 50.72,
@@ -654,14 +699,14 @@
       }
     ],
     "ip_quant_signals": {
-      "normalized_patent_text_records": 779,
-      "company_matched_patents": 719,
+      "normalized_patent_text_records": 2339,
+      "company_matched_patents": 2279,
       "registered_patents": 539,
-      "alive_patents": 582,
-      "recent_5y_patents": 29,
+      "alive_patents": 2142,
+      "recent_5y_patents": 1589,
       "ipc_cpc_classes": 34,
       "core_ipc_h01l_patents": null,
-      "keyword_matches": 310
+      "keyword_matches": 9670
     },
     "selected_ml": {
       "peer_ml": {
@@ -671,9 +716,9 @@
         "cluster_name": "반도체 후공정/패키징 cluster"
       },
       "tech_ip_strength": {
-        "score": 58.27,
+        "score": 73.93,
         "percentile": 50.0,
-        "patent_momentum_score": 28.03,
+        "patent_momentum_score": 77.29,
         "dominant_topic": null
       },
       "technology_differentiation": {
@@ -1410,7 +1455,7 @@
       "company_name": "덕산테코피아",
       "field": "반도체",
       "status": "OK",
-      "created_at": "2026-05-20T20:34:15",
+      "created_at": "2026-05-25T20:00:06",
       "weights": {
         "legal_stability": 0.25,
         "claim_defense": 0.3,
@@ -1506,10 +1551,10 @@
       "tech_full_appendix_json": ""
     },
     "ip_evidence_bridge_adjustment_status": "APPLIED",
-    "ip_evidence_bridge_adjustment_applied_at": "2026-05-20T20:35:34",
+    "ip_evidence_bridge_adjustment_applied_at": "2026-05-25T20:03:18",
     "tech_investor_view": {
       "version": "tech-investor-scorecard-v2",
-      "generated_at": "2026-05-20T20:35:44",
+      "generated_at": "2026-05-25T20:03:28",
       "company_slug": "duksan",
       "company_name": "덕산테코피아",
       "final_tech_investor_score": 60.13,
@@ -1900,12 +1945,12 @@
       "agent": "tech_intake",
       "artifact": "tech_intake_value_evidence_bridge",
       "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-      "created_at": "2026-05-20T20:35:42",
+      "created_at": "2026-05-25T20:03:27",
       "field": "반도체",
       "company": "덕산테코피아",
       "company_dir": "duksan",
       "company_slug": "duksan",
-      "source_document_count": 148,
+      "source_document_count": 159,
       "source_documents": [
         {
           "source_group": "KIPRIS",
@@ -2084,7 +2129,7 @@
         {
           "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/덕산테코피아/tech/duksan_tech_intake_value_evidence.json",
-          "detected_url_count": 15,
+          "detected_url_count": 13,
           "fallback_url_count": 0
         },
         {
@@ -2347,6 +2392,18 @@
         },
         {
           "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/덕산테코피아/tech/tech_history_features_2025-08-31.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/덕산테코피아/tech/tech_history_features_2025-08-31.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/덕산테코피아/tech/tech_intake_manifest.json",
           "detected_url_count": 0,
           "fallback_url_count": 2
@@ -2360,7 +2417,7 @@
         {
           "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/덕산테코피아/tech/tech_intake_value_evidence.json",
-          "detected_url_count": 15,
+          "detected_url_count": 13,
           "fallback_url_count": 0
         },
         {
@@ -2659,6 +2716,72 @@
         },
         {
           "source_group": "VALUATION",
+          "source_file": "data/반도체/덕산테코피아/valuation/intake/company_profile.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/덕산테코피아/valuation/intake/cross_agent_signals_for_valuation.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/덕산테코피아/valuation/intake/dcf_inputs.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/덕산테코피아/valuation/intake/dilution_events.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/덕산테코피아/valuation/intake/financials_normalized.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/덕산테코피아/valuation/intake/financials_raw.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/덕산테코피아/valuation/intake/peer_multiples.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/덕산테코피아/valuation/intake/price_history.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/덕산테코피아/valuation/intake/relative_valuation_inputs.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/덕산테코피아/valuation/intake/shares_outstanding.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/덕산테코피아/valuation/intake/valuation_assumptions.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
           "source_file": "data/반도체/덕산테코피아/valuation/intake/valuation_assumptions.json",
           "detected_url_count": 0,
           "fallback_url_count": 5
@@ -2767,19 +2890,7 @@
         },
         {
           "source_group": "FINANCE",
-          "source_file": "data/반도체/덕산테코피아/finance/덕산테코피아_stock.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "FINANCE",
           "source_file": "data/반도체/덕산테코피아/finance/덕산테코피아_재무.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/덕산테코피아/finance/덕산테코피아_재무데이터.csv",
           "detected_url_count": 0,
           "fallback_url_count": 5
         },
@@ -2927,9 +3038,7 @@
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00fc000f4f74418d1cbfc215ad21c6d7d879c6e61fceaa2225f6a85f26264e04400e01ed69760feca80c3afd3149b3b3ebef5a8b9916059f8f",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00d811f1e442060ed7cff3bb4092429d1c73c9e1ae65957281ba0c2118174e4e90e5b0b421b90c93ae6e803fbc6f6c4a132bc1a7d27fac171b",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf72625164ec60f0ce97afd5a1d1643b258f36f921a873ce94c5d3633c5958aa6574b4990e4bd74dca7100d6157441ac36eef2fdda5a41bbde522",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726ece562a0e923d647293b821b2ad524396acf2fe4ece61ea961dc3edd7b9ea165fd1611e20a29d4003a154de25f54574f4056297647d65183",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00f922d5e68ed10e5772fcfa9cf841ca734b6cc67f98bcb2c02b7977634ae54c07850094854161c14fd25c05a450ca826dbef2ce026e9b4d66",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726fdaaccf21",
+            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726ece562a0e923d647293b821b2ad524396acf2fe4ece61ea961dc3edd7b9ea165fd1611e20a29d4003a1",
             "https://dart.fss.or.kr/",
             "https://dart.fss.or.kr/dsab007/main.do?option=corp",
             "http://www.w3.org/2001/XMLSchema-instance",
@@ -3923,7 +4032,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\덕산테코피아\\tech\\duksan_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\덕산테코피아\\tech\\duksan_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-20T20:32:29",
+      "generated_at": "2026-05-25T20:00:04",
       "core_counts": {
         "total_patents": 38,
         "registered_patents_estimated": 30,
@@ -4011,8 +4120,8 @@
     "bridge_signal": "IP_QUALITY_NEUTRAL"
   },
   "formula_catalog_summary": {
-    "json": "data\\반도체\\덕산테코피아\\tech\\duksan_tech_formula_rules.json",
-    "md": "data\\반도체\\덕산테코피아\\tech\\duksan_tech_formula_rules.md",
+    "json": "C:\\Agent_6.9\\data\\반도체\\덕산테코피아\\tech\\duksan_tech_formula_rules.json",
+    "md": "C:\\Agent_6.9\\data\\반도체\\덕산테코피아\\tech\\duksan_tech_formula_rules.md",
     "rule_count": 34
   },
   "evidence_harvest_summary": {
@@ -4047,6 +4156,8 @@
     "tech_full_appendix_json": null,
     "tech_chair_summary_json": "data/반도체/덕산테코피아/tech/tech_chair_summary.json",
     "tech_chair_summary_md": "data/반도체/덕산테코피아/tech/duksan_tech_chair_summary.md",
+    "tech_history_feature_json": "data/반도체/덕산테코피아/tech/tech_history_features_2025-08-31.json",
+    "tech_history_feature_csv": "data/반도체/덕산테코피아/tech/tech_history_features_2025-08-31.csv",
     "tech_json": "data/반도체/덕산테코피아/tech/duksan_tech.json",
     "tech_agent_packet_json": "data/반도체/덕산테코피아/tech/duksan_tech_agent_packet.json"
   },
@@ -5817,7 +5928,7 @@
     "field": "반도체",
     "source_csv": "data\\반도체\\덕산테코피아\\tech\\duksan_kipris_patents_normalized.csv",
     "enriched_csv": "data\\반도체\\덕산테코피아\\tech\\duksan_kipris_tech_ml_enriched.csv",
-    "generated_at": "2026-05-20T20:32:29",
+    "generated_at": "2026-05-25T20:00:04",
     "core_counts": {
       "total_patents": 38,
       "registered_patents_estimated": 30,

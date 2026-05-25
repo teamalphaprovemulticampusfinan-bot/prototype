@@ -3,15 +3,15 @@
   "company_slug": "gst",
   "field": "반도체",
   "status": "OK",
-  "created_at": "2026-05-20T22:03:37",
-  "tech_dir": "data\\반도체\\GST\\tech",
+  "created_at": "2026-05-25T22:01:10",
+  "tech_dir": "C:\\Agent_6.9\\data\\반도체\\GST\\tech",
   "source_file_count": 1,
   "source_files": [
-    "data\\반도체\\GST\\tech\\source\\gst_kipris_plus_bibliographic_raw.csv"
+    "C:\\Agent_6.9\\data\\반도체\\GST\\tech\\source\\gst_kipris_plus_bibliographic_raw.csv"
   ],
   "read_errors": [],
   "column_mappings": {
-    "data\\반도체\\GST\\tech\\source\\gst_kipris_plus_bibliographic_raw.csv": {
+    "C:\\Agent_6.9\\data\\반도체\\GST\\tech\\source\\gst_kipris_plus_bibliographic_raw.csv": {
       "application_number": "application_number",
       "open_number": "open_number",
       "register_number": "register_number",
@@ -40,11 +40,11 @@
   "kipris_plus_request_targets_ready": true,
   "usage_rule": "This script normalizes free/manual KIPRIS CSV/XLSX exports and existing local patent files. KIPRIS Plus claim/citation/family collectors can use the generated request-target CSV after API approval.",
   "output_files": {
-    "bibliographic_csv": "data\\반도체\\GST\\tech\\gst_kipris_bibliographic_normalized.csv",
-    "patents_csv": "data\\반도체\\GST\\tech\\gst_kipris_patents_normalized.csv",
-    "tech_patent_csv": "data\\반도체\\GST\\tech\\gst_tech_patent_normalized.csv",
-    "request_targets_csv": "data\\반도체\\GST\\tech\\gst_kipris_plus_request_targets.csv",
-    "summary_json": "data\\반도체\\GST\\tech\\gst_kipris_bibliographic_normalized_summary.json",
-    "summary_md": "data\\반도체\\GST\\tech\\gst_kipris_bibliographic_normalized_summary.md"
+    "bibliographic_csv": "C:\\Agent_6.9\\data\\반도체\\GST\\tech\\gst_kipris_bibliographic_normalized.csv",
+    "patents_csv": "C:\\Agent_6.9\\data\\반도체\\GST\\tech\\gst_kipris_patents_normalized.csv",
+    "tech_patent_csv": "C:\\Agent_6.9\\data\\반도체\\GST\\tech\\gst_tech_patent_normalized.csv",
+    "request_targets_csv": "C:\\Agent_6.9\\data\\반도체\\GST\\tech\\gst_kipris_plus_request_targets.csv",
+    "summary_json": "C:\\Agent_6.9\\data\\반도체\\GST\\tech\\gst_kipris_bibliographic_normalized_summary.json",
+    "summary_md": "C:\\Agent_6.9\\data\\반도체\\GST\\tech\\gst_kipris_bibliographic_normalized_summary.md"
   }
 }

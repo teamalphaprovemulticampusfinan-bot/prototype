@@ -2,12 +2,13 @@
   "agent": "tech",
   "company_name": "GST",
   "industry_type": "deeptech_semiconductor",
-  "summary": "기존 Tech Agent 내부 판단은 보유였고, Auditor compact에서는 이를 참고 신호로만 사용합니다. 최종 Tech 점수는 21.00/100 수준이며 판정은 TECH_EVIDENCE_WEAK입니다. peer 기준으로는 동종 기술군 내 상대 위치 확인이며, base 22.00점에서 peer 보정 후 21.00점으로 조정되었습니다. IP Evidence Composite는 5.00/100(IP_EVIDENCE_WEAK)으로, 특허 수 자체보다 권리 안정성·청구항·인용·패밀리 품질을 보조 판단합니다.",
+  "summary": "기존 Tech Agent 내부 판단은 보유였고, Auditor compact에서는 이를 참고 신호로만 사용합니다. 최종 Tech 점수는 36.00/100 수준이며 판정은 TECH_EVIDENCE_WEAK입니다. peer 기준으로는 동종 기술군 내 상대 위치 확인이며, base 37.00점에서 peer 보정 후 36.00점으로 조정되었습니다. IP Evidence Composite는 43.67/100(IP_EVIDENCE_WEAK)으로, 특허 수 자체보다 권리 안정성·청구항·인용·패밀리 품질을 보조 판단합니다.",
   "key_thesis": [
     "Peer 대비 Tech-to-Value: 동종 기술군 기준 상대 위치 확인, peer percentile 확인 제한%, 보정 확인 제한점.",
-    "Bridge 점수 흐름: base 22.00/100 → peer-adjusted 21.00/100 → IP 반영 후 21.00/100.",
-    "개인투자자용 최종 Tech 점수: 43.16/100, grade=EVIDENCE_WEAK_OR_EARLY.",
-    "IP 품질: IP Evidence Composite 5.00/100, signal=IP_EVIDENCE_WEAK."
+    "Bridge 점수 흐름: base 37.00/100 → peer-adjusted 36.00/100 → IP 반영 후 36.00/100.",
+    "개인투자자용 최종 Tech 점수: 49.48/100, grade=EVIDENCE_WEAK_OR_EARLY.",
+    "IP 품질: IP Evidence Composite 43.67/100, signal=IP_EVIDENCE_WEAK.",
+    "특허 정량 신호: 회사 매칭/정규화 특허 30건, 등록 14건, 최근 5년 1,560건."
   ],
   "key_risks": [
     "기술성은 확인되지만 고객 채택·양산·매출 전환·FCF 개선까지 이어지는 연결고리를 계속 추적해야 하는 상태",
@@ -16,17 +17,19 @@
   ],
   "metrics": {
     "original_agent_view_reference": "보유",
-    "final_tech_investor_score": 43.16,
-    "base_bridge_score": 22.0,
-    "peer_adjusted_bridge_score": 21.0,
-    "final_bridge_score_after_ip_evidence": 21.0,
-    "ip_evidence_composite_score": 5.0,
+    "final_tech_investor_score": 49.48,
+    "base_bridge_score": 37.0,
+    "peer_adjusted_bridge_score": 36.0,
+    "final_bridge_score_after_ip_evidence": 36.0,
+    "ip_evidence_composite_score": 43.67,
     "ip_evidence_bridge_signal": "IP_EVIDENCE_WEAK",
-    "patent_count": 0
+    "patent_count": 30,
+    "registered_patent_count": 14,
+    "recent_5y_patent_count": 1560
   },
   "audit_trace": {
-    "original_claim_count": 2,
-    "original_evidence_count": 9,
+    "original_claim_count": 3,
+    "original_evidence_count": 20,
     "removed_fields_for_chair": [
       "claims",
       "confidence",
@@ -64,33 +67,37 @@
     "tech_full_appendix_json": null,
     "tech_chair_summary_json": "data/반도체/GST/tech/tech_chair_summary.json",
     "tech_chair_summary_md": "data/반도체/GST/tech/gst_tech_chair_summary.md",
+    "tech_history_feature_json": "",
+    "tech_history_feature_csv": "",
     "tech_json": "data/반도체/GST/tech/gst_tech.json",
     "tech_agent_packet_json": "data/반도체/GST/tech/gst_tech_agent_packet.json"
   },
   "auditor_status": "PASS",
-  "auditor_actual_match": 0.9622,
+  "auditor_actual_match": 0.9556,
   "auditor_stage_scores": {
-    "stage1_basic_consistency": 0.8867,
+    "stage1_basic_consistency": 0.8667,
     "stage2_framework": 1.0,
     "stage3_decision_readiness": 1.0
   },
   "auditor_issues": [
-    "same-metric scale inconsistency suspected for tech_score: ratio≈780.0 (tech_chair_summary.tech_to_value.base_bridge_score=22.0; tech_chair_summary.tech_to_value.peer_adjusted_bridge_score=21.0; tech_chair_summary.tech_to_value.peer_adjusted_bridge_score_before_ip_evidence=22.0; tech_chair_summary.tech_to_value.final_bridge_score_after_ip_evidence=21.0; tech_chair_summary.tech_to_value.investor_final_tech_score=43.16)"
+    "same-metric scale inconsistency suspected for tech_score: ratio≈780.0 (tech_chair_summary.tech_to_value.base_bridge_score=37.0; tech_chair_summary.tech_to_value.peer_adjusted_bridge_score=36.0; tech_chair_summary.tech_to_value.peer_adjusted_bridge_score_before_ip_evidence=37.0; tech_chair_summary.tech_to_value.final_bridge_score_after_ip_evidence=36.0; tech_chair_summary.tech_to_value.investor_final_tech_score=49.48)"
   ],
   "auditor_recommendation": "보유",
-  "auditor_signal": -0.1905,
+  "auditor_signal": -0.1682,
   "auditor_decision_basis": [
-    "Tech 최종/Bridge 점수 21.00/100",
+    "Tech 최종/Bridge 점수 36.00/100",
     "peer percentile 50.00",
-    "IP Evidence Composite 5.00/100",
-    "특허 레코드 0건",
+    "IP Evidence Composite 43.67/100",
+    "특허 레코드 30건",
+    "등록특허 14건",
+    "존속 가능 특허 2건",
     "기존 Tech Agent 내부 판단 참고=보유"
   ],
   "auditor_signal_components": {
-    "final_score": -1.0,
+    "final_score": -0.6857142857142857,
     "peer_percentile": -0.14285714285714285,
-    "ip_composite": -1.0,
-    "ip_quality": 0.0,
+    "ip_composite": -0.1808571428571428,
+    "ip_quality": -1.0,
     "commercialization": 1.0,
     "original_agent_view_reference": 0.0
   }

@@ -1,9 +1,9 @@
 {
   "version": "tech-investor-scorecard-v2",
-  "generated_at": "2026-05-20T22:08:53",
+  "generated_at": "2026-05-25T21:51:57",
   "company_slug": "sti",
   "company_name": "에스티아이",
-  "final_tech_investor_score": 40.67,
+  "final_tech_investor_score": 49.67,
   "final_tech_investor_grade": {
     "code": "EVIDENCE_WEAK_OR_EARLY",
     "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
@@ -167,33 +167,33 @@
     },
     "excel_quantified_evidence": {
       "label": "Excel 기반 정량 근거",
-      "score": 45.0,
+      "score": 90.0,
       "weight": 0.15,
       "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지",
       "meta": {
-        "score": 45.0,
-        "company_item_count": 8,
-        "filled_count": 0,
+        "score": 90.0,
+        "company_item_count": 22,
+        "filled_count": 22,
         "metric_row_count": 0,
-        "numeric_signal_count": 0,
-        "category_count": 7,
+        "numeric_signal_count": 121,
+        "category_count": 8,
         "unique_metric_count": 0,
         "formula_rule_count": 0,
-        "coverage_ratio": 0.0,
-        "numeric_density": 0.0
+        "coverage_ratio": 1.0,
+        "numeric_density": 5.5
       }
     },
     "evidence_confidence": {
       "label": "근거 직접성·충분성",
-      "score": 44.87,
+      "score": 59.87,
       "weight": 0.15,
       "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성",
       "meta": {
-        "score": 44.87,
+        "score": 59.87,
         "evidence_count": 3,
         "claim_count": 3,
         "patent_count": 58,
-        "excel_coverage_ratio": 0.0
+        "excel_coverage_ratio": 1.0
       }
     },
     "commercialization_and_funding_signal": {
@@ -241,17 +241,17 @@
     {
       "component": "excel_quantified_evidence",
       "label": "Excel 기반 정량 근거",
-      "score": 45.0,
+      "score": 90.0,
       "weight": 0.15,
-      "weighted_score": 6.75,
+      "weighted_score": 13.5,
       "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지"
     },
     {
       "component": "evidence_confidence",
       "label": "근거 직접성·충분성",
-      "score": 44.87,
+      "score": 59.87,
       "weight": 0.15,
-      "weighted_score": 6.7305,
+      "weighted_score": 8.9805,
       "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성"
     },
     {
@@ -264,8 +264,8 @@
     }
   ],
   "key_takeaways": [
-    "에스티아이의 개인투자자용 Tech 최종 점수는 40.67/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
-    "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(38.0)와 IP Evidence(39.18) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+    "에스티아이의 개인투자자용 Tech 최종 점수는 49.67/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
+    "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(38.0)와 IP Evidence(39.18) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
     "투자자가 확인할 핵심 근거는 9개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
   ],
   "investor_evidence": [
@@ -332,7 +332,7 @@
     {
       "source": "tech_summary",
       "title": "Tech Agent 핵심 해석",
-      "detail": "에스티아이의 개인투자자용 Tech 최종 점수는 40.67/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
+      "detail": "에스티아이의 개인투자자용 Tech 최종 점수는 49.67/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
       "value": null,
       "unit": null,
       "path": null,
@@ -342,7 +342,7 @@
     {
       "source": "tech_summary",
       "title": "Tech Agent 핵심 해석",
-      "detail": "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(38.0)와 IP Evidence(39.18) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+      "detail": "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(38.0)와 IP Evidence(39.18) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
       "value": null,
       "unit": null,
       "path": null,

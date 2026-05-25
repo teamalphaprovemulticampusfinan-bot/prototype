@@ -3,6 +3,51 @@
   "company": "원익IPS",
   "company_dir": "wonik_ips",
   "opinion": "보유",
+  "tech_signal": 0.342451,
+  "history_tech_feature": {
+    "signal": 0.342451,
+    "status": "OK_TECH_HISTORY_ASOF",
+    "source": "C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\quanified_metrix.csv;C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\tech_excel_frame_items.csv;C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\tech_excel_frame_metrics.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\monthly\\tech_patent_quality_monthly.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\monthly\\tech_patent_quality_monthly_v44.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\daily\\tech_patent_quality_daily.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\daily\\tech_patent_quality_daily_v44.csv",
+    "as_of_date": "2025-08-31",
+    "company": "원익IPS",
+    "ticker": "240810.KQ",
+    "stock_code": "240810",
+    "base_signal": 0.367387,
+    "evidence_confidence": 0.770788,
+    "commercialization_gate_signal": 0.237095,
+    "technology_risk_penalty": 0.0,
+    "ip_quality_signal": 0.179665,
+    "lifecycle_signal": 0.0,
+    "technology_differentiation_signal": 0.209768,
+    "commercialization_signal": 0.94838,
+    "rnd_sustainability_signal": 0.469878,
+    "peer_position_signal": -0.209524,
+    "tech_to_value_signal": 0.606155,
+    "certification_signal": 0.0,
+    "qualification_signal": 0.0,
+    "cost_yield_signal": 0.0,
+    "workforce_signal": 0.0,
+    "government_rd_signal": 0.0,
+    "licensing_signal": 0.0,
+    "dispute_risk_signal": 0.0,
+    "failure_delay_signal": 0.0,
+    "intangible_accounting_signal": 0.0,
+    "patent_records_asof": 84,
+    "dated_records_asof": 64,
+    "undated_records_used": 86,
+    "files_used": 63,
+    "notes": "Tech history signal uses dated patent/IP, TRL/readiness, certification, qualification, commercialization, R&D/workforce, risk and accounting evidence before as_of_date; no Buy/Hold/Sell threshold is applied.",
+    "frequency": "monthly",
+    "formula": "final=base_signal*evidence_confidence + 0.25*commercialization_gate_signal - 0.35*technology_risk_penalty",
+    "research_basis": [
+      "Hall-Jaffe-Trajtenberg patent citations/value; Lanjouw-Schankerman patent quality; OECD patent quality composite indicators",
+      "DoD/NASA TRL and TRA maturity framework",
+      "IFC/Bpifrance deep-tech development-stage financing framework",
+      "Text-based industry/technology relatedness literature for peer/differentiation evidence"
+    ],
+    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\tech_history_features_2025-08-31.json",
+    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\tech_history_features_2025-08-31.csv"
+  },
   "claims": [
     {
       "claim_id": "tech.cl.000",
@@ -84,63 +129,63 @@
     {
       "title": "원익IPS KIPRIS/특허 정량화 요약",
       "url": "",
-      "path": "data\\반도체\\원익IPS\\tech\\source\\wonik_ips_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\source\\wonik_ips_kipris_plus_bibliographic_raw.csv",
       "snippet": "원익IPS KIPRIS/특허 정량화 요약 본 특허 근거는 KIPRIS API/CSV/엑셀/TXT 원천 파일을 정규화해 산출했다. [정량 지표] - 특허 원천 파일 수: 1개 - 정규화 특허 레코드 수: 116건 - 출원인/권리자 회사 매칭 특허 수: 0건 - 등록 특허 수: 48건 - 존속 가능 특허 수: 42건 - 최근 5년 특허 수: 45건 - IPC/CPC 기술분류 수: 31개 - H01L 반도체 IPC 특허 수: 1건 - 반도체 핵심 IPC 특허 수: 101건 - 특허-기술 키워드 매칭 수: 181회 - 특허 포트폴리오 연도 범위: 2003~2025 - KIPRIS 총 특허 수: 116.0건 - KIPRIS 등록",
       "relevance_score": 30
     },
     {
       "title": "기판처리장치 및 이를 이용한 기판처리방법",
       "url": "",
-      "path": "data\\반도체\\원익IPS\\tech\\source\\wonik_ips_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\source\\wonik_ips_kipris_plus_bibliographic_raw.csv",
       "snippet": "기판처리장치 및 이를 이용한 기판처리방법 | 주식회사 원익아이피에스 | 등록 | 2021 | 출원번호 1020210037483; 등록번호 1028235110000 | IPC/CPC: H10P, C23C, H01J | 기술매칭: 공정, 기판, 반도체 | 초록: 본 발명은 기판처리에 관한 것으로서, 보다 상세하게는 반도체 등의 기판을 제조하기 위한 기판처리장치 및 이를 이용한 기판처리방법에 관한 것이다. 본 발명은 밀폐된 처리공간(S)을 형성하는 공정챔버(100)와, 상기 공정챔버(100)에 설치되며 안착된 기판(10)의 온도제어를 위한 히터(121)가 설치된 서셉터(120)와, 상기 서셉터(120)의 상측에 설치되어 공정",
       "relevance_score": 59.5
     },
     {
       "title": "반도체 소자의 제조방법",
       "url": "",
-      "path": "data\\반도체\\원익IPS\\tech\\source\\wonik_ips_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\source\\wonik_ips_kipris_plus_bibliographic_raw.csv",
       "snippet": "반도체 소자의 제조방법 | 주식회사 원익아이피에스 | 등록 | 2018 | 출원번호 1020180101769; 등록번호 1025153910000 | IPC/CPC: H10P, G03F | 기술매칭: 공정, 기판, 반도체, 소자 | 초록: 하드 마스크 구조체를 포함하는 반도체 소자의 제조방법에 관한 기술이다. 처리 공간을 한정하는 챔버, 상기 챔버의 하부 영역에 배치되며 처리될 기판을 지지하는 기판 지지대, 및 상기 기판을 향하여 공정 가스를 제공하는 샤워 헤드를 포함하는 플라즈마 처리 장치 내에서 하드 마스크 구조체를 구비한 반도체 소자를 제조하는 방법으로서, 피식각층을 구비한 상기 기판 상부에 하드 마스크막을 형성하는",
       "relevance_score": 57.0
     },
     {
       "title": "기판지지장치 및 이를 포함하는 기판처리장치",
       "url": "",
-      "path": "data\\반도체\\원익IPS\\tech\\source\\wonik_ips_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\source\\wonik_ips_kipris_plus_bibliographic_raw.csv",
       "snippet": "기판지지장치 및 이를 포함하는 기판처리장치 | 주식회사 원익아이피에스 | 등록 | 2022 | 출원번호 1020220123389; 등록번호 1029637720000 | IPC/CPC: H10P, H01J, C23C | 기술매칭: 공정, 기판 | 초록: 본 발명은 기판지지장치 및 이를 포함하는 기판처리장치에 관한 것으로서, 보다 상세하게는 RF전원이 인가되는 기판지지장치 및 이를 포함하는 기판처리장치에 관한 것이다. 본 발명은, 기판(1)을 히팅하는 히터부(100)와; 상기 히터부(100) 상부에 배치되어 RF전원이 인가되는 RF파워부(200)와; 상기 공정챔버(10)를 관통하여 상기 히터부(100)를 지지하는 지지샤프트",
       "relevance_score": 56.5
     },
     {
       "title": "박막 증착 장치, 이를 포함하는 기판 처리 시스템 및 박막 증착 방법",
       "url": "",
-      "path": "data\\반도체\\원익IPS\\tech\\source\\wonik_ips_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\source\\wonik_ips_kipris_plus_bibliographic_raw.csv",
       "snippet": "박막 증착 장치, 이를 포함하는 기판 처리 시스템 및 박막 증착 방법 | 주식회사 원익아이피에스 | 등록 | 2016 | 출원번호 1020160158070; 등록번호 1021792810000 | IPC/CPC: H10P, H05H, H01J | 기술매칭: 공정, 기판, 반도체 | 초록: 박막 증착 장치, 이를 포함하는 기판 처리 시스템, 및 박막 증착 방법에 관한 기술이다. 본 실시예의 박막 증착 방법은 반도체 기판상에 제 1 플라즈마로부터 활성화된 공정 가스를 이용하여 제 1 비정질 실리콘 박막을 형성하는 단계, 및 상기 제 1 비정질 실리콘 박막 상부에 제 2 플라즈마로부터 활성화된 공정 가스를 이용하여 제 2 비정",
       "relevance_score": 55.5
     },
     {
       "title": "실리콘 산화막 형성 방법",
       "url": "",
-      "path": "data\\반도체\\원익IPS\\tech\\source\\wonik_ips_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\source\\wonik_ips_kipris_plus_bibliographic_raw.csv",
       "snippet": "실리콘 산화막 형성 방법 | 주식회사 원익아이피에스 | 등록 | 2022 | 출원번호 1020220177147; 등록번호 1028966840000 | IPC/CPC: H10P, C23C | 기술매칭: 공정, 기판 | 초록: 실시예에 따른 실리콘 산화막의 형성방법은, 기판을 처리하기 위한 처리 공간이 형성된 공정 챔버, 상기 처리 공간에 구비되어 상기 기판이 안착되는 기판 지지부, 상기 기판 지지부에 대향하도록 설치되어 상기 기판 상에 가스를 분사하기 위한 가스 분사부 및 상기 기판 지지부와 가스 분사부 중 적어도 어느 하나에 연결되어 플라즈마를 발생시키기 위한 RF 전원을 공급하는 RF 전원부를 포함하는 기판",
       "relevance_score": 55.0
     },
     {
       "title": "기판처리방법",
       "url": "",
-      "path": "data\\반도체\\원익IPS\\tech\\source\\wonik_ips_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\source\\wonik_ips_kipris_plus_bibliographic_raw.csv",
       "snippet": "기판처리방법 | 주식회사 원익아이피에스 | 등록 | 2024 | 출원번호 1020240044669; 등록번호 1028603480000 | IPC/CPC: H10P, H01J | 기술매칭: 공정, 기판 | 초록: 본 발명의 일 실시예에 따른 기판처리방법은, 온도 조절 가능한 챔버몸체부를 구비하고 반응공간이 형성된 공정챔버와, 기판이 안착되며 상기 기판을 가열하기 위한 기판지지부 및 상기 기판지지부로 상기 기판을 처리하기 위한 공정 가스를 공급하기 위한 가스분사부를 포함하는 기판처리장치를 이용한 기판처리방법으로서, 박막이 형성된 기판을 상기 기판지지부에 안착시키는 안착 단계; 상기 안착된 기판을 제 1",
       "relevance_score": 55.0
     },
     {
       "title": "기판 처리 장치",
       "url": "",
-      "path": "data\\반도체\\원익IPS\\tech\\source\\wonik_ips_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\source\\wonik_ips_kipris_plus_bibliographic_raw.csv",
       "snippet": "기판 처리 장치 | 주식회사 원익아이피에스 | 등록 | 2021 | 출원번호 1020210161466; 등록번호 1029628030000 | IPC/CPC: C23C | 기술매칭: 공정, 기판 | 초록: 본 발명은 가스 공급의 중간 역할을 하는 가스 아답터에 양방향 필터를 형성하여 이물질로 인한 기판 또는 가스 공급관의 내외부의 오염을 방지할 수 있게 하는 기판 처리 장치에 관한 것으로서, 기판을 처리할 수 있도록 내부에 처리 공간이 형성되는 공정 챔버; 및 상기 처리 공간에 위치되어 보트에 적층된 복수개의 상기 기판에 가스를 공급하는 가스 공급 장치;를 포함하고, 상기 가스 공급 장치는,",
       "relevance_score": 53.5
     },
     {
       "title": "도어조립체 및 이를 구비하는 기판처리장치",
       "url": "",
-      "path": "data\\반도체\\원익IPS\\tech\\source\\wonik_ips_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\source\\wonik_ips_kipris_plus_bibliographic_raw.csv",
       "snippet": "도어조립체 및 이를 구비하는 기판처리장치 | 주식회사 원익아이피에스 | 등록 | 2022 | 출원번호 1020220075533; 등록번호 1029096190000 | IPC/CPC: H10P | 기술매칭: 공정, 기판 | 초록: 본 발명은 기판처리장치에 관한 것으로서, 보다 상세하게는 기판에 대하여 열처리 등의 기판처리를 수행하는 기판처리장치에 관한 것이다. 본 발명은, 다수의 기판(1)이 로딩 및 언로딩되는 출입구(110)가 상하방향으로 복수개 형성되는 공정챔버(100)의 상기 출입구(110)들을 개폐하기 위한 도어조립체로서, 상기 출입구(110)에 대응되는 개구부(202)가 형성되며, 전면에 측면 상 사선으로 접",
       "relevance_score": 53.5
     }
@@ -331,7 +376,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\원익IPS\\tech\\wonik_ips_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\원익IPS\\tech\\wonik_ips_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-20T21:36:37",
+      "generated_at": "2026-05-25T21:10:44",
       "core_counts": {
         "total_patents": 116,
         "registered_patents_estimated": 48,
@@ -425,7 +470,7 @@
   "tech_chair_summary": {
     "agent": "tech",
     "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-    "created_at": "2026-05-20T21:42:09",
+    "created_at": "2026-05-25T21:13:17",
     "field": "반도체",
     "company": "원익IPS",
     "company_name": "원익IPS",
@@ -457,17 +502,17 @@
       "ip_evidence_composite_bridge_signal": "IP_EVIDENCE_NEUTRAL",
       "ip_evidence_composite_adjustment_points": 0.0,
       "ip_evidence_composite_data_coverage_rate": 1.0,
-      "ip_evidence_composite_source_file": "data/반도체/원익IPS/tech/tech_ip_evidence_composite.json",
+      "ip_evidence_composite_source_file": "C:/Agent_6.9/data/반도체/원익IPS/tech/tech_ip_evidence_composite.json",
       "peer_adjusted_bridge_score_before_ip_evidence": 39.0,
       "final_bridge_score_after_ip_evidence": 39.0,
       "ip_evidence_adjusted_score": 39.0,
       "ip_evidence_formula": "final_bridge_score_after_ip_evidence = peer_adjusted_bridge_score_before_ip_evidence + ip_evidence_composite_adjustment_points",
       "ip_evidence_adjusted_grade": "TECH_EVIDENCE_WEAK",
-      "investor_final_tech_score": 44.01,
+      "investor_final_tech_score": 54.41,
       "investor_final_tech_grade": {
-        "code": "EVIDENCE_WEAK_OR_EARLY",
-        "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
-        "threshold": 0.0
+        "code": "COMMERCIALIZATION_WATCH",
+        "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+        "threshold": 52.0
       },
       "value_evidence_score": 79.3,
       "value_evidence_label": "VALUE_EVIDENCE_STRONG"
@@ -531,14 +576,14 @@
       }
     ],
     "ip_quant_signals": {
-      "normalized_patent_text_records": 2613,
-      "company_matched_patents": 1766,
+      "normalized_patent_text_records": 4173,
+      "company_matched_patents": 3326,
       "registered_patents": 642,
-      "alive_patents": 1109,
-      "recent_5y_patents": 45,
+      "alive_patents": 2669,
+      "recent_5y_patents": 1560,
       "ipc_cpc_classes": 1,
       "core_ipc_h01l_patents": null,
-      "keyword_matches": 314
+      "keyword_matches": 9674
     },
     "selected_ml": {
       "peer_ml": {
@@ -548,9 +593,9 @@
         "cluster_name": null
       },
       "tech_ip_strength": {
-        "score": 39.8,
+        "score": 61.13,
         "percentile": 50.0,
-        "patent_momentum_score": 1.91,
+        "patent_momentum_score": 60.18,
         "dominant_topic": null
       },
       "technology_differentiation": {
@@ -877,15 +922,15 @@
       "ip_evidence_bridge_signal": "IP_EVIDENCE_NEUTRAL",
       "ip_evidence_bridge_adjustment_points": 0.0,
       "final_bridge_score_after_ip_evidence": 39.0,
-      "investor_final_tech_score": 44.01,
+      "investor_final_tech_score": 54.41,
       "investor_final_tech_grade": {
-        "code": "EVIDENCE_WEAK_OR_EARLY",
-        "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
-        "threshold": 0.0
+        "code": "COMMERCIALIZATION_WATCH",
+        "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+        "threshold": 52.0
       },
       "investor_evidence_count": 9,
-      "excel_quantified_evidence_score": 45.0,
-      "commercialization_and_funding_signal_score": 49.5
+      "excel_quantified_evidence_score": 90.0,
+      "commercialization_and_funding_signal_score": 63.5
     },
     "ip_legal_features": {
       "total_patents": 116,
@@ -1321,7 +1366,7 @@
       "company_name": "원익IPS",
       "field": "반도체",
       "status": "OK",
-      "created_at": "2026-05-20T21:41:39",
+      "created_at": "2026-05-25T21:10:59",
       "weights": {
         "legal_stability": 0.25,
         "claim_defense": 0.3,
@@ -1417,17 +1462,17 @@
       "tech_full_appendix_json": ""
     },
     "ip_evidence_bridge_adjustment_status": "APPLIED",
-    "ip_evidence_bridge_adjustment_applied_at": "2026-05-20T21:42:10",
+    "ip_evidence_bridge_adjustment_applied_at": "2026-05-25T21:14:08",
     "tech_investor_view": {
       "version": "tech-investor-scorecard-v2",
-      "generated_at": "2026-05-20T21:42:21",
+      "generated_at": "2026-05-25T21:15:20",
       "company_slug": "wonik_ips",
       "company_name": "원익IPS",
-      "final_tech_investor_score": 44.01,
+      "final_tech_investor_score": 54.41,
       "final_tech_investor_grade": {
-        "code": "EVIDENCE_WEAK_OR_EARLY",
-        "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
-        "threshold": 0.0
+        "code": "COMMERCIALIZATION_WATCH",
+        "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+        "threshold": 52.0
       },
       "score_policy": {
         "description": "개인투자자용 최종 Tech 점수는 기술-사업화 연결 가능성, IP 품질, Excel/DART 정량 근거, 근거 신뢰도, 딥테크 성장투자 지속성을 하나로 합성한다.",
@@ -1587,53 +1632,54 @@
         },
         "excel_quantified_evidence": {
           "label": "Excel 기반 정량 근거",
-          "score": 45.0,
+          "score": 90.0,
           "weight": 0.15,
           "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지",
           "meta": {
-            "score": 45.0,
-            "company_item_count": 8,
-            "filled_count": 0,
+            "score": 90.0,
+            "company_item_count": 22,
+            "filled_count": 22,
             "metric_row_count": 0,
-            "numeric_signal_count": 0,
-            "category_count": 7,
+            "numeric_signal_count": 121,
+            "category_count": 8,
             "unique_metric_count": 0,
             "formula_rule_count": 0,
-            "coverage_ratio": 0.0,
-            "numeric_density": 0.0
+            "coverage_ratio": 1.0,
+            "numeric_density": 5.5
           }
         },
         "evidence_confidence": {
           "label": "근거 직접성·충분성",
-          "score": 48.73,
+          "score": 63.73,
           "weight": 0.15,
           "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성",
           "meta": {
-            "score": 48.73,
+            "score": 63.73,
             "evidence_count": 3,
             "claim_count": 3,
             "patent_count": 116,
-            "excel_coverage_ratio": 0.0
+            "excel_coverage_ratio": 1.0
           }
         },
         "commercialization_and_funding_signal": {
           "label": "사업화·성장자금 지속성",
-          "score": 49.5,
+          "score": 63.5,
           "weight": 0.1,
           "meaning": "R&D·특허·정부과제·기술이전·CAPEX/희석성 자금조달이 사업화와 연결되는 정도",
           "meta": {
-            "score": 49.5,
-            "detected_signal_groups": [],
+            "score": 63.5,
+            "detected_signal_groups": [
+              "commercial"
+            ],
             "detected_flags": {
               "rd": false,
-              "commercial": false,
+              "commercial": true,
               "government": false,
               "transfer": false,
               "funding": false
             },
             "recent_5y_patents": null,
             "warnings": [
-              "customer_mass_production_revenue_signal_limited",
               "rd_or_recent_patent_continuity_limited",
               "capital_raising_signal_not_explicitly_detected"
             ],
@@ -1661,31 +1707,31 @@
         {
           "component": "excel_quantified_evidence",
           "label": "Excel 기반 정량 근거",
-          "score": 45.0,
+          "score": 90.0,
           "weight": 0.15,
-          "weighted_score": 6.75,
+          "weighted_score": 13.5,
           "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지"
         },
         {
           "component": "evidence_confidence",
           "label": "근거 직접성·충분성",
-          "score": 48.73,
+          "score": 63.73,
           "weight": 0.15,
-          "weighted_score": 7.3095,
+          "weighted_score": 9.5595,
           "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성"
         },
         {
           "component": "commercialization_and_funding_signal",
           "label": "사업화·성장자금 지속성",
-          "score": 49.5,
+          "score": 63.5,
           "weight": 0.1,
-          "weighted_score": 4.95,
+          "weighted_score": 6.35,
           "meaning": "R&D·특허·정부과제·기술이전·CAPEX/희석성 자금조달이 사업화와 연결되는 정도"
         }
       ],
       "key_takeaways": [
-        "원익IPS의 개인투자자용 Tech 최종 점수는 44.01/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
-        "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(47.02) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+        "원익IPS의 개인투자자용 Tech 최종 점수는 54.41/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
+        "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(47.02) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
         "투자자가 확인할 핵심 근거는 9개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
       ],
       "investor_evidence": [
@@ -1752,7 +1798,7 @@
         {
           "source": "tech_summary",
           "title": "Tech Agent 핵심 해석",
-          "detail": "원익IPS의 개인투자자용 Tech 최종 점수는 44.01/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
+          "detail": "원익IPS의 개인투자자용 Tech 최종 점수는 53.01/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
           "value": null,
           "unit": null,
           "path": null,
@@ -1762,7 +1808,7 @@
         {
           "source": "tech_summary",
           "title": "Tech Agent 핵심 해석",
-          "detail": "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(47.02) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+          "detail": "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(47.02) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
           "value": null,
           "unit": null,
           "path": null,
@@ -1802,21 +1848,22 @@
       }
     },
     "key_takeaways": [
-      "원익IPS의 개인투자자용 Tech 최종 점수는 44.01/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
-      "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(47.02) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+      "원익IPS의 개인투자자용 Tech 최종 점수는 54.41/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
+      "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(47.02) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
       "투자자가 확인할 핵심 근거는 9개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다.",
+      "원익IPS의 개인투자자용 Tech 최종 점수는 53.01/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
       "투자자가 확인할 핵심 근거는 6개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
     ],
     "value_evidence_bridge": {
       "agent": "tech_intake",
       "artifact": "tech_intake_value_evidence_bridge",
       "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-      "created_at": "2026-05-20T21:42:19",
+      "created_at": "2026-05-25T21:15:17",
       "field": "반도체",
       "company": "원익IPS",
       "company_dir": "wonik_ips",
       "company_slug": "wonik_ips",
-      "source_document_count": 132,
+      "source_document_count": 153,
       "source_documents": [
         {
           "source_group": "TECH_OUTPUT",
@@ -1899,6 +1946,18 @@
         {
           "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/원익IPS/tech/tech_full_appendix.md",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/원익IPS/tech/tech_history_features_2025-08-31.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/원익IPS/tech/tech_history_features_2025-08-31.json",
           "detected_url_count": 0,
           "fallback_url_count": 2
         },
@@ -2468,6 +2527,120 @@
         },
         {
           "source_group": "VALUATION",
+          "source_file": "data/반도체/원익IPS/valuation/intake/company_profile.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/원익IPS/valuation/intake/cross_agent_signals_for_valuation.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/원익IPS/valuation/intake/dcf_inputs.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/원익IPS/valuation/intake/dilution_events.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/원익IPS/valuation/intake/eval_price_history.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/원익IPS/valuation/intake/eval_price_history_monthly.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/원익IPS/valuation/intake/eval_price_history_monthly_v43.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/원익IPS/valuation/intake/eval_price_history_monthly_v44.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/원익IPS/valuation/intake/eval_price_history_monthly_v45.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/원익IPS/valuation/intake/eval_price_history_v43.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/원익IPS/valuation/intake/eval_price_history_v44.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/원익IPS/valuation/intake/eval_price_history_v45.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/원익IPS/valuation/intake/financials_normalized.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/원익IPS/valuation/intake/financials_raw.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/원익IPS/valuation/intake/peer_multiples.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/원익IPS/valuation/intake/price_history.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/원익IPS/valuation/intake/relative_valuation_inputs.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/원익IPS/valuation/intake/shares_outstanding.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/원익IPS/valuation/intake/valuation_assumptions.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
           "source_file": "data/반도체/원익IPS/valuation/intake/valuation_assumptions.json",
           "detected_url_count": 0,
           "fallback_url_count": 5
@@ -2636,12 +2809,12 @@
             "https://www.google.com/search?q=%EC%9B%90%EC%9",
             "http://www.w3.org/2001/XMLSchema-instance",
             "http://www.nepes.co.kr",
+            "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93261721ef0f99a135512a960198acac301d24fb155081630e1a56652192b388183acb36a0dea23d9b6882f1584bd0bc0231c714dd48a54437",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c938dac956462521541af8104b2621451286c7ee9143f001b7ea0386e94fd395aceb3c523db9e50c8f0cb80bd03c3bc2b36458f17d6f442fcff",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93c77104924888ba895126d1ad8b7485f82670d89bdd87b5b60b4de0718ac2baa878418b421f5632fa6b0a5bf904d762ff7d7c7b461a9257e6",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9311487273ec768278690a53314488bb045caa9077ae7a9beb6a7b42fdf15456cda8b1b63732d9d19b72ef166fb0179ffe9d3f2b034f9f19a5",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9372ec71bbcfe5c14bd16038dc7e12dd43b7c31595385a0d0f0206a459c844e42b8f1a38e5fabe7078afe9b5284004f369aba7174b85970c47",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93324db56d7d7eace9628fb28aa5c96e9526361ff7c221ac529d89d2c6e87ce1ec619bbac981acbe0ace08bed7987de84862fb9823568195aa"
+            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9372ec71bbcfe5c14bd16038dc7e12dd43b7c31595385a0d0f0206a459c844e42b8f1a38e5fabe7078afe9b5284004f369aba7174b85970c47"
           ],
           "fallback_urls": [
             "https://www.google.com/search?q=%EC%9B%90%EC%9D%B5IPS+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
@@ -2664,12 +2837,12 @@
             "https://www.google.com/search?q=%EC%9B%90%EC%9D%B5IPS+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
             "https://www.google.com/search?q=%EC%9B%90%EC%9D%B5IPS+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
             "https://www.google.com/search?q=%EC%9B%90%EC%9D%B5IPS+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
+            "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93261721ef0f99a135512a960198acac301d24fb155081630e1a56652192b388183acb36a0dea23d9b6882f1584bd0bc0231c714dd48a54437",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c938dac956462521541af8104b2621451286c7ee9143f001b7ea0386e94fd395aceb3c523db9e50c8f0cb80bd03c3bc2b36458f17d6f442fcff",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93c77104924888ba895126d1ad8b7485f82670d89bdd87b5b60b4de0718ac2baa878418b421f5632fa6b0a5bf904d762ff7d7c7b461a9257e6",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9311487273ec768278690a53314488bb045caa9077ae7a9beb6a7b42fdf15456cda8b1b63732d9d19b72ef166fb0179ffe9d3f2b034f9f19a5",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9372ec71bbcfe5c14bd16038dc7e12dd43b7c31595385a0d0f0206a459c844e42b8f1a38e5fabe7078afe9b5284004f369aba7174b85970c47",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93324db56d7d7eace9628fb28aa5c96e9526361ff7c221ac529d89d2c6e87ce1ec619bbac981acbe0ace08bed7987de84862fb9823568195aa",
             "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
             "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9328f5a912c888a1604ff579e87f821b091a0665246f3173a6cae241fd42c7005fb584f7181202ddb2669153aa54387f5f558cf6b7b6d352be",
@@ -3149,11 +3322,9 @@
               "source_file": "data/반도체/원익IPS/finance/원익IPS_finance.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
-                "매출",
-                "매출액",
-                "성장"
+                "매출"
               ],
-              "snippet": "summary: 원익IPS는 2023년 영업이익 및 순이익 적자를 기록했으나, 2024년 흑자전환에 성공하며 2025년에는 매출액 9097억원, 영업이익 738억원으로 큰 폭의 성장이 예상된다.",
+              "snippet": "summary: 원익IPS는 2023년 매출이 큰 폭으로 감소하며 영업이익이 적자 전환했으나, 2024년에는 매출이 회복되고 영업이익이 흑자 전환하며 수익성이 개선되는 모습을 보였다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3169,10 +3340,27 @@
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
                 "매출",
-                "매출액",
                 "성장"
               ],
-              "snippet": "key_thesis: 2025년 예상 매출액 9097억원, 영업이익 738억원으로 전년 대비 각각 21.6%, 594.8%의 높은 성장률이 전망된다.",
+              "snippet": "key_thesis: 2024년 매출성장률이 8.38%로 회복되었으며, 영업이익률 또한 -2.62%에서 1.42%로 개선되었다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%9B%90%EC%9D%B5IPS+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/원익IPS/finance/원익IPS_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "매출",
+                "성장"
+              ],
+              "snippet": "key_risks: 2023년 매출성장률이 -31.75%로 큰 폭의 감소를 기록했으며, 2024년 회복세에도 불구하고 과거 수준과의 비교가 필요하다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3208,7 +3396,7 @@
                 "매출",
                 "성장"
               ],
-              "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수",
+              "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3225,7 +3413,24 @@
               "matched_keywords": [
                 "sales"
               ],
-              "snippet": "sales: 909795691103.0",
+              "snippet": "sales: 748176487524.0",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%9B%90%EC%9D%B5IPS+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/원익IPS/finance/원익IPS_finance_agent_packet.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "sales"
+              ],
+              "snippet": "sales_growth: 8.37835022368556",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3242,41 +3447,7 @@
               "matched_keywords": [
                 "sales"
               ],
-              "snippet": "year: 2023 | sales: 690337586778.0 | operating_income: -18074991250.0 | net_income: -13507700947.0 | total_assets: 1084862841788.0 | total_liabilities: 218160246280.0 | total_equity: 866702595508.0 | rnd: 29404136071 | capex: 64566846697 | ocf: -12315183037 | fcf: -76882029734 | interest: 483799701.0 | ROE: -1.558516268095717 | 영업이익률: -2.6182829381145356 | 부채비율: 25.17129259917929 | 이자보상배율: -37.36048454068805",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%9B%90%EC%9D%B5IPS+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/원익IPS/finance/원익IPS_재무.csv",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "sales"
-              ],
-              "snippet": "year: 2024 | sales: 748176487524.0 | operating_income: 10641636214.0 | net_income: 20748346848.0 | total_assets: 1124147065791.0 | total_liabilities: 236686893210.0 | total_equity: 887460172581.0 | rnd: 8528071029 | capex: 31756103666 | ocf: 78280504451 | fcf: 46524400785 | interest: 385433652.0 | ROE: 2.337946815985848 | 영업이익률: 1.4223430422435772 | 부채비율: 26.670142562188857 | 이자보상배율: 27.60951504566602",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%9B%90%EC%9D%B5IPS+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/원익IPS/finance/원익IPS_재무.csv",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "sales"
-              ],
-              "snippet": "year: 2025 | sales: 909795691103.0 | operating_income: 73814129967.0 | net_income: 84028556164.0 | total_assets: 1164636219440.0 | total_liabilities: 194620663488.0 | total_equity: 970015555952.0 | rnd: 10021654667 | capex: 32003350977 | ocf: 156607028356 | fcf: 124603677379 | interest: 10942997.0 | ROE: 8.66259882621491 | 영업이익률: 8.113264405276606 | 부채비율: 20.063664164333314 | 이자보상배율: 6745.330366717637",
+              "snippet": "year: 2021 | sales: 1232302198954.0 | operating_income: 164128988758.0 | net_income: 145116947236.0 | total_assets: 1167585591415.0 | total_liabilities: 366545866913.0 | total_equity: 801039724502.0 | current_assets: 674847713442.0 | current_liabilities: 359397009130.0 | capex: 100863199344 | ocf: 137290457928 | fcf: 36427258584 | interest_expense: 74717230.0 | roe: 18.116073747306107 | operating_margin: 13.318891169",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3305,45 +3476,9 @@
               "source_file": "data/반도체/원익IPS/finance/원익IPS_finance.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
-                "영업이익률",
                 "수익성"
               ],
-              "snippet": "2025년 기준 영업이익률 8.11%, ROE 8.66%로 수익성이 개선될 전망이며, 부채비율도 20.06%로 안정적인 수준을 유지할 것으로 보인다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%9B%90%EC%9D%B5IPS+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/원익IPS/finance/원익IPS_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "수익성"
-              ],
-              "snippet": "key_thesis: 2024년 영업이익 106억원, 순이익 207억원으로 흑자전환에 성공하며 수익성 개선의 기반을 마련했다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%9B%90%EC%9D%B5IPS+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/원익IPS/finance/원익IPS_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "영업이익률",
-                "수익성"
-              ],
-              "snippet": "key_thesis: 2025년 예상 영업이익률 8.11%, ROE 8.66%로 수익성이 크게 개선될 것으로 예상된다.",
+              "snippet": "summary: 원익IPS는 2023년 매출이 큰 폭으로 감소하며 영업이익이 적자 전환했으나, 2024년에는 매출이 회복되고 영업이익이 흑자 전환하며 수익성이 개선되는 모습을 보였다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3361,7 +3496,7 @@
                 "현금흐름",
                 "FCF"
               ],
-              "snippet": "key_thesis: 2025년 예상 자유현금흐름(FCF)은 1246억원으로 대폭 증가하여 투자 및 운영 자금 확보에 긍정적이다.",
+              "snippet": "2021년 대비 부채비율은 낮아졌으나, 2022년 이후 자유현금흐름(FCF)은 마이너스를 기록하며 현금 창출 능력에 대한 점검이 필요하다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3376,10 +3511,9 @@
               "source_file": "data/반도체/원익IPS/finance/원익IPS_finance.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
-                "영업이익률",
-                "수익성"
+                "영업이익률"
               ],
-              "snippet": "key_risks: 2023년 영업이익률 -2.62%, ROE -1.56%로 큰 폭의 적자를 기록하며 수익성 변동성이 높았다.",
+              "snippet": "key_thesis: 2024년 매출성장률이 8.38%로 회복되었으며, 영업이익률 또한 -2.62%에서 1.42%로 개선되었다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3391,12 +3525,13 @@
             },
             {
               "source_group": "FINANCE",
-              "source_file": "data/반도체/원익IPS/finance/원익IPS_finance_agent_packet.json",
+              "source_file": "data/반도체/원익IPS/finance/원익IPS_finance.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
+                "현금흐름",
                 "FCF"
               ],
-              "snippet": "report_core_points: FCF: 원익IPS 2025 기준 FCF 값은 124,603,677,379원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+              "snippet": "key_risks: 2022년 이후 자유현금흐름(FCF)이 지속적으로 마이너스를 기록하고 있어 현금 창출 능력에 대한 추가 확인이 필요하다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3408,12 +3543,47 @@
             },
             {
               "source_group": "FINANCE",
-              "source_file": "data/반도체/원익IPS/finance/원익IPS_finance_agent_packet.json",
+              "source_file": "data/반도체/원익IPS/finance/원익IPS_finance.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
                 "영업이익률"
               ],
-              "snippet": "missing_prompt_metrics: 영업이익률",
+              "snippet": "key_risks: 2023년 영업이익률이 -2.62%로 큰 폭의 적자를 기록했으며, 2024년 1.42%로 회복되었으나 여전히 낮은 수준이다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%9B%90%EC%9D%B5IPS+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/원익IPS/finance/원익IPS_finance_agent_packet.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "영업이익률",
+                "수익성"
+              ],
+              "snippet": "report_core_points: 영업이익률: 원익IPS 2024 기준 영업이익률 값은 1.42%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%9B%90%EC%9D%B5IPS+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/원익IPS/finance/원익IPS_finance_agent_packet.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "수익성"
+              ],
+              "snippet": "report_core_points: ROE: 원익IPS 2024 기준 ROE 값은 2.34%이며, 자기자본 대비 수익성 수준을 확인하는 지표입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3430,7 +3600,7 @@
               "matched_keywords": [
                 "FCF"
               ],
-              "snippet": "metric: fcf",
+              "snippet": "report_core_points: FCF: 원익IPS 2024 기준 FCF 값은 46,524,400,785원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3646,7 +3816,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\원익IPS\\tech\\wonik_ips_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\원익IPS\\tech\\wonik_ips_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-20T21:36:37",
+      "generated_at": "2026-05-25T21:10:44",
       "core_counts": {
         "total_patents": 116,
         "registered_patents_estimated": 48,
@@ -3734,8 +3904,8 @@
     "bridge_signal": "IP_QUALITY_NEUTRAL"
   },
   "formula_catalog_summary": {
-    "json": "data\\반도체\\원익IPS\\tech\\wonik_ips_tech_formula_rules.json",
-    "md": "data\\반도체\\원익IPS\\tech\\wonik_ips_tech_formula_rules.md",
+    "json": "C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\wonik_ips_tech_formula_rules.json",
+    "md": "C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\wonik_ips_tech_formula_rules.md",
     "rule_count": 34
   },
   "evidence_harvest_summary": {
@@ -3772,6 +3942,8 @@
     "tech_full_appendix_json": null,
     "tech_chair_summary_json": "data/반도체/원익IPS/tech/tech_chair_summary.json",
     "tech_chair_summary_md": "data/반도체/원익IPS/tech/wonik_ips_tech_chair_summary.md",
+    "tech_history_feature_json": "data/반도체/원익IPS/tech/tech_history_features_2025-08-31.json",
+    "tech_history_feature_csv": "data/반도체/원익IPS/tech/tech_history_features_2025-08-31.csv",
     "tech_json": "data/반도체/원익IPS/tech/wonik_ips_tech.json",
     "tech_agent_packet_json": "data/반도체/원익IPS/tech/wonik_ips_tech_agent_packet.json"
   },
@@ -4662,7 +4834,7 @@
     "field": "반도체",
     "source_csv": "data\\반도체\\원익IPS\\tech\\wonik_ips_kipris_patents_normalized.csv",
     "enriched_csv": "data\\반도체\\원익IPS\\tech\\wonik_ips_kipris_tech_ml_enriched.csv",
-    "generated_at": "2026-05-20T21:36:37",
+    "generated_at": "2026-05-25T21:10:44",
     "core_counts": {
       "total_patents": 116,
       "registered_patents_estimated": 48,

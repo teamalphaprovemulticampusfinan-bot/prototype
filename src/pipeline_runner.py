@@ -15,6 +15,14 @@ configure_utf8_stdio()
 
 
 DEFAULT_PIPELINE_AGENTS = "macro,market,issue,finance,tech,valuation"
+SHEETS_BACKEND_VALUES = {"sheets", "google_sheets", "gsheets", "google"}
+
+
+def _env_bool(name: str, default: bool = False) -> bool:
+    value = os.getenv(name)
+    if value is None:
+        return default
+    return str(value).strip().lower() in {"1", "true", "yes", "y", "on"}
 
 
 def _env_int(name: str, default: int) -> int:
@@ -23,6 +31,24 @@ def _env_int(name: str, default: int) -> int:
         return int(value) if value else default
     except Exception:
         return default
+
+
+def _sheets_output_requested() -> bool:
+    backend = os.getenv("ALPHAPROVE_CHAIR_OUTPUT_BACKEND", "").strip().lower()
+    return backend in SHEETS_BACKEND_VALUES or _env_bool("CHAIR_USE_GOOGLE_SHEETS", False)
+
+
+def _force_local_chair_history() -> None:
+    """Keep full-pipeline runs independent from stale Google Sheets .env values."""
+    if _sheets_output_requested():
+        return
+    os.environ["ALPHAPROVE_HISTORY_BACKEND"] = "local"
+    os.environ["ALPHAPROVE_DISABLE_GOOGLE_SHEETS"] = "1"
+    os.environ["ALPHAPROVE_CHAIR_OUTPUT_BACKEND"] = "local"
+    os.environ["CHAIR_FORCE_LOCAL_OUTPUT"] = "1"
+    os.environ["ALPHAPROVE_SHEETS_DB_ONLY"] = "0"
+    os.environ["ALPHAPROVE_HISTORY_LOCAL_WRITE_DISABLED"] = "0"
+    os.environ.setdefault("CHAIR_FORCE_TEMPLATE_REPORT", "1")
 
 
 def main(argv: Sequence[str] | None = None) -> int:
@@ -74,6 +100,8 @@ def main(argv: Sequence[str] | None = None) -> int:
     parser.add_argument("--fail-open", action="store_true", help="Auditor가 실패해도 Chair 보고서 생성을 시도")
     parser.add_argument("--json", action="store_true", help="최종 state 요약 JSON 출력")
     args = parser.parse_args(argv)
+
+    _force_local_chair_history()
 
     if args.fail_open:
         os.environ["AUDITOR_FIRST_FAIL_OPEN"] = "1"

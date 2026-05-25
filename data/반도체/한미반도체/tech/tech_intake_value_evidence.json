@@ -2,12 +2,12 @@
   "agent": "tech_intake",
   "artifact": "tech_intake_value_evidence_bridge",
   "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-  "created_at": "2026-05-20T19:58:22",
+  "created_at": "2026-05-25T19:53:43",
   "field": "반도체",
   "company": "한미반도체",
   "company_dir": "hanmi",
   "company_slug": "hanmi",
-  "source_document_count": 149,
+  "source_document_count": 169,
   "source_documents": [
     {
       "source_group": "KIPRIS",
@@ -26,12 +26,6 @@
       "source_file": "data/반도체/한미반도체/tech/hanmi_kipris_bibliographic_normalized_summary.md",
       "detected_url_count": 0,
       "fallback_url_count": 4
-    },
-    {
-      "source_group": "KIPRIS",
-      "source_file": "data/반도체/한미반도체/tech/hanmi_kipris_citations_normalized.csv",
-      "detected_url_count": 20,
-      "fallback_url_count": 0
     },
     {
       "source_group": "KIPRIS",
@@ -186,7 +180,7 @@
     {
       "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/한미반도체/tech/hanmi_tech_intake_value_evidence.json",
-      "detected_url_count": 16,
+      "detected_url_count": 14,
       "fallback_url_count": 0
     },
     {
@@ -449,6 +443,18 @@
     },
     {
       "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/한미반도체/tech/tech_history_features_2025-08-31.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/한미반도체/tech/tech_history_features_2025-08-31.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/한미반도체/tech/tech_intake_manifest.json",
       "detected_url_count": 0,
       "fallback_url_count": 2
@@ -462,7 +468,7 @@
     {
       "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/한미반도체/tech/tech_intake_value_evidence.json",
-      "detected_url_count": 16,
+      "detected_url_count": 14,
       "fallback_url_count": 0
     },
     {
@@ -767,6 +773,120 @@
     },
     {
       "source_group": "VALUATION",
+      "source_file": "data/반도체/한미반도체/valuation/intake/company_profile.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한미반도체/valuation/intake/cross_agent_signals_for_valuation.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한미반도체/valuation/intake/dcf_inputs.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한미반도체/valuation/intake/dilution_events.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한미반도체/valuation/intake/eval_price_history.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한미반도체/valuation/intake/eval_price_history_monthly.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한미반도체/valuation/intake/eval_price_history_monthly_v43.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한미반도체/valuation/intake/eval_price_history_monthly_v44.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한미반도체/valuation/intake/eval_price_history_monthly_v45.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한미반도체/valuation/intake/eval_price_history_v43.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한미반도체/valuation/intake/eval_price_history_v44.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한미반도체/valuation/intake/eval_price_history_v45.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한미반도체/valuation/intake/financials_normalized.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한미반도체/valuation/intake/financials_raw.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한미반도체/valuation/intake/peer_multiples.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한미반도체/valuation/intake/price_history.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한미반도체/valuation/intake/relative_valuation_inputs.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한미반도체/valuation/intake/shares_outstanding.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/한미반도체/valuation/intake/valuation_assumptions.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
       "source_file": "data/반도체/한미반도체/valuation/intake/valuation_assumptions.json",
       "detected_url_count": 0,
       "fallback_url_count": 5
@@ -848,60 +968,6 @@
       "source_file": "data/반도체/한미반도체/valuation/intake/valuation_reference_universe_summary.json",
       "detected_url_count": 0,
       "fallback_url_count": 5
-    },
-    {
-      "source_group": "VALUATION",
-      "source_file": "data/반도체/한미반도체/valuation/intake/valuation_share_count.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "VALUATION",
-      "source_file": "data/반도체/한미반도체/valuation/intake/valuation_source_map.json",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "FINANCE",
-      "source_file": "data/반도체/한미반도체/finance/한미반도체_finance.json",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "FINANCE",
-      "source_file": "data/반도체/한미반도체/finance/한미반도체_finance_agent_packet.json",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "FINANCE",
-      "source_file": "data/반도체/한미반도체/finance/한미반도체_stock.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "FINANCE",
-      "source_file": "data/반도체/한미반도체/finance/한미반도체_재무.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "FINANCE",
-      "source_file": "data/반도체/한미반도체/finance/한미반도체_재무데이터.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "FINANCE",
-      "source_file": "data/반도체/한미반도체/finance/한미반도체_주식.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "FINANCE",
-      "source_file": "data/반도체/한미반도체/finance/intake/finance_intake_manifest.json",
-      "detected_url_count": 1,
-      "fallback_url_count": 0
     }
   ],
   "source_url_map": {
@@ -927,26 +993,6 @@
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e007dcee8259cd045f784f8699a7c92ecf93d34bdc5820a7c030cc945af0a17c6724f7f0510e922b89dfa69ab25f22d3384b28e82280704d028",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e006354c8333d50931c1146d713738089ada4c17772c1a84ddfb7089bdb7945d188b3856ee080eb5de9b4d5a49c41e1a25de4f6c8a2bbe393c4",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e007dcee8259cd045f79dc53c3afe25a8ce4182904efe4443535ef10134af544ea7c9c4318fa9552b752e40e2e49aac4bb4856ee11410ede645",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200005785&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200025979&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200122699&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200129683&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200160708&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200162388&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200165820&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200174522&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200175188&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200177668&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210016225&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210034267&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210037705&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210039902&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210049001&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210058998&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210077463&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210077465&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210091847&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210130128&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
         "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/applicantNameSearchInfo",
         "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=102020030033208&registerNumber=2003386060000&registrationNumber=2003386060000&format=xml",
         "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=102020080004461&openNumber=2020090010248&publicationNumber=2020090010248&registerNumber=2004681560000&registrationNumber=2004681560000&format=xml",
@@ -992,6 +1038,26 @@
         "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?serviceKey=%2A%2A%2AKEY%2A%2A%2A&appno=1020210016225",
         "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?AccessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
         "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?AccessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNo=1020210016225",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200005785&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200025979&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200122699&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200129683&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200160708&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200162388&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200165820&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200174522&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200175188&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200177668&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210016225&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210034267&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210037705&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210039902&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210049001&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210058998&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210077463&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210077465&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210091847&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210130128&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
         "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020170180723&openNumber=1020190078928&publicationNumber=1020190078928&registerNumber=1024304310000&registrationNumber=1024304310000&format=xml",
         "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020230162777&openNumber=1020250075375&publicationNumber=1020250075375&format=xml",
         "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020150046069&registerNumber=1016273360000&registrationNumber=1016273360000&format=xml",
@@ -1076,9 +1142,7 @@
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c592fb536ea920a4d67c5d1f7003f79d07fe12e282bf5cc92512290a010863538",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9358cd995b5cefeafab07fe427dc10993d2a74a14e3704711d36f3acf0f0ca7242261100c4545ff3f624546c0a1516411e42ee4656d5aeb9f8",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c935157be90321e10e539faac0d04eb50c1d058a9db6779d43e41780e3424851fd129d7246b6dee3d8d6136860f233b3041d160bcd5034e052d",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00c42cc586cf1ac89c56513d33740ca8d7812cc3915f536bec3c534a23d49b8f6aa8a24ce45fdd77f84ecc8f7570cb0303bad2cd2bce30415f",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00436613a0f8cfc2254a90f182e5de31c37c0a1fea233ba035a8c8d501b1aa4ba489a02491d56810e81e72649a2532b7204b7b7a570ac4045e",
-        "http://plus.kipris.or.kr/op",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00c42cc586cf1ac89c56513d33740",
         "https://dart.fss.or.kr/",
         "https://dart.fss.or.kr/dsab007/main.do?option=corp",
         "http://www.w3.org/2001/XMLSchema-instance",
@@ -1818,9 +1882,9 @@
       "status": "DIRECT_EVIDENCE",
       "status_kr": "직접 근거 확인",
       "score": 48.12,
-      "direct_evidence_count": 4,
+      "direct_evidence_count": 3,
       "indirect_evidence_count": 0,
-      "partial_or_cross_check_count": 0,
+      "partial_or_cross_check_count": 1,
       "limited_evidence_count": 0,
       "components": {
         "legal_status": {
@@ -1834,8 +1898,8 @@
           "source_file": "data/반도체/한미반도체/tech/hanmi_tech_ip_claim_features.json"
         },
         "citations": {
-          "status": "COLLECTED",
-          "count": 901,
+          "status": "NO_CITATION_COLLECTED",
+          "count": 0,
           "source_file": "data/반도체/한미반도체/tech/hanmi_tech_ip_citation_features.json"
         },
         "family": {
@@ -1888,12 +1952,12 @@
         {
           "source_group": "KIPRIS",
           "source_file": "data/반도체/한미반도체/tech/hanmi_tech_ip_citation_features.json",
-          "evidence_level": "DIRECT_EVIDENCE",
+          "evidence_level": "PARTIAL_EVIDENCE",
           "matched_keywords": [
             "citations",
-            "COLLECTED"
+            "NO_CITATION_COLLECTED"
           ],
-          "snippet": "citations: status=COLLECTED, count=901, score=None, signal=None",
+          "snippet": "citations: status=NO_CITATION_COLLECTED, count=0, score=None, signal=None",
           "urls": [],
           "fallback_urls": [
             "https://www.kipris.or.kr/khome/main.jsp",
@@ -1946,7 +2010,7 @@
     "고객 채택: 확인된 고객사·공급 근거가 실제 반복 매출로 이어지는지 후속 확인",
     "양산: 양산 근거가 제품별 매출·가동률·수율 개선으로 이어지는지 확인",
     "매출 전환: 기술 적용 제품군의 매출 지속성과 고객 concentration 리스크 확인",
-    "IP 품질: 청구항·인용·패밀리·존속 상태가 수집된 상태이므로 IP Evidence Composite와 Bridge 조정값의 방향성을 점검",
+    "IP 품질: citations 데이터 보강 후 청구항·인용·패밀리·존속 상태를 재점수화",
     "마진·원가·현금흐름: 확인된 수익성/현금흐름 개선이 일회성이 아닌지 기간별 추세 확인"
   ],
   "usage_rule": "This artifact does not claim that technology already generated revenue or FCF. It separates direct evidence, indirect evidence, partial evidence, and cross-check-required items for Chair reporting.",

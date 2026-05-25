@@ -2,12 +2,12 @@
   "agent": "tech_intake",
   "artifact": "tech_intake_value_evidence_bridge",
   "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-  "created_at": "2026-05-20T21:03:57",
+  "created_at": "2026-05-25T20:12:15",
   "field": "반도체",
   "company": "엘티씨",
   "company_dir": "ltc",
   "company_slug": "ltc",
-  "source_document_count": 148,
+  "source_document_count": 168,
   "source_documents": [
     {
       "source_group": "KIPRIS",
@@ -26,12 +26,6 @@
       "source_file": "data/반도체/엘티씨/tech/ltc_kipris_bibliographic_normalized_summary.md",
       "detected_url_count": 0,
       "fallback_url_count": 4
-    },
-    {
-      "source_group": "KIPRIS",
-      "source_file": "data/반도체/엘티씨/tech/ltc_kipris_citations_normalized.csv",
-      "detected_url_count": 20,
-      "fallback_url_count": 0
     },
     {
       "source_group": "KIPRIS",
@@ -186,7 +180,7 @@
     {
       "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/엘티씨/tech/ltc_tech_intake_value_evidence.json",
-      "detected_url_count": 18,
+      "detected_url_count": 16,
       "fallback_url_count": 0
     },
     {
@@ -449,6 +443,18 @@
     },
     {
       "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/엘티씨/tech/tech_history_features_2025-08-31.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/엘티씨/tech/tech_history_features_2025-08-31.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/엘티씨/tech/tech_intake_manifest.json",
       "detected_url_count": 0,
       "fallback_url_count": 2
@@ -462,7 +468,7 @@
     {
       "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/엘티씨/tech/tech_intake_value_evidence.json",
-      "detected_url_count": 18,
+      "detected_url_count": 16,
       "fallback_url_count": 0
     },
     {
@@ -761,6 +767,120 @@
     },
     {
       "source_group": "VALUATION",
+      "source_file": "data/반도체/엘티씨/valuation/intake/company_profile.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/엘티씨/valuation/intake/cross_agent_signals_for_valuation.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/엘티씨/valuation/intake/dcf_inputs.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/엘티씨/valuation/intake/dilution_events.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/엘티씨/valuation/intake/eval_price_history.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/엘티씨/valuation/intake/eval_price_history_monthly.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/엘티씨/valuation/intake/eval_price_history_monthly_v43.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/엘티씨/valuation/intake/eval_price_history_monthly_v44.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/엘티씨/valuation/intake/eval_price_history_monthly_v45.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/엘티씨/valuation/intake/eval_price_history_v43.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/엘티씨/valuation/intake/eval_price_history_v44.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/엘티씨/valuation/intake/eval_price_history_v45.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/엘티씨/valuation/intake/financials_normalized.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/엘티씨/valuation/intake/financials_raw.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/엘티씨/valuation/intake/peer_multiples.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/엘티씨/valuation/intake/price_history.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/엘티씨/valuation/intake/relative_valuation_inputs.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/엘티씨/valuation/intake/shares_outstanding.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/엘티씨/valuation/intake/valuation_assumptions.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
       "source_file": "data/반도체/엘티씨/valuation/intake/valuation_assumptions.json",
       "detected_url_count": 0,
       "fallback_url_count": 5
@@ -848,54 +968,6 @@
       "source_file": "data/반도체/엘티씨/valuation/intake/valuation_share_count.csv",
       "detected_url_count": 0,
       "fallback_url_count": 5
-    },
-    {
-      "source_group": "VALUATION",
-      "source_file": "data/반도체/엘티씨/valuation/intake/valuation_source_map.json",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "FINANCE",
-      "source_file": "data/반도체/엘티씨/finance/엘티씨_finance.json",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "FINANCE",
-      "source_file": "data/반도체/엘티씨/finance/엘티씨_finance_agent_packet.json",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "FINANCE",
-      "source_file": "data/반도체/엘티씨/finance/엘티씨_stock.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "FINANCE",
-      "source_file": "data/반도체/엘티씨/finance/엘티씨_재무.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "FINANCE",
-      "source_file": "data/반도체/엘티씨/finance/엘티씨_재무데이터.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "FINANCE",
-      "source_file": "data/반도체/엘티씨/finance/엘티씨_주식.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "FINANCE",
-      "source_file": "data/반도체/엘티씨/finance/intake/finance_intake_manifest.json",
-      "detected_url_count": 1,
-      "fallback_url_count": 0
     }
   ],
   "source_url_map": {
@@ -921,26 +993,6 @@
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e009fa4f7c219d1dd927717efcd55052bad5855cd79e06cd314775758973d7d0f1312306dc0f715bcc7f189410a4db21107139d5f08dd6ea952",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00ebd0b8dfd8a7f9a0067fb41aaa7b04025b465f233ead20a7bd7a2375ae4fd7cfe3d0bf2a20e0b7a8bfba328da4a4de3204c849c5f48ef40c",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7269608028853b69e6f5e85e0f0e549da38f176e8d8ee1fe7b8f2171fa1072eba3a4e46da3e380da89fc228616a951eb9dbd4db3d16eb65ae23",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200059820&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200112359&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210065179&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020220064126&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020220086509&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020230116837&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020230121706&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020240182128&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020240186675&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020240186678&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020250048629&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020250166842&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020150096355&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020150114310&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020150147030&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020160015304&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020160019718&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020160028670&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020160137827&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
-        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020190048217&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
         "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/applicantNameSearchInfo",
         "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9338c0a17b3c76f52f55e8aab9b7057675d6bf1077374cbb24d7c8e95463608884a82006ac64d4d7911a68b64192b06d25d25d8075018db64a",
@@ -966,6 +1018,26 @@
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf7b0e361c92e46d5c21ce7d5e7217dabdb12992559cb750d1b5b8eb3a461a9364642c3c296d27a5771828e06d960878e8e931b83883709a28",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c935dfcb5bec532bdc86ddb80267f27abbf87c0faf32f859e759c77b6608ea953474114e4b33603c7e6d2d2ab368556c0bcccad41c48c1bc11c",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf1eb579bf81ebf2bb07747b896c01b3cb8c3c8956fdfcbc80fb23205f356a0dd44b3aba3b8dda699db957458a85915484ac9859c59614aa4a",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200059820&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200112359&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210065179&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020220064126&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020220086509&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020230116837&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020230121706&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020240182128&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020240186675&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020240186678&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020250048629&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020250166842&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020150096355&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020150114310&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020150147030&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020160015304&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020160019718&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020160028670&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020160137827&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020190048217&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
         "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210126823&openNumber=1020230045621&publicationNumber=1020230045621&format=xml",
         "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020220069144&openNumber=1020230168652&publicationNumber=1020230168652&format=xml",
         "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020130104201&openNumber=1020150025969&publicationNumber=1020150025969&registerNumber=1015731130000&registrationNumber=1015731130000&format=xml",
@@ -1031,8 +1103,6 @@
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93ce6a950083abfb0cea11ba59bd92ce1a23ceb1e8b28aa74eadd714313ca3dcdd508752c926520326002acb56aa401b2690cff82f9c5f9f04",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c933c9a35f17d2d8d16852776866d9f2a20f0263e62110f496fb9a90c15dfad571e12b26b74e64e0dfb1cd0753c06d958b6af03456b836f5972",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9367e202351212a4204132a8b5e1b9e1c9d4fd46930d95c7710b47919a7d052ac8b13c7fb659e654fd4467484b35633966786e318c4418ba1f",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00fdee542dd56b930311d287323d90926475bfab42f134448f17d9c87d4ed3e1898afcd305cf766a4e0cb9782a80b36fb3ce7400c2913ce7ef",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e009fa4f7c219d1dd927717efcd55052bad5855c",
         "https://dart.fss.or.kr/",
         "https://dart.fss.or.kr/dsab007/main.do?option=corp",
         "http://www.w3.org/2001/XMLSchema-instance",
@@ -1767,9 +1837,9 @@
       "status": "DIRECT_EVIDENCE",
       "status_kr": "직접 근거 확인",
       "score": 50.96,
-      "direct_evidence_count": 4,
+      "direct_evidence_count": 3,
       "indirect_evidence_count": 0,
-      "partial_or_cross_check_count": 0,
+      "partial_or_cross_check_count": 1,
       "limited_evidence_count": 0,
       "components": {
         "legal_status": {
@@ -1783,8 +1853,8 @@
           "source_file": "data/반도체/엘티씨/tech/ltc_tech_ip_claim_features.json"
         },
         "citations": {
-          "status": "COLLECTED",
-          "count": 506,
+          "status": "NO_CITATION_COLLECTED",
+          "count": 0,
           "source_file": "data/반도체/엘티씨/tech/ltc_tech_ip_citation_features.json"
         },
         "family": {
@@ -1837,12 +1907,12 @@
         {
           "source_group": "KIPRIS",
           "source_file": "data/반도체/엘티씨/tech/ltc_tech_ip_citation_features.json",
-          "evidence_level": "DIRECT_EVIDENCE",
+          "evidence_level": "PARTIAL_EVIDENCE",
           "matched_keywords": [
             "citations",
-            "COLLECTED"
+            "NO_CITATION_COLLECTED"
           ],
-          "snippet": "citations: status=COLLECTED, count=506, score=None, signal=None",
+          "snippet": "citations: status=NO_CITATION_COLLECTED, count=0, score=None, signal=None",
           "urls": [],
           "fallback_urls": [
             "https://www.kipris.or.kr/khome/main.jsp",
@@ -1895,7 +1965,7 @@
     "고객 채택: 확인된 고객사·공급 근거가 실제 반복 매출로 이어지는지 후속 확인",
     "양산: 양산 근거가 제품별 매출·가동률·수율 개선으로 이어지는지 확인",
     "매출 전환: 기술 적용 제품군의 매출 지속성과 고객 concentration 리스크 확인",
-    "IP 품질: 청구항·인용·패밀리·존속 상태가 수집된 상태이므로 IP Evidence Composite와 Bridge 조정값의 방향성을 점검",
+    "IP 품질: citations 데이터 보강 후 청구항·인용·패밀리·존속 상태를 재점수화",
     "마진·원가·현금흐름: 확인된 수익성/현금흐름 개선이 일회성이 아닌지 기간별 추세 확인"
   ],
   "usage_rule": "This artifact does not claim that technology already generated revenue or FCF. It separates direct evidence, indirect evidence, partial evidence, and cross-check-required items for Chair reporting.",

@@ -4,7 +4,7 @@
 - **의견:** 매수
 - **Tech-to-Value:** base 72.00/100 / 사업화 추적형(COMMERCIALIZATION_WATCH)
 - **Peer-adjusted:** 80.53/100 / 사업화 추적형(COMMERCIALIZATION_WATCH)
-- **IP Evidence Composite:** 53.56/100 / IP 근거 중립형(IP_EVIDENCE_NEUTRAL)
+- **IP Evidence Composite:** 54.05/100 / IP 근거 중립형(IP_EVIDENCE_NEUTRAL)
 - **ML 우선 반영:** Technology Differentiation Score + Tech-to-Value Evidence Confidence + IP Evidence Composite Score
 - **해석:** prompts.py의 공통 루브릭에 맞춰 R&D는 effort, 특허/IP는 intermediate output, 고객 채택·양산·매출·마진·FCF는 commercial outcome으로 분리합니다. 차별화 점수는 peer 대비 기술/IP 포트폴리오의 구별성을, Evidence Confidence는 고객 채택·양산·매출·FCF 연결 근거의 직접성을, IP Evidence Composite는 등록·존속 안정성, 청구항 방어력, 인용 영향력, 해외 패밀리 확장성을 종합해 Chair 요약에 반영합니다.
 - **루브릭 원천:** `src/tech_agent/prompts.py`
@@ -27,44 +27,44 @@
 | Technology Differentiation Score | 57.59/100 / 50.00%ile | peer 대비 기술/IP 포트폴리오 차별성 |
 | Evidence Confidence | 79.70/100 | 고객 채택·양산·매출·FCF 근거의 직접성 |
 | Patent Momentum | 52.64/100 | 최근 특허 활동의 현재성·지속성 |
-| IP Legal Stability | 70.47/100 | 등록률·존속률·소멸/거절/취하 비중 기반 권리 안정성 |
+| IP Legal Stability | 70.50/100 | 등록률·존속률·소멸/거절/취하 비중 기반 권리 안정성 |
 | IP Claim Defense | 67.96/100 | 청구항 수·독립항 수·수집 커버리지 기반 특허 방어력 |
 | IP Citation Impact | 확인 제한 | 피인용·외부인용 기반 기술 영향력/시장 참조 가치 |
-| IP Global Extension | 33.67/100 | 해외 패밀리·PCT/WO·미국/일본/유럽/중국 확장성 |
-| IP Evidence Composite | 53.56/100 | 법적 안정성·청구항·인용·패밀리 특허를 통합한 종합 IP 근거 점수 |
+| IP Global Extension | 35.82/100 | 해외 패밀리·PCT/WO·미국/일본/유럽/중국 확장성 |
+| IP Evidence Composite | 54.05/100 | 법적 안정성·청구항·인용·패밀리 특허를 통합한 종합 IP 근거 점수 |
 | IP Evidence Bridge Signal | IP_EVIDENCE_NEUTRAL / 0.00점 | Tech-to-Value Bridge 보수적 보정 신호 |
 | Peer-adjusted Bridge | 80.53/100 | Reference Universe, KMeans, Cosine Similarity, UMAP, Peer Percentile 기반 보정 |
 
 ## 4. KIPRIS/IP 정량 신호
 | 원천 신호 | 값 |
 |---|---:|
-| 정규화 특허 텍스트 레코드 | 8,602건 |
-| 회사 출원인/권리자 매칭 | 8,105건 |
-| 등록 특허 | 4,809건 |
-| 존속 가능 특허 | 5,222건 |
-| 최근 5년 특허 | 447건 |
-| IPC/CPC 다양성 | 126개 |
+| 정규화 특허 텍스트 레코드 | 10,315건 |
+| 회사 출원인/권리자 매칭 | 9,754건 |
+| 등록 특허 | 4,843건 |
+| 존속 가능 특허 | 6,887건 |
+| 최근 5년 특허 | 2,037건 |
+| IPC/CPC 다양성 | 128개 |
 | H01L 등 핵심 IPC 특허 | 36건 |
-| KIPRIS 등록률(추정) | 73.81% |
-| 등록특허 중 존속률(추정) | 77.74% |
-| 소멸·거절·취하 등 부정 처분 비중(추정) | 37.86% |
+| KIPRIS 등록률(추정) | 73.52% |
+| 등록특허 중 존속률(추정) | 77.81% |
+| 소멸·거절·취하 등 부정 처분 비중(추정) | 37.35% |
 | 권리자 정보 반영률 | 100.00% |
-| 초록/도면 반영률 | 100.00% / 96.43% |
+| 초록/도면 반영률 | 100.00% / 96.45% |
 | 청구항 수집 커버리지 | 100.00% |
-| 수집 청구항 / 독립항(추정) | 4,785항 / 884항 |
-| 특허당 평균 청구항 / 독립항 비중 | 11.39항 / 18.47% |
+| 수집 청구항 / 독립항(추정) | 4,823항 / 890항 |
+| 특허당 평균 청구항 / 독립항 비중 | 11.40항 / 18.45% |
 | 피인용 총합 / 외부 피인용 | 확인 제한 / 확인 제한 |
 | 외부 피인용률 | 확인 제한 |
-| 해외 패밀리 보유율 | 17.14% |
-| PCT/WO / US / JP / EP / CN | 31건 / 55건 / 14건 / 5건 / 31건 |
+| 해외 패밀리 보유율 | 19.62% |
+| PCT/WO / US / JP / EP / CN | 40건 / 61건 / 21건 / 8건 / 39건 |
 
 ## 5. IP Evidence Composite 세부 구성
 | 구성 요소 | Weight | Score | Contribution | Status |
 |---|---:|---:|---:|---|
-| 등록·존속 안정성 | 0.25 | 70.47/100 | 17.62점 | OK |
+| 등록·존속 안정성 | 0.25 | 70.50/100 | 17.62점 | OK |
 | 청구항 방어 범위 | 0.3 | 67.96/100 | 20.39점 | OK |
-| 인용 기반 기술 영향력 | 0.25 | 35.29/100 | 8.82점 | OK |
-| 해외 패밀리 기반 글로벌 확장성 | 0.2 | 33.67/100 | 6.73점 | OK |
+| 인용 기반 기술 영향력 | 0.25 | 35.50/100 | 8.88점 | OK |
+| 해외 패밀리 기반 글로벌 확장성 | 0.2 | 35.82/100 | 7.16점 | OK |
 
 ## 6. 사업화 연결 체크
 | 연결 항목 | 상태 | 점수 | 직접 | 간접 | 확인 제한 |
@@ -94,17 +94,17 @@
 
 KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근거를 평가했습니다. 이 점수는 특허 수량이 아니라 등록·존속 안정성, 청구항 방어 범위, 인용 기반 기술 영향력, 해외 패밀리 확장성을 종합한 Tech-to-Value Bridge 보조 지표입니다.
 
-- IP Evidence Composite Score: **53.56 / 100**
+- IP Evidence Composite Score: **54.05 / 100**
 - Data Coverage Rate: **1.0**
 - Bridge Signal: **IP_EVIDENCE_NEUTRAL**
 - Bridge Adjustment Points: **0.0**
 
 | Component | 의미 | Weight | Score | Contribution | Status |
 |---|---|---:|---:|---:|---|
-| legal_stability | 등록·존속 안정성 | 0.25 | 70.47 | 17.62 | OK |
+| legal_stability | 등록·존속 안정성 | 0.25 | 70.5 | 17.62 | OK |
 | claim_defense | 청구항 방어 범위 | 0.3 | 67.96 | 20.39 | OK |
-| citation_influence | 인용 기반 기술 영향력 | 0.25 | 35.29 | 8.82 | OK |
-| global_extension | 해외 패밀리 기반 글로벌 확장성 | 0.2 | 33.67 | 6.73 | OK |
+| citation_influence | 인용 기반 기술 영향력 | 0.25 | 35.5 | 8.88 | OK |
+| global_extension | 해외 패밀리 기반 글로벌 확장성 | 0.2 | 35.82 | 7.16 | OK |
 
 해석:
 - 법적 안정성과 청구항 방어력은 IP 포트폴리오의 방어력을 보여줍니다.
@@ -119,12 +119,12 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
 - 의미: KIPRIS 기반 IP Evidence Composite를 Tech-to-Value Bridge 최종 점수 산식에 정식 반영합니다.
 - 산식: final_bridge_score_after_ip_evidence = peer_adjusted_bridge_score_before_ip_evidence + ip_evidence_composite_adjustment_points
 
-- IP Evidence Composite Score: 53.56
+- IP Evidence Composite Score: 54.05
 - IP Evidence Bridge Signal: IP_EVIDENCE_NEUTRAL
 - IP Evidence Adjustment Points: 0.0
 - Peer-adjusted Score Before IP Evidence: 80.53
 - Final Bridge Score After IP Evidence: 80.53
-- Source: `C:/Agent_6.8/data/반도체/네패스/tech/tech_ip_evidence_composite.json`
+- Source: `C:/Agent_6.9/data/반도체/네패스/tech/tech_ip_evidence_composite.json`
 
 해석:
 - 네패스처럼 IP Evidence 조정값이 0.0이면 최종 점수 변화가 없는 것이 정상입니다.
@@ -135,7 +135,7 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
 ## 개인투자자용 Tech 최종 점수판
 
 - **대상 기업:** 네패스
-- **최종 Tech 점수:** 75.42/100
+- **최종 Tech 점수:** 75.52/100
 - **최종 판정:** 기술의 가치전환 준비도는 높지만 일부 고객·매출·마진 근거는 추가 확인 필요 `TECH_TO_VALUE_READY`
 - **해석 원칙:** 특허 수, 기술 키워드 수, 뉴스 수를 각각 따로 과장하지 않고, 사업화 연결 가능성과 근거 직접성을 하나의 최종 점수로 통합했습니다.
 
@@ -143,27 +143,27 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
 | 구성요소 | 점수 | 가중치 | 가중 반영 | 의미 |
 |---|---:|---:|---:|---|
 | Tech-to-Value Bridge | 80.53 | 0.40 | 32.21 | 기술이 고객 채택·양산·매출 전환으로 이어질 가능성 |
-| IP Evidence Composite | 53.56 | 0.20 | 10.71 | 권리 안정성·청구항·인용·패밀리 기반 특허 품질 |
+| IP Evidence Composite | 54.05 | 0.20 | 10.81 | 권리 안정성·청구항·인용·패밀리 기반 특허 품질 |
 | Excel 기반 정량 근거 | 85.00 | 0.15 | 12.75 | 템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지 |
 | 근거 직접성·충분성 | 82.00 | 0.15 | 12.30 | Chair가 개인투자자에게 설명할 수 있는 근거의 직접성 |
 | 사업화·성장자금 지속성 | 74.50 | 0.10 | 7.45 | R&D·특허·정부과제·기술이전·CAPEX/희석성 자금조달이 사업화와 연결되는 정도 |
 
 ### 2) 핵심 해석
-- 네패스의 개인투자자용 Tech 최종 점수는 75.42/100이며, 판정은 기술의 가치전환 준비도는 높지만 일부 고객·매출·마진 근거는 추가 확인 필요입니다.
-- 최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(80.53)와 IP Evidence(53.56) 및 Excel 기반 정량 근거(85.0)를 함께 반영했습니다.
+- 네패스의 개인투자자용 Tech 최종 점수는 75.52/100이며, 판정은 기술의 가치전환 준비도는 높지만 일부 고객·매출·마진 근거는 추가 확인 필요입니다.
+- 최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(80.53)와 IP Evidence(54.05) 및 Excel 기반 정량 근거(85.0)를 함께 반영했습니다.
 - 투자자가 확인할 핵심 근거는 9개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다.
 
 ### 3) 개인투자자가 확인할 근거
 | ID | 출처 | 근거 | 값 | 강도 |
 |---|---|---|---:|---|
 | tech.inv.ev.001 | tech_to_value | **최종 Tech-to-Value Bridge**: 네패스의 최종 기술-사업화 연결 점수는 80.53이며, Chair에는 기술성보다 고객 채택·양산·매출 전환 가능성을 우선 반영합니다. | 80.53점 | 상 |
-| tech.inv.ev.002 | kipris_ip_evidence | **IP Evidence Composite**: 법적 안정성·청구항 방어력·인용 영향력·해외 패밀리 확장성을 합성한 IP Evidence Composite Score는 53.56입니다. | 53.56점 | 상 |
-| tech.inv.ev.003 | kipris_legal | **권리 안정성**: 등록률 0.7381, 존속률 0.7774, 권리 안정성 점수 70.47를 확인했습니다. | 70.47점 | 중 |
-| tech.inv.ev.004 | kipris_claim | **청구항 방어력**: 청구항 수 4785, 독립항 추정 884, claim defense score 67.96입니다. | 67.96점 | 중 |
+| tech.inv.ev.002 | kipris_ip_evidence | **IP Evidence Composite**: 법적 안정성·청구항 방어력·인용 영향력·해외 패밀리 확장성을 합성한 IP Evidence Composite Score는 54.05입니다. | 54.05점 | 상 |
+| tech.inv.ev.003 | kipris_legal | **권리 안정성**: 등록률 0.7352, 존속률 0.7781, 권리 안정성 점수 70.5를 확인했습니다. | 70.5점 | 중 |
+| tech.inv.ev.004 | kipris_claim | **청구항 방어력**: 청구항 수 4823, 독립항 추정 890, claim defense score 67.96입니다. | 67.96점 | 중 |
 | tech.inv.ev.005 | kipris_citation | **인용 영향력**: 전방/후방 인용 및 기술 영향력 점수 기준 IP_CITATION_FALLBACK_ESTIMATED입니다. | - | 중 |
-| tech.inv.ev.006 | kipris_family | **글로벌 패밀리 확장성**: 해외 패밀리 비중 0.1714, 감지 지역 ['CN', 'EP', 'JP', 'US', 'WO'], global extension score 33.67입니다. | 33.67점 | 중 |
-| tech.inv.ev.007 | tech_summary | **Tech Agent 핵심 해석**: 네패스의 개인투자자용 Tech 최종 점수는 75.42/100이며, 판정은 기술의 가치전환 준비도는 높지만 일부 고객·매출·마진 근거는 추가 확인 필요입니다. | - | 중 |
-| tech.inv.ev.008 | tech_summary | **Tech Agent 핵심 해석**: 최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(80.53)와 IP Evidence(53.56) 및 Excel 기반 정량 근거(85.0)를 함께 반영했습니다. | - | 중 |
+| tech.inv.ev.006 | kipris_family | **글로벌 패밀리 확장성**: 해외 패밀리 비중 0.1962, 감지 지역 ['CN', 'EP', 'JP', 'US', 'WO'], global extension score 35.82입니다. | 35.82점 | 중 |
+| tech.inv.ev.007 | tech_summary | **Tech Agent 핵심 해석**: 네패스의 개인투자자용 Tech 최종 점수는 75.52/100이며, 판정은 기술의 가치전환 준비도는 높지만 일부 고객·매출·마진 근거는 추가 확인 필요입니다. | - | 중 |
+| tech.inv.ev.008 | tech_summary | **Tech Agent 핵심 해석**: 최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(80.53)와 IP Evidence(54.05) 및 Excel 기반 정량 근거(85.0)를 함께 반영했습니다. | - | 중 |
 | tech.inv.ev.009 | tech_summary | **Tech Agent 핵심 해석**: 투자자가 확인할 핵심 근거는 6개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다. | - | 중 |
 
 ### 4) 한계와 보완 필요사항
@@ -178,10 +178,10 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
 # 네패스 Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-20T03:49:21
-- 종합 점수: 80.28/100
+- 생성 시각: 2026-05-25T19:48:59
+- 종합 점수: 80.36/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 151개
+- 원천 문서 수: 177개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -189,7 +189,7 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
 | 고객 채택 | 직접 근거 확인 | 85.0 | 8 | 0 | 0 | 고객 채택 관련 직접 근거가 8건 확인됩니다. Chair에서는 가치 전환 근거로 반영하되 원천 URL/파일을 함께 확인합니다. |
 | 양산 | 직접 근거 확인 | 85.0 | 8 | 0 | 0 | 양산 관련 직접 근거가 8건 확인됩니다. Chair에서는 가치 전환 근거로 반영하되 원천 URL/파일을 함께 확인합니다. |
 | 매출 전환 | 직접 근거 확인 | 85.0 | 8 | 0 | 0 | 매출 전환 관련 직접 근거가 8건 확인됩니다. Chair에서는 가치 전환 근거로 반영하되 원천 URL/파일을 함께 확인합니다. |
-| IP 품질 | 직접 근거 확인 | 53.56 | 3 | 0 | 1 | KIPRIS 기반 법적 상태·청구항·인용·패밀리 산출물을 함께 반영합니다. 특허 수량만이 아니라 권리 안정성, 청구항 방어력, 인용 영향력, 해외 확장성을 분리해 Chair 판단에 전달합니다. |
+| IP 품질 | 직접 근거 확인 | 54.05 | 3 | 0 | 1 | KIPRIS 기반 법적 상태·청구항·인용·패밀리 산출물을 함께 반영합니다. 특허 수량만이 아니라 권리 안정성, 청구항 방어력, 인용 영향력, 해외 확장성을 분리해 Chair 판단에 전달합니다. |
 | 마진·원가·현금흐름 연결 | 직접 근거 확인 | 85.0 | 8 | 0 | 0 | 마진·원가·현금흐름 연결 관련 직접 근거가 8건 확인됩니다. Chair에서는 가치 전환 근거로 반영하되 원천 URL/파일을 함께 확인합니다. |
 
 ## 3. 대표 근거
@@ -223,11 +223,11 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
 - [DIRECT_EVIDENCE] <TE ENG="Cash flows from (used in) operating activities" VALIGN="MIDDLE" WIDTH="381" HEIGHT="23" AUPDATECONT="N">영업활동현금흐름</TE> (source=data/반도체/네패스/tech/source/dart_latest_business_report.txt, keywords=현금흐름, urls=http://www.w3.org/2001/XMLSchema-instance, http://www.nepes.co.kr)
 
 ### IP 품질
-- [DIRECT_EVIDENCE] legal_status: status=COLLECTED, count=None, score=0.7381, signal=None (source=data/반도체/네패스/tech/nepes_tech_ip_legal_features.json, keywords=legal_status, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
-- [DIRECT_EVIDENCE] claims: status=COLLECTED, count=4785.0, score=None, signal=None (source=data/반도체/네패스/tech/nepes_tech_ip_claim_features.json, keywords=claims, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
+- [DIRECT_EVIDENCE] legal_status: status=COLLECTED, count=None, score=0.7352, signal=None (source=data/반도체/네패스/tech/nepes_tech_ip_legal_features.json, keywords=legal_status, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
+- [DIRECT_EVIDENCE] claims: status=COLLECTED, count=4823.0, score=None, signal=None (source=data/반도체/네패스/tech/nepes_tech_ip_claim_features.json, keywords=claims, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
 - [PARTIAL_EVIDENCE] citations: status=NO_CITATION_COLLECTED, count=0, score=None, signal=None (source=data/반도체/네패스/tech/nepes_tech_ip_citation_features.json, keywords=citations, NO_CITATION_COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
-- [DIRECT_EVIDENCE] family: status=COLLECTED, count=31.0, score=None, signal=None (source=data/반도체/네패스/tech/nepes_tech_ip_family_features.json, keywords=family, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
-- [DIRECT_EVIDENCE] composite: status=COLLECTED, count=None, score=53.56, signal=IP_EVIDENCE_NEUTRAL (source=data/반도체/네패스/tech/nepes_tech_ip_evidence_composite.json, keywords=composite, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
+- [DIRECT_EVIDENCE] family: status=COLLECTED, count=40.0, score=None, signal=None (source=data/반도체/네패스/tech/nepes_tech_ip_family_features.json, keywords=family, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
+- [DIRECT_EVIDENCE] composite: status=COLLECTED, count=None, score=54.05, signal=IP_EVIDENCE_NEUTRAL (source=data/반도체/네패스/tech/nepes_tech_ip_evidence_composite.json, keywords=composite, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
 
 ## 4. 다음 확인 포인트
 - 고객 채택: 확인된 고객사·공급 근거가 실제 반복 매출로 이어지는지 후속 확인
@@ -238,12 +238,12 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
 
 ## 5. URL 인식 결과 및 대체 조회 URL
 - **KIPRIS**
-  - detected: http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf7f841a23097cddc5dd5f75c7c93e304b3c263e370fd3d3f82c9f09379d8ee0f8cec707268ecb325dcb2a9bd894bb8a7153f44ad260e286a3
-  - detected: http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf2cfb5fe4032a1745241963d8978becc2d36b4e0dc4243cbf70417df81721702c81c7d1f4e011733a01054d0e99c5a1dc95d697cc3ec7d36b
-  - detected: http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf92466591d547ce315ab8556a63a53e1625c9451479832b561acd3ea2b6aafc03c6c7f287d74402ae0d6209c0edbb6e5552ebeddf107c1de2
-  - detected: http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf856ed44ec11d85ddeb9c90f469f5500cf107d8f0d9976b9be2bc620374d6fba0424a49ee730c9a44c8a30790854c444b28de5378e0b79678
-  - detected: http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf7f50d5ddbf848cc7fb0dc846df3b9a3906d9d0be3b2beb36acb13c22f9c147c4986474005283cbea776f00f671d9c0ce9e4e533bce14a3ef
-  - detected: http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe46c22163f668395d4943256a6c714b7e4049f654eef41f400211ac964649f230c
+  - detected: http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9328f5a912c888a1604ff579e87f821b091a0665246f3173a6cae241fd42c7005fb584f7181202ddb2669153aa54387f5f558cf6b7b6d352be
+  - detected: http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9328f5a912c888a1604ff579e87f821b091a0665246f3173a6cae241fd42c7005f99f63731d0311929be11400294078a7500be1e049034125a
+  - detected: http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9322af84f57b08f2914d8d6d578d04e03445d891357f9d9514d3d00ad20d4a18bd19eba5573d7be6aac19dee99cdc16abd632f246c9310f285
+  - detected: http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9322af84f57b08f2914d8d6d578d04e034c00c52ee695737d21b3f879b3a036daacbefcdab0ce327f373387ac5e1436b444e048689ba5bd44d
+  - detected: http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93c040d70001b624f5684d1632e77fbbe56bbb3117cbeab3944e9633126c9d0314bacd1aee33943ab15d5a9bc96c0cdb5e4e90695e30d95718
+  - detected: http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93f6548c790985d9b42df3b696cb0bd420628364929a7eeeebfe825a6a229a6517dc933a022c3933651a90fed613eac47cfdf019f60b965c6c
   - fallback: https://www.kipris.or.kr/khome/main.jsp
   - fallback: https://plus.kipris.or.kr/
   - fallback: https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+KIPRIS+%ED%8A%B9%ED%97%88
@@ -292,7 +292,7 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
 - status: OK
 - overall_lifecycle_stage: DECLINE_OR_SHIFT
 - overall_lifecycle_score: 30.24
-- source_patent_csv: `C:\Agent_6.8\data\반도체\네패스\tech\nepes_kipris_bibliographic_normalized.csv`
+- source_patent_csv: `data\반도체\네패스\tech\nepes_kipris_bibliographic_normalized.csv`
 
 ## Summary
 advanced_packaging, bump_rdl_interposer, power_thermal_efficiency 관련 최근 출원 밀도가 약해져 쇠퇴 또는 차세대 기술 전환 가능성을 점검해야 합니다.

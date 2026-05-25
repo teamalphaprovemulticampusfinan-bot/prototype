@@ -3,19 +3,19 @@
   "company": "엘티씨",
   "company_dir": "ltc",
   "opinion": "보유",
-  "chair_report": "# 엘티씨 개인투자자용 종합 투자 보고서\n\n## 1. 최종 의견\n**보유**\n\n**한 줄 결론:** 긍정 신호와 부담 요인이 엇갈려, 추가 확인 전에는 관망이 더 적절한 구간입니다.\n\n## 2. 방향성 신호 요약\n최종 보고서에서는 내부 검증 점수표는 제외하고, 투자 방향을 이해하는 데 필요한 신호만 남깁니다.\n- **종합 방향성 신호(weighted_signal):** 에이전트 가중평균 양(+) 방향입니다. 이 값은 전체 분석 영역의 방향을 합친 참고 신호입니다.\n- **영역별 방향성 신호(signal):** 각 분석 영역이 최종 판단에 우호적인지, 부담인지를 보여주는 보조 신호입니다.\n  - 재무 분석: 에이전트 가중평균 양(+) 방향 / 시장 분석: 에이전트 가중평균 양(+) 방향 / 기술 분석: 에이전트 가중평균 양(+) 방향 / 가치평가 분석: 에이전트 가중평균 음(-) 방향 / 이슈 분석: 에이전트 가중평균 양(+) 방향 / 거시경제: 에이전트 가중평균 양(+) 방향\n- 비고: 양수·음수 같은 원천 신호는 내부 계산용이며, 투자자용 보고서에서는 우호·중립·부담의 의미로 해석합니다.\n\n## 3. 투자 판단 핵심\n이 보고서는 각 전문 에이전트가 만든 결과를 Chair 단계에서 개인투자자용 언어로 풀어쓴 보고서입니다. 원천 JSON은 바꾸지 않고, 영어 필드명과 점수 중심 표현만 쉬운 해석으로 정리했습니다.\n\n핵심적으로는 다음을 함께 봅니다.\n- **재무 체력:** 기술 사업화까지 버틸 수 있는 현금흐름, 수익성, 부채 부담\n- **가치평가:** 현재 가격이 동종기업과 현금흐름 기준으로 과도하게 비싼지 또는 싼지\n- **기술 사업화:** 특허 수 자체보다 고객 채택, 양산, 매출, 현금흐름으로 이어질 가능성\n- **시장·이슈·거시:** 산업 성장성, 단기 촉매, 환율·금리·신용환경의 부담\n\n## 4. 핵심 판단 요약\n1. 최종 의견은 단기 상승 재료보다 재무 체력, 가격 안전마진, 기술 사업화 가능성을 함께 본 결과입니다.\n2. 현금흐름 기반 가치평가: 내재주가 -2,583원, 현재가 39,950원, 괴리율 -106.47%.\n3. 동종 후공정·패키징 기업과 비교하면 기술의 사업화 연결 위치는 비교적 우호적입니다.\n4. AI 및 HBM 시장 성장에 따른 수혜 근거는 핵심 세그먼트 분석상 AI·HBM 반도체 성장기 초입입니다.\n5. 2023년 부채비율이 172.7%로 매우 높았으며, 2024년 73.9%, 2025년 71.3%로 개선되었으나 여전히 재무 레버리지 부담이 존재한다.\n\n## 5. 분석 영역별 쉬운 해석\n### 재무 분석\n- **투자자 관점:** 중립적입니다. 매출 회복은 긍정적이지만 수익성·부채 부담을 함께 봐야 합니다.\n- **요약:** 엘티씨는 2023년 큰 폭의 영업손실과 순손실을 기록했으나, 2024년에는 매출이 크게 증가하며 흑자전환에 성공했고 2025년에도 성장세를 이어갈 것으로 전망된다. 다만, 2023년 높은 부채비율과 이자보상배율이 음수였던 점을 고려할 때 재무 건전성 및 이자 지급 능력에 대한 지속적인 관찰이 필요하다. 주가는 2025년 큰 폭의 연수익률 상승을 기록했으나, 높은 변동성과 상당한 기간 최대 낙폭를 보여 투자 시 주의가 요구된다.\n- **핵심 thesis:**\n  - 2023년 큰 폭의 영업손실(-160억 원) 및 순손실(-279억 원)에서 2024년 영업이익 241억 원, 순이익 144억 원으로 흑자전환에 성공하며 수익성이 개선되었다.\n  - 매출액이 2023년 1133억 원에서 2024년 2769억 원으로 144% 이상 급증했으며, 2025년에는 3103억 원으로 추가 성장할 것으로 예상된다.\n  - 2024년 영업이익률이 8.7%로 개선되었고, 2025년에는 9.5%로 상승하며 수익성이 점진적으로 향상되는 추세를 보인다.\n  - 2024년 ROE가 7.7%로 양전환되었고, 2025년에는 8.1%를 기록하며 자본 효율성이 회복되고 있다.\n- **주요 risk:**\n  - 2023년 부채비율이 172.7%로 매우 높았으며, 2024년 73.9%, 2025년 71.3%로 개선되었으나 여전히 재무 레버리지 부담이 존재한다.\n  - 2023년 이자보상배율이 -0.91로 이자 지급 능력이 부족했으나, 2024년 1.46, 2025년 3.28로 개선되어 이자 지급 능력이 회복되고 있다.\n  - 2025년 연간 최대 낙폭이 -27.99%로 상당한 수준이며, 최근 1개월 주가 데이터에서도 최대 -26.71%의 드로다운이 관찰되어 높은 변동성 리스크가 존재한다.\n  - 2025년 거래량 이동평균 대비 비율이 평균 1.0762로, 일부 구간에서 거래량 급증이 나타나 주가 변동성을 확대시키는 요인이 될 수 있다.\n- **비고:**\n  - 영역별 방향성 신호(signal): 에이전트 가중평균 양(+) 방향\n  - 요약 판단: 보유\n- **다음 확인 포인트:**\n  - 매출 회복이 영업이익 개선으로 이어지는지\n  - 자유현금흐름이 안정적으로 유지되는지\n  - 부채와 운전자본 부담이 낮아지는지\n\n### 시장 분석\n- **투자자 관점:** 중립적입니다. 성장 산업 기대와 단기 변동성 리스크가 함께 있습니다.\n- **요약:** 시장 측면에서는 엘티씨가 속한 반도체 소재 및 장비 산업은 AI, HBM 등 신규 수요에 힘입어 성장기 초입 또는 중반에 위치하고 있습니다. 엘티씨는 전공정 소재 및 장비 분야에서 PR 박리액, 세정액·식각액, TSV 세정 장비 등을 공급하며 밸류체인 내에서 중요한 위치를 차지하고 있습니다. 다만 거시·경기 신호는 반도체 업황 회복 가능성을 일부 뒷받침합니다. 최근 주가 흐름과 변동성은 단기 점검 요인입니다. 후공정 패키징 시장 내 경쟁 강도도 함께 확인할 필요가 있습니다.\n- **핵심 thesis:**\n  - AI 및 HBM 시장 성장에 따른 수혜 근거는 핵심 세그먼트 분석상 AI·HBM 반도체 성장기 초입입니다.\n  - 첨단 공정용 소재 및 장비 수요 증가 근거는 엘티씨의 밸류체인 내 위치 및 제품군입니다.\n  - 산업 성장성: 엘티씨가 속한 반도체 소재 및 장비 산업은 AI, HBM 등 신규 수요에 힘입어 성장기 초입 또는 중반에 위치하고 있습니다. 다만, 레거시 반도체는 쇠퇴기에 접어들고 있습니다.\n  - 밸류체인 포지션: 엘티씨는 전공정 소재 및 장비 분야에서 PR 박리액, 세정액·식각액, TSV 세정 장비 등을 공급하며 밸류체인 내에서 중요한 위치를 차지하고 있습니다. 이는 첨단 반도체 수요 증가의 수혜를 직접적으로 받을 수 있는 강점입니다.\n- **주요 risk:**\n  - 거시 경제 둔화로 인한 반도체 수요 감소 수준은 중이며, 근거는 OECD 경기선행지수 하락입니다.\n  - 높은 경쟁 강도로 인한 수익성 압박 수준은 중이며, 근거는 DART 공시상 '높음' 수준의 경쟁 강도입니다.\n  - 주가·시장 모멘텀 리스크: 엘티씨의 주가는 2026년 5월 19일 기준 42,700원으로 전일 대비 9.21% 상승하며 강한 상승 모멘텀을 보여주고 있습니다. 이는 시장의 긍정적인 반응을 나타냅니다.\n  - 경쟁 구도 리스크: 엘티씨는 '높음' 수준의 경쟁 강도 속에서 고객사의 공정 변화에 맞춘 신제품 개발 및 품질 향상으로 차별화를 꾀하고 있습니다. 그러나 구체적인 경쟁사 대비 점유율이나 기술 우위는 추가 분석이 필요합니다.\n- **비고:**\n  - 영역별 방향성 신호(signal): 에이전트 가중평균 양(+) 방향\n  - 요약 판단: 보유\n- **다음 확인 포인트:**\n  - AI·고성능 반도체 수요가 후공정 패키징 주문으로 이어지는지\n  - 동종 후공정 기업 대비 주가 흐름이 유지되는지\n  - 단기 급등락이 실수요인지 단기 수급인지\n\n### 기술 분석\n- **투자자 관점:** 긍정적이지만 관망이 필요합니다. 기술 위치는 우호적이나 사업화 연결 확인이 중요합니다.\n- **요약:** 기존 기술 분석의 내부 참고 의견은 보유였고, 검증 로직 요약에서는 이를 참고 신호로만 사용합니다. 기술 포지션은 우호적이지만, 투자 매력으로 확정하려면 사업화 연결 근거가 더 필요합니다. 동종기업 기준으로는 소재 내 동종기업 중상위권이며, base 63.00점에서 동종기업 보정 후 84.00점으로 조정되었습니다. 특허의 양은 확인되지만, 특허 품질·해외 권리 확장·방어력은 아직 강한 우위라고 단정하기 어렵습니다.\n- **핵심 thesis:**\n  - 동종 후공정·패키징 기업과 비교하면 기술의 사업화 연결 위치는 비교적 우호적입니다.\n  - 기술 포지션은 우호적이지만, 투자 매력으로 확정하려면 사업화 연결 근거가 더 필요합니다.\n  - 특허의 양은 확인되지만, 특허 품질·해외 권리 확장·방어력은 아직 강한 우위라고 단정하기 어렵습니다.\n  - 특허 정량 신호: 회사 매칭/정규화 특허 506건, 등록 336건, 최근 5년 235건.\n- **주요 risk:**\n  - 기술성은 확인되지만 고객 채택·양산·매출 전환·자유현금흐름 개선까지 이어지는 연결고리를 계속 추적해야 하는 상태\n  - 기술 점수는 동종기업 대비 우호적이어도 최종 가치평가 가산에는 고객 채택, 양산, 매출 전환, 자유현금흐름 개선의 직접 근거가 필요합니다.\n- **비고:**\n  - 영역별 방향성 신호(signal): 에이전트 가중평균 양(+) 방향\n  - 요약 판단: 보유\n  - 특허 품질 신호: 특허 품질은 중립적인 상태\n- **다음 확인 포인트:**\n  - 고객 채택, 양산, 매출 전환의 직접 근거가 나오는지\n  - 특허의 청구항, 인용, 패밀리, 존속 상태가 보강되는지\n  - 기술이 마진, 원가, 현금흐름 개선으로 이어지는지\n\n### 가치평가 분석\n- **투자자 관점:** 중립적입니다. 일부 저평가 신호는 있지만 강한 안전마진은 제한적입니다.\n- **요약:** 기존 가치평가 분석의 내부 참고 의견은 보유였고, 검증 로직 요약에서는 이를 참고 신호로만 사용합니다. 현금흐름 기반 가치평가 내재주가는 -2,583원이고 현재가 39,950원 대비 괴리율은 -106.47%입니다. 동종기업 대비 매출 대비 주가 수준는 1.36배로 비교기업 중앙값 3.49배 대비 -61.14% 수준입니다. 넓은 반도체 비교군 안에서는 후공정·패키징 그룹에서 상대적 매력은 일부 확인됩니다.\n- **핵심 thesis:**\n  - 현금흐름 기반 가치평가: 내재주가 -2,583원, 현재가 39,950원, 괴리율 -106.47%.\n  - 동종기업 대비 매출가치 지표는 낮아 상대적으로 싸 보이는 면이 있지만, 그 할인이 성장성·수익성 부담 때문인지 함께 확인해야 합니다.\n  - 넓은 반도체 비교군 안에서는 후공정·패키징 그룹에서 상대적 매력은 일부 확인됩니다.\n  - 가치평가는 일부 저평가 신호와 제한적인 안전마진 신호가 함께 있어, 단독으로 강한 매수 근거가 되기는 어렵습니다.\n- **주요 risk:**\n  - 자본비용이 11.52%로 높아 장기 현금흐름 가정 변화에 민감합니다.\n  - 가격 리스크: 최대 낙폭 -58.49%로 변동성/낙폭 리스크 확인이 필요합니다.\n  - 변동성: 연환산 변동성 60.87% 수준입니다.\n- **비고:**\n  - 영역별 방향성 신호(signal): 에이전트 가중평균 음(-) 방향\n  - 요약 판단: 보유\n  - 기존 에이전트 참고 의견: 보유\n- **다음 확인 포인트:**\n  - 동종기업 대비 낮은 가격 지표가 정당한 할인인지\n  - 현금흐름 기반 적정가와 기준 주가의 차이가 충분히 벌어지는지\n  - 자본비용과 장기 성장률 가정 변화에 얼마나 민감한지\n\n### 이슈 분석\n- **투자자 관점:** 중립적입니다. 우호적 뉴스와 단기 과열 부담이 함께 있습니다.\n- **요약:** 엘티씨는 최근 반도체 업황 회복 기대감, SK하이닉스의 호실적 발표, 전력 설비 투자 확대 기대감 등에 힘입어 주가 강세를 보이고 있다. 특히 반도체 공정 소재 및 메모리 모듈 수요 증가와 EUV 관련 기술 발전이 긍정적인 영향을 미치고 있다.\n- **핵심 thesis:**\n  - 업황 회복 기대감 및 실적 개선: 반도체 업황 회복 기대감과 SK하이닉스의 호실적 발표가 투자 심리를 개선시키고 있으며, 이는 엘티씨와 같은 반도체 소부장 기업에 긍정적으로 작용하고 있다.\n  - 기관 자금 유입: 업황 회복 기대감이 반영되며 기관 자금이 유입되고 있다는 점은 긍정적인 시그널이다.\n  - 수요 증가: 반도체 공정 소재 및 메모리 모듈 수요 증가가 언급되고 있으며, 이는 엘티씨의 매출 증대에 기여할 수 있다.\n  - EUV 관련 기술 발전: EUV 관련 기술 발전은 반도체 미세 공정의 중요성을 부각시키며 관련 소재 기업에 기회를 제공할 수 있다.\n- **주요 risk:**\n  - 데이터 부족: 제공된 내부 키워드 및 뉴스/RSS 문맥만으로는 엘티씨의 구체적인 사업 내용, 경쟁력, 재무 상태 등에 대한 상세한 정보를 파악하기 어렵다. 따라서 투자 관점에서의 심층적인 분석에는 한계가 있다.\n  - 단기 주가 상승에 따른 피로감 가능성: 일부 반도체 재료 관련 기업들이 단기 주가 상승에 따른 피로감을 보인다는 언급이 있어, 엘티씨 역시 이러한 흐름에서 자유롭지 않을 수 있다.\n  - 거시 경제 변동성: 전반적인 투자 심리 개선에도 불구하고, 거시 경제 상황 변화에 따른 시장 변동성은 언제든 발생할 수 있다.\n- **비고:**\n  - 영역별 방향성 신호(signal): 에이전트 가중평균 양(+) 방향\n  - 요약 판단: 보유\n- **다음 확인 포인트:**\n  - 뉴스 기대감이 실제 수주, 실적, 공시로 이어지는지\n  - 자회사·관계사 이슈가 본사 실적에 미치는 영향이 있는지\n  - 단기 과열 또는 부정 키워드가 확산되는지\n\n### 거시경제\n- **투자자 관점:** 부담스럽습니다. 환율·금리·신용환경이 투자심리에 압박을 줄 수 있습니다.\n- **요약:** 현재 매크로 환경은 중립 비우호적이며, 총점 -7점과 높은 리스크 레벨을 나타냅니다. 이는 고금리 지속, 원달러 환율 상승 압력, 부정적 뉴스 및 규제 리스크 등 복합적인 요인이 작용한 결과로, 반도체 딥테크 기업 투자에 신중한 접근이 요구됩니다.\n- **핵심 thesis:**\n  - 국고채_10년 고수준 구간 하락 에서 유동성 환경 개선 (고금리 완화)\n  - 국고채_3년 고수준 구간 하락 에서 유동성 환경 개선 (고금리 완화)\n  - 국내 금리·환율·신용 환경: 국고채 금리는 높은 구간으로 성장주 할인율에 부담입니다; 원달러 환율은 높은 구간이라 원화 약세와 외국인 수급 부담을 확인해야 합니다; BBB- 신용스프레드는 낮은 구간입니다; AA- 신용스프레드는 중립 구간입니다.\n- **주요 risk:**\n  - 원달러 환율 1503.4 수준으로 과거 분포 대비 높은 수준 유지\n  - 부정적 뉴스 키워드 9건으로 투자 심리 위축 가능성\n  - 규제 리스크 키워드 1건으로 지정학적 리스크 상존\n- **비고:**\n  - 영역별 방향성 신호(signal): 에이전트 가중평균 양(+) 방향\n  - 요약 판단: 매도\n  - 거시 부담 수준: 높은 부담\n- **다음 확인 포인트:**\n  - 원달러 환율과 금리 방향이 성장주 부담을 키우는지\n  - 신용스프레드와 위험선호가 자금조달 환경을 악화시키는지\n  - 반도체 수출 규제와 글로벌 수요 변화가 업황에 영향을 주는지\n\n## 6. 충돌 지점 및 해석\n- 각 분석 영역의 방향이 완전히 한쪽으로 쏠리지는 않아, 최종 의견은 우호 신호와 부담 신호를 함께 반영한 결과입니다.\n- 따라서 최종 의견은 **보유**으로 정리하되, 이후 수주·양산·실적·현금흐름 확인 여부에 따라 판단이 달라질 수 있습니다.\n\n## 7. 동종기업 대비 해석\n- 동종 후공정·패키징 기업과 비교하면 기술의 사업화 연결 위치는 비교적 우호적입니다.\n- 현금흐름 기반 가치평가: 내재주가 -2,583원, 현재가 39,950원, 괴리율 -106.47%.\n- AI 및 HBM 시장 성장에 따른 수혜 근거는 핵심 세그먼트 분석상 AI·HBM 반도체 성장기 초입입니다.\n- 동종기업 대비 싸 보이는 지표가 있더라도, 그 이유가 성장성 부족·수익성 부진·재무 리스크 때문인지 함께 봐야 합니다.\n- 기술 위치가 좋아도 실제 고객 채택, 양산, 매출, 현금흐름으로 이어질 때 투자 매력이 더 커집니다.\n\n## 8. 딥테크·IB 관점에서 꼭 봐야 할 점\n- 딥테크 기업은 기술검증, 파일럿, 첫 상업계약, 초기 상업화, 대규모 양산으로 이어질 때 가치평가 가산이 커집니다.\n- R&D는 노력 신호이고, 특허·청구항·인용·패밀리는 기술 산출물 신호입니다. 최종적으로는 고객 채택, 양산, 매출, 현금흐름 전환이 확인되어야 합니다.\n- 현금흐름 기반 가치평가와 동종기업 멀티플은 가격을 보는 도구입니다. 기술이 좋아도 현재 가격이 이미 기대를 많이 반영했다면 보수적으로 볼 수 있습니다.\n- CB/BW, 메자닌, 유상증자, 차입 확대는 성장자금일 수도 있지만 기존 주주에게는 희석과 오버행 리스크가 될 수 있습니다.\n- 정부과제나 정책 수혜는 긍정 신호지만, 실제 제품화·수주·매출로 이어지는지 확인해야 합니다.\n\n## 9. 투자 전 체크포인트\n- **가격:** 동종기업 대비 싸 보이는 이유가 성장성 부족, 수익성 부담, 재무 리스크 때문인지 확인해야 합니다.\n- **재무:** 매출 회복보다 영업수익성, 현금창출력, 부채 부담의 개선 여부를 우선 확인해야 합니다.\n- **기술:** 특허 수보다 고객 채택, 양산, 매출 전환, 현금흐름 개선이 확인되어야 합니다.\n- **자금조달:** CB/BW, 유상증자, 차입 확대는 성장자금인 동시에 주주가치 희석 위험이 될 수 있습니다.\n- **거시:** 환율, 금리, 신용환경이 나빠지면 반도체 성장주의 적정가치가 낮아질 수 있습니다.\n\n## 10. 성능평가용 라벨 요약\n- 성과평가용 최종 라벨은 **보유**입니다.\n- 종합 방향성 신호는 에이전트 가중평균 양(+) 방향로 해석하며, 임계값을 임의로 바꾸는 대신 보조 민감도 분석에 사용합니다.\n- 이번 종목은 최종 의견이 매수가 아니므로, 기본 성과평가 포트폴리오에는 편입하지 않고 관찰 대상으로 둡니다.\n- 실제 성과는 기준월 말 종가 대비 다음 달 말 종가의 1개월 보유수익률로 계산하고, 반도체 후보군 동일가중 평균 또는 자기 자신을 제외한 peer 평균 대비 초과수익률을 함께 확인합니다.\n\n## 11. 종합 의견\n엘티씨의 최종 의견은 **보유**입니다. 기술과 업황 기대는 분명히 존재하지만, 가격 안전마진과 재무·거시 부담을 함께 보면 아직은 관망이 더 적절합니다. 특히 딥테크 기업은 특허 수나 기술 키워드만으로 판단하기보다, 그 기술이 고객 채택·양산·매출·현금흐름으로 이어지는지를 확인해야 합니다. 동종기업 대비 싸 보이는 지표가 있더라도 그 이유가 성장성 부족이나 재무 부담 때문일 수 있으므로, 최신 공시와 수주·양산 근거, 자금조달 이력을 함께 확인하는 것이 좋습니다.",
-  "auditor_receipt_path": "C:\\Agent_6.8\\data\\반도체\\엘티씨\\auditor\\first_auditor\\first_auditor_receipt.json",
+  "chair_report": "# 엘티씨 개인투자자용 종합 투자 보고서\n\n## 1. 최종 의견\n**매도**\n\n**한 줄 결론:** 기술 기대보다 재무·가격·거시 부담이 더 커 보이는 구간입니다.\n\n## 2. 방향성 신호 요약\n최종 보고서에서는 내부 검증 점수표는 제외하고, 투자 방향을 이해하는 데 필요한 신호만 남깁니다.\n- **종합 방향성 신호(weighted_signal):** 에이전트 가중평균 양(+) 방향입니다. 이 값은 전체 분석 영역의 방향을 합친 참고 신호입니다.\n- **영역별 방향성 신호(signal):** 각 분석 영역이 최종 판단에 우호적인지, 부담인지를 보여주는 보조 신호입니다.\n  - 재무 분석: 에이전트 가중평균 양(+) 방향 / 시장 분석: 에이전트 가중평균 양(+) 방향 / 기술 분석: 에이전트 가중평균 양(+) 방향 / 가치평가 분석: 에이전트 가중평균 음(-) 방향 / 이슈 분석: 에이전트 가중평균 양(+) 방향 / 거시경제: 에이전트 가중평균 음(-) 방향\n- 비고: 양수·음수 같은 원천 신호는 내부 계산용이며, 투자자용 보고서에서는 우호·중립·부담의 의미로 해석합니다.\n\n## 3. 투자 판단 핵심\n이 보고서는 각 전문 에이전트가 만든 결과를 Chair 단계에서 개인투자자용 언어로 풀어쓴 보고서입니다. 원천 JSON은 바꾸지 않고, 영어 필드명과 점수 중심 표현만 쉬운 해석으로 정리했습니다.\n\n핵심적으로는 다음을 함께 봅니다.\n- **재무 체력:** 기술 사업화까지 버틸 수 있는 현금흐름, 수익성, 부채 부담\n- **가치평가:** 현재 가격이 동종기업과 현금흐름 기준으로 과도하게 비싼지 또는 싼지\n- **기술 사업화:** 특허 수 자체보다 고객 채택, 양산, 매출, 현금흐름으로 이어질 가능성\n- **시장·이슈·거시:** 산업 성장성, 단기 촉매, 환율·금리·신용환경의 부담\n\n## 4. 핵심 판단 요약\n1. 최종 의견은 단기 상승 재료보다 재무 체력, 가격 안전마진, 기술 사업화 가능성을 함께 본 결과입니다.\n2. 현금흐름 기반 가치평가: 내재주가 -366원, 현재가 12,070원, 괴리율 -103.03%.\n3. 동종 후공정·패키징 기업과 비교하면 기술의 사업화 연결 위치는 비교적 우호적입니다.\n4. 엘티씨는 AI 및 HBM 시장 성장에 따른 수혜가 기대되며, 최근 주가 모멘텀도 긍정적입니다. 다만, 거시 경제 둔화 가능성과 높은 경쟁 강도는 잠재적 리스크 요인으로 작용할 수 있어 '보유' 의견을 제시합니다.\n5. 2024년 영업이익률이 8.73%로, 매출 증가 대비 수익성 개선 폭이 제한적이다.\n\n## 5. 분석 영역별 쉬운 해석\n### 재무 분석\n- **투자자 관점:** 중립적입니다. 매출 회복은 긍정적이지만 수익성·부채 부담을 함께 봐야 합니다.\n- **요약:** 엘티씨는 2024년 매출이 전년 대비 144% 이상 급증하며 큰 폭의 성장을 기록했으나, 영업이익률은 8.7%로 여전히 낮은 수준에 머물러 있다. 2023년 큰 폭의 적자 전환 이후 2024년 흑자 전환에 성공했으나, ROE는 7.7%로 자본 대비 수익성이 아직 미흡한 상황이다. 부채비율은 73.9%로 전년 대비 개선되었으나 여전히 높은 수준이며, 최근 1개월 주가 변동성이 크고 최대 낙폭가 -0.42%에 달해 투자 시 주의가 필요하다.\n- **핵심 thesis:**\n  - 2024년 매출성장률이 144.33%로 크게 증가하며 외형 성장을 달성했다.\n  - 2023년 영업적자에서 2024년 241.8억원의 영업이익을 기록하며 흑자 전환에 성공했다.\n  - 2024년 ROE가 7.70%로 상승하며 수익성 개선의 가능성을 보여주었다.\n  - 2024년 부채비율이 73.93%로 전년 172.76% 대비 크게 감소하며 재무 건전성이 개선되었다.\n- **주요 risk:**\n  - 2024년 영업이익률이 8.73%로, 매출 증가 대비 수익성 개선 폭이 제한적이다.\n  - 2025년 8월 18일 주가에서 -5.65%의 큰 폭 하락과 함께 최대 낙폭가 -0.42%를 기록하는 등 높은 변동성을 보였다.\n  - 2024년 기준 부채비율이 73.93%로 여전히 높은 수준이며, 이자비용이 165.8억원을 기록하여 재무 부담이 존재한다.\n  - 2025년 8월 21일 주가에서 -1.74%의 일일 수익률과 함께 최대 낙폭가 -0.44%를 기록하는 등 최근 주가 하락세가 관찰된다.\n- **비고:**\n  - 영역별 방향성 신호(signal): 에이전트 가중평균 양(+) 방향\n  - 요약 판단: 보유\n- **다음 확인 포인트:**\n  - 매출 회복이 영업이익 개선으로 이어지는지\n  - 자유현금흐름이 안정적으로 유지되는지\n  - 부채와 운전자본 부담이 낮아지는지\n\n### 시장 분석\n- **투자자 관점:** 중립적입니다. 성장 산업 기대와 단기 변동성 리스크가 함께 있습니다.\n- **요약:** 엘티씨는 AI 및 HBM 시장 성장에 따른 수혜가 기대되며, 최근 주가 모멘텀도 긍정적입니다. 다만, 거시 경제 둔화 가능성과 높은 경쟁 강도는 잠재적 리스크 요인으로 작용할 수 있어 '보유' 의견을 제시합니다.\n- **핵심 thesis:**\n  - AI·고성능 반도체 수요 확대는 후공정 패키징 기업에 우호적인 시장 배경입니다.\n- **주요 risk:**\n  - LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 151 column 6 (char 4335)\n  - 밸류체인 위치 확인: 소재\n- **비고:**\n  - 영역별 방향성 신호(signal): 에이전트 가중평균 양(+) 방향\n  - 요약 판단: 보유\n- **다음 확인 포인트:**\n  - AI·고성능 반도체 수요가 후공정 패키징 주문으로 이어지는지\n  - 동종 후공정 기업 대비 주가 흐름이 유지되는지\n  - 단기 급등락이 실수요인지 단기 수급인지\n\n### 기술 분석\n- **투자자 관점:** 긍정적이지만 관망이 필요합니다. 기술 위치는 우호적이나 사업화 연결 확인이 중요합니다.\n- **요약:** 기존 기술 분석의 내부 참고 의견은 보유였고, 검증 로직 요약에서는 이를 참고 신호로만 사용합니다. 기술 포지션은 우호적이지만, 투자 매력으로 확정하려면 사업화 연결 근거가 더 필요합니다. 동종기업 기준으로는 소재 내 동종기업 중상위권이며, base 63.00점에서 동종기업 보정 후 84.00점으로 조정되었습니다. 특허의 양은 확인되지만, 특허 품질·해외 권리 확장·방어력은 아직 강한 우위라고 단정하기 어렵습니다.\n- **핵심 thesis:**\n  - 동종 후공정·패키징 기업과 비교하면 기술의 사업화 연결 위치는 비교적 우호적입니다.\n  - 기술 포지션은 우호적이지만, 투자 매력으로 확정하려면 사업화 연결 근거가 더 필요합니다.\n  - 특허의 양은 확인되지만, 특허 품질·해외 권리 확장·방어력은 아직 강한 우위라고 단정하기 어렵습니다.\n  - 특허 정량 신호: 회사 매칭/정규화 특허 506건, 등록 336건, 최근 5년 1,805건.\n- **주요 risk:**\n  - 기술성은 확인되지만 고객 채택·양산·매출 전환·자유현금흐름 개선까지 이어지는 연결고리를 계속 추적해야 하는 상태\n  - 기술 점수는 동종기업 대비 우호적이어도 최종 가치평가 가산에는 고객 채택, 양산, 매출 전환, 자유현금흐름 개선의 직접 근거가 필요합니다.\n- **비고:**\n  - 영역별 방향성 신호(signal): 에이전트 가중평균 양(+) 방향\n  - 요약 판단: 보유\n  - 특허 품질 신호: 특허 품질은 중립적인 상태\n- **다음 확인 포인트:**\n  - 고객 채택, 양산, 매출 전환의 직접 근거가 나오는지\n  - 특허의 청구항, 인용, 패밀리, 존속 상태가 보강되는지\n  - 기술이 마진, 원가, 현금흐름 개선으로 이어지는지\n\n### 가치평가 분석\n- **투자자 관점:** 중립적입니다. 일부 저평가 신호는 있지만 강한 안전마진은 제한적입니다.\n- **요약:** 기존 가치평가 분석의 내부 참고 의견은 보유였고, 검증 로직 요약에서는 이를 참고 신호로만 사용합니다. 현금흐름 기반 가치평가 내재주가는 -366원이고 현재가 12,070원 대비 괴리율은 -103.03%입니다. 동종기업 대비 매출 대비 주가 수준는 0.41배로 비교기업 중앙값 2.27배 대비 -81.93% 수준입니다. 넓은 반도체 비교군 안에서는 후공정·패키징 그룹에서 상대적 매력은 일부 확인됩니다.\n- **핵심 thesis:**\n  - 현금흐름 기반 가치평가: 내재주가 -366원, 현재가 12,070원, 괴리율 -103.03%.\n  - 동종기업 대비 매출가치 지표는 낮아 상대적으로 싸 보이는 면이 있지만, 그 할인이 성장성·수익성 부담 때문인지 함께 확인해야 합니다.\n  - 넓은 반도체 비교군 안에서는 후공정·패키징 그룹에서 상대적 매력은 일부 확인됩니다.\n  - 가치평가는 일부 저평가 신호와 제한적인 안전마진 신호가 함께 있어, 단독으로 강한 매수 근거가 되기는 어렵습니다.\n- **주요 risk:**\n  - 가격 리스크: 최대 낙폭 -58.49%로 변동성/낙폭 리스크 확인이 필요합니다.\n  - 변동성: 연환산 변동성 54.77% 수준입니다.\n- **비고:**\n  - 영역별 방향성 신호(signal): 에이전트 가중평균 음(-) 방향\n  - 요약 판단: 보유\n  - 기존 에이전트 참고 의견: 보유\n- **다음 확인 포인트:**\n  - 동종기업 대비 낮은 가격 지표가 정당한 할인인지\n  - 현금흐름 기반 적정가와 기준 주가의 차이가 충분히 벌어지는지\n  - 자본비용과 장기 성장률 가정 변화에 얼마나 민감한지\n\n### 이슈 분석\n- **투자자 관점:** 중립적입니다. 우호적 뉴스와 단기 과열 부담이 함께 있습니다.\n- **요약:** 엘티씨는 최근 반도체 업황 회복 기대감과 SK하이닉스의 호실적 발표에 따른 투자 심리 개선의 수혜를 받고 있는 것으로 파악됩니다. 특히 EUV 공정 소재 및 메모리 모듈 수요 증가와 관련된 긍정적인 언급이 있으며, 일부 뉴스에서는 전력 설비 투자 확대 기대감과도 연관되어 상승세를 보였습니다. 또한, 52주 신고가를 기록한 종목 중 하나로 언급되기도 했습니다.\n- **핵심 thesis:**\n  - 반도체 업황 회복 기대감 및 실적 개선: SK하이닉스의 호실적 발표와 함께 반도체 업황 회복에 대한 기대감이 투자 심리를 개선시키고 있으며, 이는 엘티씨와 같은 반도체 소부장 기업에 긍정적으로 작용할 수 있습니다.\n  - EUV 공정 소재 및 메모리 모듈 수요 증가: EUV 공정 소재 및 메모리 모듈 수요 증가가 엘티씨의 실적 가시성을 빠르게 개선시키고 있다는 언급이 있습니다.\n  - 52주 신고가 기록: 엘티씨가 52주 신고가를 기록한 종목 중 하나로 언급되어 단기적인 주가 강세를 시사합니다.\n  - 기관 자금 유입: 업황 회복 기대감이 반영되며 기관 자금이 유입되었다는 뉴스가 있습니다.\n- **주요 risk:**\n  - 전력 설비 투자 확대 기대감과의 연관성 불명확: 일부 뉴스에서 전력 설비 투자 확대 기대감이 주가에 반영되었다는 언급이 있으나, 엘티씨의 사업 영역과의 직접적인 연관성이 명확하게 제시되지 않아 해당 이슈의 영향력은 불확실합니다.\n  - 단기 주가 상승에 따른 피로감 가능성: 다른 반도체 재료 관련 기업들이 단기 주가 상승에 따른 피로감으로 하락세를 보인다는 점은 엘티씨에도 잠재적인 부담으로 작용할 수 있습니다. (직접적인 언급은 없으나 시장 전반의 흐름으로 고려)\n  - 데이터 부족: 엘티씨 자체의 구체적인 실적 지표, 신규 수주, 기술 개발 현황 등에 대한 상세한 내부 키워드나 뉴스 데이터가 부족하여 투자 관점에서의 명확한 방향성 판단에 한계가 있습니다.\n- **비고:**\n  - 영역별 방향성 신호(signal): 에이전트 가중평균 양(+) 방향\n  - 요약 판단: 보유\n- **다음 확인 포인트:**\n  - 뉴스 기대감이 실제 수주, 실적, 공시로 이어지는지\n  - 자회사·관계사 이슈가 본사 실적에 미치는 영향이 있는지\n  - 단기 과열 또는 부정 키워드가 확산되는지\n\n### 거시경제\n- **투자자 관점:** 부담스럽습니다. 환율·금리·신용환경이 투자심리에 압박을 줄 수 있습니다.\n- **요약:** 현재 매크로 환경은 전반적으로 중립적인 우호성을 보이며, 리스크 레벨은 '중간 수준'으로 평가됩니다. 이는 반도체 딥테크 기업 투자에 있어 신중한 접근이 필요한 시점임을 시사합니다.\n- **핵심 thesis:**\n  - 전체 시장 20일 수익률 양수 에서 시장/섹터 방향성 우호\n  - 한국 시장 20일 수익률 양수 에서 시장/섹터 방향성 우호\n  - 미국 시장 20일 수익률 양수 에서 시장/섹터 방향성 우호\n  - 반도체 섹터 20일 수익률 양수 에서 시장/섹터 방향성 우호\n  - 국내 금리·환율·신용 환경: 국고채 금리는 중립 구간입니다; 원달러 환율은 높은 구간이라 원화 약세와 외국인 수급 부담을 확인해야 합니다; BBB- 신용스프레드는 낮은 구간입니다; AA- 신용스프레드는 낮은 구간으로 우량 신용시장 부담은 상대적으로 제한적입니다.\n- **주요 risk:**\n  - 원달러 환율 레벨 (1388.6)이 과거 2800일 관측치의 80% 분위수 상단에 근접하여 높은 수준을 유지하고 있습니다.\n  - 미국 국채 10년 레벨 (4.227)이 과거 2800일 관측치의 80% 분위수 상단에 근접하여 높은 수준을 유지하고 있습니다.\n  - 미국 기준금리 FFR 레벨 (4.33)이 과거 92개월 관측치의 80% 분위수 상단에 근접하여 높은 수준을 유지하고 있습니다.\n- **비고:**\n  - 영역별 방향성 신호(signal): 에이전트 가중평균 음(-) 방향\n  - 요약 판단: 매도\n  - 거시 부담 수준: 낮은 부담\n- **다음 확인 포인트:**\n  - 원달러 환율과 금리 방향이 성장주 부담을 키우는지\n  - 신용스프레드와 위험선호가 자금조달 환경을 악화시키는지\n  - 반도체 수출 규제와 글로벌 수요 변화가 업황에 영향을 주는지\n\n## 6. 충돌 지점 및 해석\n- 각 분석 영역의 방향이 완전히 한쪽으로 쏠리지는 않아, 최종 의견은 우호 신호와 부담 신호를 함께 반영한 결과입니다.\n- 따라서 최종 의견은 **매도**으로 정리하되, 이후 수주·양산·실적·현금흐름 확인 여부에 따라 판단이 달라질 수 있습니다.\n\n## 7. 동종기업 대비 해석\n- 동종 후공정·패키징 기업과 비교하면 기술의 사업화 연결 위치는 비교적 우호적입니다.\n- 현금흐름 기반 가치평가: 내재주가 -366원, 현재가 12,070원, 괴리율 -103.03%.\n- 엘티씨는 AI 및 HBM 시장 성장에 따른 수혜가 기대되며, 최근 주가 모멘텀도 긍정적입니다. 다만, 거시 경제 둔화 가능성과 높은 경쟁 강도는 잠재적 리스크 요인으로 작용할 수 있어 '보유' 의견을 제시합니다.\n- 동종기업 대비 싸 보이는 지표가 있더라도, 그 이유가 성장성 부족·수익성 부진·재무 리스크 때문인지 함께 봐야 합니다.\n- 기술 위치가 좋아도 실제 고객 채택, 양산, 매출, 현금흐름으로 이어질 때 투자 매력이 더 커집니다.\n\n## 8. 딥테크·IB 관점에서 꼭 봐야 할 점\n- 딥테크 기업은 기술검증, 파일럿, 첫 상업계약, 초기 상업화, 대규모 양산으로 이어질 때 가치평가 가산이 커집니다.\n- R&D는 노력 신호이고, 특허·청구항·인용·패밀리는 기술 산출물 신호입니다. 최종적으로는 고객 채택, 양산, 매출, 현금흐름 전환이 확인되어야 합니다.\n- 현금흐름 기반 가치평가와 동종기업 멀티플은 가격을 보는 도구입니다. 기술이 좋아도 현재 가격이 이미 기대를 많이 반영했다면 보수적으로 볼 수 있습니다.\n- CB/BW, 메자닌, 유상증자, 차입 확대는 성장자금일 수도 있지만 기존 주주에게는 희석과 오버행 리스크가 될 수 있습니다.\n- 정부과제나 정책 수혜는 긍정 신호지만, 실제 제품화·수주·매출로 이어지는지 확인해야 합니다.\n\n## 9. 투자 전 체크포인트\n- **가격:** 동종기업 대비 싸 보이는 이유가 성장성 부족, 수익성 부담, 재무 리스크 때문인지 확인해야 합니다.\n- **재무:** 매출 회복보다 영업수익성, 현금창출력, 부채 부담의 개선 여부를 우선 확인해야 합니다.\n- **기술:** 특허 수보다 고객 채택, 양산, 매출 전환, 현금흐름 개선이 확인되어야 합니다.\n- **자금조달:** CB/BW, 유상증자, 차입 확대는 성장자금인 동시에 주주가치 희석 위험이 될 수 있습니다.\n- **거시:** 환율, 금리, 신용환경이 나빠지면 반도체 성장주의 적정가치가 낮아질 수 있습니다.\n\n## 10. 성능평가용 라벨 요약\n- 성과평가용 최종 라벨은 **매도**입니다.\n- 종합 방향성 신호는 에이전트 가중평균 양(+) 방향로 해석하며, 임계값을 임의로 바꾸는 대신 보조 민감도 분석에 사용합니다.\n- 이번 종목은 최종 의견이 매수가 아니므로, 기본 성과평가 포트폴리오에는 편입하지 않고 관찰 대상으로 둡니다.\n- 실제 성과는 기준월 말 종가 대비 다음 달 말 종가의 1개월 보유수익률로 계산하고, 반도체 후보군 동일가중 평균 또는 자기 자신을 제외한 peer 평균 대비 초과수익률을 함께 확인합니다.\n\n## 11. 종합 의견\n엘티씨의 최종 의견은 **매도**입니다. 기술과 업황 기대는 분명히 존재하지만, 가격 안전마진과 재무·거시 부담을 함께 보면 아직은 관망이 더 적절합니다. 특히 딥테크 기업은 특허 수나 기술 키워드만으로 판단하기보다, 그 기술이 고객 채택·양산·매출·현금흐름으로 이어지는지를 확인해야 합니다. 동종기업 대비 싸 보이는 지표가 있더라도 그 이유가 성장성 부족이나 재무 부담 때문일 수 있으므로, 최신 공시와 수주·양산 근거, 자금조달 이력을 함께 확인하는 것이 좋습니다.",
+  "auditor_receipt_path": "C:\\Agent_6.9\\data\\반도체\\엘티씨\\auditor\\first_auditor\\first_auditor_receipt.json",
   "auditor_summary": {
     "mode": "FIXED_3STAGE_LOCAL",
     "stage_count": 3,
     "passed": true,
     "raw_passed": true,
     "min_actual_match": 0.8685,
-    "avg_actual_match": 0.9289,
+    "avg_actual_match": 0.9286,
     "failed_agents": [],
-    "receipt_path": "C:\\Agent_6.8\\data\\반도체\\엘티씨\\auditor\\first_auditor\\first_auditor_receipt.json",
+    "receipt_path": "C:\\Agent_6.9\\data\\반도체\\엘티씨\\auditor\\first_auditor\\first_auditor_receipt.json",
     "quantitative_decision": {
-      "method": "auditor_stage3_dma_current_label_posterior_no_signal_cutoff_v10",
+      "method": "auditor_stage3_dma_signal_soft_posterior_reject_option_v50",
       "weight_policy_base": "removed: no fixed finance/tech/valuation/macro/market/issue base weights",
       "weight_rationale": {
         "policy": "각 전문 에이전트를 후보 모델로 보고 DMA posterior probability로 가중치를 계산",
@@ -29,9 +29,9 @@
         "prior_policy": "uniform_prior_over_available_agents; no fixed finance/tech/valuation base weights",
         "update_formula": "pi_pred_i = pi_prev_i^alpha / sum_j(pi_prev_j^alpha); pi_post_i = pi_pred_i * predictive_likelihood_i / sum_j(pi_pred_j * predictive_likelihood_j)",
         "alpha": 0.99,
-        "history_csv": "C:\\Agent_6.8\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\signal_df_monthly_2025-01_history_monthly_20250131_20260520_031147.csv",
-        "history_used": true,
-        "history_observations": 30,
+        "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_194434\\backtest_2025_08_2026_05_all\\monthly_cutoff_pipeline_run_log.csv",
+        "history_used": false,
+        "history_observations": 0,
         "available_agents": [
           "finance",
           "valuation",
@@ -41,123 +41,124 @@
           "macro"
         ],
         "agent_likelihoods": {
-          "finance": 0.309313,
-          "valuation": 0.249718,
-          "tech": 0.237799,
-          "market": 0.235764,
-          "issue": 0.230339,
-          "macro": 0.241811
+          "finance": 1.0,
+          "valuation": 1.0,
+          "tech": 1.0,
+          "market": 1.0,
+          "issue": 1.0,
+          "macro": 1.0
         },
         "current_signals": {
-          "finance": 0.4451,
-          "valuation": -0.0197,
-          "tech": 0.5318,
-          "market": 0.1214,
-          "issue": 0.8889,
-          "macro": 0.12
+          "finance": 0.7317,
+          "valuation": -0.0111,
+          "tech": 0.5532,
+          "market": 0.248,
+          "issue": 0.8462,
+          "macro": -1.0
         },
         "weights": {
-          "finance": 0.538073,
-          "valuation": 0.193135,
-          "tech": 0.064158,
-          "market": 0.058311,
-          "issue": 0.002197,
-          "macro": 0.144126
+          "finance": 0.166667,
+          "valuation": 0.166667,
+          "tech": 0.166667,
+          "market": 0.166667,
+          "issue": 0.166667,
+          "macro": 0.166667
         },
         "weights_adjusted": {
-          "finance": 0.538073,
-          "valuation": 0.193135,
-          "tech": 0.064158,
-          "market": 0.058311,
-          "issue": 0.002197,
-          "macro": 0.144126
+          "finance": 0.166667,
+          "valuation": 0.166667,
+          "tech": 0.166667,
+          "market": 0.166667,
+          "issue": 0.166667,
+          "macro": 0.166667
         },
         "weight_ranges_95": {
           "finance": {
-            "lower": 0.35967,
-            "upper": 0.716476
+            "lower": 0.166667,
+            "upper": 0.166667
           },
           "valuation": {
-            "lower": 0.051873,
-            "upper": 0.334397
+            "lower": 0.166667,
+            "upper": 0.166667
           },
           "tech": {
-            "lower": 0.0,
-            "upper": 0.151843
+            "lower": 0.166667,
+            "upper": 0.166667
           },
           "market": {
-            "lower": 0.0,
-            "upper": 0.142164
+            "lower": 0.166667,
+            "upper": 0.166667
           },
           "issue": {
-            "lower": 0.0,
-            "upper": 0.018951
+            "lower": 0.166667,
+            "upper": 0.166667
           },
           "macro": {
-            "lower": 0.018445,
-            "upper": 0.269808
+            "lower": 0.166667,
+            "upper": 0.166667
           }
         }
       },
       "weights_adjusted": {
-        "finance": 0.538073,
-        "valuation": 0.193135,
-        "tech": 0.064158,
-        "market": 0.058311,
-        "issue": 0.002197,
-        "macro": 0.144126
+        "finance": 0.166667,
+        "valuation": 0.166667,
+        "tech": 0.166667,
+        "market": 0.166667,
+        "issue": 0.166667,
+        "macro": 0.166667
       },
       "weight_ranges_95": {
         "finance": {
-          "lower": 0.35967,
-          "upper": 0.716476
+          "lower": 0.166667,
+          "upper": 0.166667
         },
         "valuation": {
-          "lower": 0.051873,
-          "upper": 0.334397
+          "lower": 0.166667,
+          "upper": 0.166667
         },
         "tech": {
-          "lower": 0.0,
-          "upper": 0.151843
+          "lower": 0.166667,
+          "upper": 0.166667
         },
         "market": {
-          "lower": 0.0,
-          "upper": 0.142164
+          "lower": 0.166667,
+          "upper": 0.166667
         },
         "issue": {
-          "lower": 0.0,
-          "upper": 0.018951
+          "lower": 0.166667,
+          "upper": 0.166667
         },
         "macro": {
-          "lower": 0.018445,
-          "upper": 0.269808
+          "lower": 0.166667,
+          "upper": 0.166667
         }
       },
       "agent_decisions": {
         "finance": {
           "agent": "finance",
           "agent_ko": "재무",
-          "signal": 0.4451,
-          "auditor_signal": 0.4451,
+          "signal": 0.7317,
+          "auditor_signal": 0.7317,
           "original_recommendation": "보유",
           "recommendation_label_source": "explicit_packet_label",
           "auditor_recommendation": "보유",
           "recommendation": "보유",
           "basis": [
-            "영업이익률 9.55%",
-            "ROE 8.13%",
-            "FCF 15,016,522,030",
-            "부채비율 71.35%",
-            "MDD -27.99%"
+            "매출성장률 144.33%",
+            "영업이익률 8.73%",
+            "ROE 7.70%",
+            "FCF 6,599,520,253",
+            "부채비율 73.93%",
+            "MDD -23.76%"
           ],
           "components": {
-            "sales_growth": 0.0,
+            "sales_growth": 1.0,
             "operating_margin": 1.0,
-            "roe": 1.0,
+            "roe": 0.9545829644464057,
             "fcf": 1.0,
             "debt_ratio": 1.0,
-            "current_ratio": 0.0,
-            "mdd": -0.4391999999999999,
+            "current_ratio": 1.0,
+            "mdd": -0.10080000000000011,
             "warning_stock": 0.0
           },
           "component_weights": {
@@ -175,7 +176,7 @@
             "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
             "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
             "alpha": 0.99,
-            "history_csv": "C:\\Agent_6.8\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\signal_df_monthly_2025-01_history_monthly_20250131_20260520_031147.csv",
+            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_194434\\backtest_2025_08_2026_05_all\\monthly_cutoff_pipeline_run_log.csv",
             "history_used": false,
             "history_observations": 0,
             "available_models": [
@@ -199,13 +200,13 @@
               "warning_stock": 1.0
             },
             "current_signals": {
-              "sales_growth": 0.0,
+              "sales_growth": 1.0,
               "operating_margin": 1.0,
-              "roe": 1.0,
+              "roe": 0.954583,
               "fcf": 1.0,
               "debt_ratio": 1.0,
-              "current_ratio": 0.0,
-              "mdd": -0.4392,
+              "current_ratio": 1.0,
+              "mdd": -0.1008,
               "warning_stock": 0.0
             },
             "weights": {
@@ -263,37 +264,37 @@
               }
             }
           },
-          "weight": 0.538073,
-          "dma_weight": 0.538073,
+          "weight": 0.166667,
+          "dma_weight": 0.166667,
           "weight_range_95": {
-            "lower": 0.35967,
-            "upper": 0.716476
+            "lower": 0.166667,
+            "upper": 0.166667
           },
-          "weighted_contribution": 0.239496
+          "weighted_contribution": 0.12195
         },
         "valuation": {
           "agent": "valuation",
           "agent_ko": "가치평가",
-          "signal": -0.0197,
-          "auditor_signal": -0.0197,
+          "signal": -0.0111,
+          "auditor_signal": -0.0111,
           "original_recommendation": "보유",
           "recommendation_label_source": "explicit_packet_label",
           "auditor_recommendation": "보유",
           "recommendation": "보유",
           "basis": [
-            "DCF 괴리율 -106.47%",
-            "Valuation scorecard 51.79/100",
-            "P/S 1.36배",
-            "peer median P/S 3.49배",
-            "peer P/S gap -61.14%",
+            "DCF 괴리율 -103.03%",
+            "Valuation scorecard 53.89/100",
+            "P/S 0.41배",
+            "peer median P/S 2.27배",
+            "peer P/S gap -81.93%",
             "reference universe score 58.38/100",
-            "WACC 11.52%",
+            "WACC 8.67%",
             "validation_status=PASS_WITH_WARNINGS",
             "기존 Valuation Agent 내부 판단 참고=보유"
           ],
           "components": {
             "dcf_upside": -1.0,
-            "scorecard": -0.2345714285714286,
+            "scorecard": -0.17457142857142854,
             "peer_psr": 1.0,
             "reference_universe": 0.09670329670329657,
             "original_agent_view_reference": 0.0,
@@ -314,7 +315,7 @@
             "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
             "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
             "alpha": 0.99,
-            "history_csv": "C:\\Agent_6.8\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\signal_df_monthly_2025-01_history_monthly_20250131_20260520_031147.csv",
+            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_194434\\backtest_2025_08_2026_05_all\\monthly_cutoff_pipeline_run_log.csv",
             "history_used": false,
             "history_observations": 0,
             "available_models": [
@@ -337,7 +338,7 @@
             },
             "current_signals": {
               "dcf_upside": -1.0,
-              "scorecard": -0.234571,
+              "scorecard": -0.174571,
               "peer_psr": 1.0,
               "reference_universe": 0.096703,
               "original_agent_view_reference": 0.0,
@@ -393,19 +394,19 @@
               }
             }
           },
-          "weight": 0.193135,
-          "dma_weight": 0.193135,
+          "weight": 0.166667,
+          "dma_weight": 0.166667,
           "weight_range_95": {
-            "lower": 0.051873,
-            "upper": 0.334397
+            "lower": 0.166667,
+            "upper": 0.166667
           },
-          "weighted_contribution": -0.003805
+          "weighted_contribution": -0.00185
         },
         "tech": {
           "agent": "tech",
           "agent_ko": "기술",
-          "signal": 0.5318,
-          "auditor_signal": 0.5318,
+          "signal": 0.5532,
+          "auditor_signal": 0.5532,
           "original_recommendation": "보유",
           "recommendation_label_source": "explicit_packet_label",
           "auditor_recommendation": "보유",
@@ -413,7 +414,7 @@
           "basis": [
             "Tech 최종/Bridge 점수 84.00/100",
             "peer percentile 76.22",
-            "IP Evidence Composite 46.46/100",
+            "IP Evidence Composite 50.96/100",
             "특허 레코드 506건",
             "등록특허 336건",
             "존속 가능 특허 238건",
@@ -422,7 +423,7 @@
           "components": {
             "final_score": 0.6857142857142857,
             "peer_percentile": 0.6062857142857142,
-            "ip_composite": -0.10114285714285712,
+            "ip_composite": 0.02742857142857145,
             "ip_quality": 1.0,
             "commercialization": 1.0,
             "original_agent_view_reference": 0.0
@@ -440,7 +441,7 @@
             "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
             "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
             "alpha": 0.99,
-            "history_csv": "C:\\Agent_6.8\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\signal_df_monthly_2025-01_history_monthly_20250131_20260520_031147.csv",
+            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_194434\\backtest_2025_08_2026_05_all\\monthly_cutoff_pipeline_run_log.csv",
             "history_used": false,
             "history_observations": 0,
             "available_models": [
@@ -462,7 +463,7 @@
             "current_signals": {
               "final_score": 0.685714,
               "peer_percentile": 0.606286,
-              "ip_composite": -0.101143,
+              "ip_composite": 0.027429,
               "ip_quality": 1.0,
               "commercialization": 1.0,
               "original_agent_view_reference": 0.0
@@ -510,32 +511,32 @@
               }
             }
           },
-          "weight": 0.064158,
-          "dma_weight": 0.064158,
+          "weight": 0.166667,
+          "dma_weight": 0.166667,
           "weight_range_95": {
-            "lower": 0.0,
-            "upper": 0.151843
+            "lower": 0.166667,
+            "upper": 0.166667
           },
-          "weighted_contribution": 0.034119
+          "weighted_contribution": 0.0922
         },
         "market": {
           "agent": "market",
           "agent_ko": "시장",
-          "signal": 0.1214,
-          "auditor_signal": 0.1214,
+          "signal": 0.248,
+          "auditor_signal": 0.248,
           "original_recommendation": "보유",
           "recommendation_label_source": "explicit_packet_label",
           "auditor_recommendation": "보유",
           "recommendation": "보유",
           "basis": [
             "market_score 60.00/100",
-            "연수익률 2.93%",
-            "MDD -31.64%"
+            "연수익률 12.80%",
+            "MDD -31.96%"
           ],
           "components": {
             "market_score": 0.14285714285714285,
-            "annual_return": 0.19521468371025885,
-            "mdd": -0.7312607944732298,
+            "annual_return": 0.853582554517134,
+            "mdd": -0.756492411467116,
             "liquidity": 0.0,
             "volatility": 1.0
           },
@@ -551,7 +552,7 @@
             "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
             "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
             "alpha": 0.99,
-            "history_csv": "C:\\Agent_6.8\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\signal_df_monthly_2025-01_history_monthly_20250131_20260520_031147.csv",
+            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_194434\\backtest_2025_08_2026_05_all\\monthly_cutoff_pipeline_run_log.csv",
             "history_used": false,
             "history_observations": 0,
             "available_models": [
@@ -570,8 +571,8 @@
             },
             "current_signals": {
               "market_score": 0.142857,
-              "annual_return": 0.195215,
-              "mdd": -0.731261,
+              "annual_return": 0.853583,
+              "mdd": -0.756492,
               "liquidity": 0.0,
               "volatility": 1.0
             },
@@ -612,75 +613,76 @@
               }
             }
           },
-          "weight": 0.058311,
-          "dma_weight": 0.058311,
+          "weight": 0.166667,
+          "dma_weight": 0.166667,
           "weight_range_95": {
-            "lower": 0.0,
-            "upper": 0.142164
+            "lower": 0.166667,
+            "upper": 0.166667
           },
-          "weighted_contribution": 0.007079
+          "weighted_contribution": 0.041333
         },
         "issue": {
           "agent": "issue",
           "agent_ko": "이슈",
-          "signal": 0.8889,
-          "auditor_signal": 0.8889,
+          "signal": 0.8462,
+          "auditor_signal": 0.8462,
           "original_recommendation": "보유",
           "recommendation_label_source": "explicit_packet_label",
           "auditor_recommendation": "보유",
           "recommendation": "보유",
           "basis": [
-            "긍정 키워드 34회",
-            "부정/리스크 키워드 2회"
+            "긍정 키워드 48회",
+            "부정/리스크 키워드 4회"
           ],
           "components": {
-            "positive_terms": 34,
-            "negative_terms": 2
+            "positive_terms": 48,
+            "negative_terms": 4
           },
           "component_weights": {},
           "component_dma_model": {},
-          "weight": 0.002197,
-          "dma_weight": 0.002197,
+          "weight": 0.166667,
+          "dma_weight": 0.166667,
           "weight_range_95": {
-            "lower": 0.0,
-            "upper": 0.018951
+            "lower": 0.166667,
+            "upper": 0.166667
           },
-          "weighted_contribution": 0.001953
+          "weighted_contribution": 0.141033
         },
         "macro": {
           "agent": "macro",
           "agent_ko": "거시",
-          "signal": 0.12,
-          "auditor_signal": 0.12,
-          "original_recommendation": "매도",
-          "recommendation_label_source": "explicit_packet_label",
+          "signal": -1.0,
+          "auditor_signal": -1.0,
+          "original_recommendation": "",
+          "recommendation_label_source": "macro_continuous_signal_no_categorical_cutoff",
           "auditor_recommendation": "매도",
           "recommendation": "매도",
           "basis": [
-            "raw_macro_label_seen_but_not_primary=SELL"
+            "macro_score 8.00/100",
+            "raw_macro_label_seen_but_not_primary=BUY"
           ],
           "components": {
-            "positive_terms": 28,
-            "negative_terms": 22
+            "macro_score_signal": -1.0
           },
           "component_weights": {},
           "component_dma_model": {},
-          "weight": 0.144126,
-          "dma_weight": 0.144126,
+          "weight": 0.166667,
+          "dma_weight": 0.166667,
           "weight_range_95": {
-            "lower": 0.018445,
-            "upper": 0.269808
+            "lower": 0.166667,
+            "upper": 0.166667
           },
-          "weighted_contribution": 0.017295
+          "weighted_contribution": -0.166667
         }
       },
-      "weighted_signal": 0.2961,
-      "base_recommendation": "보유",
-      "final_recommendation": "보유",
+      "weighted_signal": 0.228,
+      "base_recommendation": "매도",
+      "final_recommendation": "매도",
       "adjustment_reasons": [
-        "Final recommendation uses DMA-weighted current label posterior, not weighted_signal numeric cutoffs",
+        "Final recommendation uses DMA-weighted signal/label posterior; Hold is reject/no-trade, not a fixed weighted_signal band",
         "weighted_signal is retained only as a continuous direction/diagnostic value",
-        "realized history is retained as calibration diagnostics and does not override the current-label posterior final label"
+        "realized history is retained as calibration diagnostics and does not override the current-label posterior final label",
+        "No realized target history was available; current-label posterior used DMA-weighted current agent labels"
       ],
       "decision_rule": {
         "type": "dma_current_label_posterior",
@@ -688,142 +690,142 @@
         "note": "No arbitrary weighted_signal buy/hold/sell cutoff is applied; realized history is calibration diagnostic only"
       },
       "label_posterior_model": {
-        "method": "dma_current_label_posterior_no_signal_cutoff_v10",
+        "method": "dma_signal_soft_posterior_reject_option_no_fixed_band_v50",
         "formula": "P_current(y=c|F_t)=sum_i pi_i,t * I(label_i,t=c)",
-        "selection_policy": "final_recommendation is argmax of DMA-weighted current label posterior; weighted_signal is diagnostic only",
-        "history_csv": "C:\\Agent_6.8\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\signal_df_monthly_2025-01_history_monthly_20250131_20260520_031147.csv",
-        "history_used": true,
-        "history_observations": 30,
+        "selection_policy": "final_recommendation follows stronger Buy-vs-Sell posterior; Hold is reject/no-trade only for tied or unavailable direction; weighted_signal is diagnostic only",
+        "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_194434\\backtest_2025_08_2026_05_all\\monthly_cutoff_pipeline_run_log.csv",
+        "history_used": false,
+        "history_observations": 0,
         "smoothing": 0.5,
         "label_posterior": {
           "매수": 0.0,
-          "보유": 0.855874,
-          "매도": 0.144126
+          "보유": 0.833333,
+          "매도": 0.166667
         },
         "current_label_posterior": {
           "매수": 0.0,
-          "보유": 0.855874,
-          "매도": 0.144126
+          "보유": 0.833333,
+          "매도": 0.166667
         },
         "realized_calibrated_label_posterior": {
-          "매수": 0.476701,
-          "보유": 0.027998,
-          "매도": 0.495301
+          "매수": 0.0,
+          "보유": 0.833333,
+          "매도": 0.166667
         },
-        "final_recommendation": "보유",
+        "final_recommendation": "매도",
         "realized_calibrated_final_recommendation": "매도",
         "agent_label_models": {
           "finance": {
             "current_label": "보유",
-            "weight": 0.538073,
+            "weight": 0.166667,
             "current_label_source": "current_label_one_hot",
             "current_label_distribution": {
               "매수": 0.0,
               "보유": 1.0,
               "매도": 0.0
             },
-            "history_rows_used": 30,
-            "calibration_source": "conditional_realized_distribution_by_agent_label",
+            "history_rows_used": 0,
+            "calibration_source": "current_label_distribution_no_realized_history",
             "calibrated_label_distribution": {
-              "매수": 0.492063,
-              "보유": 0.015873,
-              "매도": 0.492063
+              "매수": 0.0,
+              "보유": 1.0,
+              "매도": 0.0
             }
           },
           "valuation": {
             "current_label": "보유",
-            "weight": 0.193135,
+            "weight": 0.166667,
             "current_label_source": "current_label_one_hot",
             "current_label_distribution": {
               "매수": 0.0,
               "보유": 1.0,
               "매도": 0.0
             },
-            "history_rows_used": 30,
-            "calibration_source": "conditional_realized_distribution_by_agent_label",
+            "history_rows_used": 0,
+            "calibration_source": "current_label_distribution_no_realized_history",
             "calibrated_label_distribution": {
-              "매수": 0.492063,
-              "보유": 0.015873,
-              "매도": 0.492063
+              "매수": 0.0,
+              "보유": 1.0,
+              "매도": 0.0
             }
           },
           "tech": {
             "current_label": "보유",
-            "weight": 0.064158,
+            "weight": 0.166667,
             "current_label_source": "current_label_one_hot",
             "current_label_distribution": {
               "매수": 0.0,
               "보유": 1.0,
               "매도": 0.0
             },
-            "history_rows_used": 1,
-            "calibration_source": "conditional_realized_distribution_by_agent_label",
+            "history_rows_used": 0,
+            "calibration_source": "current_label_distribution_no_realized_history",
             "calibrated_label_distribution": {
-              "매수": 0.2,
-              "보유": 0.2,
-              "매도": 0.6
+              "매수": 0.0,
+              "보유": 1.0,
+              "매도": 0.0
             }
           },
           "market": {
             "current_label": "보유",
-            "weight": 0.058311,
+            "weight": 0.166667,
             "current_label_source": "current_label_one_hot",
             "current_label_distribution": {
               "매수": 0.0,
               "보유": 1.0,
               "매도": 0.0
             },
-            "history_rows_used": 23,
-            "calibration_source": "conditional_realized_distribution_by_agent_label",
+            "history_rows_used": 0,
+            "calibration_source": "current_label_distribution_no_realized_history",
             "calibrated_label_distribution": {
-              "매수": 0.55102,
-              "보유": 0.020408,
-              "매도": 0.428571
+              "매수": 0.0,
+              "보유": 1.0,
+              "매도": 0.0
             }
           },
           "issue": {
             "current_label": "보유",
-            "weight": 0.002197,
+            "weight": 0.166667,
             "current_label_source": "current_label_one_hot",
             "current_label_distribution": {
               "매수": 0.0,
               "보유": 1.0,
               "매도": 0.0
             },
-            "history_rows_used": 27,
-            "calibration_source": "conditional_realized_distribution_by_agent_label",
+            "history_rows_used": 0,
+            "calibration_source": "current_label_distribution_no_realized_history",
             "calibrated_label_distribution": {
-              "매수": 0.473684,
-              "보유": 0.017544,
-              "매도": 0.508772
+              "매수": 0.0,
+              "보유": 1.0,
+              "매도": 0.0
             }
           },
           "macro": {
             "current_label": "매도",
-            "weight": 0.144126,
+            "weight": 0.166667,
             "current_label_source": "current_label_one_hot",
             "current_label_distribution": {
               "매수": 0.0,
               "보유": 0.0,
               "매도": 1.0
             },
-            "history_rows_used": 30,
-            "calibration_source": "kernel_calibrated_realized_distribution_by_agent_signal",
+            "history_rows_used": 0,
+            "calibration_source": "current_label_distribution_no_realized_history",
             "calibrated_label_distribution": {
-              "매수": 0.491912,
-              "보유": 0.016176,
-              "매도": 0.491912
+              "매수": 0.0,
+              "보유": 0.0,
+              "매도": 1.0
             }
           }
         }
       },
       "core_pillar_summary": {
-        "finance_signal": 0.4451,
-        "valuation_signal": -0.0197,
-        "tech_signal": 0.5318,
-        "market_signal": 0.1214,
-        "macro_signal": 0.12,
-        "issue_signal": 0.8889,
+        "finance_signal": 0.7317,
+        "valuation_signal": -0.0111,
+        "tech_signal": 0.5532,
+        "market_signal": 0.248,
+        "macro_signal": -1.0,
+        "issue_signal": 0.8462,
         "core_positive_count": 2,
         "core_negative_count": 1
       }
@@ -834,22 +836,22 @@
       "agent": "finance",
       "company_name": "엘티씨",
       "industry_type": "CFS",
-      "summary": "엘티씨는 2023년 큰 폭의 영업손실과 순손실을 기록했으나, 2024년에는 매출이 크게 증가하며 흑자전환에 성공했고 2025년에도 성장세를 이어갈 것으로 전망된다. 다만, 2023년 높은 부채비율과 이자보상배율이 음수였던 점을 고려할 때 재무 건전성 및 이자 지급 능력에 대한 지속적인 관찰이 필요하다. 주가는 2025년 큰 폭의 연수익률 상승을 기록했으나, 높은 변동성과 상당한 기간 MDD를 보여 투자 시 주의가 요구된다.",
+      "summary": "엘티씨는 2024년 매출이 전년 대비 144% 이상 급증하며 큰 폭의 성장을 기록했으나, 영업이익률은 8.7%로 여전히 낮은 수준에 머물러 있다. 2023년 큰 폭의 적자 전환 이후 2024년 흑자 전환에 성공했으나, ROE는 7.7%로 자본 대비 수익성이 아직 미흡한 상황이다. 부채비율은 73.9%로 전년 대비 개선되었으나 여전히 높은 수준이며, 최근 1개월 주가 변동성이 크고 MDD가 -0.42%에 달해 투자 시 주의가 필요하다.",
       "key_thesis": [
-        "2023년 큰 폭의 영업손실(-160억 원) 및 순손실(-279억 원)에서 2024년 영업이익 241억 원, 순이익 144억 원으로 흑자전환에 성공하며 수익성이 개선되었다.",
-        "매출액이 2023년 1133억 원에서 2024년 2769억 원으로 144% 이상 급증했으며, 2025년에는 3103억 원으로 추가 성장할 것으로 예상된다.",
-        "2024년 영업이익률이 8.7%로 개선되었고, 2025년에는 9.5%로 상승하며 수익성이 점진적으로 향상되는 추세를 보인다.",
-        "2024년 ROE가 7.7%로 양전환되었고, 2025년에는 8.1%를 기록하며 자본 효율성이 회복되고 있다."
+        "2024년 매출성장률이 144.33%로 크게 증가하며 외형 성장을 달성했다.",
+        "2023년 영업적자에서 2024년 241.8억원의 영업이익을 기록하며 흑자 전환에 성공했다.",
+        "2024년 ROE가 7.70%로 상승하며 수익성 개선의 가능성을 보여주었다.",
+        "2024년 부채비율이 73.93%로 전년 172.76% 대비 크게 감소하며 재무 건전성이 개선되었다."
       ],
       "key_risks": [
-        "2023년 부채비율이 172.7%로 매우 높았으며, 2024년 73.9%, 2025년 71.3%로 개선되었으나 여전히 재무 레버리지 부담이 존재한다.",
-        "2023년 이자보상배율이 -0.91로 이자 지급 능력이 부족했으나, 2024년 1.46, 2025년 3.28로 개선되어 이자 지급 능력이 회복되고 있다.",
-        "2025년 연간 MDD가 -27.99%로 상당한 수준이며, 최근 1개월 주가 데이터에서도 최대 -26.71%의 드로다운이 관찰되어 높은 변동성 리스크가 존재한다.",
-        "2025년 거래량 이동평균 대비 비율이 평균 1.0762로, 일부 구간에서 거래량 급증이 나타나 주가 변동성을 확대시키는 요인이 될 수 있다."
+        "2024년 영업이익률이 8.73%로, 매출 증가 대비 수익성 개선 폭이 제한적이다.",
+        "2025년 8월 18일 주가에서 -5.65%의 큰 폭 하락과 함께 MDD가 -0.42%를 기록하는 등 높은 변동성을 보였다.",
+        "2024년 기준 부채비율이 73.93%로 여전히 높은 수준이며, 이자비용이 165.8억원을 기록하여 재무 부담이 존재한다.",
+        "2025년 8월 21일 주가에서 -1.74%의 일일 수익률과 함께 MDD가 -0.44%를 기록하는 등 최근 주가 하락세가 관찰된다."
       ],
       "audit_trace": {
-        "original_claim_count": 6,
-        "original_evidence_count": 24,
+        "original_claim_count": 9,
+        "original_evidence_count": 30,
         "removed_fields_for_chair": [
           "claims",
           "confidence",
@@ -863,44 +865,45 @@
         "policy": "specialist agent files are not modified; this compact packet is generated by auditor_agent only"
       },
       "auditor_status": "PASS",
-      "auditor_actual_match": 0.9055,
+      "auditor_actual_match": 0.8811,
       "auditor_stage_scores": {
-        "stage1_basic_consistency": 0.8833,
+        "stage1_basic_consistency": 0.81,
         "stage2_framework": 0.8333,
         "stage3_decision_readiness": 1.0
       },
       "auditor_issues": [
-        "possible unit/scale mismatch: -160",
-        "possible unit/scale mismatch: -279",
-        "possible unit/scale mismatch: 241",
-        "possible unit/scale mismatch: 144",
-        "possible unit/scale mismatch: 1133",
-        "possible unit/scale mismatch: 2769",
         "possible unit/scale mismatch: 144%",
-        "possible unit/scale mismatch: 3103",
-        "possible unit/scale mismatch: 65",
-        "possible unit/scale mismatch: 150",
-        "possible unit/scale mismatch: -0.91",
-        "possible unit/scale mismatch: 10.3%",
+        "possible unit/scale mismatch: -0.42%",
+        "possible unit/scale mismatch: 144.33%",
+        "unmatched numeric claim: 25일",
+        "possible unit/scale mismatch: 6.18%",
+        "possible unit/scale mismatch: -5.65%",
+        "possible unit/scale mismatch: -0.42%",
+        "possible unit/scale mismatch: 21일",
+        "possible unit/scale mismatch: -1.74%",
+        "possible unit/scale mismatch: -0.44%",
+        "possible unit/scale mismatch: 6.42%",
+        "same-metric scale inconsistency suspected for mdd: ratio≈63.9 (raw_payload.latest_stock_metric.annual_mdd_%=-23.76; raw_payload.latest_recent_stock_row.mdd=-0.3719867897724945)",
         "framework criterion not visible: capital_dilution"
       ],
       "auditor_recommendation": "보유",
-      "auditor_signal": 0.4451,
+      "auditor_signal": 0.7317,
       "auditor_decision_basis": [
-        "영업이익률 9.55%",
-        "ROE 8.13%",
-        "FCF 15,016,522,030",
-        "부채비율 71.35%",
-        "MDD -27.99%"
+        "매출성장률 144.33%",
+        "영업이익률 8.73%",
+        "ROE 7.70%",
+        "FCF 6,599,520,253",
+        "부채비율 73.93%",
+        "MDD -23.76%"
       ],
       "auditor_signal_components": {
-        "sales_growth": 0.0,
+        "sales_growth": 1.0,
         "operating_margin": 1.0,
-        "roe": 1.0,
+        "roe": 0.9545829644464057,
         "fcf": 1.0,
         "debt_ratio": 1.0,
-        "current_ratio": 0.0,
-        "mdd": -0.4391999999999999,
+        "current_ratio": 1.0,
+        "mdd": -0.10080000000000011,
         "warning_stock": 0.0
       }
     },
@@ -908,18 +911,10 @@
       "agent": "market",
       "company_name": "엘티씨",
       "industry_type": "deeptech_semiconductor",
-      "summary": "시장 측면에서는 엘티씨가 속한 반도체 소재 및 장비 산업은 AI, HBM 등 신규 수요에 힘입어 성장기 초입 또는 중반에 위치하고 있습니다. 엘티씨는 전공정 소재 및 장비 분야에서 PR 박리액, 세정액·식각액, TSV 세정 장비 등을 공급하며 밸류체인 내에서 중요한 위치를 차지하고 있습니다. 다만 거시·경기 신호는 반도체 업황 회복 가능성을 일부 뒷받침합니다. 최근 주가 흐름과 변동성은 단기 점검 요인입니다. 후공정 패키징 시장 내 경쟁 강도도 함께 확인할 필요가 있습니다.",
-      "key_thesis": [
-        "AI 및 HBM 시장 성장에 따른 수혜 근거는 핵심 세그먼트 분석상 AI·HBM 반도체 성장기 초입입니다.",
-        "첨단 공정용 소재 및 장비 수요 증가 근거는 엘티씨의 밸류체인 내 위치 및 제품군입니다.",
-        "산업 성장성: 엘티씨가 속한 반도체 소재 및 장비 산업은 AI, HBM 등 신규 수요에 힘입어 성장기 초입 또는 중반에 위치하고 있습니다. 다만, 레거시 반도체는 쇠퇴기에 접어들고 있습니다.",
-        "밸류체인 포지션: 엘티씨는 전공정 소재 및 장비 분야에서 PR 박리액, 세정액·식각액, TSV 세정 장비 등을 공급하며 밸류체인 내에서 중요한 위치를 차지하고 있습니다. 이는 첨단 반도체 수요 증가의 수혜를 직접적으로 받을 수 있는 강점입니다."
-      ],
+      "summary": "엘티씨는 AI 및 HBM 시장 성장에 따른 수혜가 기대되며, 최근 주가 모멘텀도 긍정적입니다. 다만, 거시 경제 둔화 가능성과 높은 경쟁 강도는 잠재적 리스크 요인으로 작용할 수 있어 '보유' 의견을 제시합니다.",
       "key_risks": [
-        "거시 경제 둔화로 인한 반도체 수요 감소 수준은 중이며, 근거는 OECD 경기선행지수 하락입니다.",
-        "높은 경쟁 강도로 인한 수익성 압박 수준은 중이며, 근거는 DART 공시상 '높음' 수준의 경쟁 강도입니다.",
-        "주가·시장 모멘텀 리스크: 엘티씨의 주가는 2026년 5월 19일 기준 42,700원으로 전일 대비 9.21% 상승하며 강한 상승 모멘텀을 보여주고 있습니다. 이는 시장의 긍정적인 반응을 나타냅니다.",
-        "경쟁 구도 리스크: 엘티씨는 '높음' 수준의 경쟁 강도 속에서 고객사의 공정 변화에 맞춘 신제품 개발 및 품질 향상으로 차별화를 꾀하고 있습니다. 그러나 구체적인 경쟁사 대비 점유율이나 기술 우위는 추가 분석이 필요합니다."
+        "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 151 column 6 (char 4335)",
+        "밸류체인 위치 확인: 소재"
       ],
       "audit_trace": {
         "original_claim_count": 3,
@@ -936,29 +931,31 @@
         "policy": "specialist agent files are not modified; this compact packet is generated by auditor_agent only"
       },
       "auditor_status": "PASS",
-      "auditor_actual_match": 0.9611,
+      "auditor_actual_match": 0.9487,
       "auditor_stage_scores": {
-        "stage1_basic_consistency": 0.8833,
+        "stage1_basic_consistency": 0.8462,
         "stage2_framework": 1.0,
         "stage3_decision_readiness": 1.0
       },
       "auditor_issues": [
-        "possible unit/scale mismatch: 5월",
-        "possible unit/scale mismatch: 19일",
-        "possible unit/scale mismatch: 5월",
-        "possible unit/scale mismatch: 19일"
+        "possible unit/scale mismatch: 151",
+        "possible unit/scale mismatch: 6",
+        "possible unit/scale mismatch: 4335",
+        "possible unit/scale mismatch: 151",
+        "possible unit/scale mismatch: 6",
+        "possible unit/scale mismatch: 4335"
       ],
       "auditor_recommendation": "보유",
-      "auditor_signal": 0.1214,
+      "auditor_signal": 0.248,
       "auditor_decision_basis": [
         "market_score 60.00/100",
-        "연수익률 2.93%",
-        "MDD -31.64%"
+        "연수익률 12.80%",
+        "MDD -31.96%"
       ],
       "auditor_signal_components": {
         "market_score": 0.14285714285714285,
-        "annual_return": 0.19521468371025885,
-        "mdd": -0.7312607944732298,
+        "annual_return": 0.853582554517134,
+        "mdd": -0.756492411467116,
         "liquidity": 0.0,
         "volatility": 1.0
       }
@@ -967,13 +964,13 @@
       "agent": "tech",
       "company_name": "엘티씨",
       "industry_type": "deeptech_semiconductor",
-      "summary": "기존 Tech Agent 내부 판단은 보유였고, Auditor compact에서는 이를 참고 신호로만 사용합니다. 최종 Tech 점수는 84.00/100 수준이며 판정은 COMMERCIALIZATION_WATCH입니다. peer 기준으로는 소재 내 peer 중상위권이며, base 63.00점에서 peer 보정 후 84.00점으로 조정되었습니다. IP Evidence Composite는 46.46/100(IP_EVIDENCE_NEUTRAL)으로, 특허 수 자체보다 권리 안정성·청구항·인용·패밀리 품질을 보조 판단합니다.",
+      "summary": "기존 Tech Agent 내부 판단은 보유였고, Auditor compact에서는 이를 참고 신호로만 사용합니다. 최종 Tech 점수는 84.00/100 수준이며 판정은 COMMERCIALIZATION_WATCH입니다. peer 기준으로는 소재 내 peer 중상위권이며, base 63.00점에서 peer 보정 후 84.00점으로 조정되었습니다. IP Evidence Composite는 50.96/100(IP_EVIDENCE_NEUTRAL)으로, 특허 수 자체보다 권리 안정성·청구항·인용·패밀리 품질을 보조 판단합니다.",
       "key_thesis": [
         "Peer 대비 Tech-to-Value: 소재 기준 peer 중상위권, peer percentile 76.22%, 보정 4.20점.",
         "Bridge 점수 흐름: base 63.00/100 → peer-adjusted 84.00/100 → IP 반영 후 84.00/100.",
-        "개인투자자용 최종 Tech 점수: 75.24/100, grade=TECH_TO_VALUE_READY.",
-        "IP 품질: IP Evidence Composite 46.46/100, signal=IP_EVIDENCE_NEUTRAL.",
-        "특허 정량 신호: 회사 매칭/정규화 특허 506건, 등록 336건, 최근 5년 235건."
+        "개인투자자용 최종 Tech 점수: 76.29/100, grade=TECH_TO_VALUE_READY.",
+        "IP 품질: IP Evidence Composite 50.96/100, signal=IP_EVIDENCE_NEUTRAL.",
+        "특허 정량 신호: 회사 매칭/정규화 특허 506건, 등록 336건, 최근 5년 1,805건."
       ],
       "key_risks": [
         "기술성은 확인되지만 고객 채택·양산·매출 전환·FCF 개선까지 이어지는 연결고리를 계속 추적해야 하는 상태",
@@ -981,7 +978,7 @@
       ],
       "metrics": {
         "original_agent_view_reference": "보유",
-        "final_tech_investor_score": 75.24,
+        "final_tech_investor_score": 76.29,
         "base_bridge_score": 63.0,
         "peer_adjusted_bridge_score": 84.0,
         "final_bridge_score_after_ip_evidence": 84.0,
@@ -990,11 +987,11 @@
         "peer_adjustment_points": 4.2,
         "peer_group": "소재",
         "cluster_name": "반도체 후공정/패키징 cluster",
-        "ip_evidence_composite_score": 46.46,
+        "ip_evidence_composite_score": 50.96,
         "ip_evidence_bridge_signal": "IP_EVIDENCE_NEUTRAL",
         "patent_count": 506,
         "registered_patent_count": 336,
-        "recent_5y_patent_count": 235,
+        "recent_5y_patent_count": 1805,
         "nearest_peers": "한솔케미칼, 한미반도체, 네패스, 덕산테코피아"
       },
       "audit_trace": {
@@ -1037,26 +1034,28 @@
         "tech_full_appendix_json": null,
         "tech_chair_summary_json": "data/반도체/엘티씨/tech/tech_chair_summary.json",
         "tech_chair_summary_md": "data/반도체/엘티씨/tech/ltc_tech_chair_summary.md",
+        "tech_history_feature_json": "data/반도체/엘티씨/tech/tech_history_features_2025-08-31.json",
+        "tech_history_feature_csv": "data/반도체/엘티씨/tech/tech_history_features_2025-08-31.csv",
         "tech_json": "data/반도체/엘티씨/tech/ltc_tech.json",
         "tech_agent_packet_json": "data/반도체/엘티씨/tech/ltc_tech_agent_packet.json"
       },
       "auditor_status": "PASS",
-      "auditor_actual_match": 0.9289,
+      "auditor_actual_match": 0.9222,
       "auditor_stage_scores": {
-        "stage1_basic_consistency": 0.7867,
+        "stage1_basic_consistency": 0.7667,
         "stage2_framework": 1.0,
         "stage3_decision_readiness": 1.0
       },
       "auditor_issues": [
         "template/request/missing-context phrase detected",
-        "same-metric scale inconsistency suspected for tech_score: ratio≈840.0 (tech_chair_summary.tech_to_value.base_bridge_score=63.0; tech_chair_summary.tech_to_value.peer_adjusted_bridge_score=84.0; tech_chair_summary.tech_to_value.peer_adjusted_bridge_score_before_ip_evidence=84.0; tech_chair_summary.tech_to_value.final_bridge_score_after_ip_evidence=84.0; tech_chair_summary.tech_to_value.investor_final_tech_score=75.24)"
+        "same-metric scale inconsistency suspected for tech_score: ratio≈840.0 (tech_chair_summary.tech_to_value.base_bridge_score=63.0; tech_chair_summary.tech_to_value.peer_adjusted_bridge_score=84.0; tech_chair_summary.tech_to_value.peer_adjusted_bridge_score_before_ip_evidence=84.0; tech_chair_summary.tech_to_value.final_bridge_score_after_ip_evidence=84.0; tech_chair_summary.tech_to_value.investor_final_tech_score=76.29)"
       ],
       "auditor_recommendation": "보유",
-      "auditor_signal": 0.5318,
+      "auditor_signal": 0.5532,
       "auditor_decision_basis": [
         "Tech 최종/Bridge 점수 84.00/100",
         "peer percentile 76.22",
-        "IP Evidence Composite 46.46/100",
+        "IP Evidence Composite 50.96/100",
         "특허 레코드 506건",
         "등록특허 336건",
         "존속 가능 특허 238건",
@@ -1065,7 +1064,7 @@
       "auditor_signal_components": {
         "final_score": 0.6857142857142857,
         "peer_percentile": 0.6062857142857142,
-        "ip_composite": -0.10114285714285712,
+        "ip_composite": 0.02742857142857145,
         "ip_quality": 1.0,
         "commercialization": 1.0,
         "original_agent_view_reference": 0.0
@@ -1075,31 +1074,30 @@
       "agent": "valuation",
       "company_name": "엘티씨",
       "industry_type": "deeptech_semiconductor",
-      "summary": "기존 Valuation Agent 내부 판단은 보유였고, Auditor compact에서는 이를 참고 신호로만 사용합니다. DCF 내재주가는 -2,583원이고 현재가 39,950원 대비 괴리율은 -106.47%입니다. peer 대비 P/S는 1.36배로 비교기업 중앙값 3.49배 대비 -61.14% 수준입니다. 208개 반도체 reference universe에서는 소재 기준 valuation proxy 58.38/100, label=FAIR입니다.",
+      "summary": "기존 Valuation Agent 내부 판단은 보유였고, Auditor compact에서는 이를 참고 신호로만 사용합니다. DCF 내재주가는 -366원이고 현재가 12,070원 대비 괴리율은 -103.03%입니다. peer 대비 P/S는 0.41배로 비교기업 중앙값 2.27배 대비 -81.93% 수준입니다. 208개 반도체 reference universe에서는 소재 기준 valuation proxy 58.38/100, label=FAIR입니다.",
       "key_thesis": [
-        "DCF: 내재주가 -2,583원, 현재가 39,950원, 괴리율 -106.47%.",
-        "Peer P/S: 대상 1.36배 vs 비교기업 중앙값 3.49배, gap -61.14%.",
+        "DCF: 내재주가 -366원, 현재가 12,070원, 괴리율 -103.03%.",
+        "Peer P/S: 대상 0.41배 vs 비교기업 중앙값 2.27배, gap -81.93%.",
         "Reference Universe: 208개 반도체 universe, 소재 peer group 26개, valuation proxy 58.38/100(FAIR).",
-        "Valuation scorecard: 51.79/100, label=VALUATION_NEUTRAL, validation=PASS_WITH_WARNINGS.",
-        "할인율/가치: WACC 11.52%, DCF 기업가치 574.8억원, 지분가치 -272.9억원."
+        "Valuation scorecard: 53.89/100, label=VALUATION_NEUTRAL, validation=PASS_WITH_WARNINGS.",
+        "할인율/가치: WACC 8.67%, DCF 기업가치 809.0억원, 지분가치 -38.7억원."
       ],
       "key_risks": [
-        "WACC가 11.52%로 높아 장기 현금흐름 가정 변화에 민감합니다.",
         "가격 리스크: MDD -58.49%로 변동성/낙폭 리스크 확인이 필요합니다.",
-        "변동성: 연환산 변동성 60.87% 수준입니다."
+        "변동성: 연환산 변동성 54.77% 수준입니다."
       ],
       "metrics": {
         "original_agent_view_reference": "보유",
-        "implied_price_krw": -2582.9056820784726,
-        "current_price_krw": 39950.0,
-        "upside_downside_pct": -1.0646534588755563,
-        "wacc": 0.1152247643065633,
-        "enterprise_value": 57481005506.407074,
-        "equity_value": -27286141071.592926,
-        "target_psr": 1.3580198768575606,
-        "peer_median_psr": 3.494287284398839,
-        "psr_gap": -0.6113599809263548,
-        "valuation_scorecard_score": 51.79,
+        "implied_price_krw": -366.27816075807016,
+        "current_price_krw": 12070.0,
+        "upside_downside_pct": -1.0303461607918865,
+        "wacc": 0.08673666086269081,
+        "enterprise_value": 80897737936.70349,
+        "equity_value": -3869408641.296509,
+        "target_psr": 0.41080952164588364,
+        "peer_median_psr": 2.273530772564823,
+        "psr_gap": -0.8193076924213171,
+        "valuation_scorecard_score": 53.89,
         "valuation_scorecard_label": "VALUATION_NEUTRAL",
         "reference_universe_rows": 208,
         "target_peer_group": "소재",
@@ -1154,7 +1152,7 @@
           {
             "step": "price_history",
             "status": "OK",
-            "rows": 1220
+            "rows": 1139
           },
           {
             "step": "share_count",
@@ -1169,17 +1167,17 @@
           {
             "step": "market_cap",
             "status": "OK",
-            "market_cap": 422036833700.0
+            "market_cap": 127509000820.0
           },
           {
             "step": "liquidity_proxy",
             "status": "OK",
-            "avg_trading_value_20d": 14691639480.0
+            "avg_trading_value_20d": 1451423003.0
           },
           {
-            "step": "workbook_created",
+            "step": "workbook_available",
             "status": "OK",
-            "path": "C:\\Agent_6.8\\data\\반도체\\엘티씨\\valuation\\ltc_valuation_workbook.xlsx"
+            "path": "C:\\Agent_6.9\\data\\반도체\\엘티씨\\valuation\\ltc_valuation_workbook.xlsx"
           }
         ],
         "principle": "valuation_agent 자체 데이터/모델 일관성 검증; 기존 web-auditor 의존 없음"
@@ -1192,25 +1190,25 @@
         "stage3_decision_readiness": 1.0
       },
       "auditor_issues": [
-        "same-metric scale inconsistency suspected for wacc: ratio≈12058195248571.4 (metrics.wacc.risk_free_rate=0.035; metrics.wacc.market_risk_premium=0.06; metrics.wacc.beta=1.8; metrics.wacc.cost_of_equity=0.14300000000000002; metrics.wacc.pre_tax_cost_of_debt=0.055)",
-        "same-metric scale inconsistency suspected for fcf: ratio≈1856762711917.2 (metrics.dcf.assumed_fcf_margin=0.013308047264416228; metrics.dcf.pv_fcf=20555927744.784004; metrics.peer_comps.target_row.fcf=24709885929.0; metrics.peer_comps.target_row.fcf_margin=0.07961050869457234; metrics.peer_comps.target_row.p_fcf=17.05829920102178)"
+        "same-metric scale inconsistency suspected for wacc: ratio≈6392545976257.1 (metrics.wacc.risk_free_rate=0.035; metrics.wacc.market_risk_premium=0.06; metrics.wacc.beta=1.8; metrics.wacc.cost_of_equity=0.14300000000000002; metrics.wacc.pre_tax_cost_of_debt=0.055)",
+        "same-metric scale inconsistency suspected for fcf: ratio≈1856762711917.2 (metrics.dcf.assumed_fcf_margin=0.013308047264416228; metrics.dcf.pv_fcf=22183187886.252075; metrics.peer_comps.target_row.fcf=24709885929.0; metrics.peer_comps.target_row.fcf_margin=0.07961050869457234; metrics.peer_comps.target_row.p_fcf=5.160242389883029)"
       ],
       "auditor_recommendation": "보유",
-      "auditor_signal": -0.0197,
+      "auditor_signal": -0.0111,
       "auditor_decision_basis": [
-        "DCF 괴리율 -106.47%",
-        "Valuation scorecard 51.79/100",
-        "P/S 1.36배",
-        "peer median P/S 3.49배",
-        "peer P/S gap -61.14%",
+        "DCF 괴리율 -103.03%",
+        "Valuation scorecard 53.89/100",
+        "P/S 0.41배",
+        "peer median P/S 2.27배",
+        "peer P/S gap -81.93%",
         "reference universe score 58.38/100",
-        "WACC 11.52%",
+        "WACC 8.67%",
         "validation_status=PASS_WITH_WARNINGS",
         "기존 Valuation Agent 내부 판단 참고=보유"
       ],
       "auditor_signal_components": {
         "dcf_upside": -1.0,
-        "scorecard": -0.2345714285714286,
+        "scorecard": -0.17457142857142854,
         "peer_psr": 1.0,
         "reference_universe": 0.09670329670329657,
         "original_agent_view_reference": 0.0,
@@ -1222,22 +1220,22 @@
       "agent": "issue",
       "company_name": "엘티씨",
       "industry_type": "deeptech_semiconductor",
-      "summary": "엘티씨는 최근 반도체 업황 회복 기대감, SK하이닉스의 호실적 발표, 전력 설비 투자 확대 기대감 등에 힘입어 주가 강세를 보이고 있다. 특히 반도체 공정 소재 및 메모리 모듈 수요 증가와 EUV 관련 기술 발전이 긍정적인 영향을 미치고 있다.",
+      "summary": "엘티씨는 최근 반도체 업황 회복 기대감과 SK하이닉스의 호실적 발표에 따른 투자 심리 개선의 수혜를 받고 있는 것으로 파악됩니다. 특히 EUV 공정 소재 및 메모리 모듈 수요 증가와 관련된 긍정적인 언급이 있으며, 일부 뉴스에서는 전력 설비 투자 확대 기대감과도 연관되어 상승세를 보였습니다. 또한, 52주 신고가를 기록한 종목 중 하나로 언급되기도 했습니다.",
       "key_thesis": [
-        "업황 회복 기대감 및 실적 개선: 반도체 업황 회복 기대감과 SK하이닉스의 호실적 발표가 투자 심리를 개선시키고 있으며, 이는 엘티씨와 같은 반도체 소부장 기업에 긍정적으로 작용하고 있다.",
-        "기관 자금 유입: 업황 회복 기대감이 반영되며 기관 자금이 유입되고 있다는 점은 긍정적인 시그널이다.",
-        "수요 증가: 반도체 공정 소재 및 메모리 모듈 수요 증가가 언급되고 있으며, 이는 엘티씨의 매출 증대에 기여할 수 있다.",
-        "EUV 관련 기술 발전: EUV 관련 기술 발전은 반도체 미세 공정의 중요성을 부각시키며 관련 소재 기업에 기회를 제공할 수 있다."
+        "반도체 업황 회복 기대감 및 실적 개선: SK하이닉스의 호실적 발표와 함께 반도체 업황 회복에 대한 기대감이 투자 심리를 개선시키고 있으며, 이는 엘티씨와 같은 반도체 소부장 기업에 긍정적으로 작용할 수 있습니다.",
+        "EUV 공정 소재 및 메모리 모듈 수요 증가: EUV 공정 소재 및 메모리 모듈 수요 증가가 엘티씨의 실적 가시성을 빠르게 개선시키고 있다는 언급이 있습니다.",
+        "52주 신고가 기록: 엘티씨가 52주 신고가를 기록한 종목 중 하나로 언급되어 단기적인 주가 강세를 시사합니다.",
+        "기관 자금 유입: 업황 회복 기대감이 반영되며 기관 자금이 유입되었다는 뉴스가 있습니다."
       ],
       "key_risks": [
-        "데이터 부족: 제공된 내부 키워드 및 뉴스/RSS 문맥만으로는 엘티씨의 구체적인 사업 내용, 경쟁력, 재무 상태 등에 대한 상세한 정보를 파악하기 어렵다. 따라서 투자 관점에서의 심층적인 분석에는 한계가 있다.",
-        "단기 주가 상승에 따른 피로감 가능성: 일부 반도체 재료 관련 기업들이 단기 주가 상승에 따른 피로감을 보인다는 언급이 있어, 엘티씨 역시 이러한 흐름에서 자유롭지 않을 수 있다.",
-        "거시 경제 변동성: 전반적인 투자 심리 개선에도 불구하고, 거시 경제 상황 변화에 따른 시장 변동성은 언제든 발생할 수 있다."
+        "전력 설비 투자 확대 기대감과의 연관성 불명확: 일부 뉴스에서 전력 설비 투자 확대 기대감이 주가에 반영되었다는 언급이 있으나, 엘티씨의 사업 영역과의 직접적인 연관성이 명확하게 제시되지 않아 해당 이슈의 영향력은 불확실합니다.",
+        "단기 주가 상승에 따른 피로감 가능성: 다른 반도체 재료 관련 기업들이 단기 주가 상승에 따른 피로감으로 하락세를 보인다는 점은 엘티씨에도 잠재적인 부담으로 작용할 수 있습니다. (직접적인 언급은 없으나 시장 전반의 흐름으로 고려)",
+        "데이터 부족: 엘티씨 자체의 구체적인 실적 지표, 신규 수주, 기술 개발 현황 등에 대한 상세한 내부 키워드나 뉴스 데이터가 부족하여 투자 관점에서의 명확한 방향성 판단에 한계가 있습니다."
       ],
       "warning_note": "검증 불가 claim 6개를 제거한 뒤 grounding 기준을 재검증했습니다.",
       "metrics": {
         "news_count": 10,
-        "rss_count": 17,
+        "rss_count": 11,
         "related_keyword_count": 1,
         "df_news_rows": 139
       },
@@ -1259,10 +1257,10 @@
         "policy": "specialist agent files are not modified; this compact packet is generated by auditor_agent only"
       },
       "watch_points": [
-        "구체적인 실적 발표: 향후 발표될 엘티씨의 분기별 실적 발표를 통해 실제 매출 및 이익 성장 추세를 확인해야 한다.",
-        "신규 수주 및 고객사 동향: 반도체 공정 소재 및 메모리 모듈 관련 신규 수주 현황과 주요 고객사의 투자 계획을 파악하는 것이 중요하다.",
-        "EUV 관련 기술 적용 및 성과: EUV 기술 적용 확대에 따른 엘티씨의 관련 소재 공급 확대 및 기술 경쟁력 강화 여부를 주시해야 한다.",
-        "경쟁사 동향 및 시장 점유율: 반도체 소재 시장 내 경쟁사들의 동향과 엘티씨의 시장 점유율 변화를 모니터링할 필요가 있다."
+        "반도체 업황의 지속적인 회복 여부: 삼성전자 및 주요 반도체 기업들의 실적 발표 추이와 시장 전망을 통해 반도체 업황의 지속적인 회복 가능성을 확인해야 합니다.",
+        "EUV 공정 및 메모리 모듈 관련 구체적인 수주 및 실적 기여도: 엘티씨가 EUV 공정 소재 및 메모리 모듈 수요 증가로부터 얼마나 실질적인 수혜를 받고 있는지 구체적인 데이터를 통해 파악해야 합니다.",
+        "전력 설비 투자 확대와의 연관성: 엘티씨의 사업 포트폴리오와 전력 설비 투자 확대가 어떤 연관성을 가지는지, 그리고 이것이 실적에 미치는 영향을 명확히 파악해야 합니다.",
+        "기관 및 외국인 투자자 동향: 기관 자금 유입 외에 외국인 투자자들의 매매 동향을 지속적으로 관찰할 필요가 있습니다."
       ],
       "output_files": {
         "issue_json": "data/반도체/엘티씨/issue/ltc_issue.json",
@@ -1277,164 +1275,166 @@
         "stage3_decision_readiness": 0.7222
       },
       "auditor_recommendation": "보유",
-      "auditor_signal": 0.8889,
+      "auditor_signal": 0.8462,
       "auditor_decision_basis": [
-        "긍정 키워드 34회",
-        "부정/리스크 키워드 2회"
+        "긍정 키워드 48회",
+        "부정/리스크 키워드 4회"
       ],
       "auditor_signal_components": {
-        "positive_terms": 34,
-        "negative_terms": 2
+        "positive_terms": 48,
+        "negative_terms": 4
       }
     },
     {
       "agent": "macro",
       "company_name": "엘티씨",
       "industry_type": "deeptech_semiconductor",
-      "summary": "현재 매크로 환경은 중립 비우호적이며, 총점 -7점과 높은 리스크 레벨을 나타냅니다. 이는 고금리 지속, 원달러 환율 상승 압력, 부정적 뉴스 및 규제 리스크 등 복합적인 요인이 작용한 결과로, 반도체 딥테크 기업 투자에 신중한 접근이 요구됩니다.",
+      "summary": "현재 매크로 환경은 전반적으로 중립적인 우호성을 보이며, 리스크 레벨은 'medium'으로 평가됩니다. 이는 반도체 딥테크 기업 투자에 있어 신중한 접근이 필요한 시점임을 시사합니다.",
       "key_thesis": [
-        "국고채_10년 고수준 구간 하락 → 유동성 환경 개선 (고금리 완화)",
-        "국고채_3년 고수준 구간 하락 → 유동성 환경 개선 (고금리 완화)"
+        "전체 시장 20일 수익률 양수 → 시장/섹터 방향성 우호",
+        "한국 시장 20일 수익률 양수 → 시장/섹터 방향성 우호",
+        "미국 시장 20일 수익률 양수 → 시장/섹터 방향성 우호",
+        "반도체 섹터 20일 수익률 양수 → 시장/섹터 방향성 우호"
       ],
       "key_risks": [
-        "원달러 환율 1503.4 수준으로 과거 분포 대비 높은 수준 유지",
-        "부정적 뉴스 키워드 9건으로 투자 심리 위축 가능성",
-        "규제 리스크 키워드 1건으로 지정학적 리스크 상존"
+        "원달러 환율 레벨 (1388.6)이 과거 2800일 관측치의 80% 분위수 상단에 근접하여 높은 수준을 유지하고 있습니다.",
+        "미국 국채 10년 레벨 (4.227)이 과거 2800일 관측치의 80% 분위수 상단에 근접하여 높은 수준을 유지하고 있습니다.",
+        "미국 기준금리 FFR 레벨 (4.33)이 과거 92개월 관측치의 80% 분위수 상단에 근접하여 높은 수준을 유지하고 있습니다."
       ],
       "warning_note": "검증 불가 claim 6개를 제거한 뒤 grounding 기준을 재검증했습니다. 최종 grounding score가 기준(0.75)에 미달했습니다. score=0.0",
       "metrics": {
-        "macro_score": -7,
-        "macro_signal": "SELL",
-        "risk_level": "HIGH",
+        "macro_score": 8,
+        "macro_signal": "BUY",
+        "risk_level": "LOW",
         "ecos_daily": {
-          "국고채_10년_level": 4.21,
-          "국고채_10년_diff": -0.029,
-          "국고채_10년_zone": "high",
+          "국고채_10년_level": 2.815,
+          "국고채_10년_diff": 0.0,
+          "국고채_10년_zone": "neutral",
           "국고채_10년_criteria": {
             "method": "empirical_percentile",
-            "lookback_observations": 3061,
-            "high": 3.43,
-            "low": 1.792,
+            "lookback_observations": 2800,
+            "high": 3.372,
+            "low": 1.7222000000000004,
             "high_q": 0.8,
             "low_q": 0.2
           },
-          "국고채_3년_level": 3.751,
-          "국고채_3년_diff": -0.006,
-          "국고채_3년_zone": "high",
+          "국고채_3년_level": 2.426,
+          "국고채_3년_diff": 0.0,
+          "국고채_3년_zone": "neutral",
           "국고채_3년_criteria": {
             "method": "empirical_percentile",
-            "lookback_observations": 3061,
-            "high": 3.306,
-            "low": 1.36,
+            "lookback_observations": 2800,
+            "high": 3.296,
+            "low": 1.301,
             "high_q": 0.8,
             "low_q": 0.2
           },
-          "콜금리_level": 2.524,
+          "콜금리_level": 2.521,
           "콜금리_diff": 0.0,
           "콜금리_zone": "neutral",
           "콜금리_criteria": {
             "method": "empirical_percentile",
-            "lookback_observations": 3061,
-            "high": 3.394,
-            "low": 0.86,
+            "lookback_observations": 2800,
+            "high": 3.4352000000000005,
+            "low": 0.75,
             "high_q": 0.8,
             "low_q": 0.2
           },
-          "cd금리_91일_level": 2.81,
+          "cd금리_91일_level": 2.53,
           "cd금리_91일_diff": 0.0,
           "cd금리_91일_zone": "neutral",
           "cd금리_91일_criteria": {
             "method": "empirical_percentile",
-            "lookback_observations": 3061,
-            "high": 3.53,
-            "low": 1.17,
+            "lookback_observations": 2800,
+            "high": 3.57,
+            "low": 1.1,
             "high_q": 0.8,
             "low_q": 0.2
           },
-          "국고채_10년_3년_스프레드": 0.459,
+          "국고채_10년_3년_스프레드": 0.389,
           "국고채_10년_3년_스프레드_criteria": {
             "method": "empirical_percentile",
-            "lookback_observations": 3061,
-            "high": 0.4889999999999999,
-            "low": 0.0979999999999998,
+            "lookback_observations": 2800,
+            "high": 0.5012000000000003,
+            "low": 0.09099999999999962,
             "high_q": 0.8,
             "low_q": 0.2
           },
-          "원달러_level": 1503.4,
-          "원달러_diff": 3.6,
+          "원달러_level": 1388.6,
+          "원달러_diff": 0.0,
           "원달러_zone": "high",
           "원달러_criteria": {
             "method": "empirical_percentile",
-            "lookback_observations": 3061,
-            "high": 1380.4,
-            "low": 1130.9,
+            "lookback_observations": 2800,
+            "high": 1348.3,
+            "low": 1128.3,
             "high_q": 0.8,
             "low_q": 0.2
           },
-          "신용스프레드_bbb-_level": 6.427,
-          "신용스프레드_bbb-_diff": 0.002,
+          "신용스프레드_bbb-_level": 6.32,
+          "신용스프레드_bbb-_diff": 0.0,
           "신용스프레드_bbb-_zone": "low",
-          "신용스프레드_aa-_level": 0.626,
-          "신용스프레드_aa-_diff": 0.002,
-          "신용스프레드_aa-_zone": "neutral"
+          "신용스프레드_aa-_level": 0.48,
+          "신용스프레드_aa-_diff": 0.0,
+          "신용스프레드_aa-_zone": "low"
         },
         "external_daily": {
-          "미국_국채_10년_2년_스프레드": 0.505,
+          "미국_국채_10년_2년_스프레드": 0.637,
           "미국_국채_10년_2년_스프레드_diff": 0.0,
           "미국_국채_10년_2년_스프레드_criteria": {
             "method": "empirical_percentile",
-            "lookback_observations": 3061,
-            "high": 0.6040000176429748,
-            "low": -0.3149999046325682,
+            "lookback_observations": 2800,
+            "high": 0.5810000157356262,
+            "low": -0.35199993324279755,
             "high_q": 0.8,
             "low_q": 0.2
           },
-          "미국_국채_10년_level": 4.651,
-          "미국_국채_10년_diff": 0.028,
+          "미국_국채_10년_level": 4.227,
+          "미국_국채_10년_diff": 0.0,
           "미국_국채_10년_zone": "high",
           "미국_국채_10년_criteria": {
             "method": "empirical_percentile",
-            "lookback_observations": 3061,
-            "high": 4.21999979019165,
-            "low": 1.5700000524520874,
+            "lookback_observations": 2800,
+            "high": 4.196000099182129,
+            "low": 1.5299999713897705,
             "high_q": 0.8,
             "low_q": 0.2
           },
-          "미국_국채_13주_level": 3.575,
-          "미국_국채_13주_diff": 0.007,
+          "미국_국채_13주_level": 4.043,
+          "미국_국채_13주_diff": 0.0,
           "미국_국채_13주_zone": "neutral",
           "미국_국채_13주_criteria": {
             "method": "empirical_percentile",
-            "lookback_observations": 3061,
-            "high": 4.51800012588501,
-            "low": 0.1199999973177909,
+            "lookback_observations": 2800,
+            "high": 4.660999870300294,
+            "low": 0.1000000014901161,
             "high_q": 0.8,
             "low_q": 0.2
           },
-          "달러인덱스_dxy_level": 99.271,
-          "달러인덱스_dxy_diff": 0.301,
+          "달러인덱스_dxy_level": 97.77,
+          "달러인덱스_dxy_diff": 0.0,
           "달러인덱스_dxy_zone": "neutral",
           "달러인덱스_dxy_criteria": {
             "method": "empirical_percentile",
-            "lookback_observations": 3061,
-            "high": 104.04000091552734,
-            "low": 94.11000061035156,
+            "lookback_observations": 2800,
+            "high": 104.19200134277344,
+            "low": 93.70399932861328,
             "high_q": 0.8,
             "low_q": 0.2
           },
-          "유가_평균_diff": -3.18,
-          "유가_wti_diff": -5.06,
-          "유가_brent_diff": -1.3,
-          "구리_diff": -0.075,
-          "미국_하이일드_스프레드_level": 2.83,
-          "미국_하이일드_스프레드_diff": 0.0
+          "유가_평균_diff": 0.0,
+          "유가_wti_diff": 0.0,
+          "유가_brent_diff": 0.0,
+          "구리_diff": 0.0,
+          "미국_하이일드_스프레드_level": 2.84,
+          "미국_하이일드_스프레드_diff": 0.02
         },
         "news_signal": {
           "positive_keyword_count": 0,
-          "negative_keyword_count": 9
+          "negative_keyword_count": 0
         },
         "regulation_signal": {
-          "regulation_risk_keyword_count": 1
+          "regulation_risk_keyword_count": 0
         }
       },
       "audit_trace": {
@@ -1455,32 +1455,32 @@
         "policy": "specialist agent files are not modified; this compact packet is generated by auditor_agent only"
       },
       "watch_points": [
-        "{\"indicator\": \"국고채 10년 금리\", \"current\": \"4.21%로 과거 분포 대비 높은 수준\", \"threshold\": \"추가 상승 시 유동성 경색 우려 증대\", \"semiconductor_relevance\": \"자금 조달 비용 증가 및 투자 매력도 하락\"}",
-        "{\"indicator\": \"원달러 환율\", \"current\": \"1503.4로 과거 분포 대비 높은 수준\", \"threshold\": \"1500원대 지속 또는 추가 상승 시 글로벌 수요 둔화 우려 증대\", \"semiconductor_relevance\": \"수출 기업 실적 변동성 확대 및 수요 불확실성 증대\"}",
-        "{\"indicator\": \"미국 국채 10년 금리\", \"current\": \"4.651%로 과거 분포 대비 높은 수준\", \"threshold\": \"추가 상승 시 글로벌 금리 인상 압력 및 성장주 밸류에이션 부담 가중\", \"semiconductor_relevance\": \"첨단 기술 투자 및 신규 설비 투자 위축 가능성\"}"
+        "{\"indicator\": \"원달러 환율\", \"current\": \"1388.6으로 높은 수준 유지\", \"threshold\": \"과거 80% 분위수 상단 근접, 추가 상승 시 수입 원가 부담 및 수요 둔화 우려\", \"semiconductor_relevance\": \"수출 비중 높은 반도체 기업의 실적 및 가격 경쟁력에 영향\"}",
+        "{\"indicator\": \"미국 국채 10년 금리\", \"current\": \"4.227%로 높은 수준 유지\", \"threshold\": \"과거 80% 분위수 상단 근접, 고금리 장기화 시 성장주 밸류에이션 할인 요인으로 작용\", \"semiconductor_relevance\": \"반도체 딥테크 기업의 투자 비용 및 밸류에이션에 영향\"}",
+        "{\"indicator\": \"OECD CLI (한국)\", \"current\": \"100.3238로 기준선 상회\", \"threshold\": \"미국 CLI 대비 상승폭 둔화, 향후 경기 흐름에 대한 추가 확인 필요\", \"semiconductor_relevance\": \"국내 반도체 수요 및 투자 심리에 간접적인 영향\"}"
       ],
       "output_files": {
-        "macro_signal_json": "data/반도체/엘티씨/macro/macro_signal_20260520.json",
-        "macro_signal_csv": "data/반도체/엘티씨/macro/macro_signal_20260520.csv",
-        "macro_report_md": "data/반도체/엘티씨/macro/macro_report_20260520.md",
+        "macro_signal_json": "data/반도체/엘티씨/macro/macro_signal_20260525.json",
+        "macro_signal_csv": "data/반도체/엘티씨/macro/macro_signal_20260525.csv",
+        "macro_report_md": "data/반도체/엘티씨/macro/macro_report_20260525.md",
         "macro_json": "data/반도체/엘티씨/macro/ltc_macro.json",
         "macro_agent_packet_json": "data/반도체/엘티씨/macro/ltc_macro_agent_packet.json"
       },
       "auditor_status": "PASS",
-      "auditor_actual_match": 0.9583,
+      "auditor_actual_match": 1.0,
       "auditor_stage_scores": {
         "stage1_basic_consistency": 1.0,
         "stage2_framework": 1.0,
-        "stage3_decision_readiness": 0.875
+        "stage3_decision_readiness": 1.0
       },
       "auditor_recommendation": "매도",
-      "auditor_signal": 0.12,
+      "auditor_signal": -1.0,
       "auditor_decision_basis": [
-        "raw_macro_label_seen_but_not_primary=SELL"
+        "macro_score 8.00/100",
+        "raw_macro_label_seen_but_not_primary=BUY"
       ],
       "auditor_signal_components": {
-        "positive_terms": 28,
-        "negative_terms": 22
+        "macro_score_signal": -1.0
       }
     }
   ],

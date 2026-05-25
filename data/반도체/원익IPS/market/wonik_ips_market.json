@@ -4,61 +4,61 @@
   "company": "원익IPS",
   "opinion": "보유",
   "confidence": 0.45,
-  "summary": "원익IPS에 대해 검증 가능한 핵심 근거는 다음과 같습니다. 원익IPS stock_data.current_price 값은 113000입니다. 원익IPS stock_data.change 값은 -3100입니다. 원익IPS stock_data.change_rate 값은 -2.67%입니다. 원익IPS stock_data.raw.clpr 값은 113000입니다. 원익IPS stock_data.raw.vs 값은 -3100입니다.",
+  "summary": "원익IPS에 대해 검증 가능한 핵심 근거는 다음과 같습니다. 원익IPS 마켓 분석 total_score 값은 0.0점입니다. 원익IPS stock_data.current_price 값은 125300입니다. 원익IPS stock_data.change 값은 13400입니다. 원익IPS stock_data.change_rate 값은 11.97%입니다. 원익IPS stock_data.raw.clpr 값은 125300입니다.",
   "key_points": [
-    "원익IPS stock_data.current_price 값은 113000입니다.",
-    "원익IPS stock_data.change 값은 -3100입니다.",
-    "원익IPS stock_data.change_rate 값은 -2.67%입니다.",
-    "원익IPS stock_data.raw.clpr 값은 113000입니다.",
-    "원익IPS stock_data.raw.vs 값은 -3100입니다."
+    "원익IPS 마켓 분석 total_score 값은 0.0점입니다.",
+    "원익IPS stock_data.current_price 값은 125300입니다.",
+    "원익IPS stock_data.change 값은 13400입니다.",
+    "원익IPS stock_data.change_rate 값은 11.97%입니다.",
+    "원익IPS stock_data.raw.clpr 값은 125300입니다."
   ],
   "risks": [],
   "claims": [
     {
       "claim_id": "market.cl.001",
-      "text": "원익IPS stock_data.current_price 값은 113000입니다.",
+      "text": "원익IPS 마켓 분석 total_score 값은 0.0점입니다.",
       "evidence_ids": [
-        "market.ev.005"
+        "market.ev.001"
       ]
     },
     {
       "claim_id": "market.cl.002",
-      "text": "원익IPS stock_data.change 값은 -3100입니다.",
+      "text": "원익IPS stock_data.current_price 값은 125300입니다.",
       "evidence_ids": [
-        "market.ev.008"
+        "market.ev.006"
       ]
     },
     {
       "claim_id": "market.cl.003",
-      "text": "원익IPS stock_data.change_rate 값은 -2.67%입니다.",
+      "text": "원익IPS stock_data.change 값은 13400입니다.",
       "evidence_ids": [
         "market.ev.009"
       ]
     },
     {
       "claim_id": "market.cl.004",
-      "text": "원익IPS stock_data.raw.clpr 값은 113000입니다.",
+      "text": "원익IPS stock_data.change_rate 값은 11.97%입니다.",
       "evidence_ids": [
-        "market.ev.015"
+        "market.ev.010"
       ]
     },
     {
       "claim_id": "market.cl.005",
-      "text": "원익IPS stock_data.raw.vs 값은 -3100입니다.",
+      "text": "원익IPS stock_data.raw.clpr 값은 125300입니다.",
       "evidence_ids": [
         "market.ev.016"
       ]
     },
     {
       "claim_id": "market.cl.006",
-      "text": "원익IPS stock_data.raw.fltRt 값은 -2.67%입니다.",
+      "text": "원익IPS stock_data.raw.vs 값은 13400입니다.",
       "evidence_ids": [
         "market.ev.017"
       ]
     },
     {
       "claim_id": "market.auto_cl.007",
-      "text": "stock_data.raw.mkp 값은 114,900원입니다.",
+      "text": "stock_data.raw.fltRt 값은 11.97%입니다.",
       "evidence_ids": [
         "market.ev.018"
       ],
@@ -66,7 +66,7 @@
     },
     {
       "claim_id": "market.auto_cl.009",
-      "text": "stock_data.raw.hipr 값은 117,800원입니다.",
+      "text": "stock_data.raw.mkp 값은 116,500원입니다.",
       "evidence_ids": [
         "market.ev.019"
       ],
@@ -74,7 +74,7 @@
     },
     {
       "claim_id": "market.auto_cl.011",
-      "text": "stock_data.raw.lopr 값은 110,800원입니다.",
+      "text": "stock_data.raw.hipr 값은 125,300원입니다.",
       "evidence_ids": [
         "market.ev.020"
       ],
@@ -85,6 +85,16 @@
     {
       "evidence_id": "market.ev.001",
       "source_type": "market",
+      "source": "market_graph_analysis",
+      "metric": "total_score",
+      "value": 0.0,
+      "unit": "score",
+      "period": null,
+      "snippet": "market_graph_analysis | total_score | 값: 0score"
+    },
+    {
+      "evidence_id": "market.ev.002",
+      "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.provider",
       "value": null,
@@ -93,7 +103,7 @@
       "snippet": "stock_data | stock_data.provider | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.002",
+      "evidence_id": "market.ev.003",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.company",
@@ -103,7 +113,7 @@
       "snippet": "stock_data | stock_data.company | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.003",
+      "evidence_id": "market.ev.004",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.ticker",
@@ -113,7 +123,7 @@
       "snippet": "stock_data | stock_data.ticker | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.004",
+      "evidence_id": "market.ev.005",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.krx_code",
@@ -123,17 +133,17 @@
       "snippet": "stock_data | stock_data.krx_code | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.005",
+      "evidence_id": "market.ev.006",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.current_price",
-      "value": 113000,
+      "value": 125300,
       "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.current_price | 값: 113,000원"
+      "snippet": "stock_data | stock_data.current_price | 값: 125,300원"
     },
     {
-      "evidence_id": "market.ev.006",
+      "evidence_id": "market.ev.007",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.currency",
@@ -143,7 +153,7 @@
       "snippet": "stock_data | stock_data.currency | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.007",
+      "evidence_id": "market.ev.008",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.as_of",
@@ -153,27 +163,27 @@
       "snippet": "stock_data | stock_data.as_of | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.008",
-      "source_type": "market",
-      "source": "stock_data",
-      "metric": "stock_data.change",
-      "value": -3100,
-      "unit": "원",
-      "period": null,
-      "snippet": "stock_data | stock_data.change | 값: -3,100원"
-    },
-    {
       "evidence_id": "market.ev.009",
       "source_type": "market",
       "source": "stock_data",
-      "metric": "stock_data.change_rate",
-      "value": -2.67,
-      "unit": "%",
+      "metric": "stock_data.change",
+      "value": 13400,
+      "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.change_rate | 값: -2.67%"
+      "snippet": "stock_data | stock_data.change | 값: 13,400원"
     },
     {
       "evidence_id": "market.ev.010",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change_rate",
+      "value": 11.97,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.change_rate | 값: 11.97%"
+    },
+    {
+      "evidence_id": "market.ev.011",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.raw.basDt",
@@ -183,7 +193,7 @@
       "snippet": "stock_data | stock_data.raw.basDt | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.011",
+      "evidence_id": "market.ev.012",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.raw.srtnCd",
@@ -193,7 +203,7 @@
       "snippet": "stock_data | stock_data.raw.srtnCd | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.012",
+      "evidence_id": "market.ev.013",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.raw.isinCd",
@@ -203,7 +213,7 @@
       "snippet": "stock_data | stock_data.raw.isinCd | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.013",
+      "evidence_id": "market.ev.014",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.raw.itmsNm",
@@ -213,7 +223,7 @@
       "snippet": "stock_data | stock_data.raw.itmsNm | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.014",
+      "evidence_id": "market.ev.015",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.raw.mrktCtg",
@@ -223,70 +233,70 @@
       "snippet": "stock_data | stock_data.raw.mrktCtg | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.015",
-      "source_type": "market",
-      "source": "stock_data",
-      "metric": "stock_data.raw.clpr",
-      "value": 113000,
-      "unit": "원",
-      "period": null,
-      "snippet": "stock_data | stock_data.raw.clpr | 값: 113,000원"
-    },
-    {
       "evidence_id": "market.ev.016",
       "source_type": "market",
       "source": "stock_data",
-      "metric": "stock_data.raw.vs",
-      "value": -3100,
+      "metric": "stock_data.raw.clpr",
+      "value": 125300,
       "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.vs | 값: -3,100원"
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 125,300원"
     },
     {
       "evidence_id": "market.ev.017",
       "source_type": "market",
       "source": "stock_data",
-      "metric": "stock_data.raw.fltRt",
-      "value": -2.67,
-      "unit": "%",
+      "metric": "stock_data.raw.vs",
+      "value": 13400,
+      "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.fltRt | 값: -2.67%"
+      "snippet": "stock_data | stock_data.raw.vs | 값: 13,400원"
     },
     {
       "evidence_id": "market.ev.018",
       "source_type": "market",
       "source": "stock_data",
-      "metric": "stock_data.raw.mkp",
-      "value": 114900,
-      "unit": "원",
+      "metric": "stock_data.raw.fltRt",
+      "value": 11.97,
+      "unit": "%",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.mkp | 값: 114,900원"
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: 11.97%"
     },
     {
       "evidence_id": "market.ev.019",
       "source_type": "market",
       "source": "stock_data",
-      "metric": "stock_data.raw.hipr",
-      "value": 117800,
+      "metric": "stock_data.raw.mkp",
+      "value": 116500,
       "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.hipr | 값: 117,800원"
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 116,500원"
     },
     {
       "evidence_id": "market.ev.020",
       "source_type": "market",
       "source": "stock_data",
-      "metric": "stock_data.raw.lopr",
-      "value": 110800,
+      "metric": "stock_data.raw.hipr",
+      "value": 125300,
       "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.lopr | 값: 110,800원"
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 125,300원"
     }
   ],
   "evidence": [
     {
       "evidence_id": "market.ev.001",
       "source_type": "market",
+      "source": "market_graph_analysis",
+      "metric": "total_score",
+      "value": 0.0,
+      "unit": "score",
+      "period": null,
+      "snippet": "market_graph_analysis | total_score | 값: 0score"
+    },
+    {
+      "evidence_id": "market.ev.002",
+      "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.provider",
       "value": null,
@@ -295,7 +305,7 @@
       "snippet": "stock_data | stock_data.provider | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.002",
+      "evidence_id": "market.ev.003",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.company",
@@ -305,7 +315,7 @@
       "snippet": "stock_data | stock_data.company | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.003",
+      "evidence_id": "market.ev.004",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.ticker",
@@ -315,7 +325,7 @@
       "snippet": "stock_data | stock_data.ticker | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.004",
+      "evidence_id": "market.ev.005",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.krx_code",
@@ -325,17 +335,17 @@
       "snippet": "stock_data | stock_data.krx_code | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.005",
+      "evidence_id": "market.ev.006",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.current_price",
-      "value": 113000,
+      "value": 125300,
       "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.current_price | 값: 113,000원"
+      "snippet": "stock_data | stock_data.current_price | 값: 125,300원"
     },
     {
-      "evidence_id": "market.ev.006",
+      "evidence_id": "market.ev.007",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.currency",
@@ -345,7 +355,7 @@
       "snippet": "stock_data | stock_data.currency | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.007",
+      "evidence_id": "market.ev.008",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.as_of",
@@ -355,27 +365,27 @@
       "snippet": "stock_data | stock_data.as_of | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.008",
-      "source_type": "market",
-      "source": "stock_data",
-      "metric": "stock_data.change",
-      "value": -3100,
-      "unit": "원",
-      "period": null,
-      "snippet": "stock_data | stock_data.change | 값: -3,100원"
-    },
-    {
       "evidence_id": "market.ev.009",
       "source_type": "market",
       "source": "stock_data",
-      "metric": "stock_data.change_rate",
-      "value": -2.67,
-      "unit": "%",
+      "metric": "stock_data.change",
+      "value": 13400,
+      "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.change_rate | 값: -2.67%"
+      "snippet": "stock_data | stock_data.change | 값: 13,400원"
     },
     {
       "evidence_id": "market.ev.010",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change_rate",
+      "value": 11.97,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.change_rate | 값: 11.97%"
+    },
+    {
+      "evidence_id": "market.ev.011",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.raw.basDt",
@@ -385,7 +395,7 @@
       "snippet": "stock_data | stock_data.raw.basDt | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.011",
+      "evidence_id": "market.ev.012",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.raw.srtnCd",
@@ -395,7 +405,7 @@
       "snippet": "stock_data | stock_data.raw.srtnCd | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.012",
+      "evidence_id": "market.ev.013",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.raw.isinCd",
@@ -405,7 +415,7 @@
       "snippet": "stock_data | stock_data.raw.isinCd | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.013",
+      "evidence_id": "market.ev.014",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.raw.itmsNm",
@@ -415,7 +425,7 @@
       "snippet": "stock_data | stock_data.raw.itmsNm | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.014",
+      "evidence_id": "market.ev.015",
       "source_type": "market_metadata",
       "source": "stock_data",
       "metric": "stock_data.raw.mrktCtg",
@@ -425,64 +435,54 @@
       "snippet": "stock_data | stock_data.raw.mrktCtg | 값: 확인 불가"
     },
     {
-      "evidence_id": "market.ev.015",
-      "source_type": "market",
-      "source": "stock_data",
-      "metric": "stock_data.raw.clpr",
-      "value": 113000,
-      "unit": "원",
-      "period": null,
-      "snippet": "stock_data | stock_data.raw.clpr | 값: 113,000원"
-    },
-    {
       "evidence_id": "market.ev.016",
       "source_type": "market",
       "source": "stock_data",
-      "metric": "stock_data.raw.vs",
-      "value": -3100,
+      "metric": "stock_data.raw.clpr",
+      "value": 125300,
       "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.vs | 값: -3,100원"
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 125,300원"
     },
     {
       "evidence_id": "market.ev.017",
       "source_type": "market",
       "source": "stock_data",
-      "metric": "stock_data.raw.fltRt",
-      "value": -2.67,
-      "unit": "%",
+      "metric": "stock_data.raw.vs",
+      "value": 13400,
+      "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.fltRt | 값: -2.67%"
+      "snippet": "stock_data | stock_data.raw.vs | 값: 13,400원"
     },
     {
       "evidence_id": "market.ev.018",
       "source_type": "market",
       "source": "stock_data",
-      "metric": "stock_data.raw.mkp",
-      "value": 114900,
-      "unit": "원",
+      "metric": "stock_data.raw.fltRt",
+      "value": 11.97,
+      "unit": "%",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.mkp | 값: 114,900원"
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: 11.97%"
     },
     {
       "evidence_id": "market.ev.019",
       "source_type": "market",
       "source": "stock_data",
-      "metric": "stock_data.raw.hipr",
-      "value": 117800,
+      "metric": "stock_data.raw.mkp",
+      "value": 116500,
       "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.hipr | 값: 117,800원"
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 116,500원"
     },
     {
       "evidence_id": "market.ev.020",
       "source_type": "market",
       "source": "stock_data",
-      "metric": "stock_data.raw.lopr",
-      "value": 110800,
+      "metric": "stock_data.raw.hipr",
+      "value": 125300,
       "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.lopr | 값: 110,800원"
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 125,300원"
     }
   ],
   "raw_payload": {
@@ -491,30 +491,75 @@
       "opinion": "보유",
       "confidence": 0.8,
       "summary": "원익IPS 분석 중 LLM 호출 오류가 발생해 fallback 결과를 반환합니다.",
-      "total_score": null,
-      "scoring": {},
+      "total_score": 0.0,
+      "scoring": {
+        "거시환경": {
+          "score": 0,
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
+        },
+        "산업매력도": {
+          "score": 0,
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
+        },
+        "경쟁위치": {
+          "score": 0,
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
+        },
+        "정책수혜": {
+          "score": 0,
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
+        },
+        "시장모멘텀": {
+          "score": 0,
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
+        }
+      },
       "market_environment": {
         "oecd_cli": "",
-        "industry_stage": "",
-        "value_chain_position": "",
+        "industry_stage": "{'마켓점수': {'기업명': '원익IPS', '투자의견': '보유', '거시환경': '0', '산업매력도': '0', '경쟁위치': '0', '정책수혜': '0', '시장모멘텀': '0', '요약': '원익IPS 분석 중 LLM 호출 오류가 발생해 fallback 결과를 반환합니다.'}}",
+        "value_chain_position": "장비",
         "competition": ""
       },
       "risks": [
-        "LLM 호출 실패: Expecting ',' delimiter: line 142 column 21 (char 4760)"
+        "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 151 column 6 (char 4370)",
+        "밸류체인 위치 확인: 장비"
       ],
       "opportunities": [],
-      "error": "Expecting ',' delimiter: line 142 column 21 (char 4760)"
+      "error": "Expecting ',' delimiter: line 151 column 6 (char 4370)",
+      "fallback_source": "market_final_static_data"
     },
     "original_opportunities": [],
     "original_risks": [
-      "LLM 호출 실패: Expecting ',' delimiter: line 142 column 21 (char 4760)"
+      "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 151 column 6 (char 4370)",
+      "밸류체인 위치 확인: 장비"
     ],
     "removed_bad_evidence_ids": [
       "market.ev.unverified"
     ]
   },
-  "total_score": null,
-  "scoring": {},
+  "total_score": 0.0,
+  "scoring": {
+    "거시환경": {
+      "score": 0,
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
+    },
+    "산업매력도": {
+      "score": 0,
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
+    },
+    "경쟁위치": {
+      "score": 0,
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
+    },
+    "정책수혜": {
+      "score": 0,
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
+    },
+    "시장모멘텀": {
+      "score": 0,
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
+    }
+  },
   "packet_version": "grounded_agent_v3",
   "pre_sanitize_grounding_check": {
     "score": 1.0,
@@ -524,21 +569,36 @@
     "supported_count": 6,
     "unsupported_count": 0,
     "supported_claims": [
-      "원익IPS stock_data.current_price 값은 113000입니다.",
-      "원익IPS stock_data.change 값은 -3100입니다.",
-      "원익IPS stock_data.change_rate 값은 -2.67%입니다.",
-      "원익IPS stock_data.raw.clpr 값은 113000입니다.",
-      "원익IPS stock_data.raw.vs 값은 -3100입니다.",
-      "원익IPS stock_data.raw.fltRt 값은 -2.67%입니다."
+      "원익IPS 마켓 분석 total_score 값은 0.0점입니다.",
+      "원익IPS stock_data.current_price 값은 125300입니다.",
+      "원익IPS stock_data.change 값은 13400입니다.",
+      "원익IPS stock_data.change_rate 값은 11.97%입니다.",
+      "원익IPS stock_data.raw.clpr 값은 125300입니다.",
+      "원익IPS stock_data.raw.vs 값은 13400입니다."
     ],
     "unsupported_claims": [],
     "issues": [],
     "claim_results": [
       {
         "claim_id": "market.cl.001",
-        "text": "원익IPS stock_data.current_price 값은 113000입니다.",
+        "text": "원익IPS 마켓 분석 total_score 값은 0.0점입니다.",
         "evidence_ids": [
-          "market.ev.005"
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "원익IPS stock_data.current_price 값은 125300입니다.",
+        "evidence_ids": [
+          "market.ev.006"
         ],
         "supported": true,
         "score": 0.85,
@@ -548,29 +608,14 @@
         "missing_concepts": [],
         "concept_matches": {
           "price": [
-            "market.ev.005"
+            "market.ev.006"
           ]
         },
         "reason": "supported"
       },
       {
-        "claim_id": "market.cl.002",
-        "text": "원익IPS stock_data.change 값은 -3100입니다.",
-        "evidence_ids": [
-          "market.ev.008"
-        ],
-        "supported": true,
-        "score": 0.85,
-        "number_ratio": 1.0,
-        "token_ratio": 0.25,
-        "concept_ratio": 1.0,
-        "missing_concepts": [],
-        "concept_matches": {},
-        "reason": "supported"
-      },
-      {
         "claim_id": "market.cl.003",
-        "text": "원익IPS stock_data.change_rate 값은 -2.67%입니다.",
+        "text": "원익IPS stock_data.change 값은 13400입니다.",
         "evidence_ids": [
           "market.ev.009"
         ],
@@ -585,9 +630,9 @@
       },
       {
         "claim_id": "market.cl.004",
-        "text": "원익IPS stock_data.raw.clpr 값은 113000입니다.",
+        "text": "원익IPS stock_data.change_rate 값은 11.97%입니다.",
         "evidence_ids": [
-          "market.ev.015"
+          "market.ev.010"
         ],
         "supported": true,
         "score": 0.85,
@@ -600,7 +645,7 @@
       },
       {
         "claim_id": "market.cl.005",
-        "text": "원익IPS stock_data.raw.vs 값은 -3100입니다.",
+        "text": "원익IPS stock_data.raw.clpr 값은 125300입니다.",
         "evidence_ids": [
           "market.ev.016"
         ],
@@ -615,7 +660,7 @@
       },
       {
         "claim_id": "market.cl.006",
-        "text": "원익IPS stock_data.raw.fltRt 값은 -2.67%입니다.",
+        "text": "원익IPS stock_data.raw.vs 값은 13400입니다.",
         "evidence_ids": [
           "market.ev.017"
         ],
@@ -638,24 +683,39 @@
     "supported_count": 9,
     "unsupported_count": 0,
     "supported_claims": [
-      "원익IPS stock_data.current_price 값은 113000입니다.",
-      "원익IPS stock_data.change 값은 -3100입니다.",
-      "원익IPS stock_data.change_rate 값은 -2.67%입니다.",
-      "원익IPS stock_data.raw.clpr 값은 113000입니다.",
-      "원익IPS stock_data.raw.vs 값은 -3100입니다.",
-      "원익IPS stock_data.raw.fltRt 값은 -2.67%입니다.",
-      "stock_data.raw.mkp 값은 114,900원입니다.",
-      "stock_data.raw.hipr 값은 117,800원입니다.",
-      "stock_data.raw.lopr 값은 110,800원입니다."
+      "원익IPS 마켓 분석 total_score 값은 0.0점입니다.",
+      "원익IPS stock_data.current_price 값은 125300입니다.",
+      "원익IPS stock_data.change 값은 13400입니다.",
+      "원익IPS stock_data.change_rate 값은 11.97%입니다.",
+      "원익IPS stock_data.raw.clpr 값은 125300입니다.",
+      "원익IPS stock_data.raw.vs 값은 13400입니다.",
+      "stock_data.raw.fltRt 값은 11.97%입니다.",
+      "stock_data.raw.mkp 값은 116,500원입니다.",
+      "stock_data.raw.hipr 값은 125,300원입니다."
     ],
     "unsupported_claims": [],
     "issues": [],
     "claim_results": [
       {
         "claim_id": "market.cl.001",
-        "text": "원익IPS stock_data.current_price 값은 113000입니다.",
+        "text": "원익IPS 마켓 분석 total_score 값은 0.0점입니다.",
         "evidence_ids": [
-          "market.ev.005"
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "원익IPS stock_data.current_price 값은 125300입니다.",
+        "evidence_ids": [
+          "market.ev.006"
         ],
         "supported": true,
         "score": 0.85,
@@ -665,29 +725,14 @@
         "missing_concepts": [],
         "concept_matches": {
           "price": [
-            "market.ev.005"
+            "market.ev.006"
           ]
         },
         "reason": "supported"
       },
       {
-        "claim_id": "market.cl.002",
-        "text": "원익IPS stock_data.change 값은 -3100입니다.",
-        "evidence_ids": [
-          "market.ev.008"
-        ],
-        "supported": true,
-        "score": 0.85,
-        "number_ratio": 1.0,
-        "token_ratio": 0.25,
-        "concept_ratio": 1.0,
-        "missing_concepts": [],
-        "concept_matches": {},
-        "reason": "supported"
-      },
-      {
         "claim_id": "market.cl.003",
-        "text": "원익IPS stock_data.change_rate 값은 -2.67%입니다.",
+        "text": "원익IPS stock_data.change 값은 13400입니다.",
         "evidence_ids": [
           "market.ev.009"
         ],
@@ -702,9 +747,9 @@
       },
       {
         "claim_id": "market.cl.004",
-        "text": "원익IPS stock_data.raw.clpr 값은 113000입니다.",
+        "text": "원익IPS stock_data.change_rate 값은 11.97%입니다.",
         "evidence_ids": [
-          "market.ev.015"
+          "market.ev.010"
         ],
         "supported": true,
         "score": 0.85,
@@ -717,7 +762,7 @@
       },
       {
         "claim_id": "market.cl.005",
-        "text": "원익IPS stock_data.raw.vs 값은 -3100입니다.",
+        "text": "원익IPS stock_data.raw.clpr 값은 125300입니다.",
         "evidence_ids": [
           "market.ev.016"
         ],
@@ -732,7 +777,7 @@
       },
       {
         "claim_id": "market.cl.006",
-        "text": "원익IPS stock_data.raw.fltRt 값은 -2.67%입니다.",
+        "text": "원익IPS stock_data.raw.vs 값은 13400입니다.",
         "evidence_ids": [
           "market.ev.017"
         ],
@@ -747,7 +792,7 @@
       },
       {
         "claim_id": "market.auto_cl.007",
-        "text": "stock_data.raw.mkp 값은 114,900원입니다.",
+        "text": "stock_data.raw.fltRt 값은 11.97%입니다.",
         "evidence_ids": [
           "market.ev.018"
         ],
@@ -762,7 +807,7 @@
       },
       {
         "claim_id": "market.auto_cl.009",
-        "text": "stock_data.raw.hipr 값은 117,800원입니다.",
+        "text": "stock_data.raw.mkp 값은 116,500원입니다.",
         "evidence_ids": [
           "market.ev.019"
         ],
@@ -777,7 +822,7 @@
       },
       {
         "claim_id": "market.auto_cl.011",
-        "text": "stock_data.raw.lopr 값은 110,800원입니다.",
+        "text": "stock_data.raw.hipr 값은 125,300원입니다.",
         "evidence_ids": [
           "market.ev.020"
         ],
@@ -800,24 +845,39 @@
     "supported_count": 9,
     "unsupported_count": 0,
     "supported_claims": [
-      "원익IPS stock_data.current_price 값은 113000입니다.",
-      "원익IPS stock_data.change 값은 -3100입니다.",
-      "원익IPS stock_data.change_rate 값은 -2.67%입니다.",
-      "원익IPS stock_data.raw.clpr 값은 113000입니다.",
-      "원익IPS stock_data.raw.vs 값은 -3100입니다.",
-      "원익IPS stock_data.raw.fltRt 값은 -2.67%입니다.",
-      "stock_data.raw.mkp 값은 114,900원입니다.",
-      "stock_data.raw.hipr 값은 117,800원입니다.",
-      "stock_data.raw.lopr 값은 110,800원입니다."
+      "원익IPS 마켓 분석 total_score 값은 0.0점입니다.",
+      "원익IPS stock_data.current_price 값은 125300입니다.",
+      "원익IPS stock_data.change 값은 13400입니다.",
+      "원익IPS stock_data.change_rate 값은 11.97%입니다.",
+      "원익IPS stock_data.raw.clpr 값은 125300입니다.",
+      "원익IPS stock_data.raw.vs 값은 13400입니다.",
+      "stock_data.raw.fltRt 값은 11.97%입니다.",
+      "stock_data.raw.mkp 값은 116,500원입니다.",
+      "stock_data.raw.hipr 값은 125,300원입니다."
     ],
     "unsupported_claims": [],
     "issues": [],
     "claim_results": [
       {
         "claim_id": "market.cl.001",
-        "text": "원익IPS stock_data.current_price 값은 113000입니다.",
+        "text": "원익IPS 마켓 분석 total_score 값은 0.0점입니다.",
         "evidence_ids": [
-          "market.ev.005"
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "원익IPS stock_data.current_price 값은 125300입니다.",
+        "evidence_ids": [
+          "market.ev.006"
         ],
         "supported": true,
         "score": 0.85,
@@ -827,29 +887,14 @@
         "missing_concepts": [],
         "concept_matches": {
           "price": [
-            "market.ev.005"
+            "market.ev.006"
           ]
         },
         "reason": "supported"
       },
       {
-        "claim_id": "market.cl.002",
-        "text": "원익IPS stock_data.change 값은 -3100입니다.",
-        "evidence_ids": [
-          "market.ev.008"
-        ],
-        "supported": true,
-        "score": 0.85,
-        "number_ratio": 1.0,
-        "token_ratio": 0.25,
-        "concept_ratio": 1.0,
-        "missing_concepts": [],
-        "concept_matches": {},
-        "reason": "supported"
-      },
-      {
         "claim_id": "market.cl.003",
-        "text": "원익IPS stock_data.change_rate 값은 -2.67%입니다.",
+        "text": "원익IPS stock_data.change 값은 13400입니다.",
         "evidence_ids": [
           "market.ev.009"
         ],
@@ -864,9 +909,9 @@
       },
       {
         "claim_id": "market.cl.004",
-        "text": "원익IPS stock_data.raw.clpr 값은 113000입니다.",
+        "text": "원익IPS stock_data.change_rate 값은 11.97%입니다.",
         "evidence_ids": [
-          "market.ev.015"
+          "market.ev.010"
         ],
         "supported": true,
         "score": 0.85,
@@ -879,7 +924,7 @@
       },
       {
         "claim_id": "market.cl.005",
-        "text": "원익IPS stock_data.raw.vs 값은 -3100입니다.",
+        "text": "원익IPS stock_data.raw.clpr 값은 125300입니다.",
         "evidence_ids": [
           "market.ev.016"
         ],
@@ -894,7 +939,7 @@
       },
       {
         "claim_id": "market.cl.006",
-        "text": "원익IPS stock_data.raw.fltRt 값은 -2.67%입니다.",
+        "text": "원익IPS stock_data.raw.vs 값은 13400입니다.",
         "evidence_ids": [
           "market.ev.017"
         ],
@@ -909,7 +954,7 @@
       },
       {
         "claim_id": "market.auto_cl.007",
-        "text": "stock_data.raw.mkp 값은 114,900원입니다.",
+        "text": "stock_data.raw.fltRt 값은 11.97%입니다.",
         "evidence_ids": [
           "market.ev.018"
         ],
@@ -924,7 +969,7 @@
       },
       {
         "claim_id": "market.auto_cl.009",
-        "text": "stock_data.raw.hipr 값은 117,800원입니다.",
+        "text": "stock_data.raw.mkp 값은 116,500원입니다.",
         "evidence_ids": [
           "market.ev.019"
         ],
@@ -939,7 +984,7 @@
       },
       {
         "claim_id": "market.auto_cl.011",
-        "text": "stock_data.raw.lopr 값은 110,800원입니다.",
+        "text": "stock_data.raw.hipr 값은 125,300원입니다.",
         "evidence_ids": [
           "market.ev.020"
         ],

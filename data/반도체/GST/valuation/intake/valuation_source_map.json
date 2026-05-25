@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-05-25T10:18:43",
+  "created_at": "2026-05-25T22:01:16",
   "company": "GST",
   "company_dir": "gst",
   "stock_code": "083450",
@@ -32,6 +32,7 @@
   "files": {
     "template_catalog_csv": "data/반도체/GST/valuation/intake/valuation_modeling_template_catalog.csv",
     "template_catalog_json": "data/반도체/GST/valuation/intake/valuation_modeling_template_catalog.json",
+    "eval_price_history_v45_csv": "data/반도체/GST/valuation/intake/eval_price_history_v45.csv",
     "raw_dart_accounts_csv": "data/반도체/GST/valuation/intake/valuation_raw_dart_accounts.csv",
     "normalized_financials_csv": "data/반도체/GST/valuation/intake/valuation_normalized_financials.csv",
     "price_history_csv": "data/반도체/GST/valuation/intake/valuation_price_history.csv",
@@ -45,26 +46,27 @@
     "reference_universe_focus_csv": "data/반도체/GST/valuation/intake/valuation_reference_universe_focus.csv",
     "reference_universe_summary_json": "data/반도체/GST/valuation/intake/valuation_reference_universe_summary.json"
   },
+  "recognized_input_policy": {
+    "company_intake_files": [
+      "valuation/intake/eval_price_history_v45.csv",
+      "valuation/intake/valuation_market_snapshot.csv",
+      "valuation/intake/valuation_price_history.csv",
+      "valuation/intake/valuation_raw_dart_accounts.csv",
+      "valuation/intake/valuation_share_count.csv"
+    ],
+    "sector_common_files": [
+      "_sector_common/valuation/sector_growth_assumptions.csv",
+      "_sector_common/valuation/semiconductor_peer_multiples.csv",
+      "_sector_common/valuation/wacc_assumptions.csv"
+    ],
+    "workbook_xlsx_policy": "Do not create, overwrite, or modify *_valuation_workbook.xlsx during intake."
+  },
   "diagnostics": [
-    "DART API key detected for valuation intake.",
-    "DART corp_code resolved from cache for GST/083450.",
-    "DART financial rows collected: 2021=194, 2022=210, 2023=212, 2024=227, 2025=251",
+    "skip_network=True: live DART/price collection skipped by user option.",
     "local financial fallback loaded rows=4 from C:\\Agent_6.9\\data\\반도체\\GST\\finance\\GST_재무.csv.",
-    "yfinance price rows for 083450.KQ: 1318",
-    "price provider selected: yfinance, rows=1318",
-    "local price fallback loaded rows=1223 from C:\\Agent_6.9\\data\\반도체\\GST\\valuation\\intake\\valuation_price_history.csv.",
-    "DART corp_code resolved from cache for GST/083450.",
-    "Naver market snapshot collected: per_naver, pbr_naver, eps_naver, dividend_yield_pct_naver, bps_naver",
-    "peer:nepes: local price fallback loaded rows=1316 from C:\\Agent_6.9\\data\\반도체\\네패스\\valuation\\intake\\valuation_price_history.csv.",
-    "peer:nepes: DART corp_code resolved from cache for 네패스/033640.",
-    "peer:hanmi: local price fallback loaded rows=1317 from C:\\Agent_6.9\\data\\반도체\\한미반도체\\valuation\\intake\\valuation_price_history.csv.",
-    "peer:hanmi: DART corp_code resolved from cache for 한미반도체/042700.",
-    "peer:hansol: local price fallback loaded rows=1317 from C:\\Agent_6.9\\data\\반도체\\한솔케미칼\\valuation\\intake\\valuation_price_history.csv.",
-    "peer:hansol: DART corp_code resolved from cache for 한솔케미칼/014680.",
-    "peer:duksan: local price fallback loaded rows=1316 from C:\\Agent_6.9\\data\\반도체\\덕산테코피아\\valuation\\intake\\valuation_price_history.csv.",
-    "peer:duksan: DART corp_code resolved from cache for 덕산테코피아/317330.",
-    "peer:ltc: local price fallback loaded rows=1315 from C:\\Agent_6.9\\data\\반도체\\엘티씨\\valuation\\intake\\valuation_price_history.csv.",
-    "peer:ltc: DART corp_code resolved from cache for 엘티씨/170920.",
-    "Market snapshot enriched with live/derived metrics count=19."
+    "financial rows merged with local fallback: primary=0, fallback=4, merged=4.",
+    "local price fallback loaded rows=1142 from C:\\Agent_6.9\\data\\반도체\\GST\\valuation\\intake\\valuation_price_history.csv.",
+    "price rows merged with local fallback: primary=0, fallback=1142, merged=1142.",
+    "Market snapshot enriched with live/derived metrics count=1."
   ]
 }

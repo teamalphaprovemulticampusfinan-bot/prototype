@@ -3,6 +3,51 @@
   "company": "에스티아이",
   "company_dir": "sti",
   "opinion": "보유",
+  "tech_signal": 0.312702,
+  "history_tech_feature": {
+    "signal": 0.312702,
+    "status": "OK_TECH_HISTORY_ASOF",
+    "source": "C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\sti_kipris_patents_normalized.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\sti_tech_patent_normalized.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\source\\sti_kipris_plus_bibliographic_raw.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\sti_kipris_bibliographic_normalized.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\sti_kipris_claims_normalized.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\sti_kipris_plus_claim_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\sti_kipris_plus_family_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\sti_kipris_plus_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\sti_kipris_tech_ml_enriched.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\quanified_metrix.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\tech_excel_frame_items.csv",
+    "as_of_date": "2025-08-31",
+    "company": "에스티아이",
+    "ticker": "039440.KQ",
+    "stock_code": "039440",
+    "base_signal": 0.321634,
+    "evidence_confidence": 0.789045,
+    "commercialization_gate_signal": 0.235671,
+    "technology_risk_penalty": 0.0,
+    "ip_quality_signal": 0.04587,
+    "lifecycle_signal": 0.0,
+    "technology_differentiation_signal": 0.113885,
+    "commercialization_signal": 0.942684,
+    "rnd_sustainability_signal": 0.468756,
+    "peer_position_signal": -0.22381,
+    "tech_to_value_signal": 0.582422,
+    "certification_signal": 0.0,
+    "qualification_signal": 0.0,
+    "cost_yield_signal": 0.0,
+    "workforce_signal": 0.0,
+    "government_rd_signal": 0.0,
+    "licensing_signal": 0.0,
+    "dispute_risk_signal": 0.0,
+    "failure_delay_signal": 0.0,
+    "intangible_accounting_signal": 0.0,
+    "patent_records_asof": 1070,
+    "dated_records_asof": 463,
+    "undated_records_used": 673,
+    "files_used": 72,
+    "notes": "Tech history signal uses dated patent/IP, TRL/readiness, certification, qualification, commercialization, R&D/workforce, risk and accounting evidence before as_of_date; no Buy/Hold/Sell threshold is applied.",
+    "frequency": "monthly",
+    "formula": "final=base_signal*evidence_confidence + 0.25*commercialization_gate_signal - 0.35*technology_risk_penalty",
+    "research_basis": [
+      "Hall-Jaffe-Trajtenberg patent citations/value; Lanjouw-Schankerman patent quality; OECD patent quality composite indicators",
+      "DoD/NASA TRL and TRA maturity framework",
+      "IFC/Bpifrance deep-tech development-stage financing framework",
+      "Text-based industry/technology relatedness literature for peer/differentiation evidence"
+    ],
+    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\tech_history_features_2025-08-31.json",
+    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\tech_history_features_2025-08-31.csv"
+  },
   "claims": [
     {
       "claim_id": "tech.cl.000",
@@ -84,63 +129,63 @@
     {
       "title": "에스티아이 KIPRIS/특허 정량화 요약",
       "url": "",
-      "path": "data\\반도체\\에스티아이\\tech\\source\\sti_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\source\\sti_kipris_plus_bibliographic_raw.csv",
       "snippet": "에스티아이 KIPRIS/특허 정량화 요약 본 특허 근거는 KIPRIS API/CSV/엑셀/TXT 원천 파일을 정규화해 산출했다. [정량 지표] - 특허 원천 파일 수: 1개 - 정규화 특허 레코드 수: 58건 - 출원인/권리자 회사 매칭 특허 수: 58건 - 등록 특허 수: 26건 - 존속 가능 특허 수: 13건 - 최근 5년 특허 수: 26건 - IPC/CPC 기술분류 수: 41개 - H01L 반도체 IPC 특허 수: 0건 - 반도체 핵심 IPC 특허 수: 13건 - 특허-기술 키워드 매칭 수: 40회 - 특허 포트폴리오 연도 범위: 1996~2025 - KIPRIS 총 특허 수: 58.0건 - KIPRIS 등록 특허",
       "relevance_score": 30
     },
     {
       "title": "캐리어 및 기판적재용 로봇암",
       "url": "",
-      "path": "data\\반도체\\에스티아이\\tech\\source\\sti_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\source\\sti_kipris_plus_bibliographic_raw.csv",
       "snippet": "캐리어 및 기판적재용 로봇암 | (주)에스티아이 | 등록 | 2024 | 출원번호 1020240100125; 등록번호 1029070960000 | IPC/CPC: H10P, C23C, B25J | 기술매칭: 공정, 기판 | 초록: 본 발명은 생산능력을 향상시키고, 자동으로 기판을 캐리어에 수납할 수 있는 캐리어 및 기판적재용 로봇암에 관한 것이다. 이를 위하여, 본 발명은 복수의 기판이 수납되어 증착공정에 투입되는 캐리어에 있어서, 상기 캐리어에는 기판이 수납되는 기판수납부가 복수개 구비되며, 상기 기판수납부는 사각형의 기판을 수납하도록 구비되고, 상기 기판이 수평면에 비해 일정 각도 경사지게 수납되도록 구비되는 캐리",
       "relevance_score": 76.5
     },
     {
       "title": "물류 로봇과 이를 포함하는 공정 자동화 시스템",
       "url": "",
-      "path": "data\\반도체\\에스티아이\\tech\\source\\sti_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\source\\sti_kipris_plus_bibliographic_raw.csv",
       "snippet": "물류 로봇과 이를 포함하는 공정 자동화 시스템 | (주)에스티아이 | 등록 | 2024 | 출원번호 1020240101439; 등록번호 1028878080000 | IPC/CPC: H10P | 기술매칭: 공정, 기판 | 초록: 물류 로봇이 개시된다. 본 발명의 일 실시 예에 따른 물류 로봇은, 암의 일단부에 연장 마련된 핸드를 포함하는 물류 로봇에 있어서, 상기 핸드는, 베이스부; 상기 베이스부의 일면에 연장 마련되고, 베이스 플레이트와 적재 플레이트 또는 기판 적재물 중 적어도 어느 하나를 지지 가능한 지지부; 및 상기 암을 회전축으로 하여 상기 핸드를 회전하도록 상기 암과 상기 핸드를 결합 가능한 핸드 회전부를",
       "relevance_score": 73.5
     },
     {
       "title": "건식 세정 장치",
       "url": "",
-      "path": "data\\반도체\\에스티아이\\tech\\source\\sti_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\source\\sti_kipris_plus_bibliographic_raw.csv",
       "snippet": "건식 세정 장치 | (주)에스티아이 | 등록 | 2024 | 출원번호 1020240152131; 등록번호 1029182120000 | IPC/CPC: H10P, B08B | 기술매칭: 기판 | 초록: 건식 세정 장치가 개시된다. 본 발명의 일 실시 예에 따른 건식 세정 장치는, 기판을 제1 방향으로 반송 가능한 반송 모듈; 및 상기 반송 모듈과 나란하게 구비되고, 상기 기판에 기체를 분사하여, 상기 기판 상의 이물질을 흡기 가능한 세정 모듈을 포함하되, 상기 반송 모듈은, 상기 기판의 일면을 지지 가능한 제1 반송 모듈; 및 상기 제1 반송 모듈과 상기 제1 방향과 직교하는 제2 방향으로",
       "relevance_score": 72.0
     },
     {
       "title": "유체 이송용 커플러",
       "url": "",
-      "path": "data\\반도체\\에스티아이\\tech\\source\\sti_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\source\\sti_kipris_plus_bibliographic_raw.csv",
       "snippet": "유체 이송용 커플러 | (주)에스티아이 | 등록 | 2024 | 출원번호 1020240086659; 등록번호 1029639190000 | IPC/CPC: F16L, F16F, B08B | 기술매칭: 기술 키워드 미확인 | 초록: 본 발명의 일 실시예에 따른 유체 이송용 커플러는 하우징을 가진 피메일 커플러, 및 상기 하우징의 내부에 형성된 체결부에 삽입되어 체결되는 메일 커플러를 포함하고, 상기 체결부에는 세정수가 분사되는데, 상기 하우징에는 세정수가 유출되는 유출홀이 형성되고, 상기 하우징의 내면에는 상기 유출홀을 향하여 중심축 방향을 따라 가이드면이 형성될 수 있다.",
       "relevance_score": 70.5
     },
     {
       "title": "탄화규소 분말의 합성방법",
       "url": "",
-      "path": "data\\반도체\\에스티아이\\tech\\source\\sti_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\source\\sti_kipris_plus_bibliographic_raw.csv",
       "snippet": "탄화규소 분말의 합성방법 | 주식회사 에스티아이 | 등록 | 2022 | 출원번호 1020220027865; 등록번호 1024070430000 | IPC/CPC: C01B | 기술매칭: 수율 | 초록: 본 발명은 탄화규소 분말의 합성방법에 관한 것으로서, 실리카(SiO 2 ) 분말과 카본(C) 분말을 일정 비율로 혼합하여 혼합분말을 준비하는 단계 및 준비된 상기 혼합분말을 도가니의 내부에 넣고 1550~1900°C의 합성온도로 열처리하여 상기 도가니의 내벽에 탄화규소(SiC) 분말을 코팅하는 단계 및 상기 코팅단계가 완료된 상기 도가니를 냉각한 후, 상기 도가니 내부에서 합성된 탄화규소 분",
       "relevance_score": 70.5
     },
     {
       "title": "커플링 장치",
       "url": "",
-      "path": "data\\반도체\\에스티아이\\tech\\source\\sti_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\source\\sti_kipris_plus_bibliographic_raw.csv",
       "snippet": "커플링 장치 | (주)에스티아이 | 등록 | 2022 | 출원번호 1020220160392; 등록번호 1025468870000 | IPC/CPC: B67B, B67D | 기술매칭: 기술 키워드 미확인 | 초록: 실시예는, 소정의 길이를 갖는 튜브를 포함하는 커플링 유닛을 고정하는 체결부; 상기 체결부를 수직 방향으로 이동시켜 상기 커플링 유닛을 용기의 입구에 삽입하거나 또는 분리시키는 구동부; 및 상기 구동부의 하강시 상기 튜브가 상기 용기의 입구에 정상적으로 삽입되는지 감지하는 감지부를 포함하는 커플링 장치를 개시한다.",
       "relevance_score": 69.0
     },
     {
       "title": "일체형 커플링 모듈 및 이를 포함하는 커플링 시스템",
       "url": "",
-      "path": "data\\반도체\\에스티아이\\tech\\source\\sti_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\source\\sti_kipris_plus_bibliographic_raw.csv",
       "snippet": "일체형 커플링 모듈 및 이를 포함하는 커플링 시스템 | (주)에스티아이 | 등록 | 2021 | 출원번호 1020210005962; 등록번호 1025517930000 | IPC/CPC: B67B | 기술매칭: 기술 키워드 미확인 | 초록: 실시예는, 용기의 뚜껑을 파지하는 캡 파지부를 포함하는 개폐 모듈; 및 상기 용기 내의 액체를 외부로 배출하는 커플러를 고정하는 커플러 고정 모듈을 포함하고, 상기 커플러는 상기 캡 파지부의 상부에서 하강하여 상기 용기에 결합되는 일체형 커플링 모듈 및 이를 포함하는 커플링 시스템을 개시한다.",
       "relevance_score": 67.5
     },
     {
       "title": "유체 이송용 커플러의 잠금장치 및 이를 포함하는 유체 이송용 커플러",
       "url": "",
-      "path": "data\\반도체\\에스티아이\\tech\\source\\sti_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\source\\sti_kipris_plus_bibliographic_raw.csv",
       "snippet": "유체 이송용 커플러의 잠금장치 및 이를 포함하는 유체 이송용 커플러 | (주)에스티아이 | 등록 | 2024 | 출원번호 1020240086661; 등록번호 1029639200000 | IPC/CPC: F16L | 기술매칭: 기술 키워드 미확인 | 초록: 본 발명의 일 실시예에 따라 하우징을 가지고, 상기 하우징의 전단에 구비된 메일 커플러 접속부를 가지는 피메일 커플러와, 상기 메일 커플러 접속부로 삽입되어 상기 피메일 커플러와 체결되는 메일 커플러를 포함하는 유체 이송용 커플러의 잠금장치에 있어서, 일정 두께를 갖는 원판의 일부가 절삭된 절삭면을 구비하는 몸체부, 상기 몸체부의 일면에 구비되고, 상기 메일 커플러 접",
       "relevance_score": 67.5
     }
@@ -328,7 +373,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\에스티아이\\tech\\sti_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\에스티아이\\tech\\sti_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-20T22:05:39",
+      "generated_at": "2026-05-25T21:46:39",
       "core_counts": {
         "total_patents": 58,
         "registered_patents_estimated": 26,
@@ -422,7 +467,7 @@
   "tech_chair_summary": {
     "agent": "tech",
     "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-    "created_at": "2026-05-20T22:08:43",
+    "created_at": "2026-05-25T21:49:02",
     "field": "반도체",
     "company": "에스티아이",
     "company_name": "에스티아이",
@@ -454,13 +499,13 @@
       "ip_evidence_composite_bridge_signal": "IP_EVIDENCE_WEAK",
       "ip_evidence_composite_adjustment_points": -1.0,
       "ip_evidence_composite_data_coverage_rate": 1.0,
-      "ip_evidence_composite_source_file": "data/반도체/에스티아이/tech/tech_ip_evidence_composite.json",
+      "ip_evidence_composite_source_file": "C:/Agent_6.9/data/반도체/에스티아이/tech/tech_ip_evidence_composite.json",
       "peer_adjusted_bridge_score_before_ip_evidence": 39.0,
       "final_bridge_score_after_ip_evidence": 38.0,
       "ip_evidence_adjusted_score": 38.0,
       "ip_evidence_formula": "final_bridge_score_after_ip_evidence = peer_adjusted_bridge_score_before_ip_evidence + ip_evidence_composite_adjustment_points",
       "ip_evidence_adjusted_grade": "TECH_EVIDENCE_WEAK",
-      "investor_final_tech_score": 40.67,
+      "investor_final_tech_score": 49.67,
       "investor_final_tech_grade": {
         "code": "EVIDENCE_WEAK_OR_EARLY",
         "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
@@ -528,14 +573,14 @@
       }
     ],
     "ip_quant_signals": {
-      "normalized_patent_text_records": 1023,
-      "company_matched_patents": 607,
+      "normalized_patent_text_records": 2583,
+      "company_matched_patents": 2167,
       "registered_patents": 158,
-      "alive_patents": 314,
-      "recent_5y_patents": 26,
+      "alive_patents": 1874,
+      "recent_5y_patents": 1560,
       "ipc_cpc_classes": null,
       "core_ipc_h01l_patents": null,
-      "keyword_matches": 199
+      "keyword_matches": 9559
     },
     "selected_ml": {
       "peer_ml": {
@@ -545,9 +590,9 @@
         "cluster_name": null
       },
       "tech_ip_strength": {
-        "score": 26.73,
+        "score": 53.24,
         "percentile": 50.0,
-        "patent_momentum_score": 3.21,
+        "patent_momentum_score": 78.99,
         "dominant_topic": null
       },
       "technology_differentiation": {
@@ -799,14 +844,14 @@
       "ip_evidence_bridge_signal": "IP_EVIDENCE_WEAK",
       "ip_evidence_bridge_adjustment_points": -1.0,
       "final_bridge_score_after_ip_evidence": 38.0,
-      "investor_final_tech_score": 40.67,
+      "investor_final_tech_score": 49.67,
       "investor_final_tech_grade": {
         "code": "EVIDENCE_WEAK_OR_EARLY",
         "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
         "threshold": 0.0
       },
       "investor_evidence_count": 9,
-      "excel_quantified_evidence_score": 45.0,
+      "excel_quantified_evidence_score": 90.0,
       "commercialization_and_funding_signal_score": 41.5
     },
     "ip_legal_features": {
@@ -1168,7 +1213,7 @@
       "company_name": "에스티아이",
       "field": "반도체",
       "status": "OK",
-      "created_at": "2026-05-20T22:08:13",
+      "created_at": "2026-05-25T21:46:41",
       "weights": {
         "legal_stability": 0.25,
         "claim_defense": 0.3,
@@ -1264,13 +1309,13 @@
       "tech_full_appendix_json": ""
     },
     "ip_evidence_bridge_adjustment_status": "APPLIED",
-    "ip_evidence_bridge_adjustment_applied_at": "2026-05-20T22:08:43",
+    "ip_evidence_bridge_adjustment_applied_at": "2026-05-25T21:49:33",
     "tech_investor_view": {
       "version": "tech-investor-scorecard-v2",
-      "generated_at": "2026-05-20T22:08:53",
+      "generated_at": "2026-05-25T21:51:57",
       "company_slug": "sti",
       "company_name": "에스티아이",
-      "final_tech_investor_score": 40.67,
+      "final_tech_investor_score": 49.67,
       "final_tech_investor_grade": {
         "code": "EVIDENCE_WEAK_OR_EARLY",
         "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
@@ -1434,33 +1479,33 @@
         },
         "excel_quantified_evidence": {
           "label": "Excel 기반 정량 근거",
-          "score": 45.0,
+          "score": 90.0,
           "weight": 0.15,
           "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지",
           "meta": {
-            "score": 45.0,
-            "company_item_count": 8,
-            "filled_count": 0,
+            "score": 90.0,
+            "company_item_count": 22,
+            "filled_count": 22,
             "metric_row_count": 0,
-            "numeric_signal_count": 0,
-            "category_count": 7,
+            "numeric_signal_count": 121,
+            "category_count": 8,
             "unique_metric_count": 0,
             "formula_rule_count": 0,
-            "coverage_ratio": 0.0,
-            "numeric_density": 0.0
+            "coverage_ratio": 1.0,
+            "numeric_density": 5.5
           }
         },
         "evidence_confidence": {
           "label": "근거 직접성·충분성",
-          "score": 44.87,
+          "score": 59.87,
           "weight": 0.15,
           "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성",
           "meta": {
-            "score": 44.87,
+            "score": 59.87,
             "evidence_count": 3,
             "claim_count": 3,
             "patent_count": 58,
-            "excel_coverage_ratio": 0.0
+            "excel_coverage_ratio": 1.0
           }
         },
         "commercialization_and_funding_signal": {
@@ -1508,17 +1553,17 @@
         {
           "component": "excel_quantified_evidence",
           "label": "Excel 기반 정량 근거",
-          "score": 45.0,
+          "score": 90.0,
           "weight": 0.15,
-          "weighted_score": 6.75,
+          "weighted_score": 13.5,
           "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지"
         },
         {
           "component": "evidence_confidence",
           "label": "근거 직접성·충분성",
-          "score": 44.87,
+          "score": 59.87,
           "weight": 0.15,
-          "weighted_score": 6.7305,
+          "weighted_score": 8.9805,
           "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성"
         },
         {
@@ -1531,8 +1576,8 @@
         }
       ],
       "key_takeaways": [
-        "에스티아이의 개인투자자용 Tech 최종 점수는 40.67/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
-        "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(38.0)와 IP Evidence(39.18) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+        "에스티아이의 개인투자자용 Tech 최종 점수는 49.67/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
+        "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(38.0)와 IP Evidence(39.18) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
         "투자자가 확인할 핵심 근거는 9개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
       ],
       "investor_evidence": [
@@ -1599,7 +1644,7 @@
         {
           "source": "tech_summary",
           "title": "Tech Agent 핵심 해석",
-          "detail": "에스티아이의 개인투자자용 Tech 최종 점수는 40.67/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
+          "detail": "에스티아이의 개인투자자용 Tech 최종 점수는 49.67/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
           "value": null,
           "unit": null,
           "path": null,
@@ -1609,7 +1654,7 @@
         {
           "source": "tech_summary",
           "title": "Tech Agent 핵심 해석",
-          "detail": "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(38.0)와 IP Evidence(39.18) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+          "detail": "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(38.0)와 IP Evidence(39.18) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
           "value": null,
           "unit": null,
           "path": null,
@@ -1649,8 +1694,8 @@
       }
     },
     "key_takeaways": [
-      "에스티아이의 개인투자자용 Tech 최종 점수는 40.67/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
-      "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(38.0)와 IP Evidence(39.18) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+      "에스티아이의 개인투자자용 Tech 최종 점수는 49.67/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
+      "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(38.0)와 IP Evidence(39.18) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
       "투자자가 확인할 핵심 근거는 9개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다.",
       "투자자가 확인할 핵심 근거는 6개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
     ],
@@ -1658,12 +1703,12 @@
       "agent": "tech_intake",
       "artifact": "tech_intake_value_evidence_bridge",
       "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-      "created_at": "2026-05-20T22:08:51",
+      "created_at": "2026-05-25T21:51:54",
       "field": "반도체",
       "company": "에스티아이",
       "company_dir": "sti",
       "company_slug": "sti",
-      "source_document_count": 132,
+      "source_document_count": 153,
       "source_documents": [
         {
           "source_group": "TECH_OUTPUT",
@@ -2057,6 +2102,18 @@
         },
         {
           "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/에스티아이/tech/tech_history_features_2025-08-31.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/에스티아이/tech/tech_history_features_2025-08-31.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/에스티아이/tech/tech_intake_manifest.json",
           "detected_url_count": 0,
           "fallback_url_count": 2
@@ -2310,6 +2367,120 @@
         {
           "source_group": "VALUATION",
           "source_file": "data/반도체/에스티아이/valuation/sti_valuation_workbook.xlsx",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/에스티아이/valuation/intake/company_profile.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/에스티아이/valuation/intake/cross_agent_signals_for_valuation.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/에스티아이/valuation/intake/dcf_inputs.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/에스티아이/valuation/intake/dilution_events.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/에스티아이/valuation/intake/eval_price_history.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/에스티아이/valuation/intake/eval_price_history_monthly.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/에스티아이/valuation/intake/eval_price_history_monthly_v43.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/에스티아이/valuation/intake/eval_price_history_monthly_v44.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/에스티아이/valuation/intake/eval_price_history_monthly_v45.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/에스티아이/valuation/intake/eval_price_history_v43.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/에스티아이/valuation/intake/eval_price_history_v44.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/에스티아이/valuation/intake/eval_price_history_v45.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/에스티아이/valuation/intake/financials_normalized.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/에스티아이/valuation/intake/financials_raw.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/에스티아이/valuation/intake/peer_multiples.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/에스티아이/valuation/intake/price_history.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/에스티아이/valuation/intake/relative_valuation_inputs.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/에스티아이/valuation/intake/shares_outstanding.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/에스티아이/valuation/intake/valuation_assumptions.csv",
           "detected_url_count": 0,
           "fallback_url_count": 5
         },
@@ -2987,80 +3158,81 @@
               "source_file": "data/반도체/에스티아이/finance/에스티아이_finance.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
+                "매출",
+                "성장"
+              ],
+              "snippet": "summary: 에스티아이는 2022년 큰 폭의 매출 성장을 기록했으나, 2023년에는 역성장으로 전환되었습니다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%97%90%EC%8A%A4%ED%8B%B0%EC%95%84%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/에스티아이/finance/에스티아이_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "매출",
+                "성장"
+              ],
+              "snippet": "2024년에는 다시 매출이 소폭 성장했으나, 영업이익률은 7~8% 수준으로 유지되고 있습니다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%97%90%EC%8A%A4%ED%8B%B0%EC%95%84%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/에스티아이/finance/에스티아이_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "매출",
+                "성장"
+              ],
+              "snippet": "key_thesis: 2022년 매출성장률이 32.21%로 크게 증가했으나, 2023년에는 -24.37%로 역성장했습니다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%97%90%EC%8A%A4%ED%8B%B0%EC%95%84%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/에스티아이/finance/에스티아이_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "매출",
+                "성장"
+              ],
+              "snippet": "key_thesis: 2024년 매출성장률은 4.56%로 다시 성장세로 전환되었습니다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%97%90%EC%8A%A4%ED%8B%B0%EC%95%84%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/에스티아이/finance/에스티아이_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
                 "매출"
               ],
-              "snippet": "summary: 에스티아이는 2023년 견조한 매출과 영업이익을 기록했으나, 2024년에는 매출이 소폭 증가했음에도 불구하고 영업이익률이 하락하며 수익성이 둔화되는 모습을 보였습니다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%97%90%EC%8A%A4%ED%8B%B0%EC%95%84%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/에스티아이/finance/에스티아이_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "매출"
-              ],
-              "snippet": "2025년에는 매출과 영업이익이 모두 감소하며 수익성이 더욱 악화될 것으로 전망됩니다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%97%90%EC%8A%A4%ED%8B%B0%EC%95%84%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/에스티아이/finance/에스티아이_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "매출",
-                "매출액"
-              ],
-              "snippet": "key_thesis: 2023년 매출액 3,194억원, 영업이익 239억원으로 견조한 실적을 달성했습니다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%97%90%EC%8A%A4%ED%8B%B0%EC%95%84%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/에스티아이/finance/에스티아이_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "매출",
-                "매출액"
-              ],
-              "snippet": "key_risks: 2024년 영업이익률이 8.2%로 소폭 상승했으나, 매출액 대비 이자 비용 증가로 인해 순이익은 감소했습니다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%97%90%EC%8A%A4%ED%8B%B0%EC%95%84%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/에스티아이/finance/에스티아이_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "매출",
-                "매출액"
-              ],
-              "snippet": "key_risks: 2025년 매출액, 영업이익, 순이익이 모두 감소할 것으로 전망되어 수익성 악화가 우려됩니다.",
+              "snippet": "key_risks: 2023년 매출이 24.37% 감소하며 수익성 악화 가능성이 나타났습니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3096,7 +3268,7 @@
                 "매출",
                 "성장"
               ],
-              "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수",
+              "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3113,7 +3285,7 @@
               "matched_keywords": [
                 "sales"
               ],
-              "snippet": "sales: 328058707879.0",
+              "snippet": "sales: 334022337411.0",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3142,27 +3314,9 @@
               "source_file": "data/반도체/에스티아이/finance/에스티아이_finance.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
-                "영업이익률",
-                "수익성"
+                "영업이익률"
               ],
-              "snippet": "summary: 에스티아이는 2023년 견조한 매출과 영업이익을 기록했으나, 2024년에는 매출이 소폭 증가했음에도 불구하고 영업이익률이 하락하며 수익성이 둔화되는 모습을 보였습니다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%97%90%EC%8A%A4%ED%8B%B0%EC%95%84%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/에스티아이/finance/에스티아이_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "수익성"
-              ],
-              "snippet": "2025년에는 매출과 영업이익이 모두 감소하며 수익성이 더욱 악화될 것으로 전망됩니다.",
+              "snippet": "2024년에는 다시 매출이 소폭 성장했으나, 영업이익률은 7~8% 수준으로 유지되고 있습니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3179,7 +3333,7 @@
               "matched_keywords": [
                 "영업이익률"
               ],
-              "snippet": "key_thesis: 2023년 영업이익률은 7.5%로 양호한 수준을 유지했습니다.",
+              "snippet": "key_thesis: 영업이익률은 2021년 8.00%에서 2024년 8.17%로 큰 변동 없이 유지되고 있습니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3196,7 +3350,7 @@
               "matched_keywords": [
                 "수익성"
               ],
-              "snippet": "key_thesis: 2023년 ROE는 10.1%로 자본 대비 수익성이 양호했습니다.",
+              "snippet": "key_risks: 2023년 매출이 24.37% 감소하며 수익성 악화 가능성이 나타났습니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3211,10 +3365,9 @@
               "source_file": "data/반도체/에스티아이/finance/에스티아이_finance.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
-                "현금흐름",
-                "FCF"
+                "영업이익률"
               ],
-              "snippet": "key_thesis: 2023년 잉여현금흐름(FCF)은 246억원을 기록하며 현금 창출 능력을 보여주었습니다.",
+              "snippet": "key_risks: 2024년 영업이익률은 8.17%로 개선되었으나, 2021년 대비 큰 폭의 성장은 보이지 않았습니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3227,12 +3380,29 @@
             {
               "source_group": "FINANCE",
               "source_file": "data/반도체/에스티아이/finance/에스티아이_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "FCF"
+              ],
+              "snippet": "key_risks: 2024년 FCF가 -23,442,305,540원으로 큰 폭의 마이너스를 기록하며 현금 창출 능력에 대한 점검이 필요합니다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%97%90%EC%8A%A4%ED%8B%B0%EC%95%84%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/에스티아이/finance/에스티아이_finance_agent_packet.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
                 "영업이익률",
-                "비용"
+                "수익성"
               ],
-              "snippet": "key_risks: 2024년 영업이익률이 8.2%로 소폭 상승했으나, 매출액 대비 이자 비용 증가로 인해 순이익은 감소했습니다.",
+              "snippet": "report_core_points: 영업이익률: 에스티아이 2024 기준 영업이익률 값은 8.17%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3244,30 +3414,29 @@
             },
             {
               "source_group": "FINANCE",
-              "source_file": "data/반도체/에스티아이/finance/에스티아이_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "현금흐름",
-                "FCF"
-              ],
-              "snippet": "key_risks: 2024년 잉여현금흐름(FCF)이 -23억원을 기록하며 마이너스로 전환되었습니다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%97%90%EC%8A%A4%ED%8B%B0%EC%95%84%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/에스티아이/finance/에스티아이_finance.json",
+              "source_file": "data/반도체/에스티아이/finance/에스티아이_finance_agent_packet.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
                 "수익성"
               ],
-              "snippet": "key_risks: 2025년 매출액, 영업이익, 순이익이 모두 감소할 것으로 전망되어 수익성 악화가 우려됩니다.",
+              "snippet": "report_core_points: ROE: 에스티아이 2024 기준 ROE 값은 10.41%이며, 자기자본 대비 수익성 수준을 확인하는 지표입니다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%97%90%EC%8A%A4%ED%8B%B0%EC%95%84%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/에스티아이/finance/에스티아이_finance_agent_packet.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "FCF"
+              ],
+              "snippet": "report_core_points: FCF: 에스티아이 2024 기준 FCF 값은 -2,344,230,554원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3483,7 +3652,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\에스티아이\\tech\\sti_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\에스티아이\\tech\\sti_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-20T22:05:39",
+      "generated_at": "2026-05-25T21:46:39",
       "core_counts": {
         "total_patents": 58,
         "registered_patents_estimated": 26,
@@ -3571,8 +3740,8 @@
     "bridge_signal": "IP_QUALITY_NEUTRAL"
   },
   "formula_catalog_summary": {
-    "json": "data\\반도체\\에스티아이\\tech\\sti_tech_formula_rules.json",
-    "md": "data\\반도체\\에스티아이\\tech\\sti_tech_formula_rules.md",
+    "json": "C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\sti_tech_formula_rules.json",
+    "md": "C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\sti_tech_formula_rules.md",
     "rule_count": 34
   },
   "evidence_harvest_summary": {
@@ -3608,6 +3777,8 @@
     "tech_full_appendix_json": null,
     "tech_chair_summary_json": "data/반도체/에스티아이/tech/tech_chair_summary.json",
     "tech_chair_summary_md": "data/반도체/에스티아이/tech/sti_tech_chair_summary.md",
+    "tech_history_feature_json": "data/반도체/에스티아이/tech/tech_history_features_2025-08-31.json",
+    "tech_history_feature_csv": "data/반도체/에스티아이/tech/tech_history_features_2025-08-31.csv",
     "tech_json": "data/반도체/에스티아이/tech/sti_tech.json",
     "tech_agent_packet_json": "data/반도체/에스티아이/tech/sti_tech_agent_packet.json"
   },
@@ -4528,7 +4699,7 @@
     "field": "반도체",
     "source_csv": "data\\반도체\\에스티아이\\tech\\sti_kipris_patents_normalized.csv",
     "enriched_csv": "data\\반도체\\에스티아이\\tech\\sti_kipris_tech_ml_enriched.csv",
-    "generated_at": "2026-05-20T22:05:39",
+    "generated_at": "2026-05-25T21:46:39",
     "core_counts": {
       "total_patents": 58,
       "registered_patents_estimated": 26,

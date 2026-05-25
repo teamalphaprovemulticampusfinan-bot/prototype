@@ -58,7 +58,7 @@
 20. 붕소 확산 최소화를 위한 MgO 터널링 장벽층과 질소-함유층을 포함한 터널링 자기저항(TMR) 소자 | 에이취지에스티 네덜란드 비.브이. | 거절 | 2015 | 출원번호 1020150138065 | IPC/CPC: H10N | 기술매칭: 소자 | 초록: 자기 레코딩 디스크 드라이브 기록 헤드와 같은 터널링 자기저항(TMR, tunneling magnetoresistance) 디바이스는 붕소를 포함하는 자유 및/또는 기준 강자성 층들과 MgO 배리어 층 사이에 질소-함유 층을 갖는다. 일 실시예에서, 자유 강자성 층은 붕소-함유 층, 및 붕소-함유 층과 MgO 배리어 층 사이의 삼층 나노층 구조물을 포함한다. 삼층 나노층 구조물은, MgO 층
 
 ## 4. 원천 파일
-- data\반도체\GST\tech\source\gst_kipris_plus_bibliographic_raw.csv
+- C:\Agent_6.9\data\반도체\GST\tech\source\gst_kipris_plus_bibliographic_raw.csv
 
 ## 5. 품질 플래그
 - 특허 레코드는 있으나 출원인/권리자 회사명 매칭이 약합니다. applicant 검색어를 확인하세요.

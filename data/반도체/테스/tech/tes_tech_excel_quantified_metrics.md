@@ -1,30 +1,11 @@
-# 테스 Excel-frame strengthened quantified evidence
+# 테스 Excel-frame 정량 근거 추출
 
-- company_dir: tes
-- generated_at: 2026-05-21T00:05:40
-- data_origin: tech_agent_packet_category_metrics
+- row_count: 3
+- numeric_row_count: 3
+- parsing: 항목명(F열)과 내용(G열)을 실제 근거로 사용하고, 대/중 출처(C/D열)는 source hint로 보존
 
-| category | item | metric | value | evidence |
-|---|---|---|---:|---|
-| 대표 기술 | 핵심 기술 키워드 | 기술 키워드 등장 빈도 | 115회 | 기술 키워드 등장 빈도; 115회; DART/IR/공식/특허/로컬 기술 원천에서 핵심 기술 키워드 출현 횟수 합산; 공정 46; 양산 31; AI 14; 수율 8; EV 7; HPC 6; EMI 3; 테스은 공정, 양산, AI 기반 기술/공정 기업으로, 관련 기술은 실제 원천에서 0회 확인됩니다. 해당 기술은 0개 제품· |
-| 대표 기술 | 적용 방식 | 적용 제품/공정 수 | 1개 | 적용 제품/공정 수; 1개; 근거 문장 내 적용 제품·공정·Application 고유 키워드 수; EMI; 테스은 공정, 양산, AI 기반 기술/공정 기업으로, 관련 기술은 실제 원천에서 0회 확인됩니다. 해당 기술은 0개 제품·공정 영역과 연결되며, 양산·공정·기술 문맥을 통해 구현 방향을 판단합니다. |
-| 대표 기술 | 핵심 성능 요소 | 성능/공정 정량 수치 | 1건 | 성능/공정 정량 수치; 1건; 성능·수율·공정·양산 문맥에서 숫자가 포함된 문장 수; 095 # 테스 Tech Local Proxy Evidence stock_code: 095610 evidence_status: FALLBACK_LOCAL_PROXY universe_lock: universe_30_semico; 테스은 공 |
-| 핵심 제품/서비스 | 제품명/서비스명 | 제품/서비스 축 수 | 4개 | 제품/서비스 축 수; 4개; 제품·서비스 후보 고유 키워드 수; EMI; AI; EV; 양산; 핵심 제품/서비스는 EMI, AI, EV 중심으로 확인됩니다. 실제 원천 기준 0개 제품·서비스 축이 추출되며, 매출·성장 정량 신호는 DART/IR 문맥과 결합해 수익성 기여 판단에 사용합니다. |
-| 핵심 제품/서비스 | 적용 기술 | 제품/서비스 축 수 | 4개 | 제품/서비스 축 수; 4개; 제품·서비스 후보 고유 키워드 수; EMI; AI; EV; 양산; 핵심 제품/서비스는 EMI, AI, EV 중심으로 확인됩니다. 실제 원천 기준 0개 제품·서비스 축이 추출되며, 매출·성장 정량 신호는 DART/IR 문맥과 결합해 수익성 기여 판단에 사용합니다. |
-| 핵심 제품/서비스 | 주요 고객군 | 제품/서비스 축 수 | 4개 | 제품/서비스 축 수; 4개; 제품·서비스 후보 고유 키워드 수; EMI; AI; EV; 양산; 핵심 제품/서비스는 EMI, AI, EV 중심으로 확인됩니다. 실제 원천 기준 0개 제품·서비스 축이 추출되며, 매출·성장 정량 신호는 DART/IR 문맥과 결합해 수익성 기여 판단에 사용합니다. |
-| 고객 구매 이유 | 고객 효익 | 고객 효익 키워드 수 | 0개 | 고객 효익 키워드 수; 0개; 성능·원가·품질·수율 등 고객 효익 표현 고유 개수; 고객 구매 이유는 핵심 기술 관련 성능·품질·양산 효익으로 정리됩니다. 실제 근거에서 고객 효익 신호 0개가 확인되며, 단순 기술 키워드가 아니라 적용처·성능·양산 문맥과 함께 해석합니다. |
-| 고객 구매 이유 | 경쟁 제품 대비 장점 | 효익 관련 정량 수치 | 1건 | 효익 관련 정량 수치; 1건; 성능·원가·수율·처리속도 문맥 숫자 포함 문장 수; 095 # 테스 Tech Local Proxy Evidence stock_code: 095610 evidence_status: FALLBACK_LOCAL_PROXY universe_lock: universe_30_semico; 고객 구매 이 |
-| 고객 구매 이유 | 실제 적용 사례 | 효익 관련 정량 수치 | 1건 | 효익 관련 정량 수치; 1건; 성능·원가·수율·처리속도 문맥 숫자 포함 문장 수; 095 # 테스 Tech Local Proxy Evidence stock_code: 095610 evidence_status: FALLBACK_LOCAL_PROXY universe_lock: universe_30_semico; 고객 구매 이 |
-| 경쟁 우위 요소/대체가능성 | 등록 특허 | 등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수 | 287억원 | 등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수; 287억원; KIPRIS Tech ML normalized patent count; total=382; registered_estimated=287; alive_estimated=146; recent_5y=53; semiconductor_i |
-| 경쟁 우위 요소/대체가능성 | 제조 노하우 | 진입장벽/대체난이도 신호 수 | 2개 | 진입장벽/대체난이도 신호 수; 2개; 특허·승인·양산·노하우·대체재 문맥 신호 수; 특허; 양산; 경쟁 우위는 특허, 양산와 연결된 특허·공정·양산 경험을 중심으로 확인됩니다. 대체가능성 판단에는 특허 수 자체보다 고객 승인, 공정 난이도, 양산 경험 등 0개 장벽 신호를 함께 반영합니다. |
-| 경쟁 우위 요소/대체가능성 | 고객사 레퍼런스 | 등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수 | 4개 | 등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수; 4개; Tech-to-Value Bridge commercialization signal count; commercialization_hits=4; production_hits=3; value_hits=0; ip_hits=2; officia |
-| 현재 활용 산업 + 확장 산업 | 현재 고객 산업 | 활용/확장 산업 수 | 1개 | 활용/확장 산업 수; 1개; 근거 문장 내 전방산업/Application 고유 개수; EV; 활용·확장 산업은 EV로 확인됩니다. 실제 수집 근거에서 0개 적용 산업/Application이 추출되어 기술 확장성을 보조적으로 설명합니다. |
-| 현재 활용 산업 + 확장 산업 | 기술 범용성 | 활용/확장 산업 수 | 1개 | 활용/확장 산업 수; 1개; 근거 문장 내 전방산업/Application 고유 개수; EV; 활용·확장 산업은 EV로 확인됩니다. 실제 수집 근거에서 0개 적용 산업/Application이 추출되어 기술 확장성을 보조적으로 설명합니다. |
-| 현재 활용 산업 + 확장 산업 | 타산업 적용 가능성 | 활용/확장 산업 수 | 1개 | 활용/확장 산업 수; 1개; 근거 문장 내 전방산업/Application 고유 개수; EV; 활용·확장 산업은 EV로 확인됩니다. 실제 수집 근거에서 0개 적용 산업/Application이 추출되어 기술 확장성을 보조적으로 설명합니다. |
-| 신규 산업 진입 시 추가 인증/개발 부담 | 인증 종류 | 필요 인증 수, 예상 개발 기간(개월), 검증 단계 수, 고객 테스트 횟수 | 0chars | 필요 인증 수, 예상 개발 기간(개월), 검증 단계 수, 고객 테스트 횟수; 0chars; tech_certification_features confirmed_certification_keys/evidence_count; 기술 표준·인증 데이터가 아직 제공되지 않았습니다. 이는 감점이 아니라 확인 제한으로 처리합니다.;  |
-| 신규 산업 진입 시 추가 인증/개발 부담 | 개발 기간 | 장벽 관련 정량 수치 | 1건 | 장벽 관련 정량 수치; 1건; 특허/승인/기간/수치 문맥 숫자 포함 문장 수; 095 # 테스 Tech Local Proxy Evidence stock_code: 095610 evidence_status: FALLBACK_LOCAL_PROXY universe_lock: universe_30_semico; 진입 부담은 양산 |
-| 신규 산업 진입 시 추가 인증/개발 부담 | 추가 검증 필요 여부 | 장벽 관련 정량 수치 | 1건 | 장벽 관련 정량 수치; 1건; 특허/승인/기간/수치 문맥 숫자 포함 문장 수; 095 # 테스 Tech Local Proxy Evidence stock_code: 095610 evidence_status: FALLBACK_LOCAL_PROXY universe_lock: universe_30_semico; 진입 부담은 양산 |
-| 회사의 기술 투자 수준 - R&D 강도 | 연구개발비 | R&D 관련 정량 수치 | 1건 | R&D 관련 정량 수치; 1건; 연구개발·투자 문맥 숫자 포함 문장 수; 095 # 테스 Tech Local Proxy Evidence stock_code: 095610 evidence_status: FALLBACK_LOCAL_PROXY universe_lock: universe_30_semico; R&D 강도는 연구개발 |
-| 회사의 기술 투자 수준 - R&D 강도 | 연구인력 | R&D 관련 정량 수치 | 1건 | R&D 관련 정량 수치; 1건; 연구개발·투자 문맥 숫자 포함 문장 수; 095 # 테스 Tech Local Proxy Evidence stock_code: 095610 evidence_status: FALLBACK_LOCAL_PROXY universe_lock: universe_30_semico; R&D 강도는 연구개발 |
-| 회사의 기술 투자 수준 - R&D 강도 | CAPEX | R&D 관련 정량 수치 | 1건 | R&D 관련 정량 수치; 1건; 연구개발·투자 문맥 숫자 포함 문장 수; 095 # 테스 Tech Local Proxy Evidence stock_code: 095610 evidence_status: FALLBACK_LOCAL_PROXY universe_lock: universe_30_semico; R&D 강도는 연구개발 |
-| 기술 경쟁력 종합 판단 | 기술 경쟁력 종합 판단 | 1~7번 항목별 점수화(예: 5점 만점), 총점, 강점/약점 수 | 21점 | 1~7번 항목별 점수화(예: 5점 만점), 총점, 강점/약점 수; 21점; Tech Agent 7-axis score and Tech-to-Value Bridge summary; total=21/35; axes=기술성=3/5, 수익성 기여=3/5, 고객 채택도=3/5, 진입장벽=3/5, 확장성=3/5, 양산성=3/5, 투 |
+| 대분류 | 항목명 | 정량화 가능 지표 | 값/숫자 | 근거 본문 | 출처 힌트 | 점수 |
+|---|---|---|---:|---|---|---:|
+| 대표 기술 | 적용 방식 | 기술 키워드 등장 빈도, 적용 제품/공정 수, 수치화 가능한 성능(순도 %, 온도 ℃, 수율 %, 처리속도, 수명 등 : 따로 추출?) | 2 | 반도체 후공정에서 Wafer Level Packaging + Bumping + Test 방식으로 적용되며, Fan-out 기술은 웨이퍼 단위를 넘어 Panel Level Packaging(FOPLP)으로 확장 2차전지 리드탭과 EMI Shielding 소재는 배터리 부품 및 전자부품 소재 영역까지 확대 단순한 패키징 기업이 아니라 패키징 공정 + 테스트 + 배터리 부품/전자소재가 결합된 복합 기술 구조 | 사업 보고서, 기업 홈페이지, 특허 사이트 / 사업보고서: 사업의 내용 → 주요 제품 및 서비스 / 연구개발활동 / 생산공정·기술설명 / 원재료 및 전구체 설명 / 신규사업 내용 기업 홈페이지: 기술소개 / 제품기술 페이지 / 소재·공정 설명 페이지 / Application(적용 분야) 페이지 / R&D센터 소개 특허 사이트: 대표 등록특허 초록 / 청구항 / IPC·CPC 분류 / 특허 패밀리 / 피인용 특허 | 87.0 |
+| 핵심 제품/서비스 | 제품명/서비스명 | 매출 비중 %, 전년 성장률 %, 제품 수, 고객 산업 수 | 2 | WLP Bumping, Test, 2차전지 리드탭이며, 보완 제품군으로 전자재료/전구체 연결 기준 매출 구조상 이 세 제품군이 핵심 매출을 구성, 반도체 패키징과 배터리 소재의 결합이 사업 포트폴리오의 중심 | 사업 보고서 - 매출 구성 홈페이지 매출구성 IR 발표자료 / 사업보고서: 사업부문별 매출 / 제품별 매출 / 주요 제품 매출 비중 / 수출 비중 / 사업부별 실적 홈페이지: 제품 포트폴리오 / 제품 카테고리 / 베스트셀러·주력제품 / 응용처별 제품 분류 IR: Company Overview / Product Portfolio / Revenue Breakdown / Business Segment / 성장동력 슬라이드 | 79.0 |
+| 기술 경쟁력 종합 판단 | 기술 경쟁력 종합 판단 | 1~7번 항목별 점수화(예: 5점 만점), 총점, 강점/약점 수 | 1, 7, 5, 7μm, 5, 4, 4, 3개, 90.80%, 4 | 기술 독창성은 7μm 이하 micro bump, FOWLP/FOPLP 선도 기술, 패키징과 배터리소재를 잇는 복합 기술 구조를 반영해 5점 양산성은 WLP Bumping·Test·리드탭 중심의 실제 매출 구조가 존재해 4점 고객 채택도는 AI부터 Healthcare까지 다수 application이 확인되지만 고객사명이 제한적이어서 4점 수익성 기여는 상위 3개 제품 비중 90.80%라는 높은 집중도를 반영해 4점, 확장성은 AI/HPC·5G·EV·Space·Healthcare까지 이어지는 확장 축이 분명해 5점 진입장벽은 리드탭 약 20년 국내 독점과 국내 대체 공급업체 부재를 반영해 5점 투자 지속성은 R&D 377.4억원, R&D 비율 10.02%, CAPEX 450.8억원을 반영해 4점 | 내부 종합 / 내부 종합 로직: ① 기술 독창성 ② 양산성 ③ 고객 채택도 ④ 수익성 기여 ⑤ 확장성 ⑥ 진입장벽 ⑦ 투자 지속성 점수화 후 총점 산출 | 95.0 |
