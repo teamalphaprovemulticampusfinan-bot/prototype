@@ -1,0 +1,1184 @@
+{
+  "agent": "market",
+  "company_name": "에스티아이",
+  "company": "에스티아이",
+  "opinion": "보유",
+  "confidence": 0.45,
+  "summary": "에스티아이에 대해 검증 가능한 핵심 근거는 다음과 같습니다. 에스티아이 마켓 분석 total_score 값은 69점입니다. 에스티아이 stock_data.current_price 값은 26850입니다. 에스티아이 stock_data.change 값은 -1900입니다. 에스티아이 stock_data.change_rate 값은 -6.61%입니다. 에스티아이 stock_data.raw.clpr 값은 26850입니다.",
+  "key_points": [
+    "에스티아이 마켓 분석 total_score 값은 69점입니다.",
+    "에스티아이 stock_data.current_price 값은 26850입니다.",
+    "에스티아이 stock_data.change 값은 -1900입니다.",
+    "에스티아이 stock_data.change_rate 값은 -6.61%입니다.",
+    "에스티아이 stock_data.raw.clpr 값은 26850입니다."
+  ],
+  "risks": [],
+  "claims": [
+    {
+      "claim_id": "market.cl.001",
+      "text": "에스티아이 마켓 분석 total_score 값은 69점입니다.",
+      "evidence_ids": [
+        "market.ev.001"
+      ]
+    },
+    {
+      "claim_id": "market.cl.002",
+      "text": "에스티아이 stock_data.current_price 값은 26850입니다.",
+      "evidence_ids": [
+        "market.ev.006"
+      ]
+    },
+    {
+      "claim_id": "market.cl.003",
+      "text": "에스티아이 stock_data.change 값은 -1900입니다.",
+      "evidence_ids": [
+        "market.ev.009"
+      ]
+    },
+    {
+      "claim_id": "market.cl.004",
+      "text": "에스티아이 stock_data.change_rate 값은 -6.61%입니다.",
+      "evidence_ids": [
+        "market.ev.010"
+      ]
+    },
+    {
+      "claim_id": "market.cl.005",
+      "text": "에스티아이 stock_data.raw.clpr 값은 26850입니다.",
+      "evidence_ids": [
+        "market.ev.016"
+      ]
+    },
+    {
+      "claim_id": "market.cl.006",
+      "text": "에스티아이 stock_data.raw.vs 값은 -1900입니다.",
+      "evidence_ids": [
+        "market.ev.017"
+      ]
+    },
+    {
+      "claim_id": "market.auto_cl.007",
+      "text": "stock_data.raw.fltRt 값은 -6.61%입니다.",
+      "evidence_ids": [
+        "market.ev.018"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "market.auto_cl.009",
+      "text": "stock_data.raw.mkp 값은 28,250입니다.",
+      "evidence_ids": [
+        "market.ev.019"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "market.auto_cl.011",
+      "text": "stock_data.raw.hipr 값은 28,600입니다.",
+      "evidence_ids": [
+        "market.ev.020"
+      ],
+      "claim_type": "point"
+    }
+  ],
+  "evidences": [
+    {
+      "evidence_id": "market.ev.001",
+      "source_type": "market",
+      "source": "market_graph_analysis",
+      "metric": "total_score",
+      "value": 69,
+      "unit": "score",
+      "period": null,
+      "snippet": "market_graph_analysis | total_score | 값: 69score"
+    },
+    {
+      "evidence_id": "market.ev.002",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.provider",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.provider | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.003",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.company",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.company | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.004",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.ticker",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.ticker | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.005",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.krx_code",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.krx_code | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.006",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.current_price",
+      "value": 26850,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.current_price | 값: 26,850원"
+    },
+    {
+      "evidence_id": "market.ev.007",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.currency",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.currency | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.008",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.as_of",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.as_of | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.009",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change",
+      "value": -1900,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.change | 값: -1,900"
+    },
+    {
+      "evidence_id": "market.ev.010",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change_rate",
+      "value": -6.61,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.change_rate | 값: -6.61%"
+    },
+    {
+      "evidence_id": "market.ev.011",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.basDt",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.basDt | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.012",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.srtnCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.srtnCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.013",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.isinCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.isinCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.014",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.itmsNm",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.itmsNm | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.015",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mrktCtg",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mrktCtg | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.016",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.clpr",
+      "value": 26850,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 26,850원"
+    },
+    {
+      "evidence_id": "market.ev.017",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.vs",
+      "value": -1900,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.vs | 값: -1,900"
+    },
+    {
+      "evidence_id": "market.ev.018",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.fltRt",
+      "value": -6.61,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: -6.61%"
+    },
+    {
+      "evidence_id": "market.ev.019",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mkp",
+      "value": 28250,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 28,250"
+    },
+    {
+      "evidence_id": "market.ev.020",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.hipr",
+      "value": 28600,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 28,600"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "market.ev.001",
+      "source_type": "market",
+      "source": "market_graph_analysis",
+      "metric": "total_score",
+      "value": 69,
+      "unit": "score",
+      "period": null,
+      "snippet": "market_graph_analysis | total_score | 값: 69score"
+    },
+    {
+      "evidence_id": "market.ev.002",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.provider",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.provider | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.003",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.company",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.company | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.004",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.ticker",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.ticker | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.005",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.krx_code",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.krx_code | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.006",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.current_price",
+      "value": 26850,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.current_price | 값: 26,850원"
+    },
+    {
+      "evidence_id": "market.ev.007",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.currency",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.currency | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.008",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.as_of",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.as_of | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.009",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change",
+      "value": -1900,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.change | 값: -1,900"
+    },
+    {
+      "evidence_id": "market.ev.010",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change_rate",
+      "value": -6.61,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.change_rate | 값: -6.61%"
+    },
+    {
+      "evidence_id": "market.ev.011",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.basDt",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.basDt | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.012",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.srtnCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.srtnCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.013",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.isinCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.isinCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.014",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.itmsNm",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.itmsNm | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.015",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mrktCtg",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mrktCtg | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.016",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.clpr",
+      "value": 26850,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 26,850원"
+    },
+    {
+      "evidence_id": "market.ev.017",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.vs",
+      "value": -1900,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.vs | 값: -1,900"
+    },
+    {
+      "evidence_id": "market.ev.018",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.fltRt",
+      "value": -6.61,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: -6.61%"
+    },
+    {
+      "evidence_id": "market.ev.019",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mkp",
+      "value": 28250,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 28,250"
+    },
+    {
+      "evidence_id": "market.ev.020",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.hipr",
+      "value": 28600,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 28,600"
+    }
+  ],
+  "raw_payload": {
+    "analysis": {
+      "agent": "market",
+      "company": "에스티아이",
+      "opinion": "보유",
+      "confidence": 0.6,
+      "market_summary": {
+        "oecd_interpretation": "OECD 경기선행지수가 98.01로 기준선(100) 하회하며 경기 둔화 가능성을 시사합니다. 이는 전반적인 산업 활동에 부정적인 영향을 줄 수 있습니다.",
+        "industry_stage": "에스티아이의 주요 사업 영역인 반도체 장비 산업은 AI·HBM 등 특정 세그먼트에서 성장기 초입에 있으나, 전체적으로는 성숙기 또는 세그먼트별 상이한 위치에 있습니다.",
+        "value_chain_position": "에스티아이는 반도체 제조용 기계 및 장비 분야에서 사업을 영위하며, 밸류체인 내에서 핵심적인 역할을 수행합니다. 첨단 장비 수요 증가 시 직접적인 수혜가 예상됩니다.",
+        "competitive_position": "반도체 장비 시장은 EUV 장비의 ASML 독점 등 높은 기술 진입장벽과 치열한 경쟁 구도를 보입니다. 에스티아이의 차별화된 기술력은 경쟁력의 기반이 될 수 있습니다.",
+        "market_momentum": "최근 주가는 26,850원으로 전일 대비 6.61% 하락했으며, 52주 고가 대비 상당한 조정을 보이고 있습니다. 반도체 업황 회복 기대감과 삼성전자 파업 이슈 등 변동성이 큰 상황입니다."
+      },
+      "qualitative_rubric": {
+        "macro_cycle": {
+          "assessment": "중",
+          "reason": "OECD 경기선행지수가 기준선 하회하며 경기 둔화 가능성을 시사하나, 반도체 산업 자체의 회복 모멘텀이 이를 상쇄할 수 있습니다."
+        },
+        "industry_attractiveness": {
+          "assessment": "상",
+          "reason": "AI·HBM 등 특정 반도체 세그먼트의 높은 성장률과 수요 증가가 산업 매력도를 높이고 있습니다."
+        },
+        "value_chain_position": {
+          "assessment": "상",
+          "reason": "반도체 제조용 기계 및 장비는 첨단 반도체 생산에 필수적인 요소로, 밸류체인 내에서 중요한 위치를 차지합니다."
+        },
+        "competitive_position": {
+          "assessment": "중",
+          "reason": "높은 기술 진입장벽과 경쟁 심화 속에서 에스티아이의 차별화된 기술력이 경쟁력의 기반이 될 수 있으나, 시장 지배력은 추가 확인이 필요합니다."
+        },
+        "market_momentum": {
+          "assessment": "하",
+          "reason": "최근 주가 하락세와 삼성전자 파업 이슈 등 부정적인 뉴스 흐름이 시장 모멘텀을 약화시키고 있습니다."
+        },
+        "policy_disclosure_signal": {
+          "assessment": "상",
+          "reason": "정부의 R&D 지원 확대, 세액공제 등 정책적 지원과 반도체 장비 국산화 기회는 긍정적인 신호입니다."
+        },
+        "downside_risk": {
+          "assessment": "중",
+          "reason": "삼성전자 파업으로 인한 생산 차질 우려, 환율 변동성, 반도체 업황 피크아웃 논란 등 하방 리스크 요인이 존재합니다."
+        }
+      },
+      "bwm_assessment": {
+        "best_criterion": "산업 매력도",
+        "worst_criterion": "시장 모멘텀",
+        "judgment_effect": "산업의 성장성과 정책 수혜는 긍정적이나, 단기적인 시장 모멘텀 약화와 리스크 요인이 투자 의견을 '보유'로 조정하게 합니다."
+      },
+      "scoring": {
+        "거시환경": {
+          "score": 12,
+          "max": 20,
+          "reason": "OECD 경기선행지수 하회는 부정적이나, 반도체 산업 자체의 회복 모멘텀이 이를 일부 상쇄합니다."
+        },
+        "산업매력도": {
+          "score": 18,
+          "max": 20,
+          "reason": "AI·HBM 등 특정 반도체 세그먼트의 높은 성장률과 수요 증가가 산업 매력도를 높입니다."
+        },
+        "경쟁위치": {
+          "score": 14,
+          "max": 20,
+          "reason": "높은 기술 진입장벽과 경쟁 심화 속에서 에스티아이의 차별화된 기술력이 경쟁력의 기반이 될 수 있습니다."
+        },
+        "정책수혜": {
+          "score": 17,
+          "max": 20,
+          "reason": "정부의 R&D 지원 확대, 세액공제 등 정책적 지원과 반도체 장비 국산화 기회는 긍정적입니다."
+        },
+        "시장모멘텀": {
+          "score": 8,
+          "max": 20,
+          "reason": "최근 주가 하락세와 삼성전자 파업 이슈 등 부정적인 뉴스 흐름이 시장 모멘텀을 약화시키고 있습니다."
+        }
+      },
+      "total_score": 69,
+      "claims": [
+        {
+          "claim_id": "market.cl.001",
+          "text": "AI·HBM 등 특정 반도체 세그먼트의 높은 성장률이 산업 매력도를 높입니다.",
+          "evidence_ids": [
+            "market.ev.002"
+          ]
+        },
+        {
+          "claim_id": "market.cl.002",
+          "text": "정부의 R&D 지원 확대 및 세액공제 정책은 에스티아이에게 긍정적인 영향을 줄 수 있습니다.",
+          "evidence_ids": [
+            "market.ev.004"
+          ]
+        },
+        {
+          "claim_id": "market.cl.003",
+          "text": "삼성전자 파업 이슈와 환율 변동성은 단기적인 시장 모멘텀을 약화시키는 요인입니다.",
+          "evidence_ids": [
+            "market.ev.005",
+            "market.ev.006"
+          ]
+        }
+      ],
+      "evidences": [
+        {
+          "evidence_id": "market.ev.001",
+          "source_type": "oecd",
+          "source": "OECD",
+          "metric": "경기선행지수",
+          "value": 98.01,
+          "unit": null,
+          "period": "최신",
+          "snippet": "OECD 경기선행지수 (최신): {\"G20\": 98.01, \"한국\": 98.01, \"미국\": 98.01, \"중국\": 98.01}"
+        },
+        {
+          "evidence_id": "market.ev.002",
+          "source_type": "static",
+          "source": "밸류체인 & 경쟁구조",
+          "metric": "시장 성장률",
+          "value": "+30%",
+          "unit": "%",
+          "period": "2025",
+          "snippet": "\"시장 성장률\": {\"반도체\": \"전체 +30% (2025)\\nAI 반도체 +40% 이상\"}"
+        },
+        {
+          "evidence_id": "market.ev.003",
+          "source_type": "dart",
+          "source": "DART",
+          "metric": "direct_flag",
+          "value": "Y",
+          "unit": null,
+          "period": null,
+          "snippet": "{\"vc_role\": \"장비\", \"direct_flag\": \"Y\", \"platform_flag\": \"N\", \"domestic_peers\": null, \"global_peers\": null, \"competition_intensity\": \"높음\", \"differentiation\": \"에스티아이의 반도체 제조용 기계 및 장비는 고도의 기술력이 집약된 제품으로 차별화된 기능을 제공하여 시장에서 경쟁력을 가지고 있습니다.\", \"confidence\": \"high\", \"evidence_summary\": \"사업 개요에서 '반도체 제조용 기계제조업'과 관련된 주요 제품들을 명시하고 있어 직접 제품 매출이 있음.\", \"company_name\": \"에스티아이\", \"rcept_no\": \"20241114000476\", \"updated_at\": \"2026-05-20T12:50:17.009296\"}"
+        },
+        {
+          "evidence_id": "market.ev.004",
+          "source_type": "static",
+          "source": "밸류체인 & 경쟁구조",
+          "metric": "policies",
+          "value": "R&D 지원 확대",
+          "unit": null,
+          "period": null,
+          "snippet": "\"policy\": {\"policies\": [\"세액공제 직접환급 및 이월공제기간 연장 검토\", \"국민성장펀드 금융 지원 강화\", \"R&D 지원 확대\", \"으뜸효율 환급사업\"], \"trends\": [\"반도체 올해 전세계 시장 약 30% 증가 예상\", \"바이오 2024년 163억불 최대 수출 달성\", \"배터리 전기차 성장 둔화, 중국 점유율 확대\", \"중전기기 장기 호황, 수출 호조세\", \"ESS 시장 중장기 수요 확대 기대\"]}"
+        },
+        {
+          "evidence_id": "market.ev.005",
+          "source_type": "stock",
+          "source": "public_data",
+          "metric": "change_rate",
+          "value": -6.61,
+          "unit": "%",
+          "period": "20260519",
+          "snippet": "{\"provider\": \"public_data\", \"company\": \"에스티아이\", \"ticker\": \"039440.KQ\", \"krx_code\": \"039440\", \"current_price\": 26850, \"currency\": \"KRW\", \"as_of\": \"20260519\", \"change\": -1900, \"change_rate\": -6.61, \"warning_stock\": \"\", \"raw\": {\"basDt\": \"20260519\", \"srtnCd\": \"039440\", \"isinCd\": \"KR7039440003\", \"itmsNm\": \"에스티아이\", \"mrktCtg\": \"KOSDAQ\", \"clpr\": \"26850\", \"vs\": \"-1900\", \"fltRt\": \"-6.61\", \"mkp\": \"28250\", \"hipr\": \"28600\", \"lopr\": \"26250\", \"trqu\": \"208568\", \"trPrc\": \"5634516100\", \"lstgStCnt\": \"15507047\", \"mrktTotAmt\": \"416364211950\"}}"
+        },
+        {
+          "evidence_id": "market.ev.006",
+          "source_type": "news",
+          "source": "Naver News",
+          "metric": "title",
+          "value": "\"적자 내도 보상 달라\"…끝내 삼성 협상 깨뜨린 마지막 요구",
+          "unit": null,
+          "period": "Wed, 20 May 2026",
+          "snippet": "\"적자 내도 보상 달라\"…끝내 삼성 협상 깨뜨린 마지막 요구"
+        }
+      ],
+      "risks": [
+        {
+          "risk": "삼성전자 파업으로 인한 생산 차질 및 공급망 불안정",
+          "severity": "중",
+          "basis": "삼성전자 노사 협상 결렬 및 총파업 돌입 예고"
+        },
+        {
+          "risk": "환율 변동성 확대",
+          "severity": "중",
+          "basis": "환율 이틀째 1500원대 진입 및 코스피 급락"
+        },
+        {
+          "risk": "반도체 업황 피크아웃 가능성",
+          "severity": "중",
+          "basis": "글로벌 반도체 피크아웃 가능성 및 메모리 업황 피크아웃 논란"
+        }
+      ],
+      "opportunities": [
+        {
+          "opportunity": "AI·HBM 등 고성장 반도체 세그먼트 수요 증가",
+          "basis": "AI 반도체 시장의 높은 성장률 전망 및 HBM 공급 부족 지속"
+        },
+        {
+          "opportunity": "정부의 반도체 산업 육성 정책 수혜",
+          "basis": "R&D 지원 확대, 세액공제 등 정책적 지원 및 반도체 장비 국산화 기회"
+        }
+      ],
+      "summary": "에스티아이는 AI·HBM 등 성장하는 반도체 세그먼트와 정부 정책 수혜로 긍정적인 산업 환경을 가지고 있습니다. 그러나 삼성전자 파업, 환율 변동성 등 단기적인 시장 모멘텀 약화 요인이 존재하여 '보유' 의견을 제시합니다.",
+      "raw_payload": {
+        "stock_used": true,
+        "oecd_used": true,
+        "static_used": true,
+        "news_used": true,
+        "dart_used": true
+      }
+    },
+    "original_opportunities": [
+      {
+        "opportunity": "AI·HBM 등 고성장 반도체 세그먼트 수요 증가",
+        "basis": "AI 반도체 시장의 높은 성장률 전망 및 HBM 공급 부족 지속"
+      },
+      {
+        "opportunity": "정부의 반도체 산업 육성 정책 수혜",
+        "basis": "R&D 지원 확대, 세액공제 등 정책적 지원 및 반도체 장비 국산화 기회"
+      }
+    ],
+    "original_risks": [
+      {
+        "risk": "삼성전자 파업으로 인한 생산 차질 및 공급망 불안정",
+        "severity": "중",
+        "basis": "삼성전자 노사 협상 결렬 및 총파업 돌입 예고"
+      },
+      {
+        "risk": "환율 변동성 확대",
+        "severity": "중",
+        "basis": "환율 이틀째 1500원대 진입 및 코스피 급락"
+      },
+      {
+        "risk": "반도체 업황 피크아웃 가능성",
+        "severity": "중",
+        "basis": "글로벌 반도체 피크아웃 가능성 및 메모리 업황 피크아웃 논란"
+      }
+    ],
+    "removed_bad_evidence_ids": [
+      "market.ev.unverified"
+    ]
+  },
+  "total_score": 69,
+  "scoring": {
+    "거시환경": {
+      "score": 12,
+      "max": 20,
+      "reason": "OECD 경기선행지수 하회는 부정적이나, 반도체 산업 자체의 회복 모멘텀이 이를 일부 상쇄합니다."
+    },
+    "산업매력도": {
+      "score": 18,
+      "max": 20,
+      "reason": "AI·HBM 등 특정 반도체 세그먼트의 높은 성장률과 수요 증가가 산업 매력도를 높입니다."
+    },
+    "경쟁위치": {
+      "score": 14,
+      "max": 20,
+      "reason": "높은 기술 진입장벽과 경쟁 심화 속에서 에스티아이의 차별화된 기술력이 경쟁력의 기반이 될 수 있습니다."
+    },
+    "정책수혜": {
+      "score": 17,
+      "max": 20,
+      "reason": "정부의 R&D 지원 확대, 세액공제 등 정책적 지원과 반도체 장비 국산화 기회는 긍정적입니다."
+    },
+    "시장모멘텀": {
+      "score": 8,
+      "max": 20,
+      "reason": "최근 주가 하락세와 삼성전자 파업 이슈 등 부정적인 뉴스 흐름이 시장 모멘텀을 약화시키고 있습니다."
+    }
+  },
+  "packet_version": "grounded_agent_v3",
+  "pre_sanitize_grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 6,
+    "supported_count": 6,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "에스티아이 마켓 분석 total_score 값은 69점입니다.",
+      "에스티아이 stock_data.current_price 값은 26850입니다.",
+      "에스티아이 stock_data.change 값은 -1900입니다.",
+      "에스티아이 stock_data.change_rate 값은 -6.61%입니다.",
+      "에스티아이 stock_data.raw.clpr 값은 26850입니다.",
+      "에스티아이 stock_data.raw.vs 값은 -1900입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "market.cl.001",
+        "text": "에스티아이 마켓 분석 total_score 값은 69점입니다.",
+        "evidence_ids": [
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "에스티아이 stock_data.current_price 값은 26850입니다.",
+        "evidence_ids": [
+          "market.ev.006"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {
+          "price": [
+            "market.ev.006"
+          ]
+        },
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.003",
+        "text": "에스티아이 stock_data.change 값은 -1900입니다.",
+        "evidence_ids": [
+          "market.ev.009"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.004",
+        "text": "에스티아이 stock_data.change_rate 값은 -6.61%입니다.",
+        "evidence_ids": [
+          "market.ev.010"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.005",
+        "text": "에스티아이 stock_data.raw.clpr 값은 26850입니다.",
+        "evidence_ids": [
+          "market.ev.016"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.006",
+        "text": "에스티아이 stock_data.raw.vs 값은 -1900입니다.",
+        "evidence_ids": [
+          "market.ev.017"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  },
+  "post_atomic_grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 9,
+    "supported_count": 9,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "에스티아이 마켓 분석 total_score 값은 69점입니다.",
+      "에스티아이 stock_data.current_price 값은 26850입니다.",
+      "에스티아이 stock_data.change 값은 -1900입니다.",
+      "에스티아이 stock_data.change_rate 값은 -6.61%입니다.",
+      "에스티아이 stock_data.raw.clpr 값은 26850입니다.",
+      "에스티아이 stock_data.raw.vs 값은 -1900입니다.",
+      "stock_data.raw.fltRt 값은 -6.61%입니다.",
+      "stock_data.raw.mkp 값은 28,250입니다.",
+      "stock_data.raw.hipr 값은 28,600입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "market.cl.001",
+        "text": "에스티아이 마켓 분석 total_score 값은 69점입니다.",
+        "evidence_ids": [
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "에스티아이 stock_data.current_price 값은 26850입니다.",
+        "evidence_ids": [
+          "market.ev.006"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {
+          "price": [
+            "market.ev.006"
+          ]
+        },
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.003",
+        "text": "에스티아이 stock_data.change 값은 -1900입니다.",
+        "evidence_ids": [
+          "market.ev.009"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.004",
+        "text": "에스티아이 stock_data.change_rate 값은 -6.61%입니다.",
+        "evidence_ids": [
+          "market.ev.010"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.005",
+        "text": "에스티아이 stock_data.raw.clpr 값은 26850입니다.",
+        "evidence_ids": [
+          "market.ev.016"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.006",
+        "text": "에스티아이 stock_data.raw.vs 값은 -1900입니다.",
+        "evidence_ids": [
+          "market.ev.017"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.007",
+        "text": "stock_data.raw.fltRt 값은 -6.61%입니다.",
+        "evidence_ids": [
+          "market.ev.018"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.009",
+        "text": "stock_data.raw.mkp 값은 28,250입니다.",
+        "evidence_ids": [
+          "market.ev.019"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.011",
+        "text": "stock_data.raw.hipr 값은 28,600입니다.",
+        "evidence_ids": [
+          "market.ev.020"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  },
+  "grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 9,
+    "supported_count": 9,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "에스티아이 마켓 분석 total_score 값은 69점입니다.",
+      "에스티아이 stock_data.current_price 값은 26850입니다.",
+      "에스티아이 stock_data.change 값은 -1900입니다.",
+      "에스티아이 stock_data.change_rate 값은 -6.61%입니다.",
+      "에스티아이 stock_data.raw.clpr 값은 26850입니다.",
+      "에스티아이 stock_data.raw.vs 값은 -1900입니다.",
+      "stock_data.raw.fltRt 값은 -6.61%입니다.",
+      "stock_data.raw.mkp 값은 28,250입니다.",
+      "stock_data.raw.hipr 값은 28,600입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "market.cl.001",
+        "text": "에스티아이 마켓 분석 total_score 값은 69점입니다.",
+        "evidence_ids": [
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "에스티아이 stock_data.current_price 값은 26850입니다.",
+        "evidence_ids": [
+          "market.ev.006"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {
+          "price": [
+            "market.ev.006"
+          ]
+        },
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.003",
+        "text": "에스티아이 stock_data.change 값은 -1900입니다.",
+        "evidence_ids": [
+          "market.ev.009"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.004",
+        "text": "에스티아이 stock_data.change_rate 값은 -6.61%입니다.",
+        "evidence_ids": [
+          "market.ev.010"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.005",
+        "text": "에스티아이 stock_data.raw.clpr 값은 26850입니다.",
+        "evidence_ids": [
+          "market.ev.016"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.006",
+        "text": "에스티아이 stock_data.raw.vs 값은 -1900입니다.",
+        "evidence_ids": [
+          "market.ev.017"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.007",
+        "text": "stock_data.raw.fltRt 값은 -6.61%입니다.",
+        "evidence_ids": [
+          "market.ev.018"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.009",
+        "text": "stock_data.raw.mkp 값은 28,250입니다.",
+        "evidence_ids": [
+          "market.ev.019"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.011",
+        "text": "stock_data.raw.hipr 값은 28,600입니다.",
+        "evidence_ids": [
+          "market.ev.020"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  }
+}

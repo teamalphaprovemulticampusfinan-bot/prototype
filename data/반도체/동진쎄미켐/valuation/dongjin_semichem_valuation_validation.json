@@ -1,0 +1,53 @@
+{
+  "status": "FAIL",
+  "issues": [
+    {
+      "severity": "MEDIUM",
+      "code": "MISSING_REVENUE",
+      "message": "최근 연도 revenue 값이 없습니다."
+    },
+    {
+      "severity": "HIGH",
+      "code": "DCF_NOT_OK",
+      "message": "DCF 상태가 OK가 아닙니다: WARN_NO_REVENUE"
+    }
+  ],
+  "audit_trail": [
+    {
+      "step": "normalized_financials",
+      "status": "OK",
+      "rows": 5
+    },
+    {
+      "step": "price_history",
+      "status": "OK",
+      "rows": 1221
+    },
+    {
+      "step": "share_count",
+      "status": "OK",
+      "shares_outstanding": 51414494.0
+    },
+    {
+      "step": "reference_universe",
+      "status": "OK",
+      "rows": 208
+    },
+    {
+      "step": "market_cap",
+      "status": "OK",
+      "market_cap": 2791807024200.0
+    },
+    {
+      "step": "liquidity_proxy",
+      "status": "OK",
+      "avg_trading_value_20d": 56257479630.0
+    },
+    {
+      "step": "workbook_created",
+      "status": "OK",
+      "path": "C:\\Agent_6.8\\data\\반도체\\동진쎄미켐\\valuation\\dongjin_semichem_valuation_workbook.xlsx"
+    }
+  ],
+  "principle": "valuation_agent 자체 데이터/모델 일관성 검증; 기존 web-auditor 의존 없음"
+}

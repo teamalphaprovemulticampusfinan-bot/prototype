@@ -1,0 +1,83 @@
+{
+  "available": true,
+  "module": "tech_to_value_bridge_score",
+  "version": "v5_auditor_chair_visible_once",
+  "purpose": "딥테크 기업의 기술 경쟁력이 사업화·재무성과·가치평가로 연결되는지 Auditor 보조 지표로 평가",
+  "score": 64.0,
+  "raw_score_before_guardrail": 64.72,
+  "grade": "TECH_FINANCE_GAP",
+  "components": {
+    "technology_strength_score": 100,
+    "commercialization_evidence_score": 90,
+    "financial_conversion_score": 25.75,
+    "valuation_alignment_score": 40.0,
+    "credit_support_score": 28.0,
+    "evidence_quality_score": 77.75
+  },
+  "weights": {
+    "technology_strength_score": 0.25,
+    "commercialization_evidence_score": 0.2,
+    "financial_conversion_score": 0.2,
+    "valuation_alignment_score": 0.15,
+    "credit_support_score": 0.1,
+    "evidence_quality_score": 0.1
+  },
+  "signals": {
+    "valuation_signal": "EXPENSIVE",
+    "valuation_confidence": "HIGH",
+    "credit_risk_label": "HIGH_RISK",
+    "credit_confidence": "HIGH",
+    "market_volatility_pct": 4.0613,
+    "market_mdd_pct": -75.4886
+  },
+  "flags": [
+    "기술 점수 대비 재무 전환력 부족",
+    "신용위험 HIGH_RISK",
+    "Auditor human review 필요"
+  ],
+  "interpretation": "덕산테코피아은 기술 경쟁력 또는 상대가치 매력은 있으나, 현재 수익성·현금흐름·재무안정성 측면에서 기술과 투자 가치 사이의 간극이 남아 있는 구간입니다.",
+  "auditor_usage_rule": "공식 투자의견/목표주가가 아니라 기술 claim이 사업화·재무성과·가치평가로 연결되는지 점검하는 보조 검증 지표",
+  "debug": {
+    "technology_debug": {
+      "method": "text_regex_35",
+      "raw_35_score": 35.0
+    },
+    "commercialization_debug": {
+      "positive_commercialization_hits": [
+        "양산",
+        "고객사",
+        "고객",
+        "수주",
+        "공급",
+        "채택",
+        "계약",
+        "매출",
+        "레퍼런스",
+        "생산",
+        "인증",
+        "revenue",
+        "매출 전환",
+        "CAPA",
+        "특허"
+      ],
+      "negative_evidence_hits": [
+        "확인 제한",
+        "추정",
+        "제한적"
+      ],
+      "url_count": 115
+    },
+    "financial_debug": {
+      "operating_margin_pct": -38.39,
+      "current_ratio_pct": 35.58,
+      "debt_ratio_pct": 507.37,
+      "fcf": -51887522634.0,
+      "component_scores": {
+        "operating_margin_score": 25.0,
+        "current_ratio_score": 25.0,
+        "debt_ratio_score": 25.0,
+        "fcf_score": 30.0
+      }
+    }
+  }
+}

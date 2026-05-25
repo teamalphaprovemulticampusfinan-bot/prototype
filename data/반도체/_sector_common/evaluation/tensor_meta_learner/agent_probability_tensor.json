@@ -1,0 +1,3272 @@
+[
+  {
+    "company": "DB하이텍",
+    "slug": "dbhitek",
+    "company_folder": "DB하이텍",
+    "agents": {
+      "finance": {
+        "signal": 0.7078,
+        "recommendation": "매수",
+        "fixed_weight": 0.25,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8631,
+        "raw_probability": {
+          "buy": 0.7224836287841563,
+          "hold": 0.234931682851114,
+          "sell": 0.04258468836472972
+        },
+        "calibrated_probability": {
+          "buy": 0.6692089533369385,
+          "hold": 0.2484028688021298,
+          "sell": 0.08238817786093156
+        }
+      },
+      "valuation": {
+        "signal": -0.1569,
+        "recommendation": "보유",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9428,
+        "raw_probability": {
+          "buy": 0.1652027087702138,
+          "hold": 0.5253544921461528,
+          "sell": 0.3094427990836335
+        },
+        "calibrated_probability": {
+          "buy": 0.17481978049522426,
+          "hold": 0.5143708818620596,
+          "sell": 0.3108093376427163
+        }
+      },
+      "tech": {
+        "signal": -0.4993,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9402,
+        "raw_probability": {
+          "buy": 0.07783949527805561,
+          "hold": 0.348608303986536,
+          "sell": 0.5735522007354085
+        },
+        "calibrated_probability": {
+          "buy": 0.0931180267937612,
+          "hold": 0.34769486074147443,
+          "sell": 0.5591871124647644
+        }
+      },
+      "market": {
+        "signal": 0.12,
+        "recommendation": "보유",
+        "fixed_weight": 0.15,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.68,
+        "raw_probability": {
+          "buy": 0.2844736335239807,
+          "hold": 0.5394988066446333,
+          "sell": 0.17602755983138585
+        },
+        "calibrated_probability": {
+          "buy": 0.3001087374629735,
+          "hold": 0.47352585518501733,
+          "sell": 0.22636540735200905
+        }
+      },
+      "issue": {
+        "signal": 0.4286,
+        "recommendation": "매수",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8806,
+        "raw_probability": {
+          "buy": 0.517736456358932,
+          "hold": 0.38903384356383663,
+          "sell": 0.09322970007723133
+        },
+        "calibrated_probability": {
+          "buy": 0.4957187234696755,
+          "hold": 0.38238320264231457,
+          "sell": 0.12189807388800988
+        }
+      },
+      "macro": {
+        "signal": 0.0,
+        "recommendation": "보유",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.845,
+        "raw_probability": {
+          "buy": 0.21194155761708544,
+          "hold": 0.5761168847658291,
+          "sell": 0.21194155761708544
+        },
+        "calibrated_probability": {
+          "buy": 0.23075728285310385,
+          "hold": 0.5384854342937923,
+          "sell": 0.23075728285310385
+        }
+      }
+    }
+  },
+  {
+    "company": "GST",
+    "slug": "gst",
+    "company_folder": "GST",
+    "agents": {
+      "finance": {
+        "signal": 0.7531,
+        "recommendation": "매수",
+        "fixed_weight": 0.25,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8631,
+        "raw_probability": {
+          "buy": 0.750172816707288,
+          "hold": 0.21293854485332112,
+          "sell": 0.03688863843939101
+        },
+        "calibrated_probability": {
+          "buy": 0.6931074914333936,
+          "hold": 0.22942059139623477,
+          "sell": 0.07747191717037172
+        }
+      },
+      "valuation": {
+        "signal": -0.1591,
+        "recommendation": "보유",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9428,
+        "raw_probability": {
+          "buy": 0.16456220540636665,
+          "hold": 0.5244702193452486,
+          "sell": 0.3109675752483847
+        },
+        "calibrated_probability": {
+          "buy": 0.17421591392378916,
+          "hold": 0.5135371894653671,
+          "sell": 0.31224689661084376
+        }
+      },
+      "tech": {
+        "signal": -0.4993,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9402,
+        "raw_probability": {
+          "buy": 0.07783949527805561,
+          "hold": 0.348608303986536,
+          "sell": 0.5735522007354085
+        },
+        "calibrated_probability": {
+          "buy": 0.0931180267937612,
+          "hold": 0.34769486074147443,
+          "sell": 0.5591871124647644
+        }
+      },
+      "market": {
+        "signal": 0.14,
+        "recommendation": "보유",
+        "fixed_weight": 0.15,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.7081,
+        "raw_probability": {
+          "buy": 0.2978630564499018,
+          "hold": 0.5319948659202032,
+          "sell": 0.17014207762989508
+        },
+        "calibrated_probability": {
+          "buy": 0.30821683027217545,
+          "hold": 0.47400556455809584,
+          "sell": 0.21777760516972872
+        }
+      },
+      "issue": {
+        "signal": 0.5385,
+        "recommendation": "매수",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8806,
+        "raw_probability": {
+          "buy": 0.6037226282718117,
+          "hold": 0.326233984489076,
+          "sell": 0.07004338723911242
+        },
+        "calibrated_probability": {
+          "buy": 0.5714381464561573,
+          "hold": 0.3270816467410803,
+          "sell": 0.10148020680276239
+        }
+      },
+      "macro": {
+        "signal": 0.0,
+        "recommendation": "보유",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.845,
+        "raw_probability": {
+          "buy": 0.21194155761708544,
+          "hold": 0.5761168847658291,
+          "sell": 0.21194155761708544
+        },
+        "calibrated_probability": {
+          "buy": 0.23075728285310385,
+          "hold": 0.5384854342937923,
+          "sell": 0.23075728285310385
+        }
+      }
+    }
+  },
+  {
+    "company": "ISC",
+    "slug": "isc",
+    "company_folder": "ISC",
+    "agents": {
+      "finance": {
+        "signal": 0.7991,
+        "recommendation": "매수",
+        "fixed_weight": 0.25,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8631,
+        "raw_probability": {
+          "buy": 0.7762933139604681,
+          "hold": 0.19194913799807087,
+          "sell": 0.03175754804146103
+        },
+        "calibrated_probability": {
+          "buy": 0.7156520926126133,
+          "hold": 0.2113046343394683,
+          "sell": 0.07304327304791836
+        }
+      },
+      "valuation": {
+        "signal": -0.2354,
+        "recommendation": "보유",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9428,
+        "raw_probability": {
+          "buy": 0.14277892419050936,
+          "hold": 0.491124396619967,
+          "sell": 0.3660966791895236
+        },
+        "calibrated_probability": {
+          "buy": 0.1536786363934789,
+          "hold": 0.4820987477999715,
+          "sell": 0.3642226158065495
+        }
+      },
+      "tech": {
+        "signal": -0.4993,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9402,
+        "raw_probability": {
+          "buy": 0.07783949527805561,
+          "hold": 0.348608303986536,
+          "sell": 0.5735522007354085
+        },
+        "calibrated_probability": {
+          "buy": 0.0931180267937612,
+          "hold": 0.34769486074147443,
+          "sell": 0.5591871124647644
+        }
+      },
+      "market": {
+        "signal": 0.21,
+        "recommendation": "보유",
+        "fixed_weight": 0.15,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.68,
+        "raw_probability": {
+          "buy": 0.34728913107977716,
+          "hold": 0.502782496360542,
+          "sell": 0.14992837255968086
+        },
+        "calibrated_probability": {
+          "buy": 0.34282327580091515,
+          "hold": 0.44855876419183516,
+          "sell": 0.20861796000724964
+        }
+      },
+      "issue": {
+        "signal": 0.8491,
+        "recommendation": "매수",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8806,
+        "raw_probability": {
+          "buy": 0.8023650847359144,
+          "hold": 0.1707607957898557,
+          "sell": 0.02687411947422983
+        },
+        "calibrated_probability": {
+          "buy": 0.7463626936184462,
+          "hold": 0.19017195677254692,
+          "sell": 0.06346534960900677
+        }
+      },
+      "macro": {
+        "signal": 0.0,
+        "recommendation": "보유",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.845,
+        "raw_probability": {
+          "buy": 0.21194155761708544,
+          "hold": 0.5761168847658291,
+          "sell": 0.21194155761708544
+        },
+        "calibrated_probability": {
+          "buy": 0.23075728285310385,
+          "hold": 0.5384854342937923,
+          "sell": 0.23075728285310385
+        }
+      }
+    }
+  },
+  {
+    "company": "LX세미콘",
+    "slug": "lxsemicon",
+    "company_folder": "LX세미콘",
+    "agents": {
+      "finance": {
+        "signal": 0.4383,
+        "recommendation": "매수",
+        "fixed_weight": 0.25,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8631,
+        "raw_probability": {
+          "buy": 0.5254638156041994,
+          "hold": 0.38351599614101,
+          "sell": 0.09102018825479057
+        },
+        "calibrated_probability": {
+          "buy": 0.4991611525813179,
+          "hold": 0.37664598960263906,
+          "sell": 0.12419285781604308
+        }
+      },
+      "valuation": {
+        "signal": 0.0372,
+        "recommendation": "보유",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9428,
+        "raw_probability": {
+          "buy": 0.23293853330030936,
+          "hold": 0.5663286781949687,
+          "sell": 0.20073278850472187
+        },
+        "calibrated_probability": {
+          "buy": 0.23868111586219834,
+          "hold": 0.5530013444688832,
+          "sell": 0.20831753966891844
+        }
+      },
+      "tech": {
+        "signal": -0.4993,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9402,
+        "raw_probability": {
+          "buy": 0.07783949527805561,
+          "hold": 0.348608303986536,
+          "sell": 0.5735522007354085
+        },
+        "calibrated_probability": {
+          "buy": 0.0931180267937612,
+          "hold": 0.34769486074147443,
+          "sell": 0.5591871124647644
+        }
+      },
+      "market": {
+        "signal": 0.15,
+        "recommendation": "보유",
+        "fixed_weight": 0.15,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.68,
+        "raw_probability": {
+          "buy": 0.30468625863083143,
+          "hold": 0.5280983772746143,
+          "sell": 0.16721536409455431
+        },
+        "calibrated_probability": {
+          "buy": 0.31385332253563203,
+          "hold": 0.46577356321340435,
+          "sell": 0.2203731142509636
+        }
+      },
+      "issue": {
+        "signal": 0.3793,
+        "recommendation": "매수",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8806,
+        "raw_probability": {
+          "buy": 0.4783519563478164,
+          "hold": 0.4167334346284912,
+          "sell": 0.10491460902369239
+        },
+        "calibrated_probability": {
+          "buy": 0.46103673275988716,
+          "hold": 0.4067754625338494,
+          "sell": 0.1321878047062635
+        }
+      },
+      "macro": {
+        "signal": 0.0,
+        "recommendation": "보유",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.845,
+        "raw_probability": {
+          "buy": 0.21194155761708544,
+          "hold": 0.5761168847658291,
+          "sell": 0.21194155761708544
+        },
+        "calibrated_probability": {
+          "buy": 0.23075728285310385,
+          "hold": 0.5384854342937923,
+          "sell": 0.23075728285310385
+        }
+      }
+    }
+  },
+  {
+    "company": "SFA반도체",
+    "slug": "sfa_semicon",
+    "company_folder": "SFA반도체",
+    "agents": {
+      "finance": {
+        "signal": -0.4338,
+        "recommendation": "매도",
+        "fixed_weight": 0.25,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8631,
+        "raw_probability": {
+          "buy": 0.09204145043222028,
+          "hold": 0.38607784640631426,
+          "sell": 0.5218807031614655
+        },
+        "calibrated_probability": {
+          "buy": 0.12507430920138266,
+          "hold": 0.3788571225666232,
+          "sell": 0.49606856823199424
+        }
+      },
+      "valuation": {
+        "signal": -0.2974,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9428,
+        "raw_probability": {
+          "buy": 0.125856840835781,
+          "hold": 0.4606069504031276,
+          "sell": 0.4135362087610914
+        },
+        "calibrated_probability": {
+          "buy": 0.137724496206641,
+          "hold": 0.4533268995067354,
+          "sell": 0.4089486042866236
+        }
+      },
+      "tech": {
+        "signal": -0.4993,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9402,
+        "raw_probability": {
+          "buy": 0.07783949527805561,
+          "hold": 0.348608303986536,
+          "sell": 0.5735522007354085
+        },
+        "calibrated_probability": {
+          "buy": 0.0931180267937612,
+          "hold": 0.34769486074147443,
+          "sell": 0.5591871124647644
+        }
+      },
+      "market": {
+        "signal": 0.21,
+        "recommendation": "보유",
+        "fixed_weight": 0.15,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.68,
+        "raw_probability": {
+          "buy": 0.34728913107977716,
+          "hold": 0.502782496360542,
+          "sell": 0.14992837255968086
+        },
+        "calibrated_probability": {
+          "buy": 0.34282327580091515,
+          "hold": 0.44855876419183516,
+          "sell": 0.20861796000724964
+        }
+      },
+      "issue": {
+        "signal": 0.6364,
+        "recommendation": "매수",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8806,
+        "raw_probability": {
+          "buy": 0.6750952969208939,
+          "hold": 0.2719596912909741,
+          "sell": 0.052945011788132094
+        },
+        "calibrated_probability": {
+          "buy": 0.6342889184685391,
+          "hold": 0.27928770415083176,
+          "sell": 0.08642337738062911
+        }
+      },
+      "macro": {
+        "signal": 0.0,
+        "recommendation": "보유",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.845,
+        "raw_probability": {
+          "buy": 0.21194155761708544,
+          "hold": 0.5761168847658291,
+          "sell": 0.21194155761708544
+        },
+        "calibrated_probability": {
+          "buy": 0.23075728285310385,
+          "hold": 0.5384854342937923,
+          "sell": 0.23075728285310385
+        }
+      }
+    }
+  },
+  {
+    "company": "가온칩스",
+    "slug": "gaochips",
+    "company_folder": "가온칩스",
+    "agents": {
+      "finance": {
+        "signal": -0.7481,
+        "recommendation": "매도",
+        "fixed_weight": 0.25,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8631,
+        "raw_probability": {
+          "buy": 0.03748527097213757,
+          "hold": 0.2153033753650321,
+          "sell": 0.7472113536628303
+        },
+        "calibrated_probability": {
+          "buy": 0.07798687070938529,
+          "hold": 0.23146167661089254,
+          "sell": 0.6905514526797222
+        }
+      },
+      "valuation": {
+        "signal": -0.3599,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9428,
+        "raw_probability": {
+          "buy": 0.10971153834807577,
+          "hold": 0.42741461724255303,
+          "sell": 0.4628738444093712
+        },
+        "calibrated_probability": {
+          "buy": 0.12250270502123252,
+          "hold": 0.42203316780294564,
+          "sell": 0.4554641271758218
+        }
+      },
+      "tech": {
+        "signal": -0.4993,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9402,
+        "raw_probability": {
+          "buy": 0.07783949527805561,
+          "hold": 0.348608303986536,
+          "sell": 0.5735522007354085
+        },
+        "calibrated_probability": {
+          "buy": 0.0931180267937612,
+          "hold": 0.34769486074147443,
+          "sell": 0.5591871124647644
+        }
+      },
+      "market": {
+        "signal": 0.2,
+        "recommendation": "보유",
+        "fixed_weight": 0.15,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.68,
+        "raw_probability": {
+          "buy": 0.34000263672116615,
+          "hold": 0.5072243307237884,
+          "sell": 0.15277303255504554
+        },
+        "calibrated_probability": {
+          "buy": 0.33786845963705964,
+          "hold": 0.45157921155884273,
+          "sell": 0.21055232880409763
+        }
+      },
+      "issue": {
+        "signal": 0.5652,
+        "recommendation": "매수",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8806,
+        "raw_probability": {
+          "buy": 0.6238139227506136,
+          "hold": 0.3111428474168393,
+          "sell": 0.06504322983254701
+        },
+        "calibrated_probability": {
+          "buy": 0.5891305403741903,
+          "hold": 0.3137923914352687,
+          "sell": 0.09707706819054088
+        }
+      },
+      "macro": {
+        "signal": 0.0,
+        "recommendation": "보유",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.845,
+        "raw_probability": {
+          "buy": 0.21194155761708544,
+          "hold": 0.5761168847658291,
+          "sell": 0.21194155761708544
+        },
+        "calibrated_probability": {
+          "buy": 0.23075728285310385,
+          "hold": 0.5384854342937923,
+          "sell": 0.23075728285310385
+        }
+      }
+    }
+  },
+  {
+    "company": "네패스",
+    "slug": "nepes",
+    "company_folder": "네패스",
+    "agents": {
+      "finance": {
+        "signal": -0.2121,
+        "recommendation": "보유",
+        "fixed_weight": 0.25,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8631,
+        "raw_probability": {
+          "buy": 0.14933306107623104,
+          "hold": 0.5018388843138076,
+          "sell": 0.34882805460996125
+        },
+        "calibrated_probability": {
+          "buy": 0.17452269834822834,
+          "hold": 0.4787704743845807,
+          "sell": 0.34670682726719093
+        }
+      },
+      "valuation": {
+        "signal": 0.2368,
+        "recommendation": "보유",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9428,
+        "raw_probability": {
+          "buy": 0.3671451444567803,
+          "hold": 0.490466637249661,
+          "sell": 0.1423882182935587
+        },
+        "calibrated_probability": {
+          "buy": 0.36521110886051916,
+          "hold": 0.48147861226564703,
+          "sell": 0.1533102788738338
+        }
+      },
+      "tech": {
+        "signal": 0.4238,
+        "recommendation": "매수",
+        "fixed_weight": 0.2,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.7881,
+        "raw_probability": {
+          "buy": 0.513907882956579,
+          "hold": 0.3917578946726109,
+          "sell": 0.09433422237081018
+        },
+        "calibrated_probability": {
+          "buy": 0.47564413589141324,
+          "hold": 0.379377730124818,
+          "sell": 0.14497813398376885
+        }
+      },
+      "market": {
+        "signal": 0.05,
+        "recommendation": "보유",
+        "fixed_weight": 0.15,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.68,
+        "raw_probability": {
+          "buy": 0.24047840167200127,
+          "hold": 0.5626345354280917,
+          "sell": 0.19688706289990698
+        },
+        "calibrated_probability": {
+          "buy": 0.2701919798036275,
+          "hold": 0.489258150757769,
+          "sell": 0.2405498694386034
+        }
+      },
+      "issue": {
+        "signal": 0.5833,
+        "recommendation": "매수",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8806,
+        "raw_probability": {
+          "buy": 0.6371867176394888,
+          "hold": 0.30101579333803263,
+          "sell": 0.061797489022478634
+        },
+        "calibrated_probability": {
+          "buy": 0.6009066235533338,
+          "hold": 0.30487450761347157,
+          "sell": 0.09421886883319466
+        }
+      },
+      "macro": {
+        "signal": -0.45,
+        "recommendation": "매도",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.955,
+        "raw_probability": {
+          "buy": 0.08839574294985479,
+          "hold": 0.3768411748486576,
+          "sell": 0.5347630822014876
+        },
+        "calibrated_probability": {
+          "buy": 0.09941793451711134,
+          "hold": 0.374883321980468,
+          "sell": 0.5256987435024206
+        }
+      }
+    }
+  },
+  {
+    "company": "넥스틴",
+    "slug": "nextin",
+    "company_folder": "넥스틴",
+    "agents": {
+      "finance": {
+        "signal": -0.4048,
+        "recommendation": "매도",
+        "fixed_weight": 0.25,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8631,
+        "raw_probability": {
+          "buy": 0.09877751780081354,
+          "hold": 0.40248990920106953,
+          "sell": 0.498732572998117
+        },
+        "calibrated_probability": {
+          "buy": 0.1308882089472155,
+          "hold": 0.39302237396477646,
+          "sell": 0.47608941708800817
+        }
+      },
+      "valuation": {
+        "signal": -0.387,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9428,
+        "raw_probability": {
+          "buy": 0.10304094211473724,
+          "hold": 0.41245470987666183,
+          "sell": 0.484504348008601
+        },
+        "calibrated_probability": {
+          "buy": 0.11621366689244095,
+          "hold": 0.40792896713838345,
+          "sell": 0.47585736596917566
+        }
+      },
+      "tech": {
+        "signal": -0.4993,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9402,
+        "raw_probability": {
+          "buy": 0.07783949527805561,
+          "hold": 0.348608303986536,
+          "sell": 0.5735522007354085
+        },
+        "calibrated_probability": {
+          "buy": 0.0931180267937612,
+          "hold": 0.34769486074147443,
+          "sell": 0.5591871124647644
+        }
+      },
+      "market": {
+        "signal": 0.26,
+        "recommendation": "매수",
+        "fixed_weight": 0.15,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.68,
+        "raw_probability": {
+          "buy": 0.3846847147811654,
+          "hold": 0.4793466717014537,
+          "sell": 0.13596861351738088
+        },
+        "calibrated_probability": {
+          "buy": 0.3682522727178591,
+          "hold": 0.43262240342365516,
+          "sell": 0.19912532385848564
+        }
+      },
+      "issue": {
+        "signal": 0.4286,
+        "recommendation": "매수",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8806,
+        "raw_probability": {
+          "buy": 0.517736456358932,
+          "hold": 0.38903384356383663,
+          "sell": 0.09322970007723133
+        },
+        "calibrated_probability": {
+          "buy": 0.4957187234696755,
+          "hold": 0.38238320264231457,
+          "sell": 0.12189807388800988
+        }
+      },
+      "macro": {
+        "signal": 0.0,
+        "recommendation": "보유",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.845,
+        "raw_probability": {
+          "buy": 0.21194155761708544,
+          "hold": 0.5761168847658291,
+          "sell": 0.21194155761708544
+        },
+        "calibrated_probability": {
+          "buy": 0.23075728285310385,
+          "hold": 0.5384854342937923,
+          "sell": 0.23075728285310385
+        }
+      }
+    }
+  },
+  {
+    "company": "덕산테코피아",
+    "slug": "duksan",
+    "company_folder": "덕산테코피아",
+    "agents": {
+      "finance": {
+        "signal": -0.646,
+        "recommendation": "매도",
+        "fixed_weight": 0.25,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8631,
+        "raw_probability": {
+          "buy": 0.05145031772949665,
+          "hold": 0.26683130380478415,
+          "sell": 0.6817183784657193
+        },
+        "calibrated_probability": {
+          "buy": 0.09004010256566189,
+          "hold": 0.27593543164724255,
+          "sell": 0.6340244657870956
+        }
+      },
+      "valuation": {
+        "signal": -0.4255,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9142,
+        "raw_probability": {
+          "buy": 0.09394219810566022,
+          "hold": 0.3907936531448642,
+          "sell": 0.5152641487494756
+        },
+        "calibrated_probability": {
+          "buy": 0.11448195750819457,
+          "hold": 0.3858635577050349,
+          "sell": 0.4996544847867706
+        }
+      },
+      "tech": {
+        "signal": 0.0017,
+        "recommendation": "보유",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8193,
+        "raw_probability": {
+          "buy": 0.21287117241829562,
+          "hold": 0.5757002686909929,
+          "sell": 0.2114285588907115
+        },
+        "calibrated_probability": {
+          "buy": 0.23463868489564293,
+          "hold": 0.5319045634718639,
+          "sell": 0.23345675163249324
+        }
+      },
+      "market": {
+        "signal": 0.03,
+        "recommendation": "보유",
+        "fixed_weight": 0.15,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.68,
+        "raw_probability": {
+          "buy": 0.22876788292019185,
+          "hold": 0.568333206453372,
+          "sell": 0.20289891062643609
+        },
+        "calibrated_probability": {
+          "buy": 0.2622288270523971,
+          "hold": 0.49313324705495964,
+          "sell": 0.24463792589264322
+        }
+      },
+      "issue": {
+        "signal": 0.661,
+        "recommendation": "매수",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8806,
+        "raw_probability": {
+          "buy": 0.6919154706357099,
+          "hold": 0.2589056723380819,
+          "sell": 0.0491788570262081
+        },
+        "calibrated_probability": {
+          "buy": 0.6491007634418061,
+          "hold": 0.26779233506091493,
+          "sell": 0.08310690149727884
+        }
+      },
+      "macro": {
+        "signal": -0.45,
+        "recommendation": "매도",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.955,
+        "raw_probability": {
+          "buy": 0.08839574294985479,
+          "hold": 0.3768411748486576,
+          "sell": 0.5347630822014876
+        },
+        "calibrated_probability": {
+          "buy": 0.09941793451711134,
+          "hold": 0.374883321980468,
+          "sell": 0.5256987435024206
+        }
+      }
+    }
+  },
+  {
+    "company": "동진쎄미켐",
+    "slug": "dongjin_semichem",
+    "company_folder": "동진쎄미켐",
+    "agents": {
+      "finance": {
+        "signal": 0.5086,
+        "recommendation": "매수",
+        "fixed_weight": 0.25,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8631,
+        "raw_probability": {
+          "buy": 0.5807736429286285,
+          "hold": 0.3432850260559348,
+          "sell": 0.0759413310154367
+        },
+        "calibrated_probability": {
+          "buy": 0.5468990645450326,
+          "hold": 0.3419226393222107,
+          "sell": 0.11117829613275676
+        }
+      },
+      "valuation": {
+        "signal": 0.3294,
+        "recommendation": "매수",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8609,
+        "raw_probability": {
+          "buy": 0.4386643896831275,
+          "hold": 0.4438712897746713,
+          "sell": 0.1174643205422013
+        },
+        "calibrated_probability": {
+          "buy": 0.42401283974487114,
+          "hold": 0.42849546003368116,
+          "sell": 0.14749170022144775
+        }
+      },
+      "tech": {
+        "signal": -0.4993,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9402,
+        "raw_probability": {
+          "buy": 0.07783949527805561,
+          "hold": 0.348608303986536,
+          "sell": 0.5735522007354085
+        },
+        "calibrated_probability": {
+          "buy": 0.0931180267937612,
+          "hold": 0.34769486074147443,
+          "sell": 0.5591871124647644
+        }
+      },
+      "market": {
+        "signal": 0.1,
+        "recommendation": "보유",
+        "fixed_weight": 0.15,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.6256,
+        "raw_probability": {
+          "buy": 0.2714387220090332,
+          "hold": 0.5466104613580166,
+          "sell": 0.1819508166329502
+        },
+        "calibrated_probability": {
+          "buy": 0.29461206448885113,
+          "hold": 0.4667595046255752,
+          "sell": 0.23862843088557364
+        }
+      },
+      "issue": {
+        "signal": 0.8919,
+        "recommendation": "매수",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8806,
+        "raw_probability": {
+          "buy": 0.8227739765498165,
+          "hold": 0.15400445481440955,
+          "sell": 0.023221568635773893
+        },
+        "calibrated_probability": {
+          "buy": 0.7643347637497684,
+          "hold": 0.17541632290956904,
+          "sell": 0.06024891334066247
+        }
+      },
+      "macro": {
+        "signal": 0.0,
+        "recommendation": "보유",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.845,
+        "raw_probability": {
+          "buy": 0.21194155761708544,
+          "hold": 0.5761168847658291,
+          "sell": 0.21194155761708544
+        },
+        "calibrated_probability": {
+          "buy": 0.23075728285310385,
+          "hold": 0.5384854342937923,
+          "sell": 0.23075728285310385
+        }
+      }
+    }
+  },
+  {
+    "company": "두산테스나",
+    "slug": "doosan_tesna",
+    "company_folder": "두산테스나",
+    "agents": {
+      "finance": {
+        "signal": -0.043,
+        "recommendation": "보유",
+        "fixed_weight": 0.25,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8631,
+        "raw_probability": {
+          "buy": 0.1989893235616694,
+          "hold": 0.5646754677979063,
+          "sell": 0.23633520864042432
+        },
+        "calibrated_probability": {
+          "buy": 0.2173810184994102,
+          "hold": 0.5330047295897062,
+          "sell": 0.24961425191088354
+        }
+      },
+      "valuation": {
+        "signal": -0.3318,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9428,
+        "raw_probability": {
+          "buy": 0.11684527112886381,
+          "hold": 0.44259299058288315,
+          "sell": 0.4405617382882531
+        },
+        "calibrated_probability": {
+          "buy": 0.12922838828695948,
+          "hold": 0.4363433381882089,
+          "sell": 0.4344282735248317
+        }
+      },
+      "tech": {
+        "signal": -0.4993,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9402,
+        "raw_probability": {
+          "buy": 0.07783949527805561,
+          "hold": 0.348608303986536,
+          "sell": 0.5735522007354085
+        },
+        "calibrated_probability": {
+          "buy": 0.0931180267937612,
+          "hold": 0.34769486074147443,
+          "sell": 0.5591871124647644
+        }
+      },
+      "market": {
+        "signal": 0.19,
+        "recommendation": "보유",
+        "fixed_weight": 0.15,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.7081,
+        "raw_probability": {
+          "buy": 0.33278712421798273,
+          "hold": 0.5115795104440904,
+          "sell": 0.15563336533792682
+        },
+        "calibrated_probability": {
+          "buy": 0.33294656265875355,
+          "hold": 0.45954945134546044,
+          "sell": 0.20750398599578598
+        }
+      },
+      "issue": {
+        "signal": 0.7895,
+        "recommendation": "매수",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8525,
+        "raw_probability": {
+          "buy": 0.7710105679641766,
+          "hold": 0.19621325045455823,
+          "sell": 0.03277618158126529
+        },
+        "calibrated_probability": {
+          "buy": 0.7064531758561272,
+          "hold": 0.21643846267917755,
+          "sell": 0.07710836146469531
+        }
+      },
+      "macro": {
+        "signal": 0.0,
+        "recommendation": "보유",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.845,
+        "raw_probability": {
+          "buy": 0.21194155761708544,
+          "hold": 0.5761168847658291,
+          "sell": 0.21194155761708544
+        },
+        "calibrated_probability": {
+          "buy": 0.23075728285310385,
+          "hold": 0.5384854342937923,
+          "sell": 0.23075728285310385
+        }
+      }
+    }
+  },
+  {
+    "company": "리노공업",
+    "slug": "leeno",
+    "company_folder": "리노공업",
+    "agents": {
+      "finance": {
+        "signal": 0.5746,
+        "recommendation": "매수",
+        "fixed_weight": 0.25,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8631,
+        "raw_probability": {
+          "buy": 0.6307852892417436,
+          "hold": 0.305871639142847,
+          "sell": 0.06334307161540942
+        },
+        "calibrated_probability": {
+          "buy": 0.5900641164778822,
+          "hold": 0.3096311450775246,
+          "sell": 0.1003047384445932
+        }
+      },
+      "valuation": {
+        "signal": -0.1732,
+        "recommendation": "보유",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8609,
+        "raw_probability": {
+          "buy": 0.16047177962252882,
+          "hold": 0.5186960671569012,
+          "sell": 0.32083215322057007
+        },
+        "calibrated_probability": {
+          "buy": 0.18451682174370174,
+          "hold": 0.4929121108820429,
+          "sell": 0.32257106737425545
+        }
+      },
+      "tech": {
+        "signal": -0.4993,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9402,
+        "raw_probability": {
+          "buy": 0.07783949527805561,
+          "hold": 0.348608303986536,
+          "sell": 0.5735522007354085
+        },
+        "calibrated_probability": {
+          "buy": 0.0931180267937612,
+          "hold": 0.34769486074147443,
+          "sell": 0.5591871124647644
+        }
+      },
+      "market": {
+        "signal": 0.23,
+        "recommendation": "보유",
+        "fixed_weight": 0.15,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.68,
+        "raw_probability": {
+          "buy": 0.3620638013665934,
+          "hold": 0.49364687970137777,
+          "sell": 0.14428931893202881
+        },
+        "calibrated_probability": {
+          "buy": 0.35287005159595014,
+          "hold": 0.44234654486360353,
+          "sell": 0.20478340354044625
+        }
+      },
+      "issue": {
+        "signal": 0.6667,
+        "recommendation": "매수",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8806,
+        "raw_probability": {
+          "buy": 0.6957408209992098,
+          "hold": 0.2559231508346079,
+          "sell": 0.04833602816618232
+        },
+        "calibrated_probability": {
+          "buy": 0.652469366971904,
+          "hold": 0.26516592662495575,
+          "sell": 0.08236470640314014
+        }
+      },
+      "macro": {
+        "signal": 0.0,
+        "recommendation": "보유",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.845,
+        "raw_probability": {
+          "buy": 0.21194155761708544,
+          "hold": 0.5761168847658291,
+          "sell": 0.21194155761708544
+        },
+        "calibrated_probability": {
+          "buy": 0.23075728285310385,
+          "hold": 0.5384854342937923,
+          "sell": 0.23075728285310385
+        }
+      }
+    }
+  },
+  {
+    "company": "미코",
+    "slug": "mico",
+    "company_folder": "미코",
+    "agents": {
+      "finance": {
+        "signal": 0.0794,
+        "recommendation": "보유",
+        "fixed_weight": 0.25,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8631,
+        "raw_probability": {
+          "buy": 0.2583964324128495,
+          "hold": 0.5535183838184787,
+          "sell": 0.18808518376867167
+        },
+        "calibrated_probability": {
+          "buy": 0.26865529414886374,
+          "hold": 0.5233750504070623,
+          "sell": 0.20796965544407384
+        }
+      },
+      "valuation": {
+        "signal": 0.7377,
+        "recommendation": "매수",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9428,
+        "raw_probability": {
+          "buy": 0.7409755750285903,
+          "hold": 0.22027299480733895,
+          "sell": 0.03875143016407066
+        },
+        "calibrated_probability": {
+          "buy": 0.7176584388036217,
+          "hold": 0.22674004617102583,
+          "sell": 0.055601515025352495
+        }
+      },
+      "tech": {
+        "signal": -0.4993,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9402,
+        "raw_probability": {
+          "buy": 0.07783949527805561,
+          "hold": 0.348608303986536,
+          "sell": 0.5735522007354085
+        },
+        "calibrated_probability": {
+          "buy": 0.0931180267937612,
+          "hold": 0.34769486074147443,
+          "sell": 0.5591871124647644
+        }
+      },
+      "market": {
+        "signal": 0.1,
+        "recommendation": "보유",
+        "fixed_weight": 0.15,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.68,
+        "raw_probability": {
+          "buy": 0.2714387220090332,
+          "hold": 0.5466104613580166,
+          "sell": 0.1819508166329502
+        },
+        "calibrated_probability": {
+          "buy": 0.2912449976328092,
+          "hold": 0.47836178039011795,
+          "sell": 0.2303932219770728
+        }
+      },
+      "issue": {
+        "signal": 0.1515,
+        "recommendation": "보유",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8806,
+        "raw_probability": {
+          "buy": 0.30571695032115875,
+          "hold": 0.5275057020822475,
+          "sell": 0.16677734759659377
+        },
+        "calibrated_probability": {
+          "buy": 0.3090143464528124,
+          "hold": 0.5043215212536271,
+          "sell": 0.18666413229356046
+        }
+      },
+      "macro": {
+        "signal": 0.0,
+        "recommendation": "보유",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.845,
+        "raw_probability": {
+          "buy": 0.21194155761708544,
+          "hold": 0.5761168847658291,
+          "sell": 0.21194155761708544
+        },
+        "calibrated_probability": {
+          "buy": 0.23075728285310385,
+          "hold": 0.5384854342937923,
+          "sell": 0.23075728285310385
+        }
+      }
+    }
+  },
+  {
+    "company": "솔브레인",
+    "slug": "soulbrain",
+    "company_folder": "솔브레인",
+    "agents": {
+      "finance": {
+        "signal": 0.6534,
+        "recommendation": "매수",
+        "fixed_weight": 0.25,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8631,
+        "raw_probability": {
+          "buy": 0.6867723340508388,
+          "hold": 0.2629076542032451,
+          "sell": 0.050320011745916035
+        },
+        "calibrated_probability": {
+          "buy": 0.6383865348526123,
+          "hold": 0.2725489296761542,
+          "sell": 0.08906453547123347
+        }
+      },
+      "valuation": {
+        "signal": -0.265,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9428,
+        "raw_probability": {
+          "buy": 0.1345992169777051,
+          "hold": 0.47689750795966374,
+          "sell": 0.38850327506263127
+        },
+        "calibrated_probability": {
+          "buy": 0.14596680843324705,
+          "hold": 0.4686856371710376,
+          "sell": 0.38534755439571544
+        }
+      },
+      "tech": {
+        "signal": -0.4993,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9402,
+        "raw_probability": {
+          "buy": 0.07783949527805561,
+          "hold": 0.348608303986536,
+          "sell": 0.5735522007354085
+        },
+        "calibrated_probability": {
+          "buy": 0.0931180267937612,
+          "hold": 0.34769486074147443,
+          "sell": 0.5591871124647644
+        }
+      },
+      "market": {
+        "signal": 0.21,
+        "recommendation": "보유",
+        "fixed_weight": 0.15,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.68,
+        "raw_probability": {
+          "buy": 0.34728913107977716,
+          "hold": 0.502782496360542,
+          "sell": 0.14992837255968086
+        },
+        "calibrated_probability": {
+          "buy": 0.34282327580091515,
+          "hold": 0.44855876419183516,
+          "sell": 0.20861796000724964
+        }
+      },
+      "issue": {
+        "signal": 0.68,
+        "recommendation": "매수",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8806,
+        "raw_probability": {
+          "buy": 0.7045580640861281,
+          "hold": 0.24902934646305627,
+          "sell": 0.04641258945081556
+        },
+        "calibrated_probability": {
+          "buy": 0.6602338312342444,
+          "hold": 0.25909524249536736,
+          "sell": 0.08067092627038816
+        }
+      },
+      "macro": {
+        "signal": 0.0,
+        "recommendation": "보유",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.845,
+        "raw_probability": {
+          "buy": 0.21194155761708544,
+          "hold": 0.5761168847658291,
+          "sell": 0.21194155761708544
+        },
+        "calibrated_probability": {
+          "buy": 0.23075728285310385,
+          "hold": 0.5384854342937923,
+          "sell": 0.23075728285310385
+        }
+      }
+    }
+  },
+  {
+    "company": "어보브반도체",
+    "slug": "abov",
+    "company_folder": "어보브반도체",
+    "agents": {
+      "finance": {
+        "signal": 0.2125,
+        "recommendation": "보유",
+        "fixed_weight": 0.25,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8631,
+        "raw_probability": {
+          "buy": 0.3491215217395023,
+          "hold": 0.5016587268043724,
+          "sell": 0.1492197514561253
+        },
+        "calibrated_probability": {
+          "buy": 0.3469601187466978,
+          "hold": 0.4786149804381872,
+          "sell": 0.17442490081511505
+        }
+      },
+      "valuation": {
+        "signal": -0.1902,
+        "recommendation": "보유",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8609,
+        "raw_probability": {
+          "buy": 0.1555760103197335,
+          "hold": 0.5114932682661079,
+          "sell": 0.33293072141415864
+        },
+        "calibrated_probability": {
+          "buy": 0.18030205395092525,
+          "hold": 0.48671122131695893,
+          "sell": 0.3329867247321158
+        }
+      },
+      "tech": {
+        "signal": -0.4993,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9402,
+        "raw_probability": {
+          "buy": 0.07783949527805561,
+          "hold": 0.348608303986536,
+          "sell": 0.5735522007354085
+        },
+        "calibrated_probability": {
+          "buy": 0.0931180267937612,
+          "hold": 0.34769486074147443,
+          "sell": 0.5591871124647644
+        }
+      },
+      "market": {
+        "signal": 0.01,
+        "recommendation": "보유",
+        "fixed_weight": 0.15,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.7081,
+        "raw_probability": {
+          "buy": 0.2174511554853758,
+          "hold": 0.5736240707928054,
+          "sell": 0.20892477372181883
+        },
+        "calibrated_probability": {
+          "buy": 0.25127716319919463,
+          "hold": 0.5034832045283855,
+          "sell": 0.2452396322724199
+        }
+      },
+      "issue": {
+        "signal": 0.0588,
+        "recommendation": "보유",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8806,
+        "raw_probability": {
+          "buy": 0.2457545219011067,
+          "hold": 0.5599979703061995,
+          "sell": 0.1942475077926939
+        },
+        "calibrated_probability": {
+          "buy": 0.25621143198611457,
+          "hold": 0.5329342126516392,
+          "sell": 0.21085435536224623
+        }
+      },
+      "macro": {
+        "signal": 0.0,
+        "recommendation": "보유",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.845,
+        "raw_probability": {
+          "buy": 0.21194155761708544,
+          "hold": 0.5761168847658291,
+          "sell": 0.21194155761708544
+        },
+        "calibrated_probability": {
+          "buy": 0.23075728285310385,
+          "hold": 0.5384854342937923,
+          "sell": 0.23075728285310385
+        }
+      }
+    }
+  },
+  {
+    "company": "에스티아이",
+    "slug": "sti",
+    "company_folder": "에스티아이",
+    "agents": {
+      "finance": {
+        "signal": 0.3772,
+        "recommendation": "매수",
+        "fixed_weight": 0.25,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8631,
+        "raw_probability": {
+          "buy": 0.4766746799138672,
+          "hold": 0.4178966885730114,
+          "sell": 0.10542863151312147
+        },
+        "calibrated_probability": {
+          "buy": 0.4570512495669921,
+          "hold": 0.40631996524069947,
+          "sell": 0.13662878519230848
+        }
+      },
+      "valuation": {
+        "signal": -0.2676,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9428,
+        "raw_probability": {
+          "buy": 0.13388919398960386,
+          "hold": 0.4756168282289025,
+          "sell": 0.3904939777814936
+        },
+        "calibrated_probability": {
+          "buy": 0.1452973987600652,
+          "hold": 0.46747821232087594,
+          "sell": 0.3872243889190588
+        }
+      },
+      "tech": {
+        "signal": -0.4993,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9402,
+        "raw_probability": {
+          "buy": 0.07783949527805561,
+          "hold": 0.348608303986536,
+          "sell": 0.5735522007354085
+        },
+        "calibrated_probability": {
+          "buy": 0.0931180267937612,
+          "hold": 0.34769486074147443,
+          "sell": 0.5591871124647644
+        }
+      },
+      "market": {
+        "signal": 0.18,
+        "recommendation": "보유",
+        "fixed_weight": 0.15,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.68,
+        "raw_probability": {
+          "buy": 0.32564525685738144,
+          "hold": 0.5158461797246238,
+          "sell": 0.15850856341799482
+        },
+        "calibrated_probability": {
+          "buy": 0.32810544132968605,
+          "hold": 0.4574420688794108,
+          "sell": 0.21445248979090314
+        }
+      },
+      "issue": {
+        "signal": 0.4167,
+        "recommendation": "매수",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8806,
+        "raw_probability": {
+          "buy": 0.5082402702733042,
+          "hold": 0.39577834066424766,
+          "sell": 0.0959813890624482
+        },
+        "calibrated_probability": {
+          "buy": 0.48735638200267173,
+          "hold": 0.38832240678893654,
+          "sell": 0.12432121120839187
+        }
+      },
+      "macro": {
+        "signal": 0.0,
+        "recommendation": "보유",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.845,
+        "raw_probability": {
+          "buy": 0.21194155761708544,
+          "hold": 0.5761168847658291,
+          "sell": 0.21194155761708544
+        },
+        "calibrated_probability": {
+          "buy": 0.23075728285310385,
+          "hold": 0.5384854342937923,
+          "sell": 0.23075728285310385
+        }
+      }
+    }
+  },
+  {
+    "company": "엘티씨",
+    "slug": "ltc",
+    "company_folder": "엘티씨",
+    "agents": {
+      "finance": {
+        "signal": 0.2361,
+        "recommendation": "보유",
+        "fixed_weight": 0.25,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8631,
+        "raw_probability": {
+          "buy": 0.36662076389326476,
+          "hold": 0.49079571045754095,
+          "sell": 0.14258352564919421
+        },
+        "calibrated_probability": {
+          "buy": 0.3620637146496102,
+          "hold": 0.46923911102923693,
+          "sell": 0.16869717432115286
+        }
+      },
+      "valuation": {
+        "signal": -0.1318,
+        "recommendation": "보유",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9428,
+        "raw_probability": {
+          "buy": 0.17255017761002955,
+          "hold": 0.5351184257104917,
+          "sell": 0.2923313966794787
+        },
+        "calibrated_probability": {
+          "buy": 0.18174697411740254,
+          "hold": 0.5235763184265183,
+          "sell": 0.2946767074560792
+        }
+      },
+      "tech": {
+        "signal": 0.4525,
+        "recommendation": "매수",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8601,
+        "raw_probability": {
+          "buy": 0.5367465156636394,
+          "hold": 0.3754126966335685,
+          "sell": 0.08784078770279198
+        },
+        "calibrated_probability": {
+          "buy": 0.5082890114556295,
+          "hold": 0.36952579370786565,
+          "sell": 0.12218519483650472
+        }
+      },
+      "market": {
+        "signal": 0.19,
+        "recommendation": "보유",
+        "fixed_weight": 0.15,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.68,
+        "raw_probability": {
+          "buy": 0.33278712421798273,
+          "hold": 0.5115795104440904,
+          "sell": 0.15563336533792682
+        },
+        "calibrated_probability": {
+          "buy": 0.33296191113489493,
+          "hold": 0.4545407337686482,
+          "sell": 0.2124973550964569
+        }
+      },
+      "issue": {
+        "signal": 0.8,
+        "recommendation": "매수",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8806,
+        "raw_probability": {
+          "buy": 0.7767839969755541,
+          "hold": 0.19155257529259764,
+          "sell": 0.03166342773184814
+        },
+        "calibrated_probability": {
+          "buy": 0.7238359877366729,
+          "hold": 0.20848119780266147,
+          "sell": 0.06768281446066546
+        }
+      },
+      "macro": {
+        "signal": -0.45,
+        "recommendation": "매도",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.955,
+        "raw_probability": {
+          "buy": 0.08839574294985479,
+          "hold": 0.3768411748486576,
+          "sell": 0.5347630822014876
+        },
+        "calibrated_probability": {
+          "buy": 0.09941793451711134,
+          "hold": 0.374883321980468,
+          "sell": 0.5256987435024206
+        }
+      }
+    }
+  },
+  {
+    "company": "원익IPS",
+    "slug": "wonik_ips",
+    "company_folder": "원익IPS",
+    "agents": {
+      "finance": {
+        "signal": 0.7876,
+        "recommendation": "매수",
+        "fixed_weight": 0.25,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8631,
+        "raw_probability": {
+          "buy": 0.7699544545196951,
+          "hold": 0.1970645545485879,
+          "sell": 0.03298099093171691
+        },
+        "calibrated_probability": {
+          "buy": 0.7101810230292821,
+          "hold": 0.21571975036421953,
+          "sell": 0.0740992266064982
+        }
+      },
+      "valuation": {
+        "signal": -0.2421,
+        "recommendation": "보유",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8609,
+        "raw_probability": {
+          "buy": 0.14091245037033512,
+          "hold": 0.48796260712261613,
+          "sell": 0.3711249425070488
+        },
+        "calibrated_probability": {
+          "buy": 0.16767819519048816,
+          "hold": 0.46645367513852687,
+          "sell": 0.365868129670985
+        }
+      },
+      "tech": {
+        "signal": -0.4993,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9402,
+        "raw_probability": {
+          "buy": 0.07783949527805561,
+          "hold": 0.348608303986536,
+          "sell": 0.5735522007354085
+        },
+        "calibrated_probability": {
+          "buy": 0.0931180267937612,
+          "hold": 0.34769486074147443,
+          "sell": 0.5591871124647644
+        }
+      },
+      "market": {
+        "signal": 0.02,
+        "recommendation": "보유",
+        "fixed_weight": 0.15,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.68,
+        "raw_probability": {
+          "buy": 0.223060047423117,
+          "hold": 0.5710295765748256,
+          "sell": 0.20591037600205744
+        },
+        "calibrated_probability": {
+          "buy": 0.25834749891438624,
+          "hold": 0.494966778737548,
+          "sell": 0.24668572234806574
+        }
+      },
+      "issue": {
+        "signal": 0.5844,
+        "recommendation": "매수",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8806,
+        "raw_probability": {
+          "buy": 0.637992519108687,
+          "hold": 0.30040349603081123,
+          "sell": 0.06160398486050177
+        },
+        "calibrated_probability": {
+          "buy": 0.6016162123271098,
+          "hold": 0.3043353186047324,
+          "sell": 0.09404846906815784
+        }
+      },
+      "macro": {
+        "signal": 0.0,
+        "recommendation": "보유",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.845,
+        "raw_probability": {
+          "buy": 0.21194155761708544,
+          "hold": 0.5761168847658291,
+          "sell": 0.21194155761708544
+        },
+        "calibrated_probability": {
+          "buy": 0.23075728285310385,
+          "hold": 0.5384854342937923,
+          "sell": 0.23075728285310385
+        }
+      }
+    }
+  },
+  {
+    "company": "원익머트리얼즈",
+    "slug": "wonik_materials",
+    "company_folder": "원익머트리얼즈",
+    "agents": {
+      "finance": {
+        "signal": 0.3709,
+        "recommendation": "매수",
+        "fixed_weight": 0.25,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8631,
+        "raw_probability": {
+          "buy": 0.4716450950620037,
+          "hold": 0.4213765219916596,
+          "sell": 0.1069783829463367
+        },
+        "calibrated_probability": {
+          "buy": 0.4527102148813487,
+          "hold": 0.40932340946433476,
+          "sell": 0.13796637565431655
+        }
+      },
+      "valuation": {
+        "signal": 0.1584,
+        "recommendation": "보유",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8609,
+        "raw_probability": {
+          "buy": 0.3104819924067736,
+          "hold": 0.5247520704165758,
+          "sell": 0.1647659371766506
+        },
+        "calibrated_probability": {
+          "buy": 0.31366061392965805,
+          "hold": 0.49812572408829675,
+          "sell": 0.18821366198204517
+        }
+      },
+      "tech": {
+        "signal": -0.4993,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9402,
+        "raw_probability": {
+          "buy": 0.07783949527805561,
+          "hold": 0.348608303986536,
+          "sell": 0.5735522007354085
+        },
+        "calibrated_probability": {
+          "buy": 0.0931180267937612,
+          "hold": 0.34769486074147443,
+          "sell": 0.5591871124647644
+        }
+      },
+      "market": {
+        "signal": 0.06,
+        "recommendation": "보유",
+        "fixed_weight": 0.15,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.79,
+        "raw_probability": {
+          "buy": 0.24647979415223445,
+          "hold": 0.5596323325776691,
+          "sell": 0.19388787327009652
+        },
+        "calibrated_probability": {
+          "buy": 0.2647190373802652,
+          "hold": 0.5121095427363586,
+          "sell": 0.22317141988337624
+        }
+      },
+      "issue": {
+        "signal": 0.2558,
+        "recommendation": "매수",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8806,
+        "raw_probability": {
+          "buy": 0.3814872612104335,
+          "hold": 0.4813898586915318,
+          "sell": 0.13712288009803472
+        },
+        "calibrated_probability": {
+          "buy": 0.3757376822219078,
+          "hold": 0.4637119095637629,
+          "sell": 0.16055040821432937
+        }
+      },
+      "macro": {
+        "signal": 0.0,
+        "recommendation": "보유",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.845,
+        "raw_probability": {
+          "buy": 0.21194155761708544,
+          "hold": 0.5761168847658291,
+          "sell": 0.21194155761708544
+        },
+        "calibrated_probability": {
+          "buy": 0.23075728285310385,
+          "hold": 0.5384854342937923,
+          "sell": 0.23075728285310385
+        }
+      }
+    }
+  },
+  {
+    "company": "월덱스",
+    "slug": "woldex",
+    "company_folder": "월덱스",
+    "agents": {
+      "finance": {
+        "signal": 0.5632,
+        "recommendation": "매수",
+        "fixed_weight": 0.25,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8631,
+        "raw_probability": {
+          "buy": 0.6223235191233456,
+          "hold": 0.3122674664177422,
+          "sell": 0.06540901445891215
+        },
+        "calibrated_probability": {
+          "buy": 0.5827607626886929,
+          "hold": 0.31515138359848666,
+          "sell": 0.10208785371282042
+        }
+      },
+      "valuation": {
+        "signal": 0.747,
+        "recommendation": "매수",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9428,
+        "raw_probability": {
+          "buy": 0.7465566433907586,
+          "hold": 0.21582577666929978,
+          "sell": 0.03761757993994162
+        },
+        "calibrated_probability": {
+          "buy": 0.7229202700554738,
+          "hold": 0.2225472089104825,
+          "sell": 0.054532521034043636
+        }
+      },
+      "tech": {
+        "signal": -0.4993,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9402,
+        "raw_probability": {
+          "buy": 0.07783949527805561,
+          "hold": 0.348608303986536,
+          "sell": 0.5735522007354085
+        },
+        "calibrated_probability": {
+          "buy": 0.0931180267937612,
+          "hold": 0.34769486074147443,
+          "sell": 0.5591871124647644
+        }
+      },
+      "market": {
+        "signal": 0.15,
+        "recommendation": "보유",
+        "fixed_weight": 0.15,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.68,
+        "raw_probability": {
+          "buy": 0.30468625863083143,
+          "hold": 0.5280983772746143,
+          "sell": 0.16721536409455431
+        },
+        "calibrated_probability": {
+          "buy": 0.31385332253563203,
+          "hold": 0.46577356321340435,
+          "sell": 0.2203731142509636
+        }
+      },
+      "issue": {
+        "signal": 0.7391,
+        "recommendation": "매수",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8806,
+        "raw_probability": {
+          "buy": 0.7418209601342157,
+          "hold": 0.21960004629088564,
+          "sell": 0.03857899357489861
+        },
+        "calibrated_probability": {
+          "buy": 0.6930475374941903,
+          "hold": 0.23317980076375389,
+          "sell": 0.0737726617420557
+        }
+      },
+      "macro": {
+        "signal": 0.0,
+        "recommendation": "보유",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.845,
+        "raw_probability": {
+          "buy": 0.21194155761708544,
+          "hold": 0.5761168847658291,
+          "sell": 0.21194155761708544
+        },
+        "calibrated_probability": {
+          "buy": 0.23075728285310385,
+          "hold": 0.5384854342937923,
+          "sell": 0.23075728285310385
+        }
+      }
+    }
+  },
+  {
+    "company": "유진테크",
+    "slug": "eugene_tech",
+    "company_folder": "유진테크",
+    "agents": {
+      "finance": {
+        "signal": 0.6214,
+        "recommendation": "매수",
+        "fixed_weight": 0.25,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8631,
+        "raw_probability": {
+          "buy": 0.6646001576883055,
+          "hold": 0.2800548825834211,
+          "sell": 0.05534495972827343
+        },
+        "calibrated_probability": {
+          "buy": 0.6192497294341097,
+          "hold": 0.2873487024910841,
+          "sell": 0.09340156807480612
+        }
+      },
+      "valuation": {
+        "signal": -0.2877,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9428,
+        "raw_probability": {
+          "buy": 0.12844949145731147,
+          "hold": 0.46555757090194066,
+          "sell": 0.40599293764074784
+        },
+        "calibrated_probability": {
+          "buy": 0.1401688472126199,
+          "hold": 0.45799434451301635,
+          "sell": 0.40183680827436374
+        }
+      },
+      "tech": {
+        "signal": -0.4993,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9402,
+        "raw_probability": {
+          "buy": 0.07783949527805561,
+          "hold": 0.348608303986536,
+          "sell": 0.5735522007354085
+        },
+        "calibrated_probability": {
+          "buy": 0.0931180267937612,
+          "hold": 0.34769486074147443,
+          "sell": 0.5591871124647644
+        }
+      },
+      "market": {
+        "signal": 0.17,
+        "recommendation": "보유",
+        "fixed_weight": 0.15,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.625,
+        "raw_probability": {
+          "buy": 0.31857957221733524,
+          "hold": 0.5200226030768023,
+          "sell": 0.16139782470586253
+        },
+        "calibrated_probability": {
+          "buy": 0.32411223263583455,
+          "hold": 0.4500141269230014,
+          "sell": 0.2258736404411641
+        }
+      },
+      "issue": {
+        "signal": 0.8462,
+        "recommendation": "매수",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8806,
+        "raw_probability": {
+          "buy": 0.8009189014881195,
+          "hold": 0.17194242722785613,
+          "sell": 0.027138671284024442
+        },
+        "calibrated_probability": {
+          "buy": 0.745089184650438,
+          "hold": 0.1912125014168501,
+          "sell": 0.06369831393271191
+        }
+      },
+      "macro": {
+        "signal": 0.0,
+        "recommendation": "보유",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.845,
+        "raw_probability": {
+          "buy": 0.21194155761708544,
+          "hold": 0.5761168847658291,
+          "sell": 0.21194155761708544
+        },
+        "calibrated_probability": {
+          "buy": 0.23075728285310385,
+          "hold": 0.5384854342937923,
+          "sell": 0.23075728285310385
+        }
+      }
+    }
+  },
+  {
+    "company": "이엔에프테크놀로지",
+    "slug": "enf_tech",
+    "company_folder": "이엔에프테크놀로지",
+    "agents": {
+      "finance": {
+        "signal": 0.7567,
+        "recommendation": "매수",
+        "fixed_weight": 0.25,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8631,
+        "raw_probability": {
+          "buy": 0.752290327687552,
+          "hold": 0.211245787137706,
+          "sell": 0.036463885174742
+        },
+        "calibrated_probability": {
+          "buy": 0.6949351151604594,
+          "hold": 0.22795957221188737,
+          "sell": 0.07710531262765316
+        }
+      },
+      "valuation": {
+        "signal": 0.4063,
+        "recommendation": "매수",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9428,
+        "raw_probability": {
+          "buy": 0.4999314216199516,
+          "hold": 0.40164593115967784,
+          "sell": 0.09842264722037064
+        },
+        "calibrated_probability": {
+          "buy": 0.490402010969957,
+          "hold": 0.3977384505640109,
+          "sell": 0.11185953846603211
+        }
+      },
+      "tech": {
+        "signal": -0.4993,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9402,
+        "raw_probability": {
+          "buy": 0.07783949527805561,
+          "hold": 0.348608303986536,
+          "sell": 0.5735522007354085
+        },
+        "calibrated_probability": {
+          "buy": 0.0931180267937612,
+          "hold": 0.34769486074147443,
+          "sell": 0.5591871124647644
+        }
+      },
+      "market": {
+        "signal": 0.14,
+        "recommendation": "보유",
+        "fixed_weight": 0.15,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.6256,
+        "raw_probability": {
+          "buy": 0.2978630564499018,
+          "hold": 0.5319948659202032,
+          "sell": 0.17014207762989508
+        },
+        "calibrated_probability": {
+          "buy": 0.31114312811505856,
+          "hold": 0.4576159881196791,
+          "sell": 0.23124088376526236
+        }
+      },
+      "issue": {
+        "signal": 0.5833,
+        "recommendation": "매수",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8806,
+        "raw_probability": {
+          "buy": 0.6371867176394888,
+          "hold": 0.30101579333803263,
+          "sell": 0.061797489022478634
+        },
+        "calibrated_probability": {
+          "buy": 0.6009066235533338,
+          "hold": 0.30487450761347157,
+          "sell": 0.09421886883319466
+        }
+      },
+      "macro": {
+        "signal": 0.0,
+        "recommendation": "보유",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.845,
+        "raw_probability": {
+          "buy": 0.21194155761708544,
+          "hold": 0.5761168847658291,
+          "sell": 0.21194155761708544
+        },
+        "calibrated_probability": {
+          "buy": 0.23075728285310385,
+          "hold": 0.5384854342937923,
+          "sell": 0.23075728285310385
+        }
+      }
+    }
+  },
+  {
+    "company": "제주반도체",
+    "slug": "jeju_semicon",
+    "company_folder": "제주반도체",
+    "agents": {
+      "finance": {
+        "signal": 0.7117,
+        "recommendation": "매수",
+        "fixed_weight": 0.25,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8631,
+        "raw_probability": {
+          "buy": 0.7249425247915618,
+          "hold": 0.232989264072621,
+          "sell": 0.04206821113581708
+        },
+        "calibrated_probability": {
+          "buy": 0.6713312264809304,
+          "hold": 0.2467263671544125,
+          "sell": 0.08194240636465705
+        }
+      },
+      "valuation": {
+        "signal": -0.2098,
+        "recommendation": "보유",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8609,
+        "raw_probability": {
+          "buy": 0.14998510692306619,
+          "hold": 0.5028721696853757,
+          "sell": 0.34714272339155805
+        },
+        "calibrated_probability": {
+          "buy": 0.17548884521673436,
+          "hold": 0.47928931754880666,
+          "sell": 0.345221837234459
+        }
+      },
+      "tech": {
+        "signal": -0.4993,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9402,
+        "raw_probability": {
+          "buy": 0.07783949527805561,
+          "hold": 0.348608303986536,
+          "sell": 0.5735522007354085
+        },
+        "calibrated_probability": {
+          "buy": 0.0931180267937612,
+          "hold": 0.34769486074147443,
+          "sell": 0.5591871124647644
+        }
+      },
+      "market": {
+        "signal": 0.24,
+        "recommendation": "보유",
+        "fixed_weight": 0.15,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.68,
+        "raw_probability": {
+          "buy": 0.36954605023216947,
+          "hold": 0.4889573960937314,
+          "sell": 0.14149655367409905
+        },
+        "calibrated_probability": {
+          "buy": 0.3579579808245419,
+          "hold": 0.439157696010404,
+          "sell": 0.202884323165054
+        }
+      },
+      "issue": {
+        "signal": 0.1429,
+        "recommendation": "보유",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8806,
+        "raw_probability": {
+          "buy": 0.2998331175415461,
+          "hold": 0.5308747114073982,
+          "sell": 0.16929217105105573
+        },
+        "calibrated_probability": {
+          "buy": 0.30383304330708555,
+          "hold": 0.5072882708653548,
+          "sell": 0.18887868582755965
+        }
+      },
+      "macro": {
+        "signal": 0.0,
+        "recommendation": "보유",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.845,
+        "raw_probability": {
+          "buy": 0.21194155761708544,
+          "hold": 0.5761168847658291,
+          "sell": 0.21194155761708544
+        },
+        "calibrated_probability": {
+          "buy": 0.23075728285310385,
+          "hold": 0.5384854342937923,
+          "sell": 0.23075728285310385
+        }
+      }
+    }
+  },
+  {
+    "company": "코아시아",
+    "slug": "coasia",
+    "company_folder": "코아시아",
+    "agents": {
+      "finance": {
+        "signal": -0.6493,
+        "recommendation": "매도",
+        "fixed_weight": 0.25,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8631,
+        "raw_probability": {
+          "buy": 0.05094391817340339,
+          "hold": 0.265078334452947,
+          "sell": 0.6839777473736497
+        },
+        "calibrated_probability": {
+          "buy": 0.0896030291087978,
+          "hold": 0.2744224437996719,
+          "sell": 0.6359745270915304
+        }
+      },
+      "valuation": {
+        "signal": 0.0767,
+        "recommendation": "보유",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9428,
+        "raw_probability": {
+          "buy": 0.25671647086442595,
+          "hold": 0.5543921285788346,
+          "sell": 0.1888914005567395
+        },
+        "calibrated_probability": {
+          "buy": 0.2610989553976475,
+          "hold": 0.541747565490792,
+          "sell": 0.19715347911156067
+        }
+      },
+      "tech": {
+        "signal": -0.4993,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9402,
+        "raw_probability": {
+          "buy": 0.07783949527805561,
+          "hold": 0.348608303986536,
+          "sell": 0.5735522007354085
+        },
+        "calibrated_probability": {
+          "buy": 0.0931180267937612,
+          "hold": 0.34769486074147443,
+          "sell": 0.5591871124647644
+        }
+      },
+      "market": {
+        "signal": 0.05,
+        "recommendation": "보유",
+        "fixed_weight": 0.15,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.7081,
+        "raw_probability": {
+          "buy": 0.24047840167200127,
+          "hold": 0.5626345354280917,
+          "sell": 0.19688706289990698
+        },
+        "calibrated_probability": {
+          "buy": 0.2675827562239441,
+          "hold": 0.4957015145366317,
+          "sell": 0.23671572923942413
+        }
+      },
+      "issue": {
+        "signal": 0.5714,
+        "recommendation": "매수",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8806,
+        "raw_probability": {
+          "buy": 0.6284183451949601,
+          "hold": 0.3076633296151539,
+          "sell": 0.06391832518988605
+        },
+        "calibrated_probability": {
+          "buy": 0.5931851947786818,
+          "hold": 0.31072832805910455,
+          "sell": 0.09608647716221363
+        }
+      },
+      "macro": {
+        "signal": 0.0,
+        "recommendation": "보유",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.845,
+        "raw_probability": {
+          "buy": 0.21194155761708544,
+          "hold": 0.5761168847658291,
+          "sell": 0.21194155761708544
+        },
+        "calibrated_probability": {
+          "buy": 0.23075728285310385,
+          "hold": 0.5384854342937923,
+          "sell": 0.23075728285310385
+        }
+      }
+    }
+  },
+  {
+    "company": "테스",
+    "slug": "tes",
+    "company_folder": "테스",
+    "agents": {
+      "finance": {
+        "signal": 0.7348,
+        "recommendation": "매수",
+        "fixed_weight": 0.25,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8631,
+        "raw_probability": {
+          "buy": 0.7392185490715226,
+          "hold": 0.22167084766435036,
+          "sell": 0.039110603264127075
+        },
+        "calibrated_probability": {
+          "buy": 0.6836528630369645,
+          "hold": 0.23695744195243412,
+          "sell": 0.07938969501060142
+        }
+      },
+      "valuation": {
+        "signal": -0.2268,
+        "recommendation": "보유",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9428,
+        "raw_probability": {
+          "buy": 0.14518686818359816,
+          "hold": 0.49513064586919503,
+          "sell": 0.35968248594720686
+        },
+        "calibrated_probability": {
+          "buy": 0.155948845990163,
+          "hold": 0.48587583959214375,
+          "sell": 0.3581753144176933
+        }
+      },
+      "tech": {
+        "signal": -0.4993,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9402,
+        "raw_probability": {
+          "buy": 0.07783949527805561,
+          "hold": 0.348608303986536,
+          "sell": 0.5735522007354085
+        },
+        "calibrated_probability": {
+          "buy": 0.0931180267937612,
+          "hold": 0.34769486074147443,
+          "sell": 0.5591871124647644
+        }
+      },
+      "market": {
+        "signal": 0.1,
+        "recommendation": "보유",
+        "fixed_weight": 0.15,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.68,
+        "raw_probability": {
+          "buy": 0.2714387220090332,
+          "hold": 0.5466104613580166,
+          "sell": 0.1819508166329502
+        },
+        "calibrated_probability": {
+          "buy": 0.2912449976328092,
+          "hold": 0.47836178039011795,
+          "sell": 0.2303932219770728
+        }
+      },
+      "issue": {
+        "signal": 0.8462,
+        "recommendation": "매수",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8806,
+        "raw_probability": {
+          "buy": 0.8009189014881195,
+          "hold": 0.17194242722785613,
+          "sell": 0.027138671284024442
+        },
+        "calibrated_probability": {
+          "buy": 0.745089184650438,
+          "hold": 0.1912125014168501,
+          "sell": 0.06369831393271191
+        }
+      },
+      "macro": {
+        "signal": 0.0,
+        "recommendation": "보유",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.845,
+        "raw_probability": {
+          "buy": 0.21194155761708544,
+          "hold": 0.5761168847658291,
+          "sell": 0.21194155761708544
+        },
+        "calibrated_probability": {
+          "buy": 0.23075728285310385,
+          "hold": 0.5384854342937923,
+          "sell": 0.23075728285310385
+        }
+      }
+    }
+  },
+  {
+    "company": "텔레칩스",
+    "slug": "telechips",
+    "company_folder": "텔레칩스",
+    "agents": {
+      "finance": {
+        "signal": -0.5061,
+        "recommendation": "매도",
+        "fixed_weight": 0.25,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8631,
+        "raw_probability": {
+          "buy": 0.07644863921565825,
+          "hold": 0.3447153943111988,
+          "sell": 0.578835966473143
+        },
+        "calibrated_probability": {
+          "buy": 0.11161615384036797,
+          "hold": 0.343157190163329,
+          "sell": 0.545226655996303
+        }
+      },
+      "valuation": {
+        "signal": 0.0468,
+        "recommendation": "보유",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9428,
+        "raw_probability": {
+          "buy": 0.2385784456379892,
+          "hold": 0.5635737305130052,
+          "sell": 0.19784782384900565
+        },
+        "calibrated_probability": {
+          "buy": 0.24399842521416287,
+          "hold": 0.550403979794328,
+          "sell": 0.2055975949915092
+        }
+      },
+      "tech": {
+        "signal": -0.4993,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9402,
+        "raw_probability": {
+          "buy": 0.07783949527805561,
+          "hold": 0.348608303986536,
+          "sell": 0.5735522007354085
+        },
+        "calibrated_probability": {
+          "buy": 0.0931180267937612,
+          "hold": 0.34769486074147443,
+          "sell": 0.5591871124647644
+        }
+      },
+      "market": {
+        "signal": 0.02,
+        "recommendation": "보유",
+        "fixed_weight": 0.15,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.5431,
+        "raw_probability": {
+          "buy": 0.223060047423117,
+          "hold": 0.5710295765748256,
+          "sell": 0.20591037600205744
+        },
+        "calibrated_probability": {
+          "buy": 0.2734439117554949,
+          "hold": 0.4624261630377878,
+          "sell": 0.2641299252067174
+        }
+      },
+      "issue": {
+        "signal": 0.5,
+        "recommendation": "매수",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8806,
+        "raw_probability": {
+          "buy": 0.5740969929676946,
+          "hold": 0.3482074278837349,
+          "sell": 0.0776955791485706
+        },
+        "calibrated_probability": {
+          "buy": 0.5453498120073518,
+          "hold": 0.34643146099441696,
+          "sell": 0.10821872699823126
+        }
+      },
+      "macro": {
+        "signal": 0.0,
+        "recommendation": "보유",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.845,
+        "raw_probability": {
+          "buy": 0.21194155761708544,
+          "hold": 0.5761168847658291,
+          "sell": 0.21194155761708544
+        },
+        "calibrated_probability": {
+          "buy": 0.23075728285310385,
+          "hold": 0.5384854342937923,
+          "sell": 0.23075728285310385
+        }
+      }
+    }
+  },
+  {
+    "company": "티씨케이",
+    "slug": "tck",
+    "company_folder": "티씨케이",
+    "agents": {
+      "finance": {
+        "signal": 0.583,
+        "recommendation": "매수",
+        "fixed_weight": 0.25,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8631,
+        "raw_probability": {
+          "buy": 0.6369668127070598,
+          "hold": 0.3011828498374626,
+          "sell": 0.061850337455477654
+        },
+        "calibrated_probability": {
+          "buy": 0.5953993893807966,
+          "hold": 0.3055842510280473,
+          "sell": 0.0990163595911561
+        }
+      },
+      "valuation": {
+        "signal": -0.2542,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8609,
+        "raw_probability": {
+          "buy": 0.1375635415418862,
+          "hold": 0.48216478377019845,
+          "sell": 0.38027167468791534
+        },
+        "calibrated_probability": {
+          "buy": 0.16479511958007648,
+          "hold": 0.4614623290144305,
+          "sell": 0.373742551405493
+        }
+      },
+      "tech": {
+        "signal": -0.4993,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9402,
+        "raw_probability": {
+          "buy": 0.07783949527805561,
+          "hold": 0.348608303986536,
+          "sell": 0.5735522007354085
+        },
+        "calibrated_probability": {
+          "buy": 0.0931180267937612,
+          "hold": 0.34769486074147443,
+          "sell": 0.5591871124647644
+        }
+      },
+      "market": {
+        "signal": 0.18,
+        "recommendation": "보유",
+        "fixed_weight": 0.15,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.68,
+        "raw_probability": {
+          "buy": 0.32564525685738144,
+          "hold": 0.5158461797246238,
+          "sell": 0.15850856341799482
+        },
+        "calibrated_probability": {
+          "buy": 0.32810544132968605,
+          "hold": 0.4574420688794108,
+          "sell": 0.21445248979090314
+        }
+      },
+      "issue": {
+        "signal": 0.3793,
+        "recommendation": "매수",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8806,
+        "raw_probability": {
+          "buy": 0.4783519563478164,
+          "hold": 0.4167334346284912,
+          "sell": 0.10491460902369239
+        },
+        "calibrated_probability": {
+          "buy": 0.46103673275988716,
+          "hold": 0.4067754625338494,
+          "sell": 0.1321878047062635
+        }
+      },
+      "macro": {
+        "signal": 0.0,
+        "recommendation": "보유",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.845,
+        "raw_probability": {
+          "buy": 0.21194155761708544,
+          "hold": 0.5761168847658291,
+          "sell": 0.21194155761708544
+        },
+        "calibrated_probability": {
+          "buy": 0.23075728285310385,
+          "hold": 0.5384854342937923,
+          "sell": 0.23075728285310385
+        }
+      }
+    }
+  },
+  {
+    "company": "피에스케이",
+    "slug": "psk",
+    "company_folder": "피에스케이",
+    "agents": {
+      "finance": {
+        "signal": 0.8177,
+        "recommendation": "매수",
+        "fixed_weight": 0.25,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8631,
+        "raw_probability": {
+          "buy": 0.7862746140607967,
+          "hold": 0.18386579438969824,
+          "sell": 0.02985959154950507
+        },
+        "calibrated_probability": {
+          "buy": 0.7242669527292069,
+          "hold": 0.20432790047108187,
+          "sell": 0.07140514679971116
+        }
+      },
+      "valuation": {
+        "signal": -0.2424,
+        "recommendation": "보유",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8609,
+        "raw_probability": {
+          "buy": 0.14082907561568972,
+          "hold": 0.48782021464384917,
+          "sell": 0.3713507097404612
+        },
+        "calibrated_probability": {
+          "buy": 0.16760641786421393,
+          "hold": 0.4663310894535564,
+          "sell": 0.36606249268222973
+        }
+      },
+      "tech": {
+        "signal": -0.4993,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9402,
+        "raw_probability": {
+          "buy": 0.07783949527805561,
+          "hold": 0.348608303986536,
+          "sell": 0.5735522007354085
+        },
+        "calibrated_probability": {
+          "buy": 0.0931180267937612,
+          "hold": 0.34769486074147443,
+          "sell": 0.5591871124647644
+        }
+      },
+      "market": {
+        "signal": 0.16,
+        "recommendation": "보유",
+        "fixed_weight": 0.15,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.68,
+        "raw_probability": {
+          "buy": 0.31159247972236104,
+          "hold": 0.5241071663312508,
+          "sell": 0.1643003539463882
+        },
+        "calibrated_probability": {
+          "buy": 0.3185495528778722,
+          "hold": 0.46305953977191716,
+          "sell": 0.21839090735021063
+        }
+      },
+      "issue": {
+        "signal": 0.2308,
+        "recommendation": "보유",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8806,
+        "raw_probability": {
+          "buy": 0.36266013059695884,
+          "hold": 0.4932746490245141,
+          "sell": 0.1440652203785271
+        },
+        "calibrated_probability": {
+          "buy": 0.35915851100368196,
+          "hold": 0.47417765593098715,
+          "sell": 0.16666383306533095
+        }
+      },
+      "macro": {
+        "signal": 0.0,
+        "recommendation": "보유",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.845,
+        "raw_probability": {
+          "buy": 0.21194155761708544,
+          "hold": 0.5761168847658291,
+          "sell": 0.21194155761708544
+        },
+        "calibrated_probability": {
+          "buy": 0.23075728285310385,
+          "hold": 0.5384854342937923,
+          "sell": 0.23075728285310385
+        }
+      }
+    }
+  },
+  {
+    "company": "한미반도체",
+    "slug": "hanmi",
+    "company_folder": "한미반도체",
+    "agents": {
+      "finance": {
+        "signal": 0.0347,
+        "recommendation": "보유",
+        "fixed_weight": 0.25,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8631,
+        "raw_probability": {
+          "buy": 0.23148461752947005,
+          "hold": 0.567030687229824,
+          "sell": 0.20148469524070603
+        },
+        "calibrated_probability": {
+          "buy": 0.24542770672301892,
+          "hold": 0.5350375194813944,
+          "sell": 0.2195347737955867
+        }
+      },
+      "valuation": {
+        "signal": -0.6883,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9428,
+        "raw_probability": {
+          "buy": 0.045242637379557624,
+          "hold": 0.24477512870837992,
+          "sell": 0.7099822339120624
+        },
+        "calibrated_probability": {
+          "buy": 0.061721425188113604,
+          "hold": 0.24984065801292726,
+          "sell": 0.688437916798959
+        }
+      },
+      "tech": {
+        "signal": 0.3525,
+        "recommendation": "매수",
+        "fixed_weight": 0.2,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.7985,
+        "raw_probability": {
+          "buy": 0.4569830074032319,
+          "hold": 0.43144766082401165,
+          "sell": 0.11156933177275649
+        },
+        "calibrated_probability": {
+          "buy": 0.4320675980781473,
+          "hold": 0.41167762383463996,
+          "sell": 0.15625477808721272
+        }
+      },
+      "market": {
+        "signal": 0.25,
+        "recommendation": "매수",
+        "fixed_weight": 0.15,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.6256,
+        "raw_probability": {
+          "buy": 0.3770874347306995,
+          "hold": 0.48418985050779795,
+          "sell": 0.13872271476150247
+        },
+        "calibrated_probability": {
+          "buy": 0.3607058991675256,
+          "hold": 0.42770917047767837,
+          "sell": 0.21158493035479592
+        }
+      },
+      "issue": {
+        "signal": 0.6842,
+        "recommendation": "매수",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8806,
+        "raw_probability": {
+          "buy": 0.7073104231612398,
+          "hold": 0.246871915273478,
+          "sell": 0.045817661565282206
+        },
+        "calibrated_probability": {
+          "buy": 0.6626575586357878,
+          "hold": 0.2571954085898247,
+          "sell": 0.08014703277438749
+        }
+      },
+      "macro": {
+        "signal": 0.0,
+        "recommendation": "보유",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.845,
+        "raw_probability": {
+          "buy": 0.21194155761708544,
+          "hold": 0.5761168847658291,
+          "sell": 0.21194155761708544
+        },
+        "calibrated_probability": {
+          "buy": 0.23075728285310385,
+          "hold": 0.5384854342937923,
+          "sell": 0.23075728285310385
+        }
+      }
+    }
+  },
+  {
+    "company": "한솔케미칼",
+    "slug": "hansol",
+    "company_folder": "한솔케미칼",
+    "agents": {
+      "finance": {
+        "signal": 0.1894,
+        "recommendation": "보유",
+        "fixed_weight": 0.25,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8631,
+        "raw_probability": {
+          "buy": 0.3323565094861152,
+          "hold": 0.5118380244715083,
+          "sell": 0.15580546604237652
+        },
+        "calibrated_probability": {
+          "buy": 0.3324902366707994,
+          "hold": 0.48740073225469216,
+          "sell": 0.1801090310745085
+        }
+      },
+      "valuation": {
+        "signal": -0.4153,
+        "recommendation": "매도",
+        "fixed_weight": 0.2,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.9428,
+        "raw_probability": {
+          "buy": 0.0963080556974591,
+          "hold": 0.39656976092721263,
+          "sell": 0.5071221833753283
+        },
+        "calibrated_probability": {
+          "buy": 0.1098659015782311,
+          "hold": 0.3929526372688427,
+          "sell": 0.4971814611529262
+        }
+      },
+      "tech": {
+        "signal": 0.4853,
+        "recommendation": "매수",
+        "fixed_weight": 0.2,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.7704,
+        "raw_probability": {
+          "buy": 0.5626167615783537,
+          "hold": 0.3566299496838139,
+          "sell": 0.08075328873783237
+        },
+        "calibrated_probability": {
+          "buy": 0.5099732864532971,
+          "hold": 0.35128104656974357,
+          "sell": 0.1387456669769594
+        }
+      },
+      "market": {
+        "signal": 0.24,
+        "recommendation": "보유",
+        "fixed_weight": 0.15,
+        "auditor_status": "FAIL",
+        "auditor_actual_match": 0.68,
+        "raw_probability": {
+          "buy": 0.36954605023216947,
+          "hold": 0.4889573960937314,
+          "sell": 0.14149655367409905
+        },
+        "calibrated_probability": {
+          "buy": 0.3579579808245419,
+          "hold": 0.439157696010404,
+          "sell": 0.202884323165054
+        }
+      },
+      "issue": {
+        "signal": 0.3077,
+        "recommendation": "매수",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.8806,
+        "raw_probability": {
+          "buy": 0.42158641950296505,
+          "hold": 0.4552855410682939,
+          "sell": 0.12312803942874115
+        },
+        "calibrated_probability": {
+          "buy": 0.411049001014311,
+          "hold": 0.4407244474647396,
+          "sell": 0.14822655152094943
+        }
+      },
+      "macro": {
+        "signal": 0.0,
+        "recommendation": "보유",
+        "fixed_weight": 0.1,
+        "auditor_status": "PASS",
+        "auditor_actual_match": 0.845,
+        "raw_probability": {
+          "buy": 0.21194155761708544,
+          "hold": 0.5761168847658291,
+          "sell": 0.21194155761708544
+        },
+        "calibrated_probability": {
+          "buy": 0.23075728285310385,
+          "hold": 0.5384854342937923,
+          "sell": 0.23075728285310385
+        }
+      }
+    }
+  }
+]

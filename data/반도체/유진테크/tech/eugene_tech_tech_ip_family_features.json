@@ -1,0 +1,112 @@
+{
+  "company_slug": "eugene_tech",
+  "company_name": "유진테크",
+  "status": "OK",
+  "input_csv": "data\\반도체\\유진테크\\tech\\eugene_tech_kipris_bibliographic_normalized.csv",
+  "family_csv": "data\\반도체\\유진테크\\tech\\eugene_tech_kipris_family_normalized.csv",
+  "target_patent_count": 21,
+  "family_record_count": 19,
+  "patents_with_family": 4,
+  "patents_with_overseas_family": 4,
+  "overseas_family_record_count": 15,
+  "family_collection_coverage": 0.1905,
+  "overseas_family_patent_rate": 0.1905,
+  "pct_patents": 1,
+  "us_patents": 3,
+  "jp_patents": 3,
+  "ep_patents": 1,
+  "cn_patents": 4,
+  "detected_overseas_regions": [
+    "CN",
+    "EP",
+    "JP",
+    "US",
+    "WO"
+  ],
+  "global_extension_score": 33.81,
+  "bridge_adjustment_points": -1.0,
+  "bridge_signal": "IP_GLOBAL_EXTENSION_WEAK",
+  "top_overseas_family_patents": [
+    {
+      "application_number": "1020150187865",
+      "title": "기판 처리 장치",
+      "family_record_count": 8,
+      "overseas_family_record_count": 6,
+      "jurisdictions": [
+        "CN",
+        "JP",
+        "UNKNOWN",
+        "US"
+      ],
+      "has_pct_or_wo": false,
+      "has_us": true,
+      "has_jp": true,
+      "has_ep": false,
+      "has_cn": true
+    },
+    {
+      "application_number": "1020220075791",
+      "title": "기판 이송장치 및 기판 이송장치의 운용방법",
+      "family_record_count": 4,
+      "overseas_family_record_count": 4,
+      "jurisdictions": [
+        "CN",
+        "EP",
+        "JP",
+        "KR",
+        "WO"
+      ],
+      "has_pct_or_wo": true,
+      "has_us": false,
+      "has_jp": true,
+      "has_ep": true,
+      "has_cn": true
+    },
+    {
+      "application_number": "1020230096254",
+      "title": "기판 처리 장치 및 기판 처리 방법",
+      "family_record_count": 4,
+      "overseas_family_record_count": 3,
+      "jurisdictions": [
+        "CN",
+        "JP",
+        "UNKNOWN",
+        "US"
+      ],
+      "has_pct_or_wo": false,
+      "has_us": true,
+      "has_jp": true,
+      "has_ep": false,
+      "has_cn": true
+    },
+    {
+      "application_number": "1020190071561",
+      "title": "기판 처리장치 및 기판 처리방법",
+      "family_record_count": 3,
+      "overseas_family_record_count": 2,
+      "jurisdictions": [
+        "CN",
+        "UNKNOWN",
+        "US"
+      ],
+      "has_pct_or_wo": false,
+      "has_us": true,
+      "has_jp": false,
+      "has_ep": false,
+      "has_cn": true
+    }
+  ],
+  "usage_rule": "Use this as an IP global expansion feature in Tech-to-Value Bridge. It indicates whether the patent portfolio has overseas family extension, but it is not direct revenue or commercialization evidence.",
+  "parse_error_count": 17,
+  "raw_jsonl": "data\\반도체\\유진테크\\tech\\source\\eugene_tech_kipris_plus_family_raw.jsonl",
+  "request_targets_csv": "data\\반도체\\유진테크\\tech\\eugene_tech_kipris_plus_family_request_targets.csv",
+  "created_at": "2026-05-20T21:43:32",
+  "request_config": {
+    "endpoint": "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
+    "key_param": "ServiceKey",
+    "app_param": "applicationNumber",
+    "api_key": "***KEY***",
+    "timeout": 90,
+    "sleep_sec": 0.8
+  }
+}

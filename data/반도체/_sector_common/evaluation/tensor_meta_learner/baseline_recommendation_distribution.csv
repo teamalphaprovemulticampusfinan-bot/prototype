@@ -1,0 +1,13 @@
+﻿source,source_column,recommendation,count,pct,total,threshold_rule
+recomputed_from_agent_signals,fixed_recommendation_from_recomputed,매수,1,3.3333,30,매수: weighted_signal >= +0.25 / 매도: weighted_signal <= -0.25 / 보유: otherwise
+recomputed_from_agent_signals,fixed_recommendation_from_recomputed,보유,28,93.3333,30,매수: weighted_signal >= +0.25 / 매도: weighted_signal <= -0.25 / 보유: otherwise
+recomputed_from_agent_signals,fixed_recommendation_from_recomputed,매도,1,3.3333,30,매수: weighted_signal >= +0.25 / 매도: weighted_signal <= -0.25 / 보유: otherwise
+recomputed_from_agent_signals,fixed_recommendation_from_recomputed,기타/공백,0,0.0,30,매수: weighted_signal >= +0.25 / 매도: weighted_signal <= -0.25 / 보유: otherwise
+recomputed_from_packet_weighted_signal,fixed_recommendation_recomputed,매수,1,3.3333,30,매수: weighted_signal >= +0.25 / 매도: weighted_signal <= -0.25 / 보유: otherwise
+recomputed_from_packet_weighted_signal,fixed_recommendation_recomputed,보유,28,93.3333,30,매수: weighted_signal >= +0.25 / 매도: weighted_signal <= -0.25 / 보유: otherwise
+recomputed_from_packet_weighted_signal,fixed_recommendation_recomputed,매도,1,3.3333,30,매수: weighted_signal >= +0.25 / 매도: weighted_signal <= -0.25 / 보유: otherwise
+recomputed_from_packet_weighted_signal,fixed_recommendation_recomputed,기타/공백,0,0.0,30,매수: weighted_signal >= +0.25 / 매도: weighted_signal <= -0.25 / 보유: otherwise
+packet_final_recommendation,fixed_final_recommendation,매수,1,3.3333,30,매수: weighted_signal >= +0.25 / 매도: weighted_signal <= -0.25 / 보유: otherwise
+packet_final_recommendation,fixed_final_recommendation,보유,23,76.6667,30,매수: weighted_signal >= +0.25 / 매도: weighted_signal <= -0.25 / 보유: otherwise
+packet_final_recommendation,fixed_final_recommendation,매도,6,20.0,30,매수: weighted_signal >= +0.25 / 매도: weighted_signal <= -0.25 / 보유: otherwise
+packet_final_recommendation,fixed_final_recommendation,기타/공백,0,0.0,30,매수: weighted_signal >= +0.25 / 매도: weighted_signal <= -0.25 / 보유: otherwise

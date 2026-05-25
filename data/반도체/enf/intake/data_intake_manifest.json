@@ -1,0 +1,30 @@
+{
+  "pipeline": "data_intake",
+  "status": "PARTIAL",
+  "created_at": "2026-05-19T10:42:20",
+  "company_dir": "enf",
+  "company": "이엔에프테크놀로지",
+  "field": "반도체",
+  "default_agents": [
+    "macro",
+    "finance",
+    "tech",
+    "valuation"
+  ],
+  "direct_agent_only_agents": [
+    "issue",
+    "market"
+  ],
+  "agents": [
+    {
+      "agent": "finance",
+      "status": "FAILED_NO_STOCK_CODE",
+      "started_at": "2026-05-19T10:42:14",
+      "ended_at": "2026-05-19T10:42:20",
+      "company_dir": "enf",
+      "company": "이엔에프테크놀로지",
+      "field": "반도체",
+      "error": "company.yaml 또는 기본 매핑에서 stock_code를 찾지 못했습니다."
+    }
+  ]
+}

@@ -1,0 +1,529 @@
+{
+  "created_at": "2026-05-07T22:03:30",
+  "method": "TF-IDF + Cosine Similarity",
+  "sklearn_available": true,
+  "feature_count": 3000,
+  "companies": [
+    {
+      "company_dir": "nepes",
+      "company": "네패스",
+      "input_patent_csv": "data\\반도체\\네패스\\tech\\source\\kipris_nepes_patents.csv",
+      "patent_rows": 420,
+      "text_rows": 420,
+      "source_type": "kipris_csv",
+      "document_chars": 170133
+    },
+    {
+      "company_dir": "hanmi",
+      "company": "한미반도체",
+      "input_patent_csv": "data\\반도체\\한미반도체\\tech\\source\\kipris_hanmi_patents.csv",
+      "patent_rows": 896,
+      "text_rows": 896,
+      "source_type": "kipris_csv",
+      "document_chars": 358655
+    },
+    {
+      "company_dir": "hansol",
+      "company": "한솔케미칼",
+      "input_patent_csv": "data\\반도체\\한솔케미칼\\tech\\source\\kipris_hansol_patents.csv",
+      "patent_rows": 651,
+      "text_rows": 651,
+      "source_type": "kipris_csv",
+      "document_chars": 265686
+    },
+    {
+      "company_dir": "duksan",
+      "company": "덕산테코피아",
+      "input_patent_csv": "data\\반도체\\덕산테코피아\\tech\\source\\kipris_duksan_patents.csv",
+      "patent_rows": 38,
+      "text_rows": 38,
+      "source_type": "kipris_csv",
+      "document_chars": 12181
+    },
+    {
+      "company_dir": "ltc",
+      "company": "LTC",
+      "input_patent_csv": "data\\반도체\\엘티씨\\tech\\source\\kipris_ltc_patents.csv",
+      "patent_rows": 506,
+      "text_rows": 506,
+      "source_type": "kipris_csv",
+      "document_chars": 236892
+    }
+  ],
+  "top_terms_by_company": {
+    "nepes": [
+      {
+        "term": "네패스",
+        "weight": 0.4547
+      },
+      {
+        "term": "패키지",
+        "weight": 0.2878
+      },
+      {
+        "term": "재배선",
+        "weight": 0.2731
+      },
+      {
+        "term": "반도체 패키지",
+        "weight": 0.2214
+      },
+      {
+        "term": "네패스 반도체",
+        "weight": 0.1672
+      },
+      {
+        "term": "전기적으로",
+        "weight": 0.1671
+      },
+      {
+        "term": "도전성",
+        "weight": 0.1593
+      },
+      {
+        "term": "반도체 칩의",
+        "weight": 0.1339
+      },
+      {
+        "term": "칩의",
+        "weight": 0.1313
+      },
+      {
+        "term": "제1 반도체",
+        "weight": 0.1228
+      },
+      {
+        "term": "h01m",
+        "weight": 0.1193
+      },
+      {
+        "term": "패키지를 제공한다",
+        "weight": 0.0993
+      },
+      {
+        "term": "패키지를",
+        "weight": 0.0949
+      },
+      {
+        "term": "포함하고",
+        "weight": 0.0891
+      },
+      {
+        "term": "연결된",
+        "weight": 0.0869
+      }
+    ],
+    "hanmi": [
+      {
+        "term": "한미반도체",
+        "weight": 0.3802
+      },
+      {
+        "term": "a61k",
+        "weight": 0.3277
+      },
+      {
+        "term": "패키지",
+        "weight": 0.3213
+      },
+      {
+        "term": "반도체 패키지",
+        "weight": 0.2791
+      },
+      {
+        "term": "한미반도체 반도체",
+        "weight": 0.1939
+      },
+      {
+        "term": "한미약품",
+        "weight": 0.1703
+      },
+      {
+        "term": "이의",
+        "weight": 0.1418
+      },
+      {
+        "term": "패키지를",
+        "weight": 0.1307
+      },
+      {
+        "term": "자재",
+        "weight": 0.13
+      },
+      {
+        "term": "h10p 72/00",
+        "weight": 0.1229
+      },
+      {
+        "term": "반도체 자재",
+        "weight": 0.1065
+      },
+      {
+        "term": "h10p 72/30",
+        "weight": 0.1055
+      },
+      {
+        "term": "a61p",
+        "weight": 0.1024
+      },
+      {
+        "term": "반도체 패키지의",
+        "weight": 0.092
+      }
+    ],
+    "hansol": [
+      {
+        "term": "한솔케미칼",
+        "weight": 0.3522
+      },
+      {
+        "term": "h01m",
+        "weight": 0.2926
+      },
+      {
+        "term": "있게",
+        "weight": 0.2195
+      },
+      {
+        "term": "대한솔루션",
+        "weight": 0.1948
+      },
+      {
+        "term": "c08f",
+        "weight": 0.1852
+      },
+      {
+        "term": "자동차용",
+        "weight": 0.1727
+      },
+      {
+        "term": "양자점",
+        "weight": 0.1478
+      },
+      {
+        "term": "단량체",
+        "weight": 0.1184
+      },
+      {
+        "term": "b60r",
+        "weight": 0.1175
+      },
+      {
+        "term": "구성함으로써",
+        "weight": 0.1101
+      },
+      {
+        "term": "음극",
+        "weight": 0.1092
+      },
+      {
+        "term": "사용할",
+        "weight": 0.0996
+      },
+      {
+        "term": "b32b",
+        "weight": 0.0965
+      },
+      {
+        "term": "단량체 단위",
+        "weight": 0.0925
+      },
+      {
+        "term": "있게 구성함으로써",
+        "weight": 0.0925
+      }
+    ],
+    "duksan": [
+      {
+        "term": "덕산테코피아",
+        "weight": 0.7523
+      },
+      {
+        "term": "tmga",
+        "weight": 0.2376
+      },
+      {
+        "term": "액체",
+        "weight": 0.1896
+      },
+      {
+        "term": "솔더",
+        "weight": 0.1856
+      },
+      {
+        "term": "도전성",
+        "weight": 0.1724
+      },
+      {
+        "term": "g03f",
+        "weight": 0.145
+      },
+      {
+        "term": "박리액",
+        "weight": 0.1438
+      },
+      {
+        "term": "박막",
+        "weight": 0.1338
+      },
+      {
+        "term": "회수",
+        "weight": 0.1326
+      },
+      {
+        "term": "솔더볼",
+        "weight": 0.1326
+      },
+      {
+        "term": "플럭스",
+        "weight": 0.1278
+      },
+      {
+        "term": "c11d",
+        "weight": 0.1115
+      },
+      {
+        "term": "화학",
+        "weight": 0.1004
+      },
+      {
+        "term": "포토레지스트 박리액",
+        "weight": 0.0958
+      },
+      {
+        "term": "박스",
+        "weight": 0.0796
+      }
+    ],
+    "ltc": [
+      {
+        "term": "윤활유",
+        "weight": 0.2698
+      },
+      {
+        "term": "전력을",
+        "weight": 0.1497
+      },
+      {
+        "term": "보호창",
+        "weight": 0.1445
+      },
+      {
+        "term": "h01m",
+        "weight": 0.1439
+      },
+      {
+        "term": "수용",
+        "weight": 0.1229
+      },
+      {
+        "term": "h02j",
+        "weight": 0.1205
+      },
+      {
+        "term": "디지털",
+        "weight": 0.1147
+      },
+      {
+        "term": "레이저",
+        "weight": 0.1031
+      },
+      {
+        "term": "데이터를",
+        "weight": 0.1018
+      },
+      {
+        "term": "dc/dc",
+        "weight": 0.0988
+      },
+      {
+        "term": "엘티씨에이엠",
+        "weight": 0.0964
+      },
+      {
+        "term": "레이저 비전",
+        "weight": 0.0915
+      },
+      {
+        "term": "복수의",
+        "weight": 0.0882
+      },
+      {
+        "term": "효과가",
+        "weight": 0.0882
+      },
+      {
+        "term": "엘티씨",
+        "weight": 0.0867
+      }
+    ]
+  },
+  "similarity_matrix": [
+    {
+      "company_dir": "nepes",
+      "company": "네패스",
+      "nepes": 1.0,
+      "hanmi": 0.2553,
+      "hansol": 0.1297,
+      "duksan": 0.0643,
+      "ltc": 0.1622
+    },
+    {
+      "company_dir": "hanmi",
+      "company": "한미반도체",
+      "nepes": 0.2553,
+      "hanmi": 1.0,
+      "hansol": 0.0877,
+      "duksan": 0.0198,
+      "ltc": 0.1464
+    },
+    {
+      "company_dir": "hansol",
+      "company": "한솔케미칼",
+      "nepes": 0.1297,
+      "hanmi": 0.0877,
+      "hansol": 1.0,
+      "duksan": 0.052,
+      "ltc": 0.2553
+    },
+    {
+      "company_dir": "duksan",
+      "company": "덕산테코피아",
+      "nepes": 0.0643,
+      "hanmi": 0.0198,
+      "hansol": 0.052,
+      "duksan": 1.0,
+      "ltc": 0.0651
+    },
+    {
+      "company_dir": "ltc",
+      "company": "LTC",
+      "nepes": 0.1622,
+      "hanmi": 0.1464,
+      "hansol": 0.2553,
+      "duksan": 0.0651,
+      "ltc": 1.0
+    }
+  ],
+  "nearest_peers": [
+    {
+      "company_dir": "nepes",
+      "company": "네패스",
+      "nearest_peer_dir": "hanmi",
+      "nearest_peer": "한미반도체",
+      "similarity": 0.2553,
+      "similarity_percent": 25.53,
+      "domain_inference": "반도체 후공정/패키징",
+      "top_terms": [
+        "네패스",
+        "패키지",
+        "재배선",
+        "반도체 패키지",
+        "네패스 반도체",
+        "전기적으로",
+        "도전성",
+        "반도체 칩의"
+      ],
+      "shared_terms_with_nearest_peer": [
+        "반도체 패키지",
+        "패키지"
+      ],
+      "interpretation": "기술축 차이가 큰 편"
+    },
+    {
+      "company_dir": "hanmi",
+      "company": "한미반도체",
+      "nearest_peer_dir": "nepes",
+      "nearest_peer": "네패스",
+      "similarity": 0.2553,
+      "similarity_percent": 25.53,
+      "domain_inference": "반도체 장비/본딩",
+      "top_terms": [
+        "한미반도체",
+        "a61k",
+        "패키지",
+        "반도체 패키지",
+        "한미반도체 반도체",
+        "한미약품",
+        "이의",
+        "패키지를"
+      ],
+      "shared_terms_with_nearest_peer": [
+        "반도체 패키지",
+        "패키지"
+      ],
+      "interpretation": "기술축 차이가 큰 편"
+    },
+    {
+      "company_dir": "hansol",
+      "company": "한솔케미칼",
+      "nearest_peer_dir": "ltc",
+      "nearest_peer": "LTC",
+      "similarity": 0.2553,
+      "similarity_percent": 25.53,
+      "domain_inference": "이차전지/배터리 소재",
+      "top_terms": [
+        "한솔케미칼",
+        "h01m",
+        "있게",
+        "대한솔루션",
+        "c08f",
+        "자동차용",
+        "양자점",
+        "단량체"
+      ],
+      "shared_terms_with_nearest_peer": [
+        "h01m"
+      ],
+      "interpretation": "기술축 차이가 큰 편"
+    },
+    {
+      "company_dir": "duksan",
+      "company": "덕산테코피아",
+      "nearest_peer_dir": "ltc",
+      "nearest_peer": "LTC",
+      "similarity": 0.0651,
+      "similarity_percent": 6.51,
+      "domain_inference": "반도체·디스플레이 소재",
+      "top_terms": [
+        "덕산테코피아",
+        "tmga",
+        "액체",
+        "솔더",
+        "도전성",
+        "g03f",
+        "박리액",
+        "박막"
+      ],
+      "shared_terms_with_nearest_peer": [],
+      "interpretation": "기술 텍스트 기준 유사도 낮음"
+    },
+    {
+      "company_dir": "ltc",
+      "company": "LTC",
+      "nearest_peer_dir": "hansol",
+      "nearest_peer": "한솔케미칼",
+      "similarity": 0.2553,
+      "similarity_percent": 25.53,
+      "domain_inference": "검사/테스트·공정 모니터링",
+      "top_terms": [
+        "윤활유",
+        "전력을",
+        "보호창",
+        "h01m",
+        "수용",
+        "h02j",
+        "디지털",
+        "레이저"
+      ],
+      "shared_terms_with_nearest_peer": [
+        "h01m"
+      ],
+      "interpretation": "기술축 차이가 큰 편"
+    }
+  ],
+  "notes": [
+    "Cosine similarity는 특허 제목·초록·IPC/CPC 등 기술 텍스트 유사도를 나타내며, 재무적 유사도나 주가 상관을 의미하지 않습니다.",
+    "5개 기업 MVP에서는 peer map의 방향성 확인용으로 사용하고, 30개 이상 확장 시 분야별 reference universe 기반 상대평가로 고도화합니다."
+  ]
+}

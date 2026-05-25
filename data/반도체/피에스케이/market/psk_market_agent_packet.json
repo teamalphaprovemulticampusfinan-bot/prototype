@@ -1,0 +1,1174 @@
+{
+  "agent": "market",
+  "company_name": "피에스케이",
+  "company": "피에스케이",
+  "opinion": "보유",
+  "confidence": 0.45,
+  "summary": "피에스케이에 대해 검증 가능한 핵심 근거는 다음과 같습니다. 피에스케이 마켓 분석 total_score 값은 70점입니다. 피에스케이 stock_data.current_price 값은 103600입니다. 피에스케이 stock_data.change 값은 -2400입니다. 피에스케이 stock_data.change_rate 값은 -2.26%입니다. 피에스케이 stock_data.raw.clpr 값은 103600입니다.",
+  "key_points": [
+    "피에스케이 마켓 분석 total_score 값은 70점입니다.",
+    "피에스케이 stock_data.current_price 값은 103600입니다.",
+    "피에스케이 stock_data.change 값은 -2400입니다.",
+    "피에스케이 stock_data.change_rate 값은 -2.26%입니다.",
+    "피에스케이 stock_data.raw.clpr 값은 103600입니다."
+  ],
+  "risks": [],
+  "claims": [
+    {
+      "claim_id": "market.cl.001",
+      "text": "피에스케이 마켓 분석 total_score 값은 70점입니다.",
+      "evidence_ids": [
+        "market.ev.001"
+      ]
+    },
+    {
+      "claim_id": "market.cl.002",
+      "text": "피에스케이 stock_data.current_price 값은 103600입니다.",
+      "evidence_ids": [
+        "market.ev.006"
+      ]
+    },
+    {
+      "claim_id": "market.cl.003",
+      "text": "피에스케이 stock_data.change 값은 -2400입니다.",
+      "evidence_ids": [
+        "market.ev.009"
+      ]
+    },
+    {
+      "claim_id": "market.cl.004",
+      "text": "피에스케이 stock_data.change_rate 값은 -2.26%입니다.",
+      "evidence_ids": [
+        "market.ev.010"
+      ]
+    },
+    {
+      "claim_id": "market.cl.005",
+      "text": "피에스케이 stock_data.raw.clpr 값은 103600입니다.",
+      "evidence_ids": [
+        "market.ev.016"
+      ]
+    },
+    {
+      "claim_id": "market.cl.006",
+      "text": "피에스케이 stock_data.raw.vs 값은 -2400입니다.",
+      "evidence_ids": [
+        "market.ev.017"
+      ]
+    },
+    {
+      "claim_id": "market.auto_cl.007",
+      "text": "stock_data.raw.fltRt 값은 -2.26%입니다.",
+      "evidence_ids": [
+        "market.ev.018"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "market.auto_cl.009",
+      "text": "stock_data.raw.mkp 값은 106,700입니다.",
+      "evidence_ids": [
+        "market.ev.019"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "market.auto_cl.011",
+      "text": "stock_data.raw.hipr 값은 110,500입니다.",
+      "evidence_ids": [
+        "market.ev.020"
+      ],
+      "claim_type": "point"
+    }
+  ],
+  "evidences": [
+    {
+      "evidence_id": "market.ev.001",
+      "source_type": "market",
+      "source": "market_graph_analysis",
+      "metric": "total_score",
+      "value": 70,
+      "unit": "score",
+      "period": null,
+      "snippet": "market_graph_analysis | total_score | 값: 70score"
+    },
+    {
+      "evidence_id": "market.ev.002",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.provider",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.provider | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.003",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.company",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.company | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.004",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.ticker",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.ticker | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.005",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.krx_code",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.krx_code | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.006",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.current_price",
+      "value": 103600,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.current_price | 값: 103,600원"
+    },
+    {
+      "evidence_id": "market.ev.007",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.currency",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.currency | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.008",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.as_of",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.as_of | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.009",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change",
+      "value": -2400,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.change | 값: -2,400"
+    },
+    {
+      "evidence_id": "market.ev.010",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change_rate",
+      "value": -2.26,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.change_rate | 값: -2.26%"
+    },
+    {
+      "evidence_id": "market.ev.011",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.basDt",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.basDt | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.012",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.srtnCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.srtnCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.013",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.isinCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.isinCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.014",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.itmsNm",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.itmsNm | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.015",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mrktCtg",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mrktCtg | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.016",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.clpr",
+      "value": 103600,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 103,600원"
+    },
+    {
+      "evidence_id": "market.ev.017",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.vs",
+      "value": -2400,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.vs | 값: -2,400"
+    },
+    {
+      "evidence_id": "market.ev.018",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.fltRt",
+      "value": -2.26,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: -2.26%"
+    },
+    {
+      "evidence_id": "market.ev.019",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mkp",
+      "value": 106700,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 106,700"
+    },
+    {
+      "evidence_id": "market.ev.020",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.hipr",
+      "value": 110500,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 110,500"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "market.ev.001",
+      "source_type": "market",
+      "source": "market_graph_analysis",
+      "metric": "total_score",
+      "value": 70,
+      "unit": "score",
+      "period": null,
+      "snippet": "market_graph_analysis | total_score | 값: 70score"
+    },
+    {
+      "evidence_id": "market.ev.002",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.provider",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.provider | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.003",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.company",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.company | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.004",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.ticker",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.ticker | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.005",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.krx_code",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.krx_code | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.006",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.current_price",
+      "value": 103600,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.current_price | 값: 103,600원"
+    },
+    {
+      "evidence_id": "market.ev.007",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.currency",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.currency | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.008",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.as_of",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.as_of | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.009",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change",
+      "value": -2400,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.change | 값: -2,400"
+    },
+    {
+      "evidence_id": "market.ev.010",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change_rate",
+      "value": -2.26,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.change_rate | 값: -2.26%"
+    },
+    {
+      "evidence_id": "market.ev.011",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.basDt",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.basDt | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.012",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.srtnCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.srtnCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.013",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.isinCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.isinCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.014",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.itmsNm",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.itmsNm | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.015",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mrktCtg",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mrktCtg | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.016",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.clpr",
+      "value": 103600,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 103,600원"
+    },
+    {
+      "evidence_id": "market.ev.017",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.vs",
+      "value": -2400,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.vs | 값: -2,400"
+    },
+    {
+      "evidence_id": "market.ev.018",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.fltRt",
+      "value": -2.26,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: -2.26%"
+    },
+    {
+      "evidence_id": "market.ev.019",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mkp",
+      "value": 106700,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 106,700"
+    },
+    {
+      "evidence_id": "market.ev.020",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.hipr",
+      "value": 110500,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 110,500"
+    }
+  ],
+  "raw_payload": {
+    "analysis": {
+      "agent": "market",
+      "company": "피에스케이",
+      "opinion": "보유",
+      "confidence": 0.6,
+      "market_summary": {
+        "oecd_interpretation": "OECD 경기선행지수가 98.01로 기준선(100) 하회하며 경기 둔화 가능성을 시사합니다. 이는 반도체 산업 전반에 부정적인 영향을 미칠 수 있습니다.",
+        "industry_stage": "피에스케이가 속한 반도체 장비 산업은 AI·HBM 등 신규 수요에 힘입어 성장기에 진입했으나, 전체 시장은 성숙기 후반~쇠퇴기 세그먼트도 존재하여 업황 변동성이 높습니다.",
+        "value_chain_position": "피에스케이는 반도체 제조 장비, 특히 Dry Strip 및 Dry Cleaning 분야에서 종합 프로세스 장비 글로벌 리더를 목표로 하는 핵심 공급업체입니다. AI·HBM 관련 장비 수요 증가의 직접적인 수혜가 기대됩니다.",
+        "competitive_position": "반도체 장비 산업은 EUV 장비의 ASML 독점 등 높은 기술 진입 장벽이 존재하며, 피에스케이는 경쟁이 치열한 시장에서 기술력과 다양한 제품 공급을 통해 경쟁 우위를 확보하려 노력하고 있습니다.",
+        "market_momentum": "현재 주가는 103,600원으로 최근 하락세를 보이고 있으며, 삼성전자 파업 이슈 등 부정적인 뉴스가 시장 모멘텀에 부담을 주고 있습니다."
+      },
+      "qualitative_rubric": {
+        "macro_cycle": {
+          "assessment": "중",
+          "reason": "OECD 경기선행지수가 기준선 하회하며 경기 둔화 가능성을 시사하나, 반도체 산업 자체의 성장 동력은 존재합니다."
+        },
+        "industry_attractiveness": {
+          "assessment": "상",
+          "reason": "AI·HBM 등 신규 수요로 반도체 장비 시장의 성장성이 높으며, 특히 첨단 장비 수요가 급증하고 있습니다."
+        },
+        "value_chain_position": {
+          "assessment": "상",
+          "reason": "피에스케이는 반도체 제조 장비의 핵심 공급업체로서 AI·HBM 관련 수요 증가의 직접적인 수혜가 예상됩니다."
+        },
+        "competitive_position": {
+          "assessment": "중",
+          "reason": "높은 기술 진입 장벽 속에서 경쟁이 치열하지만, 피에스케이는 종합 프로세스 장비 공급을 통해 경쟁력을 확보하고 있습니다."
+        },
+        "market_momentum": {
+          "assessment": "하",
+          "reason": "최근 주가 하락세와 삼성전자 파업 등 부정적 뉴스가 시장 모멘텀에 부담을 주고 있습니다."
+        },
+        "policy_disclosure_signal": {
+          "assessment": "상",
+          "reason": "정부의 R&D 지원 확대, 세액공제 등 정책적 지원과 반도체 장비 국산화 기회가 긍정적 신호입니다."
+        },
+        "downside_risk": {
+          "assessment": "중",
+          "reason": "삼성전자 파업으로 인한 생산 차질 우려, 글로벌 반도체 업황 변동성, 환율 상승 등이 잠재적 하방 리스크 요인입니다."
+        }
+      },
+      "bwm_assessment": {
+        "best_criterion": "산업 매력도",
+        "worst_criterion": "시장 모멘텀",
+        "judgment_effect": "산업의 높은 성장성과 밸류체인 내 중요성에도 불구하고, 단기적인 시장 모멘텀 약화와 삼성전자 파업 이슈가 투자의견을 '보유'로 조정하는 주요 요인입니다."
+      },
+      "scoring": {
+        "거시환경": {
+          "score": 12,
+          "max": 20,
+          "reason": "OECD 경기선행지수 하락은 부정적이나, 반도체 산업 자체의 성장 동력은 존재합니다."
+        },
+        "산업매력도": {
+          "score": 18,
+          "max": 20,
+          "reason": "AI·HBM 등 신규 수요로 반도체 장비 시장의 높은 성장성이 기대됩니다."
+        },
+        "경쟁위치": {
+          "score": 15,
+          "max": 20,
+          "reason": "높은 기술 진입 장벽 속 경쟁이 치열하나, 피에스케이는 핵심 공급업체로서 경쟁력을 보유하고 있습니다."
+        },
+        "정책수혜": {
+          "score": 17,
+          "max": 20,
+          "reason": "정부의 R&D 지원 확대 및 세액공제 등 정책적 지원과 국산화 기회가 긍정적입니다."
+        },
+        "시장모멘텀": {
+          "score": 8,
+          "max": 20,
+          "reason": "최근 주가 하락세와 삼성전자 파업 등 부정적 뉴스가 시장 모멘텀에 부담을 주고 있습니다."
+        }
+      },
+      "total_score": 70,
+      "claims": [
+        {
+          "claim_id": "market.cl.001",
+          "text": "AI·HBM 수요 증가로 반도체 장비 시장의 높은 성장성이 기대됩니다.",
+          "evidence_ids": [
+            "market.ev.002"
+          ]
+        },
+        {
+          "claim_id": "market.cl.002",
+          "text": "피에스케이는 반도체 제조 장비의 핵심 공급업체로서 밸류체인 내 중요성이 높습니다.",
+          "evidence_ids": [
+            "market.ev.005"
+          ]
+        },
+        {
+          "claim_id": "market.cl.003",
+          "text": "삼성전자 파업 이슈와 글로벌 반도체 업황 변동성이 단기적인 시장 모멘텀 약화 요인입니다.",
+          "evidence_ids": [
+            "market.ev.004",
+            "market.ev.003"
+          ]
+        }
+      ],
+      "evidences": [
+        {
+          "evidence_id": "market.ev.001",
+          "source_type": "stock",
+          "source": "public_data",
+          "metric": "current_price",
+          "value": 103600,
+          "unit": "KRW",
+          "period": "20260519",
+          "snippet": "current_price: 103600, change_rate: -2.26"
+        },
+        {
+          "evidence_id": "market.ev.002",
+          "source_type": "static",
+          "source": "엑셀",
+          "metric": "AI·HBM 반도체 시장 성장률",
+          "value": "+40",
+          "unit": "% 이상",
+          "period": "2025",
+          "snippet": "AI·HBM 반도체: 성장기\nAI 반도체 +40% 이상"
+        },
+        {
+          "evidence_id": "market.ev.003",
+          "source_type": "news",
+          "source": "Naver News",
+          "metric": "삼성전자 파업",
+          "value": null,
+          "unit": null,
+          "period": "20260520",
+          "snippet": "삼성전자 노사 협상 끝내 결렬…노조, 21일부터 총파업 돌입"
+        },
+        {
+          "evidence_id": "market.ev.004",
+          "source_type": "news",
+          "source": "Naver News",
+          "metric": "반도체 업황",
+          "value": null,
+          "unit": null,
+          "period": "20260520",
+          "snippet": "뜨겁던 반도체 랠리에 '균열'…\"가장 과밀한 트레이드\" 경고"
+        },
+        {
+          "evidence_id": "market.ev.005",
+          "source_type": "dart",
+          "source": "DART",
+          "metric": "사업 내용",
+          "value": null,
+          "unit": null,
+          "period": null,
+          "snippet": "피에스케이는 반도체 제조 장비를 생산하는 주력 기업으로 언급되고 있습니다."
+        }
+      ],
+      "risks": [
+        {
+          "risk": "삼성전자 파업으로 인한 생산 차질 및 공급망 불안정",
+          "severity": "중",
+          "basis": "삼성전자 노사 협상 결렬 및 총파업 돌입 뉴스"
+        },
+        {
+          "risk": "글로벌 반도체 업황 변동성 및 경쟁 심화",
+          "severity": "중",
+          "basis": "OECD 경기선행지수 하락 및 경쟁 구조 분석"
+        },
+        {
+          "risk": "환율 상승으로 인한 원가 부담 증가",
+          "severity": "하",
+          "basis": "환율 1500원대 유지 뉴스"
+        }
+      ],
+      "opportunities": [
+        {
+          "opportunity": "AI·HBM 시장 성장에 따른 첨단 반도체 장비 수요 증가",
+          "basis": "AI·HBM 반도체 시장 성장률 데이터"
+        },
+        {
+          "opportunity": "정부 정책 지원 및 반도체 장비 국산화 기회",
+          "basis": "정책 수혜 분석 및 DART 공시 내용"
+        }
+      ],
+      "summary": "피에스케이는 AI·HBM 시장 성장에 따른 높은 산업 매력도와 밸류체인 내 중요성을 보유하고 있습니다. 그러나 삼성전자 파업 이슈와 단기적인 시장 모멘텀 약화로 인해 '보유' 의견을 제시합니다. 향후 업황 회복 및 파업 이슈 해소 여부가 중요합니다.",
+      "raw_payload": {
+        "stock_used": true,
+        "oecd_used": true,
+        "static_used": true,
+        "news_used": true,
+        "dart_used": true
+      }
+    },
+    "original_opportunities": [
+      {
+        "opportunity": "AI·HBM 시장 성장에 따른 첨단 반도체 장비 수요 증가",
+        "basis": "AI·HBM 반도체 시장 성장률 데이터"
+      },
+      {
+        "opportunity": "정부 정책 지원 및 반도체 장비 국산화 기회",
+        "basis": "정책 수혜 분석 및 DART 공시 내용"
+      }
+    ],
+    "original_risks": [
+      {
+        "risk": "삼성전자 파업으로 인한 생산 차질 및 공급망 불안정",
+        "severity": "중",
+        "basis": "삼성전자 노사 협상 결렬 및 총파업 돌입 뉴스"
+      },
+      {
+        "risk": "글로벌 반도체 업황 변동성 및 경쟁 심화",
+        "severity": "중",
+        "basis": "OECD 경기선행지수 하락 및 경쟁 구조 분석"
+      },
+      {
+        "risk": "환율 상승으로 인한 원가 부담 증가",
+        "severity": "하",
+        "basis": "환율 1500원대 유지 뉴스"
+      }
+    ],
+    "removed_bad_evidence_ids": [
+      "market.ev.unverified"
+    ]
+  },
+  "total_score": 70,
+  "scoring": {
+    "거시환경": {
+      "score": 12,
+      "max": 20,
+      "reason": "OECD 경기선행지수 하락은 부정적이나, 반도체 산업 자체의 성장 동력은 존재합니다."
+    },
+    "산업매력도": {
+      "score": 18,
+      "max": 20,
+      "reason": "AI·HBM 등 신규 수요로 반도체 장비 시장의 높은 성장성이 기대됩니다."
+    },
+    "경쟁위치": {
+      "score": 15,
+      "max": 20,
+      "reason": "높은 기술 진입 장벽 속 경쟁이 치열하나, 피에스케이는 핵심 공급업체로서 경쟁력을 보유하고 있습니다."
+    },
+    "정책수혜": {
+      "score": 17,
+      "max": 20,
+      "reason": "정부의 R&D 지원 확대 및 세액공제 등 정책적 지원과 국산화 기회가 긍정적입니다."
+    },
+    "시장모멘텀": {
+      "score": 8,
+      "max": 20,
+      "reason": "최근 주가 하락세와 삼성전자 파업 등 부정적 뉴스가 시장 모멘텀에 부담을 주고 있습니다."
+    }
+  },
+  "packet_version": "grounded_agent_v3",
+  "pre_sanitize_grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 6,
+    "supported_count": 6,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "피에스케이 마켓 분석 total_score 값은 70점입니다.",
+      "피에스케이 stock_data.current_price 값은 103600입니다.",
+      "피에스케이 stock_data.change 값은 -2400입니다.",
+      "피에스케이 stock_data.change_rate 값은 -2.26%입니다.",
+      "피에스케이 stock_data.raw.clpr 값은 103600입니다.",
+      "피에스케이 stock_data.raw.vs 값은 -2400입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "market.cl.001",
+        "text": "피에스케이 마켓 분석 total_score 값은 70점입니다.",
+        "evidence_ids": [
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "피에스케이 stock_data.current_price 값은 103600입니다.",
+        "evidence_ids": [
+          "market.ev.006"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {
+          "price": [
+            "market.ev.006"
+          ]
+        },
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.003",
+        "text": "피에스케이 stock_data.change 값은 -2400입니다.",
+        "evidence_ids": [
+          "market.ev.009"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.004",
+        "text": "피에스케이 stock_data.change_rate 값은 -2.26%입니다.",
+        "evidence_ids": [
+          "market.ev.010"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.005",
+        "text": "피에스케이 stock_data.raw.clpr 값은 103600입니다.",
+        "evidence_ids": [
+          "market.ev.016"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.006",
+        "text": "피에스케이 stock_data.raw.vs 값은 -2400입니다.",
+        "evidence_ids": [
+          "market.ev.017"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  },
+  "post_atomic_grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 9,
+    "supported_count": 9,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "피에스케이 마켓 분석 total_score 값은 70점입니다.",
+      "피에스케이 stock_data.current_price 값은 103600입니다.",
+      "피에스케이 stock_data.change 값은 -2400입니다.",
+      "피에스케이 stock_data.change_rate 값은 -2.26%입니다.",
+      "피에스케이 stock_data.raw.clpr 값은 103600입니다.",
+      "피에스케이 stock_data.raw.vs 값은 -2400입니다.",
+      "stock_data.raw.fltRt 값은 -2.26%입니다.",
+      "stock_data.raw.mkp 값은 106,700입니다.",
+      "stock_data.raw.hipr 값은 110,500입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "market.cl.001",
+        "text": "피에스케이 마켓 분석 total_score 값은 70점입니다.",
+        "evidence_ids": [
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "피에스케이 stock_data.current_price 값은 103600입니다.",
+        "evidence_ids": [
+          "market.ev.006"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {
+          "price": [
+            "market.ev.006"
+          ]
+        },
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.003",
+        "text": "피에스케이 stock_data.change 값은 -2400입니다.",
+        "evidence_ids": [
+          "market.ev.009"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.004",
+        "text": "피에스케이 stock_data.change_rate 값은 -2.26%입니다.",
+        "evidence_ids": [
+          "market.ev.010"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.005",
+        "text": "피에스케이 stock_data.raw.clpr 값은 103600입니다.",
+        "evidence_ids": [
+          "market.ev.016"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.006",
+        "text": "피에스케이 stock_data.raw.vs 값은 -2400입니다.",
+        "evidence_ids": [
+          "market.ev.017"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.007",
+        "text": "stock_data.raw.fltRt 값은 -2.26%입니다.",
+        "evidence_ids": [
+          "market.ev.018"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.009",
+        "text": "stock_data.raw.mkp 값은 106,700입니다.",
+        "evidence_ids": [
+          "market.ev.019"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.011",
+        "text": "stock_data.raw.hipr 값은 110,500입니다.",
+        "evidence_ids": [
+          "market.ev.020"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  },
+  "grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 9,
+    "supported_count": 9,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "피에스케이 마켓 분석 total_score 값은 70점입니다.",
+      "피에스케이 stock_data.current_price 값은 103600입니다.",
+      "피에스케이 stock_data.change 값은 -2400입니다.",
+      "피에스케이 stock_data.change_rate 값은 -2.26%입니다.",
+      "피에스케이 stock_data.raw.clpr 값은 103600입니다.",
+      "피에스케이 stock_data.raw.vs 값은 -2400입니다.",
+      "stock_data.raw.fltRt 값은 -2.26%입니다.",
+      "stock_data.raw.mkp 값은 106,700입니다.",
+      "stock_data.raw.hipr 값은 110,500입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "market.cl.001",
+        "text": "피에스케이 마켓 분석 total_score 값은 70점입니다.",
+        "evidence_ids": [
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "피에스케이 stock_data.current_price 값은 103600입니다.",
+        "evidence_ids": [
+          "market.ev.006"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {
+          "price": [
+            "market.ev.006"
+          ]
+        },
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.003",
+        "text": "피에스케이 stock_data.change 값은 -2400입니다.",
+        "evidence_ids": [
+          "market.ev.009"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.004",
+        "text": "피에스케이 stock_data.change_rate 값은 -2.26%입니다.",
+        "evidence_ids": [
+          "market.ev.010"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.005",
+        "text": "피에스케이 stock_data.raw.clpr 값은 103600입니다.",
+        "evidence_ids": [
+          "market.ev.016"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.006",
+        "text": "피에스케이 stock_data.raw.vs 값은 -2400입니다.",
+        "evidence_ids": [
+          "market.ev.017"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.007",
+        "text": "stock_data.raw.fltRt 값은 -2.26%입니다.",
+        "evidence_ids": [
+          "market.ev.018"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.009",
+        "text": "stock_data.raw.mkp 값은 106,700입니다.",
+        "evidence_ids": [
+          "market.ev.019"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.011",
+        "text": "stock_data.raw.hipr 값은 110,500입니다.",
+        "evidence_ids": [
+          "market.ev.020"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  }
+}

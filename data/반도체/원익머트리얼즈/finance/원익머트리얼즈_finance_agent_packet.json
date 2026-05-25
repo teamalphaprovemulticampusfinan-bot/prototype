@@ -1,0 +1,223 @@
+{
+  "agent_name": "finance",
+  "company_name": "원익머트리얼즈",
+  "company_dir": "wonik_materials",
+  "industry_type": "deeptech_semiconductor",
+  "summary": "원익머트리얼즈는 2024년 매출이 감소했으나 영업이익률과 ROE가 크게 개선되며 수익성이 향상되는 모습을 보였다. 2025년에는 매출이 소폭 반등할 것으로 예상되나, 자유현금흐름이 마이너스로 전환되며 투자 확대에 따른 현금 흐름 부담이 나타날 수 있다. 주가는 2025년 큰 폭의 연수익률을 기록했으나, 최근 1개월간 변동성이 확대되며 단기적인 주가 흐름에 대한 면밀한 관찰이 필요하다.",
+  "key_thesis": [
+    "2024년 영업이익률이 16.71%로 크게 개선되었으며, 2025년에도 17.52%로 높은 수준을 유지할 것으로 전망된다.",
+    "2024년 ROE가 6.61%로 상승했으며, 2025년에는 9.27%까지 개선될 것으로 예상되어 수익성 지표가 긍정적이다.",
+    "2023년 3.09%에서 2024년 6.61%, 2025년 9.27%로 ROE가 꾸준히 상승하는 추세는 긍정적이다.",
+    "2025년 연수익률이 80.1%로 높은 수준을 기록했으며, 2026년에도 43.67%의 높은 수익률을 보여 주가 모멘텀이 강하다.",
+    "2024년 부채비율이 21.23%로 낮게 유지되었으며, 2025년에도 21.37%로 안정적인 재무 구조를 보여준다.",
+    "2024년 이자보상배율이 20.83배로 크게 개선되었으며, 2025년에는 28.71배로 더욱 높아져 이자 지급 능력이 우수하다."
+  ],
+  "key_risks": [
+    "2025년 자유현금흐름(FCF)이 -51.23억 원으로 마이너스 전환되어, 대규모 투자 집행으로 인한 현금 유출 가능성을 주시해야 한다.",
+    "2024년 연간 MDD가 -56.71%로 매우 큰 폭의 하락을 경험했으며, 2025년에도 -22.66%의 하락을 기록하여 주가 변동성 리스크가 크다.",
+    "최근 1개월 주가 데이터에서 2026년 4월 16일 11.06%의 급등 이후 5월 8일 -4.92%, 5월 12일 -2.98% 등 단기적인 하락세가 관찰되어 변동성이 확대되고 있다.",
+    "2026년 5월 12일 거래량 대비 이동평균 비율이 0.73으로 낮아졌으며, 이는 단기적으로 거래량이 평균 이하로 감소했음을 시사한다.",
+    "2025년 자본적 지출(Capex)이 828.38억 원으로 전년 대비 증가하여, 향후 현금 흐름에 영향을 미칠 수 있다."
+  ],
+  "report_core_points": [
+    "FCF: 원익머트리얼즈 2025 기준 FCF 값은 -5,122,808,658원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+    "연수익률: 원익머트리얼즈 2026 기준 연수익률 값은 43.67%이며, 해당 연도 주가 성과를 보여주는 지표입니다.",
+    "연간 MDD: 원익머트리얼즈 2026 기준 연간 MDD 값은 -18.47%이며, 투자자가 경험할 수 있는 최대 낙폭 위험을 보여주는 지표입니다.",
+    "거래량: 원익머트리얼즈 2026 기준 거래량 값은 104853.00주이며, 해당 연도 평균 거래량을 통해 시장 관심과 유동성을 확인하는 지표입니다.",
+    "이동평균 대비 비율: 원익머트리얼즈 2026 기준 이동평균 대비 비율 값은 1.10배이며, 거래량이 이동평균 대비 어느 수준인지 보여주는 수급 지표입니다."
+  ],
+  "missing_prompt_metrics": [
+    "매출성장률",
+    "영업이익률",
+    "ROE",
+    "부채비율",
+    "변동성지수"
+  ],
+  "evidence": [
+    {
+      "evidence_id": "finance.ev.004",
+      "source_type": "financial_csv",
+      "source": "원익머트리얼즈_재무.csv",
+      "metric": "fcf",
+      "label": "FCF",
+      "value": -5122808658.0,
+      "unit": "원",
+      "period": "2025",
+      "snippet": "원익머트리얼즈 2025 기준 FCF 값은 -5,122,808,658원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.007",
+      "source_type": "stock_csv",
+      "source": "원익머트리얼즈_주식.csv",
+      "metric": "annual_return_%",
+      "label": "연수익률",
+      "value": 43.67,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "원익머트리얼즈 2026 기준 연수익률 값은 43.67%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.008",
+      "source_type": "stock_csv",
+      "source": "원익머트리얼즈_주식.csv",
+      "metric": "annual_mdd_%",
+      "label": "연간 MDD",
+      "value": -18.47,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "원익머트리얼즈 2026 기준 연간 MDD 값은 -18.47%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.009",
+      "source_type": "stock_csv",
+      "source": "원익머트리얼즈_주식.csv",
+      "metric": "volume_mean",
+      "label": "거래량",
+      "value": 104853.0,
+      "unit": "주",
+      "period": "2026",
+      "snippet": "원익머트리얼즈 2026 기준 거래량 값은 104853주입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.010",
+      "source_type": "stock_csv",
+      "source": "원익머트리얼즈_주식.csv",
+      "metric": "volume_ma_ratio_mean",
+      "label": "이동평균 대비 비율",
+      "value": 1.0988,
+      "unit": "배",
+      "period": "2026",
+      "snippet": "원익머트리얼즈 2026 기준 이동평균 대비 비율 값은 1.0988배입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.012",
+      "source_type": "stock_csv",
+      "source": "원익머트리얼즈_주식.csv",
+      "metric": "latest_close",
+      "label": "최근 종가",
+      "value": 49350.0,
+      "unit": "원",
+      "period": "2026-05-13",
+      "snippet": "원익머트리얼즈 2026-05-13 최근 종가 값은 49,350원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.013",
+      "source_type": "warning_stock_csv",
+      "source": "투자경고종목.csv",
+      "metric": "warning_stock",
+      "label": "투자경고 여부",
+      "value": 0.0,
+      "unit": null,
+      "period": "최근",
+      "snippet": "원익머트리얼즈 투자경고종목 해당 여부 값은 0입니다.",
+      "prompt_rationale": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "finance.safe_cl.004",
+      "text": "원익머트리얼즈 2025 기준 FCF 값은 -5,122,808,658원입니다.",
+      "evidence_ids": [
+        "finance.ev.004"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.007",
+      "text": "원익머트리얼즈 2026 기준 연수익률 값은 43.67%입니다.",
+      "evidence_ids": [
+        "finance.ev.007"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.008",
+      "text": "원익머트리얼즈 2026 기준 연간 MDD 값은 -18.47%입니다.",
+      "evidence_ids": [
+        "finance.ev.008"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.009",
+      "text": "원익머트리얼즈 2026 기준 거래량 값은 104853주입니다.",
+      "evidence_ids": [
+        "finance.ev.009"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.010",
+      "text": "원익머트리얼즈 2026 기준 이동평균 대비 비율 값은 1.0988배입니다.",
+      "evidence_ids": [
+        "finance.ev.010"
+      ],
+      "audit_safe": true
+    }
+  ],
+  "warning_note": null,
+  "source_contexts": [
+    "financial_csv=원익머트리얼즈_재무.csv",
+    "stock_csv=원익머트리얼즈_주식.csv",
+    "warning_stock_csv=투자경고종목.csv",
+    "prompts.py summary/key_thesis/key_risks are preserved in the Chair View where available.",
+    "First Auditor claims are CSV-grounded one-to-one evidence claims for stable actual-information verification.",
+    "필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수"
+  ],
+  "raw_payload": {
+    "latest_financial_row": {
+      "year": 2025,
+      "sales": 322467412745.0,
+      "operating_income": 56497808201.0,
+      "net_income": 48701056719.0,
+      "total_assets": 637777093802.0,
+      "total_liabilities": 112293524936.0,
+      "total_equity": 525483568866.0,
+      "capex": 82838000292,
+      "ocf": 77715191634,
+      "fcf": -5122808658,
+      "interest": 1968096748.0,
+      "ROE": 9.267855286911724,
+      "영업이익률": 17.520470586489058,
+      "부채비율": 21.369559694955036,
+      "이자보상배율": 28.70682463065581
+    },
+    "latest_stock_metric": {
+      "year": 2026,
+      "annual_return_%": 43.67,
+      "annual_mdd_%": -18.47
+    },
+    "latest_yearly_summary": {
+      "year": 2026,
+      "close_start": 34350.0,
+      "close_end": 49350.0,
+      "close_high": 54900.0,
+      "close_low": 32150.0,
+      "volume_mean": 104853.0,
+      "volume_ma_ratio_mean": 1.0988
+    },
+    "latest_recent_stock_row": {
+      "Date": "2026-05-13",
+      "Open": 47500.0,
+      "High": 50200.0,
+      "Low": 47100.0,
+      "Close": 49350.0,
+      "Volume": 80837,
+      "Change": 0.00920245398773,
+      "VKOSPI": NaN,
+      "일수익률_%": 0.920245398773,
+      "누적최고가": 54900.0,
+      "드로다운_%": -10.10928961748634,
+      "거래량_20일평균": 111711.45,
+      "거래량_이동평균대비비율": 0.7236232275205451
+    },
+    "audit_policy": "prompts_py_used_for_interpretation_claims_grounded_by_local_csv"
+  },
+  "packet_version": "finance_prompts_grounded_v4_compact"
+}

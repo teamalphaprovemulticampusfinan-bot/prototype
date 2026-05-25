@@ -1,0 +1,46 @@
+{
+  "feature_name": "ip_claim_scope_features",
+  "status": "OK",
+  "source_endpoint_host": "plus.kipris.or.kr",
+  "target_patent_count": 6,
+  "patents_with_claims": 6,
+  "claim_collection_coverage": 1.0,
+  "claim_count": 24,
+  "independent_claim_count_estimated": 7,
+  "dependent_claim_count_estimated": 17,
+  "avg_claim_chars": 225.25,
+  "avg_independent_claim_chars": 466.0,
+  "core_keyword_claim_rate": 0.0,
+  "registered_claim_patent_rate": 0.5,
+  "claim_defense_score_estimated": 54.15,
+  "bridge_adjustment_points": 0.0,
+  "bridge_signal": "IP_CLAIM_SCOPE_NEUTRAL",
+  "usage_rule": "청구항 전문 기반 지표는 특허의 방어범위와 핵심기술 보호 가능성을 보조적으로 평가합니다. 다만 고객 채택·양산·매출 전환의 직접 증거는 아니므로 Tech-to-Value Bridge에는 보수적 가산/감산만 적용합니다.",
+  "top_core_claims": [],
+  "top_invention_titles_with_claims": {
+    "커스토머 트레이": 1,
+    "여권표지": 1,
+    "생체인식여권을 이용한 출입국 관리시스템": 1,
+    "전자여권용 인레이시트의 가공장치": 1,
+    "트랜스폰더 칩 및 이에 대응되는 인레이 기판에 안테나 연결시 생성되는 용접 탄화물의 제거방법": 1,
+    "인레이 시트 가공장치 및 그 인레이 시트 가공방법": 1
+  },
+  "company_slug": "doosan_tesna",
+  "company_name": "두산테스나",
+  "input_csv": "data\\반도체\\두산테스나\\tech\\doosan_tesna_kipris_bibliographic_normalized.csv",
+  "claims_csv": "data\\반도체\\두산테스나\\tech\\doosan_tesna_kipris_claims_normalized.csv",
+  "raw_jsonl": "data\\반도체\\두산테스나\\tech\\source\\doosan_tesna_kipris_plus_claims_raw.jsonl",
+  "success_response_count": 6,
+  "parse_error_count": 0,
+  "parse_errors_sample": [],
+  "request_config": {
+    "key_param": "accessKey",
+    "app_param": "applicationNumber",
+    "param_variant_retry": true,
+    "api_key_env_candidates_with_values": [
+      "KIPRIS_PLUS_API_KEY",
+      "KIPRIS_API_KEY"
+    ],
+    "api_key": "***KEY***"
+  }
+}

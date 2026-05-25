@@ -1,0 +1,1165 @@
+{
+  "agent": "market",
+  "company_name": "GST",
+  "company": "GST",
+  "opinion": "보유",
+  "confidence": 0.45,
+  "summary": "GST에 대해 검증 가능한 핵심 근거는 다음과 같습니다. GST 마켓 분석 total_score 값은 70점입니다. GST stock_data.current_price 값은 54900입니다. GST stock_data.change 값은 -4600입니다. GST stock_data.change_rate 값은 -7.73%입니다. GST stock_data.raw.clpr 값은 54900입니다.",
+  "key_points": [
+    "GST 마켓 분석 total_score 값은 70점입니다.",
+    "GST stock_data.current_price 값은 54900입니다.",
+    "GST stock_data.change 값은 -4600입니다.",
+    "GST stock_data.change_rate 값은 -7.73%입니다.",
+    "GST stock_data.raw.clpr 값은 54900입니다."
+  ],
+  "risks": [],
+  "claims": [
+    {
+      "claim_id": "market.cl.001",
+      "text": "GST 마켓 분석 total_score 값은 70점입니다.",
+      "evidence_ids": [
+        "market.ev.001"
+      ]
+    },
+    {
+      "claim_id": "market.cl.002",
+      "text": "GST stock_data.current_price 값은 54900입니다.",
+      "evidence_ids": [
+        "market.ev.006"
+      ]
+    },
+    {
+      "claim_id": "market.cl.003",
+      "text": "GST stock_data.change 값은 -4600입니다.",
+      "evidence_ids": [
+        "market.ev.009"
+      ]
+    },
+    {
+      "claim_id": "market.cl.004",
+      "text": "GST stock_data.change_rate 값은 -7.73%입니다.",
+      "evidence_ids": [
+        "market.ev.010"
+      ]
+    },
+    {
+      "claim_id": "market.cl.005",
+      "text": "GST stock_data.raw.clpr 값은 54900입니다.",
+      "evidence_ids": [
+        "market.ev.016"
+      ]
+    },
+    {
+      "claim_id": "market.cl.006",
+      "text": "GST stock_data.raw.vs 값은 -4600입니다.",
+      "evidence_ids": [
+        "market.ev.017"
+      ]
+    },
+    {
+      "claim_id": "market.auto_cl.007",
+      "text": "stock_data.raw.fltRt 값은 -7.73%입니다.",
+      "evidence_ids": [
+        "market.ev.018"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "market.auto_cl.009",
+      "text": "stock_data.raw.mkp 값은 58,300입니다.",
+      "evidence_ids": [
+        "market.ev.019"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "market.auto_cl.011",
+      "text": "stock_data.raw.hipr 값은 58,700입니다.",
+      "evidence_ids": [
+        "market.ev.020"
+      ],
+      "claim_type": "point"
+    }
+  ],
+  "evidences": [
+    {
+      "evidence_id": "market.ev.001",
+      "source_type": "market",
+      "source": "market_graph_analysis",
+      "metric": "total_score",
+      "value": 70,
+      "unit": "score",
+      "period": null,
+      "snippet": "market_graph_analysis | total_score | 값: 70score"
+    },
+    {
+      "evidence_id": "market.ev.002",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.provider",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.provider | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.003",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.company",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.company | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.004",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.ticker",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.ticker | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.005",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.krx_code",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.krx_code | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.006",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.current_price",
+      "value": 54900,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.current_price | 값: 54,900원"
+    },
+    {
+      "evidence_id": "market.ev.007",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.currency",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.currency | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.008",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.as_of",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.as_of | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.009",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change",
+      "value": -4600,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.change | 값: -4,600"
+    },
+    {
+      "evidence_id": "market.ev.010",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change_rate",
+      "value": -7.73,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.change_rate | 값: -7.73%"
+    },
+    {
+      "evidence_id": "market.ev.011",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.basDt",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.basDt | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.012",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.srtnCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.srtnCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.013",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.isinCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.isinCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.014",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.itmsNm",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.itmsNm | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.015",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mrktCtg",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mrktCtg | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.016",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.clpr",
+      "value": 54900,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 54,900원"
+    },
+    {
+      "evidence_id": "market.ev.017",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.vs",
+      "value": -4600,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.vs | 값: -4,600"
+    },
+    {
+      "evidence_id": "market.ev.018",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.fltRt",
+      "value": -7.73,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: -7.73%"
+    },
+    {
+      "evidence_id": "market.ev.019",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mkp",
+      "value": 58300,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 58,300"
+    },
+    {
+      "evidence_id": "market.ev.020",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.hipr",
+      "value": 58700,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 58,700"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "market.ev.001",
+      "source_type": "market",
+      "source": "market_graph_analysis",
+      "metric": "total_score",
+      "value": 70,
+      "unit": "score",
+      "period": null,
+      "snippet": "market_graph_analysis | total_score | 값: 70score"
+    },
+    {
+      "evidence_id": "market.ev.002",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.provider",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.provider | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.003",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.company",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.company | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.004",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.ticker",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.ticker | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.005",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.krx_code",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.krx_code | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.006",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.current_price",
+      "value": 54900,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.current_price | 값: 54,900원"
+    },
+    {
+      "evidence_id": "market.ev.007",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.currency",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.currency | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.008",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.as_of",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.as_of | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.009",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change",
+      "value": -4600,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.change | 값: -4,600"
+    },
+    {
+      "evidence_id": "market.ev.010",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change_rate",
+      "value": -7.73,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.change_rate | 값: -7.73%"
+    },
+    {
+      "evidence_id": "market.ev.011",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.basDt",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.basDt | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.012",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.srtnCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.srtnCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.013",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.isinCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.isinCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.014",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.itmsNm",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.itmsNm | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.015",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mrktCtg",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mrktCtg | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.016",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.clpr",
+      "value": 54900,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 54,900원"
+    },
+    {
+      "evidence_id": "market.ev.017",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.vs",
+      "value": -4600,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.vs | 값: -4,600"
+    },
+    {
+      "evidence_id": "market.ev.018",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.fltRt",
+      "value": -7.73,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: -7.73%"
+    },
+    {
+      "evidence_id": "market.ev.019",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mkp",
+      "value": 58300,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 58,300"
+    },
+    {
+      "evidence_id": "market.ev.020",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.hipr",
+      "value": 58700,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 58,700"
+    }
+  ],
+  "raw_payload": {
+    "analysis": {
+      "agent": "market",
+      "company": "GST",
+      "opinion": "보유",
+      "confidence": 0.6,
+      "market_summary": {
+        "oecd_interpretation": "OECD 경기선행지수가 98.01로 기준선(100) 하회하며 경기 둔화 가능성을 시사합니다. 이는 전반적인 투자 심리에 부정적인 영향을 줄 수 있습니다.",
+        "industry_stage": "GST가 속한 반도체 장비 산업은 AI·HBM 등 신규 수요에 힘입어 성장기에 진입했으나, 레거시 부문은 쇠퇴기에 접어드는 등 세그먼트별 차이가 존재합니다.",
+        "value_chain_position": "GST는 반도체 제조 공정에 필수적인 가스 정화 장비(Scrubber)와 온도 조절 장비(Chiller)를 제조하며 밸류체인 내에서 중요한 위치를 차지합니다.",
+        "competitive_position": "경쟁 강도는 중간 수준으로 평가되며, GST는 반도체 및 디스플레이 공정 효율 극대화에 기여하는 차별화된 기술을 보유하고 있습니다.",
+        "market_momentum": "현재 주가는 54,900원으로 최근 하락세를 보이고 있으며, 이는 반도체 업황 불확실성과 삼성전자 파업 이슈 등 거시적 요인에 영향을 받은 것으로 판단됩니다."
+      },
+      "qualitative_rubric": {
+        "macro_cycle": {
+          "assessment": "중",
+          "reason": "OECD 경기선행지수가 기준선 하회하며 경기 둔화 우려가 있으나, 반도체 산업 자체의 성장 동력은 존재합니다."
+        },
+        "industry_attractiveness": {
+          "assessment": "상",
+          "reason": "AI·HBM 등 신규 수요로 반도체 장비 시장은 성장기에 있으며, 특히 첨단 공정 관련 장비 수요가 견조할 것으로 예상됩니다."
+        },
+        "value_chain_position": {
+          "assessment": "상",
+          "reason": "GST는 반도체 제조 공정의 핵심 장비인 가스 정화 및 온도 조절 장비를 공급하며, 공정 효율성 증대에 필수적인 역할을 합니다."
+        },
+        "competitive_position": {
+          "assessment": "중",
+          "reason": "경쟁 강도는 중간 수준이나, GST는 반도체 및 디스플레이 공정 효율 극대화에 기여하는 차별화된 기술을 보유하고 있습니다."
+        },
+        "market_momentum": {
+          "assessment": "하",
+          "reason": "최근 주가가 하락세를 보이고 있으며, 이는 반도체 업황 불확실성과 삼성전자 파업 이슈 등 부정적 뉴스에 영향을 받은 것으로 판단됩니다."
+        },
+        "policy_disclosure_signal": {
+          "assessment": "상",
+          "reason": "정부의 R&D 지원 확대, 세액공제 등 정책적 지원과 반도체 장비 국산화 기회는 긍정적 신호입니다."
+        },
+        "downside_risk": {
+          "assessment": "중",
+          "reason": "삼성전자 파업 장기화 가능성, 환율 변동성, 반도체 업황 피크아웃 논란 등은 하방 리스크 요인입니다."
+        }
+      },
+      "bwm_assessment": {
+        "best_criterion": "산업 매력도",
+        "worst_criterion": "시장 모멘텀",
+        "judgment_effect": "산업의 성장성과 GST의 밸류체인 내 중요성은 긍정적이나, 단기적인 시장 모멘텀 약화와 거시 경제 불확실성으로 인해 '보유' 의견을 제시합니다."
+      },
+      "scoring": {
+        "거시환경": {
+          "score": 12,
+          "max": 20,
+          "reason": "OECD 경기선행지수 하회는 부정적이나, 반도체 산업 자체의 성장 동력은 긍정적입니다."
+        },
+        "산업매력도": {
+          "score": 18,
+          "max": 20,
+          "reason": "AI·HBM 등 신규 수요로 반도체 장비 시장은 성장기에 있으며, GST의 핵심 장비는 필수적입니다."
+        },
+        "경쟁위치": {
+          "score": 15,
+          "max": 20,
+          "reason": "경쟁 강도는 중간이나, 차별화된 기술력과 밸류체인 내 중요성은 긍정적입니다."
+        },
+        "정책수혜": {
+          "score": 17,
+          "max": 20,
+          "reason": "정부의 R&D 지원 확대 및 반도체 장비 국산화 정책은 긍정적 수혜 요인입니다."
+        },
+        "시장모멘텀": {
+          "score": 8,
+          "max": 20,
+          "reason": "최근 주가 하락세, 삼성전자 파업 등 부정적 뉴스는 시장 모멘텀 약화를 시사합니다."
+        }
+      },
+      "total_score": 70,
+      "claims": [
+        {
+          "claim_id": "market.cl.001",
+          "text": "GST는 반도체 제조 공정의 핵심 장비 공급업체로서 산업 성장 수혜가 예상됩니다.",
+          "evidence_ids": [
+            "market.ev.001",
+            "market.ev.003"
+          ]
+        },
+        {
+          "claim_id": "market.cl.002",
+          "text": "최근 주가 하락은 반도체 업황 불확실성과 삼성전자 파업 이슈 등 거시적 요인에 기인합니다.",
+          "evidence_ids": [
+            "market.ev.002",
+            "market.ev.004"
+          ]
+        },
+        {
+          "claim_id": "market.cl.003",
+          "text": "정부의 R&D 지원 확대 및 반도체 장비 국산화 정책은 GST에 긍정적인 영향을 줄 수 있습니다.",
+          "evidence_ids": [
+            "market.ev.005"
+          ]
+        }
+      ],
+      "evidences": [
+        {
+          "evidence_id": "market.ev.001",
+          "source_type": "dart",
+          "source": "DART",
+          "metric": "사업 내용",
+          "value": "반도체 및 디스플레이 제조 공정에서 사용되는 가스 정화 장비와 온도 조절 장비를 전문적으로 제조합니다.",
+          "unit": null,
+          "period": null,
+          "snippet": "당사는 반도체 및 디스플레이 제조 공정에서 사용되는 가스 정화 장비와 온도 조절 장비를 전문적으로 제조합니다. 이는 반도체 공정의 효율을 극대화하는데 기여합니다."
+        },
+        {
+          "evidence_id": "market.ev.002",
+          "source_type": "stock",
+          "source": "public_data",
+          "metric": "current_price",
+          "value": 54900,
+          "unit": "KRW",
+          "period": "20260519",
+          "snippet": "current_price: 54900, change: -4600, change_rate: -7.73"
+        },
+        {
+          "evidence_id": "market.ev.003",
+          "source_type": "static",
+          "source": "밸류체인 & 경쟁구조",
+          "metric": "산업 성장률",
+          "value": "+30%",
+          "unit": null,
+          "period": "2025",
+          "snippet": "반도체 올해 전세계 시장 약 30% 증가 예상"
+        },
+        {
+          "evidence_id": "market.ev.004",
+          "source_type": "news",
+          "source": "Naver News",
+          "metric": "뉴스 제목",
+          "value": "삼성전자 노사 협상 결렬…노조, 21일부터 총파업 돌입",
+          "unit": null,
+          "period": "20260520",
+          "snippet": "삼성전자 노사 협상 결렬…노조, 21일부터 총파업 돌입"
+        },
+        {
+          "evidence_id": "market.ev.005",
+          "source_type": "static",
+          "source": "밸류체인 & 경쟁구조",
+          "metric": "정책",
+          "value": "R&D 지원 확대",
+          "unit": null,
+          "period": null,
+          "snippet": "R&D 지원 확대"
+        }
+      ],
+      "risks": [
+        {
+          "risk": "삼성전자 파업 장기화 및 생산 차질",
+          "severity": "중",
+          "basis": "삼성전자 노사 협상 결렬 및 총파업 돌입 소식"
+        },
+        {
+          "risk": "반도체 업황 피크아웃 논란 및 환율 변동성",
+          "severity": "중",
+          "basis": "글로벌 반도체 피크아웃 가능성 및 환율 1500원대 유지"
+        }
+      ],
+      "opportunities": [
+        {
+          "opportunity": "AI·HBM 시장 성장으로 인한 반도체 장비 수요 증가",
+          "basis": "AI·HBM 반도체 시장의 높은 성장률 전망"
+        },
+        {
+          "opportunity": "정부의 R&D 지원 확대 및 반도체 장비 국산화 정책 수혜",
+          "basis": "정부의 R&D 지원 확대 및 반도체 장비 국산화 정책"
+        }
+      ],
+      "summary": "GST는 AI·HBM 시장 성장과 정부 정책 지원에 힘입어 긍정적인 산업 전망을 가지고 있습니다. 그러나 삼성전자 파업 및 거시 경제 불확실성으로 인한 단기적인 시장 모멘텀 약화는 보유 의견의 근거입니다.",
+      "raw_payload": {
+        "stock_used": true,
+        "oecd_used": true,
+        "static_used": true,
+        "news_used": true,
+        "dart_used": true
+      }
+    },
+    "original_opportunities": [
+      {
+        "opportunity": "AI·HBM 시장 성장으로 인한 반도체 장비 수요 증가",
+        "basis": "AI·HBM 반도체 시장의 높은 성장률 전망"
+      },
+      {
+        "opportunity": "정부의 R&D 지원 확대 및 반도체 장비 국산화 정책 수혜",
+        "basis": "정부의 R&D 지원 확대 및 반도체 장비 국산화 정책"
+      }
+    ],
+    "original_risks": [
+      {
+        "risk": "삼성전자 파업 장기화 및 생산 차질",
+        "severity": "중",
+        "basis": "삼성전자 노사 협상 결렬 및 총파업 돌입 소식"
+      },
+      {
+        "risk": "반도체 업황 피크아웃 논란 및 환율 변동성",
+        "severity": "중",
+        "basis": "글로벌 반도체 피크아웃 가능성 및 환율 1500원대 유지"
+      }
+    ],
+    "removed_bad_evidence_ids": [
+      "market.ev.unverified"
+    ]
+  },
+  "total_score": 70,
+  "scoring": {
+    "거시환경": {
+      "score": 12,
+      "max": 20,
+      "reason": "OECD 경기선행지수 하회는 부정적이나, 반도체 산업 자체의 성장 동력은 긍정적입니다."
+    },
+    "산업매력도": {
+      "score": 18,
+      "max": 20,
+      "reason": "AI·HBM 등 신규 수요로 반도체 장비 시장은 성장기에 있으며, GST의 핵심 장비는 필수적입니다."
+    },
+    "경쟁위치": {
+      "score": 15,
+      "max": 20,
+      "reason": "경쟁 강도는 중간이나, 차별화된 기술력과 밸류체인 내 중요성은 긍정적입니다."
+    },
+    "정책수혜": {
+      "score": 17,
+      "max": 20,
+      "reason": "정부의 R&D 지원 확대 및 반도체 장비 국산화 정책은 긍정적 수혜 요인입니다."
+    },
+    "시장모멘텀": {
+      "score": 8,
+      "max": 20,
+      "reason": "최근 주가 하락세, 삼성전자 파업 등 부정적 뉴스는 시장 모멘텀 약화를 시사합니다."
+    }
+  },
+  "packet_version": "grounded_agent_v3",
+  "pre_sanitize_grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 6,
+    "supported_count": 6,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "GST 마켓 분석 total_score 값은 70점입니다.",
+      "GST stock_data.current_price 값은 54900입니다.",
+      "GST stock_data.change 값은 -4600입니다.",
+      "GST stock_data.change_rate 값은 -7.73%입니다.",
+      "GST stock_data.raw.clpr 값은 54900입니다.",
+      "GST stock_data.raw.vs 값은 -4600입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "market.cl.001",
+        "text": "GST 마켓 분석 total_score 값은 70점입니다.",
+        "evidence_ids": [
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "GST stock_data.current_price 값은 54900입니다.",
+        "evidence_ids": [
+          "market.ev.006"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {
+          "price": [
+            "market.ev.006"
+          ]
+        },
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.003",
+        "text": "GST stock_data.change 값은 -4600입니다.",
+        "evidence_ids": [
+          "market.ev.009"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.004",
+        "text": "GST stock_data.change_rate 값은 -7.73%입니다.",
+        "evidence_ids": [
+          "market.ev.010"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.005",
+        "text": "GST stock_data.raw.clpr 값은 54900입니다.",
+        "evidence_ids": [
+          "market.ev.016"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.006",
+        "text": "GST stock_data.raw.vs 값은 -4600입니다.",
+        "evidence_ids": [
+          "market.ev.017"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  },
+  "post_atomic_grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 9,
+    "supported_count": 9,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "GST 마켓 분석 total_score 값은 70점입니다.",
+      "GST stock_data.current_price 값은 54900입니다.",
+      "GST stock_data.change 값은 -4600입니다.",
+      "GST stock_data.change_rate 값은 -7.73%입니다.",
+      "GST stock_data.raw.clpr 값은 54900입니다.",
+      "GST stock_data.raw.vs 값은 -4600입니다.",
+      "stock_data.raw.fltRt 값은 -7.73%입니다.",
+      "stock_data.raw.mkp 값은 58,300입니다.",
+      "stock_data.raw.hipr 값은 58,700입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "market.cl.001",
+        "text": "GST 마켓 분석 total_score 값은 70점입니다.",
+        "evidence_ids": [
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "GST stock_data.current_price 값은 54900입니다.",
+        "evidence_ids": [
+          "market.ev.006"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {
+          "price": [
+            "market.ev.006"
+          ]
+        },
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.003",
+        "text": "GST stock_data.change 값은 -4600입니다.",
+        "evidence_ids": [
+          "market.ev.009"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.004",
+        "text": "GST stock_data.change_rate 값은 -7.73%입니다.",
+        "evidence_ids": [
+          "market.ev.010"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.005",
+        "text": "GST stock_data.raw.clpr 값은 54900입니다.",
+        "evidence_ids": [
+          "market.ev.016"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.006",
+        "text": "GST stock_data.raw.vs 값은 -4600입니다.",
+        "evidence_ids": [
+          "market.ev.017"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.007",
+        "text": "stock_data.raw.fltRt 값은 -7.73%입니다.",
+        "evidence_ids": [
+          "market.ev.018"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.009",
+        "text": "stock_data.raw.mkp 값은 58,300입니다.",
+        "evidence_ids": [
+          "market.ev.019"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.011",
+        "text": "stock_data.raw.hipr 값은 58,700입니다.",
+        "evidence_ids": [
+          "market.ev.020"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  },
+  "grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 9,
+    "supported_count": 9,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "GST 마켓 분석 total_score 값은 70점입니다.",
+      "GST stock_data.current_price 값은 54900입니다.",
+      "GST stock_data.change 값은 -4600입니다.",
+      "GST stock_data.change_rate 값은 -7.73%입니다.",
+      "GST stock_data.raw.clpr 값은 54900입니다.",
+      "GST stock_data.raw.vs 값은 -4600입니다.",
+      "stock_data.raw.fltRt 값은 -7.73%입니다.",
+      "stock_data.raw.mkp 값은 58,300입니다.",
+      "stock_data.raw.hipr 값은 58,700입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "market.cl.001",
+        "text": "GST 마켓 분석 total_score 값은 70점입니다.",
+        "evidence_ids": [
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "GST stock_data.current_price 값은 54900입니다.",
+        "evidence_ids": [
+          "market.ev.006"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {
+          "price": [
+            "market.ev.006"
+          ]
+        },
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.003",
+        "text": "GST stock_data.change 값은 -4600입니다.",
+        "evidence_ids": [
+          "market.ev.009"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.004",
+        "text": "GST stock_data.change_rate 값은 -7.73%입니다.",
+        "evidence_ids": [
+          "market.ev.010"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.005",
+        "text": "GST stock_data.raw.clpr 값은 54900입니다.",
+        "evidence_ids": [
+          "market.ev.016"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.006",
+        "text": "GST stock_data.raw.vs 값은 -4600입니다.",
+        "evidence_ids": [
+          "market.ev.017"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.007",
+        "text": "stock_data.raw.fltRt 값은 -7.73%입니다.",
+        "evidence_ids": [
+          "market.ev.018"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.009",
+        "text": "stock_data.raw.mkp 값은 58,300입니다.",
+        "evidence_ids": [
+          "market.ev.019"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.011",
+        "text": "stock_data.raw.hipr 값은 58,700입니다.",
+        "evidence_ids": [
+          "market.ev.020"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  }
+}

@@ -1,0 +1,570 @@
+{
+  "agent": "issue",
+  "company_name": "이엔에프테크놀로지",
+  "company": "이엔에프테크놀로지",
+  "company_dir": "enf_tech",
+  "opinion": "보유",
+  "confidence": 0.5,
+  "summary": "이엔에프테크놀로지에 대해 검증 가능한 핵심 근거는 다음과 같습니다. news_count 값은 10count입니다. rss_count 값은 18count입니다. related_keyword_count 값은 0count입니다.",
+  "key_points": [
+    "news_count 값은 10count입니다.",
+    "rss_count 값은 18count입니다.",
+    "related_keyword_count 값은 0count입니다."
+  ],
+  "risks": [],
+  "claims": [
+    {
+      "claim_id": "issue.auto_cl.001",
+      "text": "news_count 값은 10count입니다.",
+      "evidence_ids": [
+        "issue.ev.001"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "issue.auto_cl.003",
+      "text": "rss_count 값은 18count입니다.",
+      "evidence_ids": [
+        "issue.ev.002"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "issue.auto_cl.005",
+      "text": "related_keyword_count 값은 0count입니다.",
+      "evidence_ids": [
+        "issue.ev.003"
+      ],
+      "claim_type": "point"
+    }
+  ],
+  "evidences": [
+    {
+      "evidence_id": "issue.ev.001",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "news_count",
+      "value": 10,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | news_count | 값: 10count"
+    },
+    {
+      "evidence_id": "issue.ev.002",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "rss_count",
+      "value": 18,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | rss_count | 값: 18count"
+    },
+    {
+      "evidence_id": "issue.ev.003",
+      "source_type": "issue",
+      "source": "issue_keywords_workbook",
+      "metric": "related_keyword_count",
+      "value": 0,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_keywords_workbook | related_keyword_count | 값: 0count"
+    },
+    {
+      "evidence_id": "issue.ev.004",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "배",
+      "period": "Wed, 22 Apr 2026 15:56:00 +0900",
+      "snippet": "Naver News | Wed, 22 Apr 2026 15:56:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.005",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 09 Apr 2026 14:52:00 +0900",
+      "snippet": "Naver News | Thu, 09 Apr 2026 14:52:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.006",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Fri, 03 Apr 2026 12:54:00 +0900",
+      "snippet": "Naver News | Fri, 03 Apr 2026 12:54:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.007",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Sun, 22 Feb 2026 17:28:00 +0900",
+      "snippet": "Naver News | Sun, 22 Feb 2026 17:28:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.008",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "원",
+      "period": "Wed, 21 Jan 2026 09:16:00 +0900",
+      "snippet": "Naver News | Wed, 21 Jan 2026 09:16:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.009",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:44 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:44 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.010",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:41 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:41 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.011",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:46:28 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:46:28 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.012",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:36:05 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:36:05 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.013",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:24:00 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:24:00 +0000 기준 rss_title | 값: 확인 불가"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "issue.ev.001",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "news_count",
+      "value": 10,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | news_count | 값: 10count"
+    },
+    {
+      "evidence_id": "issue.ev.002",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "rss_count",
+      "value": 18,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | rss_count | 값: 18count"
+    },
+    {
+      "evidence_id": "issue.ev.003",
+      "source_type": "issue",
+      "source": "issue_keywords_workbook",
+      "metric": "related_keyword_count",
+      "value": 0,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_keywords_workbook | related_keyword_count | 값: 0count"
+    },
+    {
+      "evidence_id": "issue.ev.004",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "배",
+      "period": "Wed, 22 Apr 2026 15:56:00 +0900",
+      "snippet": "Naver News | Wed, 22 Apr 2026 15:56:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.005",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 09 Apr 2026 14:52:00 +0900",
+      "snippet": "Naver News | Thu, 09 Apr 2026 14:52:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.006",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Fri, 03 Apr 2026 12:54:00 +0900",
+      "snippet": "Naver News | Fri, 03 Apr 2026 12:54:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.007",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Sun, 22 Feb 2026 17:28:00 +0900",
+      "snippet": "Naver News | Sun, 22 Feb 2026 17:28:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.008",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "원",
+      "period": "Wed, 21 Jan 2026 09:16:00 +0900",
+      "snippet": "Naver News | Wed, 21 Jan 2026 09:16:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.009",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:44 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:44 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.010",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:41 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:41 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.011",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:46:28 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:46:28 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.012",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:36:05 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:36:05 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.013",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:24:00 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:24:00 +0000 기준 rss_title | 값: 확인 불가"
+    }
+  ],
+  "fallback_used": false,
+  "warning_note": "검증 불가 claim 6개를 제거한 뒤 grounding 기준을 재검증했습니다.",
+  "raw_payload": {
+    "analysis_text": "opinion: 보유\nconfidence: 0.65\n\n## 이엔에프테크놀로지 투자 관점 이슈 의견서\n\n### 1. 핵심 이슈 요약\n\n이엔에프테크놀로지는 반도체 소재·부품 기업으로서, 빅테크 투자 확대 및 EUV(극자외선) 기술 관련 고부가 소재 공급망 내에서 주목받고 있습니다. NH투자증권은 이엔에프테크놀로지를 저평가된 반도체 소부장 기업으로 평가하며, 올해 영업이익 증가 전망과 함께 목표 주가를 제시했습니다. 다만, 단기 주가 상승에 따른 피로감, 일회성 비용 이슈로 인한 실적 성장 둔화, 소재·부품주 전반의 조정 양상 등이 관찰됩니다.\n\n### 2. 기업에 미치는 영향\n\n*   **긍정적 영향:** 빅테크의 반도체 투자 확대는 이엔에프테크놀로지가 공급하는 고부가 소재의 수요 증가로 이어질 수 있습니다. 특히 EUV 관련 소재 공급망 내에서의 역할은 향후 성장 동력이 될 수 있습니다. NH투자증권의 긍정적인 분석은 투자 심리 개선에 기여할 수 있습니다.\n*   **부정적 영향:** 단기 주가 상승에 따른 피로감은 주가 변동성을 키울 수 있으며, 일회성 비용 이슈는 단기 실적에 부담을 줄 수 있습니다. 반도체 소부장 업종 전반의 조정 국면은 개별 기업의 주가 상승을 제한할 수 있습니다.\n\n### 3. 긍정 시그널\n\n*   **고부가 소재 공급망 내 역할:** EUV 관련 고부가 소재 공급 기업으로 언급되며, 빅테크 투자 확대에 따른 수혜가 기대됩니다.\n*   **증권사 긍정적 분석:** NH투자증권은 이엔에프테크놀로지를 저평가된 기업으로 평가하며, 올해 영업이익 24% 증가 전망과 함께 목표 주가를 제시했습니다. 이는 투자자들에게 긍정적인 신호로 작용할 수 있습니다.\n*   **삼성전자와의 밀착 관계:** 삼성전자와 밀착된 기업으로 언급되어, 삼성전자의 반도체 사업 성장에 따른 수혜 가능성이 있습니다.\n\n### 4. 부정 시그널/리스크\n\n*   **단기 주가 상승 피로감:** 하나머티리얼즈, 솔브레인 등과 함께 단기 주가 상승에 따른 피로감이 반영되어 하락세를 보인다는 뉴스가 있습니다.\n*   **일회성 비용 이슈:** 가팔랐던 실적 성장이 일회성 비용 이슈로 주춤하며 투자자들의 눈높이가 낮아졌다는 분석이 있습니다. 이는 단기 실적에 부정적인 영향을 미칠 수 있습니다.\n*   **소재·부품주 전반의 조정:** 동진쎄미켐, 솔브레인 등과 함께 소재·부품주 전반이 조정 양상을 보이고 있어, 업황 전반의 영향에서 자유롭지 못할 수 있습니다.\n*   **실적 가시성:** 지난해 4분기 실적이 부진했다는 언급이 있어, 향후 실적 개선의 가시성을 면밀히 확인할 필요가 있습니다.\n\n### 5. 향후 체크포인트\n\n*   **EUV 관련 소재 사업 성과:** EUV 관련 고부가 소재 공급망 내에서의 실제적인 성과 및 매출 기여도를 지속적으로 확인해야 합니다.\n*   **일회성 비용 이슈 해소 및 실적 개선:** 일회성 비용 이슈의 구체적인 내용과 해소 시점, 그리고 이를 바탕으로 한 향후 실적 개선 추이를 면밀히 모니터링해야 합니다.\n*   **삼성전자와의 협력 강화:** 삼성전자와의 협력 관계가 구체적인 사업 성과로 이어지는지 여부를 주시해야 합니다.\n*   **반도체 소부장 업황 회복:** 반도체 소부장 업종 전반의 업황 회복 시점과 이엔에프테크놀로지에 미치는 영향을 파악해야 합니다.\n*   **증권사 목표 주가 달성 여부:** NH투자증권이 제시한 목표 주가 6만 4천원 달성 가능성을 실적 및 시장 상황과 연계하여 판단해야 합니다.",
+    "markdown_report": "# 이엔에프테크놀로지 이슈 리포트\n\n## 분석 결과\nopinion: 보유\nconfidence: 0.65\n\n## 이엔에프테크놀로지 투자 관점 이슈 의견서\n\n### 1. 핵심 이슈 요약\n\n이엔에프테크놀로지는 반도체 소재·부품 기업으로서, 빅테크 투자 확대 및 EUV(극자외선) 기술 관련 고부가 소재 공급망 내에서 주목받고 있습니다. NH투자증권은 이엔에프테크놀로지를 저평가된 반도체 소부장 기업으로 평가하며, 올해 영업이익 증가 전망과 함께 목표 주가를 제시했습니다. 다만, 단기 주가 상승에 따른 피로감, 일회성 비용 이슈로 인한 실적 성장 둔화, 소재·부품주 전반의 조정 양상 등이 관찰됩니다.\n\n### 2. 기업에 미치는 영향\n\n*   **긍정적 영향:** 빅테크의 반도체 투자 확대는 이엔에프테크놀로지가 공급하는 고부가 소재의 수요 증가로 이어질 수 있습니다. 특히 EUV 관련 소재 공급망 내에서의 역할은 향후 성장 동력이 될 수 있습니다. NH투자증권의 긍정적인 분석은 투자 심리 개선에 기여할 수 있습니다.\n*   **부정적 영향:** 단기 주가 상승에 따른 피로감은 주가 변동성을 키울 수 있으며, 일회성 비용 이슈는 단기 실적에 부담을 줄 수 있습니다. 반도체 소부장 업종 전반의 조정 국면은 개별 기업의 주가 상승을 제한할 수 있습니다.\n\n### 3. 긍정 시그널\n\n*   **고부가 소재 공급망 내 역할:** EUV 관련 고부가 소재 공급 기업으로 언급되며, 빅테크 투자 확대에 따른 수혜가 기대됩니다.\n*   **증권사 긍정적 분석:** NH투자증권은 이엔에프테크놀로지를 저평가된 기업으로 평가하며, 올해 영업이익 24% 증가 전망과 함께 목표 주가를 제시했습니다. 이는 투자자들에게 긍정적인 신호로 작용할 수 있습니다.\n*   **삼성전자와의 밀착 관계:** 삼성전자와 밀착된 기업으로 언급되어, 삼성전자의 반도체 사업 성장에 따른 수혜 가능성이 있습니다.\n\n### 4. 부정 시그널/리스크\n\n*   **단기 주가 상승 피로감:** 하나머티리얼즈, 솔브레인 등과 함께 단기 주가 상승에 따른 피로감이 반영되어 하락세를 보인다는 뉴스가 있습니다.\n*   **일회성 비용 이슈:** 가팔랐던 실적 성장이 일회성 비용 이슈로 주춤하며 투자자들의 눈높이가 낮아졌다는 분석이 있습니다. 이는 단기 실적에 부정적인 영향을 미칠 수 있습니다.\n*   **소재·부품주 전반의 조정:** 동진쎄미켐, 솔브레인 등과 함께 소재·부품주 전반이 조정 양상을 보이고 있어, 업황 전반의 영향에서 자유롭지 못할 수 있습니다.\n*   **실적 가시성:** 지난해 4분기 실적이 부진했다는 언급이 있어, 향후 실적 개선의 가시성을 면밀히 확인할 필요가 있습니다.\n\n### 5. 향후 체크포인트\n\n*   **EUV 관련 소재 사업 성과:** EUV 관련 고부가 소재 공급망 내에서의 실제적인 성과 및 매출 기여도를 지속적으로 확인해야 합니다.\n*   **일회성 비용 이슈 해소 및 실적 개선:** 일회성 비용 이슈의 구체적인 내용과 해소 시점, 그리고 이를 바탕으로 한 향후 실적 개선 추이를 면밀히 모니터링해야 합니다.\n*   **삼성전자와의 협력 강화:** 삼성전자와의 협력 관계가 구체적인 사업 성과로 이어지는지 여부를 주시해야 합니다.\n*   **반도체 소부장 업황 회복:** 반도체 소부장 업종 전반의 업황 회복 시점과 이엔에프테크놀로지에 미치는 영향을 파악해야 합니다.\n*   **증권사 목표 주가 달성 여부:** NH투자증권이 제시한 목표 주가 6만 4천원 달성 가능성을 실적 및 시장 상황과 연계하여 판단해야 합니다.\n",
+    "news_count": 10,
+    "rss_count": 18,
+    "related_keyword_count": 0,
+    "df_news_rows": 139,
+    "llm_error": null,
+    "graph_claims_original": [],
+    "removed_ungrounded_claims": [
+      "이엔에프테크놀로지 관련 공개 뉴스 제목: OCI, '기초·카본 케미컬' 투트랙 전략으로 시장 지배력 강화 주목",
+      "이엔에프테크놀로지 관련 공개 뉴스 제목: 자동차 센서가 끌고 반도체가 밀고… 오디텍, 수직계열화로 시장 장악",
+      "이엔에프테크놀로지 관련 공개 뉴스 제목: 후성, 40년 불소화학 외길…삼성·SK가 앞다퉈 찾는 '특수가스' 강자",
+      "이엔에프테크놀로지 이슈 분석에서 수집된 RSS 항목 수는 18건입니다.",
+      "이엔에프테크놀로지 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+      "이엔에프테크놀로지 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다."
+    ],
+    "removed_bad_evidence_ids": [
+      "issue.ev.unverified"
+    ]
+  },
+  "packet_version": "grounded_agent_v3",
+  "pre_sanitize_grounding_check": {
+    "score": 0.0,
+    "pass": false,
+    "pass_threshold": 0.75,
+    "claim_count": 6,
+    "supported_count": 0,
+    "unsupported_count": 6,
+    "supported_claims": [],
+    "unsupported_claims": [
+      "이엔에프테크놀로지 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+      "이엔에프테크놀로지 이슈 분석에서 수집된 RSS 항목 수는 18건입니다.",
+      "이엔에프테크놀로지 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다.",
+      "이엔에프테크놀로지 관련 공개 뉴스 제목: OCI, '기초·카본 케미컬' 투트랙 전략으로 시장 지배력 강화 주목",
+      "이엔에프테크놀로지 관련 공개 뉴스 제목: 자동차 센서가 끌고 반도체가 밀고… 오디텍, 수직계열화로 시장 장악",
+      "이엔에프테크놀로지 관련 공개 뉴스 제목: 후성, 40년 불소화학 외길…삼성·SK가 앞다퉈 찾는 '특수가스' 강자"
+    ],
+    "issues": [
+      "issue.cl.001: evidence와 claim 연결이 약합니다.",
+      "issue.cl.002: evidence와 claim 연결이 약합니다.",
+      "issue.cl.003: evidence와 claim 연결이 약합니다.",
+      "issue.cl.004: evidence와 claim 연결이 약합니다.",
+      "issue.cl.005: evidence와 claim 연결이 약합니다.",
+      "issue.cl.006: 숫자 불일치 또는 누락(number_ratio=0.00)"
+    ],
+    "claim_results": [
+      {
+        "claim_id": "issue.cl.001",
+        "text": "이엔에프테크놀로지 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.002",
+        "text": "이엔에프테크놀로지 이슈 분석에서 수집된 RSS 항목 수는 18건입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.003",
+        "text": "이엔에프테크놀로지 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.004",
+        "text": "이엔에프테크놀로지 관련 공개 뉴스 제목: OCI, '기초·카본 케미컬' 투트랙 전략으로 시장 지배력 강화 주목",
+        "evidence_ids": [
+          "issue.ev.004"
+        ],
+        "supported": false,
+        "score": 0.55,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.005",
+        "text": "이엔에프테크놀로지 관련 공개 뉴스 제목: 자동차 센서가 끌고 반도체가 밀고… 오디텍, 수직계열화로 시장 장악",
+        "evidence_ids": [
+          "issue.ev.005"
+        ],
+        "supported": false,
+        "score": 0.55,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.006",
+        "text": "이엔에프테크놀로지 관련 공개 뉴스 제목: 후성, 40년 불소화학 외길…삼성·SK가 앞다퉈 찾는 '특수가스' 강자",
+        "evidence_ids": [
+          "issue.ev.006"
+        ],
+        "supported": false,
+        "score": 0.25,
+        "number_ratio": 0.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "숫자 불일치 또는 누락(number_ratio=0.00)"
+      }
+    ]
+  },
+  "post_atomic_grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 3,
+    "supported_count": 3,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "news_count 값은 10count입니다.",
+      "rss_count 값은 18count입니다.",
+      "related_keyword_count 값은 0count입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "issue.auto_cl.001",
+        "text": "news_count 값은 10count입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.003",
+        "text": "rss_count 값은 18count입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.005",
+        "text": "related_keyword_count 값은 0count입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  },
+  "grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 3,
+    "supported_count": 3,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "news_count 값은 10count입니다.",
+      "rss_count 값은 18count입니다.",
+      "related_keyword_count 값은 0count입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "issue.auto_cl.001",
+        "text": "news_count 값은 10count입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.003",
+        "text": "rss_count 값은 18count입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.005",
+        "text": "related_keyword_count 값은 0count입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  }
+}

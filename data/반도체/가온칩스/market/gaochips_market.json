@@ -1,0 +1,1183 @@
+{
+  "agent": "market",
+  "company_name": "가온칩스",
+  "company": "가온칩스",
+  "opinion": "보유",
+  "confidence": 0.45,
+  "summary": "가온칩스에 대해 검증 가능한 핵심 근거는 다음과 같습니다. 가온칩스 마켓 분석 total_score 값은 73점입니다. 가온칩스 stock_data.current_price 값은 55100입니다. 가온칩스 stock_data.change 값은 -4200입니다. 가온칩스 stock_data.change_rate 값은 -7.08%입니다. 가온칩스 stock_data.raw.clpr 값은 55100입니다.",
+  "key_points": [
+    "가온칩스 마켓 분석 total_score 값은 73점입니다.",
+    "가온칩스 stock_data.current_price 값은 55100입니다.",
+    "가온칩스 stock_data.change 값은 -4200입니다.",
+    "가온칩스 stock_data.change_rate 값은 -7.08%입니다.",
+    "가온칩스 stock_data.raw.clpr 값은 55100입니다."
+  ],
+  "risks": [],
+  "claims": [
+    {
+      "claim_id": "market.cl.001",
+      "text": "가온칩스 마켓 분석 total_score 값은 73점입니다.",
+      "evidence_ids": [
+        "market.ev.001"
+      ]
+    },
+    {
+      "claim_id": "market.cl.002",
+      "text": "가온칩스 stock_data.current_price 값은 55100입니다.",
+      "evidence_ids": [
+        "market.ev.006"
+      ]
+    },
+    {
+      "claim_id": "market.cl.003",
+      "text": "가온칩스 stock_data.change 값은 -4200입니다.",
+      "evidence_ids": [
+        "market.ev.009"
+      ]
+    },
+    {
+      "claim_id": "market.cl.004",
+      "text": "가온칩스 stock_data.change_rate 값은 -7.08%입니다.",
+      "evidence_ids": [
+        "market.ev.010"
+      ]
+    },
+    {
+      "claim_id": "market.cl.005",
+      "text": "가온칩스 stock_data.raw.clpr 값은 55100입니다.",
+      "evidence_ids": [
+        "market.ev.016"
+      ]
+    },
+    {
+      "claim_id": "market.cl.006",
+      "text": "가온칩스 stock_data.raw.vs 값은 -4200입니다.",
+      "evidence_ids": [
+        "market.ev.017"
+      ]
+    },
+    {
+      "claim_id": "market.auto_cl.007",
+      "text": "stock_data.raw.fltRt 값은 -7.08%입니다.",
+      "evidence_ids": [
+        "market.ev.018"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "market.auto_cl.009",
+      "text": "stock_data.raw.mkp 값은 59,700입니다.",
+      "evidence_ids": [
+        "market.ev.019"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "market.auto_cl.011",
+      "text": "stock_data.raw.hipr 값은 59,700입니다.",
+      "evidence_ids": [
+        "market.ev.020"
+      ],
+      "claim_type": "point"
+    }
+  ],
+  "evidences": [
+    {
+      "evidence_id": "market.ev.001",
+      "source_type": "market",
+      "source": "market_graph_analysis",
+      "metric": "total_score",
+      "value": 73,
+      "unit": "score",
+      "period": null,
+      "snippet": "market_graph_analysis | total_score | 값: 73score"
+    },
+    {
+      "evidence_id": "market.ev.002",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.provider",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.provider | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.003",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.company",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.company | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.004",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.ticker",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.ticker | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.005",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.krx_code",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.krx_code | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.006",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.current_price",
+      "value": 55100,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.current_price | 값: 55,100원"
+    },
+    {
+      "evidence_id": "market.ev.007",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.currency",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.currency | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.008",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.as_of",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.as_of | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.009",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change",
+      "value": -4200,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.change | 값: -4,200"
+    },
+    {
+      "evidence_id": "market.ev.010",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change_rate",
+      "value": -7.08,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.change_rate | 값: -7.08%"
+    },
+    {
+      "evidence_id": "market.ev.011",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.basDt",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.basDt | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.012",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.srtnCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.srtnCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.013",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.isinCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.isinCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.014",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.itmsNm",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.itmsNm | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.015",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mrktCtg",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mrktCtg | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.016",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.clpr",
+      "value": 55100,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 55,100원"
+    },
+    {
+      "evidence_id": "market.ev.017",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.vs",
+      "value": -4200,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.vs | 값: -4,200"
+    },
+    {
+      "evidence_id": "market.ev.018",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.fltRt",
+      "value": -7.08,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: -7.08%"
+    },
+    {
+      "evidence_id": "market.ev.019",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mkp",
+      "value": 59700,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 59,700"
+    },
+    {
+      "evidence_id": "market.ev.020",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.hipr",
+      "value": 59700,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 59,700"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "market.ev.001",
+      "source_type": "market",
+      "source": "market_graph_analysis",
+      "metric": "total_score",
+      "value": 73,
+      "unit": "score",
+      "period": null,
+      "snippet": "market_graph_analysis | total_score | 값: 73score"
+    },
+    {
+      "evidence_id": "market.ev.002",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.provider",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.provider | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.003",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.company",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.company | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.004",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.ticker",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.ticker | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.005",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.krx_code",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.krx_code | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.006",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.current_price",
+      "value": 55100,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.current_price | 값: 55,100원"
+    },
+    {
+      "evidence_id": "market.ev.007",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.currency",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.currency | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.008",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.as_of",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.as_of | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.009",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change",
+      "value": -4200,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.change | 값: -4,200"
+    },
+    {
+      "evidence_id": "market.ev.010",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change_rate",
+      "value": -7.08,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.change_rate | 값: -7.08%"
+    },
+    {
+      "evidence_id": "market.ev.011",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.basDt",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.basDt | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.012",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.srtnCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.srtnCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.013",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.isinCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.isinCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.014",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.itmsNm",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.itmsNm | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.015",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mrktCtg",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mrktCtg | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.016",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.clpr",
+      "value": 55100,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 55,100원"
+    },
+    {
+      "evidence_id": "market.ev.017",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.vs",
+      "value": -4200,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.vs | 값: -4,200"
+    },
+    {
+      "evidence_id": "market.ev.018",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.fltRt",
+      "value": -7.08,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: -7.08%"
+    },
+    {
+      "evidence_id": "market.ev.019",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mkp",
+      "value": 59700,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 59,700"
+    },
+    {
+      "evidence_id": "market.ev.020",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.hipr",
+      "value": 59700,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 59,700"
+    }
+  ],
+  "raw_payload": {
+    "analysis": {
+      "agent": "market",
+      "company": "가온칩스",
+      "opinion": "보유",
+      "confidence": 0.6,
+      "market_summary": {
+        "oecd_interpretation": "OECD 경기선행지수가 98.01로 기준선(100) 하회하며 경기 둔화 가능성을 시사합니다. 이는 전반적인 투자 심리에 부정적인 영향을 줄 수 있습니다.",
+        "industry_stage": "가온칩스가 속한 시스템 반도체(팹리스) 산업은 AI·HBM 등 특정 세그먼트에서 성장기 초입에 있으나, 전체적으로는 성장기 중반에 위치합니다. 이는 높은 성장 잠재력과 함께 경쟁 심화 가능성을 내포합니다.",
+        "value_chain_position": "가온칩스는 삼성 파운드리의 공식 디자인 솔루션 파트너로서 팹리스 고객에게 시스템 반도체 설계 솔루션을 제공하는 밸류체인 상의 핵심적인 위치에 있습니다. 이는 수요 증가의 직접적인 수혜를 받을 수 있는 강점입니다.",
+        "competitive_position": "시스템 반도체 시장은 TSMC, 삼성, 인텔의 3강 구도 속에서 중국의 추격이 심화되는 등 경쟁 강도가 '높음'으로 평가됩니다. 가온칩스는 삼성 파운드리와의 협력을 통해 차별화된 경쟁력을 확보하고 있으나, 시장 내 경쟁은 치열합니다.",
+        "market_momentum": "가온칩스의 주가는 최근 7.08% 하락한 55,100원을 기록하며 단기적인 하락세를 보이고 있습니다. 이는 시장 전반의 변동성과 삼성전자 노사 이슈 등 외부 요인에 영향을 받은 것으로 판단됩니다."
+      },
+      "qualitative_rubric": {
+        "macro_cycle": {
+          "assessment": "중",
+          "reason": "OECD 경기선행지수가 기준선 하회하며 경기 둔화 가능성을 시사하나, 반도체 산업 자체의 수요는 견조한 편입니다."
+        },
+        "industry_attractiveness": {
+          "assessment": "상",
+          "reason": "AI·HBM 등 고성장 세그먼트의 수요 확대와 반도체 시장의 전반적인 성장 전망이 긍정적입니다."
+        },
+        "value_chain_position": {
+          "assessment": "상",
+          "reason": "삼성 파운드리의 공식 디자인 솔루션 파트너로서 팹리스 고객에게 설계 솔루션을 제공하며 수요 증가의 직접적인 수혜가 기대됩니다."
+        },
+        "competitive_position": {
+          "assessment": "중",
+          "reason": "시스템 반도체 시장은 경쟁 강도가 높으나, 삼성 파운드리와의 협력을 통해 차별화된 경쟁력을 확보하고 있습니다."
+        },
+        "market_momentum": {
+          "assessment": "중",
+          "reason": "최근 주가 하락이 있었으나, 52주 최고가 대비 하락폭이 크지 않고 시장 전반의 변동성이 반영된 것으로 보입니다."
+        },
+        "policy_disclosure_signal": {
+          "assessment": "상",
+          "reason": "정부의 R&D 지원 확대, 세액공제 검토 등 반도체 산업 육성 정책과 삼성 파운드리와의 공식 파트너십 공시가 긍정적입니다."
+        },
+        "downside_risk": {
+          "assessment": "중",
+          "reason": "삼성전자 노사 이슈로 인한 생산 차질 우려, 환율 변동성, 글로벌 경기 둔화 가능성 등이 잠재적 하방 리스크로 작용할 수 있습니다."
+        }
+      },
+      "bwm_assessment": {
+        "best_criterion": "산업 매력도 및 밸류체인 위치",
+        "worst_criterion": "거시 사이클 및 시장 모멘텀",
+        "judgment_effect": "산업의 구조적 성장성과 기업의 밸류체인 내 중요성은 긍정적이나, 단기적인 거시 경제 불확실성과 주가 변동성은 보유 의견의 근거가 됩니다."
+      },
+      "scoring": {
+        "거시환경": {
+          "score": 12,
+          "max": 20,
+          "reason": "OECD 경기선행지수 하회는 부정적이나, 반도체 산업 자체의 수요는 견조하여 중립적인 평가입니다."
+        },
+        "산업매력도": {
+          "score": 18,
+          "max": 20,
+          "reason": "AI·HBM 등 고성장 세그먼트의 수요 확대와 반도체 시장의 전반적인 성장 전망이 매우 긍정적입니다."
+        },
+        "경쟁위치": {
+          "score": 15,
+          "max": 20,
+          "reason": "높은 경쟁 강도에도 불구하고 삼성 파운드리와의 공식 파트너십을 통한 차별화된 경쟁력 확보가 강점입니다."
+        },
+        "정책수혜": {
+          "score": 18,
+          "max": 20,
+          "reason": "정부의 R&D 지원 확대 및 세액공제 검토 등 우호적인 정책 환경과 DART 공시 내용이 긍정적입니다."
+        },
+        "시장모멘텀": {
+          "score": 10,
+          "max": 20,
+          "reason": "최근 주가 하락이 있었고, 삼성전자 노사 이슈 등 외부 변수에 따른 변동성이 존재하여 중립적인 평가입니다."
+        }
+      },
+      "total_score": 73,
+      "claims": [
+        {
+          "claim_id": "market.cl.001",
+          "text": "가온칩스는 삼성 파운드리의 공식 디자인 솔루션 파트너로서 시스템 반도체 설계 분야에서 차별화된 경쟁력을 보유하고 있습니다.",
+          "evidence_ids": [
+            "market.ev.001"
+          ]
+        },
+        {
+          "claim_id": "market.cl.002",
+          "text": "AI·HBM 반도체 시장의 폭발적인 수요 증가와 정부의 반도체 산업 육성 정책은 가온칩스에 긍정적인 성장 동력으로 작용할 것입니다.",
+          "evidence_ids": [
+            "market.ev.002",
+            "market.ev.003"
+          ]
+        },
+        {
+          "claim_id": "market.cl.003",
+          "text": "삼성전자 노사 협상 결렬 및 파업 우려는 단기적인 시장 변동성을 야기할 수 있으나, 반도체 업황 개선 흐름 자체는 유효하다는 분석이 있습니다.",
+          "evidence_ids": [
+            "market.ev.004",
+            "market.ev.005"
+          ]
+        }
+      ],
+      "evidences": [
+        {
+          "evidence_id": "market.ev.001",
+          "source_type": "dart",
+          "source": "DART",
+          "metric": "differentiation",
+          "value": "가온칩스는 삼성 파운드리의 공식 디자인 솔루션 파트너로서 팹리스 고객에게 최적화된 시스템 반도체 디자인 솔루션을 제공하여 차별화된 경쟁력을 가지고 있다.",
+          "unit": null,
+          "period": null,
+          "snippet": "가온칩스는 삼성 파운드리의 공식 디자인 솔루션 파트너로서 팹리스 고객에게 최적화된 시스템 반도체 디자인 솔루션을 제공하여 차별화된 경쟁력을 가지고 있다."
+        },
+        {
+          "evidence_id": "market.ev.002",
+          "source_type": "static",
+          "source": "밸류체인 & 경쟁구조",
+          "metric": "AI·HBM 반도체",
+          "value": "엔비디아 GPU 수요 폭발, HBM 공급 부족 지속, 고마진 프리미엄 구조",
+          "unit": null,
+          "period": null,
+          "snippet": "AI·HBM 반도체: 엔비디아 GPU 수요 폭발, HBM 공급 부족 지속, 고마진 프리미엄 구조"
+        },
+        {
+          "evidence_id": "market.ev.003",
+          "source_type": "static",
+          "source": "밸류체인 & 경쟁구조",
+          "metric": "R&D 지원 확대",
+          "value": "R&D 지원 확대",
+          "unit": null,
+          "period": null,
+          "snippet": "R&D 지원 확대"
+        },
+        {
+          "evidence_id": "market.ev.004",
+          "source_type": "news",
+          "source": "Naver News",
+          "metric": "title",
+          "value": "삼성전자 노사 끝내 결렬…정부 '긴급조정권' 변수로",
+          "unit": null,
+          "period": "20260520",
+          "snippet": "메모리 업황 회복과 인공지능(AI) 반도체 수요 확대가 맞물린 시점에 생산 차질이 발생할 경우 글로벌 고객사 대응에도 부담이 커질 수 있다."
+        },
+        {
+          "evidence_id": "market.ev.005",
+          "source_type": "news",
+          "source": "Naver News",
+          "metric": "title",
+          "value": "[특징주] 삼성전자, 노사 협상 결렬에 2%대 하락전환",
+          "unit": null,
+          "period": "20260520",
+          "snippet": "다만 증권가에서는 파업 리스크에도 반도체 업황 개선 흐름은 유효하다는 분석을 내놓고 있다."
+        }
+      ],
+      "risks": [
+        {
+          "risk": "삼성전자 노사 갈등 장기화 및 파업으로 인한 생산 차질",
+          "severity": "중",
+          "basis": "삼성전자 노사 협상 결렬 및 파업 예고로 인한 공급망 불확실성 확대 우려"
+        },
+        {
+          "risk": "글로벌 경기 둔화 및 고금리 지속 가능성",
+          "severity": "중",
+          "basis": "OECD 경기선행지수 하회 및 환율 상승세 지속"
+        },
+        {
+          "risk": "시스템 반도체 시장의 높은 경쟁 강도",
+          "severity": "중",
+          "basis": "TSMC, 삼성, 인텔 3강 구도 및 중국의 추격 심화"
+        }
+      ],
+      "opportunities": [
+        {
+          "opportunity": "AI·HBM 반도체 시장의 폭발적인 성장",
+          "basis": "AI 서버 투자 확대 및 HBM 수요 증가로 인한 고성장 세그먼트 수혜 기대"
+        },
+        {
+          "opportunity": "정부의 반도체 산업 육성 정책 수혜",
+          "basis": "R&D 지원 확대, 세액공제 검토 등 정책적 지원 강화"
+        },
+        {
+          "opportunity": "삼성 파운드리와의 파트너십을 통한 기술 및 고객 기반 확대",
+          "basis": "공식 디자인 솔루션 파트너로서의 입지를 활용한 사업 확장 가능성"
+        }
+      ],
+      "summary": "가온칩스는 AI·HBM 반도체 시장의 구조적 성장과 삼성 파운드리와의 파트너십을 기반으로 긍정적인 성장 잠재력을 보유하고 있습니다. 다만, 삼성전자 노사 이슈 및 거시 경제 불확실성은 단기적인 변동성을 야기할 수 있어 '보유' 의견을 제시합니다.",
+      "raw_payload": {
+        "stock_used": true,
+        "oecd_used": true,
+        "static_used": true,
+        "news_used": true,
+        "dart_used": true
+      }
+    },
+    "original_opportunities": [
+      {
+        "opportunity": "AI·HBM 반도체 시장의 폭발적인 성장",
+        "basis": "AI 서버 투자 확대 및 HBM 수요 증가로 인한 고성장 세그먼트 수혜 기대"
+      },
+      {
+        "opportunity": "정부의 반도체 산업 육성 정책 수혜",
+        "basis": "R&D 지원 확대, 세액공제 검토 등 정책적 지원 강화"
+      },
+      {
+        "opportunity": "삼성 파운드리와의 파트너십을 통한 기술 및 고객 기반 확대",
+        "basis": "공식 디자인 솔루션 파트너로서의 입지를 활용한 사업 확장 가능성"
+      }
+    ],
+    "original_risks": [
+      {
+        "risk": "삼성전자 노사 갈등 장기화 및 파업으로 인한 생산 차질",
+        "severity": "중",
+        "basis": "삼성전자 노사 협상 결렬 및 파업 예고로 인한 공급망 불확실성 확대 우려"
+      },
+      {
+        "risk": "글로벌 경기 둔화 및 고금리 지속 가능성",
+        "severity": "중",
+        "basis": "OECD 경기선행지수 하회 및 환율 상승세 지속"
+      },
+      {
+        "risk": "시스템 반도체 시장의 높은 경쟁 강도",
+        "severity": "중",
+        "basis": "TSMC, 삼성, 인텔 3강 구도 및 중국의 추격 심화"
+      }
+    ],
+    "removed_bad_evidence_ids": [
+      "market.ev.unverified"
+    ]
+  },
+  "total_score": 73,
+  "scoring": {
+    "거시환경": {
+      "score": 12,
+      "max": 20,
+      "reason": "OECD 경기선행지수 하회는 부정적이나, 반도체 산업 자체의 수요는 견조하여 중립적인 평가입니다."
+    },
+    "산업매력도": {
+      "score": 18,
+      "max": 20,
+      "reason": "AI·HBM 등 고성장 세그먼트의 수요 확대와 반도체 시장의 전반적인 성장 전망이 매우 긍정적입니다."
+    },
+    "경쟁위치": {
+      "score": 15,
+      "max": 20,
+      "reason": "높은 경쟁 강도에도 불구하고 삼성 파운드리와의 공식 파트너십을 통한 차별화된 경쟁력 확보가 강점입니다."
+    },
+    "정책수혜": {
+      "score": 18,
+      "max": 20,
+      "reason": "정부의 R&D 지원 확대 및 세액공제 검토 등 우호적인 정책 환경과 DART 공시 내용이 긍정적입니다."
+    },
+    "시장모멘텀": {
+      "score": 10,
+      "max": 20,
+      "reason": "최근 주가 하락이 있었고, 삼성전자 노사 이슈 등 외부 변수에 따른 변동성이 존재하여 중립적인 평가입니다."
+    }
+  },
+  "packet_version": "grounded_agent_v3",
+  "pre_sanitize_grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 6,
+    "supported_count": 6,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "가온칩스 마켓 분석 total_score 값은 73점입니다.",
+      "가온칩스 stock_data.current_price 값은 55100입니다.",
+      "가온칩스 stock_data.change 값은 -4200입니다.",
+      "가온칩스 stock_data.change_rate 값은 -7.08%입니다.",
+      "가온칩스 stock_data.raw.clpr 값은 55100입니다.",
+      "가온칩스 stock_data.raw.vs 값은 -4200입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "market.cl.001",
+        "text": "가온칩스 마켓 분석 total_score 값은 73점입니다.",
+        "evidence_ids": [
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "가온칩스 stock_data.current_price 값은 55100입니다.",
+        "evidence_ids": [
+          "market.ev.006"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {
+          "price": [
+            "market.ev.006"
+          ]
+        },
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.003",
+        "text": "가온칩스 stock_data.change 값은 -4200입니다.",
+        "evidence_ids": [
+          "market.ev.009"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.004",
+        "text": "가온칩스 stock_data.change_rate 값은 -7.08%입니다.",
+        "evidence_ids": [
+          "market.ev.010"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.005",
+        "text": "가온칩스 stock_data.raw.clpr 값은 55100입니다.",
+        "evidence_ids": [
+          "market.ev.016"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.006",
+        "text": "가온칩스 stock_data.raw.vs 값은 -4200입니다.",
+        "evidence_ids": [
+          "market.ev.017"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  },
+  "post_atomic_grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 9,
+    "supported_count": 9,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "가온칩스 마켓 분석 total_score 값은 73점입니다.",
+      "가온칩스 stock_data.current_price 값은 55100입니다.",
+      "가온칩스 stock_data.change 값은 -4200입니다.",
+      "가온칩스 stock_data.change_rate 값은 -7.08%입니다.",
+      "가온칩스 stock_data.raw.clpr 값은 55100입니다.",
+      "가온칩스 stock_data.raw.vs 값은 -4200입니다.",
+      "stock_data.raw.fltRt 값은 -7.08%입니다.",
+      "stock_data.raw.mkp 값은 59,700입니다.",
+      "stock_data.raw.hipr 값은 59,700입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "market.cl.001",
+        "text": "가온칩스 마켓 분석 total_score 값은 73점입니다.",
+        "evidence_ids": [
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "가온칩스 stock_data.current_price 값은 55100입니다.",
+        "evidence_ids": [
+          "market.ev.006"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {
+          "price": [
+            "market.ev.006"
+          ]
+        },
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.003",
+        "text": "가온칩스 stock_data.change 값은 -4200입니다.",
+        "evidence_ids": [
+          "market.ev.009"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.004",
+        "text": "가온칩스 stock_data.change_rate 값은 -7.08%입니다.",
+        "evidence_ids": [
+          "market.ev.010"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.005",
+        "text": "가온칩스 stock_data.raw.clpr 값은 55100입니다.",
+        "evidence_ids": [
+          "market.ev.016"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.006",
+        "text": "가온칩스 stock_data.raw.vs 값은 -4200입니다.",
+        "evidence_ids": [
+          "market.ev.017"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.007",
+        "text": "stock_data.raw.fltRt 값은 -7.08%입니다.",
+        "evidence_ids": [
+          "market.ev.018"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.009",
+        "text": "stock_data.raw.mkp 값은 59,700입니다.",
+        "evidence_ids": [
+          "market.ev.019"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.011",
+        "text": "stock_data.raw.hipr 값은 59,700입니다.",
+        "evidence_ids": [
+          "market.ev.020"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  },
+  "grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 9,
+    "supported_count": 9,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "가온칩스 마켓 분석 total_score 값은 73점입니다.",
+      "가온칩스 stock_data.current_price 값은 55100입니다.",
+      "가온칩스 stock_data.change 값은 -4200입니다.",
+      "가온칩스 stock_data.change_rate 값은 -7.08%입니다.",
+      "가온칩스 stock_data.raw.clpr 값은 55100입니다.",
+      "가온칩스 stock_data.raw.vs 값은 -4200입니다.",
+      "stock_data.raw.fltRt 값은 -7.08%입니다.",
+      "stock_data.raw.mkp 값은 59,700입니다.",
+      "stock_data.raw.hipr 값은 59,700입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "market.cl.001",
+        "text": "가온칩스 마켓 분석 total_score 값은 73점입니다.",
+        "evidence_ids": [
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "가온칩스 stock_data.current_price 값은 55100입니다.",
+        "evidence_ids": [
+          "market.ev.006"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {
+          "price": [
+            "market.ev.006"
+          ]
+        },
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.003",
+        "text": "가온칩스 stock_data.change 값은 -4200입니다.",
+        "evidence_ids": [
+          "market.ev.009"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.004",
+        "text": "가온칩스 stock_data.change_rate 값은 -7.08%입니다.",
+        "evidence_ids": [
+          "market.ev.010"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.005",
+        "text": "가온칩스 stock_data.raw.clpr 값은 55100입니다.",
+        "evidence_ids": [
+          "market.ev.016"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.006",
+        "text": "가온칩스 stock_data.raw.vs 값은 -4200입니다.",
+        "evidence_ids": [
+          "market.ev.017"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.007",
+        "text": "stock_data.raw.fltRt 값은 -7.08%입니다.",
+        "evidence_ids": [
+          "market.ev.018"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.009",
+        "text": "stock_data.raw.mkp 값은 59,700입니다.",
+        "evidence_ids": [
+          "market.ev.019"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.011",
+        "text": "stock_data.raw.hipr 값은 59,700입니다.",
+        "evidence_ids": [
+          "market.ev.020"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  }
+}

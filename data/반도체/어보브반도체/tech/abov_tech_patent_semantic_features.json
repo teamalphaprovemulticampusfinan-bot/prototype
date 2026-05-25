@@ -1,0 +1,153 @@
+{
+  "status": "OK",
+  "created_at": "2026-05-20T21:30:51",
+  "company_slug": "abov",
+  "company_name": "어보브반도체",
+  "source_csv": "data\\반도체\\어보브반도체\\tech\\abov_kipris_bibliographic_normalized.csv",
+  "method": "TFIDF_COSINE_FALLBACK",
+  "patent_text_count": 30,
+  "semantic_similarity_avg": 0.0372,
+  "top_pairs": [
+    {
+      "left_index": 16,
+      "right_index": 18,
+      "similarity": 1.0,
+      "left_source_index": 16,
+      "right_source_index": 18
+    },
+    {
+      "left_index": 3,
+      "right_index": 17,
+      "similarity": 0.6186,
+      "left_source_index": 3,
+      "right_source_index": 17
+    },
+    {
+      "left_index": 3,
+      "right_index": 19,
+      "similarity": 0.471,
+      "left_source_index": 3,
+      "right_source_index": 19
+    },
+    {
+      "left_index": 11,
+      "right_index": 13,
+      "similarity": 0.3098,
+      "left_source_index": 11,
+      "right_source_index": 13
+    },
+    {
+      "left_index": 17,
+      "right_index": 19,
+      "similarity": 0.2619,
+      "left_source_index": 17,
+      "right_source_index": 19
+    },
+    {
+      "left_index": 8,
+      "right_index": 27,
+      "similarity": 0.2038,
+      "left_source_index": 8,
+      "right_source_index": 27
+    },
+    {
+      "left_index": 12,
+      "right_index": 20,
+      "similarity": 0.2017,
+      "left_source_index": 12,
+      "right_source_index": 20
+    },
+    {
+      "left_index": 25,
+      "right_index": 26,
+      "similarity": 0.1781,
+      "left_source_index": 25,
+      "right_source_index": 26
+    },
+    {
+      "left_index": 7,
+      "right_index": 27,
+      "similarity": 0.1691,
+      "left_source_index": 7,
+      "right_source_index": 27
+    },
+    {
+      "left_index": 4,
+      "right_index": 27,
+      "similarity": 0.1509,
+      "left_source_index": 4,
+      "right_source_index": 27
+    },
+    {
+      "left_index": 7,
+      "right_index": 8,
+      "similarity": 0.1504,
+      "left_source_index": 7,
+      "right_source_index": 8
+    },
+    {
+      "left_index": 21,
+      "right_index": 23,
+      "similarity": 0.1421,
+      "left_source_index": 21,
+      "right_source_index": 23
+    },
+    {
+      "left_index": 0,
+      "right_index": 27,
+      "similarity": 0.1372,
+      "left_source_index": 0,
+      "right_source_index": 27
+    },
+    {
+      "left_index": 0,
+      "right_index": 8,
+      "similarity": 0.1331,
+      "left_source_index": 0,
+      "right_source_index": 8
+    },
+    {
+      "left_index": 3,
+      "right_index": 12,
+      "similarity": 0.1287,
+      "left_source_index": 3,
+      "right_source_index": 12
+    },
+    {
+      "left_index": 27,
+      "right_index": 28,
+      "similarity": 0.1272,
+      "left_source_index": 27,
+      "right_source_index": 28
+    },
+    {
+      "left_index": 12,
+      "right_index": 19,
+      "similarity": 0.1221,
+      "left_source_index": 12,
+      "right_source_index": 19
+    },
+    {
+      "left_index": 12,
+      "right_index": 17,
+      "similarity": 0.1207,
+      "left_source_index": 12,
+      "right_source_index": 17
+    },
+    {
+      "left_index": 5,
+      "right_index": 16,
+      "similarity": 0.1138,
+      "left_source_index": 5,
+      "right_source_index": 16
+    },
+    {
+      "left_index": 5,
+      "right_index": 18,
+      "similarity": 0.1138,
+      "left_source_index": 5,
+      "right_source_index": 18
+    }
+  ],
+  "usage_note": "This is an offline fallback inspired by PatentSBERTa-style semantic patent distance. If sentence-transformers and AI-Growth-Lab/PatentSBERTa are installed later, this layer can be upgraded."
+}

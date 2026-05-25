@@ -1,0 +1,226 @@
+{
+  "agent_name": "finance",
+  "company_name": "에스티아이",
+  "company_dir": "sti",
+  "industry_type": "deeptech_cf",
+  "summary": "에스티아이는 2023년 견조한 매출과 영업이익을 기록했으나, 2024년에는 매출이 소폭 증가했음에도 불구하고 영업이익률이 하락하며 수익성이 둔화되는 모습을 보였습니다. 2025년에는 매출과 영업이익이 모두 감소하며 수익성이 더욱 악화될 것으로 전망됩니다. 주가는 최근 1개월간 상당한 변동성을 보이며, 특히 2024년에는 큰 폭의 하락과 높은 MDD를 기록했습니다.",
+  "key_thesis": [
+    "2023년 매출액 3,194억원, 영업이익 239억원으로 견조한 실적을 달성했습니다.",
+    "2023년 영업이익률은 7.5%로 양호한 수준을 유지했습니다.",
+    "2023년 ROE는 10.1%로 자본 대비 수익성이 양호했습니다.",
+    "2023년 잉여현금흐름(FCF)은 246억원을 기록하며 현금 창출 능력을 보여주었습니다.",
+    "2023년 부채비율은 33.0%로 재무 건전성이 양호한 수준입니다.",
+    "2023년 이자보상배율은 16.3배로 이자 지급 능력이 충분합니다."
+  ],
+  "key_risks": [
+    "2024년 영업이익률이 8.2%로 소폭 상승했으나, 매출액 대비 이자 비용 증가로 인해 순이익은 감소했습니다.",
+    "2024년 잉여현금흐름(FCF)이 -23억원을 기록하며 마이너스로 전환되었습니다.",
+    "2024년 부채비율이 41.4%로 상승하여 재무 레버리지 부담이 증가했습니다.",
+    "2024년 이자보상배율이 5.7배로 하락하여 이자 지급 능력이 약화되었습니다.",
+    "2025년 매출액, 영업이익, 순이익이 모두 감소할 것으로 전망되어 수익성 악화가 우려됩니다.",
+    "2025년 ROE가 5.4%로 하락하며 자본 대비 수익성이 크게 둔화될 것으로 예상됩니다.",
+    "2025년 영업이익률이 6.0%로 하락하며 수익성 개선이 시급한 상황입니다.",
+    "최근 1개월 주가 데이터에서 2026년 4월 22일 7.1%의 높은 상승률을 기록했으나, 이후 변동성이 확대되며 5월 12일에는 -4.5%의 하락률을 보였습니다. 또한, 2026년 연간 MDD가 -30.3%로 높은 수준을 기록하여 투자 위험이 존재합니다."
+  ],
+  "report_core_points": [
+    "FCF: 에스티아이 2025 기준 FCF 값은 8,984,322,130원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+    "연수익률: 에스티아이 2026 기준 연수익률 값은 5.11%이며, 해당 연도 주가 성과를 보여주는 지표입니다.",
+    "연간 MDD: 에스티아이 2026 기준 연간 MDD 값은 -30.27%이며, 투자자가 경험할 수 있는 최대 낙폭 위험을 보여주는 지표입니다.",
+    "거래량: 에스티아이 2026 기준 거래량 값은 338070.00주이며, 해당 연도 평균 거래량을 통해 시장 관심과 유동성을 확인하는 지표입니다.",
+    "이동평균 대비 비율: 에스티아이 2026 기준 이동평균 대비 비율 값은 0.98배이며, 거래량이 이동평균 대비 어느 수준인지 보여주는 수급 지표입니다."
+  ],
+  "missing_prompt_metrics": [
+    "매출성장률",
+    "영업이익률",
+    "ROE",
+    "부채비율",
+    "변동성지수"
+  ],
+  "evidence": [
+    {
+      "evidence_id": "finance.ev.004",
+      "source_type": "financial_csv",
+      "source": "에스티아이_재무.csv",
+      "metric": "fcf",
+      "label": "FCF",
+      "value": 8984322130.0,
+      "unit": "원",
+      "period": "2025",
+      "snippet": "에스티아이 2025 기준 FCF 값은 8,984,322,130원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.007",
+      "source_type": "stock_csv",
+      "source": "에스티아이_주식.csv",
+      "metric": "annual_return_%",
+      "label": "연수익률",
+      "value": 5.11,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "에스티아이 2026 기준 연수익률 값은 5.11%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.008",
+      "source_type": "stock_csv",
+      "source": "에스티아이_주식.csv",
+      "metric": "annual_mdd_%",
+      "label": "연간 MDD",
+      "value": -30.27,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "에스티아이 2026 기준 연간 MDD 값은 -30.27%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.009",
+      "source_type": "stock_csv",
+      "source": "에스티아이_주식.csv",
+      "metric": "volume_mean",
+      "label": "거래량",
+      "value": 338070.0,
+      "unit": "주",
+      "period": "2026",
+      "snippet": "에스티아이 2026 기준 거래량 값은 338070주입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.010",
+      "source_type": "stock_csv",
+      "source": "에스티아이_주식.csv",
+      "metric": "volume_ma_ratio_mean",
+      "label": "이동평균 대비 비율",
+      "value": 0.9836,
+      "unit": "배",
+      "period": "2026",
+      "snippet": "에스티아이 2026 기준 이동평균 대비 비율 값은 0.9836배입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.012",
+      "source_type": "stock_csv",
+      "source": "에스티아이_주식.csv",
+      "metric": "latest_close",
+      "label": "최근 종가",
+      "value": 35000.0,
+      "unit": "원",
+      "period": "2026-05-13",
+      "snippet": "에스티아이 2026-05-13 최근 종가 값은 35,000원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.013",
+      "source_type": "warning_stock_csv",
+      "source": "투자경고종목.csv",
+      "metric": "warning_stock",
+      "label": "투자경고 여부",
+      "value": 0.0,
+      "unit": null,
+      "period": "최근",
+      "snippet": "에스티아이 투자경고종목 해당 여부 값은 0입니다.",
+      "prompt_rationale": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "finance.safe_cl.004",
+      "text": "에스티아이 2025 기준 FCF 값은 8,984,322,130원입니다.",
+      "evidence_ids": [
+        "finance.ev.004"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.007",
+      "text": "에스티아이 2026 기준 연수익률 값은 5.11%입니다.",
+      "evidence_ids": [
+        "finance.ev.007"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.008",
+      "text": "에스티아이 2026 기준 연간 MDD 값은 -30.27%입니다.",
+      "evidence_ids": [
+        "finance.ev.008"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.009",
+      "text": "에스티아이 2026 기준 거래량 값은 338070주입니다.",
+      "evidence_ids": [
+        "finance.ev.009"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.010",
+      "text": "에스티아이 2026 기준 이동평균 대비 비율 값은 0.9836배입니다.",
+      "evidence_ids": [
+        "finance.ev.010"
+      ],
+      "audit_safe": true
+    }
+  ],
+  "warning_note": null,
+  "source_contexts": [
+    "financial_csv=에스티아이_재무.csv",
+    "stock_csv=에스티아이_주식.csv",
+    "warning_stock_csv=투자경고종목.csv",
+    "prompts.py summary/key_thesis/key_risks are preserved in the Chair View where available.",
+    "First Auditor claims are CSV-grounded one-to-one evidence claims for stable actual-information verification.",
+    "필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수"
+  ],
+  "raw_payload": {
+    "latest_financial_row": {
+      "year": 2025,
+      "sales": 328058707879.0,
+      "operating_income": 19718973861.0,
+      "net_income": 15417982866.0,
+      "total_assets": 366268498846.0,
+      "total_liabilities": 79295634591.0,
+      "total_equity": 286972864255.0,
+      "capex": 9698790139,
+      "ocf": 18683112269,
+      "fcf": 8984322130,
+      "interest": 2766960813.0,
+      "ROE": 5.3726274454646,
+      "영업이익률": 6.0108064158666,
+      "부채비율": 27.63175354466233,
+      "이자보상배율": 7.126582266129115
+    },
+    "latest_stock_metric": {
+      "year": 2026,
+      "annual_return_%": 5.11,
+      "annual_mdd_%": -30.27
+    },
+    "latest_yearly_summary": {
+      "year": 2026,
+      "close_start": 33300.0,
+      "close_end": 35000.0,
+      "close_high": 40850.0,
+      "close_low": 28450.0,
+      "volume_mean": 338070.0,
+      "volume_ma_ratio_mean": 0.9836
+    },
+    "latest_recent_stock_row": {
+      "Date": "2026-05-13",
+      "Open": 34100.0,
+      "High": 35500.0,
+      "Low": 33750.0,
+      "Close": 35000.0,
+      "Volume": 189760,
+      "Change": -0.0014265335235378,
+      "VKOSPI": NaN,
+      "일수익률_%": -0.14265335235378,
+      "누적최고가": 41290.89453125,
+      "드로다운_%": -15.235549151130378,
+      "거래량_20일평균": 340172.5,
+      "거래량_이동평균대비비율": 0.5578346280196077
+    },
+    "audit_policy": "prompts_py_used_for_interpretation_claims_grounded_by_local_csv"
+  },
+  "packet_version": "finance_prompts_grounded_v4_compact"
+}

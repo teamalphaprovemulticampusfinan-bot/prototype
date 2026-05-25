@@ -1,0 +1,2041 @@
+{
+  "created_at": "2026-05-07T22:04:39",
+  "universe_csv": "data\\반도체\\_sector_common\\ml_universe\\deeptech_reference_universe.csv",
+  "meta": {
+    "method": "Company-level TF-IDF/LSA + KMeans",
+    "embedding_method": "TF-IDF + TruncatedSVD(20) + Normalizer",
+    "feature_count": 5000,
+    "k": 7,
+    "silhouette_score": 0.807701,
+    "k_diagnostics": [
+      {
+        "k": 2,
+        "silhouette_score": 0.233057
+      },
+      {
+        "k": 3,
+        "silhouette_score": 0.353971
+      },
+      {
+        "k": 4,
+        "silhouette_score": 0.483069
+      },
+      {
+        "k": 5,
+        "silhouette_score": 0.609113
+      },
+      {
+        "k": 6,
+        "silhouette_score": 0.718984
+      },
+      {
+        "k": 7,
+        "silhouette_score": 0.807701
+      },
+      {
+        "k": 8,
+        "silhouette_score": 0.79707
+      }
+    ],
+    "explained_variance_ratio_sum": 1.0,
+    "sklearn_available": true,
+    "sklearn_error": "",
+    "n_companies": 30,
+    "random_state": 42,
+    "requested_k": null
+  },
+  "assignments": [
+    {
+      "company_dir": "hansol",
+      "company_name": "한솔케미칼",
+      "ticker": "014680",
+      "sector_label": "소재",
+      "peer_group": "소재",
+      "semiconductor_tag": "소재",
+      "reference_role": "FOCAL_REPORT_TARGET",
+      "include_in_chair": 1,
+      "selected_for_30": 1,
+      "patent_csv": "data\\반도체\\한솔케미칼\\tech\\source\\kipris_hansol_patents.csv",
+      "patent_rows": 651,
+      "document_chars": 293346,
+      "document_source": "universe_csv+kipris_or_outputs",
+      "universe_id": "소재_01_014680",
+      "selection_score": 1100.2721,
+      "is_focal": 1,
+      "valuation_proxy_label": "ATTRACTIVE",
+      "credit_proxy_label": "LOW_RISK",
+      "review_flag": "OK",
+      "cluster_id": 6,
+      "distance_to_centroid": 0.74441,
+      "top_terms": "한솔케미칼|h01m|있다|있게|c08f|조성물|제조방법|있는|자동차용|대한솔루션"
+    },
+    {
+      "company_dir": "ltc",
+      "company_name": "엘티씨",
+      "ticker": "170920",
+      "sector_label": "소재",
+      "peer_group": "소재",
+      "semiconductor_tag": "소재",
+      "reference_role": "FOCAL_REPORT_TARGET",
+      "include_in_chair": 1,
+      "selected_for_30": 1,
+      "patent_csv": "data\\반도체\\엘티씨\\tech\\source\\kipris_ltc_patents.csv",
+      "patent_rows": 506,
+      "document_chars": 264192,
+      "document_source": "universe_csv+kipris_or_outputs",
+      "universe_id": "소재_02_170920",
+      "selection_score": 1090.7717,
+      "is_focal": 1,
+      "valuation_proxy_label": "FAIR",
+      "credit_proxy_label": "LOW_RISK",
+      "review_flag": "OK",
+      "cluster_id": 6,
+      "distance_to_centroid": 0.67768,
+      "top_terms": "있다|위한|있는|제1|윤활유|것으로|의해|것을|따른|따라"
+    },
+    {
+      "company_dir": "nepes",
+      "company_name": "네패스",
+      "ticker": "033640",
+      "sector_label": "후공정/패키징/테스트",
+      "peer_group": "후공정/패키징/테스트",
+      "semiconductor_tag": "후공정/패키징/테스트",
+      "reference_role": "FOCAL_REPORT_TARGET",
+      "include_in_chair": 1,
+      "selected_for_30": 1,
+      "patent_csv": "data\\반도체\\네패스\\tech\\source\\kipris_nepes_patents.csv",
+      "patent_rows": 420,
+      "document_chars": 200762,
+      "document_source": "universe_csv+kipris_or_outputs",
+      "universe_id": "후공정_패키징_테스트_01_033640",
+      "selection_score": 1082.296,
+      "is_focal": 1,
+      "valuation_proxy_label": "ATTRACTIVE",
+      "credit_proxy_label": "MEDIUM_RISK",
+      "review_flag": "OK",
+      "cluster_id": 6,
+      "distance_to_centroid": 0.701323,
+      "top_terms": "반도체|h10w|제1|네패스|패키지|반도체 패키지|재배선|제2|상에|전기적으로"
+    },
+    {
+      "company_dir": "hanmi",
+      "company_name": "한미반도체",
+      "ticker": "042700",
+      "sector_label": "후공정/패키징/테스트",
+      "peer_group": "후공정/패키징/테스트",
+      "semiconductor_tag": "후공정/패키징/테스트",
+      "reference_role": "FOCAL_REPORT_TARGET",
+      "include_in_chair": 1,
+      "selected_for_30": 1,
+      "patent_csv": "data\\반도체\\한미반도체\\tech\\source\\kipris_hanmi_patents.csv",
+      "patent_rows": 896,
+      "document_chars": 390296,
+      "document_source": "universe_csv+kipris_or_outputs",
+      "universe_id": "후공정_패키징_테스트_02_042700",
+      "selection_score": 1071.7905,
+      "is_focal": 1,
+      "valuation_proxy_label": "FAIR",
+      "credit_proxy_label": "LOW_RISK",
+      "review_flag": "AUDITOR_REVIEW;CREDIT_ANOMALY_TOP15PCT",
+      "cluster_id": 6,
+      "distance_to_centroid": 0.70034,
+      "top_terms": "반도체|h10p|a61k|패키지|한미반도체|반도체 패키지|이의|있는|한미반도체 반도체|한미약품"
+    },
+    {
+      "company_dir": "duksan",
+      "company_name": "덕산테코피아",
+      "ticker": "317330",
+      "sector_label": "소재",
+      "peer_group": "소재",
+      "semiconductor_tag": "소재",
+      "reference_role": "FOCAL_REPORT_TARGET",
+      "include_in_chair": 1,
+      "selected_for_30": 1,
+      "patent_csv": "data\\반도체\\덕산테코피아\\tech\\source\\kipris_duksan_patents.csv",
+      "patent_rows": 38,
+      "document_chars": 35526,
+      "document_source": "universe_csv+kipris_or_outputs",
+      "universe_id": "소재_03_317330",
+      "selection_score": 1026.9482,
+      "is_focal": 1,
+      "valuation_proxy_label": "EXPENSIVE",
+      "credit_proxy_label": "HIGH_RISK",
+      "review_flag": "AUDITOR_REVIEW;CREDIT_ANOMALY_TOP15PCT",
+      "cluster_id": 6,
+      "distance_to_centroid": 0.789461,
+      "top_terms": "덕산테코피아|반도체|정량화|수지|조성물|특허|등록|있다|g03f|캐니스터"
+    },
+    {
+      "company_dir": "월덱스",
+      "company_name": "월덱스",
+      "ticker": "101160",
+      "sector_label": "소재",
+      "peer_group": "소재",
+      "semiconductor_tag": "소재",
+      "reference_role": "REFERENCE_PEER_FROM_VALUATION_CREDIT_ML",
+      "include_in_chair": 0,
+      "selected_for_30": 1,
+      "patent_csv": "",
+      "patent_rows": 0,
+      "document_chars": 450,
+      "document_source": "universe_csv_only",
+      "universe_id": "소재_04_101160",
+      "selection_score": 105.8433,
+      "is_focal": 0,
+      "valuation_proxy_label": "ATTRACTIVE",
+      "credit_proxy_label": "LOW_RISK",
+      "review_flag": "OK",
+      "cluster_id": 2,
+      "distance_to_centroid": 0.080752,
+      "top_terms": "소재|소재 소재|attractive|low_risk|attractive low_risk|credit_risk_score_0.0|attractive credit|valuation attractive|low_risk attractive|human_review attractive"
+    },
+    {
+      "company_dir": "메카로",
+      "company_name": "메카로",
+      "ticker": "241770",
+      "sector_label": "IDM/제조/메모리",
+      "peer_group": "IDM/제조/메모리",
+      "semiconductor_tag": "IDM/제조/메모리",
+      "reference_role": "REFERENCE_PEER_FROM_VALUATION_CREDIT_ML",
+      "include_in_chair": 0,
+      "selected_for_30": 1,
+      "patent_csv": "",
+      "patent_rows": 0,
+      "document_chars": 531,
+      "document_source": "universe_csv_only",
+      "universe_id": "idm_제조_메모리_01_241770",
+      "selection_score": 104.6945,
+      "is_focal": 0,
+      "valuation_proxy_label": "ATTRACTIVE",
+      "credit_proxy_label": "LOW_RISK",
+      "review_flag": "OK",
+      "cluster_id": 3,
+      "distance_to_centroid": 0.021379,
+      "top_terms": "idm/제조/메모리|idm/제조/메모리 idm/제조/메모리|attractive|low_risk|attractive low_risk|credit_risk_score_0.0|valuation attractive|low_risk attractive|human_review attractive|attractive credit"
+    },
+    {
+      "company_dir": "lx세미콘",
+      "company_name": "LX세미콘",
+      "ticker": "108320",
+      "sector_label": "팹리스/설계",
+      "peer_group": "팹리스/설계",
+      "semiconductor_tag": "팹리스/설계",
+      "reference_role": "REFERENCE_PEER_FROM_VALUATION_CREDIT_ML",
+      "include_in_chair": 0,
+      "selected_for_30": 1,
+      "patent_csv": "",
+      "patent_rows": 0,
+      "document_chars": 492,
+      "document_source": "universe_csv_only",
+      "universe_id": "팹리스_설계_01_108320",
+      "selection_score": 104.1154,
+      "is_focal": 0,
+      "valuation_proxy_label": "ATTRACTIVE",
+      "credit_proxy_label": "LOW_RISK",
+      "review_flag": "OK",
+      "cluster_id": 4,
+      "distance_to_centroid": 0.0,
+      "top_terms": "팹리스/설계|팹리스/설계 팹리스/설계|attractive|low_risk|attractive low_risk|credit_risk_score_0.0|attractive credit|valuation attractive|low_risk attractive|human_review attractive"
+    },
+    {
+      "company_dir": "비아트론",
+      "company_name": "비아트론",
+      "ticker": "141000",
+      "sector_label": "장비",
+      "peer_group": "장비",
+      "semiconductor_tag": "장비",
+      "reference_role": "REFERENCE_PEER_FROM_VALUATION_CREDIT_ML",
+      "include_in_chair": 0,
+      "selected_for_30": 1,
+      "patent_csv": "",
+      "patent_rows": 0,
+      "document_chars": 451,
+      "document_source": "universe_csv_only",
+      "universe_id": "장비_01_141000",
+      "selection_score": 104.0061,
+      "is_focal": 0,
+      "valuation_proxy_label": "ATTRACTIVE",
+      "credit_proxy_label": "LOW_RISK",
+      "review_flag": "OK",
+      "cluster_id": 0,
+      "distance_to_centroid": 0.0,
+      "top_terms": "장비 장비|장비|attractive|low_risk|attractive low_risk|credit_risk_score_0.0|low_risk attractive|human_review attractive|valuation attractive|attractive credit"
+    },
+    {
+      "company_dir": "아이앤씨",
+      "company_name": "아이앤씨",
+      "ticker": "052860",
+      "sector_label": "팹리스/설계",
+      "peer_group": "팹리스/설계",
+      "semiconductor_tag": "팹리스/설계",
+      "reference_role": "REFERENCE_PEER_FROM_VALUATION_CREDIT_ML",
+      "include_in_chair": 0,
+      "selected_for_30": 1,
+      "patent_csv": "",
+      "patent_rows": 0,
+      "document_chars": 492,
+      "document_source": "universe_csv_only",
+      "universe_id": "팹리스_설계_02_052860",
+      "selection_score": 103.9195,
+      "is_focal": 0,
+      "valuation_proxy_label": "ATTRACTIVE",
+      "credit_proxy_label": "LOW_RISK",
+      "review_flag": "OK",
+      "cluster_id": 4,
+      "distance_to_centroid": 0.0,
+      "top_terms": "팹리스/설계|팹리스/설계 팹리스/설계|attractive|low_risk|attractive low_risk|credit_risk_score_0.0|attractive credit|valuation attractive|low_risk attractive|human_review attractive"
+    },
+    {
+      "company_dir": "성우테크론",
+      "company_name": "성우테크론",
+      "ticker": "045300",
+      "sector_label": "후공정/패키징/테스트",
+      "peer_group": "후공정/패키징/테스트",
+      "semiconductor_tag": "후공정/패키징/테스트",
+      "reference_role": "REFERENCE_PEER_FROM_VALUATION_CREDIT_ML",
+      "include_in_chair": 0,
+      "selected_for_30": 1,
+      "patent_csv": "",
+      "patent_rows": 0,
+      "document_chars": 557,
+      "document_source": "universe_csv_only",
+      "universe_id": "후공정_패키징_테스트_03_045300",
+      "selection_score": 103.7292,
+      "is_focal": 0,
+      "valuation_proxy_label": "ATTRACTIVE",
+      "credit_proxy_label": "LOW_RISK",
+      "review_flag": "OK",
+      "cluster_id": 1,
+      "distance_to_centroid": 0.078854,
+      "top_terms": "후공정/패키징/테스트|후공정/패키징/테스트 후공정/패키징/테스트|attractive|low_risk|attractive low_risk|valuation attractive|low_risk attractive|attractive credit|human_review attractive|low_risk high"
+    },
+    {
+      "company_dir": "이엔에프테크놀로지",
+      "company_name": "이엔에프테크놀로지",
+      "ticker": "102710",
+      "sector_label": "소재",
+      "peer_group": "소재",
+      "semiconductor_tag": "소재",
+      "reference_role": "REFERENCE_PEER_FROM_VALUATION_CREDIT_ML",
+      "include_in_chair": 0,
+      "selected_for_30": 1,
+      "patent_csv": "",
+      "patent_rows": 0,
+      "document_chars": 457,
+      "document_source": "universe_csv_only",
+      "universe_id": "소재_05_102710",
+      "selection_score": 102.8683,
+      "is_focal": 0,
+      "valuation_proxy_label": "ATTRACTIVE",
+      "credit_proxy_label": "LOW_RISK",
+      "review_flag": "OK",
+      "cluster_id": 2,
+      "distance_to_centroid": 0.080752,
+      "top_terms": "소재|소재 소재|attractive|low_risk|attractive low_risk|credit_risk_score_0.0|attractive credit|valuation attractive|low_risk attractive|human_review attractive"
+    },
+    {
+      "company_dir": "db하이텍",
+      "company_name": "DB하이텍",
+      "ticker": "000990",
+      "sector_label": "IDM/제조/메모리",
+      "peer_group": "IDM/제조/메모리",
+      "semiconductor_tag": "IDM/제조/메모리",
+      "reference_role": "REFERENCE_PEER_FROM_VALUATION_CREDIT_ML",
+      "include_in_chair": 0,
+      "selected_for_30": 1,
+      "patent_csv": "",
+      "patent_rows": 0,
+      "document_chars": 533,
+      "document_source": "universe_csv_only",
+      "universe_id": "idm_제조_메모리_02_000990",
+      "selection_score": 102.7644,
+      "is_focal": 0,
+      "valuation_proxy_label": "ATTRACTIVE",
+      "credit_proxy_label": "LOW_RISK",
+      "review_flag": "OK",
+      "cluster_id": 3,
+      "distance_to_centroid": 0.021379,
+      "top_terms": "idm/제조/메모리|idm/제조/메모리 idm/제조/메모리|attractive|low_risk|attractive low_risk|credit_risk_score_0.0|valuation attractive|low_risk attractive|human_review attractive|attractive credit"
+    },
+    {
+      "company_dir": "케이씨",
+      "company_name": "케이씨",
+      "ticker": "029460",
+      "sector_label": "장비",
+      "peer_group": "장비",
+      "semiconductor_tag": "장비",
+      "reference_role": "REFERENCE_PEER_FROM_VALUATION_CREDIT_ML",
+      "include_in_chair": 0,
+      "selected_for_30": 1,
+      "patent_csv": "",
+      "patent_rows": 0,
+      "document_chars": 449,
+      "document_source": "universe_csv_only",
+      "universe_id": "장비_02_029460",
+      "selection_score": 102.703,
+      "is_focal": 0,
+      "valuation_proxy_label": "ATTRACTIVE",
+      "credit_proxy_label": "LOW_RISK",
+      "review_flag": "OK",
+      "cluster_id": 0,
+      "distance_to_centroid": 0.0,
+      "top_terms": "장비 장비|장비|attractive|low_risk|attractive low_risk|credit_risk_score_0.0|low_risk attractive|human_review attractive|valuation attractive|attractive credit"
+    },
+    {
+      "company_dir": "kpx케미칼",
+      "company_name": "KPX케미칼",
+      "ticker": "025000",
+      "sector_label": "장비",
+      "peer_group": "장비",
+      "semiconductor_tag": "장비",
+      "reference_role": "REFERENCE_PEER_FROM_VALUATION_CREDIT_ML",
+      "include_in_chair": 0,
+      "selected_for_30": 1,
+      "patent_csv": "",
+      "patent_rows": 0,
+      "document_chars": 442,
+      "document_source": "universe_csv_only",
+      "universe_id": "장비_03_025000",
+      "selection_score": 102.5372,
+      "is_focal": 0,
+      "valuation_proxy_label": "ATTRACTIVE",
+      "credit_proxy_label": "LOW_RISK",
+      "review_flag": "OK",
+      "cluster_id": 0,
+      "distance_to_centroid": 0.0,
+      "top_terms": "장비 장비|장비|attractive|low_risk|attractive low_risk|credit_risk_score_0.0|low_risk attractive|human_review attractive|valuation attractive|attractive credit"
+    },
+    {
+      "company_dir": "매커스",
+      "company_name": "매커스",
+      "ticker": "093520",
+      "sector_label": "팹리스/설계",
+      "peer_group": "팹리스/설계",
+      "semiconductor_tag": "팹리스/설계",
+      "reference_role": "REFERENCE_PEER_FROM_VALUATION_CREDIT_ML",
+      "include_in_chair": 0,
+      "selected_for_30": 1,
+      "patent_csv": "",
+      "patent_rows": 0,
+      "document_chars": 491,
+      "document_source": "universe_csv_only",
+      "universe_id": "팹리스_설계_03_093520",
+      "selection_score": 102.2068,
+      "is_focal": 0,
+      "valuation_proxy_label": "ATTRACTIVE",
+      "credit_proxy_label": "LOW_RISK",
+      "review_flag": "OK",
+      "cluster_id": 4,
+      "distance_to_centroid": 0.0,
+      "top_terms": "팹리스/설계|팹리스/설계 팹리스/설계|attractive|low_risk|attractive low_risk|credit_risk_score_0.0|attractive credit|valuation attractive|low_risk attractive|human_review attractive"
+    },
+    {
+      "company_dir": "gst",
+      "company_name": "GST",
+      "ticker": "083450",
+      "sector_label": "장비",
+      "peer_group": "장비",
+      "semiconductor_tag": "장비",
+      "reference_role": "REFERENCE_PEER_FROM_VALUATION_CREDIT_ML",
+      "include_in_chair": 0,
+      "selected_for_30": 1,
+      "patent_csv": "",
+      "patent_rows": 0,
+      "document_chars": 450,
+      "document_source": "universe_csv_only",
+      "universe_id": "장비_04_083450",
+      "selection_score": 102.0405,
+      "is_focal": 0,
+      "valuation_proxy_label": "ATTRACTIVE",
+      "credit_proxy_label": "LOW_RISK",
+      "review_flag": "OK",
+      "cluster_id": 0,
+      "distance_to_centroid": 0.0,
+      "top_terms": "장비 장비|장비|attractive|low_risk|attractive low_risk|credit_risk_score_0.0|low_risk attractive|human_review attractive|valuation attractive|attractive credit"
+    },
+    {
+      "company_dir": "링크제니시스",
+      "company_name": "링크제니시스",
+      "ticker": "219420",
+      "sector_label": "후공정/패키징/테스트",
+      "peer_group": "후공정/패키징/테스트",
+      "semiconductor_tag": "후공정/패키징/테스트",
+      "reference_role": "REFERENCE_PEER_FROM_VALUATION_CREDIT_ML",
+      "include_in_chair": 0,
+      "selected_for_30": 1,
+      "patent_csv": "",
+      "patent_rows": 0,
+      "document_chars": 559,
+      "document_source": "universe_csv_only",
+      "universe_id": "후공정_패키징_테스트_04_219420",
+      "selection_score": 101.6276,
+      "is_focal": 0,
+      "valuation_proxy_label": "ATTRACTIVE",
+      "credit_proxy_label": "LOW_RISK",
+      "review_flag": "OK",
+      "cluster_id": 1,
+      "distance_to_centroid": 0.078854,
+      "top_terms": "후공정/패키징/테스트|후공정/패키징/테스트 후공정/패키징/테스트|attractive|low_risk|attractive low_risk|valuation attractive|low_risk attractive|attractive credit|human_review attractive|low_risk high"
+    },
+    {
+      "company_dir": "엘디티",
+      "company_name": "엘디티",
+      "ticker": "096870",
+      "sector_label": "IDM/제조/메모리",
+      "peer_group": "IDM/제조/메모리",
+      "semiconductor_tag": "IDM/제조/메모리",
+      "reference_role": "REFERENCE_PEER_FROM_VALUATION_CREDIT_ML",
+      "include_in_chair": 0,
+      "selected_for_30": 1,
+      "patent_csv": "",
+      "patent_rows": 0,
+      "document_chars": 546,
+      "document_source": "universe_csv_only",
+      "universe_id": "idm_제조_메모리_03_096870",
+      "selection_score": 100.8588,
+      "is_focal": 0,
+      "valuation_proxy_label": "ATTRACTIVE",
+      "credit_proxy_label": "LOW_RISK",
+      "review_flag": "OK",
+      "cluster_id": 3,
+      "distance_to_centroid": 0.021379,
+      "top_terms": "idm/제조/메모리|idm/제조/메모리 idm/제조/메모리|attractive|low_risk|attractive low_risk|human_review attractive|valuation attractive|low_risk attractive|attractive credit|low_risk high"
+    },
+    {
+      "company_dir": "프로텍",
+      "company_name": "프로텍",
+      "ticker": "053610",
+      "sector_label": "후공정/패키징/테스트",
+      "peer_group": "후공정/패키징/테스트",
+      "semiconductor_tag": "후공정/패키징/테스트",
+      "reference_role": "REFERENCE_PEER_FROM_VALUATION_CREDIT_ML",
+      "include_in_chair": 0,
+      "selected_for_30": 1,
+      "patent_csv": "",
+      "patent_rows": 0,
+      "document_chars": 537,
+      "document_source": "universe_csv_only",
+      "universe_id": "후공정_패키징_테스트_05_053610",
+      "selection_score": 98.1146,
+      "is_focal": 0,
+      "valuation_proxy_label": "FAIR",
+      "credit_proxy_label": "LOW_RISK",
+      "review_flag": "OK",
+      "cluster_id": 1,
+      "distance_to_centroid": 0.236562,
+      "top_terms": "후공정/패키징/테스트|후공정/패키징/테스트 후공정/패키징/테스트|fair|fair low_risk|low_risk|low_risk high|high high|valuation/credit ml|ml overlay|valuation/credit"
+    },
+    {
+      "company_dir": "한양디지텍",
+      "company_name": "한양디지텍",
+      "ticker": "078350",
+      "sector_label": "IDM/제조/메모리",
+      "peer_group": "IDM/제조/메모리",
+      "semiconductor_tag": "IDM/제조/메모리",
+      "reference_role": "REFERENCE_PEER_FROM_VALUATION_CREDIT_ML",
+      "include_in_chair": 0,
+      "selected_for_30": 1,
+      "patent_csv": "",
+      "patent_rows": 0,
+      "document_chars": 546,
+      "document_source": "universe_csv_only",
+      "universe_id": "idm_제조_메모리_04_078350",
+      "selection_score": 98.058,
+      "is_focal": 0,
+      "valuation_proxy_label": "ATTRACTIVE",
+      "credit_proxy_label": "LOW_RISK",
+      "review_flag": "OK",
+      "cluster_id": 3,
+      "distance_to_centroid": 0.021379,
+      "top_terms": "idm/제조/메모리|idm/제조/메모리 idm/제조/메모리|attractive|low_risk|attractive low_risk|human_review attractive|valuation attractive|low_risk attractive|attractive credit|low_risk high"
+    },
+    {
+      "company_dir": "티에스이",
+      "company_name": "티에스이",
+      "ticker": "131290",
+      "sector_label": "팹리스/설계",
+      "peer_group": "팹리스/설계",
+      "semiconductor_tag": "팹리스/설계",
+      "reference_role": "REFERENCE_PEER_FROM_VALUATION_CREDIT_ML",
+      "include_in_chair": 0,
+      "selected_for_30": 1,
+      "patent_csv": "",
+      "patent_rows": 0,
+      "document_chars": 491,
+      "document_source": "universe_csv_only",
+      "universe_id": "팹리스_설계_04_131290",
+      "selection_score": 97.2329,
+      "is_focal": 0,
+      "valuation_proxy_label": "ATTRACTIVE",
+      "credit_proxy_label": "LOW_RISK",
+      "review_flag": "OK",
+      "cluster_id": 4,
+      "distance_to_centroid": 0.0,
+      "top_terms": "팹리스/설계|팹리스/설계 팹리스/설계|attractive|low_risk|attractive low_risk|credit_risk_score_0.0|attractive credit|valuation attractive|low_risk attractive|human_review attractive"
+    },
+    {
+      "company_dir": "프로이천",
+      "company_name": "프로이천",
+      "ticker": "321260",
+      "sector_label": "후공정/패키징/테스트",
+      "peer_group": "후공정/패키징/테스트",
+      "semiconductor_tag": "후공정/패키징/테스트",
+      "reference_role": "REFERENCE_PEER_FROM_VALUATION_CREDIT_ML",
+      "include_in_chair": 0,
+      "selected_for_30": 1,
+      "patent_csv": "",
+      "patent_rows": 0,
+      "document_chars": 556,
+      "document_source": "universe_csv_only",
+      "universe_id": "후공정_패키징_테스트_06_321260",
+      "selection_score": 97.1758,
+      "is_focal": 0,
+      "valuation_proxy_label": "ATTRACTIVE",
+      "credit_proxy_label": "LOW_RISK",
+      "review_flag": "OK",
+      "cluster_id": 1,
+      "distance_to_centroid": 0.078854,
+      "top_terms": "후공정/패키징/테스트|후공정/패키징/테스트 후공정/패키징/테스트|attractive|low_risk|attractive low_risk|valuation attractive|low_risk attractive|attractive credit|human_review attractive|low_risk high"
+    },
+    {
+      "company_dir": "원익머트리얼즈",
+      "company_name": "원익머트리얼즈",
+      "ticker": "104830",
+      "sector_label": "소재",
+      "peer_group": "소재",
+      "semiconductor_tag": "소재",
+      "reference_role": "REFERENCE_PEER_FROM_VALUATION_CREDIT_ML",
+      "include_in_chair": 0,
+      "selected_for_30": 1,
+      "patent_csv": "",
+      "patent_rows": 0,
+      "document_chars": 451,
+      "document_source": "universe_csv_only",
+      "universe_id": "소재_06_104830",
+      "selection_score": 96.2459,
+      "is_focal": 0,
+      "valuation_proxy_label": "FAIR",
+      "credit_proxy_label": "LOW_RISK",
+      "review_flag": "OK",
+      "cluster_id": 2,
+      "distance_to_centroid": 0.23893,
+      "top_terms": "소재|소재 소재|fair|fair low_risk|low_risk|low_risk high|high high|valuation/credit ml|valuation/credit|ml overlay"
+    },
+    {
+      "company_dir": "인터플렉스",
+      "company_name": "인터플렉스",
+      "ticker": "051370",
+      "sector_label": "부품/기판",
+      "peer_group": "부품/기판",
+      "semiconductor_tag": "부품/기판",
+      "reference_role": "REFERENCE_PEER_FROM_VALUATION_CREDIT_ML",
+      "include_in_chair": 0,
+      "selected_for_30": 1,
+      "patent_csv": "",
+      "patent_rows": 0,
+      "document_chars": 477,
+      "document_source": "universe_csv_only",
+      "universe_id": "부품_기판_01_051370",
+      "selection_score": 96.2323,
+      "is_focal": 0,
+      "valuation_proxy_label": "FAIR",
+      "credit_proxy_label": "LOW_RISK",
+      "review_flag": "OK",
+      "cluster_id": 5,
+      "distance_to_centroid": 0.076124,
+      "top_terms": "부품/기판|부품/기판 부품/기판|fair|fair low_risk|low_risk|low_risk high|high high|valuation/credit ml|ml overlay|valuation/credit"
+    },
+    {
+      "company_dir": "솔브레인홀딩스",
+      "company_name": "솔브레인홀딩스",
+      "ticker": "036830",
+      "sector_label": "소재",
+      "peer_group": "소재",
+      "semiconductor_tag": "소재",
+      "reference_role": "REFERENCE_PEER_FROM_VALUATION_CREDIT_ML",
+      "include_in_chair": 0,
+      "selected_for_30": 1,
+      "patent_csv": "",
+      "patent_rows": 0,
+      "document_chars": 456,
+      "document_source": "universe_csv_only",
+      "universe_id": "소재_07_036830",
+      "selection_score": 95.5907,
+      "is_focal": 0,
+      "valuation_proxy_label": "ATTRACTIVE",
+      "credit_proxy_label": "LOW_RISK",
+      "review_flag": "OK",
+      "cluster_id": 2,
+      "distance_to_centroid": 0.090465,
+      "top_terms": "소재|소재 소재|attractive|low_risk|attractive low_risk|credit_risk_score_0.0|valuation attractive|low_risk attractive|attractive credit|human_review attractive"
+    },
+    {
+      "company_dir": "자화전자",
+      "company_name": "자화전자",
+      "ticker": "033240",
+      "sector_label": "부품/기판",
+      "peer_group": "부품/기판",
+      "semiconductor_tag": "부품/기판",
+      "reference_role": "REFERENCE_PEER_FROM_VALUATION_CREDIT_ML",
+      "include_in_chair": 0,
+      "selected_for_30": 1,
+      "patent_csv": "",
+      "patent_rows": 0,
+      "document_chars": 477,
+      "document_source": "universe_csv_only",
+      "universe_id": "부품_기판_02_033240",
+      "selection_score": 94.292,
+      "is_focal": 0,
+      "valuation_proxy_label": "FAIR",
+      "credit_proxy_label": "LOW_RISK",
+      "review_flag": "OK",
+      "cluster_id": 5,
+      "distance_to_centroid": 0.076124,
+      "top_terms": "부품/기판|부품/기판 부품/기판|fair|fair low_risk|low_risk|low_risk high|high high|valuation/credit ml|ml overlay|valuation/credit"
+    },
+    {
+      "company_dir": "비에이치",
+      "company_name": "비에이치",
+      "ticker": "090460",
+      "sector_label": "부품/기판",
+      "peer_group": "부품/기판",
+      "semiconductor_tag": "부품/기판",
+      "reference_role": "REFERENCE_PEER_FROM_VALUATION_CREDIT_ML",
+      "include_in_chair": 0,
+      "selected_for_30": 1,
+      "patent_csv": "",
+      "patent_rows": 0,
+      "document_chars": 462,
+      "document_source": "universe_csv_only",
+      "universe_id": "부품_기판_03_090460",
+      "selection_score": 87.4992,
+      "is_focal": 0,
+      "valuation_proxy_label": "FAIR",
+      "credit_proxy_label": "LOW_RISK",
+      "review_flag": "OK",
+      "cluster_id": 5,
+      "distance_to_centroid": 0.086158,
+      "top_terms": "부품/기판|부품/기판 부품/기판|fair|fair low_risk|low_risk|credit_risk_score_0.0|overlay|valuation/credit|valuation/credit ml|overlay valuation"
+    },
+    {
+      "company_dir": "이수페타시스",
+      "company_name": "이수페타시스",
+      "ticker": "007660",
+      "sector_label": "부품/기판",
+      "peer_group": "부품/기판",
+      "semiconductor_tag": "부품/기판",
+      "reference_role": "REFERENCE_PEER_FROM_VALUATION_CREDIT_ML",
+      "include_in_chair": 0,
+      "selected_for_30": 1,
+      "patent_csv": "",
+      "patent_rows": 0,
+      "document_chars": 466,
+      "document_source": "universe_csv_only",
+      "universe_id": "부품_기판_04_007660",
+      "selection_score": 86.8099,
+      "is_focal": 0,
+      "valuation_proxy_label": "FAIR",
+      "credit_proxy_label": "LOW_RISK",
+      "review_flag": "OK",
+      "cluster_id": 5,
+      "distance_to_centroid": 0.086158,
+      "top_terms": "부품/기판|부품/기판 부품/기판|fair|fair low_risk|low_risk|credit_risk_score_0.0|overlay|valuation/credit|valuation/credit ml|overlay valuation"
+    },
+    {
+      "company_dir": "3s",
+      "company_name": "3S",
+      "ticker": "060310",
+      "sector_label": "부품/웨이퍼캐리어",
+      "peer_group": "부품/기판",
+      "semiconductor_tag": "부품/웨이퍼캐리어",
+      "reference_role": "REFERENCE_PEER_FROM_VALUATION_CREDIT_ML",
+      "include_in_chair": 0,
+      "selected_for_30": 1,
+      "patent_csv": "",
+      "patent_rows": 0,
+      "document_chars": 522,
+      "document_source": "universe_csv_only",
+      "universe_id": "부품_웨이퍼캐리어_01_060310",
+      "selection_score": 47.3145,
+      "is_focal": 0,
+      "valuation_proxy_label": "EXPENSIVE",
+      "credit_proxy_label": "HIGH_RISK",
+      "review_flag": "OK",
+      "cluster_id": 5,
+      "distance_to_centroid": 0.293568,
+      "top_terms": "부품/기판|부품/기판 부품/기판|high high|overlay valuation|valuation/credit ml|valuation/credit|ml overlay|overlay"
+    }
+  ],
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "cluster_name": "반도체 장비/본딩·검사 cluster",
+      "member_count": 4,
+      "focal_count": 0,
+      "reference_count": 4,
+      "top_terms": [
+        "장비 장비",
+        "장비",
+        "attractive",
+        "low_risk",
+        "attractive low_risk",
+        "credit_risk_score_0.0",
+        "low_risk attractive",
+        "human_review attractive",
+        "valuation attractive",
+        "attractive credit"
+      ],
+      "top_sector_labels": [
+        "장비"
+      ],
+      "companies": [
+        {
+          "company_name": "비아트론",
+          "ticker": "141000",
+          "is_focal": 0,
+          "sector_label": "장비",
+          "selection_score": 104.0061
+        },
+        {
+          "company_name": "케이씨",
+          "ticker": "029460",
+          "is_focal": 0,
+          "sector_label": "장비",
+          "selection_score": 102.703
+        },
+        {
+          "company_name": "KPX케미칼",
+          "ticker": "025000",
+          "is_focal": 0,
+          "sector_label": "장비",
+          "selection_score": 102.5372
+        },
+        {
+          "company_name": "GST",
+          "ticker": "083450",
+          "is_focal": 0,
+          "sector_label": "장비",
+          "selection_score": 102.0405
+        }
+      ],
+      "avg_selection_score": 102.8217,
+      "interpretation": "반도체 장비/본딩·검사 cluster로 분류된 4개 기업의 특허/기술 텍스트 기반 peer group입니다. 현재 focal 기업은 없지만 reference universe의 기술 분포를 형성하는 보조 cluster입니다."
+    },
+    {
+      "cluster_id": 1,
+      "cluster_name": "반도체 후공정/패키징 cluster",
+      "member_count": 4,
+      "focal_count": 0,
+      "reference_count": 4,
+      "top_terms": [
+        "후공정/패키징/테스트",
+        "후공정/패키징/테스트 후공정/패키징/테스트",
+        "low_risk",
+        "low_risk high",
+        "attractive",
+        "attractive low_risk",
+        "valuation attractive",
+        "low_risk attractive",
+        "attractive credit",
+        "human_review attractive",
+        "fair",
+        "fair low_risk"
+      ],
+      "top_sector_labels": [
+        "후공정/패키징/테스트"
+      ],
+      "companies": [
+        {
+          "company_name": "성우테크론",
+          "ticker": "045300",
+          "is_focal": 0,
+          "sector_label": "후공정/패키징/테스트",
+          "selection_score": 103.7292
+        },
+        {
+          "company_name": "링크제니시스",
+          "ticker": "219420",
+          "is_focal": 0,
+          "sector_label": "후공정/패키징/테스트",
+          "selection_score": 101.6276
+        },
+        {
+          "company_name": "프로텍",
+          "ticker": "053610",
+          "is_focal": 0,
+          "sector_label": "후공정/패키징/테스트",
+          "selection_score": 98.1146
+        },
+        {
+          "company_name": "프로이천",
+          "ticker": "321260",
+          "is_focal": 0,
+          "sector_label": "후공정/패키징/테스트",
+          "selection_score": 97.1758
+        }
+      ],
+      "avg_selection_score": 100.1618,
+      "interpretation": "반도체 후공정/패키징 cluster로 분류된 4개 기업의 특허/기술 텍스트 기반 peer group입니다. 현재 focal 기업은 없지만 reference universe의 기술 분포를 형성하는 보조 cluster입니다."
+    },
+    {
+      "cluster_id": 2,
+      "cluster_name": "반도체 소재/전자재료 cluster",
+      "member_count": 4,
+      "focal_count": 0,
+      "reference_count": 4,
+      "top_terms": [
+        "소재",
+        "소재 소재",
+        "low_risk",
+        "attractive",
+        "attractive low_risk",
+        "credit_risk_score_0.0",
+        "attractive credit",
+        "valuation attractive",
+        "low_risk attractive",
+        "human_review attractive",
+        "fair",
+        "fair low_risk"
+      ],
+      "top_sector_labels": [
+        "소재"
+      ],
+      "companies": [
+        {
+          "company_name": "월덱스",
+          "ticker": "101160",
+          "is_focal": 0,
+          "sector_label": "소재",
+          "selection_score": 105.8433
+        },
+        {
+          "company_name": "이엔에프테크놀로지",
+          "ticker": "102710",
+          "is_focal": 0,
+          "sector_label": "소재",
+          "selection_score": 102.8683
+        },
+        {
+          "company_name": "원익머트리얼즈",
+          "ticker": "104830",
+          "is_focal": 0,
+          "sector_label": "소재",
+          "selection_score": 96.2459
+        },
+        {
+          "company_name": "솔브레인홀딩스",
+          "ticker": "036830",
+          "is_focal": 0,
+          "sector_label": "소재",
+          "selection_score": 95.5907
+        }
+      ],
+      "avg_selection_score": 100.1371,
+      "interpretation": "반도체 소재/전자재료 cluster로 분류된 4개 기업의 특허/기술 텍스트 기반 peer group입니다. 현재 focal 기업은 없지만 reference universe의 기술 분포를 형성하는 보조 cluster입니다."
+    },
+    {
+      "cluster_id": 3,
+      "cluster_name": "기술 포트폴리오 혼합 cluster",
+      "member_count": 4,
+      "focal_count": 0,
+      "reference_count": 4,
+      "top_terms": [
+        "idm/제조/메모리",
+        "idm/제조/메모리 idm/제조/메모리",
+        "attractive",
+        "low_risk",
+        "attractive low_risk",
+        "valuation attractive",
+        "low_risk attractive",
+        "human_review attractive",
+        "attractive credit",
+        "credit_risk_score_0.0",
+        "low_risk high"
+      ],
+      "top_sector_labels": [
+        "IDM/제조/메모리"
+      ],
+      "companies": [
+        {
+          "company_name": "메카로",
+          "ticker": "241770",
+          "is_focal": 0,
+          "sector_label": "IDM/제조/메모리",
+          "selection_score": 104.6945
+        },
+        {
+          "company_name": "DB하이텍",
+          "ticker": "000990",
+          "is_focal": 0,
+          "sector_label": "IDM/제조/메모리",
+          "selection_score": 102.7644
+        },
+        {
+          "company_name": "엘디티",
+          "ticker": "096870",
+          "is_focal": 0,
+          "sector_label": "IDM/제조/메모리",
+          "selection_score": 100.8588
+        },
+        {
+          "company_name": "한양디지텍",
+          "ticker": "078350",
+          "is_focal": 0,
+          "sector_label": "IDM/제조/메모리",
+          "selection_score": 98.058
+        }
+      ],
+      "avg_selection_score": 101.5939,
+      "interpretation": "기술 포트폴리오 혼합 cluster로 분류된 4개 기업의 특허/기술 텍스트 기반 peer group입니다. 현재 focal 기업은 없지만 reference universe의 기술 분포를 형성하는 보조 cluster입니다."
+    },
+    {
+      "cluster_id": 4,
+      "cluster_name": "기술 포트폴리오 혼합 cluster",
+      "member_count": 4,
+      "focal_count": 0,
+      "reference_count": 4,
+      "top_terms": [
+        "팹리스/설계",
+        "팹리스/설계 팹리스/설계",
+        "attractive",
+        "low_risk",
+        "attractive low_risk",
+        "credit_risk_score_0.0",
+        "attractive credit",
+        "valuation attractive",
+        "low_risk attractive",
+        "human_review attractive"
+      ],
+      "top_sector_labels": [
+        "팹리스/설계"
+      ],
+      "companies": [
+        {
+          "company_name": "LX세미콘",
+          "ticker": "108320",
+          "is_focal": 0,
+          "sector_label": "팹리스/설계",
+          "selection_score": 104.1154
+        },
+        {
+          "company_name": "아이앤씨",
+          "ticker": "052860",
+          "is_focal": 0,
+          "sector_label": "팹리스/설계",
+          "selection_score": 103.9195
+        },
+        {
+          "company_name": "매커스",
+          "ticker": "093520",
+          "is_focal": 0,
+          "sector_label": "팹리스/설계",
+          "selection_score": 102.2068
+        },
+        {
+          "company_name": "티에스이",
+          "ticker": "131290",
+          "is_focal": 0,
+          "sector_label": "팹리스/설계",
+          "selection_score": 97.2329
+        }
+      ],
+      "avg_selection_score": 101.8687,
+      "interpretation": "기술 포트폴리오 혼합 cluster로 분류된 4개 기업의 특허/기술 텍스트 기반 peer group입니다. 현재 focal 기업은 없지만 reference universe의 기술 분포를 형성하는 보조 cluster입니다."
+    },
+    {
+      "cluster_id": 5,
+      "cluster_name": "기술 포트폴리오 혼합 cluster",
+      "member_count": 5,
+      "focal_count": 0,
+      "reference_count": 5,
+      "top_terms": [
+        "부품/기판",
+        "부품/기판 부품/기판",
+        "valuation/credit ml",
+        "valuation/credit",
+        "fair",
+        "fair low_risk",
+        "low_risk",
+        "high high",
+        "ml overlay",
+        "overlay",
+        "overlay valuation",
+        "low_risk high"
+      ],
+      "top_sector_labels": [
+        "부품/기판",
+        "부품/웨이퍼캐리어"
+      ],
+      "companies": [
+        {
+          "company_name": "인터플렉스",
+          "ticker": "051370",
+          "is_focal": 0,
+          "sector_label": "부품/기판",
+          "selection_score": 96.2323
+        },
+        {
+          "company_name": "자화전자",
+          "ticker": "033240",
+          "is_focal": 0,
+          "sector_label": "부품/기판",
+          "selection_score": 94.292
+        },
+        {
+          "company_name": "비에이치",
+          "ticker": "090460",
+          "is_focal": 0,
+          "sector_label": "부품/기판",
+          "selection_score": 87.4992
+        },
+        {
+          "company_name": "이수페타시스",
+          "ticker": "007660",
+          "is_focal": 0,
+          "sector_label": "부품/기판",
+          "selection_score": 86.8099
+        },
+        {
+          "company_name": "3S",
+          "ticker": "060310",
+          "is_focal": 0,
+          "sector_label": "부품/웨이퍼캐리어",
+          "selection_score": 47.3145
+        }
+      ],
+      "avg_selection_score": 82.4296,
+      "interpretation": "기술 포트폴리오 혼합 cluster로 분류된 5개 기업의 특허/기술 텍스트 기반 peer group입니다. 현재 focal 기업은 없지만 reference universe의 기술 분포를 형성하는 보조 cluster입니다."
+    },
+    {
+      "cluster_id": 6,
+      "cluster_name": "반도체 후공정/패키징 cluster",
+      "member_count": 5,
+      "focal_count": 5,
+      "reference_count": 0,
+      "top_terms": [
+        "있다",
+        "있는",
+        "반도체",
+        "조성물",
+        "제1",
+        "패키지",
+        "반도체 패키지",
+        "한솔케미칼",
+        "h01m",
+        "있게",
+        "c08f",
+        "제조방법"
+      ],
+      "top_sector_labels": [
+        "소재",
+        "후공정/패키징/테스트"
+      ],
+      "companies": [
+        {
+          "company_name": "한솔케미칼",
+          "ticker": "014680",
+          "is_focal": 1,
+          "sector_label": "소재",
+          "selection_score": 1100.2721
+        },
+        {
+          "company_name": "엘티씨",
+          "ticker": "170920",
+          "is_focal": 1,
+          "sector_label": "소재",
+          "selection_score": 1090.7717
+        },
+        {
+          "company_name": "네패스",
+          "ticker": "033640",
+          "is_focal": 1,
+          "sector_label": "후공정/패키징/테스트",
+          "selection_score": 1082.296
+        },
+        {
+          "company_name": "한미반도체",
+          "ticker": "042700",
+          "is_focal": 1,
+          "sector_label": "후공정/패키징/테스트",
+          "selection_score": 1071.7905
+        },
+        {
+          "company_name": "덕산테코피아",
+          "ticker": "317330",
+          "is_focal": 1,
+          "sector_label": "소재",
+          "selection_score": 1026.9482
+        }
+      ],
+      "avg_selection_score": 1074.4157,
+      "interpretation": "반도체 후공정/패키징 cluster로 분류된 5개 기업의 특허/기술 텍스트 기반 peer group입니다. 현재 focal 기업 5개가 포함되어 Chair 기술 판단의 비교 기준으로 활용할 수 있습니다."
+    }
+  ],
+  "nearest_peers_by_universe_id": {
+    "소재_01_014680": [
+      {
+        "company_name": "엘티씨",
+        "ticker": "170920",
+        "sector_label": "소재",
+        "similarity": 0.494922,
+        "similarity_percent": 49.49,
+        "is_focal": 1
+      },
+      {
+        "company_name": "덕산테코피아",
+        "ticker": "317330",
+        "sector_label": "소재",
+        "similarity": 0.288426,
+        "similarity_percent": 28.84,
+        "is_focal": 1
+      },
+      {
+        "company_name": "한미반도체",
+        "ticker": "042700",
+        "sector_label": "후공정/패키징/테스트",
+        "similarity": 0.261842,
+        "similarity_percent": 26.18,
+        "is_focal": 1
+      },
+      {
+        "company_name": "네패스",
+        "ticker": "033640",
+        "sector_label": "후공정/패키징/테스트",
+        "similarity": 0.259956,
+        "similarity_percent": 26.0,
+        "is_focal": 1
+      }
+    ],
+    "소재_02_170920": [
+      {
+        "company_name": "한솔케미칼",
+        "ticker": "014680",
+        "sector_label": "소재",
+        "similarity": 0.494922,
+        "similarity_percent": 49.49,
+        "is_focal": 1
+      },
+      {
+        "company_name": "한미반도체",
+        "ticker": "042700",
+        "sector_label": "후공정/패키징/테스트",
+        "similarity": 0.372232,
+        "similarity_percent": 37.22,
+        "is_focal": 1
+      },
+      {
+        "company_name": "네패스",
+        "ticker": "033640",
+        "sector_label": "후공정/패키징/테스트",
+        "similarity": 0.355692,
+        "similarity_percent": 35.57,
+        "is_focal": 1
+      },
+      {
+        "company_name": "덕산테코피아",
+        "ticker": "317330",
+        "sector_label": "소재",
+        "similarity": 0.31954,
+        "similarity_percent": 31.95,
+        "is_focal": 1
+      }
+    ],
+    "후공정_패키징_테스트_01_033640": [
+      {
+        "company_name": "한미반도체",
+        "ticker": "042700",
+        "sector_label": "후공정/패키징/테스트",
+        "similarity": 0.575525,
+        "similarity_percent": 57.55,
+        "is_focal": 1
+      },
+      {
+        "company_name": "엘티씨",
+        "ticker": "170920",
+        "sector_label": "소재",
+        "similarity": 0.355692,
+        "similarity_percent": 35.57,
+        "is_focal": 1
+      },
+      {
+        "company_name": "덕산테코피아",
+        "ticker": "317330",
+        "sector_label": "소재",
+        "similarity": 0.269704,
+        "similarity_percent": 26.97,
+        "is_focal": 1
+      },
+      {
+        "company_name": "한솔케미칼",
+        "ticker": "014680",
+        "sector_label": "소재",
+        "similarity": 0.259956,
+        "similarity_percent": 26.0,
+        "is_focal": 1
+      }
+    ],
+    "후공정_패키징_테스트_02_042700": [
+      {
+        "company_name": "네패스",
+        "ticker": "033640",
+        "sector_label": "후공정/패키징/테스트",
+        "similarity": 0.575525,
+        "similarity_percent": 57.55,
+        "is_focal": 1
+      },
+      {
+        "company_name": "엘티씨",
+        "ticker": "170920",
+        "sector_label": "소재",
+        "similarity": 0.372232,
+        "similarity_percent": 37.22,
+        "is_focal": 1
+      },
+      {
+        "company_name": "한솔케미칼",
+        "ticker": "014680",
+        "sector_label": "소재",
+        "similarity": 0.261842,
+        "similarity_percent": 26.18,
+        "is_focal": 1
+      },
+      {
+        "company_name": "덕산테코피아",
+        "ticker": "317330",
+        "sector_label": "소재",
+        "similarity": 0.254723,
+        "similarity_percent": 25.47,
+        "is_focal": 1
+      }
+    ],
+    "소재_03_317330": [
+      {
+        "company_name": "엘티씨",
+        "ticker": "170920",
+        "sector_label": "소재",
+        "similarity": 0.31954,
+        "similarity_percent": 31.95,
+        "is_focal": 1
+      },
+      {
+        "company_name": "한솔케미칼",
+        "ticker": "014680",
+        "sector_label": "소재",
+        "similarity": 0.288426,
+        "similarity_percent": 28.84,
+        "is_focal": 1
+      },
+      {
+        "company_name": "네패스",
+        "ticker": "033640",
+        "sector_label": "후공정/패키징/테스트",
+        "similarity": 0.269704,
+        "similarity_percent": 26.97,
+        "is_focal": 1
+      },
+      {
+        "company_name": "한미반도체",
+        "ticker": "042700",
+        "sector_label": "후공정/패키징/테스트",
+        "similarity": 0.254723,
+        "similarity_percent": 25.47,
+        "is_focal": 1
+      }
+    ],
+    "소재_04_101160": [
+      {
+        "company_name": "이엔에프테크놀로지",
+        "ticker": "102710",
+        "sector_label": "소재",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "솔브레인홀딩스",
+        "ticker": "036830",
+        "sector_label": "소재",
+        "similarity": 0.998353,
+        "similarity_percent": 99.84,
+        "is_focal": 0
+      },
+      {
+        "company_name": "원익머트리얼즈",
+        "ticker": "104830",
+        "sector_label": "소재",
+        "similarity": 0.949449,
+        "similarity_percent": 94.94,
+        "is_focal": 0
+      }
+    ],
+    "idm_제조_메모리_01_241770": [
+      {
+        "company_name": "DB하이텍",
+        "ticker": "000990",
+        "sector_label": "IDM/제조/메모리",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "엘디티",
+        "ticker": "096870",
+        "sector_label": "IDM/제조/메모리",
+        "similarity": 0.999086,
+        "similarity_percent": 99.91,
+        "is_focal": 0
+      },
+      {
+        "company_name": "한양디지텍",
+        "ticker": "078350",
+        "sector_label": "IDM/제조/메모리",
+        "similarity": 0.999086,
+        "similarity_percent": 99.91,
+        "is_focal": 0
+      }
+    ],
+    "팹리스_설계_01_108320": [
+      {
+        "company_name": "아이앤씨",
+        "ticker": "052860",
+        "sector_label": "팹리스/설계",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "매커스",
+        "ticker": "093520",
+        "sector_label": "팹리스/설계",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "티에스이",
+        "ticker": "131290",
+        "sector_label": "팹리스/설계",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      }
+    ],
+    "장비_01_141000": [
+      {
+        "company_name": "케이씨",
+        "ticker": "029460",
+        "sector_label": "장비",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "KPX케미칼",
+        "ticker": "025000",
+        "sector_label": "장비",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "GST",
+        "ticker": "083450",
+        "sector_label": "장비",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      }
+    ],
+    "팹리스_설계_02_052860": [
+      {
+        "company_name": "LX세미콘",
+        "ticker": "108320",
+        "sector_label": "팹리스/설계",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "매커스",
+        "ticker": "093520",
+        "sector_label": "팹리스/설계",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "티에스이",
+        "ticker": "131290",
+        "sector_label": "팹리스/설계",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      }
+    ],
+    "후공정_패키징_테스트_03_045300": [
+      {
+        "company_name": "링크제니시스",
+        "ticker": "219420",
+        "sector_label": "후공정/패키징/테스트",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "프로이천",
+        "ticker": "321260",
+        "sector_label": "후공정/패키징/테스트",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "프로텍",
+        "ticker": "053610",
+        "sector_label": "후공정/패키징/테스트",
+        "similarity": 0.950257,
+        "similarity_percent": 95.03,
+        "is_focal": 0
+      }
+    ],
+    "소재_05_102710": [
+      {
+        "company_name": "월덱스",
+        "ticker": "101160",
+        "sector_label": "소재",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "솔브레인홀딩스",
+        "ticker": "036830",
+        "sector_label": "소재",
+        "similarity": 0.998353,
+        "similarity_percent": 99.84,
+        "is_focal": 0
+      },
+      {
+        "company_name": "원익머트리얼즈",
+        "ticker": "104830",
+        "sector_label": "소재",
+        "similarity": 0.949449,
+        "similarity_percent": 94.94,
+        "is_focal": 0
+      }
+    ],
+    "idm_제조_메모리_02_000990": [
+      {
+        "company_name": "메카로",
+        "ticker": "241770",
+        "sector_label": "IDM/제조/메모리",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "엘디티",
+        "ticker": "096870",
+        "sector_label": "IDM/제조/메모리",
+        "similarity": 0.999086,
+        "similarity_percent": 99.91,
+        "is_focal": 0
+      },
+      {
+        "company_name": "한양디지텍",
+        "ticker": "078350",
+        "sector_label": "IDM/제조/메모리",
+        "similarity": 0.999086,
+        "similarity_percent": 99.91,
+        "is_focal": 0
+      }
+    ],
+    "장비_02_029460": [
+      {
+        "company_name": "비아트론",
+        "ticker": "141000",
+        "sector_label": "장비",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "KPX케미칼",
+        "ticker": "025000",
+        "sector_label": "장비",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "GST",
+        "ticker": "083450",
+        "sector_label": "장비",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      }
+    ],
+    "장비_03_025000": [
+      {
+        "company_name": "비아트론",
+        "ticker": "141000",
+        "sector_label": "장비",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "케이씨",
+        "ticker": "029460",
+        "sector_label": "장비",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "GST",
+        "ticker": "083450",
+        "sector_label": "장비",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      }
+    ],
+    "팹리스_설계_03_093520": [
+      {
+        "company_name": "LX세미콘",
+        "ticker": "108320",
+        "sector_label": "팹리스/설계",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "아이앤씨",
+        "ticker": "052860",
+        "sector_label": "팹리스/설계",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "티에스이",
+        "ticker": "131290",
+        "sector_label": "팹리스/설계",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      }
+    ],
+    "장비_04_083450": [
+      {
+        "company_name": "비아트론",
+        "ticker": "141000",
+        "sector_label": "장비",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "케이씨",
+        "ticker": "029460",
+        "sector_label": "장비",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "KPX케미칼",
+        "ticker": "025000",
+        "sector_label": "장비",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      }
+    ],
+    "후공정_패키징_테스트_04_219420": [
+      {
+        "company_name": "성우테크론",
+        "ticker": "045300",
+        "sector_label": "후공정/패키징/테스트",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "프로이천",
+        "ticker": "321260",
+        "sector_label": "후공정/패키징/테스트",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "프로텍",
+        "ticker": "053610",
+        "sector_label": "후공정/패키징/테스트",
+        "similarity": 0.950257,
+        "similarity_percent": 95.03,
+        "is_focal": 0
+      }
+    ],
+    "idm_제조_메모리_03_096870": [
+      {
+        "company_name": "한양디지텍",
+        "ticker": "078350",
+        "sector_label": "IDM/제조/메모리",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "메카로",
+        "ticker": "241770",
+        "sector_label": "IDM/제조/메모리",
+        "similarity": 0.999086,
+        "similarity_percent": 99.91,
+        "is_focal": 0
+      },
+      {
+        "company_name": "DB하이텍",
+        "ticker": "000990",
+        "sector_label": "IDM/제조/메모리",
+        "similarity": 0.999086,
+        "similarity_percent": 99.91,
+        "is_focal": 0
+      }
+    ],
+    "후공정_패키징_테스트_05_053610": [
+      {
+        "company_name": "성우테크론",
+        "ticker": "045300",
+        "sector_label": "후공정/패키징/테스트",
+        "similarity": 0.950257,
+        "similarity_percent": 95.03,
+        "is_focal": 0
+      },
+      {
+        "company_name": "링크제니시스",
+        "ticker": "219420",
+        "sector_label": "후공정/패키징/테스트",
+        "similarity": 0.950257,
+        "similarity_percent": 95.03,
+        "is_focal": 0
+      },
+      {
+        "company_name": "프로이천",
+        "ticker": "321260",
+        "sector_label": "후공정/패키징/테스트",
+        "similarity": 0.950257,
+        "similarity_percent": 95.03,
+        "is_focal": 0
+      }
+    ],
+    "idm_제조_메모리_04_078350": [
+      {
+        "company_name": "엘디티",
+        "ticker": "096870",
+        "sector_label": "IDM/제조/메모리",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "메카로",
+        "ticker": "241770",
+        "sector_label": "IDM/제조/메모리",
+        "similarity": 0.999086,
+        "similarity_percent": 99.91,
+        "is_focal": 0
+      },
+      {
+        "company_name": "DB하이텍",
+        "ticker": "000990",
+        "sector_label": "IDM/제조/메모리",
+        "similarity": 0.999086,
+        "similarity_percent": 99.91,
+        "is_focal": 0
+      }
+    ],
+    "팹리스_설계_04_131290": [
+      {
+        "company_name": "LX세미콘",
+        "ticker": "108320",
+        "sector_label": "팹리스/설계",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "아이앤씨",
+        "ticker": "052860",
+        "sector_label": "팹리스/설계",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "매커스",
+        "ticker": "093520",
+        "sector_label": "팹리스/설계",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      }
+    ],
+    "후공정_패키징_테스트_06_321260": [
+      {
+        "company_name": "성우테크론",
+        "ticker": "045300",
+        "sector_label": "후공정/패키징/테스트",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "링크제니시스",
+        "ticker": "219420",
+        "sector_label": "후공정/패키징/테스트",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "프로텍",
+        "ticker": "053610",
+        "sector_label": "후공정/패키징/테스트",
+        "similarity": 0.950257,
+        "similarity_percent": 95.03,
+        "is_focal": 0
+      }
+    ],
+    "소재_06_104830": [
+      {
+        "company_name": "월덱스",
+        "ticker": "101160",
+        "sector_label": "소재",
+        "similarity": 0.949449,
+        "similarity_percent": 94.94,
+        "is_focal": 0
+      },
+      {
+        "company_name": "이엔에프테크놀로지",
+        "ticker": "102710",
+        "sector_label": "소재",
+        "similarity": 0.949449,
+        "similarity_percent": 94.94,
+        "is_focal": 0
+      },
+      {
+        "company_name": "솔브레인홀딩스",
+        "ticker": "036830",
+        "sector_label": "소재",
+        "similarity": 0.94777,
+        "similarity_percent": 94.78,
+        "is_focal": 0
+      }
+    ],
+    "부품_기판_01_051370": [
+      {
+        "company_name": "자화전자",
+        "ticker": "033240",
+        "sector_label": "부품/기판",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "비에이치",
+        "ticker": "090460",
+        "sector_label": "부품/기판",
+        "similarity": 0.997555,
+        "similarity_percent": 99.76,
+        "is_focal": 0
+      },
+      {
+        "company_name": "이수페타시스",
+        "ticker": "007660",
+        "sector_label": "부품/기판",
+        "similarity": 0.997555,
+        "similarity_percent": 99.76,
+        "is_focal": 0
+      },
+      {
+        "company_name": "3S",
+        "ticker": "060310",
+        "sector_label": "부품/웨이퍼캐리어",
+        "similarity": 0.934094,
+        "similarity_percent": 93.41,
+        "is_focal": 0
+      }
+    ],
+    "소재_07_036830": [
+      {
+        "company_name": "월덱스",
+        "ticker": "101160",
+        "sector_label": "소재",
+        "similarity": 0.998353,
+        "similarity_percent": 99.84,
+        "is_focal": 0
+      },
+      {
+        "company_name": "이엔에프테크놀로지",
+        "ticker": "102710",
+        "sector_label": "소재",
+        "similarity": 0.998353,
+        "similarity_percent": 99.84,
+        "is_focal": 0
+      },
+      {
+        "company_name": "원익머트리얼즈",
+        "ticker": "104830",
+        "sector_label": "소재",
+        "similarity": 0.94777,
+        "similarity_percent": 94.78,
+        "is_focal": 0
+      }
+    ],
+    "부품_기판_02_033240": [
+      {
+        "company_name": "인터플렉스",
+        "ticker": "051370",
+        "sector_label": "부품/기판",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "비에이치",
+        "ticker": "090460",
+        "sector_label": "부품/기판",
+        "similarity": 0.997555,
+        "similarity_percent": 99.76,
+        "is_focal": 0
+      },
+      {
+        "company_name": "이수페타시스",
+        "ticker": "007660",
+        "sector_label": "부품/기판",
+        "similarity": 0.997555,
+        "similarity_percent": 99.76,
+        "is_focal": 0
+      },
+      {
+        "company_name": "3S",
+        "ticker": "060310",
+        "sector_label": "부품/웨이퍼캐리어",
+        "similarity": 0.934094,
+        "similarity_percent": 93.41,
+        "is_focal": 0
+      }
+    ],
+    "부품_기판_03_090460": [
+      {
+        "company_name": "이수페타시스",
+        "ticker": "007660",
+        "sector_label": "부품/기판",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "인터플렉스",
+        "ticker": "051370",
+        "sector_label": "부품/기판",
+        "similarity": 0.997555,
+        "similarity_percent": 99.76,
+        "is_focal": 0
+      },
+      {
+        "company_name": "자화전자",
+        "ticker": "033240",
+        "sector_label": "부품/기판",
+        "similarity": 0.997555,
+        "similarity_percent": 99.76,
+        "is_focal": 0
+      },
+      {
+        "company_name": "3S",
+        "ticker": "060310",
+        "sector_label": "부품/웨이퍼캐리어",
+        "similarity": 0.930024,
+        "similarity_percent": 93.0,
+        "is_focal": 0
+      }
+    ],
+    "부품_기판_04_007660": [
+      {
+        "company_name": "비에이치",
+        "ticker": "090460",
+        "sector_label": "부품/기판",
+        "similarity": 1.0,
+        "similarity_percent": 100.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "인터플렉스",
+        "ticker": "051370",
+        "sector_label": "부품/기판",
+        "similarity": 0.997555,
+        "similarity_percent": 99.76,
+        "is_focal": 0
+      },
+      {
+        "company_name": "자화전자",
+        "ticker": "033240",
+        "sector_label": "부품/기판",
+        "similarity": 0.997555,
+        "similarity_percent": 99.76,
+        "is_focal": 0
+      },
+      {
+        "company_name": "3S",
+        "ticker": "060310",
+        "sector_label": "부품/웨이퍼캐리어",
+        "similarity": 0.930024,
+        "similarity_percent": 93.0,
+        "is_focal": 0
+      }
+    ],
+    "부품_웨이퍼캐리어_01_060310": [
+      {
+        "company_name": "인터플렉스",
+        "ticker": "051370",
+        "sector_label": "부품/기판",
+        "similarity": 0.934094,
+        "similarity_percent": 93.41,
+        "is_focal": 0
+      },
+      {
+        "company_name": "자화전자",
+        "ticker": "033240",
+        "sector_label": "부품/기판",
+        "similarity": 0.934094,
+        "similarity_percent": 93.41,
+        "is_focal": 0
+      },
+      {
+        "company_name": "비에이치",
+        "ticker": "090460",
+        "sector_label": "부품/기판",
+        "similarity": 0.930024,
+        "similarity_percent": 93.0,
+        "is_focal": 0
+      },
+      {
+        "company_name": "이수페타시스",
+        "ticker": "007660",
+        "sector_label": "부품/기판",
+        "similarity": 0.930024,
+        "similarity_percent": 93.0,
+        "is_focal": 0
+      }
+    ]
+  },
+  "notes": [
+    "Company-level KMeans는 기업별 특허/기술 텍스트와 reference universe 메타데이터를 결합해 기술 peer group을 배정합니다.",
+    "reference 기업은 개별 폴더 없이 universe CSV 정보만으로도 clustering에 참여할 수 있습니다.",
+    "KIPRIS 특허 CSV가 추가되면 해당 기업의 document가 자동으로 풍부해져 cluster 품질이 개선됩니다."
+  ]
+}

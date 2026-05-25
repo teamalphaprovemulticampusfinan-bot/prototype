@@ -1,0 +1,70 @@
+{
+  "company_slug": "isc",
+  "company_name": "ISC",
+  "field": "반도체",
+  "source_csv": "data\\반도체\\ISC\\tech\\isc_kipris_patents_normalized.csv",
+  "enriched_csv": "data\\반도체\\ISC\\tech\\isc_kipris_tech_ml_enriched.csv",
+  "generated_at": "2026-05-20T22:29:22",
+  "core_counts": {
+    "total_patents": 30,
+    "registered_patents_estimated": 28,
+    "alive_patents_estimated": 28,
+    "negative_disposal_patents_estimated": 1,
+    "recent_5y_application_patents": 3,
+    "h01l_core_patents": 0,
+    "semiconductor_related_ipc_patents": 28,
+    "ipc_subclass_count": 5,
+    "ipc_main_group_count": 8,
+    "tech_keyword_match_total": 31,
+    "tech_keyword_match_avg": 1.0333
+  },
+  "core_rates": {
+    "registration_rate_estimated": 0.9333,
+    "alive_rate_total_estimated": 0.9333,
+    "alive_rate_among_registered_estimated": 1.0,
+    "negative_disposal_rate_estimated": 0.0333,
+    "recent_5y_application_rate": 0.1,
+    "h01l_core_rate": 0.0,
+    "semiconductor_related_ipc_rate": 0.9333
+  },
+  "year_features": {
+    "application_year_min": 2008,
+    "application_year_max": 2025,
+    "application_year_span": 18,
+    "recent_5y_threshold": 2021
+  },
+  "scores": {
+    "legal_stability_score_estimated": 96.67,
+    "portfolio_momentum_score": 22.85,
+    "ip_technology_fit_score": 47.17,
+    "kipris_tech_ml_score": 59.67
+  },
+  "tech_to_value_bridge_adjustment": {
+    "bridge_adjustment_points": 1.0,
+    "bridge_signal": "IP_QUALITY_MODERATE",
+    "usage_rule": "Add this as a conservative KIPRIS/IP feature adjustment to Tech-to-Value Bridge, but do not treat it as direct commercialization evidence."
+  },
+  "top_ipc_subclass": {
+    "G01R": 24,
+    "H01R": 3,
+    "H10P": 1,
+    "H01B": 1,
+    "H02M": 1
+  },
+  "top_ipc_main_group": {
+    "G01R 1": 17,
+    "G01R 31": 7,
+    "H10P 74": 1,
+    "H01R 43": 1,
+    "H01B 1": 1,
+    "H01R 11": 1,
+    "H02M 3": 1,
+    "H01R 33": 1
+  },
+  "top_applicants": {},
+  "cautions": [
+    "final_disposal is not present in the source CSV, so legal status is estimated from register_status/register_number/register_date.",
+    "register_date appears unavailable or unparsable in the current source, so registration year range should not be overclaimed.",
+    "KIPRIS/IP score supports technology defensibility, but customer adoption, mass production, sales conversion, and FCF conversion must be verified separately."
+  ]
+}

@@ -1,0 +1,1157 @@
+{
+  "agent": "market",
+  "company_name": "한솔케미칼",
+  "company": "한솔케미칼",
+  "opinion": "보유",
+  "confidence": 0.45,
+  "summary": "한솔케미칼에 대해 검증 가능한 핵심 근거는 다음과 같습니다. 한솔케미칼 마켓 분석 total_score 값은 55점입니다. 한솔케미칼 stock_data.current_price 값은 286500입니다. 한솔케미칼 stock_data.change 값은 10000입니다. 한솔케미칼 stock_data.change_rate 값은 3.62%입니다. 한솔케미칼 stock_data.raw.clpr 값은 286500입니다.",
+  "key_points": [
+    "한솔케미칼 마켓 분석 total_score 값은 55점입니다.",
+    "한솔케미칼 stock_data.current_price 값은 286500입니다.",
+    "한솔케미칼 stock_data.change 값은 10000입니다.",
+    "한솔케미칼 stock_data.change_rate 값은 3.62%입니다.",
+    "한솔케미칼 stock_data.raw.clpr 값은 286500입니다."
+  ],
+  "risks": [],
+  "claims": [
+    {
+      "claim_id": "market.cl.001",
+      "text": "한솔케미칼 마켓 분석 total_score 값은 55점입니다.",
+      "evidence_ids": [
+        "market.ev.001"
+      ]
+    },
+    {
+      "claim_id": "market.cl.002",
+      "text": "한솔케미칼 stock_data.current_price 값은 286500입니다.",
+      "evidence_ids": [
+        "market.ev.006"
+      ]
+    },
+    {
+      "claim_id": "market.cl.003",
+      "text": "한솔케미칼 stock_data.change 값은 10000입니다.",
+      "evidence_ids": [
+        "market.ev.009"
+      ]
+    },
+    {
+      "claim_id": "market.cl.004",
+      "text": "한솔케미칼 stock_data.change_rate 값은 3.62%입니다.",
+      "evidence_ids": [
+        "market.ev.010"
+      ]
+    },
+    {
+      "claim_id": "market.cl.005",
+      "text": "한솔케미칼 stock_data.raw.clpr 값은 286500입니다.",
+      "evidence_ids": [
+        "market.ev.016"
+      ]
+    },
+    {
+      "claim_id": "market.cl.006",
+      "text": "한솔케미칼 stock_data.raw.vs 값은 10000입니다.",
+      "evidence_ids": [
+        "market.ev.017"
+      ]
+    },
+    {
+      "claim_id": "market.auto_cl.007",
+      "text": "stock_data.raw.fltRt 값은 3.62%입니다.",
+      "evidence_ids": [
+        "market.ev.018"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "market.auto_cl.009",
+      "text": "stock_data.raw.mkp 값은 287,500입니다.",
+      "evidence_ids": [
+        "market.ev.019"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "market.auto_cl.011",
+      "text": "stock_data.raw.hipr 값은 291,000입니다.",
+      "evidence_ids": [
+        "market.ev.020"
+      ],
+      "claim_type": "point"
+    }
+  ],
+  "evidences": [
+    {
+      "evidence_id": "market.ev.001",
+      "source_type": "market",
+      "source": "market_graph_analysis",
+      "metric": "total_score",
+      "value": 55,
+      "unit": "score",
+      "period": null,
+      "snippet": "market_graph_analysis | total_score | 값: 55score"
+    },
+    {
+      "evidence_id": "market.ev.002",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.provider",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.provider | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.003",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.company",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.company | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.004",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.ticker",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.ticker | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.005",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.krx_code",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.krx_code | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.006",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.current_price",
+      "value": 286500,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.current_price | 값: 286,500원"
+    },
+    {
+      "evidence_id": "market.ev.007",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.currency",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.currency | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.008",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.as_of",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.as_of | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.009",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change",
+      "value": 10000,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.change | 값: 10,000"
+    },
+    {
+      "evidence_id": "market.ev.010",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change_rate",
+      "value": 3.62,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.change_rate | 값: 3.62%"
+    },
+    {
+      "evidence_id": "market.ev.011",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.basDt",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.basDt | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.012",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.srtnCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.srtnCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.013",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.isinCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.isinCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.014",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.itmsNm",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.itmsNm | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.015",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mrktCtg",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mrktCtg | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.016",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.clpr",
+      "value": 286500,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 286,500원"
+    },
+    {
+      "evidence_id": "market.ev.017",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.vs",
+      "value": 10000,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.vs | 값: 10,000"
+    },
+    {
+      "evidence_id": "market.ev.018",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.fltRt",
+      "value": 3.62,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: 3.62%"
+    },
+    {
+      "evidence_id": "market.ev.019",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mkp",
+      "value": 287500,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 287,500"
+    },
+    {
+      "evidence_id": "market.ev.020",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.hipr",
+      "value": 291000,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 291,000"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "market.ev.001",
+      "source_type": "market",
+      "source": "market_graph_analysis",
+      "metric": "total_score",
+      "value": 55,
+      "unit": "score",
+      "period": null,
+      "snippet": "market_graph_analysis | total_score | 값: 55score"
+    },
+    {
+      "evidence_id": "market.ev.002",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.provider",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.provider | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.003",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.company",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.company | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.004",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.ticker",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.ticker | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.005",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.krx_code",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.krx_code | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.006",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.current_price",
+      "value": 286500,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.current_price | 값: 286,500원"
+    },
+    {
+      "evidence_id": "market.ev.007",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.currency",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.currency | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.008",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.as_of",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.as_of | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.009",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change",
+      "value": 10000,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.change | 값: 10,000"
+    },
+    {
+      "evidence_id": "market.ev.010",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.change_rate",
+      "value": 3.62,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.change_rate | 값: 3.62%"
+    },
+    {
+      "evidence_id": "market.ev.011",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.basDt",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.basDt | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.012",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.srtnCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.srtnCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.013",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.isinCd",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.isinCd | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.014",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.itmsNm",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.itmsNm | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.015",
+      "source_type": "market_metadata",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mrktCtg",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mrktCtg | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "market.ev.016",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.clpr",
+      "value": 286500,
+      "unit": "원",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 286,500원"
+    },
+    {
+      "evidence_id": "market.ev.017",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.vs",
+      "value": 10000,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.vs | 값: 10,000"
+    },
+    {
+      "evidence_id": "market.ev.018",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.fltRt",
+      "value": 3.62,
+      "unit": "%",
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: 3.62%"
+    },
+    {
+      "evidence_id": "market.ev.019",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.mkp",
+      "value": 287500,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 287,500"
+    },
+    {
+      "evidence_id": "market.ev.020",
+      "source_type": "market",
+      "source": "stock_data",
+      "metric": "stock_data.raw.hipr",
+      "value": 291000,
+      "unit": null,
+      "period": null,
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 291,000"
+    }
+  ],
+  "raw_payload": {
+    "analysis": {
+      "agent": "market",
+      "company": "한솔케미칼",
+      "opinion": "보유",
+      "confidence": 0.7,
+      "market_summary": {
+        "oecd_interpretation": "OECD 경기선행지수가 98.99로 하락하며 거시 경제의 불확실성을 시사합니다. 이는 전반적인 경기 둔화 가능성을 나타내며 투자 심리에 부정적인 영향을 줄 수 있습니다.",
+        "industry_stage": "한솔케미칼이 속한 전자재료 및 이차전지 재료 산업은 AI 수요 확대에 따른 반도체 업황 호조로 성장 단계에 있습니다. 이는 해당 산업의 높은 매력도를 보여줍니다.",
+        "value_chain_position": "한솔케미칼은 소재 부문에서 직접 생산하는 기업으로, 밸류체인 내에서 중요한 위치를 차지합니다. 이는 수요 증가의 직접적인 수혜를 받을 수 있는 강점을 가집니다.",
+        "competitive_position": "한솔케미칼은 반도체용 테이프 등 특수 소재에서 경쟁력을 보유하고 있으나, 경쟁 강도에 대한 구체적인 데이터는 제한적입니다. 중간 수준의 경쟁 구도로 평가됩니다.",
+        "market_momentum": "주가는 286,500원으로 상승세를 보이고 있으나, OECD 경기선행지수 하락은 시장 모멘텀에 대한 불확실성을 높입니다. 변동성 확대 가능성이 있습니다."
+      },
+      "qualitative_rubric": {
+        "macro_cycle": {
+          "assessment": "하",
+          "reason": "OECD 경기선행지수 하락은 거시 경제 불확실성을 높여 부정적인 신호로 작용합니다."
+        },
+        "industry_attractiveness": {
+          "assessment": "상",
+          "reason": "AI 수요 확대에 따른 반도체 업황 호조는 전자재료 및 이차전지 재료 산업의 높은 성장성을 시사합니다."
+        },
+        "value_chain_position": {
+          "assessment": "상",
+          "reason": "소재 부문에서 직접 생산하며, 전자재료 및 이차전지 재료 등 핵심 산업에 필수적인 제품을 공급합니다."
+        },
+        "competitive_position": {
+          "assessment": "중",
+          "reason": "특수 소재 분야에서 경쟁력을 보유하나, 경쟁사 대비 구체적인 시장 점유율 및 기술 우위 데이터가 부족합니다."
+        },
+        "market_momentum": {
+          "assessment": "중",
+          "reason": "주가는 상승세를 보이나, 거시 경제 불확실성으로 인해 시장 모멘텀의 지속성에 대한 판단이 유보적입니다."
+        },
+        "policy_disclosure_signal": {
+          "assessment": "중",
+          "reason": "반도체 소재 관련 정책 수혜 가능성이 있으나, 구체적인 정책 효과 및 공시 내용에 대한 추가 분석이 필요합니다."
+        },
+        "downside_risk": {
+          "assessment": "중",
+          "reason": "OECD 경기선행지수 하락으로 인한 거시 경제 불확실성이 주요 하방 리스크 요인으로 작용할 수 있습니다."
+        }
+      },
+      "bwm_assessment": {
+        "best_criterion": "산업 매력도",
+        "worst_criterion": "거시 사이클",
+        "judgment_effect": "산업의 긍정적 전망에도 불구하고 거시 경제의 불확실성이 투자 의견을 '보유'로 유지하는 주요 요인입니다."
+      },
+      "scoring": {
+        "거시환경": {
+          "score": 5,
+          "max": 20,
+          "reason": "OECD 경기선행지수 하락으로 거시 경제 환경이 부정적입니다."
+        },
+        "산업매력도": {
+          "score": 18,
+          "max": 20,
+          "reason": "AI 수요 확대에 따른 반도체 업황 호조로 산업 성장성이 매우 높습니다."
+        },
+        "경쟁위치": {
+          "score": 12,
+          "max": 20,
+          "reason": "특수 소재 분야 경쟁력은 있으나, 경쟁 강도에 대한 데이터가 제한적입니다."
+        },
+        "정책수혜": {
+          "score": 10,
+          "max": 20,
+          "reason": "반도체 소재 관련 정책 수혜 가능성이 있으나, 구체적인 효과는 불확실합니다."
+        },
+        "시장모멘텀": {
+          "score": 10,
+          "max": 20,
+          "reason": "주가 상승세는 있으나 거시 경제 불확실성으로 모멘텀 지속성이 불확실합니다."
+        }
+      },
+      "total_score": 55,
+      "claims": [
+        {
+          "claim_id": "market.cl.001",
+          "text": "AI 수요 확대에 따른 반도체 업황 호조로 한솔케미칼의 핵심 사업인 전자재료 및 이차전지 재료 산업의 성장이 기대됩니다.",
+          "evidence_ids": [
+            "market.ev.002",
+            "market.ev.003",
+            "market.ev.005"
+          ]
+        },
+        {
+          "claim_id": "market.cl.002",
+          "text": "OECD 경기선행지수 하락은 거시 경제 불확실성을 높이며, 이는 투자에 부담으로 작용할 수 있습니다.",
+          "evidence_ids": [
+            "market.ev.001"
+          ]
+        },
+        {
+          "claim_id": "market.cl.003",
+          "text": "한솔케미칼은 반도체용 테이프와 같은 특수 소재에서 경쟁력을 갖추고 있습니다.",
+          "evidence_ids": [
+            "market.ev.004"
+          ]
+        }
+      ],
+      "evidences": [
+        {
+          "evidence_id": "market.ev.001",
+          "source_type": "oecd",
+          "source": "oecd",
+          "metric": "경기선행지수",
+          "value": 98.99,
+          "unit": null,
+          "period": "최신",
+          "snippet": "OECD 경기선행지수 (최신): {\"G20\": 98.99, \"한국\": 98.99, \"미국\": 98.99, \"중국\": 98.99}"
+        },
+        {
+          "evidence_id": "market.ev.002",
+          "source_type": "news",
+          "source": "Naver News",
+          "metric": "업황",
+          "value": null,
+          "unit": null,
+          "period": "Sun, 24 May 2026",
+          "snippet": "제조업 경기심리 4개월 만에 반등… 반도체 ·화학이 끌었다"
+        },
+        {
+          "evidence_id": "market.ev.003",
+          "source_type": "news",
+          "source": "Naver News",
+          "metric": "업황",
+          "value": null,
+          "unit": null,
+          "period": "Sun, 24 May 2026",
+          "snippet": "[2026 하반기 전망] AI가 띄운 반도체 , 中에 눌린 가전···전자산업 희비"
+        },
+        {
+          "evidence_id": "market.ev.004",
+          "source_type": "dart",
+          "source": "DART",
+          "metric": "경쟁력",
+          "value": null,
+          "unit": null,
+          "period": "2026-05-24T20:40:28.238730",
+          "snippet": "한솔케미칼은 반도체용 테이프와 같은 특수 소재에서 경쟁력을 갖추고 있습니다."
+        },
+        {
+          "evidence_id": "market.ev.005",
+          "source_type": "static",
+          "source": "엑셀",
+          "metric": "요약",
+          "value": null,
+          "unit": null,
+          "period": null,
+          "snippet": "AI 수요 확대에 따른 반도체 업황 호조로 한솔케미칼의 핵심 사업인 전자재료 및 이차전지 재료 산업의 성장이 기대됩니다."
+        }
+      ],
+      "risks": [
+        {
+          "risk": "거시 경제 불확실성",
+          "severity": "중",
+          "basis": "OECD 경기선행지수 하락"
+        },
+        {
+          "risk": "데이터 제한으로 인한 분석 한계",
+          "severity": "중",
+          "basis": "LLM 호출 오류로 인한 데이터 제한"
+        }
+      ],
+      "opportunities": [
+        {
+          "opportunity": "AI 수요 확대에 따른 반도체 업황 호조",
+          "basis": "전자재료 및 이차전지 재료 산업 성장 기대"
+        }
+      ],
+      "summary": "AI 수요 확대에 따른 반도체 업황 호조로 산업 성장이 기대되나, OECD 경기선행지수 하락으로 거시 경제 불확실성이 존재합니다. 데이터 제한으로 인한 분석 한계도 있습니다. 따라서 현재로서는 '보유' 의견을 제시합니다.",
+      "raw_payload": {
+        "stock_used": true,
+        "oecd_used": true,
+        "static_used": true,
+        "news_used": true,
+        "dart_used": true
+      }
+    },
+    "original_opportunities": [
+      {
+        "opportunity": "AI 수요 확대에 따른 반도체 업황 호조",
+        "basis": "전자재료 및 이차전지 재료 산업 성장 기대"
+      }
+    ],
+    "original_risks": [
+      {
+        "risk": "거시 경제 불확실성",
+        "severity": "중",
+        "basis": "OECD 경기선행지수 하락"
+      },
+      {
+        "risk": "데이터 제한으로 인한 분석 한계",
+        "severity": "중",
+        "basis": "LLM 호출 오류로 인한 데이터 제한"
+      }
+    ],
+    "removed_bad_evidence_ids": [
+      "market.ev.unverified"
+    ]
+  },
+  "total_score": 55,
+  "scoring": {
+    "거시환경": {
+      "score": 5,
+      "max": 20,
+      "reason": "OECD 경기선행지수 하락으로 거시 경제 환경이 부정적입니다."
+    },
+    "산업매력도": {
+      "score": 18,
+      "max": 20,
+      "reason": "AI 수요 확대에 따른 반도체 업황 호조로 산업 성장성이 매우 높습니다."
+    },
+    "경쟁위치": {
+      "score": 12,
+      "max": 20,
+      "reason": "특수 소재 분야 경쟁력은 있으나, 경쟁 강도에 대한 데이터가 제한적입니다."
+    },
+    "정책수혜": {
+      "score": 10,
+      "max": 20,
+      "reason": "반도체 소재 관련 정책 수혜 가능성이 있으나, 구체적인 효과는 불확실합니다."
+    },
+    "시장모멘텀": {
+      "score": 10,
+      "max": 20,
+      "reason": "주가 상승세는 있으나 거시 경제 불확실성으로 모멘텀 지속성이 불확실합니다."
+    }
+  },
+  "packet_version": "grounded_agent_v3",
+  "pre_sanitize_grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 6,
+    "supported_count": 6,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "한솔케미칼 마켓 분석 total_score 값은 55점입니다.",
+      "한솔케미칼 stock_data.current_price 값은 286500입니다.",
+      "한솔케미칼 stock_data.change 값은 10000입니다.",
+      "한솔케미칼 stock_data.change_rate 값은 3.62%입니다.",
+      "한솔케미칼 stock_data.raw.clpr 값은 286500입니다.",
+      "한솔케미칼 stock_data.raw.vs 값은 10000입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "market.cl.001",
+        "text": "한솔케미칼 마켓 분석 total_score 값은 55점입니다.",
+        "evidence_ids": [
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "한솔케미칼 stock_data.current_price 값은 286500입니다.",
+        "evidence_ids": [
+          "market.ev.006"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {
+          "price": [
+            "market.ev.006"
+          ]
+        },
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.003",
+        "text": "한솔케미칼 stock_data.change 값은 10000입니다.",
+        "evidence_ids": [
+          "market.ev.009"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.004",
+        "text": "한솔케미칼 stock_data.change_rate 값은 3.62%입니다.",
+        "evidence_ids": [
+          "market.ev.010"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.005",
+        "text": "한솔케미칼 stock_data.raw.clpr 값은 286500입니다.",
+        "evidence_ids": [
+          "market.ev.016"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.006",
+        "text": "한솔케미칼 stock_data.raw.vs 값은 10000입니다.",
+        "evidence_ids": [
+          "market.ev.017"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  },
+  "post_atomic_grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 9,
+    "supported_count": 9,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "한솔케미칼 마켓 분석 total_score 값은 55점입니다.",
+      "한솔케미칼 stock_data.current_price 값은 286500입니다.",
+      "한솔케미칼 stock_data.change 값은 10000입니다.",
+      "한솔케미칼 stock_data.change_rate 값은 3.62%입니다.",
+      "한솔케미칼 stock_data.raw.clpr 값은 286500입니다.",
+      "한솔케미칼 stock_data.raw.vs 값은 10000입니다.",
+      "stock_data.raw.fltRt 값은 3.62%입니다.",
+      "stock_data.raw.mkp 값은 287,500입니다.",
+      "stock_data.raw.hipr 값은 291,000입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "market.cl.001",
+        "text": "한솔케미칼 마켓 분석 total_score 값은 55점입니다.",
+        "evidence_ids": [
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "한솔케미칼 stock_data.current_price 값은 286500입니다.",
+        "evidence_ids": [
+          "market.ev.006"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {
+          "price": [
+            "market.ev.006"
+          ]
+        },
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.003",
+        "text": "한솔케미칼 stock_data.change 값은 10000입니다.",
+        "evidence_ids": [
+          "market.ev.009"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.004",
+        "text": "한솔케미칼 stock_data.change_rate 값은 3.62%입니다.",
+        "evidence_ids": [
+          "market.ev.010"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.005",
+        "text": "한솔케미칼 stock_data.raw.clpr 값은 286500입니다.",
+        "evidence_ids": [
+          "market.ev.016"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.006",
+        "text": "한솔케미칼 stock_data.raw.vs 값은 10000입니다.",
+        "evidence_ids": [
+          "market.ev.017"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.007",
+        "text": "stock_data.raw.fltRt 값은 3.62%입니다.",
+        "evidence_ids": [
+          "market.ev.018"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.009",
+        "text": "stock_data.raw.mkp 값은 287,500입니다.",
+        "evidence_ids": [
+          "market.ev.019"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.011",
+        "text": "stock_data.raw.hipr 값은 291,000입니다.",
+        "evidence_ids": [
+          "market.ev.020"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  },
+  "grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 9,
+    "supported_count": 9,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "한솔케미칼 마켓 분석 total_score 값은 55점입니다.",
+      "한솔케미칼 stock_data.current_price 값은 286500입니다.",
+      "한솔케미칼 stock_data.change 값은 10000입니다.",
+      "한솔케미칼 stock_data.change_rate 값은 3.62%입니다.",
+      "한솔케미칼 stock_data.raw.clpr 값은 286500입니다.",
+      "한솔케미칼 stock_data.raw.vs 값은 10000입니다.",
+      "stock_data.raw.fltRt 값은 3.62%입니다.",
+      "stock_data.raw.mkp 값은 287,500입니다.",
+      "stock_data.raw.hipr 값은 291,000입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "market.cl.001",
+        "text": "한솔케미칼 마켓 분석 total_score 값은 55점입니다.",
+        "evidence_ids": [
+          "market.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8333,
+        "number_ratio": 1.0,
+        "token_ratio": 0.1667,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "한솔케미칼 stock_data.current_price 값은 286500입니다.",
+        "evidence_ids": [
+          "market.ev.006"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {
+          "price": [
+            "market.ev.006"
+          ]
+        },
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.003",
+        "text": "한솔케미칼 stock_data.change 값은 10000입니다.",
+        "evidence_ids": [
+          "market.ev.009"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.004",
+        "text": "한솔케미칼 stock_data.change_rate 값은 3.62%입니다.",
+        "evidence_ids": [
+          "market.ev.010"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.005",
+        "text": "한솔케미칼 stock_data.raw.clpr 값은 286500입니다.",
+        "evidence_ids": [
+          "market.ev.016"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.cl.006",
+        "text": "한솔케미칼 stock_data.raw.vs 값은 10000입니다.",
+        "evidence_ids": [
+          "market.ev.017"
+        ],
+        "supported": true,
+        "score": 0.85,
+        "number_ratio": 1.0,
+        "token_ratio": 0.25,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.007",
+        "text": "stock_data.raw.fltRt 값은 3.62%입니다.",
+        "evidence_ids": [
+          "market.ev.018"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.009",
+        "text": "stock_data.raw.mkp 값은 287,500입니다.",
+        "evidence_ids": [
+          "market.ev.019"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "market.auto_cl.011",
+        "text": "stock_data.raw.hipr 값은 291,000입니다.",
+        "evidence_ids": [
+          "market.ev.020"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  }
+}

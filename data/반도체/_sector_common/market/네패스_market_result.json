@@ -1,0 +1,1543 @@
+{
+  "네패스": {
+    "agent": "market",
+    "company_name": "네패스",
+    "company": "네패스",
+    "opinion": "보유",
+    "confidence": null,
+    "summary": "네패스에 대해 검증 가능한 핵심 근거는 다음과 같습니다. AI 서버 및 HBM 수요 증가에 따른 고부가가치 패키징 시장 확대 정부 R&D 지원 및 세제 혜택 확대를 통한 수익성 개선 글로벌 경기 둔화 및 반도체 사이클 변동성 중국 기업의 후공정 기술 추격 및 가격 경쟁 심화 고사양 패키징 기술 확보 실패 시 시장 점유율 하락",
+    "key_points": [
+      "AI 서버 및 HBM 수요 증가에 따른 고부가가치 패키징 시장 확대",
+      "정부 R&D 지원 및 세제 혜택 확대를 통한 수익성 개선",
+      "글로벌 경기 둔화 및 반도체 사이클 변동성",
+      "중국 기업의 후공정 기술 추격 및 가격 경쟁 심화",
+      "고사양 패키징 기술 확보 실패 시 시장 점유율 하락"
+    ],
+    "risks": [],
+    "evidence": [
+      {
+        "evidence_id": "market.ev.001",
+        "source_type": "market_analysis",
+        "source": "market_graph_analysis",
+        "metric": "total_score",
+        "value": 88,
+        "unit": "score",
+        "period": null,
+        "snippet": "market_graph_analysis | total_score | 값: 88score"
+      },
+      {
+        "evidence_id": "market.ev.002",
+        "source_type": "price_or_market",
+        "source": "stock_data",
+        "metric": "current_price",
+        "value": 31900.0,
+        "unit": "원",
+        "period": null,
+        "snippet": "stock_data | 현재가 | 값: 31,900원"
+      },
+      {
+        "evidence_id": "market.ev.003",
+        "source_type": "price_or_market",
+        "source": "stock_data",
+        "metric": "week52_high",
+        "value": 35700.0,
+        "unit": null,
+        "period": null,
+        "snippet": "stock_data | week52_high | 값: 35,700"
+      },
+      {
+        "evidence_id": "market.ev.004",
+        "source_type": "price_or_market",
+        "source": "stock_data",
+        "metric": "week52_low",
+        "value": 6760.0,
+        "unit": null,
+        "period": null,
+        "snippet": "stock_data | week52_low | 값: 6,760"
+      },
+      {
+        "evidence_id": "market.ev.005",
+        "source_type": "price_or_market",
+        "source": "stock_data",
+        "metric": "beta",
+        "value": 1.562,
+        "unit": null,
+        "period": null,
+        "snippet": "stock_data | beta | 값: 1.56"
+      },
+      {
+        "evidence_id": "market.ev.006",
+        "source_type": "price_or_market",
+        "source": "stock_data",
+        "metric": "volume",
+        "value": 302699,
+        "unit": null,
+        "period": null,
+        "snippet": "stock_data | volume | 값: 302,699"
+      },
+      {
+        "evidence_id": "market.ev.007",
+        "source_type": "price_or_market",
+        "source": "stock_data",
+        "metric": "price_change_5d",
+        "value": 16.21,
+        "unit": "원",
+        "period": null,
+        "snippet": "stock_data | price_change_5d | 값: 16.21원"
+      },
+      {
+        "evidence_id": "market.ev.008",
+        "source_type": "macro_market",
+        "source": "oecd_data",
+        "metric": "G20",
+        "value": 100.5902,
+        "unit": null,
+        "period": null,
+        "snippet": "oecd_data | G20 | 값: 100.59"
+      },
+      {
+        "evidence_id": "market.ev.009",
+        "source_type": "macro_market",
+        "source": "oecd_data",
+        "metric": "한국",
+        "value": 102.2842,
+        "unit": null,
+        "period": null,
+        "snippet": "oecd_data | 한국 | 값: 102.28"
+      },
+      {
+        "evidence_id": "market.ev.010",
+        "source_type": "macro_market",
+        "source": "oecd_data",
+        "metric": "미국",
+        "value": 100.8895,
+        "unit": null,
+        "period": null,
+        "snippet": "oecd_data | 미국 | 값: 100.89"
+      },
+      {
+        "evidence_id": "market.ev.011",
+        "source_type": "macro_market",
+        "source": "oecd_data",
+        "metric": "중국",
+        "value": 98.48773,
+        "unit": null,
+        "period": null,
+        "snippet": "oecd_data | 중국 | 값: 98.49"
+      },
+      {
+        "evidence_id": "market.ev.012",
+        "source_type": "news",
+        "source": "news_data",
+        "metric": "news_or_market_item",
+        "value": null,
+        "unit": null,
+        "period": "2026-04-27",
+        "snippet": "news_data | 2026-04-27 기준 news_or_market_item | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.013",
+        "source_type": "news",
+        "source": "news_data",
+        "metric": "news_or_market_item",
+        "value": null,
+        "unit": "억원",
+        "period": "2026-04-27",
+        "snippet": "news_data | 2026-04-27 기준 news_or_market_item | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.014",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "chain.position",
+        "value": "후공정 패키징",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | chain.position | 값: 후공정 패키징"
+      },
+      {
+        "evidence_id": "market.ev.015",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "chain.products",
+        "value": "FoWLP, nSiP, PMIC 패키징, 2.5D 패키징",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | chain.products | 값: FoWLP, nSiP, PMIC 패키징, 2.5D 패키징"
+      },
+      {
+        "evidence_id": "market.ev.016",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "chain.process",
+        "value": "패키징",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | chain.process | 값: 패키징"
+      },
+      {
+        "evidence_id": "market.ev.017",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.정부 지원 금액(R&D)-정부프로젝트",
+        "value": "360 백만원",
+        "unit": "원",
+        "period": null,
+        "snippet": "static_data | base.정부 지원 금액(R&D)-정부프로젝트 | 값: 360 백만원"
+      },
+      {
+        "evidence_id": "market.ev.018",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.52주베타",
+        "value": "1.19",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.52주베타 | 값: 1.19"
+      },
+      {
+        "evidence_id": "market.ev.019",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.사업정책 데이터",
+        "value": "산업동향 데이터 (현재 업황)",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.사업정책 데이터 | 값: 산업동향 데이터 (현재 업황)"
+      },
+      {
+        "evidence_id": "market.ev.020",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.세액공제 직접환급 및 이월공제기간 연장 검토",
+        "value": "반도체 올해 전세계 시장 약 30% 증가 예상",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.세액공제 직접환급 및 이월공제기간 연장 검토 | 값: 반도체 올해 전세계 시장 약 30% 증가 예상"
+      },
+      {
+        "evidence_id": "market.ev.021",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.국민성장펀드 금융 지원 강화",
+        "value": "바이오 2024년 163억불 최대 수출 달성",
+        "unit": "원",
+        "period": "2024",
+        "snippet": "static_data | 2024 기준 base.국민성장펀드 금융 지원 강화 | 값: 바이오 2024년 163억불 최대 수출 달성"
+      },
+      {
+        "evidence_id": "market.ev.022",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.R&D 지원 확대",
+        "value": "배터리 전기차 성장 둔화, 중국 점유율 확대",
+        "unit": "원",
+        "period": null,
+        "snippet": "static_data | base.R&D 지원 확대 | 값: 배터리 전기차 성장 둔화, 중국 점유율 확대"
+      },
+      {
+        "evidence_id": "market.ev.023",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.으뜸효율 환급사업",
+        "value": "중전기기 장기 호황, 수출 호조세",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.으뜸효율 환급사업 | 값: 중전기기 장기 호황, 수출 호조세"
+      },
+      {
+        "evidence_id": "market.ev.024",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.nan",
+        "value": "2024",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.nan | 값: 2,024"
+      },
+      {
+        "evidence_id": "market.ev.025",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.구분",
+        "value": "반도체",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.구분 | 값: 반도체"
+      },
+      {
+        "evidence_id": "market.ev.026",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.전체 위치",
+        "value": "성숙기 → 세그먼트별 상이",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.전체 위치 | 값: 성숙기 → 세그먼트별 상이"
+      },
+      {
+        "evidence_id": "market.ev.027",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.핵심 세그먼트",
+        "value": "AI·HBM: 성장기\n메모리: 성숙기\n레거시: 쇠퇴기",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.핵심 세그먼트 | 값: AI·HBM: 성장기\n메모리: 성숙기\n레거시: 쇠퇴기"
+      },
+      {
+        "evidence_id": "market.ev.028",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.시장 성장률",
+        "value": "전체 +30% (2025)\nAI 반도체 +40% 이상",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.시장 성장률 | 값: 전체 +30% (2025)\nAI 반도체 +40% 이상"
+      },
+      {
+        "evidence_id": "market.ev.029",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.경쟁 구조",
+        "value": "TSMC·삼성·인텔 3강\n중국 추격 중 (레거시)",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.경쟁 구조 | 값: TSMC·삼성·인텔 3강\n중국 추격 중 (레거시)"
+      },
+      {
+        "evidence_id": "market.ev.030",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.기술 진입장벽",
+        "value": "EUV 장비 ASML 독점\n첨단 공정 수십조 투자\n수율 확보 수년",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.기술 진입장벽 | 값: EUV 장비 ASML 독점\n첨단 공정 수십조 투자\n수율 확보 수년"
+      },
+      {
+        "evidence_id": "market.ev.031",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.세그먼트",
+        "value": "라이프사이클 위치",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.세그먼트 | 값: 라이프사이클 위치"
+      },
+      {
+        "evidence_id": "market.ev.032",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.AI·HBM 반도체",
+        "value": "성장기 초입",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.AI·HBM 반도체 | 값: 성장기 초입"
+      },
+      {
+        "evidence_id": "market.ev.033",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.시스템 반도체\n(파운드리·팹리스)",
+        "value": "성장기 중반",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.시스템 반도체\n(파운드리·팹리스) | 값: 성장기 중반"
+      },
+      {
+        "evidence_id": "market.ev.034",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.메모리 반도체\n(D램·NAND)",
+        "value": "성숙기 (사이클)",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.메모리 반도체\n(D램·NAND) | 값: 성숙기 (사이클)"
+      },
+      {
+        "evidence_id": "market.ev.035",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.레거시 반도체\n(28nm 이상)",
+        "value": "성숙기 후반~쇠퇴기",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.레거시 반도체\n(28nm 이상) | 값: 성숙기 후반~쇠퇴기"
+      }
+    ],
+    "raw_payload": {
+      "analysis": {
+        "company": "네패스",
+        "market_summary": {
+          "oecd_interpretation": "OECD 경기선행지수 (CLI) 가 100.59(G20) 및 102.28(한국) 로 기준치 100 을 상회하며, 글로벌 및 국내 경제가 회복 국면에 진입했음을 시사합니다. 특히 한국의 지수가 G20 평균보다 높게 형성되어 수출 주도형 산업인 반도체 및 관련 장비/소재 업종에 대한 선제적 호황 신호로 해석됩니다.",
+          "industry_stage": "반도체 산업 전체는 성숙기에서 AI·HBM 등 특정 세그먼트로 성장기가 재도입된 '이원화' 국면입니다. 네패스가 속한 후공정 패키징 분야는 AI 서버 수요 폭증으로 인해 '성장기 초입'에 해당하며, 기존 레거시 시장의 쇠퇴와 대비되는 고성장 구간입니다.",
+          "value_chain_position": "후공정 패키징 (FoWLP, nSiP, 2.5D) 에 집중하여 고부가가치 AI 반도체 수요에 직접적으로 수혜를 입는 위치입니다. 전공정 대비 진입장벽이 상대적으로 낮으나, 고도화된 패키징 기술 (2.5D 등) 을 확보한 기업은 공급망에서 필수적인 파트너로 자리매김하고 있습니다.",
+          "competitive_position": "TSMC, 삼성, 인텔 등 3 강 체제 하에서 후공정 전문 기업으로서 틈새시장을 공략 중입니다. 경쟁사 (하나마이크론, SFA 등) 와 비교 시 고사양 패키징 기술력을 바탕으로 한 차별화 전략이 경쟁 우위를 점할 핵심 요소로 작용합니다."
+        },
+        "scoring": {
+          "거시환경": {
+            "score": 18,
+            "max": 20,
+            "reason": "OECD 선행지수 100 상회 및 한국 지수 우세로 거시적 경기 회복세 확인, 반도체 업황 반등과 맞물려 긍정적."
+          },
+          "산업매력도": {
+            "score": 19,
+            "max": 20,
+            "reason": "AI 반도체 시장 연 40% 이상 성장 예상, HBM 및 2.5D 패키징 수요 폭발로 산업 매력도가 매우 높음."
+          },
+          "경쟁위치": {
+            "score": 16,
+            "max": 20,
+            "reason": "후공정 전문 기업으로서 기술적 우위 확보 필요, 3 강 체제 하에서의 협력 관계와 경쟁사 대비 기술 격차 관리가 관건."
+          },
+          "정책수혜": {
+            "score": 17,
+            "max": 20,
+            "reason": "R&D 지원 확대, 세액공제 직접환급 검토 등 정부의 반도체 산업 육성 정책 수혜 가능성 높음."
+          },
+          "시장모멘텀": {
+            "score": 18,
+            "max": 20,
+            "reason": "주가 52 주 고가 대비 10% 내외 수준, 5 일간 16% 상승세로 단기 모멘텀 강세, AI 테마 재부각."
+          }
+        },
+        "total_score": 88,
+        "risks": [
+          {
+            "risk": "글로벌 경기 둔화 및 반도체 사이클 변동성",
+            "severity": "중"
+          },
+          {
+            "risk": "중국 기업의 후공정 기술 추격 및 가격 경쟁 심화",
+            "severity": "중"
+          },
+          {
+            "risk": "고사양 패키징 기술 확보 실패 시 시장 점유율 하락",
+            "severity": "상"
+          }
+        ],
+        "opportunities": [
+          {
+            "opportunity": "AI 서버 및 HBM 수요 증가에 따른 고부가가치 패키징 시장 확대",
+            "basis": "2025 년 AI 반도체 시장 +40% 이상 성장 전망 및 2.5D 패키징 수요 급증"
+          },
+          {
+            "opportunity": "정부 R&D 지원 및 세제 혜택 확대를 통한 수익성 개선",
+            "basis": "세액공제 직접환급 검토 및 국민성장펀드 지원 강화 정책"
+          }
+        ],
+        "summary": "네패스는 AI 반도체 성장기에 편입된 후공정 패키징 기업으로, OECD 선행지수 회복과 맞물려 거시적·산업적 호황을 누리고 있습니다. 특히 2.5D 및 nSiP 등 고사양 패키징 기술력을 바탕으로 AI 수요 폭증에 직접적인 수혜를 입을 잠재력이 큽니다. 다만, 중국 기업의 추격과 기술 격차 유지가 주요 리스크이므로, 지속적인 R&D 투자와 고부가가치 제품 포트폴리오 강화가 필수적입니다. 현재 주가 모멘텀과 산업 전망을 고려할 때, 중장기적 관점에서 매력적인 투자 대상입니다."
+      },
+      "stock_data_keys": [
+        "current_price",
+        "week52_high",
+        "week52_low",
+        "beta",
+        "volume",
+        "price_change_5d"
+      ],
+      "oecd_data_keys": [
+        "G20",
+        "한국",
+        "미국",
+        "중국"
+      ],
+      "dart_data_keys": [],
+      "news_count": 2,
+      "removed_bad_evidence_ids": [
+        "market.ev.unverified"
+      ]
+    },
+    "claims": [
+      {
+        "claim_id": "market.cl.001",
+        "text": "AI 서버 및 HBM 수요 증가에 따른 고부가가치 패키징 시장 확대",
+        "evidence_ids": [
+          "market.ev.027",
+          "market.ev.014",
+          "market.ev.015",
+          "market.ev.016"
+        ]
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "정부 R&D 지원 및 세제 혜택 확대를 통한 수익성 개선",
+        "evidence_ids": [
+          "market.ev.017",
+          "market.ev.021",
+          "market.ev.022",
+          "market.ev.001"
+        ]
+      },
+      {
+        "claim_id": "market.cl.003",
+        "text": "글로벌 경기 둔화 및 반도체 사이클 변동성",
+        "evidence_ids": [
+          "market.ev.034",
+          "market.ev.020",
+          "market.ev.022",
+          "market.ev.025"
+        ]
+      },
+      {
+        "claim_id": "market.cl.004",
+        "text": "중국 기업의 후공정 기술 추격 및 가격 경쟁 심화",
+        "evidence_ids": [
+          "market.ev.002",
+          "market.ev.003",
+          "market.ev.004",
+          "market.ev.005"
+        ]
+      },
+      {
+        "claim_id": "market.cl.005",
+        "text": "고사양 패키징 기술 확보 실패 시 시장 점유율 하락",
+        "evidence_ids": [
+          "market.ev.014",
+          "market.ev.015",
+          "market.ev.016",
+          "market.ev.020"
+        ]
+      },
+      {
+        "claim_id": "market.auto_cl.006",
+        "text": "volume 값은 302,699입니다.",
+        "evidence_ids": [
+          "market.ev.006"
+        ],
+        "claim_type": "point"
+      },
+      {
+        "claim_id": "market.auto_cl.008",
+        "text": "price_change_5d 값은 16.21원입니다.",
+        "evidence_ids": [
+          "market.ev.007"
+        ],
+        "claim_type": "point"
+      },
+      {
+        "claim_id": "market.auto_cl.010",
+        "text": "G20 값은 100.59입니다.",
+        "evidence_ids": [
+          "market.ev.008"
+        ],
+        "claim_type": "point"
+      },
+      {
+        "claim_id": "market.auto_cl.012",
+        "text": "한국 값은 102.28입니다.",
+        "evidence_ids": [
+          "market.ev.009"
+        ],
+        "claim_type": "point"
+      },
+      {
+        "claim_id": "market.auto_cl.014",
+        "text": "미국 값은 100.89입니다.",
+        "evidence_ids": [
+          "market.ev.010"
+        ],
+        "claim_type": "point"
+      },
+      {
+        "claim_id": "market.auto_cl.016",
+        "text": "중국 값은 98.49입니다.",
+        "evidence_ids": [
+          "market.ev.011"
+        ],
+        "claim_type": "point"
+      },
+      {
+        "claim_id": "market.auto_cl.018",
+        "text": "base.52주베타 값은 1.19입니다.",
+        "evidence_ids": [
+          "market.ev.018"
+        ],
+        "claim_type": "point"
+      },
+      {
+        "claim_id": "market.auto_cl.020",
+        "text": "base.사업정책 데이터 값은 산업동향 데이터 (현재 업황)입니다.",
+        "evidence_ids": [
+          "market.ev.019"
+        ],
+        "claim_type": "point"
+      }
+    ],
+    "evidences": [
+      {
+        "evidence_id": "market.ev.001",
+        "source_type": "market_analysis",
+        "source": "market_graph_analysis",
+        "metric": "total_score",
+        "value": 88,
+        "unit": "score",
+        "period": null,
+        "snippet": "market_graph_analysis | total_score | 값: 88score"
+      },
+      {
+        "evidence_id": "market.ev.002",
+        "source_type": "price_or_market",
+        "source": "stock_data",
+        "metric": "current_price",
+        "value": 31900.0,
+        "unit": "원",
+        "period": null,
+        "snippet": "stock_data | 현재가 | 값: 31,900원"
+      },
+      {
+        "evidence_id": "market.ev.003",
+        "source_type": "price_or_market",
+        "source": "stock_data",
+        "metric": "week52_high",
+        "value": 35700.0,
+        "unit": null,
+        "period": null,
+        "snippet": "stock_data | week52_high | 값: 35,700"
+      },
+      {
+        "evidence_id": "market.ev.004",
+        "source_type": "price_or_market",
+        "source": "stock_data",
+        "metric": "week52_low",
+        "value": 6760.0,
+        "unit": null,
+        "period": null,
+        "snippet": "stock_data | week52_low | 값: 6,760"
+      },
+      {
+        "evidence_id": "market.ev.005",
+        "source_type": "price_or_market",
+        "source": "stock_data",
+        "metric": "beta",
+        "value": 1.562,
+        "unit": null,
+        "period": null,
+        "snippet": "stock_data | beta | 값: 1.56"
+      },
+      {
+        "evidence_id": "market.ev.006",
+        "source_type": "price_or_market",
+        "source": "stock_data",
+        "metric": "volume",
+        "value": 302699,
+        "unit": null,
+        "period": null,
+        "snippet": "stock_data | volume | 값: 302,699"
+      },
+      {
+        "evidence_id": "market.ev.007",
+        "source_type": "price_or_market",
+        "source": "stock_data",
+        "metric": "price_change_5d",
+        "value": 16.21,
+        "unit": "원",
+        "period": null,
+        "snippet": "stock_data | price_change_5d | 값: 16.21원"
+      },
+      {
+        "evidence_id": "market.ev.008",
+        "source_type": "macro_market",
+        "source": "oecd_data",
+        "metric": "G20",
+        "value": 100.5902,
+        "unit": null,
+        "period": null,
+        "snippet": "oecd_data | G20 | 값: 100.59"
+      },
+      {
+        "evidence_id": "market.ev.009",
+        "source_type": "macro_market",
+        "source": "oecd_data",
+        "metric": "한국",
+        "value": 102.2842,
+        "unit": null,
+        "period": null,
+        "snippet": "oecd_data | 한국 | 값: 102.28"
+      },
+      {
+        "evidence_id": "market.ev.010",
+        "source_type": "macro_market",
+        "source": "oecd_data",
+        "metric": "미국",
+        "value": 100.8895,
+        "unit": null,
+        "period": null,
+        "snippet": "oecd_data | 미국 | 값: 100.89"
+      },
+      {
+        "evidence_id": "market.ev.011",
+        "source_type": "macro_market",
+        "source": "oecd_data",
+        "metric": "중국",
+        "value": 98.48773,
+        "unit": null,
+        "period": null,
+        "snippet": "oecd_data | 중국 | 값: 98.49"
+      },
+      {
+        "evidence_id": "market.ev.012",
+        "source_type": "news",
+        "source": "news_data",
+        "metric": "news_or_market_item",
+        "value": null,
+        "unit": null,
+        "period": "2026-04-27",
+        "snippet": "news_data | 2026-04-27 기준 news_or_market_item | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.013",
+        "source_type": "news",
+        "source": "news_data",
+        "metric": "news_or_market_item",
+        "value": null,
+        "unit": "억원",
+        "period": "2026-04-27",
+        "snippet": "news_data | 2026-04-27 기준 news_or_market_item | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.014",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "chain.position",
+        "value": "후공정 패키징",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | chain.position | 값: 후공정 패키징"
+      },
+      {
+        "evidence_id": "market.ev.015",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "chain.products",
+        "value": "FoWLP, nSiP, PMIC 패키징, 2.5D 패키징",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | chain.products | 값: FoWLP, nSiP, PMIC 패키징, 2.5D 패키징"
+      },
+      {
+        "evidence_id": "market.ev.016",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "chain.process",
+        "value": "패키징",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | chain.process | 값: 패키징"
+      },
+      {
+        "evidence_id": "market.ev.017",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.정부 지원 금액(R&D)-정부프로젝트",
+        "value": "360 백만원",
+        "unit": "원",
+        "period": null,
+        "snippet": "static_data | base.정부 지원 금액(R&D)-정부프로젝트 | 값: 360 백만원"
+      },
+      {
+        "evidence_id": "market.ev.018",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.52주베타",
+        "value": "1.19",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.52주베타 | 값: 1.19"
+      },
+      {
+        "evidence_id": "market.ev.019",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.사업정책 데이터",
+        "value": "산업동향 데이터 (현재 업황)",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.사업정책 데이터 | 값: 산업동향 데이터 (현재 업황)"
+      },
+      {
+        "evidence_id": "market.ev.020",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.세액공제 직접환급 및 이월공제기간 연장 검토",
+        "value": "반도체 올해 전세계 시장 약 30% 증가 예상",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.세액공제 직접환급 및 이월공제기간 연장 검토 | 값: 반도체 올해 전세계 시장 약 30% 증가 예상"
+      },
+      {
+        "evidence_id": "market.ev.021",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.국민성장펀드 금융 지원 강화",
+        "value": "바이오 2024년 163억불 최대 수출 달성",
+        "unit": "원",
+        "period": "2024",
+        "snippet": "static_data | 2024 기준 base.국민성장펀드 금융 지원 강화 | 값: 바이오 2024년 163억불 최대 수출 달성"
+      },
+      {
+        "evidence_id": "market.ev.022",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.R&D 지원 확대",
+        "value": "배터리 전기차 성장 둔화, 중국 점유율 확대",
+        "unit": "원",
+        "period": null,
+        "snippet": "static_data | base.R&D 지원 확대 | 값: 배터리 전기차 성장 둔화, 중국 점유율 확대"
+      },
+      {
+        "evidence_id": "market.ev.023",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.으뜸효율 환급사업",
+        "value": "중전기기 장기 호황, 수출 호조세",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.으뜸효율 환급사업 | 값: 중전기기 장기 호황, 수출 호조세"
+      },
+      {
+        "evidence_id": "market.ev.024",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.nan",
+        "value": "2024",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.nan | 값: 2,024"
+      },
+      {
+        "evidence_id": "market.ev.025",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.구분",
+        "value": "반도체",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.구분 | 값: 반도체"
+      },
+      {
+        "evidence_id": "market.ev.026",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.전체 위치",
+        "value": "성숙기 → 세그먼트별 상이",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.전체 위치 | 값: 성숙기 → 세그먼트별 상이"
+      },
+      {
+        "evidence_id": "market.ev.027",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.핵심 세그먼트",
+        "value": "AI·HBM: 성장기\n메모리: 성숙기\n레거시: 쇠퇴기",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.핵심 세그먼트 | 값: AI·HBM: 성장기\n메모리: 성숙기\n레거시: 쇠퇴기"
+      },
+      {
+        "evidence_id": "market.ev.028",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.시장 성장률",
+        "value": "전체 +30% (2025)\nAI 반도체 +40% 이상",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.시장 성장률 | 값: 전체 +30% (2025)\nAI 반도체 +40% 이상"
+      },
+      {
+        "evidence_id": "market.ev.029",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.경쟁 구조",
+        "value": "TSMC·삼성·인텔 3강\n중국 추격 중 (레거시)",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.경쟁 구조 | 값: TSMC·삼성·인텔 3강\n중국 추격 중 (레거시)"
+      },
+      {
+        "evidence_id": "market.ev.030",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.기술 진입장벽",
+        "value": "EUV 장비 ASML 독점\n첨단 공정 수십조 투자\n수율 확보 수년",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.기술 진입장벽 | 값: EUV 장비 ASML 독점\n첨단 공정 수십조 투자\n수율 확보 수년"
+      },
+      {
+        "evidence_id": "market.ev.031",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.세그먼트",
+        "value": "라이프사이클 위치",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.세그먼트 | 값: 라이프사이클 위치"
+      },
+      {
+        "evidence_id": "market.ev.032",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.AI·HBM 반도체",
+        "value": "성장기 초입",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.AI·HBM 반도체 | 값: 성장기 초입"
+      },
+      {
+        "evidence_id": "market.ev.033",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.시스템 반도체\n(파운드리·팹리스)",
+        "value": "성장기 중반",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.시스템 반도체\n(파운드리·팹리스) | 값: 성장기 중반"
+      },
+      {
+        "evidence_id": "market.ev.034",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.메모리 반도체\n(D램·NAND)",
+        "value": "성숙기 (사이클)",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.메모리 반도체\n(D램·NAND) | 값: 성숙기 (사이클)"
+      },
+      {
+        "evidence_id": "market.ev.035",
+        "source_type": "static_market",
+        "source": "static_data",
+        "metric": "base.레거시 반도체\n(28nm 이상)",
+        "value": "성숙기 후반~쇠퇴기",
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | base.레거시 반도체\n(28nm 이상) | 값: 성숙기 후반~쇠퇴기"
+      }
+    ],
+    "packet_version": "grounded_agent_v3",
+    "pre_sanitize_grounding_check": {
+      "score": 0.8,
+      "pass": true,
+      "pass_threshold": 0.75,
+      "claim_count": 5,
+      "supported_count": 4,
+      "unsupported_count": 1,
+      "supported_claims": [
+        "AI 서버 및 HBM 수요 증가에 따른 고부가가치 패키징 시장 확대",
+        "정부 R&D 지원 및 세제 혜택 확대를 통한 수익성 개선",
+        "글로벌 경기 둔화 및 반도체 사이클 변동성",
+        "고사양 패키징 기술 확보 실패 시 시장 점유율 하락"
+      ],
+      "unsupported_claims": [
+        "중국 기업의 후공정 기술 추격 및 가격 경쟁 심화"
+      ],
+      "issues": [
+        "market.cl.004: evidence와 claim 연결이 약합니다."
+      ],
+      "claim_results": [
+        {
+          "claim_id": "market.cl.001",
+          "text": "AI 서버 및 HBM 수요 증가에 따른 고부가가치 패키징 시장 확대",
+          "evidence_ids": [
+            "market.ev.027",
+            "market.ev.014",
+            "market.ev.015",
+            "market.ev.016"
+          ],
+          "supported": true,
+          "score": 0.685,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.cl.002",
+          "text": "정부 R&D 지원 및 세제 혜택 확대를 통한 수익성 개선",
+          "evidence_ids": [
+            "market.ev.017",
+            "market.ev.021",
+            "market.ev.022",
+            "market.ev.001"
+          ],
+          "supported": true,
+          "score": 0.6063,
+          "number_ratio": 1.0,
+          "token_ratio": 0.125,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.cl.003",
+          "text": "글로벌 경기 둔화 및 반도체 사이클 변동성",
+          "evidence_ids": [
+            "market.ev.034",
+            "market.ev.020",
+            "market.ev.022",
+            "market.ev.025"
+          ],
+          "supported": true,
+          "score": 0.775,
+          "number_ratio": 1.0,
+          "token_ratio": 0.5,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.cl.004",
+          "text": "중국 기업의 후공정 기술 추격 및 가격 경쟁 심화",
+          "evidence_ids": [
+            "market.ev.002",
+            "market.ev.003",
+            "market.ev.004",
+            "market.ev.005"
+          ],
+          "supported": false,
+          "score": 0.55,
+          "number_ratio": 1.0,
+          "token_ratio": 0.0,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {
+            "price": [
+              "market.ev.002",
+              "market.ev.003",
+              "market.ev.004",
+              "market.ev.005"
+            ]
+          },
+          "reason": "evidence와 claim 연결이 약합니다."
+        },
+        {
+          "claim_id": "market.cl.005",
+          "text": "고사양 패키징 기술 확보 실패 시 시장 점유율 하락",
+          "evidence_ids": [
+            "market.ev.014",
+            "market.ev.015",
+            "market.ev.016",
+            "market.ev.020"
+          ],
+          "supported": true,
+          "score": 0.6625,
+          "number_ratio": 1.0,
+          "token_ratio": 0.25,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        }
+      ]
+    },
+    "post_atomic_grounding_check": {
+      "score": 0.9231,
+      "pass": true,
+      "pass_threshold": 0.75,
+      "claim_count": 13,
+      "supported_count": 12,
+      "unsupported_count": 1,
+      "supported_claims": [
+        "AI 서버 및 HBM 수요 증가에 따른 고부가가치 패키징 시장 확대",
+        "정부 R&D 지원 및 세제 혜택 확대를 통한 수익성 개선",
+        "글로벌 경기 둔화 및 반도체 사이클 변동성",
+        "고사양 패키징 기술 확보 실패 시 시장 점유율 하락",
+        "volume 값은 302,699입니다.",
+        "price_change_5d 값은 16.21원입니다.",
+        "G20 값은 100.59입니다.",
+        "한국 값은 102.28입니다.",
+        "미국 값은 100.89입니다.",
+        "중국 값은 98.49입니다.",
+        "base.52주베타 값은 1.19입니다.",
+        "base.사업정책 데이터 값은 산업동향 데이터 (현재 업황)입니다."
+      ],
+      "unsupported_claims": [
+        "중국 기업의 후공정 기술 추격 및 가격 경쟁 심화"
+      ],
+      "issues": [
+        "market.cl.004: evidence와 claim 연결이 약합니다."
+      ],
+      "claim_results": [
+        {
+          "claim_id": "market.cl.001",
+          "text": "AI 서버 및 HBM 수요 증가에 따른 고부가가치 패키징 시장 확대",
+          "evidence_ids": [
+            "market.ev.027",
+            "market.ev.014",
+            "market.ev.015",
+            "market.ev.016"
+          ],
+          "supported": true,
+          "score": 0.685,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.cl.002",
+          "text": "정부 R&D 지원 및 세제 혜택 확대를 통한 수익성 개선",
+          "evidence_ids": [
+            "market.ev.017",
+            "market.ev.021",
+            "market.ev.022",
+            "market.ev.001"
+          ],
+          "supported": true,
+          "score": 0.6063,
+          "number_ratio": 1.0,
+          "token_ratio": 0.125,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.cl.003",
+          "text": "글로벌 경기 둔화 및 반도체 사이클 변동성",
+          "evidence_ids": [
+            "market.ev.034",
+            "market.ev.020",
+            "market.ev.022",
+            "market.ev.025"
+          ],
+          "supported": true,
+          "score": 0.775,
+          "number_ratio": 1.0,
+          "token_ratio": 0.5,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.cl.004",
+          "text": "중국 기업의 후공정 기술 추격 및 가격 경쟁 심화",
+          "evidence_ids": [
+            "market.ev.002",
+            "market.ev.003",
+            "market.ev.004",
+            "market.ev.005"
+          ],
+          "supported": false,
+          "score": 0.55,
+          "number_ratio": 1.0,
+          "token_ratio": 0.0,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {
+            "price": [
+              "market.ev.002",
+              "market.ev.003",
+              "market.ev.004",
+              "market.ev.005"
+            ]
+          },
+          "reason": "evidence와 claim 연결이 약합니다."
+        },
+        {
+          "claim_id": "market.cl.005",
+          "text": "고사양 패키징 기술 확보 실패 시 시장 점유율 하락",
+          "evidence_ids": [
+            "market.ev.014",
+            "market.ev.015",
+            "market.ev.016",
+            "market.ev.020"
+          ],
+          "supported": true,
+          "score": 0.6625,
+          "number_ratio": 1.0,
+          "token_ratio": 0.25,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.auto_cl.006",
+          "text": "volume 값은 302,699입니다.",
+          "evidence_ids": [
+            "market.ev.006"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.auto_cl.008",
+          "text": "price_change_5d 값은 16.21원입니다.",
+          "evidence_ids": [
+            "market.ev.007"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {
+            "price": [
+              "market.ev.007"
+            ]
+          },
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.auto_cl.010",
+          "text": "G20 값은 100.59입니다.",
+          "evidence_ids": [
+            "market.ev.008"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.auto_cl.012",
+          "text": "한국 값은 102.28입니다.",
+          "evidence_ids": [
+            "market.ev.009"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.auto_cl.014",
+          "text": "미국 값은 100.89입니다.",
+          "evidence_ids": [
+            "market.ev.010"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.auto_cl.016",
+          "text": "중국 값은 98.49입니다.",
+          "evidence_ids": [
+            "market.ev.011"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.auto_cl.018",
+          "text": "base.52주베타 값은 1.19입니다.",
+          "evidence_ids": [
+            "market.ev.018"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.auto_cl.020",
+          "text": "base.사업정책 데이터 값은 산업동향 데이터 (현재 업황)입니다.",
+          "evidence_ids": [
+            "market.ev.019"
+          ],
+          "supported": true,
+          "score": 0.8714,
+          "number_ratio": 1.0,
+          "token_ratio": 0.7143,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        }
+      ]
+    },
+    "grounding_check": {
+      "score": 0.9231,
+      "pass": true,
+      "pass_threshold": 0.75,
+      "claim_count": 13,
+      "supported_count": 12,
+      "unsupported_count": 1,
+      "supported_claims": [
+        "AI 서버 및 HBM 수요 증가에 따른 고부가가치 패키징 시장 확대",
+        "정부 R&D 지원 및 세제 혜택 확대를 통한 수익성 개선",
+        "글로벌 경기 둔화 및 반도체 사이클 변동성",
+        "고사양 패키징 기술 확보 실패 시 시장 점유율 하락",
+        "volume 값은 302,699입니다.",
+        "price_change_5d 값은 16.21원입니다.",
+        "G20 값은 100.59입니다.",
+        "한국 값은 102.28입니다.",
+        "미국 값은 100.89입니다.",
+        "중국 값은 98.49입니다.",
+        "base.52주베타 값은 1.19입니다.",
+        "base.사업정책 데이터 값은 산업동향 데이터 (현재 업황)입니다."
+      ],
+      "unsupported_claims": [
+        "중국 기업의 후공정 기술 추격 및 가격 경쟁 심화"
+      ],
+      "issues": [
+        "market.cl.004: evidence와 claim 연결이 약합니다."
+      ],
+      "claim_results": [
+        {
+          "claim_id": "market.cl.001",
+          "text": "AI 서버 및 HBM 수요 증가에 따른 고부가가치 패키징 시장 확대",
+          "evidence_ids": [
+            "market.ev.027",
+            "market.ev.014",
+            "market.ev.015",
+            "market.ev.016"
+          ],
+          "supported": true,
+          "score": 0.685,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.cl.002",
+          "text": "정부 R&D 지원 및 세제 혜택 확대를 통한 수익성 개선",
+          "evidence_ids": [
+            "market.ev.017",
+            "market.ev.021",
+            "market.ev.022",
+            "market.ev.001"
+          ],
+          "supported": true,
+          "score": 0.6063,
+          "number_ratio": 1.0,
+          "token_ratio": 0.125,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.cl.003",
+          "text": "글로벌 경기 둔화 및 반도체 사이클 변동성",
+          "evidence_ids": [
+            "market.ev.034",
+            "market.ev.020",
+            "market.ev.022",
+            "market.ev.025"
+          ],
+          "supported": true,
+          "score": 0.775,
+          "number_ratio": 1.0,
+          "token_ratio": 0.5,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.cl.004",
+          "text": "중국 기업의 후공정 기술 추격 및 가격 경쟁 심화",
+          "evidence_ids": [
+            "market.ev.002",
+            "market.ev.003",
+            "market.ev.004",
+            "market.ev.005"
+          ],
+          "supported": false,
+          "score": 0.55,
+          "number_ratio": 1.0,
+          "token_ratio": 0.0,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {
+            "price": [
+              "market.ev.002",
+              "market.ev.003",
+              "market.ev.004",
+              "market.ev.005"
+            ]
+          },
+          "reason": "evidence와 claim 연결이 약합니다."
+        },
+        {
+          "claim_id": "market.cl.005",
+          "text": "고사양 패키징 기술 확보 실패 시 시장 점유율 하락",
+          "evidence_ids": [
+            "market.ev.014",
+            "market.ev.015",
+            "market.ev.016",
+            "market.ev.020"
+          ],
+          "supported": true,
+          "score": 0.6625,
+          "number_ratio": 1.0,
+          "token_ratio": 0.25,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.auto_cl.006",
+          "text": "volume 값은 302,699입니다.",
+          "evidence_ids": [
+            "market.ev.006"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.auto_cl.008",
+          "text": "price_change_5d 값은 16.21원입니다.",
+          "evidence_ids": [
+            "market.ev.007"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {
+            "price": [
+              "market.ev.007"
+            ]
+          },
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.auto_cl.010",
+          "text": "G20 값은 100.59입니다.",
+          "evidence_ids": [
+            "market.ev.008"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.auto_cl.012",
+          "text": "한국 값은 102.28입니다.",
+          "evidence_ids": [
+            "market.ev.009"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.auto_cl.014",
+          "text": "미국 값은 100.89입니다.",
+          "evidence_ids": [
+            "market.ev.010"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.auto_cl.016",
+          "text": "중국 값은 98.49입니다.",
+          "evidence_ids": [
+            "market.ev.011"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.auto_cl.018",
+          "text": "base.52주베타 값은 1.19입니다.",
+          "evidence_ids": [
+            "market.ev.018"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.auto_cl.020",
+          "text": "base.사업정책 데이터 값은 산업동향 데이터 (현재 업황)입니다.",
+          "evidence_ids": [
+            "market.ev.019"
+          ],
+          "supported": true,
+          "score": 0.8714,
+          "number_ratio": 1.0,
+          "token_ratio": 0.7143,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        }
+      ]
+    }
+  }
+}

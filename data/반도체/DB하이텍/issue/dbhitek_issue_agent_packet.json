@@ -1,0 +1,570 @@
+{
+  "agent": "issue",
+  "company_name": "DB하이텍",
+  "company": "DB하이텍",
+  "company_dir": "dbhitek",
+  "opinion": "보유",
+  "confidence": 0.5,
+  "summary": "DB하이텍에 대해 검증 가능한 핵심 근거는 다음과 같습니다. news_count 값은 10count입니다. rss_count 값은 17count입니다. related_keyword_count 값은 0count입니다.",
+  "key_points": [
+    "news_count 값은 10count입니다.",
+    "rss_count 값은 17count입니다.",
+    "related_keyword_count 값은 0count입니다."
+  ],
+  "risks": [],
+  "claims": [
+    {
+      "claim_id": "issue.auto_cl.001",
+      "text": "news_count 값은 10count입니다.",
+      "evidence_ids": [
+        "issue.ev.001"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "issue.auto_cl.003",
+      "text": "rss_count 값은 17count입니다.",
+      "evidence_ids": [
+        "issue.ev.002"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "issue.auto_cl.005",
+      "text": "related_keyword_count 값은 0count입니다.",
+      "evidence_ids": [
+        "issue.ev.003"
+      ],
+      "claim_type": "point"
+    }
+  ],
+  "evidences": [
+    {
+      "evidence_id": "issue.ev.001",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "news_count",
+      "value": 10,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | news_count | 값: 10count"
+    },
+    {
+      "evidence_id": "issue.ev.002",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "rss_count",
+      "value": 17,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | rss_count | 값: 17count"
+    },
+    {
+      "evidence_id": "issue.ev.003",
+      "source_type": "issue",
+      "source": "issue_keywords_workbook",
+      "metric": "related_keyword_count",
+      "value": 0,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_keywords_workbook | related_keyword_count | 값: 0count"
+    },
+    {
+      "evidence_id": "issue.ev.004",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Sat, 02 May 2026 19:16:00 +0900",
+      "snippet": "Naver News | Sat, 02 May 2026 19:16:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.005",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 28 Apr 2026 15:34:00 +0900",
+      "snippet": "Naver News | Tue, 28 Apr 2026 15:34:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.006",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 27 Apr 2026 10:46:00 +0900",
+      "snippet": "Naver News | Mon, 27 Apr 2026 10:46:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.007",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Sat, 25 Apr 2026 08:00:00 +0900",
+      "snippet": "Naver News | Sat, 25 Apr 2026 08:00:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.008",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 20 Apr 2026 16:30:00 +0900",
+      "snippet": "Naver News | Mon, 20 Apr 2026 16:30:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.009",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:44 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:44 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.010",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:41 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:41 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.011",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:46:28 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:46:28 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.012",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:36:05 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:36:05 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.013",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:24:00 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:24:00 +0000 기준 rss_title | 값: 확인 불가"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "issue.ev.001",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "news_count",
+      "value": 10,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | news_count | 값: 10count"
+    },
+    {
+      "evidence_id": "issue.ev.002",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "rss_count",
+      "value": 17,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | rss_count | 값: 17count"
+    },
+    {
+      "evidence_id": "issue.ev.003",
+      "source_type": "issue",
+      "source": "issue_keywords_workbook",
+      "metric": "related_keyword_count",
+      "value": 0,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_keywords_workbook | related_keyword_count | 값: 0count"
+    },
+    {
+      "evidence_id": "issue.ev.004",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Sat, 02 May 2026 19:16:00 +0900",
+      "snippet": "Naver News | Sat, 02 May 2026 19:16:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.005",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 28 Apr 2026 15:34:00 +0900",
+      "snippet": "Naver News | Tue, 28 Apr 2026 15:34:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.006",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 27 Apr 2026 10:46:00 +0900",
+      "snippet": "Naver News | Mon, 27 Apr 2026 10:46:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.007",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Sat, 25 Apr 2026 08:00:00 +0900",
+      "snippet": "Naver News | Sat, 25 Apr 2026 08:00:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.008",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 20 Apr 2026 16:30:00 +0900",
+      "snippet": "Naver News | Mon, 20 Apr 2026 16:30:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.009",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:44 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:44 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.010",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:41 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:41 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.011",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:46:28 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:46:28 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.012",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:36:05 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:36:05 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.013",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:24:00 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:24:00 +0000 기준 rss_title | 값: 확인 불가"
+    }
+  ],
+  "fallback_used": false,
+  "warning_note": "검증 불가 claim 6개를 제거한 뒤 grounding 기준을 재검증했습니다.",
+  "raw_payload": {
+    "analysis_text": "opinion: 보유\nconfidence: 0.65\n\n1.  **핵심 이슈 요약**\n    DB하이텍은 파운드리 업황 저점 통과 인식과 전력반도체 등 특수 공정 수요 증가 기대감으로 주가 상승 모멘텀을 보이고 있습니다. 다만, 최근 상승폭이 컸던 종목들에 대한 고점 인식 확산 및 실적 성장성 불확실성도 함께 언급되고 있습니다. 또한, 과거 소액주주연대 활동 이력이 있는 인물이 현재 소액주주들에 의해 다시 주목받고 있다는 점도 잠재적 이슈로 작용할 수 있습니다.\n\n2.  **기업에 미치는 영향**\n    긍정적으로는 파운드리 시장 회복 기대감과 특수 공정 수요 증가가 실적 개선 및 주가 상승으로 이어질 수 있습니다. 부정적으로는 시장 전반의 고점 인식 확산과 실적 불확실성이 주가 변동성을 키울 수 있으며, 과거 주주 활동 이력이 있는 인물의 부각은 주주 행동주의 리스크로 작용할 가능성이 있습니다.\n\n3.  **긍정 시그널**\n    *   **파운드리 업황 저점 통과 인식 및 특수 공정 수요 증가 기대감:** 뉴스에서 파운드리 업황의 저점 통과 인식과 전력반도체 등 특수 공정 수요 증가 기대감이 DB하이텍 주가를 밀어올린 요인으로 분석되었습니다. 이는 향후 실적 개선에 대한 긍정적인 전망을 제시합니다.\n    *   **8인치 웨이퍼 기반 파운드리의 희소성:** 뉴스에서 DB하이텍이 8인치 웨이퍼 기반 파운드리의 희소성으로 인해 주가가 상승했다고 언급되었습니다. 이는 DB하이텍의 특정 사업 영역이 시장에서 긍정적으로 평가받고 있음을 시사합니다.\n\n4.  **부정 시그널/리스크**\n    *   **고점 인식 확산 및 실적 성장성 불확실성:** 뉴스에서 최근 상승폭이 컸던 종목들을 중심으로 고점 인식이 확산되고 있으며, 실적 성장성이 주가에 반영될 것이라는 시장 관계자의 언급이 있었습니다. 이는 현재 주가 수준에 대한 경계감을 높입니다.\n    *   **파운드리 가동률 저하 및 학령 인구 감소 우려:** 뉴스에서 DB하이텍이 파운드리 가동률 저하 및 학령 인구 감소 우려 속에 하락했다는 언급이 있습니다. 이는 잠재적인 사업 환경 악화 요인으로 작용할 수 있습니다.\n    *   **과거 소액주주연대 대표 이력 부각:** 뉴스에서 과거 DB하이텍 소액주주연대 대표를 맡았던 인물이 현재 소액주주 등에 의해 다시 주목받고 있다는 내용이 있습니다. 이는 향후 주주 행동주의 이슈 발생 가능성을 시사하며, 주가에 부정적인 영향을 미칠 수 있습니다.\n\n5.  **향후 체크포인트**\n    *   파운드리 업황 회복 속도 및 특수 공정(전력반도체 등)의 실제 수요 증가 추이\n    *   향후 발표될 분기별 실적 및 가동률 관련 지표\n    *   주주 행동주의 관련 움직임 및 소액주주들의 요구 사항\n    *   시장 전반의 투자 심리 변화 및 고점 인식 확산 여부",
+    "markdown_report": "# DB하이텍 이슈 리포트\n\n## 분석 결과\nopinion: 보유\nconfidence: 0.65\n\n1.  **핵심 이슈 요약**\n    DB하이텍은 파운드리 업황 저점 통과 인식과 전력반도체 등 특수 공정 수요 증가 기대감으로 주가 상승 모멘텀을 보이고 있습니다. 다만, 최근 상승폭이 컸던 종목들에 대한 고점 인식 확산 및 실적 성장성 불확실성도 함께 언급되고 있습니다. 또한, 과거 소액주주연대 활동 이력이 있는 인물이 현재 소액주주들에 의해 다시 주목받고 있다는 점도 잠재적 이슈로 작용할 수 있습니다.\n\n2.  **기업에 미치는 영향**\n    긍정적으로는 파운드리 시장 회복 기대감과 특수 공정 수요 증가가 실적 개선 및 주가 상승으로 이어질 수 있습니다. 부정적으로는 시장 전반의 고점 인식 확산과 실적 불확실성이 주가 변동성을 키울 수 있으며, 과거 주주 활동 이력이 있는 인물의 부각은 주주 행동주의 리스크로 작용할 가능성이 있습니다.\n\n3.  **긍정 시그널**\n    *   **파운드리 업황 저점 통과 인식 및 특수 공정 수요 증가 기대감:** 뉴스에서 파운드리 업황의 저점 통과 인식과 전력반도체 등 특수 공정 수요 증가 기대감이 DB하이텍 주가를 밀어올린 요인으로 분석되었습니다. 이는 향후 실적 개선에 대한 긍정적인 전망을 제시합니다.\n    *   **8인치 웨이퍼 기반 파운드리의 희소성:** 뉴스에서 DB하이텍이 8인치 웨이퍼 기반 파운드리의 희소성으로 인해 주가가 상승했다고 언급되었습니다. 이는 DB하이텍의 특정 사업 영역이 시장에서 긍정적으로 평가받고 있음을 시사합니다.\n\n4.  **부정 시그널/리스크**\n    *   **고점 인식 확산 및 실적 성장성 불확실성:** 뉴스에서 최근 상승폭이 컸던 종목들을 중심으로 고점 인식이 확산되고 있으며, 실적 성장성이 주가에 반영될 것이라는 시장 관계자의 언급이 있었습니다. 이는 현재 주가 수준에 대한 경계감을 높입니다.\n    *   **파운드리 가동률 저하 및 학령 인구 감소 우려:** 뉴스에서 DB하이텍이 파운드리 가동률 저하 및 학령 인구 감소 우려 속에 하락했다는 언급이 있습니다. 이는 잠재적인 사업 환경 악화 요인으로 작용할 수 있습니다.\n    *   **과거 소액주주연대 대표 이력 부각:** 뉴스에서 과거 DB하이텍 소액주주연대 대표를 맡았던 인물이 현재 소액주주 등에 의해 다시 주목받고 있다는 내용이 있습니다. 이는 향후 주주 행동주의 이슈 발생 가능성을 시사하며, 주가에 부정적인 영향을 미칠 수 있습니다.\n\n5.  **향후 체크포인트**\n    *   파운드리 업황 회복 속도 및 특수 공정(전력반도체 등)의 실제 수요 증가 추이\n    *   향후 발표될 분기별 실적 및 가동률 관련 지표\n    *   주주 행동주의 관련 움직임 및 소액주주들의 요구 사항\n    *   시장 전반의 투자 심리 변화 및 고점 인식 확산 여부\n",
+    "news_count": 10,
+    "rss_count": 17,
+    "related_keyword_count": 0,
+    "df_news_rows": 139,
+    "llm_error": null,
+    "graph_claims_original": [],
+    "removed_ungrounded_claims": [
+      "DB하이텍 관련 공개 뉴스 제목: \"HBM 시대 핵심은 패키징\"…피에스케이홀딩스, 장비 시장 '태풍의 눈'",
+      "DB하이텍 관련 공개 뉴스 제목: HBM 본더의 강자 한미반도체, AI 반도체 생태계의 판을 바꾼다",
+      "DB하이텍 관련 공개 뉴스 제목: 코스피 4월 상승률 100% 이상 종목 14개...'전선·반도체·중공업' 트리...",
+      "DB하이텍 이슈 분석에서 수집된 RSS 항목 수는 17건입니다.",
+      "DB하이텍 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+      "DB하이텍 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다."
+    ],
+    "removed_bad_evidence_ids": [
+      "issue.ev.unverified"
+    ]
+  },
+  "packet_version": "grounded_agent_v3",
+  "pre_sanitize_grounding_check": {
+    "score": 0.0,
+    "pass": false,
+    "pass_threshold": 0.75,
+    "claim_count": 6,
+    "supported_count": 0,
+    "unsupported_count": 6,
+    "supported_claims": [],
+    "unsupported_claims": [
+      "DB하이텍 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+      "DB하이텍 이슈 분석에서 수집된 RSS 항목 수는 17건입니다.",
+      "DB하이텍 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다.",
+      "DB하이텍 관련 공개 뉴스 제목: 코스피 4월 상승률 100% 이상 종목 14개...'전선·반도체·중공업' 트리...",
+      "DB하이텍 관련 공개 뉴스 제목: \"HBM 시대 핵심은 패키징\"…피에스케이홀딩스, 장비 시장 '태풍의 눈'",
+      "DB하이텍 관련 공개 뉴스 제목: HBM 본더의 강자 한미반도체, AI 반도체 생태계의 판을 바꾼다"
+    ],
+    "issues": [
+      "issue.cl.001: evidence와 claim 연결이 약합니다.",
+      "issue.cl.002: evidence와 claim 연결이 약합니다.",
+      "issue.cl.003: evidence와 claim 연결이 약합니다.",
+      "issue.cl.004: 숫자 불일치 또는 누락(number_ratio=0.33)",
+      "issue.cl.005: evidence와 claim 연결이 약합니다.",
+      "issue.cl.006: evidence와 claim 연결이 약합니다."
+    ],
+    "claim_results": [
+      {
+        "claim_id": "issue.cl.001",
+        "text": "DB하이텍 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.002",
+        "text": "DB하이텍 이슈 분석에서 수집된 RSS 항목 수는 17건입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.003",
+        "text": "DB하이텍 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.004",
+        "text": "DB하이텍 관련 공개 뉴스 제목: 코스피 4월 상승률 100% 이상 종목 14개...'전선·반도체·중공업' 트리...",
+        "evidence_ids": [
+          "issue.ev.004"
+        ],
+        "supported": false,
+        "score": 0.4333,
+        "number_ratio": 0.3333,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "숫자 불일치 또는 누락(number_ratio=0.33)"
+      },
+      {
+        "claim_id": "issue.cl.005",
+        "text": "DB하이텍 관련 공개 뉴스 제목: \"HBM 시대 핵심은 패키징\"…피에스케이홀딩스, 장비 시장 '태풍의 눈'",
+        "evidence_ids": [
+          "issue.ev.005"
+        ],
+        "supported": false,
+        "score": 0.55,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.006",
+        "text": "DB하이텍 관련 공개 뉴스 제목: HBM 본더의 강자 한미반도체, AI 반도체 생태계의 판을 바꾼다",
+        "evidence_ids": [
+          "issue.ev.006"
+        ],
+        "supported": false,
+        "score": 0.55,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      }
+    ]
+  },
+  "post_atomic_grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 3,
+    "supported_count": 3,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "news_count 값은 10count입니다.",
+      "rss_count 값은 17count입니다.",
+      "related_keyword_count 값은 0count입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "issue.auto_cl.001",
+        "text": "news_count 값은 10count입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.003",
+        "text": "rss_count 값은 17count입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.005",
+        "text": "related_keyword_count 값은 0count입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  },
+  "grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 3,
+    "supported_count": 3,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "news_count 값은 10count입니다.",
+      "rss_count 값은 17count입니다.",
+      "related_keyword_count 값은 0count입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "issue.auto_cl.001",
+        "text": "news_count 값은 10count입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.003",
+        "text": "rss_count 값은 17count입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.005",
+        "text": "related_keyword_count 값은 0count입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  }
+}

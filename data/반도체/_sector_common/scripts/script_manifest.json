@@ -1,0 +1,194 @@
+[
+  {
+    "source": "scripts/bootstrap_companies_from_workbook.py",
+    "target": "data/반도체/common/scripts/misc/bootstrap_companies_from_workbook.py",
+    "company": "common",
+    "agent": "misc"
+  },
+  {
+    "source": "scripts/build_reference_universe.py",
+    "target": "data/반도체/common/scripts/misc/build_reference_universe.py",
+    "company": "common",
+    "agent": "misc"
+  },
+  {
+    "source": "scripts/check_tech_paths.py",
+    "target": "data/반도체/common/scripts/tech/check_tech_paths.py",
+    "company": "common",
+    "agent": "tech"
+  },
+  {
+    "source": "scripts/check_tech_relative_paths.py",
+    "target": "data/반도체/common/scripts/tech/check_tech_relative_paths.py",
+    "company": "common",
+    "agent": "tech"
+  },
+  {
+    "source": "scripts/export_tech_formula_rules.py",
+    "target": "data/반도체/common/scripts/tech/export_tech_formula_rules.py",
+    "company": "common",
+    "agent": "tech"
+  },
+  {
+    "source": "scripts/fix_chair_section_escape.py",
+    "target": "data/반도체/common/scripts/chair/fix_chair_section_escape.py",
+    "company": "common",
+    "agent": "chair"
+  },
+  {
+    "source": "scripts/fix_tech_relative_paths.py",
+    "target": "data/반도체/common/scripts/tech/fix_tech_relative_paths.py",
+    "company": "common",
+    "agent": "tech"
+  },
+  {
+    "source": "scripts/kipris_build_patent_outputs.py",
+    "target": "data/반도체/common/scripts/tech/kipris_build_patent_outputs.py",
+    "company": "common",
+    "agent": "tech"
+  },
+  {
+    "source": "scripts/kipris_duksan.py",
+    "target": "data/반도체/덕산테코피아/tech/scripts/kipris_duksan.py",
+    "company": "덕산테코피아",
+    "agent": "tech"
+  },
+  {
+    "source": "scripts/kipris_hanmi.py",
+    "target": "data/반도체/한미반도체/tech/scripts/kipris_hanmi.py",
+    "company": "한미반도체",
+    "agent": "tech"
+  },
+  {
+    "source": "scripts/kipris_hansol.py",
+    "target": "data/반도체/한솔케미칼/tech/scripts/kipris_hansol.py",
+    "company": "한솔케미칼",
+    "agent": "tech"
+  },
+  {
+    "source": "scripts/kipris_ltc.py",
+    "target": "data/반도체/엘티씨/tech/scripts/kipris_ltc.py",
+    "company": "엘티씨",
+    "agent": "tech"
+  },
+  {
+    "source": "scripts/kipris_nepes.py",
+    "target": "data/반도체/네패스/tech/scripts/kipris_nepes.py",
+    "company": "네패스",
+    "agent": "tech"
+  },
+  {
+    "source": "scripts/migrate_outputs_by_company_agent.py",
+    "target": "data/반도체/common/scripts/common/migrate_outputs_by_company_agent.py",
+    "company": "common",
+    "agent": "common"
+  },
+  {
+    "source": "scripts/patch_chair_tech_section.py",
+    "target": "data/반도체/common/scripts/chair/patch_chair_tech_section.py",
+    "company": "common",
+    "agent": "chair"
+  },
+  {
+    "source": "scripts/reorganize_workspace_to_data.py",
+    "target": "data/반도체/common/scripts/common/reorganize_workspace_to_data.py",
+    "company": "common",
+    "agent": "common"
+  },
+  {
+    "source": "scripts/repair_tech_paths.py",
+    "target": "data/반도체/common/scripts/tech/repair_tech_paths.py",
+    "company": "common",
+    "agent": "tech"
+  },
+  {
+    "source": "scripts/run_chair_report_quality.py",
+    "target": "data/반도체/common/scripts/chair/run_chair_report_quality.py",
+    "company": "common",
+    "agent": "chair"
+  },
+  {
+    "source": "scripts/run_chair_with_quality.py",
+    "target": "data/반도체/common/scripts/chair/run_chair_with_quality.py",
+    "company": "common",
+    "agent": "chair"
+  },
+  {
+    "source": "scripts/run_tech_differentiation.py",
+    "target": "data/반도체/common/scripts/tech/run_tech_differentiation.py",
+    "company": "common",
+    "agent": "tech"
+  },
+  {
+    "source": "scripts/run_tech_ip_ml.py",
+    "target": "data/반도체/common/scripts/tech/run_tech_ip_ml.py",
+    "company": "common",
+    "agent": "tech"
+  },
+  {
+    "source": "scripts/run_tech_ml_signal.py",
+    "target": "data/반도체/common/scripts/tech/run_tech_ml_signal.py",
+    "company": "common",
+    "agent": "tech"
+  },
+  {
+    "source": "scripts/run_tech_momentum_confidence.py",
+    "target": "data/반도체/common/scripts/tech/run_tech_momentum_confidence.py",
+    "company": "common",
+    "agent": "tech"
+  },
+  {
+    "source": "scripts/run_tech_peer_clustering.py",
+    "target": "data/반도체/common/scripts/tech/run_tech_peer_clustering.py",
+    "company": "common",
+    "agent": "tech"
+  },
+  {
+    "source": "scripts/run_tech_peer_map.py",
+    "target": "data/반도체/common/scripts/tech/run_tech_peer_map.py",
+    "company": "common",
+    "agent": "tech"
+  },
+  {
+    "source": "scripts/run_tech_peer_percentile.py",
+    "target": "data/반도체/common/scripts/tech/run_tech_peer_percentile.py",
+    "company": "common",
+    "agent": "tech"
+  },
+  {
+    "source": "scripts/run_tech_peer_similarity.py",
+    "target": "data/반도체/common/scripts/tech/run_tech_peer_similarity.py",
+    "company": "common",
+    "agent": "tech"
+  },
+  {
+    "source": "scripts/sync_scripts_into_data.py",
+    "target": "data/반도체/common/scripts/common/sync_scripts_into_data.py",
+    "company": "common",
+    "agent": "common"
+  },
+  {
+    "source": "scripts/tech_append_patent_section.py",
+    "target": "data/반도체/common/scripts/tech/tech_append_patent_section.py",
+    "company": "common",
+    "agent": "tech"
+  },
+  {
+    "source": "scripts/tech_extract_all_sources.py",
+    "target": "data/반도체/common/scripts/tech/tech_extract_all_sources.py",
+    "company": "common",
+    "agent": "tech"
+  },
+  {
+    "source": "scripts/test_chair_compact_tech.py",
+    "target": "data/반도체/common/scripts/chair/test_chair_compact_tech.py",
+    "company": "common",
+    "agent": "chair"
+  },
+  {
+    "source": "scripts/verify_data_layout.py",
+    "target": "data/반도체/common/scripts/common/verify_data_layout.py",
+    "company": "common",
+    "agent": "common"
+  }
+]

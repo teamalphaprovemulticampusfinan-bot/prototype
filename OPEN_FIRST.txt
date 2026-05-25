@@ -1,0 +1,196 @@
+AlphaProve 실행 전 먼저 열어볼 파일
+====================================
+
+이 프로젝트는 현재 6개 전문 에이전트 + 3단계 First Auditor + Chair 구조입니다.
+각 에이전트의 원본 JSON은 수정하지 않고, Chair 최종 보고서에서만 개인투자자용 쉬운 언어로 정리합니다.
+
+1) 기본 실행 환경
+-----------------
+
+PowerShell:
+
+  cd C:\Agent_6.8
+  chcp 65001
+  $env:PYTHONUTF8="1"
+  $env:PYTHONIOENCODING="utf-8"
+
+가상환경:
+
+  .\.venv\Scripts\Activate.ps1
+
+.env에는 키 이름만 유지하고 실제 값은 공유하지 마세요.
+
+  DART_API_KEY
+  OPEN_DART_API_KEY
+  NVIDIA_PARALLEL_API_KEY
+  NVIDIA_API_KEY
+  KIPRIS_PLUS_API_KEY
+  NEWS_API_KEY
+  FRED_API_KEY
+  MARKET_WORKBOOK_URL
+
+2) 가장 중요한 실행 명령
+------------------------
+
+단일 기업 전체 파이프라인:
+
+  python main.py pipeline --company-dir nepes --company "네패스"
+
+Auditor 조정 중이라도 Chair 결과를 먼저 보고 싶을 때:
+
+  python main.py pipeline --company-dir nepes --company "네패스" --fail-open
+
+Chair 단독:
+
+  python main.py chair --company-dir nepes --company "네패스"
+
+이미 데이터와 에이전트 산출물이 있어서 Chair 앞 Data Intake를 생략하고 싶을 때:
+
+  $env:CHAIR_DISABLE_DATA_INTAKE_BEFORE_AGENTS="1"
+  python main.py chair --company-dir nepes --company "네패스"
+
+3) 최신 파이프라인 순서
+-----------------------
+
+  data_intake
+    -> finance / market / tech / valuation / issue / macro
+    -> first auditor
+    -> chair
+
+Market과 Issue는 별도 intake 없이 각 에이전트가 직접 실행될 수 있습니다.
+Finance, Tech, Valuation, Macro는 intake를 먼저 실행하면 산출물이 더 안정적입니다.
+
+4) 단계별 실행
+--------------
+
+Data Intake 전체:
+
+  python main.py data-intake --company-dir nepes --company "네패스"
+
+Data Intake 특정 에이전트:
+
+  python main.py data-intake --company-dir nepes --company "네패스" --agents "finance"
+  python main.py data-intake --company-dir nepes --company "네패스" --agents "tech"
+  python main.py data-intake --company-dir nepes --company "네패스" --agents "valuation"
+  python main.py data-intake --company-dir nepes --company "네패스" --agents "macro"
+
+6개 Agent 개별 실행:
+
+  python main.py finance --company "네패스"
+  python main.py market --company-dir nepes --company "네패스"
+  python main.py tech --company-dir nepes --company-name "네패스"
+  python main.py valuation --company-dir nepes --company "네패스"
+  python main.py issue --company-dir nepes --company "네패스"
+  python main.py macro --company-dir nepes --company "네패스"
+
+Auditor 단독:
+
+  python main.py auditor --company-dir nepes --company "네패스" --json
+
+Chair 단독:
+
+  python main.py chair --company-dir nepes --company "네패스"
+
+5) Tech Intake 자주 쓰는 명령
+-----------------------------
+
+KIPRIS Plus 승인 전 또는 네트워크 없이 기존 파일만 사용할 때:
+
+  python main.py tech-intake --company-dir nepes --company "네패스" --skip-network
+
+기본 Tech Intake:
+
+  python main.py tech-intake --company-dir nepes --company "네패스" --max-patents 0
+
+KIPRIS Plus 소량 연결 테스트:
+
+  python main.py tech-intake --company-dir nepes --company "네패스" --max-patents 5 --force-fetch --kipris-plus-components claims,citation,family
+
+Claims + Citation 전체 수집:
+
+  python main.py tech-intake --company-dir nepes --company "네패스" --max-patents 0 --force-fetch --kipris-plus-components claims,citation
+
+Family 일부 수집:
+
+  python main.py tech-intake --company-dir nepes --company "네패스" --max-patents 80 --force-fetch --kipris-plus-components family
+
+6) Valuation PASS 확인
+----------------------
+
+  python main.py valuation-intake --company-dir nepes --company "네패스"
+  python main.py valuation --company-dir nepes --company "네패스"
+  python .\scripts\check_valuation_outputs.py --company-dir nepes --company "네패스"
+
+5개 기업 Valuation 요약:
+
+  python .\scripts\check_valuation_5companies.py
+
+7) 5개 반도체 기업 실행 이름
+-----------------------------
+
+  nepes  / 네패스
+  hanmi  / 한미반도체
+  hansol / 한솔케미칼
+  duksan / 덕산테코피아
+  ltc    / 엘티씨
+
+5개 기업 전체 파이프라인:
+
+  python main.py pipeline --company-dir nepes --company "네패스" --fail-open
+  python main.py pipeline --company-dir hanmi --company "한미반도체" --fail-open
+  python main.py pipeline --company-dir hansol --company "한솔케미칼" --fail-open
+  python main.py pipeline --company-dir duksan --company "덕산테코피아" --fail-open
+  python main.py pipeline --company-dir ltc --company "엘티씨" --fail-open
+
+PowerShell 반복 실행:
+
+  $companies = @(
+    @{dir="nepes";  name="네패스"},
+    @{dir="hanmi";  name="한미반도체"},
+    @{dir="hansol"; name="한솔케미칼"},
+    @{dir="duksan"; name="덕산테코피아"},
+    @{dir="ltc";    name="엘티씨"}
+  )
+
+  foreach ($c in $companies) {
+    python main.py pipeline --company-dir $c.dir --company $c.name --fail-open
+  }
+
+8) 산출물 위치
+--------------
+
+  data\반도체\<회사명>\finance\
+  data\반도체\<회사명>\market\
+  data\반도체\<회사명>\tech\
+  data\반도체\<회사명>\valuation\
+  data\반도체\<회사명>\issue\
+  data\반도체\<회사명>\macro\
+  data\반도체\<회사명>\auditor\
+  data\반도체\<회사명>\chair\
+
+Chair 최종 보고서:
+
+  data\반도체\네패스\chair\nepes_chair_report.md
+
+9) 최신 Chair 보고서 정책
+--------------------------
+
+  - 각 에이전트 JSON 원본은 수정하지 않습니다.
+  - Chair 최종 보고서에서만 영어 key와 점수 중심 표현을 쉬운 말로 바꿉니다.
+  - signal은 영역별 방향성 신호로, weighted_signal은 종합 방향성 신호로 설명합니다.
+  - Tech 점수, IP 점수, grade는 숫자로 보여주지 않고 사업화 가능성·특허 품질 신호로 설명합니다.
+  - 대표 지표는 한글명, 단위, 콤마를 붙여 보여줍니다.
+
+10) 정리 명령
+-------------
+
+Dry-run:
+
+  python .\scripts\clean_runtime_artifacts.py
+
+실제 삭제:
+
+  python .\scripts\clean_runtime_artifacts.py --apply
+
+삭제 대상은 __pycache__, *.pyc 같은 런타임 부산물입니다.
+.env, data, src, main.py, README.md, OPEN_FIRST.txt는 함부로 삭제하지 마세요.

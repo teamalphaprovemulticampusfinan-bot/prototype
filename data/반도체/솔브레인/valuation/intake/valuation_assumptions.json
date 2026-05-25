@@ -1,0 +1,27 @@
+{
+  "company_dir": "soulbrain",
+  "company": "솔브레인",
+  "created_at": "2026-05-25T10:23:26",
+  "source": "valuation_intake_default_assumptions",
+  "currency": "KRW",
+  "units": "KRW actuals; workbook shows KRW mm / 억원 where noted",
+  "risk_free_rate": 0.035,
+  "market_risk_premium": 0.06,
+  "beta": 1.8,
+  "pre_tax_cost_of_debt": 0.055,
+  "tax_rate": 0.24,
+  "terminal_growth_rate": 0.015,
+  "projection_years": 5,
+  "scenario_growth_delta": 0.02,
+  "scenario_wacc_delta": 0.01,
+  "latest_close": 429500.0,
+  "shares_outstanding": 7778566.0,
+  "market_cap": 3340894097000.0,
+  "share_count_year": 2025,
+  "share_count_source": "OpenDART_stockTotqySttus",
+  "notes": [
+    "Valuation Agent는 finance_agent 산출물을 읽지 않고 자체 intake 데이터만 사용합니다.",
+    "DART/가격/발행주식 수 데이터가 부족하면 workbook은 생성되며 validation에서 WARN을 표시합니다.",
+    "업로드한 파이낸셜 모델링 파일은 런타임 데이터 소스가 아니라 workbook archetype 설계로 코드화되었습니다."
+  ]
+}

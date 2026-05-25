@@ -1,0 +1,570 @@
+{
+  "agent": "issue",
+  "company_name": "솔브레인",
+  "company": "솔브레인",
+  "company_dir": "soulbrain",
+  "opinion": "보유",
+  "confidence": 0.5,
+  "summary": "솔브레인에 대해 검증 가능한 핵심 근거는 다음과 같습니다. news_count 값은 10count입니다. rss_count 값은 18count입니다. related_keyword_count 값은 0count입니다.",
+  "key_points": [
+    "news_count 값은 10count입니다.",
+    "rss_count 값은 18count입니다.",
+    "related_keyword_count 값은 0count입니다."
+  ],
+  "risks": [],
+  "claims": [
+    {
+      "claim_id": "issue.auto_cl.001",
+      "text": "news_count 값은 10count입니다.",
+      "evidence_ids": [
+        "issue.ev.001"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "issue.auto_cl.003",
+      "text": "rss_count 값은 18count입니다.",
+      "evidence_ids": [
+        "issue.ev.002"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "issue.auto_cl.005",
+      "text": "related_keyword_count 값은 0count입니다.",
+      "evidence_ids": [
+        "issue.ev.003"
+      ],
+      "claim_type": "point"
+    }
+  ],
+  "evidences": [
+    {
+      "evidence_id": "issue.ev.001",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "news_count",
+      "value": 10,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | news_count | 값: 10count"
+    },
+    {
+      "evidence_id": "issue.ev.002",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "rss_count",
+      "value": 18,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | rss_count | 값: 18count"
+    },
+    {
+      "evidence_id": "issue.ev.003",
+      "source_type": "issue",
+      "source": "issue_keywords_workbook",
+      "metric": "related_keyword_count",
+      "value": 0,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_keywords_workbook | related_keyword_count | 값: 0count"
+    },
+    {
+      "evidence_id": "issue.ev.004",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "배",
+      "period": "Mon, 18 May 2026 14:46:00 +0900",
+      "snippet": "Naver News | Mon, 18 May 2026 14:46:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.005",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 05 May 2026 10:08:00 +0900",
+      "snippet": "Naver News | Tue, 05 May 2026 10:08:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.006",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 28 Apr 2026 15:34:00 +0900",
+      "snippet": "Naver News | Tue, 28 Apr 2026 15:34:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.007",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 23 Apr 2026 16:28:00 +0900",
+      "snippet": "Naver News | Thu, 23 Apr 2026 16:28:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.008",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "배",
+      "period": "Wed, 22 Apr 2026 15:56:00 +0900",
+      "snippet": "Naver News | Wed, 22 Apr 2026 15:56:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.009",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:44 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:44 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.010",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:41 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:41 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.011",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:46:28 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:46:28 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.012",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:36:05 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:36:05 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.013",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:24:00 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:24:00 +0000 기준 rss_title | 값: 확인 불가"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "issue.ev.001",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "news_count",
+      "value": 10,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | news_count | 값: 10count"
+    },
+    {
+      "evidence_id": "issue.ev.002",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "rss_count",
+      "value": 18,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | rss_count | 값: 18count"
+    },
+    {
+      "evidence_id": "issue.ev.003",
+      "source_type": "issue",
+      "source": "issue_keywords_workbook",
+      "metric": "related_keyword_count",
+      "value": 0,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_keywords_workbook | related_keyword_count | 값: 0count"
+    },
+    {
+      "evidence_id": "issue.ev.004",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "배",
+      "period": "Mon, 18 May 2026 14:46:00 +0900",
+      "snippet": "Naver News | Mon, 18 May 2026 14:46:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.005",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 05 May 2026 10:08:00 +0900",
+      "snippet": "Naver News | Tue, 05 May 2026 10:08:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.006",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 28 Apr 2026 15:34:00 +0900",
+      "snippet": "Naver News | Tue, 28 Apr 2026 15:34:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.007",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 23 Apr 2026 16:28:00 +0900",
+      "snippet": "Naver News | Thu, 23 Apr 2026 16:28:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.008",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "배",
+      "period": "Wed, 22 Apr 2026 15:56:00 +0900",
+      "snippet": "Naver News | Wed, 22 Apr 2026 15:56:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.009",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:44 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:44 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.010",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:41 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:41 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.011",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:46:28 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:46:28 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.012",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:36:05 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:36:05 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.013",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:24:00 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:24:00 +0000 기준 rss_title | 값: 확인 불가"
+    }
+  ],
+  "fallback_used": false,
+  "warning_note": "검증 불가 claim 6개를 제거한 뒤 grounding 기준을 재검증했습니다.",
+  "raw_payload": {
+    "analysis_text": "opinion: 보유\nconfidence: 0.65\n\n1.  **핵심 이슈 요약**\n    솔브레인은 반도체 및 이차전지 공정 소재 기업으로, 최근 시장에서는 HBM(고대역폭 메모리) 시대의 핵심인 패키징 기술 발전과 AI 서버 투자 확대, 첨단 패키징 수요 증가에 따른 반도체 업황 개선 기대감 속에서 주목받고 있습니다. 또한, OCI와 같은 핵심 소재 기업들의 실적 가시성 개선과 빅테크 투자 확대가 긍정적인 영향을 미칠 수 있다는 분석이 있습니다. 그러나 동시에 투자 심리 둔화, 단기 상승 부담, 개별 이슈보다는 실적 가시성이 높은 기업 중심의 선별 투자 필요성이 제기되며 주가 조정의 요인으로 작용하고 있습니다.\n\n2.  **기업에 미치는 영향**\n    솔브레인은 반도체 및 이차전지 공정 소재 사업을 영위하고 있어, HBM 및 첨단 패키징 시장 확대, AI 관련 투자 증가는 긍정적인 실적 성장 모멘텀을 제공할 수 있습니다. 그러나 전반적인 투자 심리 위축 및 실적 가시성이 높은 기업으로의 쏠림 현상은 단기적인 주가 흐름에 제약 요인이 될 수 있습니다.\n\n3.  **긍정 시그널**\n    *   **HBM 및 첨단 패키징 시장 성장:** HBM 시대의 핵심인 패키징 기술 발전과 AI 서버 투자 확대, 첨단 패키징 수요 증가는 솔브레인이 속한 반도체 소재 산업에 긍정적인 영향을 미칠 것으로 예상됩니다. (뉴스: \"HBM 시대 핵심은 패키징\"…피에스케이홀딩스, 장비 시장 '태풍의 눈', 주도주 교체기 온다…“이번엔 코스닥이 중심” [종전 후 새 주도주 찾..., 삼성전자·SK하이닉스 오르니 ‘소부장’도 주목, 메모리 슈퍼 사이클에...)\n    *   **반도체 업황 개선 기대감:** 반도체 업황 개선 기대감과 맞물려 솔브레인을 포함한 반도체 소부장 기업들의 목표 주가가 높아지고 있습니다. (뉴스: 주도주 교체기 온다…“이번엔 코스닥이 중심” [종전 후 새 주도주 찾..., 삼성전자·SK하이닉스 오르니 ‘소부장’도 주목, 메모리 슈퍼 사이클에...)\n    *   **핵심 소재 기업으로서의 위치:** OCI, 메카로, 디엔에프 등과 함께 핵심 소재 기업으로 언급되며, 빅테크 투자 확대에 따른 실적 가시성 개선 가능성이 시사되었습니다. (뉴스: OCI, '기초·카본 케미컬' 투트랙 전략으로 시장 지배력 강화 주목)\n    *   **이차전지 부품 사업:** 배터리용 스테인리스 강관을 만드는 유에스티와 함께 반도체·이차전지 공정 소재사로 언급되어, 이차전지 시장 성장 수혜 가능성도 내포하고 있습니다. (뉴스: 포장재부터 첨단 배터리 부품까지… 테이팩스, 거침없는 질주 시작되나)\n\n4.  **부정 시그널/리스크**\n    *   **투자 심리 둔화 및 단기 상승 부담:** 솔브레인 홀딩스, APS이노베이션, 성일하이텍 등과 함께 투자 심리 둔화와 단기 상승 부담으로 조정을 받았다는 언급이 있습니다. (뉴스: 이엠티, 고용량·고출력 양극재 대응 전구체 제조 기술력 확보 주목을)\n    *   **개별 이슈보다는 실적 중심 투자:** 단기 모멘텀보다는 개별 이슈가 제한적이며, 실적 성장성이 주가에 중요한 요소로 작용하고 있다는 분석이 있습니다. (뉴스: \"HBM 시대 핵심은 패키징\"…피에스케이홀딩스, 장비 시장 '태풍의 눈')\n    *   **실적 가시성 부족 우려:** 일부 뉴스에서는 반도체 및 건설 부문의 부진과 함께 솔브레인의 실적 가시성 부족으로 인한 내림세를 언급하고 있습니다. (뉴스: BGF리테일 주가 요원지화… 저평가 해소 신호탄)\n    *   **업종 전반의 실적 정체 우려:** 중심의 실적 정체 우려가 업종 전반의 투자 의심을 위축시키는 주된 하락 이유로 작용하고 있다는 맥락이 있습니다. (뉴스: 포장재부터 첨단 배터리 부품까지… 테이팩스, 거침없는 질주 시작되나)\n\n5.  **향후 체크포인트**\n    *   **실적 발표 및 가시성:** 향후 발표될 분기별 실적 및 실적 가시성 개선 여부를 면밀히 모니터링해야 합니다. 특히 반도체 및 이차전지 사업 부문의 구체적인 실적 개선 추이가 중요합니다.\n    *   **HBM 및 첨단 패키징 시장 내 솔브레인의 역할 및 수혜 강도:** HBM 시장 확대 및 첨단 패키징 기술 발전이 솔브레인의 소재 사업에 어느 정도의 구체적인 수혜로 이어지는지 파악해야 합니다.\n    *   **투자 심리 변화 및 시장 트렌드:** 전반적인 반도체 및 이차전지 산업 투자 심리 변화와 함께, 실적 가시성이 높은 기업으로의 쏠림 현상이 완화되는지 여부를 주시해야 합니다.\n    *   **경쟁 환경 및 기술 개발 동향:** 솔브레인이 속한 소재 시장의 경쟁 환경 변화와 신기술 개발 동향을 파악하여 장기적인 경쟁력을 평가해야 합니다.",
+    "markdown_report": "# 솔브레인 이슈 리포트\n\n## 분석 결과\nopinion: 보유\nconfidence: 0.65\n\n1.  **핵심 이슈 요약**\n    솔브레인은 반도체 및 이차전지 공정 소재 기업으로, 최근 시장에서는 HBM(고대역폭 메모리) 시대의 핵심인 패키징 기술 발전과 AI 서버 투자 확대, 첨단 패키징 수요 증가에 따른 반도체 업황 개선 기대감 속에서 주목받고 있습니다. 또한, OCI와 같은 핵심 소재 기업들의 실적 가시성 개선과 빅테크 투자 확대가 긍정적인 영향을 미칠 수 있다는 분석이 있습니다. 그러나 동시에 투자 심리 둔화, 단기 상승 부담, 개별 이슈보다는 실적 가시성이 높은 기업 중심의 선별 투자 필요성이 제기되며 주가 조정의 요인으로 작용하고 있습니다.\n\n2.  **기업에 미치는 영향**\n    솔브레인은 반도체 및 이차전지 공정 소재 사업을 영위하고 있어, HBM 및 첨단 패키징 시장 확대, AI 관련 투자 증가는 긍정적인 실적 성장 모멘텀을 제공할 수 있습니다. 그러나 전반적인 투자 심리 위축 및 실적 가시성이 높은 기업으로의 쏠림 현상은 단기적인 주가 흐름에 제약 요인이 될 수 있습니다.\n\n3.  **긍정 시그널**\n    *   **HBM 및 첨단 패키징 시장 성장:** HBM 시대의 핵심인 패키징 기술 발전과 AI 서버 투자 확대, 첨단 패키징 수요 증가는 솔브레인이 속한 반도체 소재 산업에 긍정적인 영향을 미칠 것으로 예상됩니다. (뉴스: \"HBM 시대 핵심은 패키징\"…피에스케이홀딩스, 장비 시장 '태풍의 눈', 주도주 교체기 온다…“이번엔 코스닥이 중심” [종전 후 새 주도주 찾..., 삼성전자·SK하이닉스 오르니 ‘소부장’도 주목, 메모리 슈퍼 사이클에...)\n    *   **반도체 업황 개선 기대감:** 반도체 업황 개선 기대감과 맞물려 솔브레인을 포함한 반도체 소부장 기업들의 목표 주가가 높아지고 있습니다. (뉴스: 주도주 교체기 온다…“이번엔 코스닥이 중심” [종전 후 새 주도주 찾..., 삼성전자·SK하이닉스 오르니 ‘소부장’도 주목, 메모리 슈퍼 사이클에...)\n    *   **핵심 소재 기업으로서의 위치:** OCI, 메카로, 디엔에프 등과 함께 핵심 소재 기업으로 언급되며, 빅테크 투자 확대에 따른 실적 가시성 개선 가능성이 시사되었습니다. (뉴스: OCI, '기초·카본 케미컬' 투트랙 전략으로 시장 지배력 강화 주목)\n    *   **이차전지 부품 사업:** 배터리용 스테인리스 강관을 만드는 유에스티와 함께 반도체·이차전지 공정 소재사로 언급되어, 이차전지 시장 성장 수혜 가능성도 내포하고 있습니다. (뉴스: 포장재부터 첨단 배터리 부품까지… 테이팩스, 거침없는 질주 시작되나)\n\n4.  **부정 시그널/리스크**\n    *   **투자 심리 둔화 및 단기 상승 부담:** 솔브레인 홀딩스, APS이노베이션, 성일하이텍 등과 함께 투자 심리 둔화와 단기 상승 부담으로 조정을 받았다는 언급이 있습니다. (뉴스: 이엠티, 고용량·고출력 양극재 대응 전구체 제조 기술력 확보 주목을)\n    *   **개별 이슈보다는 실적 중심 투자:** 단기 모멘텀보다는 개별 이슈가 제한적이며, 실적 성장성이 주가에 중요한 요소로 작용하고 있다는 분석이 있습니다. (뉴스: \"HBM 시대 핵심은 패키징\"…피에스케이홀딩스, 장비 시장 '태풍의 눈')\n    *   **실적 가시성 부족 우려:** 일부 뉴스에서는 반도체 및 건설 부문의 부진과 함께 솔브레인의 실적 가시성 부족으로 인한 내림세를 언급하고 있습니다. (뉴스: BGF리테일 주가 요원지화… 저평가 해소 신호탄)\n    *   **업종 전반의 실적 정체 우려:** 중심의 실적 정체 우려가 업종 전반의 투자 의심을 위축시키는 주된 하락 이유로 작용하고 있다는 맥락이 있습니다. (뉴스: 포장재부터 첨단 배터리 부품까지… 테이팩스, 거침없는 질주 시작되나)\n\n5.  **향후 체크포인트**\n    *   **실적 발표 및 가시성:** 향후 발표될 분기별 실적 및 실적 가시성 개선 여부를 면밀히 모니터링해야 합니다. 특히 반도체 및 이차전지 사업 부문의 구체적인 실적 개선 추이가 중요합니다.\n    *   **HBM 및 첨단 패키징 시장 내 솔브레인의 역할 및 수혜 강도:** HBM 시장 확대 및 첨단 패키징 기술 발전이 솔브레인의 소재 사업에 어느 정도의 구체적인 수혜로 이어지는지 파악해야 합니다.\n    *   **투자 심리 변화 및 시장 트렌드:** 전반적인 반도체 및 이차전지 산업 투자 심리 변화와 함께, 실적 가시성이 높은 기업으로의 쏠림 현상이 완화되는지 여부를 주시해야 합니다.\n    *   **경쟁 환경 및 기술 개발 동향:** 솔브레인이 속한 소재 시장의 경쟁 환경 변화와 신기술 개발 동향을 파악하여 장기적인 경쟁력을 평가해야 합니다.\n",
+    "news_count": 10,
+    "rss_count": 18,
+    "related_keyword_count": 0,
+    "df_news_rows": 139,
+    "llm_error": null,
+    "graph_claims_original": [],
+    "removed_ungrounded_claims": [
+      "솔브레인 관련 공개 뉴스 제목: \"HBM 시대 핵심은 패키징\"…피에스케이홀딩스, 장비 시장 '태풍의 눈'",
+      "솔브레인 관련 공개 뉴스 제목: 이엠티, 고용량·고출력 양극재 대응 전구체 제조 기술력 확보 주목을",
+      "솔브레인 관련 공개 뉴스 제목: 포장재부터 첨단 배터리 부품까지… 테이팩스, 거침없는 질주 시작되나",
+      "솔브레인 이슈 분석에서 수집된 RSS 항목 수는 18건입니다.",
+      "솔브레인 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+      "솔브레인 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다."
+    ],
+    "removed_bad_evidence_ids": [
+      "issue.ev.unverified"
+    ]
+  },
+  "packet_version": "grounded_agent_v3",
+  "pre_sanitize_grounding_check": {
+    "score": 0.0,
+    "pass": false,
+    "pass_threshold": 0.75,
+    "claim_count": 6,
+    "supported_count": 0,
+    "unsupported_count": 6,
+    "supported_claims": [],
+    "unsupported_claims": [
+      "솔브레인 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+      "솔브레인 이슈 분석에서 수집된 RSS 항목 수는 18건입니다.",
+      "솔브레인 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다.",
+      "솔브레인 관련 공개 뉴스 제목: 포장재부터 첨단 배터리 부품까지… 테이팩스, 거침없는 질주 시작되나",
+      "솔브레인 관련 공개 뉴스 제목: 이엠티, 고용량·고출력 양극재 대응 전구체 제조 기술력 확보 주목을",
+      "솔브레인 관련 공개 뉴스 제목: \"HBM 시대 핵심은 패키징\"…피에스케이홀딩스, 장비 시장 '태풍의 눈'"
+    ],
+    "issues": [
+      "issue.cl.001: evidence와 claim 연결이 약합니다.",
+      "issue.cl.002: evidence와 claim 연결이 약합니다.",
+      "issue.cl.003: evidence와 claim 연결이 약합니다.",
+      "issue.cl.004: evidence와 claim 연결이 약합니다.",
+      "issue.cl.005: evidence와 claim 연결이 약합니다.",
+      "issue.cl.006: evidence와 claim 연결이 약합니다."
+    ],
+    "claim_results": [
+      {
+        "claim_id": "issue.cl.001",
+        "text": "솔브레인 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.002",
+        "text": "솔브레인 이슈 분석에서 수집된 RSS 항목 수는 18건입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.003",
+        "text": "솔브레인 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.004",
+        "text": "솔브레인 관련 공개 뉴스 제목: 포장재부터 첨단 배터리 부품까지… 테이팩스, 거침없는 질주 시작되나",
+        "evidence_ids": [
+          "issue.ev.004"
+        ],
+        "supported": false,
+        "score": 0.55,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.005",
+        "text": "솔브레인 관련 공개 뉴스 제목: 이엠티, 고용량·고출력 양극재 대응 전구체 제조 기술력 확보 주목을",
+        "evidence_ids": [
+          "issue.ev.005"
+        ],
+        "supported": false,
+        "score": 0.55,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.006",
+        "text": "솔브레인 관련 공개 뉴스 제목: \"HBM 시대 핵심은 패키징\"…피에스케이홀딩스, 장비 시장 '태풍의 눈'",
+        "evidence_ids": [
+          "issue.ev.006"
+        ],
+        "supported": false,
+        "score": 0.55,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      }
+    ]
+  },
+  "post_atomic_grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 3,
+    "supported_count": 3,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "news_count 값은 10count입니다.",
+      "rss_count 값은 18count입니다.",
+      "related_keyword_count 값은 0count입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "issue.auto_cl.001",
+        "text": "news_count 값은 10count입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.003",
+        "text": "rss_count 값은 18count입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.005",
+        "text": "related_keyword_count 값은 0count입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  },
+  "grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 3,
+    "supported_count": 3,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "news_count 값은 10count입니다.",
+      "rss_count 값은 18count입니다.",
+      "related_keyword_count 값은 0count입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "issue.auto_cl.001",
+        "text": "news_count 값은 10count입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.003",
+        "text": "rss_count 값은 18count입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.005",
+        "text": "related_keyword_count 값은 0count입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  }
+}

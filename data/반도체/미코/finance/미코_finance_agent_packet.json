@@ -1,0 +1,224 @@
+{
+  "agent_name": "finance",
+  "company_name": "미코",
+  "company_dir": "mico",
+  "industry_type": "deeptech",
+  "summary": "미코는 2024년 매출이 54% 이상 성장하며 흑자 전환에 성공했으나, 2025년에는 매출 성장률이 둔화되고 영업이익률이 하락하는 모습을 보였다. 2023년 마이너스였던 ROE는 2024년 크게 개선되었으나 2025년 다시 하락했으며, 잉여현금흐름은 3년 연속 마이너스를 기록하며 투자 부담이 지속되고 있다. 주가는 2025년 큰 폭의 상승 후 2026년에도 높은 수익률을 기록했으나, 최근 한 달간 상당한 변동성과 최대 낙폭을 기록하며 높은 변동성 리스크를 시사한다.",
+  "key_thesis": [
+    "2024년 매출액이 3873억원에서 5405억원으로 54.0% 증가하며 성장세를 회복했다.",
+    "2024년 영업이익이 -20억원에서 946억원으로 크게 개선되며 흑자 전환에 성공했다.",
+    "2024년 ROE가 -0.56%에서 14.36%로 크게 상승하며 수익성이 개선되었다.",
+    "2025년 연수익률은 58.91%로 높은 상승률을 기록했다.",
+    "2026년 연수익률은 80.63%로 전년 대비 더욱 높은 상승률을 보였다."
+  ],
+  "key_risks": [
+    "2025년 영업이익률이 17.51%에서 10.34%로 하락하며 수익성 둔화 가능성이 있다.",
+    "2025년 ROE가 14.36%에서 10.88%로 하락하며 수익성 개선세가 주춤했다.",
+    "2023년부터 2025년까지 잉여현금흐름(FCF)이 지속적으로 마이너스를 기록하며 투자 부담이 크다.",
+    "2025년 부채비율이 127.79%에서 228.63%로 크게 상승하며 재무 건전성에 대한 우려가 커진다.",
+    "2026년 5월 기준, 최근 한 달간 최대 낙폭(MDD)이 -31.83%로 높은 변동성을 보였다.",
+    "2026년 5월 기준, 거래량 이동평균 대비 비율이 1.148로 높은 편이나, 최근 며칠간 급등락이 관찰되어 추가적인 변동성 확대 가능성이 있다.",
+    "연간 MDD -31.83%로 주가 낙폭 리스크를 확인해야 합니다."
+  ],
+  "report_core_points": [
+    "FCF: 미코 2025 기준 FCF 값은 -300,379,331,277원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+    "연수익률: 미코 2026 기준 연수익률 값은 80.63%이며, 해당 연도 주가 성과를 보여주는 지표입니다.",
+    "연간 MDD: 미코 2026 기준 연간 MDD 값은 -31.83%이며, 투자자가 경험할 수 있는 최대 낙폭 위험을 보여주는 지표입니다.",
+    "거래량: 미코 2026 기준 거래량 값은 602908.00주이며, 해당 연도 평균 거래량을 통해 시장 관심과 유동성을 확인하는 지표입니다.",
+    "이동평균 대비 비율: 미코 2026 기준 이동평균 대비 비율 값은 1.15배이며, 거래량이 이동평균 대비 어느 수준인지 보여주는 수급 지표입니다."
+  ],
+  "missing_prompt_metrics": [
+    "매출성장률",
+    "영업이익률",
+    "ROE",
+    "부채비율",
+    "변동성지수"
+  ],
+  "evidence": [
+    {
+      "evidence_id": "finance.ev.004",
+      "source_type": "financial_csv",
+      "source": "미코_재무.csv",
+      "metric": "fcf",
+      "label": "FCF",
+      "value": -300379331277.0,
+      "unit": "원",
+      "period": "2025",
+      "snippet": "미코 2025 기준 FCF 값은 -300,379,331,277원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.007",
+      "source_type": "stock_csv",
+      "source": "미코_주식.csv",
+      "metric": "annual_return_%",
+      "label": "연수익률",
+      "value": 80.63,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "미코 2026 기준 연수익률 값은 80.63%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.008",
+      "source_type": "stock_csv",
+      "source": "미코_주식.csv",
+      "metric": "annual_mdd_%",
+      "label": "연간 MDD",
+      "value": -31.83,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "미코 2026 기준 연간 MDD 값은 -31.83%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.009",
+      "source_type": "stock_csv",
+      "source": "미코_주식.csv",
+      "metric": "volume_mean",
+      "label": "거래량",
+      "value": 602908.0,
+      "unit": "주",
+      "period": "2026",
+      "snippet": "미코 2026 기준 거래량 값은 602908주입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.010",
+      "source_type": "stock_csv",
+      "source": "미코_주식.csv",
+      "metric": "volume_ma_ratio_mean",
+      "label": "이동평균 대비 비율",
+      "value": 1.148,
+      "unit": "배",
+      "period": "2026",
+      "snippet": "미코 2026 기준 이동평균 대비 비율 값은 1.1480배입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.012",
+      "source_type": "stock_csv",
+      "source": "미코_주식.csv",
+      "metric": "latest_close",
+      "label": "최근 종가",
+      "value": 24800.0,
+      "unit": "원",
+      "period": "2026-05-13",
+      "snippet": "미코 2026-05-13 최근 종가 값은 24,800원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.013",
+      "source_type": "warning_stock_csv",
+      "source": "투자경고종목.csv",
+      "metric": "warning_stock",
+      "label": "투자경고 여부",
+      "value": 0.0,
+      "unit": null,
+      "period": "최근",
+      "snippet": "미코 투자경고종목 해당 여부 값은 0입니다.",
+      "prompt_rationale": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "finance.safe_cl.004",
+      "text": "미코 2025 기준 FCF 값은 -300,379,331,277원입니다.",
+      "evidence_ids": [
+        "finance.ev.004"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.007",
+      "text": "미코 2026 기준 연수익률 값은 80.63%입니다.",
+      "evidence_ids": [
+        "finance.ev.007"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.008",
+      "text": "미코 2026 기준 연간 MDD 값은 -31.83%입니다.",
+      "evidence_ids": [
+        "finance.ev.008"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.009",
+      "text": "미코 2026 기준 거래량 값은 602908주입니다.",
+      "evidence_ids": [
+        "finance.ev.009"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.010",
+      "text": "미코 2026 기준 이동평균 대비 비율 값은 1.1480배입니다.",
+      "evidence_ids": [
+        "finance.ev.010"
+      ],
+      "audit_safe": true
+    }
+  ],
+  "warning_note": null,
+  "source_contexts": [
+    "financial_csv=미코_재무.csv",
+    "stock_csv=미코_주식.csv",
+    "warning_stock_csv=투자경고종목.csv",
+    "prompts.py summary/key_thesis/key_risks are preserved in the Chair View where available.",
+    "First Auditor claims are CSV-grounded one-to-one evidence claims for stable actual-information verification.",
+    "필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수"
+  ],
+  "raw_payload": {
+    "latest_financial_row": {
+      "year": 2025,
+      "sales": 977036793661.0,
+      "operating_income": 101004245476.0,
+      "net_income": 74949266372.0,
+      "total_assets": 2264573968886.0,
+      "total_liabilities": 1575474068220.0,
+      "total_equity": 689099900666.0,
+      "capex": 325210019608,
+      "ocf": 24830688331,
+      "fcf": -300379331277,
+      "interest": 73860662284.0,
+      "ROE": 10.876400693072684,
+      "영업이익률": 10.337813901309962,
+      "부채비율": 228.62781821581152,
+      "이자보상배율": 1.3674971541364036
+    },
+    "latest_stock_metric": {
+      "year": 2026,
+      "annual_return_%": 80.63,
+      "annual_mdd_%": -31.83
+    },
+    "latest_yearly_summary": {
+      "year": 2026,
+      "close_start": 13730.0,
+      "close_end": 24800.0,
+      "close_high": 27900.0,
+      "close_low": 12510.0,
+      "volume_mean": 602908.0,
+      "volume_ma_ratio_mean": 1.148
+    },
+    "latest_recent_stock_row": {
+      "Date": "2026-05-13",
+      "Open": 22150.0,
+      "High": 25000.0,
+      "Low": 21550.0,
+      "Close": 24800.0,
+      "Volume": 846870,
+      "Change": 0.0997782705099779,
+      "VKOSPI": NaN,
+      "일수익률_%": 9.977827050997789,
+      "누적최고가": 27900.0,
+      "드로다운_%": -11.111111111111116,
+      "거래량_20일평균": 1228814.25,
+      "거래량_이동평균대비비율": 0.689176578152475
+    },
+    "audit_policy": "prompts_py_used_for_interpretation_claims_grounded_by_local_csv"
+  },
+  "packet_version": "finance_prompts_grounded_v4_compact"
+}

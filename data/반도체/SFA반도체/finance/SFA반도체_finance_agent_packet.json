@@ -1,0 +1,321 @@
+{
+  "agent_name": "finance",
+  "company_name": "SFA반도체",
+  "company_dir": "sfa",
+  "industry_type": "deeptech_semiconductor",
+  "summary": "SFA반도체는 2023년 큰 폭의 영업손실 이후 2024년 영업이익이 흑자전환하며 수익성 개선 가능성을 보였습니다. 다만, 2024년 매출은 감소세를 기록했으며, 최근 1개월 주가 데이터에서는 변동성이 높은 흐름이 관찰됩니다. 2023년과 2024년 연간 수익률은 각각 21.94%, -50.48%로 큰 폭의 등락을 보였으며, 2025년에도 연초 대비 마이너스 수익률을 기록하고 있습니다.",
+  "key_thesis": [
+    "2024년 영업이익이 흑자전환하며 이전의 손실 구간에서 벗어나는 모습을 보였습니다.",
+    "2024년 ROE가 4.11%로 양수로 전환되며 자본 대비 수익성이 개선될 가능성을 시사합니다.",
+    "2023년과 2024년 모두 긍정적인 잉여현금흐름(FCF)을 기록하며 현금 창출 능력을 유지하고 있습니다.",
+    "2024년 부채비율이 25.22%로 낮아져 재무 건전성이 개선되었습니다.",
+    "2025년 5월 주가 데이터에서 이동평균선 대비 비율(ma20_ratio)이 1 이상인 구간이 관찰되어 단기적인 주가 상승 모멘텀이 나타나고 있습니다."
+  ],
+  "key_risks": [
+    "2024년 매출성장률이 -8.48%로 감소세를 보였으며, 향후 매출 회복 여부가 중요합니다.",
+    "2024년 영업이익률이 -0.01%로 여전히 마이너스에 가까워 수익성 개선 추세 확인이 필요합니다.",
+    "2024년 연간 MDD가 -62.3%로 매우 높아 주가 변동성에 따른 투자 위험이 큽니다.",
+    "2025년 연초 대비 수익률이 -2.76%로 마이너스를 기록하고 있으며, 최근 1개월 주가 데이터에서도 하락세가 관찰됩니다.",
+    "2025년 5월 주가 데이터에서 VIX 지수가 17.24~24.70 범위로 변동성이 높은 편입니다.",
+    "영업이익률 -0.01%로 수익성 부담을 확인해야 합니다.",
+    "연간 MDD -31.15%로 주가 낙폭 리스크를 확인해야 합니다."
+  ],
+  "report_core_points": [
+    "영업이익률: SFA반도체 2024 기준 영업이익률 값은 -0.01%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다.",
+    "ROE: SFA반도체 2024 기준 ROE 값은 4.11%이며, 자기자본 대비 수익성 수준을 확인하는 지표입니다.",
+    "FCF: SFA반도체 2024 기준 FCF 값은 16,454,888,166원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+    "부채비율: SFA반도체 2024 기준 부채비율 값은 25.22%이며, 재무 레버리지와 안정성 부담을 확인하는 지표입니다.",
+    "연수익률: SFA반도체 2025 기준 연수익률 값은 -2.76%이며, 해당 연도 주가 성과를 보여주는 지표입니다.",
+    "연간 MDD: SFA반도체 2025 기준 연간 MDD 값은 -31.15%이며, 투자자가 경험할 수 있는 최대 낙폭 위험을 보여주는 지표입니다.",
+    "거래량: SFA반도체 2025 기준 거래량 값은 694857.00주이며, 해당 연도 평균 거래량을 통해 시장 관심과 유동성을 확인하는 지표입니다.",
+    "MA20 대비 비율: SFA반도체 2025 기준 MA20 대비 비율 값은 0.99배이며, 현재 가격이 20일 이동평균선(MA20) 대비 얼마나 떨어져/올라가 있는지 보여주는 지표입니다.",
+    "변동성지수: SFA반도체 2025 기준 변동성지수 값은 21.52이며, 시장 변동성 환경을 함께 확인하기 위한 보조 지표입니다."
+  ],
+  "missing_prompt_metrics": [
+    "매출성장률"
+  ],
+  "evidence": [
+    {
+      "evidence_id": "finance.ev.002",
+      "source_type": "financial_csv",
+      "source": "SFA반도체_재무.csv",
+      "metric": "operating_margin",
+      "label": "영업이익률",
+      "value": -0.0077417110585611,
+      "unit": "%",
+      "period": "2024",
+      "snippet": "SFA반도체 2024 기준 영업이익률 값은 -0.01%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.003",
+      "source_type": "financial_csv",
+      "source": "SFA반도체_재무.csv",
+      "metric": "roe",
+      "label": "ROE",
+      "value": 4.10896792508492,
+      "unit": "%",
+      "period": "2024",
+      "snippet": "SFA반도체 2024 기준 ROE 값은 4.11%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.004",
+      "source_type": "financial_csv",
+      "source": "SFA반도체_재무.csv",
+      "metric": "fcf",
+      "label": "FCF",
+      "value": 16454888166.0,
+      "unit": "원",
+      "period": "2024",
+      "snippet": "SFA반도체 2024 기준 FCF 값은 16,454,888,166원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.005",
+      "source_type": "financial_csv",
+      "source": "SFA반도체_재무.csv",
+      "metric": "debt_ratio",
+      "label": "부채비율",
+      "value": 25.221159761329726,
+      "unit": "%",
+      "period": "2024",
+      "snippet": "SFA반도체 2024 기준 부채비율 값은 25.22%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.007",
+      "source_type": "stock_csv",
+      "source": "SFA반도체_주식.csv",
+      "metric": "annual_return_%",
+      "label": "연수익률",
+      "value": -2.76,
+      "unit": "%",
+      "period": "2025",
+      "snippet": "SFA반도체 2025 기준 연수익률 값은 -2.76%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.008",
+      "source_type": "stock_csv",
+      "source": "SFA반도체_주식.csv",
+      "metric": "annual_mdd_%",
+      "label": "연간 MDD",
+      "value": -31.15,
+      "unit": "%",
+      "period": "2025",
+      "snippet": "SFA반도체 2025 기준 연간 MDD 값은 -31.15%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.009",
+      "source_type": "stock_csv",
+      "source": "SFA반도체_주식.csv",
+      "metric": "volume_mean",
+      "label": "거래량",
+      "value": 694857.0,
+      "unit": "주",
+      "period": "2025",
+      "snippet": "SFA반도체 2025 기준 거래량 값은 694857주입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.010",
+      "source_type": "stock_csv",
+      "source": "SFA반도체_주식.csv",
+      "metric": "ma20_ratio_mean",
+      "label": "MA20 대비 비율",
+      "value": 0.9949,
+      "unit": "배",
+      "period": "2025",
+      "snippet": "SFA반도체 2025 기준 MA20 대비 비율 값은 0.9949배입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.011",
+      "source_type": "stock_csv",
+      "source": "SFA반도체_주식.csv",
+      "metric": "vkospi_mean",
+      "label": "변동성지수",
+      "value": 21.52,
+      "unit": null,
+      "period": "2025",
+      "snippet": "SFA반도체 2025 기준 변동성지수 값은 21.52입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.012",
+      "source_type": "stock_csv",
+      "source": "SFA반도체_주식.csv",
+      "metric": "latest_close",
+      "label": "최근 종가",
+      "value": 3000.0,
+      "unit": "원",
+      "period": "2025-05-30",
+      "snippet": "SFA반도체 2025-05-30 최근 종가 값은 3,000원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.013",
+      "source_type": "warning_stock_csv",
+      "source": "투자경고종목.csv",
+      "metric": "warning_stock",
+      "label": "투자경고 여부",
+      "value": 0.0,
+      "unit": null,
+      "period": "최근",
+      "snippet": "SFA반도체 투자경고종목 해당 여부 값은 0입니다.",
+      "prompt_rationale": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "finance.safe_cl.002",
+      "text": "SFA반도체 2024 기준 영업이익률 값은 -0.01%입니다.",
+      "evidence_ids": [
+        "finance.ev.002"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.003",
+      "text": "SFA반도체 2024 기준 ROE 값은 4.11%입니다.",
+      "evidence_ids": [
+        "finance.ev.003"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.004",
+      "text": "SFA반도체 2024 기준 FCF 값은 16,454,888,166원입니다.",
+      "evidence_ids": [
+        "finance.ev.004"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.005",
+      "text": "SFA반도체 2024 기준 부채비율 값은 25.22%입니다.",
+      "evidence_ids": [
+        "finance.ev.005"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.007",
+      "text": "SFA반도체 2025 기준 연수익률 값은 -2.76%입니다.",
+      "evidence_ids": [
+        "finance.ev.007"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.008",
+      "text": "SFA반도체 2025 기준 연간 MDD 값은 -31.15%입니다.",
+      "evidence_ids": [
+        "finance.ev.008"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.009",
+      "text": "SFA반도체 2025 기준 거래량 값은 694857주입니다.",
+      "evidence_ids": [
+        "finance.ev.009"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.010",
+      "text": "SFA반도체 2025 기준 MA20 대비 비율 값은 0.9949배입니다.",
+      "evidence_ids": [
+        "finance.ev.010"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.011",
+      "text": "SFA반도체 2025 기준 변동성지수 값은 21.52입니다.",
+      "evidence_ids": [
+        "finance.ev.011"
+      ],
+      "audit_safe": true
+    }
+  ],
+  "warning_note": null,
+  "source_contexts": [
+    "financial_csv=SFA반도체_재무.csv",
+    "stock_csv=SFA반도체_주식.csv",
+    "warning_stock_csv=투자경고종목.csv",
+    "prompts.py summary/key_thesis/key_risks are preserved in the Chair View where available.",
+    "First Auditor claims are CSV-grounded one-to-one evidence claims for stable actual-information verification.",
+    "필수 지표 산출 한계: 매출성장률"
+  ],
+  "raw_payload": {
+    "latest_financial_row": {
+      "year": 2024,
+      "sales": 400482861805.0,
+      "operating_income": -31004226.0,
+      "net_income": 20458863208.0,
+      "total_assets": 623485659906.0,
+      "total_liabilities": 125578068973.0,
+      "total_equity": 497907590933.0,
+      "current_assets": 220511034740.0,
+      "current_liabilities": 91517108583.0,
+      "capex": 36625507913,
+      "ocf": 53080396079,
+      "fcf": 16454888166,
+      "interest_expense": 3969104809.0,
+      "roe": 4.10896792508492,
+      "operating_margin": -0.0077417110585611,
+      "current_ratio_%": 240.950613665871,
+      "debt_ratio": 25.221159761329726,
+      "interest_coverage": -0.0078113900972575,
+      "sales_growth": -8.479066699569016
+    },
+    "latest_stock_metric": {
+      "year": 2025,
+      "annual_return_%": -2.76,
+      "annual_mdd_%": -31.15
+    },
+    "latest_yearly_summary": {
+      "year": 2025,
+      "close_start": 3085.0,
+      "close_end": 3000.0,
+      "close_high": 3740.0,
+      "close_low": 2575.0,
+      "volume_mean": 694857.0,
+      "ma20_ratio_mean": 0.9949,
+      "vkospi_mean": 21.52
+    },
+    "latest_recent_stock_row": {
+      "date": "2025-05-30",
+      "open": 2925.0,
+      "high": 3025.0,
+      "low": 2920.0,
+      "close": 3000.0,
+      "volume": 308704,
+      "market_cap": 493380909000.0,
+      "return": 0.0135135135135135,
+      "market_return": -0.0084428559493621,
+      "abnormal_return": 0.0219563694628757,
+      "mdd": -0.5989304812834219,
+      "ma20": 2989.25,
+      "ma60": 3009.4166666666665,
+      "ma20_ratio": 1.003596219787572,
+      "ma60_ratio": 0.996870932905048,
+      "vix": 18.56999969482422,
+      "vkospi": 22.55,
+      "eps": 116.58432277119178,
+      "psr": 0.7256524429901384,
+      "car_3": 0.0342417079581374,
+      "car_5": 0.0223668023343016,
+      "inst_net_buy": 93953.0,
+      "foreign_net_buy": 4501.0,
+      "foreign_holding_shares": 6433577.0,
+      "foreign_holding_pct": 3.91
+    },
+    "audit_policy": "prompts_py_used_for_interpretation_claims_grounded_by_local_csv"
+  },
+  "packet_version": "finance_prompts_grounded_v4_compact"
+}

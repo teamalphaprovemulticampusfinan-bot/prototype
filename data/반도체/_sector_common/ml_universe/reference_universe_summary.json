@@ -1,0 +1,74 @@
+{
+  "created_at": "2026-05-07T22:02:47",
+  "source_csv": "data\\반도체\\_sector_common\\ml_universe\\valuation_credit_ml_overlay_candidate.csv",
+  "raw_candidate_count": 208,
+  "selected_total": 30,
+  "focal_total": 5,
+  "reference_total": 25,
+  "include_in_chair_total": 5,
+  "selected_for_30_total": 30,
+  "sector_summary": {
+    "소재": {
+      "sector_label": "소재",
+      "selected_count": 7,
+      "focal_count": 3,
+      "reference_count": 4,
+      "human_review_count": 1,
+      "avg_selection_score": 516.9343
+    },
+    "후공정_패키징_테스트": {
+      "sector_label": "후공정/패키징/테스트",
+      "selected_count": 6,
+      "focal_count": 2,
+      "reference_count": 4,
+      "human_review_count": 1,
+      "avg_selection_score": 425.789
+    },
+    "idm_제조_메모리": {
+      "sector_label": "IDM/제조/메모리",
+      "selected_count": 4,
+      "focal_count": 0,
+      "reference_count": 4,
+      "human_review_count": 0,
+      "avg_selection_score": 101.5939
+    },
+    "팹리스_설계": {
+      "sector_label": "팹리스/설계",
+      "selected_count": 4,
+      "focal_count": 0,
+      "reference_count": 4,
+      "human_review_count": 0,
+      "avg_selection_score": 101.8687
+    },
+    "장비": {
+      "sector_label": "장비",
+      "selected_count": 4,
+      "focal_count": 0,
+      "reference_count": 4,
+      "human_review_count": 0,
+      "avg_selection_score": 102.8217
+    },
+    "부품_기판": {
+      "sector_label": "부품/기판",
+      "selected_count": 4,
+      "focal_count": 0,
+      "reference_count": 4,
+      "human_review_count": 0,
+      "avg_selection_score": 91.2083
+    },
+    "부품_웨이퍼캐리어": {
+      "sector_label": "부품/웨이퍼캐리어",
+      "selected_count": 1,
+      "focal_count": 0,
+      "reference_count": 1,
+      "human_review_count": 0,
+      "avg_selection_score": 47.3145
+    }
+  },
+  "notes": [
+    "source CSV의 peer_group/semiconductor_tag를 sector_theme로 변환해 분야별 universe를 생성했습니다.",
+    "selection_score는 valuation proxy, credit risk, confidence, data quality, auditor review flag를 함께 반영합니다.",
+    "include_in_chair=1은 현재 5개 focal 기업만 의미합니다. 30개 전체 Chair 실행은 company.yaml 생성 단계 이후 확장합니다.",
+    "include_in_chair=0인 기업은 개별 폴더 없이 reference peer clustering, cosine similarity, percentile 계산에 사용합니다."
+  ]
+}

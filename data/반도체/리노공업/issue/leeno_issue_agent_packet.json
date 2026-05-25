@@ -1,0 +1,570 @@
+{
+  "agent": "issue",
+  "company_name": "리노공업",
+  "company": "리노공업",
+  "company_dir": "leeno",
+  "opinion": "보유",
+  "confidence": 0.5,
+  "summary": "리노공업에 대해 검증 가능한 핵심 근거는 다음과 같습니다. news_count 값은 10count입니다. rss_count 값은 16count입니다. related_keyword_count 값은 0count입니다.",
+  "key_points": [
+    "news_count 값은 10count입니다.",
+    "rss_count 값은 16count입니다.",
+    "related_keyword_count 값은 0count입니다."
+  ],
+  "risks": [],
+  "claims": [
+    {
+      "claim_id": "issue.auto_cl.001",
+      "text": "news_count 값은 10count입니다.",
+      "evidence_ids": [
+        "issue.ev.001"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "issue.auto_cl.003",
+      "text": "rss_count 값은 16count입니다.",
+      "evidence_ids": [
+        "issue.ev.002"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "issue.auto_cl.005",
+      "text": "related_keyword_count 값은 0count입니다.",
+      "evidence_ids": [
+        "issue.ev.003"
+      ],
+      "claim_type": "point"
+    }
+  ],
+  "evidences": [
+    {
+      "evidence_id": "issue.ev.001",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "news_count",
+      "value": 10,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | news_count | 값: 10count"
+    },
+    {
+      "evidence_id": "issue.ev.002",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "rss_count",
+      "value": 16,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | rss_count | 값: 16count"
+    },
+    {
+      "evidence_id": "issue.ev.003",
+      "source_type": "issue",
+      "source": "issue_keywords_workbook",
+      "metric": "related_keyword_count",
+      "value": 0,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_keywords_workbook | related_keyword_count | 값: 0count"
+    },
+    {
+      "evidence_id": "issue.ev.004",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "원",
+      "period": "Wed, 20 May 2026 10:24:00 +0900",
+      "snippet": "Naver News | Wed, 20 May 2026 10:24:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.005",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 08:30:00 +0900",
+      "snippet": "Naver News | Mon, 18 May 2026 08:30:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.006",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Fri, 15 May 2026 16:51:00 +0900",
+      "snippet": "Naver News | Fri, 15 May 2026 16:51:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.007",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "억원",
+      "period": "Wed, 13 May 2026 14:36:00 +0900",
+      "snippet": "Naver News | Wed, 13 May 2026 14:36:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.008",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Fri, 08 May 2026 17:48:00 +0900",
+      "snippet": "Naver News | Fri, 08 May 2026 17:48:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.009",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:44 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:44 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.010",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:41 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:41 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.011",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:46:28 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:46:28 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.012",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:36:05 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:36:05 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.013",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:24:00 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:24:00 +0000 기준 rss_title | 값: 확인 불가"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "issue.ev.001",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "news_count",
+      "value": 10,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | news_count | 값: 10count"
+    },
+    {
+      "evidence_id": "issue.ev.002",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "rss_count",
+      "value": 16,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | rss_count | 값: 16count"
+    },
+    {
+      "evidence_id": "issue.ev.003",
+      "source_type": "issue",
+      "source": "issue_keywords_workbook",
+      "metric": "related_keyword_count",
+      "value": 0,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_keywords_workbook | related_keyword_count | 값: 0count"
+    },
+    {
+      "evidence_id": "issue.ev.004",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "원",
+      "period": "Wed, 20 May 2026 10:24:00 +0900",
+      "snippet": "Naver News | Wed, 20 May 2026 10:24:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.005",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 08:30:00 +0900",
+      "snippet": "Naver News | Mon, 18 May 2026 08:30:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.006",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Fri, 15 May 2026 16:51:00 +0900",
+      "snippet": "Naver News | Fri, 15 May 2026 16:51:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.007",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "억원",
+      "period": "Wed, 13 May 2026 14:36:00 +0900",
+      "snippet": "Naver News | Wed, 13 May 2026 14:36:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.008",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Fri, 08 May 2026 17:48:00 +0900",
+      "snippet": "Naver News | Fri, 08 May 2026 17:48:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.009",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:44 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:44 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.010",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:41 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:41 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.011",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:46:28 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:46:28 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.012",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:36:05 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:36:05 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.013",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:24:00 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:24:00 +0000 기준 rss_title | 값: 확인 불가"
+    }
+  ],
+  "fallback_used": false,
+  "warning_note": "검증 불가 claim 6개를 제거한 뒤 grounding 기준을 재검증했습니다.",
+  "raw_payload": {
+    "analysis_text": "opinion: 보유\nconfidence: 0.65\n\n### 1. 핵심 이슈 요약\n리노공업은 최근 코스닥 시장의 전반적인 약세 속에서 반도체 소부장 섹터의 일부 종목으로 언급되며 주가 변동성을 겪고 있다. 특히 최대주주 지분 매각 소식이 주가에 영향을 미쳤으나, AI 반도체 시장의 성장과 견조한 실적 성장세가 주가 회복 가능성에 대한 기대를 형성하고 있다.\n\n### 2. 기업에 미치는 영향\n최근 리노공업은 코스닥 시장의 급락과 함께 11% 이상 급락하는 등 단기적인 주가 하락 압력을 받았다. 이는 지정학적 이슈와 거시적인 시장 상황에 따른 투자 심리 위축과 더불어 최대주주 지분 매각 이슈가 복합적으로 작용한 결과로 보인다. 그러나 AI 반도체 시장의 구조적 성장과 리노공업의 실적 성장세는 이러한 단기적인 수급 충격을 희석시키고 주가 회복의 동력이 될 수 있다.\n\n### 3. 긍정 시그널\n*   **AI 반도체 시장 성장 수혜:** AI 반도체 시장의 지속적인 성장 흐름은 리노공업의 견조한 실적 성장세를 뒷받침할 것으로 예상된다. 이는 주가 회복 가능성에 대한 긍정적인 요인으로 작용한다.\n*   **실적 성장세:** AI 반도체 시장의 성장과 맞물려 리노공업의 실적 성장세가 이어지고 있다는 점은 긍정적인 시그널이다. 관련 실적이 가시화되고 업종의 구조적 성장이 확인된다면 대주주의 지분 매각 이슈는 점차 희석될 가능성이 있다.\n*   **반도체 소부장 섹터 내 포함:** 국민성장펀드 등 일부 펀드에서 반도체 소부장 섹터의 주요 편입 종목으로 리노공업을 언급하고 있어, 기관 투자자들의 관심이 지속되고 있음을 시사한다.\n\n### 4. 부정 시그널/리스크\n*   **최대주주 지분 매각 이슈:** 최대주주 지분 매각 소식이 주가에 부정적인 영향을 미쳤으며, 이는 단기적인 수급 부담으로 작용할 수 있다.\n*   **코스닥 시장 전반의 약세:** 지정학적 이슈와 거시적인 시장 상황으로 인한 코스닥 시장의 전반적인 약세는 개별 기업 이슈에도 투자 심리가 크게 흔들리는 장세를 만들고 있으며, 이는 리노공업 주가에도 영향을 미치고 있다.\n*   **단기 수급 충격:** 블록딜 이후 ETF 시장의 촉각이 언급되는 등 단기적인 수급 충격이 주가에 영향을 미칠 수 있다는 분석이 있다.\n\n### 5. 향후 체크포인트\n*   **AI 반도체 시장의 구체적인 성장 전망 및 리노공업의 수혜 강도:** AI 반도체 시장의 성장세가 리노공업의 실적에 얼마나 구체적으로 반영될지, 그리고 그 수혜 강도가 어느 정도일지 지속적으로 확인할 필요가 있다.\n*   **최대주주 지분 매각의 추가적인 영향 및 시장 반응:** 최대주주 지분 매각이 추가적으로 주가에 미치는 영향과 시장의 반응을 주시해야 한다.\n*   **코스닥 시장 전반의 투자 심리 회복 여부:** 코스닥 시장 전반의 투자 심리가 회복되고 반도체 섹터에 대한 투자 매력이 다시 부각될 수 있을지 여부가 중요하다.\n*   **실적 발표 및 가이던스:** 향후 발표될 실적과 제시될 가이던스가 시장의 기대치를 충족시키는지 여부가 주가 방향성에 중요한 영향을 미칠 것이다.",
+    "markdown_report": "# 리노공업 이슈 리포트\n\n## 분석 결과\nopinion: 보유\nconfidence: 0.65\n\n### 1. 핵심 이슈 요약\n리노공업은 최근 코스닥 시장의 전반적인 약세 속에서 반도체 소부장 섹터의 일부 종목으로 언급되며 주가 변동성을 겪고 있다. 특히 최대주주 지분 매각 소식이 주가에 영향을 미쳤으나, AI 반도체 시장의 성장과 견조한 실적 성장세가 주가 회복 가능성에 대한 기대를 형성하고 있다.\n\n### 2. 기업에 미치는 영향\n최근 리노공업은 코스닥 시장의 급락과 함께 11% 이상 급락하는 등 단기적인 주가 하락 압력을 받았다. 이는 지정학적 이슈와 거시적인 시장 상황에 따른 투자 심리 위축과 더불어 최대주주 지분 매각 이슈가 복합적으로 작용한 결과로 보인다. 그러나 AI 반도체 시장의 구조적 성장과 리노공업의 실적 성장세는 이러한 단기적인 수급 충격을 희석시키고 주가 회복의 동력이 될 수 있다.\n\n### 3. 긍정 시그널\n*   **AI 반도체 시장 성장 수혜:** AI 반도체 시장의 지속적인 성장 흐름은 리노공업의 견조한 실적 성장세를 뒷받침할 것으로 예상된다. 이는 주가 회복 가능성에 대한 긍정적인 요인으로 작용한다.\n*   **실적 성장세:** AI 반도체 시장의 성장과 맞물려 리노공업의 실적 성장세가 이어지고 있다는 점은 긍정적인 시그널이다. 관련 실적이 가시화되고 업종의 구조적 성장이 확인된다면 대주주의 지분 매각 이슈는 점차 희석될 가능성이 있다.\n*   **반도체 소부장 섹터 내 포함:** 국민성장펀드 등 일부 펀드에서 반도체 소부장 섹터의 주요 편입 종목으로 리노공업을 언급하고 있어, 기관 투자자들의 관심이 지속되고 있음을 시사한다.\n\n### 4. 부정 시그널/리스크\n*   **최대주주 지분 매각 이슈:** 최대주주 지분 매각 소식이 주가에 부정적인 영향을 미쳤으며, 이는 단기적인 수급 부담으로 작용할 수 있다.\n*   **코스닥 시장 전반의 약세:** 지정학적 이슈와 거시적인 시장 상황으로 인한 코스닥 시장의 전반적인 약세는 개별 기업 이슈에도 투자 심리가 크게 흔들리는 장세를 만들고 있으며, 이는 리노공업 주가에도 영향을 미치고 있다.\n*   **단기 수급 충격:** 블록딜 이후 ETF 시장의 촉각이 언급되는 등 단기적인 수급 충격이 주가에 영향을 미칠 수 있다는 분석이 있다.\n\n### 5. 향후 체크포인트\n*   **AI 반도체 시장의 구체적인 성장 전망 및 리노공업의 수혜 강도:** AI 반도체 시장의 성장세가 리노공업의 실적에 얼마나 구체적으로 반영될지, 그리고 그 수혜 강도가 어느 정도일지 지속적으로 확인할 필요가 있다.\n*   **최대주주 지분 매각의 추가적인 영향 및 시장 반응:** 최대주주 지분 매각이 추가적으로 주가에 미치는 영향과 시장의 반응을 주시해야 한다.\n*   **코스닥 시장 전반의 투자 심리 회복 여부:** 코스닥 시장 전반의 투자 심리가 회복되고 반도체 섹터에 대한 투자 매력이 다시 부각될 수 있을지 여부가 중요하다.\n*   **실적 발표 및 가이던스:** 향후 발표될 실적과 제시될 가이던스가 시장의 기대치를 충족시키는지 여부가 주가 방향성에 중요한 영향을 미칠 것이다.\n",
+    "news_count": 10,
+    "rss_count": 16,
+    "related_keyword_count": 0,
+    "df_news_rows": 139,
+    "llm_error": null,
+    "graph_claims_original": [],
+    "removed_ungrounded_claims": [
+      "리노공업 관련 공개 뉴스 제목: [어제장 오늘장] 코스피 8000 재도전…엔비디아 실적 발표, 변수 될까?",
+      "리노공업 관련 공개 뉴스 제목: [증권 뉴스브리핑] 국민성장펀드, 22일부터 판매/금감원장 \"빚투·레버리...",
+      "리노공업 관련 공개 뉴스 제목: 코스피 8000, 맛만 보고 7400까지 폭삭 주저앉았다",
+      "리노공업 이슈 분석에서 수집된 RSS 항목 수는 16건입니다.",
+      "리노공업 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+      "리노공업 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다."
+    ],
+    "removed_bad_evidence_ids": [
+      "issue.ev.unverified"
+    ]
+  },
+  "packet_version": "grounded_agent_v3",
+  "pre_sanitize_grounding_check": {
+    "score": 0.0,
+    "pass": false,
+    "pass_threshold": 0.75,
+    "claim_count": 6,
+    "supported_count": 0,
+    "unsupported_count": 6,
+    "supported_claims": [],
+    "unsupported_claims": [
+      "리노공업 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+      "리노공업 이슈 분석에서 수집된 RSS 항목 수는 16건입니다.",
+      "리노공업 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다.",
+      "리노공업 관련 공개 뉴스 제목: [증권 뉴스브리핑] 국민성장펀드, 22일부터 판매/금감원장 \"빚투·레버리...",
+      "리노공업 관련 공개 뉴스 제목: [어제장 오늘장] 코스피 8000 재도전…엔비디아 실적 발표, 변수 될까?",
+      "리노공업 관련 공개 뉴스 제목: 코스피 8000, 맛만 보고 7400까지 폭삭 주저앉았다"
+    ],
+    "issues": [
+      "issue.cl.001: evidence와 claim 연결이 약합니다.",
+      "issue.cl.002: evidence와 claim 연결이 약합니다.",
+      "issue.cl.003: evidence와 claim 연결이 약합니다.",
+      "issue.cl.004: 숫자 불일치 또는 누락(number_ratio=0.00)",
+      "issue.cl.005: 숫자 불일치 또는 누락(number_ratio=0.00)",
+      "issue.cl.006: 숫자 불일치 또는 누락(number_ratio=0.00)"
+    ],
+    "claim_results": [
+      {
+        "claim_id": "issue.cl.001",
+        "text": "리노공업 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.002",
+        "text": "리노공업 이슈 분석에서 수집된 RSS 항목 수는 16건입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.003",
+        "text": "리노공업 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.004",
+        "text": "리노공업 관련 공개 뉴스 제목: [증권 뉴스브리핑] 국민성장펀드, 22일부터 판매/금감원장 \"빚투·레버리...",
+        "evidence_ids": [
+          "issue.ev.004"
+        ],
+        "supported": false,
+        "score": 0.25,
+        "number_ratio": 0.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "숫자 불일치 또는 누락(number_ratio=0.00)"
+      },
+      {
+        "claim_id": "issue.cl.005",
+        "text": "리노공업 관련 공개 뉴스 제목: [어제장 오늘장] 코스피 8000 재도전…엔비디아 실적 발표, 변수 될까?",
+        "evidence_ids": [
+          "issue.ev.005"
+        ],
+        "supported": false,
+        "score": 0.25,
+        "number_ratio": 0.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "숫자 불일치 또는 누락(number_ratio=0.00)"
+      },
+      {
+        "claim_id": "issue.cl.006",
+        "text": "리노공업 관련 공개 뉴스 제목: 코스피 8000, 맛만 보고 7400까지 폭삭 주저앉았다",
+        "evidence_ids": [
+          "issue.ev.006"
+        ],
+        "supported": false,
+        "score": 0.25,
+        "number_ratio": 0.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "숫자 불일치 또는 누락(number_ratio=0.00)"
+      }
+    ]
+  },
+  "post_atomic_grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 3,
+    "supported_count": 3,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "news_count 값은 10count입니다.",
+      "rss_count 값은 16count입니다.",
+      "related_keyword_count 값은 0count입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "issue.auto_cl.001",
+        "text": "news_count 값은 10count입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.003",
+        "text": "rss_count 값은 16count입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.005",
+        "text": "related_keyword_count 값은 0count입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  },
+  "grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 3,
+    "supported_count": 3,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "news_count 값은 10count입니다.",
+      "rss_count 값은 16count입니다.",
+      "related_keyword_count 값은 0count입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "issue.auto_cl.001",
+        "text": "news_count 값은 10count입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.003",
+        "text": "rss_count 값은 16count입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.005",
+        "text": "related_keyword_count 값은 0count입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  }
+}

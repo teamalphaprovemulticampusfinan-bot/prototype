@@ -1,0 +1,590 @@
+{
+  "agent": "issue",
+  "company_name": "한미반도체",
+  "company": "한미반도체",
+  "company_dir": "hanmi",
+  "opinion": "보유",
+  "confidence": 0.5,
+  "summary": "한미반도체에 대해 검증 가능한 핵심 근거는 다음과 같습니다. news_count 값은 10count입니다. rss_count 값은 17count입니다. related_keyword_count 값은 1count입니다.",
+  "key_points": [
+    "news_count 값은 10count입니다.",
+    "rss_count 값은 17count입니다.",
+    "related_keyword_count 값은 1count입니다."
+  ],
+  "risks": [],
+  "claims": [
+    {
+      "claim_id": "issue.auto_cl.001",
+      "text": "news_count 값은 10count입니다.",
+      "evidence_ids": [
+        "issue.ev.001"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "issue.auto_cl.003",
+      "text": "rss_count 값은 17count입니다.",
+      "evidence_ids": [
+        "issue.ev.002"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "issue.auto_cl.005",
+      "text": "related_keyword_count 값은 1count입니다.",
+      "evidence_ids": [
+        "issue.ev.003"
+      ],
+      "claim_type": "point"
+    }
+  ],
+  "evidences": [
+    {
+      "evidence_id": "issue.ev.001",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "news_count",
+      "value": 10,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | news_count | 값: 10count"
+    },
+    {
+      "evidence_id": "issue.ev.002",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "rss_count",
+      "value": 17,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | rss_count | 값: 17count"
+    },
+    {
+      "evidence_id": "issue.ev.003",
+      "source_type": "issue",
+      "source": "issue_keywords_workbook",
+      "metric": "related_keyword_count",
+      "value": 1,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_keywords_workbook | related_keyword_count | 값: 1count"
+    },
+    {
+      "evidence_id": "issue.ev.004",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 11:21:00 +0900",
+      "snippet": "Naver News | Tue, 19 May 2026 11:21:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.005",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 16:45:00 +0900",
+      "snippet": "Naver News | Mon, 18 May 2026 16:45:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.006",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 10:02:00 +0900",
+      "snippet": "Naver News | Mon, 18 May 2026 10:02:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.007",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Fri, 15 May 2026 16:51:00 +0900",
+      "snippet": "Naver News | Fri, 15 May 2026 16:51:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.008",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "억원",
+      "period": "Wed, 13 May 2026 14:36:00 +0900",
+      "snippet": "Naver News | Wed, 13 May 2026 14:36:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.009",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:44 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:44 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.010",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:41 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:41 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.011",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:46:28 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:46:28 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.012",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:36:05 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:36:05 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.013",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:24:00 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:24:00 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.014",
+      "source_type": "issue_keyword",
+      "source": "issue_keywords_workbook",
+      "metric": "keyword_row",
+      "value": null,
+      "unit": "건",
+      "period": null,
+      "snippet": "issue_keywords_workbook | keyword_row | 값: 확인 불가"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "issue.ev.001",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "news_count",
+      "value": 10,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | news_count | 값: 10count"
+    },
+    {
+      "evidence_id": "issue.ev.002",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "rss_count",
+      "value": 17,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | rss_count | 값: 17count"
+    },
+    {
+      "evidence_id": "issue.ev.003",
+      "source_type": "issue",
+      "source": "issue_keywords_workbook",
+      "metric": "related_keyword_count",
+      "value": 1,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_keywords_workbook | related_keyword_count | 값: 1count"
+    },
+    {
+      "evidence_id": "issue.ev.004",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 11:21:00 +0900",
+      "snippet": "Naver News | Tue, 19 May 2026 11:21:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.005",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 16:45:00 +0900",
+      "snippet": "Naver News | Mon, 18 May 2026 16:45:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.006",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 10:02:00 +0900",
+      "snippet": "Naver News | Mon, 18 May 2026 10:02:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.007",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Fri, 15 May 2026 16:51:00 +0900",
+      "snippet": "Naver News | Fri, 15 May 2026 16:51:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.008",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "억원",
+      "period": "Wed, 13 May 2026 14:36:00 +0900",
+      "snippet": "Naver News | Wed, 13 May 2026 14:36:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.009",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:44 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:44 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.010",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:41 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:41 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.011",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:46:28 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:46:28 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.012",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:36:05 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:36:05 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.013",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:24:00 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:24:00 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.014",
+      "source_type": "issue_keyword",
+      "source": "issue_keywords_workbook",
+      "metric": "keyword_row",
+      "value": null,
+      "unit": "건",
+      "period": null,
+      "snippet": "issue_keywords_workbook | keyword_row | 값: 확인 불가"
+    }
+  ],
+  "fallback_used": false,
+  "warning_note": "검증 불가 claim 6개를 제거한 뒤 grounding 기준을 재검증했습니다.",
+  "raw_payload": {
+    "analysis_text": "opinion: 보유\nconfidence: 0.65\n\n**1. 핵심 이슈 요약**\n\n한미반도체는 최근 반도체 시장 전반의 변동성 속에서 1분기 잠정 실적을 발표했으며, HBM 관련 투자 및 향후 HBM4용 매출 반영 여부가 시장의 주요 관심사로 부각되고 있습니다. 글로벌 반도체 기업들의 실적 발표와 엔비디아의 실적 발표가 시장의 주요 변수로 작용하고 있으며, 지정학적 이슈와 거시 경제 지표 변화 또한 증시 전반에 영향을 미치고 있습니다.\n\n**2. 기업에 미치는 영향**\n\n최근 한미반도체 주가는 반도체 섹터 전반의 하락세와 함께 조정을 겪었으나, AI 투자 확대 속에서 핵심 장비 기업으로 부상하며 상승 모멘텀을 보이기도 했습니다. 1분기 실적은 매출 509억 200만원, 영업이익 84억 5600만원, 순이익 190억 3200만원을 기록했습니다. HBM3E용 투자가 일단락되고 HBM4용 매출이 아직 반영되지 않은 상황은 단기 실적에 영향을 줄 수 있습니다. 또한, 시장은 단순 실적보다는 '현금의 방향'을 보기 시작했다는 점은 향후 투자 결정에 중요한 요소가 될 수 있습니다.\n\n**3. 긍정 시그널**\n\n*   **AI 투자 확대 수혜:** 전방위적인 AI 투자 확대 속에서 핵심 장비 기업으로 부상하며 주가 상승 모멘텀을 보인 바 있습니다. (뉴스)\n*   **HBM 시장 성장 기대:** HBM 시장의 성장세는 한미반도체에 긍정적인 영향을 미칠 수 있는 잠재력을 가지고 있습니다. (뉴스)\n*   **낮은 부채비율:** 부채비율이 17.8%로 낮아 재무 건전성이 양호한 편입니다. (뉴스)\n\n**4. 부정 시그널/리스크**\n\n*   **반도체 섹터 전반의 변동성:** 마이크론, TSMC 등 주요 반도체 기업 주가 하락 및 국내 증시의 변동성 확대는 한미반도체 주가에도 부정적인 영향을 미치고 있습니다. (뉴스)\n*   **1분기 실적 공백 가능성:** 반도체 장비 기업 대다수가 1분기 실적 공백을 확인했으며, 이는 한미반도체에도 해당될 수 있습니다. (뉴스)\n*   **HBM4용 매출 미반영:** HBM3E용 투자는 일단락되었으나, HBM4용 매출이 아직 반영되지 않아 단기적인 실적 성장 동력에 대한 불확실성이 존재합니다. (뉴스)\n*   **시장 관심사의 변화:** 시장이 단순 실적보다 '현금의 방향'을 보기 시작했다는 점은 향후 투자 결정에 대한 부담으로 작용할 수 있습니다. (뉴스)\n*   **지정학적 이슈 및 거시 경제 지표:** 지정학적 이슈와 거시적인 지표 변화가 증시 하락의 주요 원인으로 분석되어 투자 심리에 부정적인 영향을 미칠 수 있습니다. (뉴스)\n\n**5. 향후 체크포인트**\n\n*   **HBM4 관련 신규 수주 및 매출 발생 시점:** HBM4 관련 투자 및 매출이 언제부터 본격화될지 여부가 향후 실적 성장에 중요한 변수가 될 것입니다.\n*   **AI 관련 투자 확대 추이:** 글로벌 빅테크 기업들의 AI 인프라 투자 확대가 지속될 경우, 한미반도체의 핵심 장비 기업으로서의 수혜가 이어질 수 있습니다.\n*   **시장 현금 흐름 및 투자 방향:** 회사의 현금 흐름이 미래 기술 투자로 이어질지, 혹은 다른 방향으로 사용될지에 대한 시장의 판단을 주시해야 합니다.\n*   **글로벌 반도체 시장 동향:** 메모리 시장의 ASP 변화, 주요 기업들의 실적 발표 결과 등이 한미반도체에 미치는 영향을 지속적으로 모니터링해야 합니다.\n*   **거시 경제 및 지정학적 리스크 변화:** 금리 변동, 지정학적 긴장 완화/고조 등 거시 경제 및 지정학적 요인이 투자 심리에 미치는 영향을 파악해야 합니다.",
+    "markdown_report": "# 한미반도체 이슈 리포트\n\n## 내부 연관 키워드\n\n## 분석 결과\nopinion: 보유\nconfidence: 0.65\n\n**1. 핵심 이슈 요약**\n\n한미반도체는 최근 반도체 시장 전반의 변동성 속에서 1분기 잠정 실적을 발표했으며, HBM 관련 투자 및 향후 HBM4용 매출 반영 여부가 시장의 주요 관심사로 부각되고 있습니다. 글로벌 반도체 기업들의 실적 발표와 엔비디아의 실적 발표가 시장의 주요 변수로 작용하고 있으며, 지정학적 이슈와 거시 경제 지표 변화 또한 증시 전반에 영향을 미치고 있습니다.\n\n**2. 기업에 미치는 영향**\n\n최근 한미반도체 주가는 반도체 섹터 전반의 하락세와 함께 조정을 겪었으나, AI 투자 확대 속에서 핵심 장비 기업으로 부상하며 상승 모멘텀을 보이기도 했습니다. 1분기 실적은 매출 509억 200만원, 영업이익 84억 5600만원, 순이익 190억 3200만원을 기록했습니다. HBM3E용 투자가 일단락되고 HBM4용 매출이 아직 반영되지 않은 상황은 단기 실적에 영향을 줄 수 있습니다. 또한, 시장은 단순 실적보다는 '현금의 방향'을 보기 시작했다는 점은 향후 투자 결정에 중요한 요소가 될 수 있습니다.\n\n**3. 긍정 시그널**\n\n*   **AI 투자 확대 수혜:** 전방위적인 AI 투자 확대 속에서 핵심 장비 기업으로 부상하며 주가 상승 모멘텀을 보인 바 있습니다. (뉴스)\n*   **HBM 시장 성장 기대:** HBM 시장의 성장세는 한미반도체에 긍정적인 영향을 미칠 수 있는 잠재력을 가지고 있습니다. (뉴스)\n*   **낮은 부채비율:** 부채비율이 17.8%로 낮아 재무 건전성이 양호한 편입니다. (뉴스)\n\n**4. 부정 시그널/리스크**\n\n*   **반도체 섹터 전반의 변동성:** 마이크론, TSMC 등 주요 반도체 기업 주가 하락 및 국내 증시의 변동성 확대는 한미반도체 주가에도 부정적인 영향을 미치고 있습니다. (뉴스)\n*   **1분기 실적 공백 가능성:** 반도체 장비 기업 대다수가 1분기 실적 공백을 확인했으며, 이는 한미반도체에도 해당될 수 있습니다. (뉴스)\n*   **HBM4용 매출 미반영:** HBM3E용 투자는 일단락되었으나, HBM4용 매출이 아직 반영되지 않아 단기적인 실적 성장 동력에 대한 불확실성이 존재합니다. (뉴스)\n*   **시장 관심사의 변화:** 시장이 단순 실적보다 '현금의 방향'을 보기 시작했다는 점은 향후 투자 결정에 대한 부담으로 작용할 수 있습니다. (뉴스)\n*   **지정학적 이슈 및 거시 경제 지표:** 지정학적 이슈와 거시적인 지표 변화가 증시 하락의 주요 원인으로 분석되어 투자 심리에 부정적인 영향을 미칠 수 있습니다. (뉴스)\n\n**5. 향후 체크포인트**\n\n*   **HBM4 관련 신규 수주 및 매출 발생 시점:** HBM4 관련 투자 및 매출이 언제부터 본격화될지 여부가 향후 실적 성장에 중요한 변수가 될 것입니다.\n*   **AI 관련 투자 확대 추이:** 글로벌 빅테크 기업들의 AI 인프라 투자 확대가 지속될 경우, 한미반도체의 핵심 장비 기업으로서의 수혜가 이어질 수 있습니다.\n*   **시장 현금 흐름 및 투자 방향:** 회사의 현금 흐름이 미래 기술 투자로 이어질지, 혹은 다른 방향으로 사용될지에 대한 시장의 판단을 주시해야 합니다.\n*   **글로벌 반도체 시장 동향:** 메모리 시장의 ASP 변화, 주요 기업들의 실적 발표 결과 등이 한미반도체에 미치는 영향을 지속적으로 모니터링해야 합니다.\n*   **거시 경제 및 지정학적 리스크 변화:** 금리 변동, 지정학적 긴장 완화/고조 등 거시 경제 및 지정학적 요인이 투자 심리에 미치는 영향을 파악해야 합니다.\n",
+    "news_count": 10,
+    "rss_count": 17,
+    "related_keyword_count": 1,
+    "df_news_rows": 139,
+    "llm_error": null,
+    "graph_claims_original": [],
+    "removed_ungrounded_claims": [
+      "한미반도체 관련 공개 뉴스 제목: [증시 인사이트] 국내증시 변동성 극대화…코스피 '롤러코스터' 장세",
+      "한미반도체 관련 공개 뉴스 제목: [칩칩폭폭] 마이크론 5.95%·TSMC 2.10% 하락… 반도체 주 이틀째 흔들",
+      "한미반도체 관련 공개 뉴스 제목: 한국증시 HBM · CXL주 '장중 뚝'...엔비디아가 변수?",
+      "한미반도체 이슈 분석에서 수집된 RSS 항목 수는 17건입니다.",
+      "한미반도체 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+      "한미반도체 이슈 키워드 엑셀에서 확인된 관련 행 수는 1건입니다."
+    ],
+    "removed_bad_evidence_ids": [
+      "issue.ev.unverified"
+    ]
+  },
+  "packet_version": "grounded_agent_v3",
+  "pre_sanitize_grounding_check": {
+    "score": 0.0,
+    "pass": false,
+    "pass_threshold": 0.75,
+    "claim_count": 6,
+    "supported_count": 0,
+    "unsupported_count": 6,
+    "supported_claims": [],
+    "unsupported_claims": [
+      "한미반도체 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+      "한미반도체 이슈 분석에서 수집된 RSS 항목 수는 17건입니다.",
+      "한미반도체 이슈 키워드 엑셀에서 확인된 관련 행 수는 1건입니다.",
+      "한미반도체 관련 공개 뉴스 제목: [칩칩폭폭] 마이크론 5.95%·TSMC 2.10% 하락… 반도체 주 이틀째 흔들",
+      "한미반도체 관련 공개 뉴스 제목: [증시 인사이트] 국내증시 변동성 극대화…코스피 '롤러코스터' 장세",
+      "한미반도체 관련 공개 뉴스 제목: 한국증시 HBM · CXL주 '장중 뚝'...엔비디아가 변수?"
+    ],
+    "issues": [
+      "issue.cl.001: evidence와 claim 연결이 약합니다.",
+      "issue.cl.002: evidence와 claim 연결이 약합니다.",
+      "issue.cl.003: evidence와 claim 연결이 약합니다.",
+      "issue.cl.004: 숫자 불일치 또는 누락(number_ratio=0.00)",
+      "issue.cl.005: evidence와 claim 연결이 약합니다.",
+      "issue.cl.006: evidence와 claim 연결이 약합니다."
+    ],
+    "claim_results": [
+      {
+        "claim_id": "issue.cl.001",
+        "text": "한미반도체 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.002",
+        "text": "한미반도체 이슈 분석에서 수집된 RSS 항목 수는 17건입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.003",
+        "text": "한미반도체 이슈 키워드 엑셀에서 확인된 관련 행 수는 1건입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.004",
+        "text": "한미반도체 관련 공개 뉴스 제목: [칩칩폭폭] 마이크론 5.95%·TSMC 2.10% 하락… 반도체 주 이틀째 흔들",
+        "evidence_ids": [
+          "issue.ev.004"
+        ],
+        "supported": false,
+        "score": 0.25,
+        "number_ratio": 0.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "숫자 불일치 또는 누락(number_ratio=0.00)"
+      },
+      {
+        "claim_id": "issue.cl.005",
+        "text": "한미반도체 관련 공개 뉴스 제목: [증시 인사이트] 국내증시 변동성 극대화…코스피 '롤러코스터' 장세",
+        "evidence_ids": [
+          "issue.ev.005"
+        ],
+        "supported": false,
+        "score": 0.55,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.006",
+        "text": "한미반도체 관련 공개 뉴스 제목: 한국증시 HBM · CXL주 '장중 뚝'...엔비디아가 변수?",
+        "evidence_ids": [
+          "issue.ev.006"
+        ],
+        "supported": false,
+        "score": 0.55,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      }
+    ]
+  },
+  "post_atomic_grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 3,
+    "supported_count": 3,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "news_count 값은 10count입니다.",
+      "rss_count 값은 17count입니다.",
+      "related_keyword_count 값은 1count입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "issue.auto_cl.001",
+        "text": "news_count 값은 10count입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.003",
+        "text": "rss_count 값은 17count입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.005",
+        "text": "related_keyword_count 값은 1count입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  },
+  "grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 3,
+    "supported_count": 3,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "news_count 값은 10count입니다.",
+      "rss_count 값은 17count입니다.",
+      "related_keyword_count 값은 1count입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "issue.auto_cl.001",
+        "text": "news_count 값은 10count입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.003",
+        "text": "rss_count 값은 17count입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.005",
+        "text": "related_keyword_count 값은 1count입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "agent_name": "finance",
+  "company_name": "한미반도체",
+  "company_dir": "hanmi",
+  "industry_type": "deeptech_semiconductor",
+  "summary": "한미반도체는 2024년 매출이 전년 대비 약 251% 급증하며 폭발적인 성장세를 기록했으나, 2025년에는 성장률이 둔화되는 모습을 보였다. 영업이익률은 2024년 45.7%로 최고치를 기록한 후 2025년에는 43.6%로 소폭 하락했으나 여전히 높은 수준을 유지하고 있다. 주가는 2025년 연수익률 46.27%를 기록하며 견조한 흐름을 보였으나, 최근 1개월간 상당한 변동성과 드로다운을 나타내고 있다.",
+  "key_thesis": [
+    "2024년 매출이 1,590억에서 5,589억으로 약 251% 급증하며 폭발적인 성장세를 달성했다.",
+    "2024년 영업이익률이 45.7%로 크게 개선되었으며, 2025년에도 43.6%로 높은 수준을 유지하고 있다.",
+    "2024년 ROE가 28.2%로 상승했으며, 2025년에도 31.0%로 견조한 수준을 유지하며 높은 수익성을 시현하고 있다.",
+    "2024년 잉여현금흐름(FCF)이 875억으로 크게 증가했으며, 2025년에는 1,348억으로 더욱 확대되었다.",
+    "2025년 부채비율이 17.8%로 크게 감소하며 재무 건전성이 개선되었다.",
+    "2025년 연수익률이 46.27%로 높은 수준을 기록하며 주가 상승 모멘텀을 보여주었다."
+  ],
+  "key_risks": [
+    "2025년 매출 성장률이 3.16%로 2024년의 251% 대비 크게 둔화되었다.",
+    "2025년 영업이익률이 43.6%로 2024년의 45.7% 대비 소폭 하락했다.",
+    "최근 1개월 주가 데이터에서 최대 38.57%의 드로다운이 관찰되어 높은 변동성을 시사한다.",
+    "2025년 연간 MDD가 -52.82%로 높은 수준을 기록하여 투자 위험이 존재한다.",
+    "2025년 이자보상배율이 859.11로 2024년의 21,497 대비 크게 하락하여 이자 지급 능력에 대한 점검이 필요하다.",
+    "연간 MDD -52.82%로 주가 낙폭 리스크를 확인해야 합니다."
+  ],
+  "report_core_points": [
+    "FCF: 한미반도체 2025 기준 FCF 값은 134,891,731,344원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+    "연수익률: 한미반도체 2025 기준 연수익률 값은 46.27%이며, 해당 연도 주가 성과를 보여주는 지표입니다.",
+    "연간 MDD: 한미반도체 2025 기준 연간 MDD 값은 -52.82%이며, 투자자가 경험할 수 있는 최대 낙폭 위험을 보여주는 지표입니다.",
+    "거래량: 한미반도체 2025 기준 거래량 값은 1183024.00주이며, 해당 연도 평균 거래량을 통해 시장 관심과 유동성을 확인하는 지표입니다.",
+    "이동평균 대비 비율: 한미반도체 2025 기준 이동평균 대비 비율 값은 1.05배이며, 거래량이 이동평균 대비 어느 수준인지 보여주는 수급 지표입니다.",
+    "변동성지수: 한미반도체 2025 기준 변동성지수 값은 1620.10이며, 시장 변동성 환경을 함께 확인하기 위한 보조 지표입니다."
+  ],
+  "missing_prompt_metrics": [
+    "매출성장률",
+    "영업이익률",
+    "ROE",
+    "부채비율"
+  ],
+  "evidence": [
+    {
+      "evidence_id": "finance.ev.004",
+      "source_type": "financial_csv",
+      "source": "한미반도체_재무.csv",
+      "metric": "fcf",
+      "label": "FCF",
+      "value": 134891731344.0,
+      "unit": "원",
+      "period": "2025",
+      "snippet": "한미반도체 2025 기준 FCF 값은 134,891,731,344원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.007",
+      "source_type": "stock_csv",
+      "source": "한미반도체_주식.csv",
+      "metric": "annual_return_%",
+      "label": "연수익률",
+      "value": 46.27,
+      "unit": "%",
+      "period": "2025",
+      "snippet": "한미반도체 2025 기준 연수익률 값은 46.27%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.008",
+      "source_type": "stock_csv",
+      "source": "한미반도체_주식.csv",
+      "metric": "annual_mdd_%",
+      "label": "연간 MDD",
+      "value": -52.82,
+      "unit": "%",
+      "period": "2025",
+      "snippet": "한미반도체 2025 기준 연간 MDD 값은 -52.82%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.009",
+      "source_type": "stock_csv",
+      "source": "한미반도체_주식.csv",
+      "metric": "volume_mean",
+      "label": "거래량",
+      "value": 1183024.0,
+      "unit": "주",
+      "period": "2025",
+      "snippet": "한미반도체 2025 기준 거래량 값은 1183024주입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.010",
+      "source_type": "stock_csv",
+      "source": "한미반도체_주식.csv",
+      "metric": "volume_ma_ratio_mean",
+      "label": "이동평균 대비 비율",
+      "value": 1.0549,
+      "unit": "배",
+      "period": "2025",
+      "snippet": "한미반도체 2025 기준 이동평균 대비 비율 값은 1.0549배입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.011",
+      "source_type": "stock_csv",
+      "source": "한미반도체_주식.csv",
+      "metric": "vkospi_mean",
+      "label": "변동성지수",
+      "value": 1620.1,
+      "unit": null,
+      "period": "2025",
+      "snippet": "한미반도체 2025 기준 변동성지수 값은 1620.10입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.012",
+      "source_type": "stock_csv",
+      "source": "한미반도체_주식.csv",
+      "metric": "latest_close",
+      "label": "최근 종가",
+      "value": 127400.0,
+      "unit": "원",
+      "period": "2025-12-30",
+      "snippet": "한미반도체 2025-12-30 최근 종가 값은 127,400원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.013",
+      "source_type": "warning_stock_csv",
+      "source": "투자경고종목.csv",
+      "metric": "warning_stock",
+      "label": "투자경고 여부",
+      "value": 0.0,
+      "unit": null,
+      "period": "최근",
+      "snippet": "한미반도체 투자경고종목 해당 여부 값은 0입니다.",
+      "prompt_rationale": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "finance.safe_cl.004",
+      "text": "한미반도체 2025 기준 FCF 값은 134,891,731,344원입니다.",
+      "evidence_ids": [
+        "finance.ev.004"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.007",
+      "text": "한미반도체 2025 기준 연수익률 값은 46.27%입니다.",
+      "evidence_ids": [
+        "finance.ev.007"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.008",
+      "text": "한미반도체 2025 기준 연간 MDD 값은 -52.82%입니다.",
+      "evidence_ids": [
+        "finance.ev.008"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.009",
+      "text": "한미반도체 2025 기준 거래량 값은 1183024주입니다.",
+      "evidence_ids": [
+        "finance.ev.009"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.010",
+      "text": "한미반도체 2025 기준 이동평균 대비 비율 값은 1.0549배입니다.",
+      "evidence_ids": [
+        "finance.ev.010"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.011",
+      "text": "한미반도체 2025 기준 변동성지수 값은 1620.10입니다.",
+      "evidence_ids": [
+        "finance.ev.011"
+      ],
+      "audit_safe": true
+    }
+  ],
+  "warning_note": null,
+  "source_contexts": [
+    "financial_csv=한미반도체_재무.csv",
+    "stock_csv=한미반도체_주식.csv",
+    "warning_stock_csv=투자경고종목.csv",
+    "prompts.py summary/key_thesis/key_risks are preserved in the Chair View where available.",
+    "First Auditor claims are CSV-grounded one-to-one evidence claims for stable actual-information verification.",
+    "필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율"
+  ],
+  "raw_payload": {
+    "latest_financial_row": {
+      "year": 2025,
+      "sales": 576684619527.0,
+      "operating_income": 251390142142.0,
+      "net_income": 214007548411.0,
+      "total_assets": 813331626120.0,
+      "total_liabilities": 123004106583.0,
+      "total_equity": 690327519537.0,
+      "rnd": 18052000000,
+      "capex": 93735028436,
+      "ocf": 228626759780,
+      "fcf": 134891731344,
+      "interest": 292615678.0,
+      "ROE": 31.000871666616163,
+      "영업이익률": 43.59230914606178,
+      "부채비율": 17.818224408248764,
+      "이자보상배율": 859.1137148228947
+    },
+    "latest_stock_metric": {
+      "year": 2025,
+      "annual_return_%": 46.27,
+      "annual_mdd_%": -52.82
+    },
+    "latest_yearly_summary": {
+      "year": 2025,
+      "close_start": 87100.0,
+      "close_end": 127400.0,
+      "close_high": 151500.0,
+      "close_low": 59500.0,
+      "volume_mean": 1183024.0,
+      "volume_ma_ratio_mean": 1.0549,
+      "vkospi_mean": 1620.1
+    },
+    "latest_recent_stock_row": {
+      "Date": "2025-12-30",
+      "Open": 130400,
+      "High": 131800,
+      "Low": 126700,
+      "Close": 127400,
+      "Volume": 1589454,
+      "Change": -0.023006135,
+      "VIX": 14.32999992,
+      "VKOSPI": 2432.16,
+      "일수익률_%": -2.300613497,
+      "누적최고가": 189000,
+      "드로다운_%": -32.59259259,
+      "거래량_20일평균": 1182036.2,
+      "거래량_이동평균대비비율": 1.344674554,
+      "기간MDD_%": -68.51851852
+    },
+    "audit_policy": "prompts_py_used_for_interpretation_claims_grounded_by_local_csv"
+  },
+  "packet_version": "finance_prompts_grounded_v4_compact"
+}

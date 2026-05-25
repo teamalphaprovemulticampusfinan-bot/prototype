@@ -1,0 +1,1447 @@
+{
+  "feature_name": "technology_lifecycle",
+  "created_at": "2026-05-20T03:41:52",
+  "field": "반도체",
+  "company_dir": "nepes",
+  "company": "네패스",
+  "source_patent_csv": "data\\반도체\\네패스\\tech\\nepes_kipris_bibliographic_normalized.csv",
+  "recent_window_years": 3,
+  "baseline_window_years": 5,
+  "keyword_aliases": {
+    "advanced_packaging": [
+      "advanced packaging",
+      "첨단패키징",
+      "고급패키징",
+      "패키징",
+      "package",
+      "packaging",
+      "패키지"
+    ],
+    "hbm_ai_memory": [
+      "HBM",
+      "고대역폭",
+      "AI memory",
+      "AI 메모리",
+      "memory",
+      "메모리"
+    ],
+    "fan_out_wlp": [
+      "fan-out",
+      "fanout",
+      "FOWLP",
+      "WLP",
+      "wafer level",
+      "웨이퍼 레벨",
+      "팬아웃"
+    ],
+    "bump_rdl_interposer": [
+      "bump",
+      "범프",
+      "RDL",
+      "재배선",
+      "interposer",
+      "인터포저",
+      "substrate",
+      "기판"
+    ],
+    "semiconductor_test": [
+      "test",
+      "테스트",
+      "검사",
+      "probe",
+      "프로브",
+      "socket",
+      "소켓",
+      "burn-in",
+      "번인"
+    ],
+    "semiconductor_materials": [
+      "전구체",
+      "precursor",
+      "photoresist",
+      "포토레지스트",
+      "etchant",
+      "식각",
+      "CMP",
+      "slurry",
+      "슬러리",
+      "소재"
+    ],
+    "process_yield_quality": [
+      "수율",
+      "yield",
+      "불량",
+      "defect",
+      "reliability",
+      "신뢰성",
+      "공정",
+      "process"
+    ],
+    "power_thermal_efficiency": [
+      "전력",
+      "power",
+      "thermal",
+      "열",
+      "방열",
+      "heat",
+      "효율",
+      "efficiency"
+    ]
+  },
+  "status": "OK",
+  "patent_row_count": 420,
+  "year_range": {
+    "start": 1998,
+    "end": 2025
+  },
+  "recent_window": {
+    "start": 2023,
+    "end": 2025
+  },
+  "baseline_window": {
+    "start": 2018,
+    "end": 2022
+  },
+  "overall_lifecycle_stage": "DECLINE_OR_SHIFT",
+  "overall_lifecycle_score": 30.24,
+  "summary": "advanced_packaging, bump_rdl_interposer, power_thermal_efficiency 관련 최근 출원 밀도가 약해져 쇠퇴 또는 차세대 기술 전환 가능성을 점검해야 합니다.",
+  "top_lifecycle_keywords": [
+    {
+      "keyword": "advanced_packaging",
+      "aliases": [
+        "advanced packaging",
+        "첨단패키징",
+        "고급패키징",
+        "패키징",
+        "package",
+        "packaging",
+        "패키지"
+      ],
+      "total_patent_count": 204,
+      "first_application_year": 2001,
+      "latest_application_year": 2025,
+      "recent_count": 20,
+      "baseline_count": 90,
+      "recent_avg_per_year": 6.667,
+      "baseline_avg_per_year": 18.0,
+      "trend_ratio_recent_vs_baseline": 0.37,
+      "lifecycle_stage": "DECLINE_OR_SHIFT",
+      "lifecycle_score": 30.0,
+      "reason": "과거 대비 최근 출원 밀도가 약해져 쇠퇴 또는 기술 전환 신호로 분류합니다.",
+      "recent_patent_examples": [
+        {
+          "year": 2025,
+          "title": "반도체 패키지",
+          "application_number": "1020250205369"
+        },
+        {
+          "year": 2024,
+          "title": "반도체 패키지의 제조 방법",
+          "application_number": "1020240090477"
+        },
+        {
+          "year": 2024,
+          "title": "반도체 패키지",
+          "application_number": "1020240019554"
+        },
+        {
+          "year": 2024,
+          "title": "반도체 패키지",
+          "application_number": "1020240084467"
+        },
+        {
+          "year": 2024,
+          "title": "반도체 패키지",
+          "application_number": "1020240133634"
+        }
+      ]
+    },
+    {
+      "keyword": "bump_rdl_interposer",
+      "aliases": [
+        "bump",
+        "범프",
+        "RDL",
+        "재배선",
+        "interposer",
+        "인터포저",
+        "substrate",
+        "기판"
+      ],
+      "total_patent_count": 175,
+      "first_application_year": 1998,
+      "latest_application_year": 2025,
+      "recent_count": 18,
+      "baseline_count": 68,
+      "recent_avg_per_year": 6.0,
+      "baseline_avg_per_year": 13.6,
+      "trend_ratio_recent_vs_baseline": 0.441,
+      "lifecycle_stage": "DECLINE_OR_SHIFT",
+      "lifecycle_score": 30.0,
+      "reason": "과거 대비 최근 출원 밀도가 약해져 쇠퇴 또는 기술 전환 신호로 분류합니다.",
+      "recent_patent_examples": [
+        {
+          "year": 2025,
+          "title": "반도체 패키지",
+          "application_number": "1020250205369"
+        },
+        {
+          "year": 2024,
+          "title": "반도체 패키지",
+          "application_number": "1020240019554"
+        },
+        {
+          "year": 2024,
+          "title": "반도체 패키지",
+          "application_number": "1020240133634"
+        },
+        {
+          "year": 2024,
+          "title": "반도체 패키지의 제조 방법",
+          "application_number": "1020240090477"
+        },
+        {
+          "year": 2024,
+          "title": "반도체 패키지",
+          "application_number": "1020240043105"
+        }
+      ]
+    },
+    {
+      "keyword": "power_thermal_efficiency",
+      "aliases": [
+        "전력",
+        "power",
+        "thermal",
+        "열",
+        "방열",
+        "heat",
+        "효율",
+        "efficiency"
+      ],
+      "total_patent_count": 78,
+      "first_application_year": 1998,
+      "latest_application_year": 2024,
+      "recent_count": 2,
+      "baseline_count": 29,
+      "recent_avg_per_year": 0.667,
+      "baseline_avg_per_year": 5.8,
+      "trend_ratio_recent_vs_baseline": 0.115,
+      "lifecycle_stage": "DECLINE_OR_SHIFT",
+      "lifecycle_score": 30.0,
+      "reason": "과거 대비 최근 출원 밀도가 약해져 쇠퇴 또는 기술 전환 신호로 분류합니다.",
+      "recent_patent_examples": [
+        {
+          "year": 2024,
+          "title": "배터리 화재 전파 차단용 스틱 및 이를 포함하는 배터리 모듈",
+          "application_number": "1020240047565"
+        },
+        {
+          "year": 2023,
+          "title": "반도체 패키지 및 그 제조 방법",
+          "application_number": "1020230139880"
+        },
+        {
+          "year": 2022,
+          "title": "차열필름 및 이를 포함하는 가변 윈도우",
+          "application_number": "1020220119266"
+        },
+        {
+          "year": 2022,
+          "title": "엣지 디바이스에서 인공지능 가속기와 통신 모뎀을 효율적으로 운용하기 위한 전자 장치",
+          "application_number": "1020220150982"
+        },
+        {
+          "year": 2022,
+          "title": "차열필름 및 이를 포함하는 가변 윈도우",
+          "application_number": "1020220119262"
+        }
+      ]
+    },
+    {
+      "keyword": "process_yield_quality",
+      "aliases": [
+        "수율",
+        "yield",
+        "불량",
+        "defect",
+        "reliability",
+        "신뢰성",
+        "공정",
+        "process"
+      ],
+      "total_patent_count": 72,
+      "first_application_year": 1998,
+      "latest_application_year": 2024,
+      "recent_count": 2,
+      "baseline_count": 8,
+      "recent_avg_per_year": 0.667,
+      "baseline_avg_per_year": 1.6,
+      "trend_ratio_recent_vs_baseline": 0.417,
+      "lifecycle_stage": "DECLINE_OR_SHIFT",
+      "lifecycle_score": 30.0,
+      "reason": "과거 대비 최근 출원 밀도가 약해져 쇠퇴 또는 기술 전환 신호로 분류합니다.",
+      "recent_patent_examples": [
+        {
+          "year": 2024,
+          "title": "웨이퍼 경향에 따른 불량 확인 장치 및 방법",
+          "application_number": "1020240122932"
+        },
+        {
+          "year": 2023,
+          "title": "이차 전지용 리드 탭의 검사 방법, 장치 및 시스템",
+          "application_number": "1020230088357"
+        },
+        {
+          "year": 2022,
+          "title": "반도체 패키지",
+          "application_number": "1020220165971"
+        },
+        {
+          "year": 2022,
+          "title": "반도체 패키지",
+          "application_number": "1020220168091"
+        },
+        {
+          "year": 2021,
+          "title": "미세먼지 필터용 다공성부재 및 바이러스 비활성화 필터용 다공성부재",
+          "application_number": "1020210023998"
+        }
+      ]
+    },
+    {
+      "keyword": "semiconductor_test",
+      "aliases": [
+        "test",
+        "테스트",
+        "검사",
+        "probe",
+        "프로브",
+        "socket",
+        "소켓",
+        "burn-in",
+        "번인"
+      ],
+      "total_patent_count": 13,
+      "first_application_year": 2007,
+      "latest_application_year": 2023,
+      "recent_count": 1,
+      "baseline_count": 7,
+      "recent_avg_per_year": 0.333,
+      "baseline_avg_per_year": 1.4,
+      "trend_ratio_recent_vs_baseline": 0.238,
+      "lifecycle_stage": "DECLINE_OR_SHIFT",
+      "lifecycle_score": 30.0,
+      "reason": "과거 대비 최근 출원 밀도가 약해져 쇠퇴 또는 기술 전환 신호로 분류합니다.",
+      "recent_patent_examples": [
+        {
+          "year": 2023,
+          "title": "이차 전지용 리드 탭의 검사 방법, 장치 및 시스템",
+          "application_number": "1020230088357"
+        },
+        {
+          "year": 2022,
+          "title": "반도체 소자의 성능 테스트에 대한 모니터링을 수행하는 전자장치 및 방법",
+          "application_number": "1020220162458"
+        },
+        {
+          "year": 2022,
+          "title": "반도체 소자의 성능 테스트에 대한 모니터링을 수행하는 전자장치 및 방법",
+          "application_number": "1020220162459"
+        },
+        {
+          "year": 2022,
+          "title": "광투과성 필름 융착부의 비파괴 검사장치, 이의 제어방법 및 이를 포함하는 리드 탭 제조 시스템",
+          "application_number": "1020220119531"
+        },
+        {
+          "year": 2022,
+          "title": "반도체 패키지 및 반도체 패키지 제조 방법",
+          "application_number": "1020220112349"
+        }
+      ]
+    }
+  ],
+  "keyword_trends": [
+    {
+      "keyword": "advanced_packaging",
+      "aliases": [
+        "advanced packaging",
+        "첨단패키징",
+        "고급패키징",
+        "패키징",
+        "package",
+        "packaging",
+        "패키지"
+      ],
+      "total_patent_count": 204,
+      "first_application_year": 2001,
+      "latest_application_year": 2025,
+      "recent_count": 20,
+      "baseline_count": 90,
+      "recent_avg_per_year": 6.667,
+      "baseline_avg_per_year": 18.0,
+      "trend_ratio_recent_vs_baseline": 0.37,
+      "lifecycle_stage": "DECLINE_OR_SHIFT",
+      "lifecycle_score": 30.0,
+      "reason": "과거 대비 최근 출원 밀도가 약해져 쇠퇴 또는 기술 전환 신호로 분류합니다.",
+      "recent_patent_examples": [
+        {
+          "year": 2025,
+          "title": "반도체 패키지",
+          "application_number": "1020250205369"
+        },
+        {
+          "year": 2024,
+          "title": "반도체 패키지의 제조 방법",
+          "application_number": "1020240090477"
+        },
+        {
+          "year": 2024,
+          "title": "반도체 패키지",
+          "application_number": "1020240019554"
+        },
+        {
+          "year": 2024,
+          "title": "반도체 패키지",
+          "application_number": "1020240084467"
+        },
+        {
+          "year": 2024,
+          "title": "반도체 패키지",
+          "application_number": "1020240133634"
+        }
+      ]
+    },
+    {
+      "keyword": "hbm_ai_memory",
+      "aliases": [
+        "HBM",
+        "고대역폭",
+        "AI memory",
+        "AI 메모리",
+        "memory",
+        "메모리"
+      ],
+      "total_patent_count": 5,
+      "first_application_year": 2007,
+      "latest_application_year": 2024,
+      "recent_count": 1,
+      "baseline_count": 3,
+      "recent_avg_per_year": 0.333,
+      "baseline_avg_per_year": 0.6,
+      "trend_ratio_recent_vs_baseline": 0.556,
+      "lifecycle_stage": "DECLINE_OR_SHIFT",
+      "lifecycle_score": 30.0,
+      "reason": "과거 대비 최근 출원 밀도가 약해져 쇠퇴 또는 기술 전환 신호로 분류합니다.",
+      "recent_patent_examples": [
+        {
+          "year": 2024,
+          "title": "웨이퍼 경향에 따른 불량 확인 장치 및 방법",
+          "application_number": "1020240122932"
+        },
+        {
+          "year": 2022,
+          "title": "이미지 스케일링 장치 및 이미지 스케일링 방법",
+          "application_number": "1020220081126"
+        },
+        {
+          "year": 2022,
+          "title": "인공신경망 가속기를 이용한 위급 상황 탐지 장치 및 방법",
+          "application_number": "1020220150983"
+        },
+        {
+          "year": 2021,
+          "title": "메모리 액세스를 최소화하는 컨벌루션 뉴럴 네트워크 가속기 장치",
+          "application_number": "1020210180570"
+        },
+        {
+          "year": 2007,
+          "title": "웨이퍼 레벨 시스템 인 패키지 및 그 제조 방법",
+          "application_number": "1020070006413"
+        }
+      ]
+    },
+    {
+      "keyword": "fan_out_wlp",
+      "aliases": [
+        "fan-out",
+        "fanout",
+        "FOWLP",
+        "WLP",
+        "wafer level",
+        "웨이퍼 레벨",
+        "팬아웃"
+      ],
+      "total_patent_count": 14,
+      "first_application_year": 2006,
+      "latest_application_year": 2016,
+      "recent_count": 0,
+      "baseline_count": 0,
+      "recent_avg_per_year": 0.0,
+      "baseline_avg_per_year": 0.0,
+      "trend_ratio_recent_vs_baseline": null,
+      "lifecycle_stage": "UNCERTAIN",
+      "lifecycle_score": 40.0,
+      "reason": "출원 추세만으로 수명주기 단계를 단정하기 어렵습니다.",
+      "recent_patent_examples": [
+        {
+          "year": 2016,
+          "title": "반도체 패키지 및 그 제조방법",
+          "application_number": "1020160041141"
+        },
+        {
+          "year": 2015,
+          "title": "시스템 인 패키지 및 이의 제조방법",
+          "application_number": "1020150047466"
+        },
+        {
+          "year": 2015,
+          "title": "반도체 패키지 및 그 제조방법",
+          "application_number": "1020150125442"
+        },
+        {
+          "year": 2015,
+          "title": "반도체 패키지 및 그 제조방법",
+          "application_number": "1020150125443"
+        },
+        {
+          "year": 2013,
+          "title": "반도체 패키지 및 그 제조방법",
+          "application_number": "1020130167309"
+        }
+      ]
+    },
+    {
+      "keyword": "bump_rdl_interposer",
+      "aliases": [
+        "bump",
+        "범프",
+        "RDL",
+        "재배선",
+        "interposer",
+        "인터포저",
+        "substrate",
+        "기판"
+      ],
+      "total_patent_count": 175,
+      "first_application_year": 1998,
+      "latest_application_year": 2025,
+      "recent_count": 18,
+      "baseline_count": 68,
+      "recent_avg_per_year": 6.0,
+      "baseline_avg_per_year": 13.6,
+      "trend_ratio_recent_vs_baseline": 0.441,
+      "lifecycle_stage": "DECLINE_OR_SHIFT",
+      "lifecycle_score": 30.0,
+      "reason": "과거 대비 최근 출원 밀도가 약해져 쇠퇴 또는 기술 전환 신호로 분류합니다.",
+      "recent_patent_examples": [
+        {
+          "year": 2025,
+          "title": "반도체 패키지",
+          "application_number": "1020250205369"
+        },
+        {
+          "year": 2024,
+          "title": "반도체 패키지",
+          "application_number": "1020240019554"
+        },
+        {
+          "year": 2024,
+          "title": "반도체 패키지",
+          "application_number": "1020240133634"
+        },
+        {
+          "year": 2024,
+          "title": "반도체 패키지의 제조 방법",
+          "application_number": "1020240090477"
+        },
+        {
+          "year": 2024,
+          "title": "반도체 패키지",
+          "application_number": "1020240043105"
+        }
+      ]
+    },
+    {
+      "keyword": "semiconductor_test",
+      "aliases": [
+        "test",
+        "테스트",
+        "검사",
+        "probe",
+        "프로브",
+        "socket",
+        "소켓",
+        "burn-in",
+        "번인"
+      ],
+      "total_patent_count": 13,
+      "first_application_year": 2007,
+      "latest_application_year": 2023,
+      "recent_count": 1,
+      "baseline_count": 7,
+      "recent_avg_per_year": 0.333,
+      "baseline_avg_per_year": 1.4,
+      "trend_ratio_recent_vs_baseline": 0.238,
+      "lifecycle_stage": "DECLINE_OR_SHIFT",
+      "lifecycle_score": 30.0,
+      "reason": "과거 대비 최근 출원 밀도가 약해져 쇠퇴 또는 기술 전환 신호로 분류합니다.",
+      "recent_patent_examples": [
+        {
+          "year": 2023,
+          "title": "이차 전지용 리드 탭의 검사 방법, 장치 및 시스템",
+          "application_number": "1020230088357"
+        },
+        {
+          "year": 2022,
+          "title": "반도체 소자의 성능 테스트에 대한 모니터링을 수행하는 전자장치 및 방법",
+          "application_number": "1020220162458"
+        },
+        {
+          "year": 2022,
+          "title": "반도체 소자의 성능 테스트에 대한 모니터링을 수행하는 전자장치 및 방법",
+          "application_number": "1020220162459"
+        },
+        {
+          "year": 2022,
+          "title": "광투과성 필름 융착부의 비파괴 검사장치, 이의 제어방법 및 이를 포함하는 리드 탭 제조 시스템",
+          "application_number": "1020220119531"
+        },
+        {
+          "year": 2022,
+          "title": "반도체 패키지 및 반도체 패키지 제조 방법",
+          "application_number": "1020220112349"
+        }
+      ]
+    },
+    {
+      "keyword": "semiconductor_materials",
+      "aliases": [
+        "전구체",
+        "precursor",
+        "photoresist",
+        "포토레지스트",
+        "etchant",
+        "식각",
+        "CMP",
+        "slurry",
+        "슬러리",
+        "소재"
+      ],
+      "total_patent_count": 23,
+      "first_application_year": 1998,
+      "latest_application_year": 2022,
+      "recent_count": 0,
+      "baseline_count": 4,
+      "recent_avg_per_year": 0.0,
+      "baseline_avg_per_year": 0.8,
+      "trend_ratio_recent_vs_baseline": 0.0,
+      "lifecycle_stage": "DECLINE_OR_SHIFT",
+      "lifecycle_score": 30.0,
+      "reason": "과거 대비 최근 출원 밀도가 약해져 쇠퇴 또는 기술 전환 신호로 분류합니다.",
+      "recent_patent_examples": [
+        {
+          "year": 2022,
+          "title": "반도체 패키지 및 반도체 패키지 제조방법",
+          "application_number": "1020220180979"
+        },
+        {
+          "year": 2022,
+          "title": "광투과성 필름 융착부의 비파괴 검사장치, 이의 제어방법 및 이를 포함하는 리드 탭 제조 시스템",
+          "application_number": "1020220119531"
+        },
+        {
+          "year": 2021,
+          "title": "네거티브형 감광성 수지 전구체 및 조성물, 이를 이용한 층간 절연막의 제조방법 및 반도체 부품",
+          "application_number": "1020210113943"
+        },
+        {
+          "year": 2020,
+          "title": "패널 수납용기의 구조물",
+          "application_number": "1020200168964"
+        },
+        {
+          "year": 2017,
+          "title": "재배선층을 가지는 반도체 패키지 및 이의 제조방법",
+          "application_number": "1020170031359"
+        }
+      ]
+    },
+    {
+      "keyword": "process_yield_quality",
+      "aliases": [
+        "수율",
+        "yield",
+        "불량",
+        "defect",
+        "reliability",
+        "신뢰성",
+        "공정",
+        "process"
+      ],
+      "total_patent_count": 72,
+      "first_application_year": 1998,
+      "latest_application_year": 2024,
+      "recent_count": 2,
+      "baseline_count": 8,
+      "recent_avg_per_year": 0.667,
+      "baseline_avg_per_year": 1.6,
+      "trend_ratio_recent_vs_baseline": 0.417,
+      "lifecycle_stage": "DECLINE_OR_SHIFT",
+      "lifecycle_score": 30.0,
+      "reason": "과거 대비 최근 출원 밀도가 약해져 쇠퇴 또는 기술 전환 신호로 분류합니다.",
+      "recent_patent_examples": [
+        {
+          "year": 2024,
+          "title": "웨이퍼 경향에 따른 불량 확인 장치 및 방법",
+          "application_number": "1020240122932"
+        },
+        {
+          "year": 2023,
+          "title": "이차 전지용 리드 탭의 검사 방법, 장치 및 시스템",
+          "application_number": "1020230088357"
+        },
+        {
+          "year": 2022,
+          "title": "반도체 패키지",
+          "application_number": "1020220165971"
+        },
+        {
+          "year": 2022,
+          "title": "반도체 패키지",
+          "application_number": "1020220168091"
+        },
+        {
+          "year": 2021,
+          "title": "미세먼지 필터용 다공성부재 및 바이러스 비활성화 필터용 다공성부재",
+          "application_number": "1020210023998"
+        }
+      ]
+    },
+    {
+      "keyword": "power_thermal_efficiency",
+      "aliases": [
+        "전력",
+        "power",
+        "thermal",
+        "열",
+        "방열",
+        "heat",
+        "효율",
+        "efficiency"
+      ],
+      "total_patent_count": 78,
+      "first_application_year": 1998,
+      "latest_application_year": 2024,
+      "recent_count": 2,
+      "baseline_count": 29,
+      "recent_avg_per_year": 0.667,
+      "baseline_avg_per_year": 5.8,
+      "trend_ratio_recent_vs_baseline": 0.115,
+      "lifecycle_stage": "DECLINE_OR_SHIFT",
+      "lifecycle_score": 30.0,
+      "reason": "과거 대비 최근 출원 밀도가 약해져 쇠퇴 또는 기술 전환 신호로 분류합니다.",
+      "recent_patent_examples": [
+        {
+          "year": 2024,
+          "title": "배터리 화재 전파 차단용 스틱 및 이를 포함하는 배터리 모듈",
+          "application_number": "1020240047565"
+        },
+        {
+          "year": 2023,
+          "title": "반도체 패키지 및 그 제조 방법",
+          "application_number": "1020230139880"
+        },
+        {
+          "year": 2022,
+          "title": "차열필름 및 이를 포함하는 가변 윈도우",
+          "application_number": "1020220119266"
+        },
+        {
+          "year": 2022,
+          "title": "엣지 디바이스에서 인공지능 가속기와 통신 모뎀을 효율적으로 운용하기 위한 전자 장치",
+          "application_number": "1020220150982"
+        },
+        {
+          "year": 2022,
+          "title": "차열필름 및 이를 포함하는 가변 윈도우",
+          "application_number": "1020220119262"
+        }
+      ]
+    }
+  ],
+  "annual_trend_rows": [
+    {
+      "keyword": "advanced_packaging",
+      "year": 2001,
+      "patent_application_count": 2
+    },
+    {
+      "keyword": "advanced_packaging",
+      "year": 2003,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "advanced_packaging",
+      "year": 2004,
+      "patent_application_count": 2
+    },
+    {
+      "keyword": "advanced_packaging",
+      "year": 2005,
+      "patent_application_count": 2
+    },
+    {
+      "keyword": "advanced_packaging",
+      "year": 2006,
+      "patent_application_count": 7
+    },
+    {
+      "keyword": "advanced_packaging",
+      "year": 2007,
+      "patent_application_count": 10
+    },
+    {
+      "keyword": "advanced_packaging",
+      "year": 2008,
+      "patent_application_count": 2
+    },
+    {
+      "keyword": "advanced_packaging",
+      "year": 2009,
+      "patent_application_count": 3
+    },
+    {
+      "keyword": "advanced_packaging",
+      "year": 2010,
+      "patent_application_count": 6
+    },
+    {
+      "keyword": "advanced_packaging",
+      "year": 2011,
+      "patent_application_count": 9
+    },
+    {
+      "keyword": "advanced_packaging",
+      "year": 2012,
+      "patent_application_count": 10
+    },
+    {
+      "keyword": "advanced_packaging",
+      "year": 2013,
+      "patent_application_count": 7
+    },
+    {
+      "keyword": "advanced_packaging",
+      "year": 2014,
+      "patent_application_count": 5
+    },
+    {
+      "keyword": "advanced_packaging",
+      "year": 2015,
+      "patent_application_count": 4
+    },
+    {
+      "keyword": "advanced_packaging",
+      "year": 2016,
+      "patent_application_count": 10
+    },
+    {
+      "keyword": "advanced_packaging",
+      "year": 2017,
+      "patent_application_count": 14
+    },
+    {
+      "keyword": "advanced_packaging",
+      "year": 2018,
+      "patent_application_count": 18
+    },
+    {
+      "keyword": "advanced_packaging",
+      "year": 2019,
+      "patent_application_count": 12
+    },
+    {
+      "keyword": "advanced_packaging",
+      "year": 2020,
+      "patent_application_count": 12
+    },
+    {
+      "keyword": "advanced_packaging",
+      "year": 2021,
+      "patent_application_count": 29
+    },
+    {
+      "keyword": "advanced_packaging",
+      "year": 2022,
+      "patent_application_count": 19
+    },
+    {
+      "keyword": "advanced_packaging",
+      "year": 2023,
+      "patent_application_count": 12
+    },
+    {
+      "keyword": "advanced_packaging",
+      "year": 2024,
+      "patent_application_count": 7
+    },
+    {
+      "keyword": "advanced_packaging",
+      "year": 2025,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "hbm_ai_memory",
+      "year": 2007,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "hbm_ai_memory",
+      "year": 2021,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "hbm_ai_memory",
+      "year": 2022,
+      "patent_application_count": 2
+    },
+    {
+      "keyword": "hbm_ai_memory",
+      "year": 2024,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "fan_out_wlp",
+      "year": 2006,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "fan_out_wlp",
+      "year": 2007,
+      "patent_application_count": 6
+    },
+    {
+      "keyword": "fan_out_wlp",
+      "year": 2008,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "fan_out_wlp",
+      "year": 2010,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "fan_out_wlp",
+      "year": 2013,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "fan_out_wlp",
+      "year": 2015,
+      "patent_application_count": 3
+    },
+    {
+      "keyword": "fan_out_wlp",
+      "year": 2016,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "bump_rdl_interposer",
+      "year": 1998,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "bump_rdl_interposer",
+      "year": 2001,
+      "patent_application_count": 3
+    },
+    {
+      "keyword": "bump_rdl_interposer",
+      "year": 2002,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "bump_rdl_interposer",
+      "year": 2004,
+      "patent_application_count": 2
+    },
+    {
+      "keyword": "bump_rdl_interposer",
+      "year": 2005,
+      "patent_application_count": 2
+    },
+    {
+      "keyword": "bump_rdl_interposer",
+      "year": 2006,
+      "patent_application_count": 6
+    },
+    {
+      "keyword": "bump_rdl_interposer",
+      "year": 2007,
+      "patent_application_count": 15
+    },
+    {
+      "keyword": "bump_rdl_interposer",
+      "year": 2008,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "bump_rdl_interposer",
+      "year": 2009,
+      "patent_application_count": 4
+    },
+    {
+      "keyword": "bump_rdl_interposer",
+      "year": 2010,
+      "patent_application_count": 4
+    },
+    {
+      "keyword": "bump_rdl_interposer",
+      "year": 2011,
+      "patent_application_count": 8
+    },
+    {
+      "keyword": "bump_rdl_interposer",
+      "year": 2012,
+      "patent_application_count": 14
+    },
+    {
+      "keyword": "bump_rdl_interposer",
+      "year": 2013,
+      "patent_application_count": 4
+    },
+    {
+      "keyword": "bump_rdl_interposer",
+      "year": 2014,
+      "patent_application_count": 12
+    },
+    {
+      "keyword": "bump_rdl_interposer",
+      "year": 2015,
+      "patent_application_count": 3
+    },
+    {
+      "keyword": "bump_rdl_interposer",
+      "year": 2016,
+      "patent_application_count": 3
+    },
+    {
+      "keyword": "bump_rdl_interposer",
+      "year": 2017,
+      "patent_application_count": 6
+    },
+    {
+      "keyword": "bump_rdl_interposer",
+      "year": 2018,
+      "patent_application_count": 14
+    },
+    {
+      "keyword": "bump_rdl_interposer",
+      "year": 2019,
+      "patent_application_count": 10
+    },
+    {
+      "keyword": "bump_rdl_interposer",
+      "year": 2020,
+      "patent_application_count": 6
+    },
+    {
+      "keyword": "bump_rdl_interposer",
+      "year": 2021,
+      "patent_application_count": 25
+    },
+    {
+      "keyword": "bump_rdl_interposer",
+      "year": 2022,
+      "patent_application_count": 13
+    },
+    {
+      "keyword": "bump_rdl_interposer",
+      "year": 2023,
+      "patent_application_count": 11
+    },
+    {
+      "keyword": "bump_rdl_interposer",
+      "year": 2024,
+      "patent_application_count": 6
+    },
+    {
+      "keyword": "bump_rdl_interposer",
+      "year": 2025,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "semiconductor_test",
+      "year": 2007,
+      "patent_application_count": 2
+    },
+    {
+      "keyword": "semiconductor_test",
+      "year": 2011,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "semiconductor_test",
+      "year": 2012,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "semiconductor_test",
+      "year": 2014,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "semiconductor_test",
+      "year": 2020,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "semiconductor_test",
+      "year": 2021,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "semiconductor_test",
+      "year": 2022,
+      "patent_application_count": 5
+    },
+    {
+      "keyword": "semiconductor_test",
+      "year": 2023,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "semiconductor_materials",
+      "year": 1998,
+      "patent_application_count": 2
+    },
+    {
+      "keyword": "semiconductor_materials",
+      "year": 2000,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "semiconductor_materials",
+      "year": 2001,
+      "patent_application_count": 3
+    },
+    {
+      "keyword": "semiconductor_materials",
+      "year": 2002,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "semiconductor_materials",
+      "year": 2004,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "semiconductor_materials",
+      "year": 2005,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "semiconductor_materials",
+      "year": 2006,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "semiconductor_materials",
+      "year": 2007,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "semiconductor_materials",
+      "year": 2010,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "semiconductor_materials",
+      "year": 2014,
+      "patent_application_count": 2
+    },
+    {
+      "keyword": "semiconductor_materials",
+      "year": 2015,
+      "patent_application_count": 4
+    },
+    {
+      "keyword": "semiconductor_materials",
+      "year": 2017,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "semiconductor_materials",
+      "year": 2020,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "semiconductor_materials",
+      "year": 2021,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "semiconductor_materials",
+      "year": 2022,
+      "patent_application_count": 2
+    },
+    {
+      "keyword": "process_yield_quality",
+      "year": 1998,
+      "patent_application_count": 3
+    },
+    {
+      "keyword": "process_yield_quality",
+      "year": 2000,
+      "patent_application_count": 2
+    },
+    {
+      "keyword": "process_yield_quality",
+      "year": 2001,
+      "patent_application_count": 4
+    },
+    {
+      "keyword": "process_yield_quality",
+      "year": 2002,
+      "patent_application_count": 3
+    },
+    {
+      "keyword": "process_yield_quality",
+      "year": 2003,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "process_yield_quality",
+      "year": 2004,
+      "patent_application_count": 3
+    },
+    {
+      "keyword": "process_yield_quality",
+      "year": 2005,
+      "patent_application_count": 3
+    },
+    {
+      "keyword": "process_yield_quality",
+      "year": 2006,
+      "patent_application_count": 5
+    },
+    {
+      "keyword": "process_yield_quality",
+      "year": 2007,
+      "patent_application_count": 7
+    },
+    {
+      "keyword": "process_yield_quality",
+      "year": 2008,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "process_yield_quality",
+      "year": 2009,
+      "patent_application_count": 4
+    },
+    {
+      "keyword": "process_yield_quality",
+      "year": 2010,
+      "patent_application_count": 3
+    },
+    {
+      "keyword": "process_yield_quality",
+      "year": 2012,
+      "patent_application_count": 9
+    },
+    {
+      "keyword": "process_yield_quality",
+      "year": 2013,
+      "patent_application_count": 4
+    },
+    {
+      "keyword": "process_yield_quality",
+      "year": 2014,
+      "patent_application_count": 4
+    },
+    {
+      "keyword": "process_yield_quality",
+      "year": 2015,
+      "patent_application_count": 3
+    },
+    {
+      "keyword": "process_yield_quality",
+      "year": 2016,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "process_yield_quality",
+      "year": 2017,
+      "patent_application_count": 2
+    },
+    {
+      "keyword": "process_yield_quality",
+      "year": 2018,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "process_yield_quality",
+      "year": 2019,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "process_yield_quality",
+      "year": 2020,
+      "patent_application_count": 3
+    },
+    {
+      "keyword": "process_yield_quality",
+      "year": 2021,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "process_yield_quality",
+      "year": 2022,
+      "patent_application_count": 2
+    },
+    {
+      "keyword": "process_yield_quality",
+      "year": 2023,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "process_yield_quality",
+      "year": 2024,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "power_thermal_efficiency",
+      "year": 1998,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "power_thermal_efficiency",
+      "year": 2000,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "power_thermal_efficiency",
+      "year": 2001,
+      "patent_application_count": 2
+    },
+    {
+      "keyword": "power_thermal_efficiency",
+      "year": 2002,
+      "patent_application_count": 2
+    },
+    {
+      "keyword": "power_thermal_efficiency",
+      "year": 2004,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "power_thermal_efficiency",
+      "year": 2005,
+      "patent_application_count": 2
+    },
+    {
+      "keyword": "power_thermal_efficiency",
+      "year": 2006,
+      "patent_application_count": 2
+    },
+    {
+      "keyword": "power_thermal_efficiency",
+      "year": 2007,
+      "patent_application_count": 3
+    },
+    {
+      "keyword": "power_thermal_efficiency",
+      "year": 2009,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "power_thermal_efficiency",
+      "year": 2010,
+      "patent_application_count": 4
+    },
+    {
+      "keyword": "power_thermal_efficiency",
+      "year": 2011,
+      "patent_application_count": 6
+    },
+    {
+      "keyword": "power_thermal_efficiency",
+      "year": 2012,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "power_thermal_efficiency",
+      "year": 2013,
+      "patent_application_count": 4
+    },
+    {
+      "keyword": "power_thermal_efficiency",
+      "year": 2014,
+      "patent_application_count": 2
+    },
+    {
+      "keyword": "power_thermal_efficiency",
+      "year": 2015,
+      "patent_application_count": 4
+    },
+    {
+      "keyword": "power_thermal_efficiency",
+      "year": 2016,
+      "patent_application_count": 2
+    },
+    {
+      "keyword": "power_thermal_efficiency",
+      "year": 2017,
+      "patent_application_count": 9
+    },
+    {
+      "keyword": "power_thermal_efficiency",
+      "year": 2018,
+      "patent_application_count": 6
+    },
+    {
+      "keyword": "power_thermal_efficiency",
+      "year": 2019,
+      "patent_application_count": 5
+    },
+    {
+      "keyword": "power_thermal_efficiency",
+      "year": 2020,
+      "patent_application_count": 8
+    },
+    {
+      "keyword": "power_thermal_efficiency",
+      "year": 2021,
+      "patent_application_count": 2
+    },
+    {
+      "keyword": "power_thermal_efficiency",
+      "year": 2022,
+      "patent_application_count": 8
+    },
+    {
+      "keyword": "power_thermal_efficiency",
+      "year": 2023,
+      "patent_application_count": 1
+    },
+    {
+      "keyword": "power_thermal_efficiency",
+      "year": 2024,
+      "patent_application_count": 1
+    }
+  ],
+  "external_signals": {
+    "status": "NOT_PROVIDED",
+    "files": [],
+    "summary": "논문/보고서 증가 추세, 산업 리포트 채택 단계, 고객 산업 채택 속도는 외부 CSV가 없어 확인 제한입니다.",
+    "by_keyword": {}
+  },
+  "interpretation_policy": {
+    "patent_trend": "기술 키워드별 연도별 출원 추세로 도입/성장/성숙/쇠퇴 또는 전환을 추정합니다.",
+    "external_reports": "논문/보고서 증가 추세, 산업 리포트 채택 단계, 고객 산업 채택 속도는 선택 CSV가 있을 때만 반영합니다.",
+    "missing_data_rule": "외부 데이터 없음은 부정이 아니라 확인 제한으로 처리합니다."
+  }
+}

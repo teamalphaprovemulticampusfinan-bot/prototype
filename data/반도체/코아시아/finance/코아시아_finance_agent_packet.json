@@ -1,0 +1,222 @@
+{
+  "agent_name": "finance",
+  "company_name": "코아시아",
+  "company_dir": "coasia",
+  "industry_type": "deeptech",
+  "summary": "코아시아는 2023년부터 2025년까지 지속적인 매출 감소와 영업손실을 기록했으나, 2025년에는 영업손실 폭이 크게 줄어들며 개선 가능성을 보였다. 그러나 여전히 높은 부채비율과 음(-)의 ROE는 재무 건전성 및 수익성 측면에서 부담으로 작용한다. 최근 1개월 주가 데이터는 변동성이 크며, 연간 수익률 또한 최근 3년간 큰 폭의 하락과 상승을 반복하며 불안정한 흐름을 보이고 있다.",
+  "key_thesis": [
+    "2025년 영업이익률이 -0.60%로 개선되며 이전 연도(-6.75%, -11.07%) 대비 손실 폭이 크게 축소되었다.",
+    "2025년 영업활동현금흐름(OCF)이 129억 원으로 흑자 전환하며 현금 창출 능력이 회복되는 추세를 보였다.",
+    "2025년 매출액이 3,751억 원으로 전년(3,578억 원) 대비 4.8% 증가하며 매출 성장세가 재개되었다.",
+    "2025년 연간 수익률이 43.21%로 전년(-47.75%) 대비 큰 폭으로 반등하며 주가 모멘텀이 개선되었다."
+  ],
+  "key_risks": [
+    "2025년 부채비율이 195.95%로 높은 수준을 유지하고 있어 재무 레버리지 부담이 크다.",
+    "2025년 ROE가 -15.77%로 여전히 음수 값을 기록하며 자본 대비 수익성이 부진하다.",
+    "2025년 이자보상배율이 -0.12로 1배 미만이며, 이자 지급 능력에 대한 우려가 존재한다.",
+    "최근 1개월 주가 데이터에서 '누적최고가' 대비 '드로다운율'이 최대 -51.62%에 달하는 등 높은 변동성을 보이고 있다.",
+    "2024년 연간 MDD가 -69.84%로 매우 큰 폭의 하락을 경험했으며, 이는 투자 위험을 시사한다.",
+    "연간 MDD -34.79%로 주가 낙폭 리스크를 확인해야 합니다."
+  ],
+  "report_core_points": [
+    "FCF: 코아시아 2025 기준 FCF 값은 -6,462,985,878원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+    "연수익률: 코아시아 2026 기준 연수익률 값은 -9.18%이며, 해당 연도 주가 성과를 보여주는 지표입니다.",
+    "연간 MDD: 코아시아 2026 기준 연간 MDD 값은 -34.79%이며, 투자자가 경험할 수 있는 최대 낙폭 위험을 보여주는 지표입니다.",
+    "거래량: 코아시아 2026 기준 거래량 값은 313055.00주이며, 해당 연도 평균 거래량을 통해 시장 관심과 유동성을 확인하는 지표입니다.",
+    "이동평균 대비 비율: 코아시아 2026 기준 이동평균 대비 비율 값은 0.96배이며, 거래량이 이동평균 대비 어느 수준인지 보여주는 수급 지표입니다."
+  ],
+  "missing_prompt_metrics": [
+    "매출성장률",
+    "영업이익률",
+    "ROE",
+    "부채비율",
+    "변동성지수"
+  ],
+  "evidence": [
+    {
+      "evidence_id": "finance.ev.004",
+      "source_type": "financial_csv",
+      "source": "코아시아_재무.csv",
+      "metric": "fcf",
+      "label": "FCF",
+      "value": -6462985878.0,
+      "unit": "원",
+      "period": "2025",
+      "snippet": "코아시아 2025 기준 FCF 값은 -6,462,985,878원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.007",
+      "source_type": "stock_csv",
+      "source": "코아시아_주식.csv",
+      "metric": "annual_return_%",
+      "label": "연수익률",
+      "value": -9.18,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "코아시아 2026 기준 연수익률 값은 -9.18%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.008",
+      "source_type": "stock_csv",
+      "source": "코아시아_주식.csv",
+      "metric": "annual_mdd_%",
+      "label": "연간 MDD",
+      "value": -34.79,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "코아시아 2026 기준 연간 MDD 값은 -34.79%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.009",
+      "source_type": "stock_csv",
+      "source": "코아시아_주식.csv",
+      "metric": "volume_mean",
+      "label": "거래량",
+      "value": 313055.0,
+      "unit": "주",
+      "period": "2026",
+      "snippet": "코아시아 2026 기준 거래량 값은 313055주입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.010",
+      "source_type": "stock_csv",
+      "source": "코아시아_주식.csv",
+      "metric": "volume_ma_ratio_mean",
+      "label": "이동평균 대비 비율",
+      "value": 0.9634,
+      "unit": "배",
+      "period": "2026",
+      "snippet": "코아시아 2026 기준 이동평균 대비 비율 값은 0.9634배입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.012",
+      "source_type": "stock_csv",
+      "source": "코아시아_주식.csv",
+      "metric": "latest_close",
+      "label": "최근 종가",
+      "value": 5440.0,
+      "unit": "원",
+      "period": "2026-05-13",
+      "snippet": "코아시아 2026-05-13 최근 종가 값은 5,440원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.013",
+      "source_type": "warning_stock_csv",
+      "source": "투자경고종목.csv",
+      "metric": "warning_stock",
+      "label": "투자경고 여부",
+      "value": 0.0,
+      "unit": null,
+      "period": "최근",
+      "snippet": "코아시아 투자경고종목 해당 여부 값은 0입니다.",
+      "prompt_rationale": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "finance.safe_cl.004",
+      "text": "코아시아 2025 기준 FCF 값은 -6,462,985,878원입니다.",
+      "evidence_ids": [
+        "finance.ev.004"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.007",
+      "text": "코아시아 2026 기준 연수익률 값은 -9.18%입니다.",
+      "evidence_ids": [
+        "finance.ev.007"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.008",
+      "text": "코아시아 2026 기준 연간 MDD 값은 -34.79%입니다.",
+      "evidence_ids": [
+        "finance.ev.008"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.009",
+      "text": "코아시아 2026 기준 거래량 값은 313055주입니다.",
+      "evidence_ids": [
+        "finance.ev.009"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.010",
+      "text": "코아시아 2026 기준 이동평균 대비 비율 값은 0.9634배입니다.",
+      "evidence_ids": [
+        "finance.ev.010"
+      ],
+      "audit_safe": true
+    }
+  ],
+  "warning_note": null,
+  "source_contexts": [
+    "financial_csv=코아시아_재무.csv",
+    "stock_csv=코아시아_주식.csv",
+    "warning_stock_csv=투자경고종목.csv",
+    "prompts.py summary/key_thesis/key_risks are preserved in the Chair View where available.",
+    "First Auditor claims are CSV-grounded one-to-one evidence claims for stable actual-information verification.",
+    "필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수"
+  ],
+  "raw_payload": {
+    "latest_financial_row": {
+      "year": 2025,
+      "sales": 375129006470.0,
+      "operating_income": -2237980329.0,
+      "net_income": -19202865906.0,
+      "total_assets": 360325583031.0,
+      "total_liabilities": 238572655046.0,
+      "total_equity": 121752927985.0,
+      "capex": 19424680002,
+      "ocf": 12961694124,
+      "fcf": -6462985878,
+      "interest": 18761480457.0,
+      "ROE": -15.77199515757502,
+      "영업이익률": -0.5965895173128866,
+      "부채비율": 195.94818703283445,
+      "이자보상배율": -0.1192859131841591
+    },
+    "latest_stock_metric": {
+      "year": 2026,
+      "annual_return_%": -9.18,
+      "annual_mdd_%": -34.79
+    },
+    "latest_yearly_summary": {
+      "year": 2026,
+      "close_start": 5990.0,
+      "close_end": 5440.0,
+      "close_high": 6540.0,
+      "close_low": 4265.0,
+      "volume_mean": 313055.0,
+      "volume_ma_ratio_mean": 0.9634
+    },
+    "latest_recent_stock_row": {
+      "Date": "2026-05-13",
+      "Open": 5230.0,
+      "High": 5580.0,
+      "Low": 5020.0,
+      "Close": 5440.0,
+      "Volume": 172397,
+      "Change": 0.0401529636711281,
+      "VKOSPI": NaN,
+      "일수익률_%": 4.01529636711281,
+      "누적최고가": 10180.0,
+      "드로다운_%": -46.56188605108055,
+      "거래량_20일평균": 226032.4,
+      "거래량_이동평균대비비율": 0.7627092399142777
+    },
+    "audit_policy": "prompts_py_used_for_interpretation_claims_grounded_by_local_csv"
+  },
+  "packet_version": "finance_prompts_grounded_v4_compact"
+}

@@ -1,0 +1,300 @@
+{
+  "company_dir": "dongjin_semichem",
+  "company": "동진쎄미켐",
+  "created_at": "2026-05-20T22:20:35",
+  "input_patent_csv": "data\\반도체\\동진쎄미켐\\tech\\source\\dongjin_semichem_kipris_plus_bibliographic_raw.csv",
+  "model_info": {
+    "module": "Tech ML Signal Builder",
+    "algorithm": "TF-IDF + KMeans",
+    "sklearn_available": true,
+    "purpose": "KIPRIS patent portfolio clustering, patent momentum scoring, commercialization watch signal generation"
+  },
+  "tech_ml_label": "COMMERCIALIZATION_WATCH",
+  "tech_ml_label_description": "기술 포트폴리오는 확인되지만 사업화 연결 근거는 추가 확인이 필요한 사업화 추적형입니다.",
+  "patent_ml_score": 63.99,
+  "bridge_score": 0.0,
+  "bridge_label": "",
+  "normalized_patent_records": 102,
+  "company_matched_patents": 102,
+  "registered_patents": 49,
+  "alive_patents": 30,
+  "recent_5y_patents": 25,
+  "recent_5y_ratio": 0.2451,
+  "ipc_cpc_count": 32,
+  "ipc_cpc_examples": [
+    "B05D",
+    "B22F",
+    "B32B",
+    "C01B",
+    "C07C",
+    "C07D",
+    "C07F",
+    "C08F",
+    "C08G",
+    "C08J",
+    "C08K",
+    "C08L",
+    "C09B",
+    "C09D",
+    "C09J",
+    "C09K",
+    "C11D",
+    "C23C",
+    "C23F",
+    "C25B"
+  ],
+  "h01l_patents": 0,
+  "patent_year_range": "1993~2025",
+  "technology_keyword_hits": {
+    "반도체": 26,
+    "소재": 3,
+    "공정": 47,
+    "디스플레이": 14,
+    "OLED": 2
+  },
+  "technology_keyword_hit_total": 92,
+  "clustering": {
+    "method": "tfidf_kmeans",
+    "sklearn_available": true,
+    "cluster_count": 8,
+    "clusters": [
+      {
+        "cluster_id": 2,
+        "size": 34,
+        "top_terms": [
+          "상기",
+          "내지",
+          "중량",
+          "포토레지스트",
+          "금속",
+          "화합물",
+          "포함하는",
+          "이를"
+        ],
+        "sample_titles": [
+          "신규한 캡핑층용 유기화합물 및 이를 포함하는 유기 발광 소자",
+          "휘발산을 포함하지 않는 식각액 조성물",
+          "태양 전지 및 이를 형성하는 방법",
+          "입체 영상 가변 장치 및 이를 포함하는 디스플레이 장치",
+          "이차전지 전극용 도전재 슬러리, 이를 포함하는 이차전지 전극 및 이차전지"
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "size": 15,
+        "top_terms": [
+          "유기",
+          "유기 발광",
+          "발광",
+          "h10k",
+          "포함하는 유기",
+          "소자에",
+          "발광 소자에",
+          "c07d"
+        ],
+        "sample_titles": [
+          "신규한 캡핑층용 화합물 및 이를 포함하는 유기 발광 소자",
+          "유기 반사방지막 형성용 유기 중합체 및 이를 포함하는 유기 조성물",
+          "신규 화합물 및 이를 포함하는 유기 발광 소자",
+          "신규 화합물 및 이를 포함하는 유기 발광 소자",
+          "신규 화합물 및 이를 포함하는 유기발광 소자"
+        ]
+      },
+      {
+        "cluster_id": 7,
+        "size": 14,
+        "top_terms": [
+          "감광성",
+          "수지",
+          "감광성 수지",
+          "g03f",
+          "수지 조성물",
+          "수지 조성물에",
+          "불포화",
+          "조성물에"
+        ],
+        "sample_titles": [
+          "감광성 수지 조성물 및 이를 포함하는 표시 장치",
+          "경화막, 이를 형성하는 감광성 수지 조성물 및 표시장치",
+          "표시 장치용 포지티브형 감광성 수지 조성물 및 이를 포함하는 표시 장치",
+          "감광성 수지 조성물",
+          "감광성 수지 조성물 및 이를 이용한 패턴 형성 방법"
+        ]
+      },
+      {
+        "cluster_id": 0,
+        "size": 11,
+        "top_terms": [
+          "화학식",
+          "c07c",
+          "c23c",
+          "산화",
+          "금속막",
+          "형성용 전구체",
+          "전구체 화합물",
+          "전구체"
+        ],
+        "sample_titles": [
+          "염 화합물 및 이를 포함하는 산확산 억제제, 포토레지스트 조성물",
+          "광경화 접착성 조성물, 적층체 및 기재 제조 방법",
+          "산화 흑연, 산화 그래핀 및 환원된 산화 그래핀",
+          "박막 형성용 전구체 화합물 및 이를 사용한 반도체 장치의 제조방법",
+          "금속막 형성용 전구체 화합물 및 이를 이용한 금속막"
+        ]
+      },
+      {
+        "cluster_id": 3,
+        "size": 10,
+        "top_terms": [
+          "박리액",
+          "포토레지스트",
+          "포토레지스트 박리액",
+          "c11d",
+          "박리액 조성물",
+          "g03f",
+          "조성물에 관한",
+          "조성물에"
+        ],
+        "sample_titles": [
+          "포토레지스트 박리용 조성물",
+          "반도체 소자용 포토레지스트를 제거하기 위한 박리액 조성물",
+          "네가티브형 포토레지스트 조성물",
+          "분광기를 이용한 박리액 조성물 관리 방법 및 장치",
+          "포토레지스트 제거용 박리액 조성물"
+        ]
+      },
+      {
+        "cluster_id": 6,
+        "size": 8,
+        "top_terms": [
+          "c07d",
+          "h10k",
+          "캡핑층용 화합물",
+          "발광",
+          "캡핑층용",
+          "화합물 이를",
+          "유기 발광",
+          "화학식"
+        ],
+        "sample_titles": [
+          "신규한 캡핑층용 화합물 및 이를 포함하는 유기 발광 소자",
+          "신규한 캡핑층용 화합물 및 이를 포함하는 유기 발광 소자",
+          "반사성 전극 보호층용 화합물 및 이를 포함하는 배면 발광 소자",
+          "신규한 캡핑층용 화합물 및 이를 포함하는 유기 발광 소자",
+          "신규한 캡핑층용 화합물 및 이를 포함하는 유기 발광 소자"
+        ]
+      },
+      {
+        "cluster_id": 4,
+        "size": 6,
+        "top_terms": [
+          "레지스트",
+          "레지스트 제거용",
+          "제거용",
+          "중량",
+          "c11d",
+          "세정액",
+          "제거용 조성물",
+          "패턴된"
+        ],
+        "sample_titles": [
+          "포토 레지스트 박리제 조성물 및 이를 이용한 박막 트랜지스터 어레이의 제조 방법",
+          "레지스트 제거용 조성물",
+          "세정액 조성물 및 이를 이용한 세정방법",
+          "레지스트 제거용 조성물",
+          "레지스트 제거용 조성물"
+        ]
+      },
+      {
+        "cluster_id": 5,
+        "size": 4,
+        "top_terms": [
+          "씬너",
+          "제거용 씬너",
+          "포토레지스트 제거용",
+          "기판",
+          "제거용",
+          "사용되는",
+          "알킬",
+          "포토레지스트"
+        ],
+        "sample_titles": [
+          "원자층 증착 및 기상 증착용 기판 표면 개질제 및 이를 이용한 기판 표면의 개질 방법",
+          "포토레지스트 제거용 씬너 조성물",
+          "포토레지스트 제거용 씬너 조성물",
+          "포토레지스트 제거용 씬너 조성물"
+        ]
+      }
+    ],
+    "technology_concentration_index": 0.184,
+    "feature_count": 1500
+  },
+  "representative_patents": [
+    {
+      "title": "감광성 수지 조성물 및 이를 포함하는 표시 장치",
+      "application_date": "20210804",
+      "register_date": "20260515",
+      "register_status": "등록",
+      "ipc": "G03F 7/039|G03F 7/022|G03F 7/023|H10K 50/00",
+      "applicant": ""
+    },
+    {
+      "title": "신규한 캡핑층용 유기화합물 및 이를 포함하는 유기 발광 소자",
+      "application_date": "20210824",
+      "register_date": "20260513",
+      "register_status": "등록",
+      "ipc": "H10K 85/60|H10K 50/805|H10K 50/844",
+      "applicant": ""
+    },
+    {
+      "title": "태양 전지 및 이를 형성하는 방법",
+      "application_date": "20211230",
+      "register_date": "20260508",
+      "register_status": "등록",
+      "ipc": "H10K 30/50|H10K 30/15|H10K 30/82",
+      "applicant": ""
+    },
+    {
+      "title": "신규한 캡핑층용 화합물 및 이를 포함하는 유기 발광 소자",
+      "application_date": "20210416",
+      "register_date": "20230721",
+      "register_status": "등록",
+      "ipc": "C07D 307/77|C07D 407/14|C07D 409/14|C07D 405/14|C07D 413/14|C07D 417/14|C07D 333/50|H10K 85/60|H10K 50/844|H10K 50/858",
+      "applicant": ""
+    },
+    {
+      "title": "포지티브형 감광성 수지 조성물, 감광성 수지 필름 및 이를 이용한 디스플레이 장치",
+      "application_date": "20200630",
+      "register_date": "20250926",
+      "register_status": "등록",
+      "ipc": "G03F 7/039|G03F 7/004|C08L 33/06|C08L 25/18|C08F 265/06|C08F 212/14|C08K 5/12|G02F 1/1339",
+      "applicant": ""
+    }
+  ],
+  "commercialization_score": 80.0,
+  "commercialization_level": "STRONG",
+  "commercialization_keyword_hits": 331,
+  "commercialization_keywords": {
+    "고객": 32,
+    "채택": 6,
+    "양산": 16,
+    "공급": 1,
+    "매출": 18,
+    "실적": 1,
+    "FCF": 4,
+    "현금흐름": 1,
+    "revenue": 1
+  },
+  "chair_reflection_points": [
+    "Tech ML 판정은 COMMERCIALIZATION_WATCH이며, 기존 Tech-to-Value Bridge 판정과 함께 기술 섹션의 보조 신호로 사용합니다.",
+    "특허 클러스터링 결과는 핵심 기술 축과 기술 포트폴리오 집중도를 설명하는 근거로 반영합니다.",
+    "최근 5년 특허와 등록·존속 가능 특허는 기술 지속성 및 진입장벽의 보조 지표로 활용합니다.",
+    "고객 채택, 양산, 매출 전환, FCF 개선 근거가 약하면 기술 점수만으로 매수 의견을 강화하지 않습니다.",
+    "기술성은 확인되지만 사업화 연결 근거를 계속 확인해야 하므로 Chair는 관찰형 보조 신호로 반영해야 합니다."
+  ],
+  "notes": [
+    "Tech ML은 특허 텍스트, 초록, IPC/CPC, 등록상태, 최근 출원 흐름을 기반으로 기술 포트폴리오를 구조화합니다.",
+    "특허 수와 클러스터 수는 기술 지속성의 보조 근거이며, 단독으로 매출 성장이나 주가 상승을 의미하지 않습니다.",
+    "사업화 판단은 고객 채택, 양산, 매출 전환, FCF 개선 근거와 함께 해석해야 합니다."
+  ]
+}

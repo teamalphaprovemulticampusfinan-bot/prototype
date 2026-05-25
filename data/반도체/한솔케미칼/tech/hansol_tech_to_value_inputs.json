@@ -1,0 +1,206 @@
+{
+  "score": 67.0,
+  "tech_agent_raw_score": 100.0,
+  "base_signal_score": 66.0,
+  "auditor_adjusted_score": 66.0,
+  "auditor_conservative_adjustment": 34.0,
+  "grade": "COMMERCIALIZATION_WATCH",
+  "policy": "기술 우위는 고객사 채택, 양산, 매출 전환, FCF 개선 근거와 연결될 때만 가치평가 가산 요인으로 반영한다.",
+  "interpretation": "기술·제품 근거가 가치평가 보조 근거로 쓰이려면 고객 적용, 양산, 매출/현금흐름 연결이 함께 확인되어야 합니다.",
+  "components": {
+    "commercialization_hits": 4,
+    "production_hits": 2,
+    "value_hits": 4,
+    "ip_hits": 4,
+    "official_doc_count": 31,
+    "quantitative_signal_count": 51
+  },
+  "penalties": [],
+  "evidence_samples": [
+    {
+      "snippet": "(1) 라텍스 (2) 과산화수소 (3) PAM(고분자응집제) (4) 차아황산소다",
+      "source_type": "dart_filing",
+      "source_title": "dart_latest_business_report.txt",
+      "source_url": "",
+      "source_path": "data\\반도체\\한솔케미칼\\tech\\source\\dart_latest_business_report.txt",
+      "source_plan_matched": true,
+      "hits": [
+        "과산화수소"
+      ]
+    },
+    {
+      "snippet": "당사의 본점소재지는 서울특별시 강남구 테헤란로 513 7,8층(삼성동)입니다.공시대상기간 중 본점소재지의 변경 사항은 없습니다.",
+      "source_type": "dart_filing",
+      "source_title": "dart_latest_business_report.txt",
+      "source_url": "",
+      "source_path": "data\\반도체\\한솔케미칼\\tech\\source\\dart_latest_business_report.txt",
+      "source_plan_matched": true,
+      "hits": [
+        "소재"
+      ]
+    },
+    {
+      "snippet": "본점 소재지 변경 (서울시 강남구 테헤란로 513, K-Tower 7/8F)",
+      "source_type": "dart_filing",
+      "source_title": "dart_latest_business_report.txt",
+      "source_url": "",
+      "source_path": "data\\반도체\\한솔케미칼\\tech\\source\\dart_latest_business_report.txt",
+      "source_plan_matched": true,
+      "hits": [
+        "소재"
+      ]
+    },
+    {
+      "snippet": "(1) 라텍스 (2) 과산화수소 (3) PAM(고분자응집제) (4) 차아황산소다",
+      "source_type": "dart_filing",
+      "source_title": "dart_latest_business_report.txt",
+      "source_url": "",
+      "source_path": "data\\반도체\\한솔케미칼\\tech\\source\\dart_latest_business_report.txt",
+      "source_plan_matched": true,
+      "hits": [
+        "과산화수소"
+      ]
+    },
+    {
+      "snippet": "(5) Precursor (6) 전자재료 (7) 이차전지재료 (8) 기타 화공약품주요 종속회사인 테이팩스의 주요제품은 아래와 같습니다.",
+      "source_type": "dart_filing",
+      "source_title": "dart_latest_business_report.txt",
+      "source_url": "",
+      "source_path": "data\\반도체\\한솔케미칼\\tech\\source\\dart_latest_business_report.txt",
+      "source_plan_matched": true,
+      "hits": [
+        "제품"
+      ]
+    },
+    {
+      "snippet": "당사의 본점소재지는 서울특별시 강남구 테헤란로 513 7,8층(삼성동)입니다.공시대상기간 중 본점소재지의 변경 사항은 없습니다.",
+      "source_type": "dart_filing",
+      "source_title": "dart_latest_business_report.txt",
+      "source_url": "",
+      "source_path": "data\\반도체\\한솔케미칼\\tech\\source\\dart_latest_business_report.txt",
+      "source_plan_matched": true,
+      "hits": [
+        "소재"
+      ]
+    },
+    {
+      "snippet": "※ 주요종속회사 여부(1) 최근사업연도말 자산총액이 지배회사 자산총액의 10% 이상인 종속회사(2) 최근사업연도말 자산총액이 750억원 이상인 종속회사",
+      "source_type": "dart_filing",
+      "source_title": "dart_latest_business_report.txt",
+      "source_url": "",
+      "source_path": "data\\반도체\\한솔케미칼\\tech\\source\\dart_latest_business_report.txt",
+      "source_plan_matched": true,
+      "hits": [
+        "%"
+      ]
+    },
+    {
+      "snippet": "(1) 라텍스 (2) 과산화수소 (3) PAM(고분자응집제) (4) 차아황산소다",
+      "source_type": "dart_filing",
+      "source_title": "dart_latest_business_report.txt",
+      "source_url": "",
+      "source_path": "data\\반도체\\한솔케미칼\\tech\\source\\dart_latest_business_report.txt",
+      "source_plan_matched": true,
+      "hits": [
+        "과산화수소"
+      ]
+    }
+  ],
+  "score_before_kipris_tech_ml_adjustment": 66.0,
+  "kipris_tech_ml_features": {
+    "company_slug": "hansol",
+    "company_name": "한솔케미칼",
+    "field": "반도체",
+    "source_csv": "data\\반도체\\한솔케미칼\\tech\\hansol_kipris_patents_normalized.csv",
+    "enriched_csv": "data\\반도체\\한솔케미칼\\tech\\hansol_kipris_tech_ml_enriched.csv",
+    "generated_at": "2026-05-20T19:58:35",
+    "core_counts": {
+      "total_patents": 656,
+      "registered_patents_estimated": 413,
+      "alive_patents_estimated": 351,
+      "negative_disposal_patents_estimated": 165,
+      "recent_5y_application_patents": 358,
+      "h01l_core_patents": 0,
+      "semiconductor_related_ipc_patents": 40,
+      "ipc_subclass_count": 138,
+      "ipc_main_group_count": 268,
+      "tech_keyword_match_total": 135,
+      "tech_keyword_match_avg": 0.2058
+    },
+    "core_rates": {
+      "registration_rate_estimated": 0.6296,
+      "alive_rate_total_estimated": 0.5351,
+      "alive_rate_among_registered_estimated": 0.8499,
+      "negative_disposal_rate_estimated": 0.2515,
+      "recent_5y_application_rate": 0.5457,
+      "h01l_core_rate": 0.0,
+      "semiconductor_related_ipc_rate": 0.061
+    },
+    "year_features": {
+      "application_year_min": 1987,
+      "application_year_max": 2025,
+      "application_year_span": 39,
+      "recent_5y_threshold": 2021
+    },
+    "scores": {
+      "legal_stability_score_estimated": 74.06,
+      "portfolio_momentum_score": 84.1,
+      "ip_technology_fit_score": 29.19,
+      "kipris_tech_ml_score": 63.61
+    },
+    "tech_to_value_bridge_adjustment": {
+      "bridge_adjustment_points": 1.0,
+      "bridge_signal": "IP_QUALITY_MODERATE",
+      "usage_rule": "Add this as a conservative KIPRIS/IP feature adjustment to Tech-to-Value Bridge, but do not treat it as direct commercialization evidence."
+    },
+    "top_ipc_subclass": {
+      "H01M": 56,
+      "C08F": 47,
+      "B60R": 41,
+      "B60N": 26,
+      "B32B": 24,
+      "C07F": 23,
+      "C09K": 20,
+      "C23C": 18,
+      "B41M": 17,
+      "H10P": 17,
+      "C08L": 14,
+      "C09D": 14,
+      "C08G": 13,
+      "C03C": 11,
+      "B29C": 9
+    },
+    "top_ipc_main_group": {
+      "H01M 4": 42,
+      "B60N 3": 23,
+      "B60R 13": 19,
+      "C08F 220": 19,
+      "C09K 11": 17,
+      "B41M 5": 16,
+      "C23C 16": 13,
+      "B32B 5": 9,
+      "C09D 11": 9,
+      "H01M 10": 8,
+      "C03C 3": 8,
+      "A61K 8": 7,
+      "C07F 5": 7,
+      "B32B 27": 7,
+      "C08F 290": 7
+    },
+    "top_applicants": {},
+    "cautions": [
+      "final_disposal is not present in the source CSV, so legal status is estimated from register_status/register_number/register_date.",
+      "register_date appears unavailable or unparsable in the current source, so registration year range should not be overclaimed.",
+      "KIPRIS/IP score supports technology defensibility, but customer adoption, mass production, sales conversion, and FCF conversion must be verified separately."
+    ],
+    "_source_file": "data/반도체/한솔케미칼/tech/hansol_kipris_tech_ml_features.json"
+  },
+  "kipris_tech_ml_score": 63.61,
+  "legal_stability_score_estimated": 74.06,
+  "portfolio_momentum_score": 84.1,
+  "ip_technology_fit_score": 29.19,
+  "bridge_adjustment_points": 1.0,
+  "bridge_signal": "IP_QUALITY_MODERATE",
+  "kipris_bridge_usage_rule": "Add this as a conservative KIPRIS/IP feature adjustment to Tech-to-Value Bridge, but do not treat it as direct commercialization evidence.",
+  "kipris_bridge_applied": true
+}

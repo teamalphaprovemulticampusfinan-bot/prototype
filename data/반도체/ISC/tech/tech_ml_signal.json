@@ -1,0 +1,181 @@
+{
+  "company_dir": "isc",
+  "company": "ISC",
+  "created_at": "2026-05-20T22:30:59",
+  "input_patent_csv": "data\\반도체\\ISC\\tech\\source\\isc_kipris_plus_bibliographic_raw.csv",
+  "model_info": {
+    "module": "Tech ML Signal Builder",
+    "algorithm": "TF-IDF + KMeans",
+    "sklearn_available": true,
+    "purpose": "KIPRIS patent portfolio clustering, patent momentum scoring, commercialization watch signal generation"
+  },
+  "tech_ml_label": "TECH_EVIDENCE_WEAK",
+  "tech_ml_label_description": "특허·기술 정량 신호가 충분하지 않아 근거 보강 필요형으로 해석합니다.",
+  "patent_ml_score": 46.22,
+  "bridge_score": 0.0,
+  "bridge_label": "",
+  "normalized_patent_records": 30,
+  "company_matched_patents": 30,
+  "registered_patents": 28,
+  "alive_patents": 28,
+  "recent_5y_patents": 3,
+  "recent_5y_ratio": 0.1,
+  "ipc_cpc_count": 8,
+  "ipc_cpc_examples": [
+    "C08L",
+    "G01R",
+    "H01B",
+    "H01G",
+    "H01R",
+    "H02H",
+    "H02M",
+    "H10P"
+  ],
+  "h01l_patents": 0,
+  "patent_year_range": "2008~2025",
+  "technology_keyword_hits": {
+    "반도체": 21,
+    "소재": 4,
+    "장비": 3
+  },
+  "technology_keyword_hit_total": 28,
+  "clustering": {
+    "method": "tfidf_kmeans",
+    "sklearn_available": true,
+    "cluster_count": 3,
+    "clusters": [
+      {
+        "cluster_id": 1,
+        "size": 13,
+        "top_terms": [
+          "상기",
+          "전기적",
+          "테스트",
+          "있는",
+          "하우징",
+          "전원",
+          "테스트용",
+          "대한"
+        ],
+        "sample_titles": [
+          "인터페이스 보드",
+          "접속핀 교체가 가능한 테스트용 소켓",
+          "검사용 탐침장치 및 그 검사용 탐침장치의 제조방법",
+          "스프링부재를 포함하는 테스트용 러버소켓",
+          "검사용 소켓"
+        ]
+      },
+      {
+        "cluster_id": 2,
+        "size": 10,
+        "top_terms": [
+          "상기",
+          "도전성",
+          "검사용",
+          "이방",
+          "피검사",
+          "서로",
+          "소켓에",
+          "g01r"
+        ],
+        "sample_titles": [
+          "접속용 커넥터",
+          "테스트용 러버 소켓",
+          "탄소나노튜브가 포함된 검사용 소켓",
+          "검사용 소켓 및 도전성 입자",
+          "검사용 소켓 및 도전성 입자"
+        ]
+      },
+      {
+        "cluster_id": 0,
+        "size": 7,
+        "top_terms": [
+          "도전성",
+          "검사용",
+          "반도체",
+          "콘택터",
+          "실리콘",
+          "120",
+          "g01r",
+          "판형"
+        ],
+        "sample_titles": [
+          "검사용 소켓",
+          "저항 감소를 통한 도전 강화 특징을 갖는 검사용 콘택터 및 그의 제조방법",
+          "검사용 도전 시트",
+          "도전성 커넥터 및 그 제조방법",
+          "반도체 검사용 소켓의 판형 검사용 콘택터"
+        ]
+      }
+    ],
+    "technology_concentration_index": 0.3533,
+    "feature_count": 1500
+  },
+  "representative_patents": [
+    {
+      "title": "검사용 커넥터",
+      "application_date": "20241231",
+      "register_date": "20260408",
+      "register_status": "등록",
+      "ipc": "G01R 31/64|G01R 1/04|G01R 1/073|H01G 4/30|H01G 4/12",
+      "applicant": ""
+    },
+    {
+      "title": "저항 감소를 통한 도전 강화 특징을 갖는 검사용 콘택터 및 그의 제조방법",
+      "application_date": "20220421",
+      "register_date": "20250114",
+      "register_status": "등록",
+      "ipc": "G01R 1/067|G01R 3/00|G01R 31/28",
+      "applicant": ""
+    },
+    {
+      "title": "도전성 분말 및 이를 포함하는 검사용 커넥터",
+      "application_date": "20190321",
+      "register_date": "20200515",
+      "register_status": "등록",
+      "ipc": "H01B 1/20|H01B 1/02|H01B 3/44|C08L 53/02|H10P 72/00",
+      "applicant": ""
+    },
+    {
+      "title": "검사용 도전 시트",
+      "application_date": "20180725",
+      "register_date": "20190528",
+      "register_status": "등록",
+      "ipc": "G01R 1/073|G01R 1/067|G01R 31/28",
+      "applicant": ""
+    },
+    {
+      "title": "검사용 소켓",
+      "application_date": "20180129",
+      "register_date": "20190528",
+      "register_status": "등록",
+      "ipc": "G01R 31/28|G01R 1/04",
+      "applicant": ""
+    }
+  ],
+  "commercialization_score": 80.0,
+  "commercialization_level": "STRONG",
+  "commercialization_keyword_hits": 360,
+  "commercialization_keywords": {
+    "고객": 30,
+    "채택": 6,
+    "양산": 24,
+    "공급": 7,
+    "매출": 18,
+    "실적": 1,
+    "FCF": 4,
+    "현금흐름": 1,
+    "revenue": 1
+  },
+  "chair_reflection_points": [
+    "Tech ML 판정은 TECH_EVIDENCE_WEAK이며, 기존 Tech-to-Value Bridge 판정과 함께 기술 섹션의 보조 신호로 사용합니다.",
+    "특허 클러스터링 결과는 핵심 기술 축과 기술 포트폴리오 집중도를 설명하는 근거로 반영합니다.",
+    "최근 5년 특허와 등록·존속 가능 특허는 기술 지속성 및 진입장벽의 보조 지표로 활용합니다.",
+    "고객 채택, 양산, 매출 전환, FCF 개선 근거가 약하면 기술 점수만으로 매수 의견을 강화하지 않습니다."
+  ],
+  "notes": [
+    "Tech ML은 특허 텍스트, 초록, IPC/CPC, 등록상태, 최근 출원 흐름을 기반으로 기술 포트폴리오를 구조화합니다.",
+    "특허 수와 클러스터 수는 기술 지속성의 보조 근거이며, 단독으로 매출 성장이나 주가 상승을 의미하지 않습니다.",
+    "사업화 판단은 고객 채택, 양산, 매출 전환, FCF 개선 근거와 함께 해석해야 합니다."
+  ]
+}

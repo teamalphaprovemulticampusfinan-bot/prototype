@@ -1,0 +1,223 @@
+{
+  "agent_name": "finance",
+  "company_name": "두산테스나",
+  "company_dir": "doosan_tesna",
+  "industry_type": "deeptech_semiconductor",
+  "summary": "두산테스나는 2023년 견조한 매출과 영업이익을 기록했으나, 2024년에는 매출 성장에도 불구하고 영업이익률이 크게 하락하며 수익성이 악화되는 모습을 보였다. 2025년에는 매출이 감소하고 영업이익이 적자 전환하며 재무 상태에 대한 우려가 제기된다. 주가는 2025년 큰 폭의 반등을 보였으나, 최근 1개월간 높은 변동성과 함께 급등락이 반복되는 패턴을 보이고 있다.",
+  "key_thesis": [
+    "2023년 매출액 3,386억원, 영업이익 607억원을 기록하며 견조한 실적을 달성했다.",
+    "2023년 영업이익률 17.95%, ROE 12.16%를 기록하며 수익성이 양호한 수준이었다.",
+    "2025년 연수익률 117.51%를 기록하며 주가 상승 모멘텀이 강하게 나타났다.",
+    "2025년 연간 MDD는 -41.35%로 높은 변동성을 보였으나, 2026년에는 -22.87%로 개선되는 흐름을 보였다.",
+    "2024년 FCF 356억원을 기록하며 긍정적인 현금흐름을 창출했다."
+  ],
+  "key_risks": [
+    "2024년 영업이익률이 10.16%로 크게 하락했으며, 2025년에는 -0.31%로 적자 전환하며 수익성 악화가 심화되었다.",
+    "2024년 ROE 8.40%, 2025년 ROE 0.35%로 자본 대비 수익성이 크게 감소했다.",
+    "2025년 이자보상배율이 -0.08배로 하락하며 이자 지급 능력이 불확실해졌다.",
+    "2024년 부채비율 79.98%에서 2025년 61.02%로 개선되었으나, 여전히 재무 건전성 점검이 필요하다.",
+    "최근 1개월 주가 데이터에서 2026년 5월 13일 25.69%의 높은 일일 수익률과 함께 큰 폭의 상승이 있었으나, 이전 급락 구간도 존재하여 변동성 리스크가 크다.",
+    "투자경고종목으로 지정되어 단기 과열 및 변동성 확대 가능성에 유의해야 한다."
+  ],
+  "report_core_points": [
+    "FCF: 두산테스나 2025 기준 FCF 값은 0원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+    "연수익률: 두산테스나 2026 기준 연수익률 값은 236.94%이며, 해당 연도 주가 성과를 보여주는 지표입니다.",
+    "연간 MDD: 두산테스나 2026 기준 연간 MDD 값은 -22.87%이며, 투자자가 경험할 수 있는 최대 낙폭 위험을 보여주는 지표입니다.",
+    "거래량: 두산테스나 2026 기준 거래량 값은 443235.00주이며, 해당 연도 평균 거래량을 통해 시장 관심과 유동성을 확인하는 지표입니다.",
+    "이동평균 대비 비율: 두산테스나 2026 기준 이동평균 대비 비율 값은 1.06배이며, 거래량이 이동평균 대비 어느 수준인지 보여주는 수급 지표입니다."
+  ],
+  "missing_prompt_metrics": [
+    "매출성장률",
+    "영업이익률",
+    "ROE",
+    "부채비율",
+    "변동성지수"
+  ],
+  "evidence": [
+    {
+      "evidence_id": "finance.ev.004",
+      "source_type": "financial_csv",
+      "source": "두산테스나_재무.csv",
+      "metric": "fcf",
+      "label": "FCF",
+      "value": 0.0,
+      "unit": "원",
+      "period": "2025",
+      "snippet": "두산테스나 2025 기준 FCF 값은 0원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.007",
+      "source_type": "stock_csv",
+      "source": "두산테스나_주식.csv",
+      "metric": "annual_return_%",
+      "label": "연수익률",
+      "value": 236.94,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "두산테스나 2026 기준 연수익률 값은 236.94%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.008",
+      "source_type": "stock_csv",
+      "source": "두산테스나_주식.csv",
+      "metric": "annual_mdd_%",
+      "label": "연간 MDD",
+      "value": -22.87,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "두산테스나 2026 기준 연간 MDD 값은 -22.87%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.009",
+      "source_type": "stock_csv",
+      "source": "두산테스나_주식.csv",
+      "metric": "volume_mean",
+      "label": "거래량",
+      "value": 443235.0,
+      "unit": "주",
+      "period": "2026",
+      "snippet": "두산테스나 2026 기준 거래량 값은 443235주입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.010",
+      "source_type": "stock_csv",
+      "source": "두산테스나_주식.csv",
+      "metric": "volume_ma_ratio_mean",
+      "label": "이동평균 대비 비율",
+      "value": 1.0639,
+      "unit": "배",
+      "period": "2026",
+      "snippet": "두산테스나 2026 기준 이동평균 대비 비율 값은 1.0639배입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.012",
+      "source_type": "stock_csv",
+      "source": "두산테스나_주식.csv",
+      "metric": "latest_close",
+      "label": "최근 종가",
+      "value": 182000.0,
+      "unit": "원",
+      "period": "2026-05-13",
+      "snippet": "두산테스나 2026-05-13 최근 종가 값은 182,000원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.013",
+      "source_type": "warning_stock_csv",
+      "source": "투자경고종목.csv",
+      "metric": "warning_stock",
+      "label": "투자경고 여부",
+      "value": 1.0,
+      "unit": null,
+      "period": "2026-04-17",
+      "snippet": "두산테스나: 투자경고종목 목록에 포함되어 있으므로 단기 과열 및 변동성 확대 가능성에 유의해야 합니다.",
+      "prompt_rationale": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "finance.safe_cl.004",
+      "text": "두산테스나 2025 기준 FCF 값은 0원입니다.",
+      "evidence_ids": [
+        "finance.ev.004"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.007",
+      "text": "두산테스나 2026 기준 연수익률 값은 236.94%입니다.",
+      "evidence_ids": [
+        "finance.ev.007"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.008",
+      "text": "두산테스나 2026 기준 연간 MDD 값은 -22.87%입니다.",
+      "evidence_ids": [
+        "finance.ev.008"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.009",
+      "text": "두산테스나 2026 기준 거래량 값은 443235주입니다.",
+      "evidence_ids": [
+        "finance.ev.009"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.010",
+      "text": "두산테스나 2026 기준 이동평균 대비 비율 값은 1.0639배입니다.",
+      "evidence_ids": [
+        "finance.ev.010"
+      ],
+      "audit_safe": true
+    }
+  ],
+  "warning_note": "두산테스나: 투자경고종목 목록에 포함되어 있으므로 단기 과열 및 변동성 확대 가능성에 유의해야 합니다.",
+  "source_contexts": [
+    "financial_csv=두산테스나_재무.csv",
+    "stock_csv=두산테스나_주식.csv",
+    "warning_stock_csv=투자경고종목.csv",
+    "prompts.py summary/key_thesis/key_risks are preserved in the Chair View where available.",
+    "First Auditor claims are CSV-grounded one-to-one evidence claims for stable actual-information verification.",
+    "필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수"
+  ],
+  "raw_payload": {
+    "latest_financial_row": {
+      "year": 2025,
+      "sales": 303874072000.0,
+      "operating_income": -940826000.0,
+      "net_income": 1510043000.0,
+      "total_assets": 703775464000.0,
+      "total_liabilities": 266698790000.0,
+      "total_equity": 437076674000.0,
+      "capex": NaN,
+      "ocf": NaN,
+      "fcf": 0,
+      "interest": 11907563000.0,
+      "ROE": 0.3454869797055332,
+      "영업이익률": -0.3096104889133154,
+      "부채비율": 61.01876532537173,
+      "이자보상배율": -0.0790107933924011
+    },
+    "latest_stock_metric": {
+      "year": 2026,
+      "annual_return_%": 236.94,
+      "annual_mdd_%": -22.87
+    },
+    "latest_yearly_summary": {
+      "year": 2026,
+      "close_start": 54015.88,
+      "close_end": 182000.0,
+      "close_high": 182000.0,
+      "close_low": 49373.11,
+      "volume_mean": 443235.0,
+      "volume_ma_ratio_mean": 1.0639
+    },
+    "latest_recent_stock_row": {
+      "Date": "2026-05-13",
+      "Open": 140700.0,
+      "High": 185000.0,
+      "Low": 139100.0,
+      "Close": 182000.0,
+      "Volume": 814425,
+      "Change": 0.2569060773480662,
+      "VKOSPI": NaN,
+      "일수익률_%": 25.69060773480662,
+      "누적최고가": 182000.0,
+      "드로다운_%": 0.0,
+      "거래량_20일평균": 465403.75,
+      "거래량_이동평균대비비율": 1.7499321825404286
+    },
+    "audit_policy": "prompts_py_used_for_interpretation_claims_grounded_by_local_csv"
+  },
+  "packet_version": "finance_prompts_grounded_v4_compact"
+}

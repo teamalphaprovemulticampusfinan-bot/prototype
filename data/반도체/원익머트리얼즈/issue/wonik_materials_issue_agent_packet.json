@@ -1,0 +1,570 @@
+{
+  "agent": "issue",
+  "company_name": "원익머트리얼즈",
+  "company": "원익머트리얼즈",
+  "company_dir": "wonik_materials",
+  "opinion": "보유",
+  "confidence": 0.5,
+  "summary": "원익머트리얼즈에 대해 검증 가능한 핵심 근거는 다음과 같습니다. news_count 값은 10count입니다. rss_count 값은 18count입니다. related_keyword_count 값은 0count입니다.",
+  "key_points": [
+    "news_count 값은 10count입니다.",
+    "rss_count 값은 18count입니다.",
+    "related_keyword_count 값은 0count입니다."
+  ],
+  "risks": [],
+  "claims": [
+    {
+      "claim_id": "issue.auto_cl.001",
+      "text": "news_count 값은 10count입니다.",
+      "evidence_ids": [
+        "issue.ev.001"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "issue.auto_cl.003",
+      "text": "rss_count 값은 18count입니다.",
+      "evidence_ids": [
+        "issue.ev.002"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "issue.auto_cl.005",
+      "text": "related_keyword_count 값은 0count입니다.",
+      "evidence_ids": [
+        "issue.ev.003"
+      ],
+      "claim_type": "point"
+    }
+  ],
+  "evidences": [
+    {
+      "evidence_id": "issue.ev.001",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "news_count",
+      "value": 10,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | news_count | 값: 10count"
+    },
+    {
+      "evidence_id": "issue.ev.002",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "rss_count",
+      "value": 18,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | rss_count | 값: 18count"
+    },
+    {
+      "evidence_id": "issue.ev.003",
+      "source_type": "issue",
+      "source": "issue_keywords_workbook",
+      "metric": "related_keyword_count",
+      "value": 0,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_keywords_workbook | related_keyword_count | 값: 0count"
+    },
+    {
+      "evidence_id": "issue.ev.004",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "원",
+      "period": "Tue, 05 May 2026 10:08:00 +0900",
+      "snippet": "Naver News | Tue, 05 May 2026 10:08:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.005",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "원",
+      "period": "Fri, 01 May 2026 13:58:00 +0900",
+      "snippet": "Naver News | Fri, 01 May 2026 13:58:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.006",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "원",
+      "period": "Fri, 01 May 2026 13:56:00 +0900",
+      "snippet": "Naver News | Fri, 01 May 2026 13:56:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.007",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "원",
+      "period": "Wed, 22 Apr 2026 15:56:00 +0900",
+      "snippet": "Naver News | Wed, 22 Apr 2026 15:56:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.008",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "원",
+      "period": "Mon, 13 Apr 2026 14:14:00 +0900",
+      "snippet": "Naver News | Mon, 13 Apr 2026 14:14:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.009",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": "원",
+      "period": "Tue, 19 May 2026 07:01:44 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:44 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.010",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": "원",
+      "period": "Tue, 19 May 2026 07:01:41 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:41 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.011",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": "원",
+      "period": "Mon, 18 May 2026 20:46:28 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:46:28 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.012",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": "원",
+      "period": "Mon, 18 May 2026 20:36:05 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:36:05 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.013",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": "원",
+      "period": "Mon, 18 May 2026 20:24:00 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:24:00 +0000 기준 rss_title | 값: 확인 불가"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "issue.ev.001",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "news_count",
+      "value": 10,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | news_count | 값: 10count"
+    },
+    {
+      "evidence_id": "issue.ev.002",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "rss_count",
+      "value": 18,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | rss_count | 값: 18count"
+    },
+    {
+      "evidence_id": "issue.ev.003",
+      "source_type": "issue",
+      "source": "issue_keywords_workbook",
+      "metric": "related_keyword_count",
+      "value": 0,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_keywords_workbook | related_keyword_count | 값: 0count"
+    },
+    {
+      "evidence_id": "issue.ev.004",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "원",
+      "period": "Tue, 05 May 2026 10:08:00 +0900",
+      "snippet": "Naver News | Tue, 05 May 2026 10:08:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.005",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "원",
+      "period": "Fri, 01 May 2026 13:58:00 +0900",
+      "snippet": "Naver News | Fri, 01 May 2026 13:58:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.006",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "원",
+      "period": "Fri, 01 May 2026 13:56:00 +0900",
+      "snippet": "Naver News | Fri, 01 May 2026 13:56:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.007",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "원",
+      "period": "Wed, 22 Apr 2026 15:56:00 +0900",
+      "snippet": "Naver News | Wed, 22 Apr 2026 15:56:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.008",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "원",
+      "period": "Mon, 13 Apr 2026 14:14:00 +0900",
+      "snippet": "Naver News | Mon, 13 Apr 2026 14:14:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.009",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": "원",
+      "period": "Tue, 19 May 2026 07:01:44 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:44 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.010",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": "원",
+      "period": "Tue, 19 May 2026 07:01:41 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:41 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.011",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": "원",
+      "period": "Mon, 18 May 2026 20:46:28 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:46:28 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.012",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": "원",
+      "period": "Mon, 18 May 2026 20:36:05 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:36:05 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.013",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": "원",
+      "period": "Mon, 18 May 2026 20:24:00 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:24:00 +0000 기준 rss_title | 값: 확인 불가"
+    }
+  ],
+  "fallback_used": false,
+  "warning_note": "검증 불가 claim 6개를 제거한 뒤 grounding 기준을 재검증했습니다.",
+  "raw_payload": {
+    "analysis_text": "opinion: 보유\nconfidence: 0.65\n\n1.  **핵심 이슈 요약**\n    원익머트리얼즈는 최근 석유화학 업종 전반의 약세와 함께 하락세를 보이고 있으며, 일부 뉴스에서는 반도체 소재·부품 기업들의 실적 가시성 개선 및 EUV 관련 투자 확대가 언급되기도 합니다. 또한, 하나증권에서 원익머트리얼즈 관련 보고서를 발간했다는 점도 확인됩니다.\n\n2.  **기업에 미치는 영향**\n    최근 뉴스 흐름상 원익머트리얼즈는 석유화학 업종의 전반적인 부진과 함께 주가 하락 압력을 받고 있는 것으로 보입니다. 다만, 반도체 소재·부품 섹터 전반에 대한 긍정적인 전망과 EUV 관련 투자 확대는 잠재적인 긍정 요인으로 작용할 수 있습니다.\n\n3.  **긍정 시그널**\n    *   반도체 소재·부품 업종 전반에 대한 투자 매력 증가 및 실적 개선 가능성 언급 (기관 투자자 매수 확대 뉴스)\n    *   EUV 관련 투자 확대가 소재·부품 기업들의 실적 가시성을 빠르게 개선시키고 있다는 분석 (OCI 뉴스)\n    *   하나증권에서 원익머트리얼즈 관련 보고서를 발간했다는 사실 (원익머트리얼즈 관련 종목 보고서 발간 뉴스)\n\n4.  **부정 시그널/리스크**\n    *   석유화학사들의 실적 악화 우려 및 약세 속에서 원익머트리얼즈도 하락세를 나타내고 있다는 점 (남해화학, 가구의 옷을 만든다 뉴스)\n    *   고무 및 벨트 관련주와 함께 하락세를 보이고 있다는 점 (남해화학 뉴스)\n    *   다른 화학주들과 함께 매도세가 거세지면서 조정을 거치고 있다는 점 (가구의 옷을 만든다 뉴스)\n    *   마이크로컨텍솔, 원익 QnC, 티씨케이, 한솔케미칼 등과 함께 하락 중이라는 점 (후성 뉴스)\n\n5.  **향후 체크포인트**\n    *   반도체 소재·부품 섹터 전반의 업황 회복 및 실적 개선 가시성\n    *   EUV 관련 기술 발전 및 투자 확대가 원익머트리얼즈의 실적에 미치는 영향\n    *   석유화학 업종 전반의 실적 회복 여부 및 원익머트리얼즈의 사업 포트폴리오 내 비중\n    *   하나증권 보고서의 구체적인 내용 및 시장 반응\n    *   기관 및 외국인 투자자들의 수급 동향 변화",
+    "markdown_report": "# 원익머트리얼즈 이슈 리포트\n\n## 분석 결과\nopinion: 보유\nconfidence: 0.65\n\n1.  **핵심 이슈 요약**\n    원익머트리얼즈는 최근 석유화학 업종 전반의 약세와 함께 하락세를 보이고 있으며, 일부 뉴스에서는 반도체 소재·부품 기업들의 실적 가시성 개선 및 EUV 관련 투자 확대가 언급되기도 합니다. 또한, 하나증권에서 원익머트리얼즈 관련 보고서를 발간했다는 점도 확인됩니다.\n\n2.  **기업에 미치는 영향**\n    최근 뉴스 흐름상 원익머트리얼즈는 석유화학 업종의 전반적인 부진과 함께 주가 하락 압력을 받고 있는 것으로 보입니다. 다만, 반도체 소재·부품 섹터 전반에 대한 긍정적인 전망과 EUV 관련 투자 확대는 잠재적인 긍정 요인으로 작용할 수 있습니다.\n\n3.  **긍정 시그널**\n    *   반도체 소재·부품 업종 전반에 대한 투자 매력 증가 및 실적 개선 가능성 언급 (기관 투자자 매수 확대 뉴스)\n    *   EUV 관련 투자 확대가 소재·부품 기업들의 실적 가시성을 빠르게 개선시키고 있다는 분석 (OCI 뉴스)\n    *   하나증권에서 원익머트리얼즈 관련 보고서를 발간했다는 사실 (원익머트리얼즈 관련 종목 보고서 발간 뉴스)\n\n4.  **부정 시그널/리스크**\n    *   석유화학사들의 실적 악화 우려 및 약세 속에서 원익머트리얼즈도 하락세를 나타내고 있다는 점 (남해화학, 가구의 옷을 만든다 뉴스)\n    *   고무 및 벨트 관련주와 함께 하락세를 보이고 있다는 점 (남해화학 뉴스)\n    *   다른 화학주들과 함께 매도세가 거세지면서 조정을 거치고 있다는 점 (가구의 옷을 만든다 뉴스)\n    *   마이크로컨텍솔, 원익 QnC, 티씨케이, 한솔케미칼 등과 함께 하락 중이라는 점 (후성 뉴스)\n\n5.  **향후 체크포인트**\n    *   반도체 소재·부품 섹터 전반의 업황 회복 및 실적 개선 가시성\n    *   EUV 관련 기술 발전 및 투자 확대가 원익머트리얼즈의 실적에 미치는 영향\n    *   석유화학 업종 전반의 실적 회복 여부 및 원익머트리얼즈의 사업 포트폴리오 내 비중\n    *   하나증권 보고서의 구체적인 내용 및 시장 반응\n    *   기관 및 외국인 투자자들의 수급 동향 변화\n",
+    "news_count": 10,
+    "rss_count": 18,
+    "related_keyword_count": 0,
+    "df_news_rows": 139,
+    "llm_error": null,
+    "graph_claims_original": [],
+    "removed_ungrounded_claims": [
+      "원익머트리얼즈 관련 공개 뉴스 제목: [주간 코스닥 기관] 리노공업·ISC 등 반도체 장비 매수 확대…무슨 이...",
+      "원익머트리얼즈 관련 공개 뉴스 제목: [주간 코스닥 외국인] 파두 로보티즈 비츠로셀 담고 에이비엘바이오 제...",
+      "원익머트리얼즈 관련 공개 뉴스 제목: 이엠티, 고용량·고출력 양극재 대응 전구체 제조 기술력 확보 주목을",
+      "원익머트리얼즈 이슈 분석에서 수집된 RSS 항목 수는 18건입니다.",
+      "원익머트리얼즈 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+      "원익머트리얼즈 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다."
+    ],
+    "removed_bad_evidence_ids": [
+      "issue.ev.unverified"
+    ]
+  },
+  "packet_version": "grounded_agent_v3",
+  "pre_sanitize_grounding_check": {
+    "score": 0.0,
+    "pass": false,
+    "pass_threshold": 0.75,
+    "claim_count": 6,
+    "supported_count": 0,
+    "unsupported_count": 6,
+    "supported_claims": [],
+    "unsupported_claims": [
+      "원익머트리얼즈 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+      "원익머트리얼즈 이슈 분석에서 수집된 RSS 항목 수는 18건입니다.",
+      "원익머트리얼즈 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다.",
+      "원익머트리얼즈 관련 공개 뉴스 제목: 이엠티, 고용량·고출력 양극재 대응 전구체 제조 기술력 확보 주목을",
+      "원익머트리얼즈 관련 공개 뉴스 제목: [주간 코스닥 외국인] 파두 로보티즈 비츠로셀 담고 에이비엘바이오 제...",
+      "원익머트리얼즈 관련 공개 뉴스 제목: [주간 코스닥 기관] 리노공업·ISC 등 반도체 장비 매수 확대…무슨 이..."
+    ],
+    "issues": [
+      "issue.cl.001: evidence와 claim 연결이 약합니다.",
+      "issue.cl.002: evidence와 claim 연결이 약합니다.",
+      "issue.cl.003: evidence와 claim 연결이 약합니다.",
+      "issue.cl.004: evidence와 claim 연결이 약합니다.",
+      "issue.cl.005: evidence와 claim 연결이 약합니다.",
+      "issue.cl.006: evidence와 claim 연결이 약합니다."
+    ],
+    "claim_results": [
+      {
+        "claim_id": "issue.cl.001",
+        "text": "원익머트리얼즈 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.002",
+        "text": "원익머트리얼즈 이슈 분석에서 수집된 RSS 항목 수는 18건입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.003",
+        "text": "원익머트리얼즈 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.004",
+        "text": "원익머트리얼즈 관련 공개 뉴스 제목: 이엠티, 고용량·고출력 양극재 대응 전구체 제조 기술력 확보 주목을",
+        "evidence_ids": [
+          "issue.ev.004"
+        ],
+        "supported": false,
+        "score": 0.55,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.005",
+        "text": "원익머트리얼즈 관련 공개 뉴스 제목: [주간 코스닥 외국인] 파두 로보티즈 비츠로셀 담고 에이비엘바이오 제...",
+        "evidence_ids": [
+          "issue.ev.005"
+        ],
+        "supported": false,
+        "score": 0.55,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.006",
+        "text": "원익머트리얼즈 관련 공개 뉴스 제목: [주간 코스닥 기관] 리노공업·ISC 등 반도체 장비 매수 확대…무슨 이...",
+        "evidence_ids": [
+          "issue.ev.006"
+        ],
+        "supported": false,
+        "score": 0.55,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      }
+    ]
+  },
+  "post_atomic_grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 3,
+    "supported_count": 3,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "news_count 값은 10count입니다.",
+      "rss_count 값은 18count입니다.",
+      "related_keyword_count 값은 0count입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "issue.auto_cl.001",
+        "text": "news_count 값은 10count입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.003",
+        "text": "rss_count 값은 18count입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.005",
+        "text": "related_keyword_count 값은 0count입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  },
+  "grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 3,
+    "supported_count": 3,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "news_count 값은 10count입니다.",
+      "rss_count 값은 18count입니다.",
+      "related_keyword_count 값은 0count입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "issue.auto_cl.001",
+        "text": "news_count 값은 10count입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.003",
+        "text": "rss_count 값은 18count입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.005",
+        "text": "related_keyword_count 값은 0count입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  }
+}

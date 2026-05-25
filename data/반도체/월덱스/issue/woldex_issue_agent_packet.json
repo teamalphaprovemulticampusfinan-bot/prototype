@@ -1,0 +1,570 @@
+{
+  "agent": "issue",
+  "company_name": "월덱스",
+  "company": "월덱스",
+  "company_dir": "woldex",
+  "opinion": "보유",
+  "confidence": 0.5,
+  "summary": "월덱스에 대해 검증 가능한 핵심 근거는 다음과 같습니다. news_count 값은 10count입니다. rss_count 값은 16count입니다. related_keyword_count 값은 0count입니다.",
+  "key_points": [
+    "news_count 값은 10count입니다.",
+    "rss_count 값은 16count입니다.",
+    "related_keyword_count 값은 0count입니다."
+  ],
+  "risks": [],
+  "claims": [
+    {
+      "claim_id": "issue.auto_cl.001",
+      "text": "news_count 값은 10count입니다.",
+      "evidence_ids": [
+        "issue.ev.001"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "issue.auto_cl.003",
+      "text": "rss_count 값은 16count입니다.",
+      "evidence_ids": [
+        "issue.ev.002"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "issue.auto_cl.005",
+      "text": "related_keyword_count 값은 0count입니다.",
+      "evidence_ids": [
+        "issue.ev.003"
+      ],
+      "claim_type": "point"
+    }
+  ],
+  "evidences": [
+    {
+      "evidence_id": "issue.ev.001",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "news_count",
+      "value": 10,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | news_count | 값: 10count"
+    },
+    {
+      "evidence_id": "issue.ev.002",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "rss_count",
+      "value": 16,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | rss_count | 값: 16count"
+    },
+    {
+      "evidence_id": "issue.ev.003",
+      "source_type": "issue",
+      "source": "issue_keywords_workbook",
+      "metric": "related_keyword_count",
+      "value": 0,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_keywords_workbook | related_keyword_count | 값: 0count"
+    },
+    {
+      "evidence_id": "issue.ev.004",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "배",
+      "period": "Wed, 22 Apr 2026 15:56:00 +0900",
+      "snippet": "Naver News | Wed, 22 Apr 2026 15:56:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.005",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 09 Apr 2026 14:52:00 +0900",
+      "snippet": "Naver News | Thu, 09 Apr 2026 14:52:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.006",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Fri, 03 Apr 2026 12:54:00 +0900",
+      "snippet": "Naver News | Fri, 03 Apr 2026 12:54:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.007",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Wed, 25 Feb 2026 08:46:00 +0900",
+      "snippet": "Naver News | Wed, 25 Feb 2026 08:46:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.008",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "원",
+      "period": "Wed, 21 Jan 2026 09:16:00 +0900",
+      "snippet": "Naver News | Wed, 21 Jan 2026 09:16:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.009",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:44 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:44 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.010",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:41 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:41 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.011",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:46:28 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:46:28 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.012",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:36:05 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:36:05 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.013",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:24:00 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:24:00 +0000 기준 rss_title | 값: 확인 불가"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "issue.ev.001",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "news_count",
+      "value": 10,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | news_count | 값: 10count"
+    },
+    {
+      "evidence_id": "issue.ev.002",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "rss_count",
+      "value": 16,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | rss_count | 값: 16count"
+    },
+    {
+      "evidence_id": "issue.ev.003",
+      "source_type": "issue",
+      "source": "issue_keywords_workbook",
+      "metric": "related_keyword_count",
+      "value": 0,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_keywords_workbook | related_keyword_count | 값: 0count"
+    },
+    {
+      "evidence_id": "issue.ev.004",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "배",
+      "period": "Wed, 22 Apr 2026 15:56:00 +0900",
+      "snippet": "Naver News | Wed, 22 Apr 2026 15:56:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.005",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 09 Apr 2026 14:52:00 +0900",
+      "snippet": "Naver News | Thu, 09 Apr 2026 14:52:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.006",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Fri, 03 Apr 2026 12:54:00 +0900",
+      "snippet": "Naver News | Fri, 03 Apr 2026 12:54:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.007",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Wed, 25 Feb 2026 08:46:00 +0900",
+      "snippet": "Naver News | Wed, 25 Feb 2026 08:46:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.008",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "원",
+      "period": "Wed, 21 Jan 2026 09:16:00 +0900",
+      "snippet": "Naver News | Wed, 21 Jan 2026 09:16:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.009",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:44 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:44 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.010",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:41 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:41 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.011",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:46:28 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:46:28 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.012",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:36:05 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:36:05 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.013",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:24:00 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:24:00 +0000 기준 rss_title | 값: 확인 불가"
+    }
+  ],
+  "fallback_used": false,
+  "warning_note": "검증 불가 claim 6개를 제거한 뒤 grounding 기준을 재검증했습니다.",
+  "raw_payload": {
+    "analysis_text": "opinion: 보유\nconfidence: 0.65\n\n1.  **핵심 이슈 요약**\n    월덱스는 최근 반도체 업종 전반의 투자 확대 및 빅테크 투자 증가에 따른 소재·부품 기업들의 실적 가시성 개선 흐름 속에서 LX세미콘, 한양디지텍 등과 함께 반도체 관련주로 분류되어 주가 상승 모멘텀을 일부 보였다. 그러나 동시에 코미코 등과 함께 동반 약세를 보이거나, 고점 부담으로 조정을 받는 종목들과 함께 언급되는 등 업종 내에서 혼조세를 나타내고 있다. 과거 풋백 옵션 이슈로 인한 보수적인 자금 운용 기조가 자리 잡고 있다는 점도 투자 관점에서 고려될 부분이다.\n\n2.  **기업에 미치는 영향**\n    반도체 산업의 전반적인 투자 확대 및 AI 관련 기술 발전은 월덱스가 속한 소재·부품 산업에 긍정적인 영향을 미칠 수 있다. 특히 빅테크의 투자 확대는 소재·부품 기업들의 실적 가시성을 높이는 요인으로 작용할 수 있다. 다만, 과거 풋백 옵션 이슈로 인한 보수적인 자금 운용 기조는 공격적인 투자나 사업 확장에 제약이 될 수 있으며, 이는 잠재적인 성장 동력 확보에 영향을 줄 수 있다.\n\n3.  **긍정 시그널**\n    *   **반도체 업종 투자 확대 수혜:** 빅테크의 투자 확대가 동시에 진행되면서 소재·부품 기업들의 실적 가시성이 빠르게 개선되고 있다는 뉴스 문맥은 월덱스에도 긍정적으로 작용할 수 있다.\n    *   **AI 관련주 동반 상승:** 엔비디아 실적 발표를 앞두고 인공지능(AI) 전망에 따른 반도체 관련 주가 상승 흐름 속에서 월덱스가 언급되며 동반 상승 가능성을 시사했다.\n\n4.  **부정 시그널/리스크**\n    *   **주가 조정 및 약세 동반:** 코미코 등과 함께 동반 약세를 보이거나, 리노공업, ISC 등과 함께 고점 부담으로 조정을 받는 종목으로 언급되는 등 주가 측면에서 명확한 상승 모멘텀이 부각되지 않고 있다.\n    *   **보수적인 자금 운용 기조:** 과거 풋백 옵션 이슈로 인해 보수적인 자금 운용 기조가 자리 잡고 있다는 점은 향후 사업 확장이나 투자에 있어 잠재적인 제약 요인이 될 수 있다.\n    *   **개별 기업 이슈 부재:** 내부 키워드 정보가 제공되지 않아 월덱스 자체의 구체적인 성장 동력이나 차별화된 이슈가 현재로서는 파악되지 않는다.\n\n5.  **향후 체크포인트**\n    *   **반도체 소재·부품 시장의 실적 개선 가시성:** 빅테크 투자 확대가 실제 월덱스의 실적 개선으로 이어지는지 여부를 지속적으로 확인할 필요가 있다.\n    *   **주가 모멘텀 지속 여부:** 반도체 업종 전반의 상승 흐름 속에서 월덱스만의 차별화된 주가 상승 동력이 나타나는지 주목해야 한다.\n    *   **자금 운용 기조 변화 가능성:** 보수적인 자금 운용 기조가 향후 사업 확장이나 신규 투자에 미치는 영향을 관찰할 필요가 있다.\n    *   **신규 기술 및 사업 관련 정보:** 내부 키워드 정보가 없는 만큼, 월덱스의 신규 기술 개발, 사업 포트폴리오 확장 등 자체적인 성장 동력에 대한 정보 공개 여부를 주시해야 한다.",
+    "markdown_report": "# 월덱스 이슈 리포트\n\n## 분석 결과\nopinion: 보유\nconfidence: 0.65\n\n1.  **핵심 이슈 요약**\n    월덱스는 최근 반도체 업종 전반의 투자 확대 및 빅테크 투자 증가에 따른 소재·부품 기업들의 실적 가시성 개선 흐름 속에서 LX세미콘, 한양디지텍 등과 함께 반도체 관련주로 분류되어 주가 상승 모멘텀을 일부 보였다. 그러나 동시에 코미코 등과 함께 동반 약세를 보이거나, 고점 부담으로 조정을 받는 종목들과 함께 언급되는 등 업종 내에서 혼조세를 나타내고 있다. 과거 풋백 옵션 이슈로 인한 보수적인 자금 운용 기조가 자리 잡고 있다는 점도 투자 관점에서 고려될 부분이다.\n\n2.  **기업에 미치는 영향**\n    반도체 산업의 전반적인 투자 확대 및 AI 관련 기술 발전은 월덱스가 속한 소재·부품 산업에 긍정적인 영향을 미칠 수 있다. 특히 빅테크의 투자 확대는 소재·부품 기업들의 실적 가시성을 높이는 요인으로 작용할 수 있다. 다만, 과거 풋백 옵션 이슈로 인한 보수적인 자금 운용 기조는 공격적인 투자나 사업 확장에 제약이 될 수 있으며, 이는 잠재적인 성장 동력 확보에 영향을 줄 수 있다.\n\n3.  **긍정 시그널**\n    *   **반도체 업종 투자 확대 수혜:** 빅테크의 투자 확대가 동시에 진행되면서 소재·부품 기업들의 실적 가시성이 빠르게 개선되고 있다는 뉴스 문맥은 월덱스에도 긍정적으로 작용할 수 있다.\n    *   **AI 관련주 동반 상승:** 엔비디아 실적 발표를 앞두고 인공지능(AI) 전망에 따른 반도체 관련 주가 상승 흐름 속에서 월덱스가 언급되며 동반 상승 가능성을 시사했다.\n\n4.  **부정 시그널/리스크**\n    *   **주가 조정 및 약세 동반:** 코미코 등과 함께 동반 약세를 보이거나, 리노공업, ISC 등과 함께 고점 부담으로 조정을 받는 종목으로 언급되는 등 주가 측면에서 명확한 상승 모멘텀이 부각되지 않고 있다.\n    *   **보수적인 자금 운용 기조:** 과거 풋백 옵션 이슈로 인해 보수적인 자금 운용 기조가 자리 잡고 있다는 점은 향후 사업 확장이나 투자에 있어 잠재적인 제약 요인이 될 수 있다.\n    *   **개별 기업 이슈 부재:** 내부 키워드 정보가 제공되지 않아 월덱스 자체의 구체적인 성장 동력이나 차별화된 이슈가 현재로서는 파악되지 않는다.\n\n5.  **향후 체크포인트**\n    *   **반도체 소재·부품 시장의 실적 개선 가시성:** 빅테크 투자 확대가 실제 월덱스의 실적 개선으로 이어지는지 여부를 지속적으로 확인할 필요가 있다.\n    *   **주가 모멘텀 지속 여부:** 반도체 업종 전반의 상승 흐름 속에서 월덱스만의 차별화된 주가 상승 동력이 나타나는지 주목해야 한다.\n    *   **자금 운용 기조 변화 가능성:** 보수적인 자금 운용 기조가 향후 사업 확장이나 신규 투자에 미치는 영향을 관찰할 필요가 있다.\n    *   **신규 기술 및 사업 관련 정보:** 내부 키워드 정보가 없는 만큼, 월덱스의 신규 기술 개발, 사업 포트폴리오 확장 등 자체적인 성장 동력에 대한 정보 공개 여부를 주시해야 한다.\n",
+    "news_count": 10,
+    "rss_count": 16,
+    "related_keyword_count": 0,
+    "df_news_rows": 139,
+    "llm_error": null,
+    "graph_claims_original": [],
+    "removed_ungrounded_claims": [
+      "월덱스 관련 공개 뉴스 제목: OCI, '기초·카본 케미컬' 투트랙 전략으로 시장 지배력 강화 주목",
+      "월덱스 관련 공개 뉴스 제목: 자동차 센서가 끌고 반도체가 밀고… 오디텍, 수직계열화로 시장 장악",
+      "월덱스 관련 공개 뉴스 제목: 후성, 40년 불소화학 외길…삼성·SK가 앞다퉈 찾는 '특수가스' 강자",
+      "월덱스 이슈 분석에서 수집된 RSS 항목 수는 16건입니다.",
+      "월덱스 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+      "월덱스 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다."
+    ],
+    "removed_bad_evidence_ids": [
+      "issue.ev.unverified"
+    ]
+  },
+  "packet_version": "grounded_agent_v3",
+  "pre_sanitize_grounding_check": {
+    "score": 0.0,
+    "pass": false,
+    "pass_threshold": 0.75,
+    "claim_count": 6,
+    "supported_count": 0,
+    "unsupported_count": 6,
+    "supported_claims": [],
+    "unsupported_claims": [
+      "월덱스 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+      "월덱스 이슈 분석에서 수집된 RSS 항목 수는 16건입니다.",
+      "월덱스 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다.",
+      "월덱스 관련 공개 뉴스 제목: OCI, '기초·카본 케미컬' 투트랙 전략으로 시장 지배력 강화 주목",
+      "월덱스 관련 공개 뉴스 제목: 자동차 센서가 끌고 반도체가 밀고… 오디텍, 수직계열화로 시장 장악",
+      "월덱스 관련 공개 뉴스 제목: 후성, 40년 불소화학 외길…삼성·SK가 앞다퉈 찾는 '특수가스' 강자"
+    ],
+    "issues": [
+      "issue.cl.001: evidence와 claim 연결이 약합니다.",
+      "issue.cl.002: evidence와 claim 연결이 약합니다.",
+      "issue.cl.003: evidence와 claim 연결이 약합니다.",
+      "issue.cl.004: evidence와 claim 연결이 약합니다.",
+      "issue.cl.005: evidence와 claim 연결이 약합니다.",
+      "issue.cl.006: 숫자 불일치 또는 누락(number_ratio=0.00)"
+    ],
+    "claim_results": [
+      {
+        "claim_id": "issue.cl.001",
+        "text": "월덱스 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.002",
+        "text": "월덱스 이슈 분석에서 수집된 RSS 항목 수는 16건입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.003",
+        "text": "월덱스 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.004",
+        "text": "월덱스 관련 공개 뉴스 제목: OCI, '기초·카본 케미컬' 투트랙 전략으로 시장 지배력 강화 주목",
+        "evidence_ids": [
+          "issue.ev.004"
+        ],
+        "supported": false,
+        "score": 0.55,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.005",
+        "text": "월덱스 관련 공개 뉴스 제목: 자동차 센서가 끌고 반도체가 밀고… 오디텍, 수직계열화로 시장 장악",
+        "evidence_ids": [
+          "issue.ev.005"
+        ],
+        "supported": false,
+        "score": 0.55,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.006",
+        "text": "월덱스 관련 공개 뉴스 제목: 후성, 40년 불소화학 외길…삼성·SK가 앞다퉈 찾는 '특수가스' 강자",
+        "evidence_ids": [
+          "issue.ev.006"
+        ],
+        "supported": false,
+        "score": 0.25,
+        "number_ratio": 0.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "숫자 불일치 또는 누락(number_ratio=0.00)"
+      }
+    ]
+  },
+  "post_atomic_grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 3,
+    "supported_count": 3,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "news_count 값은 10count입니다.",
+      "rss_count 값은 16count입니다.",
+      "related_keyword_count 값은 0count입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "issue.auto_cl.001",
+        "text": "news_count 값은 10count입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.003",
+        "text": "rss_count 값은 16count입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.005",
+        "text": "related_keyword_count 값은 0count입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  },
+  "grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 3,
+    "supported_count": 3,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "news_count 값은 10count입니다.",
+      "rss_count 값은 16count입니다.",
+      "related_keyword_count 값은 0count입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "issue.auto_cl.001",
+        "text": "news_count 값은 10count입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.003",
+        "text": "rss_count 값은 16count입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.005",
+        "text": "related_keyword_count 값은 0count입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  }
+}

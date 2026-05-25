@@ -1,0 +1,1900 @@
+{
+  "agent": "tech_intake",
+  "artifact": "tech_intake_value_evidence_bridge",
+  "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
+  "created_at": "2026-05-25T12:50:21",
+  "field": "반도체",
+  "company": "SFA반도체",
+  "company_dir": "sfa_semicon",
+  "company_slug": "sfa_semicon",
+  "source_document_count": 155,
+  "source_documents": [
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/quanified_metrix.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_kipris_bibliographic_normalized.csv",
+      "detected_url_count": 20,
+      "fallback_url_count": 0
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_kipris_bibliographic_normalized_summary.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_kipris_bibliographic_normalized_summary.md",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_kipris_citations_normalized.csv",
+      "detected_url_count": 20,
+      "fallback_url_count": 0
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_kipris_claims_normalized.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_kipris_family_normalized.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_kipris_patents_normalized.csv",
+      "detected_url_count": 20,
+      "fallback_url_count": 0
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_kipris_plus_bibliographic_request_log.json",
+      "detected_url_count": 1,
+      "fallback_url_count": 0
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_kipris_plus_bibliographic_summary.json",
+      "detected_url_count": 1,
+      "fallback_url_count": 0
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_kipris_plus_bibliographic_summary.md",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_kipris_plus_claim_request_targets.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_kipris_plus_family_request_targets.csv",
+      "detected_url_count": 20,
+      "fallback_url_count": 0
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_kipris_plus_request_targets.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_kipris_tech_ml_enriched.csv",
+      "detected_url_count": 20,
+      "fallback_url_count": 0
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_kipris_tech_ml_features.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_kipris_tech_ml_features.md",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_agent_packet.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "IR_HOMEPAGE",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_chair_summary.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "IR_HOMEPAGE",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_chair_summary.md",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_deep_dive.md",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "IR_HOMEPAGE",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_evidence_harvest.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "IR_HOMEPAGE",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_evidence_harvest.md",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_excel_quantified_metrics.md",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_formula_rules.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_formula_rules.md",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_full_appendix.md",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_high_quality_report.md",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_intake_value_evidence.json",
+      "detected_url_count": 14,
+      "fallback_url_count": 0
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_intake_value_evidence.md",
+      "detected_url_count": 20,
+      "fallback_url_count": 0
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_investor_scorecard.md",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_ip_citation_features.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_ip_citation_features.md",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_ip_claim_features.json",
+      "detected_url_count": 1,
+      "fallback_url_count": 0
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_ip_claim_features.md",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_ip_evidence_composite.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_ip_evidence_composite.md",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_ip_family_features.json",
+      "detected_url_count": 1,
+      "fallback_url_count": 0
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_ip_family_features.md",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_ip_legal_features.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_ip_legal_features.md",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_ip_ml.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_ml_signal.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_ml_signal.md",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_patent_evidence.json",
+      "detected_url_count": 17,
+      "fallback_url_count": 0
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_patent_evidence.md",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_patent_normalized.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_patent_semantic_features.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_patent_semantic_features.md",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_to_value_bridge_ip_evidence_adjusted.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_to_value_inputs.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/tech.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/tech_certification_features.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/tech_certification_features.md",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "IR_HOMEPAGE",
+      "source_file": "data/반도체/SFA반도체/tech/tech_chair_summary.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "IR_HOMEPAGE",
+      "source_file": "data/반도체/SFA반도체/tech/tech_chair_summary.md",
+      "detected_url_count": 20,
+      "fallback_url_count": 0
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/tech_excel_frame_full.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/tech_excel_frame_items.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/tech_excel_frame_metrics.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/tech_excel_frame_summary.md",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/tech_excel_quantified_metrics.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/tech_extra_intake_packet.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/tech_full_appendix.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/tech_full_appendix.md",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/tech_intake_manifest.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/tech_intake_manifest.md",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/tech_intake_value_evidence.json",
+      "detected_url_count": 14,
+      "fallback_url_count": 0
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/tech_intake_value_evidence.md",
+      "detected_url_count": 20,
+      "fallback_url_count": 0
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/tech_investor_scorecard.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/tech_ip_citation_features.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/tech_ip_claim_features.json",
+      "detected_url_count": 1,
+      "fallback_url_count": 0
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/tech_ip_evidence_composite.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/tech_ip_family_features.json",
+      "detected_url_count": 1,
+      "fallback_url_count": 0
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/tech_ip_legal_features.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/tech_ip_ml.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/tech_lifecycle_features.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/tech_lifecycle_features.md",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/tech_ml_signal.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/tech_patent_semantic_features.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/tech_patent_semantic_features.md",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/tech_patent_similarity_top_pairs.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/tech_template_inventory.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/tech_template_inventory.md",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/tech_to_value_bridge_ip_evidence_adjusted.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/source/sfa_semicon_kipris_plus_bibliographic_raw.csv",
+      "detected_url_count": 20,
+      "fallback_url_count": 0
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/source/sfa_semicon_kipris_plus_bibliographic_raw.jsonl",
+      "detected_url_count": 20,
+      "fallback_url_count": 0
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/source/sfa_semicon_kipris_plus_citations_raw.jsonl",
+      "detected_url_count": 20,
+      "fallback_url_count": 0
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/source/sfa_semicon_kipris_plus_claims_raw.jsonl",
+      "detected_url_count": 20,
+      "fallback_url_count": 0
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/source/sfa_semicon_kipris_plus_family_raw.jsonl",
+      "detected_url_count": 20,
+      "fallback_url_count": 0
+    },
+    {
+      "source_group": "IR_HOMEPAGE",
+      "source_file": "data/반도체/SFA반도체/tech/source/sfa_semicon_tech_local_proxy_evidence.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "IR_HOMEPAGE",
+      "source_file": "data/반도체/SFA반도체/tech/source/sfa_semicon_tech_local_proxy_evidence.md",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "IR_HOMEPAGE",
+      "source_file": "data/반도체/SFA반도체/tech/_nepes_reference_schema/nepes_tech_chair_summary.md",
+      "detected_url_count": 20,
+      "fallback_url_count": 0
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/_nepes_reference_schema/nepes_tech_full_appendix.md",
+      "detected_url_count": 2,
+      "fallback_url_count": 0
+    },
+    {
+      "source_group": "IR_HOMEPAGE",
+      "source_file": "data/반도체/SFA반도체/tech/_nepes_reference_schema/tech_chair_summary.md",
+      "detected_url_count": 20,
+      "fallback_url_count": 0
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/_nepes_reference_schema/tech_full_appendix.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/_nepes_reference_schema/tech_ip_evidence_composite.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/_nepes_reference_schema/tech_template_inventory.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/_nepes_reference_schema/tech_template_inventory.md",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/SFA반도체/tech/_nepes_reference_schema/tech_to_value_bridge_ip_evidence_adjusted.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/_template_refs/tech_template.xlsx",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/_template_refs/tech_template_base.xlsx",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/sfa_dashboard_payload.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/sfa_semicon_dashboard_payload.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/sfa_semicon_source_map.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/sfa_semicon_valuation_metrics.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/sfa_semicon_valuation_report.md",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/sfa_semicon_valuation_validation.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/sfa_semicon_valuation_workbook.xlsx",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/sfa_source_map.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/sfa_valuation_metrics.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/sfa_valuation_report.md",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/sfa_valuation_validation.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/sfa_valuation_workbook.xlsx",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/company_profile.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/cross_agent_signals_for_valuation.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/dcf_inputs.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/dilution_events.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/eval_price_history.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/eval_price_history_monthly.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/eval_price_history_monthly_v43.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/eval_price_history_monthly_v44.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/eval_price_history_monthly_v45.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/eval_price_history_v43.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/eval_price_history_v44.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/eval_price_history_v45.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/financials_normalized.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/financials_raw.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/peer_multiples.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/price_history.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/relative_valuation_inputs.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/shares_outstanding.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/valuation_assumptions.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/valuation_assumptions.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/valuation_intake_manifest.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/valuation_market_snapshot.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/valuation_market_snapshot.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/valuation_modeling_template_catalog.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/valuation_modeling_template_catalog.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/valuation_normalized_financials.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/valuation_peer_input.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/valuation_price_history.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/valuation_price_summary.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/valuation_raw_dart_accounts.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/valuation_reference_universe_208.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/valuation_reference_universe_focus.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/valuation_reference_universe_summary.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/valuation_share_count.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/SFA반도체/valuation/intake/valuation_source_map.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "FINANCE",
+      "source_file": "data/반도체/SFA반도체/finance/finance_standardize_manifest.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "FINANCE",
+      "source_file": "data/반도체/SFA반도체/finance/SFA반도체_finance.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "FINANCE",
+      "source_file": "data/반도체/SFA반도체/finance/SFA반도체_finance_agent_packet.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "FINANCE",
+      "source_file": "data/반도체/SFA반도체/finance/SFA반도체_재무.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "FINANCE",
+      "source_file": "data/반도체/SFA반도체/finance/SFA반도체_주식.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "FINANCE",
+      "source_file": "data/반도체/SFA반도체/finance/intake/finance_intake_manifest.json",
+      "detected_url_count": 1,
+      "fallback_url_count": 0
+    }
+  ],
+  "source_url_map": {
+    "TECH_OUTPUT": {
+      "detected_urls": [
+        "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
+        "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1126",
+        "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
+        "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
+        "https://www.kipris.or.kr/khome/main.jsp",
+        "https://plus.kipris.or.kr/",
+        "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+KIPRIS+%ED%8A%B9%ED%97%88",
+        "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
+        "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+IR",
+        "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+        "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
+        "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
+        "https://dart.fss.or.kr/",
+        "https://finance.naver.com/",
+        "http://www.w3.org/2001/XMLSchema-instance",
+        "http://www.nepes.co.kr",
+        "https://opendart.fss.or.kr/",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e002f08143e8edcc73d0bc366ffc4e917df890f8d28e71cd1f31c3a310019ffa28a533bab1ed7c0fdbff567cca3fcfd1b7fc3ca5cf360e1e796",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0052397f0f904a674f0c7e8780fe701e73414e7143fc6a4a6719be5f41ef7558f7ad2cebc258cabb53ac7a7f90ebf7e0dbe4a2b3a7a31fdda7",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00e5732dd050a0e8812a4ccd67b6b0029ce01742297b94f87cb6f762cddd8ad4b74e10fc62b72ad562e3a9bd37747d7923bae29b7ff8e1392f",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00f4b8ccb3636543fa5d5ec5048936c1c3eb4da80dd87734172cbaddf81459549b070f99fd51d69e23fba52499cbc958a53b6685c04d2f634c",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00928ba065f9eef27482cbed4dce5f4bea8c89192327ecd470dadcc1f82063133989642fe2d5c39d5ea893d23000290663dbd69cfe4991dac0",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0053e3127069af059e748fb71a8f28f9ef623ed56eed866eeb9e9daf724cd514711ad70a183edc94126b4637b92dc67e61eca74f65ab617e3c"
+      ],
+      "fallback_urls": [
+        "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
+        "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98"
+      ]
+    },
+    "KIPRIS": {
+      "detected_urls": [
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e002f08143e8edcc73d0bc366ffc4e917df890f8d28e71cd1f31c3a310019ffa28a533bab1ed7c0fdbff567cca3fcfd1b7fc3ca5cf360e1e796",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0052397f0f904a674f0c7e8780fe701e73414e7143fc6a4a6719be5f41ef7558f7ad2cebc258cabb53ac7a7f90ebf7e0dbe4a2b3a7a31fdda7",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00e5732dd050a0e8812a4ccd67b6b0029ce01742297b94f87cb6f762cddd8ad4b74e10fc62b72ad562e3a9bd37747d7923bae29b7ff8e1392f",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00f4b8ccb3636543fa5d5ec5048936c1c3eb4da80dd87734172cbaddf81459549b070f99fd51d69e23fba52499cbc958a53b6685c04d2f634c",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00928ba065f9eef27482cbed4dce5f4bea8c89192327ecd470dadcc1f82063133989642fe2d5c39d5ea893d23000290663dbd69cfe4991dac0",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0053e3127069af059e748fb71a8f28f9ef623ed56eed866eeb9e9daf724cd514711ad70a183edc94126b4637b92dc67e61eca74f65ab617e3c",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7269399fb7513a1282cd945abde9e57fbd3330b6edc11530772ff94da70ade41fb657e27ef5338cbac1736b6fe498bbeb18736b26ae0cf7b11e",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93f7d332a6d478b23ea4339d47e1b1231f9ada924338b8fd9c80c8cf1c8bb6af11d4ba31077f429a25893d3e59b02161cdbb3d478a5250a297",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00586f0e73fc351bde4eb5ed6b0d42a27f7afa931ee9bfc03cfd5b092c1d533272e43780d6b36442b057de5cab5e32694a9a35133ea1b88e27",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c932f471fe9c4260ce781ae99193e47c162506b335237e9804b3300881bdb6679910fddfd57e70ebd87e628cf4ac45b1f10cdecbcaef461df71",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7266c1436d8de8a8d4aaba43a7d8717fd0a98cab26852ef8cae03d017619138c13951b4efdf03241e6fd23a38bc9b68fd0a909c44f88b878af9",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e009fa4f7c219d1dd927717efcd55052badccb4d6a20c6f1cae5564ab2547498a2c8f198d22e4a20a584a41487978274f2d6764a70b82cf7cbb",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0051cdc932a73393745caa841d613489dcd0bf1aa3b91148637506a61a7d05b747310bf1338a1d6acaa8b28d0853d720a97977bc6521a279a0",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00ac71af7eab9c00345aa77582a756bd59cb1dd5523f2b79bc968d9db85b55118b5ed0d638eec355229d439b95d9fb535fce3211a8b7befb95",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c8b05d8ff1d8292516723bab1e40acfe68331996c26846f6bfe0c26709263a328",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00b9d4351560618dd709c2c849c2a00bf4618d78f5510b4f0b604f080f33fe1dec04d733d7e43c284d7be7e29d4fcb3b9ef502bc6f8228675b",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c8b05d8ff1d829251f3a17be85510561ba706f00ee56504dd59893f536b5271d1",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c20f465ffcfa45303646b3046188494f951da375ed0989b739a607dba63f81d42",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c8b05d8ff1d82925103d1e86fa6cdca1e074130a56aa05451d1ea3882d4db0a81",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93984a92449a3219d260026cfc0b28515bf4c6357de5de4fa5766701ca6c8aa4c5af2c3d75848496422d59e5d280b5bb63e523086f11dae998",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210136033&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020150079377&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020150118794&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020150135147&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020160002104&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020160014660&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020160021653&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020190132695&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020140116676&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020150067910&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020150079060&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020150135149&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020150140499&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020160025667&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020190132696&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020000053752&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020000069483&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020000069998&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020080011055&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020080011056&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+        "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/applicantNameSearchInfo",
+        "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=102020110010271&openNumber=2020130003158&publicationNumber=2020130003158&format=xml",
+        "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0040e7e5fa5c04d8ce40766c41b8dd7359e0d36ca3f6e973895a6ad10e05d62fb8b97ba763542daf31052c93d6b3d9e0ddb2b6b3457cbab6f6",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00f9d93e1fe14096c7848d958793589b1a3d67a4a321b2b34bb9eb06257d0e7265ab4040af33aa5b7047002f8bab3119ce7b1387d9e4e2d63f",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e009f3ce458022c8bcd902c51620a0266d4cd982b022b93f12f0aecb098498dd6e45ef7033a2cf785719cf33a4119f0cd5133dc45a39fda411f",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e002a572cf6e4b1da17310f4e23d7fc755cd4f39653cde426ca0ca5ca34d3aa9ae7cf050781e531cb2b4bfab9bdda3e1cf735d65bc176af5f5a",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c8b05d8ff1d829251f3a17be85510561bc9e2904589dfda52f1e37c59d9f54378",
+        "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020140116676&openNumber=1020160028116&publicationNumber=1020160028116&registerNumber=1016131150000&registrationNumber=1016131150000&format=xml",
+        "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020150135147&openNumber=1020170036236&publicationNumber=1020170036236&registerNumber=1017343820000&registrationNumber=1017343820000&format=xml",
+        "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020150118794&openNumber=1020170023531&publicationNumber=1020170023531&registerNumber=1017434670000&registrationNumber=1017434670000&format=xml",
+        "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020160014660&registerNumber=1017481320000&registrationNumber=1017481320000&format=xml",
+        "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020160021653&openNumber=1020170099514&publicationNumber=1020170099514&registerNumber=1018620040000&registrationNumber=1018620040000&format=xml",
+        "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020160002104&registerNumber=1017482780000&registrationNumber=1017482780000&format=xml",
+        "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020190132696&openNumber=1020210048712&publicationNumber=1020210048712&format=xml",
+        "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020140072011&openNumber=1020150143053&publicationNumber=1020150143053&registerNumber=1015815610000&registrationNumber=1015815610000&format=xml",
+        "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020190132695&registerNumber=1022336490000&registrationNumber=1022336490000&format=xml",
+        "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020140116676",
+        "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020150135147",
+        "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020150118794",
+        "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020160014660",
+        "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020160021653",
+        "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020160002104",
+        "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=102020110010271",
+        "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020190132696",
+        "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020140072011",
+        "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020190132695",
+        "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020080062855",
+        "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020150135149",
+        "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020150079377",
+        "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020130116027",
+        "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020080047095",
+        "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020100054837",
+        "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020080011065",
+        "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020000053752",
+        "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020080001854",
+        "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210136033"
+      ],
+      "fallback_urls": [
+        "https://www.kipris.or.kr/khome/main.jsp",
+        "https://plus.kipris.or.kr/",
+        "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+KIPRIS+%ED%8A%B9%ED%97%88",
+        "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC"
+      ]
+    },
+    "IR_HOMEPAGE": {
+      "detected_urls": [
+        "http://www.w3.org/2001/XMLSchema-instance",
+        "http://www.nepes.co.kr",
+        "https://dart.fss.or.kr/",
+        "https://opendart.fss.or.kr/",
+        "https://www.kipris.or.kr/khome/main.jsp",
+        "https://plus.kipris.or.kr/",
+        "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
+        "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1126",
+        "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
+        "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e002f08143e8edcc73d0bc366ffc4e917df890f8d28e71cd1f31c3a310019ffa28a533bab1ed7c0fdbff567cca3fcfd1b7fc3ca5cf360e1e796",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0052397f0f904a674f0c7e8780fe701e73414e7143fc6a4a6719be5f41ef7558f7ad2cebc258cabb53ac7a7f90ebf7e0dbe4a2b3a7a31fdda7",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00e5732dd050a0e8812a4ccd67b6b0029ce01742297b94f87cb6f762cddd8ad4b74e10fc62b72ad562e3a9bd37747d7923bae29b7ff8e1392f",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00f4b8ccb3636543fa5d5ec5048936c1c3eb4da80dd87734172cbaddf81459549b070f99fd51d69e23fba52499cbc958a53b6685c04d2f634c",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00928ba065f9eef27482cbed4dce5f4bea8c89192327ecd470dadcc1f82063133989642fe2d5c39d5ea893d23000290663dbd69cfe4991dac0",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0053e3127069af059e748fb71a8f28f9ef623ed56eed866eeb9e9daf724cd514711ad70a183edc94126b4637b92dc67e61eca74f65ab617e3c",
+        "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+KIPRIS+%ED%8A%B9%ED%97%88",
+        "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
+        "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+IR",
+        "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+        "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
+        "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9328f5a912c888a1604ff579e87f821b091a0665246f3173a6cae241fd42c7005fb584f7181202ddb2669153aa54387f5f558cf6b7b6d352be",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9328f5a912c888a1604ff579e87f821b091a0665246f3173a6cae241fd42c7005f99f63731d0311929be11400294078a7500be1e049034125a",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9322af84f57b08f2914d8d6d578d04e03445d891357f9d9514d3d00ad20d4a18bd19eba5573d7be6aac19dee99cdc16abd632f246c9310f285",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9322af84f57b08f2914d8d6d578d04e034c00c52ee695737d21b3f879b3a036daacbefcdab0ce327f373387ac5e1436b444e048689ba5bd44d",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93c040d70001b624f5684d1632e77fbbe56bbb3117cbeab3944e9633126c9d0314bacd1aee33943ab15d5a9bc96c0cdb5e4e90695e30d95718",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93f6548c790985d9b42df3b696cb0bd420628364929a7eeeebfe825a6a229a6517dc933a022c3933651a90fed613eac47cfdf019f60b965c6c",
+        "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+KIPRIS+%ED%8A%B9%ED%97%88",
+        "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
+        "https://www.nepes.co.kr",
+        "http://www.nepesrua.co.kr",
+        "https://www.nepes.co.kr/kr/business/semiconductor/overview.php",
+        "https://www.nepes.co.kr/kr/business/semiconductor/plp.php",
+        "https://www.nepes.co.kr/kr/business/it/em.php",
+        "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88"
+      ],
+      "fallback_urls": [
+        "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+IR",
+        "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+        "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
+        "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88"
+      ]
+    },
+    "VALUATION": {
+      "detected_urls": [],
+      "fallback_urls": [
+        "https://dart.fss.or.kr/",
+        "https://finance.naver.com/",
+        "https://comp.fnguide.com/",
+        "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84+FCF",
+        "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9B%90%EA%B0%80%EC%9C%A8+%EC%98%81%EC%97%85%EC%9D%B4%EC%9D%B5%EB%A5%A0+CAPEX"
+      ]
+    },
+    "FINANCE": {
+      "detected_urls": [
+        "https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception"
+      ],
+      "fallback_urls": [
+        "https://dart.fss.or.kr/",
+        "https://opendart.fss.or.kr/",
+        "https://finance.naver.com/",
+        "https://comp.fnguide.com/",
+        "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+      ]
+    }
+  },
+  "dimensions": {
+    "customer_adoption": {
+      "dimension": "customer_adoption",
+      "label": "고객 채택",
+      "status": "DIRECT_EVIDENCE",
+      "status_kr": "직접 근거 확인",
+      "score": 85.0,
+      "direct_evidence_count": 8,
+      "indirect_evidence_count": 0,
+      "partial_or_cross_check_count": 0,
+      "limited_evidence_count": 0,
+      "evidence": [
+        {
+          "source_group": "IR_HOMEPAGE",
+          "source_file": "data/반도체/SFA반도체/tech/_nepes_reference_schema/nepes_tech_chair_summary.md",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "고객 채택",
+            "채택",
+            "고객"
+          ],
+          "snippet": "- **해석:** prompts.py의 공통 루브릭에 맞춰 R&D는 effort, 특허/IP는 intermediate output, 고객 채택·양산·매출·마진·FCF는 commercial outcome으로 분리합니다.",
+          "urls": [
+            "http://www.w3.org/2001/XMLSchema-instance",
+            "http://www.nepes.co.kr",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+            "https://www.kipris.or.kr/khome/main.jsp"
+          ],
+          "fallback_urls": []
+        },
+        {
+          "source_group": "IR_HOMEPAGE",
+          "source_file": "data/반도체/SFA반도체/tech/_nepes_reference_schema/nepes_tech_chair_summary.md",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "고객 채택",
+            "채택",
+            "고객"
+          ],
+          "snippet": "차별화 점수는 peer 대비 기술/IP 포트폴리오의 구별성을, Evidence Confidence는 고객 채택·양산·매출·FCF 연결 근거의 직접성을, IP Evidence Composite는 등록·존속 안정성, 청구항 방어력, 인용 영향력, 해외 패밀리 확장성을 종합해 Chair 요약에 반영합니다.",
+          "urls": [
+            "http://www.w3.org/2001/XMLSchema-instance",
+            "http://www.nepes.co.kr",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+            "https://www.kipris.or.kr/khome/main.jsp"
+          ],
+          "fallback_urls": []
+        },
+        {
+          "source_group": "IR_HOMEPAGE",
+          "source_file": "data/반도체/SFA반도체/tech/_nepes_reference_schema/nepes_tech_chair_summary.md",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "고객 채택",
+            "채택",
+            "고객"
+          ],
+          "snippet": "| Evidence Confidence | 79.70/100 | 고객 채택·양산·매출·FCF 근거의 직접성 |",
+          "urls": [
+            "http://www.w3.org/2001/XMLSchema-instance",
+            "http://www.nepes.co.kr",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+            "https://www.kipris.or.kr/khome/main.jsp"
+          ],
+          "fallback_urls": []
+        },
+        {
+          "source_group": "IR_HOMEPAGE",
+          "source_file": "data/반도체/SFA반도체/tech/_nepes_reference_schema/nepes_tech_chair_summary.md",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "고객 채택",
+            "채택",
+            "고객"
+          ],
+          "snippet": "| 고객 채택 | 직접 근거 | 88.00/100 | 8건 | 12건 | 0건 |",
+          "urls": [
+            "http://www.w3.org/2001/XMLSchema-instance",
+            "http://www.nepes.co.kr",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+            "https://www.kipris.or.kr/khome/main.jsp"
+          ],
+          "fallback_urls": []
+        },
+        {
+          "source_group": "IR_HOMEPAGE",
+          "source_file": "data/반도체/SFA반도체/tech/_nepes_reference_schema/nepes_tech_chair_summary.md",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "고객 채택",
+            "채택",
+            "고객"
+          ],
+          "snippet": "- 기술 우위가 확인되어도 고객 채택·양산·매출 전환·FCF 직접 근거가 약하면 보수적으로 반영합니다.",
+          "urls": [
+            "http://www.w3.org/2001/XMLSchema-instance",
+            "http://www.nepes.co.kr",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+            "https://www.kipris.or.kr/khome/main.jsp"
+          ],
+          "fallback_urls": []
+        },
+        {
+          "source_group": "IR_HOMEPAGE",
+          "source_file": "data/반도체/SFA반도체/tech/_nepes_reference_schema/nepes_tech_chair_summary.md",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "고객 채택",
+            "채택",
+            "수주",
+            "고객"
+          ],
+          "snippet": "- 본 지표는 직접적인 매출·수주 증거가 아니므로, 사업화·고객 채택·양산·FCF 개선 근거와 함께 해석해야 합니다.",
+          "urls": [
+            "http://www.w3.org/2001/XMLSchema-instance",
+            "http://www.nepes.co.kr",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+            "https://www.kipris.or.kr/khome/main.jsp"
+          ],
+          "fallback_urls": []
+        },
+        {
+          "source_group": "IR_HOMEPAGE",
+          "source_file": "data/반도체/SFA반도체/tech/_nepes_reference_schema/nepes_tech_chair_summary.md",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "고객 채택",
+            "채택",
+            "고객"
+          ],
+          "snippet": "| Tech-to-Value Bridge | 80.53 | 0.40 | 32.21 | 기술이 고객 채택·양산·매출 전환으로 이어질 가능성 |",
+          "urls": [
+            "http://www.w3.org/2001/XMLSchema-instance",
+            "http://www.nepes.co.kr",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+            "https://www.kipris.or.kr/khome/main.jsp"
+          ],
+          "fallback_urls": []
+        },
+        {
+          "source_group": "IR_HOMEPAGE",
+          "source_file": "data/반도체/SFA반도체/tech/_nepes_reference_schema/nepes_tech_chair_summary.md",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "고객 채택",
+            "채택",
+            "고객"
+          ],
+          "snippet": "| tech.inv.ev.001 | tech_to_value | **최종 Tech-to-Value Bridge**: 네패스의 최종 기술-사업화 연결 점수는 80.53이며, Chair에는 기술성보다 고객 채택·양산·매출 전환 가능성을 우선 반영합니다.",
+          "urls": [
+            "http://www.w3.org/2001/XMLSchema-instance",
+            "http://www.nepes.co.kr",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+            "https://www.kipris.or.kr/khome/main.jsp"
+          ],
+          "fallback_urls": []
+        }
+      ],
+      "summary": "고객 채택 관련 직접 근거가 8건 확인됩니다. Chair에서는 가치 전환 근거로 반영하되 원천 URL/파일을 함께 확인합니다."
+    },
+    "mass_production": {
+      "dimension": "mass_production",
+      "label": "양산",
+      "status": "DIRECT_EVIDENCE",
+      "status_kr": "직접 근거 확인",
+      "score": 85.0,
+      "direct_evidence_count": 8,
+      "indirect_evidence_count": 0,
+      "partial_or_cross_check_count": 0,
+      "limited_evidence_count": 0,
+      "evidence": [
+        {
+          "source_group": "IR_HOMEPAGE",
+          "source_file": "data/반도체/SFA반도체/tech/_nepes_reference_schema/nepes_tech_chair_summary.md",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "양산"
+          ],
+          "snippet": "- **해석:** prompts.py의 공통 루브릭에 맞춰 R&D는 effort, 특허/IP는 intermediate output, 고객 채택·양산·매출·마진·FCF는 commercial outcome으로 분리합니다.",
+          "urls": [
+            "http://www.w3.org/2001/XMLSchema-instance",
+            "http://www.nepes.co.kr",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+            "https://www.kipris.or.kr/khome/main.jsp"
+          ],
+          "fallback_urls": []
+        },
+        {
+          "source_group": "IR_HOMEPAGE",
+          "source_file": "data/반도체/SFA반도체/tech/_nepes_reference_schema/nepes_tech_chair_summary.md",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "양산"
+          ],
+          "snippet": "차별화 점수는 peer 대비 기술/IP 포트폴리오의 구별성을, Evidence Confidence는 고객 채택·양산·매출·FCF 연결 근거의 직접성을, IP Evidence Composite는 등록·존속 안정성, 청구항 방어력, 인용 영향력, 해외 패밀리 확장성을 종합해 Chair 요약에 반영합니다.",
+          "urls": [
+            "http://www.w3.org/2001/XMLSchema-instance",
+            "http://www.nepes.co.kr",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+            "https://www.kipris.or.kr/khome/main.jsp"
+          ],
+          "fallback_urls": []
+        },
+        {
+          "source_group": "IR_HOMEPAGE",
+          "source_file": "data/반도체/SFA반도체/tech/_nepes_reference_schema/nepes_tech_chair_summary.md",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "양산"
+          ],
+          "snippet": "| Evidence Confidence | 79.70/100 | 고객 채택·양산·매출·FCF 근거의 직접성 |",
+          "urls": [
+            "http://www.w3.org/2001/XMLSchema-instance",
+            "http://www.nepes.co.kr",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+            "https://www.kipris.or.kr/khome/main.jsp"
+          ],
+          "fallback_urls": []
+        },
+        {
+          "source_group": "IR_HOMEPAGE",
+          "source_file": "data/반도체/SFA반도체/tech/_nepes_reference_schema/nepes_tech_chair_summary.md",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "양산"
+          ],
+          "snippet": "| 양산 | 직접 근거 | 88.00/100 | 17건 | 63건 | 0건 |",
+          "urls": [
+            "http://www.w3.org/2001/XMLSchema-instance",
+            "http://www.nepes.co.kr",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+            "https://www.kipris.or.kr/khome/main.jsp"
+          ],
+          "fallback_urls": []
+        },
+        {
+          "source_group": "IR_HOMEPAGE",
+          "source_file": "data/반도체/SFA반도체/tech/_nepes_reference_schema/nepes_tech_chair_summary.md",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "양산"
+          ],
+          "snippet": "- 기술 우위가 확인되어도 고객 채택·양산·매출 전환·FCF 직접 근거가 약하면 보수적으로 반영합니다.",
+          "urls": [
+            "http://www.w3.org/2001/XMLSchema-instance",
+            "http://www.nepes.co.kr",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+            "https://www.kipris.or.kr/khome/main.jsp"
+          ],
+          "fallback_urls": []
+        },
+        {
+          "source_group": "IR_HOMEPAGE",
+          "source_file": "data/반도체/SFA반도체/tech/_nepes_reference_schema/nepes_tech_chair_summary.md",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "양산"
+          ],
+          "snippet": "- prompts.py 기준에 따라 R&D 투입, 특허/IP 산출, 고객·양산·매출 결과를 분리해 해석합니다.",
+          "urls": [
+            "http://www.w3.org/2001/XMLSchema-instance",
+            "http://www.nepes.co.kr",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+            "https://www.kipris.or.kr/khome/main.jsp"
+          ],
+          "fallback_urls": []
+        },
+        {
+          "source_group": "IR_HOMEPAGE",
+          "source_file": "data/반도체/SFA반도체/tech/_nepes_reference_schema/nepes_tech_chair_summary.md",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "양산"
+          ],
+          "snippet": "- 본 지표는 직접적인 매출·수주 증거가 아니므로, 사업화·고객 채택·양산·FCF 개선 근거와 함께 해석해야 합니다.",
+          "urls": [
+            "http://www.w3.org/2001/XMLSchema-instance",
+            "http://www.nepes.co.kr",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+            "https://www.kipris.or.kr/khome/main.jsp"
+          ],
+          "fallback_urls": []
+        },
+        {
+          "source_group": "IR_HOMEPAGE",
+          "source_file": "data/반도체/SFA반도체/tech/_nepes_reference_schema/nepes_tech_chair_summary.md",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "양산"
+          ],
+          "snippet": "| Tech-to-Value Bridge | 80.53 | 0.40 | 32.21 | 기술이 고객 채택·양산·매출 전환으로 이어질 가능성 |",
+          "urls": [
+            "http://www.w3.org/2001/XMLSchema-instance",
+            "http://www.nepes.co.kr",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
+            "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+            "https://www.kipris.or.kr/khome/main.jsp"
+          ],
+          "fallback_urls": []
+        }
+      ],
+      "summary": "양산 관련 직접 근거가 8건 확인됩니다. Chair에서는 가치 전환 근거로 반영하되 원천 URL/파일을 함께 확인합니다."
+    },
+    "revenue_conversion": {
+      "dimension": "revenue_conversion",
+      "label": "매출 전환",
+      "status": "DIRECT_EVIDENCE",
+      "status_kr": "직접 근거 확인",
+      "score": 85.0,
+      "direct_evidence_count": 8,
+      "indirect_evidence_count": 0,
+      "partial_or_cross_check_count": 0,
+      "limited_evidence_count": 0,
+      "evidence": [
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/SFA반도체/finance/SFA반도체_finance.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "매출"
+          ],
+          "snippet": "다만, 2024년 매출은 감소세를 기록했으며, 최근 1개월 주가 데이터에서는 변동성이 높은 흐름이 관찰됩니다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/SFA반도체/finance/SFA반도체_finance.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "매출",
+            "성장"
+          ],
+          "snippet": "key_risks: 2024년 매출성장률이 -8.48%로 감소세를 보였으며, 향후 매출 회복 여부가 중요합니다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/SFA반도체/finance/SFA반도체_finance_agent_packet.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "매출",
+            "성장"
+          ],
+          "snippet": "missing_prompt_metrics: 매출성장률",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/SFA반도체/finance/SFA반도체_finance_agent_packet.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "매출",
+            "성장"
+          ],
+          "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/SFA반도체/finance/SFA반도체_finance_agent_packet.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "sales"
+          ],
+          "snippet": "sales: 400482861805.0",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/SFA반도체/finance/SFA반도체_finance_agent_packet.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "sales"
+          ],
+          "snippet": "sales_growth: -8.479066699569016",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/SFA반도체/finance/SFA반도체_재무.csv",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "sales"
+          ],
+          "snippet": "year: 2023 | sales: 437586077155.0 | operating_income: -16710120338.0 | net_income: -14043612067.0 | total_assets: 609910066598.0 | total_liabilities: 139749351905.0 | total_equity: 470160714693.0 | current_assets: 182721303416.0 | current_liabilities: 48736699211.0 | capex: 27199934255 | ocf: 36015764547 | fcf: 8815830292 | interest_expense: 4233014760.0 | roe: -2.986981180716052 | operating_margin: -3.8187047555631",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/SFA반도체/finance/SFA반도체_재무.csv",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "sales"
+          ],
+          "snippet": "year: 2024 | sales: 400482861805.0 | operating_income: -31004226.0 | net_income: 20458863208.0 | total_assets: 623485659906.0 | total_liabilities: 125578068973.0 | total_equity: 497907590933.0 | current_assets: 220511034740.0 | current_liabilities: 91517108583.0 | capex: 36625507913 | ocf: 53080396079 | fcf: 16454888166 | interest_expense: 3969104809.0 | roe: 4.10896792508492 | operating_margin: -0.007741711058561187",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        }
+      ],
+      "summary": "매출 전환 관련 직접 근거가 8건 확인됩니다. Chair에서는 가치 전환 근거로 반영하되 원천 URL/파일을 함께 확인합니다."
+    },
+    "margin_cashflow_linkage": {
+      "dimension": "margin_cashflow_linkage",
+      "label": "마진·원가·현금흐름 연결",
+      "status": "DIRECT_EVIDENCE",
+      "status_kr": "직접 근거 확인",
+      "score": 85.0,
+      "direct_evidence_count": 8,
+      "indirect_evidence_count": 0,
+      "partial_or_cross_check_count": 0,
+      "limited_evidence_count": 0,
+      "evidence": [
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/SFA반도체/finance/SFA반도체_finance.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "수익성"
+          ],
+          "snippet": "summary: SFA반도체는 2023년 큰 폭의 영업손실 이후 2024년 영업이익이 흑자전환하며 수익성 개선 가능성을 보였습니다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/SFA반도체/finance/SFA반도체_finance.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "수익성"
+          ],
+          "snippet": "key_thesis: 2024년 ROE가 4.11%로 양수로 전환되며 자본 대비 수익성이 개선될 가능성을 시사합니다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/SFA반도체/finance/SFA반도체_finance.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "현금흐름",
+            "FCF"
+          ],
+          "snippet": "key_thesis: 2023년과 2024년 모두 긍정적인 잉여현금흐름(FCF)을 기록하며 현금 창출 능력을 유지하고 있습니다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/SFA반도체/finance/SFA반도체_finance.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "영업이익률",
+            "수익성"
+          ],
+          "snippet": "key_risks: 2024년 영업이익률이 -0.01%로 여전히 마이너스에 가까워 수익성 개선 추세 확인이 필요합니다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/SFA반도체/finance/SFA반도체_finance.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "영업이익률",
+            "수익성"
+          ],
+          "snippet": "key_risks: 영업이익률 -0.01%로 수익성 부담을 확인해야 합니다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/SFA반도체/finance/SFA반도체_finance_agent_packet.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "영업이익률",
+            "수익성"
+          ],
+          "snippet": "report_core_points: 영업이익률: SFA반도체 2024 기준 영업이익률 값은 -0.01%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/SFA반도체/finance/SFA반도체_finance_agent_packet.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "수익성"
+          ],
+          "snippet": "report_core_points: ROE: SFA반도체 2024 기준 ROE 값은 4.11%이며, 자기자본 대비 수익성 수준을 확인하는 지표입니다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/SFA반도체/finance/SFA반도체_finance_agent_packet.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "FCF"
+          ],
+          "snippet": "report_core_points: FCF: SFA반도체 2024 기준 FCF 값은 16,454,888,166원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        }
+      ],
+      "summary": "마진·원가·현금흐름 연결 관련 직접 근거가 8건 확인됩니다. Chair에서는 가치 전환 근거로 반영하되 원천 URL/파일을 함께 확인합니다."
+    },
+    "ip_quality": {
+      "dimension": "ip_quality",
+      "label": "IP 품질",
+      "status": "DIRECT_EVIDENCE",
+      "status_kr": "직접 근거 확인",
+      "score": 40.44,
+      "direct_evidence_count": 4,
+      "indirect_evidence_count": 0,
+      "partial_or_cross_check_count": 0,
+      "limited_evidence_count": 0,
+      "components": {
+        "legal_status": {
+          "status": "COLLECTED",
+          "score_or_rate": 0.6667,
+          "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_ip_legal_features.json"
+        },
+        "claims": {
+          "status": "COLLECTED",
+          "count": 169.0,
+          "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_ip_claim_features.json"
+        },
+        "citations": {
+          "status": "COLLECTED",
+          "count": 30,
+          "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_ip_citation_features.json"
+        },
+        "family": {
+          "status": "COLLECTED",
+          "count": 33,
+          "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_ip_family_features.json"
+        },
+        "composite": {
+          "status": "COLLECTED",
+          "score": 40.44,
+          "bridge_signal": "IP_EVIDENCE_WEAK",
+          "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_ip_evidence_composite.json"
+        }
+      },
+      "evidence": [
+        {
+          "source_group": "KIPRIS",
+          "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_ip_legal_features.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "legal_status",
+            "COLLECTED"
+          ],
+          "snippet": "legal_status: status=COLLECTED, count=None, score=0.6667, signal=None",
+          "urls": [],
+          "fallback_urls": [
+            "https://www.kipris.or.kr/khome/main.jsp",
+            "https://plus.kipris.or.kr/",
+            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+KIPRIS+%ED%8A%B9%ED%97%88",
+            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC"
+          ]
+        },
+        {
+          "source_group": "KIPRIS",
+          "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_ip_claim_features.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "claims",
+            "COLLECTED"
+          ],
+          "snippet": "claims: status=COLLECTED, count=169.0, score=None, signal=None",
+          "urls": [],
+          "fallback_urls": [
+            "https://www.kipris.or.kr/khome/main.jsp",
+            "https://plus.kipris.or.kr/",
+            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+KIPRIS+%ED%8A%B9%ED%97%88",
+            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC"
+          ]
+        },
+        {
+          "source_group": "KIPRIS",
+          "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_ip_citation_features.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "citations",
+            "COLLECTED"
+          ],
+          "snippet": "citations: status=COLLECTED, count=30, score=None, signal=None",
+          "urls": [],
+          "fallback_urls": [
+            "https://www.kipris.or.kr/khome/main.jsp",
+            "https://plus.kipris.or.kr/",
+            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+KIPRIS+%ED%8A%B9%ED%97%88",
+            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC"
+          ]
+        },
+        {
+          "source_group": "KIPRIS",
+          "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_ip_family_features.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "family",
+            "COLLECTED"
+          ],
+          "snippet": "family: status=COLLECTED, count=33, score=None, signal=None",
+          "urls": [],
+          "fallback_urls": [
+            "https://www.kipris.or.kr/khome/main.jsp",
+            "https://plus.kipris.or.kr/",
+            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+KIPRIS+%ED%8A%B9%ED%97%88",
+            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC"
+          ]
+        },
+        {
+          "source_group": "KIPRIS",
+          "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_ip_evidence_composite.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "composite",
+            "COLLECTED"
+          ],
+          "snippet": "composite: status=COLLECTED, count=None, score=40.44, signal=IP_EVIDENCE_WEAK",
+          "urls": [],
+          "fallback_urls": [
+            "https://www.kipris.or.kr/khome/main.jsp",
+            "https://plus.kipris.or.kr/",
+            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+KIPRIS+%ED%8A%B9%ED%97%88",
+            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC"
+          ]
+        }
+      ],
+      "summary": "KIPRIS 기반 법적 상태·청구항·인용·패밀리 산출물을 함께 반영합니다. 특허 수량만이 아니라 권리 안정성, 청구항 방어력, 인용 영향력, 해외 확장성을 분리해 Chair 판단에 전달합니다."
+    }
+  },
+  "value_evidence_score": 78.32,
+  "value_evidence_label": "VALUE_EVIDENCE_STRONG",
+  "next_checkpoints_refined": [
+    "고객 채택: 확인된 고객사·공급 근거가 실제 반복 매출로 이어지는지 후속 확인",
+    "양산: 양산 근거가 제품별 매출·가동률·수율 개선으로 이어지는지 확인",
+    "매출 전환: 기술 적용 제품군의 매출 지속성과 고객 concentration 리스크 확인",
+    "IP 품질: 청구항·인용·패밀리·존속 상태가 수집된 상태이므로 IP Evidence Composite와 Bridge 조정값의 방향성을 점검",
+    "마진·원가·현금흐름: 확인된 수익성/현금흐름 개선이 일회성이 아닌지 기간별 추세 확인"
+  ],
+  "usage_rule": "This artifact does not claim that technology already generated revenue or FCF. It separates direct evidence, indirect evidence, partial evidence, and cross-check-required items for Chair reporting.",
+  "output_files": {
+    "json": "data/반도체/SFA반도체/tech/tech_intake_value_evidence.json",
+    "md": "data/반도체/SFA반도체/tech/tech_intake_value_evidence.md",
+    "prefixed_json": "data/반도체/SFA반도체/tech/sfa_semicon_tech_intake_value_evidence.json",
+    "prefixed_md": "data/반도체/SFA반도체/tech/sfa_semicon_tech_intake_value_evidence.md"
+  }
+}

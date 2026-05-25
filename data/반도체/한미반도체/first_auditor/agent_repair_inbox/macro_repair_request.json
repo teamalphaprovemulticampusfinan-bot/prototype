@@ -1,0 +1,786 @@
+{
+  "repair_schema_version": "first_auditor_v4_with_web_crosscheck",
+  "created_at": "2026-04-30T05:04:45.875258+00:00",
+  "company_dir": "hanmi",
+  "company": "한미반도체",
+  "target_agent": "macro",
+  "pass_condition": "actual_match_ratio >= 85%",
+  "current_actual_match_ratio": 0.8281,
+  "local_issues": [
+    "evidence_contract enforcement failed: enforce_evidence_contract() missing 1 required keyword-only argument: 'agent_name'"
+  ],
+  "contract": {
+    "score": 0.9562,
+    "evidence_count": 8,
+    "strong_evidence_count": 7,
+    "claim_count": 3,
+    "evidence_id_coverage": 1.0,
+    "valid_evidence_ref_coverage": 1.0,
+    "non_self_evidence_coverage": 0.875
+  },
+  "claim_scores": [
+    {
+      "score": 1.0,
+      "text_support": 0.6,
+      "numeric_support": 1.0,
+      "has_strong_evidence": true,
+      "has_any_evidence": true,
+      "claim_index": 1,
+      "claim_text": "task_total_count 값은 4count입니다.",
+      "evidence_ids": [
+        "macro.ev.001"
+      ],
+      "selected_evidence_count": 1
+    },
+    {
+      "score": 1.0,
+      "text_support": 0.6,
+      "numeric_support": 1.0,
+      "has_strong_evidence": true,
+      "has_any_evidence": true,
+      "claim_index": 2,
+      "claim_text": "task_success_count 값은 4count입니다.",
+      "evidence_ids": [
+        "macro.ev.002"
+      ],
+      "selected_evidence_count": 1
+    },
+    {
+      "score": 1.0,
+      "text_support": 0.6,
+      "numeric_support": 1.0,
+      "has_strong_evidence": true,
+      "has_any_evidence": true,
+      "claim_index": 3,
+      "claim_text": "task_error_count 값은 0count입니다.",
+      "evidence_ids": [
+        "macro.ev.003"
+      ],
+      "selected_evidence_count": 1
+    }
+  ],
+  "llm_reason": "모든 claim이 내부 시스템 메트릭(macro_runner)에서 유래한 숫자로, 실제 재무데이터/주식데이터/뉴스스니펫 등 외부 원천 문맥과 연결되지 않음. task_total_count(4), task_success_count(4), task_error_count(0) 등의 숫자는 검증 가능한 외부 근거(공개 금융제표, 계약서, 언론 보도 등)가 제공되지 않았으며, 단순한 시스템 출력으로 남용됨. 특히 2024년 재무데이터에서 영업이익 -255391604854원 등 부정확한 추세를 보이지만, claim과 무관한 내부 메트릭에만 의존함.",
+  "unsupported_claims": [
+    "macro.auto_cl.001",
+    "macro.auto_cl.003",
+    "macro.auto_cl.005"
+  ],
+  "web_crosscheck": {
+    "score": 0.6167,
+    "pass": false,
+    "reason": "네이버 뉴스/Serper 검색 결과와 local evidence를 함께 사용해 claim 단위 검증을 수행했습니다.",
+    "unsupported_claims": [
+      {
+        "agent": "macro",
+        "claim_id": "macro.auto_cl.003",
+        "text": "task_success_count 값은 4count입니다.",
+        "evidence_ids": [
+          "macro.ev.002"
+        ],
+        "verdict": "unsupported",
+        "score": 0.0,
+        "reason": "주장은 'task_success_count 값이 4count'라고 하나, 웹 검색 결과에는 한미반도체가 아닌 한미약품 관련 정보만 존재하며, task_success_count에 대한 언급이 전혀 없습니다. local_evidence에만 해당 값이 존재하지만, 웹 검증을 위한 외부 증거가 없으므로 unsupported로 판단합니다.",
+        "web_query": "한미반도체 task_success_count 값은 4count입니다.",
+        "web_search_used": true,
+        "search_results": [
+          {
+            "title": "한미약품 - Hanmi | 한미약품 공식 사이트",
+            "link": "https://www.hanmi.co.kr/",
+            "snippet": "한미약품은 자체 개발한 우수한 의약품을 의료진과 환자에게 제공하고, 혁신신약 R&D에 집중 투자하는 한국의 대표적인 신약개발 중심 제약바이오 기업입니다.",
+            "source": "serper"
+          },
+          {
+            "title": "한미약품(주) 채용 | 채용사이트",
+            "link": "https://hanmi.recruiter.co.kr/career/home",
+            "snippet": "한미약품은 창조와 도전을 가치로 신약개발에 매진하는 R&D중심 제약기업입니다.",
+            "source": "serper"
+          },
+          {
+            "title": "한미 - 나무위키",
+            "link": "https://namu.wiki/w/%ED%95%9C%EB%AF%B8",
+            "snippet": "한미 · 1971년 출생 · 청주시 출신 인물 · 대한민국의 화가 · 다른 뜻 아이콘.svg 대한민국의 제약사에 대한 내용은 한미약품 문서를, 해당 회사의 ...",
+            "source": "serper"
+          },
+          {
+            "title": "한미그룹 - 잡코리아",
+            "link": "https://www.jobkorea.co.kr/company/1492243",
+            "snippet": "1973년 설립된 한미약품은 한국의 대표적인 R&D 중심 제약회사다. 인류 건강 증진을 제1의 사명으로, 지난 40여 년간 국내 제약산업을 이끌어 왔다. 1990년대에는 국내 ...",
+            "source": "serper"
+          },
+          {
+            "title": "한미사이언스",
+            "link": "https://hanmiscience.co.kr/",
+            "snippet": "한미약품은 1973년 설립됐으며 매출액 대비 20%의 R&D 투자를 통해 개량·복 합신약과 당뇨·항암 분야 혁신신약 개발을 주도하는 대한민국 R&D NO.1 제약회사입니다.",
+            "source": "serper"
+          }
+        ],
+        "matched_evidence_ids": [
+          "macro.ev.002"
+        ],
+        "cited_sources": []
+      }
+    ]
+  },
+  "current_opinion_json": {
+    "agent": "macro",
+    "company_name": "한미반도체",
+    "company": "한미반도체",
+    "opinion": "매도",
+    "confidence": 0.5,
+    "summary": "한미반도체에 대해 검증 가능한 핵심 근거는 다음과 같습니다. task_total_count 값은 4count입니다. task_success_count 값은 4count입니다. task_error_count 값은 0count입니다.",
+    "key_points": [
+      "task_total_count 값은 4count입니다.",
+      "task_success_count 값은 4count입니다.",
+      "task_error_count 값은 0count입니다."
+    ],
+    "risks": [],
+    "claims": [
+      {
+        "claim_id": "macro.auto_cl.001",
+        "text": "task_total_count 값은 4count입니다.",
+        "evidence_ids": [
+          "macro.ev.001"
+        ],
+        "claim_type": "point"
+      },
+      {
+        "claim_id": "macro.auto_cl.003",
+        "text": "task_success_count 값은 4count입니다.",
+        "evidence_ids": [
+          "macro.ev.002"
+        ],
+        "claim_type": "point"
+      },
+      {
+        "claim_id": "macro.auto_cl.005",
+        "text": "task_error_count 값은 0count입니다.",
+        "evidence_ids": [
+          "macro.ev.003"
+        ],
+        "claim_type": "point"
+      }
+    ],
+    "evidences": [
+      {
+        "evidence_id": "macro.ev.001",
+        "source_type": "macro",
+        "source": "macro_runner",
+        "metric": "task_total_count",
+        "value": 4,
+        "unit": "count",
+        "period": null,
+        "snippet": "macro_runner | task_total_count | 값: 4count"
+      },
+      {
+        "evidence_id": "macro.ev.002",
+        "source_type": "macro",
+        "source": "macro_runner",
+        "metric": "task_success_count",
+        "value": 4,
+        "unit": "count",
+        "period": null,
+        "snippet": "macro_runner | task_success_count | 값: 4count"
+      },
+      {
+        "evidence_id": "macro.ev.003",
+        "source_type": "macro",
+        "source": "macro_runner",
+        "metric": "task_error_count",
+        "value": 0,
+        "unit": "count",
+        "period": null,
+        "snippet": "macro_runner | task_error_count | 값: 0count"
+      },
+      {
+        "evidence_id": "macro.ev.004",
+        "source_type": "macro",
+        "source": "ecos_runner_output",
+        "metric": "ecos",
+        "value": null,
+        "unit": "원",
+        "period": null,
+        "snippet": "ecos_runner_output | ecos | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "macro.ev.005",
+        "source_type": "macro",
+        "source": "fred_runner_output",
+        "metric": "fred",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "fred_runner_output | fred | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "macro.ev.006",
+        "source_type": "macro",
+        "source": "regulation_news_runner_output",
+        "metric": "regulation_news",
+        "value": null,
+        "unit": "건",
+        "period": null,
+        "snippet": "regulation_news_runner_output | regulation_news | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "macro.ev.007",
+        "source_type": "macro",
+        "source": "rareearth_helium_runner_output",
+        "metric": "rareearth_helium",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "rareearth_helium_runner_output | rareearth_helium | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "macro.ev.unverified",
+        "source_type": "agent_output_unverified",
+        "source": "macro_output",
+        "metric": null,
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "검증 가능한 원천 evidence가 부족합니다."
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "macro.ev.001",
+        "source_type": "macro",
+        "source": "macro_runner",
+        "metric": "task_total_count",
+        "value": 4,
+        "unit": "count",
+        "period": null,
+        "snippet": "macro_runner | task_total_count | 값: 4count"
+      },
+      {
+        "evidence_id": "macro.ev.002",
+        "source_type": "macro",
+        "source": "macro_runner",
+        "metric": "task_success_count",
+        "value": 4,
+        "unit": "count",
+        "period": null,
+        "snippet": "macro_runner | task_success_count | 값: 4count"
+      },
+      {
+        "evidence_id": "macro.ev.003",
+        "source_type": "macro",
+        "source": "macro_runner",
+        "metric": "task_error_count",
+        "value": 0,
+        "unit": "count",
+        "period": null,
+        "snippet": "macro_runner | task_error_count | 값: 0count"
+      },
+      {
+        "evidence_id": "macro.ev.004",
+        "source_type": "macro",
+        "source": "ecos_runner_output",
+        "metric": "ecos",
+        "value": null,
+        "unit": "원",
+        "period": null,
+        "snippet": "ecos_runner_output | ecos | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "macro.ev.005",
+        "source_type": "macro",
+        "source": "fred_runner_output",
+        "metric": "fred",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "fred_runner_output | fred | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "macro.ev.006",
+        "source_type": "macro",
+        "source": "regulation_news_runner_output",
+        "metric": "regulation_news",
+        "value": null,
+        "unit": "건",
+        "period": null,
+        "snippet": "regulation_news_runner_output | regulation_news | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "macro.ev.007",
+        "source_type": "macro",
+        "source": "rareearth_helium_runner_output",
+        "metric": "rareearth_helium",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "rareearth_helium_runner_output | rareearth_helium | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "macro.ev.unverified",
+        "source_type": "agent_output_unverified",
+        "source": "macro_output",
+        "metric": null,
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "검증 가능한 원천 evidence가 부족합니다."
+      }
+    ],
+    "raw_payload": {
+      "outputs": {
+        "ecos": "[Chair] tech 완료 → opinion: 보유\n[hanmi] 재무 분석을 시작합니다...\n✅ API KEY 로드 완료\n\n📊 데이터 수집 시작\n[한미반도체] 데이터 수집 중...\n✅ [국고채10년] 244개 데이터\n✅ [원달러] 245개 데이터\n        date  국고채10년     원달러\n0 2025-04-30   2.267  1438.5\n1 2025-05-02   2.282  1426.9\n2 2025-05-07   2.253  1426.6\n3 2025-05-08   2.281  1394.1\n4 2025-05-09   2.331  1396.0\n          date  국고채10년     원달러\n239 2026-04-23   3.458  1477.6\n240 2026-04-24   3.496  1480.6\n241 2026-04-27   3.492  1482.9\n242 2026-04-28   3.529  1473.1\n243 2026-04-29   3.525  1473.3\n✅ Windows 한글 폰트 설정 완료\n✅ API KEY 로드 완료\n\n=======================================================\n  [STEP 0] 817Y002 항목코드 목록 조회\n=======================================================\n  [한미반도체] 주가 provider=public_data, current_price=357500\n\n▶ 817Y002 항목 목록 (27개)\nITEM_CODE         ITEM_NAME CYCLE START_TIME END_TIME\n010101000     콜금리(1일, 전체거래)     D   19950103 20260429\n010102000   콜금리(1일, 중개회사거래)     D   19960103 20260429\n010200001           국고채(5년)     D   20000104 20260429\n010260000           산금채(1년)     D   20030930 20260429\n010150000      KORIBOR(3개월)     D   20050801 20260429\n010151000      KORIBOR(6개월)     D   20060201 20260429\n010152000     KORIBOR(12개월)     D   20040726 20260429\n010190000           국고채(1년)     D   20000201 20260429\n010210000          국고채(10년)     D   20001218 20260429\n010220000          국고채(20년)     D   20060125 20260429\n010230000          국고채(30년)     D   20120911 20260429\n010195000           국고채(2년)     D   20210310 20260429\n010200000           국고채(3년)     D   19981113 20260429\n010300000      회사채(3년, AA-)     D   19950103 20260429\n010310000  회사채(3년, AA-, 민평)     D   20020819 20260429\n010320000     회사채(3년, BBB-)     D   20000930 20260429\n010400002          통안증권(2년)     D   19990210 20260429\n010501000           MMF(7일)     D   19961231 20260429\n010502000           CD(91일)     D   19950103 20260429\n010503000           CP(91일)     D   19950103 20260429\n010503500      국민주택채권1종(5년)     D   20030930 20260429\n010504000          CMA(수시형)     D   19960103 20260429\n010400000         통안증권(91일)     D   20060925 20260429\n010103000 콜금리(1일, 은행증권금융차입)     D   20211125 20260429\n010400001          통안증권(1년)     D   19950103 20260429\n010240000          국고채(50년)     D   20161011 20260429\n010901000       KOFR(공시RFR)     D   20211125 20260428\n\n=======================================================\n  ① 일별 데이터 수집\n=======================================================\n✅ [국고채_10년] 732행 (2023-05-02 ~ 2026-04-29)\n✅ [국고채_3년] 732행 (2023-05-02 ~ 2026-04-29)\n✅ [콜금리] 732행 (2023-05-02 ~ 2026-04-29)\n  [OECD:G20] 오류: 'dataSets' -> fallback 사용\n✅ [CD금리_91일] 732행 (2023-05-02 ~ 2026-04-29)\n✅ [회사채_AA-] 732행 (2023-05-02 ~ 2026-04-29)\n  [OECD:한국] 오류: 'dataSets' -> fallback 사용\n✅ [회사채_BBB-] 732행 (2023-05-02 ~ 2026-04-29)\n✅ [원달러] 733행 (2023-05-02 ~ 2026-04-30)\n  [OECD:미국] 오류: 'dataSets' -> fallback 사용\n✅ [원유로] 733행 (2023-05-02 ~ 2026-04-30)\n✅ [원엔_100] 733행 (2023-05-02 ~ 2026-04-30)\n✅ [원위안] 733행 (2023-05-02 ~ 2026-04-30)\n📊 신용스프레드 계산 완료\n\n일별 shape: (733, 13)\n컬럼: ['date', '국고채_10년', '국고채_3년', '콜금리', 'CD금리_91일', '회사채_AA-', '회사채_BBB-', '원달러', '원유로', '원엔_100', '원위안', '신용스프레드_AA-', '신용스프레드_BBB-']\n\n=======================================================\n  ② 월별 데이터 수집\n=======================================================\n  [OECD:중국] 오류: 'dataSets' -> fallback 사용\n[한미반도체] 수집 완료 - 주가 357500원\n✅ [한국_기준금리] 59행 (2021-05-01 ~ 2026-03-01)\n✅ [실업률] 59행 (2021-05-01 ~ 2026-03-01)\n✅ [고용률_15세이상] 59행 (2021-05-01 ~ 2026-03-01)\n[Chair] finance 완료 → opinion: 보유\n✅ [BSI_전산업_실적] 60행 (2021-05-01 ~ 2026-04-01)\n✅ [BSI_전산업_전망] 60행 (2021-05-01 ~ 2026-04-01)\n✅ [CPI_전년비] 59행 (2021-05-01 ~ 2026-03-01)\n✅ [외환보유액_백만달러] 59행 (2021-05-01 ~ 2026-03-01)\n\n월별 shape: (60, 8)\n\n=======================================================\n  ③ 분기별 데이터 수집\n=======================================================\n✅ [GDP성장률_전기비] 29행 (2019-01-01 ~ 2026-01-01)\n  [한미반도체] LLM 호출/파싱 오류 (시도 1/1): Unterminated string starting at: line 53 column 15 (char 2053)\n  [한미반도체] fallback 분석 반환\n[Chair] market 완료 → opinion: 보유\n✅ [GDP성장률_전년비] 29행 (2019-01-01 ~ 2026-01-01)\n\n분기별 shape: (29, 3)\n[Chair] issue 완료 → opinion: 매수\n\n▶ 일별 (최근 5행):\n      date  국고채_10년  국고채_3년   콜금리  CD금리_91일  회사채_AA-  회사채_BBB-    원달러     원유로  원엔_100    원위안  신용스프레드_AA-  신용스프레드_BBB-\n2026-04-24    3.817   3.496 2.530      2.82    4.145     9.935 1480.6 1729.86  927.00 216.83       0.649        6.439\n2026-04-27    3.820   3.492 2.531      2.82    4.147     9.938 1482.9 1736.40  929.63 216.83       0.655        6.446\n2026-04-28    3.861   3.529 2.518      2.82    4.182     9.971 1473.1 1726.84  924.24 215.40       0.653        6.442\n2026-04-29    3.843   3.525 2.513      2.82    4.185     9.976 1473.3 1726.19  923.26 215.76       0.660        6.451\n2026-04-30      NaN     NaN   NaN       NaN      NaN       NaN 1476.1 1723.57  920.58 215.90         NaN          NaN\n\n▶ 월별 (최근 5행):\n      date  한국_기준금리  실업률  고용률_15세이상  BSI_전산업_실적  BSI_전산업_전망  CPI_전년비  외환보유액_백만달러\n2025-12-01      2.5 3.70      62.10        71.0        70.0   117.57 428054608.0\n2026-01-01      2.5 3.55      61.90        72.0        69.0   118.03 425905754.0\n2026-02-01      2.5 3.15      62.40        71.0        70.0   118.40 427624953.0\n2026-03-01      2.5 2.85      62.85        71.0        75.0   118.80 423656488.0\n2026-04-01      NaN  NaN        NaN        72.0        71.0      NaN         NaN",
+        "fred": "✅ 패키지 및 폰트 설정 완료\n\n=======================================================\n  ① 미국 금리 + 달러인덱스 (yfinance)\n=======================================================\n  ✅ [미국_국채_10년] 752행 (2023-05-01 ~ 2026-04-29)\n  ✅ [미국_국채_13주] 752행 (2023-05-01 ~ 2026-04-29)\n  ✅ [달러인덱스_DXY] 754행 (2023-05-01 ~ 2026-04-29)\n\n=======================================================\n  ② FRED 데이터 (fredapi)\n=======================================================\n  ✅ [미국_기준금리_FFR] 59행 (2021-05-01 ~ 2026-03-01)\n  ✅ [미국_SOFR] 1245행 (2021-05-03 ~ 2026-04-28)\n  ✅ [미국_하이일드_스프레드] 786행 (2023-04-30 ~ 2026-04-28)\n  ✅ [미국_IG_스프레드] 785행 (2023-04-30 ~ 2026-04-28)\n  ✅ [미국_콜금리_EFFR] 1251행 (2021-05-03 ~ 2026-04-28)\n  ✅ [미국_단기금리_3M] 1247행 (2021-05-03 ~ 2026-04-28)\n  ✅ [미국_회사채_AAA] 786행 (2023-04-30 ~ 2026-04-28)\n  ✅ [미국_회사채_BBB] 786행 (2023-04-30 ~ 2026-04-28)\n  ✅ [미국_실업률] 58행 (2021-05-01 ~ 2026-03-01)\n  ✅ [미국_고용률] 58행 (2021-05-01 ~ 2026-03-01)\n  ✅ [미국_기업심리_BSI대용] 33행 (2021-05-01 ~ 2024-01-01)\n\n=======================================================\n  ③ 원자재 가격 (yfinance)\n=======================================================\n  ✅ [유가_WTI] 754행 (2023-05-01 ~ 2026-04-29)\n  ✅ [유가_Brent] 755행 (2023-05-01 ~ 2026-04-29)\n  ✅ [천연가스] 755행 (2023-05-01 ~ 2026-04-29)\n  ✅ [구리] 755행 (2023-05-01 ~ 2026-04-29)\n\n=======================================================\n  ④ OECD 경기선행지수 CLI (G20 기준)\n=======================================================\n  ✅ [OECD_CLI_한국] 59행 (2021-05-01 ~ 2026-03-01)\n  ✅ [OECD_CLI_미국] 59행 (2021-05-01 ~ 2026-03-01)\n  ✅ [G20_CLI] 59행 (2021-05-01 ~ 2026-03-01)\n\n=======================================================\n  ⑤ 외신 뉴스 (GDELT — 영어 전용)\n=======================================================\n  ✅ [반도체_수출규제] 3건 (영어 필터 적용)\n  ❌ [반도체_공급망] GDELT 오류: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=semiconductor+supply+chain+sourcelang%3Aenglish&mode=artlist&maxrecords=3&format=json&sort=DateDesc (Caused by ResponseError('too many 429 error responses'))\n  ✅ [미중_무역] 3건 (영어 필터 적용)\n  ✅ [Fed_금리] 3건 (영어 필터 적용)\n  ❌ [지정학_리스크] GDELT 오류: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=geopolitical+risk+Taiwan+Korea+Japan+sourcelang%3Aenglish&mode=artlist&maxrecords=3&format=json&sort=DateDesc (Caused by ResponseError('too many 429 error responses'))\n\n=======================================================\n  ⑥ 병합\n=======================================================\n  ✅ df_daily_ext 생성 완료 (1285행 × 11열)\n  ✅ df_monthly_ext 생성 완료 (1310행 × 12열)\n  ✅ df_news_all 생성 완료 (9건)\n\n=======================================================\n  ⑥-1 CSV 저장\n=======================================================\n  ✅ 일별 CSV 저장 완료: C:\\Agent_6.8\\data\\ext_일별_20260430.csv\n  ✅ 월별 CSV 저장 완료: C:\\Agent_6.8\\data\\ext_월별_20260430.csv\n\n▶ 일별 외부지표 (최근 5행):\n      date  미국_국채_10년  미국_국채_13주  달러인덱스_DXY  미국_SOFR  미국_하이일드_스프레드  미국_IG_스프레드     유가_WTI   유가_Brent  천연가스     구리\n2026-04-23      4.323      3.595  98.800003     3.65          2.86        0.80  95.849998 105.070000 2.614 6.0755\n2026-04-24      4.310      3.593  98.510002     3.66          2.86        0.80  94.400002 105.330002 2.523 6.0235\n2026-04-27      4.336      3.590  98.480003     3.66          2.84        0.81  96.370003 108.230003 2.550 6.0180\n2026-04-28      4.354      3.590  98.620003     3.64          2.85        0.81  99.930000 111.260002 2.559 5.9145\n2026-04-29      4.418      3.590  98.919998      NaN           NaN         NaN 106.879997 118.029999 2.647 5.8785\n\n▶ 월별 외부지표 (최근 5행):\n      date  미국_기준금리_FFR  미국_콜금리_EFFR  미국_단기금리_3M  미국_회사채_AAA  미국_회사채_BBB  미국_실업률  미국_고용률  미국_기업심리_BSI대용  OECD_CLI_한국  OECD_CLI_미국  G20_CLI\n2026-04-22          NaN         3.64         3.6        4.87        5.19     NaN     NaN            NaN          NaN          NaN      NaN\n2026-04-23          NaN         3.64         3.6        4.90        5.22     NaN     NaN            NaN          NaN          NaN      NaN\n2026-04-24          NaN         3.64         3.6        4.89        5.20     NaN     NaN            NaN          NaN          NaN      NaN\n2026-04-27          NaN         3.64         3.6        4.93        5.23     NaN     NaN            NaN          NaN          NaN      NaN\n2026-04-28          NaN         3.64         3.6        4.94        5.25     NaN     NaN            NaN          NaN          NaN      NaN\n\n▶ 최신 뉴스 (영어만):\n\n  [반도체_수출규제]\n    2026-04-29  Big Chinese tech firms scramble to secure Huawei AI chips after DeepSeek V4 laun\n    2026-04-29  DeepSeek V4 drives Huawei Ascend 950PR to the center of China AI infrastructure \n    2026-04-29  China , US tensions build over Iran and AI before Trump meets Xi\n\n  [미중_무역]\n    2026-04-28  Starbucks ( SBUX ) Q2 2025 Earnings Transcript\n    2026-04-27  fDi Intelligence – Your source for foreign direct investment information\n    2026-04-27  China expands economic pressure tools in US rivalry ahead of Trump – Xi summit\n\n  [Fed_금리]\n    2026-04-30  US Fed holds rates at 3 . 5 %- 3 . 75 % amid dissent from four officials , flags\n    2026-04-30  Update : U . S . Fed keeps interest rate unchanged amid high energy prices\n    2026-04-30  US Fed holds rates at 3 . 5 %- 3 . 75 % amid dissent from four officials , flags",
+        "regulation_news": "=======================================================\n  [1/2] 외신 뉴스 수집\n=======================================================\n\n▶ GDELT 수집 중...\n  ✅ GDELT [반도체_수출규제] 4건\n  ✅ GDELT [반도체_공급망] 10건\n  ❌ GDELT [미중_무역] 오류: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=US+China+trade+tariff+export+ban+sourcelang%3Aenglish&mode=artlist&maxrecords=10&format=json&sort=DateDesc&timespan=30d\n  ✅ GDELT [Fed_금리] 10건\n  ❌ GDELT [지정학_리스크] 오류: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=Taiwan+Korea+Japan+sanction+geopolitical+sourcelang%3Aenglish&mode=artlist&maxrecords=10&format=json&sort=DateDesc&timespan=30d\n  ✅ GDELT [원자재_에너지] 10건\n\n▶ RSS 수집 중...\n  ✅ RSS  [반도체_공급망] 10건\n  ✅ RSS  [미중_무역] 10건\n  ✅ RSS  [Fed_금리] 10건\n  ✅ RSS  [지정학_리스크] 1건\n  ✅ RSS  [원자재_에너지] 10건\n\n✅ 외신 뉴스 최종: 57건\ncategory\n반도체_공급망     18\n원자재_에너지     15\n미중_무역       10\nFed_금리       9\n반도체_수출규제     4\n지정학_리스크      1\n\n=======================================================\n  최신 뉴스 미리보기 (카테고리별 Top 3)\n=======================================================\n\n  [Fed_금리]\n    2026-04-30 | GDELT | US Fed holds rates at 3 . 5 %- 3 . 75 % amid dissent from four officials , \n                → http://www.londonmercury.com/news/279020655/us-fed-holds-rates-at-35-3\n    2026-04-30 | GDELT | Update : U . S . Fed keeps interest rate unchanged amid high energy prices\n                → http://www.nigeriasun.com/news/279020312/update-us-fed-keeps-interest-\n    2026-04-30 | GDELT | U . S . stocks slip after Federal Reserve sticks with current interest rate\n                → http://www.stlouisstar.com/news/279019859/u-s-stocks-slip-after-federa\n\n  [미중_무역]\n    2026-04-30 | RSS   | Crisis surge or lasting shift? China’s solar exports double in a month\n                → https://www.scmp.com/news/china/diplomacy/article/3351938/crisis-surge\n    2026-04-30 | RSS   | Copper Snaps Five-Day Decline on China Manufacturing Expansion\n                → https://www.bloomberg.com/news/articles/2026-04-30/copper-snaps-five-d\n    2026-04-30 | RSS   | Oxford AI star Song Yuhang returns to China, but why did he leave chip star\n                → https://www.scmp.com/news/china/science/article/3351871/oxford-ai-star\n\n  [반도체_공급망]\n    2026-04-30 | GDELT | FormFactor ( FORM ) Q1 2026 Earnings Transcript\n                → https://www.fool.com/earnings/call-transcripts/2026/04/29/formfactor-f\n    2026-04-29 | RSS   | POLYN Technology Announces Tapeout of Automotive Chip\n                → https://www.semiconductor-digest.com/polyn-technology-announces-tapeou\n    2026-04-29 | RSS   | ASU-led Southwest Advanced Prototyping Hub Awarded $36.3M for Second Year o\n                → https://www.semiconductor-digest.com/asu-led-southwest-advanced-protot\n\n  [반도체_수출규제]\n    2026-04-23 | GDELT | Weekly Update for Government Contractors and Commercial Businesses – April \n                → https://www.jdsupra.com/legalnews/weekly-update-for-government-2753435\n    2026-04-21 | GDELT | China Influence Is Quietly Reshaping South Korea\n                → https://www.chiangraitimes.com/china/chinas-influence-is-quietly-resha\n    2026-04-18 | GDELT | ASML Falls Post - Earnings , Chip - Making Expansion Anchors Outlook\n                → https://finance.yahoo.com/markets/stocks/articles/asml-falls-post-earn\n\n  [원자재_에너지]\n    2026-04-30 | RSS   | Brent Breaks $113 as Traders Brace for Months of Disruption\n                → https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Continue\n    2026-04-30 | RSS   | China's Rare Earth Leverage Explained in 3 Shocking Charts\n                → https://oilprice.com/Energy/Energy-General/Chinas-Rare-Earth-Leverage-\n    2026-04-29 | RSS   | California Refineries Max Out Jet Fuel While Gasoline Starves\n                → https://oilprice.com/Energy/Energy-General/California-Refineries-Max-O\n\n  [지정학_리스크]\n    2026-04-30 | RSS   | Paraguay Says It’s Not Abandoning Taiwan. China Has Other Plans.\n                → https://www.nytimes.com/2026/04/29/world/paraguay-taiwan-china-pena.ht\n\n⏳ GDELT rate limit 회피 대기 (10초)...\n\n=======================================================\n  [2/2] 규제 공고 수집\n=======================================================\n\n▶ NewsAPI 수집 중...\n  ✅ NewsAPI_미국수출: 1건\n  ✅ NewsAPI_미국환경: 0건\n  ✅ NewsAPI_중국수출: 0건\n  ✅ NewsAPI_중국환경: 0건\n  ✅ NewsAPI_일본수출: 0건\n  ✅ NewsAPI_일본환경: 0건\n  ✅ NewsAPI_EU수출: 0건\n  ✅ NewsAPI_EU환경: 0건\n\n▶ GDELT 규제 수집 중...\n  ❌ GDELT_미국수출: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=export+control+semiconductor+chip+ban+BIS+entity+list+sourcelang%3Aenglish&mode=artlist&maxrecords=10&format=json&sort=DateDesc&timespan=30d\n  ❌ GDELT_미국환경: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=EPA+greenhouse+emission+regulation+clean+air+PFAS+sourcelang%3Aenglish&mode=artlist&maxrecords=10&format=json&sort=DateDesc&timespan=30d\n  ❌ GDELT_중국수출: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=China+export+control+ban+rare+earth+semiconductor+MOFCOM+sourcelang%3Aenglish&mode=artlist&maxrecords=10&format=json&sort=DateDesc&timespan=30d\n  ❌ GDELT_중국환경: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=China+carbon+ETS+emissions+trading+MEE+environment+sourcelang%3Aenglish&mode=artlist&maxrecords=10&format=json&sort=DateDesc&timespan=30d\n  ❌ GDELT_일본수출: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=Japan+METI+export+control+semiconductor+technology+sourcelang%3Aenglish&mode=artlist&maxrecords=10&format=json&sort=DateDesc&timespan=30d\n  ⚠️ GDELT_일본환경: JSON 파싱 실패 — 스킵\n  ⚠️ GDELT_EU수출: JSON 파싱 실패 — 스킵\n  ❌ GDELT_EU환경: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=EU+CBAM+carbon+border+ETS+Green+Deal+regulation+sourcelang%3Aenglish&mode=artlist&maxrecords=10&format=json&sort=DateDesc&timespan=30d\n\n▶ Serper.dev 수집 중...\n  ✅ Serper_미국BIS공식: 10건\n  ✅ Serper_미국EPA공식: 10건\n  ✅ Serper_중국수출: 10건\n  ✅ Serper_EU공식: 10건\n  ✅ Serper_EU환경공식: 10건\n  ✅ Serper_일본수출: 10건\n  ✅ Serper_일본환경: 10건\n  ✅ Serper_중국환경: 10건\n\n✅ 규제 공고 최종: 27건\ncountry  type\nEU       수출규제    4\n         환경규제    4\n미국       수출규제    2\n         환경규제    4\n일본       수출규제    2\n         환경규제    3\n중국       수출규제    3\n         환경규제    5\n\n=======================================================\n  규제 공고 미리보기 (국가/유형별 Top 2)\n=======================================================\n\n  [EU / 수출규제]\n    2025-11-14  Export Control Forum 2025\n              (Serper_EU공식)\n    날짜미상  Questions and answers on the 20th package of sanctions against Russi\n              (Serper_EU공식)\n\n  [EU / 환경규제]\n    2025-12-06  CBAM Legislation and Guidance\n              (Serper_EU환경공식)\n    2025-12-04  CBAM Sectors\n              (Serper_EU환경공식)\n\n  [미국 / 수출규제]\n    2026-04-22  Congress moves to strip the DoC of chip-export discretion with the M\n              (NewsAPI_미국수출)\n    2026-01-15  Revision to License Review Policy for Advanced Computing Commodities\n              (Serper_미국BIS공식)\n\n  [미국 / 환경규제]\n    2026-02-19  Per- and Polyfluoroalkyl Substances (PFAS)\n              (Serper_미국EPA공식)\n    날짜미상  Safe Drinking Water Act (SDWA)\n              (Serper_미국EPA공식)\n\n  [일본 / 수출규제]\n    2026-01-08  Japan Semiconductor Export Controls: What They Mean\n              (Serper_일본수출)\n    날짜미상  The Policy Edge of Japan and South Korea in Securing Critical Minera\n              (Serper_일본수출)\n\n  [일본 / 환경규제]\n    2026-01-23  Japan sets 2026 price band for carbon market to steer investment by \n              (Serper_일본환경)\n    2026-01-19  Sapporo drives Japan’s green transformation in energy-rich Hokkaido \n              (Serper_일본환경)\n\n  [중국 / 수출규제]\n    2026-01-05  The Burn and the Choke: Why Semiconductor Controls Will Outlast Chin\n              (Serper_중국수출)\n    2025-11-10  How Will China’s Rare Earth Export Controls Impact Industries and Bu\n              (Serper_중국수출)\n\n  [중국 / 환경규제]\n    2026-02-19  China Briefing 19 February 2026: CO2 emissions ‘flat or falling’ | F\n              (Serper_중국환경)\n    2026-02-09  China to name six new sectors for ETS expansion\n              (Serper_중국환경)\n\n=======================================================\n  CSV 파일 저장\n=======================================================\n  ✅ 뉴스 CSV 저장 완료: ./data\\뉴스_20260430.csv\n  ✅ 규제 CSV 저장 완료: ./data\\규제_20260430.csv",
+        "rareearth_helium": "=======================================================\n  희토류 + 헬륨 가격 수집 시작\n=======================================================\n\n▶ 희토류 수집\n\n[FRED 희토류]\n  ⚠️ FRED [IP28]: timeout → skip\n\n[SMM 스크래핑]\n  ⚠️ SMM [네오디뮴_Nd_USD_t]: 로그인 필요 → skip\n\n[USGS 희토류 통계]\n  ✅ USGS PDF 접근 성공 → 수동 구조화 테이블 사용\n\n▶ 헬륨 수집\n\n[USGS 헬륨 통계]\n  ✅ USGS 헬륨 PDF 접근 성공 → 수동 구조화 테이블 사용\n\n[BLM 헬륨 페이지 체크]\n  ✅ BLM 페이지 접근 성공\n\n[헬륨 뉴스 동향 - GDELT]\n  ⚠️ GDELT doc API 실패: RetryError[<Future at 0x228ec7f7650 state=finished raised HTTPError>]\n  ✅ GDELT summary fallback 성공\n\n미리보기\nFRED:\n Empty DataFrame\nColumns: [date, 희토류수입가격지수]\nIndex: []\nSMM:\n Empty DataFrame\nColumns: []\nIndex: []\nUSGS rare earth:\n         date  희토류_미국수입_천톤  네오디뮴산화물_USD_kg_참고\n0 2019-01-01         1.67                 55\n1 2020-01-01         2.13                 50\n2 2021-01-01         1.87                105\n3 2022-01-01         1.88                105\n4 2023-01-01         2.00                 60\nUSGS helium:\n         date  헬륨_BLM입찰가_USD_Mcf  헬륨_시장추정가_USD_리터  헬륨_미국생산_백만m3\n0 2018-01-01                280            0.030            74\n1 2019-01-01                292            0.032            67\n2 2020-01-01                294            0.031            67\n3 2021-01-01                283            0.040            71\n4 2022-01-01                259            0.065            71\nBLM:\n         date source      status                               title                                                url\n0 2026-04-30    BLM  page_alive  Helium | Bureau of Land Management  https://www.blm.gov/programs/energy-and-minera...\nNEWS:\n         date                           title                                                url domain\n0 2026-04-30  GDELT summary fallback success  https://api.gdeltproject.org/api/v2/summary/su...  GDELT\n✅ 저장 완료: C:\\Agent_6.8\\data\\희토류_20260430.csv\n✅ 저장 완료: C:\\Agent_6.8\\data\\헬륨_20260430.csv"
+      },
+      "errors": [],
+      "removed_ungrounded_claims": [
+        "ecos 매크로 runner 출력 요약: [Chair] tech 완료 → opinion: 보유 [hanmi] 재무 분석을 시작합니다... ✅ API KEY 로드 완료 📊 데이터 수집 시작 [한미반도체] 데이터 수집 중... ✅ [국고채10년] 244개 데이터 ✅ [원달러] 245개 데이터 date 국고채10년 원달러 0 2025-04-30 2.267 1438.5 1 2025-05-02 2.282 1426.9 2 2025-05-07 2.253 1426.6 3 2025-05-08 2.281 1394.1 4 2025-05-09 2.331",
+        "fred 매크로 runner 출력 요약: ✅ 패키지 및 폰트 설정 완료 ======================================================= ① 미국 금리 + 달러인덱스 (yfinance) ======================================================= ✅ [미국_국채_10년] 752행 (2023-05-01 ~ 2026-04-29) ✅ [미국_국채_13주] 752행 (2023-05-01 ~ 2026-04-29) ✅ [달러인덱스_DXY] 754행 (2023-05-01",
+        "regulation_news 매크로 runner 출력 요약: ======================================================= [1/2] 외신 뉴스 수집 ======================================================= ▶ GDELT 수집 중... ✅ GDELT [반도체_수출규제] 4건 ✅ GDELT [반도체_공급망] 10건 ❌ GDELT [미중_무역] 오류: 429 Client Error: Too Many Requests for url: https://api.gd",
+        "매크로 에이전트에서 실행 대상 task 수는 4건입니다.",
+        "매크로 에이전트에서 오류 없이 완료된 task 수는 4건입니다.",
+        "매크로 에이전트에서 오류가 발생한 task 수는 0건입니다."
+      ],
+      "removed_bad_evidence_ids": [
+        "macro.ev.unverified"
+      ]
+    },
+    "packet_version": "grounded_agent_v3",
+    "pre_sanitize_grounding_check": {
+      "score": 0.0,
+      "pass": false,
+      "pass_threshold": 0.75,
+      "claim_count": 6,
+      "supported_count": 0,
+      "unsupported_count": 6,
+      "supported_claims": [],
+      "unsupported_claims": [
+        "매크로 에이전트에서 실행 대상 task 수는 4건입니다.",
+        "매크로 에이전트에서 오류 없이 완료된 task 수는 4건입니다.",
+        "매크로 에이전트에서 오류가 발생한 task 수는 0건입니다.",
+        "ecos 매크로 runner 출력 요약: [Chair] tech 완료 → opinion: 보유 [hanmi] 재무 분석을 시작합니다... ✅ API KEY 로드 완료 📊 데이터 수집 시작 [한미반도체] 데이터 수집 중... ✅ [국고채10년] 244개 데이터 ✅ [원달러] 245개 데이터 date 국고채10년 원달러 0 2025-04-30 2.267 1438.5 1 2025-05-02 2.282 1426.9 2 2025-05-07 2.253 1426.6 3 2025-05-08 2.281 1394.1 4 2025-05-09 2.331",
+        "fred 매크로 runner 출력 요약: ✅ 패키지 및 폰트 설정 완료 ======================================================= ① 미국 금리 + 달러인덱스 (yfinance) ======================================================= ✅ [미국_국채_10년] 752행 (2023-05-01 ~ 2026-04-29) ✅ [미국_국채_13주] 752행 (2023-05-01 ~ 2026-04-29) ✅ [달러인덱스_DXY] 754행 (2023-05-01",
+        "regulation_news 매크로 runner 출력 요약: ======================================================= [1/2] 외신 뉴스 수집 ======================================================= ▶ GDELT 수집 중... ✅ GDELT [반도체_수출규제] 4건 ✅ GDELT [반도체_공급망] 10건 ❌ GDELT [미중_무역] 오류: 429 Client Error: Too Many Requests for url: https://api.gd"
+      ],
+      "issues": [
+        "macro.cl.001: evidence와 claim 연결이 약합니다.",
+        "macro.cl.002: evidence와 claim 연결이 약합니다.",
+        "macro.cl.003: evidence와 claim 연결이 약합니다.",
+        "macro.cl.004: 숫자 불일치 또는 누락(number_ratio=0.04) / 기간 불일치 또는 누락: claim_years=['2025']",
+        "macro.cl.005: 숫자 불일치 또는 누락(number_ratio=0.00) / 기간 불일치 또는 누락: claim_years=['2023', '2026']",
+        "macro.cl.006: 숫자 불일치 또는 누락(number_ratio=0.00)"
+      ],
+      "claim_results": [
+        {
+          "claim_id": "macro.cl.001",
+          "text": "매크로 에이전트에서 실행 대상 task 수는 4건입니다.",
+          "evidence_ids": [
+            "macro.ev.001"
+          ],
+          "supported": false,
+          "score": 0.8,
+          "number_ratio": 1.0,
+          "token_ratio": 0.0,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "evidence와 claim 연결이 약합니다."
+        },
+        {
+          "claim_id": "macro.cl.002",
+          "text": "매크로 에이전트에서 오류 없이 완료된 task 수는 4건입니다.",
+          "evidence_ids": [
+            "macro.ev.002"
+          ],
+          "supported": false,
+          "score": 0.8,
+          "number_ratio": 1.0,
+          "token_ratio": 0.0,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "evidence와 claim 연결이 약합니다."
+        },
+        {
+          "claim_id": "macro.cl.003",
+          "text": "매크로 에이전트에서 오류가 발생한 task 수는 0건입니다.",
+          "evidence_ids": [
+            "macro.ev.003"
+          ],
+          "supported": false,
+          "score": 0.8,
+          "number_ratio": 1.0,
+          "token_ratio": 0.0,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "evidence와 claim 연결이 약합니다."
+        },
+        {
+          "claim_id": "macro.cl.004",
+          "text": "ecos 매크로 runner 출력 요약: [Chair] tech 완료 → opinion: 보유 [hanmi] 재무 분석을 시작합니다... ✅ API KEY 로드 완료 📊 데이터 수집 시작 [한미반도체] 데이터 수집 중... ✅ [국고채10년] 244개 데이터 ✅ [원달러] 245개 데이터 date 국고채10년 원달러 0 2025-04-30 2.267 1438.5 1 2025-05-02 2.282 1426.9 2 2025-05-07 2.253 1426.6 3 2025-05-08 2.281 1394.1 4 2025-05-09 2.331",
+          "evidence_ids": [
+            "macro.ev.004"
+          ],
+          "supported": false,
+          "score": 0.2748,
+          "number_ratio": 0.0357,
+          "token_ratio": 0.0256,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "숫자 불일치 또는 누락(number_ratio=0.04) / 기간 불일치 또는 누락: claim_years=['2025']"
+        },
+        {
+          "claim_id": "macro.cl.005",
+          "text": "fred 매크로 runner 출력 요약: ✅ 패키지 및 폰트 설정 완료 ======================================================= ① 미국 금리 + 달러인덱스 (yfinance) ======================================================= ✅ [미국_국채_10년] 752행 (2023-05-01 ~ 2026-04-29) ✅ [미국_국채_13주] 752행 (2023-05-01 ~ 2026-04-29) ✅ [달러인덱스_DXY] 754행 (2023-05-01",
+          "evidence_ids": [
+            "macro.ev.005"
+          ],
+          "supported": false,
+          "score": 0.26,
+          "number_ratio": 0.0,
+          "token_ratio": 0.05,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "숫자 불일치 또는 누락(number_ratio=0.00) / 기간 불일치 또는 누락: claim_years=['2023', '2026']"
+        },
+        {
+          "claim_id": "macro.cl.006",
+          "text": "regulation_news 매크로 runner 출력 요약: ======================================================= [1/2] 외신 뉴스 수집 ======================================================= ▶ GDELT 수집 중... ✅ GDELT [반도체_수출규제] 4건 ✅ GDELT [반도체_공급망] 10건 ❌ GDELT [미중_무역] 오류: 429 Client Error: Too Many Requests for url: https://api.gd",
+          "evidence_ids": [
+            "macro.ev.006"
+          ],
+          "supported": false,
+          "score": 0.258,
+          "number_ratio": 0.0,
+          "token_ratio": 0.04,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "숫자 불일치 또는 누락(number_ratio=0.00)"
+        }
+      ]
+    },
+    "warning_note": "검증 불가 claim 6개를 제거한 뒤 grounding 기준을 재검증했습니다.",
+    "post_atomic_grounding_check": {
+      "score": 1.0,
+      "pass": true,
+      "pass_threshold": 0.75,
+      "claim_count": 3,
+      "supported_count": 3,
+      "unsupported_count": 0,
+      "supported_claims": [
+        "task_total_count 값은 4count입니다.",
+        "task_success_count 값은 4count입니다.",
+        "task_error_count 값은 0count입니다."
+      ],
+      "unsupported_claims": [],
+      "issues": [],
+      "claim_results": [
+        {
+          "claim_id": "macro.auto_cl.001",
+          "text": "task_total_count 값은 4count입니다.",
+          "evidence_ids": [
+            "macro.ev.001"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "macro.auto_cl.003",
+          "text": "task_success_count 값은 4count입니다.",
+          "evidence_ids": [
+            "macro.ev.002"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "macro.auto_cl.005",
+          "text": "task_error_count 값은 0count입니다.",
+          "evidence_ids": [
+            "macro.ev.003"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        }
+      ]
+    },
+    "grounding_check": {
+      "score": 1.0,
+      "pass": true,
+      "pass_threshold": 0.75,
+      "claim_count": 3,
+      "supported_count": 3,
+      "unsupported_count": 0,
+      "supported_claims": [
+        "task_total_count 값은 4count입니다.",
+        "task_success_count 값은 4count입니다.",
+        "task_error_count 값은 0count입니다."
+      ],
+      "unsupported_claims": [],
+      "issues": [],
+      "claim_results": [
+        {
+          "claim_id": "macro.auto_cl.001",
+          "text": "task_total_count 값은 4count입니다.",
+          "evidence_ids": [
+            "macro.ev.001"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "macro.auto_cl.003",
+          "text": "task_success_count 값은 4count입니다.",
+          "evidence_ids": [
+            "macro.ev.002"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "macro.auto_cl.005",
+          "text": "task_error_count 값은 0count입니다.",
+          "evidence_ids": [
+            "macro.ev.003"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        }
+      ]
+    },
+    "opinion_source": "chair_adapter_inferred",
+    "agent_name": "macro",
+    "source_contexts": [],
+    "web_verification": {
+      "checked": true,
+      "pass": false,
+      "score": 0.6167,
+      "claim_count": 3,
+      "reason": "네이버 뉴스/Serper 검색 결과와 local evidence를 함께 사용해 claim 단위 검증을 수행했습니다.",
+      "supported_claims": [
+        {
+          "agent": "macro",
+          "claim_id": "macro.auto_cl.001",
+          "text": "task_total_count 값은 4count입니다.",
+          "evidence_ids": [
+            "macro.ev.001"
+          ],
+          "verdict": "supported",
+          "score": 1.0,
+          "reason": "local_evidence에 task_total_count 값이 4count라고 명시되어 있으며, 이는 매크로 실행 결과 자체를 검증하는 것으로 외부 웹 검색 결과와 무관하게 자체 증거로 충분히 지지됨",
+          "web_query": "한미반도체 task_total_count 값은 4count입니다.",
+          "web_search_used": true,
+          "search_results": [
+            {
+              "title": "한미반도체 TC본더 수출 V자 회복…대만행 물량 주목 - 전자신문",
+              "link": "https://www.etnews.com/20260330000257",
+              "snippet": "국내 반도체 수출액이 역대 최고치를 경신하며 가파른 상승세를 보이는 가운데, 한미반도체의 핵심 장비인 TC본더 수출 지표가 1분기를 기점으로 'V자 ...",
+              "source": "serper"
+            },
+            {
+              "title": "한미반도체, HBM용 'TC 본더 4' 전담팀 출범…고객사 밀착 대응",
+              "link": "https://zdnet.co.kr/view/?no=20250605095059",
+              "snippet": "앞서 한미반도체는 지난 5월 중순 HBM4용 'TC 본더4' 장비를 업계 최초로 출시했다. 'TC 본더4'는 HBM4 생산이 가능한 전용 장비로, 한층 고도의 정밀도를 ...",
+              "source": "serper"
+            },
+            {
+              "title": "한미반도체(주) 기업정보 - 잡코리아",
+              "link": "https://www.jobkorea.co.kr/company/1921635/AnalysisView?Inside_No=21651&page=1",
+              "snippet": "그레이스 호퍼 200은 그래픽 반도체(GPU)와 중앙처리장치(CPU)를 결합한 제품으로, 구동 가능한 AI 용량은 최대 3.5배, 연산 속도는 3배 이상 빠른 특징을 ...",
+              "source": "serper"
+            },
+            {
+              "title": "한미반도체(주) 기업분석보고서 - 잡코리아",
+              "link": "https://www.jobkorea.co.kr/starter/companyreport/view?Inside_No=21650&schCtgr=101006&schGrpCtgr=0&Page=1",
+              "snippet": "1980년 설립한 반도체 생산장비 제조 전문 기업이다. 한미반도체의 주력 제품인 Vision Placement는 높은 안정성과 속도로 2000년대 중반부터 지금까지 ...",
+              "source": "serper"
+            },
+            {
+              "title": "한미반도체(주) 기업정보 | 잡코리아",
+              "link": "https://www.jobkorea.co.kr/company/1921635/AnalysisView?Inside_No=21654&page=1",
+              "snippet": "한미반도체(주)의 최신 소식 및 기업문화, 근무환경, 고용현황, 직원수 등의 기업정보를 확인해보세요.",
+              "source": "serper"
+            }
+          ],
+          "matched_evidence_ids": [
+            "macro.ev.001"
+          ],
+          "cited_sources": []
+        },
+        {
+          "agent": "macro",
+          "claim_id": "macro.auto_cl.005",
+          "text": "task_error_count 값은 0count입니다.",
+          "evidence_ids": [
+            "macro.ev.003"
+          ],
+          "verdict": "local_supported",
+          "score": 0.85,
+          "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+          "web_query": "한미반도체 task_error_count 값은 0count입니다.",
+          "web_search_used": false,
+          "search_results": [],
+          "matched_evidence_ids": [
+            "macro.ev.003"
+          ],
+          "cited_sources": []
+        }
+      ],
+      "unsupported_claims": [
+        {
+          "agent": "macro",
+          "claim_id": "macro.auto_cl.003",
+          "text": "task_success_count 값은 4count입니다.",
+          "evidence_ids": [
+            "macro.ev.002"
+          ],
+          "verdict": "unsupported",
+          "score": 0.0,
+          "reason": "주장은 'task_success_count 값이 4count'라고 하나, 웹 검색 결과에는 한미반도체가 아닌 한미약품 관련 정보만 존재하며, task_success_count에 대한 언급이 전혀 없습니다. local_evidence에만 해당 값이 존재하지만, 웹 검증을 위한 외부 증거가 없으므로 unsupported로 판단합니다.",
+          "web_query": "한미반도체 task_success_count 값은 4count입니다.",
+          "web_search_used": true,
+          "search_results": [
+            {
+              "title": "한미약품 - Hanmi | 한미약품 공식 사이트",
+              "link": "https://www.hanmi.co.kr/",
+              "snippet": "한미약품은 자체 개발한 우수한 의약품을 의료진과 환자에게 제공하고, 혁신신약 R&D에 집중 투자하는 한국의 대표적인 신약개발 중심 제약바이오 기업입니다.",
+              "source": "serper"
+            },
+            {
+              "title": "한미약품(주) 채용 | 채용사이트",
+              "link": "https://hanmi.recruiter.co.kr/career/home",
+              "snippet": "한미약품은 창조와 도전을 가치로 신약개발에 매진하는 R&D중심 제약기업입니다.",
+              "source": "serper"
+            },
+            {
+              "title": "한미 - 나무위키",
+              "link": "https://namu.wiki/w/%ED%95%9C%EB%AF%B8",
+              "snippet": "한미 · 1971년 출생 · 청주시 출신 인물 · 대한민국의 화가 · 다른 뜻 아이콘.svg 대한민국의 제약사에 대한 내용은 한미약품 문서를, 해당 회사의 ...",
+              "source": "serper"
+            },
+            {
+              "title": "한미그룹 - 잡코리아",
+              "link": "https://www.jobkorea.co.kr/company/1492243",
+              "snippet": "1973년 설립된 한미약품은 한국의 대표적인 R&D 중심 제약회사다. 인류 건강 증진을 제1의 사명으로, 지난 40여 년간 국내 제약산업을 이끌어 왔다. 1990년대에는 국내 ...",
+              "source": "serper"
+            },
+            {
+              "title": "한미사이언스",
+              "link": "https://hanmiscience.co.kr/",
+              "snippet": "한미약품은 1973년 설립됐으며 매출액 대비 20%의 R&D 투자를 통해 개량·복 합신약과 당뇨·항암 분야 혁신신약 개발을 주도하는 대한민국 R&D NO.1 제약회사입니다.",
+              "source": "serper"
+            }
+          ],
+          "matched_evidence_ids": [
+            "macro.ev.002"
+          ],
+          "cited_sources": []
+        }
+      ]
+    },
+    "chair_safe_claims": [
+      {
+        "claim_id": "macro.auto_cl.001",
+        "text": "task_total_count 값은 4count입니다.",
+        "evidence_ids": [
+          "macro.ev.001"
+        ],
+        "verdict": "supported",
+        "score": 1.0,
+        "reason": "local_evidence에 task_total_count 값이 4count라고 명시되어 있으며, 이는 매크로 실행 결과 자체를 검증하는 것으로 외부 웹 검색 결과와 무관하게 자체 증거로 충분히 지지됨",
+        "cited_sources": []
+      },
+      {
+        "claim_id": "macro.auto_cl.005",
+        "text": "task_error_count 값은 0count입니다.",
+        "evidence_ids": [
+          "macro.ev.003"
+        ],
+        "verdict": "local_supported",
+        "score": 0.85,
+        "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+        "cited_sources": []
+      }
+    ],
+    "chair_blocked_claims": [
+      {
+        "claim_id": "macro.auto_cl.003",
+        "text": "task_success_count 값은 4count입니다.",
+        "verdict": "unsupported",
+        "score": 0.0,
+        "reason": "주장은 'task_success_count 값이 4count'라고 하나, 웹 검색 결과에는 한미반도체가 아닌 한미약품 관련 정보만 존재하며, task_success_count에 대한 언급이 전혀 없습니다. local_evidence에만 해당 값이 존재하지만, 웹 검증을 위한 외부 증거가 없으므로 unsupported로 판단합니다."
+      }
+    ]
+  },
+  "required_fix": [
+    "각 핵심 주장마다 evidence_id를 반드시 붙이세요.",
+    "evidence_id는 evidences 배열 안에 실제 존재해야 합니다.",
+    "source_type이 agent_output_unverified, llm_only, self_generated인 근거는 실제 근거로 인정하지 않습니다.",
+    "수치 주장에는 기간, 단위, 원천값을 함께 넣으세요.",
+    "공시, 재무 CSV, 가격 CSV, RSS/뉴스 스니펫, 공식 문서에서 확인 가능한 주장만 남기세요.",
+    "확인 불가능한 고객사, 계약, 수주, 전망 수치는 삭제하거나 '확인 필요'로 낮추세요.",
+    "웹/공개 검색 스니펫에서 직접 확인되지 않는 과잉 표현은 제거하세요.",
+    "템플릿 문장이나 사용자에게 입력을 요구하는 문장은 최종 JSON에 넣지 마세요."
+  ],
+  "expected_minimum_shape": {
+    "claims": [
+      {
+        "claim": "검증 가능한 핵심 주장",
+        "evidence_ids": [
+          "agent.ev.001"
+        ]
+      }
+    ],
+    "evidences": [
+      {
+        "evidence_id": "agent.ev.001",
+        "source_type": "financial | price | rss | news | filing | official | macro | technology",
+        "source": "원천 파일명 또는 URL 또는 데이터셋명",
+        "metric": "수치명 또는 근거명",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "근거 원문 또는 원천값 요약"
+      }
+    ]
+  }
+}

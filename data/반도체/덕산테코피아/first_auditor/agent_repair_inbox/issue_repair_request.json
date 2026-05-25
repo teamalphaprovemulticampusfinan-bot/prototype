@@ -1,0 +1,897 @@
+{
+  "repair_schema_version": "first_auditor_v4_with_web_crosscheck",
+  "created_at": "2026-04-30T01:50:51.447495+00:00",
+  "company_dir": "duksan",
+  "company": "덕산테코피아",
+  "target_agent": "issue",
+  "pass_condition": "actual_match_ratio >= 85%",
+  "current_actual_match_ratio": 0.8467,
+  "local_issues": [
+    "evidence_contract enforcement failed: enforce_evidence_contract() missing 1 required keyword-only argument: 'agent_name'"
+  ],
+  "contract": {
+    "score": 0.9767,
+    "evidence_count": 15,
+    "strong_evidence_count": 14,
+    "claim_count": 3,
+    "evidence_id_coverage": 1.0,
+    "valid_evidence_ref_coverage": 1.0,
+    "non_self_evidence_coverage": 0.9333
+  },
+  "claim_scores": [
+    {
+      "score": 1.0,
+      "text_support": 0.5,
+      "numeric_support": 1.0,
+      "has_strong_evidence": true,
+      "has_any_evidence": true,
+      "claim_index": 1,
+      "claim_text": "news_count 값은 10count입니다.",
+      "evidence_ids": [
+        "issue.ev.001"
+      ],
+      "selected_evidence_count": 1
+    },
+    {
+      "score": 1.0,
+      "text_support": 0.5,
+      "numeric_support": 1.0,
+      "has_strong_evidence": true,
+      "has_any_evidence": true,
+      "claim_index": 2,
+      "claim_text": "rss_count 값은 11count입니다.",
+      "evidence_ids": [
+        "issue.ev.002"
+      ],
+      "selected_evidence_count": 1
+    },
+    {
+      "score": 1.0,
+      "text_support": 0.6,
+      "numeric_support": 1.0,
+      "has_strong_evidence": true,
+      "has_any_evidence": true,
+      "claim_index": 3,
+      "claim_text": "related_keyword_count 값은 1count입니다.",
+      "evidence_ids": [
+        "issue.ev.003"
+      ],
+      "selected_evidence_count": 1
+    }
+  ],
+  "llm_reason": "모든 핵심 claim이 내부 데이터 소스(issue_data_collection, issue_keywords_workbook)에서만 근거를 가지고 있으며, 제공된 공공 검색 스니펫이나 source_context에서 news_count=10, rss_count=11, related_keyword_count=1을 직접 확인할 수 없습니다. 특히 related_keyword_count=1은 company.yaml의 실제 키워드 수(5개 이상)와 불일치하며, 숫자 기반 주장은 모두 원천 문맥 없이 생성된 것으로 판단됩니다.",
+  "unsupported_claims": [
+    "issue.auto_cl.001",
+    "issue.auto_cl.003",
+    "issue.auto_cl.005"
+  ],
+  "web_crosscheck": {
+    "score": 0.5667,
+    "pass": false,
+    "reason": "네이버 뉴스/Serper 검색 결과와 local evidence를 함께 사용해 claim 단위 검증을 수행했습니다.",
+    "unsupported_claims": [
+      {
+        "agent": "issue",
+        "claim_id": "issue.auto_cl.001",
+        "text": "news_count 값은 10count입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "verdict": "unsupported",
+        "score": 0.0,
+        "reason": "주장은 'news_count 값은 10count입니다'라고 명시하지만, 제공된 웹 검색 결과 어디에도 뉴스 건수(news_count)가 10이라는 정보가 존재하지 않습니다. local_evidence에만 해당 값이 기록되어 있으나, 웹 검증을 위한 외부 소스에서는 이를 확인할 수 없으므로 unsupported로 판단합니다.",
+        "web_query": "덕산테코피아 news_count 값은 10count입니다.",
+        "web_search_used": true,
+        "search_results": [
+          {
+            "title": "덕산테코피아(317330) - 씽크풀",
+            "link": "https://m.thinkpool.com/item/317330",
+            "snippet": "AI 실시간 종목 특이사항 포착, 최적의 매수매도 타이밍, AI속보 제공. 한발 빠른 시장 대응.",
+            "source": "serper"
+          },
+          {
+            "title": "덕산테코피아 종목 상세 정보 확인하기 - 증권플러스",
+            "link": "https://www.stockplus.com/m/stocks/KOREA-A317330",
+            "snippet": "동사는 2006년 전자부품 제조업을 위해 설립되어 2019년에 코스닥 상장, 계열사로 (주)덕산퓨처셀 등을 보유함. OLED 핵심구성요소인 유기재료와 반도체 전자재료 등을 ...",
+            "source": "serper"
+          },
+          {
+            "title": "덕산테코피아-차트 | 한국경제",
+            "link": "https://markets.hankyung.com/stock/317330/chart",
+            "snippet": "덕산테코피아. 317330. 코스닥. 25,650. 1,550 +6.43%. My Stock 관심종목. 2026.04.17 장마감. 종합 · 차트 · 컨센서스 · 기업·재무. 일차트; 분차트 ...",
+            "source": "serper"
+          },
+          {
+            "title": "덕산테코피아 317330 코스닥 - 다음 금융 - Daum",
+            "link": "https://finance.daum.net/quotes/A317330",
+            "snippet": "덕산테코피아 317330 코스닥. 관심종목공유하기. 25,200. △250 (+1.00%)거래량 ... [여헌우의 산업돋보기] 이차전지 소재 업체 '캐즘 돌파' 답은 체질 개선. 에너지 ...",
+            "source": "serper"
+          },
+          {
+            "title": "[리포트 브리핑]덕산테코피아, '반등 국면 진입' Not Rated - 키움증권",
+            "link": "https://www.newspim.com/news/view/20260428000328",
+            "snippet": "[서울=뉴스핌] 로보뉴스 = 키움증권에서 28일 덕산테코피아(317330)에 대해 '반등 국면 진입'라며 신규 리포트를 발행하였고, 투자의견을 'Not Rated'로 ...",
+            "source": "serper"
+          }
+        ],
+        "matched_evidence_ids": [
+          "issue.ev.001"
+        ],
+        "cited_sources": []
+      }
+    ]
+  },
+  "current_opinion_json": {
+    "agent": "issue",
+    "company_name": "덕산테코피아",
+    "company": "덕산테코피아",
+    "opinion": "보유",
+    "confidence": 0.55,
+    "summary": "덕산테코피아에 대해 검증 가능한 핵심 근거는 다음과 같습니다. news_count 값은 10count입니다. rss_count 값은 11count입니다. related_keyword_count 값은 1count입니다.",
+    "key_points": [
+      "news_count 값은 10count입니다.",
+      "rss_count 값은 11count입니다.",
+      "related_keyword_count 값은 1count입니다."
+    ],
+    "risks": [],
+    "claims": [
+      {
+        "claim_id": "issue.auto_cl.001",
+        "text": "news_count 값은 10count입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "claim_type": "point"
+      },
+      {
+        "claim_id": "issue.auto_cl.003",
+        "text": "rss_count 값은 11count입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "claim_type": "point"
+      },
+      {
+        "claim_id": "issue.auto_cl.005",
+        "text": "related_keyword_count 값은 1count입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "claim_type": "point"
+      }
+    ],
+    "evidences": [
+      {
+        "evidence_id": "issue.ev.001",
+        "source_type": "issue",
+        "source": "issue_data_collection",
+        "metric": "news_count",
+        "value": 10,
+        "unit": "count",
+        "period": null,
+        "snippet": "issue_data_collection | news_count | 값: 10count"
+      },
+      {
+        "evidence_id": "issue.ev.002",
+        "source_type": "issue",
+        "source": "issue_data_collection",
+        "metric": "rss_count",
+        "value": 11,
+        "unit": "count",
+        "period": null,
+        "snippet": "issue_data_collection | rss_count | 값: 11count"
+      },
+      {
+        "evidence_id": "issue.ev.003",
+        "source_type": "issue",
+        "source": "issue_keywords_workbook",
+        "metric": "related_keyword_count",
+        "value": 1,
+        "unit": "count",
+        "period": null,
+        "snippet": "issue_keywords_workbook | related_keyword_count | 값: 1count"
+      },
+      {
+        "evidence_id": "issue.ev.004",
+        "source_type": "issue_news",
+        "source": "Naver News",
+        "metric": "news_title",
+        "value": null,
+        "unit": null,
+        "period": "Tue, 28 Apr 2026 14:08:00 +0900",
+        "snippet": "Naver News | Tue, 28 Apr 2026 14:08:00 +0900 기준 news_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.005",
+        "source_type": "issue_news",
+        "source": "Naver News",
+        "metric": "news_title",
+        "value": null,
+        "unit": "배",
+        "period": "Tue, 28 Apr 2026 11:06:00 +0900",
+        "snippet": "Naver News | Tue, 28 Apr 2026 11:06:00 +0900 기준 news_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.006",
+        "source_type": "issue_news",
+        "source": "Naver News",
+        "metric": "news_title",
+        "value": null,
+        "unit": null,
+        "period": "Mon, 27 Apr 2026 16:38:00 +0900",
+        "snippet": "Naver News | Mon, 27 Apr 2026 16:38:00 +0900 기준 news_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.007",
+        "source_type": "issue_news",
+        "source": "Naver News",
+        "metric": "news_title",
+        "value": null,
+        "unit": null,
+        "period": "Fri, 24 Apr 2026 10:20:00 +0900",
+        "snippet": "Naver News | Fri, 24 Apr 2026 10:20:00 +0900 기준 news_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.008",
+        "source_type": "issue_news",
+        "source": "Naver News",
+        "metric": "news_title",
+        "value": null,
+        "unit": null,
+        "period": "Thu, 23 Apr 2026 14:00:00 +0900",
+        "snippet": "Naver News | Thu, 23 Apr 2026 14:00:00 +0900 기준 news_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.009",
+        "source_type": "issue_rss",
+        "source": "Semiconductor Engineering",
+        "metric": "rss_title",
+        "value": null,
+        "unit": null,
+        "period": "Wed, 29 Apr 2026 19:42:23 +0000",
+        "snippet": "Semiconductor Engineering | Wed, 29 Apr 2026 19:42:23 +0000 기준 rss_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.010",
+        "source_type": "issue_rss",
+        "source": "Semiconductor Engineering",
+        "metric": "rss_title",
+        "value": null,
+        "unit": null,
+        "period": "Wed, 29 Apr 2026 07:02:56 +0000",
+        "snippet": "Semiconductor Engineering | Wed, 29 Apr 2026 07:02:56 +0000 기준 rss_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.011",
+        "source_type": "issue_rss",
+        "source": "Semiconductor Engineering",
+        "metric": "rss_title",
+        "value": null,
+        "unit": null,
+        "period": "Wed, 29 Apr 2026 07:01:53 +0000",
+        "snippet": "Semiconductor Engineering | Wed, 29 Apr 2026 07:01:53 +0000 기준 rss_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.012",
+        "source_type": "issue_rss",
+        "source": "Semiconductor Engineering",
+        "metric": "rss_title",
+        "value": null,
+        "unit": null,
+        "period": "Wed, 29 Apr 2026 07:01:37 +0000",
+        "snippet": "Semiconductor Engineering | Wed, 29 Apr 2026 07:01:37 +0000 기준 rss_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.013",
+        "source_type": "issue_rss",
+        "source": "Semiconductor Engineering",
+        "metric": "rss_title",
+        "value": null,
+        "unit": null,
+        "period": "Wed, 29 Apr 2026 07:01:11 +0000",
+        "snippet": "Semiconductor Engineering | Wed, 29 Apr 2026 07:01:11 +0000 기준 rss_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.014",
+        "source_type": "issue_keyword",
+        "source": "issue_keywords_workbook",
+        "metric": "keyword_row",
+        "value": null,
+        "unit": "건",
+        "period": null,
+        "snippet": "issue_keywords_workbook | keyword_row | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.unverified",
+        "source_type": "agent_output_unverified",
+        "source": "issue_output",
+        "metric": null,
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "검증 가능한 원천 evidence가 부족합니다."
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "issue.ev.001",
+        "source_type": "issue",
+        "source": "issue_data_collection",
+        "metric": "news_count",
+        "value": 10,
+        "unit": "count",
+        "period": null,
+        "snippet": "issue_data_collection | news_count | 값: 10count"
+      },
+      {
+        "evidence_id": "issue.ev.002",
+        "source_type": "issue",
+        "source": "issue_data_collection",
+        "metric": "rss_count",
+        "value": 11,
+        "unit": "count",
+        "period": null,
+        "snippet": "issue_data_collection | rss_count | 값: 11count"
+      },
+      {
+        "evidence_id": "issue.ev.003",
+        "source_type": "issue",
+        "source": "issue_keywords_workbook",
+        "metric": "related_keyword_count",
+        "value": 1,
+        "unit": "count",
+        "period": null,
+        "snippet": "issue_keywords_workbook | related_keyword_count | 값: 1count"
+      },
+      {
+        "evidence_id": "issue.ev.004",
+        "source_type": "issue_news",
+        "source": "Naver News",
+        "metric": "news_title",
+        "value": null,
+        "unit": null,
+        "period": "Tue, 28 Apr 2026 14:08:00 +0900",
+        "snippet": "Naver News | Tue, 28 Apr 2026 14:08:00 +0900 기준 news_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.005",
+        "source_type": "issue_news",
+        "source": "Naver News",
+        "metric": "news_title",
+        "value": null,
+        "unit": "배",
+        "period": "Tue, 28 Apr 2026 11:06:00 +0900",
+        "snippet": "Naver News | Tue, 28 Apr 2026 11:06:00 +0900 기준 news_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.006",
+        "source_type": "issue_news",
+        "source": "Naver News",
+        "metric": "news_title",
+        "value": null,
+        "unit": null,
+        "period": "Mon, 27 Apr 2026 16:38:00 +0900",
+        "snippet": "Naver News | Mon, 27 Apr 2026 16:38:00 +0900 기준 news_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.007",
+        "source_type": "issue_news",
+        "source": "Naver News",
+        "metric": "news_title",
+        "value": null,
+        "unit": null,
+        "period": "Fri, 24 Apr 2026 10:20:00 +0900",
+        "snippet": "Naver News | Fri, 24 Apr 2026 10:20:00 +0900 기준 news_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.008",
+        "source_type": "issue_news",
+        "source": "Naver News",
+        "metric": "news_title",
+        "value": null,
+        "unit": null,
+        "period": "Thu, 23 Apr 2026 14:00:00 +0900",
+        "snippet": "Naver News | Thu, 23 Apr 2026 14:00:00 +0900 기준 news_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.009",
+        "source_type": "issue_rss",
+        "source": "Semiconductor Engineering",
+        "metric": "rss_title",
+        "value": null,
+        "unit": null,
+        "period": "Wed, 29 Apr 2026 19:42:23 +0000",
+        "snippet": "Semiconductor Engineering | Wed, 29 Apr 2026 19:42:23 +0000 기준 rss_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.010",
+        "source_type": "issue_rss",
+        "source": "Semiconductor Engineering",
+        "metric": "rss_title",
+        "value": null,
+        "unit": null,
+        "period": "Wed, 29 Apr 2026 07:02:56 +0000",
+        "snippet": "Semiconductor Engineering | Wed, 29 Apr 2026 07:02:56 +0000 기준 rss_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.011",
+        "source_type": "issue_rss",
+        "source": "Semiconductor Engineering",
+        "metric": "rss_title",
+        "value": null,
+        "unit": null,
+        "period": "Wed, 29 Apr 2026 07:01:53 +0000",
+        "snippet": "Semiconductor Engineering | Wed, 29 Apr 2026 07:01:53 +0000 기준 rss_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.012",
+        "source_type": "issue_rss",
+        "source": "Semiconductor Engineering",
+        "metric": "rss_title",
+        "value": null,
+        "unit": null,
+        "period": "Wed, 29 Apr 2026 07:01:37 +0000",
+        "snippet": "Semiconductor Engineering | Wed, 29 Apr 2026 07:01:37 +0000 기준 rss_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.013",
+        "source_type": "issue_rss",
+        "source": "Semiconductor Engineering",
+        "metric": "rss_title",
+        "value": null,
+        "unit": null,
+        "period": "Wed, 29 Apr 2026 07:01:11 +0000",
+        "snippet": "Semiconductor Engineering | Wed, 29 Apr 2026 07:01:11 +0000 기준 rss_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.014",
+        "source_type": "issue_keyword",
+        "source": "issue_keywords_workbook",
+        "metric": "keyword_row",
+        "value": null,
+        "unit": "건",
+        "period": null,
+        "snippet": "issue_keywords_workbook | keyword_row | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "issue.ev.unverified",
+        "source_type": "agent_output_unverified",
+        "source": "issue_output",
+        "metric": null,
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "검증 가능한 원천 evidence가 부족합니다."
+      }
+    ],
+    "fallback_used": false,
+    "warning_note": "검증 불가 claim 6개를 제거한 뒤 grounding 기준을 재검증했습니다.",
+    "raw_payload": {
+      "analysis_text": "opinion: 보유\nconfidence: 0.65\n\n1. 핵심 이슈 요약\n덕산테코피아는 전고체 전해질 소재 기술에 대한 기대감과 '소재 다변화' 전략을 통해 글로벌 경쟁력을 강화하려는 모멘텀이 존재하나, 동시에 이차전지 시장의 장기화되는 '캐즘 (Chasm)'으로 인한 영업적자 지속과 단기 급등에 따른 수급 부담 (변동성 확대) 이 공존하는 상황이다. RSS 에서 수집된 반도체 패키징 및 열관리 관련 기술 트렌드는 간접적인 소재 수요 확대 가능성을 시사하나, 당해 기업과의 직접적인 기술 연계성은 뉴스 데이터상 명확히 확인되지 않는다.\n\n2. 기업에 미치는 영향\n- **긍정적 영향:** 전고체 배터리 소재 기술에 대한 시장의 기대감이 반영되어 주가 탄력성 (상승 시 7.63% 등) 을 보이며, 외국인 매수세 유입 시 동반 상승하는 경향이 있다. 소재 포트폴리오 다변화를 통해 기존 리스크를 분산하려는 노력이 진행 중이다.\n- **부정적 영향:** 전기차 시장 수요 둔화 (캐즘) 로 인해 외형 성장은 제한적이며 영업적자가 지속되고 있어 펀더멘털 측면에서 부담이 된다. 또한, 전고체 관련 테마주들의 변동성 확대 (롤러코스터) 와 단기 급등 후 매도세 유입으로 주가 하방 압력이 빈번하게 발생한다.\n\n3. 긍정 시그널\n- **기술적 모멘텀:** 전고체 전해질 소재 기술에 대한 시장의 높은 기대감이 주가 상승의 주요 동력으로 작용함 (뉴스: \"전고체 전해질 소재 기술 기대감이 반영되며 강한 탄력을 보이고 있음\").\n- **수급 흐름:** 소재 및 장비 관련 섹터 전반에 외국인 매수세가 유입될 때 동반 상승하는 경향을 보임 (뉴스: \"외국인 매수세가 유입 되면서 동반 상승 흐름\").\n- **전략적 방향:** '소재 다변화'를 통한 경쟁력 강화 노력이 지속되고 있음.\n\n4. 부정 시그널/리스크\n- **실적 악화 및 시장 환경:** 이차전지 시장의 장기화되는 '캐즘'으로 인해 외형 성장은 제한적이며 영업적자가 이어지고 있음 (뉴스: \"외형 성장은 제한적인 반면 영업적자가 이어지며 어려움을 겪고 있다\").\n- **주가 변동성 및 수급 부담:** 전고체 관련 테마의 기대감 식음과 단기 급등에 따른 과열 해소 과정에서 매도세가 이어지며 낙폭이 확대됨 (뉴스: \"전고체 기대감 식었나... 매도세가 이어졌다\", \"고점 부담이 반영됨\").\n- **데이터 한계:** 제공된 RSS 자료 (KAIST, Georgia Tech 등 연구 논문) 는 반도체 패키징의 열관리 및 3D 적층 기술 트렌드를 다루고 있으나, 덕산테코피아의 구체적인 제품이나 기술이 해당 연구와 직접적으로 연관되어 있다는 근거는 뉴스 데이터에 포함되어 있지 않음.\n\n5. 향후 체크포인트\n- **실적 턴어라운드 시점:** 이차전지 시장 캐즘 극복과 함께 영업적자가 흑자로 전환되는 구체적인 시기와 분기별 실적 발표 내용.\n- **전고체 소재 상용화 진척도:** 전고체 전해질 소재의 실제 양산 계약 체결 여부 및 주요 배터리 셀 기업 (삼성 SDI 등) 과의 공급망 확정 소식.\n- **수급 안정성:** 외국인 및 기관 투자자의 지속적인 매수세 유지 여부 및 단기 급등락에 따른 변동성 축소 여부.\n- **기술 연계성 확인:** 반도체/고성능 컴퓨팅 관련 열관리 소재 (RSS 에서 언급된 Alumina Nanowires 등) 에 대한 덕산테코피아의 구체적인 기술 보유 및 적용 계획 공개 여부.",
+      "markdown_report": "# 덕산테코피아 이슈 리포트\n\n## 내부 연관 키워드\n\n## 분석 결과\nopinion: 보유\nconfidence: 0.65\n\n1. 핵심 이슈 요약\n덕산테코피아는 전고체 전해질 소재 기술에 대한 기대감과 '소재 다변화' 전략을 통해 글로벌 경쟁력을 강화하려는 모멘텀이 존재하나, 동시에 이차전지 시장의 장기화되는 '캐즘 (Chasm)'으로 인한 영업적자 지속과 단기 급등에 따른 수급 부담 (변동성 확대) 이 공존하는 상황이다. RSS 에서 수집된 반도체 패키징 및 열관리 관련 기술 트렌드는 간접적인 소재 수요 확대 가능성을 시사하나, 당해 기업과의 직접적인 기술 연계성은 뉴스 데이터상 명확히 확인되지 않는다.\n\n2. 기업에 미치는 영향\n- **긍정적 영향:** 전고체 배터리 소재 기술에 대한 시장의 기대감이 반영되어 주가 탄력성 (상승 시 7.63% 등) 을 보이며, 외국인 매수세 유입 시 동반 상승하는 경향이 있다. 소재 포트폴리오 다변화를 통해 기존 리스크를 분산하려는 노력이 진행 중이다.\n- **부정적 영향:** 전기차 시장 수요 둔화 (캐즘) 로 인해 외형 성장은 제한적이며 영업적자가 지속되고 있어 펀더멘털 측면에서 부담이 된다. 또한, 전고체 관련 테마주들의 변동성 확대 (롤러코스터) 와 단기 급등 후 매도세 유입으로 주가 하방 압력이 빈번하게 발생한다.\n\n3. 긍정 시그널\n- **기술적 모멘텀:** 전고체 전해질 소재 기술에 대한 시장의 높은 기대감이 주가 상승의 주요 동력으로 작용함 (뉴스: \"전고체 전해질 소재 기술 기대감이 반영되며 강한 탄력을 보이고 있음\").\n- **수급 흐름:** 소재 및 장비 관련 섹터 전반에 외국인 매수세가 유입될 때 동반 상승하는 경향을 보임 (뉴스: \"외국인 매수세가 유입 되면서 동반 상승 흐름\").\n- **전략적 방향:** '소재 다변화'를 통한 경쟁력 강화 노력이 지속되고 있음.\n\n4. 부정 시그널/리스크\n- **실적 악화 및 시장 환경:** 이차전지 시장의 장기화되는 '캐즘'으로 인해 외형 성장은 제한적이며 영업적자가 이어지고 있음 (뉴스: \"외형 성장은 제한적인 반면 영업적자가 이어지며 어려움을 겪고 있다\").\n- **주가 변동성 및 수급 부담:** 전고체 관련 테마의 기대감 식음과 단기 급등에 따른 과열 해소 과정에서 매도세가 이어지며 낙폭이 확대됨 (뉴스: \"전고체 기대감 식었나... 매도세가 이어졌다\", \"고점 부담이 반영됨\").\n- **데이터 한계:** 제공된 RSS 자료 (KAIST, Georgia Tech 등 연구 논문) 는 반도체 패키징의 열관리 및 3D 적층 기술 트렌드를 다루고 있으나, 덕산테코피아의 구체적인 제품이나 기술이 해당 연구와 직접적으로 연관되어 있다는 근거는 뉴스 데이터에 포함되어 있지 않음.\n\n5. 향후 체크포인트\n- **실적 턴어라운드 시점:** 이차전지 시장 캐즘 극복과 함께 영업적자가 흑자로 전환되는 구체적인 시기와 분기별 실적 발표 내용.\n- **전고체 소재 상용화 진척도:** 전고체 전해질 소재의 실제 양산 계약 체결 여부 및 주요 배터리 셀 기업 (삼성 SDI 등) 과의 공급망 확정 소식.\n- **수급 안정성:** 외국인 및 기관 투자자의 지속적인 매수세 유지 여부 및 단기 급등락에 따른 변동성 축소 여부.\n- **기술 연계성 확인:** 반도체/고성능 컴퓨팅 관련 열관리 소재 (RSS 에서 언급된 Alumina Nanowires 등) 에 대한 덕산테코피아의 구체적인 기술 보유 및 적용 계획 공개 여부.\n",
+      "news_count": 10,
+      "rss_count": 11,
+      "related_keyword_count": 1,
+      "df_news_rows": 139,
+      "llm_error": null,
+      "graph_claims_original": [],
+      "removed_ungrounded_claims": [
+        "덕산테코피아 관련 공개 뉴스 제목: [여헌우의 산업돋보기] 이차전지 소재 업체 ‘캐즘 돌파’ 답은 체질 개...",
+        "덕산테코피아 관련 공개 뉴스 제목: 덕산테코피아 , '소재 다변화'로 글로벌 경쟁력 강화…성장 엔진 가동",
+        "덕산테코피아 관련 공개 뉴스 제목: 삼성·파나소닉이 택한 알루코, '배터리 케이스'로 북미·유럽 점령 가속",
+        "덕산테코피아 이슈 분석에서 수집된 RSS 항목 수는 11건입니다.",
+        "덕산테코피아 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+        "덕산테코피아 이슈 키워드 엑셀에서 확인된 관련 행 수는 1건입니다."
+      ],
+      "removed_bad_evidence_ids": [
+        "issue.ev.unverified"
+      ]
+    },
+    "packet_version": "grounded_agent_v3",
+    "pre_sanitize_grounding_check": {
+      "score": 0.0,
+      "pass": false,
+      "pass_threshold": 0.75,
+      "claim_count": 6,
+      "supported_count": 0,
+      "unsupported_count": 6,
+      "supported_claims": [],
+      "unsupported_claims": [
+        "덕산테코피아 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+        "덕산테코피아 이슈 분석에서 수집된 RSS 항목 수는 11건입니다.",
+        "덕산테코피아 이슈 키워드 엑셀에서 확인된 관련 행 수는 1건입니다.",
+        "덕산테코피아 관련 공개 뉴스 제목: 덕산테코피아 , '소재 다변화'로 글로벌 경쟁력 강화…성장 엔진 가동",
+        "덕산테코피아 관련 공개 뉴스 제목: 삼성·파나소닉이 택한 알루코, '배터리 케이스'로 북미·유럽 점령 가속",
+        "덕산테코피아 관련 공개 뉴스 제목: [여헌우의 산업돋보기] 이차전지 소재 업체 ‘캐즘 돌파’ 답은 체질 개..."
+      ],
+      "issues": [
+        "issue.cl.001: evidence와 claim 연결이 약합니다.",
+        "issue.cl.002: evidence와 claim 연결이 약합니다.",
+        "issue.cl.003: evidence와 claim 연결이 약합니다.",
+        "issue.cl.004: evidence와 claim 연결이 약합니다.",
+        "issue.cl.005: evidence와 claim 연결이 약합니다.",
+        "issue.cl.006: evidence와 claim 연결이 약합니다."
+      ],
+      "claim_results": [
+        {
+          "claim_id": "issue.cl.001",
+          "text": "덕산테코피아 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+          "evidence_ids": [
+            "issue.ev.001"
+          ],
+          "supported": false,
+          "score": 0.8,
+          "number_ratio": 1.0,
+          "token_ratio": 0.0,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "evidence와 claim 연결이 약합니다."
+        },
+        {
+          "claim_id": "issue.cl.002",
+          "text": "덕산테코피아 이슈 분석에서 수집된 RSS 항목 수는 11건입니다.",
+          "evidence_ids": [
+            "issue.ev.002"
+          ],
+          "supported": false,
+          "score": 0.8,
+          "number_ratio": 1.0,
+          "token_ratio": 0.0,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "evidence와 claim 연결이 약합니다."
+        },
+        {
+          "claim_id": "issue.cl.003",
+          "text": "덕산테코피아 이슈 키워드 엑셀에서 확인된 관련 행 수는 1건입니다.",
+          "evidence_ids": [
+            "issue.ev.003"
+          ],
+          "supported": false,
+          "score": 0.8,
+          "number_ratio": 1.0,
+          "token_ratio": 0.0,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "evidence와 claim 연결이 약합니다."
+        },
+        {
+          "claim_id": "issue.cl.004",
+          "text": "덕산테코피아 관련 공개 뉴스 제목: 덕산테코피아 , '소재 다변화'로 글로벌 경쟁력 강화…성장 엔진 가동",
+          "evidence_ids": [
+            "issue.ev.004"
+          ],
+          "supported": false,
+          "score": 0.55,
+          "number_ratio": 1.0,
+          "token_ratio": 0.0,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "evidence와 claim 연결이 약합니다."
+        },
+        {
+          "claim_id": "issue.cl.005",
+          "text": "덕산테코피아 관련 공개 뉴스 제목: 삼성·파나소닉이 택한 알루코, '배터리 케이스'로 북미·유럽 점령 가속",
+          "evidence_ids": [
+            "issue.ev.005"
+          ],
+          "supported": false,
+          "score": 0.55,
+          "number_ratio": 1.0,
+          "token_ratio": 0.0,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "evidence와 claim 연결이 약합니다."
+        },
+        {
+          "claim_id": "issue.cl.006",
+          "text": "덕산테코피아 관련 공개 뉴스 제목: [여헌우의 산업돋보기] 이차전지 소재 업체 ‘캐즘 돌파’ 답은 체질 개...",
+          "evidence_ids": [
+            "issue.ev.006"
+          ],
+          "supported": false,
+          "score": 0.55,
+          "number_ratio": 1.0,
+          "token_ratio": 0.0,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "evidence와 claim 연결이 약합니다."
+        }
+      ]
+    },
+    "post_atomic_grounding_check": {
+      "score": 1.0,
+      "pass": true,
+      "pass_threshold": 0.75,
+      "claim_count": 3,
+      "supported_count": 3,
+      "unsupported_count": 0,
+      "supported_claims": [
+        "news_count 값은 10count입니다.",
+        "rss_count 값은 11count입니다.",
+        "related_keyword_count 값은 1count입니다."
+      ],
+      "unsupported_claims": [],
+      "issues": [],
+      "claim_results": [
+        {
+          "claim_id": "issue.auto_cl.001",
+          "text": "news_count 값은 10count입니다.",
+          "evidence_ids": [
+            "issue.ev.001"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "issue.auto_cl.003",
+          "text": "rss_count 값은 11count입니다.",
+          "evidence_ids": [
+            "issue.ev.002"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "issue.auto_cl.005",
+          "text": "related_keyword_count 값은 1count입니다.",
+          "evidence_ids": [
+            "issue.ev.003"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        }
+      ]
+    },
+    "grounding_check": {
+      "score": 1.0,
+      "pass": true,
+      "pass_threshold": 0.75,
+      "claim_count": 3,
+      "supported_count": 3,
+      "unsupported_count": 0,
+      "supported_claims": [
+        "news_count 값은 10count입니다.",
+        "rss_count 값은 11count입니다.",
+        "related_keyword_count 값은 1count입니다."
+      ],
+      "unsupported_claims": [],
+      "issues": [],
+      "claim_results": [
+        {
+          "claim_id": "issue.auto_cl.001",
+          "text": "news_count 값은 10count입니다.",
+          "evidence_ids": [
+            "issue.ev.001"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "issue.auto_cl.003",
+          "text": "rss_count 값은 11count입니다.",
+          "evidence_ids": [
+            "issue.ev.002"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "issue.auto_cl.005",
+          "text": "related_keyword_count 값은 1count입니다.",
+          "evidence_ids": [
+            "issue.ev.003"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        }
+      ]
+    },
+    "opinion_source": "chair_adapter_inferred",
+    "agent_name": "issue",
+    "source_contexts": [],
+    "web_verification": {
+      "checked": true,
+      "pass": false,
+      "score": 0.5667,
+      "claim_count": 3,
+      "reason": "네이버 뉴스/Serper 검색 결과와 local evidence를 함께 사용해 claim 단위 검증을 수행했습니다.",
+      "supported_claims": [
+        {
+          "agent": "issue",
+          "claim_id": "issue.auto_cl.003",
+          "text": "rss_count 값은 11count입니다.",
+          "evidence_ids": [
+            "issue.ev.002"
+          ],
+          "verdict": "local_supported",
+          "score": 0.85,
+          "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+          "web_query": "덕산테코피아 rss_count 값은 11count입니다.",
+          "web_search_used": false,
+          "search_results": [],
+          "matched_evidence_ids": [
+            "issue.ev.002"
+          ],
+          "cited_sources": []
+        },
+        {
+          "agent": "issue",
+          "claim_id": "issue.auto_cl.005",
+          "text": "related_keyword_count 값은 1count입니다.",
+          "evidence_ids": [
+            "issue.ev.003"
+          ],
+          "verdict": "local_supported",
+          "score": 0.85,
+          "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+          "web_query": "덕산테코피아 related_keyword_count 값은 1count입니다.",
+          "web_search_used": false,
+          "search_results": [],
+          "matched_evidence_ids": [
+            "issue.ev.003"
+          ],
+          "cited_sources": []
+        }
+      ],
+      "unsupported_claims": [
+        {
+          "agent": "issue",
+          "claim_id": "issue.auto_cl.001",
+          "text": "news_count 값은 10count입니다.",
+          "evidence_ids": [
+            "issue.ev.001"
+          ],
+          "verdict": "unsupported",
+          "score": 0.0,
+          "reason": "주장은 'news_count 값은 10count입니다'라고 명시하지만, 제공된 웹 검색 결과 어디에도 뉴스 건수(news_count)가 10이라는 정보가 존재하지 않습니다. local_evidence에만 해당 값이 기록되어 있으나, 웹 검증을 위한 외부 소스에서는 이를 확인할 수 없으므로 unsupported로 판단합니다.",
+          "web_query": "덕산테코피아 news_count 값은 10count입니다.",
+          "web_search_used": true,
+          "search_results": [
+            {
+              "title": "덕산테코피아(317330) - 씽크풀",
+              "link": "https://m.thinkpool.com/item/317330",
+              "snippet": "AI 실시간 종목 특이사항 포착, 최적의 매수매도 타이밍, AI속보 제공. 한발 빠른 시장 대응.",
+              "source": "serper"
+            },
+            {
+              "title": "덕산테코피아 종목 상세 정보 확인하기 - 증권플러스",
+              "link": "https://www.stockplus.com/m/stocks/KOREA-A317330",
+              "snippet": "동사는 2006년 전자부품 제조업을 위해 설립되어 2019년에 코스닥 상장, 계열사로 (주)덕산퓨처셀 등을 보유함. OLED 핵심구성요소인 유기재료와 반도체 전자재료 등을 ...",
+              "source": "serper"
+            },
+            {
+              "title": "덕산테코피아-차트 | 한국경제",
+              "link": "https://markets.hankyung.com/stock/317330/chart",
+              "snippet": "덕산테코피아. 317330. 코스닥. 25,650. 1,550 +6.43%. My Stock 관심종목. 2026.04.17 장마감. 종합 · 차트 · 컨센서스 · 기업·재무. 일차트; 분차트 ...",
+              "source": "serper"
+            },
+            {
+              "title": "덕산테코피아 317330 코스닥 - 다음 금융 - Daum",
+              "link": "https://finance.daum.net/quotes/A317330",
+              "snippet": "덕산테코피아 317330 코스닥. 관심종목공유하기. 25,200. △250 (+1.00%)거래량 ... [여헌우의 산업돋보기] 이차전지 소재 업체 '캐즘 돌파' 답은 체질 개선. 에너지 ...",
+              "source": "serper"
+            },
+            {
+              "title": "[리포트 브리핑]덕산테코피아, '반등 국면 진입' Not Rated - 키움증권",
+              "link": "https://www.newspim.com/news/view/20260428000328",
+              "snippet": "[서울=뉴스핌] 로보뉴스 = 키움증권에서 28일 덕산테코피아(317330)에 대해 '반등 국면 진입'라며 신규 리포트를 발행하였고, 투자의견을 'Not Rated'로 ...",
+              "source": "serper"
+            }
+          ],
+          "matched_evidence_ids": [
+            "issue.ev.001"
+          ],
+          "cited_sources": []
+        }
+      ]
+    },
+    "chair_safe_claims": [
+      {
+        "claim_id": "issue.auto_cl.003",
+        "text": "rss_count 값은 11count입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "verdict": "local_supported",
+        "score": 0.85,
+        "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+        "cited_sources": []
+      },
+      {
+        "claim_id": "issue.auto_cl.005",
+        "text": "related_keyword_count 값은 1count입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "verdict": "local_supported",
+        "score": 0.85,
+        "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+        "cited_sources": []
+      }
+    ],
+    "chair_blocked_claims": [
+      {
+        "claim_id": "issue.auto_cl.001",
+        "text": "news_count 값은 10count입니다.",
+        "verdict": "unsupported",
+        "score": 0.0,
+        "reason": "주장은 'news_count 값은 10count입니다'라고 명시하지만, 제공된 웹 검색 결과 어디에도 뉴스 건수(news_count)가 10이라는 정보가 존재하지 않습니다. local_evidence에만 해당 값이 기록되어 있으나, 웹 검증을 위한 외부 소스에서는 이를 확인할 수 없으므로 unsupported로 판단합니다."
+      }
+    ]
+  },
+  "required_fix": [
+    "각 핵심 주장마다 evidence_id를 반드시 붙이세요.",
+    "evidence_id는 evidences 배열 안에 실제 존재해야 합니다.",
+    "source_type이 agent_output_unverified, llm_only, self_generated인 근거는 실제 근거로 인정하지 않습니다.",
+    "수치 주장에는 기간, 단위, 원천값을 함께 넣으세요.",
+    "공시, 재무 CSV, 가격 CSV, RSS/뉴스 스니펫, 공식 문서에서 확인 가능한 주장만 남기세요.",
+    "확인 불가능한 고객사, 계약, 수주, 전망 수치는 삭제하거나 '확인 필요'로 낮추세요.",
+    "웹/공개 검색 스니펫에서 직접 확인되지 않는 과잉 표현은 제거하세요.",
+    "템플릿 문장이나 사용자에게 입력을 요구하는 문장은 최종 JSON에 넣지 마세요."
+  ],
+  "expected_minimum_shape": {
+    "claims": [
+      {
+        "claim": "검증 가능한 핵심 주장",
+        "evidence_ids": [
+          "agent.ev.001"
+        ]
+      }
+    ],
+    "evidences": [
+      {
+        "evidence_id": "agent.ev.001",
+        "source_type": "financial | price | rss | news | filing | official | macro | technology",
+        "source": "원천 파일명 또는 URL 또는 데이터셋명",
+        "metric": "수치명 또는 근거명",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "근거 원문 또는 원천값 요약"
+      }
+    ]
+  }
+}

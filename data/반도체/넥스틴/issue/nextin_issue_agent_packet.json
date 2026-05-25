@@ -1,0 +1,570 @@
+{
+  "agent": "issue",
+  "company_name": "넥스틴",
+  "company": "넥스틴",
+  "company_dir": "nextin",
+  "opinion": "보유",
+  "confidence": 0.5,
+  "summary": "넥스틴에 대해 검증 가능한 핵심 근거는 다음과 같습니다. news_count 값은 10count입니다. rss_count 값은 18count입니다. related_keyword_count 값은 0count입니다.",
+  "key_points": [
+    "news_count 값은 10count입니다.",
+    "rss_count 값은 18count입니다.",
+    "related_keyword_count 값은 0count입니다."
+  ],
+  "risks": [],
+  "claims": [
+    {
+      "claim_id": "issue.auto_cl.001",
+      "text": "news_count 값은 10count입니다.",
+      "evidence_ids": [
+        "issue.ev.001"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "issue.auto_cl.003",
+      "text": "rss_count 값은 18count입니다.",
+      "evidence_ids": [
+        "issue.ev.002"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "issue.auto_cl.005",
+      "text": "related_keyword_count 값은 0count입니다.",
+      "evidence_ids": [
+        "issue.ev.003"
+      ],
+      "claim_type": "point"
+    }
+  ],
+  "evidences": [
+    {
+      "evidence_id": "issue.ev.001",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "news_count",
+      "value": 10,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | news_count | 값: 10count"
+    },
+    {
+      "evidence_id": "issue.ev.002",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "rss_count",
+      "value": 18,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | rss_count | 값: 18count"
+    },
+    {
+      "evidence_id": "issue.ev.003",
+      "source_type": "issue",
+      "source": "issue_keywords_workbook",
+      "metric": "related_keyword_count",
+      "value": 0,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_keywords_workbook | related_keyword_count | 값: 0count"
+    },
+    {
+      "evidence_id": "issue.ev.004",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 28 Apr 2026 15:34:00 +0900",
+      "snippet": "Naver News | Tue, 28 Apr 2026 15:34:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.005",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 27 Apr 2026 13:54:00 +0900",
+      "snippet": "Naver News | Mon, 27 Apr 2026 13:54:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.006",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 09 Apr 2026 14:52:00 +0900",
+      "snippet": "Naver News | Thu, 09 Apr 2026 14:52:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.007",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Wed, 25 Mar 2026 18:16:00 +0900",
+      "snippet": "Naver News | Wed, 25 Mar 2026 18:16:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.008",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Fri, 20 Mar 2026 00:16:00 +0900",
+      "snippet": "Naver News | Fri, 20 Mar 2026 00:16:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.009",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:44 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:44 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.010",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:41 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:41 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.011",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:46:28 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:46:28 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.012",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:36:05 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:36:05 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.013",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:24:00 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:24:00 +0000 기준 rss_title | 값: 확인 불가"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "issue.ev.001",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "news_count",
+      "value": 10,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | news_count | 값: 10count"
+    },
+    {
+      "evidence_id": "issue.ev.002",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "rss_count",
+      "value": 18,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | rss_count | 값: 18count"
+    },
+    {
+      "evidence_id": "issue.ev.003",
+      "source_type": "issue",
+      "source": "issue_keywords_workbook",
+      "metric": "related_keyword_count",
+      "value": 0,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_keywords_workbook | related_keyword_count | 값: 0count"
+    },
+    {
+      "evidence_id": "issue.ev.004",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 28 Apr 2026 15:34:00 +0900",
+      "snippet": "Naver News | Tue, 28 Apr 2026 15:34:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.005",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 27 Apr 2026 13:54:00 +0900",
+      "snippet": "Naver News | Mon, 27 Apr 2026 13:54:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.006",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 09 Apr 2026 14:52:00 +0900",
+      "snippet": "Naver News | Thu, 09 Apr 2026 14:52:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.007",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Wed, 25 Mar 2026 18:16:00 +0900",
+      "snippet": "Naver News | Wed, 25 Mar 2026 18:16:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.008",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Fri, 20 Mar 2026 00:16:00 +0900",
+      "snippet": "Naver News | Fri, 20 Mar 2026 00:16:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.009",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:44 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:44 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.010",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 07:01:41 +0000",
+      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:41 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.011",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:46:28 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:46:28 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.012",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:36:05 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:36:05 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.013",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 20:24:00 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:24:00 +0000 기준 rss_title | 값: 확인 불가"
+    }
+  ],
+  "fallback_used": false,
+  "warning_note": "검증 불가 claim 6개를 제거한 뒤 grounding 기준을 재검증했습니다.",
+  "raw_payload": {
+    "analysis_text": "opinion: 보유\nconfidence: 0.65\n\n### 1. 핵심 이슈 요약\n넥스틴은 HBM(고대역폭메모리) 관련주로 분류되어 주가 변동성을 보이고 있으나, 주 매출처인 중국 고객사의 설비 투자(CAPEX) 급감으로 인한 실적 악화가 예상되는 상반된 이슈를 동시에 가지고 있습니다.\n\n### 2. 기업에 미치는 영향\nHBM 시장의 성장세는 긍정적인 모멘텀을 제공할 수 있으나, 중국 시장의 CAPEX 축소는 직접적인 매출 감소로 이어져 실적에 부정적인 영향을 미칠 가능성이 높습니다. 이는 주가 상승분을 충분히 뒷받침하지 못할 경우 추가 조정의 빌미가 될 수 있습니다.\n\n### 3. 긍정 시그널\n*   **HBM 시장 성장 수혜 기대감:** 다수의 뉴스에서 넥스틴이 HBM 관련주로 언급되며, AI 수요 급증에 따른 HBM 시장 성장의 수혜를 받을 수 있다는 기대감이 존재합니다. 엔비디아의 실적 발표가 촉매제가 되어 관련주들의 동반 상승세를 보인 사례가 있습니다.\n\n### 4. 부정 시그널/리스크\n*   **중국 고객사 CAPEX 급감:** 넥스틴의 주 매출처인 중국 고객사의 설비 투자(CAPEX)가 급감함에 따라 실적 악화가 예상됩니다. 이는 직접적인 매출 감소로 이어질 수 있는 명확한 부정적 요인입니다.\n*   **실적 성장성 대비 주가:** 일부 뉴스에서는 실적 성장성이 주가 상승분을 충분히 뒷받침하지 못할 경우 추가 조정이 나올 수 있다는 분석이 제기되었습니다.\n*   **주가 약세:** 최근 뉴스에서 넥스틴이 약세를 보인다는 언급이 있으며, 반도체 소재 기업으로서 테마 내 최하위 수익률을 기록했다는 내용도 있습니다.\n\n### 5. 향후 체크포인트\n*   중국 고객사의 설비 투자 재개 시점 및 규모\n*   HBM 시장 성장세가 넥스틴의 실적에 구체적으로 어떤 영향을 미치는지 여부\n*   중국 외 신규 고객사 확보 및 매출 다변화 노력\n*   향후 발표될 실적 발표를 통한 실제 실적 추이 확인",
+    "markdown_report": "# 넥스틴 이슈 리포트\n\n## 분석 결과\nopinion: 보유\nconfidence: 0.65\n\n### 1. 핵심 이슈 요약\n넥스틴은 HBM(고대역폭메모리) 관련주로 분류되어 주가 변동성을 보이고 있으나, 주 매출처인 중국 고객사의 설비 투자(CAPEX) 급감으로 인한 실적 악화가 예상되는 상반된 이슈를 동시에 가지고 있습니다.\n\n### 2. 기업에 미치는 영향\nHBM 시장의 성장세는 긍정적인 모멘텀을 제공할 수 있으나, 중국 시장의 CAPEX 축소는 직접적인 매출 감소로 이어져 실적에 부정적인 영향을 미칠 가능성이 높습니다. 이는 주가 상승분을 충분히 뒷받침하지 못할 경우 추가 조정의 빌미가 될 수 있습니다.\n\n### 3. 긍정 시그널\n*   **HBM 시장 성장 수혜 기대감:** 다수의 뉴스에서 넥스틴이 HBM 관련주로 언급되며, AI 수요 급증에 따른 HBM 시장 성장의 수혜를 받을 수 있다는 기대감이 존재합니다. 엔비디아의 실적 발표가 촉매제가 되어 관련주들의 동반 상승세를 보인 사례가 있습니다.\n\n### 4. 부정 시그널/리스크\n*   **중국 고객사 CAPEX 급감:** 넥스틴의 주 매출처인 중국 고객사의 설비 투자(CAPEX)가 급감함에 따라 실적 악화가 예상됩니다. 이는 직접적인 매출 감소로 이어질 수 있는 명확한 부정적 요인입니다.\n*   **실적 성장성 대비 주가:** 일부 뉴스에서는 실적 성장성이 주가 상승분을 충분히 뒷받침하지 못할 경우 추가 조정이 나올 수 있다는 분석이 제기되었습니다.\n*   **주가 약세:** 최근 뉴스에서 넥스틴이 약세를 보인다는 언급이 있으며, 반도체 소재 기업으로서 테마 내 최하위 수익률을 기록했다는 내용도 있습니다.\n\n### 5. 향후 체크포인트\n*   중국 고객사의 설비 투자 재개 시점 및 규모\n*   HBM 시장 성장세가 넥스틴의 실적에 구체적으로 어떤 영향을 미치는지 여부\n*   중국 외 신규 고객사 확보 및 매출 다변화 노력\n*   향후 발표될 실적 발표를 통한 실제 실적 추이 확인\n",
+    "news_count": 10,
+    "rss_count": 18,
+    "related_keyword_count": 0,
+    "df_news_rows": 139,
+    "llm_error": null,
+    "graph_claims_original": [],
+    "removed_ungrounded_claims": [
+      "넥스틴 관련 공개 뉴스 제목: \"HBM 시대 핵심은 패키징\"…피에스케이홀딩스, 장비 시장 '태풍의 눈'",
+      "넥스틴 관련 공개 뉴스 제목: 자동차 센서가 끌고 반도체가 밀고… 오디텍, 수직계열화로 시장 장악",
+      "넥스틴 관련 공개 뉴스 제목: 증시 신고점인데...이익 전망 10% 깎인 ' 넥스틴 ·녹십자'",
+      "넥스틴 이슈 분석에서 수집된 RSS 항목 수는 18건입니다.",
+      "넥스틴 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+      "넥스틴 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다."
+    ],
+    "removed_bad_evidence_ids": [
+      "issue.ev.unverified"
+    ]
+  },
+  "packet_version": "grounded_agent_v3",
+  "pre_sanitize_grounding_check": {
+    "score": 0.0,
+    "pass": false,
+    "pass_threshold": 0.75,
+    "claim_count": 6,
+    "supported_count": 0,
+    "unsupported_count": 6,
+    "supported_claims": [],
+    "unsupported_claims": [
+      "넥스틴 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+      "넥스틴 이슈 분석에서 수집된 RSS 항목 수는 18건입니다.",
+      "넥스틴 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다.",
+      "넥스틴 관련 공개 뉴스 제목: \"HBM 시대 핵심은 패키징\"…피에스케이홀딩스, 장비 시장 '태풍의 눈'",
+      "넥스틴 관련 공개 뉴스 제목: 증시 신고점인데...이익 전망 10% 깎인 ' 넥스틴 ·녹십자'",
+      "넥스틴 관련 공개 뉴스 제목: 자동차 센서가 끌고 반도체가 밀고… 오디텍, 수직계열화로 시장 장악"
+    ],
+    "issues": [
+      "issue.cl.001: evidence와 claim 연결이 약합니다.",
+      "issue.cl.002: evidence와 claim 연결이 약합니다.",
+      "issue.cl.003: evidence와 claim 연결이 약합니다.",
+      "issue.cl.004: evidence와 claim 연결이 약합니다.",
+      "issue.cl.005: 숫자 불일치 또는 누락(number_ratio=0.00)",
+      "issue.cl.006: evidence와 claim 연결이 약합니다."
+    ],
+    "claim_results": [
+      {
+        "claim_id": "issue.cl.001",
+        "text": "넥스틴 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.002",
+        "text": "넥스틴 이슈 분석에서 수집된 RSS 항목 수는 18건입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.003",
+        "text": "넥스틴 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.004",
+        "text": "넥스틴 관련 공개 뉴스 제목: \"HBM 시대 핵심은 패키징\"…피에스케이홀딩스, 장비 시장 '태풍의 눈'",
+        "evidence_ids": [
+          "issue.ev.004"
+        ],
+        "supported": false,
+        "score": 0.55,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.005",
+        "text": "넥스틴 관련 공개 뉴스 제목: 증시 신고점인데...이익 전망 10% 깎인 ' 넥스틴 ·녹십자'",
+        "evidence_ids": [
+          "issue.ev.005"
+        ],
+        "supported": false,
+        "score": 0.25,
+        "number_ratio": 0.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "숫자 불일치 또는 누락(number_ratio=0.00)"
+      },
+      {
+        "claim_id": "issue.cl.006",
+        "text": "넥스틴 관련 공개 뉴스 제목: 자동차 센서가 끌고 반도체가 밀고… 오디텍, 수직계열화로 시장 장악",
+        "evidence_ids": [
+          "issue.ev.006"
+        ],
+        "supported": false,
+        "score": 0.55,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      }
+    ]
+  },
+  "post_atomic_grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 3,
+    "supported_count": 3,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "news_count 값은 10count입니다.",
+      "rss_count 값은 18count입니다.",
+      "related_keyword_count 값은 0count입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "issue.auto_cl.001",
+        "text": "news_count 값은 10count입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.003",
+        "text": "rss_count 값은 18count입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.005",
+        "text": "related_keyword_count 값은 0count입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  },
+  "grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 3,
+    "supported_count": 3,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "news_count 값은 10count입니다.",
+      "rss_count 값은 18count입니다.",
+      "related_keyword_count 값은 0count입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "issue.auto_cl.001",
+        "text": "news_count 값은 10count입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.003",
+        "text": "rss_count 값은 18count입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.005",
+        "text": "related_keyword_count 값은 0count입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  }
+}

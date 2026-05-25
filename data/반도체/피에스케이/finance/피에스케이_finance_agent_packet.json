@@ -1,0 +1,223 @@
+{
+  "agent_name": "finance",
+  "company_name": "피에스케이",
+  "company_dir": "psk",
+  "industry_type": "deeptech_semiconductor",
+  "summary": "피에스케이는 2023년부터 2025년까지 꾸준한 매출 성장과 영업이익률 개선세를 보였으며, 2024년에는 특히 높은 수준의 영업이익률과 ROE를 기록했다. 2026년 들어 주가는 큰 폭으로 상승하며 높은 연수익률을 달성했으나, 최근 한 달간의 주가 변동성과 드로다운은 투자 시 유의해야 할 부분이다. 전반적으로 견조한 재무 지표와 성장성을 바탕으로 긍정적인 흐름을 보이고 있다.",
+  "key_thesis": [
+    "2023년 15.38%였던 영업이익률이 2024년 21.08%로 크게 상승했으며, 2025년에도 19.36% 수준을 유지하며 수익성 개선 추세를 보였다.",
+    "ROE는 2023년 13.38%에서 2024년 16.77%로 상승했으며, 2025년에도 14.57%로 높은 수준을 유지하며 자본 효율성이 양호함을 나타낸다.",
+    "부채비율은 2023년 25.94%에서 2024년 20.70%로 감소했으며, 2025년에는 19.84%로 더욱 낮아져 재무 건전성이 개선되고 있다.",
+    "잉여현금흐름(FCF)은 2023년 241.57억에서 2024년 399.26억, 2025년 431.98억으로 꾸준히 증가하며 현금 창출 능력이 강화되고 있다.",
+    "2025년 연수익률 129.92%, 2026년 연수익률 186.63%로 높은 주가 상승률을 기록하며 시장의 주목을 받고 있다.",
+    "2026년 들어 주가는 38,900원에서 111,500원까지 상승하며 높은 성장세를 보였으며, 최고가는 114,200원을 기록했다."
+  ],
+  "key_risks": [
+    "2025년 영업이익이 884.94억으로 2024년 839.24억 대비 소폭 증가에 그쳤으며, 2025년 순이익은 785.46억으로 2024년 791.28억 대비 감소하여 성장세 둔화 가능성을 시사한다.",
+    "2025년 이자 비용이 161.50억으로 2024년 114.36억 대비 크게 증가했으며, 이는 이자보상배율을 7.34에서 5.48로 하락시키는 요인이 되었다.",
+    "최근 1개월 주가 데이터에서 2026년 4월 14일 -2.28%, 4월 20일 -3.07%, 4월 30일 -4.93%, 5월 12일 -8.93% 등 단기 급락 구간이 관찰되어 높은 변동성을 내포하고 있다.",
+    "2026년 5월 12일 기준 누적 최고가 대비 드로다운율이 -8.93%로, 주가 하락 시 손실 폭이 커질 수 있는 리스크가 존재한다.",
+    "2026년 5월 12일 거래량 이동평균 대비 비율이 1.48로 높게 나타나 단기적인 과열 가능성을 배제할 수 없다."
+  ],
+  "report_core_points": [
+    "FCF: 피에스케이 2025 기준 FCF 값은 43,197,623,309원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+    "연수익률: 피에스케이 2026 기준 연수익률 값은 186.63%이며, 해당 연도 주가 성과를 보여주는 지표입니다.",
+    "연간 MDD: 피에스케이 2026 기준 연간 MDD 값은 -17.79%이며, 투자자가 경험할 수 있는 최대 낙폭 위험을 보여주는 지표입니다.",
+    "거래량: 피에스케이 2026 기준 거래량 값은 472474.00주이며, 해당 연도 평균 거래량을 통해 시장 관심과 유동성을 확인하는 지표입니다.",
+    "이동평균 대비 비율: 피에스케이 2026 기준 이동평균 대비 비율 값은 1.01배이며, 거래량이 이동평균 대비 어느 수준인지 보여주는 수급 지표입니다."
+  ],
+  "missing_prompt_metrics": [
+    "매출성장률",
+    "영업이익률",
+    "ROE",
+    "부채비율",
+    "변동성지수"
+  ],
+  "evidence": [
+    {
+      "evidence_id": "finance.ev.004",
+      "source_type": "financial_csv",
+      "source": "피에스케이_재무.csv",
+      "metric": "fcf",
+      "label": "FCF",
+      "value": 43197623309.0,
+      "unit": "원",
+      "period": "2025",
+      "snippet": "피에스케이 2025 기준 FCF 값은 43,197,623,309원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.007",
+      "source_type": "stock_csv",
+      "source": "피에스케이_주식.csv",
+      "metric": "annual_return_%",
+      "label": "연수익률",
+      "value": 186.63,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "피에스케이 2026 기준 연수익률 값은 186.63%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.008",
+      "source_type": "stock_csv",
+      "source": "피에스케이_주식.csv",
+      "metric": "annual_mdd_%",
+      "label": "연간 MDD",
+      "value": -17.79,
+      "unit": "%",
+      "period": "2026",
+      "snippet": "피에스케이 2026 기준 연간 MDD 값은 -17.79%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.009",
+      "source_type": "stock_csv",
+      "source": "피에스케이_주식.csv",
+      "metric": "volume_mean",
+      "label": "거래량",
+      "value": 472474.0,
+      "unit": "주",
+      "period": "2026",
+      "snippet": "피에스케이 2026 기준 거래량 값은 472474주입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.010",
+      "source_type": "stock_csv",
+      "source": "피에스케이_주식.csv",
+      "metric": "volume_ma_ratio_mean",
+      "label": "이동평균 대비 비율",
+      "value": 1.0102,
+      "unit": "배",
+      "period": "2026",
+      "snippet": "피에스케이 2026 기준 이동평균 대비 비율 값은 1.0102배입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.012",
+      "source_type": "stock_csv",
+      "source": "피에스케이_주식.csv",
+      "metric": "latest_close",
+      "label": "최근 종가",
+      "value": 111500.0,
+      "unit": "원",
+      "period": "2026-05-13",
+      "snippet": "피에스케이 2026-05-13 최근 종가 값은 111,500원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.013",
+      "source_type": "warning_stock_csv",
+      "source": "투자경고종목.csv",
+      "metric": "warning_stock",
+      "label": "투자경고 여부",
+      "value": 0.0,
+      "unit": null,
+      "period": "최근",
+      "snippet": "피에스케이 투자경고종목 해당 여부 값은 0입니다.",
+      "prompt_rationale": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "finance.safe_cl.004",
+      "text": "피에스케이 2025 기준 FCF 값은 43,197,623,309원입니다.",
+      "evidence_ids": [
+        "finance.ev.004"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.007",
+      "text": "피에스케이 2026 기준 연수익률 값은 186.63%입니다.",
+      "evidence_ids": [
+        "finance.ev.007"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.008",
+      "text": "피에스케이 2026 기준 연간 MDD 값은 -17.79%입니다.",
+      "evidence_ids": [
+        "finance.ev.008"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.009",
+      "text": "피에스케이 2026 기준 거래량 값은 472474주입니다.",
+      "evidence_ids": [
+        "finance.ev.009"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.010",
+      "text": "피에스케이 2026 기준 이동평균 대비 비율 값은 1.0102배입니다.",
+      "evidence_ids": [
+        "finance.ev.010"
+      ],
+      "audit_safe": true
+    }
+  ],
+  "warning_note": null,
+  "source_contexts": [
+    "financial_csv=피에스케이_재무.csv",
+    "stock_csv=피에스케이_주식.csv",
+    "warning_stock_csv=투자경고종목.csv",
+    "prompts.py summary/key_thesis/key_risks are preserved in the Chair View where available.",
+    "First Auditor claims are CSV-grounded one-to-one evidence claims for stable actual-information verification.",
+    "필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수"
+  ],
+  "raw_payload": {
+    "latest_financial_row": {
+      "year": 2025,
+      "sales": 457213151918.0,
+      "operating_income": 88494057075.0,
+      "net_income": 78545663379.0,
+      "total_assets": 645998217783.0,
+      "total_liabilities": 106961955599.0,
+      "total_equity": 539036262184.0,
+      "capex": 18533513572,
+      "ocf": 61731136881,
+      "fcf": 43197623309,
+      "interest": 16150015108.0,
+      "ROE": 14.571498967575664,
+      "영업이익률": 19.355098755092506,
+      "부채비율": 19.84318367852004,
+      "이자보상배율": 5.479503052053739
+    },
+    "latest_stock_metric": {
+      "year": 2026,
+      "annual_return_%": 186.63,
+      "annual_mdd_%": -17.79
+    },
+    "latest_yearly_summary": {
+      "year": 2026,
+      "close_start": 38900.0,
+      "close_end": 111500.0,
+      "close_high": 114200.0,
+      "close_low": 38900.0,
+      "volume_mean": 472474.0,
+      "volume_ma_ratio_mean": 1.0102
+    },
+    "latest_recent_stock_row": {
+      "Date": "2026-05-13",
+      "Open": 102300.0,
+      "High": 112300.0,
+      "Low": 99700.0,
+      "Close": 111500.0,
+      "Volume": 347262,
+      "Change": 0.0721153846153845,
+      "VKOSPI": NaN,
+      "일수익률_%": 7.21153846153845,
+      "누적최고가": 114200.0,
+      "드로다운_%": -2.364273204903677,
+      "거래량_20일평균": 368752.25,
+      "거래량_이동평균대비비율": 0.9417217115285398
+    },
+    "audit_policy": "prompts_py_used_for_interpretation_claims_grounded_by_local_csv"
+  },
+  "packet_version": "finance_prompts_grounded_v4_compact"
+}

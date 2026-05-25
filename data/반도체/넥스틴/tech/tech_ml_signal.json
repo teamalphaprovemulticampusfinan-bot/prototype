@@ -1,0 +1,189 @@
+{
+  "company_dir": "nextin",
+  "company": "넥스틴",
+  "created_at": "2026-05-20T22:10:39",
+  "input_patent_csv": "data\\반도체\\넥스틴\\tech\\source\\nextin_kipris_plus_bibliographic_raw.csv",
+  "model_info": {
+    "module": "Tech ML Signal Builder",
+    "algorithm": "TF-IDF + KMeans",
+    "sklearn_available": true,
+    "purpose": "KIPRIS patent portfolio clustering, patent momentum scoring, commercialization watch signal generation"
+  },
+  "tech_ml_label": "COMMERCIALIZATION_WATCH",
+  "tech_ml_label_description": "기술 포트폴리오는 확인되지만 사업화 연결 근거는 추가 확인이 필요한 사업화 추적형입니다.",
+  "patent_ml_score": 64.2,
+  "bridge_score": 0.0,
+  "bridge_label": "",
+  "normalized_patent_records": 30,
+  "company_matched_patents": 30,
+  "registered_patents": 22,
+  "alive_patents": 22,
+  "recent_5y_patents": 14,
+  "recent_5y_ratio": 0.4667,
+  "ipc_cpc_count": 14,
+  "ipc_cpc_examples": [
+    "G01M",
+    "G01N",
+    "G01R",
+    "G02B",
+    "G06T",
+    "G06V",
+    "G09G",
+    "H01J",
+    "H01L",
+    "H01T",
+    "H04N",
+    "H05F",
+    "H10K",
+    "H10P"
+  ],
+  "h01l_patents": 2,
+  "patent_year_range": "2013~2025",
+  "technology_keyword_hits": {
+    "반도체": 43,
+    "공정": 13,
+    "장비": 5,
+    "OLED": 6
+  },
+  "technology_keyword_hit_total": 67,
+  "clustering": {
+    "method": "tfidf_kmeans",
+    "sklearn_available": true,
+    "cluster_count": 3,
+    "clusters": [
+      {
+        "cluster_id": 1,
+        "size": 13,
+        "top_terms": [
+          "웨이퍼",
+          "영상을",
+          "영상",
+          "검사",
+          "패턴",
+          "기판",
+          "웨이퍼 영상",
+          "웨이퍼 영상을"
+        ],
+        "sample_titles": [
+          "이중 거울 방식을 이용한 웨이퍼 영상 검사 장치",
+          "다이 영상 분할 방법",
+          "웨이퍼 영상 검사 장치",
+          "웨이퍼 영상 검사 장치",
+          "다중 조명 장치를 이용한 웨이퍼 영상 검사 장치"
+        ]
+      },
+      {
+        "cluster_id": 0,
+        "size": 11,
+        "top_terms": [
+          "상기",
+          "제1",
+          "제2",
+          "단계 상기",
+          "트랩된",
+          "진공",
+          "챔버",
+          "반도체"
+        ],
+        "sample_titles": [
+          "기판에 트랩된 전하를 제거하는 방법 및 장치",
+          "기판에 트랩된 전하를 제거하는 장치 및 방법",
+          "반도체 웨이퍼의 임베디드 정전하 제거 시스템 및 이를 이용한 임베디드 정전하 제거 방법",
+          "기판 처리 장치 및 방법",
+          "오엘이디 패널용 기판 어레이 검사장치 및 검사방법"
+        ]
+      },
+      {
+        "cluster_id": 2,
+        "size": 6,
+        "top_terms": [
+          "결함",
+          "암시야",
+          "검사",
+          "g01n",
+          "관한",
+          "데이터",
+          "반도체의",
+          "암시야 검사"
+        ],
+        "sample_titles": [
+          "실시간 가변 기능을 갖는 암시야 검사 장치",
+          "반도체의 결함 검사를 위한 레시피 생성 방법",
+          "반도체의 결함 검사 방법.",
+          "웨이퍼 검사 광학계",
+          "유기발광다이오드 표시장치 검사방법 및 검사장치"
+        ]
+      }
+    ],
+    "technology_concentration_index": 0.3622,
+    "feature_count": 1500
+  },
+  "representative_patents": [
+    {
+      "title": "셀-대-셀 비교 방법",
+      "application_date": "20230927",
+      "register_date": "20240906",
+      "register_status": "등록",
+      "ipc": "H10P 74/00|G06V 10/75|G06T 7/00",
+      "applicant": ""
+    },
+    {
+      "title": "조명 장치 및 이를 포함하는 반도체 검사 장치",
+      "application_date": "20231101",
+      "register_date": "20250818",
+      "register_status": "등록",
+      "ipc": "G01N 21/88|G01N 21/95",
+      "applicant": ""
+    },
+    {
+      "title": "실시간 가변 기능을 갖는 암시야 검사 장치",
+      "application_date": "20221207",
+      "register_date": "20260326",
+      "register_status": "등록",
+      "ipc": "G01N 21/88",
+      "applicant": ""
+    },
+    {
+      "title": "반도체 기판의 정전기 제거 장치",
+      "application_date": "20210812",
+      "register_date": "20230203",
+      "register_status": "등록",
+      "ipc": "H01J 37/32|H05F 3/00|G02B 5/02|G02B 27/10|G02B 3/00",
+      "applicant": ""
+    },
+    {
+      "title": "반도체 소자의 결함 검사를 위한 미세 케어 영역의 분할 방법",
+      "application_date": "20210415",
+      "register_date": "20240213",
+      "register_status": "등록",
+      "ipc": "G06T 7/11|G06T 5/40",
+      "applicant": ""
+    }
+  ],
+  "commercialization_score": 80.0,
+  "commercialization_level": "STRONG",
+  "commercialization_keyword_hits": 359,
+  "commercialization_keywords": {
+    "고객": 33,
+    "채택": 6,
+    "양산": 27,
+    "공급": 1,
+    "매출": 18,
+    "실적": 1,
+    "FCF": 4,
+    "현금흐름": 1,
+    "revenue": 1
+  },
+  "chair_reflection_points": [
+    "Tech ML 판정은 COMMERCIALIZATION_WATCH이며, 기존 Tech-to-Value Bridge 판정과 함께 기술 섹션의 보조 신호로 사용합니다.",
+    "특허 클러스터링 결과는 핵심 기술 축과 기술 포트폴리오 집중도를 설명하는 근거로 반영합니다.",
+    "최근 5년 특허와 등록·존속 가능 특허는 기술 지속성 및 진입장벽의 보조 지표로 활용합니다.",
+    "고객 채택, 양산, 매출 전환, FCF 개선 근거가 약하면 기술 점수만으로 매수 의견을 강화하지 않습니다.",
+    "기술성은 확인되지만 사업화 연결 근거를 계속 확인해야 하므로 Chair는 관찰형 보조 신호로 반영해야 합니다."
+  ],
+  "notes": [
+    "Tech ML은 특허 텍스트, 초록, IPC/CPC, 등록상태, 최근 출원 흐름을 기반으로 기술 포트폴리오를 구조화합니다.",
+    "특허 수와 클러스터 수는 기술 지속성의 보조 근거이며, 단독으로 매출 성장이나 주가 상승을 의미하지 않습니다.",
+    "사업화 판단은 고객 채택, 양산, 매출 전환, FCF 개선 근거와 함께 해석해야 합니다."
+  ]
+}
