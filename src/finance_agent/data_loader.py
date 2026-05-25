@@ -1,4 +1,6 @@
-from datetime import timedelta
+from datetime import date, datetime, timedelta
+import os
+import re
 from pathlib import Path
 from typing import Any
 
@@ -35,6 +37,100 @@ COLUMN_ALIASES = {
     "보유주수": "foreign_holding_shares",
     "보유율_%": "foreign_holding_pct",
 }
+
+
+_AS_OF_ENV_KEYS = (
+    "FINANCE_AS_OF_DATE",
+    "FINANCE_END_DATE",
+    "ALPHAPROVE_DATA_CUTOFF_DATE",
+)
+
+
+def _strip_text(value: Any) -> str:
+    return str(value or "").strip().strip('"').strip("'")
+
+
+def _parse_date_like(value: Any) -> date | None:
+    if value is None:
+        return None
+    if isinstance(value, datetime):
+        return value.date()
+    if isinstance(value, date):
+        return value
+    text = _strip_text(value)
+    if not text:
+        return None
+    text = text.replace(".", "-").replace("/", "-")
+    if "T" in text:
+        text = text.split("T", 1)[0]
+    if " " in text:
+        text = text.split(" ", 1)[0]
+    if re.fullmatch(r"\d{8}", text):
+        try:
+            return date(int(text[:4]), int(text[4:6]), int(text[6:8]))
+        except Exception:
+            return None
+    if re.fullmatch(r"\d{6}", text):
+        try:
+            y, m = int(text[:4]), int(text[4:6])
+            if m == 12:
+                return date(y, 12, 31)
+            return date(y, m + 1, 1) - timedelta(days=1)
+        except Exception:
+            return None
+    if re.fullmatch(r"\d{4}", text):
+        return date(int(text), 12, 31)
+    if re.fullmatch(r"\d{4}-\d{1,2}", text):
+        y, m = map(int, text.split("-"))
+        if m == 12:
+            return date(y, 12, 31)
+        return date(y, m + 1, 1) - timedelta(days=1)
+    try:
+        return pd.to_datetime(text, errors="coerce").date()
+    except Exception:
+        return None
+
+
+def _resolve_finance_as_of_date() -> date | None:
+    for key in _AS_OF_ENV_KEYS:
+        parsed = _parse_date_like(os.getenv(key, ""))
+        if parsed:
+            return parsed
+    return None
+
+
+def _resolve_finance_year(default_year: int | None) -> int:
+    explicit = _strip_text(os.getenv("FINANCE_CUTOFF_YEAR", ""))
+    if explicit:
+        try:
+            return int(float(explicit))
+        except Exception:
+            pass
+    as_of = _resolve_finance_as_of_date()
+    if as_of:
+        return int(as_of.year)
+    return int(default_year if default_year is not None else 2024)
+
+
+def _resolve_finance_stock_start() -> pd.Timestamp:
+    start = (
+        os.getenv("FINANCE_STOCK_START_DATE")
+        or os.getenv("FINANCE_START_DATE")
+        or "2023-01-01"
+    )
+    parsed = pd.to_datetime(start, errors="coerce")
+    if pd.isna(parsed):
+        parsed = pd.to_datetime("2023-01-01")
+    return parsed
+
+
+def _resolve_finance_stock_cutoff_date() -> date | None:
+    explicit = os.getenv("FINANCE_STOCK_CUTOFF_DATE") or os.getenv("FINANCE_PRICE_CUTOFF_DATE")
+    parsed = _parse_date_like(explicit)
+    if parsed:
+        return parsed
+    return _resolve_finance_as_of_date()
+
 
 
 def _read_csv_any(path: str | Path) -> pd.DataFrame:
@@ -188,7 +284,9 @@ def _summarize_stock_by_year(df: pd.DataFrame) -> list[dict]:
 # 데이터 입력 기간 로직 추가
 # 기준 연도(year)까지만 재무 데이터 사용
 # 예: year=2024 -> 2024년 이하만 유지, 2025 이후 제거
-def load_finance_data(path: str, year: int = 2024) -> dict[str, Any]:
+def load_finance_data(path: str, year: int | None = 2024) -> dict[str, Any]:
+    cutoff_year = _resolve_finance_year(year)
+
     df = _read_csv_any(path)
     df = _ensure_finance_agent_columns(df, path)
 
@@ -204,10 +302,10 @@ def load_finance_data(path: str, year: int = 2024) -> dict[str, Any]:
     df["year"] = pd.to_numeric(df["year"], errors="coerce")
     df = df.dropna(subset=["year"]).copy()
     df["year"] = df["year"].astype(int)
-    df = df[df["year"] <= year]
+    df = df[df["year"] <= cutoff_year]
 
     if df.empty:
-        raise ValueError(f"finance csv has no usable rows up to {year}: {path}")
+        raise ValueError(f"finance csv has no usable rows up to {cutoff_year}: {path}")
 
     meta = {
         "company_name": str(df.iloc[0].get("company") or _infer_company_name_from_path(path)),
@@ -228,7 +326,7 @@ def load_finance_data(path: str, year: int = 2024) -> dict[str, Any]:
 # 예: year_month="2025-07"
 # -> 2025-06-30까지 유지
 # -> 2025-07-01 이후 데이터 제거
-def load_stock_data(path: str, year_month: str = "2025-06") -> dict[str, Any]:
+def load_stock_data(path: str, year_month: str | None = "2025-06") -> dict[str, Any]:
     df = _read_csv_any(path)
     df = _clean_columns(df)
 
@@ -240,15 +338,23 @@ def load_stock_data(path: str, year_month: str = "2025-06") -> dict[str, Any]:
 
     df["date"] = pd.to_datetime(df["date"], errors="coerce")
     df = df.dropna(subset=["date"])
-    df = df[df["date"] >= "2023-01-01"]
+    df = df[df["date"] >= _resolve_finance_stock_start()]
 
-    month_start = pd.to_datetime(f"{year_month}-01", format="%Y-%m-%d", errors="raise")
-    df = df[df["date"] < month_start]
+    cutoff_date = _resolve_finance_stock_cutoff_date()
+    if cutoff_date is not None:
+        df = df[df["date"] <= pd.Timestamp(cutoff_date)]
+        cutoff_label = cutoff_date.isoformat()
+    else:
+        if not year_month:
+            year_month = "2025-06"
+        month_start = pd.to_datetime(f"{year_month}-01", format="%Y-%m-%d", errors="raise")
+        df = df[df["date"] < month_start]
+        cutoff_label = str(year_month)
 
     df = df.sort_values("date")
 
     if df.empty:
-        raise ValueError(f"stock csv has no usable rows after 2023-01-01 before {year_month}: {path}")
+        raise ValueError(f"stock csv has no usable rows after {_resolve_finance_stock_start().date()} up to {cutoff_label}: {path}")
 
     annual_metrics = calculate_annual_stock_metrics(df)
     yearly_summary = _summarize_stock_by_year(df)

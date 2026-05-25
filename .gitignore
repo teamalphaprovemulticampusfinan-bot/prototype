@@ -32,15 +32,3 @@ service_account.json
 *.bak_*
 *.backup
 *.backup_*
-
-# local secrets / virtual env
-.env
-.venv/
-.cache/
-__pycache__/
-*.pyc
-.pytest_cache/
-data/agent_history.db
-data/agent_history.db-shm
-data/agent_history.db-wal
-secrets/

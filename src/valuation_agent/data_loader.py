@@ -463,10 +463,32 @@ def _month_start(year_month: str) -> date:
     return date(parsed.year, parsed.month, 1)
 
 
+def _resolve_valuation_year(default_year: int | None = None) -> int:
+    explicit = _strip_text(os.getenv("VALUATION_CUTOFF_YEAR", ""))
+    if explicit:
+        try:
+            return int(float(explicit))
+        except Exception:
+            pass
+    cutoff = _resolve_cutoff_date(None)
+    if cutoff:
+        return int(cutoff.year)
+    return int(default_year if default_year is not None else 2024)
+
+
+def _resolve_valuation_price_cutoff_date() -> date | None:
+    explicit = os.getenv("VALUATION_PRICE_CUTOFF_DATE") or os.getenv("VALUATION_STOCK_CUTOFF_DATE")
+    parsed = _parse_cutoff_date(explicit)
+    if parsed:
+        return parsed
+    return _resolve_cutoff_date(None)
+
+
 # 데이터 입력 기간 로직 추가
 # 기준 연도(year)까지만 valuation 재무 데이터를 사용
 # 예: year=2024 -> 2024년 이하만 유지, 2025 이후 제거
-def load_valuation_financials(path: str | Path, year: int = 2024) -> dict[str, Any]:
+def load_valuation_financials(path: str | Path, year: int | None = 2024) -> dict[str, Any]:
+    cutoff_year = _resolve_valuation_year(year)
     rows = read_csv(Path(path))
     if not rows:
         raise ValueError(f"valuation financial csv is empty: {path}")
@@ -478,19 +500,19 @@ def load_valuation_financials(path: str | Path, year: int = 2024) -> dict[str, A
     filtered: list[dict[str, Any]] = []
     for row in rows:
         row_year = _to_int_year(row.get(year_key))
-        if row_year is None or row_year > year:
+        if row_year is None or row_year > cutoff_year:
             continue
         item = dict(row)
         item[year_key] = int(row_year)
         filtered.append(item)
 
     if not filtered:
-        raise ValueError(f"valuation financial csv has no usable rows up to {year}: {path}")
+        raise ValueError(f"valuation financial csv has no usable rows up to {cutoff_year}: {path}")
 
     meta = {
         "company_name": str(filtered[0].get("company") or _infer_company_name_from_path(path)),
         "source_file": str(path),
-        "cutoff_year": int(year),
+        "cutoff_year": int(cutoff_year),
         "year_column": year_key,
     }
     return {
@@ -502,20 +524,31 @@ def load_valuation_financials(path: str | Path, year: int = 2024) -> dict[str, A
 # 데이터 입력 기간 로직 추가
 # 기준 월(year_month) 이전 valuation 가격 데이터만 사용
 # 예: year_month="2025-07" -> 2025-06-30까지 유지, 2025-07-01 이후 제거
-def load_valuation_price_data(path: str | Path, year_month: str = "2025-06") -> dict[str, Any]:
+def load_valuation_price_data(path: str | Path, year_month: str | None = "2025-06") -> dict[str, Any]:
     rows = _normalize_price_rows(read_csv(Path(path)))
     if not rows:
         raise ValueError(f"valuation price csv is empty: {path}")
 
-    month_start = _month_start(year_month)
+    cutoff_date = _resolve_valuation_price_cutoff_date()
     filtered: list[dict[str, Any]] = []
-    for row in rows:
-        row_date = _parse_row_date(row.get("date"))
-        if row_date is not None and row_date < month_start:
-            filtered.append(row)
+    if cutoff_date is not None:
+        for row in rows:
+            row_date = _parse_row_date(row.get("date"))
+            if row_date is not None and row_date <= cutoff_date:
+                filtered.append(row)
+        cutoff_label = cutoff_date.isoformat()
+    else:
+        if not year_month:
+            year_month = "2025-06"
+        month_start = _month_start(year_month)
+        for row in rows:
+            row_date = _parse_row_date(row.get("date"))
+            if row_date is not None and row_date < month_start:
+                filtered.append(row)
+        cutoff_label = str(year_month)
 
     if not filtered:
-        raise ValueError(f"valuation price csv has no usable rows before {year_month}: {path}")
+        raise ValueError(f"valuation price csv has no usable rows up to {cutoff_label}: {path}")
 
     latest_date = _parse_row_date(filtered[-1].get("date"))
     recent_start = latest_date - timedelta(days=30) if latest_date else None
@@ -530,6 +563,7 @@ def load_valuation_price_data(path: str | Path, year_month: str = "2025-06") -> 
         "market": str(filtered[0].get("market") or ""),
         "source_file": str(path),
         "cutoff_exclusive_month": year_month,
+        "cutoff_date_inclusive": cutoff_label,
     }
     return {
         "meta": meta,
