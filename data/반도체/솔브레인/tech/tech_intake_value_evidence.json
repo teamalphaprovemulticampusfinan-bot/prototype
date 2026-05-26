@@ -2,12 +2,12 @@
   "agent": "tech_intake",
   "artifact": "tech_intake_value_evidence_bridge",
   "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-  "created_at": "2026-05-20T22:15:43",
+  "created_at": "2026-05-26T07:10:48",
   "field": "반도체",
   "company": "솔브레인",
   "company_dir": "soulbrain",
   "company_slug": "soulbrain",
-  "source_document_count": 132,
+  "source_document_count": 155,
   "source_documents": [
     {
       "source_group": "TECH_OUTPUT",
@@ -401,6 +401,30 @@
     },
     {
       "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/솔브레인/tech/tech_history_features_2025-08-31.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/솔브레인/tech/tech_history_features_2025-08-31.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/솔브레인/tech/tech_history_features_2025-09-30.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/솔브레인/tech/tech_history_features_2025-09-30.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/솔브레인/tech/tech_intake_manifest.json",
       "detected_url_count": 0,
       "fallback_url_count": 2
@@ -654,6 +678,120 @@
     {
       "source_group": "VALUATION",
       "source_file": "data/반도체/솔브레인/valuation/soulbrain_valuation_workbook.xlsx",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/솔브레인/valuation/intake/company_profile.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/솔브레인/valuation/intake/cross_agent_signals_for_valuation.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/솔브레인/valuation/intake/dcf_inputs.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/솔브레인/valuation/intake/dilution_events.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/솔브레인/valuation/intake/eval_price_history.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/솔브레인/valuation/intake/eval_price_history_monthly.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/솔브레인/valuation/intake/eval_price_history_monthly_v43.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/솔브레인/valuation/intake/eval_price_history_monthly_v44.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/솔브레인/valuation/intake/eval_price_history_monthly_v45.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/솔브레인/valuation/intake/eval_price_history_v43.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/솔브레인/valuation/intake/eval_price_history_v44.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/솔브레인/valuation/intake/eval_price_history_v45.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/솔브레인/valuation/intake/financials_normalized.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/솔브레인/valuation/intake/financials_raw.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/솔브레인/valuation/intake/peer_multiples.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/솔브레인/valuation/intake/price_history.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/솔브레인/valuation/intake/relative_valuation_inputs.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/솔브레인/valuation/intake/shares_outstanding.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/솔브레인/valuation/intake/valuation_assumptions.csv",
       "detected_url_count": 0,
       "fallback_url_count": 5
     },
@@ -1327,6 +1465,41 @@
       "evidence": [
         {
           "source_group": "FINANCE",
+          "source_file": "data/반도체/솔브레인/finance/솔브레인_finance.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "매출"
+          ],
+          "snippet": "summary: 솔브레인은 2023년 매출이 큰 폭으로 감소했으나, 2024년에는 소폭 반등하며 회복세를 보이고 있습니다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=%EC%86%94%EB%B8%8C%EB%A0%88%EC%9D%B8+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/솔브레인/finance/솔브레인_finance.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "매출",
+            "성장"
+          ],
+          "snippet": "key_thesis: 2024년 매출성장률이 2.3%로 반등하며 이전의 역성장에서 벗어나는 모습을 보였습니다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=%EC%86%94%EB%B8%8C%EB%A0%88%EC%9D%B8+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
           "source_file": "data/반도체/솔브레인/finance/솔브레인_finance_agent_packet.json",
           "evidence_level": "DIRECT_EVIDENCE",
           "matched_keywords": [
@@ -1351,7 +1524,7 @@
             "매출",
             "성장"
           ],
-          "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수",
+          "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1368,7 +1541,24 @@
           "matched_keywords": [
             "sales"
           ],
-          "snippet": "sales: 923381966875.0",
+          "snippet": "sales: 863356156458.0",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=%EC%86%94%EB%B8%8C%EB%A0%88%EC%9D%B8+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/솔브레인/finance/솔브레인_finance_agent_packet.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "sales"
+          ],
+          "snippet": "sales_growth: 2.2898539254848416",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1385,7 +1575,7 @@
           "matched_keywords": [
             "sales"
           ],
-          "snippet": "year: 2023 | sales: 844029122465.0 | operating_income: 133488376256.0 | net_income: 130955384417.0 | total_assets: 995442871278.0 | total_liabilities: 76620708886.0 | total_equity: 918822162392.0 | capex: 129386933717 | ocf: 221045860074 | fcf: 91658926357 | interest: 3588248122.0 | ROE: 14.252527831509804 | 영업이익률: 15.815612601866762 | 부채비율: 8.339014014042803 | 이자보상배율: 37.20154563380553",
+          "snippet": "year: 2021 | sales: 1023913370455.0 | net_income: 152220791940.0 | total_assets: 829946537157.0 | total_liabilities: 177761363486.0 | total_equity: 652185173671.0 | current_assets: 438576236890.0 | current_liabilities: 173146367164.0 | capex: 62291035070 | ocf: 131901304526 | fcf: 69610269456 | interest_expense: 2846957002.0 | roe: 23.340118433417345 | current_ratio_%: 253.29797215704292 | debt_ratio: 27.256271786342",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1402,58 +1592,7 @@
           "matched_keywords": [
             "sales"
           ],
-          "snippet": "year: 2024 | sales: 863356156458.0 | operating_income: 167948756594.0 | net_income: 119611878137.0 | total_assets: 1168214133834.0 | total_liabilities: 130878284640.0 | total_equity: 1037335849194.0 | capex: 95501812163 | ocf: 262345359082 | fcf: 166843546919 | interest: 859836913.0 | ROE: 11.530680081088232 | 영업이익률: 19.453009669036888 | 부채비율: 12.616770618858991 | 이자보상배율: 195.32629275942705",
-          "urls": [],
-          "fallback_urls": [
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "https://comp.fnguide.com/",
-            "https://www.google.com/search?q=%EC%86%94%EB%B8%8C%EB%A0%88%EC%9D%B8+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-          ]
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/솔브레인/finance/솔브레인_재무.csv",
-          "evidence_level": "DIRECT_EVIDENCE",
-          "matched_keywords": [
-            "sales"
-          ],
-          "snippet": "year: 2025 | sales: 923381966875.0 | operating_income: 133642405522.0 | net_income: 83989215352.0 | total_assets: 1446750282671.0 | total_liabilities: 335174469307.0 | total_equity: 1111575813364.0 | capex: 120043803512 | ocf: 146921893948 | fcf: 26878090436 | interest: 14954156379.0 | ROE: 7.555869275152773 | 영업이익률: 14.473144410030637 | 부채비율: 30.153091249138463 | 이자보상배율: 8.936806740209896",
-          "urls": [],
-          "fallback_urls": [
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "https://comp.fnguide.com/",
-            "https://www.google.com/search?q=%EC%86%94%EB%B8%8C%EB%A0%88%EC%9D%B8+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-          ]
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/솔브레인/finance/솔브레인_재무데이터.csv",
-          "evidence_level": "DIRECT_EVIDENCE",
-          "matched_keywords": [
-            "sales"
-          ],
-          "snippet": "year: 2021 | sales: 1023913370455.0 | net_income: 152220791940.0 | total_assets: 829946537157.0 | total_liabilities: 177761363486.0 | total_equity: 652185173671.0 | capex: 62291035070 | ocf: 131901304526 | fcf: 69610269456 | interest: 2846957002.0 | ROE: 23.340118433417345 | 부채비율: 27.256271786342868",
-          "urls": [],
-          "fallback_urls": [
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "https://comp.fnguide.com/",
-            "https://www.google.com/search?q=%EC%86%94%EB%B8%8C%EB%A0%88%EC%9D%B8+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-          ]
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/솔브레인/finance/솔브레인_재무데이터.csv",
-          "evidence_level": "DIRECT_EVIDENCE",
-          "matched_keywords": [
-            "sales"
-          ],
-          "snippet": "year: 2022 | sales: 1090867446512.0 | net_income: 167672934020.0 | total_assets: 934907217558.0 | total_liabilities: 135667905528.0 | total_equity: 799239312030.0 | capex: 94883704796 | ocf: 190815190274 | fcf: 95931485478 | interest: 4435856829.0 | ROE: 20.979064905369206 | 부채비율: 16.974628685795626",
+          "snippet": "year: 2022 | sales: 1090867446512.0 | net_income: 167672934020.0 | total_assets: 934907217558.0 | total_liabilities: 135667905528.0 | total_equity: 799239312030.0 | current_assets: 458877300878.0 | current_liabilities: 127596015859.0 | capex: 94883704796 | ocf: 190815190274 | fcf: 95931485478 | interest_expense: 4435856829.0 | roe: 20.979064905369206 | current_ratio_%: 359.632938214217 | debt_ratio: 16.97462868579562",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1484,7 +1623,24 @@
           "matched_keywords": [
             "영업이익률"
           ],
-          "snippet": "summary: 솔브레인은 2023년 견조한 영업이익률과 ROE를 기록했으나, 2024년과 2025년에는 영업이익률이 상승하는 반면 ROE는 하락하는 추세를 보였다.",
+          "snippet": "영업이익률은 2023년 15.8%에서 2024년 19.5%로 개선되었으며, ROE는 2023년 14.3%에서 2024년 11.5%로 하락했습니다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=%EC%86%94%EB%B8%8C%EB%A0%88%EC%9D%B8+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/솔브레인/finance/솔브레인_finance.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "영업이익률"
+          ],
+          "snippet": "key_thesis: 2024년 영업이익률이 19.5%로 2023년 15.8% 대비 개선되었습니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1502,7 +1658,7 @@
             "현금흐름",
             "FCF"
           ],
-          "snippet": "2024년에는 잉여현금흐름(FCF)이 크게 증가했으나, 2025년에는 부채비율이 상승하고 이자보상배율이 하락하며 재무 건전성에 대한 우려가 제기된다.",
+          "snippet": "key_thesis: 2024년 자유현금흐름(FCF)이 1,668억 원으로 2023년 916억 원 대비 크게 증가했습니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1515,12 +1671,29 @@
         {
           "source_group": "FINANCE",
           "source_file": "data/반도체/솔브레인/finance/솔브레인_finance.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "수익성"
+          ],
+          "snippet": "key_risks: 2024년 ROE가 11.5%로 2023년 14.3% 대비 하락하여 자본 대비 수익성이 다소 둔화되었습니다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=%EC%86%94%EB%B8%8C%EB%A0%88%EC%9D%B8+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/솔브레인/finance/솔브레인_finance_agent_packet.json",
           "evidence_level": "DIRECT_EVIDENCE",
           "matched_keywords": [
             "영업이익률",
             "수익성"
           ],
-          "snippet": "key_thesis: 2023년 15.82%의 영업이익률과 14.25%의 ROE를 기록하며 양호한 수익성을 보였다.",
+          "snippet": "report_core_points: 영업이익률: 솔브레인 2024 기준 영업이익률 값은 19.45%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1532,32 +1705,12 @@
         },
         {
           "source_group": "FINANCE",
-          "source_file": "data/반도체/솔브레인/finance/솔브레인_finance.json",
+          "source_file": "data/반도체/솔브레인/finance/솔브레인_finance_agent_packet.json",
           "evidence_level": "DIRECT_EVIDENCE",
           "matched_keywords": [
-            "영업이익률",
-            "현금흐름",
-            "FCF"
+            "수익성"
           ],
-          "snippet": "key_thesis: 2024년 영업이익률은 19.45%로 상승했으며, 잉여현금흐름(FCF)은 1,668억 원으로 크게 증가했다.",
-          "urls": [],
-          "fallback_urls": [
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "https://comp.fnguide.com/",
-            "https://www.google.com/search?q=%EC%86%94%EB%B8%8C%EB%A0%88%EC%9D%B8+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-          ]
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/솔브레인/finance/솔브레인_finance.json",
-          "evidence_level": "DIRECT_EVIDENCE",
-          "matched_keywords": [
-            "현금흐름",
-            "FCF"
-          ],
-          "snippet": "key_risks: 2025년 잉여현금흐름(FCF)은 268억 원으로 크게 감소했으며, 이는 투자 및 운영 활동에 영향을 줄 수 있다.",
+          "snippet": "report_core_points: ROE: 솔브레인 2024 기준 ROE 값은 11.53%이며, 자기자본 대비 수익성 수준을 확인하는 지표입니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1574,7 +1727,7 @@
           "matched_keywords": [
             "FCF"
           ],
-          "snippet": "report_core_points: FCF: 솔브레인 2025 기준 FCF 값은 26,878,090,436원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+          "snippet": "report_core_points: FCF: 솔브레인 2024 기준 FCF 값은 166,843,546,919원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1591,24 +1744,7 @@
           "matched_keywords": [
             "영업이익률"
           ],
-          "snippet": "missing_prompt_metrics: 영업이익률",
-          "urls": [],
-          "fallback_urls": [
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "https://comp.fnguide.com/",
-            "https://www.google.com/search?q=%EC%86%94%EB%B8%8C%EB%A0%88%EC%9D%B8+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-          ]
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/솔브레인/finance/솔브레인_finance_agent_packet.json",
-          "evidence_level": "DIRECT_EVIDENCE",
-          "matched_keywords": [
-            "FCF"
-          ],
-          "snippet": "metric: fcf",
+          "snippet": "label: 영업이익률",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",

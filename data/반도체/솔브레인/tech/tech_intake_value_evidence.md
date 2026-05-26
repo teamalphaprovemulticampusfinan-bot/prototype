@@ -1,10 +1,10 @@
 # 솔브레인 Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-20T22:15:43
+- 생성 시각: 2026-05-26T07:10:48
 - 종합 점수: 78.95/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 132개
+- 원천 문서 수: 155개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -32,18 +32,18 @@
 - [DIRECT_EVIDENCE] - 기술 우위가 확인되어도 고객 채택·양산·매출 전환·FCF 직접 근거가 약하면 보수적으로 반영합니다. (source=data/반도체/솔브레인/tech/_nepes_reference_schema/nepes_tech_chair_summary.md, keywords=양산, urls=http://www.w3.org/2001/XMLSchema-instance, http://www.nepes.co.kr)
 
 ### 매출 전환
+- [DIRECT_EVIDENCE] summary: 솔브레인은 2023년 매출이 큰 폭으로 감소했으나, 2024년에는 소폭 반등하며 회복세를 보이고 있습니다. (source=data/반도체/솔브레인/finance/솔브레인_finance.json, keywords=매출, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 매출성장률이 2.3%로 반등하며 이전의 역성장에서 벗어나는 모습을 보였습니다. (source=data/반도체/솔브레인/finance/솔브레인_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] missing_prompt_metrics: 매출성장률 (source=data/반도체/솔브레인/finance/솔브레인_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수 (source=data/반도체/솔브레인/finance/솔브레인_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] sales: 923381966875.0 (source=data/반도체/솔브레인/finance/솔브레인_finance_agent_packet.json, keywords=sales, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] year: 2023 | sales: 844029122465.0 | operating_income: 133488376256.0 | net_income: 130955384417.0 | total_assets: 995442871278.0 | total_liabilities: 76620708886.0 | total_equity: 918822162392.0 | capex: 129386933717 | ocf: 221045860074 | fcf: 91658926357 | interest: 3588248122.0 | ROE: 14.252527831509804 | 영업이익률: 15.815612601866762 | 부채비율: 8.339014014042803 | 이자보상배율: 37.20154563380553 (source=data/반도체/솔브레인/finance/솔브레인_재무.csv, keywords=sales, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] year: 2024 | sales: 863356156458.0 | operating_income: 167948756594.0 | net_income: 119611878137.0 | total_assets: 1168214133834.0 | total_liabilities: 130878284640.0 | total_equity: 1037335849194.0 | capex: 95501812163 | ocf: 262345359082 | fcf: 166843546919 | interest: 859836913.0 | ROE: 11.530680081088232 | 영업이익률: 19.453009669036888 | 부채비율: 12.616770618858991 | 이자보상배율: 195.32629275942705 (source=data/반도체/솔브레인/finance/솔브레인_재무.csv, keywords=sales, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률 (source=data/반도체/솔브레인/finance/솔브레인_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] sales: 863356156458.0 (source=data/반도체/솔브레인/finance/솔브레인_finance_agent_packet.json, keywords=sales, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### 마진·원가·현금흐름 연결
-- [DIRECT_EVIDENCE] summary: 솔브레인은 2023년 견조한 영업이익률과 ROE를 기록했으나, 2024년과 2025년에는 영업이익률이 상승하는 반면 ROE는 하락하는 추세를 보였다. (source=data/반도체/솔브레인/finance/솔브레인_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] 2024년에는 잉여현금흐름(FCF)이 크게 증가했으나, 2025년에는 부채비율이 상승하고 이자보상배율이 하락하며 재무 건전성에 대한 우려가 제기된다. (source=data/반도체/솔브레인/finance/솔브레인_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2023년 15.82%의 영업이익률과 14.25%의 ROE를 기록하며 양호한 수익성을 보였다. (source=data/반도체/솔브레인/finance/솔브레인_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년 영업이익률은 19.45%로 상승했으며, 잉여현금흐름(FCF)은 1,668억 원으로 크게 증가했다. (source=data/반도체/솔브레인/finance/솔브레인_finance.json, keywords=영업이익률, 현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_risks: 2025년 잉여현금흐름(FCF)은 268억 원으로 크게 감소했으며, 이는 투자 및 운영 활동에 영향을 줄 수 있다. (source=data/반도체/솔브레인/finance/솔브레인_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] 영업이익률은 2023년 15.8%에서 2024년 19.5%로 개선되었으며, ROE는 2023년 14.3%에서 2024년 11.5%로 하락했습니다. (source=data/반도체/솔브레인/finance/솔브레인_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 영업이익률이 19.5%로 2023년 15.8% 대비 개선되었습니다. (source=data/반도체/솔브레인/finance/솔브레인_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 자유현금흐름(FCF)이 1,668억 원으로 2023년 916억 원 대비 크게 증가했습니다. (source=data/반도체/솔브레인/finance/솔브레인_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2024년 ROE가 11.5%로 2023년 14.3% 대비 하락하여 자본 대비 수익성이 다소 둔화되었습니다. (source=data/반도체/솔브레인/finance/솔브레인_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] report_core_points: 영업이익률: 솔브레인 2024 기준 영업이익률 값은 19.45%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다. (source=data/반도체/솔브레인/finance/솔브레인_finance_agent_packet.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### IP 품질
 - [DIRECT_EVIDENCE] legal_status: status=COLLECTED, count=None, score=0.2333, signal=None (source=data/반도체/솔브레인/tech/soulbrain_tech_ip_legal_features.json, keywords=legal_status, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)

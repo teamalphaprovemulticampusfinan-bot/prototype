@@ -284,6 +284,28 @@ def _read_company_row(
         row[f"{agent}_recommendation"] = rec
         row[f"{agent}_weight"] = round(weight, 6) if weight is not None else ""
 
+    if weighted_signal is None:
+        total = 0.0
+        used = 0
+        for agent in AGENTS:
+            signal = _as_number(row.get(f"{agent}_signal"))
+            weight = _as_number(row.get(f"{agent}_weight"))
+            if signal is None or weight is None:
+                continue
+            total += signal * weight
+            used += 1
+        if used:
+            weighted_signal = total
+            row["weighted_signal"] = round(weighted_signal, 6)
+            if not recommendation:
+                if weighted_signal > 0.15:
+                    recommendation = "매수"
+                elif weighted_signal < -0.15:
+                    recommendation = "매도"
+                else:
+                    recommendation = "보유"
+                row["recommendation"] = recommendation
+
     return {col: row.get(col, "") for col in OUTPUT_COLUMNS}
 
 

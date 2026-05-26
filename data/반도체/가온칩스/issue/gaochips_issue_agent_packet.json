@@ -5,10 +5,10 @@
   "company_dir": "gaochips",
   "opinion": "보유",
   "confidence": 0.5,
-  "summary": "가온칩스에 대해 검증 가능한 핵심 근거는 다음과 같습니다. news_count 값은 10count입니다. rss_count 값은 11count입니다. related_keyword_count 값은 0count입니다.",
+  "summary": "가온칩스에 대해 검증 가능한 핵심 근거는 다음과 같습니다. news_count 값은 10count입니다. rss_count 값은 10count입니다. related_keyword_count 값은 0count입니다.",
   "key_points": [
     "news_count 값은 10count입니다.",
-    "rss_count 값은 11count입니다.",
+    "rss_count 값은 10count입니다.",
     "related_keyword_count 값은 0count입니다."
   ],
   "risks": [],
@@ -23,7 +23,7 @@
     },
     {
       "claim_id": "issue.auto_cl.003",
-      "text": "rss_count 값은 11count입니다.",
+      "text": "rss_count 값은 10count입니다.",
       "evidence_ids": [
         "issue.ev.002"
       ],
@@ -54,10 +54,10 @@
       "source_type": "issue",
       "source": "issue_data_collection",
       "metric": "rss_count",
-      "value": 11,
+      "value": 10,
       "unit": "count",
       "period": null,
-      "snippet": "issue_data_collection | rss_count | 값: 11count"
+      "snippet": "issue_data_collection | rss_count | 값: 10count"
     },
     {
       "evidence_id": "issue.ev.003",
@@ -126,11 +126,31 @@
       "metric": "rss_title",
       "value": null,
       "unit": null,
+      "period": "Mon, 25 May 2026 17:49:46 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 25 May 2026 17:49:46 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.010",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 25 May 2026 17:37:42 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 25 May 2026 17:37:42 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.011",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
       "period": "Fri, 22 May 2026 07:01:23 +0000",
       "snippet": "Semiconductor Engineering | Fri, 22 May 2026 07:01:23 +0000 기준 rss_title | 값: 확인 불가"
     },
     {
-      "evidence_id": "issue.ev.010",
+      "evidence_id": "issue.ev.012",
       "source_type": "issue_rss",
       "source": "Semiconductor Engineering",
       "metric": "rss_title",
@@ -140,7 +160,7 @@
       "snippet": "Semiconductor Engineering | Thu, 21 May 2026 16:02:35 +0000 기준 rss_title | 값: 확인 불가"
     },
     {
-      "evidence_id": "issue.ev.011",
+      "evidence_id": "issue.ev.013",
       "source_type": "issue_rss",
       "source": "Semiconductor Engineering",
       "metric": "rss_title",
@@ -148,26 +168,6 @@
       "unit": null,
       "period": "Thu, 21 May 2026 07:07:38 +0000",
       "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:07:38 +0000 기준 rss_title | 값: 확인 불가"
-    },
-    {
-      "evidence_id": "issue.ev.012",
-      "source_type": "issue_rss",
-      "source": "Semiconductor Engineering",
-      "metric": "rss_title",
-      "value": null,
-      "unit": null,
-      "period": "Thu, 21 May 2026 07:05:20 +0000",
-      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:05:20 +0000 기준 rss_title | 값: 확인 불가"
-    },
-    {
-      "evidence_id": "issue.ev.013",
-      "source_type": "issue_rss",
-      "source": "Semiconductor Engineering",
-      "metric": "rss_title",
-      "value": null,
-      "unit": null,
-      "period": "Thu, 21 May 2026 07:04:25 +0000",
-      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:04:25 +0000 기준 rss_title | 값: 확인 불가"
     }
   ],
   "evidence": [
@@ -186,10 +186,10 @@
       "source_type": "issue",
       "source": "issue_data_collection",
       "metric": "rss_count",
-      "value": 11,
+      "value": 10,
       "unit": "count",
       "period": null,
-      "snippet": "issue_data_collection | rss_count | 값: 11count"
+      "snippet": "issue_data_collection | rss_count | 값: 10count"
     },
     {
       "evidence_id": "issue.ev.003",
@@ -258,11 +258,31 @@
       "metric": "rss_title",
       "value": null,
       "unit": null,
+      "period": "Mon, 25 May 2026 17:49:46 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 25 May 2026 17:49:46 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.010",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 25 May 2026 17:37:42 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 25 May 2026 17:37:42 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.011",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
       "period": "Fri, 22 May 2026 07:01:23 +0000",
       "snippet": "Semiconductor Engineering | Fri, 22 May 2026 07:01:23 +0000 기준 rss_title | 값: 확인 불가"
     },
     {
-      "evidence_id": "issue.ev.010",
+      "evidence_id": "issue.ev.012",
       "source_type": "issue_rss",
       "source": "Semiconductor Engineering",
       "metric": "rss_title",
@@ -272,7 +292,7 @@
       "snippet": "Semiconductor Engineering | Thu, 21 May 2026 16:02:35 +0000 기준 rss_title | 값: 확인 불가"
     },
     {
-      "evidence_id": "issue.ev.011",
+      "evidence_id": "issue.ev.013",
       "source_type": "issue_rss",
       "source": "Semiconductor Engineering",
       "metric": "rss_title",
@@ -280,35 +300,15 @@
       "unit": null,
       "period": "Thu, 21 May 2026 07:07:38 +0000",
       "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:07:38 +0000 기준 rss_title | 값: 확인 불가"
-    },
-    {
-      "evidence_id": "issue.ev.012",
-      "source_type": "issue_rss",
-      "source": "Semiconductor Engineering",
-      "metric": "rss_title",
-      "value": null,
-      "unit": null,
-      "period": "Thu, 21 May 2026 07:05:20 +0000",
-      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:05:20 +0000 기준 rss_title | 값: 확인 불가"
-    },
-    {
-      "evidence_id": "issue.ev.013",
-      "source_type": "issue_rss",
-      "source": "Semiconductor Engineering",
-      "metric": "rss_title",
-      "value": null,
-      "unit": null,
-      "period": "Thu, 21 May 2026 07:04:25 +0000",
-      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:04:25 +0000 기준 rss_title | 값: 확인 불가"
     }
   ],
   "fallback_used": false,
   "warning_note": "검증 불가 claim 6개를 제거한 뒤 grounding 기준을 재검증했습니다.",
   "raw_payload": {
-    "analysis_text": "opinion: 보유\nconfidence: 0.65\n\n**1. 핵심 이슈 요약**\n\n가온칩스는 시스템반도체 전문 디자인하우스로서 주문형반도체(ASIC) 설계부터 시스템온칩(SoC), AI, 자동차 분야에 집중하고 있습니다. 최근 HBM(고대역폭메모리) 관련주들의 강세 속에서 가온칩스 역시 일부 뉴스에서 수혜 가능성이 언급되었으나, 동시에 디자인 하우스 및 클린룸 설비 부문의 수익성 우려로 인해 주가 하락세를 기록하는 등 긍정적 요인과 부정적 요인이 혼재된 상황입니다.\n\n**2. 기업에 미치는 영향**\n\n가온칩스는 시스템반도체 설계 전문 기업으로서, AI 및 자동차 시장의 성장에 따른 반도체 수요 증가의 수혜를 기대할 수 있습니다. 특히 HBM 관련 시장의 확대는 고성능 반도체 설계 수요 증가로 이어질 수 있으며, 이는 가온칩스의 사업 영역과 부합합니다. 그러나 디자인 하우스 및 클린룸 설비 부문의 수익성 우려는 단기적인 실적 및 주가에 부담으로 작용할 수 있습니다.\n\n**3. 긍정 시그널**\n\n*   **AI 및 고성능 반도체 시장 성장:** 엔비디아의 사상 최대 실적 발표와 HBM 관련주들의 강세는 AI 및 고성능 반도체 시장의 폭발적인 성장을 시사합니다. 가온칩스는 시스템반도체 전문 디자인하우스로서 이러한 시장 성장의 수혜를 받을 잠재력이 있습니다.\n*   **주요 사업 영역과의 연관성:** 가온칩스는 ASIC 설계부터 SoC, AI, 자동차 분야에 집중하고 있으며, 이는 현재 반도체 시장의 주요 성장 동력과 직접적으로 연결됩니다.\n\n**4. 부정 시그널/리스크**\n\n*   **디자인 하우스 및 클린룸 설비 수익성 우려:** 일부 뉴스에서 가온칩스가 디자인 하우스 및 클린룸 설비 부문의 수익성 우려로 인해 하락세를 기록하고 있다는 점이 언급되었습니다. 이는 단기적인 실적에 부정적인 영향을 미칠 수 있는 요인입니다.\n*   **주가 변동성:** 최근 증시 혼란 속에서 외국인 투자자들이 반도체 주식을 매도하는 흐름이 나타났으며, 가온칩스 역시 하락세를 보인 종목 중 하나로 언급되었습니다. 이는 시장 전반의 투자 심리 위축과 맞물려 주가 변동성을 높이는 요인이 될 수 있습니다.\n*   **공개된 근거의 한계:** 제공된 뉴스 및 RSS 문맥만으로는 가온칩스의 구체적인 수주 현황, 파이프라인, 수익성 개선 계획 등에 대한 상세한 정보를 파악하기 어렵습니다. 따라서 현재의 긍정적 또는 부정적 전망은 제한적인 정보에 기반하고 있습니다.\n\n**5. 향후 체크포인트**\n\n*   **수익성 개선 노력 및 구체적인 성과:** 디자인 하우스 및 클린룸 설비 부문의 수익성 우려를 해소하기 위한 가온칩스의 구체적인 노력과 그 성과를 주시해야 합니다.\n*   **AI 및 자동차향 ASIC/SoC 수주 현황:** AI 및 자동차 시장의 성장에 따른 가온칩스의 신규 수주 현황과 프로젝트 진행 상황을 파악하는 것이 중요합니다.\n*   **경쟁 환경 및 기술력:** 시스템반도체 디자인 하우스 시장의 경쟁 심화 속에서 가온칩스의 기술 경쟁력 및 차별화 전략을 확인할 필요가 있습니다.\n*   **거시 경제 및 반도체 업황:** 글로벌 거시 경제 상황 및 반도체 업황 전반의 흐름이 가온칩스의 실적 및 주가에 미치는 영향을 지속적으로 모니터링해야 합니다.",
-    "markdown_report": "# 가온칩스 이슈 리포트\n\n## 분석 결과\nopinion: 보유\nconfidence: 0.65\n\n**1. 핵심 이슈 요약**\n\n가온칩스는 시스템반도체 전문 디자인하우스로서 주문형반도체(ASIC) 설계부터 시스템온칩(SoC), AI, 자동차 분야에 집중하고 있습니다. 최근 HBM(고대역폭메모리) 관련주들의 강세 속에서 가온칩스 역시 일부 뉴스에서 수혜 가능성이 언급되었으나, 동시에 디자인 하우스 및 클린룸 설비 부문의 수익성 우려로 인해 주가 하락세를 기록하는 등 긍정적 요인과 부정적 요인이 혼재된 상황입니다.\n\n**2. 기업에 미치는 영향**\n\n가온칩스는 시스템반도체 설계 전문 기업으로서, AI 및 자동차 시장의 성장에 따른 반도체 수요 증가의 수혜를 기대할 수 있습니다. 특히 HBM 관련 시장의 확대는 고성능 반도체 설계 수요 증가로 이어질 수 있으며, 이는 가온칩스의 사업 영역과 부합합니다. 그러나 디자인 하우스 및 클린룸 설비 부문의 수익성 우려는 단기적인 실적 및 주가에 부담으로 작용할 수 있습니다.\n\n**3. 긍정 시그널**\n\n*   **AI 및 고성능 반도체 시장 성장:** 엔비디아의 사상 최대 실적 발표와 HBM 관련주들의 강세는 AI 및 고성능 반도체 시장의 폭발적인 성장을 시사합니다. 가온칩스는 시스템반도체 전문 디자인하우스로서 이러한 시장 성장의 수혜를 받을 잠재력이 있습니다.\n*   **주요 사업 영역과의 연관성:** 가온칩스는 ASIC 설계부터 SoC, AI, 자동차 분야에 집중하고 있으며, 이는 현재 반도체 시장의 주요 성장 동력과 직접적으로 연결됩니다.\n\n**4. 부정 시그널/리스크**\n\n*   **디자인 하우스 및 클린룸 설비 수익성 우려:** 일부 뉴스에서 가온칩스가 디자인 하우스 및 클린룸 설비 부문의 수익성 우려로 인해 하락세를 기록하고 있다는 점이 언급되었습니다. 이는 단기적인 실적에 부정적인 영향을 미칠 수 있는 요인입니다.\n*   **주가 변동성:** 최근 증시 혼란 속에서 외국인 투자자들이 반도체 주식을 매도하는 흐름이 나타났으며, 가온칩스 역시 하락세를 보인 종목 중 하나로 언급되었습니다. 이는 시장 전반의 투자 심리 위축과 맞물려 주가 변동성을 높이는 요인이 될 수 있습니다.\n*   **공개된 근거의 한계:** 제공된 뉴스 및 RSS 문맥만으로는 가온칩스의 구체적인 수주 현황, 파이프라인, 수익성 개선 계획 등에 대한 상세한 정보를 파악하기 어렵습니다. 따라서 현재의 긍정적 또는 부정적 전망은 제한적인 정보에 기반하고 있습니다.\n\n**5. 향후 체크포인트**\n\n*   **수익성 개선 노력 및 구체적인 성과:** 디자인 하우스 및 클린룸 설비 부문의 수익성 우려를 해소하기 위한 가온칩스의 구체적인 노력과 그 성과를 주시해야 합니다.\n*   **AI 및 자동차향 ASIC/SoC 수주 현황:** AI 및 자동차 시장의 성장에 따른 가온칩스의 신규 수주 현황과 프로젝트 진행 상황을 파악하는 것이 중요합니다.\n*   **경쟁 환경 및 기술력:** 시스템반도체 디자인 하우스 시장의 경쟁 심화 속에서 가온칩스의 기술 경쟁력 및 차별화 전략을 확인할 필요가 있습니다.\n*   **거시 경제 및 반도체 업황:** 글로벌 거시 경제 상황 및 반도체 업황 전반의 흐름이 가온칩스의 실적 및 주가에 미치는 영향을 지속적으로 모니터링해야 합니다.\n",
+    "analysis_text": "opinion: 보유\nconfidence: 0.65\n\n1.  **핵심 이슈 요약**\n    가온칩스는 시스템반도체 전문 디자인하우스로서 주문형반도체(ASIC) 설계부터 시스템온칩(SoC), AI, 자동차 분야를 아우르는 사업을 영위하고 있습니다. 최근 HBM(고대역폭메모리) 관련주들의 동반 상승 흐름 속에서 가온칩스 역시 언급되고 있으나, 동시에 디자인 하우스 및 클린룸 설비 부문의 수익성 우려로 인한 하락세를 기록하는 등 상반된 흐름을 보이고 있습니다. 이는 반도체 업황 전반의 변동성과 투자 심리에 영향을 받는 것으로 판단됩니다.\n\n2.  **기업에 미치는 영향**\n    가온칩스는 시스템반도체 설계 분야에서 AI, 자동차 등 성장성이 높은 시장을 타겟으로 하고 있습니다. HBM 시장 확대는 고성능 반도체 수요 증가로 이어져 가온칩스의 설계 수요에도 긍정적인 영향을 줄 수 있습니다. 그러나 디자인 하우스 부문의 수익성 우려와 전반적인 반도체 업종의 투자 심리 위축은 단기적으로 주가에 부담으로 작용할 수 있습니다.\n\n3.  **긍정 시그널**\n    *   **HBM 시장 성장 수혜 가능성:** HBM 관련주들의 전반적인 상승세 속에서 가온칩스가 언급되는 것은 고성능 반도체 수요 증가에 따른 수혜 기대감을 반영합니다.\n    *   **AI 및 자동차 시장 성장:** 가온칩스가 영위하는 AI 및 자동차 분야는 장기적인 성장성이 높은 시장으로, 관련 반도체 설계 수요 증가는 긍정적 요인입니다.\n\n4.  **부정 시그널/리스크**\n    *   **디자인 하우스 수익성 우려:** 뉴스에서 디자인 하우스 및 클린룸 설비 부문의 수익성 우려로 인해 하락세를 기록 중이라는 언급이 있습니다. 이는 가온칩스의 수익성에 직접적인 영향을 미칠 수 있는 요인입니다.\n    *   **반도체 업종 전반의 변동성:** 설비 투자 축소 우려, 지정학적 긴장감 등 외부 요인으로 인해 반도체 업종 전반의 매도세가 거세고 투자 심리가 위축되는 경향이 나타나고 있습니다. 이는 가온칩스 주가에도 부정적인 영향을 미칠 수 있습니다.\n    *   **주가 하락 흐름:** 일부 뉴스에서 가온칩스가 하락 흐름을 보이고 있다는 점이 명시되어 있습니다.\n\n5.  **향후 체크포인트**\n    *   디자인 하우스 부문의 수익성 개선 여부 및 구체적인 사업 전략.\n    *   AI 및 자동차 관련 반도체 설계 수주 현황 및 실적 기여도.\n    *   HBM 시장 확대가 가온칩스의 설계 사업에 미치는 실질적인 영향.\n    *   반도체 업종 전반의 투자 심리 회복 및 업황 개선 여부.",
+    "markdown_report": "# 가온칩스 이슈 리포트\n\n## 분석 결과\nopinion: 보유\nconfidence: 0.65\n\n1.  **핵심 이슈 요약**\n    가온칩스는 시스템반도체 전문 디자인하우스로서 주문형반도체(ASIC) 설계부터 시스템온칩(SoC), AI, 자동차 분야를 아우르는 사업을 영위하고 있습니다. 최근 HBM(고대역폭메모리) 관련주들의 동반 상승 흐름 속에서 가온칩스 역시 언급되고 있으나, 동시에 디자인 하우스 및 클린룸 설비 부문의 수익성 우려로 인한 하락세를 기록하는 등 상반된 흐름을 보이고 있습니다. 이는 반도체 업황 전반의 변동성과 투자 심리에 영향을 받는 것으로 판단됩니다.\n\n2.  **기업에 미치는 영향**\n    가온칩스는 시스템반도체 설계 분야에서 AI, 자동차 등 성장성이 높은 시장을 타겟으로 하고 있습니다. HBM 시장 확대는 고성능 반도체 수요 증가로 이어져 가온칩스의 설계 수요에도 긍정적인 영향을 줄 수 있습니다. 그러나 디자인 하우스 부문의 수익성 우려와 전반적인 반도체 업종의 투자 심리 위축은 단기적으로 주가에 부담으로 작용할 수 있습니다.\n\n3.  **긍정 시그널**\n    *   **HBM 시장 성장 수혜 가능성:** HBM 관련주들의 전반적인 상승세 속에서 가온칩스가 언급되는 것은 고성능 반도체 수요 증가에 따른 수혜 기대감을 반영합니다.\n    *   **AI 및 자동차 시장 성장:** 가온칩스가 영위하는 AI 및 자동차 분야는 장기적인 성장성이 높은 시장으로, 관련 반도체 설계 수요 증가는 긍정적 요인입니다.\n\n4.  **부정 시그널/리스크**\n    *   **디자인 하우스 수익성 우려:** 뉴스에서 디자인 하우스 및 클린룸 설비 부문의 수익성 우려로 인해 하락세를 기록 중이라는 언급이 있습니다. 이는 가온칩스의 수익성에 직접적인 영향을 미칠 수 있는 요인입니다.\n    *   **반도체 업종 전반의 변동성:** 설비 투자 축소 우려, 지정학적 긴장감 등 외부 요인으로 인해 반도체 업종 전반의 매도세가 거세고 투자 심리가 위축되는 경향이 나타나고 있습니다. 이는 가온칩스 주가에도 부정적인 영향을 미칠 수 있습니다.\n    *   **주가 하락 흐름:** 일부 뉴스에서 가온칩스가 하락 흐름을 보이고 있다는 점이 명시되어 있습니다.\n\n5.  **향후 체크포인트**\n    *   디자인 하우스 부문의 수익성 개선 여부 및 구체적인 사업 전략.\n    *   AI 및 자동차 관련 반도체 설계 수주 현황 및 실적 기여도.\n    *   HBM 시장 확대가 가온칩스의 설계 사업에 미치는 실질적인 영향.\n    *   반도체 업종 전반의 투자 심리 회복 및 업황 개선 여부.\n",
     "news_count": 10,
-    "rss_count": 11,
+    "rss_count": 10,
     "related_keyword_count": 0,
     "df_news_rows": 139,
     "llm_error": null,
@@ -317,7 +317,7 @@
       "가온칩스 관련 공개 뉴스 제목: HBM 본더의 강자 한미반도체, AI 반도체 생태계의 판을 바꾼다",
       "가온칩스 관련 공개 뉴스 제목: HBM(고대역폭메모리) 관련주, '봄꽃만개' 한화비전·고영·국전약품·테...",
       "가온칩스 관련 공개 뉴스 제목: 자동차 센서가 끌고 반도체가 밀고… 오디텍, 수직계열화로 시장 장악",
-      "가온칩스 이슈 분석에서 수집된 RSS 항목 수는 11건입니다.",
+      "가온칩스 이슈 분석에서 수집된 RSS 항목 수는 10건입니다.",
       "가온칩스 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
       "가온칩스 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다."
     ],
@@ -336,7 +336,7 @@
     "supported_claims": [],
     "unsupported_claims": [
       "가온칩스 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
-      "가온칩스 이슈 분석에서 수집된 RSS 항목 수는 11건입니다.",
+      "가온칩스 이슈 분석에서 수집된 RSS 항목 수는 10건입니다.",
       "가온칩스 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다.",
       "가온칩스 관련 공개 뉴스 제목: HBM 본더의 강자 한미반도체, AI 반도체 생태계의 판을 바꾼다",
       "가온칩스 관련 공개 뉴스 제목: 자동차 센서가 끌고 반도체가 밀고… 오디텍, 수직계열화로 시장 장악",
@@ -368,7 +368,7 @@
       },
       {
         "claim_id": "issue.cl.002",
-        "text": "가온칩스 이슈 분석에서 수집된 RSS 항목 수는 11건입니다.",
+        "text": "가온칩스 이슈 분석에서 수집된 RSS 항목 수는 10건입니다.",
         "evidence_ids": [
           "issue.ev.002"
         ],
@@ -452,7 +452,7 @@
     "unsupported_count": 0,
     "supported_claims": [
       "news_count 값은 10count입니다.",
-      "rss_count 값은 11count입니다.",
+      "rss_count 값은 10count입니다.",
       "related_keyword_count 값은 0count입니다."
     ],
     "unsupported_claims": [],
@@ -475,7 +475,7 @@
       },
       {
         "claim_id": "issue.auto_cl.003",
-        "text": "rss_count 값은 11count입니다.",
+        "text": "rss_count 값은 10count입니다.",
         "evidence_ids": [
           "issue.ev.002"
         ],
@@ -514,7 +514,7 @@
     "unsupported_count": 0,
     "supported_claims": [
       "news_count 값은 10count입니다.",
-      "rss_count 값은 11count입니다.",
+      "rss_count 값은 10count입니다.",
       "related_keyword_count 값은 0count입니다."
     ],
     "unsupported_claims": [],
@@ -537,7 +537,7 @@
       },
       {
         "claim_id": "issue.auto_cl.003",
-        "text": "rss_count 값은 11count입니다.",
+        "text": "rss_count 값은 10count입니다.",
         "evidence_ids": [
           "issue.ev.002"
         ],

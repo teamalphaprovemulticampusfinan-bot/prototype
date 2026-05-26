@@ -1,0 +1,570 @@
+{
+  "agent": "issue",
+  "company_name": "동진쎄미켐",
+  "company": "동진쎄미켐",
+  "company_dir": "dongjin_semichem",
+  "opinion": "보유",
+  "confidence": 0.5,
+  "summary": "동진쎄미켐에 대해 검증 가능한 핵심 근거는 다음과 같습니다. news_count 값은 10count입니다. rss_count 값은 10count입니다. related_keyword_count 값은 0count입니다.",
+  "key_points": [
+    "news_count 값은 10count입니다.",
+    "rss_count 값은 10count입니다.",
+    "related_keyword_count 값은 0count입니다."
+  ],
+  "risks": [],
+  "claims": [
+    {
+      "claim_id": "issue.auto_cl.001",
+      "text": "news_count 값은 10count입니다.",
+      "evidence_ids": [
+        "issue.ev.001"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "issue.auto_cl.003",
+      "text": "rss_count 값은 10count입니다.",
+      "evidence_ids": [
+        "issue.ev.002"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "issue.auto_cl.005",
+      "text": "related_keyword_count 값은 0count입니다.",
+      "evidence_ids": [
+        "issue.ev.003"
+      ],
+      "claim_type": "point"
+    }
+  ],
+  "evidences": [
+    {
+      "evidence_id": "issue.ev.001",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "news_count",
+      "value": 10,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | news_count | 값: 10count"
+    },
+    {
+      "evidence_id": "issue.ev.002",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "rss_count",
+      "value": 10,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | rss_count | 값: 10count"
+    },
+    {
+      "evidence_id": "issue.ev.003",
+      "source_type": "issue",
+      "source": "issue_keywords_workbook",
+      "metric": "related_keyword_count",
+      "value": 0,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_keywords_workbook | related_keyword_count | 값: 0count"
+    },
+    {
+      "evidence_id": "issue.ev.004",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Fri, 01 May 2026 13:58:00 +0900",
+      "snippet": "Naver News | Fri, 01 May 2026 13:58:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.005",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Fri, 01 May 2026 13:56:00 +0900",
+      "snippet": "Naver News | Fri, 01 May 2026 13:56:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.006",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 28 Apr 2026 15:34:00 +0900",
+      "snippet": "Naver News | Tue, 28 Apr 2026 15:34:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.007",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Wed, 22 Apr 2026 18:22:00 +0900",
+      "snippet": "Naver News | Wed, 22 Apr 2026 18:22:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.008",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "배",
+      "period": "Wed, 22 Apr 2026 15:56:00 +0900",
+      "snippet": "Naver News | Wed, 22 Apr 2026 15:56:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.009",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Fri, 22 May 2026 07:01:23 +0000",
+      "snippet": "Semiconductor Engineering | Fri, 22 May 2026 07:01:23 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.010",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 21 May 2026 16:02:35 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 16:02:35 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.011",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 21 May 2026 07:07:38 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:07:38 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.012",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 21 May 2026 07:05:20 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:05:20 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.013",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 21 May 2026 07:04:25 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:04:25 +0000 기준 rss_title | 값: 확인 불가"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "issue.ev.001",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "news_count",
+      "value": 10,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | news_count | 값: 10count"
+    },
+    {
+      "evidence_id": "issue.ev.002",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "rss_count",
+      "value": 10,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | rss_count | 값: 10count"
+    },
+    {
+      "evidence_id": "issue.ev.003",
+      "source_type": "issue",
+      "source": "issue_keywords_workbook",
+      "metric": "related_keyword_count",
+      "value": 0,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_keywords_workbook | related_keyword_count | 값: 0count"
+    },
+    {
+      "evidence_id": "issue.ev.004",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Fri, 01 May 2026 13:58:00 +0900",
+      "snippet": "Naver News | Fri, 01 May 2026 13:58:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.005",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Fri, 01 May 2026 13:56:00 +0900",
+      "snippet": "Naver News | Fri, 01 May 2026 13:56:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.006",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 28 Apr 2026 15:34:00 +0900",
+      "snippet": "Naver News | Tue, 28 Apr 2026 15:34:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.007",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Wed, 22 Apr 2026 18:22:00 +0900",
+      "snippet": "Naver News | Wed, 22 Apr 2026 18:22:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.008",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "배",
+      "period": "Wed, 22 Apr 2026 15:56:00 +0900",
+      "snippet": "Naver News | Wed, 22 Apr 2026 15:56:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.009",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Fri, 22 May 2026 07:01:23 +0000",
+      "snippet": "Semiconductor Engineering | Fri, 22 May 2026 07:01:23 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.010",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 21 May 2026 16:02:35 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 16:02:35 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.011",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 21 May 2026 07:07:38 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:07:38 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.012",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 21 May 2026 07:05:20 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:05:20 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.013",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 21 May 2026 07:04:25 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:04:25 +0000 기준 rss_title | 값: 확인 불가"
+    }
+  ],
+  "fallback_used": false,
+  "warning_note": "검증 불가 claim 6개를 제거한 뒤 grounding 기준을 재검증했습니다.",
+  "raw_payload": {
+    "analysis_text": "opinion: 보유\nconfidence: 0.65\n\n1.  **핵심 이슈 요약**\n    동진쎄미켐은 EUV(극자외선) 공정 확대에 따른 소재 수요 증가 기대감으로 주가가 상승하는 모습을 보였으나, 최근 일부 반도체 관련 종목과 함께 차익 실현 매물 출회, 감광액 및 소재 시장 경쟁 심화 우려, 전방 고객사 재고 조정 여파 등으로 인해 투자 심리가 혼재된 상황이다.\n\n2.  **기업에 미치는 영향**\n    EUV 공정 확대는 동진쎄미켐의 핵심 사업인 감광액 소재 수요 증가로 이어져 실적 개선에 긍정적인 영향을 줄 수 있다. 그러나 경쟁 심화 및 고객사 재고 조정은 단기적인 매출 및 수익성에 부담으로 작용할 수 있다.\n\n3.  **긍정 시그널**\n    *   **EUV 공정 확대 및 소재 수요 증가 기대:** EUV 공정 확대는 동진쎄미켐의 주력 제품인 감광액 소재에 대한 수요 증가를 견인할 것으로 기대된다. 이는 기업의 성장 동력으로 작용할 수 있다. (근거: 뉴스 - \"OCI, '기초·카본 케미컬' 투트랙 전략으로 시장 지배력 강화 주목\", 뉴스 - \"삼성전자·SK하이닉스 오르니 ‘소부장’도 주목, 메모리 슈퍼 사이클에...\")\n    *   **빅테크 투자 확대:** 빅테크 기업들의 투자 확대는 반도체 산업 전반의 성장을 촉진하며, 이는 소재·부품 기업들의 실적 가시성을 높이는 요인으로 작용한다. (근거: 뉴스 - \"OCI, '기초·카본 케미컬' 투트랙 전략으로 시장 지배력 강화 주목\")\n\n4.  **부정 시그널/리스크**\n    *   **차익 실현 매물 출회:** 최근 주가 상승 이후 일부 투자자들의 차익 실현 매물이 출회되면서 주가에 하방 압력으로 작용하고 있다. (근거: 뉴스 - \"[주간 코스닥 외국인] 파두 로보티즈 비츠로셀 담고 에이비엘바이오 제...\", 뉴스 - \"[주간 코스닥 기관] 리노공업·ISC 등 반도체 장비 매수 확대…무슨 이...\")\n    *   **경쟁 심화 및 고객사 재고 조정:** 감광액 및 소재 시장의 경쟁 심화 우려와 전방 고객사의 재고 조정 여파로 인해 일시적인 약세를 보이고 있다. (근거: 뉴스 - \"자동차 센서가 끌고 반도체가 밀고… 오디텍, 수직계열화로 시장 장악\", 뉴스 - \"후성, 40년 불소화학 외길…삼성·SK가 앞다퉈 찾는 '특수가스' 강자\")\n    *   **투자 심리 혼재:** 업황 및 개별 실적 기대치에 따라 투자 심리가 엇갈리는 모습을 보이고 있으며, 일부 종목에서는 매도 물량이 출회되고 있다. (근거: 뉴스 - \"[주간 코스닥 기관] 리노공업·ISC 등 반도체 장비 매수 확대…무슨 이...\", 뉴스 - \"\"HBM 시대 핵심은 패키징\"…피에스케이홀딩스, 장비 시장 '태풍의 눈'\")\n\n5.  **향후 체크포인트**\n    *   EUV 공정 관련 신규 수주 및 고객사 확대 여부\n    *   경쟁사 대비 기술력 및 가격 경쟁력 유지 여부\n    *   전방 고객사의 재고 수준 변화 및 수요 회복 시점\n    *   반도체 산업 전반의 투자 심리 변화 및 거시 경제 환경",
+    "markdown_report": "# 동진쎄미켐 이슈 리포트\n\n## 분석 결과\nopinion: 보유\nconfidence: 0.65\n\n1.  **핵심 이슈 요약**\n    동진쎄미켐은 EUV(극자외선) 공정 확대에 따른 소재 수요 증가 기대감으로 주가가 상승하는 모습을 보였으나, 최근 일부 반도체 관련 종목과 함께 차익 실현 매물 출회, 감광액 및 소재 시장 경쟁 심화 우려, 전방 고객사 재고 조정 여파 등으로 인해 투자 심리가 혼재된 상황이다.\n\n2.  **기업에 미치는 영향**\n    EUV 공정 확대는 동진쎄미켐의 핵심 사업인 감광액 소재 수요 증가로 이어져 실적 개선에 긍정적인 영향을 줄 수 있다. 그러나 경쟁 심화 및 고객사 재고 조정은 단기적인 매출 및 수익성에 부담으로 작용할 수 있다.\n\n3.  **긍정 시그널**\n    *   **EUV 공정 확대 및 소재 수요 증가 기대:** EUV 공정 확대는 동진쎄미켐의 주력 제품인 감광액 소재에 대한 수요 증가를 견인할 것으로 기대된다. 이는 기업의 성장 동력으로 작용할 수 있다. (근거: 뉴스 - \"OCI, '기초·카본 케미컬' 투트랙 전략으로 시장 지배력 강화 주목\", 뉴스 - \"삼성전자·SK하이닉스 오르니 ‘소부장’도 주목, 메모리 슈퍼 사이클에...\")\n    *   **빅테크 투자 확대:** 빅테크 기업들의 투자 확대는 반도체 산업 전반의 성장을 촉진하며, 이는 소재·부품 기업들의 실적 가시성을 높이는 요인으로 작용한다. (근거: 뉴스 - \"OCI, '기초·카본 케미컬' 투트랙 전략으로 시장 지배력 강화 주목\")\n\n4.  **부정 시그널/리스크**\n    *   **차익 실현 매물 출회:** 최근 주가 상승 이후 일부 투자자들의 차익 실현 매물이 출회되면서 주가에 하방 압력으로 작용하고 있다. (근거: 뉴스 - \"[주간 코스닥 외국인] 파두 로보티즈 비츠로셀 담고 에이비엘바이오 제...\", 뉴스 - \"[주간 코스닥 기관] 리노공업·ISC 등 반도체 장비 매수 확대…무슨 이...\")\n    *   **경쟁 심화 및 고객사 재고 조정:** 감광액 및 소재 시장의 경쟁 심화 우려와 전방 고객사의 재고 조정 여파로 인해 일시적인 약세를 보이고 있다. (근거: 뉴스 - \"자동차 센서가 끌고 반도체가 밀고… 오디텍, 수직계열화로 시장 장악\", 뉴스 - \"후성, 40년 불소화학 외길…삼성·SK가 앞다퉈 찾는 '특수가스' 강자\")\n    *   **투자 심리 혼재:** 업황 및 개별 실적 기대치에 따라 투자 심리가 엇갈리는 모습을 보이고 있으며, 일부 종목에서는 매도 물량이 출회되고 있다. (근거: 뉴스 - \"[주간 코스닥 기관] 리노공업·ISC 등 반도체 장비 매수 확대…무슨 이...\", 뉴스 - \"\"HBM 시대 핵심은 패키징\"…피에스케이홀딩스, 장비 시장 '태풍의 눈'\")\n\n5.  **향후 체크포인트**\n    *   EUV 공정 관련 신규 수주 및 고객사 확대 여부\n    *   경쟁사 대비 기술력 및 가격 경쟁력 유지 여부\n    *   전방 고객사의 재고 수준 변화 및 수요 회복 시점\n    *   반도체 산업 전반의 투자 심리 변화 및 거시 경제 환경\n",
+    "news_count": 10,
+    "rss_count": 10,
+    "related_keyword_count": 0,
+    "df_news_rows": 139,
+    "llm_error": null,
+    "graph_claims_original": [],
+    "removed_ungrounded_claims": [
+      "동진쎄미켐 관련 공개 뉴스 제목: \"HBM 시대 핵심은 패키징\"…피에스케이홀딩스, 장비 시장 '태풍의 눈'",
+      "동진쎄미켐 관련 공개 뉴스 제목: [주간 코스닥 기관] 리노공업·ISC 등 반도체 장비 매수 확대…무슨 이...",
+      "동진쎄미켐 관련 공개 뉴스 제목: [주간 코스닥 외국인] 파두 로보티즈 비츠로셀 담고 에이비엘바이오 제...",
+      "동진쎄미켐 이슈 분석에서 수집된 RSS 항목 수는 10건입니다.",
+      "동진쎄미켐 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+      "동진쎄미켐 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다."
+    ],
+    "removed_bad_evidence_ids": [
+      "issue.ev.unverified"
+    ]
+  },
+  "packet_version": "grounded_agent_v3",
+  "pre_sanitize_grounding_check": {
+    "score": 0.0,
+    "pass": false,
+    "pass_threshold": 0.75,
+    "claim_count": 6,
+    "supported_count": 0,
+    "unsupported_count": 6,
+    "supported_claims": [],
+    "unsupported_claims": [
+      "동진쎄미켐 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+      "동진쎄미켐 이슈 분석에서 수집된 RSS 항목 수는 10건입니다.",
+      "동진쎄미켐 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다.",
+      "동진쎄미켐 관련 공개 뉴스 제목: [주간 코스닥 외국인] 파두 로보티즈 비츠로셀 담고 에이비엘바이오 제...",
+      "동진쎄미켐 관련 공개 뉴스 제목: [주간 코스닥 기관] 리노공업·ISC 등 반도체 장비 매수 확대…무슨 이...",
+      "동진쎄미켐 관련 공개 뉴스 제목: \"HBM 시대 핵심은 패키징\"…피에스케이홀딩스, 장비 시장 '태풍의 눈'"
+    ],
+    "issues": [
+      "issue.cl.001: evidence와 claim 연결이 약합니다.",
+      "issue.cl.002: evidence와 claim 연결이 약합니다.",
+      "issue.cl.003: evidence와 claim 연결이 약합니다.",
+      "issue.cl.004: evidence와 claim 연결이 약합니다.",
+      "issue.cl.005: evidence와 claim 연결이 약합니다.",
+      "issue.cl.006: evidence와 claim 연결이 약합니다."
+    ],
+    "claim_results": [
+      {
+        "claim_id": "issue.cl.001",
+        "text": "동진쎄미켐 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.002",
+        "text": "동진쎄미켐 이슈 분석에서 수집된 RSS 항목 수는 10건입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.003",
+        "text": "동진쎄미켐 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.004",
+        "text": "동진쎄미켐 관련 공개 뉴스 제목: [주간 코스닥 외국인] 파두 로보티즈 비츠로셀 담고 에이비엘바이오 제...",
+        "evidence_ids": [
+          "issue.ev.004"
+        ],
+        "supported": false,
+        "score": 0.55,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.005",
+        "text": "동진쎄미켐 관련 공개 뉴스 제목: [주간 코스닥 기관] 리노공업·ISC 등 반도체 장비 매수 확대…무슨 이...",
+        "evidence_ids": [
+          "issue.ev.005"
+        ],
+        "supported": false,
+        "score": 0.55,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.006",
+        "text": "동진쎄미켐 관련 공개 뉴스 제목: \"HBM 시대 핵심은 패키징\"…피에스케이홀딩스, 장비 시장 '태풍의 눈'",
+        "evidence_ids": [
+          "issue.ev.006"
+        ],
+        "supported": false,
+        "score": 0.55,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      }
+    ]
+  },
+  "post_atomic_grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 3,
+    "supported_count": 3,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "news_count 값은 10count입니다.",
+      "rss_count 값은 10count입니다.",
+      "related_keyword_count 값은 0count입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "issue.auto_cl.001",
+        "text": "news_count 값은 10count입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.003",
+        "text": "rss_count 값은 10count입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.005",
+        "text": "related_keyword_count 값은 0count입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  },
+  "grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 3,
+    "supported_count": 3,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "news_count 값은 10count입니다.",
+      "rss_count 값은 10count입니다.",
+      "related_keyword_count 값은 0count입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "issue.auto_cl.001",
+        "text": "news_count 값은 10count입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.003",
+        "text": "rss_count 값은 10count입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.005",
+        "text": "related_keyword_count 값은 0count입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1043 @@
+{
+  "template_path": "workspace\\templates\\tech_template.xlsx",
+  "base_template_path": "workspace\\templates\\tech_template_base.xlsx",
+  "mode": "framework_only_no_company_example_values",
+  "sections": [
+    {
+      "category": "대표 기술",
+      "axis": "기술성",
+      "major_source": "사업 보고서, 기업 홈페이지, 특허 사이트",
+      "middle_source": "사업보고서: 사업의 내용 → 주요 제품 및 서비스 / 연구개발활동 / 생산공정·기술설명 / 원재료 및 전구체 설명 / 신규사업 내용 기업 홈페이지: 기술소개 / 제품기술 페이지 / 소재·공정 설명 페이지 / Application(적용 분야) 페이지 / R&D센터 소개 특허 사이트: 대표 등록특허 초록 / 청구항 / IPC·CPC 분류 / 특허 패밀리 / 피인용 특허",
+      "quantifiable": "기술 키워드 등장 빈도, 적용 제품/공정 수, 수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등 : 따로 추출?)",
+      "items": [
+        {
+          "category": "대표 기술",
+          "item_name": "핵심 기술 키워드",
+          "axis": "기술성",
+          "major_source": "사업 보고서, 기업 홈페이지, 특허 사이트",
+          "middle_source": "사업보고서: 사업의 내용 → 주요 제품 및 서비스 / 연구개발활동 / 생산공정·기술설명 / 원재료 및 전구체 설명 / 신규사업 내용 기업 홈페이지: 기술소개 / 제품기술 페이지 / 소재·공정 설명 페이지 / Application(적용 분야) 페이지 / R&D센터 소개 특허 사이트: 대표 등록특허 초록 / 청구항 / IPC·CPC 분류 / 특허 패밀리 / 피인용 특허",
+          "quantifiable": "기술 키워드 등장 빈도, 적용 제품/공정 수, 수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등 : 따로 추출?)",
+          "formula_rules": [
+            {
+              "category": "대표 기술",
+              "metric_name": "기술 키워드 등장 빈도",
+              "formula": "사업보고서 내 키워드 등장 횟수 + 홈페이지 내 키워드 등장 횟수 + 특허 초록/청구항 내 키워드 등장 횟수",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "대표 기술",
+              "metric_name": "적용 제품/공정 수",
+              "formula": "중출처에서 확인된 적용 제품 목록 ∪ 적용 공정 목록의 고유 개수",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "대표 기술",
+              "metric_name": "수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등)",
+              "formula": "",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            }
+          ]
+        },
+        {
+          "category": "대표 기술",
+          "item_name": "적용 방식",
+          "axis": "기술성",
+          "major_source": "사업 보고서, 기업 홈페이지, 특허 사이트",
+          "middle_source": "사업보고서: 사업의 내용 → 주요 제품 및 서비스 / 연구개발활동 / 생산공정·기술설명 / 원재료 및 전구체 설명 / 신규사업 내용 기업 홈페이지: 기술소개 / 제품기술 페이지 / 소재·공정 설명 페이지 / Application(적용 분야) 페이지 / R&D센터 소개 특허 사이트: 대표 등록특허 초록 / 청구항 / IPC·CPC 분류 / 특허 패밀리 / 피인용 특허",
+          "quantifiable": "기술 키워드 등장 빈도, 적용 제품/공정 수, 수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등 : 따로 추출?)",
+          "formula_rules": [
+            {
+              "category": "대표 기술",
+              "metric_name": "기술 키워드 등장 빈도",
+              "formula": "사업보고서 내 키워드 등장 횟수 + 홈페이지 내 키워드 등장 횟수 + 특허 초록/청구항 내 키워드 등장 횟수",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "대표 기술",
+              "metric_name": "적용 제품/공정 수",
+              "formula": "중출처에서 확인된 적용 제품 목록 ∪ 적용 공정 목록의 고유 개수",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "대표 기술",
+              "metric_name": "수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등)",
+              "formula": "",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            }
+          ]
+        },
+        {
+          "category": "대표 기술",
+          "item_name": "핵심 성능 요소",
+          "axis": "기술성",
+          "major_source": "사업 보고서, 기업 홈페이지, 특허 사이트",
+          "middle_source": "사업보고서: 사업의 내용 → 주요 제품 및 서비스 / 연구개발활동 / 생산공정·기술설명 / 원재료 및 전구체 설명 / 신규사업 내용 기업 홈페이지: 기술소개 / 제품기술 페이지 / 소재·공정 설명 페이지 / Application(적용 분야) 페이지 / R&D센터 소개 특허 사이트: 대표 등록특허 초록 / 청구항 / IPC·CPC 분류 / 특허 패밀리 / 피인용 특허",
+          "quantifiable": "기술 키워드 등장 빈도, 적용 제품/공정 수, 수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등 : 따로 추출?)",
+          "formula_rules": [
+            {
+              "category": "대표 기술",
+              "metric_name": "기술 키워드 등장 빈도",
+              "formula": "사업보고서 내 키워드 등장 횟수 + 홈페이지 내 키워드 등장 횟수 + 특허 초록/청구항 내 키워드 등장 횟수",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "대표 기술",
+              "metric_name": "적용 제품/공정 수",
+              "formula": "중출처에서 확인된 적용 제품 목록 ∪ 적용 공정 목록의 고유 개수",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "대표 기술",
+              "metric_name": "수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등)",
+              "formula": "",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "핵심 제품/서비스",
+      "axis": "수익성 기여",
+      "major_source": "사업 보고서 - 매출 구성 홈페이지 매출구성 IR 발표자료",
+      "middle_source": "사업보고서: 사업부문별 매출 / 제품별 매출 / 주요 제품 매출 비중 / 수출 비중 / 사업부별 실적 홈페이지: 제품 포트폴리오 / 제품 카테고리 / 베스트셀러·주력제품 / 응용처별 제품 분류 IR: Company Overview / Product Portfolio / Revenue Breakdown / Business Segment / 성장동력 슬라이드",
+      "quantifiable": "매출 비중 %, 전년 성장률 %, 제품 수, 고객 산업 수",
+      "items": [
+        {
+          "category": "핵심 제품/서비스",
+          "item_name": "제품명/서비스명",
+          "axis": "수익성 기여",
+          "major_source": "사업 보고서 - 매출 구성 홈페이지 매출구성 IR 발표자료",
+          "middle_source": "사업보고서: 사업부문별 매출 / 제품별 매출 / 주요 제품 매출 비중 / 수출 비중 / 사업부별 실적 홈페이지: 제품 포트폴리오 / 제품 카테고리 / 베스트셀러·주력제품 / 응용처별 제품 분류 IR: Company Overview / Product Portfolio / Revenue Breakdown / Business Segment / 성장동력 슬라이드",
+          "quantifiable": "매출 비중 %, 전년 성장률 %, 제품 수, 고객 산업 수",
+          "formula_rules": [
+            {
+              "category": "핵심 제품/서비스",
+              "metric_name": "매출 비중 %",
+              "formula": "해당 제품/사업부 매출 ÷ 총매출 × 100",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "핵심 제품/서비스",
+              "metric_name": "전년 성장률 %",
+              "formula": "(당기 매출 - 전기 매출) ÷ 전기 매출 × 100",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "핵심 제품/서비스",
+              "metric_name": "제품 수",
+              "formula": "",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "핵심 제품/서비스",
+              "metric_name": "고객 산업 수",
+              "formula": "사업보고서 제품 목록 ∪ 홈페이지 제품 포트폴리오 ∪ IR 제품 포트폴리오의 고유 개수",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            }
+          ]
+        },
+        {
+          "category": "핵심 제품/서비스",
+          "item_name": "적용 기술",
+          "axis": "수익성 기여",
+          "major_source": "사업 보고서 - 매출 구성 홈페이지 매출구성 IR 발표자료",
+          "middle_source": "사업보고서: 사업부문별 매출 / 제품별 매출 / 주요 제품 매출 비중 / 수출 비중 / 사업부별 실적 홈페이지: 제품 포트폴리오 / 제품 카테고리 / 베스트셀러·주력제품 / 응용처별 제품 분류 IR: Company Overview / Product Portfolio / Revenue Breakdown / Business Segment / 성장동력 슬라이드",
+          "quantifiable": "매출 비중 %, 전년 성장률 %, 제품 수, 고객 산업 수",
+          "formula_rules": [
+            {
+              "category": "핵심 제품/서비스",
+              "metric_name": "매출 비중 %",
+              "formula": "해당 제품/사업부 매출 ÷ 총매출 × 100",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "핵심 제품/서비스",
+              "metric_name": "전년 성장률 %",
+              "formula": "(당기 매출 - 전기 매출) ÷ 전기 매출 × 100",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "핵심 제품/서비스",
+              "metric_name": "제품 수",
+              "formula": "",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "핵심 제품/서비스",
+              "metric_name": "고객 산업 수",
+              "formula": "사업보고서 제품 목록 ∪ 홈페이지 제품 포트폴리오 ∪ IR 제품 포트폴리오의 고유 개수",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            }
+          ]
+        },
+        {
+          "category": "핵심 제품/서비스",
+          "item_name": "주요 고객군",
+          "axis": "수익성 기여",
+          "major_source": "사업 보고서 - 매출 구성 홈페이지 매출구성 IR 발표자료",
+          "middle_source": "사업보고서: 사업부문별 매출 / 제품별 매출 / 주요 제품 매출 비중 / 수출 비중 / 사업부별 실적 홈페이지: 제품 포트폴리오 / 제품 카테고리 / 베스트셀러·주력제품 / 응용처별 제품 분류 IR: Company Overview / Product Portfolio / Revenue Breakdown / Business Segment / 성장동력 슬라이드",
+          "quantifiable": "매출 비중 %, 전년 성장률 %, 제품 수, 고객 산업 수",
+          "formula_rules": [
+            {
+              "category": "핵심 제품/서비스",
+              "metric_name": "매출 비중 %",
+              "formula": "해당 제품/사업부 매출 ÷ 총매출 × 100",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "핵심 제품/서비스",
+              "metric_name": "전년 성장률 %",
+              "formula": "(당기 매출 - 전기 매출) ÷ 전기 매출 × 100",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "핵심 제품/서비스",
+              "metric_name": "제품 수",
+              "formula": "",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "핵심 제품/서비스",
+              "metric_name": "고객 산업 수",
+              "formula": "사업보고서 제품 목록 ∪ 홈페이지 제품 포트폴리오 ∪ IR 제품 포트폴리오의 고유 개수",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "고객 구매 이유",
+      "axis": "고객 채택도",
+      "major_source": "1) IR 2) 제품 홍보 자료 3) 인터뷰 기사",
+      "middle_source": "IR: Investment Highlights / 제품 경쟁력 / 고객사 채택 배경 / 고객 효익 설명 슬라이드 / 양산 적용 사례 제품 홍보 자료: 제품 브로슈어 / 기술소개서 / 데이터시트 / Application Note / 비교표 / FAQ 인터뷰 기사: 고객이 선택한 이유 / 채택 배경 / 기존 대안 대비 개선점 / 산업 현장 적용 사례 / 신규 수요처 언급",
+      "quantifiable": "성능 개선율 %, 원가 절감률 %, 처리속도, 불량률 감소, 수명 증가, 고객사 수",
+      "items": [
+        {
+          "category": "고객 구매 이유",
+          "item_name": "고객 효익",
+          "axis": "고객 채택도",
+          "major_source": "1) IR 2) 제품 홍보 자료 3) 인터뷰 기사",
+          "middle_source": "IR: Investment Highlights / 제품 경쟁력 / 고객사 채택 배경 / 고객 효익 설명 슬라이드 / 양산 적용 사례 제품 홍보 자료: 제품 브로슈어 / 기술소개서 / 데이터시트 / Application Note / 비교표 / FAQ 인터뷰 기사: 고객이 선택한 이유 / 채택 배경 / 기존 대안 대비 개선점 / 산업 현장 적용 사례 / 신규 수요처 언급",
+          "quantifiable": "성능 개선율 %, 원가 절감률 %, 처리속도, 불량률 감소, 수명 증가, 고객사 수",
+          "formula_rules": [
+            {
+              "category": "고객 구매 이유",
+              "metric_name": "성능 개선율 %",
+              "formula": "(개선 후 성능 - 기존 성능) ÷ 기존 성능 × 100",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "고객 구매 이유",
+              "metric_name": "원가 절감율 %",
+              "formula": "(기존 원가 - 적용 후 원가) ÷ 기존 원가 × 100",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "고객 구매 이유",
+              "metric_name": "처리속도",
+              "formula": "",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "고객 구매 이유",
+              "metric_name": "불량률 감소 %",
+              "formula": "(기존 불량률 - 적용 후 불량률) ÷ 기존 불량률 × 100",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "고객 구매 이유",
+              "metric_name": "수명 증가 %",
+              "formula": "(적용 후 수명 - 기존 수명) ÷ 기존 수명 × 100",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "고객 구매 이유",
+              "metric_name": "고객사 수",
+              "formula": "IR 적용 사례 ∪ 홍보자료 레퍼런스 ∪ 인터뷰/기사 내 언급 고객사의 고유 개수",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            }
+          ]
+        },
+        {
+          "category": "고객 구매 이유",
+          "item_name": "경쟁 제품 대비 장점",
+          "axis": "고객 채택도",
+          "major_source": "1) IR 2) 제품 홍보 자료 3) 인터뷰 기사",
+          "middle_source": "IR: Investment Highlights / 제품 경쟁력 / 고객사 채택 배경 / 고객 효익 설명 슬라이드 / 양산 적용 사례 제품 홍보 자료: 제품 브로슈어 / 기술소개서 / 데이터시트 / Application Note / 비교표 / FAQ 인터뷰 기사: 고객이 선택한 이유 / 채택 배경 / 기존 대안 대비 개선점 / 산업 현장 적용 사례 / 신규 수요처 언급",
+          "quantifiable": "성능 개선율 %, 원가 절감률 %, 처리속도, 불량률 감소, 수명 증가, 고객사 수",
+          "formula_rules": [
+            {
+              "category": "고객 구매 이유",
+              "metric_name": "성능 개선율 %",
+              "formula": "(개선 후 성능 - 기존 성능) ÷ 기존 성능 × 100",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "고객 구매 이유",
+              "metric_name": "원가 절감율 %",
+              "formula": "(기존 원가 - 적용 후 원가) ÷ 기존 원가 × 100",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "고객 구매 이유",
+              "metric_name": "처리속도",
+              "formula": "",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "고객 구매 이유",
+              "metric_name": "불량률 감소 %",
+              "formula": "(기존 불량률 - 적용 후 불량률) ÷ 기존 불량률 × 100",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "고객 구매 이유",
+              "metric_name": "수명 증가 %",
+              "formula": "(적용 후 수명 - 기존 수명) ÷ 기존 수명 × 100",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "고객 구매 이유",
+              "metric_name": "고객사 수",
+              "formula": "IR 적용 사례 ∪ 홍보자료 레퍼런스 ∪ 인터뷰/기사 내 언급 고객사의 고유 개수",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            }
+          ]
+        },
+        {
+          "category": "고객 구매 이유",
+          "item_name": "실제 적용 사례",
+          "axis": "고객 채택도",
+          "major_source": "1) IR 2) 제품 홍보 자료 3) 인터뷰 기사",
+          "middle_source": "IR: Investment Highlights / 제품 경쟁력 / 고객사 채택 배경 / 고객 효익 설명 슬라이드 / 양산 적용 사례 제품 홍보 자료: 제품 브로슈어 / 기술소개서 / 데이터시트 / Application Note / 비교표 / FAQ 인터뷰 기사: 고객이 선택한 이유 / 채택 배경 / 기존 대안 대비 개선점 / 산업 현장 적용 사례 / 신규 수요처 언급",
+          "quantifiable": "성능 개선율 %, 원가 절감률 %, 처리속도, 불량률 감소, 수명 증가, 고객사 수",
+          "formula_rules": [
+            {
+              "category": "고객 구매 이유",
+              "metric_name": "성능 개선율 %",
+              "formula": "(개선 후 성능 - 기존 성능) ÷ 기존 성능 × 100",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "고객 구매 이유",
+              "metric_name": "원가 절감율 %",
+              "formula": "(기존 원가 - 적용 후 원가) ÷ 기존 원가 × 100",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "고객 구매 이유",
+              "metric_name": "처리속도",
+              "formula": "",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "고객 구매 이유",
+              "metric_name": "불량률 감소 %",
+              "formula": "(기존 불량률 - 적용 후 불량률) ÷ 기존 불량률 × 100",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "고객 구매 이유",
+              "metric_name": "수명 증가 %",
+              "formula": "(적용 후 수명 - 기존 수명) ÷ 기존 수명 × 100",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "고객 구매 이유",
+              "metric_name": "고객사 수",
+              "formula": "IR 적용 사례 ∪ 홍보자료 레퍼런스 ∪ 인터뷰/기사 내 언급 고객사의 고유 개수",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "경쟁 우위/대체가능성",
+      "axis": "진입장벽",
+      "major_source": "사업보고서 / 특허 / 기사",
+      "middle_source": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+      "quantifiable": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+      "items": [
+        {
+          "category": "경쟁 우위/대체가능성",
+          "item_name": "등록 특허",
+          "axis": "진입장벽",
+          "major_source": "사업보고서 / 특허 / 기사",
+          "middle_source": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+          "quantifiable": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+          "formula_rules": [
+            {
+              "category": "경쟁 우위 요소/대체가능성",
+              "metric_name": "등록 특허 수",
+              "formula": "특허 검색 결과 중 상태가 등록인 특허의 개수",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "경쟁 우위 요소/대체가능성",
+              "metric_name": "인증 수",
+              "formula": "중출처에서 확인된 인증 종류의 고유 개수",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "경쟁 우위 요소/대체가능성",
+              "metric_name": "주요 고객 승인 수",
+              "formula": "기사·IR·규제자료에서 확인된 승인 완료 고객/라인의 고유 개수",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "경쟁 우위 요소/대체가능성",
+              "metric_name": "고객 전환 기간",
+              "formula": "고객 최초 접촉일(또는 샘플 공급일) ~ 고객 승인일 사이 기간",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "경쟁 우위 요소/대체가능성",
+              "metric_name": "레퍼런스 건수",
+              "formula": "적용 사례 / 공급 사례 / 고객 채택 사례의 고유 개수",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            }
+          ]
+        },
+        {
+          "category": "경쟁 우위/대체가능성",
+          "item_name": "제조 노하우",
+          "axis": "진입장벽",
+          "major_source": "사업보고서 / 특허 / 기사",
+          "middle_source": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+          "quantifiable": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+          "formula_rules": [
+            {
+              "category": "경쟁 우위 요소/대체가능성",
+              "metric_name": "등록 특허 수",
+              "formula": "특허 검색 결과 중 상태가 등록인 특허의 개수",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "경쟁 우위 요소/대체가능성",
+              "metric_name": "인증 수",
+              "formula": "중출처에서 확인된 인증 종류의 고유 개수",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "경쟁 우위 요소/대체가능성",
+              "metric_name": "주요 고객 승인 수",
+              "formula": "기사·IR·규제자료에서 확인된 승인 완료 고객/라인의 고유 개수",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "경쟁 우위 요소/대체가능성",
+              "metric_name": "고객 전환 기간",
+              "formula": "고객 최초 접촉일(또는 샘플 공급일) ~ 고객 승인일 사이 기간",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "경쟁 우위 요소/대체가능성",
+              "metric_name": "레퍼런스 건수",
+              "formula": "적용 사례 / 공급 사례 / 고객 채택 사례의 고유 개수",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            }
+          ]
+        },
+        {
+          "category": "경쟁 우위/대체가능성",
+          "item_name": "고객사 레퍼런스",
+          "axis": "진입장벽",
+          "major_source": "사업보고서 / 특허 / 기사",
+          "middle_source": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+          "quantifiable": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+          "formula_rules": [
+            {
+              "category": "경쟁 우위 요소/대체가능성",
+              "metric_name": "등록 특허 수",
+              "formula": "특허 검색 결과 중 상태가 등록인 특허의 개수",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "경쟁 우위 요소/대체가능성",
+              "metric_name": "인증 수",
+              "formula": "중출처에서 확인된 인증 종류의 고유 개수",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "경쟁 우위 요소/대체가능성",
+              "metric_name": "주요 고객 승인 수",
+              "formula": "기사·IR·규제자료에서 확인된 승인 완료 고객/라인의 고유 개수",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "경쟁 우위 요소/대체가능성",
+              "metric_name": "고객 전환 기간",
+              "formula": "고객 최초 접촉일(또는 샘플 공급일) ~ 고객 승인일 사이 기간",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "경쟁 우위 요소/대체가능성",
+              "metric_name": "레퍼런스 건수",
+              "formula": "적용 사례 / 공급 사례 / 고객 채택 사례의 고유 개수",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            }
+          ]
+        },
+        {
+          "category": "경쟁 우위/대체가능성",
+          "item_name": "대체가능성",
+          "axis": "진입장벽",
+          "major_source": "사업보고서 / 특허 / 기사",
+          "middle_source": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+          "quantifiable": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+          "formula_rules": [
+            {
+              "category": "경쟁 우위 요소/대체가능성",
+              "metric_name": "등록 특허 수",
+              "formula": "특허 검색 결과 중 상태가 등록인 특허의 개수",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "경쟁 우위 요소/대체가능성",
+              "metric_name": "인증 수",
+              "formula": "중출처에서 확인된 인증 종류의 고유 개수",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "경쟁 우위 요소/대체가능성",
+              "metric_name": "주요 고객 승인 수",
+              "formula": "기사·IR·규제자료에서 확인된 승인 완료 고객/라인의 고유 개수",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "경쟁 우위 요소/대체가능성",
+              "metric_name": "고객 전환 기간",
+              "formula": "고객 최초 접촉일(또는 샘플 공급일) ~ 고객 승인일 사이 기간",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            },
+            {
+              "category": "경쟁 우위 요소/대체가능성",
+              "metric_name": "레퍼런스 건수",
+              "formula": "적용 사례 / 공급 사례 / 고객 채택 사례의 고유 개수",
+              "interpretation": "",
+              "source_hint": "",
+              "sheet": "수식 정리"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "활용 및 확장 산업",
+      "axis": "확장성",
+      "major_source": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+      "middle_source": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+      "quantifiable": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+      "items": [
+        {
+          "category": "활용 및 확장 산업",
+          "item_name": "활용 산업",
+          "axis": "확장성",
+          "major_source": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "formula_rules": []
+        },
+        {
+          "category": "활용 및 확장 산업",
+          "item_name": "확장 가능 제품",
+          "axis": "확장성",
+          "major_source": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "formula_rules": []
+        },
+        {
+          "category": "활용 및 확장 산업",
+          "item_name": "전방 시장",
+          "axis": "확장성",
+          "major_source": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "formula_rules": []
+        }
+      ]
+    },
+    {
+      "category": "진입 부담/장벽",
+      "axis": "양산성",
+      "major_source": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+      "middle_source": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+      "quantifiable": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+      "items": [
+        {
+          "category": "진입 부담/장벽",
+          "item_name": "인증/승인",
+          "axis": "양산성",
+          "major_source": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "formula_rules": []
+        },
+        {
+          "category": "진입 부담/장벽",
+          "item_name": "양산 난이도",
+          "axis": "양산성",
+          "major_source": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "formula_rules": []
+        },
+        {
+          "category": "진입 부담/장벽",
+          "item_name": "전환 비용",
+          "axis": "양산성",
+          "major_source": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "formula_rules": []
+        }
+      ]
+    },
+    {
+      "category": "R&D 강도",
+      "axis": "투자 지속성",
+      "major_source": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+      "middle_source": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+      "quantifiable": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+      "items": [
+        {
+          "category": "R&D 강도",
+          "item_name": "연구개발비",
+          "axis": "투자 지속성",
+          "major_source": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "formula_rules": []
+        },
+        {
+          "category": "R&D 강도",
+          "item_name": "개발 과제",
+          "axis": "투자 지속성",
+          "major_source": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "formula_rules": []
+        },
+        {
+          "category": "R&D 강도",
+          "item_name": "설비투자/인력",
+          "axis": "투자 지속성",
+          "major_source": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "formula_rules": []
+        }
+      ]
+    }
+  ],
+  "formula_rules_by_category": {
+    "대표 기술": [
+      {
+        "category": "대표 기술",
+        "metric_name": "기술 키워드 등장 빈도",
+        "formula": "사업보고서 내 키워드 등장 횟수 + 홈페이지 내 키워드 등장 횟수 + 특허 초록/청구항 내 키워드 등장 횟수",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      },
+      {
+        "category": "대표 기술",
+        "metric_name": "적용 제품/공정 수",
+        "formula": "중출처에서 확인된 적용 제품 목록 ∪ 적용 공정 목록의 고유 개수",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      },
+      {
+        "category": "대표 기술",
+        "metric_name": "수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등)",
+        "formula": "",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      }
+    ],
+    "핵심 제품/서비스": [
+      {
+        "category": "핵심 제품/서비스",
+        "metric_name": "매출 비중 %",
+        "formula": "해당 제품/사업부 매출 ÷ 총매출 × 100",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      },
+      {
+        "category": "핵심 제품/서비스",
+        "metric_name": "전년 성장률 %",
+        "formula": "(당기 매출 - 전기 매출) ÷ 전기 매출 × 100",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      },
+      {
+        "category": "핵심 제품/서비스",
+        "metric_name": "제품 수",
+        "formula": "",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      },
+      {
+        "category": "핵심 제품/서비스",
+        "metric_name": "고객 산업 수",
+        "formula": "사업보고서 제품 목록 ∪ 홈페이지 제품 포트폴리오 ∪ IR 제품 포트폴리오의 고유 개수",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      }
+    ],
+    "고객 구매 이유": [
+      {
+        "category": "고객 구매 이유",
+        "metric_name": "성능 개선율 %",
+        "formula": "(개선 후 성능 - 기존 성능) ÷ 기존 성능 × 100",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      },
+      {
+        "category": "고객 구매 이유",
+        "metric_name": "원가 절감율 %",
+        "formula": "(기존 원가 - 적용 후 원가) ÷ 기존 원가 × 100",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      },
+      {
+        "category": "고객 구매 이유",
+        "metric_name": "처리속도",
+        "formula": "",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      },
+      {
+        "category": "고객 구매 이유",
+        "metric_name": "불량률 감소 %",
+        "formula": "(기존 불량률 - 적용 후 불량률) ÷ 기존 불량률 × 100",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      },
+      {
+        "category": "고객 구매 이유",
+        "metric_name": "수명 증가 %",
+        "formula": "(적용 후 수명 - 기존 수명) ÷ 기존 수명 × 100",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      },
+      {
+        "category": "고객 구매 이유",
+        "metric_name": "고객사 수",
+        "formula": "IR 적용 사례 ∪ 홍보자료 레퍼런스 ∪ 인터뷰/기사 내 언급 고객사의 고유 개수",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      }
+    ],
+    "경쟁 우위/대체가능성": [
+      {
+        "category": "경쟁 우위 요소/대체가능성",
+        "metric_name": "등록 특허 수",
+        "formula": "특허 검색 결과 중 상태가 등록인 특허의 개수",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      },
+      {
+        "category": "경쟁 우위 요소/대체가능성",
+        "metric_name": "인증 수",
+        "formula": "중출처에서 확인된 인증 종류의 고유 개수",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      },
+      {
+        "category": "경쟁 우위 요소/대체가능성",
+        "metric_name": "주요 고객 승인 수",
+        "formula": "기사·IR·규제자료에서 확인된 승인 완료 고객/라인의 고유 개수",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      },
+      {
+        "category": "경쟁 우위 요소/대체가능성",
+        "metric_name": "고객 전환 기간",
+        "formula": "고객 최초 접촉일(또는 샘플 공급일) ~ 고객 승인일 사이 기간",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      },
+      {
+        "category": "경쟁 우위 요소/대체가능성",
+        "metric_name": "레퍼런스 건수",
+        "formula": "적용 사례 / 공급 사례 / 고객 채택 사례의 고유 개수",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      }
+    ],
+    "현재 활용 산업 + 확장 산업": [
+      {
+        "category": "현재 활용 산업 + 확장 산업",
+        "metric_name": "현재 매출 산업 수",
+        "formula": "현재 매출 발생 산업 목록의 고유 개수",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      },
+      {
+        "category": "현재 활용 산업 + 확장 산업",
+        "metric_name": "산업별 비중 %",
+        "formula": "해당 산업 매출 ÷ 총매출 × 100",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      },
+      {
+        "category": "현재 활용 산업 + 확장 산업",
+        "metric_name": "적용 제품 수",
+        "formula": "현재 산업에 적용 중인 제품 목록의 고유 개수",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      },
+      {
+        "category": "현재 활용 산업 + 확장 산업",
+        "metric_name": "확장 후보 산업 수",
+        "formula": "신규 적용처 / 확장 산업 / 진입 예정 산업 목록의 고유 개수",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      }
+    ],
+    "신규 산업 진입 시 추가 인증/개발 부담": [
+      {
+        "category": "신규 산업 진입 시 추가 인증/개발 부담",
+        "metric_name": "필요 인증 수",
+        "formula": "신규 산업 진입에 필요한 인증 종류의 고유 개수",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      },
+      {
+        "category": "신규 산업 진입 시 추가 인증/개발 부담",
+        "metric_name": "예상 개발 기간(개월)",
+        "formula": "개발 착수 시점 ~ 양산/출시 목표 시점 기간",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      },
+      {
+        "category": "신규 산업 진입 시 추가 인증/개발 부담",
+        "metric_name": "검증 단계 수",
+        "formula": "시험 / 인증 / 고객평가 / 파일럿 / 양산검증 단계의 고유 개수",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      },
+      {
+        "category": "신규 산업 진입 시 추가 인증/개발 부담",
+        "metric_name": "고객 테스트 횟수",
+        "formula": "기사·보도자료·테스트베드 자료에서 확인된 테스트/평가 이벤트 횟수",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      }
+    ],
+    "회사의 기술 투자 수준 - R&D 강도": [
+      {
+        "category": "회사의 기술 투자 수준 - R&D 강도",
+        "metric_name": "연구개발비(억원)",
+        "formula": "",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      },
+      {
+        "category": "회사의 기술 투자 수준 - R&D 강도",
+        "metric_name": "매출 대비 R&D 비율 %",
+        "formula": "연구개발비 ÷ 매출액 × 100",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      },
+      {
+        "category": "회사의 기술 투자 수준 - R&D 강도",
+        "metric_name": "연구인력 수",
+        "formula": "",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      },
+      {
+        "category": "회사의 기술 투자 수준 - R&D 강도",
+        "metric_name": "CAPEX(억원)",
+        "formula": "",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      },
+      {
+        "category": "회사의 기술 투자 수준 - R&D 강도",
+        "metric_name": "3년 추세",
+        "formula": "(당해연도 값 - 3년 전 값) ÷ 3년 전 값 × 100",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      }
+    ],
+    "기술 경쟁력 종합 판단": [
+      {
+        "category": "기술 경쟁력 종합 판단",
+        "metric_name": "1~7번 항목별 점수",
+        "formula": "",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      },
+      {
+        "category": "기술 경쟁력 종합 판단",
+        "metric_name": "총점",
+        "formula": "1~7번 항목 점수의 합",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      },
+      {
+        "category": "기술 경쟁력 종합 판단",
+        "metric_name": "강점/약점 수",
+        "formula": "강점: 기준점 이상 항목 수 / 약점: 기준점 이하 항목 수",
+        "interpretation": "",
+        "source_hint": "",
+        "sheet": "수식 정리"
+      }
+    ]
+  }
+}

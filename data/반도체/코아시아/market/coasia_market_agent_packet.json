@@ -4,9 +4,9 @@
   "company": "코아시아",
   "opinion": "보유",
   "confidence": 0.45,
-  "summary": "코아시아에 대해 검증 가능한 핵심 근거는 다음과 같습니다. 코아시아 마켓 분석 total_score 값은 0.0점입니다. 코아시아 stock_data.current_price 값은 4530입니다. 코아시아 stock_data.change 값은 135입니다. 코아시아 stock_data.change_rate 값은 3.07%입니다. 코아시아 stock_data.raw.clpr 값은 4530입니다.",
+  "summary": "코아시아에 대해 검증 가능한 핵심 근거는 다음과 같습니다. 코아시아 마켓 분석 total_score 값은 0점입니다. 코아시아 stock_data.current_price 값은 4530입니다. 코아시아 stock_data.change 값은 135입니다. 코아시아 stock_data.change_rate 값은 3.07%입니다. 코아시아 stock_data.raw.clpr 값은 4530입니다.",
   "key_points": [
-    "코아시아 마켓 분석 total_score 값은 0.0점입니다.",
+    "코아시아 마켓 분석 total_score 값은 0점입니다.",
     "코아시아 stock_data.current_price 값은 4530입니다.",
     "코아시아 stock_data.change 값은 135입니다.",
     "코아시아 stock_data.change_rate 값은 3.07%입니다.",
@@ -16,7 +16,7 @@
   "claims": [
     {
       "claim_id": "market.cl.001",
-      "text": "코아시아 마켓 분석 total_score 값은 0.0점입니다.",
+      "text": "코아시아 마켓 분석 total_score 값은 0점입니다.",
       "evidence_ids": [
         "market.ev.001"
       ]
@@ -87,7 +87,7 @@
       "source_type": "market",
       "source": "market_graph_analysis",
       "metric": "total_score",
-      "value": 0.0,
+      "value": 0,
       "unit": "score",
       "period": null,
       "snippet": "market_graph_analysis | total_score | 값: 0score"
@@ -289,7 +289,7 @@
       "source_type": "market",
       "source": "market_graph_analysis",
       "metric": "total_score",
-      "value": 0.0,
+      "value": 0,
       "unit": "score",
       "period": null,
       "snippet": "market_graph_analysis | total_score | 값: 0score"
@@ -491,7 +491,7 @@
       "opinion": "보유",
       "confidence": 0.8,
       "summary": "코아시아 분석 중 LLM 호출 오류가 발생해 fallback 결과를 반환합니다.",
-      "total_score": 0.0,
+      "total_score": 0,
       "scoring": {
         "거시환경": {
           "score": 0,
@@ -516,28 +516,28 @@
       },
       "market_environment": {
         "oecd_cli": "",
-        "industry_stage": "{'마켓점수': {'기업명': '코아시아', '투자의견': '보유', '거시환경': '0', '산업매력도': '0', '경쟁위치': '0', '정책수혜': '0', '시장모멘텀': '0', '요약': '코아시아 분석 중 LLM 호출 오류가 발생해 fallback 결과를 반환합니다.'}}",
-        "value_chain_position": "팹리스/설계",
+        "industry_stage": "{'마켓점수': {'기업명': '코아시아', '투자의견': '보유', '총점': '0', '거시환경': '0', '산업매력도': '0', '경쟁위치': '0', '정책수혜': '0', '시장모멘텀': '0', '요약': '코아시아 분석 중 LLM 호출 오류가 발생해 fallback 결과를 반환합니다.'}}",
+        "value_chain_position": "후공정/패키징/테스트",
         "competition": ""
       },
       "risks": [
-        "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 139 column 6 (char 4514)",
-        "밸류체인 위치 확인: 팹리스/설계"
+        "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 119 column 6 (char 3671)",
+        "밸류체인 위치 확인: 후공정/패키징/테스트"
       ],
       "opportunities": [],
-      "error": "Expecting ',' delimiter: line 139 column 6 (char 4514)",
+      "error": "Expecting ',' delimiter: line 119 column 6 (char 3671)",
       "fallback_source": "market_final_static_data"
     },
     "original_opportunities": [],
     "original_risks": [
-      "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 139 column 6 (char 4514)",
-      "밸류체인 위치 확인: 팹리스/설계"
+      "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 119 column 6 (char 3671)",
+      "밸류체인 위치 확인: 후공정/패키징/테스트"
     ],
     "removed_bad_evidence_ids": [
       "market.ev.unverified"
     ]
   },
-  "total_score": 0.0,
+  "total_score": 0,
   "scoring": {
     "거시환경": {
       "score": 0,
@@ -569,7 +569,7 @@
     "supported_count": 6,
     "unsupported_count": 0,
     "supported_claims": [
-      "코아시아 마켓 분석 total_score 값은 0.0점입니다.",
+      "코아시아 마켓 분석 total_score 값은 0점입니다.",
       "코아시아 stock_data.current_price 값은 4530입니다.",
       "코아시아 stock_data.change 값은 135입니다.",
       "코아시아 stock_data.change_rate 값은 3.07%입니다.",
@@ -581,7 +581,7 @@
     "claim_results": [
       {
         "claim_id": "market.cl.001",
-        "text": "코아시아 마켓 분석 total_score 값은 0.0점입니다.",
+        "text": "코아시아 마켓 분석 total_score 값은 0점입니다.",
         "evidence_ids": [
           "market.ev.001"
         ],
@@ -683,7 +683,7 @@
     "supported_count": 9,
     "unsupported_count": 0,
     "supported_claims": [
-      "코아시아 마켓 분석 total_score 값은 0.0점입니다.",
+      "코아시아 마켓 분석 total_score 값은 0점입니다.",
       "코아시아 stock_data.current_price 값은 4530입니다.",
       "코아시아 stock_data.change 값은 135입니다.",
       "코아시아 stock_data.change_rate 값은 3.07%입니다.",
@@ -698,7 +698,7 @@
     "claim_results": [
       {
         "claim_id": "market.cl.001",
-        "text": "코아시아 마켓 분석 total_score 값은 0.0점입니다.",
+        "text": "코아시아 마켓 분석 total_score 값은 0점입니다.",
         "evidence_ids": [
           "market.ev.001"
         ],
@@ -845,7 +845,7 @@
     "supported_count": 9,
     "unsupported_count": 0,
     "supported_claims": [
-      "코아시아 마켓 분석 total_score 값은 0.0점입니다.",
+      "코아시아 마켓 분석 total_score 값은 0점입니다.",
       "코아시아 stock_data.current_price 값은 4530입니다.",
       "코아시아 stock_data.change 값은 135입니다.",
       "코아시아 stock_data.change_rate 값은 3.07%입니다.",
@@ -860,7 +860,7 @@
     "claim_results": [
       {
         "claim_id": "market.cl.001",
-        "text": "코아시아 마켓 분석 total_score 값은 0.0점입니다.",
+        "text": "코아시아 마켓 분석 total_score 값은 0점입니다.",
         "evidence_ids": [
           "market.ev.001"
         ],

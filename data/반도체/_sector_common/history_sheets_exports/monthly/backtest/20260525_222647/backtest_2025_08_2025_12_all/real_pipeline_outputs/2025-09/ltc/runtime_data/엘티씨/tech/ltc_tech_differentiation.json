@@ -1,0 +1,85 @@
+{
+  "company_dir": "ltc",
+  "company_name": "엘티씨",
+  "technology_differentiation_score": 56.62,
+  "component_scores": {
+    "peer_uniqueness_score": 20.0,
+    "topic_distinctiveness_score": 94.49,
+    "ipc_specialization_score": 80.0,
+    "keyword_uniqueness_score": 50.0
+  },
+  "nearest_peer": {
+    "company_dir": "hansol",
+    "company_name": "한솔케미칼",
+    "cosine_similarity": 0.4988,
+    "technology_distance": 0.5012
+  },
+  "peer_similarity_top": [
+    {
+      "company_dir": "hansol",
+      "company_name": "한솔케미칼",
+      "cosine_similarity": 0.4988,
+      "technology_distance": 0.5012
+    },
+    {
+      "company_dir": "nepes",
+      "company_name": "네패스",
+      "cosine_similarity": 0.4264,
+      "technology_distance": 0.5736
+    },
+    {
+      "company_dir": "hanmi",
+      "company_name": "한미반도체",
+      "cosine_similarity": 0.4012,
+      "technology_distance": 0.5988
+    },
+    {
+      "company_dir": "duksan",
+      "company_name": "덕산테코피아",
+      "cosine_similarity": 0.1697,
+      "technology_distance": 0.8303
+    }
+  ],
+  "dominant_topic": {
+    "topic_id": 0,
+    "topic_label": "윤활유 / dc / 전력을 / 보호창",
+    "weight": 0.9421,
+    "margin": 0.9169,
+    "rarity": 100.0
+  },
+  "unique_terms": [
+    "윤활유",
+    "보호창",
+    "수용",
+    "dc dc",
+    "레이저 비전",
+    "컨버터",
+    "용접",
+    "치료",
+    "보호창 부재",
+    "질병",
+    "볼트",
+    "분산형"
+  ],
+  "raw_metrics": {
+    "normalized_patent_records": 1006,
+    "company_matched_patents": 598,
+    "registered_patents": 284,
+    "alive_patents": 338,
+    "recent_5y_patents": 150,
+    "ipc_cpc_classes": 248,
+    "core_ipc_h01l_patents": 2,
+    "patent_keyword_matches": 407,
+    "patent_year_min": 1996,
+    "patent_year_max": 2026,
+    "source_files": [
+      "data\\반도체\\엘티씨\\tech\\source\\kipris_ltc_patents.csv",
+      "data\\반도체\\엘티씨\\tech\\ltc_tech_patent_normalized.csv",
+      "data\\반도체\\엘티씨\\tech\\ltc_tech_patent_evidence.json"
+    ]
+  },
+  "limitations": [],
+  "technology_differentiation_percentile": 30.0,
+  "technology_differentiation_grade": "MODERATE_DIFFERENTIATION",
+  "interpretation": "엘티씨의 Technology Differentiation Score는 56.62/100, percentile 30.0로 산출되어 보통 차별화형으로 해석됩니다. 가장 유사한 peer는 한솔케미칼(cosine similarity=0.4988)이며, 주된 NMF 기술 주제는 '윤활유 / dc / 전력을 / 보호창'입니다. 이 점수는 특허/IP 포트폴리오의 차별성 신호이며 고객 채택·양산·매출 전환·FCF 개선 근거를 대체하지 않습니다."
+}

@@ -1,10 +1,10 @@
 # 어보브반도체 Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-25T20:44:29
+- 생성 시각: 2026-05-26T04:54:47
 - 종합 점수: 80.21/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 153개
+- 원천 문서 수: 155개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -32,18 +32,18 @@
 - [DIRECT_EVIDENCE] - 기술 우위가 확인되어도 고객 채택·양산·매출 전환·FCF 직접 근거가 약하면 보수적으로 반영합니다. (source=data/반도체/어보브반도체/tech/_nepes_reference_schema/nepes_tech_chair_summary.md, keywords=양산, urls=http://www.w3.org/2001/XMLSchema-instance, http://www.nepes.co.kr)
 
 ### 매출 전환
-- [DIRECT_EVIDENCE] summary: 어보브반도체는 2023년과 2024년에 걸쳐 매출이 감소하고 영업이익 및 순이익이 적자를 기록하며 수익성이 크게 악화되었습니다. (source=data/반도체/어보브반도체/finance/어보브반도체_finance.json, keywords=매출, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2022년 44.8%의 높은 매출 성장률을 기록했으나, 2023년 -4.2%, 2024년 -0.1%로 매출 감소세로 전환되었습니다. (source=data/반도체/어보브반도체/finance/어보브반도체_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: 어보브반도체는 2023년과 2024년에 걸쳐 매출이 감소하고 영업이익 및 순이익이 적자를 기록하며 수익성이 악화되었습니다. (source=data/반도체/어보브반도체/finance/어보브반도체_finance.json, keywords=매출, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2021년 매출액 1,674억, 영업이익 176억, 순이익 137억으로 견조한 실적을 기록했습니다. (source=data/반도체/어보브반도체/finance/어보브반도체_finance.json, keywords=매출, 매출액, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2023년 매출액 2,324억, 영업이익 -146억, 순이익 -334억으로 적자 전환했습니다. (source=data/반도체/어보브반도체/finance/어보브반도체_finance.json, keywords=매출, 매출액, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2024년 매출액 2,321억, 영업이익 -51억, 순이익 -180억으로 적자 지속 및 확대 추세를 보였습니다. (source=data/반도체/어보브반도체/finance/어보브반도체_finance.json, keywords=매출, 매출액, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] missing_prompt_metrics: 매출성장률 (source=data/반도체/어보브반도체/finance/어보브반도체_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률 (source=data/반도체/어보브반도체/finance/어보브반도체_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] sales: 232116611005.0 (source=data/반도체/어보브반도체/finance/어보브반도체_finance_agent_packet.json, keywords=sales, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### 마진·원가·현금흐름 연결
-- [DIRECT_EVIDENCE] summary: 어보브반도체는 2023년과 2024년에 걸쳐 매출이 감소하고 영업이익 및 순이익이 적자를 기록하며 수익성이 크게 악화되었습니다. (source=data/반도체/어보브반도체/finance/어보브반도체_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] 재무적으로는 부채비율이 높은 편이며, ROE 또한 음수 값을 기록하고 있어 재무 건전성 및 수익성 회복 여부에 대한 면밀한 관찰이 요구됩니다. (source=data/반도체/어보브반도체/finance/어보브반도체_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2021년 10.5%였던 영업이익률이 2023년 -6.3%, 2024년 -2.2%로 크게 하락하며 수익성 악화가 두드러집니다. (source=data/반도체/어보브반도체/finance/어보브반도체_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: ROE는 2021년 12.3%에서 2023년 -23.8%, 2024년 -11.7%로 전환되어 자본 대비 수익성이 부정적인 상황입니다. (source=data/반도체/어보브반도체/finance/어보브반도체_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_risks: 2023년과 2024년 연속으로 영업이익이 큰 폭의 적자를 기록하며 본업의 수익성 회복이 시급한 과제입니다. (source=data/반도체/어보브반도체/finance/어보브반도체_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: 어보브반도체는 2023년과 2024년에 걸쳐 매출이 감소하고 영업이익 및 순이익이 적자를 기록하며 수익성이 악화되었습니다. (source=data/반도체/어보브반도체/finance/어보브반도체_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2021년 ROE 12.26%, 영업이익률 10.52%, 부채비율 19.84%로 재무 건전성이 양호했습니다. (source=data/반도체/어보브반도체/finance/어보브반도체_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 영업이익률 -2.20%로 수익성 부담을 확인해야 합니다. (source=data/반도체/어보브반도체/finance/어보브반도체_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] report_core_points: 영업이익률: 어보브반도체 2024 기준 영업이익률 값은 -2.20%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다. (source=data/반도체/어보브반도체/finance/어보브반도체_finance_agent_packet.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] report_core_points: ROE: 어보브반도체 2024 기준 ROE 값은 -11.71%이며, 자기자본 대비 수익성 수준을 확인하는 지표입니다. (source=data/반도체/어보브반도체/finance/어보브반도체_finance_agent_packet.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### IP 품질
 - [DIRECT_EVIDENCE] legal_status: status=COLLECTED, count=None, score=0.8667, signal=None (source=data/반도체/어보브반도체/tech/abov_tech_ip_legal_features.json, keywords=legal_status, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)

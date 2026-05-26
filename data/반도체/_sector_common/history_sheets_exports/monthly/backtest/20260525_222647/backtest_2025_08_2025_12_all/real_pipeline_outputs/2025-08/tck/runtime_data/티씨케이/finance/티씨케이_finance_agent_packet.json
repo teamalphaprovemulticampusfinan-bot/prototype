@@ -1,0 +1,317 @@
+{
+  "agent_name": "finance",
+  "company_name": "티씨케이",
+  "company_dir": "tck",
+  "industry_type": "deeptech_semiconductor",
+  "summary": "티씨케이는 2023년 매출이 큰 폭으로 감소했으나, 2024년에는 21.65%의 매출 성장률을 기록하며 회복세를 보였다. 영업이익률은 2023년 29.4%에서 2024년 29.3%로 소폭 하락했으나 여전히 높은 수준을 유지하고 있다. ROE는 2023년 13.36%에서 2024년 13.95%로 소폭 상승했으나, 과거 대비 하락한 수치이다. 최근 1개월 주가 데이터는 변동성이 관찰되며, 연간 MDD는 2024년 -52.46%로 높은 수준을 기록했다.",
+  "key_thesis": [
+    "2024년 매출 성장률이 21.65%로 전년도 역성장에서 벗어나 회복세를 보였다.",
+    "2024년 영업이익률 29.29%는 높은 수준을 유지하며 수익 창출 능력을 보여준다.",
+    "2024년 ROE 13.95%는 2023년 대비 소폭 상승하며 자본 효율성이 개선되는 모습을 보였다.",
+    "2024년 부채비율 9.16%는 낮은 수준으로 재무 안정성이 양호하다.",
+    "2025년 8월 기준 최근 1개월 주가 데이터에서 MA20 대비 비율이 1.0282로 상승 추세를 나타낸다."
+  ],
+  "key_risks": [
+    "2023년 매출이 -29.07%로 크게 감소했던 점은 향후 매출 변동성에 대한 우려를 남긴다.",
+    "2024년 ROE 13.95%는 2021년(24.12%) 및 2022년(22.56%) 대비 하락한 수준으로, 수익성 개선 여부에 대한 추가 확인이 필요하다.",
+    "2024년 연간 MDD는 -52.46%로, 주가 변동성이 매우 높아 투자 시 손실 위험이 크다.",
+    "최근 1개월 주가 데이터에서 VIX 지수가 14.22~20.38 범위로 변동성이 관찰된다.",
+    "FCF 데이터가 0으로 제공되어 현금 흐름 창출 능력을 직접적으로 판단하기 어렵다."
+  ],
+  "report_core_points": [
+    "영업이익률: 티씨케이 2024 기준 영업이익률 값은 29.29%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다.",
+    "ROE: 티씨케이 2024 기준 ROE 값은 13.95%이며, 자기자본 대비 수익성 수준을 확인하는 지표입니다.",
+    "FCF: 티씨케이 2024 기준 FCF 값은 0원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+    "부채비율: 티씨케이 2024 기준 부채비율 값은 9.16%이며, 재무 레버리지와 안정성 부담을 확인하는 지표입니다.",
+    "연수익률: 티씨케이 2025 기준 연수익률 값은 56.65%이며, 해당 연도 주가 성과를 보여주는 지표입니다.",
+    "연간 MDD: 티씨케이 2025 기준 연간 MDD 값은 -15.22%이며, 투자자가 경험할 수 있는 최대 낙폭 위험을 보여주는 지표입니다.",
+    "거래량: 티씨케이 2025 기준 거래량 값은 41553.00주이며, 해당 연도 평균 거래량을 통해 시장 관심과 유동성을 확인하는 지표입니다.",
+    "MA20 대비 비율: 티씨케이 2025 기준 MA20 대비 비율 값은 1.03배이며, 현재 가격이 20일 이동평균선(MA20) 대비 얼마나 떨어져/올라가 있는지 보여주는 지표입니다.",
+    "변동성지수: 티씨케이 2025 기준 변동성지수 값은 21.93이며, 시장 변동성 환경을 함께 확인하기 위한 보조 지표입니다."
+  ],
+  "missing_prompt_metrics": [
+    "매출성장률"
+  ],
+  "evidence": [
+    {
+      "evidence_id": "finance.ev.002",
+      "source_type": "financial_csv",
+      "source": "티씨케이_재무.csv",
+      "metric": "operating_margin",
+      "label": "영업이익률",
+      "value": 29.285690468584846,
+      "unit": "%",
+      "period": "2024",
+      "snippet": "티씨케이 2024 기준 영업이익률 값은 29.29%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.003",
+      "source_type": "financial_csv",
+      "source": "티씨케이_재무.csv",
+      "metric": "roe",
+      "label": "ROE",
+      "value": 13.94544782495856,
+      "unit": "%",
+      "period": "2024",
+      "snippet": "티씨케이 2024 기준 ROE 값은 13.95%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.004",
+      "source_type": "financial_csv",
+      "source": "티씨케이_재무.csv",
+      "metric": "fcf",
+      "label": "FCF",
+      "value": 0.0,
+      "unit": "원",
+      "period": "2024",
+      "snippet": "티씨케이 2024 기준 FCF 값은 0원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.005",
+      "source_type": "financial_csv",
+      "source": "티씨케이_재무.csv",
+      "metric": "debt_ratio",
+      "label": "부채비율",
+      "value": 9.155336955129028,
+      "unit": "%",
+      "period": "2024",
+      "snippet": "티씨케이 2024 기준 부채비율 값은 9.16%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.007",
+      "source_type": "stock_csv",
+      "source": "티씨케이_주식.csv",
+      "metric": "annual_return_%",
+      "label": "연수익률",
+      "value": 56.65,
+      "unit": "%",
+      "period": "2025",
+      "snippet": "티씨케이 2025 기준 연수익률 값은 56.65%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.008",
+      "source_type": "stock_csv",
+      "source": "티씨케이_주식.csv",
+      "metric": "annual_mdd_%",
+      "label": "연간 MDD",
+      "value": -15.22,
+      "unit": "%",
+      "period": "2025",
+      "snippet": "티씨케이 2025 기준 연간 MDD 값은 -15.22%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.009",
+      "source_type": "stock_csv",
+      "source": "티씨케이_주식.csv",
+      "metric": "volume_mean",
+      "label": "거래량",
+      "value": 41553.0,
+      "unit": "주",
+      "period": "2025",
+      "snippet": "티씨케이 2025 기준 거래량 값은 41553주입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.010",
+      "source_type": "stock_csv",
+      "source": "티씨케이_주식.csv",
+      "metric": "ma20_ratio_mean",
+      "label": "MA20 대비 비율",
+      "value": 1.0282,
+      "unit": "배",
+      "period": "2025",
+      "snippet": "티씨케이 2025 기준 MA20 대비 비율 값은 1.0282배입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.011",
+      "source_type": "stock_csv",
+      "source": "티씨케이_주식.csv",
+      "metric": "vkospi_mean",
+      "label": "변동성지수",
+      "value": 21.93,
+      "unit": null,
+      "period": "2025",
+      "snippet": "티씨케이 2025 기준 변동성지수 값은 21.93입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.012",
+      "source_type": "stock_csv",
+      "source": "티씨케이_주식.csv",
+      "metric": "latest_close",
+      "label": "최근 종가",
+      "value": 108427.5,
+      "unit": "원",
+      "period": "2025-08-29",
+      "snippet": "티씨케이 2025-08-29 최근 종가 값은 108,428원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.013",
+      "source_type": "warning_stock_csv",
+      "source": "투자경고종목.csv",
+      "metric": "warning_stock",
+      "label": "투자경고 여부",
+      "value": 0.0,
+      "unit": null,
+      "period": "최근",
+      "snippet": "티씨케이 투자경고종목 해당 여부 값은 0입니다.",
+      "prompt_rationale": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "finance.safe_cl.002",
+      "text": "티씨케이 2024 기준 영업이익률 값은 29.29%입니다.",
+      "evidence_ids": [
+        "finance.ev.002"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.003",
+      "text": "티씨케이 2024 기준 ROE 값은 13.95%입니다.",
+      "evidence_ids": [
+        "finance.ev.003"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.004",
+      "text": "티씨케이 2024 기준 FCF 값은 0원입니다.",
+      "evidence_ids": [
+        "finance.ev.004"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.005",
+      "text": "티씨케이 2024 기준 부채비율 값은 9.16%입니다.",
+      "evidence_ids": [
+        "finance.ev.005"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.007",
+      "text": "티씨케이 2025 기준 연수익률 값은 56.65%입니다.",
+      "evidence_ids": [
+        "finance.ev.007"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.008",
+      "text": "티씨케이 2025 기준 연간 MDD 값은 -15.22%입니다.",
+      "evidence_ids": [
+        "finance.ev.008"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.009",
+      "text": "티씨케이 2025 기준 거래량 값은 41553주입니다.",
+      "evidence_ids": [
+        "finance.ev.009"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.010",
+      "text": "티씨케이 2025 기준 MA20 대비 비율 값은 1.0282배입니다.",
+      "evidence_ids": [
+        "finance.ev.010"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.011",
+      "text": "티씨케이 2025 기준 변동성지수 값은 21.93입니다.",
+      "evidence_ids": [
+        "finance.ev.011"
+      ],
+      "audit_safe": true
+    }
+  ],
+  "warning_note": null,
+  "source_contexts": [
+    "financial_csv=티씨케이_재무.csv",
+    "stock_csv=티씨케이_주식.csv",
+    "warning_stock_csv=투자경고종목.csv",
+    "prompts.py summary/key_thesis/key_risks are preserved in the Chair View where available.",
+    "First Auditor claims are CSV-grounded one-to-one evidence claims for stable actual-information verification.",
+    "필수 지표 산출 한계: 매출성장률"
+  ],
+  "raw_payload": {
+    "latest_financial_row": {
+      "year": 2024,
+      "sales": 275724843444.0,
+      "operating_income": 80747924196.0,
+      "net_income": 71994036570.0,
+      "total_assets": 563519610069.0,
+      "total_liabilities": 47264861755.0,
+      "total_equity": 516254748314.0,
+      "current_assets": 405757965821.0,
+      "current_liabilities": 44574894545.0,
+      "fcf": 0,
+      "interest_expense": 31971330.0,
+      "roe": 13.94544782495856,
+      "operating_margin": 29.285690468584846,
+      "current_ratio_%": 910.2836248134528,
+      "debt_ratio": 9.155336955129028,
+      "interest_coverage": 2525.6354426293806,
+      "sales_growth": 21.65071168807897
+    },
+    "latest_stock_metric": {
+      "year": 2025,
+      "annual_return_%": 56.65,
+      "annual_mdd_%": -15.22
+    },
+    "latest_yearly_summary": {
+      "year": 2025,
+      "close_start": 69215.36,
+      "close_end": 108427.5,
+      "close_high": 114071.67,
+      "close_low": 69215.36,
+      "volume_mean": 41553.0,
+      "ma20_ratio_mean": 1.0282,
+      "vkospi_mean": 21.93
+    },
+    "latest_recent_stock_row": {
+      "date": "2025-08-29",
+      "open": 109417.70547945208,
+      "high": 110704.97260273973,
+      "low": 107041.21232876711,
+      "close": 108427.5,
+      "volume": 18202,
+      "market_cap": 1265891062500.0,
+      "return": -0.0081521263341959,
+      "market_return": -0.003225602684728,
+      "abnormal_return": -0.0049265236494678,
+      "mdd": -0.5223349649324347,
+      "ma20": 107303.615234375,
+      "ma60": 102478.01432291669,
+      "ma20_ratio": 1.0104738760494714,
+      "ma60_ratio": 1.058056215436962,
+      "vix": 15.359999656677246,
+      "vkospi": 19.52,
+      "eps": 0.0,
+      "psr": 2.4714429485318745,
+      "car_3": -0.0129557563467065,
+      "car_5": 0.0056127163656077,
+      "inst_net_buy": -806.0,
+      "foreign_net_buy": -68.0,
+      "foreign_holding_shares": 7467516.0,
+      "foreign_holding_pct": 63.96
+    },
+    "audit_policy": "prompts_py_used_for_interpretation_claims_grounded_by_local_csv"
+  },
+  "packet_version": "finance_prompts_grounded_v4_compact"
+}

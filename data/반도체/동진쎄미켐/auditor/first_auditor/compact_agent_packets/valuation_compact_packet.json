@@ -2,28 +2,28 @@
   "agent": "valuation",
   "company_name": "동진쎄미켐",
   "industry_type": "deeptech_semiconductor",
-  "summary": "기존 Valuation Agent 내부 판단은 보유였고, Auditor compact에서는 이를 참고 신호로만 사용합니다. DCF 내재주가는 확인 제한이고 현재가 54,300원 대비 괴리율은 확인 제한입니다. peer 대비 P/S는 1.22배로 비교기업 중앙값 3.43배 대비 -64.35% 수준입니다. 208개 반도체 reference universe에서는 소재 기준 valuation proxy 47.03/100, label=FAIR입니다.",
+  "summary": "기존 Valuation Agent 내부 판단은 보유였고, Auditor compact에서는 이를 참고 신호로만 사용합니다. DCF 내재주가는 확인 제한이고 현재가 41,150원 대비 괴리율은 확인 제한입니다. peer 대비 P/S는 0.67배로 비교기업 중앙값 2.68배 대비 -75.00% 수준입니다. 208개 반도체 reference universe에서는 소재 기준 valuation proxy 47.03/100, label=FAIR입니다.",
   "key_thesis": [
-    "DCF: 내재주가 확인 제한, 현재가 54,300원, 괴리율 확인 제한.",
-    "Peer P/S: 대상 1.22배 vs 비교기업 중앙값 3.43배, gap -64.35%.",
+    "DCF: 내재주가 확인 제한, 현재가 41,150원, 괴리율 확인 제한.",
+    "Peer P/S: 대상 0.67배 vs 비교기업 중앙값 2.68배, gap -75.00%.",
     "Reference Universe: 208개 반도체 universe, 소재 peer group 26개, valuation proxy 47.03/100(FAIR).",
-    "Valuation scorecard: 61.84/100, label=VALUATION_NEUTRAL_POSITIVE, validation=FAIL.",
-    "할인율/가치: WACC 11.82%, DCF 기업가치 확인 제한, 지분가치 확인 제한."
+    "Valuation scorecard: 54.39/100, label=VALUATION_NEUTRAL, validation=FAIL.",
+    "할인율/가치: WACC 11.27%, DCF 기업가치 확인 제한, 지분가치 확인 제한."
   ],
   "key_risks": [
-    "WACC가 11.82%로 높아 장기 현금흐름 가정 변화에 민감합니다.",
+    "WACC가 11.27%로 높아 장기 현금흐름 가정 변화에 민감합니다.",
     "가격 리스크: MDD -60.00%로 변동성/낙폭 리스크 확인이 필요합니다.",
-    "변동성: 연환산 변동성 51.27% 수준입니다."
+    "변동성: 연환산 변동성 47.35% 수준입니다."
   ],
   "metrics": {
     "original_agent_view_reference": "보유",
-    "current_price_krw": 54300.0,
-    "wacc": 0.11823494785408538,
-    "target_psr": 1.2227443370415203,
-    "peer_median_psr": 3.4301719213823465,
-    "psr_gap": -0.6435326377026727,
-    "valuation_scorecard_score": 61.84,
-    "valuation_scorecard_label": "VALUATION_NEUTRAL_POSITIVE",
+    "current_price_krw": 41150.0,
+    "wacc": 0.1126911584876721,
+    "target_psr": 0.6699666078184099,
+    "peer_median_psr": 2.680022174089385,
+    "psr_gap": -0.750014528127533,
+    "valuation_scorecard_score": 54.39,
+    "valuation_scorecard_label": "VALUATION_NEUTRAL",
     "reference_universe_rows": 208,
     "target_peer_group": "소재",
     "target_peer_group_size": 26,
@@ -82,7 +82,7 @@
       {
         "step": "price_history",
         "status": "OK",
-        "rows": 1221
+        "rows": 1162
       },
       {
         "step": "share_count",
@@ -97,17 +97,17 @@
       {
         "step": "market_cap",
         "status": "OK",
-        "market_cap": 2791807024200.0
+        "market_cap": 2115706428100.0
       },
       {
         "step": "liquidity_proxy",
         "status": "OK",
-        "avg_trading_value_20d": 56257479630.0
+        "avg_trading_value_20d": 25378166335.0
       },
       {
-        "step": "workbook_created",
+        "step": "workbook_available",
         "status": "OK",
-        "path": "C:\\Agent_6.8\\data\\반도체\\동진쎄미켐\\valuation\\dongjin_semichem_valuation_workbook.xlsx"
+        "path": "C:\\Agent_6.9\\data\\반도체\\동진쎄미켐\\valuation\\dongjin_semichem_valuation_workbook.xlsx"
       }
     ],
     "principle": "valuation_agent 자체 데이터/모델 일관성 검증; 기존 web-auditor 의존 없음"
@@ -120,25 +120,25 @@
     "stage3_decision_readiness": 1.0
   },
   "auditor_issues": [
-    "same-metric scale inconsistency suspected for wacc: ratio≈79765914977142.8 (metrics.wacc.risk_free_rate=0.035; metrics.wacc.market_risk_premium=0.06; metrics.wacc.beta=1.8; metrics.wacc.cost_of_equity=0.14300000000000002; metrics.wacc.pre_tax_cost_of_debt=0.055)",
-    "same-metric scale inconsistency suspected for fcf: ratio≈1833094690609.2 (metrics.peer_comps.target_row.fcf=103117228706.0; metrics.peer_comps.target_row.fcf_margin=0.19775500480158098; metrics.peer_comps.target_row.p_fcf=6.1831271388978015; metrics.peer_comps.median_p_fcf=15.155747369217794; metrics.advanced_valuation.reverse_dcf.required_fcf_yield_on_ev=0.05625308350641076)"
+    "same-metric scale inconsistency suspected for wacc: ratio≈60448755088571.4 (metrics.wacc.risk_free_rate=0.035; metrics.wacc.market_risk_premium=0.06; metrics.wacc.beta=1.8; metrics.wacc.cost_of_equity=0.14300000000000002; metrics.wacc.pre_tax_cost_of_debt=0.055)",
+    "same-metric scale inconsistency suspected for fcf: ratio≈1460293754856.3 (metrics.peer_comps.target_row.fcf=103117228706.0; metrics.peer_comps.target_row.fcf_margin=0.19775500480158098; metrics.peer_comps.target_row.p_fcf=3.3878617053996996; metrics.peer_comps.median_p_fcf=8.336762767416658; metrics.advanced_valuation.reverse_dcf.required_fcf_yield_on_ev=0.07061403115851128)"
   ],
   "auditor_recommendation": "보유",
-  "auditor_signal": 0.0464,
+  "auditor_signal": 0.029,
   "auditor_decision_basis": [
-    "DCF 괴리율 2.51%",
-    "Valuation scorecard 61.84/100",
-    "P/S 1.22배",
-    "peer median P/S 3.43배",
-    "peer P/S gap -64.35%",
+    "DCF 괴리율 4.78%",
+    "Valuation scorecard 54.39/100",
+    "P/S 0.67배",
+    "peer median P/S 2.68배",
+    "peer P/S gap -75.00%",
     "reference universe score 47.03/100",
-    "WACC 11.82%",
+    "WACC 11.27%",
     "validation_status=FAIL",
     "기존 Valuation Agent 내부 판단 참고=보유"
   ],
   "auditor_signal_components": {
-    "dcf_upside": 0.1002600642913718,
-    "scorecard": 0.05257142857142867,
+    "dcf_upside": 0.19103584505559557,
+    "scorecard": -0.16028571428571428,
     "peer_psr": 1.0,
     "reference_universe": -0.22783882783882795,
     "original_agent_view_reference": 0.0,

@@ -1,0 +1,113 @@
+{
+  "company_slug": "nextin",
+  "company_name": "넥스틴",
+  "status": "OK",
+  "input_csv": "data\\반도체\\넥스틴\\tech\\nextin_kipris_bibliographic_normalized.csv",
+  "family_csv": "data\\반도체\\넥스틴\\tech\\nextin_kipris_family_normalized.csv",
+  "target_patent_count": 30,
+  "family_record_count": 25,
+  "patents_with_family": 4,
+  "patents_with_overseas_family": 4,
+  "overseas_family_record_count": 19,
+  "family_collection_coverage": 0.1333,
+  "overseas_family_patent_rate": 0.1333,
+  "pct_patents": 3,
+  "us_patents": 4,
+  "jp_patents": 4,
+  "ep_patents": 0,
+  "cn_patents": 3,
+  "detected_overseas_regions": [
+    "CN",
+    "JP",
+    "US",
+    "WO"
+  ],
+  "global_extension_score": 26.33,
+  "bridge_adjustment_points": -1.0,
+  "bridge_signal": "IP_GLOBAL_EXTENSION_WEAK",
+  "top_overseas_family_patents": [
+    {
+      "application_number": "1020230130942",
+      "title": "셀-대-셀 비교 방법",
+      "family_record_count": 8,
+      "overseas_family_record_count": 6,
+      "jurisdictions": [
+        "CN",
+        "JP",
+        "KR",
+        "US",
+        "WO"
+      ],
+      "has_pct_or_wo": true,
+      "has_us": true,
+      "has_jp": true,
+      "has_ep": false,
+      "has_cn": true
+    },
+    {
+      "application_number": "1020210048890",
+      "title": "셀-대-셀 비교 방법",
+      "family_record_count": 8,
+      "overseas_family_record_count": 6,
+      "jurisdictions": [
+        "CN",
+        "JP",
+        "KR",
+        "US",
+        "WO"
+      ],
+      "has_pct_or_wo": true,
+      "has_us": true,
+      "has_jp": true,
+      "has_ep": false,
+      "has_cn": true
+    },
+    {
+      "application_number": "1020210106506",
+      "title": "반도체 기판의 정전기 제거 장치",
+      "family_record_count": 4,
+      "overseas_family_record_count": 4,
+      "jurisdictions": [
+        "JP",
+        "KR",
+        "US",
+        "WO"
+      ],
+      "has_pct_or_wo": true,
+      "has_us": true,
+      "has_jp": true,
+      "has_ep": false,
+      "has_cn": false
+    },
+    {
+      "application_number": "1020220169291",
+      "title": "실시간 가변 기능을 갖는 암시야 검사 장치",
+      "family_record_count": 5,
+      "overseas_family_record_count": 3,
+      "jurisdictions": [
+        "CN",
+        "JP",
+        "UNKNOWN",
+        "US"
+      ],
+      "has_pct_or_wo": false,
+      "has_us": true,
+      "has_jp": true,
+      "has_ep": false,
+      "has_cn": true
+    }
+  ],
+  "usage_rule": "Use this as an IP global expansion feature in Tech-to-Value Bridge. It indicates whether the patent portfolio has overseas family extension, but it is not direct revenue or commercialization evidence.",
+  "parse_error_count": 26,
+  "raw_jsonl": "data\\반도체\\넥스틴\\tech\\source\\nextin_kipris_plus_family_raw.jsonl",
+  "request_targets_csv": "data\\반도체\\넥스틴\\tech\\nextin_kipris_plus_family_request_targets.csv",
+  "created_at": "2026-05-20T22:10:22",
+  "request_config": {
+    "endpoint": "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
+    "key_param": "ServiceKey",
+    "app_param": "applicationNumber",
+    "api_key": "***KEY***",
+    "timeout": 90,
+    "sleep_sec": 0.8
+  }
+}

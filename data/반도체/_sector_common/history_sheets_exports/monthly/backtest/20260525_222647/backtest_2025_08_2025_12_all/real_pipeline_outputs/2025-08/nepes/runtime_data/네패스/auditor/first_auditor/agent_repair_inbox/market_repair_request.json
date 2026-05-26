@@ -1,0 +1,30 @@
+{
+  "repair_schema_version": "first_auditor_3stage_v1",
+  "created_at": "2026-05-24T15:05:25.408690+00:00",
+  "company_dir": "nepes",
+  "company": "네패스",
+  "target_agent": "market",
+  "pass_condition": "actual_match >= 75%",
+  "current_actual_match": 0.5833,
+  "stage_scores": {
+    "stage1_basic_consistency": 1.0,
+    "stage2_framework": 0.0,
+    "stage3_decision_readiness": 0.75
+  },
+  "issues": [
+    "framework criterion not visible: return",
+    "framework criterion not visible: drawdown",
+    "framework criterion not visible: liquidity",
+    "framework criterion not visible: volatility",
+    "market evidence is missing"
+  ],
+  "required_fix": [
+    "Remove sentences that are not connected to source files or the target company.",
+    "Keep numbers, units, and periods on the same scale as source CSV/JSON/disclosure/news/RSS values.",
+    "Do not create 10x or 100x unit-scale errors, such as overstating KRW 58.9 billion as KRW 589 billion.",
+    "For Issue/Market/Macro external API results, keep only items directly related to the company name, sector, and investment impact.",
+    "For Tech, separate registration, active-right status, claims, citations, family, and commercialization linkage from raw patent count.",
+    "For Finance/Valuation, separately disclose CB/BW, rights offerings, dilution, and overhang risks when applicable."
+  ],
+  "current_packet_preview": "{\"agent\": \"market\", \"company_name\": \"네패스\", \"summary\": \"market 실행 실패: load_workbook() got an unexpected keyword argument 'company'\", \"key_risks\": [\"market 산출물 확인 제한\"], \"status\": \"FAILED\", \"agent_name\": \"market\"}"
+}

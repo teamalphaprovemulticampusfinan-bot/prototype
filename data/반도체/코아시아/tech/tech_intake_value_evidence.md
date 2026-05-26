@@ -1,10 +1,10 @@
 # 코아시아 Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-25T20:55:19
+- 생성 시각: 2026-05-26T05:18:46
 - 종합 점수: 80.35/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 153개
+- 원천 문서 수: 155개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -32,18 +32,18 @@
 - [DIRECT_EVIDENCE] - 기술 우위가 확인되어도 고객 채택·양산·매출 전환·FCF 직접 근거가 약하면 보수적으로 반영합니다. (source=data/반도체/코아시아/tech/_nepes_reference_schema/nepes_tech_chair_summary.md, keywords=양산, urls=http://www.w3.org/2001/XMLSchema-instance, http://www.nepes.co.kr)
 
 ### 매출 전환
-- [DIRECT_EVIDENCE] summary: 코아시아는 2021년 이후 지속적인 매출 감소와 영업이익 적자를 기록하고 있으며, 2024년에는 매출이 더욱 감소하고 영업손실이 확대되었습니다. (source=data/반도체/코아시아/finance/코아시아_finance.json, keywords=매출, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: 코아시아는 2021년 이후 지속적인 매출 감소와 영업이익 적자를 기록하고 있으며, 2024년에는 매출이 더욱 감소하고 영업이익 적자 폭이 확대되었습니다. (source=data/반도체/코아시아/finance/코아시아_finance.json, keywords=매출, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] key_thesis: 2022년 매출 성장률이 20.75%를 기록했으나, 이후 2023년 -17.85%, 2024년 -5.25%로 역성장 전환되었습니다. (source=data/반도체/코아시아/finance/코아시아_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] missing_prompt_metrics: 매출성장률 (source=data/반도체/코아시아/finance/코아시아_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률 (source=data/반도체/코아시아/finance/코아시아_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] sales: 357809975395.0 (source=data/반도체/코아시아/finance/코아시아_finance_agent_packet.json, keywords=sales, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### 마진·원가·현금흐름 연결
-- [DIRECT_EVIDENCE] ROE 또한 지속적으로 마이너스 값을 기록하며 수익성 악화가 심화되고 있습니다. (source=data/반도체/코아시아/finance/코아시아_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2021년 이후 영업이익률이 지속적으로 마이너스(-)를 기록하며 수익성 개선이 이루어지지 않고 있습니다. (source=data/반도체/코아시아/finance/코아시아_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] ROE 또한 지속적으로 마이너스 값을 기록하며 수익성 개선이 시급한 상황입니다. (source=data/반도체/코아시아/finance/코아시아_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2021년 이후 영업이익률이 지속적으로 마이너스(-)를 기록하고 있으며, 2024년에는 -11.07%로 악화되었습니다. (source=data/반도체/코아시아/finance/코아시아_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] key_thesis: 2021년 4.2억 원의 긍정적인 잉여현금흐름(FCF)을 기록했으나, 2023년 -38.8억 원, 2024년 -784.1억 원으로 대폭 악화되었습니다. (source=data/반도체/코아시아/finance/코아시아_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_risks: 2024년 영업이익률이 -11.07%로 심화되었으며, 이는 딥테크 기업 특성상 기술 개발 및 투자 비용 증가로 인한 일시적 현상일 수 있으나 수익성 회복 여부 확인이 필요합니다. (source=data/반도체/코아시아/finance/코아시아_finance.json, keywords=영업이익률, 수익성, 비용, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_risks: 2024년 FCF가 -784.1억 원으로 대폭 감소하여 투자 및 운영 자금 조달에 대한 부담이 가중될 수 있습니다. (source=data/반도체/코아시아/finance/코아시아_finance.json, keywords=FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2024년 영업활동현금흐름(OCF)이 -722.9억 원으로 크게 악화되어 영업을 통한 현금 창출 능력이 저하되었습니다. (source=data/반도체/코아시아/finance/코아시아_finance.json, keywords=현금흐름, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 영업이익률 -11.07%로 수익성 부담을 확인해야 합니다. (source=data/반도체/코아시아/finance/코아시아_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### IP 품질
 - [DIRECT_EVIDENCE] legal_status: status=COLLECTED, count=None, score=0.8333, signal=None (source=data/반도체/코아시아/tech/coasia_tech_ip_legal_features.json, keywords=legal_status, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)

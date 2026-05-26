@@ -3,6 +3,51 @@
   "company": "두산테스나",
   "company_dir": "doosan_tesna",
   "opinion": "보유",
+  "tech_signal": 0.31488,
+  "history_tech_feature": {
+    "signal": 0.31488,
+    "status": "OK_TECH_HISTORY_ASOF",
+    "source": "C:\\Agent_6.9\\data\\반도체\\두산테스나\\tech\\tech_history_features_2025-08-31.csv;C:\\Agent_6.9\\data\\반도체\\두산테스나\\tech\\tech_history_features_2025-09-30.csv;C:\\Agent_6.9\\data\\반도체\\두산테스나\\tech\\doosan_tesna_kipris_patents_normalized.csv;C:\\Agent_6.9\\data\\반도체\\두산테스나\\tech\\doosan_tesna_tech_patent_normalized.csv;C:\\Agent_6.9\\data\\반도체\\두산테스나\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\두산테스나\\tech\\doosan_tesna_kipris_bibliographic_normalized.csv;C:\\Agent_6.9\\data\\반도체\\두산테스나\\tech\\doosan_tesna_kipris_claims_normalized.csv;C:\\Agent_6.9\\data\\반도체\\두산테스나\\tech\\doosan_tesna_kipris_plus_claim_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\두산테스나\\tech\\doosan_tesna_kipris_plus_family_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\두산테스나\\tech\\doosan_tesna_kipris_plus_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\두산테스나\\tech\\doosan_tesna_kipris_tech_ml_enriched.csv;C:\\Agent_6.9\\data\\반도체\\두산테스나\\tech\\source\\doosan_tesna_kipris_plus_bibliographic_raw.csv",
+    "as_of_date": "2025-09-30",
+    "company": "두산테스나",
+    "ticker": "131970.KQ",
+    "stock_code": "131970",
+    "base_signal": 0.328147,
+    "evidence_confidence": 0.778933,
+    "commercialization_gate_signal": 0.237103,
+    "technology_risk_penalty": 0.0,
+    "ip_quality_signal": -0.006212,
+    "lifecycle_signal": 0.0,
+    "technology_differentiation_signal": 0.138267,
+    "commercialization_signal": 0.948412,
+    "rnd_sustainability_signal": 0.446995,
+    "peer_position_signal": -0.152381,
+    "tech_to_value_signal": 0.593801,
+    "certification_signal": 0.0,
+    "qualification_signal": 0.0,
+    "cost_yield_signal": 0.0,
+    "workforce_signal": 0.0,
+    "government_rd_signal": 0.0,
+    "licensing_signal": 0.0,
+    "dispute_risk_signal": 0.0,
+    "failure_delay_signal": 0.0,
+    "intangible_accounting_signal": 0.0,
+    "patent_records_asof": 165,
+    "dated_records_asof": 116,
+    "undated_records_used": 117,
+    "files_used": 76,
+    "notes": "Tech history signal uses dated patent/IP, TRL/readiness, certification, qualification, commercialization, R&D/workforce, risk and accounting evidence before as_of_date; no Buy/Hold/Sell threshold is applied.",
+    "frequency": "monthly",
+    "formula": "final=base_signal*evidence_confidence + 0.25*commercialization_gate_signal - 0.35*technology_risk_penalty",
+    "research_basis": [
+      "Hall-Jaffe-Trajtenberg patent citations/value; Lanjouw-Schankerman patent quality; OECD patent quality composite indicators",
+      "DoD/NASA TRL and TRA maturity framework",
+      "IFC/Bpifrance deep-tech development-stage financing framework",
+      "Text-based industry/technology relatedness literature for peer/differentiation evidence"
+    ],
+    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\두산테스나\\tech\\tech_history_features_2025-09-30.json",
+    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\두산테스나\\tech\\tech_history_features_2025-09-30.csv"
+  },
   "claims": [
     {
       "claim_id": "tech.cl.000",
@@ -101,49 +146,49 @@
     {
       "title": "두산테스나 KIPRIS/특허 정량화 요약",
       "url": "",
-      "path": "data\\반도체\\두산테스나\\tech\\source\\doosan_tesna_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\두산테스나\\tech\\source\\doosan_tesna_kipris_plus_bibliographic_raw.csv",
       "snippet": "두산테스나 KIPRIS/특허 정량화 요약 본 특허 근거는 KIPRIS API/CSV/엑셀/TXT 원천 파일을 정규화해 산출했다. [정량 지표] - 특허 원천 파일 수: 1개 - 정규화 특허 레코드 수: 6건 - 출원인/권리자 회사 매칭 특허 수: 6건 - 등록 특허 수: 6건 - 존속 가능 특허 수: 3건 - 최근 5년 특허 수: 0건 - IPC/CPC 기술분류 수: 9개 - H01L 반도체 IPC 특허 수: 0건 - 반도체 핵심 IPC 특허 수: 2건 - 특허-기술 키워드 매칭 수: 1회 - 특허 포트폴리오 연도 범위: 2008~2014 - KIPRIS 총 특허 수: 6.0건 - KIPRIS 등록 특허 수(추정): 6",
       "relevance_score": 30
     },
     {
       "title": "생체인식여권을 이용한 출입국 관리시스템",
       "url": "",
-      "path": "data\\반도체\\두산테스나\\tech\\source\\doosan_tesna_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\두산테스나\\tech\\source\\doosan_tesna_kipris_plus_bibliographic_raw.csv",
       "snippet": "생체인식여권을 이용한 출입국 관리시스템 | (주)두산테스나 | 등록 | 2011 | 출원번호 1020110053922; 등록번호 1011007000000 | IPC/CPC: G06V, G07C | 기술매칭: 기술 키워드 미확인 | 초록: 본 발명은 출입국자의 사용자 본인을 인증하기 위하여 출입국자의 얼굴, 지문, 홍채 등의 생체정보를 여권 내의 칩에 저장하여, 여권을 사용해 출입국 심사를 자동적으로 행해 심사에 합격했을 경우에 출입국을 허가하도록 한 생체인식여권을 이용한 출입국 관리시스템 및 그 관리방법에 관한 것이다. 전술한, 본 발명의 특징은, 여권의 IC칩으로부터 데이터를 읽어드리는 여권리드부(20), 여권리드부(",
       "relevance_score": 61.0
     },
     {
       "title": "전자여권용 인레이시트의 가공장치",
       "url": "",
-      "path": "data\\반도체\\두산테스나\\tech\\source\\doosan_tesna_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\두산테스나\\tech\\source\\doosan_tesna_kipris_plus_bibliographic_raw.csv",
       "snippet": "전자여권용 인레이시트의 가공장치 | (주)두산테스나 | 등록 | 2012 | 출원번호 1020120002852; 등록번호 1011828190000 | IPC/CPC: G06K, B42D | 기술매칭: 기술 키워드 미확인 | 초록: 본 발명은 전자여권용 인레이시트의 가공장치(加工裝置)에 관한 것으로서, 더욱 상세하게는 인레이시트에 뚫려지는 구멍들의 천공(穿孔), 시트의 절단, 가압, 및 이송작업이 자동으로 이루어져 작업의 효율 및 생산성(生産性)]을 높여줄 수 있도록 한 발명에 관한 것이다. 전술한 본 발명은, 작업대(1) 양측에 장착된 스프로킷(11)들 사이에는 체인(12)이 결합되어 회전되고, 체인(12)의 내측에는",
       "relevance_score": 61.0
     },
     {
       "title": "여권표지",
       "url": "",
-      "path": "data\\반도체\\두산테스나\\tech\\source\\doosan_tesna_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\두산테스나\\tech\\source\\doosan_tesna_kipris_plus_bibliographic_raw.csv",
       "snippet": "여권표지 | (주)두산테스나 | 등록 | 2011 | 출원번호 1020110053917; 등록번호 1011069740000 | IPC/CPC: B42D, G06K | 기술매칭: 기술 키워드 미확인 | 초록: 본 발명은 여권표지에 관한 것으로서, 더욱 상세하게는 면코팅 겉표지에 테슬린(teslin) 속표지가 라미네이팅되어 표지들 사이에 내장된 안테나코일과 IC칩을 안전하게 보호하는 한편 내구성, 안정성, 제품의 일관성 유지, 인쇄성, 방수성 및 유연성이 양호한 고품질의 여권표지를 제공할 수 있도록 한 발명에 관한 것이다. 전술한 본 발명은, 면직물 외부에 코팅이 이루어진 면코팅지 겉표지(10)와;",
       "relevance_score": 61.0
     },
     {
       "title": "트랜스폰더 칩 및 이에 대응되는 인레이 기판에 안테나 연결시 생성되는 용접 탄화물의 제거방법",
       "url": "",
-      "path": "data\\반도체\\두산테스나\\tech\\source\\doosan_tesna_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\두산테스나\\tech\\source\\doosan_tesna_kipris_plus_bibliographic_raw.csv",
       "snippet": "트랜스폰더 칩 및 이에 대응되는 인레이 기판에 안테나 연결시 생성되는 용접 탄화물의 제거방법 | (주)두산테스나 | 소멸 | 2014 | 출원번호 1020140021352; 등록번호 1015542690000 | IPC/CPC: B23K, B24B, G06K | 기술매칭: 기판 | 초록: 본 발명은 트랜스폰더 칩 및 이에 대응되는 인레이 기판에 안테나 연결시 생성되는 용접 탄화물의 제거방법에 관한 것이다. 본 발명에 따른 트랜스폰더 칩 및 이에 대응되는 인레이 기판에 안테나 연결시 생성되는 용접 탄화물의 제거방법은 무선 주파수 인레이를 제조하는 과정에서 인레이 기판의 트랜스 폰더 영역 상에 칩 또는 칩 모듈을 기판 상에 ",
       "relevance_score": 60.5
     },
     {
       "title": "인레이 시트 가공장치 및 그 인레이 시트 가공방법",
       "url": "",
-      "path": "data\\반도체\\두산테스나\\tech\\source\\doosan_tesna_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\두산테스나\\tech\\source\\doosan_tesna_kipris_plus_bibliographic_raw.csv",
       "snippet": "인레이 시트 가공장치 및 그 인레이 시트 가공방법 | (주)두산테스나 | 소멸 | 2014 | 출원번호 1020140029899; 등록번호 1015241720000 | IPC/CPC: H10W, G06K | 기술매칭: 기술 키워드 미확인 | 초록: 본 발명은 인레이 시트 가공장치 및 그 인레이 시트 가공방법에 관한 것이다. 본 발명에 따른 인레이 시트 가공장치는 시트의 표면에 안테나 코일을 삽입시키고 상기 안테나 코일의 일단에 IC칩을 연결시키는 결합부와; 상기 시트의 표면 일영역에 배치되는 안테나 코일과 IC칩이 전기적으로 연결된 접점에 전도성 접착제를 토출시키는 토출부와; 상기 토출부를 가열시켜 상기 토출부의 온도가",
       "relevance_score": 56.0
     },
     {
       "title": "커스토머 트레이",
       "url": "",
-      "path": "data\\반도체\\두산테스나\\tech\\source\\doosan_tesna_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\두산테스나\\tech\\source\\doosan_tesna_kipris_plus_bibliographic_raw.csv",
       "snippet": "커스토머 트레이 | (주)두산테스나 | 소멸 | 2008 | 출원번호 1020080021462; 등록번호 1008889780000 | IPC/CPC: G01R, H10P | 기술매칭: 기술 키워드 미확인 | 초록: 본 발명은 커스토머 트레이에 관한 것으로, 그 구성은, 판상의 플레이트; 디바이스의 측면을 지지하는 가이드가 상기 플레이트에 돌출되어 상기 디바이스가 안착될 수 있는 안착부; 그리고, 상기 안착부의 바닥면에 원형으로 형성되는 요입부를 포함하여 구성될 수 있다. 디바이스, 트레이, 가이드",
       "relevance_score": 56.0
     }
@@ -375,7 +420,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\두산테스나\\tech\\doosan_tesna_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\두산테스나\\tech\\doosan_tesna_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-20T22:33:22",
+      "generated_at": "2026-05-26T09:27:15",
       "core_counts": {
         "total_patents": 6,
         "registered_patents_estimated": 6,
@@ -451,7 +496,7 @@
   "tech_chair_summary": {
     "agent": "tech",
     "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-    "created_at": "2026-05-20T22:34:06",
+    "created_at": "2026-05-26T09:30:06",
     "field": "반도체",
     "company": "두산테스나",
     "company_name": "두산테스나",
@@ -483,17 +528,17 @@
       "ip_evidence_composite_bridge_signal": "IP_EVIDENCE_NEUTRAL",
       "ip_evidence_composite_adjustment_points": 0.0,
       "ip_evidence_composite_data_coverage_rate": 1.0,
-      "ip_evidence_composite_source_file": "data/반도체/두산테스나/tech/tech_ip_evidence_composite.json",
+      "ip_evidence_composite_source_file": "C:/Agent_6.9/data/반도체/두산테스나/tech/tech_ip_evidence_composite.json",
       "peer_adjusted_bridge_score_before_ip_evidence": 42.0,
       "final_bridge_score_after_ip_evidence": 42.0,
       "ip_evidence_adjusted_score": 42.0,
       "ip_evidence_formula": "final_bridge_score_after_ip_evidence = peer_adjusted_bridge_score_before_ip_evidence + ip_evidence_composite_adjustment_points",
       "ip_evidence_adjusted_grade": "TECH_EVIDENCE_WEAK",
-      "investor_final_tech_score": 45.08,
+      "investor_final_tech_score": 55.48,
       "investor_final_tech_grade": {
-        "code": "EVIDENCE_WEAK_OR_EARLY",
-        "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
-        "threshold": 0.0
+        "code": "COMMERCIALIZATION_WATCH",
+        "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+        "threshold": 52.0
       },
       "value_evidence_score": 79.81,
       "value_evidence_label": "VALUE_EVIDENCE_STRONG"
@@ -557,14 +602,14 @@
       }
     ],
     "ip_quant_signals": {
-      "normalized_patent_text_records": 93,
-      "company_matched_patents": 51,
+      "normalized_patent_text_records": 1653,
+      "company_matched_patents": 1611,
       "registered_patents": 11,
-      "alive_patents": 26,
-      "recent_5y_patents": null,
+      "alive_patents": 1586,
+      "recent_5y_patents": 1560,
       "ipc_cpc_classes": null,
       "core_ipc_h01l_patents": null,
-      "keyword_matches": null
+      "keyword_matches": 9360
     },
     "selected_ml": {
       "peer_ml": {
@@ -574,9 +619,9 @@
         "cluster_name": null
       },
       "tech_ip_strength": {
-        "score": 21.14,
+        "score": 59.21,
         "percentile": 50.0,
-        "patent_momentum_score": 0.0,
+        "patent_momentum_score": 97.63,
         "dominant_topic": null
       },
       "technology_differentiation": {
@@ -740,15 +785,15 @@
       "ip_evidence_bridge_signal": "IP_EVIDENCE_NEUTRAL",
       "ip_evidence_bridge_adjustment_points": 0.0,
       "final_bridge_score_after_ip_evidence": 42.0,
-      "investor_final_tech_score": 45.08,
+      "investor_final_tech_score": 55.48,
       "investor_final_tech_grade": {
-        "code": "EVIDENCE_WEAK_OR_EARLY",
-        "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
-        "threshold": 0.0
+        "code": "COMMERCIALIZATION_WATCH",
+        "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+        "threshold": 52.0
       },
       "investor_evidence_count": 9,
-      "excel_quantified_evidence_score": 45.0,
-      "commercialization_and_funding_signal_score": 49.5
+      "excel_quantified_evidence_score": 90.0,
+      "commercialization_and_funding_signal_score": 63.5
     },
     "ip_legal_features": {
       "total_patents": 6,
@@ -1021,7 +1066,7 @@
       "company_name": "두산테스나",
       "field": "반도체",
       "status": "OK",
-      "created_at": "2026-05-20T22:33:43",
+      "created_at": "2026-05-26T09:27:17",
       "weights": {
         "legal_stability": 0.25,
         "claim_defense": 0.3,
@@ -1117,17 +1162,17 @@
       "tech_full_appendix_json": ""
     },
     "ip_evidence_bridge_adjustment_status": "APPLIED",
-    "ip_evidence_bridge_adjustment_applied_at": "2026-05-20T22:34:07",
+    "ip_evidence_bridge_adjustment_applied_at": "2026-05-26T09:30:08",
     "tech_investor_view": {
       "version": "tech-investor-scorecard-v2",
-      "generated_at": "2026-05-20T22:34:14",
+      "generated_at": "2026-05-26T09:30:25",
       "company_slug": "doosan_tesna",
       "company_name": "두산테스나",
-      "final_tech_investor_score": 45.08,
+      "final_tech_investor_score": 55.48,
       "final_tech_investor_grade": {
-        "code": "EVIDENCE_WEAK_OR_EARLY",
-        "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
-        "threshold": 0.0
+        "code": "COMMERCIALIZATION_WATCH",
+        "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+        "threshold": 52.0
       },
       "score_policy": {
         "description": "개인투자자용 최종 Tech 점수는 기술-사업화 연결 가능성, IP 품질, Excel/DART 정량 근거, 근거 신뢰도, 딥테크 성장투자 지속성을 하나로 합성한다.",
@@ -1287,53 +1332,54 @@
         },
         "excel_quantified_evidence": {
           "label": "Excel 기반 정량 근거",
-          "score": 45.0,
+          "score": 90.0,
           "weight": 0.15,
           "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지",
           "meta": {
-            "score": 45.0,
-            "company_item_count": 8,
-            "filled_count": 0,
+            "score": 90.0,
+            "company_item_count": 22,
+            "filled_count": 22,
             "metric_row_count": 0,
-            "numeric_signal_count": 0,
-            "category_count": 7,
+            "numeric_signal_count": 122,
+            "category_count": 8,
             "unique_metric_count": 0,
             "formula_rule_count": 0,
-            "coverage_ratio": 0.0,
-            "numeric_density": 0.0
+            "coverage_ratio": 1.0,
+            "numeric_density": 5.5455
           }
         },
         "evidence_confidence": {
           "label": "근거 직접성·충분성",
-          "score": 43.4,
+          "score": 58.4,
           "weight": 0.15,
           "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성",
           "meta": {
-            "score": 43.4,
+            "score": 58.4,
             "evidence_count": 4,
             "claim_count": 4,
             "patent_count": 6,
-            "excel_coverage_ratio": 0.0
+            "excel_coverage_ratio": 1.0
           }
         },
         "commercialization_and_funding_signal": {
           "label": "사업화·성장자금 지속성",
-          "score": 49.5,
+          "score": 63.5,
           "weight": 0.1,
           "meaning": "R&D·특허·정부과제·기술이전·CAPEX/희석성 자금조달이 사업화와 연결되는 정도",
           "meta": {
-            "score": 49.5,
-            "detected_signal_groups": [],
+            "score": 63.5,
+            "detected_signal_groups": [
+              "commercial"
+            ],
             "detected_flags": {
               "rd": false,
-              "commercial": false,
+              "commercial": true,
               "government": false,
               "transfer": false,
               "funding": false
             },
             "recent_5y_patents": null,
             "warnings": [
-              "customer_mass_production_revenue_signal_limited",
               "rd_or_recent_patent_continuity_limited",
               "capital_raising_signal_not_explicitly_detected"
             ],
@@ -1361,31 +1407,31 @@
         {
           "component": "excel_quantified_evidence",
           "label": "Excel 기반 정량 근거",
-          "score": 45.0,
+          "score": 90.0,
           "weight": 0.15,
-          "weighted_score": 6.75,
+          "weighted_score": 13.5,
           "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지"
         },
         {
           "component": "evidence_confidence",
           "label": "근거 직접성·충분성",
-          "score": 43.4,
+          "score": 58.4,
           "weight": 0.15,
-          "weighted_score": 6.51,
+          "weighted_score": 8.76,
           "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성"
         },
         {
           "component": "commercialization_and_funding_signal",
           "label": "사업화·성장자금 지속성",
-          "score": 49.5,
+          "score": 63.5,
           "weight": 0.1,
-          "weighted_score": 4.95,
+          "weighted_score": 6.35,
           "meaning": "R&D·특허·정부과제·기술이전·CAPEX/희석성 자금조달이 사업화와 연결되는 정도"
         }
       ],
       "key_takeaways": [
-        "두산테스나의 개인투자자용 Tech 최종 점수는 45.08/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
-        "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(42.0)와 IP Evidence(50.37) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+        "두산테스나의 개인투자자용 Tech 최종 점수는 55.48/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
+        "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(42.0)와 IP Evidence(50.37) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
         "투자자가 확인할 핵심 근거는 9개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
       ],
       "investor_evidence": [
@@ -1452,7 +1498,7 @@
         {
           "source": "tech_summary",
           "title": "Tech Agent 핵심 해석",
-          "detail": "두산테스나의 개인투자자용 Tech 최종 점수는 45.08/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
+          "detail": "두산테스나의 개인투자자용 Tech 최종 점수는 54.08/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
           "value": null,
           "unit": null,
           "path": null,
@@ -1462,7 +1508,7 @@
         {
           "source": "tech_summary",
           "title": "Tech Agent 핵심 해석",
-          "detail": "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(42.0)와 IP Evidence(50.37) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+          "detail": "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(42.0)와 IP Evidence(50.37) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
           "value": null,
           "unit": null,
           "path": null,
@@ -1502,21 +1548,22 @@
       }
     },
     "key_takeaways": [
-      "두산테스나의 개인투자자용 Tech 최종 점수는 45.08/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
-      "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(42.0)와 IP Evidence(50.37) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+      "두산테스나의 개인투자자용 Tech 최종 점수는 55.48/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
+      "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(42.0)와 IP Evidence(50.37) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
       "투자자가 확인할 핵심 근거는 9개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다.",
+      "두산테스나의 개인투자자용 Tech 최종 점수는 54.08/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
       "투자자가 확인할 핵심 근거는 6개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
     ],
     "value_evidence_bridge": {
       "agent": "tech_intake",
       "artifact": "tech_intake_value_evidence_bridge",
       "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-      "created_at": "2026-05-20T22:34:12",
+      "created_at": "2026-05-26T09:30:23",
       "field": "반도체",
       "company": "두산테스나",
       "company_dir": "doosan_tesna",
       "company_slug": "doosan_tesna",
-      "source_document_count": 131,
+      "source_document_count": 149,
       "source_documents": [
         {
           "source_group": "KIPRIS",
@@ -1683,7 +1730,7 @@
         {
           "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/두산테스나/tech/doosan_tesna_tech_intake_value_evidence.json",
-          "detected_url_count": 20,
+          "detected_url_count": 10,
           "fallback_url_count": 0
         },
         {
@@ -1904,6 +1951,30 @@
         },
         {
           "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/두산테스나/tech/tech_history_features_2025-08-31.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/두산테스나/tech/tech_history_features_2025-08-31.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/두산테스나/tech/tech_history_features_2025-09-30.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/두산테스나/tech/tech_history_features_2025-09-30.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/두산테스나/tech/tech_intake_manifest.json",
           "detected_url_count": 0,
           "fallback_url_count": 2
@@ -1917,7 +1988,7 @@
         {
           "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/두산테스나/tech/tech_intake_value_evidence.json",
-          "detected_url_count": 20,
+          "detected_url_count": 10,
           "fallback_url_count": 0
         },
         {
@@ -2162,6 +2233,114 @@
         },
         {
           "source_group": "VALUATION",
+          "source_file": "data/반도체/두산테스나/valuation/intake/company_profile.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/두산테스나/valuation/intake/cross_agent_signals_for_valuation.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/두산테스나/valuation/intake/dcf_inputs.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/두산테스나/valuation/intake/dilution_events.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/두산테스나/valuation/intake/eval_price_history.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/두산테스나/valuation/intake/eval_price_history_monthly.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/두산테스나/valuation/intake/eval_price_history_monthly_v43.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/두산테스나/valuation/intake/eval_price_history_monthly_v44.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/두산테스나/valuation/intake/eval_price_history_monthly_v45.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/두산테스나/valuation/intake/eval_price_history_v43.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/두산테스나/valuation/intake/eval_price_history_v44.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/두산테스나/valuation/intake/eval_price_history_v45.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/두산테스나/valuation/intake/financials_normalized.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/두산테스나/valuation/intake/peer_multiples.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/두산테스나/valuation/intake/price_history.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/두산테스나/valuation/intake/relative_valuation_inputs.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/두산테스나/valuation/intake/shares_outstanding.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/두산테스나/valuation/intake/valuation_assumptions.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
           "source_file": "data/반도체/두산테스나/valuation/intake/valuation_assumptions.json",
           "detected_url_count": 0,
           "fallback_url_count": 5
@@ -2222,12 +2401,6 @@
         },
         {
           "source_group": "VALUATION",
-          "source_file": "data/반도체/두산테스나/valuation/intake/valuation_raw_dart_accounts.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "VALUATION",
           "source_file": "data/반도체/두산테스나/valuation/intake/valuation_reference_universe_208.csv",
           "detected_url_count": 0,
           "fallback_url_count": 5
@@ -2241,12 +2414,6 @@
         {
           "source_group": "VALUATION",
           "source_file": "data/반도체/두산테스나/valuation/intake/valuation_reference_universe_summary.json",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "VALUATION",
-          "source_file": "data/반도체/두산테스나/valuation/intake/valuation_share_count.csv",
           "detected_url_count": 0,
           "fallback_url_count": 5
         },
@@ -2276,19 +2443,7 @@
         },
         {
           "source_group": "FINANCE",
-          "source_file": "data/반도체/두산테스나/finance/두산테스나_stock.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "FINANCE",
           "source_file": "data/반도체/두산테스나/finance/두산테스나_재무.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/두산테스나/finance/두산테스나_재무데이터.csv",
           "detected_url_count": 0,
           "fallback_url_count": 5
         },
@@ -2301,8 +2456,8 @@
         {
           "source_group": "FINANCE",
           "source_file": "data/반도체/두산테스나/finance/intake/finance_intake_manifest.json",
-          "detected_url_count": 1,
-          "fallback_url_count": 0
+          "detected_url_count": 0,
+          "fallback_url_count": 5
         }
       ],
       "source_url_map": {
@@ -2349,24 +2504,26 @@
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726290cf34868b8dde8ba495671026c14ba2121fde54855ec0d96368f08214898595804d8f232a8264b92dbb7f7e018d1b1ac107cd0efc22610",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7267ef1b6c0c8930cd52ef76edf01c3f2fd66a0e85047b312c6f764d8672636c6a40ab72c75f0b482fe560abc5367fac1665b6542c7635c0668",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00506c38fc1ea148acd7a18b033fe2edc8b3a784551c902521097772dc93a119f7f2fcbd63ac0e53c362f751e77e7bc6f3fa6ec6f4f378ef7a",
-            "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/applicantNameSearchInfo",
+            "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020110053917&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+            "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020110053922&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+            "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020120002852&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+            "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020080021462",
+            "http://www.w3.org/2001/XMLSchema-instance",
+            "http://www.nepes.co.kr",
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
             "https://www.kipris.or.kr/khome/main.jsp",
             "https://plus.kipris.or.kr/",
             "https://www.google.com/search?q=%EB%91%90%EC%82%B0%ED%85%8C%EC%8A%A4%EB%82%98+KIPRIS+%ED%8A%B9%ED%97%88",
             "https://www.google.com/search?q=%EB%91%90%EC%82%B0%ED%85%8C%EC%8A%A4%EB%82%98+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
-            "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
-            "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
-            "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1126",
             "https://www.google.com/search?q=%EB%91%90%EC%82%B0%ED%85%8C%EC%8A%A4%EB%82%98+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
             "https://www.google.com/search?q=%EB%91%90%EC%82%B0%ED%85%8C%EC%8A%A4%EB%82%98+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
             "https://www.google.com/search?q=%EB%91%90%EC%82%B0%ED%85%8C%EC%8A%A4%EB%82%98+IR",
             "https://www.google.com/search?q=%EB%91%90%EC%82%B0%ED%85%8C%EC%8A%A4%EB%82%98+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
             "https://www.google.com/search?q=%EB%91%90%EC%82%B0%ED%85%8C%EC%8A%A4%EB%82%98+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
             "https://www.google.com/search?q=%EB%91%90%EC%82%B0%ED%85%8C%EC%8A%A4%EB%82%98+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
-            "http://www.w3.org/2001/XMLSchema-instance",
-            "http://www.nepes.co.kr",
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/"
+            "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
+            "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1126"
           ],
           "fallback_urls": [
             "https://www.google.com/search?q=%EB%91%90%EC%82%B0%ED%85%8C%EC%8A%A4%EB%82%98+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
@@ -2389,12 +2546,12 @@
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00506c38fc1ea148acd7a18b033fe2edc8b3a784551c902521097772dc93a119f7f2fcbd63ac0e53c362f751e77e7bc6f3fa6ec6f4f378ef7a",
             "https://www.google.com/search?q=%EB%91%90%EC%82%B0%ED%85%8C%EC%8A%A4%EB%82%98+KIPRIS+%ED%8A%B9%ED%97%88",
             "https://www.google.com/search?q=%EB%91%90%EC%82%B0%ED%85%8C%EC%8A%A4%EB%82%98+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
-            "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
-            "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
             "https://www.google.com/search?q=%EB%91%90%EC%82%B0%ED%85%8C%EC%8A%A4%EB%82%98+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
             "https://www.google.com/search?q=%EB%91%90%EC%82%B0%ED%85%8C%EC%8A%A4%EB%82%98+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
             "https://www.google.com/search?q=%EB%91%90%EC%82%B0%ED%85%8C%EC%8A%A4%EB%82%98+IR",
             "https://www.google.com/search?q=%EB%91%90%EC%82%B0%ED%85%8C%EC%8A%A4%EB%82%98+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+            "https://www.google.com/search?q=%EB%91%90%EC%82%B0%ED%85%8C%EC%8A%A4%EB%82%98+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
+            "https://www.google.com/search?q=%EB%91%90%EC%82%B0%ED%85%8C%EC%8A%A4%EB%82%98+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
             "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
             "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9328f5a912c888a1604ff579e87f821b091a0665246f3173a6cae241fd42c7005fb584f7181202ddb2669153aa54387f5f558cf6b7b6d352be",
@@ -2430,9 +2587,7 @@
           ]
         },
         "FINANCE": {
-          "detected_urls": [
-            "https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception"
-          ],
+          "detected_urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
             "https://opendart.fss.or.kr/",
@@ -2779,24 +2934,7 @@
                 "매출",
                 "성장"
               ],
-              "snippet": "summary: 두산테스나는 2023년 견조한 매출과 영업이익을 기록했으나, 2024년에는 매출 성장에도 불구하고 영업이익률이 크게 하락하며 수익성이 악화되는 모습을 보였다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EB%91%90%EC%82%B0%ED%85%8C%EC%8A%A4%EB%82%98+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/두산테스나/finance/두산테스나_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "매출"
-              ],
-              "snippet": "2025년에는 매출이 감소하고 영업이익이 적자 전환하며 재무 상태에 대한 우려가 제기된다.",
+              "snippet": "summary: 두산테스나는 2023년까지 매출이 꾸준히 성장했으나, 2024년에는 영업이익률이 크게 하락하며 수익성이 악화되는 모습을 보였다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -2812,9 +2950,9 @@
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
                 "매출",
-                "매출액"
+                "성장"
               ],
-              "snippet": "key_thesis: 2023년 매출액 3,386억원, 영업이익 607억원을 기록하며 견조한 실적을 달성했다.",
+              "snippet": "key_thesis: 2021년 2075억에서 2023년 3386억으로 매출이 꾸준히 성장했으나, 2024년에는 3731억으로 성장률이 둔화되었다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -2850,7 +2988,7 @@
                 "매출",
                 "성장"
               ],
-              "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수",
+              "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -2867,7 +3005,24 @@
               "matched_keywords": [
                 "sales"
               ],
-              "snippet": "sales: 303874072000.0",
+              "snippet": "sales: 373117930000.0",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EB%91%90%EC%82%B0%ED%85%8C%EC%8A%A4%EB%82%98+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/두산테스나/finance/두산테스나_finance_agent_packet.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "sales"
+              ],
+              "snippet": "sales_growth: 10.177305780332755",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -2884,7 +3039,7 @@
               "matched_keywords": [
                 "sales"
               ],
-              "snippet": "year: 2023 | sales: 338652254525.0 | operating_income: 60778799323.0 | net_income: 49077381672.0 | total_assets: 763115310220.0 | total_liabilities: 359477895356.0 | total_equity: 403637414864.0 | fcf: 0 | interest: 18500261172.0 | ROE: 12.158779108357916 | 영업이익률: 17.94725961835083 | 부채비율: 89.05960699335097 | 이자보상배율: 3.28529412411692",
+              "snippet": "year: 2021 | sales: 207584466664.0 | operating_income: 54062137444.0 | net_income: 47166344546.0 | total_assets: 533494570498.0 | total_liabilities: 271083697692.0 | total_equity: 262410872806.0 | current_assets: 78605424427.0 | current_liabilities: 159228833215.0 | fcf: 0 | interest_expense: 3105180397.0 | roe: 17.974234086279655 | operating_margin: 26.043440683596984 | current_ratio_%: 49.36632570865002 | debt_rati",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -2901,7 +3056,7 @@
               "matched_keywords": [
                 "sales"
               ],
-              "snippet": "year: 2024 | sales: 373117930000.0 | operating_income: 37923282000.0 | net_income: 36781312000.0 | total_assets: 787696560000.0 | total_liabilities: 350030052000.0 | total_equity: 437666508000.0 | capex: 183592765000.0 | ocf: 219237154000.0 | fcf: 35644389000 | interest: 15554252000.0 | ROE: 8.403958568381018 | 영업이익률: 10.163886254407554 | 부채비율: 79.97643082161544 | 이자보상배율: 2.438129586687936",
+              "snippet": "year: 2022 | sales: 277655937555.0 | operating_income: 67169269292.0 | net_income: 52333033783.0 | total_assets: 767016734136.0 | total_liabilities: 457182712027.0 | total_equity: 309834022109.0 | current_assets: 107927202623.0 | current_liabilities: 275679314425.0 | fcf: 0 | interest_expense: 6829168277.0 | roe: 16.890667276232556 | operating_margin: 24.191547958053174 | current_ratio_%: 39.14954694664338 | debt_rat",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -2933,25 +3088,7 @@
                 "영업이익률",
                 "수익성"
               ],
-              "snippet": "summary: 두산테스나는 2023년 견조한 매출과 영업이익을 기록했으나, 2024년에는 매출 성장에도 불구하고 영업이익률이 크게 하락하며 수익성이 악화되는 모습을 보였다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EB%91%90%EC%82%B0%ED%85%8C%EC%8A%A4%EB%82%98+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/두산테스나/finance/두산테스나_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "영업이익률",
-                "수익성"
-              ],
-              "snippet": "key_thesis: 2023년 영업이익률 17.95%, ROE 12.16%를 기록하며 수익성이 양호한 수준이었다.",
+              "snippet": "summary: 두산테스나는 2023년까지 매출이 꾸준히 성장했으나, 2024년에는 영업이익률이 크게 하락하며 수익성이 악화되는 모습을 보였다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -2967,9 +3104,46 @@
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
                 "현금흐름",
-                "FCF"
+                "FCF",
+                "CAPEX"
               ],
-              "snippet": "key_thesis: 2024년 FCF 356억원을 기록하며 긍정적인 현금흐름을 창출했다.",
+              "snippet": "2024년 CAPEX 투자가 크게 증가했으며, 이에 따라 잉여현금흐름(FCF)은 양수로 전환되었다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EB%91%90%EC%82%B0%ED%85%8C%EC%8A%A4%EB%82%98+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/두산테스나/finance/두산테스나_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "영업이익률"
+              ],
+              "snippet": "key_thesis: 영업이익률은 2021년 26.04%에서 2023년 17.95%로 하락했으며, 2024년에는 10.16%로 크게 감소했다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EB%91%90%EC%82%B0%ED%85%8C%EC%8A%A4%EB%82%98+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/두산테스나/finance/두산테스나_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "현금흐름",
+                "FCF",
+                "CAPEX"
+              ],
+              "snippet": "key_thesis: 2024년 CAPEX 투자가 1835억으로 크게 증가했으며, 이에 따라 잉여현금흐름(FCF)은 356억으로 양수로 전환되었다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -2987,7 +3161,7 @@
                 "영업이익률",
                 "수익성"
               ],
-              "snippet": "key_risks: 2024년 영업이익률이 10.16%로 크게 하락했으며, 2025년에는 -0.31%로 적자 전환하며 수익성 악화가 심화되었다.",
+              "snippet": "key_risks: 영업이익률이 2024년 10.16%로 크게 하락하여 수익성 개선 여부가 불확실하다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3004,7 +3178,7 @@
               "matched_keywords": [
                 "수익성"
               ],
-              "snippet": "key_risks: 2024년 ROE 8.40%, 2025년 ROE 0.35%로 자본 대비 수익성이 크게 감소했다.",
+              "snippet": "key_risks: ROE가 2024년 8.40%로 지속적으로 하락하고 있어 자본 대비 수익성이 낮다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3019,9 +3193,10 @@
               "source_file": "data/반도체/두산테스나/finance/두산테스나_finance_agent_packet.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
-                "FCF"
+                "영업이익률",
+                "수익성"
               ],
-              "snippet": "report_core_points: FCF: 두산테스나 2025 기준 FCF 값은 0원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+              "snippet": "report_core_points: 영업이익률: 두산테스나 2024 기준 영업이익률 값은 10.16%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3036,26 +3211,9 @@
               "source_file": "data/반도체/두산테스나/finance/두산테스나_finance_agent_packet.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
-                "영업이익률"
+                "수익성"
               ],
-              "snippet": "missing_prompt_metrics: 영업이익률",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EB%91%90%EC%82%B0%ED%85%8C%EC%8A%A4%EB%82%98+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/두산테스나/finance/두산테스나_finance_agent_packet.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "FCF"
-              ],
-              "snippet": "metric: fcf",
+              "snippet": "report_core_points: ROE: 두산테스나 2024 기준 ROE 값은 8.40%이며, 자기자본 대비 수익성 수준을 확인하는 지표입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3271,7 +3429,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\두산테스나\\tech\\doosan_tesna_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\두산테스나\\tech\\doosan_tesna_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-20T22:33:22",
+      "generated_at": "2026-05-26T09:27:15",
       "core_counts": {
         "total_patents": 6,
         "registered_patents_estimated": 6,
@@ -3341,8 +3499,8 @@
     "bridge_signal": "IP_QUALITY_NEUTRAL"
   },
   "formula_catalog_summary": {
-    "json": "data\\반도체\\두산테스나\\tech\\doosan_tesna_tech_formula_rules.json",
-    "md": "data\\반도체\\두산테스나\\tech\\doosan_tesna_tech_formula_rules.md",
+    "json": "C:\\Agent_6.9\\data\\반도체\\두산테스나\\tech\\doosan_tesna_tech_formula_rules.json",
+    "md": "C:\\Agent_6.9\\data\\반도체\\두산테스나\\tech\\doosan_tesna_tech_formula_rules.md",
     "rule_count": 34
   },
   "evidence_harvest_summary": {
@@ -3378,6 +3536,8 @@
     "tech_full_appendix_json": null,
     "tech_chair_summary_json": "data/반도체/두산테스나/tech/tech_chair_summary.json",
     "tech_chair_summary_md": "data/반도체/두산테스나/tech/doosan_tesna_tech_chair_summary.md",
+    "tech_history_feature_json": "data/반도체/두산테스나/tech/tech_history_features_2025-09-30.json",
+    "tech_history_feature_csv": "data/반도체/두산테스나/tech/tech_history_features_2025-09-30.csv",
     "tech_json": "data/반도체/두산테스나/tech/doosan_tesna_tech.json",
     "tech_agent_packet_json": "data/반도체/두산테스나/tech/doosan_tesna_tech_agent_packet.json"
   },
@@ -4263,7 +4423,7 @@
     "field": "반도체",
     "source_csv": "data\\반도체\\두산테스나\\tech\\doosan_tesna_kipris_patents_normalized.csv",
     "enriched_csv": "data\\반도체\\두산테스나\\tech\\doosan_tesna_kipris_tech_ml_enriched.csv",
-    "generated_at": "2026-05-20T22:33:22",
+    "generated_at": "2026-05-26T09:27:15",
     "core_counts": {
       "total_patents": 6,
       "registered_patents_estimated": 6,

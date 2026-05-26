@@ -1,10 +1,10 @@
 # 한미반도체 Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-25T19:53:43
+- 생성 시각: 2026-05-26T12:13:59
 - 종합 점수: 79.47/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 169개
+- 원천 문서 수: 170개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -104,7 +104,7 @@
   - fallback: https://comp.fnguide.com/
   - fallback: https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84+FCF
 - **FINANCE**
-  - detected: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+  - detected: URL 확인 제한
   - fallback: https://dart.fss.or.kr/
   - fallback: https://opendart.fss.or.kr/
   - fallback: https://finance.naver.com/

@@ -1,0 +1,85 @@
+{
+  "company_dir": "nepes",
+  "company_name": "네패스",
+  "technology_differentiation_score": 57.59,
+  "component_scores": {
+    "peer_uniqueness_score": 50.0,
+    "topic_distinctiveness_score": 93.15,
+    "ipc_specialization_score": 54.0,
+    "keyword_uniqueness_score": 30.0
+  },
+  "nearest_peer": {
+    "company_dir": "ltc",
+    "company_name": "엘티씨",
+    "cosine_similarity": 0.4264,
+    "technology_distance": 0.5736
+  },
+  "peer_similarity_top": [
+    {
+      "company_dir": "ltc",
+      "company_name": "엘티씨",
+      "cosine_similarity": 0.4264,
+      "technology_distance": 0.5736
+    },
+    {
+      "company_dir": "hansol",
+      "company_name": "한솔케미칼",
+      "cosine_similarity": 0.4054,
+      "technology_distance": 0.5946
+    },
+    {
+      "company_dir": "hanmi",
+      "company_name": "한미반도체",
+      "cosine_similarity": 0.3358,
+      "technology_distance": 0.6642
+    },
+    {
+      "company_dir": "duksan",
+      "company_name": "덕산테코피아",
+      "cosine_similarity": 0.172,
+      "technology_distance": 0.828
+    }
+  ],
+  "dominant_topic": {
+    "topic_id": 4,
+    "topic_label": "패키지 / 재배선 / 전기적으로 / 도전성",
+    "weight": 0.9311,
+    "margin": 0.8928,
+    "rarity": 100.0
+  },
+  "unique_terms": [
+    "재배선",
+    "패키지 재배선",
+    "전기적 연결",
+    "재배치",
+    "재배선 패키지",
+    "실런트",
+    "리드 실런트",
+    "재배선 구조체",
+    "산변성",
+    "패키지 제조방법",
+    "전극 리드",
+    "유기발광"
+  ],
+  "raw_metrics": {
+    "normalized_patent_records": 840,
+    "company_matched_patents": 828,
+    "registered_patents": 477,
+    "alive_patents": 517,
+    "recent_5y_patents": 122,
+    "ipc_cpc_classes": 102,
+    "core_ipc_h01l_patents": 12,
+    "patent_keyword_matches": 1652,
+    "patent_year_min": 2000,
+    "patent_year_max": 2026,
+    "source_files": [
+      "data\\반도체\\네패스\\tech\\source\\kipris_nepes_patents.csv",
+      "data\\반도체\\네패스\\tech\\nepes_tech_patent_normalized.csv",
+      "data\\반도체\\네패스\\tech\\nepes_tech_patent_evidence.json"
+    ]
+  },
+  "limitations": [],
+  "technology_differentiation_percentile": 50.0,
+  "technology_differentiation_grade": "MODERATE_DIFFERENTIATION",
+  "interpretation": "네패스의 Technology Differentiation Score는 57.59/100, percentile 50.0로 산출되어 보통 차별화형으로 해석됩니다. 가장 유사한 peer는 엘티씨(cosine similarity=0.4264)이며, 주된 NMF 기술 주제는 '패키지 / 재배선 / 전기적으로 / 도전성'입니다. 이 점수는 특허/IP 포트폴리오의 차별성 신호이며 고객 채택·양산·매출 전환·FCF 개선 근거를 대체하지 않습니다."
+}

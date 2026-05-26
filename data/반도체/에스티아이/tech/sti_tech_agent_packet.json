@@ -3,26 +3,26 @@
   "company": "에스티아이",
   "company_dir": "sti",
   "opinion": "보유",
-  "tech_signal": 0.312702,
+  "tech_signal": 0.315142,
   "history_tech_feature": {
-    "signal": 0.312702,
+    "signal": 0.315142,
     "status": "OK_TECH_HISTORY_ASOF",
-    "source": "C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\sti_kipris_patents_normalized.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\sti_tech_patent_normalized.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\source\\sti_kipris_plus_bibliographic_raw.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\sti_kipris_bibliographic_normalized.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\sti_kipris_claims_normalized.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\sti_kipris_plus_claim_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\sti_kipris_plus_family_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\sti_kipris_plus_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\sti_kipris_tech_ml_enriched.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\quanified_metrix.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\tech_excel_frame_items.csv",
-    "as_of_date": "2025-08-31",
+    "source": "C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\tech_history_features_2025-08-31.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\sti_kipris_patents_normalized.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\sti_tech_patent_normalized.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\source\\sti_kipris_plus_bibliographic_raw.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\sti_kipris_bibliographic_normalized.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\sti_kipris_claims_normalized.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\sti_kipris_plus_claim_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\sti_kipris_plus_family_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\sti_kipris_plus_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\sti_kipris_tech_ml_enriched.csv;C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\quanified_metrix.csv",
+    "as_of_date": "2025-09-30",
     "company": "에스티아이",
     "ticker": "039440.KQ",
     "stock_code": "039440",
-    "base_signal": 0.321634,
-    "evidence_confidence": 0.789045,
-    "commercialization_gate_signal": 0.235671,
+    "base_signal": 0.324777,
+    "evidence_confidence": 0.789028,
+    "commercialization_gate_signal": 0.235533,
     "technology_risk_penalty": 0.0,
-    "ip_quality_signal": 0.04587,
+    "ip_quality_signal": 0.048129,
     "lifecycle_signal": 0.0,
-    "technology_differentiation_signal": 0.113885,
-    "commercialization_signal": 0.942684,
-    "rnd_sustainability_signal": 0.468756,
+    "technology_differentiation_signal": 0.116972,
+    "commercialization_signal": 0.942133,
+    "rnd_sustainability_signal": 0.478378,
     "peer_position_signal": -0.22381,
-    "tech_to_value_signal": 0.582422,
+    "tech_to_value_signal": 0.586861,
     "certification_signal": 0.0,
     "qualification_signal": 0.0,
     "cost_yield_signal": 0.0,
@@ -32,10 +32,10 @@
     "dispute_risk_signal": 0.0,
     "failure_delay_signal": 0.0,
     "intangible_accounting_signal": 0.0,
-    "patent_records_asof": 1070,
-    "dated_records_asof": 463,
+    "patent_records_asof": 1078,
+    "dated_records_asof": 472,
     "undated_records_used": 673,
-    "files_used": 72,
+    "files_used": 74,
     "notes": "Tech history signal uses dated patent/IP, TRL/readiness, certification, qualification, commercialization, R&D/workforce, risk and accounting evidence before as_of_date; no Buy/Hold/Sell threshold is applied.",
     "frequency": "monthly",
     "formula": "final=base_signal*evidence_confidence + 0.25*commercialization_gate_signal - 0.35*technology_risk_penalty",
@@ -45,8 +45,8 @@
       "IFC/Bpifrance deep-tech development-stage financing framework",
       "Text-based industry/technology relatedness literature for peer/differentiation evidence"
     ],
-    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\tech_history_features_2025-08-31.json",
-    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\tech_history_features_2025-08-31.csv"
+    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\tech_history_features_2025-09-30.json",
+    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\에스티아이\\tech\\tech_history_features_2025-09-30.csv"
   },
   "claims": [
     {
@@ -373,7 +373,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\에스티아이\\tech\\sti_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\에스티아이\\tech\\sti_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-25T21:46:39",
+      "generated_at": "2026-05-26T06:42:11",
       "core_counts": {
         "total_patents": 58,
         "registered_patents_estimated": 26,
@@ -467,7 +467,7 @@
   "tech_chair_summary": {
     "agent": "tech",
     "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-    "created_at": "2026-05-25T21:49:02",
+    "created_at": "2026-05-26T06:44:07",
     "field": "반도체",
     "company": "에스티아이",
     "company_name": "에스티아이",
@@ -1213,7 +1213,7 @@
       "company_name": "에스티아이",
       "field": "반도체",
       "status": "OK",
-      "created_at": "2026-05-25T21:46:41",
+      "created_at": "2026-05-26T06:42:13",
       "weights": {
         "legal_stability": 0.25,
         "claim_defense": 0.3,
@@ -1309,10 +1309,10 @@
       "tech_full_appendix_json": ""
     },
     "ip_evidence_bridge_adjustment_status": "APPLIED",
-    "ip_evidence_bridge_adjustment_applied_at": "2026-05-25T21:49:33",
+    "ip_evidence_bridge_adjustment_applied_at": "2026-05-26T06:44:23",
     "tech_investor_view": {
       "version": "tech-investor-scorecard-v2",
-      "generated_at": "2026-05-25T21:51:57",
+      "generated_at": "2026-05-26T06:45:18",
       "company_slug": "sti",
       "company_name": "에스티아이",
       "final_tech_investor_score": 49.67,
@@ -1703,12 +1703,12 @@
       "agent": "tech_intake",
       "artifact": "tech_intake_value_evidence_bridge",
       "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-      "created_at": "2026-05-25T21:51:54",
+      "created_at": "2026-05-26T06:45:16",
       "field": "반도체",
       "company": "에스티아이",
       "company_dir": "sti",
       "company_slug": "sti",
-      "source_document_count": 153,
+      "source_document_count": 155,
       "source_documents": [
         {
           "source_group": "TECH_OUTPUT",
@@ -2109,6 +2109,18 @@
         {
           "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/에스티아이/tech/tech_history_features_2025-08-31.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/에스티아이/tech/tech_history_features_2025-09-30.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/에스티아이/tech/tech_history_features_2025-09-30.json",
           "detected_url_count": 0,
           "fallback_url_count": 2
         },
@@ -3161,7 +3173,7 @@
                 "매출",
                 "성장"
               ],
-              "snippet": "summary: 에스티아이는 2022년 큰 폭의 매출 성장을 기록했으나, 2023년에는 역성장으로 전환되었습니다.",
+              "snippet": "summary: 에스티아이는 2022년 큰 폭의 매출 성장을 기록했으나, 2023년에는 역성장으로 전환되었고 2024년에는 소폭 반등하는 모습을 보였다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3179,60 +3191,7 @@
                 "매출",
                 "성장"
               ],
-              "snippet": "2024년에는 다시 매출이 소폭 성장했으나, 영업이익률은 7~8% 수준으로 유지되고 있습니다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%97%90%EC%8A%A4%ED%8B%B0%EC%95%84%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/에스티아이/finance/에스티아이_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "매출",
-                "성장"
-              ],
-              "snippet": "key_thesis: 2022년 매출성장률이 32.21%로 크게 증가했으나, 2023년에는 -24.37%로 역성장했습니다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%97%90%EC%8A%A4%ED%8B%B0%EC%95%84%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/에스티아이/finance/에스티아이_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "매출",
-                "성장"
-              ],
-              "snippet": "key_thesis: 2024년 매출성장률은 4.56%로 다시 성장세로 전환되었습니다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%97%90%EC%8A%A4%ED%8B%B0%EC%95%84%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/에스티아이/finance/에스티아이_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "매출"
-              ],
-              "snippet": "key_risks: 2023년 매출이 24.37% 감소하며 수익성 악화 가능성이 나타났습니다.",
+              "snippet": "key_thesis: 2022년 32.2%의 높은 매출 성장률을 기록했으나, 2023년에는 -24.4%로 역성장했다가 2024년 4.6%로 소폭 반등했다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3294,6 +3253,57 @@
                 "https://comp.fnguide.com/",
                 "https://www.google.com/search?q=%EC%97%90%EC%8A%A4%ED%8B%B0%EC%95%84%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
               ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/에스티아이/finance/에스티아이_finance_agent_packet.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "sales"
+              ],
+              "snippet": "sales_growth: 4.557583342292437",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%97%90%EC%8A%A4%ED%8B%B0%EC%95%84%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/에스티아이/finance/에스티아이_재무.csv",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "sales"
+              ],
+              "snippet": "year: 2021 | sales: 319513983576.0 | operating_income: 25565657171.0 | net_income: 23197033694.0 | total_assets: 336843432075.0 | total_liabilities: 141692414265.0 | total_equity: 195151017810.0 | current_assets: 233609158038.0 | current_liabilities: 139599162105.0 | capex: 854548889 | ocf: -59711097826 | fcf: -60565646715 | interest_expense: 1058928819.0 | roe: 11.886709049391046 | operating_margin: 8.00142043389438",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%97%90%EC%8A%A4%ED%8B%B0%EC%95%84%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/에스티아이/finance/에스티아이_재무.csv",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "sales"
+              ],
+              "snippet": "year: 2022 | sales: 422418753947.0 | operating_income: 34766478075.0 | net_income: 29845982191.0 | total_assets: 328877176561.0 | total_liabilities: 109597092758.0 | total_equity: 219280083803.0 | current_assets: 225532008861.0 | current_liabilities: 108905909521.0 | capex: 1454100654 | ocf: 71544702063 | fcf: 70090601409 | interest_expense: 1476250808.0 | roe: 13.610895104278352 | operating_margin: 8.23033488692173 ",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%97%90%EC%8A%A4%ED%8B%B0%EC%95%84%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
             }
           ],
           "summary": "매출 전환 관련 직접 근거가 8건 확인됩니다. Chair에서는 가치 전환 근거로 반영하되 원천 URL/파일을 함께 확인합니다."
@@ -3314,9 +3324,10 @@
               "source_file": "data/반도체/에스티아이/finance/에스티아이_finance.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
-                "영업이익률"
+                "영업이익률",
+                "비용"
               ],
-              "snippet": "2024년에는 다시 매출이 소폭 성장했으나, 영업이익률은 7~8% 수준으로 유지되고 있습니다.",
+              "snippet": "영업이익률은 7~8% 수준을 유지하고 있으나, 2024년에는 이자 비용 증가로 인해 이자보상배율이 크게 하락했다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3333,7 +3344,7 @@
               "matched_keywords": [
                 "영업이익률"
               ],
-              "snippet": "key_thesis: 영업이익률은 2021년 8.00%에서 2024년 8.17%로 큰 변동 없이 유지되고 있습니다.",
+              "snippet": "key_thesis: 영업이익률은 2021년 8.0%에서 2024년 8.2%로 비교적 안정적인 수준을 유지하고 있다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3348,43 +3359,28 @@
               "source_file": "data/반도체/에스티아이/finance/에스티아이_finance.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
-                "수익성"
-              ],
-              "snippet": "key_risks: 2023년 매출이 24.37% 감소하며 수익성 악화 가능성이 나타났습니다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%97%90%EC%8A%A4%ED%8B%B0%EC%95%84%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/에스티아이/finance/에스티아이_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "영업이익률"
-              ],
-              "snippet": "key_risks: 2024년 영업이익률은 8.17%로 개선되었으나, 2021년 대비 큰 폭의 성장은 보이지 않았습니다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%97%90%EC%8A%A4%ED%8B%B0%EC%95%84%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/에스티아이/finance/에스티아이_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
+                "현금흐름",
                 "FCF"
               ],
-              "snippet": "key_risks: 2024년 FCF가 -23,442,305,540원으로 큰 폭의 마이너스를 기록하며 현금 창출 능력에 대한 점검이 필요합니다.",
+              "snippet": "key_thesis: 2022년 700억 원 이상의 긍정적인 잉여현금흐름(FCF)을 기록했으나, 2024년에는 -234억 원으로 전환되었다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%97%90%EC%8A%A4%ED%8B%B0%EC%95%84%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/에스티아이/finance/에스티아이_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "현금흐름",
+                "FCF"
+              ],
+              "snippet": "key_risks: 2024년 잉여현금흐름(FCF)이 -234억 원으로 전환되어 현금 창출 능력에 대한 점검이 필요하다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3437,6 +3433,23 @@
                 "FCF"
               ],
               "snippet": "report_core_points: FCF: 에스티아이 2024 기준 FCF 값은 -2,344,230,554원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%97%90%EC%8A%A4%ED%8B%B0%EC%95%84%EC%9D%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/에스티아이/finance/에스티아이_finance_agent_packet.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "영업이익률"
+              ],
+              "snippet": "label: 영업이익률",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3652,7 +3665,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\에스티아이\\tech\\sti_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\에스티아이\\tech\\sti_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-25T21:46:39",
+      "generated_at": "2026-05-26T06:42:11",
       "core_counts": {
         "total_patents": 58,
         "registered_patents_estimated": 26,
@@ -3777,8 +3790,8 @@
     "tech_full_appendix_json": null,
     "tech_chair_summary_json": "data/반도체/에스티아이/tech/tech_chair_summary.json",
     "tech_chair_summary_md": "data/반도체/에스티아이/tech/sti_tech_chair_summary.md",
-    "tech_history_feature_json": "data/반도체/에스티아이/tech/tech_history_features_2025-08-31.json",
-    "tech_history_feature_csv": "data/반도체/에스티아이/tech/tech_history_features_2025-08-31.csv",
+    "tech_history_feature_json": "data/반도체/에스티아이/tech/tech_history_features_2025-09-30.json",
+    "tech_history_feature_csv": "data/반도체/에스티아이/tech/tech_history_features_2025-09-30.csv",
     "tech_json": "data/반도체/에스티아이/tech/sti_tech.json",
     "tech_agent_packet_json": "data/반도체/에스티아이/tech/sti_tech_agent_packet.json"
   },
@@ -4699,7 +4712,7 @@
     "field": "반도체",
     "source_csv": "data\\반도체\\에스티아이\\tech\\sti_kipris_patents_normalized.csv",
     "enriched_csv": "data\\반도체\\에스티아이\\tech\\sti_kipris_tech_ml_enriched.csv",
-    "generated_at": "2026-05-25T21:46:39",
+    "generated_at": "2026-05-26T06:42:11",
     "core_counts": {
       "total_patents": 58,
       "registered_patents_estimated": 26,

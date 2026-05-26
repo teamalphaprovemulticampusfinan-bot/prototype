@@ -487,51 +487,203 @@
   ],
   "raw_payload": {
     "analysis": {
+      "agent": "market",
       "company": "SFA반도체",
       "opinion": "보유",
-      "confidence": 0.8,
-      "summary": "SFA반도체는 AI 투자 확대에 따른 반도체 후공정 산업의 높은 성장 잠재력과 최근 주가 상승 모멘텀을 바탕으로 긍정적인 전망을 보입니다. 그러나 불확실한 거시 경제 환경과 경쟁 심화 가능성은 보유 의견을 유지하는 주요 근거입니다.",
-      "total_score": 60,
+      "confidence": 0.7,
+      "market_summary": {
+        "oecd_interpretation": "OECD 경기선행지수가 98.01로 기준선 100을 하회하며 경기 둔화 가능성을 시사합니다.",
+        "industry_stage": "AI 투자 확대에 따른 반도체 후공정 산업은 높은 성장 잠재력을 가진 성장 단계에 있습니다.",
+        "value_chain_position": "후공정/패키징/테스트 분야에서 세계 유수의 반도체 업체들에게 솔루션을 제공하며 신뢰받는 위치를 확보하고 있습니다.",
+        "competitive_position": "경쟁 강도는 중간 수준으로, 차별화된 기술력과 고객 기반을 바탕으로 경쟁 우위를 유지하고 있습니다.",
+        "market_momentum": "최근 주가 상승 모멘텀이 있으나, 거시 경제 불확실성과 경쟁 심화 가능성이 존재합니다."
+      },
+      "qualitative_rubric": {
+        "macro_cycle": {
+          "assessment": "하",
+          "reason": "OECD 경기선행지수가 100 미만으로 경기 둔화 신호가 감지됩니다."
+        },
+        "industry_attractiveness": {
+          "assessment": "상",
+          "reason": "AI 투자 확대에 따른 반도체 후공정 산업의 높은 성장 잠재력이 기대됩니다."
+        },
+        "value_chain_position": {
+          "assessment": "상",
+          "reason": "세계 유수의 반도체 업체들에게 최첨단 패키징 솔루션을 제공하며 신뢰받는 위치를 확보하고 있습니다."
+        },
+        "competitive_position": {
+          "assessment": "중",
+          "reason": "경쟁 강도는 중간 수준이며, 차별화된 기술력과 고객 기반을 바탕으로 경쟁 우위를 유지하고 있습니다."
+        },
+        "market_momentum": {
+          "assessment": "상",
+          "reason": "최근 주가 상승 모멘텀이 뚜렷하게 나타나고 있습니다."
+        },
+        "policy_disclosure_signal": {
+          "assessment": "중",
+          "reason": "반도체 소부장, HBM, 패키징 등 정책 수혜 가능성이 있으나, 구체적인 공시 신호는 제한적입니다."
+        },
+        "downside_risk": {
+          "assessment": "중",
+          "reason": "불확실한 거시 경제 환경과 경쟁 심화 가능성이 하방 리스크로 작용할 수 있습니다."
+        }
+      },
+      "bwm_assessment": {
+        "best_criterion": "산업 매력도",
+        "worst_criterion": "거시 사이클",
+        "judgment_effect": "산업의 높은 성장 잠재력에도 불구하고 거시 경제 불확실성이 투자의견을 '보유'으로 결정하는 주요 요인입니다."
+      },
       "scoring": {
         "거시환경": {
           "score": 10,
-          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
+          "max": 20,
+          "reason": "OECD 경기선행지수가 100 미만으로 경기 둔화 가능성이 있습니다."
         },
         "산업매력도": {
           "score": 15,
-          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
+          "max": 20,
+          "reason": "AI 투자 확대에 따른 반도체 후공정 산업의 높은 성장 잠재력이 기대됩니다."
         },
         "경쟁위치": {
           "score": 15,
-          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
+          "max": 20,
+          "reason": "세계 유수의 반도체 업체들에게 솔루션을 제공하며 신뢰받는 위치를 확보하고 있습니다."
         },
         "정책수혜": {
           "score": 10,
-          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
+          "max": 20,
+          "reason": "반도체 소부장, HBM, 패키징 등 정책 수혜 가능성이 있습니다."
         },
         "시장모멘텀": {
           "score": 10,
-          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
+          "max": 20,
+          "reason": "최근 주가 상승 모멘텀이 있으나, 거시 경제 불확실성이 존재합니다."
         }
       },
-      "market_environment": {
-        "oecd_cli": "",
-        "industry_stage": "{'마켓점수': {'기업명': 'SFA반도체', '투자의견': '보유', '총점': '60', '거시환경': '10', '산업매력도': '15', '경쟁위치': '15', '정책수혜': '10', '시장모멘텀': '10', '요약': 'SFA반도체는 AI 투자 확대에 따른 반도체 후공정 산업의 높은 성장 잠재력과 최근 주가 상승 모멘텀을 바탕으로 긍정적인 전망을 보입니다. 그러나 불확실한 거시 경제 환경과 경쟁 심화 가능성은 보유 의견을 유지하는 주요 근거입니다.'}}",
-        "value_chain_position": "후공정/패키징/테스트",
-        "competition": ""
-      },
-      "risks": [
-        "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Unterminated string starting at: line 122 column 18 (char 3793)",
-        "밸류체인 위치 확인: 후공정/패키징/테스트"
+      "total_score": 60,
+      "claims": [
+        {
+          "claim_id": "market.cl.001",
+          "text": "SFA반도체는 AI 투자 확대에 따른 반도체 후공정 산업의 높은 성장 잠재력과 최근 주가 상승 모멘텀을 바탕으로 긍정적인 전망을 보입니다.",
+          "evidence_ids": [
+            "market.ev.001",
+            "market.ev.002",
+            "market.ev.003"
+          ]
+        },
+        {
+          "claim_id": "market.cl.002",
+          "text": "그러나 불확실한 거시 경제 환경과 경쟁 심화 가능성은 보유 의견을 유지하는 주요 근거입니다.",
+          "evidence_ids": [
+            "market.ev.004",
+            "market.ev.005"
+          ]
+        }
       ],
-      "opportunities": [],
-      "error": "Unterminated string starting at: line 122 column 18 (char 3793)",
-      "fallback_source": "market_final_static_data"
+      "evidences": [
+        {
+          "evidence_id": "market.ev.001",
+          "source_type": "static",
+          "source": "밸류체인 & 경쟁구조",
+          "metric": "산업매력도",
+          "value": 15,
+          "unit": null,
+          "period": null,
+          "snippet": "AI 투자 확대에 따른 반도체 후공정 산업의 높은 성장 잠재력"
+        },
+        {
+          "evidence_id": "market.ev.002",
+          "source_type": "stock",
+          "source": "SFA반도체",
+          "metric": "change_rate",
+          "value": 15.04,
+          "unit": "%",
+          "period": "20260521",
+          "snippet": "change_rate: 15.04"
+        },
+        {
+          "evidence_id": "market.ev.003",
+          "source_type": "static",
+          "source": "밸류체인 & 경쟁구조",
+          "metric": "시장모멘텀",
+          "value": 10,
+          "unit": null,
+          "period": null,
+          "snippet": "최근 주가 상승 모멘텀"
+        },
+        {
+          "evidence_id": "market.ev.004",
+          "source_type": "oecd",
+          "source": "OECD 경기선행지수",
+          "metric": "한국",
+          "value": 98.01,
+          "unit": null,
+          "period": "최신",
+          "snippet": "한국: 98.01"
+        },
+        {
+          "evidence_id": "market.ev.005",
+          "source_type": "static",
+          "source": "밸류체인 & 경쟁구조",
+          "metric": "거시환경",
+          "value": 10,
+          "unit": null,
+          "period": null,
+          "snippet": "불확실한 거시 경제 환경"
+        }
+      ],
+      "risks": [
+        {
+          "risk": "거시 경제 불확실성",
+          "severity": "중",
+          "basis": "OECD 경기선행지수 하락 신호"
+        },
+        {
+          "risk": "경쟁 심화 가능성",
+          "severity": "중",
+          "basis": "밸류체인 & 경쟁구조 데이터에서 언급"
+        }
+      ],
+      "opportunities": [
+        {
+          "opportunity": "AI 투자 확대에 따른 반도체 후공정 산업 성장",
+          "basis": "밸류체인 & 경쟁구조 데이터에서 언급"
+        },
+        {
+          "opportunity": "최첨단 반도체 패키징 솔루션 제공을 통한 신뢰 확보",
+          "basis": "DART 최신 공시 데이터에서 언급"
+        }
+      ],
+      "summary": "AI 반도체 후공정 산업의 높은 성장 잠재력과 최근 주가 모멘텀은 긍정적입니다. 그러나 거시 경제 불확실성과 경쟁 심화 가능성을 고려하여 '보유' 의견을 제시합니다.",
+      "raw_payload": {
+        "stock_used": true,
+        "oecd_used": true,
+        "static_used": true,
+        "news_used": true,
+        "dart_used": true
+      }
     },
-    "original_opportunities": [],
+    "original_opportunities": [
+      {
+        "opportunity": "AI 투자 확대에 따른 반도체 후공정 산업 성장",
+        "basis": "밸류체인 & 경쟁구조 데이터에서 언급"
+      },
+      {
+        "opportunity": "최첨단 반도체 패키징 솔루션 제공을 통한 신뢰 확보",
+        "basis": "DART 최신 공시 데이터에서 언급"
+      }
+    ],
     "original_risks": [
-      "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Unterminated string starting at: line 122 column 18 (char 3793)",
-      "밸류체인 위치 확인: 후공정/패키징/테스트"
+      {
+        "risk": "거시 경제 불확실성",
+        "severity": "중",
+        "basis": "OECD 경기선행지수 하락 신호"
+      },
+      {
+        "risk": "경쟁 심화 가능성",
+        "severity": "중",
+        "basis": "밸류체인 & 경쟁구조 데이터에서 언급"
+      }
     ],
     "removed_bad_evidence_ids": [
       "market.ev.unverified"
@@ -541,23 +693,28 @@
   "scoring": {
     "거시환경": {
       "score": 10,
-      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
+      "max": 20,
+      "reason": "OECD 경기선행지수가 100 미만으로 경기 둔화 가능성이 있습니다."
     },
     "산업매력도": {
       "score": 15,
-      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
+      "max": 20,
+      "reason": "AI 투자 확대에 따른 반도체 후공정 산업의 높은 성장 잠재력이 기대됩니다."
     },
     "경쟁위치": {
       "score": 15,
-      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
+      "max": 20,
+      "reason": "세계 유수의 반도체 업체들에게 솔루션을 제공하며 신뢰받는 위치를 확보하고 있습니다."
     },
     "정책수혜": {
       "score": 10,
-      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
+      "max": 20,
+      "reason": "반도체 소부장, HBM, 패키징 등 정책 수혜 가능성이 있습니다."
     },
     "시장모멘텀": {
       "score": 10,
-      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
+      "max": 20,
+      "reason": "최근 주가 상승 모멘텀이 있으나, 거시 경제 불확실성이 존재합니다."
     }
   },
   "packet_version": "grounded_agent_v3",

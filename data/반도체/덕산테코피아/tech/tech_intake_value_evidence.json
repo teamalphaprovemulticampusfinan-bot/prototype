@@ -2,12 +2,12 @@
   "agent": "tech_intake",
   "artifact": "tech_intake_value_evidence_bridge",
   "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-  "created_at": "2026-05-25T20:03:27",
+  "created_at": "2026-05-26T03:48:06",
   "field": "반도체",
   "company": "덕산테코피아",
   "company_dir": "duksan",
   "company_slug": "duksan",
-  "source_document_count": 159,
+  "source_document_count": 161,
   "source_documents": [
     {
       "source_group": "KIPRIS",
@@ -186,7 +186,7 @@
     {
       "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/덕산테코피아/tech/duksan_tech_intake_value_evidence.json",
-      "detected_url_count": 13,
+      "detected_url_count": 7,
       "fallback_url_count": 0
     },
     {
@@ -461,6 +461,18 @@
     },
     {
       "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/덕산테코피아/tech/tech_history_features_2025-09-30.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/덕산테코피아/tech/tech_history_features_2025-09-30.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/덕산테코피아/tech/tech_intake_manifest.json",
       "detected_url_count": 0,
       "fallback_url_count": 2
@@ -474,7 +486,7 @@
     {
       "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/덕산테코피아/tech/tech_intake_value_evidence.json",
-      "detected_url_count": 13,
+      "detected_url_count": 7,
       "fallback_url_count": 0
     },
     {
@@ -956,12 +968,6 @@
       "source_file": "data/반도체/덕산테코피아/finance/덕산테코피아_주식.csv",
       "detected_url_count": 0,
       "fallback_url_count": 5
-    },
-    {
-      "source_group": "FINANCE",
-      "source_file": "data/반도체/덕산테코피아/finance/intake/finance_intake_manifest.json",
-      "detected_url_count": 1,
-      "fallback_url_count": 0
     }
   ],
   "source_url_map": {
@@ -1089,13 +1095,7 @@
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93c23d7d32ee4b79378b2d1c7a9b2b7687a21e618d370970a67c95c8084168196e093a10ac061ffa35f9616bab729923c8a996b40e996212cc",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00e523148fb7ac78f0c3c8683b10aa8ebe0211bf547d64c143dd281cf656de78fde555210cad3bac879027baadf3daad0c5c519db78453a9d4",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00a758b10f588f77a53c0af9566a6052624ab1325b654e98cc61bb14e054f2f77ff64386b5c629a389c44a318c2f355cb9fbb6c2d606210ef4",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7265cc3779d7cbe055b3379f94cf73094e64b92b34cce31deef68d349371f2dcf4c40f1884cc2ca2bfb76f9d7dedba5c82dc41f30366e999565",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93b62b5abeec29fcad5223f72a7dacf7dc9ceb07b568b15e8f2197630ebb243ae8863eef2ee429d8b1215287342262036802f555f4cdc579a3",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726ce5e541337a5ac215bee443f674d2ff7bf8449184932591bbee0dc8dced7d4ba74a9a75136d2da95641cbb5b7d2df65cebbf228a5a12c409",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00fc000f4f74418d1cbfc215ad21c6d7d879c6e61fceaa2225f6a85f26264e04400e01ed69760feca80c3afd3149b3b3ebef5a8b9916059f8f",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00d811f1e442060ed7cff3bb4092429d1c73c9e1ae65957281ba0c2118174e4e90e5b0b421b90c93ae6e803fbc6f6c4a132bc1a7d27fac171b",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf72625164ec60f0ce97afd5a1d1643b258f36f921a873ce94c5d3633c5958aa6574b4990e4bd74dca7100d6157441ac36eef2fdda5a41bbde522",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726ece562a0e923d647293b821b2ad524396acf2fe4ece61ea961dc3edd7b9ea165fd1611e20a29d4003a1",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7265cc3779d7cbe055b3379f94cf73094e6",
         "https://dart.fss.or.kr/",
         "https://dart.fss.or.kr/dsab007/main.do?option=corp",
         "http://www.w3.org/2001/XMLSchema-instance",

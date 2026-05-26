@@ -1,0 +1,2428 @@
+{
+  "agent": "tech",
+  "version": "v11_excel_frame_actual_source_concise_quantification",
+  "company": "한미반도체",
+  "company_dir": "hanmi",
+  "opinion": "매수",
+  "tech_score": 35,
+  "score_report": {
+    "company_name": "한미반도체",
+    "axes": [
+      {
+        "category": "대표 기술",
+        "axis": "기술성",
+        "score": 5,
+        "reason": "직접근거 9건, 공식/DART/IR/특허 근거 9건, 정량화 지표 9건",
+        "result": "한미반도체은 TC bonder, TC 본더 기반 기술/공정 기업으로, 관련 기술은 실제 원천에서 0회 확인됩니다. 해당 기술은 0개 제품·공정 영역과 연결되며, 양산·공정·기술 문맥을 통해 구현 방향을 판단합니다."
+      },
+      {
+        "category": "핵심 제품/서비스",
+        "axis": "수익성 기여",
+        "score": 5,
+        "reason": "직접근거 9건, 공식/DART/IR/특허 근거 9건, 정량화 지표 6건",
+        "result": "핵심 제품/서비스는 반도체 장비, 테스트, 제품 중심으로 확인됩니다. 실제 원천 기준 0개 제품·서비스 축이 추출되며, 매출·성장 정량 신호는 DART/IR 문맥과 결합해 수익성 기여 판단에 사용합니다."
+      },
+      {
+        "category": "고객 구매 이유",
+        "axis": "고객 채택도",
+        "score": 5,
+        "reason": "직접근거 9건, 공식/DART/IR/특허 근거 9건, 정량화 지표 9건",
+        "result": "고객 구매 이유는 반도체 후공정 장비, TC bonder, 비전 정렬 관련 성능·품질·양산 효익으로 정리됩니다. 실제 근거에서 고객 효익 신호 0개가 확인되며, 단순 기술 키워드가 아니라 적용처·성능·양산 문맥과 함께 해석합니다."
+      },
+      {
+        "category": "경쟁 우위/대체가능성",
+        "axis": "진입장벽",
+        "score": 5,
+        "reason": "직접근거 12건, 공식/DART/IR/특허 근거 12건, 정량화 지표 12건",
+        "result": "경쟁 우위는 공정와 연결된 특허·공정·양산 경험을 중심으로 확인됩니다. 대체가능성 판단에는 특허 수 자체보다 고객 승인, 공정 난이도, 양산 경험 등 0개 장벽 신호를 함께 반영합니다."
+      },
+      {
+        "category": "활용 및 확장 산업",
+        "axis": "확장성",
+        "score": 5,
+        "reason": "직접근거 9건, 공식/DART/IR/특허 근거 9건, 정량화 지표 3건",
+        "result": "활용·확장 산업은 반도체 후공정 장비, TC bonder, 비전 정렬로 확인됩니다. 실제 수집 근거에서 0개 적용 산업/Application이 추출되어 기술 확장성을 보조적으로 설명합니다."
+      },
+      {
+        "category": "진입 부담/장벽",
+        "axis": "양산성",
+        "score": 5,
+        "reason": "직접근거 9건, 공식/DART/IR/특허 근거 9건, 정량화 지표 6건",
+        "result": "진입 부담은 양산 공정, 고객 승인, 품질 검증, 노하우 축적 여부를 중심으로 판단됩니다. 현재 근거에서는 0개 장벽 신호가 확인되며, 이는 기술성보다 사업화 방어력 판단에 활용됩니다."
+      },
+      {
+        "category": "R&D 강도",
+        "axis": "투자 지속성",
+        "score": 5,
+        "reason": "직접근거 9건, 공식/DART/IR/특허 근거 9건, 정량화 지표 6건",
+        "result": "R&D 강도는 연구개발·설비투자·개발과제의 지속성을 기준으로 봅니다. 실제 근거에서 R&D/투자 신호 0개가 확인되며, 기술 유지·개선 가능성의 보조 지표로 사용합니다."
+      }
+    ],
+    "details": [
+      {
+        "category": "대표 기술",
+        "axis": "기술성",
+        "score": 5,
+        "reason": "직접근거 9건, 공식/DART/IR/특허 근거 9건, 정량화 지표 9건",
+        "result": "한미반도체은 TC bonder, TC 본더 기반 기술/공정 기업으로, 관련 기술은 실제 원천에서 0회 확인됩니다. 해당 기술은 0개 제품·공정 영역과 연결되며, 양산·공정·기술 문맥을 통해 구현 방향을 판단합니다."
+      },
+      {
+        "category": "핵심 제품/서비스",
+        "axis": "수익성 기여",
+        "score": 5,
+        "reason": "직접근거 9건, 공식/DART/IR/특허 근거 9건, 정량화 지표 6건",
+        "result": "핵심 제품/서비스는 반도체 장비, 테스트, 제품 중심으로 확인됩니다. 실제 원천 기준 0개 제품·서비스 축이 추출되며, 매출·성장 정량 신호는 DART/IR 문맥과 결합해 수익성 기여 판단에 사용합니다."
+      },
+      {
+        "category": "고객 구매 이유",
+        "axis": "고객 채택도",
+        "score": 5,
+        "reason": "직접근거 9건, 공식/DART/IR/특허 근거 9건, 정량화 지표 9건",
+        "result": "고객 구매 이유는 반도체 후공정 장비, TC bonder, 비전 정렬 관련 성능·품질·양산 효익으로 정리됩니다. 실제 근거에서 고객 효익 신호 0개가 확인되며, 단순 기술 키워드가 아니라 적용처·성능·양산 문맥과 함께 해석합니다."
+      },
+      {
+        "category": "경쟁 우위/대체가능성",
+        "axis": "진입장벽",
+        "score": 5,
+        "reason": "직접근거 12건, 공식/DART/IR/특허 근거 12건, 정량화 지표 12건",
+        "result": "경쟁 우위는 공정와 연결된 특허·공정·양산 경험을 중심으로 확인됩니다. 대체가능성 판단에는 특허 수 자체보다 고객 승인, 공정 난이도, 양산 경험 등 0개 장벽 신호를 함께 반영합니다."
+      },
+      {
+        "category": "활용 및 확장 산업",
+        "axis": "확장성",
+        "score": 5,
+        "reason": "직접근거 9건, 공식/DART/IR/특허 근거 9건, 정량화 지표 3건",
+        "result": "활용·확장 산업은 반도체 후공정 장비, TC bonder, 비전 정렬로 확인됩니다. 실제 수집 근거에서 0개 적용 산업/Application이 추출되어 기술 확장성을 보조적으로 설명합니다."
+      },
+      {
+        "category": "진입 부담/장벽",
+        "axis": "양산성",
+        "score": 5,
+        "reason": "직접근거 9건, 공식/DART/IR/특허 근거 9건, 정량화 지표 6건",
+        "result": "진입 부담은 양산 공정, 고객 승인, 품질 검증, 노하우 축적 여부를 중심으로 판단됩니다. 현재 근거에서는 0개 장벽 신호가 확인되며, 이는 기술성보다 사업화 방어력 판단에 활용됩니다."
+      },
+      {
+        "category": "R&D 강도",
+        "axis": "투자 지속성",
+        "score": 5,
+        "reason": "직접근거 9건, 공식/DART/IR/특허 근거 9건, 정량화 지표 6건",
+        "result": "R&D 강도는 연구개발·설비투자·개발과제의 지속성을 기준으로 봅니다. 실제 근거에서 R&D/투자 신호 0개가 확인되며, 기술 유지·개선 가능성의 보조 지표로 사용합니다."
+      }
+    ],
+    "total_score": 35,
+    "max_score": 35,
+    "strengths": [
+      "기술성",
+      "수익성 기여",
+      "고객 채택도",
+      "진입장벽",
+      "확장성",
+      "양산성",
+      "투자 지속성"
+    ],
+    "weaknesses": [],
+    "judgment": "기술-사업화 연결 우수형",
+    "quality_flags": [
+      "KIPRIS Tech ML features merged into Tech Agent runtime outputs."
+    ]
+  },
+  "tech_to_value_inputs": {
+    "score": 79.0,
+    "tech_agent_raw_score": 100.0,
+    "base_signal_score": 78.0,
+    "auditor_adjusted_score": 78.0,
+    "auditor_conservative_adjustment": 22.0,
+    "grade": "VALUE_CONVERSION_CONFIRMED",
+    "policy": "기술 우위는 고객사 채택, 양산, 매출 전환, FCF 개선 근거와 연결될 때만 가치평가 가산 요인으로 반영한다.",
+    "interpretation": "기술·제품 근거가 가치평가 보조 근거로 쓰이려면 고객 적용, 양산, 매출/현금흐름 연결이 함께 확인되어야 합니다.",
+    "components": {
+      "commercialization_hits": 4,
+      "production_hits": 4,
+      "value_hits": 6,
+      "ip_hits": 3,
+      "official_doc_count": 58,
+      "quantitative_signal_count": 51
+    },
+    "penalties": [],
+    "evidence_samples": [
+      {
+        "snippet": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관점에서 공정하게 표시하고 있습니다.",
+        "source_type": "dart_filing",
+        "source_title": "dart_latest_business_report.txt",
+        "source_url": "",
+        "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+        "source_plan_matched": true,
+        "hits": [
+          "공정"
+        ]
+      },
+      {
+        "snippet": "(6)에 기술되어 있는 바와 같이, 연결회사는 고객과의 계약에서 수행의무를 식별하고 의무를 이행한 시점에 수익을 인식합니다.",
+        "source_type": "dart_filing",
+        "source_title": "dart_latest_business_report.txt",
+        "source_url": "",
+        "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+        "source_plan_matched": true,
+        "hits": [
+          "기술"
+        ]
+      },
+      {
+        "snippet": "지배기업의 개요한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다.",
+        "source_type": "dart_filing",
+        "source_title": "dart_latest_business_report.txt",
+        "source_url": "",
+        "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+        "source_plan_matched": true,
+        "hits": [
+          "반도체 장비"
+        ]
+      },
+      {
+        "snippet": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관점에서 공정하게 표시하고 있습니다.",
+        "source_type": "dart_filing",
+        "source_title": "dart_latest_business_report.txt",
+        "source_url": "",
+        "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+        "source_plan_matched": true,
+        "hits": [
+          "공정"
+        ]
+      },
+      {
+        "snippet": "(6)에 기술되어 있는 바와 같이, 연결회사는 고객과의 계약에서 수행의무를 식별하고 의무를 이행한 시점에 수익을 인식합니다.",
+        "source_type": "dart_filing",
+        "source_title": "dart_latest_business_report.txt",
+        "source_url": "",
+        "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+        "source_plan_matched": true,
+        "hits": [
+          "기술"
+        ]
+      },
+      {
+        "snippet": "지배기업의 개요한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다.",
+        "source_type": "dart_filing",
+        "source_title": "dart_latest_business_report.txt",
+        "source_url": "",
+        "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+        "source_plan_matched": true,
+        "hits": [
+          "반도체 장비"
+        ]
+      },
+      {
+        "snippet": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관점에서 공정하게 표시하고 있습니다.",
+        "source_type": "dart_filing",
+        "source_title": "dart_latest_business_report.txt",
+        "source_url": "",
+        "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+        "source_plan_matched": true,
+        "hits": [
+          "공정"
+        ]
+      },
+      {
+        "snippet": "(6)에 기술되어 있는 바와 같이, 연결회사는 고객과의 계약에서 수행의무를 식별하고 의무를 이행한 시점에 수익을 인식합니다.",
+        "source_type": "dart_filing",
+        "source_title": "dart_latest_business_report.txt",
+        "source_url": "",
+        "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+        "source_plan_matched": true,
+        "hits": [
+          "기술"
+        ]
+      }
+    ],
+    "score_before_kipris_tech_ml_adjustment": 78.0,
+    "kipris_tech_ml_features": {
+      "company_slug": "hanmi",
+      "company_name": "한미반도체",
+      "field": "반도체",
+      "source_csv": "data\\반도체\\한미반도체\\tech\\hanmi_kipris_patents_normalized.csv",
+      "enriched_csv": "data\\반도체\\한미반도체\\tech\\hanmi_kipris_tech_ml_enriched.csv",
+      "generated_at": "2026-05-25T22:34:42",
+      "core_counts": {
+        "total_patents": 901,
+        "registered_patents_estimated": 516,
+        "alive_patents_estimated": 320,
+        "negative_disposal_patents_estimated": 467,
+        "recent_5y_application_patents": 186,
+        "h01l_core_patents": 1,
+        "semiconductor_related_ipc_patents": 226,
+        "ipc_subclass_count": 77,
+        "ipc_main_group_count": 160,
+        "tech_keyword_match_total": 910,
+        "tech_keyword_match_avg": 1.01
+      },
+      "core_rates": {
+        "registration_rate_estimated": 0.5727,
+        "alive_rate_total_estimated": 0.3552,
+        "alive_rate_among_registered_estimated": 0.6202,
+        "negative_disposal_rate_estimated": 0.5183,
+        "recent_5y_application_rate": 0.2064,
+        "h01l_core_rate": 0.0011,
+        "semiconductor_related_ipc_rate": 0.2508
+      },
+      "year_features": {
+        "application_year_min": 1983,
+        "application_year_max": 2025,
+        "application_year_span": 43,
+        "recent_5y_threshold": 2021
+      },
+      "scores": {
+        "legal_stability_score_estimated": 58.5,
+        "portfolio_momentum_score": 72.22,
+        "ip_technology_fit_score": 43.9,
+        "kipris_tech_ml_score": 58.24
+      },
+      "tech_to_value_bridge_adjustment": {
+        "bridge_adjustment_points": 1.0,
+        "bridge_signal": "IP_QUALITY_MODERATE",
+        "usage_rule": "Add this as a conservative KIPRIS/IP feature adjustment to Tech-to-Value Bridge, but do not treat it as direct commercialization evidence."
+      },
+      "top_ipc_subclass": {
+        "H10P": 362,
+        "A61K": 128,
+        "H10W": 108,
+        "C07D": 77,
+        "C07K": 50,
+        "C12N": 16,
+        "G01R": 13,
+        "B29C": 8,
+        "A23L": 8,
+        "C09D": 8,
+        "G06Q": 7,
+        "C07H": 6,
+        "H05K": 5,
+        "B02C": 4,
+        "B07B": 4
+      },
+      "top_ipc_main_group": {
+        "H10P 72": 299,
+        "A61K 9": 47,
+        "A61K 38": 39,
+        "H10W 29": 33,
+        "C07K 14": 31,
+        "H10W 74": 29,
+        "H10P 74": 29,
+        "A61K 31": 24,
+        "H10P 54": 20,
+        "H10W 70": 19,
+        "C07D 495": 14,
+        "H10W 72": 14,
+        "C07K 16": 13,
+        "C07D 401": 12,
+        "A61K 47": 10
+      },
+      "top_applicants": {},
+      "cautions": [
+        "final_disposal is not present in the source CSV, so legal status is estimated from register_status/register_number/register_date.",
+        "register_date appears unavailable or unparsable in the current source, so registration year range should not be overclaimed.",
+        "KIPRIS/IP score supports technology defensibility, but customer adoption, mass production, sales conversion, and FCF conversion must be verified separately."
+      ],
+      "_source_file": "data/반도체/한미반도체/tech/hanmi_kipris_tech_ml_features.json"
+    },
+    "kipris_tech_ml_score": 58.24,
+    "legal_stability_score_estimated": 58.5,
+    "portfolio_momentum_score": 72.22,
+    "ip_technology_fit_score": 43.9,
+    "bridge_adjustment_points": 1.0,
+    "bridge_signal": "IP_QUALITY_MODERATE",
+    "kipris_bridge_usage_rule": "Add this as a conservative KIPRIS/IP feature adjustment to Tech-to-Value Bridge, but do not treat it as direct commercialization evidence.",
+    "kipris_bridge_applied": true
+  },
+  "claims": [
+    {
+      "claim_id": "tech.cl.000",
+      "text": "한미반도체의 Tech-to-Value Bridge Score는 79.0/100이며 판정은 VALUE_CONVERSION_CONFIRMED이다.",
+      "evidence_ids": [
+        "tech.ev.000"
+      ]
+    },
+    {
+      "claim_id": "tech.cl.001",
+      "text": "한미반도체는 원천 문서 기준 WLP/FOWLP·반도체 패키징·후공정 관련 기술 또는 제품 축을 보유한 기업으로 확인된다.",
+      "evidence_ids": [
+        "tech.ev.001",
+        "tech.ev.002",
+        "tech.ev.003"
+      ]
+    },
+    {
+      "claim_id": "tech.cl.002",
+      "text": "한미반도체의 기술성은 사업화 가능성을 보조하지만, 최종 가치평가 가산에는 고객 채택·양산·매출 전환·FCF 개선 근거와의 결합 검증이 필요하다.",
+      "evidence_ids": [
+        "tech.ev.000",
+        "tech.ev.004",
+        "tech.ev.005"
+      ]
+    },
+    {
+      "claim_id": "tech.cl.003",
+      "text": "KIPRIS 정규화 데이터 기준 한미반도체 관련 특허는 회사 매칭 505건, 등록 특허 316건, 최근 5년 특허 53건으로 집계된다.",
+      "evidence_ids": [
+        "tech.ev.007"
+      ]
+    }
+  ],
+  "evidences": [
+    {
+      "evidence_id": "tech.ev.000",
+      "source_type": "tech_to_value_bridge",
+      "source": "Tech Agent internal scoring with actual-source evidence and KIPRIS patent overlay",
+      "metric": "Tech-to-Value Bridge Score",
+      "value": 79.0,
+      "unit": "/100",
+      "period": null,
+      "snippet": "Tech-to-Value Bridge Score: 79.0 / 100; 판정: VALUE_CONVERSION_CONFIRMED; 원칙: 기술 우위는 고객사 채택, 양산, 매출 전환, FCF 개선 근거와 연결될 때만 가치평가 가산 요인으로 반영한다."
+    },
+    {
+      "evidence_id": "tech.ev.001",
+      "source_type": "dart_filing",
+      "source": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+      "metric": "대표 기술 및 핵심 제품",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관점에서 공정하게 표시하고 있습니다."
+    },
+    {
+      "evidence_id": "tech.ev.002",
+      "source_type": "dart_filing",
+      "source": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+      "metric": "대표 기술 및 핵심 제품",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "(6)에 기술되어 있는 바와 같이, 연결회사는 고객과의 계약에서 수행의무를 식별하고 의무를 이행한 시점에 수익을 인식합니다."
+    },
+    {
+      "evidence_id": "tech.ev.003",
+      "source_type": "dart_filing",
+      "source": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+      "metric": "대표 기술 및 핵심 제품",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "지배기업의 개요한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다."
+    },
+    {
+      "evidence_id": "tech.ev.004",
+      "source_type": "dart_filing",
+      "source": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+      "metric": "사업화·확장성 보조 근거",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관점에서 공정하게 표시하고 있습니다."
+    },
+    {
+      "evidence_id": "tech.ev.005",
+      "source_type": "dart_filing",
+      "source": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+      "metric": "사업화·확장성 보조 근거",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "(6)에 기술되어 있는 바와 같이, 연결회사는 고객과의 계약에서 수행의무를 식별하고 의무를 이행한 시점에 수익을 인식합니다."
+    },
+    {
+      "evidence_id": "tech.ev.006",
+      "source_type": "dart_filing",
+      "source": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+      "metric": "사업화·확장성 보조 근거",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "지배기업의 개요한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다."
+    },
+    {
+      "evidence_id": "tech.ev.007",
+      "source_type": "kipris_patent",
+      "source": "data/반도체/한미반도체/tech/source/KIPRIS patent file",
+      "metric": "KIPRIS 특허 정량 지표",
+      "value": 505,
+      "unit": "건",
+      "period": null,
+      "snippet": "KIPRIS 정규화 결과: 전체 정규화 901건, 회사 매칭 505건, 등록 특허 316건, 존속 가능 특허 151건, 최근 5년 특허 53건, H01L 반도체 핵심 IPC 1건, 주요 IPC/CPC: B65H, C23C, H10P, H10W, G06T. 대표 특허: 마스킹 테이프 박리장치(2021, 등록, 기술매칭: EMI, 차폐, 공정, 반도체); 열압착 본딩장치(2024, 등록, 기술매칭: 열압착, 기판, 반도체, 웨이퍼); 열압착 본딩장치(2023, 등록, 기술매칭: 열압착, 기판, 반도체, 웨이퍼)"
+    }
+  ],
+  "categories": [
+    {
+      "category": "대표 기술",
+      "axis": "기술성",
+      "major_source_plan": "사업 보고서, 기업 홈페이지, 특허 사이트",
+      "middle_source_plan": "사업보고서: 사업의 내용 → 주요 제품 및 서비스 / 연구개발활동 / 생산공정·기술설명 / 원재료 및 전구체 설명 / 신규사업 내용 기업 홈페이지: 기술소개 / 제품기술 페이지 / 소재·공정 설명 페이지 / Application(적용 분야) 페이지 / R&D센터 소개 특허 사이트: 대표 등록특허 초록 / 청구항 / IPC·CPC 분류 / 특허 패밀리 / 피인용 특허",
+      "quantifiable_plan": "기술 키워드 등장 빈도, 적용 제품/공정 수, 수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등 : 따로 추출?)",
+      "items": [
+        {
+          "item_name": "핵심 기술 키워드",
+          "category": "대표 기술",
+          "axis": "기술성",
+          "major_source_plan": "사업 보고서, 기업 홈페이지, 특허 사이트",
+          "middle_source_plan": "사업보고서: 사업의 내용 → 주요 제품 및 서비스 / 연구개발활동 / 생산공정·기술설명 / 원재료 및 전구체 설명 / 신규사업 내용 기업 홈페이지: 기술소개 / 제품기술 페이지 / 소재·공정 설명 페이지 / Application(적용 분야) 페이지 / R&D센터 소개 특허 사이트: 대표 등록특허 초록 / 청구항 / IPC·CPC 분류 / 특허 패밀리 / 피인용 특허",
+          "quantifiable_plan": "기술 키워드 등장 빈도, 적용 제품/공정 수, 수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등 : 따로 추출?)",
+          "evidence": [
+            {
+              "snippet": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관점에서 공정하게 표시하고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "공정"
+              ]
+            },
+            {
+              "snippet": "(6)에 기술되어 있는 바와 같이, 연결회사는 고객과의 계약에서 수행의무를 식별하고 의무를 이행한 시점에 수익을 인식합니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "기술"
+              ]
+            },
+            {
+              "snippet": "지배기업의 개요한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "반도체 장비"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "기술 키워드 등장 빈도",
+              "value": 138,
+              "unit": "회",
+              "formula": "DART/IR/공식/특허/로컬 기술 원천에서 핵심 기술 키워드 출현 횟수 합산",
+              "detail": {
+                "TC bonder": 136,
+                "TC 본더": 2
+              }
+            },
+            {
+              "metric_name": "확인 핵심 기술 수",
+              "value": 2,
+              "unit": "개",
+              "formula": "등장 빈도 1회 이상인 핵심 기술 후보 고유 개수",
+              "detail": [
+                "TC bonder",
+                "TC 본더"
+              ]
+            },
+            {
+              "metric_name": "수식 시트 매칭 지표 수",
+              "value": 3,
+              "unit": "개",
+              "formula": "tech_template.xlsx 수식/정량화 시트와 원문 수치 문맥의 매칭 개수",
+              "detail": [
+                "기술 키워드 등장 빈도",
+                "적용 제품/공정 수",
+                "수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등)"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "적용 방식",
+          "category": "대표 기술",
+          "axis": "기술성",
+          "major_source_plan": "사업 보고서, 기업 홈페이지, 특허 사이트",
+          "middle_source_plan": "사업보고서: 사업의 내용 → 주요 제품 및 서비스 / 연구개발활동 / 생산공정·기술설명 / 원재료 및 전구체 설명 / 신규사업 내용 기업 홈페이지: 기술소개 / 제품기술 페이지 / 소재·공정 설명 페이지 / Application(적용 분야) 페이지 / R&D센터 소개 특허 사이트: 대표 등록특허 초록 / 청구항 / IPC·CPC 분류 / 특허 패밀리 / 피인용 특허",
+          "quantifiable_plan": "기술 키워드 등장 빈도, 적용 제품/공정 수, 수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등 : 따로 추출?)",
+          "evidence": [
+            {
+              "snippet": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관점에서 공정하게 표시하고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "공정"
+              ]
+            },
+            {
+              "snippet": "(6)에 기술되어 있는 바와 같이, 연결회사는 고객과의 계약에서 수행의무를 식별하고 의무를 이행한 시점에 수익을 인식합니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "기술"
+              ]
+            },
+            {
+              "snippet": "지배기업의 개요한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "반도체 장비"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "적용 제품/공정 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "근거 문장 내 적용 제품·공정·Application 고유 키워드 수",
+              "detail": []
+            },
+            {
+              "metric_name": "성능/공정 정량 수치",
+              "value": 3,
+              "unit": "건",
+              "formula": "성능·수율·공정·양산 문맥에서 숫자가 포함된 문장 수",
+              "detail": [
+                {
+                  "value": "202",
+                  "unit": "",
+                  "context": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의"
+                },
+                {
+                  "value": "5",
+                  "unit": "년",
+                  "context": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관"
+                },
+                {
+                  "value": "0",
+                  "unit": "년",
+                  "context": "한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다."
+                }
+              ]
+            },
+            {
+              "metric_name": "수식 시트 매칭 지표 수",
+              "value": 3,
+              "unit": "개",
+              "formula": "tech_template.xlsx 수식/정량화 시트와 원문 수치 문맥의 매칭 개수",
+              "detail": [
+                "기술 키워드 등장 빈도",
+                "적용 제품/공정 수",
+                "수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등)"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "핵심 성능 요소",
+          "category": "대표 기술",
+          "axis": "기술성",
+          "major_source_plan": "사업 보고서, 기업 홈페이지, 특허 사이트",
+          "middle_source_plan": "사업보고서: 사업의 내용 → 주요 제품 및 서비스 / 연구개발활동 / 생산공정·기술설명 / 원재료 및 전구체 설명 / 신규사업 내용 기업 홈페이지: 기술소개 / 제품기술 페이지 / 소재·공정 설명 페이지 / Application(적용 분야) 페이지 / R&D센터 소개 특허 사이트: 대표 등록특허 초록 / 청구항 / IPC·CPC 분류 / 특허 패밀리 / 피인용 특허",
+          "quantifiable_plan": "기술 키워드 등장 빈도, 적용 제품/공정 수, 수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등 : 따로 추출?)",
+          "evidence": [
+            {
+              "snippet": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관점에서 공정하게 표시하고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "공정"
+              ]
+            },
+            {
+              "snippet": "(6)에 기술되어 있는 바와 같이, 연결회사는 고객과의 계약에서 수행의무를 식별하고 의무를 이행한 시점에 수익을 인식합니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "기술"
+              ]
+            },
+            {
+              "snippet": "연결회사의 수익 대부분은 장비 판매로부터 창출되며, 2025년 중 발생한 장비제조판매 수익은 565,059백만원으로 총매출의 약 98%를 차지하고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "%"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "적용 제품/공정 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "근거 문장 내 적용 제품·공정·Application 고유 키워드 수",
+              "detail": []
+            },
+            {
+              "metric_name": "성능/공정 정량 수치",
+              "value": 5,
+              "unit": "건",
+              "formula": "성능·수율·공정·양산 문맥에서 숫자가 포함된 문장 수",
+              "detail": [
+                {
+                  "value": "202",
+                  "unit": "",
+                  "context": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의"
+                },
+                {
+                  "value": "5",
+                  "unit": "년",
+                  "context": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관"
+                },
+                {
+                  "value": "5",
+                  "unit": "년",
+                  "context": "에 수익을 인식합니다. 연결회사의 수익 대부분은 장비 판매로부터 창출되며, 2025년 중 발생한 장비제조판매 수익은 565,059백만원으로 총매출의 약 98%를 차지하고 있습니다."
+                },
+                {
+                  "value": "565,059",
+                  "unit": "백만원",
+                  "context": "익 대부분은 장비 판매로부터 창출되며, 2025년 중 발생한 장비제조판매 수익은 565,059백만원으로 총매출의 약 98%를 차지하고 있습니다."
+                }
+              ]
+            },
+            {
+              "metric_name": "수식 시트 매칭 지표 수",
+              "value": 3,
+              "unit": "개",
+              "formula": "tech_template.xlsx 수식/정량화 시트와 원문 수치 문맥의 매칭 개수",
+              "detail": [
+                "기술 키워드 등장 빈도",
+                "적용 제품/공정 수",
+                "수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등)"
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 9,
+      "quant_metric_count": 9,
+      "score": 5,
+      "score_reason": "직접근거 9건, 공식/DART/IR/특허 근거 9건, 정량화 지표 9건",
+      "result": "한미반도체은 TC bonder, TC 본더 기반 기술/공정 기업으로, 관련 기술은 실제 원천에서 0회 확인됩니다. 해당 기술은 0개 제품·공정 영역과 연결되며, 양산·공정·기술 문맥을 통해 구현 방향을 판단합니다."
+    },
+    {
+      "category": "핵심 제품/서비스",
+      "axis": "수익성 기여",
+      "major_source_plan": "사업 보고서 - 매출 구성 홈페이지 매출구성 IR 발표자료",
+      "middle_source_plan": "사업보고서: 사업부문별 매출 / 제품별 매출 / 주요 제품 매출 비중 / 수출 비중 / 사업부별 실적 홈페이지: 제품 포트폴리오 / 제품 카테고리 / 베스트셀러·주력제품 / 응용처별 제품 분류 IR: Company Overview / Product Portfolio / Revenue Breakdown / Business Segment / 성장동력 슬라이드",
+      "quantifiable_plan": "매출 비중 %, 전년 성장률 %, 제품 수, 고객 산업 수",
+      "items": [
+        {
+          "item_name": "제품명/서비스명",
+          "category": "핵심 제품/서비스",
+          "axis": "수익성 기여",
+          "major_source_plan": "사업 보고서 - 매출 구성 홈페이지 매출구성 IR 발표자료",
+          "middle_source_plan": "사업보고서: 사업부문별 매출 / 제품별 매출 / 주요 제품 매출 비중 / 수출 비중 / 사업부별 실적 홈페이지: 제품 포트폴리오 / 제품 카테고리 / 베스트셀러·주력제품 / 응용처별 제품 분류 IR: Company Overview / Product Portfolio / Revenue Breakdown / Business Segment / 성장동력 슬라이드",
+          "quantifiable_plan": "매출 비중 %, 전년 성장률 %, 제품 수, 고객 산업 수",
+          "evidence": [
+            {
+              "snippet": "지배기업의 개요한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "반도체",
+                "반도체 장비"
+              ]
+            },
+            {
+              "snippet": "(2) 수익의 구분당기와 전기의 고객과의 계약에서 생기는 수익을 주요 지리적 시장과 주요 제품과 서비스 계약과 수익인식 시기에 따라 구분한 내역은 다음과 같습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "제품",
+                "서비스"
+              ]
+            },
+            {
+              "snippet": "수익인식 프로세스와 연결회사의 회계정책에 대한 이해, 그리고 관련 통제 이해, 평가 및 운영테스트- 회사의 주요 매출 유형별 계약서를 열람하여 수익인식 여부에 영향을 미치는 거래조건을 검토- 보고기간말 전후에 발생한 장비제조판매 수익인식시점의 적정성 확인을 위하여 표본으로 추출된 개별 거래 단위에 대한 관련 거래약정과 선적서류 및 인수증을 비롯한재고자산의 통제이전과 관련된 증빙의 확인",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "테스트",
+                "매출"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "제품/서비스 축 수",
+              "value": 4,
+              "unit": "개",
+              "formula": "제품·서비스 후보 고유 키워드 수",
+              "detail": [
+                "반도체 장비",
+                "테스트",
+                "제품",
+                "서비스"
+              ]
+            },
+            {
+              "metric_name": "수식 시트 매칭 지표 수",
+              "value": 4,
+              "unit": "개",
+              "formula": "tech_template.xlsx 수식/정량화 시트와 원문 수치 문맥의 매칭 개수",
+              "detail": [
+                "매출 비중 %",
+                "전년 성장률 %",
+                "제품 수",
+                "고객 산업 수"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "적용 기술",
+          "category": "핵심 제품/서비스",
+          "axis": "수익성 기여",
+          "major_source_plan": "사업 보고서 - 매출 구성 홈페이지 매출구성 IR 발표자료",
+          "middle_source_plan": "사업보고서: 사업부문별 매출 / 제품별 매출 / 주요 제품 매출 비중 / 수출 비중 / 사업부별 실적 홈페이지: 제품 포트폴리오 / 제품 카테고리 / 베스트셀러·주력제품 / 응용처별 제품 분류 IR: Company Overview / Product Portfolio / Revenue Breakdown / Business Segment / 성장동력 슬라이드",
+          "quantifiable_plan": "매출 비중 %, 전년 성장률 %, 제품 수, 고객 산업 수",
+          "evidence": [
+            {
+              "snippet": "지배기업의 개요한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "반도체",
+                "반도체 장비"
+              ]
+            },
+            {
+              "snippet": "(2) 수익의 구분당기와 전기의 고객과의 계약에서 생기는 수익을 주요 지리적 시장과 주요 제품과 서비스 계약과 수익인식 시기에 따라 구분한 내역은 다음과 같습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "제품",
+                "서비스"
+              ]
+            },
+            {
+              "snippet": "수익인식 프로세스와 연결회사의 회계정책에 대한 이해, 그리고 관련 통제 이해, 평가 및 운영테스트- 회사의 주요 매출 유형별 계약서를 열람하여 수익인식 여부에 영향을 미치는 거래조건을 검토- 보고기간말 전후에 발생한 장비제조판매 수익인식시점의 적정성 확인을 위하여 표본으로 추출된 개별 거래 단위에 대한 관련 거래약정과 선적서류 및 인수증을 비롯한재고자산의 통제이전과 관련된 증빙의 확인",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "매출",
+                "테스트"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "제품/서비스 축 수",
+              "value": 4,
+              "unit": "개",
+              "formula": "제품·서비스 후보 고유 키워드 수",
+              "detail": [
+                "반도체 장비",
+                "테스트",
+                "제품",
+                "서비스"
+              ]
+            },
+            {
+              "metric_name": "수식 시트 매칭 지표 수",
+              "value": 4,
+              "unit": "개",
+              "formula": "tech_template.xlsx 수식/정량화 시트와 원문 수치 문맥의 매칭 개수",
+              "detail": [
+                "매출 비중 %",
+                "전년 성장률 %",
+                "제품 수",
+                "고객 산업 수"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "주요 고객군",
+          "category": "핵심 제품/서비스",
+          "axis": "수익성 기여",
+          "major_source_plan": "사업 보고서 - 매출 구성 홈페이지 매출구성 IR 발표자료",
+          "middle_source_plan": "사업보고서: 사업부문별 매출 / 제품별 매출 / 주요 제품 매출 비중 / 수출 비중 / 사업부별 실적 홈페이지: 제품 포트폴리오 / 제품 카테고리 / 베스트셀러·주력제품 / 응용처별 제품 분류 IR: Company Overview / Product Portfolio / Revenue Breakdown / Business Segment / 성장동력 슬라이드",
+          "quantifiable_plan": "매출 비중 %, 전년 성장률 %, 제품 수, 고객 산업 수",
+          "evidence": [
+            {
+              "snippet": "(2) 수익의 구분당기와 전기의 고객과의 계약에서 생기는 수익을 주요 지리적 시장과 주요 제품과 서비스 계약과 수익인식 시기에 따라 구분한 내역은 다음과 같습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "고객",
+                "제품",
+                "서비스"
+              ]
+            },
+            {
+              "snippet": "당기 중 메모리 반도체 성장에 따라 글로벌 고객사 현지 대응을 위해 설립하였습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "고객",
+                "고객사",
+                "반도체"
+              ]
+            },
+            {
+              "snippet": "지배기업의 개요한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "반도체",
+                "반도체 장비"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "제품/서비스 축 수",
+              "value": 3,
+              "unit": "개",
+              "formula": "제품·서비스 후보 고유 키워드 수",
+              "detail": [
+                "반도체 장비",
+                "제품",
+                "서비스"
+              ]
+            },
+            {
+              "metric_name": "수식 시트 매칭 지표 수",
+              "value": 4,
+              "unit": "개",
+              "formula": "tech_template.xlsx 수식/정량화 시트와 원문 수치 문맥의 매칭 개수",
+              "detail": [
+                "매출 비중 %",
+                "전년 성장률 %",
+                "제품 수",
+                "고객 산업 수"
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 9,
+      "quant_metric_count": 6,
+      "score": 5,
+      "score_reason": "직접근거 9건, 공식/DART/IR/특허 근거 9건, 정량화 지표 6건",
+      "result": "핵심 제품/서비스는 반도체 장비, 테스트, 제품 중심으로 확인됩니다. 실제 원천 기준 0개 제품·서비스 축이 추출되며, 매출·성장 정량 신호는 DART/IR 문맥과 결합해 수익성 기여 판단에 사용합니다."
+    },
+    {
+      "category": "고객 구매 이유",
+      "axis": "고객 채택도",
+      "major_source_plan": "1) IR 2) 제품 홍보 자료 3) 인터뷰 기사",
+      "middle_source_plan": "IR: Investment Highlights / 제품 경쟁력 / 고객사 채택 배경 / 고객 효익 설명 슬라이드 / 양산 적용 사례 제품 홍보 자료: 제품 브로슈어 / 기술소개서 / 데이터시트 / Application Note / 비교표 / FAQ 인터뷰 기사: 고객이 선택한 이유 / 채택 배경 / 기존 대안 대비 개선점 / 산업 현장 적용 사례 / 신규 수요처 언급",
+      "quantifiable_plan": "성능 개선율 %, 원가 절감률 %, 처리속도, 불량률 감소, 수명 증가, 고객사 수",
+      "items": [
+        {
+          "item_name": "고객 효익",
+          "category": "고객 구매 이유",
+          "axis": "고객 채택도",
+          "major_source_plan": "1) IR 2) 제품 홍보 자료 3) 인터뷰 기사",
+          "middle_source_plan": "IR: Investment Highlights / 제품 경쟁력 / 고객사 채택 배경 / 고객 효익 설명 슬라이드 / 양산 적용 사례 제품 홍보 자료: 제품 브로슈어 / 기술소개서 / 데이터시트 / Application Note / 비교표 / FAQ 인터뷰 기사: 고객이 선택한 이유 / 채택 배경 / 기존 대안 대비 개선점 / 산업 현장 적용 사례 / 신규 수요처 언급",
+          "quantifiable_plan": "성능 개선율 %, 원가 절감률 %, 처리속도, 불량률 감소, 수명 증가, 고객사 수",
+          "evidence": [
+            {
+              "snippet": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관점에서 공정하게 표시하고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "채택"
+              ]
+            },
+            {
+              "snippet": "(6)에 기술되어 있는 바와 같이, 연결회사는 고객과의 계약에서 수행의무를 식별하고 의무를 이행한 시점에 수익을 인식합니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "고객"
+              ]
+            },
+            {
+              "snippet": "지배기업의 개요한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "반도체 장비"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "고객 효익 키워드 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "성능·원가·품질·수율 등 고객 효익 표현 고유 개수",
+              "detail": []
+            },
+            {
+              "metric_name": "효익 관련 정량 수치",
+              "value": 3,
+              "unit": "건",
+              "formula": "성능·원가·수율·처리속도 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "202",
+                  "unit": "",
+                  "context": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의"
+                },
+                {
+                  "value": "5",
+                  "unit": "년",
+                  "context": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관"
+                },
+                {
+                  "value": "0",
+                  "unit": "년",
+                  "context": "한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다."
+                }
+              ]
+            },
+            {
+              "metric_name": "수식 시트 매칭 지표 수",
+              "value": 4,
+              "unit": "개",
+              "formula": "tech_template.xlsx 수식/정량화 시트와 원문 수치 문맥의 매칭 개수",
+              "detail": [
+                "성능 개선율 %",
+                "원가 절감율 %",
+                "처리속도",
+                "불량률 감소 %"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "경쟁 제품 대비 장점",
+          "category": "고객 구매 이유",
+          "axis": "고객 채택도",
+          "major_source_plan": "1) IR 2) 제품 홍보 자료 3) 인터뷰 기사",
+          "middle_source_plan": "IR: Investment Highlights / 제품 경쟁력 / 고객사 채택 배경 / 고객 효익 설명 슬라이드 / 양산 적용 사례 제품 홍보 자료: 제품 브로슈어 / 기술소개서 / 데이터시트 / Application Note / 비교표 / FAQ 인터뷰 기사: 고객이 선택한 이유 / 채택 배경 / 기존 대안 대비 개선점 / 산업 현장 적용 사례 / 신규 수요처 언급",
+          "quantifiable_plan": "성능 개선율 %, 원가 절감률 %, 처리속도, 불량률 감소, 수명 증가, 고객사 수",
+          "evidence": [
+            {
+              "snippet": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관점에서 공정하게 표시하고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "채택"
+              ]
+            },
+            {
+              "snippet": "(6)에 기술되어 있는 바와 같이, 연결회사는 고객과의 계약에서 수행의무를 식별하고 의무를 이행한 시점에 수익을 인식합니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "고객"
+              ]
+            },
+            {
+              "snippet": "지배기업의 개요한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "반도체 장비"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "고객 효익 키워드 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "성능·원가·품질·수율 등 고객 효익 표현 고유 개수",
+              "detail": []
+            },
+            {
+              "metric_name": "효익 관련 정량 수치",
+              "value": 3,
+              "unit": "건",
+              "formula": "성능·원가·수율·처리속도 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "202",
+                  "unit": "",
+                  "context": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의"
+                },
+                {
+                  "value": "5",
+                  "unit": "년",
+                  "context": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관"
+                },
+                {
+                  "value": "0",
+                  "unit": "년",
+                  "context": "한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다."
+                }
+              ]
+            },
+            {
+              "metric_name": "수식 시트 매칭 지표 수",
+              "value": 4,
+              "unit": "개",
+              "formula": "tech_template.xlsx 수식/정량화 시트와 원문 수치 문맥의 매칭 개수",
+              "detail": [
+                "성능 개선율 %",
+                "원가 절감율 %",
+                "처리속도",
+                "불량률 감소 %"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "실제 적용 사례",
+          "category": "고객 구매 이유",
+          "axis": "고객 채택도",
+          "major_source_plan": "1) IR 2) 제품 홍보 자료 3) 인터뷰 기사",
+          "middle_source_plan": "IR: Investment Highlights / 제품 경쟁력 / 고객사 채택 배경 / 고객 효익 설명 슬라이드 / 양산 적용 사례 제품 홍보 자료: 제품 브로슈어 / 기술소개서 / 데이터시트 / Application Note / 비교표 / FAQ 인터뷰 기사: 고객이 선택한 이유 / 채택 배경 / 기존 대안 대비 개선점 / 산업 현장 적용 사례 / 신규 수요처 언급",
+          "quantifiable_plan": "성능 개선율 %, 원가 절감률 %, 처리속도, 불량률 감소, 수명 증가, 고객사 수",
+          "evidence": [
+            {
+              "snippet": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관점에서 공정하게 표시하고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "채택"
+              ]
+            },
+            {
+              "snippet": "(6)에 기술되어 있는 바와 같이, 연결회사는 고객과의 계약에서 수행의무를 식별하고 의무를 이행한 시점에 수익을 인식합니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "고객"
+              ]
+            },
+            {
+              "snippet": "지배기업의 개요한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "반도체 장비"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "고객 효익 키워드 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "성능·원가·품질·수율 등 고객 효익 표현 고유 개수",
+              "detail": []
+            },
+            {
+              "metric_name": "효익 관련 정량 수치",
+              "value": 3,
+              "unit": "건",
+              "formula": "성능·원가·수율·처리속도 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "202",
+                  "unit": "",
+                  "context": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의"
+                },
+                {
+                  "value": "5",
+                  "unit": "년",
+                  "context": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관"
+                },
+                {
+                  "value": "0",
+                  "unit": "년",
+                  "context": "한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다."
+                }
+              ]
+            },
+            {
+              "metric_name": "수식 시트 매칭 지표 수",
+              "value": 4,
+              "unit": "개",
+              "formula": "tech_template.xlsx 수식/정량화 시트와 원문 수치 문맥의 매칭 개수",
+              "detail": [
+                "성능 개선율 %",
+                "원가 절감율 %",
+                "처리속도",
+                "불량률 감소 %"
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 9,
+      "quant_metric_count": 9,
+      "score": 5,
+      "score_reason": "직접근거 9건, 공식/DART/IR/특허 근거 9건, 정량화 지표 9건",
+      "result": "고객 구매 이유는 반도체 후공정 장비, TC bonder, 비전 정렬 관련 성능·품질·양산 효익으로 정리됩니다. 실제 근거에서 고객 효익 신호 0개가 확인되며, 단순 기술 키워드가 아니라 적용처·성능·양산 문맥과 함께 해석합니다."
+    },
+    {
+      "category": "경쟁 우위/대체가능성",
+      "axis": "진입장벽",
+      "major_source_plan": "사업보고서 / 특허 / 기사",
+      "middle_source_plan": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+      "quantifiable_plan": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+      "items": [
+        {
+          "item_name": "등록 특허",
+          "category": "경쟁 우위/대체가능성",
+          "axis": "진입장벽",
+          "major_source_plan": "사업보고서 / 특허 / 기사",
+          "middle_source_plan": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+          "quantifiable_plan": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+          "evidence": [
+            {
+              "snippet": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관점에서 공정하게 표시하고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "공정"
+              ]
+            },
+            {
+              "snippet": "지배기업의 개요한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "반도체 장비"
+              ]
+            },
+            {
+              "snippet": "재고자산평가손실은 매출원가에 포함됩니다.(3) 당기에 비용으로 인식한 재고자산의 금액은 240,106백만원(전기: 241,554백만원)입니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "출원"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": [
+                "공정"
+              ]
+            },
+            {
+              "metric_name": "특허/산업재산권 근거 문서 수",
+              "value": 15,
+              "unit": "건",
+              "formula": "source_type=patent로 분류된 로컬/KIPRIS/웹 근거 문서 수",
+              "detail": [
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNo=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?serviceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?AccessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?apiKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?key=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?key=%2A%2A%2AKEY%2A%2A%2A&appNum=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?key=%2A%2A%2AKEY%2A%2A%2A&appno=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?service_key=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225"
+              ]
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 5,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "202",
+                  "unit": "",
+                  "context": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의"
+                },
+                {
+                  "value": "5",
+                  "unit": "년",
+                  "context": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관"
+                },
+                {
+                  "value": "0",
+                  "unit": "년",
+                  "context": "한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다. 재고자산평가손실은 매출원가에 포"
+                },
+                {
+                  "value": "240,106",
+                  "unit": "백만원",
+                  "context": "평가손실은 매출원가에 포함됩니다.(3) 당기에 비용으로 인식한 재고자산의 금액은 240,106백만원(전기: 241,554백만원)입니다."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "제조 노하우",
+          "category": "경쟁 우위/대체가능성",
+          "axis": "진입장벽",
+          "major_source_plan": "사업보고서 / 특허 / 기사",
+          "middle_source_plan": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+          "quantifiable_plan": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+          "evidence": [
+            {
+              "snippet": "지배기업의 개요한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "제조",
+                "반도체 장비"
+              ]
+            },
+            {
+              "snippet": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관점에서 공정하게 표시하고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "공정"
+              ]
+            },
+            {
+              "snippet": "연결회사의 수익 대부분은 장비 판매로부터 창출되며, 2025년 중 발생한 장비제조판매 수익은 565,059백만원으로 총매출의 약 98%를 차지하고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "제조"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": [
+                "공정"
+              ]
+            },
+            {
+              "metric_name": "특허/산업재산권 근거 문서 수",
+              "value": 15,
+              "unit": "건",
+              "formula": "source_type=patent로 분류된 로컬/KIPRIS/웹 근거 문서 수",
+              "detail": [
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNo=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?serviceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?AccessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?apiKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?key=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?key=%2A%2A%2AKEY%2A%2A%2A&appNum=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?key=%2A%2A%2AKEY%2A%2A%2A&appno=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?service_key=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225"
+              ]
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 6,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "198",
+                  "unit": "",
+                  "context": "개요한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다. 우리의 의견으로는 별첨된 연"
+                },
+                {
+                  "value": "0",
+                  "unit": "년",
+                  "context": "한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다. 우리의 의견으로는 별첨된 연결회"
+                },
+                {
+                  "value": "5",
+                  "unit": "년",
+                  "context": "고 있습니다. 우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관"
+                },
+                {
+                  "value": "5",
+                  "unit": "년",
+                  "context": "게 표시하고 있습니다. 연결회사의 수익 대부분은 장비 판매로부터 창출되며, 2025년 중 발생한 장비제조판매 수익은 565,059백만원으로 총매출의 약 98%를 차지하고 있습니다."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "고객사 레퍼런스",
+          "category": "경쟁 우위/대체가능성",
+          "axis": "진입장벽",
+          "major_source_plan": "사업보고서 / 특허 / 기사",
+          "middle_source_plan": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+          "quantifiable_plan": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+          "evidence": [
+            {
+              "snippet": "당기 중 메모리 반도체 성장에 따라 글로벌 고객사 현지 대응을 위해 설립하였습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "고객",
+                "고객사"
+              ]
+            },
+            {
+              "snippet": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관점에서 공정하게 표시하고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "공정"
+              ]
+            },
+            {
+              "snippet": "(6)에 기술되어 있는 바와 같이, 연결회사는 고객과의 계약에서 수행의무를 식별하고 의무를 이행한 시점에 수익을 인식합니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "고객"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": [
+                "공정"
+              ]
+            },
+            {
+              "metric_name": "특허/산업재산권 근거 문서 수",
+              "value": 15,
+              "unit": "건",
+              "formula": "source_type=patent로 분류된 로컬/KIPRIS/웹 근거 문서 수",
+              "detail": [
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNo=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?serviceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?AccessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?apiKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?key=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?key=%2A%2A%2AKEY%2A%2A%2A&appNum=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?key=%2A%2A%2AKEY%2A%2A%2A&appno=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?service_key=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225"
+              ]
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 2,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "202",
+                  "unit": "",
+                  "context": "해 설립하였습니다. 우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의"
+                },
+                {
+                  "value": "5",
+                  "unit": "년",
+                  "context": "립하였습니다. 우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "대체가능성",
+          "category": "경쟁 우위/대체가능성",
+          "axis": "진입장벽",
+          "major_source_plan": "사업보고서 / 특허 / 기사",
+          "middle_source_plan": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+          "quantifiable_plan": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+          "evidence": [
+            {
+              "snippet": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관점에서 공정하게 표시하고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "공정"
+              ]
+            },
+            {
+              "snippet": "지배기업의 개요한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "반도체 장비"
+              ]
+            },
+            {
+              "snippet": "· 한미반도체, HBM4용 ‘TC 본더 4’ 생산 시작",
+              "source_type": "official_homepage",
+              "source_title": "company.yaml 등록 URL",
+              "source_url": "https://www.hanmisemi.com",
+              "source_path": "",
+              "source_plan_matched": true,
+              "hits": [
+                "TC 본더"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": [
+                "공정"
+              ]
+            },
+            {
+              "metric_name": "특허/산업재산권 근거 문서 수",
+              "value": 15,
+              "unit": "건",
+              "formula": "source_type=patent로 분류된 로컬/KIPRIS/웹 근거 문서 수",
+              "detail": [
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNo=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?serviceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?AccessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?apiKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?key=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?key=%2A%2A%2AKEY%2A%2A%2A&appNum=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?key=%2A%2A%2AKEY%2A%2A%2A&appno=1020210016225",
+                "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?service_key=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225"
+              ]
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 3,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "202",
+                  "unit": "",
+                  "context": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의"
+                },
+                {
+                  "value": "5",
+                  "unit": "년",
+                  "context": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관"
+                },
+                {
+                  "value": "0",
+                  "unit": "년",
+                  "context": "한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다. · 한미반도체, HBM4용 ‘T"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 12,
+      "quant_metric_count": 12,
+      "score": 5,
+      "score_reason": "직접근거 12건, 공식/DART/IR/특허 근거 12건, 정량화 지표 12건",
+      "result": "경쟁 우위는 공정와 연결된 특허·공정·양산 경험을 중심으로 확인됩니다. 대체가능성 판단에는 특허 수 자체보다 고객 승인, 공정 난이도, 양산 경험 등 0개 장벽 신호를 함께 반영합니다."
+    },
+    {
+      "category": "활용 및 확장 산업",
+      "axis": "확장성",
+      "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+      "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+      "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+      "items": [
+        {
+          "item_name": "활용 산업",
+          "category": "활용 및 확장 산업",
+          "axis": "확장성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [
+            {
+              "snippet": "지배기업의 개요한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "반도체 장비"
+              ]
+            },
+            {
+              "snippet": "(2) 수익의 구분당기와 전기의 고객과의 계약에서 생기는 수익을 주요 지리적 시장과 주요 제품과 서비스 계약과 수익인식 시기에 따라 구분한 내역은 다음과 같습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "시장"
+              ]
+            },
+            {
+              "snippet": "(1) 지역부문별 정보연결실체는 시장 및 판매방법의 특징 등을 고려하여 지역별로 적절히 관리하기 위하여 부문수익을 지역부문별 매출로 분류하고 있으며, 단일 영업부문이므로 부문자산과 부문부채는 별도로 분류하고 있지 않습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "시장"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "활용/확장 산업 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "근거 문장 내 전방산업/Application 고유 개수",
+              "detail": []
+            }
+          ]
+        },
+        {
+          "item_name": "확장 가능 제품",
+          "category": "활용 및 확장 산업",
+          "axis": "확장성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [
+            {
+              "snippet": "(2) 수익의 구분당기와 전기의 고객과의 계약에서 생기는 수익을 주요 지리적 시장과 주요 제품과 서비스 계약과 수익인식 시기에 따라 구분한 내역은 다음과 같습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "제품",
+                "시장"
+              ]
+            },
+            {
+              "snippet": "지배기업의 개요한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "반도체 장비"
+              ]
+            },
+            {
+              "snippet": "(1) 지역부문별 정보연결실체는 시장 및 판매방법의 특징 등을 고려하여 지역별로 적절히 관리하기 위하여 부문수익을 지역부문별 매출로 분류하고 있으며, 단일 영업부문이므로 부문자산과 부문부채는 별도로 분류하고 있지 않습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "시장"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "활용/확장 산업 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "근거 문장 내 전방산업/Application 고유 개수",
+              "detail": []
+            }
+          ]
+        },
+        {
+          "item_name": "전방 시장",
+          "category": "활용 및 확장 산업",
+          "axis": "확장성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [
+            {
+              "snippet": "지배기업의 개요한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "반도체 장비"
+              ]
+            },
+            {
+              "snippet": "(2) 수익의 구분당기와 전기의 고객과의 계약에서 생기는 수익을 주요 지리적 시장과 주요 제품과 서비스 계약과 수익인식 시기에 따라 구분한 내역은 다음과 같습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "시장"
+              ]
+            },
+            {
+              "snippet": "(1) 지역부문별 정보연결실체는 시장 및 판매방법의 특징 등을 고려하여 지역별로 적절히 관리하기 위하여 부문수익을 지역부문별 매출로 분류하고 있으며, 단일 영업부문이므로 부문자산과 부문부채는 별도로 분류하고 있지 않습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "시장"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "활용/확장 산업 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "근거 문장 내 전방산업/Application 고유 개수",
+              "detail": []
+            }
+          ]
+        }
+      ],
+      "evidence_count": 9,
+      "quant_metric_count": 3,
+      "score": 5,
+      "score_reason": "직접근거 9건, 공식/DART/IR/특허 근거 9건, 정량화 지표 3건",
+      "result": "활용·확장 산업은 반도체 후공정 장비, TC bonder, 비전 정렬로 확인됩니다. 실제 수집 근거에서 0개 적용 산업/Application이 추출되어 기술 확장성을 보조적으로 설명합니다."
+    },
+    {
+      "category": "진입 부담/장벽",
+      "axis": "양산성",
+      "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+      "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+      "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+      "items": [
+        {
+          "item_name": "인증/승인",
+          "category": "진입 부담/장벽",
+          "axis": "양산성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [
+            {
+              "snippet": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관점에서 공정하게 표시하고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "공정"
+              ]
+            },
+            {
+              "snippet": "지배기업의 개요한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "반도체 장비"
+              ]
+            },
+            {
+              "snippet": "· 한미반도체, HBM4용 ‘TC 본더 4’ 생산 시작",
+              "source_type": "official_homepage",
+              "source_title": "company.yaml 등록 URL",
+              "source_url": "https://www.hanmisemi.com",
+              "source_path": "",
+              "source_plan_matched": true,
+              "hits": [
+                "TC 본더"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": [
+                "공정"
+              ]
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 3,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "202",
+                  "unit": "",
+                  "context": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의"
+                },
+                {
+                  "value": "5",
+                  "unit": "년",
+                  "context": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관"
+                },
+                {
+                  "value": "0",
+                  "unit": "년",
+                  "context": "한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다. · 한미반도체, HBM4용 ‘T"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "양산 난이도",
+          "category": "진입 부담/장벽",
+          "axis": "양산성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [
+            {
+              "snippet": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관점에서 공정하게 표시하고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "공정"
+              ]
+            },
+            {
+              "snippet": "지배기업의 개요한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "반도체 장비"
+              ]
+            },
+            {
+              "snippet": "· 한미반도체, HBM4용 ‘TC 본더 4’ 생산 시작",
+              "source_type": "official_homepage",
+              "source_title": "company.yaml 등록 URL",
+              "source_url": "https://www.hanmisemi.com",
+              "source_path": "",
+              "source_plan_matched": true,
+              "hits": [
+                "TC 본더"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": [
+                "공정"
+              ]
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 3,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "202",
+                  "unit": "",
+                  "context": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의"
+                },
+                {
+                  "value": "5",
+                  "unit": "년",
+                  "context": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관"
+                },
+                {
+                  "value": "0",
+                  "unit": "년",
+                  "context": "한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다. · 한미반도체, HBM4용 ‘T"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "전환 비용",
+          "category": "진입 부담/장벽",
+          "axis": "양산성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [
+            {
+              "snippet": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관점에서 공정하게 표시하고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "공정"
+              ]
+            },
+            {
+              "snippet": "지배기업의 개요한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "반도체 장비"
+              ]
+            },
+            {
+              "snippet": "2.17 고객과의 계약에서 생기는 수익고객과의 계약에서 생기는 수익과 관련된 연결실체의 회계정책은 주석 25.(5)에 기술되어 있습니다.기업회계기준서 제1115호의 실무적 간편법에 따라 관련 계약의 미이행 부분에 배분된 거래가격은 공시하지 않았습니다.2.18 금융수익과 금융비용",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "비용"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": [
+                "공정"
+              ]
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 3,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "202",
+                  "unit": "",
+                  "context": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의"
+                },
+                {
+                  "value": "5",
+                  "unit": "년",
+                  "context": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관"
+                },
+                {
+                  "value": "0",
+                  "unit": "년",
+                  "context": "한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다. 2.17 고객과의 계약에서 생기"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 9,
+      "quant_metric_count": 6,
+      "score": 5,
+      "score_reason": "직접근거 9건, 공식/DART/IR/특허 근거 9건, 정량화 지표 6건",
+      "result": "진입 부담은 양산 공정, 고객 승인, 품질 검증, 노하우 축적 여부를 중심으로 판단됩니다. 현재 근거에서는 0개 장벽 신호가 확인되며, 이는 기술성보다 사업화 방어력 판단에 활용됩니다."
+    },
+    {
+      "category": "R&D 강도",
+      "axis": "투자 지속성",
+      "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+      "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+      "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+      "items": [
+        {
+          "item_name": "연구개발비",
+          "category": "R&D 강도",
+          "axis": "투자 지속성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [
+            {
+              "snippet": "(*) 연결포괄손익계산서의 매출원가, 판매비와관리비 및 연구개발비를 합산한 금액입니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "연구개발비",
+                "개발비",
+                "연구개발",
+                "개발"
+              ]
+            },
+            {
+              "snippet": "연결회사의 수익 대부분은 장비 판매로부터 창출되며, 2025년 중 발생한 장비제조판매 수익은 565,059백만원으로 총매출의 약 98%를 차지하고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "백만원"
+              ]
+            },
+            {
+              "snippet": "지배기업의 개요한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "반도체 장비"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "R&D/투자 신호 수",
+              "value": 2,
+              "unit": "개",
+              "formula": "연구개발·설비투자·과제·인력 문맥 신호 수",
+              "detail": [
+                "연구개발",
+                "개발"
+              ]
+            },
+            {
+              "metric_name": "R&D 관련 정량 수치",
+              "value": 5,
+              "unit": "건",
+              "formula": "연구개발·투자 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "202",
+                  "unit": "",
+                  "context": "개발비를 합산한 금액입니다. 연결회사의 수익 대부분은 장비 판매로부터 창출되며, 2025년 중 발생한 장비제조판매 수익은 565,059백만원으로 총매출의 약 98%를 차지하고 있습니다. 지배기업의 개요한미반도체 주식회사("
+                },
+                {
+                  "value": "5",
+                  "unit": "년",
+                  "context": "를 합산한 금액입니다. 연결회사의 수익 대부분은 장비 판매로부터 창출되며, 2025년 중 발생한 장비제조판매 수익은 565,059백만원으로 총매출의 약 98%를 차지하고 있습니다. 지배기업의 개요한미반도체 주식회사(이하"
+                },
+                {
+                  "value": "565,059",
+                  "unit": "백만원",
+                  "context": "익 대부분은 장비 판매로부터 창출되며, 2025년 중 발생한 장비제조판매 수익은 565,059백만원으로 총매출의 약 98%를 차지하고 있습니다. 지배기업의 개요한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로,"
+                },
+                {
+                  "value": "98",
+                  "unit": "%",
+                  "context": ", 2025년 중 발생한 장비제조판매 수익은 565,059백만원으로 총매출의 약 98%를 차지하고 있습니다. 지배기업의 개요한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "개발 과제",
+          "category": "R&D 강도",
+          "axis": "투자 지속성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [
+            {
+              "snippet": "(*) 연결포괄손익계산서의 매출원가, 판매비와관리비 및 연구개발비를 합산한 금액입니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "개발",
+                "연구",
+                "연구개발"
+              ]
+            },
+            {
+              "snippet": "지배기업의 개요한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "반도체 장비"
+              ]
+            },
+            {
+              "snippet": "· 한미반도체, HBM4용 ‘TC 본더 4’ 생산 시작",
+              "source_type": "official_homepage",
+              "source_title": "company.yaml 등록 URL",
+              "source_url": "https://www.hanmisemi.com",
+              "source_path": "",
+              "source_plan_matched": true,
+              "hits": [
+                "TC 본더"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "R&D/투자 신호 수",
+              "value": 2,
+              "unit": "개",
+              "formula": "연구개발·설비투자·과제·인력 문맥 신호 수",
+              "detail": [
+                "연구개발",
+                "개발"
+              ]
+            },
+            {
+              "metric_name": "R&D 관련 정량 수치",
+              "value": 2,
+              "unit": "건",
+              "formula": "연구개발·투자 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "198",
+                  "unit": "",
+                  "context": "개요한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다. · 한미반도체, HBM4용"
+                },
+                {
+                  "value": "0",
+                  "unit": "년",
+                  "context": "한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다. · 한미반도체, HBM4용 ‘T"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "설비투자/인력",
+          "category": "R&D 강도",
+          "axis": "투자 지속성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [
+            {
+              "snippet": "(*) 연결포괄손익계산서의 매출원가, 판매비와관리비 및 연구개발비를 합산한 금액입니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "연구개발",
+                "개발"
+              ]
+            },
+            {
+              "snippet": "지배기업의 개요한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다.",
+              "source_type": "dart_filing",
+              "source_title": "dart_latest_business_report.txt",
+              "source_url": "",
+              "source_path": "data\\반도체\\한미반도체\\tech\\source\\dart_latest_business_report.txt",
+              "source_plan_matched": true,
+              "hits": [
+                "반도체 장비"
+              ]
+            },
+            {
+              "snippet": "· 한미반도체, HBM4용 ‘TC 본더 4’ 생산 시작",
+              "source_type": "official_homepage",
+              "source_title": "company.yaml 등록 URL",
+              "source_url": "https://www.hanmisemi.com",
+              "source_path": "",
+              "source_plan_matched": true,
+              "hits": [
+                "TC 본더"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "R&D/투자 신호 수",
+              "value": 2,
+              "unit": "개",
+              "formula": "연구개발·설비투자·과제·인력 문맥 신호 수",
+              "detail": [
+                "연구개발",
+                "개발"
+              ]
+            },
+            {
+              "metric_name": "R&D 관련 정량 수치",
+              "value": 2,
+              "unit": "건",
+              "formula": "연구개발·투자 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "198",
+                  "unit": "",
+                  "context": "개요한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다. · 한미반도체, HBM4용"
+                },
+                {
+                  "value": "0",
+                  "unit": "년",
+                  "context": "한미반도체 주식회사(이하 '지배기업')는 반도체 장비 제조판매를 목적으로, 1980년 12월 24일에 설립되었으며, 인천광역시 서구 가좌로 30번길 14에 본사 및 공장을 두고 있습니다. · 한미반도체, HBM4용 ‘T"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 9,
+      "quant_metric_count": 6,
+      "score": 5,
+      "score_reason": "직접근거 9건, 공식/DART/IR/특허 근거 9건, 정량화 지표 6건",
+      "result": "R&D 강도는 연구개발·설비투자·개발과제의 지속성을 기준으로 봅니다. 실제 근거에서 R&D/투자 신호 0개가 확인되며, 기술 유지·개선 가능성의 보조 지표로 사용합니다."
+    }
+  ],
+  "source_contexts": [
+    {
+      "title": "company.yaml 등록 URL",
+      "source_type": "official_homepage",
+      "url": "https://www.hanmisemi.com",
+      "path": "",
+      "snippet": "company.yaml 등록 URL 공식/추가 URL 오늘 하루 이 창을 열지 않음 한미반도체 고객 정책 글로벌 네트워크 한미 Ai A/S 센터 HBM TC BONDER 2.5D TC BONDER FC BONDER VISION PLACEMENT micro SAW EMI SHIELD META GRINDER 공시정보 관리규정 ESG 윤리품질 Environment 환경경영 Society 사회적 책임 Governance 지배구조 Ethic 윤리경영 Quality 품질경영 · TC BONDER 4.5 · TC BONDER 4.0 · TC BONDER 1.0 · HBM 6-SIDE INSPECTION 1.0 · 2.5D TC BONDER 120 · 2.5D TC BONDER 40 C2S · 2.5D TC BONDER 40 C2W · BOC COB BONDER · TC BONDER 3.0CS · FC BON",
+      "relevance_score": 31.3
+    },
+    {
+      "title": "official same-domain candidate",
+      "source_type": "official_homepage",
+      "url": "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=2&sNo=6",
+      "path": "",
+      "snippet": "official same-domain candidate 공식 사이트 내부 기술/제품 후보 링크 한미반도체 고객 정책 글로벌 네트워크 한미 Ai A/S 센터 HBM TC BONDER 2.5D TC BONDER FC BONDER VISION PLACEMENT micro SAW EMI SHIELD META GRINDER 공시정보 관리규정 ESG 윤리품질 Environment 환경경영 Society 사회적 책임 Governance 지배구조 Ethic 윤리경영 Quality 품질경영 · TC BONDER 4.5 · TC BONDER 4.0 · TC BONDER 1.0 · HBM 6-SIDE INSPECTION 1.0 · 2.5D TC BONDER 120 · 2.5D TC BONDER 40 C2S · 2.5D TC BONDER 40 C2W · BOC COB BONDER · TC BONDER 3.0CS ·",
+      "relevance_score": 30.6
+    },
+    {
+      "title": "official same-domain candidate",
+      "source_type": "official_homepage",
+      "url": "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=10",
+      "path": "",
+      "snippet": "official same-domain candidate 공식 사이트 내부 기술/제품 후보 링크 한미반도체 고객 정책 글로벌 네트워크 한미 Ai A/S 센터 HBM TC BONDER 2.5D TC BONDER FC BONDER VISION PLACEMENT micro SAW EMI SHIELD META GRINDER 공시정보 관리규정 ESG 윤리품질 Environment 환경경영 Society 사회적 책임 Governance 지배구조 Ethic 윤리경영 Quality 품질경영 · TC BONDER 4.5 · TC BONDER 4.0 · TC BONDER 1.0 · HBM 6-SIDE INSPECTION 1.0 · 2.5D TC BONDER 120 · 2.5D TC BONDER 40 C2S · 2.5D TC BONDER 40 C2W · BOC COB BONDER · TC BONDER 3.0CS ·",
+      "relevance_score": 30.6
+    },
+    {
+      "title": "official same-domain candidate",
+      "source_type": "official_homepage",
+      "url": "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=3",
+      "path": "",
+      "snippet": "official same-domain candidate 공식 사이트 내부 기술/제품 후보 링크 한미반도체 고객 정책 글로벌 네트워크 한미 Ai A/S 센터 HBM TC BONDER 2.5D TC BONDER FC BONDER VISION PLACEMENT micro SAW EMI SHIELD META GRINDER 공시정보 관리규정 ESG 윤리품질 Environment 환경경영 Society 사회적 책임 Governance 지배구조 Ethic 윤리경영 Quality 품질경영 · TC BONDER 4.5 · TC BONDER 4.0 · TC BONDER 1.0 · HBM 6-SIDE INSPECTION 1.0 · 2.5D TC BONDER 120 · 2.5D TC BONDER 40 C2S · 2.5D TC BONDER 40 C2W · BOC COB BONDER · TC BONDER 3.0CS ·",
+      "relevance_score": 30.6
+    },
+    {
+      "title": "official same-domain candidate",
+      "source_type": "official_homepage",
+      "url": "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=4",
+      "path": "",
+      "snippet": "official same-domain candidate 공식 사이트 내부 기술/제품 후보 링크 한미반도체 고객 정책 글로벌 네트워크 한미 Ai A/S 센터 HBM TC BONDER 2.5D TC BONDER FC BONDER VISION PLACEMENT micro SAW EMI SHIELD META GRINDER 공시정보 관리규정 ESG 윤리품질 Environment 환경경영 Society 사회적 책임 Governance 지배구조 Ethic 윤리경영 Quality 품질경영 · TC BONDER 4.5 · TC BONDER 4.0 · TC BONDER 1.0 · HBM 6-SIDE INSPECTION 1.0 · 2.5D TC BONDER 120 · 2.5D TC BONDER 40 C2S · 2.5D TC BONDER 40 C2W · BOC COB BONDER · TC BONDER 3.0CS ·",
+      "relevance_score": 30.6
+    },
+    {
+      "title": "official same-domain candidate",
+      "source_type": "official_homepage",
+      "url": "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=5",
+      "path": "",
+      "snippet": "official same-domain candidate 공식 사이트 내부 기술/제품 후보 링크 한미반도체 고객 정책 글로벌 네트워크 한미 Ai A/S 센터 HBM TC BONDER 2.5D TC BONDER FC BONDER VISION PLACEMENT micro SAW EMI SHIELD META GRINDER 공시정보 관리규정 ESG 윤리품질 Environment 환경경영 Society 사회적 책임 Governance 지배구조 Ethic 윤리경영 Quality 품질경영 · TC BONDER 4.5 · TC BONDER 4.0 · TC BONDER 1.0 · HBM 6-SIDE INSPECTION 1.0 · 2.5D TC BONDER 120 · 2.5D TC BONDER 40 C2S · 2.5D TC BONDER 40 C2W · BOC COB BONDER · TC BONDER 3.0CS ·",
+      "relevance_score": 30.6
+    },
+    {
+      "title": "official same-domain candidate",
+      "source_type": "official_homepage",
+      "url": "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=6",
+      "path": "",
+      "snippet": "official same-domain candidate 공식 사이트 내부 기술/제품 후보 링크 한미반도체 고객 정책 글로벌 네트워크 한미 Ai A/S 센터 HBM TC BONDER 2.5D TC BONDER FC BONDER VISION PLACEMENT micro SAW EMI SHIELD META GRINDER 공시정보 관리규정 ESG 윤리품질 Environment 환경경영 Society 사회적 책임 Governance 지배구조 Ethic 윤리경영 Quality 품질경영 · TC BONDER 4.5 · TC BONDER 4.0 · TC BONDER 1.0 · HBM 6-SIDE INSPECTION 1.0 · 2.5D TC BONDER 120 · 2.5D TC BONDER 40 C2S · 2.5D TC BONDER 40 C2W · BOC COB BONDER · TC BONDER 3.0CS ·",
+      "relevance_score": 30.6
+    },
+    {
+      "title": "official same-domain candidate",
+      "source_type": "official_homepage",
+      "url": "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=7",
+      "path": "",
+      "snippet": "official same-domain candidate 공식 사이트 내부 기술/제품 후보 링크 한미반도체 고객 정책 글로벌 네트워크 한미 Ai A/S 센터 HBM TC BONDER 2.5D TC BONDER FC BONDER VISION PLACEMENT micro SAW EMI SHIELD META GRINDER 공시정보 관리규정 ESG 윤리품질 Environment 환경경영 Society 사회적 책임 Governance 지배구조 Ethic 윤리경영 Quality 품질경영 · TC BONDER 4.5 · TC BONDER 4.0 · TC BONDER 1.0 · HBM 6-SIDE INSPECTION 1.0 · 2.5D TC BONDER 120 · 2.5D TC BONDER 40 C2S · 2.5D TC BONDER 40 C2W · BOC COB BONDER · TC BONDER 3.0CS ·",
+      "relevance_score": 30.6
+    },
+    {
+      "title": "official same-domain candidate",
+      "source_type": "official_homepage",
+      "url": "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=2&sNo=5",
+      "path": "",
+      "snippet": "official same-domain candidate 공식 사이트 내부 기술/제품 후보 링크 한미반도체 고객 정책 글로벌 네트워크 한미 Ai A/S 센터 HBM TC BONDER 2.5D TC BONDER FC BONDER VISION PLACEMENT micro SAW EMI SHIELD META GRINDER 공시정보 관리규정 ESG 윤리품질 Environment 환경경영 Society 사회적 책임 Governance 지배구조 Ethic 윤리경영 Quality 품질경영 · TC BONDER 4.5 · TC BONDER 4.0 · TC BONDER 1.0 · HBM 6-SIDE INSPECTION 1.0 · 2.5D TC BONDER 120 · 2.5D TC BONDER 40 C2S · 2.5D TC BONDER 40 C2W · BOC COB BONDER · TC BONDER 3.0CS ·",
+      "relevance_score": 30.6
+    },
+    {
+      "title": "official same-domain candidate",
+      "source_type": "official_homepage",
+      "url": "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=2&sNo=2",
+      "path": "",
+      "snippet": "official same-domain candidate 공식 사이트 내부 기술/제품 후보 링크 한미반도체 고객 정책 글로벌 네트워크 한미 Ai A/S 센터 HBM TC BONDER 2.5D TC BONDER FC BONDER VISION PLACEMENT micro SAW EMI SHIELD META GRINDER 공시정보 관리규정 ESG 윤리품질 Environment 환경경영 Society 사회적 책임 Governance 지배구조 Ethic 윤리경영 Quality 품질경영 · TC BONDER 4.5 · TC BONDER 4.0 · TC BONDER 1.0 · HBM 6-SIDE INSPECTION 1.0 · 2.5D TC BONDER 120 · 2.5D TC BONDER 40 C2S · 2.5D TC BONDER 40 C2W · BOC COB BONDER · TC BONDER 3.0CS ·",
+      "relevance_score": 30.6
+    },
+    {
+      "title": "official same-domain candidate",
+      "source_type": "official_homepage",
+      "url": "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=2&sNo=3",
+      "path": "",
+      "snippet": "official same-domain candidate 공식 사이트 내부 기술/제품 후보 링크 한미반도체 고객 정책 글로벌 네트워크 한미 Ai A/S 센터 HBM TC BONDER 2.5D TC BONDER FC BONDER VISION PLACEMENT micro SAW EMI SHIELD META GRINDER 공시정보 관리규정 ESG 윤리품질 Environment 환경경영 Society 사회적 책임 Governance 지배구조 Ethic 윤리경영 Quality 품질경영 · TC BONDER 4.5 · TC BONDER 4.0 · TC BONDER 1.0 · HBM 6-SIDE INSPECTION 1.0 · 2.5D TC BONDER 120 · 2.5D TC BONDER 40 C2S · 2.5D TC BONDER 40 C2W · BOC COB BONDER · TC BONDER 3.0CS ·",
+      "relevance_score": 30.6
+    },
+    {
+      "title": "official same-domain candidate",
+      "source_type": "official_homepage",
+      "url": "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=2",
+      "path": "",
+      "snippet": "official same-domain candidate 공식 사이트 내부 기술/제품 후보 링크 한미반도체 고객 정책 글로벌 네트워크 한미 Ai A/S 센터 HBM TC BONDER 2.5D TC BONDER FC BONDER VISION PLACEMENT micro SAW EMI SHIELD META GRINDER 공시정보 관리규정 ESG 윤리품질 Environment 환경경영 Society 사회적 책임 Governance 지배구조 Ethic 윤리경영 Quality 품질경영 · TC BONDER 4.5 · TC BONDER 4.0 · TC BONDER 1.0 · HBM 6-SIDE INSPECTION 1.0 · 2.5D TC BONDER 120 · 2.5D TC BONDER 40 C2S · 2.5D TC BONDER 40 C2W · BOC COB BONDER · TC BONDER 3.0CS ·",
+      "relevance_score": 30.6
+    },
+    {
+      "title": "official same-domain candidate",
+      "source_type": "official_homepage",
+      "url": "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=2&sNo=4",
+      "path": "",
+      "snippet": "official same-domain candidate 공식 사이트 내부 기술/제품 후보 링크 한미반도체 고객 정책 글로벌 네트워크 한미 Ai A/S 센터 HBM TC BONDER 2.5D TC BONDER FC BONDER VISION PLACEMENT micro SAW EMI SHIELD META GRINDER 공시정보 관리규정 ESG 윤리품질 Environment 환경경영 Society 사회적 책임 Governance 지배구조 Ethic 윤리경영 Quality 품질경영 · TC BONDER 4.5 · TC BONDER 4.0 · TC BONDER 1.0 · HBM 6-SIDE INSPECTION 1.0 · 2.5D TC BONDER 120 · 2.5D TC BONDER 40 C2S · 2.5D TC BONDER 40 C2W · BOC COB BONDER · TC BONDER 3.0CS ·",
+      "relevance_score": 30.6
+    },
+    {
+      "title": "official same-domain candidate",
+      "source_type": "official_homepage",
+      "url": "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=10&sNo=1",
+      "path": "",
+      "snippet": "official same-domain candidate 공식 사이트 내부 기술/제품 후보 링크 한미반도체 고객 정책 글로벌 네트워크 한미 Ai A/S 센터 HBM TC BONDER 2.5D TC BONDER FC BONDER VISION PLACEMENT micro SAW EMI SHIELD META GRINDER 공시정보 관리규정 ESG 윤리품질 Environment 환경경영 Society 사회적 책임 Governance 지배구조 Ethic 윤리경영 Quality 품질경영 · TC BONDER 4.5 · TC BONDER 4.0 · TC BONDER 1.0 · HBM 6-SIDE INSPECTION 1.0 · 2.5D TC BONDER 120 · 2.5D TC BONDER 40 C2S · 2.5D TC BONDER 40 C2W · BOC COB BONDER · TC BONDER 3.0CS ·",
+      "relevance_score": 30.6
+    },
+    {
+      "title": "official same-domain candidate",
+      "source_type": "official_homepage",
+      "url": "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=10&sNo=3",
+      "path": "",
+      "snippet": "official same-domain candidate 공식 사이트 내부 기술/제품 후보 링크 한미반도체 고객 정책 글로벌 네트워크 한미 Ai A/S 센터 HBM TC BONDER 2.5D TC BONDER FC BONDER VISION PLACEMENT micro SAW EMI SHIELD META GRINDER 공시정보 관리규정 ESG 윤리품질 Environment 환경경영 Society 사회적 책임 Governance 지배구조 Ethic 윤리경영 Quality 품질경영 · TC BONDER 4.5 · TC BONDER 4.0 · TC BONDER 1.0 · HBM 6-SIDE INSPECTION 1.0 · 2.5D TC BONDER 120 · 2.5D TC BONDER 40 C2S · 2.5D TC BONDER 40 C2W · BOC COB BONDER · TC BONDER 3.0CS ·",
+      "relevance_score": 30.6
+    }
+  ],
+  "limitations": [
+    "tech_template.xlsx의 기업별 예시값은 복사 근거로 사용하지 않고, 대출처·중출처·정량화 규칙만 추출 설계로 사용합니다.",
+    "기술 점수만으로 매수/매도 결론을 만들지 않고 Tech-to-Value Bridge로 고객 채택·양산·매출 전환·FCF 연결성을 확인합니다.",
+    "회사 식별어가 약하거나 타기업 중심인 URL은 제외합니다."
+  ],
+  "evidence_harvest_summary": {
+    "document_count": 40,
+    "accepted_url_count": 35,
+    "rejected_url_count": 0,
+    "quality_flags": [
+      "KIPRIS Tech ML features merged into Tech Agent runtime outputs."
+    ],
+    "template_usage": "framework_only: base/formula sheet source plan, no company-example content copied as evidence"
+  }
+}

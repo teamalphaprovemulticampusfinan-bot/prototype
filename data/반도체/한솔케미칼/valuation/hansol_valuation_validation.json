@@ -2,26 +2,21 @@
   "status": "PASS",
   "issues": [
     {
-      "severity": "INFO",
-      "code": "NO_MAJOR_WARNINGS",
-      "message": "주요 validation warning 없음"
+      "severity": "LOW",
+      "code": "NO_SHARE_COUNT",
+      "message": "발행주식 수를 확인하지 못해 내재주가/시가총액 기반 지표 일부가 제한될 수 있습니다."
     }
   ],
   "audit_trail": [
     {
       "step": "normalized_financials",
       "status": "OK",
-      "rows": 5
+      "rows": 3
     },
     {
       "step": "price_history",
       "status": "OK",
-      "rows": 1142
-    },
-    {
-      "step": "share_count",
-      "status": "OK",
-      "shares_outstanding": 11335195.0
+      "rows": 1163
     },
     {
       "step": "reference_universe",
@@ -30,13 +25,13 @@
     },
     {
       "step": "market_cap",
-      "status": "OK",
-      "market_cap": 2009730073500.0
+      "status": "INFO_NOT_AVAILABLE",
+      "market_cap": null
     },
     {
       "step": "liquidity_proxy",
       "status": "OK",
-      "avg_trading_value_20d": 7102830305.0
+      "avg_trading_value_20d": 11725373865.0
     },
     {
       "step": "workbook_available",

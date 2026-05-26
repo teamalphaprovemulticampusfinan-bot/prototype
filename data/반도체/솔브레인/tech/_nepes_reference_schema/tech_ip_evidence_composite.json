@@ -3,7 +3,7 @@
   "company_name": "네패스",
   "field": "반도체",
   "status": "OK",
-  "created_at": "2026-05-20T10:17:08",
+  "created_at": "2026-05-26T03:13:00",
   "weights": {
     "legal_stability": 0.25,
     "claim_defense": 0.3,
@@ -18,7 +18,7 @@
       "feature_status": "OK",
       "source_file": "data\\반도체\\네패스\\tech\\tech_ip_legal_features.json",
       "weight": 0.25,
-      "score_estimated": 70.47,
+      "score_estimated": 70.5,
       "weighted_contribution_points": 17.62,
       "bridge_signal": "IP_LEGAL_STABILITY_NEUTRAL_POSITIVE",
       "bridge_adjustment_points": 1.0
@@ -42,8 +42,8 @@
       "feature_status": "FALLBACK_ESTIMATED",
       "source_file": "data\\반도체\\네패스\\tech\\tech_ip_citation_features.json",
       "weight": 0.25,
-      "score_estimated": 35.29,
-      "weighted_contribution_points": 8.82,
+      "score_estimated": 35.5,
+      "weighted_contribution_points": 8.88,
       "bridge_signal": "IP_CITATION_FALLBACK_ESTIMATED",
       "bridge_adjustment_points": 0.0
     },
@@ -54,17 +54,17 @@
       "feature_status": "OK",
       "source_file": "data\\반도체\\네패스\\tech\\tech_ip_family_features.json",
       "weight": 0.2,
-      "score_estimated": 33.67,
-      "weighted_contribution_points": 6.73,
-      "bridge_signal": "IP_GLOBAL_EXTENSION_WEAK",
-      "bridge_adjustment_points": -1.0
+      "score_estimated": 35.82,
+      "weighted_contribution_points": 7.16,
+      "bridge_signal": "IP_GLOBAL_EXTENSION_NEUTRAL",
+      "bridge_adjustment_points": 0.0
     }
   },
   "score_calculation": {
-    "weighted_sum_on_full_100_scale": 53.56,
+    "weighted_sum_on_full_100_scale": 54.05,
     "available_weight": 1.0,
     "data_coverage_rate": 1.0,
-    "composite_score_estimated": 53.56,
+    "composite_score_estimated": 54.05,
     "formula": "IP Evidence Composite Score = legal_stability*0.25 + claim_defense*0.30 + citation_influence*0.25 + global_extension*0.20. If a component score is missing, the score is normalized by available weight."
   },
   "tech_to_value_bridge": {
@@ -74,7 +74,7 @@
   },
   "bridge_adjustment_points": 0.0,
   "bridge_signal": "IP_EVIDENCE_NEUTRAL",
-  "ip_evidence_composite_score": 53.56,
+  "ip_evidence_composite_score": 54.05,
   "ip_evidence_data_coverage_rate": 1.0,
   "strengths": [],
   "cautions": [

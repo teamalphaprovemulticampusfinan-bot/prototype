@@ -1,10 +1,10 @@
 # 가온칩스 Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-25T21:06:05
+- 생성 시각: 2026-05-26T05:30:34
 - 종합 점수: 82.72/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 150개
+- 원천 문서 수: 152개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -32,18 +32,18 @@
 - [DIRECT_EVIDENCE] - 기술 우위가 확인되어도 고객 채택·양산·매출 전환·FCF 직접 근거가 약하면 보수적으로 반영합니다. (source=data/반도체/가온칩스/tech/_nepes_reference_schema/nepes_tech_chair_summary.md, keywords=양산, urls=http://www.w3.org/2001/XMLSchema-instance, http://www.nepes.co.kr)
 
 ### 매출 전환
-- [DIRECT_EVIDENCE] summary: 가온칩스는 2023년 이후 매출이 꾸준히 성장하며 외형 확대를 지속하고 있으나, 2024년 영업이익률은 하락하며 수익성 개선 여부가 관건이다. (source=data/반도체/가온칩스/finance/가온칩스_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2023년 매출성장률 46.8%, 2024년 51.7%로 가파른 외형 성장을 기록하고 있다. (source=data/반도체/가온칩스/finance/가온칩스_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: 가온칩스는 2023년 이후 매출이 46% 이상 꾸준히 성장하며 외형 확대를 지속하고 있습니다. (source=data/반도체/가온칩스/finance/가온칩스_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2023년 46.8%, 2024년 51.7%의 높은 매출 성장률을 기록하며 외형 성장을 지속하고 있습니다. (source=data/반도체/가온칩스/finance/가온칩스_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] missing_prompt_metrics: 매출성장률 (source=data/반도체/가온칩스/finance/가온칩스_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률 (source=data/반도체/가온칩스/finance/가온칩스_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] sales: 96492001688.0 (source=data/반도체/가온칩스/finance/가온칩스_finance_agent_packet.json, keywords=sales, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### 마진·원가·현금흐름 연결
-- [DIRECT_EVIDENCE] summary: 가온칩스는 2023년 이후 매출이 꾸준히 성장하며 외형 확대를 지속하고 있으나, 2024년 영업이익률은 하락하며 수익성 개선 여부가 관건이다. (source=data/반도체/가온칩스/finance/가온칩스_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] 2024년 자유현금흐름은 양수로 전환되었으나, 부채비율은 지속적으로 상승하는 추세를 보여 재무 건전성 관리가 필요하다. (source=data/반도체/가온칩스/finance/가온칩스_finance.json, keywords=현금흐름, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년 자유현금흐름(FCF)이 11조 원 이상으로 크게 개선되며 현금 창출 능력이 향상되었다. (source=data/반도체/가온칩스/finance/가온칩스_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_risks: 2024년 영업이익률이 3.65%로 전년 대비 하락하여 수익성 개선 여부에 대한 면밀한 확인이 필요하다. (source=data/반도체/가온칩스/finance/가온칩스_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] report_core_points: 영업이익률: 가온칩스 2024 기준 영업이익률 값은 3.65%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다. (source=data/반도체/가온칩스/finance/가온칩스_finance_agent_packet.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] 그러나 영업이익률은 2023년 6.8%에서 2024년 3.7%로 하락하는 추세를 보이며 수익성 개선이 필요한 상황입니다. (source=data/반도체/가온칩스/finance/가온칩스_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] 2024년에는 긍정적인 영업활동현금흐름(OCF)과 잉여현금흐름(FCF)을 기록하며 현금 창출 능력이 개선되었으나, 부채비율은 2022년 34.6%에서 2024년 62.5%로 상승하여 재무 건전성에 대한 점검이 필요합니다. (source=data/반도체/가온칩스/finance/가온칩스_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 영업활동현금흐름(OCF)이 218억 원으로 크게 증가했으며, 잉여현금흐름(FCF) 또한 110억 원으로 흑자 전환하며 현금 창출 능력이 개선되었습니다. (source=data/반도체/가온칩스/finance/가온칩스_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2023년 ROE가 10.2%로 상승했으며, 2024년에도 10.9%를 기록하며 자본 대비 수익성이 개선되는 추세를 보입니다. (source=data/반도체/가온칩스/finance/가온칩스_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 영업이익률이 2023년 6.8%에서 2024년 3.7%로 하락하는 추세를 보여 수익성 악화 가능성이 있습니다. (source=data/반도체/가온칩스/finance/가온칩스_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### IP 품질
 - [DIRECT_EVIDENCE] legal_status: status=COLLECTED, count=None, score=1.0, signal=None (source=data/반도체/가온칩스/tech/gaochips_tech_ip_legal_features.json, keywords=legal_status, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)

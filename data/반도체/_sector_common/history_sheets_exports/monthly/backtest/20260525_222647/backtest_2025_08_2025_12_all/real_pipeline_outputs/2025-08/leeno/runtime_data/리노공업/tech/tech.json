@@ -1,0 +1,1374 @@
+{
+  "agent": "tech",
+  "version": "v11_excel_frame_actual_source_concise_quantification",
+  "company": "리노공업",
+  "company_dir": "leeno",
+  "opinion": "보유",
+  "tech_score": 21,
+  "score_report": {
+    "company_name": "리노공업",
+    "axes": [
+      {
+        "category": "대표 기술",
+        "axis": "기술성",
+        "score": 3,
+        "reason": "직접근거 1건, 공식/DART/IR/특허 근거 0건, 정량화 지표 5건",
+        "result": "리노공업은 테스트, 양산, 공정 기반 기술/공정 기업으로, 관련 기술은 실제 원천에서 0회 확인됩니다. 해당 기술은 0개 제품·공정 영역과 연결되며, 양산·공정·기술 문맥을 통해 구현 방향을 판단합니다."
+      },
+      {
+        "category": "핵심 제품/서비스",
+        "axis": "수익성 기여",
+        "score": 3,
+        "reason": "직접근거 3건, 공식/DART/IR/특허 근거 0건, 정량화 지표 3건",
+        "result": "핵심 제품/서비스는 테스트 중심으로 확인됩니다. 실제 원천 기준 0개 제품·서비스 축이 추출되며, 매출·성장 정량 신호는 DART/IR 문맥과 결합해 수익성 기여 판단에 사용합니다."
+      },
+      {
+        "category": "고객 구매 이유",
+        "axis": "고객 채택도",
+        "score": 3,
+        "reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 9건",
+        "result": "고객 구매 이유는 핵심 기술 관련 성능·품질·양산 효익으로 정리됩니다. 실제 근거에서 고객 효익 신호 0개가 확인되며, 단순 기술 키워드가 아니라 적용처·성능·양산 문맥과 함께 해석합니다."
+      },
+      {
+        "category": "경쟁 우위/대체가능성",
+        "axis": "진입장벽",
+        "score": 3,
+        "reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 12건",
+        "result": "경쟁 우위는 핵심 기술와 연결된 특허·공정·양산 경험을 중심으로 확인됩니다. 대체가능성 판단에는 특허 수 자체보다 고객 승인, 공정 난이도, 양산 경험 등 0개 장벽 신호를 함께 반영합니다."
+      },
+      {
+        "category": "활용 및 확장 산업",
+        "axis": "확장성",
+        "score": 3,
+        "reason": "직접근거 3건, 공식/DART/IR/특허 근거 0건, 정량화 지표 3건",
+        "result": "활용·확장 산업은 EV로 확인됩니다. 실제 수집 근거에서 0개 적용 산업/Application이 추출되어 기술 확장성을 보조적으로 설명합니다."
+      },
+      {
+        "category": "진입 부담/장벽",
+        "axis": "양산성",
+        "score": 3,
+        "reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 6건",
+        "result": "진입 부담은 양산 공정, 고객 승인, 품질 검증, 노하우 축적 여부를 중심으로 판단됩니다. 현재 근거에서는 0개 장벽 신호가 확인되며, 이는 기술성보다 사업화 방어력 판단에 활용됩니다."
+      },
+      {
+        "category": "R&D 강도",
+        "axis": "투자 지속성",
+        "score": 3,
+        "reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 6건",
+        "result": "R&D 강도는 연구개발·설비투자·개발과제의 지속성을 기준으로 봅니다. 실제 근거에서 R&D/투자 신호 0개가 확인되며, 기술 유지·개선 가능성의 보조 지표로 사용합니다."
+      }
+    ],
+    "details": [
+      {
+        "category": "대표 기술",
+        "axis": "기술성",
+        "score": 3,
+        "reason": "직접근거 1건, 공식/DART/IR/특허 근거 0건, 정량화 지표 5건",
+        "result": "리노공업은 테스트, 양산, 공정 기반 기술/공정 기업으로, 관련 기술은 실제 원천에서 0회 확인됩니다. 해당 기술은 0개 제품·공정 영역과 연결되며, 양산·공정·기술 문맥을 통해 구현 방향을 판단합니다."
+      },
+      {
+        "category": "핵심 제품/서비스",
+        "axis": "수익성 기여",
+        "score": 3,
+        "reason": "직접근거 3건, 공식/DART/IR/특허 근거 0건, 정량화 지표 3건",
+        "result": "핵심 제품/서비스는 테스트 중심으로 확인됩니다. 실제 원천 기준 0개 제품·서비스 축이 추출되며, 매출·성장 정량 신호는 DART/IR 문맥과 결합해 수익성 기여 판단에 사용합니다."
+      },
+      {
+        "category": "고객 구매 이유",
+        "axis": "고객 채택도",
+        "score": 3,
+        "reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 9건",
+        "result": "고객 구매 이유는 핵심 기술 관련 성능·품질·양산 효익으로 정리됩니다. 실제 근거에서 고객 효익 신호 0개가 확인되며, 단순 기술 키워드가 아니라 적용처·성능·양산 문맥과 함께 해석합니다."
+      },
+      {
+        "category": "경쟁 우위/대체가능성",
+        "axis": "진입장벽",
+        "score": 3,
+        "reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 12건",
+        "result": "경쟁 우위는 핵심 기술와 연결된 특허·공정·양산 경험을 중심으로 확인됩니다. 대체가능성 판단에는 특허 수 자체보다 고객 승인, 공정 난이도, 양산 경험 등 0개 장벽 신호를 함께 반영합니다."
+      },
+      {
+        "category": "활용 및 확장 산업",
+        "axis": "확장성",
+        "score": 3,
+        "reason": "직접근거 3건, 공식/DART/IR/특허 근거 0건, 정량화 지표 3건",
+        "result": "활용·확장 산업은 EV로 확인됩니다. 실제 수집 근거에서 0개 적용 산업/Application이 추출되어 기술 확장성을 보조적으로 설명합니다."
+      },
+      {
+        "category": "진입 부담/장벽",
+        "axis": "양산성",
+        "score": 3,
+        "reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 6건",
+        "result": "진입 부담은 양산 공정, 고객 승인, 품질 검증, 노하우 축적 여부를 중심으로 판단됩니다. 현재 근거에서는 0개 장벽 신호가 확인되며, 이는 기술성보다 사업화 방어력 판단에 활용됩니다."
+      },
+      {
+        "category": "R&D 강도",
+        "axis": "투자 지속성",
+        "score": 3,
+        "reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 6건",
+        "result": "R&D 강도는 연구개발·설비투자·개발과제의 지속성을 기준으로 봅니다. 실제 근거에서 R&D/투자 신호 0개가 확인되며, 기술 유지·개선 가능성의 보조 지표로 사용합니다."
+      }
+    ],
+    "total_score": 21,
+    "max_score": 35,
+    "strengths": [],
+    "weaknesses": [],
+    "judgment": "기술 경쟁형",
+    "quality_flags": [
+      "DART 사업보고서 본문 미수집: DART_API_KEY 또는 stock_code 확인 필요",
+      "공식 홈페이지/IR 본문 미수집: company.yaml URL 또는 네트워크 접근 확인 필요",
+      "KIPRIS Tech ML features merged into Tech Agent runtime outputs."
+    ]
+  },
+  "tech_to_value_inputs": {
+    "score": 43.0,
+    "tech_agent_raw_score": 60.0,
+    "base_signal_score": 52.0,
+    "auditor_adjusted_score": 42.0,
+    "auditor_conservative_adjustment": 18.0,
+    "grade": "TECH_FINANCE_GAP",
+    "policy": "기술 우위는 고객사 채택, 양산, 매출 전환, FCF 개선 근거와 연결될 때만 가치평가 가산 요인으로 반영한다.",
+    "interpretation": "기술·제품 근거가 가치평가 보조 근거로 쓰이려면 고객 적용, 양산, 매출/현금흐름 연결이 함께 확인되어야 합니다.",
+    "components": {
+      "commercialization_hits": 4,
+      "production_hits": 4,
+      "value_hits": 0,
+      "ip_hits": 2,
+      "official_doc_count": 21,
+      "quantitative_signal_count": 44
+    },
+    "penalties": [
+      "매출·수익성·FCF 연결 근거 부족"
+    ],
+    "evidence_samples": [
+      {
+        "snippet": "리노공업은 Universe CSV에서 '테스트/소켓' peer_group으로 분류되어 있습니다.",
+        "source_type": "local_data",
+        "source_title": "leeno_tech_local_proxy_evidence.md",
+        "source_url": "",
+        "source_path": "data\\반도체\\리노공업\\tech\\source\\leeno_tech_local_proxy_evidence.md",
+        "source_plan_matched": false,
+        "hits": [
+          "테스트"
+        ]
+      },
+      {
+        "snippet": "리노공업은 Universe CSV에서 '테스트/소켓' peer_group으로 분류되어 있습니다.",
+        "source_type": "local_data",
+        "source_title": "leeno_tech_local_proxy_evidence.md",
+        "source_url": "",
+        "source_path": "data\\반도체\\리노공업\\tech\\source\\leeno_tech_local_proxy_evidence.md",
+        "source_plan_matched": false,
+        "hits": [
+          "테스트"
+        ]
+      },
+      {
+        "snippet": "리노공업은 Universe CSV에서 '테스트/소켓' peer_group으로 분류되어 있습니다.",
+        "source_type": "local_data",
+        "source_title": "leeno_tech_local_proxy_evidence.md",
+        "source_url": "",
+        "source_path": "data\\반도체\\리노공업\\tech\\source\\leeno_tech_local_proxy_evidence.md",
+        "source_plan_matched": false,
+        "hits": [
+          "테스트"
+        ]
+      },
+      {
+        "snippet": "리노공업은 Universe CSV에서 '테스트/소켓' peer_group으로 분류되어 있습니다.",
+        "source_type": "local_data",
+        "source_title": "leeno_tech_local_proxy_evidence.md",
+        "source_url": "",
+        "source_path": "data\\반도체\\리노공업\\tech\\source\\leeno_tech_local_proxy_evidence.md",
+        "source_plan_matched": false,
+        "hits": [
+          "테스트"
+        ]
+      },
+      {
+        "snippet": "# 리노공업 Tech Local Proxy Evidence",
+        "source_type": "local_data",
+        "source_title": "leeno_tech_local_proxy_evidence.md",
+        "source_url": "",
+        "source_path": "data\\반도체\\리노공업\\tech\\source\\leeno_tech_local_proxy_evidence.md",
+        "source_plan_matched": false,
+        "hits": [
+          "EV"
+        ]
+      },
+      {
+        "snippet": "# 리노공업 Tech Local Proxy Evidence",
+        "source_type": "local_data",
+        "source_title": "leeno_tech_local_proxy_evidence.md",
+        "source_url": "",
+        "source_path": "data\\반도체\\리노공업\\tech\\source\\leeno_tech_local_proxy_evidence.md",
+        "source_plan_matched": false,
+        "hits": [
+          "EV"
+        ]
+      },
+      {
+        "snippet": "# 리노공업 Tech Local Proxy Evidence",
+        "source_type": "local_data",
+        "source_title": "leeno_tech_local_proxy_evidence.md",
+        "source_url": "",
+        "source_path": "data\\반도체\\리노공업\\tech\\source\\leeno_tech_local_proxy_evidence.md",
+        "source_plan_matched": false,
+        "hits": [
+          "EV"
+        ]
+      }
+    ],
+    "score_before_kipris_tech_ml_adjustment": 42.0,
+    "kipris_tech_ml_features": {
+      "company_slug": "leeno",
+      "company_name": "리노공업",
+      "field": "반도체",
+      "source_csv": "data\\반도체\\리노공업\\tech\\leeno_kipris_patents_normalized.csv",
+      "enriched_csv": "data\\반도체\\리노공업\\tech\\leeno_kipris_tech_ml_enriched.csv",
+      "generated_at": "2026-05-26T03:03:12",
+      "core_counts": {
+        "total_patents": 30,
+        "registered_patents_estimated": 27,
+        "alive_patents_estimated": 23,
+        "negative_disposal_patents_estimated": 4,
+        "recent_5y_application_patents": 5,
+        "h01l_core_patents": 0,
+        "semiconductor_related_ipc_patents": 27,
+        "ipc_subclass_count": 6,
+        "ipc_main_group_count": 8,
+        "tech_keyword_match_total": 60,
+        "tech_keyword_match_avg": 2.0
+      },
+      "core_rates": {
+        "registration_rate_estimated": 0.9,
+        "alive_rate_total_estimated": 0.7667,
+        "alive_rate_among_registered_estimated": 0.8519,
+        "negative_disposal_rate_estimated": 0.1333,
+        "recent_5y_application_rate": 0.1667,
+        "h01l_core_rate": 0.0,
+        "semiconductor_related_ipc_rate": 0.9
+      },
+      "year_features": {
+        "application_year_min": 2005,
+        "application_year_max": 2025,
+        "application_year_span": 21,
+        "recent_5y_threshold": 2021
+      },
+      "scores": {
+        "legal_stability_score_estimated": 87.5,
+        "portfolio_momentum_score": 28.08,
+        "ip_technology_fit_score": 56.5,
+        "kipris_tech_ml_score": 60.37
+      },
+      "tech_to_value_bridge_adjustment": {
+        "bridge_adjustment_points": 1.0,
+        "bridge_signal": "IP_QUALITY_MODERATE",
+        "usage_rule": "Add this as a conservative KIPRIS/IP feature adjustment to Tech-to-Value Bridge, but do not treat it as direct commercialization evidence."
+      },
+      "top_ipc_subclass": {
+        "G01R": 21,
+        "H10P": 4,
+        "H01R": 2,
+        "A61M": 1,
+        "H10W": 1,
+        "H04M": 1
+      },
+      "top_ipc_main_group": {
+        "G01R 1": 15,
+        "G01R 31": 5,
+        "H10P 74": 4,
+        "H01R 33": 2,
+        "G01R 3": 1,
+        "A61M 37": 1,
+        "H10W 72": 1,
+        "H04M 1": 1
+      },
+      "top_applicants": {},
+      "cautions": [
+        "final_disposal is not present in the source CSV, so legal status is estimated from register_status/register_number/register_date.",
+        "register_date appears unavailable or unparsable in the current source, so registration year range should not be overclaimed.",
+        "KIPRIS/IP score supports technology defensibility, but customer adoption, mass production, sales conversion, and FCF conversion must be verified separately."
+      ],
+      "_source_file": "data/반도체/리노공업/tech/leeno_kipris_tech_ml_features.json"
+    },
+    "kipris_tech_ml_score": 60.37,
+    "legal_stability_score_estimated": 87.5,
+    "portfolio_momentum_score": 28.08,
+    "ip_technology_fit_score": 56.5,
+    "bridge_adjustment_points": 1.0,
+    "bridge_signal": "IP_QUALITY_MODERATE",
+    "kipris_bridge_usage_rule": "Add this as a conservative KIPRIS/IP feature adjustment to Tech-to-Value Bridge, but do not treat it as direct commercialization evidence.",
+    "kipris_bridge_applied": true
+  },
+  "claims": [
+    {
+      "claim_id": "tech.cl.000",
+      "text": "리노공업의 Tech-to-Value Bridge Score는 43.0/100이며 판정은 TECH_FINANCE_GAP이다.",
+      "evidence_ids": [
+        "tech.ev.000"
+      ]
+    },
+    {
+      "claim_id": "tech.cl.001",
+      "text": "리노공업는 원천 문서 기준 WLP/FOWLP·반도체 패키징·후공정 관련 기술 또는 제품 축을 보유한 기업으로 확인된다.",
+      "evidence_ids": [
+        "tech.ev.001"
+      ]
+    },
+    {
+      "claim_id": "tech.cl.002",
+      "text": "리노공업의 기술성은 사업화 가능성을 보조하지만, 최종 가치평가 가산에는 고객 채택·양산·매출 전환·FCF 개선 근거와의 결합 검증이 필요하다.",
+      "evidence_ids": [
+        "tech.ev.000",
+        "tech.ev.002"
+      ]
+    },
+    {
+      "claim_id": "tech.cl.003",
+      "text": "KIPRIS 정규화 데이터 기준 리노공업 관련 특허는 회사 매칭 30건, 등록 특허 27건, 최근 5년 특허 5건으로 집계된다.",
+      "evidence_ids": [
+        "tech.ev.003"
+      ]
+    }
+  ],
+  "evidences": [
+    {
+      "evidence_id": "tech.ev.000",
+      "source_type": "tech_to_value_bridge",
+      "source": "Tech Agent internal scoring with actual-source evidence and KIPRIS patent overlay",
+      "metric": "Tech-to-Value Bridge Score",
+      "value": 43.0,
+      "unit": "/100",
+      "period": null,
+      "snippet": "Tech-to-Value Bridge Score: 43.0 / 100; 판정: TECH_FINANCE_GAP; 원칙: 기술 우위는 고객사 채택, 양산, 매출 전환, FCF 개선 근거와 연결될 때만 가치평가 가산 요인으로 반영한다."
+    },
+    {
+      "evidence_id": "tech.ev.001",
+      "source_type": "local_data",
+      "source": "data\\반도체\\리노공업\\tech\\source\\leeno_tech_local_proxy_evidence.md",
+      "metric": "대표 기술 및 핵심 제품",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "리노공업은 Universe CSV에서 '테스트/소켓' peer_group으로 분류되어 있습니다."
+    },
+    {
+      "evidence_id": "tech.ev.002",
+      "source_type": "local_data",
+      "source": "data\\반도체\\리노공업\\tech\\source\\leeno_tech_local_proxy_evidence.md",
+      "metric": "사업화·확장성 보조 근거",
+      "value": null,
+      "unit": null,
+      "period": null,
+      "snippet": "# 리노공업 Tech Local Proxy Evidence"
+    },
+    {
+      "evidence_id": "tech.ev.003",
+      "source_type": "kipris_patent",
+      "source": "data/반도체/리노공업/tech/source/KIPRIS patent file",
+      "metric": "KIPRIS 특허 정량 지표",
+      "value": 30,
+      "unit": "건",
+      "period": null,
+      "snippet": "KIPRIS 정규화 결과: 전체 정규화 30건, 회사 매칭 30건, 등록 특허 27건, 존속 가능 특허 23건, 최근 5년 특허 5건, H01L 반도체 핵심 IPC 0건, 주요 IPC/CPC: G01R, H10P, H01R, H05K, H10W. 대표 특허: 검사장치(2017, 등록, 기술매칭: 차폐, 기판, 반도체); 컨택트 프로브 및 그 제조방법(2013, 등록, 기술매칭: 테스트, 기판, 반도체); 반도체 칩 검사용 소켓(2008, 등록, 기술매칭: 테스트, 기판, 반도체)"
+    }
+  ],
+  "categories": [
+    {
+      "category": "대표 기술",
+      "axis": "기술성",
+      "major_source_plan": "사업 보고서, 기업 홈페이지, 특허 사이트",
+      "middle_source_plan": "사업보고서: 사업의 내용 → 주요 제품 및 서비스 / 연구개발활동 / 생산공정·기술설명 / 원재료 및 전구체 설명 / 신규사업 내용 기업 홈페이지: 기술소개 / 제품기술 페이지 / 소재·공정 설명 페이지 / Application(적용 분야) 페이지 / R&D센터 소개 특허 사이트: 대표 등록특허 초록 / 청구항 / IPC·CPC 분류 / 특허 패밀리 / 피인용 특허",
+      "quantifiable_plan": "기술 키워드 등장 빈도, 적용 제품/공정 수, 수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등 : 따로 추출?)",
+      "items": [
+        {
+          "item_name": "핵심 기술 키워드",
+          "category": "대표 기술",
+          "axis": "기술성",
+          "major_source_plan": "사업 보고서, 기업 홈페이지, 특허 사이트",
+          "middle_source_plan": "사업보고서: 사업의 내용 → 주요 제품 및 서비스 / 연구개발활동 / 생산공정·기술설명 / 원재료 및 전구체 설명 / 신규사업 내용 기업 홈페이지: 기술소개 / 제품기술 페이지 / 소재·공정 설명 페이지 / Application(적용 분야) 페이지 / R&D센터 소개 특허 사이트: 대표 등록특허 초록 / 청구항 / IPC·CPC 분류 / 특허 패밀리 / 피인용 특허",
+          "quantifiable_plan": "기술 키워드 등장 빈도, 적용 제품/공정 수, 수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등 : 따로 추출?)",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "기술 키워드 등장 빈도",
+              "value": 156,
+              "unit": "회",
+              "formula": "DART/IR/공식/특허/로컬 기술 원천에서 핵심 기술 키워드 출현 횟수 합산",
+              "detail": {
+                "테스트": 43,
+                "양산": 31,
+                "공정": 29,
+                "수율": 23,
+                "AI": 14,
+                "EV": 7,
+                "HPC": 6,
+                "EMI": 3
+              }
+            },
+            {
+              "metric_name": "확인 핵심 기술 수",
+              "value": 8,
+              "unit": "개",
+              "formula": "등장 빈도 1회 이상인 핵심 기술 후보 고유 개수",
+              "detail": [
+                "테스트",
+                "양산",
+                "공정",
+                "수율",
+                "AI",
+                "EV",
+                "HPC",
+                "EMI"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "적용 방식",
+          "category": "대표 기술",
+          "axis": "기술성",
+          "major_source_plan": "사업 보고서, 기업 홈페이지, 특허 사이트",
+          "middle_source_plan": "사업보고서: 사업의 내용 → 주요 제품 및 서비스 / 연구개발활동 / 생산공정·기술설명 / 원재료 및 전구체 설명 / 신규사업 내용 기업 홈페이지: 기술소개 / 제품기술 페이지 / 소재·공정 설명 페이지 / Application(적용 분야) 페이지 / R&D센터 소개 특허 사이트: 대표 등록특허 초록 / 청구항 / IPC·CPC 분류 / 특허 패밀리 / 피인용 특허",
+          "quantifiable_plan": "기술 키워드 등장 빈도, 적용 제품/공정 수, 수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등 : 따로 추출?)",
+          "evidence": [
+            {
+              "snippet": "리노공업은 Universe CSV에서 '테스트/소켓' peer_group으로 분류되어 있습니다.",
+              "source_type": "local_data",
+              "source_title": "leeno_tech_local_proxy_evidence.md",
+              "source_url": "",
+              "source_path": "data\\반도체\\리노공업\\tech\\source\\leeno_tech_local_proxy_evidence.md",
+              "source_plan_matched": false,
+              "hits": [
+                "테스트"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "적용 제품/공정 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "근거 문장 내 적용 제품·공정·Application 고유 키워드 수",
+              "detail": [
+                "테스트"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "핵심 성능 요소",
+          "category": "대표 기술",
+          "axis": "기술성",
+          "major_source_plan": "사업 보고서, 기업 홈페이지, 특허 사이트",
+          "middle_source_plan": "사업보고서: 사업의 내용 → 주요 제품 및 서비스 / 연구개발활동 / 생산공정·기술설명 / 원재료 및 전구체 설명 / 신규사업 내용 기업 홈페이지: 기술소개 / 제품기술 페이지 / 소재·공정 설명 페이지 / Application(적용 분야) 페이지 / R&D센터 소개 특허 사이트: 대표 등록특허 초록 / 청구항 / IPC·CPC 분류 / 특허 패밀리 / 피인용 특허",
+          "quantifiable_plan": "기술 키워드 등장 빈도, 적용 제품/공정 수, 수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등 : 따로 추출?)",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "적용 제품/공정 수",
+              "value": 2,
+              "unit": "개",
+              "formula": "근거 문장 내 적용 제품·공정·Application 고유 키워드 수",
+              "detail": [
+                "테스트",
+                "EMI"
+              ]
+            },
+            {
+              "metric_name": "성능/공정 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "성능·수율·공정·양산 문맥에서 숫자가 포함된 문장 수",
+              "detail": [
+                {
+                  "value": "058",
+                  "unit": "",
+                  "context": "y_name: 리노공업 company_slug: leeno stock_code: 058470 peer_group: 테스트/소켓 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 1,
+      "quant_metric_count": 5,
+      "score": 3,
+      "score_reason": "직접근거 1건, 공식/DART/IR/특허 근거 0건, 정량화 지표 5건",
+      "result": "리노공업은 테스트, 양산, 공정 기반 기술/공정 기업으로, 관련 기술은 실제 원천에서 0회 확인됩니다. 해당 기술은 0개 제품·공정 영역과 연결되며, 양산·공정·기술 문맥을 통해 구현 방향을 판단합니다."
+    },
+    {
+      "category": "핵심 제품/서비스",
+      "axis": "수익성 기여",
+      "major_source_plan": "사업 보고서 - 매출 구성 홈페이지 매출구성 IR 발표자료",
+      "middle_source_plan": "사업보고서: 사업부문별 매출 / 제품별 매출 / 주요 제품 매출 비중 / 수출 비중 / 사업부별 실적 홈페이지: 제품 포트폴리오 / 제품 카테고리 / 베스트셀러·주력제품 / 응용처별 제품 분류 IR: Company Overview / Product Portfolio / Revenue Breakdown / Business Segment / 성장동력 슬라이드",
+      "quantifiable_plan": "매출 비중 %, 전년 성장률 %, 제품 수, 고객 산업 수",
+      "items": [
+        {
+          "item_name": "제품명/서비스명",
+          "category": "핵심 제품/서비스",
+          "axis": "수익성 기여",
+          "major_source_plan": "사업 보고서 - 매출 구성 홈페이지 매출구성 IR 발표자료",
+          "middle_source_plan": "사업보고서: 사업부문별 매출 / 제품별 매출 / 주요 제품 매출 비중 / 수출 비중 / 사업부별 실적 홈페이지: 제품 포트폴리오 / 제품 카테고리 / 베스트셀러·주력제품 / 응용처별 제품 분류 IR: Company Overview / Product Portfolio / Revenue Breakdown / Business Segment / 성장동력 슬라이드",
+          "quantifiable_plan": "매출 비중 %, 전년 성장률 %, 제품 수, 고객 산업 수",
+          "evidence": [
+            {
+              "snippet": "리노공업은 Universe CSV에서 '테스트/소켓' peer_group으로 분류되어 있습니다.",
+              "source_type": "local_data",
+              "source_title": "leeno_tech_local_proxy_evidence.md",
+              "source_url": "",
+              "source_path": "data\\반도체\\리노공업\\tech\\source\\leeno_tech_local_proxy_evidence.md",
+              "source_plan_matched": false,
+              "hits": [
+                "테스트"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "제품/서비스 축 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "제품·서비스 후보 고유 키워드 수",
+              "detail": [
+                "테스트"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "적용 기술",
+          "category": "핵심 제품/서비스",
+          "axis": "수익성 기여",
+          "major_source_plan": "사업 보고서 - 매출 구성 홈페이지 매출구성 IR 발표자료",
+          "middle_source_plan": "사업보고서: 사업부문별 매출 / 제품별 매출 / 주요 제품 매출 비중 / 수출 비중 / 사업부별 실적 홈페이지: 제품 포트폴리오 / 제품 카테고리 / 베스트셀러·주력제품 / 응용처별 제품 분류 IR: Company Overview / Product Portfolio / Revenue Breakdown / Business Segment / 성장동력 슬라이드",
+          "quantifiable_plan": "매출 비중 %, 전년 성장률 %, 제품 수, 고객 산업 수",
+          "evidence": [
+            {
+              "snippet": "리노공업은 Universe CSV에서 '테스트/소켓' peer_group으로 분류되어 있습니다.",
+              "source_type": "local_data",
+              "source_title": "leeno_tech_local_proxy_evidence.md",
+              "source_url": "",
+              "source_path": "data\\반도체\\리노공업\\tech\\source\\leeno_tech_local_proxy_evidence.md",
+              "source_plan_matched": false,
+              "hits": [
+                "테스트"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "제품/서비스 축 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "제품·서비스 후보 고유 키워드 수",
+              "detail": [
+                "테스트"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "주요 고객군",
+          "category": "핵심 제품/서비스",
+          "axis": "수익성 기여",
+          "major_source_plan": "사업 보고서 - 매출 구성 홈페이지 매출구성 IR 발표자료",
+          "middle_source_plan": "사업보고서: 사업부문별 매출 / 제품별 매출 / 주요 제품 매출 비중 / 수출 비중 / 사업부별 실적 홈페이지: 제품 포트폴리오 / 제품 카테고리 / 베스트셀러·주력제품 / 응용처별 제품 분류 IR: Company Overview / Product Portfolio / Revenue Breakdown / Business Segment / 성장동력 슬라이드",
+          "quantifiable_plan": "매출 비중 %, 전년 성장률 %, 제품 수, 고객 산업 수",
+          "evidence": [
+            {
+              "snippet": "리노공업은 Universe CSV에서 '테스트/소켓' peer_group으로 분류되어 있습니다.",
+              "source_type": "local_data",
+              "source_title": "leeno_tech_local_proxy_evidence.md",
+              "source_url": "",
+              "source_path": "data\\반도체\\리노공업\\tech\\source\\leeno_tech_local_proxy_evidence.md",
+              "source_plan_matched": false,
+              "hits": [
+                "테스트"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "제품/서비스 축 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "제품·서비스 후보 고유 키워드 수",
+              "detail": [
+                "테스트"
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 3,
+      "quant_metric_count": 3,
+      "score": 3,
+      "score_reason": "직접근거 3건, 공식/DART/IR/특허 근거 0건, 정량화 지표 3건",
+      "result": "핵심 제품/서비스는 테스트 중심으로 확인됩니다. 실제 원천 기준 0개 제품·서비스 축이 추출되며, 매출·성장 정량 신호는 DART/IR 문맥과 결합해 수익성 기여 판단에 사용합니다."
+    },
+    {
+      "category": "고객 구매 이유",
+      "axis": "고객 채택도",
+      "major_source_plan": "1) IR 2) 제품 홍보 자료 3) 인터뷰 기사",
+      "middle_source_plan": "IR: Investment Highlights / 제품 경쟁력 / 고객사 채택 배경 / 고객 효익 설명 슬라이드 / 양산 적용 사례 제품 홍보 자료: 제품 브로슈어 / 기술소개서 / 데이터시트 / Application Note / 비교표 / FAQ 인터뷰 기사: 고객이 선택한 이유 / 채택 배경 / 기존 대안 대비 개선점 / 산업 현장 적용 사례 / 신규 수요처 언급",
+      "quantifiable_plan": "성능 개선율 %, 원가 절감률 %, 처리속도, 불량률 감소, 수명 증가, 고객사 수",
+      "items": [
+        {
+          "item_name": "고객 효익",
+          "category": "고객 구매 이유",
+          "axis": "고객 채택도",
+          "major_source_plan": "1) IR 2) 제품 홍보 자료 3) 인터뷰 기사",
+          "middle_source_plan": "IR: Investment Highlights / 제품 경쟁력 / 고객사 채택 배경 / 고객 효익 설명 슬라이드 / 양산 적용 사례 제품 홍보 자료: 제품 브로슈어 / 기술소개서 / 데이터시트 / Application Note / 비교표 / FAQ 인터뷰 기사: 고객이 선택한 이유 / 채택 배경 / 기존 대안 대비 개선점 / 산업 현장 적용 사례 / 신규 수요처 언급",
+          "quantifiable_plan": "성능 개선율 %, 원가 절감률 %, 처리속도, 불량률 감소, 수명 증가, 고객사 수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "고객 효익 키워드 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "성능·원가·품질·수율 등 고객 효익 표현 고유 개수",
+              "detail": []
+            },
+            {
+              "metric_name": "효익 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "성능·원가·수율·처리속도 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "058",
+                  "unit": "",
+                  "context": "y_name: 리노공업 company_slug: leeno stock_code: 058470 peer_group: 테스트/소켓 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            },
+            {
+              "metric_name": "수식 시트 매칭 지표 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "tech_template.xlsx 수식/정량화 시트와 원문 수치 문맥의 매칭 개수",
+              "detail": [
+                "고객사 수"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "경쟁 제품 대비 장점",
+          "category": "고객 구매 이유",
+          "axis": "고객 채택도",
+          "major_source_plan": "1) IR 2) 제품 홍보 자료 3) 인터뷰 기사",
+          "middle_source_plan": "IR: Investment Highlights / 제품 경쟁력 / 고객사 채택 배경 / 고객 효익 설명 슬라이드 / 양산 적용 사례 제품 홍보 자료: 제품 브로슈어 / 기술소개서 / 데이터시트 / Application Note / 비교표 / FAQ 인터뷰 기사: 고객이 선택한 이유 / 채택 배경 / 기존 대안 대비 개선점 / 산업 현장 적용 사례 / 신규 수요처 언급",
+          "quantifiable_plan": "성능 개선율 %, 원가 절감률 %, 처리속도, 불량률 감소, 수명 증가, 고객사 수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "고객 효익 키워드 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "성능·원가·품질·수율 등 고객 효익 표현 고유 개수",
+              "detail": []
+            },
+            {
+              "metric_name": "효익 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "성능·원가·수율·처리속도 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "058",
+                  "unit": "",
+                  "context": "y_name: 리노공업 company_slug: leeno stock_code: 058470 peer_group: 테스트/소켓 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            },
+            {
+              "metric_name": "수식 시트 매칭 지표 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "tech_template.xlsx 수식/정량화 시트와 원문 수치 문맥의 매칭 개수",
+              "detail": [
+                "고객사 수"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "실제 적용 사례",
+          "category": "고객 구매 이유",
+          "axis": "고객 채택도",
+          "major_source_plan": "1) IR 2) 제품 홍보 자료 3) 인터뷰 기사",
+          "middle_source_plan": "IR: Investment Highlights / 제품 경쟁력 / 고객사 채택 배경 / 고객 효익 설명 슬라이드 / 양산 적용 사례 제품 홍보 자료: 제품 브로슈어 / 기술소개서 / 데이터시트 / Application Note / 비교표 / FAQ 인터뷰 기사: 고객이 선택한 이유 / 채택 배경 / 기존 대안 대비 개선점 / 산업 현장 적용 사례 / 신규 수요처 언급",
+          "quantifiable_plan": "성능 개선율 %, 원가 절감률 %, 처리속도, 불량률 감소, 수명 증가, 고객사 수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "고객 효익 키워드 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "성능·원가·품질·수율 등 고객 효익 표현 고유 개수",
+              "detail": []
+            },
+            {
+              "metric_name": "효익 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "성능·원가·수율·처리속도 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "058",
+                  "unit": "",
+                  "context": "y_name: 리노공업 company_slug: leeno stock_code: 058470 peer_group: 테스트/소켓 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            },
+            {
+              "metric_name": "수식 시트 매칭 지표 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "tech_template.xlsx 수식/정량화 시트와 원문 수치 문맥의 매칭 개수",
+              "detail": [
+                "고객사 수"
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 0,
+      "quant_metric_count": 9,
+      "score": 3,
+      "score_reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 9건",
+      "result": "고객 구매 이유는 핵심 기술 관련 성능·품질·양산 효익으로 정리됩니다. 실제 근거에서 고객 효익 신호 0개가 확인되며, 단순 기술 키워드가 아니라 적용처·성능·양산 문맥과 함께 해석합니다."
+    },
+    {
+      "category": "경쟁 우위/대체가능성",
+      "axis": "진입장벽",
+      "major_source_plan": "사업보고서 / 특허 / 기사",
+      "middle_source_plan": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+      "quantifiable_plan": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+      "items": [
+        {
+          "item_name": "등록 특허",
+          "category": "경쟁 우위/대체가능성",
+          "axis": "진입장벽",
+          "major_source_plan": "사업보고서 / 특허 / 기사",
+          "middle_source_plan": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+          "quantifiable_plan": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": []
+            },
+            {
+              "metric_name": "특허/산업재산권 근거 문서 수",
+              "value": 0,
+              "unit": "건",
+              "formula": "source_type=patent로 분류된 로컬/KIPRIS/웹 근거 문서 수",
+              "detail": []
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "058",
+                  "unit": "",
+                  "context": "y_name: 리노공업 company_slug: leeno stock_code: 058470 peer_group: 테스트/소켓 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "제조 노하우",
+          "category": "경쟁 우위/대체가능성",
+          "axis": "진입장벽",
+          "major_source_plan": "사업보고서 / 특허 / 기사",
+          "middle_source_plan": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+          "quantifiable_plan": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": []
+            },
+            {
+              "metric_name": "특허/산업재산권 근거 문서 수",
+              "value": 0,
+              "unit": "건",
+              "formula": "source_type=patent로 분류된 로컬/KIPRIS/웹 근거 문서 수",
+              "detail": []
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "058",
+                  "unit": "",
+                  "context": "y_name: 리노공업 company_slug: leeno stock_code: 058470 peer_group: 테스트/소켓 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "고객사 레퍼런스",
+          "category": "경쟁 우위/대체가능성",
+          "axis": "진입장벽",
+          "major_source_plan": "사업보고서 / 특허 / 기사",
+          "middle_source_plan": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+          "quantifiable_plan": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": []
+            },
+            {
+              "metric_name": "특허/산업재산권 근거 문서 수",
+              "value": 0,
+              "unit": "건",
+              "formula": "source_type=patent로 분류된 로컬/KIPRIS/웹 근거 문서 수",
+              "detail": []
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "058",
+                  "unit": "",
+                  "context": "y_name: 리노공업 company_slug: leeno stock_code: 058470 peer_group: 테스트/소켓 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "대체가능성",
+          "category": "경쟁 우위/대체가능성",
+          "axis": "진입장벽",
+          "major_source_plan": "사업보고서 / 특허 / 기사",
+          "middle_source_plan": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+          "quantifiable_plan": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": []
+            },
+            {
+              "metric_name": "특허/산업재산권 근거 문서 수",
+              "value": 0,
+              "unit": "건",
+              "formula": "source_type=patent로 분류된 로컬/KIPRIS/웹 근거 문서 수",
+              "detail": []
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "058",
+                  "unit": "",
+                  "context": "y_name: 리노공업 company_slug: leeno stock_code: 058470 peer_group: 테스트/소켓 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 0,
+      "quant_metric_count": 12,
+      "score": 3,
+      "score_reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 12건",
+      "result": "경쟁 우위는 핵심 기술와 연결된 특허·공정·양산 경험을 중심으로 확인됩니다. 대체가능성 판단에는 특허 수 자체보다 고객 승인, 공정 난이도, 양산 경험 등 0개 장벽 신호를 함께 반영합니다."
+    },
+    {
+      "category": "활용 및 확장 산업",
+      "axis": "확장성",
+      "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+      "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+      "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+      "items": [
+        {
+          "item_name": "활용 산업",
+          "category": "활용 및 확장 산업",
+          "axis": "확장성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [
+            {
+              "snippet": "# 리노공업 Tech Local Proxy Evidence",
+              "source_type": "local_data",
+              "source_title": "leeno_tech_local_proxy_evidence.md",
+              "source_url": "",
+              "source_path": "data\\반도체\\리노공업\\tech\\source\\leeno_tech_local_proxy_evidence.md",
+              "source_plan_matched": false,
+              "hits": [
+                "EV"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "활용/확장 산업 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "근거 문장 내 전방산업/Application 고유 개수",
+              "detail": [
+                "EV"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "확장 가능 제품",
+          "category": "활용 및 확장 산업",
+          "axis": "확장성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [
+            {
+              "snippet": "# 리노공업 Tech Local Proxy Evidence",
+              "source_type": "local_data",
+              "source_title": "leeno_tech_local_proxy_evidence.md",
+              "source_url": "",
+              "source_path": "data\\반도체\\리노공업\\tech\\source\\leeno_tech_local_proxy_evidence.md",
+              "source_plan_matched": false,
+              "hits": [
+                "EV"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "활용/확장 산업 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "근거 문장 내 전방산업/Application 고유 개수",
+              "detail": [
+                "EV"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "전방 시장",
+          "category": "활용 및 확장 산업",
+          "axis": "확장성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [
+            {
+              "snippet": "# 리노공업 Tech Local Proxy Evidence",
+              "source_type": "local_data",
+              "source_title": "leeno_tech_local_proxy_evidence.md",
+              "source_url": "",
+              "source_path": "data\\반도체\\리노공업\\tech\\source\\leeno_tech_local_proxy_evidence.md",
+              "source_plan_matched": false,
+              "hits": [
+                "EV"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "활용/확장 산업 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "근거 문장 내 전방산업/Application 고유 개수",
+              "detail": [
+                "EV"
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 3,
+      "quant_metric_count": 3,
+      "score": 3,
+      "score_reason": "직접근거 3건, 공식/DART/IR/특허 근거 0건, 정량화 지표 3건",
+      "result": "활용·확장 산업은 EV로 확인됩니다. 실제 수집 근거에서 0개 적용 산업/Application이 추출되어 기술 확장성을 보조적으로 설명합니다."
+    },
+    {
+      "category": "진입 부담/장벽",
+      "axis": "양산성",
+      "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+      "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+      "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+      "items": [
+        {
+          "item_name": "인증/승인",
+          "category": "진입 부담/장벽",
+          "axis": "양산성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": []
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "058",
+                  "unit": "",
+                  "context": "y_name: 리노공업 company_slug: leeno stock_code: 058470 peer_group: 테스트/소켓 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "양산 난이도",
+          "category": "진입 부담/장벽",
+          "axis": "양산성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": []
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "058",
+                  "unit": "",
+                  "context": "y_name: 리노공업 company_slug: leeno stock_code: 058470 peer_group: 테스트/소켓 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "전환 비용",
+          "category": "진입 부담/장벽",
+          "axis": "양산성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": []
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "058",
+                  "unit": "",
+                  "context": "y_name: 리노공업 company_slug: leeno stock_code: 058470 peer_group: 테스트/소켓 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 0,
+      "quant_metric_count": 6,
+      "score": 3,
+      "score_reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 6건",
+      "result": "진입 부담은 양산 공정, 고객 승인, 품질 검증, 노하우 축적 여부를 중심으로 판단됩니다. 현재 근거에서는 0개 장벽 신호가 확인되며, 이는 기술성보다 사업화 방어력 판단에 활용됩니다."
+    },
+    {
+      "category": "R&D 강도",
+      "axis": "투자 지속성",
+      "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+      "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+      "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+      "items": [
+        {
+          "item_name": "연구개발비",
+          "category": "R&D 강도",
+          "axis": "투자 지속성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "R&D/투자 신호 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "연구개발·설비투자·과제·인력 문맥 신호 수",
+              "detail": []
+            },
+            {
+              "metric_name": "R&D 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "연구개발·투자 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "058",
+                  "unit": "",
+                  "context": "y_name: 리노공업 company_slug: leeno stock_code: 058470 peer_group: 테스트/소켓 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "개발 과제",
+          "category": "R&D 강도",
+          "axis": "투자 지속성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "R&D/투자 신호 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "연구개발·설비투자·과제·인력 문맥 신호 수",
+              "detail": []
+            },
+            {
+              "metric_name": "R&D 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "연구개발·투자 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "058",
+                  "unit": "",
+                  "context": "y_name: 리노공업 company_slug: leeno stock_code: 058470 peer_group: 테스트/소켓 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "설비투자/인력",
+          "category": "R&D 강도",
+          "axis": "투자 지속성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "R&D/투자 신호 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "연구개발·설비투자·과제·인력 문맥 신호 수",
+              "detail": []
+            },
+            {
+              "metric_name": "R&D 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "연구개발·투자 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "058",
+                  "unit": "",
+                  "context": "y_name: 리노공업 company_slug: leeno stock_code: 058470 peer_group: 테스트/소켓 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 0,
+      "quant_metric_count": 6,
+      "score": 3,
+      "score_reason": "직접근거 0건, 공식/DART/IR/특허 근거 0건, 정량화 지표 6건",
+      "result": "R&D 강도는 연구개발·설비투자·개발과제의 지속성을 기준으로 봅니다. 실제 근거에서 R&D/투자 신호 0개가 확인되며, 기술 유지·개선 가능성의 보조 지표로 사용합니다."
+    }
+  ],
+  "source_contexts": [
+    {
+      "title": "leeno_tech_local_proxy_evidence.json",
+      "source_type": "local_data",
+      "url": "",
+      "path": "data\\반도체\\리노공업\\tech\\source\\leeno_tech_local_proxy_evidence.json",
+      "snippet": "{\"status\": \"FALLBACK_LOCAL_PROXY\", \"generated_at\": \"2026-05-15T09:24:09\", \"company_slug\": \"leeno\", \"company_name\": \"리노공업\", \"field\": \"반도체\", \"peer_group\": \"테스트/소켓\", \"stock_code\": \"058470\", \"market\": \"KOSDAQ\", \"technology_keywords\": [\"반도체\", \"공정\", \"양산\", \"고객\", \"R&D\", \"특허\", \"기술경쟁력\", \"테스트\", \"검사\", \"소켓\", \"신뢰성\", \"수율\", \"인터페이스\"], \"source_text\": \"# 리노공업 Tech Local Proxy Evidence\\n\\n- company_name: 리노공업\\n- company_slug: leeno\\n- stock_code: 058470\\n- market: K",
+      "relevance_score": 16.7
+    },
+    {
+      "title": "leeno_tech_local_proxy_evidence.md",
+      "source_type": "local_data",
+      "url": "",
+      "path": "data\\반도체\\리노공업\\tech\\source\\leeno_tech_local_proxy_evidence.md",
+      "snippet": "# 리노공업 Tech Local Proxy Evidence company_name: 리노공업 company_slug: leeno stock_code: 058470 market: KOSDAQ peer_group: 테스트/소켓 evidence_status: FALLBACK_LOCAL_PROXY universe_lock: universe_30_semiconductor_20260514 locked_as_of: 2026-05-14 ## 사용 원칙 이 파일은 KIPRIS Plus, DART 사업보고서, 회사 IR, 공식 웹 수집이 아직 완료되지 않은 신규 Universe 기업을 위해 생성한 Tech Agent 부트스트랩 근거입니다. 수익률 확인 후 기업을 교체하지 않는 locked universe 원칙을 지키기 위한 초기 로컬 근거이며, 특허 수·고객사·수주·양산 실적을 임의로 확정하지 않습니다. Chai",
+      "relevance_score": 16.7
+    },
+    {
+      "title": "company.yaml",
+      "source_type": "local_data",
+      "url": "",
+      "path": "data\\반도체\\리노공업\\_company_common\\company.yaml",
+      "snippet": "# Auto-generated by scripts/bootstrap_chair_25_universe.py # Keep this fixed once evaluation starts. slug: \"leeno\" company_dir: \"leeno\" corp_name: \"리노공업\" display_name: \"리노공업\" output_name: \"리노공업\" field: \"반도체\" industry_field: \"반도체\" sector: \"반도체\" peer_group: \"테스트/소켓\" stock_code: \"058470\" ticker: \"058470.KQ\" market: \"KOSDAQ\" include_in_evaluation: true universe_name: \"universe_30_semiconductor_20260514\" locked_as_of: \"2026-05-14\" finance_file: \"리노공업_",
+      "relevance_score": 14.6
+    },
+    {
+      "title": "리노공업 KIPRIS/특허 정량화 요약",
+      "source_type": "patent",
+      "url": "",
+      "path": "C:\\Agent_6.9\\data\\반도체\\리노공업\\tech\\source\\leeno_kipris_plus_bibliographic_raw.csv",
+      "snippet": "리노공업 KIPRIS/특허 정량화 요약 본 특허 근거는 KIPRIS API/CSV/엑셀/TXT 원천 파일을 정규화해 산출했다. [정량 지표] - 특허 원천 파일 수: 1개 - 정규화 특허 레코드 수: 30건 - 출원인/권리자 회사 매칭 특허 수: 30건 - 등록 특허 수: 27건 - 존속 가능 특허 수: 23건 - 최근 5년 특허 수: 5건 - IPC/CPC 기술분류 수: 9개 - H01L 반도체 IPC 특허 수: 0건 - 반도체 핵심 IPC 특허 수: 28건 - 특허-기술 키워드 매칭 수: 35회 - 특허 포트폴리오 연도 범위: 2005~2025 - KIPRIS 총 특허 수: 30.0건 - KIPRIS 등록 특허 수(추정): 27.0건 - KIPRIS 존속 가능 특허 수(추정): 23.0건 - KIPRIS 등록률(추정): 90.0% - KIPRIS 존속률(전체 대비 추정): 76.67% - K",
+      "relevance_score": 30
+    },
+    {
+      "title": "검사장치",
+      "source_type": "patent",
+      "url": "",
+      "path": "C:\\Agent_6.9\\data\\반도체\\리노공업\\tech\\source\\leeno_kipris_plus_bibliographic_raw.csv",
+      "snippet": "검사장치 | 리노공업주식회사 | 등록 | 2017 | 출원번호 1020170102270; 등록번호 1019758360000 | IPC/CPC: G01R | 기술매칭: 차폐, 기판, 반도체 | 초록: 피검사체의 전기적 특성을 검사하기 위한 검사장치가 개시된다. 검사장치는 인쇄회로가 형성되는 베이스기판, 상기 인쇄회로에 연결되어 상기 피검사체에 검사신호를 인가하기 위한 복수의 신호접점, 상기 복수의 신호접점들 사이에서 상기 베이스기판의 두께 방향으로 형성된 차폐홈, 및 상기 차폐홈에 채워진 기판차폐부를 가진 검사회로기판, 및 상기 복수의 신호접점에 접촉하는 복수의 신호핀 및 상기 복수의 신",
+      "relevance_score": 72.5
+    },
+    {
+      "title": "컨택트 프로브 및 그 제조방법",
+      "source_type": "patent",
+      "url": "",
+      "path": "C:\\Agent_6.9\\data\\반도체\\리노공업\\tech\\source\\leeno_kipris_plus_bibliographic_raw.csv",
+      "snippet": "컨택트 프로브 및 그 제조방법 | 리노공업주식회사 | 등록 | 2013 | 출원번호 1020130044195; 등록번호 1013985500000 | IPC/CPC: G01R, H10P | 기술매칭: 테스트, 기판, 반도체 | 초록: 본 발명은 반도체와 같은 검사대상을 검사하기 위한 컨택트 프로브 및 그 제조방법에 관한 것이다. 본 발명에 따른 피검사체 검사용 컨택트 프로브의 제조방법는, 상기 피검사체의 피검사접점에 접촉하는 단부를 가진 상부 플런저, 검사회로기판의 검사접점에 접촉하는 하부 플런저 및 상기 상부 플런저와 하부 플런저를 연결하는 중간연결부를 단일체로 1차 가공하는 단계, 및 상기 중간 연결부를 2차 소성가공",
+      "relevance_score": 70.0
+    },
+    {
+      "title": "반도체 칩 검사용 소켓",
+      "source_type": "patent",
+      "url": "",
+      "path": "C:\\Agent_6.9\\data\\반도체\\리노공업\\tech\\source\\leeno_kipris_plus_bibliographic_raw.csv",
+      "snippet": "반도체 칩 검사용 소켓 | 리노공업주식회사 | 등록 | 2008 | 출원번호 1020080029728; 등록번호 1009581340000 | IPC/CPC: H10P, G01R | 기술매칭: 테스트, 기판, 반도체 | 초록: 본 발명은 반도체 칩 검사용 소켓에 관한 것으로서, 수명이 향상되면서도 제작이 용이한 구조를 채택한 반도체 칩 검사용 소켓을 제공하기 위하여, 중심부에 상하로 관통형성된 체결 구멍이 형성된 평판 형상의 지지 플레이트와 상기 체결 구멍에 결합되고, 상측으로 돌출된 돌출부가 형성된 실리콘부와 기 돌출부에 금속볼을 수직으로 배치시켜 형성된 다수 개의 도전성 실리콘부와 사 대상물인 반도체 칩의 솔더",
+      "relevance_score": 70.0
+    },
+    {
+      "title": "프로브 카드 및 반도체 디바이스 테스트 소켓",
+      "source_type": "patent",
+      "url": "",
+      "path": "C:\\Agent_6.9\\data\\반도체\\리노공업\\tech\\source\\leeno_kipris_plus_bibliographic_raw.csv",
+      "snippet": "프로브 카드 및 반도체 디바이스 테스트 소켓 | 리노공업주식회사 | 등록 | 2012 | 출원번호 1020120076471; 등록번호 1012604090000 | IPC/CPC: H10P, G01R | 기술매칭: 테스트, 기판, 반도체 | 초록: 구성의 간소화 및 생산성의 향상을 도모할 수 있는 프로브 카드 및 반도체 디바이스 테스트 소켓을 개시한다. 개시된 프로브 카드는, 회로패턴 및 상기 회로패턴과 전기적으로 연결된 관통공을 구비한 인쇄회로기판; 상기 인쇄회로기판의 일측면에 고정되어 있는 지지블록; 일단이 상기 지지블록의 관통공에 삽입고정되고 타단이 상기 인쇄회로기판의 관통공에 삽입고정되되 상기 지지블록의 관통공에서 상기 인쇄회로",
+      "relevance_score": 70.0
+    },
+    {
+      "title": "프로브 카드 및 반도체 디바이스 테스트 소켓",
+      "source_type": "patent",
+      "url": "",
+      "path": "C:\\Agent_6.9\\data\\반도체\\리노공업\\tech\\source\\leeno_kipris_plus_bibliographic_raw.csv",
+      "snippet": "프로브 카드 및 반도체 디바이스 테스트 소켓 | 리노공업주식회사 | 등록 | 2011 | 출원번호 1020110007889; 등록번호 1012604050000 | IPC/CPC: H10P, G01R | 기술매칭: 테스트, 기판, 반도체 | 초록: 구성의 간소화 및 생산성의 향상을 도모할 수 있는 프로브 카드 및 반도체 디바이스 테스트 소켓을 개시한다. 개시된 프로브 카드는, 회로패턴 및 상기 회로패턴과 전기적으로 연결된 관통공을 구비한 인쇄회로기판; 상기 인쇄회로기판의 일측면에 고정되어 있는 지지블록; 일단이 상기 지지블록의 관통공에 삽입고정되고 타단이 상기 인쇄회로기판의 관통공에 삽입고정되되 상기 지지블록의 관통공에서 상기 인쇄회로",
+      "relevance_score": 70.0
+    },
+    {
+      "title": "실장 테스트용 검사 소켓과 이를 장착한 실장테스트용회로기판 및 실장테스트용 회로기판의 제조방법",
+      "source_type": "patent",
+      "url": "",
+      "path": "C:\\Agent_6.9\\data\\반도체\\리노공업\\tech\\source\\leeno_kipris_plus_bibliographic_raw.csv",
+      "snippet": "실장 테스트용 검사 소켓과 이를 장착한 실장테스트용회로기판 및 실장테스트용 회로기판의 제조방법 | 리노공업주식회사 | 등록 | 2006 | 출원번호 1020060126955; 등록번호 1008216810000 | IPC/CPC: G01R, H01R | 기술매칭: 테스트, 기판, 반도체 | 초록: 본 발명은 반도체 칩의 실장 테스트 장치에 관한 것으로서, 간이한 구조를 채택하여 소형으로 제작가능한 반도체 칩 실장 테스트용 소켓 및 회로기판을 제공하고 실장 테스트용 검사 소켓을 회로 기판에 용이하게 결합시키는 제조방법을 제공하기 위하여, 다수개의 통공이 형성된 마스크 필름을 회로기판의 테스트 하고자 하는 반도체칩의 체결위치에 부착시키는 단계와; 상기 통공에 솔더 크림이 삽입되는 단계와;",
+      "relevance_score": 70.0
+    },
+    {
+      "title": "검사장치",
+      "source_type": "patent",
+      "url": "",
+      "path": "C:\\Agent_6.9\\data\\반도체\\리노공업\\tech\\source\\leeno_kipris_plus_bibliographic_raw.csv",
+      "snippet": "검사장치 | 리노공업주식회사 | 등록 | 2019 | 출원번호 1020190082405; 등록번호 1022332830000 | IPC/CPC: G01R, H10P | 기술매칭: 방열 | 초록: 피검사체의 전기적 특성을 검사하기 위한 검사장치가 개시된다. 검사장치는, 상기 피검사체에 검사신호를 전달하는 프로브를 가진 검사소켓과, 상기 피검사체를 상기 프로브에 대해 접근 및 후퇴 이동하도록 누르는 푸셔유닛을 포함하며, 상기 푸셔유닛은, 상기 피검사체를 가압하는 누름돌기와, 일면에 상기 누름돌기가 마련되고, 타면에 다수의 방열컬럼 삽입부가 마련된 푸셔베이스와, 일단부가 상기 방열컬럼 삽",
+      "relevance_score": 68.0
+    },
+    {
+      "title": "접촉팁 제조 방법 및 접촉팁을 포함하는 전기 전도성 핀",
+      "source_type": "patent",
+      "url": "",
+      "path": "C:\\Agent_6.9\\data\\반도체\\리노공업\\tech\\source\\leeno_kipris_plus_bibliographic_raw.csv",
+      "snippet": "접촉팁 제조 방법 및 접촉팁을 포함하는 전기 전도성 핀 | 리노공업주식회사 | 등록 | 2024 | 출원번호 1020240014344; 등록번호 1029649910000 | IPC/CPC: G01R | 기술매칭: 기술 키워드 미확인 | 초록: 본 발명은 접촉팁 및 첨단부의 형상을 다양하게 형성할 수 있는 접촉팁 제조 방법을 제공하고, 다양한 형상의 접촉팁 및 첨단부를 포함하는 전기 전도성 핀을 제공한다.",
+      "relevance_score": 67.5
+    },
+    {
+      "title": "전기 전도핀",
+      "source_type": "patent",
+      "url": "",
+      "path": "C:\\Agent_6.9\\data\\반도체\\리노공업\\tech\\source\\leeno_kipris_plus_bibliographic_raw.csv",
+      "snippet": "전기 전도핀 | 리노공업주식회사 | 등록 | 2024 | 출원번호 1020240037217; 등록번호 1029512190000 | IPC/CPC: G01R | 기술매칭: 기술 키워드 미확인 | 초록: 본 발명은 구성 파트의 수를 줄이면서도 내구성이 향상된 전기 전도핀을 제공한다.",
+      "relevance_score": 67.5
+    },
+    {
+      "title": "양면 사용 칩 테스트 소켓",
+      "source_type": "patent",
+      "url": "",
+      "path": "C:\\Agent_6.9\\data\\반도체\\리노공업\\tech\\source\\leeno_kipris_plus_bibliographic_raw.csv",
+      "snippet": "양면 사용 칩 테스트 소켓 | 리노공업주식회사 | 등록 | 2006 | 출원번호 1020060033231; 등록번호 1007043940000 | IPC/CPC: H01R, H05K, H10P, G01R | 기술매칭: 테스트 | 초록: 본 발명은 소켓의 양면으로 프로브수용부 및 프로브가 대칭되게 형성되어, 소켓의 상하면 어느 쪽으로도 사용이 가능한 양면 사용 칩 테스트 소켓에 관한 것으로서, 중심에 상측으로 돌출되고 등간격으로 상측프로브수용공이 형성된 상측프로브수용부가 형성된 상부하우징과; 상기 상부하우징 하측에 결합되며, 하측으로 돌출되며 상기 상측프로브수용부에 대응되게 형성되고 상기 상측프로브수용공에 연통되는 하측프로브",
+      "relevance_score": 67.0
+    },
+    {
+      "title": "반도체 디바이스의 검사장치",
+      "source_type": "patent",
+      "url": "",
+      "path": "C:\\Agent_6.9\\data\\반도체\\리노공업\\tech\\source\\leeno_kipris_plus_bibliographic_raw.csv",
+      "snippet": "반도체 디바이스의 검사장치 | 리노공업주식회사 | 등록 | 2011 | 출원번호 1020110091552; 등록번호 1011497590000 | IPC/CPC: G01R, H01R, H10P | 기술매칭: 반도체 | 초록: 본 발명은 복수의 전기적 피검사 접점을 가진 피검사체의 전기적 특성을 검사하기 위한 반도체 디바이스 검사장치에 있어서, 길이방향으로 신축가능한 복수의 프루브핀과, 상기 프루브핀들을 상호 평행하게 지지하는 프루브핀 지지부와, 상기 프루브핀들의 일단부가 접촉하는 복수의 고정접점을 갖는 소켓보드를 포함하는 소켓 어셈블리와; 상기 피검사 접점들이 상기 프루브핀들의 타단부를 향하도록 상기 피검사체를",
+      "relevance_score": 65.5
+    }
+  ],
+  "limitations": [
+    "tech_template.xlsx의 기업별 예시값은 복사 근거로 사용하지 않고, 대출처·중출처·정량화 규칙만 추출 설계로 사용합니다.",
+    "기술 점수만으로 매수/매도 결론을 만들지 않고 Tech-to-Value Bridge로 고객 채택·양산·매출 전환·FCF 연결성을 확인합니다.",
+    "회사 식별어가 약하거나 타기업 중심인 URL은 제외합니다."
+  ],
+  "evidence_harvest_summary": {
+    "document_count": 3,
+    "accepted_url_count": 0,
+    "rejected_url_count": 0,
+    "quality_flags": [
+      "DART 사업보고서 본문 미수집: DART_API_KEY 또는 stock_code 확인 필요",
+      "공식 홈페이지/IR 본문 미수집: company.yaml URL 또는 네트워크 접근 확인 필요",
+      "KIPRIS Tech ML features merged into Tech Agent runtime outputs."
+    ],
+    "template_usage": "framework_only: base/formula sheet source plan, no company-example content copied as evidence"
+  }
+}

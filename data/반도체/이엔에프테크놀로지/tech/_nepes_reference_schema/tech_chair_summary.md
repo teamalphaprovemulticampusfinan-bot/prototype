@@ -109,12 +109,12 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
 - 의미: KIPRIS 기반 IP Evidence Composite를 Tech-to-Value Bridge 최종 점수 산식에 정식 반영합니다.
 - 산식: final_bridge_score_after_ip_evidence = peer_adjusted_bridge_score_before_ip_evidence + ip_evidence_composite_adjustment_points
 
-- IP Evidence Composite Score: 53.56
+- IP Evidence Composite Score: 54.05
 - IP Evidence Bridge Signal: IP_EVIDENCE_NEUTRAL
 - IP Evidence Adjustment Points: 0.0
 - Peer-adjusted Score Before IP Evidence: 80.53
 - Final Bridge Score After IP Evidence: 80.53
-- Source: `C:/Agent_6.8/data/반도체/네패스/tech/tech_ip_evidence_composite.json`
+- Source: `C:/Agent_6.9/data/반도체/네패스/tech/tech_ip_evidence_composite.json`
 
 해석:
 - 네패스처럼 IP Evidence 조정값이 0.0이면 최종 점수 변화가 없는 것이 정상입니다.
@@ -166,10 +166,10 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
 # 네패스 Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-20T10:24:50
-- 종합 점수: 80.28/100
+- 생성 시각: 2026-05-26T03:16:29
+- 종합 점수: 80.36/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 151개
+- 원천 문서 수: 179개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -177,7 +177,7 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
 | 고객 채택 | 직접 근거 확인 | 85.0 | 8 | 0 | 0 | 고객 채택 관련 직접 근거가 8건 확인됩니다. Chair에서는 가치 전환 근거로 반영하되 원천 URL/파일을 함께 확인합니다. |
 | 양산 | 직접 근거 확인 | 85.0 | 8 | 0 | 0 | 양산 관련 직접 근거가 8건 확인됩니다. Chair에서는 가치 전환 근거로 반영하되 원천 URL/파일을 함께 확인합니다. |
 | 매출 전환 | 직접 근거 확인 | 85.0 | 8 | 0 | 0 | 매출 전환 관련 직접 근거가 8건 확인됩니다. Chair에서는 가치 전환 근거로 반영하되 원천 URL/파일을 함께 확인합니다. |
-| IP 품질 | 직접 근거 확인 | 53.56 | 3 | 0 | 1 | KIPRIS 기반 법적 상태·청구항·인용·패밀리 산출물을 함께 반영합니다. 특허 수량만이 아니라 권리 안정성, 청구항 방어력, 인용 영향력, 해외 확장성을 분리해 Chair 판단에 전달합니다. |
+| IP 품질 | 직접 근거 확인 | 54.05 | 3 | 0 | 1 | KIPRIS 기반 법적 상태·청구항·인용·패밀리 산출물을 함께 반영합니다. 특허 수량만이 아니라 권리 안정성, 청구항 방어력, 인용 영향력, 해외 확장성을 분리해 Chair 판단에 전달합니다. |
 | 마진·원가·현금흐름 연결 | 직접 근거 확인 | 85.0 | 8 | 0 | 0 | 마진·원가·현금흐름 연결 관련 직접 근거가 8건 확인됩니다. Chair에서는 가치 전환 근거로 반영하되 원천 URL/파일을 함께 확인합니다. |
 
 ## 3. 대표 근거
@@ -211,11 +211,11 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
 - [DIRECT_EVIDENCE] <TE ENG="Cash flows from (used in) operating activities" VALIGN="MIDDLE" WIDTH="381" HEIGHT="23" AUPDATECONT="N">영업활동현금흐름</TE> (source=data/반도체/네패스/tech/source/dart_latest_business_report.txt, keywords=현금흐름, urls=http://www.w3.org/2001/XMLSchema-instance, http://www.nepes.co.kr)
 
 ### IP 품질
-- [DIRECT_EVIDENCE] legal_status: status=COLLECTED, count=None, score=0.7381, signal=None (source=data/반도체/네패스/tech/nepes_tech_ip_legal_features.json, keywords=legal_status, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
-- [DIRECT_EVIDENCE] claims: status=COLLECTED, count=4785.0, score=None, signal=None (source=data/반도체/네패스/tech/nepes_tech_ip_claim_features.json, keywords=claims, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
+- [DIRECT_EVIDENCE] legal_status: status=COLLECTED, count=None, score=0.7352, signal=None (source=data/반도체/네패스/tech/nepes_tech_ip_legal_features.json, keywords=legal_status, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
+- [DIRECT_EVIDENCE] claims: status=COLLECTED, count=4823.0, score=None, signal=None (source=data/반도체/네패스/tech/nepes_tech_ip_claim_features.json, keywords=claims, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
 - [PARTIAL_EVIDENCE] citations: status=NO_CITATION_COLLECTED, count=0, score=None, signal=None (source=data/반도체/네패스/tech/nepes_tech_ip_citation_features.json, keywords=citations, NO_CITATION_COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
-- [DIRECT_EVIDENCE] family: status=COLLECTED, count=31.0, score=None, signal=None (source=data/반도체/네패스/tech/nepes_tech_ip_family_features.json, keywords=family, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
-- [DIRECT_EVIDENCE] composite: status=COLLECTED, count=None, score=53.56, signal=IP_EVIDENCE_NEUTRAL (source=data/반도체/네패스/tech/nepes_tech_ip_evidence_composite.json, keywords=composite, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
+- [DIRECT_EVIDENCE] family: status=COLLECTED, count=40.0, score=None, signal=None (source=data/반도체/네패스/tech/nepes_tech_ip_family_features.json, keywords=family, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
+- [DIRECT_EVIDENCE] composite: status=COLLECTED, count=None, score=54.05, signal=IP_EVIDENCE_NEUTRAL (source=data/반도체/네패스/tech/nepes_tech_ip_evidence_composite.json, keywords=composite, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
 
 ## 4. 다음 확인 포인트
 - 고객 채택: 확인된 고객사·공급 근거가 실제 반복 매출로 이어지는지 후속 확인
@@ -226,12 +226,12 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
 
 ## 5. URL 인식 결과 및 대체 조회 URL
 - **KIPRIS**
-  - detected: http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf7f841a23097cddc5dd5f75c7c93e304b3c263e370fd3d3f82c9f09379d8ee0f8cec707268ecb325dcb2a9bd894bb8a7153f44ad260e286a3
-  - detected: http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf2cfb5fe4032a1745241963d8978becc2d36b4e0dc4243cbf70417df81721702c81c7d1f4e011733a01054d0e99c5a1dc95d697cc3ec7d36b
-  - detected: http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf92466591d547ce315ab8556a63a53e1625c9451479832b561acd3ea2b6aafc03c6c7f287d74402ae0d6209c0edbb6e5552ebeddf107c1de2
-  - detected: http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf856ed44ec11d85ddeb9c90f469f5500cf107d8f0d9976b9be2bc620374d6fba0424a49ee730c9a44c8a30790854c444b28de5378e0b79678
-  - detected: http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf7f50d5ddbf848cc7fb0dc846df3b9a3906d9d0be3b2beb36acb13c22f9c147c4986474005283cbea776f00f671d9c0ce9e4e533bce14a3ef
-  - detected: http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe46c22163f668395d4943256a6c714b7e4049f654eef41f400211ac964649f230c
+  - detected: http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9328f5a912c888a1604ff579e87f821b091a0665246f3173a6cae241fd42c7005fb584f7181202ddb2669153aa54387f5f558cf6b7b6d352be
+  - detected: http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9328f5a912c888a1604ff579e87f821b091a0665246f3173a6cae241fd42c7005f99f63731d0311929be11400294078a7500be1e049034125a
+  - detected: http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9322af84f57b08f2914d8d6d578d04e03445d891357f9d9514d3d00ad20d4a18bd19eba5573d7be6aac19dee99cdc16abd632f246c9310f285
+  - detected: http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9322af84f57b08f2914d8d6d578d04e034c00c52ee695737d21b3f879b3a036daacbefcdab0ce327f373387ac5e1436b444e048689ba5bd44d
+  - detected: http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93c040d70001b624f5684d1632e77fbbe56bbb3117cbeab3944e9633126c9d0314bacd1aee33943ab15d5a9bc96c0cdb5e4e90695e30d95718
+  - detected: http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93f6548c790985d9b42df3b696cb0bd420628364929a7eeeebfe825a6a229a6517dc933a022c3933651a90fed613eac47cfdf019f60b965c6c
   - fallback: https://www.kipris.or.kr/khome/main.jsp
   - fallback: https://plus.kipris.or.kr/
   - fallback: https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+KIPRIS+%ED%8A%B9%ED%97%88
@@ -280,7 +280,7 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
 - status: OK
 - overall_lifecycle_stage: DECLINE_OR_SHIFT
 - overall_lifecycle_score: 30.24
-- source_patent_csv: `C:\Agent_6.8\data\반도체\네패스\tech\nepes_kipris_bibliographic_normalized.csv`
+- source_patent_csv: `data\반도체\네패스\tech\nepes_kipris_bibliographic_normalized.csv`
 
 ## Summary
 advanced_packaging, bump_rdl_interposer, power_thermal_efficiency 관련 최근 출원 밀도가 약해져 쇠퇴 또는 차세대 기술 전환 가능성을 점검해야 합니다.

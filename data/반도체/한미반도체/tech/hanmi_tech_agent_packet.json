@@ -3,26 +3,26 @@
   "company": "한미반도체",
   "company_dir": "hanmi",
   "opinion": "매수",
-  "tech_signal": 0.471918,
+  "tech_signal": 0.471852,
   "history_tech_feature": {
-    "signal": 0.471918,
+    "signal": 0.471852,
     "status": "OK_TECH_HISTORY_ASOF",
-    "source": "C:\\Agent_6.9\\data\\반도체\\한미반도체\\tech\\hanmi_kipris_patents_normalized.csv;C:\\Agent_6.9\\data\\반도체\\한미반도체\\tech\\source\\kipris_hanmi_patents.csv;C:\\Agent_6.9\\data\\반도체\\한미반도체\\tech\\hanmi_tech_patent_normalized.csv;C:\\Agent_6.9\\data\\반도체\\한미반도체\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\한미반도체\\tech\\hanmi_kipris_bibliographic_normalized.csv;C:\\Agent_6.9\\data\\반도체\\한미반도체\\tech\\hanmi_kipris_claims_normalized.csv;C:\\Agent_6.9\\data\\반도체\\한미반도체\\tech\\hanmi_kipris_plus_claim_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\한미반도체\\tech\\hanmi_kipris_plus_family_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\한미반도체\\tech\\hanmi_kipris_plus_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\한미반도체\\tech\\hanmi_kipris_tech_ml_enriched.csv;C:\\Agent_6.9\\data\\반도체\\한미반도체\\tech\\source\\hanmi_kipris_plus_bibliographic_raw.csv;C:\\Agent_6.9\\data\\반도체\\한미반도체\\tech\\quanified_metrix.csv",
-    "as_of_date": "2025-08-31",
+    "source": "C:\\Agent_6.9\\data\\반도체\\한미반도체\\tech\\tech_history_features_2025-08-31.csv;C:\\Agent_6.9\\data\\반도체\\한미반도체\\tech\\tech_history_features_2025-09-30.csv;C:\\Agent_6.9\\data\\반도체\\한미반도체\\tech\\hanmi_kipris_patents_normalized.csv;C:\\Agent_6.9\\data\\반도체\\한미반도체\\tech\\source\\kipris_hanmi_patents.csv;C:\\Agent_6.9\\data\\반도체\\한미반도체\\tech\\hanmi_tech_patent_normalized.csv;C:\\Agent_6.9\\data\\반도체\\한미반도체\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\한미반도체\\tech\\hanmi_kipris_bibliographic_normalized.csv;C:\\Agent_6.9\\data\\반도체\\한미반도체\\tech\\hanmi_kipris_claims_normalized.csv;C:\\Agent_6.9\\data\\반도체\\한미반도체\\tech\\hanmi_kipris_plus_claim_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\한미반도체\\tech\\hanmi_kipris_plus_family_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\한미반도체\\tech\\hanmi_kipris_plus_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\한미반도체\\tech\\hanmi_kipris_tech_ml_enriched.csv",
+    "as_of_date": "2025-10-31",
     "company": "한미반도체",
     "ticker": "042700",
     "stock_code": "042700",
-    "base_signal": 0.534365,
-    "evidence_confidence": 0.783753,
-    "commercialization_gate_signal": 0.212432,
+    "base_signal": 0.534302,
+    "evidence_confidence": 0.78374,
+    "commercialization_gate_signal": 0.212395,
     "technology_risk_penalty": 0.0,
-    "ip_quality_signal": 0.109272,
+    "ip_quality_signal": 0.111952,
     "lifecycle_signal": 0.714604,
-    "technology_differentiation_signal": 0.194779,
-    "commercialization_signal": 0.849729,
-    "rnd_sustainability_signal": 0.47382,
+    "technology_differentiation_signal": 0.192376,
+    "commercialization_signal": 0.849581,
+    "rnd_sustainability_signal": 0.4747,
     "peer_position_signal": 0.688416,
-    "tech_to_value_signal": 0.709933,
+    "tech_to_value_signal": 0.708484,
     "certification_signal": 0.0,
     "qualification_signal": 0.0,
     "cost_yield_signal": 0.0,
@@ -32,10 +32,10 @@
     "dispute_risk_signal": 0.0,
     "failure_delay_signal": 0.0,
     "intangible_accounting_signal": 0.0,
-    "patent_records_asof": 9992,
-    "dated_records_asof": 3709,
+    "patent_records_asof": 10008,
+    "dated_records_asof": 3727,
     "undated_records_used": 6564,
-    "files_used": 83,
+    "files_used": 85,
     "notes": "Tech history signal uses dated patent/IP, TRL/readiness, certification, qualification, commercialization, R&D/workforce, risk and accounting evidence before as_of_date; no Buy/Hold/Sell threshold is applied.",
     "frequency": "monthly",
     "formula": "final=base_signal*evidence_confidence + 0.25*commercialization_gate_signal - 0.35*technology_risk_penalty",
@@ -45,8 +45,8 @@
       "IFC/Bpifrance deep-tech development-stage financing framework",
       "Text-based industry/technology relatedness literature for peer/differentiation evidence"
     ],
-    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\한미반도체\\tech\\tech_history_features_2025-08-31.json",
-    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\한미반도체\\tech\\tech_history_features_2025-08-31.csv"
+    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\한미반도체\\tech\\tech_history_features_2025-10-31.json",
+    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\한미반도체\\tech\\tech_history_features_2025-10-31.csv"
   },
   "claims": [
     {
@@ -493,7 +493,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\한미반도체\\tech\\hanmi_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\한미반도체\\tech\\hanmi_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-25T19:50:02",
+      "generated_at": "2026-05-26T12:11:27",
       "core_counts": {
         "total_patents": 901,
         "registered_patents_estimated": 516,
@@ -587,7 +587,7 @@
   "tech_chair_summary": {
     "agent": "tech",
     "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-    "created_at": "2026-05-25T19:53:20",
+    "created_at": "2026-05-26T12:13:32",
     "field": "반도체",
     "company": "한미반도체",
     "company_name": "한미반도체",
@@ -1571,7 +1571,7 @@
       "company_name": "한미반도체",
       "field": "반도체",
       "status": "OK",
-      "created_at": "2026-05-25T19:50:05",
+      "created_at": "2026-05-26T12:11:29",
       "weights": {
         "legal_stability": 0.25,
         "claim_defense": 0.3,
@@ -1667,10 +1667,10 @@
       "tech_full_appendix_json": ""
     },
     "ip_evidence_bridge_adjustment_status": "APPLIED",
-    "ip_evidence_bridge_adjustment_applied_at": "2026-05-25T19:53:21",
+    "ip_evidence_bridge_adjustment_applied_at": "2026-05-26T12:13:34",
     "tech_investor_view": {
       "version": "tech-investor-scorecard-v2",
-      "generated_at": "2026-05-25T19:53:47",
+      "generated_at": "2026-05-26T12:14:05",
       "company_slug": "hanmi",
       "company_name": "한미반도체",
       "final_tech_investor_score": 74.46,
@@ -2061,12 +2061,12 @@
       "agent": "tech_intake",
       "artifact": "tech_intake_value_evidence_bridge",
       "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-      "created_at": "2026-05-25T19:53:43",
+      "created_at": "2026-05-26T12:13:59",
       "field": "반도체",
       "company": "한미반도체",
       "company_dir": "hanmi",
       "company_slug": "hanmi",
-      "source_document_count": 169,
+      "source_document_count": 170,
       "source_documents": [
         {
           "source_group": "KIPRIS",
@@ -2239,7 +2239,7 @@
         {
           "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/한미반도체/tech/hanmi_tech_intake_value_evidence.json",
-          "detected_url_count": 14,
+          "detected_url_count": 7,
           "fallback_url_count": 0
         },
         {
@@ -2514,6 +2514,30 @@
         },
         {
           "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/한미반도체/tech/tech_history_features_2025-09-30.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/한미반도체/tech/tech_history_features_2025-09-30.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/한미반도체/tech/tech_history_features_2025-10-31.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/한미반도체/tech/tech_history_features_2025-10-31.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/한미반도체/tech/tech_intake_manifest.json",
           "detected_url_count": 0,
           "fallback_url_count": 2
@@ -2527,7 +2551,7 @@
         {
           "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/한미반도체/tech/tech_intake_value_evidence.json",
-          "detected_url_count": 14,
+          "detected_url_count": 7,
           "fallback_url_count": 0
         },
         {
@@ -2910,12 +2934,6 @@
         },
         {
           "source_group": "VALUATION",
-          "source_file": "data/반도체/한미반도체/valuation/intake/financials_raw.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "VALUATION",
           "source_file": "data/반도체/한미반도체/valuation/intake/peer_multiples.csv",
           "detected_url_count": 0,
           "fallback_url_count": 5
@@ -3006,25 +3024,7 @@
         },
         {
           "source_group": "VALUATION",
-          "source_file": "data/반도체/한미반도체/valuation/intake/valuation_raw_dart_accounts.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "VALUATION",
           "source_file": "data/반도체/한미반도체/valuation/intake/valuation_reference_universe_208.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "VALUATION",
-          "source_file": "data/반도체/한미반도체/valuation/intake/valuation_reference_universe_focus.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "VALUATION",
-          "source_file": "data/반도체/한미반도체/valuation/intake/valuation_reference_universe_summary.json",
           "detected_url_count": 0,
           "fallback_url_count": 5
         }
@@ -3194,14 +3194,7 @@
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0087ec9c7dcef9df01b2b47920830d0b16d77a7df23de1c261390f0b98dc36b7ec74ca3cae646f54ed88dd2fdf1c5f3c5f478641c143488190",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93248f2995ab0a14eab6c2fc1392960175391aee28d3ccec8a3aefbc806e530efc582a403ae9e9e4e250ef3c039bc5abc77c3cbe87d5aaf32b",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00e8d49067bfb0ab9645b3d0b5494e334e3e38e20ee7f7660d6d165920e7d919d11a549a6c9fd85efc9e31803926c7df5c18d9100513a369da",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0056413a27dac7424f4cf782d9dba8c6e3317b084ec6799c885f3fd4e5bf3d82662e362bd5908ede824c8abb4bda7693eb5e9731d9192ec018",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00de80b1c8c3fe45bea193dc8bd5077ad3484c78867d50ab23a51bcba31f8c7ef9d4affc05a67c8939340c797ea79a681d5d3fd36b44da9d01",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93ea5faaf49118c1e49418eae930a93dd7ef348383fc861a4dab8f2871402cb3ec0921b8680b320307790a5a4a0b7e4b9d7f315d511b939d6b",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c931e29801e589c7b644af28b7ef4d33177b0901e5b21bb081bfc405de801663f5d60575963c5a37f266e38c9a33d8477ddd9cd68e438f23a8c",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c592fb536ea920a4d67c5d1f7003f79d07fe12e282bf5cc92512290a010863538",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9358cd995b5cefeafab07fe427dc10993d2a74a14e3704711d36f3acf0f0ca7242261100c4545ff3f624546c0a1516411e42ee4656d5aeb9f8",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c935157be90321e10e539faac0d04eb50c1d058a9db6779d43e41780e3424851fd129d7246b6dee3d8d6136860f233b3041d160bcd5034e052d",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00c42cc586cf1ac89c56513d33740",
+            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0056413a27dac7424f4cf782d9dba8c6e3317b084ec6799c885f3fd4e5bf3d82662e3",
             "https://dart.fss.or.kr/",
             "https://dart.fss.or.kr/dsab007/main.do?option=corp",
             "http://www.w3.org/2001/XMLSchema-instance",
@@ -3315,9 +3308,7 @@
           ]
         },
         "FINANCE": {
-          "detected_urls": [
-            "https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception"
-          ],
+          "detected_urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
             "https://opendart.fss.or.kr/",
@@ -4222,7 +4213,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\한미반도체\\tech\\hanmi_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\한미반도체\\tech\\hanmi_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-25T19:50:02",
+      "generated_at": "2026-05-26T12:11:27",
       "core_counts": {
         "total_patents": 901,
         "registered_patents_estimated": 516,
@@ -4345,8 +4336,8 @@
     "tech_full_appendix_json": null,
     "tech_chair_summary_json": "data/반도체/한미반도체/tech/tech_chair_summary.json",
     "tech_chair_summary_md": "data/반도체/한미반도체/tech/hanmi_tech_chair_summary.md",
-    "tech_history_feature_json": "data/반도체/한미반도체/tech/tech_history_features_2025-08-31.json",
-    "tech_history_feature_csv": "data/반도체/한미반도체/tech/tech_history_features_2025-08-31.csv",
+    "tech_history_feature_json": "data/반도체/한미반도체/tech/tech_history_features_2025-10-31.json",
+    "tech_history_feature_csv": "data/반도체/한미반도체/tech/tech_history_features_2025-10-31.csv",
     "tech_json": "data/반도체/한미반도체/tech/hanmi_tech.json",
     "tech_agent_packet_json": "data/반도체/한미반도체/tech/hanmi_tech_agent_packet.json"
   },
@@ -6197,7 +6188,7 @@
     "field": "반도체",
     "source_csv": "data\\반도체\\한미반도체\\tech\\hanmi_kipris_patents_normalized.csv",
     "enriched_csv": "data\\반도체\\한미반도체\\tech\\hanmi_kipris_tech_ml_enriched.csv",
-    "generated_at": "2026-05-25T19:50:02",
+    "generated_at": "2026-05-26T12:11:27",
     "core_counts": {
       "total_patents": 901,
       "registered_patents_estimated": 516,

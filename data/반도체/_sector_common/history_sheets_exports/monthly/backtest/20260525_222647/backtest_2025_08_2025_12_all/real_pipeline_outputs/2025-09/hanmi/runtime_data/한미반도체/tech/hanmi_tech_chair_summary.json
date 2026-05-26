@@ -1,0 +1,3586 @@
+{
+  "agent": "tech",
+  "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
+  "created_at": "2026-05-26T03:26:26",
+  "field": "반도체",
+  "company": "한미반도체",
+  "company_name": "한미반도체",
+  "company_dir": "hanmi",
+  "company_slug": "hanmi",
+  "opinion": "매수",
+  "tech_to_value": {
+    "tech_agent_raw_score": 100.0,
+    "auditor_adjusted_score": 78.0,
+    "base_bridge_score": 79.0,
+    "base_bridge_grade": "VALUE_CONVERSION_CONFIRMED",
+    "peer_adjusted_bridge_score": 80.85,
+    "peer_adjusted_grade": "COMMERCIALIZATION_WATCH",
+    "commercialization_watch_meaning": "기술성은 확인되지만 고객 채택·양산·매출 전환·FCF 개선까지 이어지는 연결고리를 계속 추적해야 하는 상태",
+    "tech_finance_gap_meaning": "기술 포트폴리오는 존재하지만 수익성·현금흐름·재무안정성으로 전환되는 직접 근거가 약한 상태",
+    "ip_legal_bridge_adjustment_points": 0.0,
+    "ip_legal_bridge_signal": "IP_LEGAL_STABILITY_NEUTRAL",
+    "ip_claim_bridge_adjustment_points": 0.0,
+    "ip_claim_bridge_signal": "IP_CLAIM_SCOPE_NEUTRAL",
+    "ip_citation_bridge_adjustment_points": 0.0,
+    "ip_citation_bridge_signal": "IP_CITATION_FALLBACK_ESTIMATED",
+    "ip_family_bridge_adjustment_points": 0.0,
+    "ip_family_bridge_signal": "IP_GLOBAL_EXTENSION_NEUTRAL",
+    "ip_evidence_composite_score": 48.12,
+    "ip_evidence_bridge_adjustment_points": 0.0,
+    "ip_evidence_bridge_signal": "IP_EVIDENCE_NEUTRAL",
+    "rubric_source": "src/tech_agent/prompts.py",
+    "bridge_policy_summary": "Tech-to-Value Bridge는 기술이 실제 기업가치로 연결될 가능성을 평가한다. 판단 순서는 다음과 같다. 1. 기술/IP 근거가 실제 제품·공정·고객 채택과 연결되는가? 2. 양산성과 확장성이 확인되는가? 3. 고객 채택 또는 매출 전환 가능성을 설명할 수 있는가? 4. 특허/IP가 방어력, 협상력, 라이선스 가능성, 공급망 지위로 작동할 수 있는가? 5. R&D와 특허가 단순 투입/산출에 머무르지 않고 상업화 결과로 이어지는가? 6. CAPEX, 운",
+    "ip_evidence_composite_bridge_signal": "IP_EVIDENCE_NEUTRAL",
+    "ip_evidence_composite_adjustment_points": 0.0,
+    "ip_evidence_composite_data_coverage_rate": 1.0,
+    "ip_evidence_composite_source_file": "C:/Agent_6.9/data/반도체/한미반도체/tech/tech_ip_evidence_composite.json",
+    "peer_adjusted_bridge_score_before_ip_evidence": 80.85,
+    "final_bridge_score_after_ip_evidence": 80.85,
+    "ip_evidence_adjusted_score": 80.85,
+    "ip_evidence_formula": "final_bridge_score_after_ip_evidence = peer_adjusted_bridge_score_before_ip_evidence + ip_evidence_composite_adjustment_points",
+    "ip_evidence_adjusted_grade": "COMMERCIALIZATION_WATCH",
+    "investor_final_tech_score": 74.46,
+    "investor_final_tech_grade": {
+      "code": "TECH_TO_VALUE_READY",
+      "label": "기술의 가치전환 준비도는 높지만 일부 고객·매출·마진 근거는 추가 확인 필요",
+      "threshold": 68.0
+    },
+    "value_evidence_score": 79.47,
+    "value_evidence_label": "VALUE_EVIDENCE_STRONG"
+  },
+  "excel_frame_summary": [
+    {
+      "category": "대표 기술",
+      "item": "대표 기술",
+      "quantification": "5",
+      "evidence": "확인 제한",
+      "grade": "강",
+      "note": "필요 시 원천 근거 확인"
+    },
+    {
+      "category": "핵심 제품/서비스",
+      "item": "핵심 제품/서비스",
+      "quantification": "5",
+      "evidence": "확인 제한",
+      "grade": "강",
+      "note": "필요 시 원천 근거 확인"
+    },
+    {
+      "category": "고객 구매 이유",
+      "item": "고객 구매 이유",
+      "quantification": "5",
+      "evidence": "확인 제한",
+      "grade": "강",
+      "note": "필요 시 원천 근거 확인"
+    },
+    {
+      "category": "경쟁 우위/대체가능성",
+      "item": "경쟁 우위/대체가능성",
+      "quantification": "5",
+      "evidence": "확인 제한",
+      "grade": "강",
+      "note": "필요 시 원천 근거 확인"
+    },
+    {
+      "category": "활용 및 확장 산업",
+      "item": "활용 및 확장 산업",
+      "quantification": "5",
+      "evidence": "확인 제한",
+      "grade": "강",
+      "note": "필요 시 원천 근거 확인"
+    },
+    {
+      "category": "진입 부담/장벽",
+      "item": "진입 부담/장벽",
+      "quantification": "5",
+      "evidence": "확인 제한",
+      "grade": "강",
+      "note": "필요 시 원천 근거 확인"
+    },
+    {
+      "category": "R&D 강도",
+      "item": "R&D 강도",
+      "quantification": "5",
+      "evidence": "확인 제한",
+      "grade": "강",
+      "note": "필요 시 원천 근거 확인"
+    }
+  ],
+  "ip_quant_signals": {
+    "normalized_patent_text_records": 24323,
+    "company_matched_patents": 17778,
+    "registered_patents": 5373,
+    "alive_patents": 9502,
+    "recent_5y_patents": 1901,
+    "ipc_cpc_classes": 237,
+    "core_ipc_h01l_patents": 6,
+    "keyword_matches": 36359
+  },
+  "selected_ml": {
+    "peer_ml": {
+      "peer_adjusted_bridge_score": 80.85,
+      "peer_composite_percentile": 70.79,
+      "peer_adjusted_grade": "COMMERCIALIZATION_WATCH",
+      "cluster_name": "반도체 후공정/패키징 cluster"
+    },
+    "tech_ip_strength": {
+      "score": 57.0,
+      "percentile": 50.0,
+      "patent_momentum_score": 33.02,
+      "dominant_topic": null
+    },
+    "technology_differentiation": {
+      "score": 75.39,
+      "percentile": 90.0,
+      "grade": "DISTINCTIVE_TECH_LEADER",
+      "nearest_peer": "엘티씨",
+      "dominant_topic": "패키지 / 자재 / 패키지를 / 패키지의"
+    },
+    "patent_momentum": {
+      "score": 45.5,
+      "grade": "WATCH_MOMENTUM"
+    },
+    "evidence_confidence": {
+      "score": 88.0,
+      "grade": "EVIDENCE_STRONG",
+      "direct_dimension_count": 4
+    },
+    "ip_legal_stability": {
+      "total_patents": 901,
+      "registered_patents_estimated": 516,
+      "alive_patents_estimated": 320,
+      "negative_disposal_patents_estimated": 467,
+      "registration_rate_estimated": 0.5727,
+      "alive_rate_among_registered_estimated": 0.6202,
+      "negative_disposal_rate_estimated": 0.5183,
+      "right_holder_coverage": 1.0,
+      "right_transfer_history_coverage": 0.0,
+      "fee_payment_status_coverage": 0.0,
+      "abstract_coverage": 1.0,
+      "drawing_coverage": 0.9156,
+      "legal_stability_score_estimated": 56.38,
+      "kipris_tech_ml_score": 56.38,
+      "bridge_adjustment_points": 0.0,
+      "bridge_signal": "IP_LEGAL_STABILITY_NEUTRAL",
+      "usage_rule": "KIPRIS normalized bibliographic/legal fields 기반 권리 안정성 추정치입니다. 등록률·존속률·부정 처분 비중·권리자/연차료 커버리지를 Tech-to-Value Bridge의 보조 조정 신호로만 사용합니다.",
+      "source_file": "data/반도체/한미반도체/tech/tech_ip_legal_features.json"
+    },
+    "ip_claim_scope": {
+      "status": "OK",
+      "target_patent_count": 901,
+      "patents_with_claims": 894,
+      "claim_collection_coverage": 0.9922,
+      "claim_count": 10915,
+      "independent_claim_count_estimated": 1882,
+      "avg_claims_per_patent": 12.2092,
+      "independent_claim_ratio": 0.1724,
+      "claim_defense_score_estimated": 55.58,
+      "parse_error_count": 7,
+      "bridge_adjustment_points": 0.0,
+      "bridge_signal": "IP_CLAIM_SCOPE_NEUTRAL",
+      "usage_rule": "청구항 전문 기반 지표는 특허의 방어범위와 핵심기술 보호 가능성을 보조적으로 평가합니다. 다만 고객 채택·양산·매출 전환의 직접 증거는 아니므로 Tech-to-Value Bridge에는 보수적 가산/감산만 적용합니다.",
+      "source_file": "data/반도체/한미반도체/tech/tech_ip_claim_features.json"
+    },
+    "ip_citation_impact": {
+      "status": "FALLBACK_ESTIMATED",
+      "target_patent_count": 901,
+      "patents_with_citation_data": null,
+      "citation_collection_coverage": 0.0,
+      "forward_citation_count_total": null,
+      "backward_citation_count_total": null,
+      "self_forward_citation_count": null,
+      "external_forward_citation_count": null,
+      "external_forward_citation_rate": null,
+      "avg_forward_citations_per_patent": null,
+      "max_forward_citations_single_patent": null,
+      "cited_patent_count": null,
+      "cited_patent_rate": null,
+      "top10_forward_citation_share": null,
+      "ip_citation_impact_score_estimated": null,
+      "bridge_adjustment_points": 0.0,
+      "bridge_signal": "IP_CITATION_FALLBACK_ESTIMATED",
+      "parse_error_count": null,
+      "usage_rule": "KIPRIS Plus citation data were unavailable. This fallback uses portfolio recency only and is not true citation impact evidence.",
+      "top_cited_patents": [],
+      "source_file": "data/반도체/한미반도체/tech/tech_ip_citation_features.json"
+    },
+    "ip_global_extension": {
+      "status": "OK",
+      "target_patent_count": 901,
+      "family_record_count": 4565,
+      "patents_with_family": 308,
+      "patents_with_overseas_family": 277,
+      "overseas_family_record_count": 1838,
+      "family_collection_coverage": 0.3418,
+      "overseas_family_patent_rate": 0.3074,
+      "pct_patents": 236,
+      "us_patents": 157,
+      "jp_patents": 163,
+      "ep_patents": 163,
+      "cn_patents": 199,
+      "detected_overseas_regions": [
+        "CN",
+        "EP",
+        "JP",
+        "US",
+        "WO"
+      ],
+      "global_extension_score": 45.17,
+      "bridge_adjustment_points": 0.0,
+      "bridge_signal": "IP_GLOBAL_EXTENSION_NEUTRAL",
+      "parse_error_count": 593,
+      "usage_rule": "Use this as an IP global expansion feature in Tech-to-Value Bridge. It indicates whether the patent portfolio has overseas family extension, but it is not direct revenue or commercialization evidence.",
+      "top_overseas_family_patents": [
+        {
+          "application_number": "1020040092782",
+          "title": "면역글로불린 단편을 이용한 단백질 결합체 및 그의제조방법",
+          "family_record_count": 110,
+          "overseas_family_record_count": 60,
+          "jurisdictions": [
+            "CN",
+            "EP",
+            "JP",
+            "KR",
+            "UNKNOWN",
+            "US",
+            "WO"
+          ],
+          "has_pct_or_wo": true,
+          "has_us": true,
+          "has_jp": true,
+          "has_ep": true,
+          "has_cn": true
+        },
+        {
+          "application_number": "1020160183500",
+          "title": "글루카곤, GLP-1 및 GIP 수용체 모두에 활성을 갖는 삼중 활성체의 지속형 결합체",
+          "family_record_count": 122,
+          "overseas_family_record_count": 36,
+          "jurisdictions": [
+            "CN",
+            "EP",
+            "JP",
+            "KR",
+            "UNKNOWN",
+            "US",
+            "WO"
+          ],
+          "has_pct_or_wo": true,
+          "has_us": true,
+          "has_jp": true,
+          "has_ep": true,
+          "has_cn": true
+        },
+        {
+          "application_number": "1020160183499",
+          "title": "글루카곤, GLP-1 및 GIP 수용체 모두에 활성을 갖는 삼중 활성체",
+          "family_record_count": 122,
+          "overseas_family_record_count": 36,
+          "jurisdictions": [
+            "CN",
+            "EP",
+            "JP",
+            "KR",
+            "UNKNOWN",
+            "US",
+            "WO"
+          ],
+          "has_pct_or_wo": true,
+          "has_us": true,
+          "has_jp": true,
+          "has_ep": true,
+          "has_cn": true
+        },
+        {
+          "application_number": "1020190061853",
+          "title": "글루카곤, GLP-1 및 GIP 수용체 모두에 활성을 갖는 삼중 활성체의 지속형 결합체",
+          "family_record_count": 121,
+          "overseas_family_record_count": 36,
+          "jurisdictions": [
+            "CN",
+            "EP",
+            "JP",
+            "KR",
+            "UNKNOWN",
+            "US",
+            "WO"
+          ],
+          "has_pct_or_wo": true,
+          "has_us": true,
+          "has_jp": true,
+          "has_ep": true,
+          "has_cn": true
+        },
+        {
+          "application_number": "1020190061852",
+          "title": "글루카곤, GLP-1 및 GIP 수용체 모두에 활성을 갖는 삼중 활성체",
+          "family_record_count": 121,
+          "overseas_family_record_count": 36,
+          "jurisdictions": [
+            "CN",
+            "EP",
+            "JP",
+            "KR",
+            "UNKNOWN",
+            "US",
+            "WO"
+          ],
+          "has_pct_or_wo": true,
+          "has_us": true,
+          "has_jp": true,
+          "has_ep": true,
+          "has_cn": true
+        },
+        {
+          "application_number": "1020190106691",
+          "title": "글루카곤, GLP-1 및 GIP 수용체 모두에 활성을 갖는 삼중 활성체의 지속형 결합체",
+          "family_record_count": 121,
+          "overseas_family_record_count": 36,
+          "jurisdictions": [
+            "CN",
+            "EP",
+            "JP",
+            "KR",
+            "UNKNOWN",
+            "US",
+            "WO"
+          ],
+          "has_pct_or_wo": true,
+          "has_us": true,
+          "has_jp": true,
+          "has_ep": true,
+          "has_cn": true
+        },
+        {
+          "application_number": "1020190106690",
+          "title": "글루카곤, GLP-1 및 GIP 수용체 모두에 활성을 갖는 삼중 활성체",
+          "family_record_count": 121,
+          "overseas_family_record_count": 36,
+          "jurisdictions": [
+            "CN",
+            "EP",
+            "JP",
+            "KR",
+            "UNKNOWN",
+            "US",
+            "WO"
+          ],
+          "has_pct_or_wo": true,
+          "has_us": true,
+          "has_jp": true,
+          "has_ep": true,
+          "has_cn": true
+        },
+        {
+          "application_number": "1020200093189",
+          "title": "글루카곤, GLP-1 및 GIP 수용체 모두에 활성을 갖는 삼중 활성체",
+          "family_record_count": 121,
+          "overseas_family_record_count": 36,
+          "jurisdictions": [
+            "CN",
+            "EP",
+            "JP",
+            "KR",
+            "UNKNOWN",
+            "US",
+            "WO"
+          ],
+          "has_pct_or_wo": true,
+          "has_us": true,
+          "has_jp": true,
+          "has_ep": true,
+          "has_cn": true
+        },
+        {
+          "application_number": "1020200093190",
+          "title": "글루카곤, GLP-1 및 GIP 수용체 모두에 활성을 갖는 삼중 활성체의 지속형 결합체",
+          "family_record_count": 121,
+          "overseas_family_record_count": 36,
+          "jurisdictions": [
+            "CN",
+            "EP",
+            "JP",
+            "KR",
+            "UNKNOWN",
+            "US",
+            "WO"
+          ],
+          "has_pct_or_wo": true,
+          "has_us": true,
+          "has_jp": true,
+          "has_ep": true,
+          "has_cn": true
+        },
+        {
+          "application_number": "1020090090540",
+          "title": "암로디핀 및 로자탄을 함유하는 고형 약제학적 조성물",
+          "family_record_count": 126,
+          "overseas_family_record_count": 31,
+          "jurisdictions": [
+            "CN",
+            "EP",
+            "JP",
+            "KR",
+            "UNKNOWN",
+            "US",
+            "WO"
+          ],
+          "has_pct_or_wo": true,
+          "has_us": true,
+          "has_jp": true,
+          "has_ep": true,
+          "has_cn": true
+        }
+      ],
+      "source_file": "data/반도체/한미반도체/tech/tech_ip_family_features.json"
+    },
+    "ip_evidence_composite": {
+      "status": "OK",
+      "ip_evidence_composite_score": 48.12,
+      "ip_evidence_data_coverage_rate": 1.0,
+      "bridge_signal": "IP_EVIDENCE_NEUTRAL",
+      "bridge_adjustment_points": 0.0,
+      "components": {
+        "legal_stability": {
+          "component": "legal_stability",
+          "label_ko": "등록·존속 안정성",
+          "status": "OK",
+          "feature_status": "OK",
+          "source_file": "data\\반도체\\한미반도체\\tech\\tech_ip_legal_features.json",
+          "weight": 0.25,
+          "score_estimated": 56.38,
+          "weighted_contribution_points": 14.1,
+          "bridge_signal": "IP_LEGAL_STABILITY_NEUTRAL",
+          "bridge_adjustment_points": 0.0
+        },
+        "claim_defense": {
+          "component": "claim_defense",
+          "label_ko": "청구항 방어 범위",
+          "status": "OK",
+          "feature_status": "OK",
+          "source_file": "data\\반도체\\한미반도체\\tech\\tech_ip_claim_features.json",
+          "weight": 0.3,
+          "score_estimated": 55.58,
+          "weighted_contribution_points": 16.67,
+          "bridge_signal": "IP_CLAIM_SCOPE_NEUTRAL",
+          "bridge_adjustment_points": 0.0
+        },
+        "citation_influence": {
+          "component": "citation_influence",
+          "label_ko": "인용 기반 기술 영향력",
+          "status": "OK",
+          "feature_status": "FALLBACK_ESTIMATED",
+          "source_file": "data\\반도체\\한미반도체\\tech\\tech_ip_citation_features.json",
+          "weight": 0.25,
+          "score_estimated": 33.26,
+          "weighted_contribution_points": 8.31,
+          "bridge_signal": "IP_CITATION_FALLBACK_ESTIMATED",
+          "bridge_adjustment_points": 0.0
+        },
+        "global_extension": {
+          "component": "global_extension",
+          "label_ko": "해외 패밀리 기반 글로벌 확장성",
+          "status": "OK",
+          "feature_status": "OK",
+          "source_file": "data\\반도체\\한미반도체\\tech\\tech_ip_family_features.json",
+          "weight": 0.2,
+          "score_estimated": 45.17,
+          "weighted_contribution_points": 9.03,
+          "bridge_signal": "IP_GLOBAL_EXTENSION_NEUTRAL",
+          "bridge_adjustment_points": 0.0
+        }
+      },
+      "usage_rule": "Use this composite IP evidence score as the integrated IP-quality layer in Tech-to-Value Bridge. It summarizes legal stability, claim scope defense, citation influence, and global family expansion. It is not direct revenue evidence and should be combined with finance, market, and commercialization signals.",
+      "source_file": "data/반도체/한미반도체/tech/tech_ip_evidence_composite.json"
+    },
+    "ip_evidence_composite_score": 48.12,
+    "ip_evidence_bridge_signal": "IP_EVIDENCE_NEUTRAL",
+    "ip_evidence_bridge_adjustment_points": 0.0,
+    "final_bridge_score_after_ip_evidence": 80.85,
+    "investor_final_tech_score": 74.46,
+    "investor_final_tech_grade": {
+      "code": "TECH_TO_VALUE_READY",
+      "label": "기술의 가치전환 준비도는 높지만 일부 고객·매출·마진 근거는 추가 확인 필요",
+      "threshold": 68.0
+    },
+    "investor_evidence_count": 6,
+    "excel_quantified_evidence_score": 85.0,
+    "commercialization_and_funding_signal_score": 74.5
+  },
+  "ip_legal_features": {
+    "total_patents": 901,
+    "registered_patents_estimated": 516,
+    "alive_patents_estimated": 320,
+    "negative_disposal_patents_estimated": 467,
+    "registration_rate_estimated": 0.5727,
+    "alive_rate_among_registered_estimated": 0.6202,
+    "negative_disposal_rate_estimated": 0.5183,
+    "right_holder_coverage": 1.0,
+    "right_transfer_history_coverage": 0.0,
+    "fee_payment_status_coverage": 0.0,
+    "abstract_coverage": 1.0,
+    "drawing_coverage": 0.9156,
+    "legal_stability_score_estimated": 56.38,
+    "kipris_tech_ml_score": 56.38,
+    "bridge_adjustment_points": 0.0,
+    "bridge_signal": "IP_LEGAL_STABILITY_NEUTRAL",
+    "usage_rule": "KIPRIS normalized bibliographic/legal fields 기반 권리 안정성 추정치입니다. 등록률·존속률·부정 처분 비중·권리자/연차료 커버리지를 Tech-to-Value Bridge의 보조 조정 신호로만 사용합니다.",
+    "source_file": "data/반도체/한미반도체/tech/tech_ip_legal_features.json"
+  },
+  "ip_legal_feature_merge_status": "MERGED",
+  "ip_claim_features": {
+    "status": "OK",
+    "target_patent_count": 901,
+    "patents_with_claims": 894,
+    "claim_collection_coverage": 0.9922,
+    "claim_count": 10915,
+    "independent_claim_count_estimated": 1882,
+    "avg_claims_per_patent": 12.2092,
+    "independent_claim_ratio": 0.1724,
+    "claim_defense_score_estimated": 55.58,
+    "parse_error_count": 7,
+    "bridge_adjustment_points": 0.0,
+    "bridge_signal": "IP_CLAIM_SCOPE_NEUTRAL",
+    "usage_rule": "청구항 전문 기반 지표는 특허의 방어범위와 핵심기술 보호 가능성을 보조적으로 평가합니다. 다만 고객 채택·양산·매출 전환의 직접 증거는 아니므로 Tech-to-Value Bridge에는 보수적 가산/감산만 적용합니다.",
+    "source_file": "data/반도체/한미반도체/tech/tech_ip_claim_features.json"
+  },
+  "ip_claim_feature_merge_status": "MERGED",
+  "ip_citation_features": {
+    "status": "FALLBACK_ESTIMATED",
+    "target_patent_count": 901,
+    "patents_with_citation_data": null,
+    "citation_collection_coverage": 0.0,
+    "forward_citation_count_total": null,
+    "backward_citation_count_total": null,
+    "self_forward_citation_count": null,
+    "external_forward_citation_count": null,
+    "external_forward_citation_rate": null,
+    "avg_forward_citations_per_patent": null,
+    "max_forward_citations_single_patent": null,
+    "cited_patent_count": null,
+    "cited_patent_rate": null,
+    "top10_forward_citation_share": null,
+    "ip_citation_impact_score_estimated": null,
+    "bridge_adjustment_points": 0.0,
+    "bridge_signal": "IP_CITATION_FALLBACK_ESTIMATED",
+    "parse_error_count": null,
+    "usage_rule": "KIPRIS Plus citation data were unavailable. This fallback uses portfolio recency only and is not true citation impact evidence.",
+    "top_cited_patents": [],
+    "source_file": "data/반도체/한미반도체/tech/tech_ip_citation_features.json"
+  },
+  "ip_citation_feature_merge_status": "MERGED",
+  "ip_family_features": {
+    "status": "OK",
+    "target_patent_count": 901,
+    "family_record_count": 4565,
+    "patents_with_family": 308,
+    "patents_with_overseas_family": 277,
+    "overseas_family_record_count": 1838,
+    "family_collection_coverage": 0.3418,
+    "overseas_family_patent_rate": 0.3074,
+    "pct_patents": 236,
+    "us_patents": 157,
+    "jp_patents": 163,
+    "ep_patents": 163,
+    "cn_patents": 199,
+    "detected_overseas_regions": [
+      "CN",
+      "EP",
+      "JP",
+      "US",
+      "WO"
+    ],
+    "global_extension_score": 45.17,
+    "bridge_adjustment_points": 0.0,
+    "bridge_signal": "IP_GLOBAL_EXTENSION_NEUTRAL",
+    "parse_error_count": 593,
+    "usage_rule": "Use this as an IP global expansion feature in Tech-to-Value Bridge. It indicates whether the patent portfolio has overseas family extension, but it is not direct revenue or commercialization evidence.",
+    "top_overseas_family_patents": [
+      {
+        "application_number": "1020040092782",
+        "title": "면역글로불린 단편을 이용한 단백질 결합체 및 그의제조방법",
+        "family_record_count": 110,
+        "overseas_family_record_count": 60,
+        "jurisdictions": [
+          "CN",
+          "EP",
+          "JP",
+          "KR",
+          "UNKNOWN",
+          "US",
+          "WO"
+        ],
+        "has_pct_or_wo": true,
+        "has_us": true,
+        "has_jp": true,
+        "has_ep": true,
+        "has_cn": true
+      },
+      {
+        "application_number": "1020160183500",
+        "title": "글루카곤, GLP-1 및 GIP 수용체 모두에 활성을 갖는 삼중 활성체의 지속형 결합체",
+        "family_record_count": 122,
+        "overseas_family_record_count": 36,
+        "jurisdictions": [
+          "CN",
+          "EP",
+          "JP",
+          "KR",
+          "UNKNOWN",
+          "US",
+          "WO"
+        ],
+        "has_pct_or_wo": true,
+        "has_us": true,
+        "has_jp": true,
+        "has_ep": true,
+        "has_cn": true
+      },
+      {
+        "application_number": "1020160183499",
+        "title": "글루카곤, GLP-1 및 GIP 수용체 모두에 활성을 갖는 삼중 활성체",
+        "family_record_count": 122,
+        "overseas_family_record_count": 36,
+        "jurisdictions": [
+          "CN",
+          "EP",
+          "JP",
+          "KR",
+          "UNKNOWN",
+          "US",
+          "WO"
+        ],
+        "has_pct_or_wo": true,
+        "has_us": true,
+        "has_jp": true,
+        "has_ep": true,
+        "has_cn": true
+      },
+      {
+        "application_number": "1020190061853",
+        "title": "글루카곤, GLP-1 및 GIP 수용체 모두에 활성을 갖는 삼중 활성체의 지속형 결합체",
+        "family_record_count": 121,
+        "overseas_family_record_count": 36,
+        "jurisdictions": [
+          "CN",
+          "EP",
+          "JP",
+          "KR",
+          "UNKNOWN",
+          "US",
+          "WO"
+        ],
+        "has_pct_or_wo": true,
+        "has_us": true,
+        "has_jp": true,
+        "has_ep": true,
+        "has_cn": true
+      },
+      {
+        "application_number": "1020190061852",
+        "title": "글루카곤, GLP-1 및 GIP 수용체 모두에 활성을 갖는 삼중 활성체",
+        "family_record_count": 121,
+        "overseas_family_record_count": 36,
+        "jurisdictions": [
+          "CN",
+          "EP",
+          "JP",
+          "KR",
+          "UNKNOWN",
+          "US",
+          "WO"
+        ],
+        "has_pct_or_wo": true,
+        "has_us": true,
+        "has_jp": true,
+        "has_ep": true,
+        "has_cn": true
+      },
+      {
+        "application_number": "1020190106691",
+        "title": "글루카곤, GLP-1 및 GIP 수용체 모두에 활성을 갖는 삼중 활성체의 지속형 결합체",
+        "family_record_count": 121,
+        "overseas_family_record_count": 36,
+        "jurisdictions": [
+          "CN",
+          "EP",
+          "JP",
+          "KR",
+          "UNKNOWN",
+          "US",
+          "WO"
+        ],
+        "has_pct_or_wo": true,
+        "has_us": true,
+        "has_jp": true,
+        "has_ep": true,
+        "has_cn": true
+      },
+      {
+        "application_number": "1020190106690",
+        "title": "글루카곤, GLP-1 및 GIP 수용체 모두에 활성을 갖는 삼중 활성체",
+        "family_record_count": 121,
+        "overseas_family_record_count": 36,
+        "jurisdictions": [
+          "CN",
+          "EP",
+          "JP",
+          "KR",
+          "UNKNOWN",
+          "US",
+          "WO"
+        ],
+        "has_pct_or_wo": true,
+        "has_us": true,
+        "has_jp": true,
+        "has_ep": true,
+        "has_cn": true
+      },
+      {
+        "application_number": "1020200093189",
+        "title": "글루카곤, GLP-1 및 GIP 수용체 모두에 활성을 갖는 삼중 활성체",
+        "family_record_count": 121,
+        "overseas_family_record_count": 36,
+        "jurisdictions": [
+          "CN",
+          "EP",
+          "JP",
+          "KR",
+          "UNKNOWN",
+          "US",
+          "WO"
+        ],
+        "has_pct_or_wo": true,
+        "has_us": true,
+        "has_jp": true,
+        "has_ep": true,
+        "has_cn": true
+      },
+      {
+        "application_number": "1020200093190",
+        "title": "글루카곤, GLP-1 및 GIP 수용체 모두에 활성을 갖는 삼중 활성체의 지속형 결합체",
+        "family_record_count": 121,
+        "overseas_family_record_count": 36,
+        "jurisdictions": [
+          "CN",
+          "EP",
+          "JP",
+          "KR",
+          "UNKNOWN",
+          "US",
+          "WO"
+        ],
+        "has_pct_or_wo": true,
+        "has_us": true,
+        "has_jp": true,
+        "has_ep": true,
+        "has_cn": true
+      },
+      {
+        "application_number": "1020090090540",
+        "title": "암로디핀 및 로자탄을 함유하는 고형 약제학적 조성물",
+        "family_record_count": 126,
+        "overseas_family_record_count": 31,
+        "jurisdictions": [
+          "CN",
+          "EP",
+          "JP",
+          "KR",
+          "UNKNOWN",
+          "US",
+          "WO"
+        ],
+        "has_pct_or_wo": true,
+        "has_us": true,
+        "has_jp": true,
+        "has_ep": true,
+        "has_cn": true
+      }
+    ],
+    "source_file": "data/반도체/한미반도체/tech/tech_ip_family_features.json"
+  },
+  "ip_family_feature_merge_status": "MERGED",
+  "ip_evidence_composite_features": {
+    "status": "OK",
+    "ip_evidence_composite_score": 48.12,
+    "ip_evidence_data_coverage_rate": 1.0,
+    "bridge_adjustment_points": 0.0,
+    "bridge_signal": "IP_EVIDENCE_NEUTRAL",
+    "missing_components": [],
+    "components": {
+      "legal_stability": {
+        "status": "OK",
+        "score_estimated": 56.38,
+        "weight": 0.25,
+        "weighted_contribution_points": 14.1,
+        "bridge_signal": "IP_LEGAL_STABILITY_NEUTRAL",
+        "bridge_adjustment_points": 0.0
+      },
+      "claim_defense": {
+        "status": "OK",
+        "score_estimated": 55.58,
+        "weight": 0.3,
+        "weighted_contribution_points": 16.67,
+        "bridge_signal": "IP_CLAIM_SCOPE_NEUTRAL",
+        "bridge_adjustment_points": 0.0
+      },
+      "citation_influence": {
+        "status": "OK",
+        "score_estimated": 33.26,
+        "weight": 0.25,
+        "weighted_contribution_points": 8.31,
+        "bridge_signal": "IP_CITATION_FALLBACK_ESTIMATED",
+        "bridge_adjustment_points": 0.0
+      },
+      "global_extension": {
+        "status": "OK",
+        "score_estimated": 45.17,
+        "weight": 0.2,
+        "weighted_contribution_points": 9.03,
+        "bridge_signal": "IP_GLOBAL_EXTENSION_NEUTRAL",
+        "bridge_adjustment_points": 0.0
+      }
+    },
+    "strengths": [],
+    "cautions": [
+      "IP 증거는 중립 수준으로, 특허 수량만으로 강한 가치평가 가산을 부여하기에는 제한이 있습니다."
+    ],
+    "usage_rule": "Use this composite IP evidence score as the integrated IP-quality layer in Tech-to-Value Bridge. It summarizes legal stability, claim scope defense, citation influence, and global family expansion. It is not direct revenue evidence and should be combined with finance, market, and commercialization signals.",
+    "source_file": "data/반도체/한미반도체/tech/tech_ip_evidence_composite.json"
+  },
+  "ip_evidence_composite_merge_status": "MERGED",
+  "primary_ml_choice": "Technology Differentiation Score + Tech-to-Value Evidence Confidence + IP Evidence Composite Score",
+  "primary_ml_reason": "prompts.py의 공통 루브릭에 맞춰 R&D는 effort, 특허/IP는 intermediate output, 고객 채택·양산·매출·마진·FCF는 commercial outcome으로 분리합니다. 차별화 점수는 peer 대비 기술/IP 포트폴리오의 구별성을, Evidence Confidence는 고객 채택·양산·매출·FCF 연결 근거의 직접성을, IP Evidence Composite는 등록·존속 안정성, 청구항 방어력, 인용 영향력, 해외 패밀리 확장성을 종합해 Chair 요약에 반영합니다.",
+  "businessization_gate": [
+    {
+      "dimension": "고객 채택",
+      "status": "직접 근거",
+      "score": 88.0,
+      "direct_evidence_count": 13,
+      "indirect_evidence_count": 45,
+      "limited_evidence_count": 0
+    },
+    {
+      "dimension": "양산",
+      "status": "직접 근거",
+      "score": 88.0,
+      "direct_evidence_count": 11,
+      "indirect_evidence_count": 67,
+      "limited_evidence_count": 0
+    },
+    {
+      "dimension": "매출 전환",
+      "status": "직접 근거",
+      "score": 88.0,
+      "direct_evidence_count": 16,
+      "indirect_evidence_count": 57,
+      "limited_evidence_count": 0
+    },
+    {
+      "dimension": "FCF/현금흐름",
+      "status": "직접 근거",
+      "score": 88.0,
+      "direct_evidence_count": 3,
+      "indirect_evidence_count": 2,
+      "limited_evidence_count": 0
+    }
+  ],
+  "chair_policy": [
+    "Chair 최종 보고서에는 Tech 상세 표 전체를 붙이지 않고 compact summary만 반영합니다.",
+    "상세 Excel-frame/ML 표는 Tech Agent 산출물과 부록 파일에서 확인합니다.",
+    "기술 우위가 확인되어도 고객 채택·양산·매출 전환·FCF 직접 근거가 약하면 보수적으로 반영합니다.",
+    "IP Evidence Composite Score는 직접 매출 근거가 아니라 특허 포트폴리오의 질적 보조 신호로만 사용합니다.",
+    "prompts.py 기준에 따라 R&D 투입, 특허/IP 산출, 고객·양산·매출 결과를 분리해 해석합니다.",
+    "CB/BW·유상증자·정부과제·기술이전은 성장투자와 희석/오버행 리스크를 분리한 watch point로만 사용합니다.",
+    "Value Evidence Bridge는 고객 채택·양산·매출 전환·IP 품질·마진/FCF 연결 근거를 분리해 Chair 다음 확인 포인트에 우선 반영합니다."
+  ],
+  "prompt_policy_alignment": {
+    "final_tech_score_policy": {
+      "description": "개인투자자용 최종 Tech 점수는 기술-사업화 연결 가능성, IP 품질, Excel/DART 정량 근거, 근거 신뢰도, 딥테크 성장투자 지속성을 하나로 합성한다.",
+      "weights": {
+        "tech_to_value_bridge": 0.4,
+        "ip_evidence_composite": 0.2,
+        "excel_quantified_evidence": 0.15,
+        "evidence_confidence": 0.15,
+        "commercialization_and_funding_signal": 0.1
+      },
+      "grade_thresholds": {
+        "INVESTOR_TECH_CONVICTION": 82,
+        "TECH_TO_VALUE_READY": 68,
+        "COMMERCIALIZATION_WATCH": 52,
+        "EVIDENCE_WEAK_OR_EARLY": 0
+      },
+      "score_caps": {
+        "no_product_or_process_link": 65,
+        "no_customer_or_commercialization_evidence": 72,
+        "ip_quality_missing_or_api_limited": 78,
+        "mostly_unverified_sources": 60,
+        "high_dilution_without_growth_use": 70
+      },
+      "interpretation": {
+        "INVESTOR_TECH_CONVICTION": "기술/IP/양산/고객/수익성 근거가 다층적으로 확인되어 개인투자자용 기술 확신도가 높음",
+        "TECH_TO_VALUE_READY": "기술의 가치전환 준비도는 높지만 일부 고객·매출·마진 근거는 추가 확인 필요",
+        "COMMERCIALIZATION_WATCH": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+        "EVIDENCE_WEAK_OR_EARLY": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요"
+      }
+    },
+    "tech_to_value_bridge_prompt": "Tech-to-Value Bridge는 기술이 실제 기업가치로 연결될 가능성을 평가한다.\n판단 순서는 다음과 같다.\n1. 기술/IP 근거가 실제 제품·공정·고객 채택과 연결되는가?\n2. 양산성과 확장성이 확인되는가?\n3. 고객 채택 또는 매출 전환 가능성을 설명할 수 있는가?\n4. 특허/IP가 방어력, 협상력, 라이선스 가능성, 공급망 지위로 작동할 수 있는가?\n5. R&D와 특허가 단순 투입/산출에 머무르지 않고 상업화 결과로 이어지는가?\n6. CAPEX, 운전자본, 원가율, ASP, 마진, FCFF 등 사업타당성/Valuation 변수와 연결되는가?\n7. CB/BW·유상증자·정부과제·기술이전 등 자금조달/성장투자 신호가 기술사업화와 연결되는가?\n8. 재무 성과와 아직 연결되지 않았다면 어떤 watch point를 추적해야 하는가?\n\n판정 라벨:\n- VALUE_CONVERSION_CONFIRMED: 기술/IP/양산/고객/매출 또는 마진 개선 근거가 다층적으로 확인됨\n- TECH_TO_VALUE_READY: 가치전환 준비도가 높지만 일부 재무성과 확인은 추가 필요\n- COMMERCIALIZATION_WATCH: 기술성은 있으나 고객 채택·양산·매출 전환을 계속 추적해야 함\n- TECH_FINANCE_GAP: 기술/R&D는 있으나 자금소요·희석·현금흐름 부담 대비 사업화 근거가 약함\n- TECH_EVIDENCE_WEAK: 핵심 근거가 부족하거나 특허/IP 품질·출처 신뢰도가 낮음",
+    "investor_output_policy": "개인투자자용 Tech 산출물 작성 원칙:\n- 최상단에는 하나의 최종 Tech 점수와 판정을 제시한다.\n- 보조 점수는 최종 점수의 구성요소로만 제시하고, 서로 다른 결론처럼 보이게 나열하지 않는다.\n- 모든 점수는 최소 1개 이상의 근거와 연결한다.\n- 근거는 Excel 기반 정량 근거, KIPRIS/IP 근거, DART/IR/공시 근거, Tech-to-Value Bridge 근거, Tech Agent 해석 근거로 구분한다.\n- 동일 문장, 동일 수치, 동일 출처에서 반복되는 근거는 1회만 사용한다.\n- 확인 제한이 발생하면 숨기지 말고, 어떤 수집/권한/파일/API가 부족한지 명시한다.\n- “좋다/나쁘다”보다 “무엇은 확인되었고, 무엇은 아직 가치전환 근거가 부족한지”를 분리한다.\n- 최종 결론은 매수/매도 직접 권유가 아니라 Chair Agent가 활용할 기술근거 기반 보조 판단으로 작성한다.",
+    "literature_application_policy": "논문·IB·사업타당성 자료 반영 원칙:\n- Financing Deep Tech / Deep Tech Revolution / Missing Middle 계열 자료의 핵심은 딥테크의 자금공백, 긴 개발주기, 높은 CAPEX, 정보비대칭이다.\n  따라서 기술이 “투자 가능한 기업가치”로 전환되려면 기술성뿐 아니라 양산·고객·자금조달·시장 수요가 함께 확인되어야 한다.\n- R&D와 특허 관련 연구의 핵심은 R&D는 effort, 특허는 intermediate result, 고객 채택·매출·마진은 commercial outcome이라는 구분이다.\n  따라서 R&D 비용이 높다는 이유만으로 높은 점수를 주지 않는다.\n- Market Value and Patent Citations, patent family/citation 계열 연구의 핵심은 특허 건수보다 인용, 패밀리, 권리 범위, 존속/등록 상태 등 특허 품질이 중요하다는 점이다.\n  따라서 KIPRIS/IP Evidence는 count보다 quality와 핵심 제품 연결성을 우선한다.\n- 기술 M&A spillover와 patent-text similarity 연구의 핵심은 기술 유사성/차별성이 시장가치 신호가 될 수 있다는 점이다.\n  따라서 peer similarity, cluster, reference universe 결과는 기술 포지션과 대체가능성 판단에 사용한다.\n- 사업타당성/Financial Modeling/IB 자료의 핵심은 기술 근거가 Sales, COGS, CAPEX, Working Capital, WACC, FCFF, IRR, Valuation narrative로 연결되어야 한다는 점이다.\n  따라서 수익성 기여 점수는 매출·마진·원가·CAPEX·FCF 연결 근거가 있을 때만 높인다.\n- Equity Issues and Offering Dilution, CB/BW/SEO 관련 자료의 핵심은 성장자금과 희석/오버행 리스크를 구분해야 한다는 점이다.\n  따라서 희석성 자금조달은 목적·규모·반복성·기술사업화 연결 근거를 함께 본다.\n- 정부 R&D funding 연구의 핵심은 정부지원 자체보다 기술혁신 역량을 매개로 경영성과 개선에 연결되는지 확인해야 한다는 점이다.\n  따라서 정부과제는 긍정 신호가 될 수 있으나, 제품화·매출화 근거 없이 과대평가하지 않는다.",
+    "data_quality_policy": "데이터 품질 판정 기준:\n- OK: 원천 파일/공식 출처가 있고 수치·기간·단위·회사명이 확인됨\n- FALLBACK_LOCAL_PROXY: API는 없지만 기업별 CSV/Excel/DART 등 로컬 원천으로 대체 산출됨\n- PARTIAL: 일부 항목은 확인되지만 claim/citation/family/customer/adoption 등 핵심 보강 필요\n- MISSING: 필수 원천 파일 또는 필수 수치가 없음\n- API_PERMISSION_LIMITED: KIPRIS Plus, 뉴스 API, 외부 API 권한/승인 문제로 미수집\n- UNVERIFIED: LLM 또는 2차 요약에는 있으나 원천 근거가 없음\n\n점수 산정 시 OK와 FALLBACK_LOCAL_PROXY는 구분해서 표시한다.\nFALLBACK_LOCAL_PROXY는 사용할 수 있으나, Plus API 기반 claim/citation/family가 없는 경우 IP 품질 점수 상한을 보수적으로 둔다.",
+    "capital_and_dilution_policy": "딥테크 자금조달·희석 리스크 해석 원칙:\n- CB/BW, 유상증자, 정부과제, 기술이전은 Tech Agent의 핵심 기술점수에 직접 과대 반영하지 않고 투자 지속성·사업화 가능성의 보조 신호로 사용한다.\n- CB/BW 발행잔액/시가총액, 전환가액/현재주가, 최근 1년 메자닌 발행, 최근 2년 유상증자 횟수, 증자규모/기존주식수, 3자배정/주주배정 여부는 희석·오버행 watch point로 분리한다.\n- 희석성 자금조달이라도 시설투자, R&D, 양산, 고객사 대응 CAPEX처럼 기술사업화 목적이 명확하면 GROWTH_FINANCING 후보로 본다.\n- 운영자금/채무상환 목적이 반복되고 기술사업화 근거가 약하면 DILUTION_WATCH, OVERHANG_RISK, CASH_BURN_RISK 후보로 본다.\n- 이 항목은 Chair/Finance/Valuation Agent와 연결될 보조 레이어이며, Tech 점수에서는 투자 지속성과 Tech-to-Value Bridge 조정 근거로만 사용한다.",
+    "evidence_dedup_policy": "중복 제거 기준:\n- 같은 파일/같은 지표/같은 숫자가 반복되면 한 번만 사용한다.\n- 특허 건수, 청구항 수, 등록률, 존속률, 인용, 패밀리처럼 같은 의미의 수치가 여러 파일에 있으면 최신 공통 feature json 또는 IP Evidence Composite를 우선한다.\n- Excel 템플릿 항목은 실제 기업별 content, metric_value, source_text, evidence가 있는 행만 근거로 사용한다.\n- 뉴스/설명 문장보다 CSV·JSON·KIPRIS·Excel·DART에서 직접 나온 수치를 우선한다.\n- agent_output_unverified, self_generated, 추정 문장은 핵심 점수 근거로 쓰지 않는다.\n- 동일 특허가 원천 CSV와 normalized CSV에 중복 존재하면 원천 CSV 1건으로 본다.\n- 고객사/수주/양산/정부과제/기술이전은 같은 사건을 여러 기사에서 반복 언급해도 1건으로 본다."
+  },
+  "final_tech_score_policy": {
+    "description": "개인투자자용 최종 Tech 점수는 기술-사업화 연결 가능성, IP 품질, Excel/DART 정량 근거, 근거 신뢰도, 딥테크 성장투자 지속성을 하나로 합성한다.",
+    "weights": {
+      "tech_to_value_bridge": 0.4,
+      "ip_evidence_composite": 0.2,
+      "excel_quantified_evidence": 0.15,
+      "evidence_confidence": 0.15,
+      "commercialization_and_funding_signal": 0.1
+    },
+    "grade_thresholds": {
+      "INVESTOR_TECH_CONVICTION": 82,
+      "TECH_TO_VALUE_READY": 68,
+      "COMMERCIALIZATION_WATCH": 52,
+      "EVIDENCE_WEAK_OR_EARLY": 0
+    },
+    "score_caps": {
+      "no_product_or_process_link": 65,
+      "no_customer_or_commercialization_evidence": 72,
+      "ip_quality_missing_or_api_limited": 78,
+      "mostly_unverified_sources": 60,
+      "high_dilution_without_growth_use": 70
+    },
+    "interpretation": {
+      "INVESTOR_TECH_CONVICTION": "기술/IP/양산/고객/수익성 근거가 다층적으로 확인되어 개인투자자용 기술 확신도가 높음",
+      "TECH_TO_VALUE_READY": "기술의 가치전환 준비도는 높지만 일부 고객·매출·마진 근거는 추가 확인 필요",
+      "COMMERCIALIZATION_WATCH": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+      "EVIDENCE_WEAK_OR_EARLY": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요"
+    }
+  },
+  "detail_files": {
+    "report_md": "data/반도체/한미반도체/tech/hanmi_tech_high_quality_report.md",
+    "packet_json": "data/반도체/한미반도체/tech/hanmi_tech_agent_packet.json",
+    "chair_packet_json": "data/반도체/한미반도체/tech/tech.json",
+    "tech_to_value_json": "data/반도체/한미반도체/tech/hanmi_tech_to_value_inputs.json",
+    "formula_catalog_json": "data/반도체/한미반도체/tech/hanmi_tech_formula_rules.json",
+    "formula_catalog_md": "data/반도체/한미반도체/tech/hanmi_tech_formula_rules.md",
+    "evidence_harvest_json": "data/반도체/한미반도체/tech/hanmi_tech_evidence_harvest.json",
+    "evidence_harvest_md": "data/반도체/한미반도체/tech/hanmi_tech_evidence_harvest.md",
+    "patent_json": "data/반도체/한미반도체/tech/hanmi_tech_patent_evidence.json",
+    "patent_md": "data/반도체/한미반도체/tech/hanmi_tech_patent_evidence.md",
+    "patent_csv": "data/반도체/한미반도체/tech/hanmi_tech_patent_normalized.csv"
+  },
+  "ip_evidence_composite": {
+    "company_slug": "hanmi",
+    "company_name": "한미반도체",
+    "field": "반도체",
+    "status": "OK",
+    "created_at": "2026-05-26T03:23:20",
+    "weights": {
+      "legal_stability": 0.25,
+      "claim_defense": 0.3,
+      "citation_influence": 0.25,
+      "global_extension": 0.2
+    },
+    "components": {
+      "legal_stability": {
+        "component": "legal_stability",
+        "label_ko": "등록·존속 안정성",
+        "status": "OK",
+        "feature_status": "OK",
+        "source_file": "data\\반도체\\한미반도체\\tech\\tech_ip_legal_features.json",
+        "weight": 0.25,
+        "score_estimated": 56.38,
+        "weighted_contribution_points": 14.1,
+        "bridge_signal": "IP_LEGAL_STABILITY_NEUTRAL",
+        "bridge_adjustment_points": 0.0
+      },
+      "claim_defense": {
+        "component": "claim_defense",
+        "label_ko": "청구항 방어 범위",
+        "status": "OK",
+        "feature_status": "OK",
+        "source_file": "data\\반도체\\한미반도체\\tech\\tech_ip_claim_features.json",
+        "weight": 0.3,
+        "score_estimated": 55.58,
+        "weighted_contribution_points": 16.67,
+        "bridge_signal": "IP_CLAIM_SCOPE_NEUTRAL",
+        "bridge_adjustment_points": 0.0
+      },
+      "citation_influence": {
+        "component": "citation_influence",
+        "label_ko": "인용 기반 기술 영향력",
+        "status": "OK",
+        "feature_status": "FALLBACK_ESTIMATED",
+        "source_file": "data\\반도체\\한미반도체\\tech\\tech_ip_citation_features.json",
+        "weight": 0.25,
+        "score_estimated": 33.26,
+        "weighted_contribution_points": 8.31,
+        "bridge_signal": "IP_CITATION_FALLBACK_ESTIMATED",
+        "bridge_adjustment_points": 0.0
+      },
+      "global_extension": {
+        "component": "global_extension",
+        "label_ko": "해외 패밀리 기반 글로벌 확장성",
+        "status": "OK",
+        "feature_status": "OK",
+        "source_file": "data\\반도체\\한미반도체\\tech\\tech_ip_family_features.json",
+        "weight": 0.2,
+        "score_estimated": 45.17,
+        "weighted_contribution_points": 9.03,
+        "bridge_signal": "IP_GLOBAL_EXTENSION_NEUTRAL",
+        "bridge_adjustment_points": 0.0
+      }
+    },
+    "score_calculation": {
+      "weighted_sum_on_full_100_scale": 48.12,
+      "available_weight": 1.0,
+      "data_coverage_rate": 1.0,
+      "composite_score_estimated": 48.12,
+      "formula": "IP Evidence Composite Score = legal_stability*0.25 + claim_defense*0.30 + citation_influence*0.25 + global_extension*0.20. If a component score is missing, the score is normalized by available weight."
+    },
+    "tech_to_value_bridge": {
+      "bridge_adjustment_points": 0.0,
+      "bridge_signal": "IP_EVIDENCE_NEUTRAL",
+      "usage_rule": "Use this composite IP evidence score as the integrated IP-quality layer in Tech-to-Value Bridge. It summarizes legal stability, claim scope defense, citation influence, and global family expansion. It is not direct revenue evidence and should be combined with finance, market, and commercialization signals."
+    },
+    "bridge_adjustment_points": 0.0,
+    "bridge_signal": "IP_EVIDENCE_NEUTRAL",
+    "ip_evidence_composite_score": 48.12,
+    "ip_evidence_data_coverage_rate": 1.0,
+    "strengths": [],
+    "cautions": [
+      "IP 증거는 중립 수준으로, 특허 수량만으로 강한 가치평가 가산을 부여하기에는 제한이 있습니다."
+    ],
+    "missing_components": [],
+    "_source_file": "data/반도체/한미반도체/tech/tech_ip_evidence_composite.json"
+  },
+  "tech_to_value_bridge": {
+    "ip_evidence_composite_score": 48.12,
+    "ip_evidence_bridge_signal": "IP_EVIDENCE_NEUTRAL",
+    "ip_evidence_bridge_adjustment_points": 0.0,
+    "ip_evidence_data_coverage_rate": 1.0
+  },
+  "summary_files": {
+    "chair_summary_json": "data/반도체/한미반도체/tech/tech_chair_summary.json",
+    "chair_summary_md": "data/반도체/한미반도체/tech/hanmi_tech_chair_summary.md",
+    "tech_deep_dive_md": "data/반도체/한미반도체/tech/hanmi_tech_deep_dive.md",
+    "tech_investor_scorecard_json": "data/반도체/한미반도체/tech/tech_investor_scorecard.json",
+    "tech_investor_scorecard_md": "data/반도체/한미반도체/tech/hanmi_tech_investor_scorecard.md"
+  },
+  "ip_evidence_bridge_adjustment_status": "APPLIED",
+  "ip_evidence_bridge_adjustment_applied_at": "2026-05-26T03:26:28",
+  "tech_investor_view": {
+    "version": "tech-investor-scorecard-v2",
+    "generated_at": "2026-05-26T03:26:29",
+    "company_slug": "hanmi",
+    "company_name": "한미반도체",
+    "final_tech_investor_score": 74.46,
+    "final_tech_investor_grade": {
+      "code": "TECH_TO_VALUE_READY",
+      "label": "기술의 가치전환 준비도는 높지만 일부 고객·매출·마진 근거는 추가 확인 필요",
+      "threshold": 68.0
+    },
+    "score_policy": {
+      "description": "개인투자자용 최종 Tech 점수는 기술-사업화 연결 가능성, IP 품질, Excel/DART 정량 근거, 근거 신뢰도, 딥테크 성장투자 지속성을 하나로 합성한다.",
+      "weights": {
+        "tech_to_value_bridge": 0.4,
+        "ip_evidence_composite": 0.2,
+        "excel_quantified_evidence": 0.15,
+        "evidence_confidence": 0.15,
+        "commercialization_and_funding_signal": 0.1
+      },
+      "grade_thresholds": {
+        "INVESTOR_TECH_CONVICTION": 82,
+        "TECH_TO_VALUE_READY": 68,
+        "COMMERCIALIZATION_WATCH": 52,
+        "EVIDENCE_WEAK_OR_EARLY": 0
+      },
+      "score_caps": {
+        "no_product_or_process_link": 65,
+        "no_customer_or_commercialization_evidence": 72,
+        "ip_quality_missing_or_api_limited": 78,
+        "mostly_unverified_sources": 60,
+        "high_dilution_without_growth_use": 70
+      }
+    },
+    "prompt_policy_alignment": {
+      "final_score_policy": {
+        "description": "개인투자자용 최종 Tech 점수는 기술-사업화 연결 가능성, IP 품질, Excel/DART 정량 근거, 근거 신뢰도, 딥테크 성장투자 지속성을 하나로 합성한다.",
+        "weights": {
+          "tech_to_value_bridge": 0.4,
+          "ip_evidence_composite": 0.2,
+          "excel_quantified_evidence": 0.15,
+          "evidence_confidence": 0.15,
+          "commercialization_and_funding_signal": 0.1
+        },
+        "grade_thresholds": {
+          "INVESTOR_TECH_CONVICTION": 82,
+          "TECH_TO_VALUE_READY": 68,
+          "COMMERCIALIZATION_WATCH": 52,
+          "EVIDENCE_WEAK_OR_EARLY": 0
+        },
+        "score_caps": {
+          "no_product_or_process_link": 65,
+          "no_customer_or_commercialization_evidence": 72,
+          "ip_quality_missing_or_api_limited": 78,
+          "mostly_unverified_sources": 60,
+          "high_dilution_without_growth_use": 70
+        },
+        "interpretation": {
+          "INVESTOR_TECH_CONVICTION": "기술/IP/양산/고객/수익성 근거가 다층적으로 확인되어 개인투자자용 기술 확신도가 높음",
+          "TECH_TO_VALUE_READY": "기술의 가치전환 준비도는 높지만 일부 고객·매출·마진 근거는 추가 확인 필요",
+          "COMMERCIALIZATION_WATCH": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+          "EVIDENCE_WEAK_OR_EARLY": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요"
+        }
+      },
+      "criteria_map": {
+        "technical_differentiation": "기술 차별성",
+        "manufacturability": "양산성",
+        "customer_adoption": "고객 채택도",
+        "profit_contribution": "수익성 기여",
+        "scalability": "확장성",
+        "entry_barrier": "진입장벽",
+        "investment_continuity": "투자 지속성"
+      },
+      "tech_to_value_bridge_prompt": "Tech-to-Value Bridge는 기술이 실제 기업가치로 연결될 가능성을 평가한다.\n판단 순서는 다음과 같다.\n1. 기술/IP 근거가 실제 제품·공정·고객 채택과 연결되는가?\n2. 양산성과 확장성이 확인되는가?\n3. 고객 채택 또는 매출 전환 가능성을 설명할 수 있는가?\n4. 특허/IP가 방어력, 협상력, 라이선스 가능성, 공급망 지위로 작동할 수 있는가?\n5. R&D와 특허가 단순 투입/산출에 머무르지 않고 상업화 결과로 이어지는가?\n6. CAPEX, 운전자본, 원가율, ASP, 마진, FCFF 등 사업타당성/Valuation 변수와 연결되는가?\n7. CB/BW·유상증자·정부과제·기술이전 등 자금조달/성장투자 신호가 기술사업화와 연결되는가?\n8. 재무 성과와 아직 연결되지 않았다면 어떤 watch point를 추적해야 하는가?\n\n판정 라벨:\n- VALUE_CONVERSION_CONFIRMED: 기술/IP/양산/고객/매출 또는 마진 개선 근거가 다층적으로 확인됨\n- TECH_TO_VALUE_READY: 가치전환 준비도가 높지만 일부 재무성과 확인은 추가 필요\n- COMMERCIALIZATION_WATCH: 기술성은 있으나 고객 채택·양산·매출 전환을 계속 추적해야 함\n- TECH_FINANCE_GAP: 기술/R&D는 있으나 자금소요·희석·현금흐름 부담 대비 사업화 근거가 약함\n- TECH_EVIDENCE_WEAK: 핵심 근거가 부족하거나 특허/IP 품질·출처 신뢰도가 낮음",
+      "investor_output_policy": "개인투자자용 Tech 산출물 작성 원칙:\n- 최상단에는 하나의 최종 Tech 점수와 판정을 제시한다.\n- 보조 점수는 최종 점수의 구성요소로만 제시하고, 서로 다른 결론처럼 보이게 나열하지 않는다.\n- 모든 점수는 최소 1개 이상의 근거와 연결한다.\n- 근거는 Excel 기반 정량 근거, KIPRIS/IP 근거, DART/IR/공시 근거, Tech-to-Value Bridge 근거, Tech Agent 해석 근거로 구분한다.\n- 동일 문장, 동일 수치, 동일 출처에서 반복되는 근거는 1회만 사용한다.\n- 확인 제한이 발생하면 숨기지 말고, 어떤 수집/권한/파일/API가 부족한지 명시한다.\n- “좋다/나쁘다”보다 “무엇은 확인되었고, 무엇은 아직 가치전환 근거가 부족한지”를 분리한다.\n- 최종 결론은 매수/매도 직접 권유가 아니라 Chair Agent가 활용할 기술근거 기반 보조 판단으로 작성한다.",
+      "literature_application_policy": "논문·IB·사업타당성 자료 반영 원칙:\n- Financing Deep Tech / Deep Tech Revolution / Missing Middle 계열 자료의 핵심은 딥테크의 자금공백, 긴 개발주기, 높은 CAPEX, 정보비대칭이다.\n  따라서 기술이 “투자 가능한 기업가치”로 전환되려면 기술성뿐 아니라 양산·고객·자금조달·시장 수요가 함께 확인되어야 한다.\n- R&D와 특허 관련 연구의 핵심은 R&D는 effort, 특허는 intermediate result, 고객 채택·매출·마진은 commercial outcome이라는 구분이다.\n  따라서 R&D 비용이 높다는 이유만으로 높은 점수를 주지 않는다.\n- Market Value and Patent Citations, patent family/citation 계열 연구의 핵심은 특허 건수보다 인용, 패밀리, 권리 범위, 존속/등록 상태 등 특허 품질이 중요하다는 점이다.\n  따라서 KIPRIS/IP Evidence는 count보다 quality와 핵심 제품 연결성을 우선한다.\n- 기술 M&A spillover와 patent-text similarity 연구의 핵심은 기술 유사성/차별성이 시장가치 신호가 될 수 있다는 점이다.\n  따라서 peer similarity, cluster, reference universe 결과는 기술 포지션과 대체가능성 판단에 사용한다.\n- 사업타당성/Financial Modeling/IB 자료의 핵심은 기술 근거가 Sales, COGS, CAPEX, Working Capital, WACC, FCFF, IRR, Valuation narrative로 연결되어야 한다는 점이다.\n  따라서 수익성 기여 점수는 매출·마진·원가·CAPEX·FCF 연결 근거가 있을 때만 높인다.\n- Equity Issues and Offering Dilution, CB/BW/SEO 관련 자료의 핵심은 성장자금과 희석/오버행 리스크를 구분해야 한다는 점이다.\n  따라서 희석성 자금조달은 목적·규모·반복성·기술사업화 연결 근거를 함께 본다.\n- 정부 R&D funding 연구의 핵심은 정부지원 자체보다 기술혁신 역량을 매개로 경영성과 개선에 연결되는지 확인해야 한다는 점이다.\n  따라서 정부과제는 긍정 신호가 될 수 있으나, 제품화·매출화 근거 없이 과대평가하지 않는다.",
+      "data_quality_policy": "데이터 품질 판정 기준:\n- OK: 원천 파일/공식 출처가 있고 수치·기간·단위·회사명이 확인됨\n- FALLBACK_LOCAL_PROXY: API는 없지만 기업별 CSV/Excel/DART 등 로컬 원천으로 대체 산출됨\n- PARTIAL: 일부 항목은 확인되지만 claim/citation/family/customer/adoption 등 핵심 보강 필요\n- MISSING: 필수 원천 파일 또는 필수 수치가 없음\n- API_PERMISSION_LIMITED: KIPRIS Plus, 뉴스 API, 외부 API 권한/승인 문제로 미수집\n- UNVERIFIED: LLM 또는 2차 요약에는 있으나 원천 근거가 없음\n\n점수 산정 시 OK와 FALLBACK_LOCAL_PROXY는 구분해서 표시한다.\nFALLBACK_LOCAL_PROXY는 사용할 수 있으나, Plus API 기반 claim/citation/family가 없는 경우 IP 품질 점수 상한을 보수적으로 둔다.",
+      "capital_and_dilution_policy": "딥테크 자금조달·희석 리스크 해석 원칙:\n- CB/BW, 유상증자, 정부과제, 기술이전은 Tech Agent의 핵심 기술점수에 직접 과대 반영하지 않고 투자 지속성·사업화 가능성의 보조 신호로 사용한다.\n- CB/BW 발행잔액/시가총액, 전환가액/현재주가, 최근 1년 메자닌 발행, 최근 2년 유상증자 횟수, 증자규모/기존주식수, 3자배정/주주배정 여부는 희석·오버행 watch point로 분리한다.\n- 희석성 자금조달이라도 시설투자, R&D, 양산, 고객사 대응 CAPEX처럼 기술사업화 목적이 명확하면 GROWTH_FINANCING 후보로 본다.\n- 운영자금/채무상환 목적이 반복되고 기술사업화 근거가 약하면 DILUTION_WATCH, OVERHANG_RISK, CASH_BURN_RISK 후보로 본다.\n- 이 항목은 Chair/Finance/Valuation Agent와 연결될 보조 레이어이며, Tech 점수에서는 투자 지속성과 Tech-to-Value Bridge 조정 근거로만 사용한다.",
+      "evidence_dedup_policy": "중복 제거 기준:\n- 같은 파일/같은 지표/같은 숫자가 반복되면 한 번만 사용한다.\n- 특허 건수, 청구항 수, 등록률, 존속률, 인용, 패밀리처럼 같은 의미의 수치가 여러 파일에 있으면 최신 공통 feature json 또는 IP Evidence Composite를 우선한다.\n- Excel 템플릿 항목은 실제 기업별 content, metric_value, source_text, evidence가 있는 행만 근거로 사용한다.\n- 뉴스/설명 문장보다 CSV·JSON·KIPRIS·Excel·DART에서 직접 나온 수치를 우선한다.\n- agent_output_unverified, self_generated, 추정 문장은 핵심 점수 근거로 쓰지 않는다.\n- 동일 특허가 원천 CSV와 normalized CSV에 중복 존재하면 원천 CSV 1건으로 본다.\n- 고객사/수주/양산/정부과제/기술이전은 같은 사건을 여러 기사에서 반복 언급해도 1건으로 본다.",
+      "evidence_source_priority": [
+        "기업별 공시/DART 사업보고서 원문",
+        "KIPRIS 원천 CSV·정규화 JSON·IP Evidence Composite",
+        "기업별 Excel 정량 근거 및 quantified_metrics",
+        "IR 자료·공식 홈페이지·보도자료",
+        "정부과제/기술이전/인증/수상/고객 채택 공식 근거",
+        "peer similarity·cluster·reference universe 등 Tech ML 산출물",
+        "뉴스/RSS/외부 요약 자료",
+        "LLM 해석 또는 agent-generated 요약"
+      ]
+    },
+    "score_components": {
+      "tech_to_value_bridge": {
+        "label": "Tech-to-Value Bridge",
+        "score": 80.85,
+        "weight": 0.4,
+        "meaning": "기술이 고객 채택·양산·매출 전환으로 이어질 가능성",
+        "meta": {
+          "raw_value": 80.85,
+          "base_bridge_score": 79.0,
+          "peer_adjusted_bridge_score": 80.85,
+          "final_bridge_score_after_ip_evidence": 80.85,
+          "grade": "COMMERCIALIZATION_WATCH",
+          "signal": "IP_EVIDENCE_NEUTRAL"
+        }
+      },
+      "ip_evidence_composite": {
+        "label": "IP Evidence Composite",
+        "score": 48.12,
+        "weight": 0.2,
+        "meaning": "권리 안정성·청구항·인용·패밀리 기반 특허 품질",
+        "meta": {
+          "score": 48.12,
+          "bridge_signal": "IP_EVIDENCE_NEUTRAL",
+          "bridge_adjustment_points": 0.0,
+          "data_coverage": null,
+          "component_scores": {
+            "legal_stability": {
+              "component": "legal_stability",
+              "label_ko": "등록·존속 안정성",
+              "status": "OK",
+              "feature_status": "OK",
+              "source_file": "data\\반도체\\한미반도체\\tech\\tech_ip_legal_features.json",
+              "weight": 0.25,
+              "score_estimated": 56.38,
+              "weighted_contribution_points": 14.1,
+              "bridge_signal": "IP_LEGAL_STABILITY_NEUTRAL",
+              "bridge_adjustment_points": 0.0
+            },
+            "claim_defense": {
+              "component": "claim_defense",
+              "label_ko": "청구항 방어 범위",
+              "status": "OK",
+              "feature_status": "OK",
+              "source_file": "data\\반도체\\한미반도체\\tech\\tech_ip_claim_features.json",
+              "weight": 0.3,
+              "score_estimated": 55.58,
+              "weighted_contribution_points": 16.67,
+              "bridge_signal": "IP_CLAIM_SCOPE_NEUTRAL",
+              "bridge_adjustment_points": 0.0
+            },
+            "citation_influence": {
+              "component": "citation_influence",
+              "label_ko": "인용 기반 기술 영향력",
+              "status": "OK",
+              "feature_status": "FALLBACK_ESTIMATED",
+              "source_file": "data\\반도체\\한미반도체\\tech\\tech_ip_citation_features.json",
+              "weight": 0.25,
+              "score_estimated": 33.26,
+              "weighted_contribution_points": 8.31,
+              "bridge_signal": "IP_CITATION_FALLBACK_ESTIMATED",
+              "bridge_adjustment_points": 0.0
+            },
+            "global_extension": {
+              "component": "global_extension",
+              "label_ko": "해외 패밀리 기반 글로벌 확장성",
+              "status": "OK",
+              "feature_status": "OK",
+              "source_file": "data\\반도체\\한미반도체\\tech\\tech_ip_family_features.json",
+              "weight": 0.2,
+              "score_estimated": 45.17,
+              "weighted_contribution_points": 9.03,
+              "bridge_signal": "IP_GLOBAL_EXTENSION_NEUTRAL",
+              "bridge_adjustment_points": 0.0
+            }
+          }
+        }
+      },
+      "excel_quantified_evidence": {
+        "label": "Excel 기반 정량 근거",
+        "score": 85.0,
+        "weight": 0.15,
+        "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지",
+        "meta": {
+          "score": 85.0,
+          "company_item_count": 22,
+          "filled_count": 22,
+          "metric_row_count": 23,
+          "numeric_signal_count": 46,
+          "category_count": 0,
+          "unique_metric_count": 8,
+          "formula_rule_count": 34,
+          "coverage_ratio": 1.0,
+          "numeric_density": 2.0909
+        }
+      },
+      "evidence_confidence": {
+        "label": "근거 직접성·충분성",
+        "score": 82.0,
+        "weight": 0.15,
+        "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성",
+        "meta": {
+          "score": 82.0,
+          "evidence_count": 8,
+          "claim_count": 4,
+          "patent_count": 901,
+          "excel_coverage_ratio": 1.0
+        }
+      },
+      "commercialization_and_funding_signal": {
+        "label": "사업화·성장자금 지속성",
+        "score": 74.5,
+        "weight": 0.1,
+        "meaning": "R&D·특허·정부과제·기술이전·CAPEX/희석성 자금조달이 사업화와 연결되는 정도",
+        "meta": {
+          "score": 74.5,
+          "detected_signal_groups": [
+            "commercial",
+            "funding",
+            "rd"
+          ],
+          "detected_flags": {
+            "rd": true,
+            "commercial": true,
+            "government": false,
+            "transfer": false,
+            "funding": true
+          },
+          "recent_5y_patents": null,
+          "warnings": [],
+          "policy_reference": "CAPITAL_AND_DILUTION_POLICY + TECH_TO_VALUE_BRIDGE_PROMPT"
+        }
+      }
+    },
+    "score_component_rows": [
+      {
+        "component": "tech_to_value_bridge",
+        "label": "Tech-to-Value Bridge",
+        "score": 80.85,
+        "weight": 0.4,
+        "weighted_score": 32.34,
+        "meaning": "기술이 고객 채택·양산·매출 전환으로 이어질 가능성"
+      },
+      {
+        "component": "ip_evidence_composite",
+        "label": "IP Evidence Composite",
+        "score": 48.12,
+        "weight": 0.2,
+        "weighted_score": 9.624,
+        "meaning": "권리 안정성·청구항·인용·패밀리 기반 특허 품질"
+      },
+      {
+        "component": "excel_quantified_evidence",
+        "label": "Excel 기반 정량 근거",
+        "score": 85.0,
+        "weight": 0.15,
+        "weighted_score": 12.75,
+        "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지"
+      },
+      {
+        "component": "evidence_confidence",
+        "label": "근거 직접성·충분성",
+        "score": 82.0,
+        "weight": 0.15,
+        "weighted_score": 12.3,
+        "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성"
+      },
+      {
+        "component": "commercialization_and_funding_signal",
+        "label": "사업화·성장자금 지속성",
+        "score": 74.5,
+        "weight": 0.1,
+        "weighted_score": 7.45,
+        "meaning": "R&D·특허·정부과제·기술이전·CAPEX/희석성 자금조달이 사업화와 연결되는 정도"
+      }
+    ],
+    "key_takeaways": [
+      "한미반도체의 개인투자자용 Tech 최종 점수는 74.46/100이며, 판정은 기술의 가치전환 준비도는 높지만 일부 고객·매출·마진 근거는 추가 확인 필요입니다.",
+      "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(80.85)와 IP Evidence(48.12) 및 Excel 기반 정량 근거(85.0)를 함께 반영했습니다.",
+      "투자자가 확인할 핵심 근거는 6개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
+    ],
+    "investor_evidence": [
+      {
+        "source": "tech_to_value",
+        "title": "최종 Tech-to-Value Bridge",
+        "detail": "한미반도체의 최종 기술-사업화 연결 점수는 80.85이며, Chair에는 기술성보다 고객 채택·양산·매출 전환 가능성을 우선 반영합니다.",
+        "value": 80.85,
+        "unit": "점",
+        "path": null,
+        "strength": "상",
+        "evidence_id": "tech.inv.ev.001"
+      },
+      {
+        "source": "kipris_ip_evidence",
+        "title": "IP Evidence Composite",
+        "detail": "법적 안정성·청구항 방어력·인용 영향력·해외 패밀리 확장성을 합성한 IP Evidence Composite Score는 48.12입니다.",
+        "value": 48.12,
+        "unit": "점",
+        "path": null,
+        "strength": "상",
+        "evidence_id": "tech.inv.ev.002"
+      },
+      {
+        "source": "kipris_legal",
+        "title": "권리 안정성",
+        "detail": "등록률 0.5727, 존속률 0.6202, 권리 안정성 점수 56.38를 확인했습니다.",
+        "value": 56.38,
+        "unit": "점",
+        "path": null,
+        "strength": "중",
+        "evidence_id": "tech.inv.ev.003"
+      },
+      {
+        "source": "kipris_claim",
+        "title": "청구항 방어력",
+        "detail": "청구항 수 10915, 독립항 추정 1882, claim defense score 55.58입니다.",
+        "value": 55.58,
+        "unit": "점",
+        "path": null,
+        "strength": "중",
+        "evidence_id": "tech.inv.ev.004"
+      },
+      {
+        "source": "kipris_citation",
+        "title": "인용 영향력",
+        "detail": "전방/후방 인용 및 기술 영향력 점수 기준 IP_CITATION_FALLBACK_ESTIMATED입니다.",
+        "value": null,
+        "unit": "점",
+        "path": null,
+        "strength": "중",
+        "evidence_id": "tech.inv.ev.005"
+      },
+      {
+        "source": "kipris_family",
+        "title": "글로벌 패밀리 확장성",
+        "detail": "해외 패밀리 비중 0.3074, 감지 지역 ['CN', 'EP', 'JP', 'US', 'WO'], global extension score 45.17입니다.",
+        "value": 45.17,
+        "unit": "점",
+        "path": null,
+        "strength": "중",
+        "evidence_id": "tech.inv.ev.006"
+      }
+    ],
+    "limitations": [
+      "이 점수는 투자수익률 예측값이 아니라 기술-사업화 근거의 설명 가능성 점수입니다.",
+      "KIPRIS Plus 유료 endpoint 접근 권한 또는 호출 제한으로 일부 청구항·패밀리·인용 데이터가 부족하면 보수적으로 반영합니다.",
+      "Excel 템플릿 값은 복사 근거가 아니라 정량화 프레임이며, 실제 기업별 자료가 채워진 항목만 점수화합니다.",
+      "CB/BW·유상증자·정부과제·기술이전 신호는 성장자금과 희석/오버행 리스크를 분리해 보조 레이어로만 해석합니다.",
+      "R&D 비용은 effort, 특허/IP는 intermediate output, 고객 채택·양산·매출·마진은 commercial outcome으로 구분합니다."
+    ],
+    "source_paths": {
+      "summary_json": "data/반도체/한미반도체/tech/tech_chair_summary.json",
+      "agent_packet_json": "data/반도체/한미반도체/tech/hanmi_tech_agent_packet.json",
+      "bridge_json": "data/반도체/한미반도체/tech/tech_to_value_bridge_ip_evidence_adjusted.json",
+      "excel_frame_json": "data/반도체/한미반도체/tech/tech_excel_frame_full.json",
+      "quantified_metrics_csv": "data/반도체/한미반도체/tech/quantified_metrics.csv",
+      "ip_composite_json": "data/반도체/한미반도체/tech/tech_ip_evidence_composite.json",
+      "patent_json": "data/반도체/한미반도체/tech/hanmi_tech_patent_evidence.json",
+      "legal_feature_json": "data/반도체/한미반도체/tech/tech_ip_legal_features.json",
+      "claim_feature_json": "data/반도체/한미반도체/tech/tech_ip_claim_features.json",
+      "citation_feature_json": "data/반도체/한미반도체/tech/tech_ip_citation_features.json",
+      "family_feature_json": "data/반도체/한미반도체/tech/tech_ip_family_features.json"
+    }
+  },
+  "key_takeaways": [
+    "한미반도체의 개인투자자용 Tech 최종 점수는 74.46/100이며, 판정은 기술의 가치전환 준비도는 높지만 일부 고객·매출·마진 근거는 추가 확인 필요입니다.",
+    "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(80.85)와 IP Evidence(48.12) 및 Excel 기반 정량 근거(85.0)를 함께 반영했습니다.",
+    "투자자가 확인할 핵심 근거는 6개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
+  ],
+  "value_evidence_bridge": {
+    "agent": "tech_intake",
+    "artifact": "tech_intake_value_evidence_bridge",
+    "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
+    "created_at": "2026-05-26T03:26:50",
+    "field": "반도체",
+    "company": "한미반도체",
+    "company_dir": "hanmi",
+    "company_slug": "hanmi",
+    "source_document_count": 171,
+    "source_documents": [
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_kipris_bibliographic_normalized.csv",
+        "detected_url_count": 20,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_kipris_bibliographic_normalized_summary.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_kipris_bibliographic_normalized_summary.md",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_kipris_claims_normalized.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_kipris_family_normalized.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_kipris_patents_normalized.csv",
+        "detected_url_count": 20,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_kipris_plus_bibliographic_request_log.json",
+        "detected_url_count": 1,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_kipris_plus_bibliographic_summary.json",
+        "detected_url_count": 1,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_kipris_plus_bibliographic_summary.md",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_kipris_plus_claim_request_targets.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_kipris_plus_family_request_targets.csv",
+        "detected_url_count": 20,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_kipris_plus_request_targets.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_kipris_tech_ml_enriched.csv",
+        "detected_url_count": 20,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_kipris_tech_ml_features.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_kipris_tech_ml_features.md",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech.json",
+        "detected_url_count": 12,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_agent_packet.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "IR_HOMEPAGE",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_chair_summary.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "IR_HOMEPAGE",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_chair_summary.md",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_deep_dive.md",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_differentiation.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "IR_HOMEPAGE",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_evidence_harvest.json",
+        "detected_url_count": 20,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "IR_HOMEPAGE",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_evidence_harvest.md",
+        "detected_url_count": 5,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_excel_quantified_metrics.md",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_formula_rules.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_formula_rules.md",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_full_appendix.md",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_high_quality_report.md",
+        "detected_url_count": 4,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_intake_value_evidence.json",
+        "detected_url_count": 7,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_intake_value_evidence.md",
+        "detected_url_count": 20,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_investor_scorecard.md",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_ip_citation_features.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_ip_citation_features.md",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_ip_claim_features.json",
+        "detected_url_count": 5,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_ip_claim_features.md",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_ip_evidence_composite.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_ip_evidence_composite.md",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_ip_family_features.json",
+        "detected_url_count": 1,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_ip_family_features.md",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_ip_legal_features.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_ip_legal_features.md",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_ip_ml.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_ml_signal.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_ml_signal.md",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_momentum_confidence.json",
+        "detected_url_count": 7,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_patent_evidence.json",
+        "detected_url_count": 20,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_patent_evidence.md",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_patent_normalized.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_patent_semantic_features.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_patent_semantic_features.md",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_peer_map.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_peer_percentile_bridge.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_to_value_bridge_ip_evidence_adjusted.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/hanmi_tech_to_value_inputs.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/quanified_metrix.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/quantified_metrics.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_certification_evidence.csv",
+        "detected_url_count": 4,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_certification_features.json",
+        "detected_url_count": 4,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_certification_features.md",
+        "detected_url_count": 2,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "IR_HOMEPAGE",
+        "source_file": "data/반도체/한미반도체/tech/tech_chair_summary.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "IR_HOMEPAGE",
+        "source_file": "data/반도체/한미반도체/tech/tech_chair_summary.md",
+        "detected_url_count": 20,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_differentiation.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_excel_frame_full.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_excel_frame_items.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_excel_frame_metrics.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_excel_frame_summary.md",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_excel_quantified_metrics.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_excel_quantified_metrics.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_extra_intake_packet.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_full_appendix.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_full_appendix.md",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_history_features_2025-08-31.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_history_features_2025-08-31.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_history_features_2025-09-30.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_history_features_2025-09-30.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_intake_manifest.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_intake_manifest.md",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_intake_value_evidence.json",
+        "detected_url_count": 7,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_intake_value_evidence.md",
+        "detected_url_count": 20,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_investor_scorecard.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/tech_ip_citation_features.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/tech_ip_claim_features.json",
+        "detected_url_count": 5,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/tech_ip_evidence_composite.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/tech_ip_family_features.json",
+        "detected_url_count": 1,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/tech_ip_legal_features.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_ip_ml.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_lifecycle_annual_trends.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_lifecycle_features.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_lifecycle_features.md",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_lifecycle_keyword_trends.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_ml_signal.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_momentum_confidence.json",
+        "detected_url_count": 7,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/tech_patent_semantic_features.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/tech_patent_semantic_features.md",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/tech_patent_similarity_top_pairs.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_peer_cluster.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_peer_map.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_peer_percentile_bridge.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_peer_similarity.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_template_inventory.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/tech_template_inventory.md",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/tech_to_value_bridge_ip_evidence_adjusted.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "DART",
+        "source_file": "data/반도체/한미반도체/tech/source/dart_latest_business_report.txt",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/source/hanmi_claims_probe_samples_v2.json",
+        "detected_url_count": 20,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/source/hanmi_kipris_plus_bibliographic_raw.csv",
+        "detected_url_count": 20,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/source/hanmi_kipris_plus_bibliographic_raw.jsonl",
+        "detected_url_count": 20,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/source/hanmi_kipris_plus_citations_raw.jsonl",
+        "detected_url_count": 20,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/source/hanmi_kipris_plus_claims_raw.jsonl",
+        "detected_url_count": 20,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/source/hanmi_kipris_plus_family_raw.jsonl",
+        "detected_url_count": 20,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "IR_HOMEPAGE",
+        "source_file": "data/반도체/한미반도체/tech/source/hanmi_tech_excel_frame_evidence.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "IR_HOMEPAGE",
+        "source_file": "data/반도체/한미반도체/tech/source/hanmi_tech_excel_frame_evidence.md",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/source/kipris_hanmi_patents.csv",
+        "detected_url_count": 20,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "IR_HOMEPAGE",
+        "source_file": "data/반도체/한미반도체/tech/_nepes_reference_schema/nepes_tech_chair_summary.md",
+        "detected_url_count": 20,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/_nepes_reference_schema/nepes_tech_full_appendix.md",
+        "detected_url_count": 2,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "IR_HOMEPAGE",
+        "source_file": "data/반도체/한미반도체/tech/_nepes_reference_schema/tech_chair_summary.md",
+        "detected_url_count": 20,
+        "fallback_url_count": 0
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/_nepes_reference_schema/tech_full_appendix.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/_nepes_reference_schema/tech_ip_evidence_composite.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/_nepes_reference_schema/tech_template_inventory.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/_nepes_reference_schema/tech_template_inventory.md",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "KIPRIS",
+        "source_file": "data/반도체/한미반도체/tech/_nepes_reference_schema/tech_to_value_bridge_ip_evidence_adjusted.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 4
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/_template_refs/tech_template.xlsx",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한미반도체/tech/_template_refs/tech_template_base.xlsx",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/hanmi_dashboard_payload.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/hanmi_source_map.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/hanmi_valuation_metrics.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/hanmi_valuation_report.md",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/hanmi_valuation_validation.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/hanmi_valuation_workbook.xlsx",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/intake/company_profile.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/intake/cross_agent_signals_for_valuation.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/intake/dcf_inputs.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/intake/dilution_events.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/intake/eval_price_history.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/intake/eval_price_history_monthly.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/intake/eval_price_history_monthly_v43.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/intake/eval_price_history_monthly_v44.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/intake/eval_price_history_monthly_v45.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/intake/eval_price_history_v43.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/intake/eval_price_history_v44.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/intake/eval_price_history_v45.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/intake/financials_normalized.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/intake/financials_raw.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/intake/peer_multiples.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/intake/price_history.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/intake/relative_valuation_inputs.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/intake/shares_outstanding.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/intake/valuation_assumptions.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/intake/valuation_assumptions.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/intake/valuation_intake_manifest.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/intake/valuation_market_snapshot.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/intake/valuation_market_snapshot.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/intake/valuation_modeling_template_catalog.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/intake/valuation_modeling_template_catalog.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/intake/valuation_normalized_financials.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/intake/valuation_peer_input.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/intake/valuation_price_history.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/intake/valuation_price_summary.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/intake/valuation_raw_dart_accounts.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "VALUATION",
+        "source_file": "data/반도체/한미반도체/valuation/intake/valuation_reference_universe_208.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      }
+    ],
+    "source_url_map": {
+      "KIPRIS": {
+        "detected_urls": [
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93d0a6a92317127eda477cb73a30800be48c1cbdca13a6c3844adaf412eab4dca7fe9cb239fa568c206d00eea4bf63ef89bb90acd71d1a15db",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9385f595290fd0a5ae9795b1d907314b6261124e330c35d8bca45306e02d6a92b45b3699bf90a05d6c2e6f261b216da4e7ef930fc6bc659b7d",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0044a5c669ddd812feaf8c57a51f2b5513e7f704bd22f17e697708bf9ce61926a26a270cfa4df94dcf1e2f04632bffe52d86608da4f87d59bf",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0087ec9c7dcef9df01b2b47920830d0b16d77a7df23de1c261390f0b98dc36b7ec74ca3cae646f54ed88dd2fdf1c5f3c5f478641c143488190",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93248f2995ab0a14eab6c2fc1392960175391aee28d3ccec8a3aefbc806e530efc582a403ae9e9e4e250ef3c039bc5abc77c3cbe87d5aaf32b",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00e8d49067bfb0ab9645b3d0b5494e334e3e38e20ee7f7660d6d165920e7d919d11a549a6c9fd85efc9e31803926c7df5c18d9100513a369da",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0056413a27dac7424f4cf782d9dba8c6e3317b084ec6799c885f3fd4e5bf3d82662e362bd5908ede824c8abb4bda7693eb5e9731d9192ec018",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00de80b1c8c3fe45bea193dc8bd5077ad3484c78867d50ab23a51bcba31f8c7ef9d4affc05a67c8939340c797ea79a681d5d3fd36b44da9d01",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93ea5faaf49118c1e49418eae930a93dd7ef348383fc861a4dab8f2871402cb3ec0921b8680b320307790a5a4a0b7e4b9d7f315d511b939d6b",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c931e29801e589c7b644af28b7ef4d33177b0901e5b21bb081bfc405de801663f5d60575963c5a37f266e38c9a33d8477ddd9cd68e438f23a8c",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c592fb536ea920a4d67c5d1f7003f79d07fe12e282bf5cc92512290a010863538",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9358cd995b5cefeafab07fe427dc10993d2a74a14e3704711d36f3acf0f0ca7242261100c4545ff3f624546c0a1516411e42ee4656d5aeb9f8",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c935157be90321e10e539faac0d04eb50c1d058a9db6779d43e41780e3424851fd129d7246b6dee3d8d6136860f233b3041d160bcd5034e052d",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00c42cc586cf1ac89c56513d33740ca8d7812cc3915f536bec3c534a23d49b8f6aa8a24ce45fdd77f84ecc8f7570cb0303bad2cd2bce30415f",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00436613a0f8cfc2254a90f182e5de31c37c0a1fea233ba035a8c8d501b1aa4ba489a02491d56810e81e72649a2532b7204b7b7a570ac4045e",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7262d305b5cdf08bb98a7026670b4e4ef7c0a877409aa07ea261e5226360593e25a24493112bc841de07f4c1ed5b49742909148f59c65caa23f",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c935af38e2ee4e8537be03035294e14875cb142fb588a31cadd46487a51a9a6530b32e5fef72cce18cf44e319a8f163ac9bf3b2b984f05e2d53",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e007dcee8259cd045f784f8699a7c92ecf93d34bdc5820a7c030cc945af0a17c6724f7f0510e922b89dfa69ab25f22d3384b28e82280704d028",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e006354c8333d50931c1146d713738089ada4c17772c1a84ddfb7089bdb7945d188b3856ee080eb5de9b4d5a49c41e1a25de4f6c8a2bbe393c4",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e007dcee8259cd045f79dc53c3afe25a8ce4182904efe4443535ef10134af544ea7c9c4318fa9552b752e40e2e49aac4bb4856ee11410ede645",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/applicantNameSearchInfo",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=102020030033208&registerNumber=2003386060000&registrationNumber=2003386060000&format=xml",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=102020080004461&openNumber=2020090010248&publicationNumber=2020090010248&registerNumber=2004681560000&registrationNumber=2004681560000&format=xml",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=102019930013204&openNumber=2019950004829&publicationNumber=2019950004829&registerNumber=2001000310000&registrationNumber=2001000310000&format=xml",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=102019830010130&openNumber=2019850004488&publicationNumber=2019850004488&registerNumber=2000300850000&registrationNumber=2000300850000&format=xml",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=102019930004881&openNumber=2019940023578&publicationNumber=2019940023578&registerNumber=2000998270000&registrationNumber=2000998270000&format=xml",
+          "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93c84b81bbf751471c94f4ca4b596116118b9582bf16b614a0bd2488f34e7e38c6d27945b8057ffa28b28d54c3b1cce1d07321ced3db3621eb",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93996788729f3e796495476bd1c705c630ae8f8e7f6b85dd6a22ddadef53551981d751aad36a0adbaec98fb4fb8f20a9e268e7f2eebeb1a2b9",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9301e5fd02ecca54290ce0d481d24901bc0653cd045bc5dacb15195af8b3d1fc160d2622c93f6deeb3f89888fbc0b1b6ccea3d484f8ded6bfb",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c937e31a9d38214751633b33557192a0b4c7d147ae37f8fd45be87d2e778b02846718a3f62e51532aa772c2afa38124d60c23250ea17a3a0163",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9391f206647cd99524448bfd92bf7a9fae6c43981008d8aee6a5bc908edf40b94556bfaab00105b8850b9b697c9361ad9bd4aa5cbdf3180e04",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93fd112e207293483ef37cd627fe8ab80b09f89db511e51fab6080894f739a87f53eab1cf036f012e01a7431679305df74fa453691de7899af",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00dc511e6384dbc06cca550145cc75b047ab1d6539cb81c20d10cf8ed7d922c4a84c180dcc4f04bfc2e1f5572a26ff5bf803e296abaff4ee9f",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93acdad6df2934a1043355125ad261410ae61a0f7506b47e4947ab173710998ee83ae49a3dbafd1e44d87b848fecfee03cef928aa87bde66a6",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93c38f4be1cc539447d7855b0fc318c74cc3516db9ebf235bf3da49b150758c6b44a4c6fd09f8f14bd971df6bbe61b211ed382c377e9c90e4c",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93f16c9b1f1d4d1921b30e836800f4ccc36c9c7b017d2ef9e1db353ad6ab7ecd26dfee37e1df017bb837064db99cec2692e7bbf6caa52fc57e",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93635c7d0dbb1c9eb5ccd5f381ab5ac3253eab2b37229fd0fe063afe7f6b4e88033363aa1cbf4b858b0e331e04c9e462ebdb1dd93046c932c4",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=348aaf18c46825cf02d6c2de1c78338ebd6b9e5188b12e6e68a3e8b24ae5115f176c1f0dd21a1c6e49903ef2fba8c9503ab5d73904d814cedf22eb92e41e39d6d77a094b897b795c",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93996788729f3e796495476bd1c705c6302d2a04bddd9fc40d2b8c2d2c145a1a6756f4f2e0865e33f38382e412355e976bbe24b3b22941342c",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9394bba7dc0958ae50e2b9e60eb99a8ab349ce001355e97561fafc90245aded13e77f9ab47d268735b1d58469c5442d72bb9eb73bfe623bcc1",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93f7bba51e6247e3491bad8371afe14ff147143780e6979e9ae1b76361ec1dd207dba22a18b4b6c80feed8f6933ba91f8beca6951a1d04e58d",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e005d586828b2bbcb651aba922a8192273c91b97a4ae6a02f17bd676a6b80bd3e08883dc8c024a5195de5fc59e3c33f6594047e8eebb2c69158",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93e9db62b534c4c46b1443f7384053cda98f209c529db3f96c2c984fb49a8303c159649c98fa38c5b1bff67c2114467b2431804ee585b064ac",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9347ca84ac396ea5424dffedef2024abbb0fa03af3b086ea863206fe4a0799da27172da11c6162efbb03d2f784fd371de24d6f384d1521bd7a",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNo=1020210016225",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&application_number=1020210016225",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&appNum=1020210016225",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&appNo=1020210016225",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&appno=1020210016225",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNo=1020210016225",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&application_number=1020210016225",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&appNum=1020210016225",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&appNo=1020210016225",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&appno=1020210016225",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?serviceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?serviceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNo=1020210016225",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?serviceKey=%2A%2A%2AKEY%2A%2A%2A&application_number=1020210016225",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?serviceKey=%2A%2A%2AKEY%2A%2A%2A&appNum=1020210016225",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?serviceKey=%2A%2A%2AKEY%2A%2A%2A&appNo=1020210016225",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?serviceKey=%2A%2A%2AKEY%2A%2A%2A&appno=1020210016225",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?AccessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?AccessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNo=1020210016225",
+          "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200005785&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+          "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200025979&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+          "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200122699&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+          "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200129683&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+          "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200160708&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+          "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200162388&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+          "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200165820&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+          "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200174522&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+          "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200175188&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+          "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020200177668&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+          "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210016225&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+          "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210034267&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+          "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210037705&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+          "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210039902&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+          "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210049001&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+          "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210058998&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+          "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210077463&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+          "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210077465&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+          "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210091847&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+          "http://plus.kipris.or.kr/openapi/rest/CitationService/citationInfoV3?applicationNumber=1020210130128&accessKey=7fhIrZ0g7smPbDV8BaGlM7b%2FFcjZVpk1bl2RcX9HDNo%3D",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020170180723&openNumber=1020190078928&publicationNumber=1020190078928&registerNumber=1024304310000&registrationNumber=1024304310000&format=xml",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020230162777&openNumber=1020250075375&publicationNumber=1020250075375&format=xml",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020150046069&registerNumber=1016273360000&registrationNumber=1016273360000&format=xml",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020130127230&openNumber=1020150047305&publicationNumber=1020150047305&registerNumber=1015194700000&registrationNumber=1015194700000&format=xml",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020180035634&openNumber=1020190113231&publicationNumber=1020190113231&registerNumber=1025318170000&registrationNumber=1025318170000&format=xml",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020070083036&openNumber=1020090018539&publicationNumber=1020090018539&registerNumber=1014046640000&registrationNumber=1014046640000&format=xml",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020090002285&openNumber=1020100082963&publicationNumber=1020100082963&registerNumber=1015194770000&registrationNumber=1015194770000&format=xml",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020120120573&openNumber=1020140054728&publicationNumber=1020140054728&registerNumber=1014045160000&registrationNumber=1014045160000&format=xml",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210164855&openNumber=1020230077511&publicationNumber=1020230077511&format=xml",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020200175188&openNumber=1020220085263&publicationNumber=1020220085263&registerNumber=1029488140000&registrationNumber=1029488140000&format=xml",
+          "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020170180723",
+          "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020230162777",
+          "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020150046069",
+          "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020130127230",
+          "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020180035634",
+          "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020070083036",
+          "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020090002285",
+          "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020120120573",
+          "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210164855",
+          "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020200175188",
+          "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020050092232",
+          "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020230122181",
+          "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210036860",
+          "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020120118437",
+          "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020160141800",
+          "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020110040629",
+          "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210077464",
+          "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020110110200",
+          "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020140105728",
+          "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020080012139",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf4f2d7afbab785c25656125ccaa361acfa4d2e540abe2d15155af72b50ba8b7301536ba4cd337d261af23ff908f7e72b63b76ba39c80ec2e7",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfa5405d901dccb30c08f72430b7d6e9f5712f13280e811c12cba48410e47de3af31f4389b6c8683f519b562748620381d3da2304e6fc061a4",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe407489d23bbfec243e29f5ba927face119797b80b90a34c0e170ff80850dcfc67",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf211854d0905fd459c145b84e239957d443774442e53dd6f1c00b7524ea85fef3b05fa2bd3131a5c35c359fdde1f7a66642cdc5e92d6d3337",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe484b73ac8e410bb220f9a0264a2188df9badafee43bdbb5061f96af9d94e91c2a",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cf44e6e9608087f400e6c9bb98b3d0625a79d39fc443832e3d97827cfd2e5b9b4",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfd164b7e3575af36c1960818938e255293f8b3fba71f38f316c38939ac71417d07dbf5ace19183fb44db5059b0f23418b4cc3fe19ef182052",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00aa69e499c55a436f4273043a06d7cd8fe989c8fad5e36ac2378144a6957d76286a23cf882bb3821067f82897df09e95db4138a04e6dc31cd",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfe1bfdc5bf9d97ec62ffdfbe3ae350c26989bcfbf0a79fc558883a0478e1c65c966800814458848623ff401612045330d0a574accc88f3101",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfc5d8f449cc11e284804f2c08417b85f9e1193087932bba8e6ff0cf0a45a8e71e9d74dc90f84fed2eed4ee9aeeef46ee44166dd11b6ba08cb",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7268610fba0f24be4431483634b64e3ea995a306452a49fc60cdf605bb63dfea5c2618f7e4efa8c8e07584d58e0c1374200e0b2cc3b8b3b1cf5",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe407489d23bbfec243cb60093168d90a7bacf8c9b47276c3a9ade71f8d04ab7baf",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c592fb536ea920a4d9d81c55aab0a6baa87855ed7fa2bc6d9443573326c2b4a96",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe454c99e47ce599fba0264bf3c280939c92393c10e2be78bf5bfc03503db00e714",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cf9a9b73d3166158348e95305e89d06675abed270ec56e9569f536c0662b23002"
+        ],
+        "fallback_urls": [
+          "https://www.kipris.or.kr/khome/main.jsp",
+          "https://plus.kipris.or.kr/",
+          "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+KIPRIS+%ED%8A%B9%ED%97%88",
+          "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC"
+        ]
+      },
+      "TECH_OUTPUT": {
+        "detected_urls": [
+          "https://www.hanmisemi.com",
+          "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=2&sNo=6",
+          "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=10",
+          "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=3",
+          "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=4",
+          "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=5",
+          "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=6",
+          "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=7",
+          "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=2&sNo=5",
+          "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=2&sNo=2",
+          "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=2&sNo=3",
+          "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=2",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNo=1020210016225",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?serviceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93d0a6a92317127eda477cb73a30800be48c1cbdca13a6c3844adaf412eab4dca7fe9cb239fa568c206d00eea4bf63ef89bb90acd71d1a15db",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9385f595290fd0a5ae9795b1d907314b6261124e330c35d8bca45306e02d6a92b45b3699bf90a05d6c2e6f261b216da4e7ef930fc6bc659b7d",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0044a5c669ddd812feaf8c57a51f2b5513e7f704bd22f17e697708bf9ce61926a26a270cfa4df94dcf1e2f04632bffe52d86608da4f87d59bf",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0087ec9c7dcef9df01b2b47920830d0b16d77a7df23de1c261390f0b98dc36b7ec74ca3cae646f54ed88dd2fdf1c5f3c5f478641c143488190",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93248f2995ab0a14eab6c2fc1392960175391aee28d3ccec8a3aefbc806e530efc582a403ae9e9e4e250ef3c039bc5abc77c3cbe87d5aaf32b",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00e8d49067bfb0ab9645b3d0b5494e334e3e38e20ee7f7660d6d165920e7d919d11a549a6c9fd85efc9e31803926c7df5c18d9100513a369da",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0056413a27dac7424f4cf782d9dba8c6e3317b084ec",
+          "https://dart.fss.or.kr/",
+          "https://dart.fss.or.kr/dsab007/main.do?option=corp",
+          "http://www.w3.org/2001/XMLSchema-instance",
+          "http://www.nepes.co.kr",
+          "https://www.kipris.or.kr/khome/main.jsp",
+          "https://plus.kipris.or.kr/",
+          "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+KIPRIS+%ED%8A%B9%ED%97%88",
+          "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
+          "https://iradio.tistory.com/entry/%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%A3%BC%EC%8B%9D-%EB%B6%84%EC%84%9D-HBM-TC-%EB%B3%B8%EB%8D%94-%EA%B2%BD%EC%9F%81%EB%A0%A5%EA%B3%BC-%EC%B0%A8%EC%84%B8%EB%8C%80-%EB%B3%B8%EB%8D%94-%EB%A1%9C%EB%93%9C%EB%A7%B5%EC%97%90%EC%84%9C-%EB%AC%B4%EC%97%87%EC%9D%84-%EB%B4%90%EC%95%BC-%ED%95%A0%EA%B9%8C",
+          "https://m.thinkpool.com/stockDiscuss/042700/cont/11824524",
+          "https://muddybarbell.tistory.com/entry/%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%82%AC%EB%8F%84-%EB%90%A0%EA%B9%8C",
+          "https://weeklyinvestmentupdate.tistory.com/37",
+          "https://orangeboard.co.kr/@365wealthbuilder/%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%A3%BC%EA%B0%80-%EB%B6%84%EC%84%9D-%EB%B0%8F-%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C-IR-%EB%B6%84%EC%84%9D",
+          "https://f",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dc",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe407489d23bbfec2437e1712f4d2efc17534b8fe896680c1260ef7a080023affda",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c592fb536ea920a4d52c365f2181c5fa3c22314d27af5ba35703d4af764d5be0b",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba71",
+          "http://plus.ki",
+          "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
+          "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1126"
+        ],
+        "fallback_urls": [
+          "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
+          "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98"
+        ]
+      },
+      "IR_HOMEPAGE": {
+        "detected_urls": [
+          "https://www.hanmisemi.com",
+          "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=2&sNo=6",
+          "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=10",
+          "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=3",
+          "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=4",
+          "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=5",
+          "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=6",
+          "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=7",
+          "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=2&sNo=5",
+          "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=2&sNo=2",
+          "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=2&sNo=3",
+          "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=2",
+          "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=2&sNo=4",
+          "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=10&sNo=1",
+          "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=10&sNo=3",
+          "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=10&sNo=2",
+          "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=3&sNo=2",
+          "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=3&sNo=4",
+          "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=3&sNo=3",
+          "https://www.hanmisemi.com?module=Html&action=SiteProduct&sSubNo=3&sNo=5",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?ServiceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNo=1020210016225",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?serviceKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?AccessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210016225",
+          "https://dart.fss.or.kr/",
+          "https://dart.fss.or.kr/dsab007/main.do?option=corp",
+          "http://www.w3.org/2001/XMLSchema-instance",
+          "http://www.nepes.co.kr",
+          "https://www.kipris.or.kr/khome/main.jsp",
+          "https://plus.kipris.or.kr/",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93d0a6a92317127eda477cb73a30800be48c1cbdca13a6c3844adaf412eab4dca7fe9cb239fa568c206d00eea4bf63ef89bb90acd71d1a15db",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9385f595290fd0a5ae9795b1d907314b6261124e330c35d8bca45306e02d6a92b45b3699bf90a05d6c2e6f261b216da4e7ef930fc6bc659b7d",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0044a5c669ddd812feaf8c57a51f2b5513e7f704bd22f17e697708bf9ce61926a26a270cfa4df94dcf1e2f04632bffe52d86608da4f87d59bf",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0087ec9c7dcef9df01b2b47920830d0b16d77a7df23de1c261390f0b98dc36b7ec74ca3cae646f54ed88dd2fdf1c5f3c5f478641c143488190",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93248f2995ab0a14eab6c2fc1392960175391aee28d3ccec8a3aefbc806e530efc582a403ae9e9e4e250ef3c039bc5abc77c3cbe87d5aaf32b",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00e8d49067bfb0ab9645b3d0b5494e334e3e38e20ee7f7660d6d165920e7d919d11a549a6c9fd85efc9e31803926c7df5c18d9100513a369da",
+          "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+KIPRIS+%ED%8A%B9%ED%97%88",
+          "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
+          "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
+          "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9328f5a912c888a1604ff579e87f821b091a0665246f3173a6cae241fd42c7005fb584f7181202ddb2669153aa54387f5f558cf6b7b6d352be",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9328f5a912c888a1604ff579e87f821b091a0665246f3173a6cae241fd42c7005f99f63731d0311929be11400294078a7500be1e049034125a",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9322af84f57b08f2914d8d6d578d04e03445d891357f9d9514d3d00ad20d4a18bd19eba5573d7be6aac19dee99cdc16abd632f246c9310f285",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9322af84f57b08f2914d8d6d578d04e034c00c52ee695737d21b3f879b3a036daacbefcdab0ce327f373387ac5e1436b444e048689ba5bd44d",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93c040d70001b624f5684d1632e77fbbe56bbb3117cbeab3944e9633126c9d0314bacd1aee33943ab15d5a9bc96c0cdb5e4e90695e30d95718",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93f6548c790985d9b42df3b696cb0bd420628364929a7eeeebfe825a6a229a6517dc933a022c3933651a90fed613eac47cfdf019f60b965c6c",
+          "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+KIPRIS+%ED%8A%B9%ED%97%88",
+          "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
+          "https://www.nepes.co.kr",
+          "http://www.nepesrua.co.kr",
+          "https://www.nepes.co.kr/kr/business/semiconductor/overview.php",
+          "https://www.nepes.co.kr/kr/business/semiconductor/plp.php",
+          "https://www.nepes.co.kr/kr/business/it/em.php",
+          "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88"
+        ],
+        "fallback_urls": [
+          "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+IR",
+          "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+          "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
+          "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88"
+        ]
+      },
+      "DART": {
+        "detected_urls": [],
+        "fallback_urls": [
+          "https://dart.fss.or.kr/",
+          "https://dart.fss.or.kr/dsab007/main.do?option=corp",
+          "https://opendart.fss.or.kr/",
+          "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+DART+%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C",
+          "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EB%B6%84%EA%B8%B0%EB%B3%B4%EA%B3%A0%EC%84%9C+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C"
+        ]
+      },
+      "VALUATION": {
+        "detected_urls": [],
+        "fallback_urls": [
+          "https://dart.fss.or.kr/",
+          "https://finance.naver.com/",
+          "https://comp.fnguide.com/",
+          "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84+FCF",
+          "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9B%90%EA%B0%80%EC%9C%A8+%EC%98%81%EC%97%85%EC%9D%B4%EC%9D%B5%EB%A5%A0+CAPEX"
+        ]
+      },
+      "FINANCE": {
+        "detected_urls": [
+          "https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception"
+        ],
+        "fallback_urls": [
+          "https://dart.fss.or.kr/",
+          "https://opendart.fss.or.kr/",
+          "https://finance.naver.com/",
+          "https://comp.fnguide.com/",
+          "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+        ]
+      }
+    },
+    "dimensions": {
+      "customer_adoption": {
+        "dimension": "customer_adoption",
+        "label": "고객 채택",
+        "status": "DIRECT_EVIDENCE",
+        "status_kr": "직접 근거 확인",
+        "score": 85.0,
+        "direct_evidence_count": 8,
+        "indirect_evidence_count": 0,
+        "partial_or_cross_check_count": 0,
+        "limited_evidence_count": 0,
+        "evidence": [
+          {
+            "source_group": "DART",
+            "source_file": "data/반도체/한미반도체/tech/source/dart_latest_business_report.txt",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "채택"
+            ],
+            "snippet": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관점에서 공정하게 표시하고 있습니다.",
+            "urls": [],
+            "fallback_urls": [
+              "https://dart.fss.or.kr/",
+              "https://dart.fss.or.kr/dsab007/main.do?option=corp",
+              "https://opendart.fss.or.kr/",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+DART+%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EB%B6%84%EA%B8%B0%EB%B3%B4%EA%B3%A0%EC%84%9C+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C"
+            ]
+          },
+          {
+            "source_group": "DART",
+            "source_file": "data/반도체/한미반도체/tech/source/dart_latest_business_report.txt",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "채택"
+            ],
+            "snippet": "경영진은 한국채택국제회계기준에 따라 이 연결재무제표를 작성하고 공정하게 표시할 책임이 있으며, 부정이나 오류로 인한 중요한 왜곡표시가 없는 연결재무제표를 작성하는데 필요하다고 결정한 내부통제에 대해서도 책임이 있습니다.경영진은 연결재무제표를 작성할 때, 연결회사의 계속기업으로서의 존속능력을 평가하고 해당되는 경우, 계속기업 관련 사항을 공시할 책임이 있습니다.",
+            "urls": [],
+            "fallback_urls": [
+              "https://dart.fss.or.kr/",
+              "https://dart.fss.or.kr/dsab007/main.do?option=corp",
+              "https://opendart.fss.or.kr/",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+DART+%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EB%B6%84%EA%B8%B0%EB%B3%B4%EA%B3%A0%EC%84%9C+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C"
+            ]
+          },
+          {
+            "source_group": "DART",
+            "source_file": "data/반도체/한미반도체/tech/source/dart_latest_business_report.txt",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "고객사",
+              "고객"
+            ],
+            "snippet": "당기 중 메모리 반도체 성장에 따라 글로벌 고객사 현지 대응을 위해 설립하였습니다.",
+            "urls": [],
+            "fallback_urls": [
+              "https://dart.fss.or.kr/",
+              "https://dart.fss.or.kr/dsab007/main.do?option=corp",
+              "https://opendart.fss.or.kr/",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+DART+%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EB%B6%84%EA%B8%B0%EB%B3%B4%EA%B3%A0%EC%84%9C+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C"
+            ]
+          },
+          {
+            "source_group": "DART",
+            "source_file": "data/반도체/한미반도체/tech/source/dart_latest_business_report.txt",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "채택"
+            ],
+            "snippet": "2.1 연결재무제표 작성기준연결실체는 주식회사 등의 외부감사에 관한 법률에서 규정하고 있는 국제회계기준위원회의 국제회계기준을 채택하여 정한 회계처리기준인 한국채택국제회계기준에 따라 연결재무제표를 작성하였습니다.(1) 측정기준",
+            "urls": [],
+            "fallback_urls": [
+              "https://dart.fss.or.kr/",
+              "https://dart.fss.or.kr/dsab007/main.do?option=corp",
+              "https://opendart.fss.or.kr/",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+DART+%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EB%B6%84%EA%B8%B0%EB%B3%B4%EA%B3%A0%EC%84%9C+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C"
+            ]
+          },
+          {
+            "source_group": "DART",
+            "source_file": "data/반도체/한미반도체/tech/source/dart_latest_business_report.txt",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "채택"
+            ],
+            "snippet": "2.1.1 연결실체가 채택한 제ㆍ개정 기준서 및 해석서",
+            "urls": [],
+            "fallback_urls": [
+              "https://dart.fss.or.kr/",
+              "https://dart.fss.or.kr/dsab007/main.do?option=corp",
+              "https://opendart.fss.or.kr/",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+DART+%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EB%B6%84%EA%B8%B0%EB%B3%B4%EA%B3%A0%EC%84%9C+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C"
+            ]
+          },
+          {
+            "source_group": "DART",
+            "source_file": "data/반도체/한미반도체/tech/source/dart_latest_business_report.txt",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "채택"
+            ],
+            "snippet": "회사에 중요한 영향을 미치지 않을 것으로 판단됩니다.- 기업회계기준서 제1107호 '금융상품: 공시' 및 제1109호 '금융상품'(개정): 금융상품 분류와 측정 요구사항- 기업회계기준서 제1007호 '현금흐름표', 제1101호 '한국채택국제회계기준의 최초채택', 제1107호 '금융상품: 공시', 제1109호 '금융상품' 및 제1110호 '연결재무제표'(개정): 연차개선- 기업회계기준서 제1107호 '금융상품: 공시' 및 제1109호 '금융상품'(개정): 자연에 의존하는 전력 계약- 기업회계기준서 제1118호 '재무제표 표시와 공시'(제정)",
+            "urls": [],
+            "fallback_urls": [
+              "https://dart.fss.or.kr/",
+              "https://dart.fss.or.kr/dsab007/main.do?option=corp",
+              "https://opendart.fss.or.kr/",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+DART+%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EB%B6%84%EA%B8%B0%EB%B3%B4%EA%B3%A0%EC%84%9C+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C"
+            ]
+          },
+          {
+            "source_group": "DART",
+            "source_file": "data/반도체/한미반도체/tech/source/dart_latest_business_report.txt",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "채택",
+              "적용"
+            ],
+            "snippet": "이러한 회계추정은 실제 결과와 다를 수도 있습니다.당기 연결재무제표 작성시 사용된 중요한 회계추정 및 가정은 전기 연결재무제표 작성에 적용된 회계추정 및 가정과 동일합니다.(1) 추정과 판단한국채택국제회계기준에서는 연결재무제표를 작성함에 있어서 회계정책의 적용이나, 보고기간말 현재 자산, 부채 및 수익, 비용의 보고금액에 영향을 미치는 사항에 대하여 경영진의 최선의 판단을 기준으로 한 추정치와 가정의 사용을 요구하고 있습니다.",
+            "urls": [],
+            "fallback_urls": [
+              "https://dart.fss.or.kr/",
+              "https://dart.fss.or.kr/dsab007/main.do?option=corp",
+              "https://opendart.fss.or.kr/",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+DART+%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EB%B6%84%EA%B8%B0%EB%B3%B4%EA%B3%A0%EC%84%9C+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C"
+            ]
+          },
+          {
+            "source_group": "DART",
+            "source_file": "data/반도체/한미반도체/tech/source/dart_latest_business_report.txt",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "채택"
+            ],
+            "snippet": "위험관리연결실체의 금융위험관리 목적과 정책은 2024년 12월 31일로 종료된 회계기간에 대한 연차재무제표 작성 시 채택한 것과 동일합니다.",
+            "urls": [],
+            "fallback_urls": [
+              "https://dart.fss.or.kr/",
+              "https://dart.fss.or.kr/dsab007/main.do?option=corp",
+              "https://opendart.fss.or.kr/",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+DART+%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EB%B6%84%EA%B8%B0%EB%B3%B4%EA%B3%A0%EC%84%9C+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C"
+            ]
+          }
+        ],
+        "summary": "고객 채택 관련 직접 근거가 8건 확인됩니다. Chair에서는 가치 전환 근거로 반영하되 원천 URL/파일을 함께 확인합니다."
+      },
+      "mass_production": {
+        "dimension": "mass_production",
+        "label": "양산",
+        "status": "DIRECT_EVIDENCE",
+        "status_kr": "직접 근거 확인",
+        "score": 85.0,
+        "direct_evidence_count": 8,
+        "indirect_evidence_count": 0,
+        "partial_or_cross_check_count": 0,
+        "limited_evidence_count": 0,
+        "evidence": [
+          {
+            "source_group": "IR_HOMEPAGE",
+            "source_file": "data/반도체/한미반도체/tech/_nepes_reference_schema/nepes_tech_chair_summary.md",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "양산"
+            ],
+            "snippet": "- **해석:** prompts.py의 공통 루브릭에 맞춰 R&D는 effort, 특허/IP는 intermediate output, 고객 채택·양산·매출·마진·FCF는 commercial outcome으로 분리합니다.",
+            "urls": [
+              "http://www.w3.org/2001/XMLSchema-instance",
+              "http://www.nepes.co.kr",
+              "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
+              "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+              "https://www.kipris.or.kr/khome/main.jsp"
+            ],
+            "fallback_urls": []
+          },
+          {
+            "source_group": "IR_HOMEPAGE",
+            "source_file": "data/반도체/한미반도체/tech/_nepes_reference_schema/nepes_tech_chair_summary.md",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "양산"
+            ],
+            "snippet": "차별화 점수는 peer 대비 기술/IP 포트폴리오의 구별성을, Evidence Confidence는 고객 채택·양산·매출·FCF 연결 근거의 직접성을, IP Evidence Composite는 등록·존속 안정성, 청구항 방어력, 인용 영향력, 해외 패밀리 확장성을 종합해 Chair 요약에 반영합니다.",
+            "urls": [
+              "http://www.w3.org/2001/XMLSchema-instance",
+              "http://www.nepes.co.kr",
+              "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
+              "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+              "https://www.kipris.or.kr/khome/main.jsp"
+            ],
+            "fallback_urls": []
+          },
+          {
+            "source_group": "IR_HOMEPAGE",
+            "source_file": "data/반도체/한미반도체/tech/_nepes_reference_schema/nepes_tech_chair_summary.md",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "양산"
+            ],
+            "snippet": "| Evidence Confidence | 79.70/100 | 고객 채택·양산·매출·FCF 근거의 직접성 |",
+            "urls": [
+              "http://www.w3.org/2001/XMLSchema-instance",
+              "http://www.nepes.co.kr",
+              "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
+              "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+              "https://www.kipris.or.kr/khome/main.jsp"
+            ],
+            "fallback_urls": []
+          },
+          {
+            "source_group": "IR_HOMEPAGE",
+            "source_file": "data/반도체/한미반도체/tech/_nepes_reference_schema/nepes_tech_chair_summary.md",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "양산"
+            ],
+            "snippet": "| 양산 | 직접 근거 | 88.00/100 | 17건 | 63건 | 0건 |",
+            "urls": [
+              "http://www.w3.org/2001/XMLSchema-instance",
+              "http://www.nepes.co.kr",
+              "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
+              "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+              "https://www.kipris.or.kr/khome/main.jsp"
+            ],
+            "fallback_urls": []
+          },
+          {
+            "source_group": "IR_HOMEPAGE",
+            "source_file": "data/반도체/한미반도체/tech/_nepes_reference_schema/nepes_tech_chair_summary.md",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "양산"
+            ],
+            "snippet": "- 기술 우위가 확인되어도 고객 채택·양산·매출 전환·FCF 직접 근거가 약하면 보수적으로 반영합니다.",
+            "urls": [
+              "http://www.w3.org/2001/XMLSchema-instance",
+              "http://www.nepes.co.kr",
+              "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
+              "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+              "https://www.kipris.or.kr/khome/main.jsp"
+            ],
+            "fallback_urls": []
+          },
+          {
+            "source_group": "IR_HOMEPAGE",
+            "source_file": "data/반도체/한미반도체/tech/_nepes_reference_schema/nepes_tech_chair_summary.md",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "양산"
+            ],
+            "snippet": "- prompts.py 기준에 따라 R&D 투입, 특허/IP 산출, 고객·양산·매출 결과를 분리해 해석합니다.",
+            "urls": [
+              "http://www.w3.org/2001/XMLSchema-instance",
+              "http://www.nepes.co.kr",
+              "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
+              "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+              "https://www.kipris.or.kr/khome/main.jsp"
+            ],
+            "fallback_urls": []
+          },
+          {
+            "source_group": "IR_HOMEPAGE",
+            "source_file": "data/반도체/한미반도체/tech/_nepes_reference_schema/nepes_tech_chair_summary.md",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "양산"
+            ],
+            "snippet": "- 본 지표는 직접적인 매출·수주 증거가 아니므로, 사업화·고객 채택·양산·FCF 개선 근거와 함께 해석해야 합니다.",
+            "urls": [
+              "http://www.w3.org/2001/XMLSchema-instance",
+              "http://www.nepes.co.kr",
+              "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
+              "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+              "https://www.kipris.or.kr/khome/main.jsp"
+            ],
+            "fallback_urls": []
+          },
+          {
+            "source_group": "IR_HOMEPAGE",
+            "source_file": "data/반도체/한미반도체/tech/_nepes_reference_schema/nepes_tech_chair_summary.md",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "양산"
+            ],
+            "snippet": "| Tech-to-Value Bridge | 80.53 | 0.40 | 32.21 | 기술이 고객 채택·양산·매출 전환으로 이어질 가능성 |",
+            "urls": [
+              "http://www.w3.org/2001/XMLSchema-instance",
+              "http://www.nepes.co.kr",
+              "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
+              "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+              "https://www.kipris.or.kr/khome/main.jsp"
+            ],
+            "fallback_urls": []
+          }
+        ],
+        "summary": "양산 관련 직접 근거가 8건 확인됩니다. Chair에서는 가치 전환 근거로 반영하되 원천 URL/파일을 함께 확인합니다."
+      },
+      "revenue_conversion": {
+        "dimension": "revenue_conversion",
+        "label": "매출 전환",
+        "status": "DIRECT_EVIDENCE",
+        "status_kr": "직접 근거 확인",
+        "score": 85.0,
+        "direct_evidence_count": 8,
+        "indirect_evidence_count": 0,
+        "partial_or_cross_check_count": 0,
+        "limited_evidence_count": 0,
+        "evidence": [
+          {
+            "source_group": "DART",
+            "source_file": "data/반도체/한미반도체/tech/source/dart_latest_business_report.txt",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "매출",
+              "판매"
+            ],
+            "snippet": "연결회사의 수익 대부분은 장비 판매로부터 창출되며, 2025년 중 발생한 장비제조판매 수익은 565,059백만원으로 총매출의 약 98%를 차지하고 있습니다.",
+            "urls": [],
+            "fallback_urls": [
+              "https://dart.fss.or.kr/",
+              "https://dart.fss.or.kr/dsab007/main.do?option=corp",
+              "https://opendart.fss.or.kr/",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+DART+%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EB%B6%84%EA%B8%B0%EB%B3%B4%EA%B3%A0%EC%84%9C+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C"
+            ]
+          },
+          {
+            "source_group": "DART",
+            "source_file": "data/반도체/한미반도체/tech/source/dart_latest_business_report.txt",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "매출",
+              "매출액",
+              "판매"
+            ],
+            "snippet": "수익은 연결회사의 경영진이 관심을 두는 주요 성과지표 중에 하나이며, 연결재무제표 이용자 관점에서도 매출액이 연결회사의 영업성과 또는 미래에 예상되는 영업을 대표합니다.이에 따라 매출액은 목표 또는 기대치를 달성하기 위해 조정될 수 있는 등 수익인식 왜곡에 대한 유인이 존재하며, 고객 및 계약 조건에 따라 수익인식의 시기가 달라지기 때문에 수익인식의 기간귀속 왜곡에 대한 고유위험이 있습니다.따라서 우리는 장비 제조판매로 인한 수익인식의 기간귀속에 유의적인 위험이 있는 것으로 판단하고 핵심감사항목으로 결정하였습니다.",
+            "urls": [],
+            "fallback_urls": [
+              "https://dart.fss.or.kr/",
+              "https://dart.fss.or.kr/dsab007/main.do?option=corp",
+              "https://opendart.fss.or.kr/",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+DART+%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EB%B6%84%EA%B8%B0%EB%B3%B4%EA%B3%A0%EC%84%9C+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C"
+            ]
+          },
+          {
+            "source_group": "DART",
+            "source_file": "data/반도체/한미반도체/tech/source/dart_latest_business_report.txt",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "매출",
+              "판매"
+            ],
+            "snippet": "- 수익인식 프로세스와 연결회사의 회계정책에 대한 이해, 그리고 관련 통제 이해, 평가 및 운영테스트- 회사의 주요 매출 유형별 계약서를 열람하여 수익인식 여부에 영향을 미치는 거래조건을 검토- 보고기간말 전후에 발생한 장비제조판매 수익인식시점의 적정성 확인을 위하여 표본으로 추출된 개별 거래 단위에 대한 관련 거래약정과 선적서류 및 인수증을 비롯한재고자산의 통제이전과 관련된 증빙의 확인",
+            "urls": [],
+            "fallback_urls": [
+              "https://dart.fss.or.kr/",
+              "https://dart.fss.or.kr/dsab007/main.do?option=corp",
+              "https://opendart.fss.or.kr/",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+DART+%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EB%B6%84%EA%B8%B0%EB%B3%B4%EA%B3%A0%EC%84%9C+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C"
+            ]
+          },
+          {
+            "source_group": "DART",
+            "source_file": "data/반도체/한미반도체/tech/source/dart_latest_business_report.txt",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "매출"
+            ],
+            "snippet": "매출채권의 감소(증가)",
+            "urls": [],
+            "fallback_urls": [
+              "https://dart.fss.or.kr/",
+              "https://dart.fss.or.kr/dsab007/main.do?option=corp",
+              "https://opendart.fss.or.kr/",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+DART+%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EB%B6%84%EA%B8%B0%EB%B3%B4%EA%B3%A0%EC%84%9C+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C"
+            ]
+          },
+          {
+            "source_group": "DART",
+            "source_file": "data/반도체/한미반도체/tech/source/dart_latest_business_report.txt",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "매출",
+              "판매"
+            ],
+            "snippet": "재고자산의 판매에 따른 수익을 인식하는 기간에 재고자산의 장부금액을 매출원가로 인식하고 있습니다.",
+            "urls": [],
+            "fallback_urls": [
+              "https://dart.fss.or.kr/",
+              "https://dart.fss.or.kr/dsab007/main.do?option=corp",
+              "https://opendart.fss.or.kr/",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+DART+%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EB%B6%84%EA%B8%B0%EB%B3%B4%EA%B3%A0%EC%84%9C+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C"
+            ]
+          },
+          {
+            "source_group": "DART",
+            "source_file": "data/반도체/한미반도체/tech/source/dart_latest_business_report.txt",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "매출"
+            ],
+            "snippet": "단, 매출채권 및 리스채권에 대해 연결실체는 채권의 최초 인식시점부터 전체기간 기대신용손실을 인식하는 간편법을 적용합니다.",
+            "urls": [],
+            "fallback_urls": [
+              "https://dart.fss.or.kr/",
+              "https://dart.fss.or.kr/dsab007/main.do?option=corp",
+              "https://opendart.fss.or.kr/",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+DART+%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EB%B6%84%EA%B8%B0%EB%B3%B4%EA%B3%A0%EC%84%9C+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C"
+            ]
+          },
+          {
+            "source_group": "DART",
+            "source_file": "data/반도체/한미반도체/tech/source/dart_latest_business_report.txt",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "매출"
+            ],
+            "snippet": "선물환거래의 선도요소의 공정가치 변동(‘forward point’)은 위험회피원가로서 별도로 회계처리하고, 자본의 위험회피의 원가에 인식합니다.2.8 금융자산의 손상연결실체는 다음 자산의 기대신용손실에 대해 손실충당금을 인식합니다.- 상각후원가로 측정하는 금융자산연결실체는 12개월 기대신용손실로 측정되는 다음의 금융자산을 제외하고는 전체기간 기대신용손실에 해당하는 금액으로 손실충당금을 측정합니다.- 보고기간말에 신용이 위험이 낮다고 결정된 채무증권- 최초 인식 이후 신용위험(즉, 금융자산의 기대존속기간동안에 걸쳐 발생할 채무불 이행 위험)이 유의적으로 증가하지 않은 기타 채무증권과 은행예금매출채권에 대한 손실충당금은 항상 전체기간 기대신용손실에 해당하는 금액으로 측정됩니다.연결실체는 다음과 같은 경우 금융자산에 채무불이행이 발생했다고 고려합니",
+            "urls": [],
+            "fallback_urls": [
+              "https://dart.fss.or.kr/",
+              "https://dart.fss.or.kr/dsab007/main.do?option=corp",
+              "https://opendart.fss.or.kr/",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+DART+%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EB%B6%84%EA%B8%B0%EB%B3%B4%EA%B3%A0%EC%84%9C+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C"
+            ]
+          },
+          {
+            "source_group": "DART",
+            "source_file": "data/반도체/한미반도체/tech/source/dart_latest_business_report.txt",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "매출"
+            ],
+            "snippet": "주로 거래처에 대한 매출채권에서 발생합니다.",
+            "urls": [],
+            "fallback_urls": [
+              "https://dart.fss.or.kr/",
+              "https://dart.fss.or.kr/dsab007/main.do?option=corp",
+              "https://opendart.fss.or.kr/",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+DART+%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EB%B6%84%EA%B8%B0%EB%B3%B4%EA%B3%A0%EC%84%9C+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C"
+            ]
+          }
+        ],
+        "summary": "매출 전환 관련 직접 근거가 8건 확인됩니다. Chair에서는 가치 전환 근거로 반영하되 원천 URL/파일을 함께 확인합니다."
+      },
+      "margin_cashflow_linkage": {
+        "dimension": "margin_cashflow_linkage",
+        "label": "마진·원가·현금흐름 연결",
+        "status": "DIRECT_EVIDENCE",
+        "status_kr": "직접 근거 확인",
+        "score": 85.0,
+        "direct_evidence_count": 8,
+        "indirect_evidence_count": 0,
+        "partial_or_cross_check_count": 0,
+        "limited_evidence_count": 0,
+        "evidence": [
+          {
+            "source_group": "DART",
+            "source_file": "data/반도체/한미반도체/tech/source/dart_latest_business_report.txt",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "현금흐름"
+            ],
+            "snippet": "연결현금흐름표··························",
+            "urls": [],
+            "fallback_urls": [
+              "https://dart.fss.or.kr/",
+              "https://dart.fss.or.kr/dsab007/main.do?option=corp",
+              "https://opendart.fss.or.kr/",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+DART+%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EB%B6%84%EA%B8%B0%EB%B3%B4%EA%B3%A0%EC%84%9C+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C"
+            ]
+          },
+          {
+            "source_group": "DART",
+            "source_file": "data/반도체/한미반도체/tech/source/dart_latest_business_report.txt",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "현금흐름"
+            ],
+            "snippet": "해당 연결재무제표는 2025년 12월 31일 현재의 연결재무상태표, 동일로 종료되는 보고기간의 연결포괄손익계산서, 연결자본변동표, 연결현금흐름표 그리고 중요한 회계정책 정보를 포함한 연결재무제표의 주석으로 구성되어 있습니다.",
+            "urls": [],
+            "fallback_urls": [
+              "https://dart.fss.or.kr/",
+              "https://dart.fss.or.kr/dsab007/main.do?option=corp",
+              "https://opendart.fss.or.kr/",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+DART+%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EB%B6%84%EA%B8%B0%EB%B3%B4%EA%B3%A0%EC%84%9C+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C"
+            ]
+          },
+          {
+            "source_group": "DART",
+            "source_file": "data/반도체/한미반도체/tech/source/dart_latest_business_report.txt",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "현금흐름"
+            ],
+            "snippet": "우리의 의견으로는 별첨된 연결회사의 연결재무제표는 연결회사의 2025년 12월 31일 현재의 연결재무상태와 동일로 종료되는 보고기간의 연결재무성과 및 연결현금흐름을 한국채택국제회계기준에 따라, 중요성의 관점에서 공정하게 표시하고 있습니다.",
+            "urls": [],
+            "fallback_urls": [
+              "https://dart.fss.or.kr/",
+              "https://dart.fss.or.kr/dsab007/main.do?option=corp",
+              "https://opendart.fss.or.kr/",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+DART+%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EB%B6%84%EA%B8%B0%EB%B3%B4%EA%B3%A0%EC%84%9C+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C"
+            ]
+          },
+          {
+            "source_group": "DART",
+            "source_file": "data/반도체/한미반도체/tech/source/dart_latest_business_report.txt",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "현금흐름"
+            ],
+            "snippet": "영업활동현금흐름",
+            "urls": [],
+            "fallback_urls": [
+              "https://dart.fss.or.kr/",
+              "https://dart.fss.or.kr/dsab007/main.do?option=corp",
+              "https://opendart.fss.or.kr/",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+DART+%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EB%B6%84%EA%B8%B0%EB%B3%B4%EA%B3%A0%EC%84%9C+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C"
+            ]
+          },
+          {
+            "source_group": "DART",
+            "source_file": "data/반도체/한미반도체/tech/source/dart_latest_business_report.txt",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "현금흐름"
+            ],
+            "snippet": "투자활동현금흐름",
+            "urls": [],
+            "fallback_urls": [
+              "https://dart.fss.or.kr/",
+              "https://dart.fss.or.kr/dsab007/main.do?option=corp",
+              "https://opendart.fss.or.kr/",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+DART+%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EB%B6%84%EA%B8%B0%EB%B3%B4%EA%B3%A0%EC%84%9C+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C"
+            ]
+          },
+          {
+            "source_group": "DART",
+            "source_file": "data/반도체/한미반도체/tech/source/dart_latest_business_report.txt",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "현금흐름"
+            ],
+            "snippet": "재무활동현금흐름",
+            "urls": [],
+            "fallback_urls": [
+              "https://dart.fss.or.kr/",
+              "https://dart.fss.or.kr/dsab007/main.do?option=corp",
+              "https://opendart.fss.or.kr/",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+DART+%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EB%B6%84%EA%B8%B0%EB%B3%B4%EA%B3%A0%EC%84%9C+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C"
+            ]
+          },
+          {
+            "source_group": "DART",
+            "source_file": "data/반도체/한미반도체/tech/source/dart_latest_business_report.txt",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "현금흐름"
+            ],
+            "snippet": "회사에 중요한 영향을 미치지 않을 것으로 판단됩니다.- 기업회계기준서 제1107호 '금융상품: 공시' 및 제1109호 '금융상품'(개정): 금융상품 분류와 측정 요구사항- 기업회계기준서 제1007호 '현금흐름표', 제1101호 '한국채택국제회계기준의 최초채택', 제1107호 '금융상품: 공시', 제1109호 '금융상품' 및 제1110호 '연결재무제표'(개정): 연차개선- 기업회계기준서 제1107호 '금융상품: 공시' 및 제1109호 '금융상품'(개정): 자연에 의존하는 전력 계약- 기업회계기준서 제1118호 '재무제표 표시와 공시'(제정)",
+            "urls": [],
+            "fallback_urls": [
+              "https://dart.fss.or.kr/",
+              "https://dart.fss.or.kr/dsab007/main.do?option=corp",
+              "https://opendart.fss.or.kr/",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+DART+%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EB%B6%84%EA%B8%B0%EB%B3%B4%EA%B3%A0%EC%84%9C+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C"
+            ]
+          },
+          {
+            "source_group": "DART",
+            "source_file": "data/반도체/한미반도체/tech/source/dart_latest_business_report.txt",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "현금흐름"
+            ],
+            "snippet": "내재파생상품을 포함하는 복합계약은 계약상 현금흐름이 원금과 이자로만 구성되어 있는지를 결정할 때 해당 복합계약 전체를 고려합니다.",
+            "urls": [],
+            "fallback_urls": [
+              "https://dart.fss.or.kr/",
+              "https://dart.fss.or.kr/dsab007/main.do?option=corp",
+              "https://opendart.fss.or.kr/",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+DART+%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%EB%B6%84%EA%B8%B0%EB%B3%B4%EA%B3%A0%EC%84%9C+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C"
+            ]
+          }
+        ],
+        "summary": "마진·원가·현금흐름 연결 관련 직접 근거가 8건 확인됩니다. Chair에서는 가치 전환 근거로 반영하되 원천 URL/파일을 함께 확인합니다."
+      },
+      "ip_quality": {
+        "dimension": "ip_quality",
+        "label": "IP 품질",
+        "status": "DIRECT_EVIDENCE",
+        "status_kr": "직접 근거 확인",
+        "score": 48.12,
+        "direct_evidence_count": 3,
+        "indirect_evidence_count": 0,
+        "partial_or_cross_check_count": 1,
+        "limited_evidence_count": 0,
+        "components": {
+          "legal_status": {
+            "status": "COLLECTED",
+            "score_or_rate": 0.5727,
+            "source_file": "data/반도체/한미반도체/tech/hanmi_tech_ip_legal_features.json"
+          },
+          "claims": {
+            "status": "COLLECTED",
+            "count": 10915.0,
+            "source_file": "data/반도체/한미반도체/tech/hanmi_tech_ip_claim_features.json"
+          },
+          "citations": {
+            "status": "NO_CITATION_COLLECTED",
+            "count": 0,
+            "source_file": "data/반도체/한미반도체/tech/hanmi_tech_ip_citation_features.json"
+          },
+          "family": {
+            "status": "COLLECTED",
+            "count": 236.0,
+            "source_file": "data/반도체/한미반도체/tech/hanmi_tech_ip_family_features.json"
+          },
+          "composite": {
+            "status": "COLLECTED",
+            "score": 48.12,
+            "bridge_signal": "IP_EVIDENCE_NEUTRAL",
+            "source_file": "data/반도체/한미반도체/tech/hanmi_tech_ip_evidence_composite.json"
+          }
+        },
+        "evidence": [
+          {
+            "source_group": "KIPRIS",
+            "source_file": "data/반도체/한미반도체/tech/hanmi_tech_ip_legal_features.json",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "legal_status",
+              "COLLECTED"
+            ],
+            "snippet": "legal_status: status=COLLECTED, count=None, score=0.5727, signal=None",
+            "urls": [],
+            "fallback_urls": [
+              "https://www.kipris.or.kr/khome/main.jsp",
+              "https://plus.kipris.or.kr/",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+KIPRIS+%ED%8A%B9%ED%97%88",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC"
+            ]
+          },
+          {
+            "source_group": "KIPRIS",
+            "source_file": "data/반도체/한미반도체/tech/hanmi_tech_ip_claim_features.json",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "claims",
+              "COLLECTED"
+            ],
+            "snippet": "claims: status=COLLECTED, count=10915.0, score=None, signal=None",
+            "urls": [],
+            "fallback_urls": [
+              "https://www.kipris.or.kr/khome/main.jsp",
+              "https://plus.kipris.or.kr/",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+KIPRIS+%ED%8A%B9%ED%97%88",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC"
+            ]
+          },
+          {
+            "source_group": "KIPRIS",
+            "source_file": "data/반도체/한미반도체/tech/hanmi_tech_ip_citation_features.json",
+            "evidence_level": "PARTIAL_EVIDENCE",
+            "matched_keywords": [
+              "citations",
+              "NO_CITATION_COLLECTED"
+            ],
+            "snippet": "citations: status=NO_CITATION_COLLECTED, count=0, score=None, signal=None",
+            "urls": [],
+            "fallback_urls": [
+              "https://www.kipris.or.kr/khome/main.jsp",
+              "https://plus.kipris.or.kr/",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+KIPRIS+%ED%8A%B9%ED%97%88",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC"
+            ]
+          },
+          {
+            "source_group": "KIPRIS",
+            "source_file": "data/반도체/한미반도체/tech/hanmi_tech_ip_family_features.json",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "family",
+              "COLLECTED"
+            ],
+            "snippet": "family: status=COLLECTED, count=236.0, score=None, signal=None",
+            "urls": [],
+            "fallback_urls": [
+              "https://www.kipris.or.kr/khome/main.jsp",
+              "https://plus.kipris.or.kr/",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+KIPRIS+%ED%8A%B9%ED%97%88",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC"
+            ]
+          },
+          {
+            "source_group": "KIPRIS",
+            "source_file": "data/반도체/한미반도체/tech/hanmi_tech_ip_evidence_composite.json",
+            "evidence_level": "DIRECT_EVIDENCE",
+            "matched_keywords": [
+              "composite",
+              "COLLECTED"
+            ],
+            "snippet": "composite: status=COLLECTED, count=None, score=48.12, signal=IP_EVIDENCE_NEUTRAL",
+            "urls": [],
+            "fallback_urls": [
+              "https://www.kipris.or.kr/khome/main.jsp",
+              "https://plus.kipris.or.kr/",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+KIPRIS+%ED%8A%B9%ED%97%88",
+              "https://www.google.com/search?q=%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC"
+            ]
+          }
+        ],
+        "summary": "KIPRIS 기반 법적 상태·청구항·인용·패밀리 산출물을 함께 반영합니다. 특허 수량만이 아니라 권리 안정성, 청구항 방어력, 인용 영향력, 해외 확장성을 분리해 Chair 판단에 전달합니다."
+      }
+    },
+    "value_evidence_score": 79.47,
+    "value_evidence_label": "VALUE_EVIDENCE_STRONG",
+    "next_checkpoints_refined": [
+      "고객 채택: 확인된 고객사·공급 근거가 실제 반복 매출로 이어지는지 후속 확인",
+      "양산: 양산 근거가 제품별 매출·가동률·수율 개선으로 이어지는지 확인",
+      "매출 전환: 기술 적용 제품군의 매출 지속성과 고객 concentration 리스크 확인",
+      "IP 품질: citations 데이터 보강 후 청구항·인용·패밀리·존속 상태를 재점수화",
+      "마진·원가·현금흐름: 확인된 수익성/현금흐름 개선이 일회성이 아닌지 기간별 추세 확인"
+    ],
+    "usage_rule": "This artifact does not claim that technology already generated revenue or FCF. It separates direct evidence, indirect evidence, partial evidence, and cross-check-required items for Chair reporting.",
+    "output_files": {
+      "json": "data/반도체/한미반도체/tech/tech_intake_value_evidence.json",
+      "md": "data/반도체/한미반도체/tech/tech_intake_value_evidence.md",
+      "prefixed_json": "data/반도체/한미반도체/tech/hanmi_tech_intake_value_evidence.json",
+      "prefixed_md": "data/반도체/한미반도체/tech/hanmi_tech_intake_value_evidence.md"
+    }
+  },
+  "value_evidence_bridge_merge_status": "MERGED",
+  "value_evidence_score": 79.47,
+  "value_evidence_label": "VALUE_EVIDENCE_STRONG",
+  "next_checkpoints_refined": [
+    "고객 채택: 확인된 고객사·공급 근거가 실제 반복 매출로 이어지는지 후속 확인",
+    "양산: 양산 근거가 제품별 매출·가동률·수율 개선으로 이어지는지 확인",
+    "매출 전환: 기술 적용 제품군의 매출 지속성과 고객 concentration 리스크 확인",
+    "IP 품질: citations 데이터 보강 후 청구항·인용·패밀리·존속 상태를 재점수화",
+    "마진·원가·현금흐름: 확인된 수익성/현금흐름 개선이 일회성이 아닌지 기간별 추세 확인"
+  ],
+  "technology_lifecycle": {
+    "status": "OK",
+    "overall_lifecycle_stage": "DECLINE_OR_SHIFT",
+    "overall_lifecycle_score": 48.55,
+    "summary": "power_thermal_efficiency, bump_rdl_interposer, semiconductor_test 관련 최근 출원 밀도가 약해져 쇠퇴 또는 차세대 기술 전환 가능성을 점검해야 합니다.",
+    "top_lifecycle_keywords": [
+      {
+        "keyword": "power_thermal_efficiency",
+        "stage": "GROWTH",
+        "score": 67.59,
+        "recent_count": 24,
+        "trend_ratio": 1.379
+      },
+      {
+        "keyword": "bump_rdl_interposer",
+        "stage": "GROWTH",
+        "score": 90.0,
+        "recent_count": 18,
+        "trend_ratio": 3.333
+      },
+      {
+        "keyword": "semiconductor_test",
+        "stage": "GROWTH",
+        "score": 73.33,
+        "recent_count": 12,
+        "trend_ratio": 1.667
+      },
+      {
+        "keyword": "process_yield_quality",
+        "stage": "DECLINE_OR_SHIFT",
+        "score": 30.0,
+        "recent_count": 8,
+        "trend_ratio": 0.417
+      },
+      {
+        "keyword": "advanced_packaging",
+        "stage": "DECLINE_OR_SHIFT",
+        "score": 30.0,
+        "recent_count": 2,
+        "trend_ratio": 0.196
+      }
+    ],
+    "external_signal_status": "NOT_PROVIDED"
+  },
+  "selected_ml_signals": {
+    "technology_lifecycle": {
+      "status": "OK",
+      "overall_lifecycle_stage": "DECLINE_OR_SHIFT",
+      "overall_lifecycle_score": 48.55,
+      "summary": "power_thermal_efficiency, bump_rdl_interposer, semiconductor_test 관련 최근 출원 밀도가 약해져 쇠퇴 또는 차세대 기술 전환 가능성을 점검해야 합니다.",
+      "top_lifecycle_keywords": [
+        {
+          "keyword": "power_thermal_efficiency",
+          "stage": "GROWTH",
+          "score": 67.59,
+          "recent_count": 24,
+          "trend_ratio": 1.379
+        },
+        {
+          "keyword": "bump_rdl_interposer",
+          "stage": "GROWTH",
+          "score": 90.0,
+          "recent_count": 18,
+          "trend_ratio": 3.333
+        },
+        {
+          "keyword": "semiconductor_test",
+          "stage": "GROWTH",
+          "score": 73.33,
+          "recent_count": 12,
+          "trend_ratio": 1.667
+        },
+        {
+          "keyword": "process_yield_quality",
+          "stage": "DECLINE_OR_SHIFT",
+          "score": 30.0,
+          "recent_count": 8,
+          "trend_ratio": 0.417
+        },
+        {
+          "keyword": "advanced_packaging",
+          "stage": "DECLINE_OR_SHIFT",
+          "score": 30.0,
+          "recent_count": 2,
+          "trend_ratio": 0.196
+        }
+      ],
+      "external_signal_status": "NOT_PROVIDED"
+    },
+    "technology_lifecycle_score": 48.55,
+    "technology_lifecycle_stage": "DECLINE_OR_SHIFT",
+    "certification_standards": {
+      "status": "OK",
+      "certification_signal": "CERTIFICATION_STRONG",
+      "certification_score": 42.97,
+      "quality_gate_stage": 5,
+      "quality_gate_stage_label": "SEMICONDUCTOR_CUSTOMER_QUALIFICATION_MENTIONED",
+      "confirmed_certification_keys": [
+        "CE",
+        "FDA",
+        "ISO_45001",
+        "RoHS",
+        "SEMICONDUCTOR_QUALIFICATION"
+      ],
+      "evidence_count": 9,
+      "summary": "CE, FDA, ISO_45001, RoHS, SEMICONDUCTOR_QUALIFICATION 관련 근거가 확인되어 고객 품질·상용화 게이트 통과 가능성을 강하게 보강합니다. 단계: SEMICONDUCTOR_CUSTOMER_QUALIFICATION_MENTIONED."
+    },
+    "certification_score": 42.97,
+    "certification_signal": "CERTIFICATION_STRONG"
+  },
+  "certification_standards": {
+    "status": "OK",
+    "certification_signal": "CERTIFICATION_STRONG",
+    "certification_score": 42.97,
+    "quality_gate_stage": 5,
+    "quality_gate_stage_label": "SEMICONDUCTOR_CUSTOMER_QUALIFICATION_MENTIONED",
+    "confirmed_certification_keys": [
+      "CE",
+      "FDA",
+      "ISO_45001",
+      "RoHS",
+      "SEMICONDUCTOR_QUALIFICATION"
+    ],
+    "evidence_count": 9,
+    "summary": "CE, FDA, ISO_45001, RoHS, SEMICONDUCTOR_QUALIFICATION 관련 근거가 확인되어 고객 품질·상용화 게이트 통과 가능성을 강하게 보강합니다. 단계: SEMICONDUCTOR_CUSTOMER_QUALIFICATION_MENTIONED."
+  }
+}

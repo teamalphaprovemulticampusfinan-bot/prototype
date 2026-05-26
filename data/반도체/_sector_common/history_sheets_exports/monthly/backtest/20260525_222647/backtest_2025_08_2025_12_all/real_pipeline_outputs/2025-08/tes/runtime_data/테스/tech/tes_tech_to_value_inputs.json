@@ -1,0 +1,152 @@
+{
+  "score": 39.0,
+  "tech_agent_raw_score": 60.0,
+  "base_signal_score": 49.0,
+  "auditor_adjusted_score": 39.0,
+  "auditor_conservative_adjustment": 21.0,
+  "grade": "TECH_FINANCE_GAP",
+  "policy": "기술 우위는 고객사 채택, 양산, 매출 전환, FCF 개선 근거와 연결될 때만 가치평가 가산 요인으로 반영한다.",
+  "interpretation": "기술·제품 근거가 가치평가 보조 근거로 쓰이려면 고객 적용, 양산, 매출/현금흐름 연결이 함께 확인되어야 합니다.",
+  "components": {
+    "commercialization_hits": 4,
+    "production_hits": 3,
+    "value_hits": 0,
+    "ip_hits": 2,
+    "official_doc_count": 21,
+    "quantitative_signal_count": 51
+  },
+  "penalties": [
+    "매출·수익성·FCF 연결 근거 부족"
+  ],
+  "evidence_samples": [
+    {
+      "snippet": "# 테스 Tech Local Proxy Evidence",
+      "source_type": "local_data",
+      "source_title": "tes_tech_local_proxy_evidence.md",
+      "source_url": "",
+      "source_path": "data\\반도체\\테스\\tech\\source\\tes_tech_local_proxy_evidence.md",
+      "source_plan_matched": false,
+      "hits": [
+        "EV"
+      ]
+    },
+    {
+      "snippet": "# 테스 Tech Local Proxy Evidence",
+      "source_type": "local_data",
+      "source_title": "tes_tech_local_proxy_evidence.md",
+      "source_url": "",
+      "source_path": "data\\반도체\\테스\\tech\\source\\tes_tech_local_proxy_evidence.md",
+      "source_plan_matched": false,
+      "hits": [
+        "EV"
+      ]
+    },
+    {
+      "snippet": "# 테스 Tech Local Proxy Evidence",
+      "source_type": "local_data",
+      "source_title": "tes_tech_local_proxy_evidence.md",
+      "source_url": "",
+      "source_path": "data\\반도체\\테스\\tech\\source\\tes_tech_local_proxy_evidence.md",
+      "source_plan_matched": false,
+      "hits": [
+        "EV"
+      ]
+    }
+  ],
+  "kipris_tech_ml_features": {
+    "company_slug": "tes",
+    "company_name": "테스",
+    "field": "반도체",
+    "source_csv": "data\\반도체\\테스\\tech\\tes_kipris_patents_normalized.csv",
+    "enriched_csv": "data\\반도체\\테스\\tech\\tes_kipris_tech_ml_enriched.csv",
+    "generated_at": "2026-05-26T00:43:39",
+    "core_counts": {
+      "total_patents": 382,
+      "registered_patents_estimated": 287,
+      "alive_patents_estimated": 146,
+      "negative_disposal_patents_estimated": 225,
+      "recent_5y_application_patents": 53,
+      "h01l_core_patents": 1,
+      "semiconductor_related_ipc_patents": 122,
+      "ipc_subclass_count": 83,
+      "ipc_main_group_count": 150,
+      "tech_keyword_match_total": 302,
+      "tech_keyword_match_avg": 0.7906
+    },
+    "core_rates": {
+      "registration_rate_estimated": 0.7513,
+      "alive_rate_total_estimated": 0.3822,
+      "alive_rate_among_registered_estimated": 0.5087,
+      "negative_disposal_rate_estimated": 0.589,
+      "recent_5y_application_rate": 0.1387,
+      "h01l_core_rate": 0.0026,
+      "semiconductor_related_ipc_rate": 0.3194
+    },
+    "year_features": {
+      "application_year_min": 1990,
+      "application_year_max": 2025,
+      "application_year_span": 36,
+      "recent_5y_threshold": 2021
+    },
+    "scores": {
+      "legal_stability_score_estimated": 60.81,
+      "portfolio_momentum_score": 48.7,
+      "ip_technology_fit_score": 44.14,
+      "kipris_tech_ml_score": 52.18
+    },
+    "tech_to_value_bridge_adjustment": {
+      "bridge_adjustment_points": 0.0,
+      "bridge_signal": "IP_QUALITY_NEUTRAL",
+      "usage_rule": "Add this as a conservative KIPRIS/IP feature adjustment to Tech-to-Value Bridge, but do not treat it as direct commercialization evidence."
+    },
+    "top_ipc_subclass": {
+      "G01R": 84,
+      "H10P": 49,
+      "F02D": 19,
+      "F01N": 18,
+      "G06F": 17,
+      "F16H": 14,
+      "G11C": 9,
+      "A61B": 8,
+      "B60W": 8,
+      "F02M": 7,
+      "H01J": 6,
+      "G01M": 6,
+      "H01R": 6,
+      "H03K": 6,
+      "B60L": 5
+    },
+    "top_ipc_main_group": {
+      "G01R 31": 74,
+      "H10P 72": 15,
+      "H10P 74": 13,
+      "F01N 3": 11,
+      "F02D 41": 10,
+      "F16H 61": 9,
+      "A61B 17": 8,
+      "G11C 29": 8,
+      "G06F 11": 8,
+      "H10P 14": 7,
+      "H10P 76": 6,
+      "F02D 19": 6,
+      "H01R 13": 5,
+      "G01R 1": 5,
+      "H01J 37": 5
+    },
+    "top_applicants": {},
+    "cautions": [
+      "final_disposal is not present in the source CSV, so legal status is estimated from register_status/register_number/register_date.",
+      "register_date appears unavailable or unparsable in the current source, so registration year range should not be overclaimed.",
+      "KIPRIS/IP score supports technology defensibility, but customer adoption, mass production, sales conversion, and FCF conversion must be verified separately."
+    ],
+    "_source_file": "data/반도체/테스/tech/tes_kipris_tech_ml_features.json"
+  },
+  "kipris_tech_ml_score": 52.18,
+  "legal_stability_score_estimated": 60.81,
+  "portfolio_momentum_score": 48.7,
+  "ip_technology_fit_score": 44.14,
+  "bridge_adjustment_points": 0.0,
+  "bridge_signal": "IP_QUALITY_NEUTRAL",
+  "kipris_bridge_usage_rule": "Add this as a conservative KIPRIS/IP feature adjustment to Tech-to-Value Bridge, but do not treat it as direct commercialization evidence.",
+  "kipris_bridge_applied": true
+}

@@ -1,10 +1,10 @@
 # 원익머트리얼즈 Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-20T22:23:00
+- 생성 시각: 2026-05-26T07:37:28
 - 종합 점수: 80.6/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 132개
+- 원천 문서 수: 155개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -32,18 +32,18 @@
 - [DIRECT_EVIDENCE] - 기술 우위가 확인되어도 고객 채택·양산·매출 전환·FCF 직접 근거가 약하면 보수적으로 반영합니다. (source=data/반도체/원익머트리얼즈/tech/_nepes_reference_schema/nepes_tech_chair_summary.md, keywords=양산, urls=http://www.w3.org/2001/XMLSchema-instance, http://www.nepes.co.kr)
 
 ### 매출 전환
-- [DIRECT_EVIDENCE] summary: 원익머트리얼즈는 2024년 매출이 감소했으나 영업이익률과 ROE가 크게 개선되며 수익성이 향상되는 모습을 보였다. (source=data/반도체/원익머트리얼즈/finance/원익머트리얼즈_finance.json, keywords=매출, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] 2025년에는 매출이 소폭 반등할 것으로 예상되나, 자유현금흐름이 마이너스로 전환되며 투자 확대에 따른 현금 흐름 부담이 나타날 수 있다. (source=data/반도체/원익머트리얼즈/finance/원익머트리얼즈_finance.json, keywords=매출, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: 원익머트리얼즈는 2023년 매출이 큰 폭으로 감소했으나, 2024년에는 영업이익률이 16.7%로 회복하며 수익성이 개선되는 모습을 보였습니다. (source=data/반도체/원익머트리얼즈/finance/원익머트리얼즈_finance.json, keywords=매출, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2023년 매출성장률이 -32.6%로 큰 폭의 역성장을 기록했으며, 2024년에도 -20.7%로 감소세를 이어갔습니다. (source=data/반도체/원익머트리얼즈/finance/원익머트리얼즈_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] missing_prompt_metrics: 매출성장률 (source=data/반도체/원익머트리얼즈/finance/원익머트리얼즈_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수 (source=data/반도체/원익머트리얼즈/finance/원익머트리얼즈_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] sales: 322467412745.0 (source=data/반도체/원익머트리얼즈/finance/원익머트리얼즈_finance_agent_packet.json, keywords=sales, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률 (source=data/반도체/원익머트리얼즈/finance/원익머트리얼즈_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] sales: 310715204992.0 (source=data/반도체/원익머트리얼즈/finance/원익머트리얼즈_finance_agent_packet.json, keywords=sales, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### 마진·원가·현금흐름 연결
-- [DIRECT_EVIDENCE] summary: 원익머트리얼즈는 2024년 매출이 감소했으나 영업이익률과 ROE가 크게 개선되며 수익성이 향상되는 모습을 보였다. (source=data/반도체/원익머트리얼즈/finance/원익머트리얼즈_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] 2025년에는 매출이 소폭 반등할 것으로 예상되나, 자유현금흐름이 마이너스로 전환되며 투자 확대에 따른 현금 흐름 부담이 나타날 수 있다. (source=data/반도체/원익머트리얼즈/finance/원익머트리얼즈_finance.json, keywords=현금흐름, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년 영업이익률이 16.71%로 크게 개선되었으며, 2025년에도 17.52%로 높은 수준을 유지할 것으로 전망된다. (source=data/반도체/원익머트리얼즈/finance/원익머트리얼즈_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년 ROE가 6.61%로 상승했으며, 2025년에는 9.27%까지 개선될 것으로 예상되어 수익성 지표가 긍정적이다. (source=data/반도체/원익머트리얼즈/finance/원익머트리얼즈_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_risks: 2025년 자유현금흐름(FCF)이 -51.23억 원으로 마이너스 전환되어, 대규모 투자 집행으로 인한 현금 유출 가능성을 주시해야 한다. (source=data/반도체/원익머트리얼즈/finance/원익머트리얼즈_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: 원익머트리얼즈는 2023년 매출이 큰 폭으로 감소했으나, 2024년에는 영업이익률이 16.7%로 회복하며 수익성이 개선되는 모습을 보였습니다. (source=data/반도체/원익머트리얼즈/finance/원익머트리얼즈_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] 딥테크 기업으로서 성장성과 수익성, 변동성 및 리스크 요인을 종합적으로 고려한 접근이 필요합니다. (source=data/반도체/원익머트리얼즈/finance/원익머트리얼즈_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 영업이익률이 16.7%로 2023년(6.3%) 대비 크게 개선되며 수익성 회복의 신호탄을 보였습니다. (source=data/반도체/원익머트리얼즈/finance/원익머트리얼즈_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 FCF는 263억 원으로 2023년(1017억 원) 대비 감소했으나 여전히 양의 값을 유지하며 현금 창출 능력을 보여줍니다. (source=data/반도체/원익머트리얼즈/finance/원익머트리얼즈_finance.json, keywords=FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2022년 FCF가 -575억 원으로 큰 폭의 마이너스를 기록했으며, 2024년에도 263억 원으로 2023년 대비 크게 감소했습니다. (source=data/반도체/원익머트리얼즈/finance/원익머트리얼즈_finance.json, keywords=FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### IP 품질
 - [DIRECT_EVIDENCE] legal_status: status=COLLECTED, count=None, score=0.9333, signal=None (source=data/반도체/원익머트리얼즈/tech/tech_ip_legal_features.json, keywords=legal_status, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)

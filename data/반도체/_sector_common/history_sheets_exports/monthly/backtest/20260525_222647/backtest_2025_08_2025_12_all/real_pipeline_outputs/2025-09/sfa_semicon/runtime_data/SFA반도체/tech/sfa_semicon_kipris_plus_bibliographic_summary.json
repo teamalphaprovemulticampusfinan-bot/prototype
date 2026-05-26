@@ -1,0 +1,44 @@
+{
+  "script": "fetch_kipris_plus_bibliographic.py",
+  "status": "OK",
+  "created_at": "2026-05-20T18:52:26",
+  "field": "반도체",
+  "company_name": "SFA반도체",
+  "company_slug": "sfa_semicon",
+  "tech_dir": "data\\반도체\\SFA반도체\\tech",
+  "has_key": true,
+  "endpoint_count": 1,
+  "endpoints": [
+    "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/applicantNameSearchInfo"
+  ],
+  "key_params_tried": [
+    "accessKey"
+  ],
+  "query_params_tried": [
+    "applicant"
+  ],
+  "query_values": [
+    "SFA반도체",
+    "에스에프에이반도체",
+    "주식회사 에스에프에이반도체",
+    "주식회사 SFA반도체"
+  ],
+  "max_patents": 0,
+  "max_pages": 20,
+  "rows_per_page": 500,
+  "request_count": 3,
+  "rows_after_dedupe": 30,
+  "registered_patents_estimated": 20,
+  "alive_patents_estimated": 9,
+  "output_files": {
+    "raw_jsonl": "data\\반도체\\SFA반도체\\tech\\source\\sfa_semicon_kipris_plus_bibliographic_raw.jsonl",
+    "raw_csv": "data\\반도체\\SFA반도체\\tech\\source\\sfa_semicon_kipris_plus_bibliographic_raw.csv",
+    "normalized_csv": "data\\반도체\\SFA반도체\\tech\\sfa_semicon_kipris_bibliographic_normalized.csv",
+    "patents_csv": "data\\반도체\\SFA반도체\\tech\\sfa_semicon_kipris_patents_normalized.csv",
+    "tech_patent_csv": "data\\반도체\\SFA반도체\\tech\\sfa_semicon_tech_patent_normalized.csv",
+    "request_targets_csv": "data\\반도체\\SFA반도체\\tech\\sfa_semicon_kipris_plus_request_targets.csv",
+    "request_log_json": "data\\반도체\\SFA반도체\\tech\\sfa_semicon_kipris_plus_bibliographic_request_log.json",
+    "summary_json": "data\\반도체\\SFA반도체\\tech\\sfa_semicon_kipris_plus_bibliographic_summary.json",
+    "summary_md": "data\\반도체\\SFA반도체\\tech\\sfa_semicon_kipris_plus_bibliographic_summary.md"
+  }
+}

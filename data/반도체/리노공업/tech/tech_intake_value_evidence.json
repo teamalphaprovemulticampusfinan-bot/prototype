@@ -2,12 +2,12 @@
   "agent": "tech_intake",
   "artifact": "tech_intake_value_evidence_bridge",
   "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-  "created_at": "2026-05-20T22:36:11",
+  "created_at": "2026-05-26T10:54:18",
   "field": "반도체",
   "company": "리노공업",
   "company_dir": "leeno",
   "company_slug": "leeno",
-  "source_document_count": 132,
+  "source_document_count": 150,
   "source_documents": [
     {
       "source_group": "KIPRIS",
@@ -180,7 +180,7 @@
     {
       "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/리노공업/tech/leeno_tech_intake_value_evidence.json",
-      "detected_url_count": 20,
+      "detected_url_count": 14,
       "fallback_url_count": 0
     },
     {
@@ -401,6 +401,30 @@
     },
     {
       "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/리노공업/tech/tech_history_features_2025-08-31.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/리노공업/tech/tech_history_features_2025-08-31.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/리노공업/tech/tech_history_features_2025-09-30.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/리노공업/tech/tech_history_features_2025-09-30.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/리노공업/tech/tech_intake_manifest.json",
       "detected_url_count": 0,
       "fallback_url_count": 2
@@ -414,7 +438,7 @@
     {
       "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/리노공업/tech/tech_intake_value_evidence.json",
-      "detected_url_count": 20,
+      "detected_url_count": 14,
       "fallback_url_count": 0
     },
     {
@@ -659,6 +683,114 @@
     },
     {
       "source_group": "VALUATION",
+      "source_file": "data/반도체/리노공업/valuation/intake/company_profile.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/리노공업/valuation/intake/cross_agent_signals_for_valuation.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/리노공업/valuation/intake/dcf_inputs.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/리노공업/valuation/intake/dilution_events.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/리노공업/valuation/intake/eval_price_history.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/리노공업/valuation/intake/eval_price_history_monthly.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/리노공업/valuation/intake/eval_price_history_monthly_v43.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/리노공업/valuation/intake/eval_price_history_monthly_v44.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/리노공업/valuation/intake/eval_price_history_monthly_v45.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/리노공업/valuation/intake/eval_price_history_v43.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/리노공업/valuation/intake/eval_price_history_v44.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/리노공업/valuation/intake/eval_price_history_v45.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/리노공업/valuation/intake/financials_normalized.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/리노공업/valuation/intake/peer_multiples.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/리노공업/valuation/intake/price_history.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/리노공업/valuation/intake/relative_valuation_inputs.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/리노공업/valuation/intake/shares_outstanding.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/리노공업/valuation/intake/valuation_assumptions.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
       "source_file": "data/반도체/리노공업/valuation/intake/valuation_assumptions.json",
       "detected_url_count": 0,
       "fallback_url_count": 5
@@ -719,12 +851,6 @@
     },
     {
       "source_group": "VALUATION",
-      "source_file": "data/반도체/리노공업/valuation/intake/valuation_raw_dart_accounts.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "VALUATION",
       "source_file": "data/반도체/리노공업/valuation/intake/valuation_reference_universe_208.csv",
       "detected_url_count": 0,
       "fallback_url_count": 5
@@ -738,12 +864,6 @@
     {
       "source_group": "VALUATION",
       "source_file": "data/반도체/리노공업/valuation/intake/valuation_reference_universe_summary.json",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "VALUATION",
-      "source_file": "data/반도체/리노공업/valuation/intake/valuation_share_count.csv",
       "detected_url_count": 0,
       "fallback_url_count": 5
     },
@@ -773,19 +893,7 @@
     },
     {
       "source_group": "FINANCE",
-      "source_file": "data/반도체/리노공업/finance/리노공업_stock.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "FINANCE",
       "source_file": "data/반도체/리노공업/finance/리노공업_재무.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "FINANCE",
-      "source_file": "data/반도체/리노공업/finance/리노공업_재무데이터.csv",
       "detected_url_count": 0,
       "fallback_url_count": 5
     },
@@ -798,8 +906,8 @@
     {
       "source_group": "FINANCE",
       "source_file": "data/반도체/리노공업/finance/intake/finance_intake_manifest.json",
-      "detected_url_count": 1,
-      "fallback_url_count": 0
+      "detected_url_count": 0,
+      "fallback_url_count": 5
     }
   ],
   "source_url_map": {
@@ -904,13 +1012,7 @@
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7260d16ccc6ace7836c4b07ee3d90788e05b6bbfb0fba603bf674216d8e0165f9ad33a9cddfae3a57783b9a4658ab041e060430d733d04113db",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c592fb536ea920a4d13361ea670ead76a532f3c8c9a948014751cf58bff63477a",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c592fb536ea920a4defab6026967b48d3f9ae0dea4818d889076a1d04d6ea6e9e",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c592fb536ea920a4d6a092b69f48fe1243530d0adf7e498f58d779fd206b36849",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9320166a997e8a830b735fe746aff88e0a11f2a3f6613857fcdba38d6d43d8aa7b12b8df5a96e15eaceed3882fa80743cb3a218e9afcddd329",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9320166a997e8a830b735fe746aff88e0a11f2a3f6613857fcdba38d6d43d8aa7be415392aad72894704405fa4d100283adb93fcce55c3eb50",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726f7e7bdc5075b9481f2188ce8c51f15cc44921402b420cd44e1316a42c63b85aea4d2f141fc19ad9a6a8d9eee2cdf7c533503e1ecb48011b7",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726f7e7bdc5075b94810aaab2c0dc04d0868e64991fd350d0d5953bc92184240ff2163394ce7e2d05dae14656f2757d890ca194d62ba1d21b77",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e000441e453fc1a3d06d9802da2fc181caa2c4d65bf9e9a1a652f97463b89f078eea7129eb3ab0533fd3cb81ac87ed4a69d0216d90c31c20e32",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7263dd2def14f5969159fb75df840d446a848eeecaabf2df33037834e38b3cbad362d9d0b57671418284148fe6c548f8280b7e07e9348754c38",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c592fb536",
         "http://www.w3.org/2001/XMLSchema-instance",
         "http://www.nepes.co.kr",
         "https://dart.fss.or.kr/",
@@ -919,12 +1021,13 @@
         "https://plus.kipris.or.kr/",
         "https://www.google.com/search?q=%EB%A6%AC%EB%85%B8%EA%B3%B5%EC%97%85+KIPRIS+%ED%8A%B9%ED%97%88",
         "https://www.google.com/search?q=%EB%A6%AC%EB%85%B8%EA%B3%B5%EC%97%85+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
-        "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
-        "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
         "https://www.google.com/search?q=%EB%A6%AC%EB%85%B8%EA%B3%B5%EC%97%85+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
         "https://www.google.com/search?q=%EB%A6%AC%EB%85%B8%EA%B3%B5%EC%97%85+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
         "https://www.google.com/search?q=%EB%A6%AC%EB%85%B8%EA%B3%B5%EC%97%85+IR",
         "https://www.google.com/search?q=%EB%A6%AC%EB%85%B8%EA%B3%B5%EC%97%85+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+        "https://www.google.com/search?q=%EB%A6%AC%EB%85%B8%EA%B3%B5%EC%97%85+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
+        "https://www.google.com/search?q=%EB%A6%AC%EB%85%B8%EA%B3%B5%EC%97%85+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
+        "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
         "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1126"
       ],
       "fallback_urls": [
@@ -948,12 +1051,12 @@
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93f8ee6873af8eb594bd1ff060b990a828500bf106ec00a5c2db5d721a3f1d646518b1a73dbc89e6620aa6b6c1d05be3478762b58da91ab0b9",
         "https://www.google.com/search?q=%EB%A6%AC%EB%85%B8%EA%B3%B5%EC%97%85+KIPRIS+%ED%8A%B9%ED%97%88",
         "https://www.google.com/search?q=%EB%A6%AC%EB%85%B8%EA%B3%B5%EC%97%85+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
-        "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
-        "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
         "https://www.google.com/search?q=%EB%A6%AC%EB%85%B8%EA%B3%B5%EC%97%85+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
         "https://www.google.com/search?q=%EB%A6%AC%EB%85%B8%EA%B3%B5%EC%97%85+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
         "https://www.google.com/search?q=%EB%A6%AC%EB%85%B8%EA%B3%B5%EC%97%85+IR",
         "https://www.google.com/search?q=%EB%A6%AC%EB%85%B8%EA%B3%B5%EC%97%85+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+        "https://www.google.com/search?q=%EB%A6%AC%EB%85%B8%EA%B3%B5%EC%97%85+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
+        "https://www.google.com/search?q=%EB%A6%AC%EB%85%B8%EA%B3%B5%EC%97%85+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
         "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
         "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9328f5a912c888a1604ff579e87f821b091a0665246f3173a6cae241fd42c7005fb584f7181202ddb2669153aa54387f5f558cf6b7b6d352be",
@@ -989,9 +1092,7 @@
       ]
     },
     "FINANCE": {
-      "detected_urls": [
-        "https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception"
-      ],
+      "detected_urls": [],
       "fallback_urls": [
         "https://dart.fss.or.kr/",
         "https://opendart.fss.or.kr/",
@@ -1338,7 +1439,7 @@
             "매출",
             "성장"
           ],
-          "snippet": "summary: 리노공업은 2023년부터 2025년까지 꾸준한 매출 및 이익 성장을 기록하며 견조한 재무 상태를 유지하고 있습니다.",
+          "snippet": "summary: 리노공업은 2023년 매출이 감소했으나 2024년에는 회복세를 보이며 성장성을 재확인했습니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1356,7 +1457,25 @@
             "매출",
             "성장"
           ],
-          "snippet": "key_thesis: 2023년 2,555억 원에서 2025년 3,725억 원으로 매출이 꾸준히 성장하며 사업 확장세를 보이고 있습니다.",
+          "snippet": "key_thesis: 2024년 매출성장률이 8.85%로 회복되며 이전의 역성장에서 벗어나는 모습을 보였습니다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=%EB%A6%AC%EB%85%B8%EA%B3%B5%EC%97%85+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/리노공업/finance/리노공업_finance.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "매출",
+            "성장"
+          ],
+          "snippet": "key_risks: 2023년 매출성장률이 -20.73%로 큰 폭의 감소를 기록한 점은 잠재적 리스크 요인입니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1392,7 +1511,7 @@
             "매출",
             "성장"
           ],
-          "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수",
+          "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1409,7 +1528,24 @@
           "matched_keywords": [
             "sales"
           ],
-          "snippet": "sales: 372534084608.0",
+          "snippet": "sales: 278186189427.0",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=%EB%A6%AC%EB%85%B8%EA%B3%B5%EC%97%85+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/리노공업/finance/리노공업_finance_agent_packet.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "sales"
+          ],
+          "snippet": "sales_growth: 8.84802060649208",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1426,41 +1562,7 @@
           "matched_keywords": [
             "sales"
           ],
-          "snippet": "year: 2023 | sales: 255573034656.0 | operating_income: 114378400291.0 | net_income: 110923015440.0 | total_assets: 582869465294.0 | total_liabilities: 25795267228.0 | total_equity: 557074198066.0 | rnd: 6303310663 | fcf: 0 | interest: 9431325.0 | ROE: 19.911712986365647 | 영업이익률: 44.75370433541737 | 부채비율: 4.630490393838682 | 이자보상배율: 12127.500673659322",
-          "urls": [],
-          "fallback_urls": [
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "https://comp.fnguide.com/",
-            "https://www.google.com/search?q=%EB%A6%AC%EB%85%B8%EA%B3%B5%EC%97%85+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-          ]
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/리노공업/finance/리노공업_재무.csv",
-          "evidence_level": "DIRECT_EVIDENCE",
-          "matched_keywords": [
-            "sales"
-          ],
-          "snippet": "year: 2024 | sales: 278186189427.0 | operating_income: 124201343872.0 | net_income: 113279046428.0 | total_assets: 657443780756.0 | total_liabilities: 34814668593.0 | total_equity: 622629112163.0 | rnd: 8751091226 | fcf: 0 | interest: 7604344.0 | ROE: 18.193663645837415 | 영업이익률: 44.64684035099887 | 부채비율: 5.5915581062463655 | 이자보상배율: 16332.946520041702",
-          "urls": [],
-          "fallback_urls": [
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "https://comp.fnguide.com/",
-            "https://www.google.com/search?q=%EB%A6%AC%EB%85%B8%EA%B3%B5%EC%97%85+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-          ]
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/리노공업/finance/리노공업_재무.csv",
-          "evidence_level": "DIRECT_EVIDENCE",
-          "matched_keywords": [
-            "sales"
-          ],
-          "snippet": "year: 2025 | sales: 372534084608.0 | operating_income: 176997188289.0 | net_income: 151960670406.0 | total_assets: 791928165325.0 | total_liabilities: 60709212955.0 | total_equity: 731218952370.0 | rnd: 9281876575 | fcf: 0 | interest: 6494324.0 | ROE: 20.781828741373655 | 영업이익률: 47.51167627392961 | 부채비율: 8.302467100754368 | 이자보상배율: 27254.135809824085",
+          "snippet": "year: 2021 | sales: 280166833067.0 | operating_income: 117104353242.0 | net_income: 103805815149.0 | total_assets: 466371034236.0 | total_liabilities: 48667847133.0 | total_equity: 417703187103.0 | current_assets: 335723022270.0 | current_liabilities: 45990326198.0 | fcf: 0 | interest_expense: 7871695.0 | roe: 24.851573642267393 | operating_margin: 41.798078651942106 | current_ratio_%: 729.986173232665 | debt_ratio: ",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1492,7 +1594,7 @@
             "영업이익률",
             "수익성"
           ],
-          "snippet": "특히 높은 영업이익률과 ROE는 수익성을 뒷받침하며, 낮은 부채비율은 재무 안정성을 시사합니다.",
+          "snippet": "영업이익률은 40% 이상으로 매우 높은 수준을 유지하고 있으며, ROE 또한 18% 이상으로 견조한 수익성을 보여주고 있습니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1505,12 +1607,46 @@
         {
           "source_group": "FINANCE",
           "source_file": "data/반도체/리노공업/finance/리노공업_finance.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "영업이익률"
+          ],
+          "snippet": "key_thesis: 영업이익률이 2021년 41.80%에서 2024년 44.65%로 상승하며 높은 수준을 유지하고 있습니다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=%EB%A6%AC%EB%85%B8%EA%B3%B5%EC%97%85+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/리노공업/finance/리노공업_finance.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "수익성"
+          ],
+          "snippet": "key_thesis: ROE는 2021년 24.85%에서 2024년 18.19%로 소폭 하락했으나 여전히 견조한 수익성을 나타냅니다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=%EB%A6%AC%EB%85%B8%EA%B3%B5%EC%97%85+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/리노공업/finance/리노공업_finance_agent_packet.json",
           "evidence_level": "DIRECT_EVIDENCE",
           "matched_keywords": [
             "영업이익률",
             "수익성"
           ],
-          "snippet": "key_thesis: 2023년 44.75%에서 2025년 47.51%로 영업이익률이 지속적으로 상승하며 수익성이 개선되고 있습니다.",
+          "snippet": "report_core_points: 영업이익률: 리노공업 2024 기준 영업이익률 값은 44.65%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1522,13 +1658,12 @@
         },
         {
           "source_group": "FINANCE",
-          "source_file": "data/반도체/리노공업/finance/리노공업_finance.json",
+          "source_file": "data/반도체/리노공업/finance/리노공업_finance_agent_packet.json",
           "evidence_level": "DIRECT_EVIDENCE",
           "matched_keywords": [
-            "현금흐름",
-            "FCF"
+            "수익성"
           ],
-          "snippet": "key_risks: FCF 데이터가 0으로 제공되어 현금흐름 창출 능력을 직접적으로 판단하기 어렵습니다.",
+          "snippet": "report_core_points: ROE: 리노공업 2024 기준 ROE 값은 18.19%이며, 자기자본 대비 수익성 수준을 확인하는 지표입니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1545,7 +1680,7 @@
           "matched_keywords": [
             "FCF"
           ],
-          "snippet": "report_core_points: FCF: 리노공업 2025 기준 FCF 값은 0원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+          "snippet": "report_core_points: FCF: 리노공업 2024 기준 FCF 값은 0원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1562,7 +1697,7 @@
           "matched_keywords": [
             "영업이익률"
           ],
-          "snippet": "missing_prompt_metrics: 영업이익률",
+          "snippet": "label: 영업이익률",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1577,43 +1712,9 @@
           "source_file": "data/반도체/리노공업/finance/리노공업_finance_agent_packet.json",
           "evidence_level": "DIRECT_EVIDENCE",
           "matched_keywords": [
-            "FCF"
+            "영업이익률"
           ],
-          "snippet": "metric: fcf",
-          "urls": [],
-          "fallback_urls": [
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "https://comp.fnguide.com/",
-            "https://www.google.com/search?q=%EB%A6%AC%EB%85%B8%EA%B3%B5%EC%97%85+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-          ]
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/리노공업/finance/리노공업_finance_agent_packet.json",
-          "evidence_level": "DIRECT_EVIDENCE",
-          "matched_keywords": [
-            "FCF"
-          ],
-          "snippet": "label: FCF",
-          "urls": [],
-          "fallback_urls": [
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "https://comp.fnguide.com/",
-            "https://www.google.com/search?q=%EB%A6%AC%EB%85%B8%EA%B3%B5%EC%97%85+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-          ]
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/리노공업/finance/리노공업_finance_agent_packet.json",
-          "evidence_level": "DIRECT_EVIDENCE",
-          "matched_keywords": [
-            "FCF"
-          ],
-          "snippet": "snippet: 리노공업 2025 기준 FCF 값은 0원입니다.",
+          "snippet": "snippet: 리노공업 2024 기준 영업이익률 값은 44.65%입니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",

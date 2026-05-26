@@ -1,0 +1,190 @@
+{
+  "company_dir": "enf_tech",
+  "company": "이엔에프테크놀로지",
+  "created_at": "2026-05-26T02:04:58",
+  "input_patent_csv": "C:\\Agent_6.9\\data\\반도체\\이엔에프테크놀로지\\tech\\source\\enf_tech_kipris_plus_bibliographic_raw.csv",
+  "model_info": {
+    "module": "Tech ML Signal Builder",
+    "algorithm": "TF-IDF + KMeans",
+    "sklearn_available": true,
+    "purpose": "KIPRIS patent portfolio clustering, patent momentum scoring, commercialization watch signal generation"
+  },
+  "tech_ml_label": "COMMERCIALIZATION_WATCH",
+  "tech_ml_label_description": "기술 포트폴리오는 확인되지만 사업화 연결 근거는 추가 확인이 필요한 사업화 추적형입니다.",
+  "patent_ml_score": 53.29,
+  "bridge_score": 0.0,
+  "bridge_label": "",
+  "normalized_patent_records": 30,
+  "company_matched_patents": 30,
+  "registered_patents": 14,
+  "alive_patents": 14,
+  "recent_5y_patents": 17,
+  "recent_5y_ratio": 0.5667,
+  "ipc_cpc_count": 15,
+  "ipc_cpc_examples": [
+    "C07C",
+    "C07D",
+    "C08G",
+    "C09B",
+    "C09C",
+    "C09G",
+    "C09K",
+    "C11D",
+    "C23F",
+    "G02F",
+    "G03F",
+    "G09F",
+    "H10B",
+    "H10K",
+    "H10P"
+  ],
+  "h01l_patents": 0,
+  "patent_year_range": "2014~2026",
+  "technology_keyword_hits": {
+    "반도체": 20,
+    "공정": 14,
+    "디스플레이": 5,
+    "OLED": 1
+  },
+  "technology_keyword_hit_total": 40,
+  "clustering": {
+    "method": "tfidf_kmeans",
+    "sklearn_available": true,
+    "cluster_count": 3,
+    "clusters": [
+      {
+        "cluster_id": 2,
+        "size": 12,
+        "top_terms": [
+          "c11d",
+          "박리액",
+          "포토레지스트",
+          "반도체",
+          "위한",
+          "있다",
+          "h10p",
+          "연마"
+        ],
+        "sample_titles": [
+          "식각액 조성물",
+          "슬러리 및 이를 이용한 연마 방법",
+          "슬러리 및 이를 이용한 연마 방법",
+          "반도체 기판 처리용 조성물",
+          "반도체 기판 세정제 조성물 및 이를 이용한 세정방법"
+        ]
+      },
+      {
+        "cluster_id": 0,
+        "size": 11,
+        "top_terms": [
+          "c23f",
+          "포함하는",
+          "식각액",
+          "감광성",
+          "감광성 수지",
+          "수지",
+          "g03f",
+          "이를 포함하는"
+        ],
+        "sample_titles": [
+          "신규한 중합체 및 이를 포함하는 감광성 수지 조성물",
+          "신규한 중합체 및 이를 포함하는 감광성 수지 조성물",
+          "트리아진 유도체, 이를 포함하는 안료 분산 조제 및 이를 포함하는 안료 분산액",
+          "칼라 필터용 박리액 조성물",
+          "고순도 글리콜계 화합물의 제조방법"
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "size": 7,
+        "top_terms": [
+          "실리콘",
+          "식각",
+          "질화막",
+          "실리콘 질화막",
+          "질화막 식각",
+          "식각 조성물에",
+          "c09k",
+          "식각 조성물"
+        ],
+        "sample_titles": [
+          "폴리실록산계 화합물 및 이를 포함하는 실리콘 질화막 식각 조성물",
+          "실리콘 질화막 식각 조성물 및 이를 이용한 방법",
+          "실리콘 질화막 식각 조성물",
+          "실리콘 질화막 식각 조성물",
+          "실리콘 질화막에 대한 선택적 에칭을 위한 식각 조성물"
+        ]
+      }
+    ],
+    "technology_concentration_index": 0.3489,
+    "feature_count": 1500
+  },
+  "representative_patents": [
+    {
+      "title": "식각 조성물",
+      "application_date": "20230307",
+      "register_date": "20230524",
+      "register_status": "등록",
+      "ipc": "C23F 1/18|C23F 1/26|C23F 1/44|C23F 11/14|C23F 11/16",
+      "applicant": ""
+    },
+    {
+      "title": "포토레지스트 박리액 조성물",
+      "application_date": "20210628",
+      "register_date": "20260420",
+      "register_status": "등록",
+      "ipc": "G03F 7/42|C11D 7/32|C11D 7/50|C11D 11/00",
+      "applicant": ""
+    },
+    {
+      "title": "실리콘 질화막 식각 조성물 및 이를 이용한 방법",
+      "application_date": "20190826",
+      "register_date": "20210525",
+      "register_status": "등록",
+      "ipc": "C09K 13/06|C09K 13/08|H10P 50/00|H10P 50/26",
+      "applicant": ""
+    },
+    {
+      "title": "실리콘 질화막 식각 조성물",
+      "application_date": "20190430",
+      "register_date": "20210531",
+      "register_status": "등록",
+      "ipc": "C09K 13/06|C09K 13/08|H10P 50/00",
+      "applicant": ""
+    },
+    {
+      "title": "폴리실록산계 화합물 및 이를 포함하는 실리콘 질화막 식각 조성물",
+      "application_date": "20180615",
+      "register_date": "20210504",
+      "register_status": "등록",
+      "ipc": "C08G 77/28|C09K 13/06|C09K 13/08|C08G 77/26",
+      "applicant": ""
+    }
+  ],
+  "commercialization_score": 80.0,
+  "commercialization_level": "STRONG",
+  "commercialization_keyword_hits": 331,
+  "commercialization_keywords": {
+    "고객": 32,
+    "채택": 6,
+    "양산": 16,
+    "공급": 1,
+    "매출": 18,
+    "실적": 1,
+    "FCF": 4,
+    "현금흐름": 1,
+    "revenue": 1
+  },
+  "chair_reflection_points": [
+    "Tech ML 판정은 COMMERCIALIZATION_WATCH이며, 기존 Tech-to-Value Bridge 판정과 함께 기술 섹션의 보조 신호로 사용합니다.",
+    "특허 클러스터링 결과는 핵심 기술 축과 기술 포트폴리오 집중도를 설명하는 근거로 반영합니다.",
+    "최근 5년 특허와 등록·존속 가능 특허는 기술 지속성 및 진입장벽의 보조 지표로 활용합니다.",
+    "고객 채택, 양산, 매출 전환, FCF 개선 근거가 약하면 기술 점수만으로 매수 의견을 강화하지 않습니다.",
+    "기술성은 확인되지만 사업화 연결 근거를 계속 확인해야 하므로 Chair는 관찰형 보조 신호로 반영해야 합니다."
+  ],
+  "notes": [
+    "Tech ML은 특허 텍스트, 초록, IPC/CPC, 등록상태, 최근 출원 흐름을 기반으로 기술 포트폴리오를 구조화합니다.",
+    "특허 수와 클러스터 수는 기술 지속성의 보조 근거이며, 단독으로 매출 성장이나 주가 상승을 의미하지 않습니다.",
+    "사업화 판단은 고객 채택, 양산, 매출 전환, FCF 개선 근거와 함께 해석해야 합니다."
+  ]
+}

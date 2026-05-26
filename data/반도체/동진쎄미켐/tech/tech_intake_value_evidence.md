@@ -1,10 +1,10 @@
 # 동진쎄미켐 Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-20T22:20:54
+- 생성 시각: 2026-05-26T07:24:23
 - 종합 점수: 79.77/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 132개
+- 원천 문서 수: 153개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -32,18 +32,18 @@
 - [DIRECT_EVIDENCE] - 기술 우위가 확인되어도 고객 채택·양산·매출 전환·FCF 직접 근거가 약하면 보수적으로 반영합니다. (source=data/반도체/동진쎄미켐/tech/_nepes_reference_schema/nepes_tech_chair_summary.md, keywords=양산, urls=http://www.w3.org/2001/XMLSchema-instance, http://www.nepes.co.kr)
 
 ### 매출 전환
-- [DIRECT_EVIDENCE] summary: 동진쎄미켐은 2024년 매출 및 영업이익이 성장했으나, 2025년에는 매출이 감소하고 영업이익률은 소폭 하락할 것으로 전망된다. (source=data/반도체/동진쎄미켐/finance/동진쎄미켐_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년 매출액은 1조 4,081억원으로 전년 대비 7.5% 증가하며 성장세를 이어갔다. (source=data/반도체/동진쎄미켐/finance/동진쎄미켐_finance.json, keywords=매출, 매출액, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_risks: 2025년 매출액은 1조 1,941억원으로 전년 대비 15.2% 감소할 것으로 전망되어 성장세 둔화가 우려된다. (source=data/반도체/동진쎄미켐/finance/동진쎄미켐_finance.json, keywords=매출, 매출액, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: 동진쎄미켐은 2022년 높은 매출 성장률을 기록했으나 2023년에는 역성장을 보였고, 2024년에는 다시 성장세로 전환되었다. (source=data/반도체/동진쎄미켐/finance/동진쎄미켐_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2022년 25.48%의 높은 매출 성장률을 기록했으며, 2024년에는 7.50%의 성장률로 다시 성장세로 전환되었다. (source=data/반도체/동진쎄미켐/finance/동진쎄미켐_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2023년 매출 성장률이 -10.11%로 역성장을 기록한 점은 향후 성장성에 대한 불확실성을 내포한다. (source=data/반도체/동진쎄미켐/finance/동진쎄미켐_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] missing_prompt_metrics: 매출성장률 (source=data/반도체/동진쎄미켐/finance/동진쎄미켐_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수 (source=data/반도체/동진쎄미켐/finance/동진쎄미켐_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률 (source=data/반도체/동진쎄미켐/finance/동진쎄미켐_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### 마진·원가·현금흐름 연결
-- [DIRECT_EVIDENCE] summary: 동진쎄미켐은 2024년 매출 및 영업이익이 성장했으나, 2025년에는 매출이 감소하고 영업이익률은 소폭 하락할 것으로 전망된다. (source=data/반도체/동진쎄미켐/finance/동진쎄미켐_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년 영업이익률은 14.8%로 전년 대비 1.3%p 상승하며 수익성이 개선되었다. (source=data/반도체/동진쎄미켐/finance/동진쎄미켐_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_risks: 2025년 ROE는 8.5%로 전년 대비 크게 하락할 것으로 예상되어 수익성 악화 가능성이 있다. (source=data/반도체/동진쎄미켐/finance/동진쎄미켐_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_risks: 2023년 FCF는 -1,692억원으로 마이너스를 기록했으며, 2024년에는 513억원으로 흑자전환했으나 2025년에는 1,098억원으로 다시 증가할 것으로 예상되어 투자 및 운영 자금 소요를 확인해야 한다. (source=data/반도체/동진쎄미켐/finance/동진쎄미켐_finance.json, keywords=FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] report_core_points: FCF: 동진쎄미켐 2025 기준 FCF 값은 109,848,775,204원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다. (source=data/반도체/동진쎄미켐/finance/동진쎄미켐_finance_agent_packet.json, keywords=FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] 영업이익률은 2022년 최고치를 기록한 후 소폭 하락했으나 여전히 높은 수준을 유지하고 있으며, ROE 역시 2022년 이후 하락세를 보이고 있다. (source=data/반도체/동진쎄미켐/finance/동진쎄미켐_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 영업이익률은 2022년 14.84%에서 2024년 14.79%로 소폭 하락했으나 높은 수준을 유지하고 있다. (source=data/반도체/동진쎄미켐/finance/동진쎄미켐_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2022년 953억 원을 기록했던 잉여현금흐름(FCF)은 2024년 514억 원으로 감소했으나 양수 값을 유지하고 있다. (source=data/반도체/동진쎄미켐/finance/동진쎄미켐_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2023년 1693억 원의 마이너스(-) 잉여현금흐름(FCF)은 투자 및 운영 자금 소요가 현금 창출 능력을 초과했음을 시사한다. (source=data/반도체/동진쎄미켐/finance/동진쎄미켐_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2023년 35.09억 원, 2024년 161.67억 원의 R&D 투자는 딥테크 기업으로서 성장을 위한 필수 요소이나, 단기 수익성에 미치는 영향은 추가 분석이 필요하다. (source=data/반도체/동진쎄미켐/finance/동진쎄미켐_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### IP 품질
 - [DIRECT_EVIDENCE] legal_status: status=COLLECTED, count=None, score=0.4804, signal=None (source=data/반도체/동진쎄미켐/tech/dongjin_semichem_tech_ip_legal_features.json, keywords=legal_status, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)

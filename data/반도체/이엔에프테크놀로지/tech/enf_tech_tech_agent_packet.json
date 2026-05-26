@@ -3,6 +3,51 @@
   "company": "이엔에프테크놀로지",
   "company_dir": "enf_tech",
   "opinion": "보유",
+  "tech_signal": 0.335791,
+  "history_tech_feature": {
+    "signal": 0.335791,
+    "status": "OK_TECH_HISTORY_ASOF",
+    "source": "C:\\Agent_6.9\\data\\반도체\\이엔에프테크놀로지\\tech\\tech_history_features_2025-08-31.csv;C:\\Agent_6.9\\data\\반도체\\이엔에프테크놀로지\\tech\\enf_tech_kipris_patents_normalized.csv;C:\\Agent_6.9\\data\\반도체\\이엔에프테크놀로지\\tech\\enf_tech_tech_patent_normalized.csv;C:\\Agent_6.9\\data\\반도체\\이엔에프테크놀로지\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\이엔에프테크놀로지\\tech\\enf_tech_kipris_bibliographic_normalized.csv;C:\\Agent_6.9\\data\\반도체\\이엔에프테크놀로지\\tech\\enf_tech_kipris_claims_normalized.csv;C:\\Agent_6.9\\data\\반도체\\이엔에프테크놀로지\\tech\\enf_tech_kipris_plus_claim_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\이엔에프테크놀로지\\tech\\enf_tech_kipris_plus_family_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\이엔에프테크놀로지\\tech\\enf_tech_kipris_plus_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\이엔에프테크놀로지\\tech\\enf_tech_kipris_tech_ml_enriched.csv;C:\\Agent_6.9\\data\\반도체\\이엔에프테크놀로지\\tech\\source\\enf_tech_kipris_plus_bibliographic_raw.csv;C:\\Agent_6.9\\data\\반도체\\이엔에프테크놀로지\\tech\\quanified_metrix.csv",
+    "as_of_date": "2025-09-30",
+    "company": "이엔에프테크놀로지",
+    "ticker": "102710.KQ",
+    "stock_code": "102710",
+    "base_signal": 0.352226,
+    "evidence_confidence": 0.78678,
+    "commercialization_gate_signal": 0.234666,
+    "technology_risk_penalty": 0.0,
+    "ip_quality_signal": 0.19863,
+    "lifecycle_signal": 0.0,
+    "technology_differentiation_signal": 0.113266,
+    "commercialization_signal": 0.938664,
+    "rnd_sustainability_signal": 0.473365,
+    "peer_position_signal": -0.209524,
+    "tech_to_value_signal": 0.598955,
+    "certification_signal": 0.0,
+    "qualification_signal": 0.0,
+    "cost_yield_signal": 0.0,
+    "workforce_signal": 0.0,
+    "government_rd_signal": 0.0,
+    "licensing_signal": 0.0,
+    "dispute_risk_signal": 0.0,
+    "failure_delay_signal": 0.0,
+    "intangible_accounting_signal": 0.0,
+    "patent_records_asof": 690,
+    "dated_records_asof": 276,
+    "undated_records_used": 481,
+    "files_used": 74,
+    "notes": "Tech history signal uses dated patent/IP, TRL/readiness, certification, qualification, commercialization, R&D/workforce, risk and accounting evidence before as_of_date; no Buy/Hold/Sell threshold is applied.",
+    "frequency": "monthly",
+    "formula": "final=base_signal*evidence_confidence + 0.25*commercialization_gate_signal - 0.35*technology_risk_penalty",
+    "research_basis": [
+      "Hall-Jaffe-Trajtenberg patent citations/value; Lanjouw-Schankerman patent quality; OECD patent quality composite indicators",
+      "DoD/NASA TRL and TRA maturity framework",
+      "IFC/Bpifrance deep-tech development-stage financing framework",
+      "Text-based industry/technology relatedness literature for peer/differentiation evidence"
+    ],
+    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\이엔에프테크놀로지\\tech\\tech_history_features_2025-09-30.json",
+    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\이엔에프테크놀로지\\tech\\tech_history_features_2025-09-30.csv"
+  },
   "claims": [
     {
       "claim_id": "tech.cl.000",
@@ -101,63 +146,63 @@
     {
       "title": "이엔에프테크놀로지 KIPRIS/특허 정량화 요약",
       "url": "",
-      "path": "data\\반도체\\이엔에프테크놀로지\\tech\\source\\enf_tech_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\이엔에프테크놀로지\\tech\\source\\enf_tech_kipris_plus_bibliographic_raw.csv",
       "snippet": "이엔에프테크놀로지 KIPRIS/특허 정량화 요약 본 특허 근거는 KIPRIS API/CSV/엑셀/TXT 원천 파일을 정규화해 산출했다. [정량 지표] - 특허 원천 파일 수: 1개 - 정규화 특허 레코드 수: 30건 - 출원인/권리자 회사 매칭 특허 수: 30건 - 등록 특허 수: 14건 - 존속 가능 특허 수: 14건 - 최근 5년 특허 수: 17건 - IPC/CPC 기술분류 수: 15개 - H01L 반도체 IPC 특허 수: 0건 - 반도체 핵심 IPC 특허 수: 17건 - 특허-기술 키워드 매칭 수: 44회 - 특허 포트폴리오 연도 범위: 2014~2026 - KIPRIS 총 특허 수: 30.0건 - KIPRIS 등",
       "relevance_score": 30
     },
     {
       "title": "포토레지스트 박리액 조성물",
       "url": "",
-      "path": "data\\반도체\\이엔에프테크놀로지\\tech\\source\\enf_tech_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\이엔에프테크놀로지\\tech\\source\\enf_tech_kipris_plus_bibliographic_raw.csv",
       "snippet": "포토레지스트 박리액 조성물 | 주식회사 이엔에프테크놀로지 | 등록 | 2021 | 출원번호 1020210083719; 등록번호 1029565340000 | IPC/CPC: G03F, C11D | 기술매칭: 공정, 반도체, 소자 | 초록: 본 발명은 반도체 소자를 제조하는 공정 중에서 포토레지스트를 제거하기 위해 사용되는 박리액 조성물에 관한다. 본 발명에 따르면, 포토레지스트의 박리력을 향상시키면서 하부막의 부식을 방지하고, 조성물의 경시 변화 안정성을 향상시킬 수 있다.",
       "relevance_score": 78.0
     },
     {
       "title": "반도체 기판 처리용 조성물",
       "url": "",
-      "path": "data\\반도체\\이엔에프테크놀로지\\tech\\source\\enf_tech_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\이엔에프테크놀로지\\tech\\source\\enf_tech_kipris_plus_bibliographic_raw.csv",
       "snippet": "반도체 기판 처리용 조성물 | 주식회사 이엔에프테크놀로지 | 공개 | 2021 | 출원번호 1020210097192 | IPC/CPC: C09K, C11D, H10P | 기술매칭: 수율, 공정, 기판, 반도체, 웨이퍼 | 초록: 본 발명은 반도체 기판 처리용 조성물에 관한 것으로, 폴리실라잔이 코팅된 웨이퍼의 가장자리 부분을 처리하기 위한 조성물에 관한다. 본 발명에 따른 반도체 기판 처리용 조성물에 따르면, 관리 면에서 조성물의 품질을 균일하게 유지할 수 있고, 공정 면에서 웨이퍼의 경계면을 균일하게 처리할 수 있다. 또한, 폴리실라잔이 제거된 경계부의 직진성을 향상시킴으로 인하여 제품의 불량율을 현저히 감소시키고",
       "relevance_score": 75.5
     },
     {
       "title": "반도체 기판 세정제 조성물 및 이를 이용한 세정방법",
       "url": "",
-      "path": "data\\반도체\\이엔에프테크놀로지\\tech\\source\\enf_tech_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\이엔에프테크놀로지\\tech\\source\\enf_tech_kipris_plus_bibliographic_raw.csv",
       "snippet": "반도체 기판 세정제 조성물 및 이를 이용한 세정방법 | 주식회사 이엔에프테크놀로지|에스케이하이닉스 주식회사 | 공개 | 2022 | 출원번호 1020220137664 | IPC/CPC: C11D, H10P | 기술매칭: 수율, 공정, 기판, 반도체, 소자 | 초록: 본 발명은 반도체 기판 세정제 조성물 및 이를 이용한 반도체 기판 세정방법에 관한 것으로서, 화학식 1로 표시되는 실리콘계 화합물 및 유전상수가 10 이하인 비양성자성 유기용매를 포함함으로써, 고 종횡비를 가지는 미세패턴의 수세 세정공정에도 패턴의 무너짐을 방지할 수 있는 표면 보호막을 형성할 수 있고, 이에 따라 반도체 제조 수율을 개선한 반도체 소자 제조",
       "relevance_score": 74.0
     },
     {
       "title": "칼라 필터용 박리액 조성물",
       "url": "",
-      "path": "data\\반도체\\이엔에프테크놀로지\\tech\\source\\enf_tech_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\이엔에프테크놀로지\\tech\\source\\enf_tech_kipris_plus_bibliographic_raw.csv",
       "snippet": "칼라 필터용 박리액 조성물 | 주식회사 이엔에프테크놀로지 | 등록 | 2016 | 출원번호 1020160070066; 등록번호 1025402530000 | IPC/CPC: G03F, C11D, C07D | 기술매칭: 공정, 기판 | 초록: 본 발명에 따른 칼라 필터용 박리액 조성물은 칼라 레지스트를 빠른 시간 내 효율적으로 제거함과 동시에 칼라 필터 제거 공정 중 노출되는 금속배선의 손상을 최소화 할 수 있어, 칼라 필터 공정 중 발생되는 불량 기판의 재활용을 가능케 한다.",
       "relevance_score": 72.5
     },
     {
       "title": "실리콘 질화막 식각 조성물 및 이를 이용한 방법",
       "url": "",
-      "path": "data\\반도체\\이엔에프테크놀로지\\tech\\source\\enf_tech_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\이엔에프테크놀로지\\tech\\source\\enf_tech_kipris_plus_bibliographic_raw.csv",
       "snippet": "실리콘 질화막 식각 조성물 및 이를 이용한 방법 | 주식회사 이엔에프테크놀로지 | 등록 | 2019 | 출원번호 1020190104332; 등록번호 1022583070000 | IPC/CPC: C09K, H10P | 기술매칭: 반도체, 소자 | 초록: 본 발명은 실리콘 질화막 식각 조성물에 관한 것으로, 보다 구체적으로 폴리규소 화합물을 식각 조성물에 포함함으로써 실리콘 질화막을 실리콘 산화막 대비 높은 선택비로 식각할 수 있는 실리콘 질화막용 식각 조성물, 이를 이용한 실리콘 질화막의 식각 방법 및 반도체 소자의 제조방법에 관한 것이다.",
       "relevance_score": 71.0
     },
     {
       "title": "실리콘 질화막 식각 조성물",
       "url": "",
-      "path": "data\\반도체\\이엔에프테크놀로지\\tech\\source\\enf_tech_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\이엔에프테크놀로지\\tech\\source\\enf_tech_kipris_plus_bibliographic_raw.csv",
       "snippet": "실리콘 질화막 식각 조성물 | 주식회사 이엔에프테크놀로지 | 등록 | 2018 | 출원번호 1020180103854; 등록번호 1022582960000 | IPC/CPC: C09K, H10P | 기술매칭: 반도체, 소자 | 초록: 본 발명은 실리콘 질화막 식각 조성물에 관한 것으로, 보다 구체적으로 서로 다른 2종의 단량체로부터 유도되는 구조단위를 포함하는 공중합체를 식각 조성물에 포함함으로써 실리콘 질화막을 실리콘 산화막 대비 높은 선택비로 식각할 수 있는 실리콘 질화막용 식각 조성물과 이를 이용한 실리콘 질화막의 식각 방법, 및 반도체 소자의 제조방법에 관한 것이다.",
       "relevance_score": 71.0
     },
     {
       "title": "실리콘 질화막 식각 조성물",
       "url": "",
-      "path": "data\\반도체\\이엔에프테크놀로지\\tech\\source\\enf_tech_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\이엔에프테크놀로지\\tech\\source\\enf_tech_kipris_plus_bibliographic_raw.csv",
       "snippet": "실리콘 질화막 식각 조성물 | 주식회사 이엔에프테크놀로지 | 등록 | 2019 | 출원번호 1020190050216; 등록번호 1022607430000 | IPC/CPC: C09K, H10P | 기술매칭: 반도체, 소자 | 초록: 본 발명은 실리콘 질화막 식각 조성물에 관한 것으로, 보다 구체적으로 인산, 메타인산 및 규소계 화합물을 포함함으로써 실리콘 질화막을 실리콘 산화막 대비 높은 선택비로 식각할 수 있으며, 소자 특성에 악영향을 미치는 파티클 발생 등의 문제점을 갖지 않는 고선택비의 실리콘 질화막용 식각 조성물, 이를 이용한 실리콘 질화막의 식각 방법 및 반도체 소자의 제조방법에 관한 것이다.",
       "relevance_score": 71.0
     },
     {
       "title": "실리콘 질화막 식각 조성물",
       "url": "",
-      "path": "data\\반도체\\이엔에프테크놀로지\\tech\\source\\enf_tech_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\이엔에프테크놀로지\\tech\\source\\enf_tech_kipris_plus_bibliographic_raw.csv",
       "snippet": "실리콘 질화막 식각 조성물 | 주식회사 이엔에프테크놀로지 | 등록 | 2018 | 출원번호 1020180072689; 등록번호 1022583160000 | IPC/CPC: C09K, H10P | 기술매칭: 공정, 반도체 | 초록: 본 발명은 실리콘 질화막 식각 조성물에 관한 것으로, 보다 구체적으로 2종의 서로 다른 규소계 화합물을 식각 조성물에 포함함으로써, 실리콘 산화막 대비 실리콘 질화막을 선택적으로 식각할 수 있으며, 그 식각 선택비가 현저하고, 식각 공정 및 반도체 제조 공정에 사용될 시, 석출물의 발생이 억제되고 실리콘 산화막을 포함한 주변에 존재하는 다른 막의 이상성장을 줄이는 데 탁월한 효과를 제공할 수",
       "relevance_score": 71.0
     }
@@ -393,7 +438,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\이엔에프테크놀로지\\tech\\enf_tech_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\이엔에프테크놀로지\\tech\\enf_tech_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-20T22:23:08",
+      "generated_at": "2026-05-26T07:49:12",
       "core_counts": {
         "total_patents": 30,
         "registered_patents_estimated": 14,
@@ -474,7 +519,7 @@
   "tech_chair_summary": {
     "agent": "tech",
     "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-    "created_at": "2026-05-20T22:24:56",
+    "created_at": "2026-05-26T07:51:07",
     "field": "반도체",
     "company": "이엔에프테크놀로지",
     "company_name": "이엔에프테크놀로지",
@@ -506,17 +551,17 @@
       "ip_evidence_composite_bridge_signal": "IP_EVIDENCE_NEUTRAL",
       "ip_evidence_composite_adjustment_points": 0.0,
       "ip_evidence_composite_data_coverage_rate": 1.0,
-      "ip_evidence_composite_source_file": "data/반도체/이엔에프테크놀로지/tech/tech_ip_evidence_composite.json",
+      "ip_evidence_composite_source_file": "C:/Agent_6.9/data/반도체/이엔에프테크놀로지/tech/tech_ip_evidence_composite.json",
       "peer_adjusted_bridge_score_before_ip_evidence": 39.0,
       "final_bridge_score_after_ip_evidence": 39.0,
       "ip_evidence_adjusted_score": 39.0,
       "ip_evidence_formula": "final_bridge_score_after_ip_evidence = peer_adjusted_bridge_score_before_ip_evidence + ip_evidence_composite_adjustment_points",
       "ip_evidence_adjusted_grade": "TECH_EVIDENCE_WEAK",
-      "investor_final_tech_score": 45.37,
+      "investor_final_tech_score": 55.77,
       "investor_final_tech_grade": {
-        "code": "EVIDENCE_WEAK_OR_EARLY",
-        "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
-        "threshold": 0.0
+        "code": "COMMERCIALIZATION_WATCH",
+        "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+        "threshold": 52.0
       },
       "value_evidence_score": 80.74,
       "value_evidence_label": "VALUE_EVIDENCE_STRONG"
@@ -580,14 +625,14 @@
       }
     ],
     "ip_quant_signals": {
-      "normalized_patent_text_records": 673,
-      "company_matched_patents": 415,
+      "normalized_patent_text_records": 2233,
+      "company_matched_patents": 1975,
       "registered_patents": 170,
-      "alive_patents": 415,
-      "recent_5y_patents": 17,
+      "alive_patents": 1975,
+      "recent_5y_patents": 1560,
       "ipc_cpc_classes": 4,
       "core_ipc_h01l_patents": null,
-      "keyword_matches": 602
+      "keyword_matches": 9962
     },
     "selected_ml": {
       "peer_ml": {
@@ -597,9 +642,9 @@
         "cluster_name": null
       },
       "tech_ip_strength": {
-        "score": 60.64,
+        "score": 74.58,
         "percentile": 50.0,
-        "patent_momentum_score": 3.07,
+        "patent_momentum_score": 84.24,
         "dominant_topic": null
       },
       "technology_differentiation": {
@@ -923,15 +968,15 @@
       "ip_evidence_bridge_signal": "IP_EVIDENCE_NEUTRAL",
       "ip_evidence_bridge_adjustment_points": 0.0,
       "final_bridge_score_after_ip_evidence": 39.0,
-      "investor_final_tech_score": 45.37,
+      "investor_final_tech_score": 55.77,
       "investor_final_tech_grade": {
-        "code": "EVIDENCE_WEAK_OR_EARLY",
-        "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
-        "threshold": 0.0
+        "code": "COMMERCIALIZATION_WATCH",
+        "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+        "threshold": 52.0
       },
       "investor_evidence_count": 9,
-      "excel_quantified_evidence_score": 45.0,
-      "commercialization_and_funding_signal_score": 49.5
+      "excel_quantified_evidence_score": 90.0,
+      "commercialization_and_funding_signal_score": 63.5
     },
     "ip_legal_features": {
       "total_patents": 30,
@@ -1364,7 +1409,7 @@
       "company_name": "이엔에프테크놀로지",
       "field": "반도체",
       "status": "OK",
-      "created_at": "2026-05-20T22:24:30",
+      "created_at": "2026-05-26T07:49:13",
       "weights": {
         "legal_stability": 0.25,
         "claim_defense": 0.3,
@@ -1460,17 +1505,17 @@
       "tech_full_appendix_json": ""
     },
     "ip_evidence_bridge_adjustment_status": "APPLIED",
-    "ip_evidence_bridge_adjustment_applied_at": "2026-05-20T22:24:57",
+    "ip_evidence_bridge_adjustment_applied_at": "2026-05-26T07:51:25",
     "tech_investor_view": {
       "version": "tech-investor-scorecard-v2",
-      "generated_at": "2026-05-20T22:25:07",
+      "generated_at": "2026-05-26T07:52:20",
       "company_slug": "enf_tech",
       "company_name": "이엔에프테크놀로지",
-      "final_tech_investor_score": 45.37,
+      "final_tech_investor_score": 55.77,
       "final_tech_investor_grade": {
-        "code": "EVIDENCE_WEAK_OR_EARLY",
-        "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
-        "threshold": 0.0
+        "code": "COMMERCIALIZATION_WATCH",
+        "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+        "threshold": 52.0
       },
       "score_policy": {
         "description": "개인투자자용 최종 Tech 점수는 기술-사업화 연결 가능성, IP 품질, Excel/DART 정량 근거, 근거 신뢰도, 딥테크 성장투자 지속성을 하나로 합성한다.",
@@ -1630,53 +1675,54 @@
         },
         "excel_quantified_evidence": {
           "label": "Excel 기반 정량 근거",
-          "score": 45.0,
+          "score": 90.0,
           "weight": 0.15,
           "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지",
           "meta": {
-            "score": 45.0,
-            "company_item_count": 8,
-            "filled_count": 0,
+            "score": 90.0,
+            "company_item_count": 22,
+            "filled_count": 22,
             "metric_row_count": 0,
-            "numeric_signal_count": 0,
-            "category_count": 7,
+            "numeric_signal_count": 120,
+            "category_count": 8,
             "unique_metric_count": 0,
             "formula_rule_count": 0,
-            "coverage_ratio": 0.0,
-            "numeric_density": 0.0
+            "coverage_ratio": 1.0,
+            "numeric_density": 5.4545
           }
         },
         "evidence_confidence": {
           "label": "근거 직접성·충분성",
-          "score": 45.0,
+          "score": 60.0,
           "weight": 0.15,
           "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성",
           "meta": {
-            "score": 45.0,
+            "score": 60.0,
             "evidence_count": 4,
             "claim_count": 4,
             "patent_count": 30,
-            "excel_coverage_ratio": 0.0
+            "excel_coverage_ratio": 1.0
           }
         },
         "commercialization_and_funding_signal": {
           "label": "사업화·성장자금 지속성",
-          "score": 49.5,
+          "score": 63.5,
           "weight": 0.1,
           "meaning": "R&D·특허·정부과제·기술이전·CAPEX/희석성 자금조달이 사업화와 연결되는 정도",
           "meta": {
-            "score": 49.5,
-            "detected_signal_groups": [],
+            "score": 63.5,
+            "detected_signal_groups": [
+              "commercial"
+            ],
             "detected_flags": {
               "rd": false,
-              "commercial": false,
+              "commercial": true,
               "government": false,
               "transfer": false,
               "funding": false
             },
             "recent_5y_patents": null,
             "warnings": [
-              "customer_mass_production_revenue_signal_limited",
               "rd_or_recent_patent_continuity_limited",
               "capital_raising_signal_not_explicitly_detected"
             ],
@@ -1704,31 +1750,31 @@
         {
           "component": "excel_quantified_evidence",
           "label": "Excel 기반 정량 근거",
-          "score": 45.0,
+          "score": 90.0,
           "weight": 0.15,
-          "weighted_score": 6.75,
+          "weighted_score": 13.5,
           "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지"
         },
         {
           "component": "evidence_confidence",
           "label": "근거 직접성·충분성",
-          "score": 45.0,
+          "score": 60.0,
           "weight": 0.15,
-          "weighted_score": 6.75,
+          "weighted_score": 9.0,
           "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성"
         },
         {
           "component": "commercialization_and_funding_signal",
           "label": "사업화·성장자금 지속성",
-          "score": 49.5,
+          "score": 63.5,
           "weight": 0.1,
-          "weighted_score": 4.95,
+          "weighted_score": 6.35,
           "meaning": "R&D·특허·정부과제·기술이전·CAPEX/희석성 자금조달이 사업화와 연결되는 정도"
         }
       ],
       "key_takeaways": [
-        "이엔에프테크놀로지의 개인투자자용 Tech 최종 점수는 45.37/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
-        "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(56.61) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+        "이엔에프테크놀로지의 개인투자자용 Tech 최종 점수는 55.77/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
+        "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(56.61) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
         "투자자가 확인할 핵심 근거는 9개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
       ],
       "investor_evidence": [
@@ -1795,7 +1841,7 @@
         {
           "source": "tech_summary",
           "title": "Tech Agent 핵심 해석",
-          "detail": "이엔에프테크놀로지의 개인투자자용 Tech 최종 점수는 45.37/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
+          "detail": "이엔에프테크놀로지의 개인투자자용 Tech 최종 점수는 54.37/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
           "value": null,
           "unit": null,
           "path": null,
@@ -1805,7 +1851,7 @@
         {
           "source": "tech_summary",
           "title": "Tech Agent 핵심 해석",
-          "detail": "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(56.61) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+          "detail": "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(56.61) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
           "value": null,
           "unit": null,
           "path": null,
@@ -1845,21 +1891,22 @@
       }
     },
     "key_takeaways": [
-      "이엔에프테크놀로지의 개인투자자용 Tech 최종 점수는 45.37/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
-      "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(56.61) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+      "이엔에프테크놀로지의 개인투자자용 Tech 최종 점수는 55.77/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
+      "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(56.61) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
       "투자자가 확인할 핵심 근거는 9개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다.",
+      "이엔에프테크놀로지의 개인투자자용 Tech 최종 점수는 54.37/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
       "투자자가 확인할 핵심 근거는 6개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
     ],
     "value_evidence_bridge": {
       "agent": "tech_intake",
       "artifact": "tech_intake_value_evidence_bridge",
       "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-      "created_at": "2026-05-20T22:25:04",
+      "created_at": "2026-05-26T07:52:19",
       "field": "반도체",
       "company": "이엔에프테크놀로지",
       "company_dir": "enf_tech",
       "company_slug": "enf_tech",
-      "source_document_count": 132,
+      "source_document_count": 155,
       "source_documents": [
         {
           "source_group": "KIPRIS",
@@ -2032,7 +2079,7 @@
         {
           "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/이엔에프테크놀로지/tech/enf_tech_tech_intake_value_evidence.json",
-          "detected_url_count": 20,
+          "detected_url_count": 7,
           "fallback_url_count": 0
         },
         {
@@ -2253,6 +2300,30 @@
         },
         {
           "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/이엔에프테크놀로지/tech/tech_history_features_2025-08-31.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/이엔에프테크놀로지/tech/tech_history_features_2025-08-31.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/이엔에프테크놀로지/tech/tech_history_features_2025-09-30.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/이엔에프테크놀로지/tech/tech_history_features_2025-09-30.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/이엔에프테크놀로지/tech/tech_intake_manifest.json",
           "detected_url_count": 0,
           "fallback_url_count": 2
@@ -2266,7 +2337,7 @@
         {
           "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/이엔에프테크놀로지/tech/tech_intake_value_evidence.json",
-          "detected_url_count": 20,
+          "detected_url_count": 7,
           "fallback_url_count": 0
         },
         {
@@ -2511,6 +2582,120 @@
         },
         {
           "source_group": "VALUATION",
+          "source_file": "data/반도체/이엔에프테크놀로지/valuation/intake/company_profile.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/이엔에프테크놀로지/valuation/intake/cross_agent_signals_for_valuation.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/이엔에프테크놀로지/valuation/intake/dcf_inputs.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/이엔에프테크놀로지/valuation/intake/dilution_events.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/이엔에프테크놀로지/valuation/intake/eval_price_history.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/이엔에프테크놀로지/valuation/intake/eval_price_history_monthly.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/이엔에프테크놀로지/valuation/intake/eval_price_history_monthly_v43.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/이엔에프테크놀로지/valuation/intake/eval_price_history_monthly_v44.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/이엔에프테크놀로지/valuation/intake/eval_price_history_monthly_v45.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/이엔에프테크놀로지/valuation/intake/eval_price_history_v43.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/이엔에프테크놀로지/valuation/intake/eval_price_history_v44.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/이엔에프테크놀로지/valuation/intake/eval_price_history_v45.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/이엔에프테크놀로지/valuation/intake/financials_normalized.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/이엔에프테크놀로지/valuation/intake/financials_raw.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/이엔에프테크놀로지/valuation/intake/peer_multiples.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/이엔에프테크놀로지/valuation/intake/price_history.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/이엔에프테크놀로지/valuation/intake/relative_valuation_inputs.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/이엔에프테크놀로지/valuation/intake/shares_outstanding.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/이엔에프테크놀로지/valuation/intake/valuation_assumptions.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
           "source_file": "data/반도체/이엔에프테크놀로지/valuation/intake/valuation_assumptions.json",
           "detected_url_count": 0,
           "fallback_url_count": 5
@@ -2740,28 +2925,23 @@
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93ebdc161471941bee33c9128a1fe6681e318cbd150bb0a976e16c72bd4358271e74b2f289e3e847a58deaaa6abe5376b5a6cc84ab6f950d5a",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9355b1c9ef5e4edb144c79f2f223802169b31c7fb093f8f5155d95f2dfd421682c37a14b43355ee4fefd372486dc2c094003950cd8f87cb2ee",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93fa5dada9953ba25e747cf1c34b8cdf3bfdfc8a69b6f736076975cb759ed94f0486238a70859594728e878315eca66e3327d67b336144e72d",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93e6703ded1e4bc77a2393eff56c228d6af6d416cbde35ecf6c411441da2b756e6c6bd1e547c5096a81bcd856569e0ad38787d5b6231753439",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93e581c55c90ffd268618113ca4d1a5285db8201a9dccab5866a34f112a3f8e129d8beb78a144b9a7ca2884e42779cd18cec34fabe26108047",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93dc04285502ecb6de03574e397dce2fdd894472420029b711bc4bd711b159f72b8a47fac9c9e166681f403acec4375ee994bbbe48c8c6d9bf",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93dce201584ea8512d9ee4881a89bcb44cebdf5717090848a36e597e995f19cbc824e3908ce62be0d1c1493aed6c0c4cd0008bfb52c6ed7fd4",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9377c32c9825f15269bb7e1c824141ece6ef046f2b0fac6ba7cae026e9a8a945f839cbacb7396a3ecb5e27b304f4cb5702893165b2a5262657",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93f49d3159f88077bbbf65f98f1165177af8e0bdd2f5ba2222c4ebcac2aad30880529e59a7e031489b18ed7ee38a37186f0dd5d1c0c7ebf234",
-            "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/applicantNameSearchInfo",
-            "https://www.kipris.or.kr/khome/main.jsp",
-            "https://plus.kipris.or.kr/",
-            "https://www.google.com/search?q=%EC%9D%B4%EC%97%94%EC%97%90%ED%94%84%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80+KIPRIS+%ED%8A%B9%ED%97%88",
-            "https://www.google.com/search?q=%EC%9D%B4%EC%97%94%EC%97%90%ED%94%84%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
-            "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
-            "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
-            "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1126",
+            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93e6703ded1e4bc77a2393eff56c228d6af6d4",
             "http://www.w3.org/2001/XMLSchema-instance",
             "http://www.nepes.co.kr",
             "https://dart.fss.or.kr/",
             "https://opendart.fss.or.kr/",
+            "https://www.kipris.or.kr/khome/main.jsp",
+            "https://plus.kipris.or.kr/",
+            "https://www.google.com/search?q=%EC%9D%B4%EC%97%94%EC%97%90%ED%94%84%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80+KIPRIS+%ED%8A%B9%ED%97%88",
+            "https://www.google.com/search?q=%EC%9D%B4%EC%97%94%EC%97%90%ED%94%84%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
             "https://www.google.com/search?q=%EC%9D%B4%EC%97%94%EC%97%90%ED%94%84%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
             "https://www.google.com/search?q=%EC%9D%B4%EC%97%94%EC%97%90%ED%94%84%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
             "https://www.google.com/search?q=%EC%9D%B4%EC%97%94%EC%97%90%ED%94%84%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80+IR",
-            "https://www.google.com/search?q=%EC%9D%B4%EC%97%94%EC%97%90%ED%94%84%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C"
+            "https://www.google.com/search?q=%EC%9D%B4%EC%97%94%EC%97%90%ED%94%84%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+            "https://www.google.com/search?q=%EC%9D%B4%EC%97%94%EC%97%90%ED%94%84%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
+            "https://www.google.com/search?q=%EC%9D%B4%EC%97%94%EC%97%90%ED%94%84%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
+            "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
+            "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1126"
           ],
           "fallback_urls": [
             "https://www.google.com/search?q=%EC%9D%B4%EC%97%94%EC%97%90%ED%94%84%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
@@ -2784,12 +2964,12 @@
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93fa5dada9953ba25e747cf1c34b8cdf3bfdfc8a69b6f736076975cb759ed94f0486238a70859594728e878315eca66e3327d67b336144e72d",
             "https://www.google.com/search?q=%EC%9D%B4%EC%97%94%EC%97%90%ED%94%84%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80+KIPRIS+%ED%8A%B9%ED%97%88",
             "https://www.google.com/search?q=%EC%9D%B4%EC%97%94%EC%97%90%ED%94%84%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
-            "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
-            "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
             "https://www.google.com/search?q=%EC%9D%B4%EC%97%94%EC%97%90%ED%94%84%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
             "https://www.google.com/search?q=%EC%9D%B4%EC%97%94%EC%97%90%ED%94%84%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
             "https://www.google.com/search?q=%EC%9D%B4%EC%97%94%EC%97%90%ED%94%84%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80+IR",
             "https://www.google.com/search?q=%EC%9D%B4%EC%97%94%EC%97%90%ED%94%84%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+            "https://www.google.com/search?q=%EC%9D%B4%EC%97%94%EC%97%90%ED%94%84%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
+            "https://www.google.com/search?q=%EC%9D%B4%EC%97%94%EC%97%90%ED%94%84%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
             "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
             "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9328f5a912c888a1604ff579e87f821b091a0665246f3173a6cae241fd42c7005fb584f7181202ddb2669153aa54387f5f558cf6b7b6d352be",
@@ -3174,7 +3354,7 @@
                 "매출",
                 "성장"
               ],
-              "snippet": "2025년에는 매출과 영업이익이 더욱 성장할 것으로 전망되며, 잉여현금흐름(FCF)도 긍정적으로 전환되어 재무구조 개선이 기대된다.",
+              "snippet": "summary: 이엔에프테크놀로지는 2023년 매출이 감소했으나 2024년 소폭 반등하며 역성장에서 벗어나는 모습을 보였습니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3190,10 +3370,27 @@
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
                 "매출",
-                "매출액",
                 "성장"
               ],
-              "snippet": "key_thesis: 2025년에는 매출액이 6,708억 원으로 증가하고 영업이익률이 11.64%까지 상승할 것으로 예상되어 성장성과 수익성 개선이 지속될 전망이다.",
+              "snippet": "key_thesis: 2024년 매출성장률이 1.33%로 소폭 반등하며 이전의 역성장에서 벗어나는 흐름을 보였습니다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%9D%B4%EC%97%94%EC%97%90%ED%94%84%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/이엔에프테크놀로지/finance/이엔에프테크놀로지_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "매출",
+                "성장"
+              ],
+              "snippet": "key_risks: 2024년 매출 대비 R&D 비중은 2.96%로, 딥테크 기업으로서의 성장 동력 확보를 위한 지속적인 R&D 투자가 필요합니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3229,7 +3426,7 @@
                 "매출",
                 "성장"
               ],
-              "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수",
+              "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3246,7 +3443,24 @@
               "matched_keywords": [
                 "sales"
               ],
-              "snippet": "sales: 670896289801.0",
+              "snippet": "sales: 582433714374.0",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%9D%B4%EC%97%94%EC%97%90%ED%94%84%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/이엔에프테크놀로지/finance/이엔에프테크놀로지_finance_agent_packet.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "sales"
+              ],
+              "snippet": "sales_growth: 1.3346989082827054",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3263,41 +3477,7 @@
               "matched_keywords": [
                 "sales"
               ],
-              "snippet": "year: 2023 | sales: 574762367332.0 | operating_income: 24700466058.0 | net_income: -23244757125.0 | total_assets: 658600745137.0 | total_liabilities: 292358799664.0 | total_equity: 366241945473.0 | capex: 107119283407 | ocf: 51774962251 | fcf: -55344321156 | interest: 16502421942.0 | ROE: -6.346830943948675 | 영업이익률: 4.297509277209214 | 부채비율: 79.82668377496186 | 이자보상배율: 1.4967782392677353",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%9D%B4%EC%97%94%EC%97%90%ED%94%84%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/이엔에프테크놀로지/finance/이엔에프테크놀로지_재무.csv",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "sales"
-              ],
-              "snippet": "year: 2024 | sales: 582433714374.0 | operating_income: 59332428655.0 | net_income: 29728683765.0 | total_assets: 723550621048.0 | total_liabilities: 322156441586.0 | total_equity: 401394179462.0 | rnd: 17229551938.0 | capex: 88496271839 | ocf: 107853954002 | fcf: 19357682163 | interest: 14250807146.0 | ROE: 7.406356466066896 | 영업이익률: 10.186983890307676 | 부채비율: 80.25937048160374 | 이자보상배율: 4.163443378830214",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%9D%B4%EC%97%94%EC%97%90%ED%94%84%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/이엔에프테크놀로지/finance/이엔에프테크놀로지_재무.csv",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "sales"
-              ],
-              "snippet": "year: 2025 | sales: 670896289801.0 | operating_income: 78076791477.0 | net_income: 50306212220.0 | total_assets: 749300530429.0 | total_liabilities: 299203662183.0 | total_equity: 450096868246.0 | capex: 3848322090 | ocf: 103080225506 | fcf: 99231903416 | interest: 15260926598.0 | ROE: 11.176752332456841 | 영업이익률: 11.63768419410383 | 부채비율: 66.47539303016669 | 이자보상배율: 5.116123911324771",
+              "snippet": "year: 2021 | sales: 521795722530.0 | operating_income: 26004269421.0 | net_income: 18036326458.0 | total_assets: 582802440834.0 | total_liabilities: 236554070163.0 | total_equity: 346248370671.0 | current_assets: 215618837847.0 | current_liabilities: 185960815751.0 | capex: 66193473289 | ocf: 14741468172 | fcf: -51452005117 | interest_expense: 4905034699.0 | roe: 5.209071864525204 | operating_margin: 4.98361107578932",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3326,28 +3506,9 @@
               "source_file": "data/반도체/이엔에프테크놀로지/finance/이엔에프테크놀로지_finance.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
-                "영업이익률",
                 "수익성"
               ],
-              "snippet": "summary: 이엔에프테크놀로지는 2024년 영업이익률이 10.19%로 개선되고 순이익이 흑자 전환하며 수익성이 회복되는 모습을 보였다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%9D%B4%EC%97%94%EC%97%90%ED%94%84%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/이엔에프테크놀로지/finance/이엔에프테크놀로지_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "현금흐름",
-                "FCF"
-              ],
-              "snippet": "2025년에는 매출과 영업이익이 더욱 성장할 것으로 전망되며, 잉여현금흐름(FCF)도 긍정적으로 전환되어 재무구조 개선이 기대된다.",
+              "snippet": "2023년 순이익이 큰 폭의 적자를 기록했으나 2024년 흑자전환에 성공하며 수익성이 개선될 가능성을 시사합니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3364,7 +3525,7 @@
               "matched_keywords": [
                 "영업이익률"
               ],
-              "snippet": "key_thesis: 2024년 영업이익률이 10.19%로 전년 대비 크게 개선되었으며, 순이익 또한 297억 원으로 흑자 전환에 성공했다.",
+              "snippet": "key_thesis: 2024년 영업이익률이 10.19%로 2023년 4.30% 대비 크게 개선되었습니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3377,12 +3538,29 @@
             {
               "source_group": "FINANCE",
               "source_file": "data/반도체/이엔에프테크놀로지/finance/이엔에프테크놀로지_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "FCF"
+              ],
+              "snippet": "key_thesis: 2024년 FCF가 193억원을 기록하며 2023년 -553억원의 적자에서 흑자전환했습니다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%9D%B4%EC%97%94%EC%97%90%ED%94%84%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/이엔에프테크놀로지/finance/이엔에프테크놀로지_finance_agent_packet.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
                 "영업이익률",
                 "수익성"
               ],
-              "snippet": "key_thesis: 2025년에는 매출액이 6,708억 원으로 증가하고 영업이익률이 11.64%까지 상승할 것으로 예상되어 성장성과 수익성 개선이 지속될 전망이다.",
+              "snippet": "report_core_points: 영업이익률: 이엔에프테크놀로지 2024 기준 영업이익률 값은 10.19%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3394,31 +3572,12 @@
             },
             {
               "source_group": "FINANCE",
-              "source_file": "data/반도체/이엔에프테크놀로지/finance/이엔에프테크놀로지_finance.json",
+              "source_file": "data/반도체/이엔에프테크놀로지/finance/이엔에프테크놀로지_finance_agent_packet.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
-                "현금흐름",
-                "FCF"
+                "수익성"
               ],
-              "snippet": "key_thesis: 2024년 잉여현금흐름(FCF)이 193억 원으로 흑자 전환했으며, 2025년에는 992억 원으로 크게 증가할 것으로 예상되어 재무 건전성 강화에 기여할 것으로 보인다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%9D%B4%EC%97%94%EC%97%90%ED%94%84%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/이엔에프테크놀로지/finance/이엔에프테크놀로지_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "현금흐름",
-                "FCF"
-              ],
-              "snippet": "key_risks: 2023년 잉여현금흐름(FCF)이 -553억 원으로 큰 폭의 마이너스를 기록하여 당시 투자 및 운영 활동으로 인한 현금 유출이 많았음을 시사한다.",
+              "snippet": "report_core_points: ROE: 이엔에프테크놀로지 2024 기준 ROE 값은 7.41%이며, 자기자본 대비 수익성 수준을 확인하는 지표입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3435,7 +3594,7 @@
               "matched_keywords": [
                 "FCF"
               ],
-              "snippet": "report_core_points: FCF: 이엔에프테크놀로지 2025 기준 FCF 값은 99,231,903,416원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+              "snippet": "report_core_points: FCF: 이엔에프테크놀로지 2024 기준 FCF 값은 19,357,682,163원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3452,7 +3611,24 @@
               "matched_keywords": [
                 "영업이익률"
               ],
-              "snippet": "missing_prompt_metrics: 영업이익률",
+              "snippet": "label: 영업이익률",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%9D%B4%EC%97%94%EC%97%90%ED%94%84%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/이엔에프테크놀로지/finance/이엔에프테크놀로지_finance_agent_packet.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "영업이익률"
+              ],
+              "snippet": "snippet: 이엔에프테크놀로지 2024 기준 영업이익률 값은 10.19%입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3668,7 +3844,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\이엔에프테크놀로지\\tech\\enf_tech_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\이엔에프테크놀로지\\tech\\enf_tech_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-20T22:23:08",
+      "generated_at": "2026-05-26T07:49:12",
       "core_counts": {
         "total_patents": 30,
         "registered_patents_estimated": 14,
@@ -3743,8 +3919,8 @@
     "bridge_signal": "IP_QUALITY_NEUTRAL"
   },
   "formula_catalog_summary": {
-    "json": "data\\반도체\\이엔에프테크놀로지\\tech\\enf_tech_tech_formula_rules.json",
-    "md": "data\\반도체\\이엔에프테크놀로지\\tech\\enf_tech_tech_formula_rules.md",
+    "json": "C:\\Agent_6.9\\data\\반도체\\이엔에프테크놀로지\\tech\\enf_tech_tech_formula_rules.json",
+    "md": "C:\\Agent_6.9\\data\\반도체\\이엔에프테크놀로지\\tech\\enf_tech_tech_formula_rules.md",
     "rule_count": 34
   },
   "evidence_harvest_summary": {
@@ -3780,6 +3956,8 @@
     "tech_full_appendix_json": null,
     "tech_chair_summary_json": "data/반도체/이엔에프테크놀로지/tech/tech_chair_summary.json",
     "tech_chair_summary_md": "data/반도체/이엔에프테크놀로지/tech/enf_tech_tech_chair_summary.md",
+    "tech_history_feature_json": "data/반도체/이엔에프테크놀로지/tech/tech_history_features_2025-09-30.json",
+    "tech_history_feature_csv": "data/반도체/이엔에프테크놀로지/tech/tech_history_features_2025-09-30.csv",
     "tech_json": "data/반도체/이엔에프테크놀로지/tech/enf_tech_tech.json",
     "tech_agent_packet_json": "data/반도체/이엔에프테크놀로지/tech/enf_tech_tech_agent_packet.json"
   },
@@ -4654,7 +4832,7 @@
     "field": "반도체",
     "source_csv": "data\\반도체\\이엔에프테크놀로지\\tech\\enf_tech_kipris_patents_normalized.csv",
     "enriched_csv": "data\\반도체\\이엔에프테크놀로지\\tech\\enf_tech_kipris_tech_ml_enriched.csv",
-    "generated_at": "2026-05-20T22:23:08",
+    "generated_at": "2026-05-26T07:49:12",
     "core_counts": {
       "total_patents": 30,
       "registered_patents_estimated": 14,

@@ -3,6 +3,51 @@
   "company": "월덱스",
   "company_dir": "woldex",
   "opinion": "보유",
+  "tech_signal": 0.335544,
+  "history_tech_feature": {
+    "signal": 0.335544,
+    "status": "OK_TECH_HISTORY_ASOF",
+    "source": "C:\\Agent_6.9\\data\\반도체\\월덱스\\tech\\tech_history_features_2025-08-31.csv;C:\\Agent_6.9\\data\\반도체\\월덱스\\tech\\woldex_kipris_patents_normalized.csv;C:\\Agent_6.9\\data\\반도체\\월덱스\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\월덱스\\tech\\woldex_tech_patent_normalized.csv;C:\\Agent_6.9\\data\\반도체\\월덱스\\tech\\source\\woldex_kipris_plus_bibliographic_raw.csv;C:\\Agent_6.9\\data\\반도체\\월덱스\\tech\\woldex_kipris_bibliographic_normalized.csv;C:\\Agent_6.9\\data\\반도체\\월덱스\\tech\\woldex_kipris_claims_normalized.csv;C:\\Agent_6.9\\data\\반도체\\월덱스\\tech\\woldex_kipris_plus_claim_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\월덱스\\tech\\woldex_kipris_plus_family_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\월덱스\\tech\\woldex_kipris_plus_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\월덱스\\tech\\woldex_kipris_tech_ml_enriched.csv;C:\\Agent_6.9\\data\\반도체\\월덱스\\tech\\quanified_metrix.csv",
+    "as_of_date": "2025-09-30",
+    "company": "월덱스",
+    "ticker": "101160.KQ",
+    "stock_code": "101160",
+    "base_signal": 0.350947,
+    "evidence_confidence": 0.786832,
+    "commercialization_gate_signal": 0.23763,
+    "technology_risk_penalty": 0.0,
+    "ip_quality_signal": 0.121375,
+    "lifecycle_signal": 0.0,
+    "technology_differentiation_signal": 0.183137,
+    "commercialization_signal": 0.950521,
+    "rnd_sustainability_signal": 0.46236,
+    "peer_position_signal": -0.209524,
+    "tech_to_value_signal": 0.597815,
+    "certification_signal": 0.0,
+    "qualification_signal": 0.0,
+    "cost_yield_signal": 0.0,
+    "workforce_signal": 0.0,
+    "government_rd_signal": 0.0,
+    "licensing_signal": 0.0,
+    "dispute_risk_signal": 0.0,
+    "failure_delay_signal": 0.0,
+    "intangible_accounting_signal": 0.0,
+    "patent_records_asof": 488,
+    "dated_records_asof": 283,
+    "undated_records_used": 272,
+    "files_used": 74,
+    "notes": "Tech history signal uses dated patent/IP, TRL/readiness, certification, qualification, commercialization, R&D/workforce, risk and accounting evidence before as_of_date; no Buy/Hold/Sell threshold is applied.",
+    "frequency": "monthly",
+    "formula": "final=base_signal*evidence_confidence + 0.25*commercialization_gate_signal - 0.35*technology_risk_penalty",
+    "research_basis": [
+      "Hall-Jaffe-Trajtenberg patent citations/value; Lanjouw-Schankerman patent quality; OECD patent quality composite indicators",
+      "DoD/NASA TRL and TRA maturity framework",
+      "IFC/Bpifrance deep-tech development-stage financing framework",
+      "Text-based industry/technology relatedness literature for peer/differentiation evidence"
+    ],
+    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\월덱스\\tech\\tech_history_features_2025-09-30.json",
+    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\월덱스\\tech\\tech_history_features_2025-09-30.csv"
+  },
   "claims": [
     {
       "claim_id": "tech.cl.000",
@@ -101,63 +146,63 @@
     {
       "title": "월덱스 KIPRIS/특허 정량화 요약",
       "url": "",
-      "path": "data\\반도체\\월덱스\\tech\\source\\woldex_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\월덱스\\tech\\source\\woldex_kipris_plus_bibliographic_raw.csv",
       "snippet": "월덱스 KIPRIS/특허 정량화 요약 본 특허 근거는 KIPRIS API/CSV/엑셀/TXT 원천 파일을 정규화해 산출했다. [정량 지표] - 특허 원천 파일 수: 1개 - 정규화 특허 레코드 수: 30건 - 출원인/권리자 회사 매칭 특허 수: 30건 - 등록 특허 수: 25건 - 존속 가능 특허 수: 15건 - 최근 5년 특허 수: 6건 - IPC/CPC 기술분류 수: 15개 - H01L 반도체 IPC 특허 수: 0건 - 반도체 핵심 IPC 특허 수: 21건 - 특허-기술 키워드 매칭 수: 35회 - 특허 포트폴리오 연도 범위: 1998~2024 - KIPRIS 총 특허 수: 30.0건 - KIPRIS 등록 특허 수(",
       "relevance_score": 30
     },
     {
       "title": "반도체 에칭장치에 체결되는 그라파이트 기반 CVD-SiC 코팅 제품 세정방법",
       "url": "",
-      "path": "data\\반도체\\월덱스\\tech\\source\\woldex_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\월덱스\\tech\\source\\woldex_kipris_plus_bibliographic_raw.csv",
       "snippet": "반도체 에칭장치에 체결되는 그라파이트 기반 CVD-SiC 코팅 제품 세정방법 | 주식회사 월덱스 | 등록 | 2023 | 출원번호 1020230128731; 등록번호 1028591060000 | IPC/CPC: H01J, H10P, B08B, C11D | 기술매칭: CVD, 반도체 | 초록: 본 발명은 반도체 에칭장치에 체결되는 CVD-SiC 박막이 코팅된 그라운드 링 세정방법에 관한 것으로, 보다 상세하게는, 반도체 에칭장치에 체결되는 CVD-SiC 박막이 코팅된 그라운드 링 세정방법에 있어서, 상기 그라운드 링(10)의 외측에 박막코팅(11)이 되지 않은 체결부(13)를 밀폐시키는 밀폐단계(S100); 상기 박막코팅",
       "relevance_score": 78.0
     },
     {
       "title": "곡면 가공 효율성을 향상시킨 반도체 부품소재 가공 장치",
       "url": "",
-      "path": "data\\반도체\\월덱스\\tech\\source\\woldex_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\월덱스\\tech\\source\\woldex_kipris_plus_bibliographic_raw.csv",
       "snippet": "곡면 가공 효율성을 향상시킨 반도체 부품소재 가공 장치 | 주식회사 월덱스 | 등록 | 2021 | 출원번호 1020210123464; 등록번호 1027007170000 | IPC/CPC: B24B, H10P | 기술매칭: 반도체 | 초록: 본 발명은 부품소재의 상부를 곡면으로 가공 시에 가공헤드 하부 가장자리 및 측면부를 혼용하여 부품소재의 상부면을 곡면으로 가공할 수 있도록 하여 가공작업 시간을 단축시킬 수 있도록 하는 곡면 가공 효율성을 향상시킨 반도체 부품소재 가공 장치에 관한 것으로서, 가공부재가 척의 상부에 고정되는 부품소재의 상부면과 소정 각도를 이루도록 구성하여 상기 가공부재의 가공헤드가 상기 부품소재의 ",
       "relevance_score": 72.0
     },
     {
       "title": "세라믹소재의 보트 결합 구조 및 그 접합 방법",
       "url": "",
-      "path": "data\\반도체\\월덱스\\tech\\source\\woldex_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\월덱스\\tech\\source\\woldex_kipris_plus_bibliographic_raw.csv",
       "snippet": "세라믹소재의 보트 결합 구조 및 그 접합 방법 | 주식회사 월덱스 | 등록 | 2013 | 출원번호 1020130077833; 등록번호 1014959010000 | IPC/CPC: H10P | 기술매칭: CVD, 수율, 공정, 반도체 | 초록: 본 발명은 세라믹 소재의 보트 결합 구조 및 그 접합 방법에 관한 것으로, 보다 상세하게는 내부식성과 고온강도와 반도체 공정 사용 수명이 긴 세라믹 소재로 구성되되, 상부플레이트(10)와 하부플레이트(20)를 상호 대응되는 방향으로 관통되게 결합홈(11, 21)을 각각 구성하고, 상기 상부플레이트(10)와 하부플레이트(20) 사이에 다수개의 지지바(30)를 구성하되, 상기 지지바",
       "relevance_score": 71.5
     },
     {
       "title": "평탄화 작업이 필요 없는 질화규소 기판 및 그 제조방법",
       "url": "",
-      "path": "data\\반도체\\월덱스\\tech\\source\\woldex_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\월덱스\\tech\\source\\woldex_kipris_plus_bibliographic_raw.csv",
       "snippet": "평탄화 작업이 필요 없는 질화규소 기판 및 그 제조방법 | 주식회사 월덱스 | 등록 | 2017 | 출원번호 1020170065963; 등록번호 1019379610000 | IPC/CPC: H10P, H10W | 기술매칭: 공정, 기판 | 초록: 본 발명은 질화 처리용 지그 및 그 지그를 이용한 질화규소 기판 제조방법에 관한 것으로, 더욱 자세하게는 질화규소분말 93mol%, 산화이트륨분말 2mol%, 산화마그네슘분말 5mol%를 혼합하여 혼합원료를 준비하는 혼합원료 준비단계(S100); 상기 혼합원료를 분무건조기를 이용하여 과립파우더로 제조 후 사각 고무몰드를 이용하여 냉간정수압으로 가압성형하여 덩어리 형태의 질화규소",
       "relevance_score": 71.0
     },
     {
       "title": "캐소드 결합을 위한 체결구 구조",
       "url": "",
-      "path": "data\\반도체\\월덱스\\tech\\source\\woldex_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\월덱스\\tech\\source\\woldex_kipris_plus_bibliographic_raw.csv",
       "snippet": "캐소드 결합을 위한 체결구 구조 | 주식회사 월덱스 | 등록 | 2010 | 출원번호 1020100010996; 등록번호 1011139870000 | IPC/CPC: H10P, H01J | 기술매칭: 공정, 반도체, 웨이퍼 | 초록: 본 발명은 플라즈마 챔버 캐소드(100)의 체결홀(1)에 삽입하여 반도체 웨이퍼 식각 공정을 위한 장치에 결합할 수 있도록 하는 체결구 구조에 관한 것으로서, 보다 상세하게는 캐소드(100)의 체결홀(1)에 삽입되어 볼트삽입구(14)를 형성하는 부시(10)와, 상기 캐소드(100)가 결합되는 플레이트(200) 및 상기 캐소드(100) 상에 위치되는 부시(10)의 체결홀(1)에 각각 삽입되어",
       "relevance_score": 70.0
     },
     {
       "title": "샤워헤드 전극판용 부시 조립체 및 전극판과 플레이트의 결합구조체",
       "url": "",
-      "path": "data\\반도체\\월덱스\\tech\\source\\woldex_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\월덱스\\tech\\source\\woldex_kipris_plus_bibliographic_raw.csv",
       "snippet": "샤워헤드 전극판용 부시 조립체 및 전극판과 플레이트의 결합구조체 | 주식회사 월덱스 | 등록 | 2021 | 출원번호 1020210047960; 등록번호 1024988960000 | IPC/CPC: H01J, H10P | 기술매칭: 기술 키워드 미확인 | 초록: 본 발명은 샤워헤드 전극판용 부시 조립체 및 전극판과 플레이트의 결합구조체에 관한 것으로, 더욱 자세하게는 전극판과 플레이트를 결합 시, 그 사이에 부시 조립체를 구성하되, 상기 부시조립체를 전극판에 끼움시킨 후, 부시 조립체를 구성하는 하나인 체결부재를 부시의 상부에 결합시킬 시, 부시의 하부와 결합부재의 하부가 전극판의 지지테의 상하측과 완전히 맞닿음과 동시",
       "relevance_score": 69.0
     },
     {
       "title": "플라즈마 챔버 캐소드의 볼트 체결구 및 그 체결방법",
       "url": "",
-      "path": "data\\반도체\\월덱스\\tech\\source\\woldex_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\월덱스\\tech\\source\\woldex_kipris_plus_bibliographic_raw.csv",
       "snippet": "플라즈마 챔버 캐소드의 볼트 체결구 및 그 체결방법 | 주식회사 월덱스 | 등록 | 2007 | 출원번호 1020070106681; 등록번호 1009015170000 | IPC/CPC: H10P | 기술매칭: 공정, 반도체, 웨이퍼 | 초록: 본 발명은 반도체 웨이퍼 공정에 사용되는 플라즈마 챔버 캐소드의 볼트체결구에 관한 것으로, 보다 상세하게는 캐소드(100)의 일측에 구비되는 삽입홈(20)의 내, 외부에 걸쳐서 내마모성, 기계적 물성, 내화학성 등이 우수한 베스펠 또는 세라졸 재질로 구성되는 완충탭(30)을 구비하고, 상기 완충탭(30)의 내측에 결합볼트(11)를 견고하게 결합시킬 수 있도록 하는 헬리코일탭(40)",
       "relevance_score": 68.5
     },
     {
       "title": "실리콘 단일재질의 플라즈마 챔버 캐소드 및 아웃링",
       "url": "",
-      "path": "data\\반도체\\월덱스\\tech\\source\\woldex_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\월덱스\\tech\\source\\woldex_kipris_plus_bibliographic_raw.csv",
       "snippet": "실리콘 단일재질의 플라즈마 챔버 캐소드 및 아웃링 | 주식회사 월덱스 | 등록 | 2006 | 출원번호 1020060072177; 등록번호 1007446390000 | IPC/CPC: H10P | 기술매칭: 공정, 반도체, 웨이퍼 | 초록: 본 발명은 실리콘 단일재질의 플라즈마 챔버 캐소드 및 아웃링에 관한 것으로서, 반도체 웨이퍼의 플라즈마 공정에 사용되는 전압장치인 애노드가 R.F가스의 압력으로 인해 변형을 가져오고 애노드의 하부에 연결 구성된 캐소드도 같이 연동 변형하여야 하는데 상기 캐소드의 재질은 실리콘(Silicon)과 그레파이트(Graphite)를 엘라스토머 본딩하여 구성되어 애노드의 변형에 따른 유기적 연",
       "relevance_score": 68.5
     }
@@ -391,7 +436,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\월덱스\\tech\\woldex_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\월덱스\\tech\\woldex_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-20T22:27:21",
+      "generated_at": "2026-05-26T08:16:44",
       "core_counts": {
         "total_patents": 30,
         "registered_patents_estimated": 25,
@@ -479,7 +524,7 @@
   "tech_chair_summary": {
     "agent": "tech",
     "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-    "created_at": "2026-05-20T22:29:07",
+    "created_at": "2026-05-26T08:18:37",
     "field": "반도체",
     "company": "월덱스",
     "company_name": "월덱스",
@@ -511,17 +556,17 @@
       "ip_evidence_composite_bridge_signal": "IP_EVIDENCE_NEUTRAL",
       "ip_evidence_composite_adjustment_points": 0.0,
       "ip_evidence_composite_data_coverage_rate": 1.0,
-      "ip_evidence_composite_source_file": "data/반도체/월덱스/tech/tech_ip_evidence_composite.json",
+      "ip_evidence_composite_source_file": "C:/Agent_6.9/data/반도체/월덱스/tech/tech_ip_evidence_composite.json",
       "peer_adjusted_bridge_score_before_ip_evidence": 39.0,
       "final_bridge_score_after_ip_evidence": 39.0,
       "ip_evidence_adjusted_score": 39.0,
       "ip_evidence_formula": "final_bridge_score_after_ip_evidence = peer_adjusted_bridge_score_before_ip_evidence + ip_evidence_composite_adjustment_points",
       "ip_evidence_adjusted_grade": "TECH_EVIDENCE_WEAK",
-      "investor_final_tech_score": 44.09,
+      "investor_final_tech_score": 54.49,
       "investor_final_tech_grade": {
-        "code": "EVIDENCE_WEAK_OR_EARLY",
-        "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
-        "threshold": 0.0
+        "code": "COMMERCIALIZATION_WATCH",
+        "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+        "threshold": 52.0
       },
       "value_evidence_score": 79.78,
       "value_evidence_label": "VALUE_EVIDENCE_STRONG"
@@ -585,14 +630,14 @@
       }
     ],
     "ip_quant_signals": {
-      "normalized_patent_text_records": 430,
-      "company_matched_patents": 206,
+      "normalized_patent_text_records": 1990,
+      "company_matched_patents": 1766,
       "registered_patents": 90,
-      "alive_patents": 143,
-      "recent_5y_patents": 6,
+      "alive_patents": 1703,
+      "recent_5y_patents": 1560,
       "ipc_cpc_classes": null,
       "core_ipc_h01l_patents": null,
-      "keyword_matches": 272
+      "keyword_matches": 9632
     },
     "selected_ml": {
       "peer_ml": {
@@ -602,9 +647,9 @@
         "cluster_name": null
       },
       "tech_ip_strength": {
-        "score": 39.09,
+        "score": 57.72,
         "percentile": 50.0,
-        "patent_momentum_score": 2.18,
+        "patent_momentum_score": 91.25,
         "dominant_topic": null
       },
       "technology_differentiation": {
@@ -827,15 +872,15 @@
       "ip_evidence_bridge_signal": "IP_EVIDENCE_NEUTRAL",
       "ip_evidence_bridge_adjustment_points": 0.0,
       "final_bridge_score_after_ip_evidence": 39.0,
-      "investor_final_tech_score": 44.09,
+      "investor_final_tech_score": 54.49,
       "investor_final_tech_grade": {
-        "code": "EVIDENCE_WEAK_OR_EARLY",
-        "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
-        "threshold": 0.0
+        "code": "COMMERCIALIZATION_WATCH",
+        "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+        "threshold": 52.0
       },
       "investor_evidence_count": 9,
-      "excel_quantified_evidence_score": 45.0,
-      "commercialization_and_funding_signal_score": 49.5
+      "excel_quantified_evidence_score": 90.0,
+      "commercialization_and_funding_signal_score": 63.5
     },
     "ip_legal_features": {
       "total_patents": 30,
@@ -1167,7 +1212,7 @@
       "company_name": "월덱스",
       "field": "반도체",
       "status": "OK",
-      "created_at": "2026-05-20T22:28:42",
+      "created_at": "2026-05-26T08:16:46",
       "weights": {
         "legal_stability": 0.25,
         "claim_defense": 0.3,
@@ -1263,17 +1308,17 @@
       "tech_full_appendix_json": ""
     },
     "ip_evidence_bridge_adjustment_status": "APPLIED",
-    "ip_evidence_bridge_adjustment_applied_at": "2026-05-20T22:29:07",
+    "ip_evidence_bridge_adjustment_applied_at": "2026-05-26T08:18:56",
     "tech_investor_view": {
       "version": "tech-investor-scorecard-v2",
-      "generated_at": "2026-05-20T22:29:16",
+      "generated_at": "2026-05-26T08:19:50",
       "company_slug": "woldex",
       "company_name": "월덱스",
-      "final_tech_investor_score": 44.09,
+      "final_tech_investor_score": 54.49,
       "final_tech_investor_grade": {
-        "code": "EVIDENCE_WEAK_OR_EARLY",
-        "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
-        "threshold": 0.0
+        "code": "COMMERCIALIZATION_WATCH",
+        "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+        "threshold": 52.0
       },
       "score_policy": {
         "description": "개인투자자용 최종 Tech 점수는 기술-사업화 연결 가능성, IP 품질, Excel/DART 정량 근거, 근거 신뢰도, 딥테크 성장투자 지속성을 하나로 합성한다.",
@@ -1433,53 +1478,54 @@
         },
         "excel_quantified_evidence": {
           "label": "Excel 기반 정량 근거",
-          "score": 45.0,
+          "score": 90.0,
           "weight": 0.15,
           "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지",
           "meta": {
-            "score": 45.0,
-            "company_item_count": 8,
-            "filled_count": 0,
+            "score": 90.0,
+            "company_item_count": 22,
+            "filled_count": 22,
             "metric_row_count": 0,
-            "numeric_signal_count": 0,
-            "category_count": 7,
+            "numeric_signal_count": 120,
+            "category_count": 8,
             "unique_metric_count": 0,
             "formula_rule_count": 0,
-            "coverage_ratio": 0.0,
-            "numeric_density": 0.0
+            "coverage_ratio": 1.0,
+            "numeric_density": 5.4545
           }
         },
         "evidence_confidence": {
           "label": "근거 직접성·충분성",
-          "score": 45.0,
+          "score": 60.0,
           "weight": 0.15,
           "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성",
           "meta": {
-            "score": 45.0,
+            "score": 60.0,
             "evidence_count": 4,
             "claim_count": 4,
             "patent_count": 30,
-            "excel_coverage_ratio": 0.0
+            "excel_coverage_ratio": 1.0
           }
         },
         "commercialization_and_funding_signal": {
           "label": "사업화·성장자금 지속성",
-          "score": 49.5,
+          "score": 63.5,
           "weight": 0.1,
           "meaning": "R&D·특허·정부과제·기술이전·CAPEX/희석성 자금조달이 사업화와 연결되는 정도",
           "meta": {
-            "score": 49.5,
-            "detected_signal_groups": [],
+            "score": 63.5,
+            "detected_signal_groups": [
+              "commercial"
+            ],
             "detected_flags": {
               "rd": false,
-              "commercial": false,
+              "commercial": true,
               "government": false,
               "transfer": false,
               "funding": false
             },
             "recent_5y_patents": null,
             "warnings": [
-              "customer_mass_production_revenue_signal_limited",
               "rd_or_recent_patent_continuity_limited",
               "capital_raising_signal_not_explicitly_detected"
             ],
@@ -1507,31 +1553,31 @@
         {
           "component": "excel_quantified_evidence",
           "label": "Excel 기반 정량 근거",
-          "score": 45.0,
+          "score": 90.0,
           "weight": 0.15,
-          "weighted_score": 6.75,
+          "weighted_score": 13.5,
           "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지"
         },
         {
           "component": "evidence_confidence",
           "label": "근거 직접성·충분성",
-          "score": 45.0,
+          "score": 60.0,
           "weight": 0.15,
-          "weighted_score": 6.75,
+          "weighted_score": 9.0,
           "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성"
         },
         {
           "component": "commercialization_and_funding_signal",
           "label": "사업화·성장자금 지속성",
-          "score": 49.5,
+          "score": 63.5,
           "weight": 0.1,
-          "weighted_score": 4.95,
+          "weighted_score": 6.35,
           "meaning": "R&D·특허·정부과제·기술이전·CAPEX/희석성 자금조달이 사업화와 연결되는 정도"
         }
       ],
       "key_takeaways": [
-        "월덱스의 개인투자자용 Tech 최종 점수는 44.09/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
-        "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(50.18) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+        "월덱스의 개인투자자용 Tech 최종 점수는 54.49/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
+        "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(50.18) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
         "투자자가 확인할 핵심 근거는 9개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
       ],
       "investor_evidence": [
@@ -1598,7 +1644,7 @@
         {
           "source": "tech_summary",
           "title": "Tech Agent 핵심 해석",
-          "detail": "월덱스의 개인투자자용 Tech 최종 점수는 44.09/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
+          "detail": "월덱스의 개인투자자용 Tech 최종 점수는 53.09/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
           "value": null,
           "unit": null,
           "path": null,
@@ -1608,7 +1654,7 @@
         {
           "source": "tech_summary",
           "title": "Tech Agent 핵심 해석",
-          "detail": "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(50.18) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+          "detail": "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(50.18) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
           "value": null,
           "unit": null,
           "path": null,
@@ -1648,21 +1694,22 @@
       }
     },
     "key_takeaways": [
-      "월덱스의 개인투자자용 Tech 최종 점수는 44.09/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
-      "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(50.18) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+      "월덱스의 개인투자자용 Tech 최종 점수는 54.49/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
+      "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(50.18) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
       "투자자가 확인할 핵심 근거는 9개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다.",
+      "월덱스의 개인투자자용 Tech 최종 점수는 53.09/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
       "투자자가 확인할 핵심 근거는 6개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
     ],
     "value_evidence_bridge": {
       "agent": "tech_intake",
       "artifact": "tech_intake_value_evidence_bridge",
       "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-      "created_at": "2026-05-20T22:29:14",
+      "created_at": "2026-05-26T08:19:49",
       "field": "반도체",
       "company": "월덱스",
       "company_dir": "woldex",
       "company_slug": "woldex",
-      "source_document_count": 132,
+      "source_document_count": 155,
       "source_documents": [
         {
           "source_group": "TECH_OUTPUT",
@@ -1745,6 +1792,30 @@
         {
           "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/월덱스/tech/tech_full_appendix.md",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/월덱스/tech/tech_history_features_2025-08-31.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/월덱스/tech/tech_history_features_2025-08-31.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/월덱스/tech/tech_history_features_2025-09-30.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/월덱스/tech/tech_history_features_2025-09-30.json",
           "detected_url_count": 0,
           "fallback_url_count": 2
         },
@@ -2314,6 +2385,120 @@
         },
         {
           "source_group": "VALUATION",
+          "source_file": "data/반도체/월덱스/valuation/intake/company_profile.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/월덱스/valuation/intake/cross_agent_signals_for_valuation.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/월덱스/valuation/intake/dcf_inputs.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/월덱스/valuation/intake/dilution_events.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/월덱스/valuation/intake/eval_price_history.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/월덱스/valuation/intake/eval_price_history_monthly.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/월덱스/valuation/intake/eval_price_history_monthly_v43.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/월덱스/valuation/intake/eval_price_history_monthly_v44.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/월덱스/valuation/intake/eval_price_history_monthly_v45.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/월덱스/valuation/intake/eval_price_history_v43.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/월덱스/valuation/intake/eval_price_history_v44.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/월덱스/valuation/intake/eval_price_history_v45.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/월덱스/valuation/intake/financials_normalized.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/월덱스/valuation/intake/financials_raw.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/월덱스/valuation/intake/peer_multiples.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/월덱스/valuation/intake/price_history.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/월덱스/valuation/intake/relative_valuation_inputs.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/월덱스/valuation/intake/shares_outstanding.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/월덱스/valuation/intake/valuation_assumptions.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
           "source_file": "data/반도체/월덱스/valuation/intake/valuation_assumptions.json",
           "detected_url_count": 0,
           "fallback_url_count": 5
@@ -2482,12 +2667,12 @@
             "https://www.google.com/search?q=%EC%9B%94%EB%8D%B1%EC%8A%A4+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%E",
             "http://www.w3.org/2001/XMLSchema-instance",
             "http://www.nepes.co.kr",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9351e454fd4c7cb3812817c2fbd904dbc6b0e9dcd2bd2d213f28a206a37e4f31445cef1f7bca70cd19c2f133771e1e26d4dd4cda01e1a37396",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93359d077b6a0e3ae98e40183e6277f2d68c112b521e137c9fd8db854094d4ee943487dec88bdf363aeb8ba35391b0b626c965ee946db27ea2",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e009f6f22ecf00a16230e8c7bd5fed552519bdfc674a4ae7d9dca54267a356057b2d104abf78ac67bffc1a04e0f167b72b615237f1c6f2a01ea",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00d3f0be54e0a8850b291aeaf10a1e12d9019b1a52a8dc583b3c03101396be7114",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e005befd6bfb2d370cced6c1bc1bde081003e9179c34351c9a346d6e25cd3ed4376",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00d3f0be54e0a8850b3f184b5e19cbc2075a916ed9a84124d6e2818cd80a1455d2"
+            "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=102020180001640&openNumber=2020180003064&publicationNumber=2020180003064&registerNumber=2004911650000&registrationNumber=2004911650000&format=xml",
+            "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=102020050016263&registerNumber=2003935340000&registrationNumber=2003935340000&format=xml",
+            "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=102020060020627&registerNumber=2004290950000&registrationNumber=2004290950000&format=xml",
+            "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=102020050019218&registerNumber=2004073340000&registrationNumber=2004073340000&format=xml",
+            "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
+            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9351e454fd4c7cb3812817c2fbd904dbc6b0e9dcd2bd2d213f28a206a37e4f31445cef1f7bca70cd19c2f133771e1e26d4dd4cda01e1a37396"
           ],
           "fallback_urls": [
             "https://www.google.com/search?q=%EC%9B%94%EB%8D%B1%EC%8A%A4+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
@@ -2510,12 +2695,12 @@
             "https://www.google.com/search?q=%EC%9B%94%EB%8D%B1%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
             "https://www.google.com/search?q=%EC%9B%94%EB%8D%B1%EC%8A%A4+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
             "https://www.google.com/search?q=%EC%9B%94%EB%8D%B1%EC%8A%A4+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
+            "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=102020180001640&openNumber=2020180003064&publicationNumber=2020180003064&registerNumber=2004911650000&registrationNumber=2004911650000&format=xml",
+            "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=102020050016263&registerNumber=2003935340000&registrationNumber=2003935340000&format=xml",
+            "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=102020060020627&registerNumber=2004290950000&registrationNumber=2004290950000&format=xml",
+            "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=102020050019218&registerNumber=2004073340000&registrationNumber=2004073340000&format=xml",
+            "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9351e454fd4c7cb3812817c2fbd904dbc6b0e9dcd2bd2d213f28a206a37e4f31445cef1f7bca70cd19c2f133771e1e26d4dd4cda01e1a37396",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93359d077b6a0e3ae98e40183e6277f2d68c112b521e137c9fd8db854094d4ee943487dec88bdf363aeb8ba35391b0b626c965ee946db27ea2",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e009f6f22ecf00a16230e8c7bd5fed552519bdfc674a4ae7d9dca54267a356057b2d104abf78ac67bffc1a04e0f167b72b615237f1c6f2a01ea",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00d3f0be54e0a8850b291aeaf10a1e12d9019b1a52a8dc583b3c03101396be7114",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e005befd6bfb2d370cced6c1bc1bde081003e9179c34351c9a346d6e25cd3ed4376",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00d3f0be54e0a8850b3f184b5e19cbc2075a916ed9a84124d6e2818cd80a1455d2",
             "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
             "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9328f5a912c888a1604ff579e87f821b091a0665246f3173a6cae241fd42c7005fb584f7181202ddb2669153aa54387f5f558cf6b7b6d352be",
@@ -2986,7 +3171,7 @@
                 "매출",
                 "성장"
               ],
-              "snippet": "summary: 월덱스는 2024년까지 매출과 이익이 성장했으나, 2025년에는 매출과 영업이익이 감소하며 수익성이 하락하는 모습을 보였다.",
+              "snippet": "summary: 월덱스는 2023년 이후 매출이 꾸준히 성장하며 긍정적인 흐름을 보이고 있으며, 영업이익률 또한 20% 이상을 유지하며 견조한 수익성을 나타내고 있습니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3004,25 +3189,7 @@
                 "매출",
                 "성장"
               ],
-              "snippet": "key_thesis: 2023년과 2024년에는 각각 28.8조원, 30.7조원의 매출을 기록하며 성장세를 보였고, 영업이익률도 22.5%, 22.9%로 견조한 수준을 유지했다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%9B%94%EB%8D%B1%EC%8A%A4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/월덱스/finance/월덱스_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "매출",
-                "매출액"
-              ],
-              "snippet": "key_risks: 2025년 매출액이 29.1조원으로 전년 대비 감소했으며, 영업이익과 순이익 또한 각각 585억, 409억으로 크게 하락하여 수익성 둔화가 우려된다.",
+              "snippet": "key_thesis: 2023년 12.56%, 2024년 6.49%의 매출 성장률을 기록하며 꾸준한 외형 성장을 지속하고 있습니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3058,7 +3225,7 @@
                 "매출",
                 "성장"
               ],
-              "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수",
+              "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3075,7 +3242,24 @@
               "matched_keywords": [
                 "sales"
               ],
-              "snippet": "sales: 291764969976.0",
+              "snippet": "sales: 306791365556.0",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%9B%94%EB%8D%B1%EC%8A%A4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/월덱스/finance/월덱스_finance_agent_packet.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "sales"
+              ],
+              "snippet": "sales_growth: 6.492538720711227",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3092,7 +3276,7 @@
               "matched_keywords": [
                 "sales"
               ],
-              "snippet": "year: 2023 | sales: 288087193001.0 | operating_income: 64828878115.0 | net_income: 53849755426.0 | total_assets: 313702008499.0 | total_liabilities: 74191632356.0 | total_equity: 239510376143.0 | capex: 11136874374 | ocf: 82875317763 | fcf: 71738443389 | interest: 3044173584.0 | ROE: 22.48326619212895 | 영업이익률: 22.503214196951465 | 부채비율: 30.976375032580545 | 이자보상배율: 21.29605172836951",
+              "snippet": "year: 2021 | sales: 190057368425.0 | operating_income: 40300789625.0 | net_income: 33432517485.0 | total_assets: 211881383397.0 | total_liabilities: 68466966070.0 | total_equity: 143414417327.0 | current_assets: 134488101181.0 | current_liabilities: 51786777667.0 | capex: 24212124735 | ocf: 26203403413 | fcf: 1991278678 | interest_expense: 1225832295.0 | roe: 23.311824646451225 | operating_margin: 21.204539428790103 ",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3109,7 +3293,7 @@
               "matched_keywords": [
                 "sales"
               ],
-              "snippet": "year: 2024 | sales: 306791365556.0 | operating_income: 70304948252.0 | net_income: 65036530638.0 | total_assets: 391796337435.0 | total_liabilities: 84308931196.0 | total_equity: 307487406239.0 | capex: 6424516297 | ocf: 35037235881 | fcf: 28612719584 | interest: 1932942109.0 | ROE: 21.150957508630196 | 영업이익률: 22.916208259181573 | 부채비율: 27.418661540391476 | 이자보상배율: 36.37198854774393",
+              "snippet": "year: 2022 | sales: 255929775545.0 | operating_income: 50701951182.0 | net_income: 41497460909.0 | total_assets: 261797468390.0 | total_liabilities: 75905443769.0 | total_equity: 185892024621.0 | current_assets: 162287937565.0 | current_liabilities: 48229846672.0 | capex: 30170271727 | ocf: 22300830924 | fcf: -7869440803 | interest_expense: 1876941920.0 | roe: 22.3234218862298 | operating_margin: 19.810884088821116 |",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3138,43 +3322,10 @@
               "source_file": "data/반도체/월덱스/finance/월덱스_finance.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
+                "영업이익률",
                 "수익성"
               ],
-              "snippet": "summary: 월덱스는 2024년까지 매출과 이익이 성장했으나, 2025년에는 매출과 영업이익이 감소하며 수익성이 하락하는 모습을 보였다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%9B%94%EB%8D%B1%EC%8A%A4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/월덱스/finance/월덱스_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "영업이익률"
-              ],
-              "snippet": "2023년과 2024년에는 높은 ROE와 영업이익률을 기록했으나, 2025년에는 이 수치들이 크게 하락했다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%9B%94%EB%8D%B1%EC%8A%A4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/월덱스/finance/월덱스_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "영업이익률"
-              ],
-              "snippet": "key_thesis: 2023년과 2024년에는 각각 28.8조원, 30.7조원의 매출을 기록하며 성장세를 보였고, 영업이익률도 22.5%, 22.9%로 견조한 수준을 유지했다.",
+              "snippet": "summary: 월덱스는 2023년 이후 매출이 꾸준히 성장하며 긍정적인 흐름을 보이고 있으며, 영업이익률 또한 20% 이상을 유지하며 견조한 수익성을 나타내고 있습니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3192,24 +3343,7 @@
                 "현금흐름",
                 "FCF"
               ],
-              "snippet": "key_thesis: 2023년 717억, 2024년 286억의 잉여현금흐름(FCF)을 창출하며 현금 창출 능력을 보여주었다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%9B%94%EB%8D%B1%EC%8A%A4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/월덱스/finance/월덱스_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "수익성"
-              ],
-              "snippet": "key_risks: 2025년 매출액이 29.1조원으로 전년 대비 감소했으며, 영업이익과 순이익 또한 각각 585억, 409억으로 크게 하락하여 수익성 둔화가 우려된다.",
+              "snippet": "다만, 2022년 마이너스였던 잉여현금흐름(FCF)이 2023년 크게 개선되었으나, 2024년 다시 감소하는 추세를 보이고 있어 현금 창출 능력의 지속성에 대한 추가 확인이 필요합니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3227,7 +3361,7 @@
                 "영업이익률",
                 "수익성"
               ],
-              "snippet": "key_risks: 2025년 ROE가 11.82%로 이전 연도 대비 절반 가까이 하락했으며, 영업이익률 또한 20.07%로 감소하여 수익성 악화 추세를 보여준다.",
+              "snippet": "key_thesis: 2021년 21.20%에서 2024년 22.92%로 상승한 영업이익률은 높은 수준의 수익성을 유지하고 있음을 시사합니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3239,12 +3373,65 @@
             },
             {
               "source_group": "FINANCE",
-              "source_file": "data/반도체/월덱스/finance/월덱스_finance_agent_packet.json",
+              "source_file": "data/반도체/월덱스/finance/월덱스_finance.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
+                "수익성"
+              ],
+              "snippet": "key_thesis: 2023년 22.48%의 ROE는 자본 대비 수익성이 양호함을 보여줍니다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%9B%94%EB%8D%B1%EC%8A%A4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/월덱스/finance/월덱스_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "현금흐름",
                 "FCF"
               ],
-              "snippet": "report_core_points: FCF: 월덱스 2025 기준 FCF 값은 49,871,564,590원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+              "snippet": "key_thesis: 2023년 717억 원으로 크게 개선된 잉여현금흐름(FCF)은 투자 활동 이후 현금 창출 능력이 회복되었음을 나타냅니다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%9B%94%EB%8D%B1%EC%8A%A4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/월덱스/finance/월덱스_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "현금흐름",
+                "FCF"
+              ],
+              "snippet": "key_risks: 2022년 -78억 원이었던 잉여현금흐름(FCF)이 2024년 286억 원으로 감소한 점은 현금 창출 능력의 변동성을 시사합니다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%9B%94%EB%8D%B1%EC%8A%A4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/월덱스/finance/월덱스_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "수익성"
+              ],
+              "snippet": "key_risks: 2025년 9월 30일 기준 EPS가 5235.89로 이전 연도 대비 감소한 점은 향후 수익성에 대한 추가 확인이 필요함을 시사합니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3259,9 +3446,10 @@
               "source_file": "data/반도체/월덱스/finance/월덱스_finance_agent_packet.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
-                "영업이익률"
+                "영업이익률",
+                "수익성"
               ],
-              "snippet": "missing_prompt_metrics: 영업이익률",
+              "snippet": "report_core_points: 영업이익률: 월덱스 2024 기준 영업이익률 값은 22.92%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3477,7 +3665,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\월덱스\\tech\\woldex_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\월덱스\\tech\\woldex_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-20T22:27:21",
+      "generated_at": "2026-05-26T08:16:44",
       "core_counts": {
         "total_patents": 30,
         "registered_patents_estimated": 25,
@@ -3559,8 +3747,8 @@
     "bridge_signal": "IP_QUALITY_NEUTRAL"
   },
   "formula_catalog_summary": {
-    "json": "data\\반도체\\월덱스\\tech\\woldex_tech_formula_rules.json",
-    "md": "data\\반도체\\월덱스\\tech\\woldex_tech_formula_rules.md",
+    "json": "C:\\Agent_6.9\\data\\반도체\\월덱스\\tech\\woldex_tech_formula_rules.json",
+    "md": "C:\\Agent_6.9\\data\\반도체\\월덱스\\tech\\woldex_tech_formula_rules.md",
     "rule_count": 34
   },
   "evidence_harvest_summary": {
@@ -3596,6 +3784,8 @@
     "tech_full_appendix_json": null,
     "tech_chair_summary_json": "data/반도체/월덱스/tech/tech_chair_summary.json",
     "tech_chair_summary_md": "data/반도체/월덱스/tech/woldex_tech_chair_summary.md",
+    "tech_history_feature_json": "data/반도체/월덱스/tech/tech_history_features_2025-09-30.json",
+    "tech_history_feature_csv": "data/반도체/월덱스/tech/tech_history_features_2025-09-30.csv",
     "tech_json": "data/반도체/월덱스/tech/woldex_tech.json",
     "tech_agent_packet_json": "data/반도체/월덱스/tech/woldex_tech_agent_packet.json"
   },
@@ -4501,7 +4691,7 @@
     "field": "반도체",
     "source_csv": "data\\반도체\\월덱스\\tech\\woldex_kipris_patents_normalized.csv",
     "enriched_csv": "data\\반도체\\월덱스\\tech\\woldex_kipris_tech_ml_enriched.csv",
-    "generated_at": "2026-05-20T22:27:21",
+    "generated_at": "2026-05-26T08:16:44",
     "core_counts": {
       "total_patents": 30,
       "registered_patents_estimated": 25,

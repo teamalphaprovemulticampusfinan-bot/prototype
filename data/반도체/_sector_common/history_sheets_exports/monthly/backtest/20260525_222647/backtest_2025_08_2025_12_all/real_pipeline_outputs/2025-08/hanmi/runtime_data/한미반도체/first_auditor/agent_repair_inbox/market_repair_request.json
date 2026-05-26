@@ -1,0 +1,1946 @@
+{
+  "repair_schema_version": "first_auditor_v4_with_web_crosscheck",
+  "created_at": "2026-04-29T11:45:02.072970+00:00",
+  "company_dir": "hanmi",
+  "company": "한미반도체",
+  "target_agent": "market",
+  "pass_condition": "actual_match_ratio >= 85%",
+  "current_actual_match_ratio": 0.74,
+  "local_issues": [
+    "evidence_contract enforcement failed: enforce_evidence_contract() missing 1 required keyword-only argument: 'agent_name'"
+  ],
+  "contract": {
+    "score": 0.987,
+    "evidence_count": 27,
+    "strong_evidence_count": 26,
+    "claim_count": 12,
+    "evidence_id_coverage": 1.0,
+    "valid_evidence_ref_coverage": 1.0,
+    "non_self_evidence_coverage": 0.963
+  },
+  "claim_scores": [
+    {
+      "score": 1.0,
+      "text_support": 0.5,
+      "numeric_support": 1.0,
+      "has_strong_evidence": true,
+      "has_any_evidence": true,
+      "claim_index": 1,
+      "claim_text": "한미반도체 stock_data.current_price 값은 151000.0입니다.",
+      "evidence_ids": [
+        "market.ev.001"
+      ],
+      "selected_evidence_count": 1
+    },
+    {
+      "score": 1.0,
+      "text_support": 0.5,
+      "numeric_support": 1.0,
+      "has_strong_evidence": true,
+      "has_any_evidence": true,
+      "claim_index": 2,
+      "claim_text": "한미반도체 stock_data.week52_high 값은 379500.0입니다.",
+      "evidence_ids": [
+        "market.ev.002"
+      ],
+      "selected_evidence_count": 1
+    },
+    {
+      "score": 1.0,
+      "text_support": 0.5,
+      "numeric_support": 1.0,
+      "has_strong_evidence": true,
+      "has_any_evidence": true,
+      "claim_index": 3,
+      "claim_text": "한미반도체 stock_data.week52_low 값은 74600.0입니다.",
+      "evidence_ids": [
+        "market.ev.003"
+      ],
+      "selected_evidence_count": 1
+    },
+    {
+      "score": 1.0,
+      "text_support": 0.4,
+      "numeric_support": 1.0,
+      "has_strong_evidence": true,
+      "has_any_evidence": true,
+      "claim_index": 4,
+      "claim_text": "한미반도체 stock_data.beta 값은 0입니다.",
+      "evidence_ids": [
+        "market.ev.004"
+      ],
+      "selected_evidence_count": 1
+    },
+    {
+      "score": 1.0,
+      "text_support": 0.4,
+      "numeric_support": 1.0,
+      "has_strong_evidence": true,
+      "has_any_evidence": true,
+      "claim_index": 5,
+      "claim_text": "한미반도체 stock_data.volume 값은 1775578입니다.",
+      "evidence_ids": [
+        "market.ev.005"
+      ],
+      "selected_evidence_count": 1
+    },
+    {
+      "score": 1.0,
+      "text_support": 0.5714,
+      "numeric_support": 1.0,
+      "has_strong_evidence": true,
+      "has_any_evidence": true,
+      "claim_index": 6,
+      "claim_text": "한미반도체 stock_data.price_change_5d 값은 25.04입니다.",
+      "evidence_ids": [
+        "market.ev.006"
+      ],
+      "selected_evidence_count": 1
+    },
+    {
+      "score": 1.0,
+      "text_support": 0.5,
+      "numeric_support": 1.0,
+      "has_strong_evidence": true,
+      "has_any_evidence": true,
+      "claim_index": 7,
+      "claim_text": "oecd_data.G20 값은 100.59입니다.",
+      "evidence_ids": [
+        "market.ev.007"
+      ],
+      "selected_evidence_count": 1
+    },
+    {
+      "score": 1.0,
+      "text_support": 0.5,
+      "numeric_support": 1.0,
+      "has_strong_evidence": true,
+      "has_any_evidence": true,
+      "claim_index": 8,
+      "claim_text": "oecd_data.한국 값은 102.28입니다.",
+      "evidence_ids": [
+        "market.ev.008"
+      ],
+      "selected_evidence_count": 1
+    },
+    {
+      "score": 1.0,
+      "text_support": 0.5,
+      "numeric_support": 1.0,
+      "has_strong_evidence": true,
+      "has_any_evidence": true,
+      "claim_index": 9,
+      "claim_text": "oecd_data.미국 값은 100.89입니다.",
+      "evidence_ids": [
+        "market.ev.009"
+      ],
+      "selected_evidence_count": 1
+    },
+    {
+      "score": 1.0,
+      "text_support": 0.5,
+      "numeric_support": 1.0,
+      "has_strong_evidence": true,
+      "has_any_evidence": true,
+      "claim_index": 10,
+      "claim_text": "oecd_data.중국 값은 98.49입니다.",
+      "evidence_ids": [
+        "market.ev.010"
+      ],
+      "selected_evidence_count": 1
+    },
+    {
+      "score": 1.0,
+      "text_support": 0.5,
+      "numeric_support": 1.0,
+      "has_strong_evidence": true,
+      "has_any_evidence": true,
+      "claim_index": 11,
+      "claim_text": "static_data.base.52주베타 값은 1.64입니다.",
+      "evidence_ids": [
+        "market.ev.015"
+      ],
+      "selected_evidence_count": 1
+    },
+    {
+      "score": 1.0,
+      "text_support": 0.5,
+      "numeric_support": 1.0,
+      "has_strong_evidence": true,
+      "has_any_evidence": true,
+      "claim_index": 12,
+      "claim_text": "news_count 값은 10count입니다.",
+      "evidence_ids": [
+        "market.ev.021"
+      ],
+      "selected_evidence_count": 1
+    }
+  ],
+  "llm_reason": "AUDITOR LLM failed: Request timed out.",
+  "unsupported_claims": [],
+  "web_crosscheck": {
+    "score": 0.7792,
+    "pass": false,
+    "reason": "네이버 뉴스/Serper 검색 결과와 local evidence를 함께 사용해 claim 단위 검증을 수행했습니다.",
+    "unsupported_claims": [
+      {
+        "agent": "market",
+        "claim_id": "market.auto_cl.007",
+        "text": "oecd_data.G20 값은 100.59입니다.",
+        "evidence_ids": [
+          "market.ev.007"
+        ],
+        "verdict": "unsupported",
+        "score": 0.0,
+        "reason": "웹 검색 결과에 OECD G20 지표 값(100.59)을 확인할 수 있는 내용이 전혀 없습니다. 검색 결과는 인스타그램 게시물로 반도체 관련 내용만 포함하고 있어 주장을 검증할 수 없습니다.",
+        "web_query": "한미반도체 oecd_data.G20 값은 100.59입니다.",
+        "web_search_used": true,
+        "search_results": [
+          {
+            "title": "이창민 (@changmin_0727) • Instagram photos and videos",
+            "link": "https://www.instagram.com/changmin_0727/",
+            "snippet": "반도체 소부장은 반도체 호실적에 따라 가치와 가격 모두 상승중이다. 제약 ... 이번자료를 통해서 반도체메모리의 AI수요증가에 따른 가격상승확인, 차세대 ...",
+            "source": "serper"
+          }
+        ],
+        "matched_evidence_ids": [
+          "market.ev.007"
+        ],
+        "cited_sources": []
+      }
+    ]
+  },
+  "current_opinion_json": {
+    "agent": "market",
+    "company_name": "한미반도체",
+    "company": "한미반도체",
+    "opinion": "보유",
+    "confidence": 0.8,
+    "summary": "한미반도체에 대해 검증 가능한 핵심 근거는 다음과 같습니다. 한미반도체 stock_data.current_price 값은 151000.0입니다. 한미반도체 stock_data.week52_high 값은 379500.0입니다. 한미반도체 stock_data.week52_low 값은 74600.0입니다. 한미반도체 stock_data.beta 값은 0입니다. 한미반도체 stock_data.volume 값은 1775578입니다.",
+    "key_points": [
+      "한미반도체 stock_data.current_price 값은 151000.0입니다.",
+      "한미반도체 stock_data.week52_high 값은 379500.0입니다.",
+      "한미반도체 stock_data.week52_low 값은 74600.0입니다.",
+      "한미반도체 stock_data.beta 값은 0입니다.",
+      "한미반도체 stock_data.volume 값은 1775578입니다."
+    ],
+    "risks": [],
+    "claims": [
+      {
+        "claim_id": "market.cl.001",
+        "text": "한미반도체 stock_data.current_price 값은 151000.0입니다.",
+        "evidence_ids": [
+          "market.ev.001"
+        ]
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "한미반도체 stock_data.week52_high 값은 379500.0입니다.",
+        "evidence_ids": [
+          "market.ev.002"
+        ]
+      },
+      {
+        "claim_id": "market.cl.003",
+        "text": "한미반도체 stock_data.week52_low 값은 74600.0입니다.",
+        "evidence_ids": [
+          "market.ev.003"
+        ]
+      },
+      {
+        "claim_id": "market.cl.004",
+        "text": "한미반도체 stock_data.beta 값은 0입니다.",
+        "evidence_ids": [
+          "market.ev.004"
+        ]
+      },
+      {
+        "claim_id": "market.cl.005",
+        "text": "한미반도체 stock_data.volume 값은 1775578입니다.",
+        "evidence_ids": [
+          "market.ev.005"
+        ]
+      },
+      {
+        "claim_id": "market.cl.006",
+        "text": "한미반도체 stock_data.price_change_5d 값은 25.04입니다.",
+        "evidence_ids": [
+          "market.ev.006"
+        ]
+      },
+      {
+        "claim_id": "market.auto_cl.007",
+        "text": "oecd_data.G20 값은 100.59입니다.",
+        "evidence_ids": [
+          "market.ev.007"
+        ],
+        "claim_type": "point"
+      },
+      {
+        "claim_id": "market.auto_cl.009",
+        "text": "oecd_data.한국 값은 102.28입니다.",
+        "evidence_ids": [
+          "market.ev.008"
+        ],
+        "claim_type": "point"
+      },
+      {
+        "claim_id": "market.auto_cl.011",
+        "text": "oecd_data.미국 값은 100.89입니다.",
+        "evidence_ids": [
+          "market.ev.009"
+        ],
+        "claim_type": "point"
+      },
+      {
+        "claim_id": "market.auto_cl.013",
+        "text": "oecd_data.중국 값은 98.49입니다.",
+        "evidence_ids": [
+          "market.ev.010"
+        ],
+        "claim_type": "point"
+      },
+      {
+        "claim_id": "market.auto_cl.015",
+        "text": "static_data.base.52주베타 값은 1.64입니다.",
+        "evidence_ids": [
+          "market.ev.015"
+        ],
+        "claim_type": "point"
+      },
+      {
+        "claim_id": "market.auto_cl.017",
+        "text": "news_count 값은 10count입니다.",
+        "evidence_ids": [
+          "market.ev.021"
+        ],
+        "claim_type": "point"
+      }
+    ],
+    "evidences": [
+      {
+        "evidence_id": "market.ev.001",
+        "source_type": "market",
+        "source": "stock_data",
+        "metric": "stock_data.current_price",
+        "value": 151000.0,
+        "unit": "원",
+        "period": null,
+        "snippet": "stock_data | stock_data.current_price | 값: 151,000원"
+      },
+      {
+        "evidence_id": "market.ev.002",
+        "source_type": "market",
+        "source": "stock_data",
+        "metric": "stock_data.week52_high",
+        "value": 379500.0,
+        "unit": "원",
+        "period": null,
+        "snippet": "stock_data | stock_data.week52_high | 값: 379,500원"
+      },
+      {
+        "evidence_id": "market.ev.003",
+        "source_type": "market",
+        "source": "stock_data",
+        "metric": "stock_data.week52_low",
+        "value": 74600.0,
+        "unit": "원",
+        "period": null,
+        "snippet": "stock_data | stock_data.week52_low | 값: 74,600원"
+      },
+      {
+        "evidence_id": "market.ev.004",
+        "source_type": "market",
+        "source": "stock_data",
+        "metric": "stock_data.beta",
+        "value": 0,
+        "unit": "원",
+        "period": null,
+        "snippet": "stock_data | stock_data.beta | 값: 0원"
+      },
+      {
+        "evidence_id": "market.ev.005",
+        "source_type": "market",
+        "source": "stock_data",
+        "metric": "stock_data.volume",
+        "value": 1775578,
+        "unit": "원",
+        "period": null,
+        "snippet": "stock_data | stock_data.volume | 값: 1,775,578원"
+      },
+      {
+        "evidence_id": "market.ev.006",
+        "source_type": "market",
+        "source": "stock_data",
+        "metric": "stock_data.price_change_5d",
+        "value": 25.04,
+        "unit": "원",
+        "period": null,
+        "snippet": "stock_data | stock_data.price_change_5d | 값: 25.04원"
+      },
+      {
+        "evidence_id": "market.ev.007",
+        "source_type": "market",
+        "source": "oecd_data",
+        "metric": "oecd_data.G20",
+        "value": 100.5902,
+        "unit": null,
+        "period": null,
+        "snippet": "oecd_data | oecd_data.G20 | 값: 100.59"
+      },
+      {
+        "evidence_id": "market.ev.008",
+        "source_type": "market",
+        "source": "oecd_data",
+        "metric": "oecd_data.한국",
+        "value": 102.2842,
+        "unit": null,
+        "period": null,
+        "snippet": "oecd_data | oecd_data.한국 | 값: 102.28"
+      },
+      {
+        "evidence_id": "market.ev.009",
+        "source_type": "market",
+        "source": "oecd_data",
+        "metric": "oecd_data.미국",
+        "value": 100.8895,
+        "unit": null,
+        "period": null,
+        "snippet": "oecd_data | oecd_data.미국 | 값: 100.89"
+      },
+      {
+        "evidence_id": "market.ev.010",
+        "source_type": "market",
+        "source": "oecd_data",
+        "metric": "oecd_data.중국",
+        "value": 98.48773,
+        "unit": null,
+        "period": null,
+        "snippet": "oecd_data | oecd_data.중국 | 값: 98.49"
+      },
+      {
+        "evidence_id": "market.ev.011",
+        "source_type": "market",
+        "source": "static_data",
+        "metric": "static_data.chain.position",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | static_data.chain.position | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.012",
+        "source_type": "market",
+        "source": "static_data",
+        "metric": "static_data.chain.products",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | static_data.chain.products | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.013",
+        "source_type": "market",
+        "source": "static_data",
+        "metric": "static_data.chain.process",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | static_data.chain.process | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.014",
+        "source_type": "market",
+        "source": "static_data",
+        "metric": "static_data.base.정부 지원 금액(R&D)-정부프로젝트",
+        "value": null,
+        "unit": "원",
+        "period": null,
+        "snippet": "static_data | static_data.base.정부 지원 금액(R&D)-정부프로젝트 | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.015",
+        "source_type": "market",
+        "source": "static_data",
+        "metric": "static_data.base.52주베타",
+        "value": 1.64,
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | static_data.base.52주베타 | 값: 1.64"
+      },
+      {
+        "evidence_id": "market.ev.016",
+        "source_type": "market",
+        "source": "static_data",
+        "metric": "static_data.base.사업정책 데이터",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | static_data.base.사업정책 데이터 | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.017",
+        "source_type": "market",
+        "source": "static_data",
+        "metric": "static_data.base.구분",
+        "value": null,
+        "unit": "배",
+        "period": null,
+        "snippet": "static_data | static_data.base.구분 | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.018",
+        "source_type": "market",
+        "source": "static_data",
+        "metric": "static_data.base.전체 위치",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | static_data.base.전체 위치 | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.019",
+        "source_type": "market",
+        "source": "static_data",
+        "metric": "static_data.base.핵심 세그먼트",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | static_data.base.핵심 세그먼트 | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.020",
+        "source_type": "market",
+        "source": "static_data",
+        "metric": "static_data.base.시장 성장률",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | static_data.base.시장 성장률 | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.021",
+        "source_type": "market_news",
+        "source": "market_graph_news_data",
+        "metric": "news_count",
+        "value": 10,
+        "unit": "count",
+        "period": null,
+        "snippet": "market_graph_news_data | news_count | 값: 10count"
+      },
+      {
+        "evidence_id": "market.ev.022",
+        "source_type": "market_news",
+        "source": "Naver News",
+        "metric": "news_title",
+        "value": null,
+        "unit": null,
+        "period": "Wed, 29 Apr 2026",
+        "snippet": "Naver News | Wed, 29 Apr 2026 기준 news_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.023",
+        "source_type": "market_news",
+        "source": "Naver News",
+        "metric": "news_title",
+        "value": null,
+        "unit": null,
+        "period": "Wed, 29 Apr 2026",
+        "snippet": "Naver News | Wed, 29 Apr 2026 기준 news_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.024",
+        "source_type": "market_news",
+        "source": "Naver News",
+        "metric": "news_title",
+        "value": null,
+        "unit": null,
+        "period": "Wed, 29 Apr 2026",
+        "snippet": "Naver News | Wed, 29 Apr 2026 기준 news_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.025",
+        "source_type": "market_news",
+        "source": "Naver News",
+        "metric": "news_title",
+        "value": null,
+        "unit": "배",
+        "period": "Wed, 29 Apr 2026",
+        "snippet": "Naver News | Wed, 29 Apr 2026 기준 news_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.026",
+        "source_type": "market_news",
+        "source": "Naver News",
+        "metric": "news_title",
+        "value": null,
+        "unit": "원",
+        "period": "Wed, 29 Apr 2026",
+        "snippet": "Naver News | Wed, 29 Apr 2026 기준 news_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.unverified",
+        "source_type": "agent_output_unverified",
+        "source": "market_output",
+        "metric": null,
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "검증 가능한 원천 evidence가 부족합니다."
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "market.ev.001",
+        "source_type": "market",
+        "source": "stock_data",
+        "metric": "stock_data.current_price",
+        "value": 151000.0,
+        "unit": "원",
+        "period": null,
+        "snippet": "stock_data | stock_data.current_price | 값: 151,000원"
+      },
+      {
+        "evidence_id": "market.ev.002",
+        "source_type": "market",
+        "source": "stock_data",
+        "metric": "stock_data.week52_high",
+        "value": 379500.0,
+        "unit": "원",
+        "period": null,
+        "snippet": "stock_data | stock_data.week52_high | 값: 379,500원"
+      },
+      {
+        "evidence_id": "market.ev.003",
+        "source_type": "market",
+        "source": "stock_data",
+        "metric": "stock_data.week52_low",
+        "value": 74600.0,
+        "unit": "원",
+        "period": null,
+        "snippet": "stock_data | stock_data.week52_low | 값: 74,600원"
+      },
+      {
+        "evidence_id": "market.ev.004",
+        "source_type": "market",
+        "source": "stock_data",
+        "metric": "stock_data.beta",
+        "value": 0,
+        "unit": "원",
+        "period": null,
+        "snippet": "stock_data | stock_data.beta | 값: 0원"
+      },
+      {
+        "evidence_id": "market.ev.005",
+        "source_type": "market",
+        "source": "stock_data",
+        "metric": "stock_data.volume",
+        "value": 1775578,
+        "unit": "원",
+        "period": null,
+        "snippet": "stock_data | stock_data.volume | 값: 1,775,578원"
+      },
+      {
+        "evidence_id": "market.ev.006",
+        "source_type": "market",
+        "source": "stock_data",
+        "metric": "stock_data.price_change_5d",
+        "value": 25.04,
+        "unit": "원",
+        "period": null,
+        "snippet": "stock_data | stock_data.price_change_5d | 값: 25.04원"
+      },
+      {
+        "evidence_id": "market.ev.007",
+        "source_type": "market",
+        "source": "oecd_data",
+        "metric": "oecd_data.G20",
+        "value": 100.5902,
+        "unit": null,
+        "period": null,
+        "snippet": "oecd_data | oecd_data.G20 | 값: 100.59"
+      },
+      {
+        "evidence_id": "market.ev.008",
+        "source_type": "market",
+        "source": "oecd_data",
+        "metric": "oecd_data.한국",
+        "value": 102.2842,
+        "unit": null,
+        "period": null,
+        "snippet": "oecd_data | oecd_data.한국 | 값: 102.28"
+      },
+      {
+        "evidence_id": "market.ev.009",
+        "source_type": "market",
+        "source": "oecd_data",
+        "metric": "oecd_data.미국",
+        "value": 100.8895,
+        "unit": null,
+        "period": null,
+        "snippet": "oecd_data | oecd_data.미국 | 값: 100.89"
+      },
+      {
+        "evidence_id": "market.ev.010",
+        "source_type": "market",
+        "source": "oecd_data",
+        "metric": "oecd_data.중국",
+        "value": 98.48773,
+        "unit": null,
+        "period": null,
+        "snippet": "oecd_data | oecd_data.중국 | 값: 98.49"
+      },
+      {
+        "evidence_id": "market.ev.011",
+        "source_type": "market",
+        "source": "static_data",
+        "metric": "static_data.chain.position",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | static_data.chain.position | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.012",
+        "source_type": "market",
+        "source": "static_data",
+        "metric": "static_data.chain.products",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | static_data.chain.products | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.013",
+        "source_type": "market",
+        "source": "static_data",
+        "metric": "static_data.chain.process",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | static_data.chain.process | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.014",
+        "source_type": "market",
+        "source": "static_data",
+        "metric": "static_data.base.정부 지원 금액(R&D)-정부프로젝트",
+        "value": null,
+        "unit": "원",
+        "period": null,
+        "snippet": "static_data | static_data.base.정부 지원 금액(R&D)-정부프로젝트 | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.015",
+        "source_type": "market",
+        "source": "static_data",
+        "metric": "static_data.base.52주베타",
+        "value": 1.64,
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | static_data.base.52주베타 | 값: 1.64"
+      },
+      {
+        "evidence_id": "market.ev.016",
+        "source_type": "market",
+        "source": "static_data",
+        "metric": "static_data.base.사업정책 데이터",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | static_data.base.사업정책 데이터 | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.017",
+        "source_type": "market",
+        "source": "static_data",
+        "metric": "static_data.base.구분",
+        "value": null,
+        "unit": "배",
+        "period": null,
+        "snippet": "static_data | static_data.base.구분 | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.018",
+        "source_type": "market",
+        "source": "static_data",
+        "metric": "static_data.base.전체 위치",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | static_data.base.전체 위치 | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.019",
+        "source_type": "market",
+        "source": "static_data",
+        "metric": "static_data.base.핵심 세그먼트",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | static_data.base.핵심 세그먼트 | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.020",
+        "source_type": "market",
+        "source": "static_data",
+        "metric": "static_data.base.시장 성장률",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "static_data | static_data.base.시장 성장률 | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.021",
+        "source_type": "market_news",
+        "source": "market_graph_news_data",
+        "metric": "news_count",
+        "value": 10,
+        "unit": "count",
+        "period": null,
+        "snippet": "market_graph_news_data | news_count | 값: 10count"
+      },
+      {
+        "evidence_id": "market.ev.022",
+        "source_type": "market_news",
+        "source": "Naver News",
+        "metric": "news_title",
+        "value": null,
+        "unit": null,
+        "period": "Wed, 29 Apr 2026",
+        "snippet": "Naver News | Wed, 29 Apr 2026 기준 news_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.023",
+        "source_type": "market_news",
+        "source": "Naver News",
+        "metric": "news_title",
+        "value": null,
+        "unit": null,
+        "period": "Wed, 29 Apr 2026",
+        "snippet": "Naver News | Wed, 29 Apr 2026 기준 news_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.024",
+        "source_type": "market_news",
+        "source": "Naver News",
+        "metric": "news_title",
+        "value": null,
+        "unit": null,
+        "period": "Wed, 29 Apr 2026",
+        "snippet": "Naver News | Wed, 29 Apr 2026 기준 news_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.025",
+        "source_type": "market_news",
+        "source": "Naver News",
+        "metric": "news_title",
+        "value": null,
+        "unit": "배",
+        "period": "Wed, 29 Apr 2026",
+        "snippet": "Naver News | Wed, 29 Apr 2026 기준 news_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.026",
+        "source_type": "market_news",
+        "source": "Naver News",
+        "metric": "news_title",
+        "value": null,
+        "unit": "원",
+        "period": "Wed, 29 Apr 2026",
+        "snippet": "Naver News | Wed, 29 Apr 2026 기준 news_title | 값: 확인 불가"
+      },
+      {
+        "evidence_id": "market.ev.unverified",
+        "source_type": "agent_output_unverified",
+        "source": "market_output",
+        "metric": null,
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "검증 가능한 원천 evidence가 부족합니다."
+      }
+    ],
+    "raw_payload": {
+      "analysis": {
+        "company": "한미반도체",
+        "opinion": "보유",
+        "confidence": 0.8,
+        "summary": "한미반도체 분석 중 LLM 호출 오류가 발생해 fallback 결과를 반환합니다.",
+        "total_score": null,
+        "scoring": {},
+        "market_environment": {
+          "oecd_cli": "",
+          "industry_stage": "",
+          "value_chain_position": "",
+          "competition": ""
+        },
+        "risks": [
+          "LLM 호출 실패: Unterminated string starting at: line 55 column 22 (char 1986)"
+        ],
+        "opportunities": [],
+        "error": "Unterminated string starting at: line 55 column 22 (char 1986)"
+      },
+      "original_opportunities": [],
+      "original_risks": [
+        "LLM 호출 실패: Unterminated string starting at: line 55 column 22 (char 1986)"
+      ],
+      "removed_bad_evidence_ids": [
+        "market.ev.unverified"
+      ]
+    },
+    "packet_version": "grounded_agent_v3",
+    "pre_sanitize_grounding_check": {
+      "score": 1.0,
+      "pass": true,
+      "pass_threshold": 0.75,
+      "claim_count": 6,
+      "supported_count": 6,
+      "unsupported_count": 0,
+      "supported_claims": [
+        "한미반도체 stock_data.current_price 값은 151000.0입니다.",
+        "한미반도체 stock_data.week52_high 값은 379500.0입니다.",
+        "한미반도체 stock_data.week52_low 값은 74600.0입니다.",
+        "한미반도체 stock_data.beta 값은 0입니다.",
+        "한미반도체 stock_data.volume 값은 1775578입니다.",
+        "한미반도체 stock_data.price_change_5d 값은 25.04입니다."
+      ],
+      "unsupported_claims": [],
+      "issues": [],
+      "claim_results": [
+        {
+          "claim_id": "market.cl.001",
+          "text": "한미반도체 stock_data.current_price 값은 151000.0입니다.",
+          "evidence_ids": [
+            "market.ev.001"
+          ],
+          "supported": true,
+          "score": 0.85,
+          "number_ratio": 1.0,
+          "token_ratio": 0.25,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {
+            "price": [
+              "market.ev.001"
+            ]
+          },
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.cl.002",
+          "text": "한미반도체 stock_data.week52_high 값은 379500.0입니다.",
+          "evidence_ids": [
+            "market.ev.002"
+          ],
+          "supported": true,
+          "score": 0.85,
+          "number_ratio": 1.0,
+          "token_ratio": 0.25,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.cl.003",
+          "text": "한미반도체 stock_data.week52_low 값은 74600.0입니다.",
+          "evidence_ids": [
+            "market.ev.003"
+          ],
+          "supported": true,
+          "score": 0.85,
+          "number_ratio": 1.0,
+          "token_ratio": 0.25,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.cl.004",
+          "text": "한미반도체 stock_data.beta 값은 0입니다.",
+          "evidence_ids": [
+            "market.ev.004"
+          ],
+          "supported": true,
+          "score": 0.85,
+          "number_ratio": 1.0,
+          "token_ratio": 0.25,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.cl.005",
+          "text": "한미반도체 stock_data.volume 값은 1775578입니다.",
+          "evidence_ids": [
+            "market.ev.005"
+          ],
+          "supported": true,
+          "score": 0.85,
+          "number_ratio": 1.0,
+          "token_ratio": 0.25,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.cl.006",
+          "text": "한미반도체 stock_data.price_change_5d 값은 25.04입니다.",
+          "evidence_ids": [
+            "market.ev.006"
+          ],
+          "supported": true,
+          "score": 0.85,
+          "number_ratio": 1.0,
+          "token_ratio": 0.25,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {
+            "price": [
+              "market.ev.006"
+            ]
+          },
+          "reason": "supported"
+        }
+      ]
+    },
+    "post_atomic_grounding_check": {
+      "score": 1.0,
+      "pass": true,
+      "pass_threshold": 0.75,
+      "claim_count": 12,
+      "supported_count": 12,
+      "unsupported_count": 0,
+      "supported_claims": [
+        "한미반도체 stock_data.current_price 값은 151000.0입니다.",
+        "한미반도체 stock_data.week52_high 값은 379500.0입니다.",
+        "한미반도체 stock_data.week52_low 값은 74600.0입니다.",
+        "한미반도체 stock_data.beta 값은 0입니다.",
+        "한미반도체 stock_data.volume 값은 1775578입니다.",
+        "한미반도체 stock_data.price_change_5d 값은 25.04입니다.",
+        "oecd_data.G20 값은 100.59입니다.",
+        "oecd_data.한국 값은 102.28입니다.",
+        "oecd_data.미국 값은 100.89입니다.",
+        "oecd_data.중국 값은 98.49입니다.",
+        "static_data.base.52주베타 값은 1.64입니다.",
+        "news_count 값은 10count입니다."
+      ],
+      "unsupported_claims": [],
+      "issues": [],
+      "claim_results": [
+        {
+          "claim_id": "market.cl.001",
+          "text": "한미반도체 stock_data.current_price 값은 151000.0입니다.",
+          "evidence_ids": [
+            "market.ev.001"
+          ],
+          "supported": true,
+          "score": 0.85,
+          "number_ratio": 1.0,
+          "token_ratio": 0.25,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {
+            "price": [
+              "market.ev.001"
+            ]
+          },
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.cl.002",
+          "text": "한미반도체 stock_data.week52_high 값은 379500.0입니다.",
+          "evidence_ids": [
+            "market.ev.002"
+          ],
+          "supported": true,
+          "score": 0.85,
+          "number_ratio": 1.0,
+          "token_ratio": 0.25,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.cl.003",
+          "text": "한미반도체 stock_data.week52_low 값은 74600.0입니다.",
+          "evidence_ids": [
+            "market.ev.003"
+          ],
+          "supported": true,
+          "score": 0.85,
+          "number_ratio": 1.0,
+          "token_ratio": 0.25,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.cl.004",
+          "text": "한미반도체 stock_data.beta 값은 0입니다.",
+          "evidence_ids": [
+            "market.ev.004"
+          ],
+          "supported": true,
+          "score": 0.85,
+          "number_ratio": 1.0,
+          "token_ratio": 0.25,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.cl.005",
+          "text": "한미반도체 stock_data.volume 값은 1775578입니다.",
+          "evidence_ids": [
+            "market.ev.005"
+          ],
+          "supported": true,
+          "score": 0.85,
+          "number_ratio": 1.0,
+          "token_ratio": 0.25,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.cl.006",
+          "text": "한미반도체 stock_data.price_change_5d 값은 25.04입니다.",
+          "evidence_ids": [
+            "market.ev.006"
+          ],
+          "supported": true,
+          "score": 0.85,
+          "number_ratio": 1.0,
+          "token_ratio": 0.25,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {
+            "price": [
+              "market.ev.006"
+            ]
+          },
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.auto_cl.007",
+          "text": "oecd_data.G20 값은 100.59입니다.",
+          "evidence_ids": [
+            "market.ev.007"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.auto_cl.009",
+          "text": "oecd_data.한국 값은 102.28입니다.",
+          "evidence_ids": [
+            "market.ev.008"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.auto_cl.011",
+          "text": "oecd_data.미국 값은 100.89입니다.",
+          "evidence_ids": [
+            "market.ev.009"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.auto_cl.013",
+          "text": "oecd_data.중국 값은 98.49입니다.",
+          "evidence_ids": [
+            "market.ev.010"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.auto_cl.015",
+          "text": "static_data.base.52주베타 값은 1.64입니다.",
+          "evidence_ids": [
+            "market.ev.015"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.auto_cl.017",
+          "text": "news_count 값은 10count입니다.",
+          "evidence_ids": [
+            "market.ev.021"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        }
+      ]
+    },
+    "grounding_check": {
+      "score": 1.0,
+      "pass": true,
+      "pass_threshold": 0.75,
+      "claim_count": 12,
+      "supported_count": 12,
+      "unsupported_count": 0,
+      "supported_claims": [
+        "한미반도체 stock_data.current_price 값은 151000.0입니다.",
+        "한미반도체 stock_data.week52_high 값은 379500.0입니다.",
+        "한미반도체 stock_data.week52_low 값은 74600.0입니다.",
+        "한미반도체 stock_data.beta 값은 0입니다.",
+        "한미반도체 stock_data.volume 값은 1775578입니다.",
+        "한미반도체 stock_data.price_change_5d 값은 25.04입니다.",
+        "oecd_data.G20 값은 100.59입니다.",
+        "oecd_data.한국 값은 102.28입니다.",
+        "oecd_data.미국 값은 100.89입니다.",
+        "oecd_data.중국 값은 98.49입니다.",
+        "static_data.base.52주베타 값은 1.64입니다.",
+        "news_count 값은 10count입니다."
+      ],
+      "unsupported_claims": [],
+      "issues": [],
+      "claim_results": [
+        {
+          "claim_id": "market.cl.001",
+          "text": "한미반도체 stock_data.current_price 값은 151000.0입니다.",
+          "evidence_ids": [
+            "market.ev.001"
+          ],
+          "supported": true,
+          "score": 0.85,
+          "number_ratio": 1.0,
+          "token_ratio": 0.25,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {
+            "price": [
+              "market.ev.001"
+            ]
+          },
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.cl.002",
+          "text": "한미반도체 stock_data.week52_high 값은 379500.0입니다.",
+          "evidence_ids": [
+            "market.ev.002"
+          ],
+          "supported": true,
+          "score": 0.85,
+          "number_ratio": 1.0,
+          "token_ratio": 0.25,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.cl.003",
+          "text": "한미반도체 stock_data.week52_low 값은 74600.0입니다.",
+          "evidence_ids": [
+            "market.ev.003"
+          ],
+          "supported": true,
+          "score": 0.85,
+          "number_ratio": 1.0,
+          "token_ratio": 0.25,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.cl.004",
+          "text": "한미반도체 stock_data.beta 값은 0입니다.",
+          "evidence_ids": [
+            "market.ev.004"
+          ],
+          "supported": true,
+          "score": 0.85,
+          "number_ratio": 1.0,
+          "token_ratio": 0.25,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.cl.005",
+          "text": "한미반도체 stock_data.volume 값은 1775578입니다.",
+          "evidence_ids": [
+            "market.ev.005"
+          ],
+          "supported": true,
+          "score": 0.85,
+          "number_ratio": 1.0,
+          "token_ratio": 0.25,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.cl.006",
+          "text": "한미반도체 stock_data.price_change_5d 값은 25.04입니다.",
+          "evidence_ids": [
+            "market.ev.006"
+          ],
+          "supported": true,
+          "score": 0.85,
+          "number_ratio": 1.0,
+          "token_ratio": 0.25,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {
+            "price": [
+              "market.ev.006"
+            ]
+          },
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.auto_cl.007",
+          "text": "oecd_data.G20 값은 100.59입니다.",
+          "evidence_ids": [
+            "market.ev.007"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.auto_cl.009",
+          "text": "oecd_data.한국 값은 102.28입니다.",
+          "evidence_ids": [
+            "market.ev.008"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.auto_cl.011",
+          "text": "oecd_data.미국 값은 100.89입니다.",
+          "evidence_ids": [
+            "market.ev.009"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.auto_cl.013",
+          "text": "oecd_data.중국 값은 98.49입니다.",
+          "evidence_ids": [
+            "market.ev.010"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.auto_cl.015",
+          "text": "static_data.base.52주베타 값은 1.64입니다.",
+          "evidence_ids": [
+            "market.ev.015"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        },
+        {
+          "claim_id": "market.auto_cl.017",
+          "text": "news_count 값은 10count입니다.",
+          "evidence_ids": [
+            "market.ev.021"
+          ],
+          "supported": true,
+          "score": 0.8667,
+          "number_ratio": 1.0,
+          "token_ratio": 0.3333,
+          "concept_ratio": 1.0,
+          "missing_concepts": [],
+          "concept_matches": {},
+          "reason": "supported"
+        }
+      ]
+    },
+    "opinion_source": "chair_adapter_inferred",
+    "web_verification": {
+      "checked": true,
+      "pass": false,
+      "score": 0.7792,
+      "claim_count": 12,
+      "reason": "네이버 뉴스/Serper 검색 결과와 local evidence를 함께 사용해 claim 단위 검증을 수행했습니다.",
+      "supported_claims": [
+        {
+          "agent": "market",
+          "claim_id": "market.cl.001",
+          "text": "한미반도체 stock_data.current_price 값은 151000.0입니다.",
+          "evidence_ids": [
+            "market.ev.001"
+          ],
+          "verdict": "local_supported",
+          "score": 0.85,
+          "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+          "web_query": "한미반도체 한미반도체 stock_data.current_price 값은 151000.0입니다.",
+          "web_search_used": true,
+          "search_results": [
+            {
+              "title": "042700 - 네이버증권 - NAVER",
+              "link": "https://m.stock.naver.com/domestic/stock/042700/total",
+              "snippet": "이 페이지에 관한 정보가 없습니다. · 이유 알아보기",
+              "source": "serper"
+            },
+            {
+              "title": "Hanmi Semicon 오늘의 주가 - 한미반도체 (042700) - Investing.com",
+              "link": "https://kr.investing.com/equities/hanmi-semicon",
+              "snippet": "한미반도체 배당수익률은 0.21%입니다. 한미반도체 시가총액은 얼마인가요? 오늘 현재 한미반도체 시가총액은 34.81T입니다. 한미반도체의 주당순이익(TTM)은 얼마인가요?",
+              "source": "serper"
+            },
+            {
+              "title": "한미반도체 | 한국경제",
+              "link": "https://markets.hankyung.com/stock/042700",
+              "snippet": "한미반도체 · 거래량(천주): 549,879 · 고가: 362,500 · 거래대금(백만): 194,446 · 저가: 348,000 · 52주 최고: 379,500 · 52주 최저: 74,600 ...",
+              "source": "serper"
+            },
+            {
+              "title": "한미반도체 주가 - 실시간 차트 · 주가 전망 · 투자정보 - 알파스퀘어",
+              "link": "https://alphasquare.co.kr/home/stock-summary?code=042700",
+              "snippet": "실시간 한미반도체(042700) 주가를 광고 없는 깔끔한 화면에서 확인해보세요! 현재 주가는 357500원입니다. 실시간 차트, 최신 뉴스, AI 분석 및 더 많은 정보를 알파 ...",
+              "source": "serper"
+            },
+            {
+              "title": "한미반도체(042700) - 매일경제 마켓",
+              "link": "https://stock.mk.co.kr/price/home/KR7042700005",
+              "snippet": "한미반도체(042700). 04.27 13:39. 코스피. 제조업. 376,500. 81,000. 27.41%. 전일, 295,500. 시가, 305,000. 고가, 379,500. 저가, 302,000. 상한가, 384,000.",
+              "source": "serper"
+            }
+          ],
+          "matched_evidence_ids": [
+            "market.ev.001"
+          ],
+          "cited_sources": []
+        },
+        {
+          "agent": "market",
+          "claim_id": "market.cl.002",
+          "text": "한미반도체 stock_data.week52_high 값은 379500.0입니다.",
+          "evidence_ids": [
+            "market.ev.002"
+          ],
+          "verdict": "local_supported",
+          "score": 0.85,
+          "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+          "web_query": "한미반도체 한미반도체 stock_data.week52_high 값은 379500.0입니다.",
+          "web_search_used": true,
+          "search_results": [
+            {
+              "title": "한미반도체 주가, \"고점에서 또 샀다고요?\" - 인플루언서",
+              "link": "https://in.naver.com/richard/contents/internal/946095232218816",
+              "snippet": "전일 295,500원에서 373,500원으로 78,000원이 올랐고, 장중에는 52주 신고가(379,500원)까지 찍었죠. ​. 그리고 눈길을 끄는 뉴스가 있었죠.",
+              "source": "serper"
+            }
+          ],
+          "matched_evidence_ids": [
+            "market.ev.002"
+          ],
+          "cited_sources": []
+        },
+        {
+          "agent": "market",
+          "claim_id": "market.cl.003",
+          "text": "한미반도체 stock_data.week52_low 값은 74600.0입니다.",
+          "evidence_ids": [
+            "market.ev.003"
+          ],
+          "verdict": "local_supported",
+          "score": 0.85,
+          "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+          "web_query": "한미반도체 한미반도체 stock_data.week52_low 값은 74600.0입니다.",
+          "web_search_used": false,
+          "search_results": [],
+          "matched_evidence_ids": [
+            "market.ev.003"
+          ],
+          "cited_sources": []
+        },
+        {
+          "agent": "market",
+          "claim_id": "market.cl.004",
+          "text": "한미반도체 stock_data.beta 값은 0입니다.",
+          "evidence_ids": [
+            "market.ev.004"
+          ],
+          "verdict": "local_supported",
+          "score": 0.85,
+          "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+          "web_query": "한미반도체 한미반도체 stock_data.beta 값은 0입니다.",
+          "web_search_used": true,
+          "search_results": [
+            {
+              "title": "한미반도체(042700) - 네이버 증권 - NAVER",
+              "link": "https://finance.naver.com/item/main.nhn?code=042700",
+              "snippet": "이 페이지에 관한 정보가 없습니다. · 이유 알아보기",
+              "source": "serper"
+            },
+            {
+              "title": "한미반도체 (A042700) 베타 (5년) - Investing.com",
+              "link": "https://kr.investing.com/pro/KOSE:A042700/explorer/beta",
+              "snippet": "한미반도체의 베타 (5년)은/는 2.10입니다.. 한미반도체의 베타 (5년) 동향, 차트 ... 부문에 속한 기업의 베타 (5년) 평균은 0.82이며, 표준편차는 0.41입니다. 섹터 및 ...",
+              "source": "serper"
+            },
+            {
+              "title": "https://comp.fnguide.com/SVO2/ASP/SVD_Finance.asp?...",
+              "link": "https://comp.fnguide.com/SVO2/ASP/SVD_Finance.asp?pGB=1&gicode=A042700&cID=&MenuYn=Y&ReportGB=&NewMenuID=103&stkGb=701",
+              "snippet": "이 페이지에 관한 정보가 없습니다. · 이유 알아보기",
+              "source": "serper"
+            },
+            {
+              "title": "한미반도체 | TheRich.io - 더리치",
+              "link": "https://www.therich.io/stock?ticker=042700&country=KR",
+              "snippet": "메릴린치 \"삼성전기 110만·한미반도체 42만\"…부품·장비 낙관전망. News1|3일 전 · 한미반도체+0.7%. 추천 0. 공유. 메릴린치 \"한미반도체, 한국의 신규 메가 팹…목표가 42 ...",
+              "source": "serper"
+            },
+            {
+              "title": "한미반도체(042700) | 뉴지스탁 - 종목진단",
+              "link": "https://rank.newsystock.com/NewsyRank/StockAnalysis/SA_Diagnosis.aspx?StockCode=A042700&Univ=KF-ALL",
+              "snippet": "산업. 반도체 및 반도체장비. 유니버스. 코스피중대형. 시가총액(₩). 28조1647억5500만. 지수안내 기준일 : 2026.04.24. 진단종합.",
+              "source": "serper"
+            }
+          ],
+          "matched_evidence_ids": [
+            "market.ev.004"
+          ],
+          "cited_sources": []
+        },
+        {
+          "agent": "market",
+          "claim_id": "market.cl.005",
+          "text": "한미반도체 stock_data.volume 값은 1775578입니다.",
+          "evidence_ids": [
+            "market.ev.005"
+          ],
+          "verdict": "local_supported",
+          "score": 0.85,
+          "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+          "web_query": "한미반도체 한미반도체 stock_data.volume 값은 1775578입니다.",
+          "web_search_used": false,
+          "search_results": [],
+          "matched_evidence_ids": [
+            "market.ev.005"
+          ],
+          "cited_sources": []
+        },
+        {
+          "agent": "market",
+          "claim_id": "market.cl.006",
+          "text": "한미반도체 stock_data.price_change_5d 값은 25.04입니다.",
+          "evidence_ids": [
+            "market.ev.006"
+          ],
+          "verdict": "local_supported",
+          "score": 0.85,
+          "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+          "web_query": "한미반도체 한미반도체 stock_data.price_change_5d 값은 25.04입니다.",
+          "web_search_used": true,
+          "search_results": [
+            {
+              "title": "한미반도체(042700) - 네이버 증권 - NAVER",
+              "link": "https://finance.naver.com/item/main.naver?code=042700",
+              "snippet": "이 페이지에 관한 정보가 없습니다. · 이유 알아보기",
+              "source": "serper"
+            }
+          ],
+          "matched_evidence_ids": [
+            "market.ev.006"
+          ],
+          "cited_sources": []
+        },
+        {
+          "agent": "market",
+          "claim_id": "market.auto_cl.009",
+          "text": "oecd_data.한국 값은 102.28입니다.",
+          "evidence_ids": [
+            "market.ev.008"
+          ],
+          "verdict": "local_supported",
+          "score": 0.85,
+          "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+          "web_query": "한미반도체 oecd_data.한국 값은 102.28입니다.",
+          "web_search_used": false,
+          "search_results": [],
+          "matched_evidence_ids": [
+            "market.ev.008"
+          ],
+          "cited_sources": []
+        },
+        {
+          "agent": "market",
+          "claim_id": "market.auto_cl.011",
+          "text": "oecd_data.미국 값은 100.89입니다.",
+          "evidence_ids": [
+            "market.ev.009"
+          ],
+          "verdict": "local_supported",
+          "score": 0.85,
+          "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+          "web_query": "한미반도체 oecd_data.미국 값은 100.89입니다.",
+          "web_search_used": false,
+          "search_results": [],
+          "matched_evidence_ids": [
+            "market.ev.009"
+          ],
+          "cited_sources": []
+        },
+        {
+          "agent": "market",
+          "claim_id": "market.auto_cl.013",
+          "text": "oecd_data.중국 값은 98.49입니다.",
+          "evidence_ids": [
+            "market.ev.010"
+          ],
+          "verdict": "local_supported",
+          "score": 0.85,
+          "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+          "web_query": "한미반도체 oecd_data.중국 값은 98.49입니다.",
+          "web_search_used": false,
+          "search_results": [],
+          "matched_evidence_ids": [
+            "market.ev.010"
+          ],
+          "cited_sources": []
+        },
+        {
+          "agent": "market",
+          "claim_id": "market.auto_cl.015",
+          "text": "static_data.base.52주베타 값은 1.64입니다.",
+          "evidence_ids": [
+            "market.ev.015"
+          ],
+          "verdict": "local_supported",
+          "score": 0.85,
+          "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+          "web_query": "한미반도체 static_data.base.52주베타 값은 1.64입니다.",
+          "web_search_used": false,
+          "search_results": [],
+          "matched_evidence_ids": [
+            "market.ev.015"
+          ],
+          "cited_sources": []
+        },
+        {
+          "agent": "market",
+          "claim_id": "market.auto_cl.017",
+          "text": "news_count 값은 10count입니다.",
+          "evidence_ids": [
+            "market.ev.021"
+          ],
+          "verdict": "local_supported",
+          "score": 0.85,
+          "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+          "web_query": "한미반도체 news_count 값은 10count입니다.",
+          "web_search_used": true,
+          "search_results": [
+            {
+              "title": "한미반도체 TC본더 수출 V자 회복…대만행 물량 주목 - 전자신문",
+              "link": "https://www.etnews.com/20260330000257",
+              "snippet": "30일 관세청 수출입무역통계(TRASS)의 다이본더(HS 8486.40-2010) 수출 데이터에 따르면, 2026년 1분기 해당 품목의 추정 수출액은 3150만달러로 집계됐다 ...",
+              "source": "serper"
+            },
+            {
+              "title": "한미반도체, 창사 이래 최대 규모 배당 지급 - 뉴시스",
+              "link": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20260304_0003533683",
+              "snippet": "[서울=뉴시스] 김경택 기자 = 한미반도체는 2025년 회계년도 결산배당으로 보통주 1주 당 800을 지급한다고 4일 밝혔다. 배당금 총액은 약 759억원 ...",
+              "source": "serper"
+            },
+            {
+              "title": "곽동신 한미반도체 회장, HBM 필수장비 TC 본더 세계시장 점유율 1위",
+              "link": "https://www.hankyung.com/article/2025120304651",
+              "snippet": "1980년 설립된 한미반도체는 전 세계 320여 개 고객사를 보유한 반도체 장비 전문 기업이다. 지난해 7월부터 올해 6월까지의 수출액은 3억4075만달러(약 ...",
+              "source": "serper"
+            },
+            {
+              "title": "AI 메모리 폭증에 TC 본더 수요 재점화…한미반도체 '표준' 굳히기",
+              "link": "https://www.news1.kr/industry/general-industry/6018084",
+              "snippet": "테크인사이츠에 따르면 2025년 3분기 기준 글로벌 HBM용 TC 본더 시장에서 한미반도체의 점유율은 71.2%에 달한다. 단일 업체가 시장의 70% 이상을 ...",
+              "source": "serper"
+            },
+            {
+              "title": "껍데기는 10만원 알맹이는 1000만원?…한미반도체, 환산주가가 뭐길래",
+              "link": "https://v.daum.net/v/20260108065141871?x_trkm=t",
+              "snippet": "8일 한국거래소에 따르면 한미반도체는 전날 1.52% 오른 18만6500원에 거래를 마쳤다. 올해 들어 4거래일 연속 상승세다. 넥스트레이드 프리마켓에선 개장 ...",
+              "source": "serper"
+            }
+          ],
+          "matched_evidence_ids": [
+            "market.ev.021"
+          ],
+          "cited_sources": []
+        }
+      ],
+      "unsupported_claims": [
+        {
+          "agent": "market",
+          "claim_id": "market.auto_cl.007",
+          "text": "oecd_data.G20 값은 100.59입니다.",
+          "evidence_ids": [
+            "market.ev.007"
+          ],
+          "verdict": "unsupported",
+          "score": 0.0,
+          "reason": "웹 검색 결과에 OECD G20 지표 값(100.59)을 확인할 수 있는 내용이 전혀 없습니다. 검색 결과는 인스타그램 게시물로 반도체 관련 내용만 포함하고 있어 주장을 검증할 수 없습니다.",
+          "web_query": "한미반도체 oecd_data.G20 값은 100.59입니다.",
+          "web_search_used": true,
+          "search_results": [
+            {
+              "title": "이창민 (@changmin_0727) • Instagram photos and videos",
+              "link": "https://www.instagram.com/changmin_0727/",
+              "snippet": "반도체 소부장은 반도체 호실적에 따라 가치와 가격 모두 상승중이다. 제약 ... 이번자료를 통해서 반도체메모리의 AI수요증가에 따른 가격상승확인, 차세대 ...",
+              "source": "serper"
+            }
+          ],
+          "matched_evidence_ids": [
+            "market.ev.007"
+          ],
+          "cited_sources": []
+        }
+      ]
+    },
+    "chair_safe_claims": [
+      {
+        "claim_id": "market.cl.001",
+        "text": "한미반도체 stock_data.current_price 값은 151000.0입니다.",
+        "evidence_ids": [
+          "market.ev.001"
+        ],
+        "verdict": "local_supported",
+        "score": 0.85,
+        "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+        "cited_sources": []
+      },
+      {
+        "claim_id": "market.cl.002",
+        "text": "한미반도체 stock_data.week52_high 값은 379500.0입니다.",
+        "evidence_ids": [
+          "market.ev.002"
+        ],
+        "verdict": "local_supported",
+        "score": 0.85,
+        "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+        "cited_sources": []
+      },
+      {
+        "claim_id": "market.cl.003",
+        "text": "한미반도체 stock_data.week52_low 값은 74600.0입니다.",
+        "evidence_ids": [
+          "market.ev.003"
+        ],
+        "verdict": "local_supported",
+        "score": 0.85,
+        "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+        "cited_sources": []
+      },
+      {
+        "claim_id": "market.cl.004",
+        "text": "한미반도체 stock_data.beta 값은 0입니다.",
+        "evidence_ids": [
+          "market.ev.004"
+        ],
+        "verdict": "local_supported",
+        "score": 0.85,
+        "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+        "cited_sources": []
+      },
+      {
+        "claim_id": "market.cl.005",
+        "text": "한미반도체 stock_data.volume 값은 1775578입니다.",
+        "evidence_ids": [
+          "market.ev.005"
+        ],
+        "verdict": "local_supported",
+        "score": 0.85,
+        "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+        "cited_sources": []
+      },
+      {
+        "claim_id": "market.cl.006",
+        "text": "한미반도체 stock_data.price_change_5d 값은 25.04입니다.",
+        "evidence_ids": [
+          "market.ev.006"
+        ],
+        "verdict": "local_supported",
+        "score": 0.85,
+        "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+        "cited_sources": []
+      },
+      {
+        "claim_id": "market.auto_cl.009",
+        "text": "oecd_data.한국 값은 102.28입니다.",
+        "evidence_ids": [
+          "market.ev.008"
+        ],
+        "verdict": "local_supported",
+        "score": 0.85,
+        "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+        "cited_sources": []
+      },
+      {
+        "claim_id": "market.auto_cl.011",
+        "text": "oecd_data.미국 값은 100.89입니다.",
+        "evidence_ids": [
+          "market.ev.009"
+        ],
+        "verdict": "local_supported",
+        "score": 0.85,
+        "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+        "cited_sources": []
+      },
+      {
+        "claim_id": "market.auto_cl.013",
+        "text": "oecd_data.중국 값은 98.49입니다.",
+        "evidence_ids": [
+          "market.ev.010"
+        ],
+        "verdict": "local_supported",
+        "score": 0.85,
+        "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+        "cited_sources": []
+      },
+      {
+        "claim_id": "market.auto_cl.015",
+        "text": "static_data.base.52주베타 값은 1.64입니다.",
+        "evidence_ids": [
+          "market.ev.015"
+        ],
+        "verdict": "local_supported",
+        "score": 0.85,
+        "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+        "cited_sources": []
+      },
+      {
+        "claim_id": "market.auto_cl.017",
+        "text": "news_count 값은 10count입니다.",
+        "evidence_ids": [
+          "market.ev.021"
+        ],
+        "verdict": "local_supported",
+        "score": 0.85,
+        "reason": "웹 검증은 제한적이나, local evidence_id와 원천값 연결은 확인되었습니다.",
+        "cited_sources": []
+      }
+    ],
+    "chair_blocked_claims": [
+      {
+        "claim_id": "market.auto_cl.007",
+        "text": "oecd_data.G20 값은 100.59입니다.",
+        "verdict": "unsupported",
+        "score": 0.0,
+        "reason": "웹 검색 결과에 OECD G20 지표 값(100.59)을 확인할 수 있는 내용이 전혀 없습니다. 검색 결과는 인스타그램 게시물로 반도체 관련 내용만 포함하고 있어 주장을 검증할 수 없습니다."
+      }
+    ]
+  },
+  "required_fix": [
+    "각 핵심 주장마다 evidence_id를 반드시 붙이세요.",
+    "evidence_id는 evidences 배열 안에 실제 존재해야 합니다.",
+    "source_type이 agent_output_unverified, llm_only, self_generated인 근거는 실제 근거로 인정하지 않습니다.",
+    "수치 주장에는 기간, 단위, 원천값을 함께 넣으세요.",
+    "공시, 재무 CSV, 가격 CSV, RSS/뉴스 스니펫, 공식 문서에서 확인 가능한 주장만 남기세요.",
+    "확인 불가능한 고객사, 계약, 수주, 전망 수치는 삭제하거나 '확인 필요'로 낮추세요.",
+    "웹/공개 검색 스니펫에서 직접 확인되지 않는 과잉 표현은 제거하세요.",
+    "템플릿 문장이나 사용자에게 입력을 요구하는 문장은 최종 JSON에 넣지 마세요."
+  ],
+  "expected_minimum_shape": {
+    "claims": [
+      {
+        "claim": "검증 가능한 핵심 주장",
+        "evidence_ids": [
+          "agent.ev.001"
+        ]
+      }
+    ],
+    "evidences": [
+      {
+        "evidence_id": "agent.ev.001",
+        "source_type": "financial | price | rss | news | filing | official | macro | technology",
+        "source": "원천 파일명 또는 URL 또는 데이터셋명",
+        "metric": "수치명 또는 근거명",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "근거 원문 또는 원천값 요약"
+      }
+    ]
+  }
+}

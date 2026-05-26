@@ -1,0 +1,200 @@
+{
+  "company_slug": "wonik_ips",
+  "company_name": "원익IPS",
+  "status": "OK",
+  "input_csv": "data\\반도체\\원익IPS\\tech\\wonik_ips_kipris_bibliographic_normalized.csv",
+  "family_csv": "data\\반도체\\원익IPS\\tech\\wonik_ips_kipris_family_normalized.csv",
+  "target_patent_count": 116,
+  "family_record_count": 35,
+  "patents_with_family": 15,
+  "patents_with_overseas_family": 11,
+  "overseas_family_record_count": 21,
+  "family_collection_coverage": 0.1293,
+  "overseas_family_patent_rate": 0.0948,
+  "pct_patents": 4,
+  "us_patents": 2,
+  "jp_patents": 4,
+  "ep_patents": 0,
+  "cn_patents": 7,
+  "detected_overseas_regions": [
+    "CN",
+    "JP",
+    "US",
+    "WO"
+  ],
+  "global_extension_score": 24.02,
+  "bridge_adjustment_points": -1.0,
+  "bridge_signal": "IP_GLOBAL_EXTENSION_WEAK",
+  "top_overseas_family_patents": [
+    {
+      "application_number": "1020220078339",
+      "title": "기판처리장치",
+      "family_record_count": 8,
+      "overseas_family_record_count": 5,
+      "jurisdictions": [
+        "CN",
+        "JP",
+        "UNKNOWN",
+        "US"
+      ],
+      "has_pct_or_wo": false,
+      "has_us": true,
+      "has_jp": true,
+      "has_ep": false,
+      "has_cn": true
+    },
+    {
+      "application_number": "1020230109147",
+      "title": "금속 질화물 박막의 형성방법",
+      "family_record_count": 4,
+      "overseas_family_record_count": 3,
+      "jurisdictions": [
+        "CN",
+        "JP",
+        "KR",
+        "UNKNOWN",
+        "WO"
+      ],
+      "has_pct_or_wo": true,
+      "has_us": false,
+      "has_jp": true,
+      "has_ep": false,
+      "has_cn": true
+    },
+    {
+      "application_number": "1020220099919",
+      "title": "피딩블록 및 이를 포함하는 기판 처리 장치",
+      "family_record_count": 4,
+      "overseas_family_record_count": 3,
+      "jurisdictions": [
+        "JP",
+        "UNKNOWN",
+        "US"
+      ],
+      "has_pct_or_wo": false,
+      "has_us": true,
+      "has_jp": true,
+      "has_ep": false,
+      "has_cn": false
+    },
+    {
+      "application_number": "1020230105585",
+      "title": "기판 처리 장치",
+      "family_record_count": 3,
+      "overseas_family_record_count": 2,
+      "jurisdictions": [
+        "CN",
+        "KR",
+        "UNKNOWN",
+        "WO"
+      ],
+      "has_pct_or_wo": true,
+      "has_us": false,
+      "has_jp": false,
+      "has_ep": false,
+      "has_cn": true
+    },
+    {
+      "application_number": "1020150163271",
+      "title": "반도체 소자의 제조방법",
+      "family_record_count": 2,
+      "overseas_family_record_count": 2,
+      "jurisdictions": [
+        "JP"
+      ],
+      "has_pct_or_wo": false,
+      "has_us": false,
+      "has_jp": true,
+      "has_ep": false,
+      "has_cn": false
+    },
+    {
+      "application_number": "1020230184982",
+      "title": "기판 처리 방법",
+      "family_record_count": 3,
+      "overseas_family_record_count": 1,
+      "jurisdictions": [
+        "KR",
+        "UNKNOWN",
+        "WO"
+      ],
+      "has_pct_or_wo": true,
+      "has_us": false,
+      "has_jp": false,
+      "has_ep": false,
+      "has_cn": false
+    },
+    {
+      "application_number": "1020240002958",
+      "title": "봉상 구조체 설치용 브라켓 어셈블리 및 이를 포함하는 밸브 어셈블리",
+      "family_record_count": 2,
+      "overseas_family_record_count": 1,
+      "jurisdictions": [
+        "KR",
+        "UNKNOWN",
+        "WO"
+      ],
+      "has_pct_or_wo": true,
+      "has_us": false,
+      "has_jp": false,
+      "has_ep": false,
+      "has_cn": false
+    },
+    {
+      "application_number": "1020220177147",
+      "title": "실리콘 산화막 형성 방법",
+      "family_record_count": 2,
+      "overseas_family_record_count": 1,
+      "jurisdictions": [
+        "CN",
+        "UNKNOWN"
+      ],
+      "has_pct_or_wo": false,
+      "has_us": false,
+      "has_jp": false,
+      "has_ep": false,
+      "has_cn": true
+    },
+    {
+      "application_number": "1020220075533",
+      "title": "도어조립체 및 이를 구비하는 기판처리장치",
+      "family_record_count": 1,
+      "overseas_family_record_count": 1,
+      "jurisdictions": [
+        "CN"
+      ],
+      "has_pct_or_wo": false,
+      "has_us": false,
+      "has_jp": false,
+      "has_ep": false,
+      "has_cn": true
+    },
+    {
+      "application_number": "1020140158671",
+      "title": "기판처리장치",
+      "family_record_count": 1,
+      "overseas_family_record_count": 1,
+      "jurisdictions": [
+        "CN"
+      ],
+      "has_pct_or_wo": false,
+      "has_us": false,
+      "has_jp": false,
+      "has_ep": false,
+      "has_cn": true
+    }
+  ],
+  "usage_rule": "Use this as an IP global expansion feature in Tech-to-Value Bridge. It indicates whether the patent portfolio has overseas family extension, but it is not direct revenue or commercialization evidence.",
+  "parse_error_count": 101,
+  "raw_jsonl": "data\\반도체\\원익IPS\\tech\\source\\wonik_ips_kipris_plus_family_raw.jsonl",
+  "request_targets_csv": "data\\반도체\\원익IPS\\tech\\wonik_ips_kipris_plus_family_request_targets.csv",
+  "created_at": "2026-05-20T21:41:38",
+  "request_config": {
+    "endpoint": "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
+    "key_param": "ServiceKey",
+    "app_param": "applicationNumber",
+    "api_key": "***KEY***",
+    "timeout": 90,
+    "sleep_sec": 0.8
+  }
+}

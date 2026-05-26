@@ -1,0 +1,570 @@
+{
+  "agent": "issue",
+  "company_name": "코아시아",
+  "company": "코아시아",
+  "company_dir": "coasia",
+  "opinion": "보유",
+  "confidence": 0.5,
+  "summary": "코아시아에 대해 검증 가능한 핵심 근거는 다음과 같습니다. news_count 값은 10count입니다. rss_count 값은 10count입니다. related_keyword_count 값은 0count입니다.",
+  "key_points": [
+    "news_count 값은 10count입니다.",
+    "rss_count 값은 10count입니다.",
+    "related_keyword_count 값은 0count입니다."
+  ],
+  "risks": [],
+  "claims": [
+    {
+      "claim_id": "issue.auto_cl.001",
+      "text": "news_count 값은 10count입니다.",
+      "evidence_ids": [
+        "issue.ev.001"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "issue.auto_cl.003",
+      "text": "rss_count 값은 10count입니다.",
+      "evidence_ids": [
+        "issue.ev.002"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "issue.auto_cl.005",
+      "text": "related_keyword_count 값은 0count입니다.",
+      "evidence_ids": [
+        "issue.ev.003"
+      ],
+      "claim_type": "point"
+    }
+  ],
+  "evidences": [
+    {
+      "evidence_id": "issue.ev.001",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "news_count",
+      "value": 10,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | news_count | 값: 10count"
+    },
+    {
+      "evidence_id": "issue.ev.002",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "rss_count",
+      "value": 10,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | rss_count | 값: 10count"
+    },
+    {
+      "evidence_id": "issue.ev.003",
+      "source_type": "issue",
+      "source": "issue_keywords_workbook",
+      "metric": "related_keyword_count",
+      "value": 0,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_keywords_workbook | related_keyword_count | 값: 0count"
+    },
+    {
+      "evidence_id": "issue.ev.004",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 11 May 2026 14:38:00 +0900",
+      "snippet": "Naver News | Mon, 11 May 2026 14:38:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.005",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Wed, 06 May 2026 16:42:00 +0900",
+      "snippet": "Naver News | Wed, 06 May 2026 16:42:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.006",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 27 Apr 2026 10:46:00 +0900",
+      "snippet": "Naver News | Mon, 27 Apr 2026 10:46:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.007",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "배",
+      "period": "Tue, 21 Apr 2026 14:14:00 +0900",
+      "snippet": "Naver News | Tue, 21 Apr 2026 14:14:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.008",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Fri, 03 Apr 2026 14:04:00 +0900",
+      "snippet": "Naver News | Fri, 03 Apr 2026 14:04:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.009",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Fri, 22 May 2026 07:01:23 +0000",
+      "snippet": "Semiconductor Engineering | Fri, 22 May 2026 07:01:23 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.010",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 21 May 2026 16:02:35 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 16:02:35 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.011",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 21 May 2026 07:07:38 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:07:38 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.012",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 21 May 2026 07:05:20 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:05:20 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.013",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 21 May 2026 07:04:25 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:04:25 +0000 기준 rss_title | 값: 확인 불가"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "issue.ev.001",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "news_count",
+      "value": 10,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | news_count | 값: 10count"
+    },
+    {
+      "evidence_id": "issue.ev.002",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "rss_count",
+      "value": 10,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | rss_count | 값: 10count"
+    },
+    {
+      "evidence_id": "issue.ev.003",
+      "source_type": "issue",
+      "source": "issue_keywords_workbook",
+      "metric": "related_keyword_count",
+      "value": 0,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_keywords_workbook | related_keyword_count | 값: 0count"
+    },
+    {
+      "evidence_id": "issue.ev.004",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 11 May 2026 14:38:00 +0900",
+      "snippet": "Naver News | Mon, 11 May 2026 14:38:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.005",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Wed, 06 May 2026 16:42:00 +0900",
+      "snippet": "Naver News | Wed, 06 May 2026 16:42:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.006",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 27 Apr 2026 10:46:00 +0900",
+      "snippet": "Naver News | Mon, 27 Apr 2026 10:46:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.007",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": "배",
+      "period": "Tue, 21 Apr 2026 14:14:00 +0900",
+      "snippet": "Naver News | Tue, 21 Apr 2026 14:14:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.008",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Fri, 03 Apr 2026 14:04:00 +0900",
+      "snippet": "Naver News | Fri, 03 Apr 2026 14:04:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.009",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Fri, 22 May 2026 07:01:23 +0000",
+      "snippet": "Semiconductor Engineering | Fri, 22 May 2026 07:01:23 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.010",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 21 May 2026 16:02:35 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 16:02:35 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.011",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 21 May 2026 07:07:38 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:07:38 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.012",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 21 May 2026 07:05:20 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:05:20 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.013",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 21 May 2026 07:04:25 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:04:25 +0000 기준 rss_title | 값: 확인 불가"
+    }
+  ],
+  "fallback_used": false,
+  "warning_note": "검증 불가 claim 6개를 제거한 뒤 grounding 기준을 재검증했습니다.",
+  "raw_payload": {
+    "analysis_text": "opinion: 보유\nconfidence: 0.65\n\n1.  **핵심 이슈 요약**\n    코아시아는 시스템반도체 설계 전문 디자인하우스로서 시스템온칩(SoC) 설계, 관련 플랫폼 IP 개발, 패키징 사업을 영위하고 있다. 최근 HBM(고대역폭메모리) 관련주들의 강세 속에서 코아시아 역시 언급되고 있으나, 일부 뉴스에서는 공급망 재편 이슈와 수익성 부담이 동시에 거론되며 약세 흐름을 기록하는 모습도 나타나고 있다. 반면, 일부 반도체 관련주와 함께 상대적으로 안정적인 흐름을 유지했다는 분석도 존재한다.\n\n2.  **기업에 미치는 영향**\n    코아시아의 사업 영역은 AI 반도체 생태계 확대, 시스템반도체 시장 성장 등 거시적인 산업 트렌드와 연관성이 높다. 특히 HBM 관련주들의 움직임 속에서 언급되는 것은 긍정적인 신호로 해석될 수 있으나, 공급망 재편 및 수익성 부담과 같은 부정적인 요인도 동시에 존재하여 주가 흐름에 변동성을 야기할 수 있다.\n\n3.  **긍정 시그널**\n    *   **시스템반도체 설계 전문 디자인하우스:** 코아시아는 시스템온칩(SoC) 설계, 플랫폼 IP 개발, 패키징 사업을 영위하며 시스템반도체 시장 성장의 수혜가 예상된다. (뉴스 기반)\n    *   **AI 반도체 생태계 연관성:** HBM 관련주들의 강세 속에서 코아시아가 언급되는 것은 AI 반도체 생태계 확대와 관련된 잠재적 수혜 가능성을 시사한다. (뉴스 기반)\n    *   **상대적 안정적 흐름:** 일부 반도체 관련주와 함께 상대적으로 안정적인 흐름을 유지했다는 분석이 있다. (뉴스 기반)\n    *   **부품 및 소재군 동반 상승:** 노바텍, PS일렉트로닉스, 시노펙스, 팸텍 등과 함께 동반 상승하며 업종 저변 확대를 보인 사례가 있다. (뉴스 기반)\n\n4.  **부정 시그널/리스크**\n    *   **공급망 재편 이슈 및 수익성 부담:** 영풍, 이랜텍, 코아시아 씨엠 등과 함께 공급망 재편 이슈와 수익성 부담이 동시에 거론되고 있다. (뉴스 기반)\n    *   **약세 흐름 기록:** 일부 뉴스에서는 나노신소재, 코아시아가 내림세를 기록 중이라고 언급하고 있다. (뉴스 기반)\n    *   **실적 가시성 부족:** 중소형 부품주 전반에 걸쳐 실적 가시성 부족이 투자 심리를 제한하는 모습이 나타나고 있으며, 코아시아도 이러한 맥락에서 영향을 받을 수 있다. (뉴스 기반)\n\n5.  **향후 체크포인트**\n    *   **공급망 재편 영향 및 수익성 개선 여부:** 코아시아가 언급된 공급망 재편 이슈가 실제 실적에 미치는 영향과 수익성 개선 노력을 지속적으로 확인해야 한다.\n    *   **시스템반도체 및 AI 시장 성장 수혜 가시화:** 코아시아의 핵심 사업인 SoC 설계 및 IP 개발 역량이 실제 수주 및 매출 증대로 이어지는지 여부를 주시해야 한다.\n    *   **주가 변동성 요인 분석:** 일부 뉴스에서 나타나는 약세 흐름과 안정적 흐름 유지라는 상반된 신호를 종합적으로 고려하여 주가 방향성을 판단해야 한다.",
+    "markdown_report": "# 코아시아 이슈 리포트\n\n## 분석 결과\nopinion: 보유\nconfidence: 0.65\n\n1.  **핵심 이슈 요약**\n    코아시아는 시스템반도체 설계 전문 디자인하우스로서 시스템온칩(SoC) 설계, 관련 플랫폼 IP 개발, 패키징 사업을 영위하고 있다. 최근 HBM(고대역폭메모리) 관련주들의 강세 속에서 코아시아 역시 언급되고 있으나, 일부 뉴스에서는 공급망 재편 이슈와 수익성 부담이 동시에 거론되며 약세 흐름을 기록하는 모습도 나타나고 있다. 반면, 일부 반도체 관련주와 함께 상대적으로 안정적인 흐름을 유지했다는 분석도 존재한다.\n\n2.  **기업에 미치는 영향**\n    코아시아의 사업 영역은 AI 반도체 생태계 확대, 시스템반도체 시장 성장 등 거시적인 산업 트렌드와 연관성이 높다. 특히 HBM 관련주들의 움직임 속에서 언급되는 것은 긍정적인 신호로 해석될 수 있으나, 공급망 재편 및 수익성 부담과 같은 부정적인 요인도 동시에 존재하여 주가 흐름에 변동성을 야기할 수 있다.\n\n3.  **긍정 시그널**\n    *   **시스템반도체 설계 전문 디자인하우스:** 코아시아는 시스템온칩(SoC) 설계, 플랫폼 IP 개발, 패키징 사업을 영위하며 시스템반도체 시장 성장의 수혜가 예상된다. (뉴스 기반)\n    *   **AI 반도체 생태계 연관성:** HBM 관련주들의 강세 속에서 코아시아가 언급되는 것은 AI 반도체 생태계 확대와 관련된 잠재적 수혜 가능성을 시사한다. (뉴스 기반)\n    *   **상대적 안정적 흐름:** 일부 반도체 관련주와 함께 상대적으로 안정적인 흐름을 유지했다는 분석이 있다. (뉴스 기반)\n    *   **부품 및 소재군 동반 상승:** 노바텍, PS일렉트로닉스, 시노펙스, 팸텍 등과 함께 동반 상승하며 업종 저변 확대를 보인 사례가 있다. (뉴스 기반)\n\n4.  **부정 시그널/리스크**\n    *   **공급망 재편 이슈 및 수익성 부담:** 영풍, 이랜텍, 코아시아 씨엠 등과 함께 공급망 재편 이슈와 수익성 부담이 동시에 거론되고 있다. (뉴스 기반)\n    *   **약세 흐름 기록:** 일부 뉴스에서는 나노신소재, 코아시아가 내림세를 기록 중이라고 언급하고 있다. (뉴스 기반)\n    *   **실적 가시성 부족:** 중소형 부품주 전반에 걸쳐 실적 가시성 부족이 투자 심리를 제한하는 모습이 나타나고 있으며, 코아시아도 이러한 맥락에서 영향을 받을 수 있다. (뉴스 기반)\n\n5.  **향후 체크포인트**\n    *   **공급망 재편 영향 및 수익성 개선 여부:** 코아시아가 언급된 공급망 재편 이슈가 실제 실적에 미치는 영향과 수익성 개선 노력을 지속적으로 확인해야 한다.\n    *   **시스템반도체 및 AI 시장 성장 수혜 가시화:** 코아시아의 핵심 사업인 SoC 설계 및 IP 개발 역량이 실제 수주 및 매출 증대로 이어지는지 여부를 주시해야 한다.\n    *   **주가 변동성 요인 분석:** 일부 뉴스에서 나타나는 약세 흐름과 안정적 흐름 유지라는 상반된 신호를 종합적으로 고려하여 주가 방향성을 판단해야 한다.\n",
+    "news_count": 10,
+    "rss_count": 10,
+    "related_keyword_count": 0,
+    "df_news_rows": 139,
+    "llm_error": null,
+    "graph_claims_original": [],
+    "removed_ungrounded_claims": [
+      "코아시아 관련 공개 뉴스 제목: HBM 본더의 강자 한미반도체, AI 반도체 생태계의 판을 바꾼다",
+      "코아시아 관련 공개 뉴스 제목: [골든크로스 종목] 필옵틱스·한울앤제주 불기둥... 진짜 기회는 따로 있...",
+      "코아시아 관련 공개 뉴스 제목: 부품에서 헬스케어·전장까지…이엠텍, 고부가 제품군으로 실적 우상향",
+      "코아시아 이슈 분석에서 수집된 RSS 항목 수는 10건입니다.",
+      "코아시아 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+      "코아시아 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다."
+    ],
+    "removed_bad_evidence_ids": [
+      "issue.ev.unverified"
+    ]
+  },
+  "packet_version": "grounded_agent_v3",
+  "pre_sanitize_grounding_check": {
+    "score": 0.0,
+    "pass": false,
+    "pass_threshold": 0.75,
+    "claim_count": 6,
+    "supported_count": 0,
+    "unsupported_count": 6,
+    "supported_claims": [],
+    "unsupported_claims": [
+      "코아시아 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+      "코아시아 이슈 분석에서 수집된 RSS 항목 수는 10건입니다.",
+      "코아시아 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다.",
+      "코아시아 관련 공개 뉴스 제목: 부품에서 헬스케어·전장까지…이엠텍, 고부가 제품군으로 실적 우상향",
+      "코아시아 관련 공개 뉴스 제목: [골든크로스 종목] 필옵틱스·한울앤제주 불기둥... 진짜 기회는 따로 있...",
+      "코아시아 관련 공개 뉴스 제목: HBM 본더의 강자 한미반도체, AI 반도체 생태계의 판을 바꾼다"
+    ],
+    "issues": [
+      "issue.cl.001: evidence와 claim 연결이 약합니다.",
+      "issue.cl.002: evidence와 claim 연결이 약합니다.",
+      "issue.cl.003: evidence와 claim 연결이 약합니다.",
+      "issue.cl.004: evidence와 claim 연결이 약합니다.",
+      "issue.cl.005: evidence와 claim 연결이 약합니다.",
+      "issue.cl.006: evidence와 claim 연결이 약합니다."
+    ],
+    "claim_results": [
+      {
+        "claim_id": "issue.cl.001",
+        "text": "코아시아 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.002",
+        "text": "코아시아 이슈 분석에서 수집된 RSS 항목 수는 10건입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.003",
+        "text": "코아시아 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.004",
+        "text": "코아시아 관련 공개 뉴스 제목: 부품에서 헬스케어·전장까지…이엠텍, 고부가 제품군으로 실적 우상향",
+        "evidence_ids": [
+          "issue.ev.004"
+        ],
+        "supported": false,
+        "score": 0.55,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.005",
+        "text": "코아시아 관련 공개 뉴스 제목: [골든크로스 종목] 필옵틱스·한울앤제주 불기둥... 진짜 기회는 따로 있...",
+        "evidence_ids": [
+          "issue.ev.005"
+        ],
+        "supported": false,
+        "score": 0.55,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.006",
+        "text": "코아시아 관련 공개 뉴스 제목: HBM 본더의 강자 한미반도체, AI 반도체 생태계의 판을 바꾼다",
+        "evidence_ids": [
+          "issue.ev.006"
+        ],
+        "supported": false,
+        "score": 0.55,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      }
+    ]
+  },
+  "post_atomic_grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 3,
+    "supported_count": 3,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "news_count 값은 10count입니다.",
+      "rss_count 값은 10count입니다.",
+      "related_keyword_count 값은 0count입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "issue.auto_cl.001",
+        "text": "news_count 값은 10count입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.003",
+        "text": "rss_count 값은 10count입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.005",
+        "text": "related_keyword_count 값은 0count입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  },
+  "grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 3,
+    "supported_count": 3,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "news_count 값은 10count입니다.",
+      "rss_count 값은 10count입니다.",
+      "related_keyword_count 값은 0count입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "issue.auto_cl.001",
+        "text": "news_count 값은 10count입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.003",
+        "text": "rss_count 값은 10count입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.005",
+        "text": "related_keyword_count 값은 0count입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  }
+}

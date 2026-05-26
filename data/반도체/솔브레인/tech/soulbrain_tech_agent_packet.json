@@ -3,6 +3,51 @@
   "company": "솔브레인",
   "company_dir": "soulbrain",
   "opinion": "보유",
+  "tech_signal": 0.315057,
+  "history_tech_feature": {
+    "signal": 0.315057,
+    "status": "OK_TECH_HISTORY_ASOF",
+    "source": "C:\\Agent_6.9\\data\\반도체\\솔브레인\\tech\\tech_history_features_2025-08-31.csv;C:\\Agent_6.9\\data\\반도체\\솔브레인\\tech\\soulbrain_kipris_patents_normalized.csv;C:\\Agent_6.9\\data\\반도체\\솔브레인\\tech\\soulbrain_tech_patent_normalized.csv;C:\\Agent_6.9\\data\\반도체\\솔브레인\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\솔브레인\\tech\\soulbrain_kipris_bibliographic_normalized.csv;C:\\Agent_6.9\\data\\반도체\\솔브레인\\tech\\soulbrain_kipris_claims_normalized.csv;C:\\Agent_6.9\\data\\반도체\\솔브레인\\tech\\soulbrain_kipris_plus_claim_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\솔브레인\\tech\\soulbrain_kipris_plus_family_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\솔브레인\\tech\\soulbrain_kipris_plus_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\솔브레인\\tech\\soulbrain_kipris_tech_ml_enriched.csv;C:\\Agent_6.9\\data\\반도체\\솔브레인\\tech\\source\\soulbrain_kipris_plus_bibliographic_raw.csv;C:\\Agent_6.9\\data\\반도체\\솔브레인\\tech\\quanified_metrix.csv",
+    "as_of_date": "2025-09-30",
+    "company": "솔브레인",
+    "ticker": "357780.KQ",
+    "stock_code": "357780",
+    "base_signal": 0.323115,
+    "evidence_confidence": 0.791356,
+    "commercialization_gate_signal": 0.237432,
+    "technology_risk_penalty": 0.0,
+    "ip_quality_signal": 0.051779,
+    "lifecycle_signal": 0.0,
+    "technology_differentiation_signal": 0.090819,
+    "commercialization_signal": 0.949728,
+    "rnd_sustainability_signal": 0.471066,
+    "peer_position_signal": -0.22381,
+    "tech_to_value_signal": 0.599111,
+    "certification_signal": 0.0,
+    "qualification_signal": 0.0,
+    "cost_yield_signal": 0.0,
+    "workforce_signal": 0.0,
+    "government_rd_signal": 0.0,
+    "licensing_signal": 0.0,
+    "dispute_risk_signal": 0.0,
+    "failure_delay_signal": 0.0,
+    "intangible_accounting_signal": 0.0,
+    "patent_records_asof": 1975,
+    "dated_records_asof": 696,
+    "undated_records_used": 1346,
+    "files_used": 74,
+    "notes": "Tech history signal uses dated patent/IP, TRL/readiness, certification, qualification, commercialization, R&D/workforce, risk and accounting evidence before as_of_date; no Buy/Hold/Sell threshold is applied.",
+    "frequency": "monthly",
+    "formula": "final=base_signal*evidence_confidence + 0.25*commercialization_gate_signal - 0.35*technology_risk_penalty",
+    "research_basis": [
+      "Hall-Jaffe-Trajtenberg patent citations/value; Lanjouw-Schankerman patent quality; OECD patent quality composite indicators",
+      "DoD/NASA TRL and TRA maturity framework",
+      "IFC/Bpifrance deep-tech development-stage financing framework",
+      "Text-based industry/technology relatedness literature for peer/differentiation evidence"
+    ],
+    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\솔브레인\\tech\\tech_history_features_2025-09-30.json",
+    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\솔브레인\\tech\\tech_history_features_2025-09-30.csv"
+  },
   "claims": [
     {
       "claim_id": "tech.cl.000",
@@ -134,63 +179,63 @@
     {
       "title": "솔브레인 KIPRIS/특허 정량화 요약",
       "url": "",
-      "path": "data\\반도체\\솔브레인\\tech\\source\\soulbrain_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\솔브레인\\tech\\source\\soulbrain_kipris_plus_bibliographic_raw.csv",
       "snippet": "솔브레인 KIPRIS/특허 정량화 요약 본 특허 근거는 KIPRIS API/CSV/엑셀/TXT 원천 파일을 정규화해 산출했다. [정량 지표] - 특허 원천 파일 수: 1개 - 정규화 특허 레코드 수: 90건 - 출원인/권리자 회사 매칭 특허 수: 90건 - 등록 특허 수: 21건 - 존속 가능 특허 수: 17건 - 최근 5년 특허 수: 31건 - IPC/CPC 기술분류 수: 37개 - H01L 반도체 IPC 특허 수: 0건 - 반도체 핵심 IPC 특허 수: 37건 - 특허-기술 키워드 매칭 수: 82회 - 특허 포트폴리오 연도 범위: 2000~2025 - KIPRIS 총 특허 수: 90.0건 - KIPRIS 등록 특허 ",
       "relevance_score": 30
     },
     {
       "title": "원자층 식각 물질, 원자층 식각 방법, 이로부터 제조된 반도체 기판 및 반도체 소자",
       "url": "",
-      "path": "data\\반도체\\솔브레인\\tech\\source\\soulbrain_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\솔브레인\\tech\\source\\soulbrain_kipris_plus_bibliographic_raw.csv",
       "snippet": "원자층 식각 물질, 원자층 식각 방법, 이로부터 제조된 반도체 기판 및 반도체 소자 | 솔브레인 주식회사 | 등록 | 2024 | 출원번호 1020240189632; 등록번호 1029568130000 | IPC/CPC: C09K, H10P | 기술매칭: 공정, 기판, 반도체, 소자 | 초록: 본 발명은 원자층 식각 물질, 원자층 식각 조성물, 이를 이용한 원자층 식각 방법, 이로부터 제조된 반도체 기판 및 반도체 소자에 관한 것으로, 소정 구조의 원자층 식각 물질을 건식 또는 습식 공정으로 사용하여 불산 대비 실리콘막에 대한 선택적 식각성을 크게 향상시킬 수 있는 효과가 있다.",
       "relevance_score": 81.0
     },
     {
       "title": "계단율 개선제, 이를 이용한 박막 형성 방법, 이로부터 제조된 반도체 기판 및 반도체 소자",
       "url": "",
-      "path": "data\\반도체\\솔브레인\\tech\\source\\soulbrain_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\솔브레인\\tech\\source\\soulbrain_kipris_plus_bibliographic_raw.csv",
       "snippet": "계단율 개선제, 이를 이용한 박막 형성 방법, 이로부터 제조된 반도체 기판 및 반도체 소자 | 솔브레인 주식회사 | 등록 | 2022 | 출원번호 1020220138088; 등록번호 1028553700000 | IPC/CPC: C23C, H10P | 기술매칭: 차폐, 기판, 반도체, 소자 | 초록: 본 발명은 계단율 개선제, 이를 이용한 박막 형성 방법, 이로부터 제조된 반도체 기판 및 반도체 소자에 관한 것으로, 소정 구조의 화합물을 계단율 개선제로 제공하여 해당 화합물의 흡착 분포도 차이에 의한 균질한 두께의 퇴적층을 기판 상에 차폐 영역으로 형성하여 박막의 증착 속도를 저감시키고 박막 성장률을 적절히 낮추어 복잡한",
       "relevance_score": 81.0
     },
     {
       "title": "식각용 조성물 및 이를 이용한 반도체 소자의 제조방법",
       "url": "",
-      "path": "data\\반도체\\솔브레인\\tech\\source\\soulbrain_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\솔브레인\\tech\\source\\soulbrain_kipris_plus_bibliographic_raw.csv",
       "snippet": "식각용 조성물 및 이를 이용한 반도체 소자의 제조방법 | 솔브레인 주식회사 | 등록 | 2017 | 출원번호 1020170178590; 등록번호 1025348410000 | IPC/CPC: C09K, H10P | 기술매칭: 공정, 반도체, 소자 | 초록: 본 발명은 식각용 조성물 및 이 식각용 조성물을 이용한 식각 공정을 포함하는 반도체 소자의 제조 방법에 관한 것으로서, 상기 식각용 조성물은 제 1 무기산, 제 1 첨가제, 그리고 용매를 포함한다. 상기 식각용 조성물은 산화막의 식각율을 최소화하면서 질화막을 선택적으로 제거할 수 있으며, 소자 특성에 악영향을 미치는 파티클 발생 등의 문제점을 갖지 않는 고선택비의 식각",
       "relevance_score": 74.0
     },
     {
       "title": "화학적 기계적 연마 조성물 및 이를 이용한 반도체 소자의 제조 방법",
       "url": "",
-      "path": "data\\반도체\\솔브레인\\tech\\source\\soulbrain_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\솔브레인\\tech\\source\\soulbrain_kipris_plus_bibliographic_raw.csv",
       "snippet": "화학적 기계적 연마 조성물 및 이를 이용한 반도체 소자의 제조 방법 | 에스케이하이닉스 주식회사|솔브레인홀딩스 주식회사 | 등록 | 2008 | 출원번호 1020080080626; 등록번호 1010375260000 | IPC/CPC: C09G, C09K, H10P | 기술매칭: 기판, 반도체, 소자 | 초록: 본 발명은 화학적 기계적 연마 조성물 및 이를 이용한 반도체 소자의 제조 방법에 관한 것으로, 구체적으로 용매 및 용매에 분산된 금속 산화물 입자를 포함하는 화학적 기계적 연마 조성물에 있어서, 제1 첨가제인 디싱-에로젼 억제제 및 선택적으로 고분자 유기산, 아미노 알코올, 계면활성제, 윤활제 및 방부제로 이루어진",
       "relevance_score": 71.5
     },
     {
       "title": "진공 기반 박막 개질제, 이를 포함한 박막 개질 조성물, 이를 이용한 박막 형성 방법, 이로부터 제조된 반도체 기판 및 반도체 소자",
       "url": "",
-      "path": "data\\반도체\\솔브레인\\tech\\source\\soulbrain_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\솔브레인\\tech\\source\\soulbrain_kipris_plus_bibliographic_raw.csv",
       "snippet": "진공 기반 박막 개질제, 이를 포함한 박막 개질 조성물, 이를 이용한 박막 형성 방법, 이로부터 제조된 반도체 기판 및 반도체 소자 | 솔브레인 주식회사 | 공개 | 2022 | 출원번호 1020220139425 | IPC/CPC: H10P, C23C | 기술매칭: 공정, 기판, 반도체, 소자 | 초록: 본 발명은 진공 기반 박막 개질제, 이를 포함한 박막 개질 조성물, 이를 이용한 박막 형성 방법, 이로부터 제조된 반도체 기판 및 반도체 소자에 관한 것으로, 소정 구조의 화합물을 진공 기반 박막 개질제로 제공하여 진공 기반의 박막 공정시 증착막의 성장률을 적절히 낮추어 복잡한 구조를 갖는 기판위에 박막을 형성하는 경우",
       "relevance_score": 71.0
     },
     {
       "title": "산화 세륨 입자 및 이의 제조방법, 산화 세륨 입자를 포함하는 화학적 기계적 연마 슬러리 조성물의 제조방법",
       "url": "",
-      "path": "data\\반도체\\솔브레인\\tech\\source\\soulbrain_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\솔브레인\\tech\\source\\soulbrain_kipris_plus_bibliographic_raw.csv",
       "snippet": "산화 세륨 입자 및 이의 제조방법, 산화 세륨 입자를 포함하는 화학적 기계적 연마 슬러리 조성물의 제조방법 | 솔브레인 주식회사 | 등록 | 2021 | 출원번호 1020210115060; 등록번호 1024846520000 | IPC/CPC: C09G, C09K, H10P | 기술매칭: 기술 키워드 미확인 | 초록: 화학적 기계적 연마용 산화 세륨 입자 및 이의 제조방법, 산화 세륨 입자를 포함하는 화학적 기계적 연마 슬러리 조성물의 제조방법을 제공한다. 상기 방법에 의해 제조된 산화 세륨 입자의 표면에는 Ce 3+ 및 Ce 4+ 를 포함하고 있는 것을 특징으로 하고, 본 발명의 실시예에 따른 산화 세륨 입자를 사용하는",
       "relevance_score": 70.5
     },
     {
       "title": "초박막, 초박막 형성 방법, 이로부터 제조된 반도체 기판 및 반도체 소자",
       "url": "",
-      "path": "data\\반도체\\솔브레인\\tech\\source\\soulbrain_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\솔브레인\\tech\\source\\soulbrain_kipris_plus_bibliographic_raw.csv",
       "snippet": "초박막, 초박막 형성 방법, 이로부터 제조된 반도체 기판 및 반도체 소자 | 솔브레인 주식회사 | 공개 | 2024 | 출원번호 1020240151750 | IPC/CPC: H10P, C23C, H10W | 기술매칭: 기판, 반도체, 소자 | 초록: 본 발명은 초박막, 초박막 형성 방법, 이를 포함하는 반도체 기판 및 반도체 소자에 관한 것으로, 배리어 물질 및/또는 고유전율 물질로 이루어질 뿐 아니라 증착 초기 반응성을 개선하도록 개질됨으로써 극히 얇은 두께로 형성되더라도 전류누설을 더욱 감소시키거나 전류특성을 더욱 개선시킬 뿐 아니라 치밀화, 불순물 제거 등을 통해 향상된 품질을 구현할 수 있는 초박막, 초박막 형성",
       "relevance_score": 69.5
     },
     {
       "title": "화학적 기계적 연마 슬러리 조성물 및 반도체 소자의 제조 방법",
       "url": "",
-      "path": "data\\반도체\\솔브레인\\tech\\source\\soulbrain_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\솔브레인\\tech\\source\\soulbrain_kipris_plus_bibliographic_raw.csv",
       "snippet": "화학적 기계적 연마 슬러리 조성물 및 반도체 소자의 제조 방법 | 솔브레인 주식회사 | 공개 | 2021 | 출원번호 1020210190905 | IPC/CPC: C09G, C09K, H10P, B24B | 기술매칭: 반도체, 소자 | 초록: 산화 세륨 입자; 및 용매를 포함하고, 상기 산화 세륨 입자는 1차 입자의 크기가 1 내지 5nm이며, 2차 입자의 크기가 2 내지15nm이고, 상기 산화 세륨 입자의 표면에는 Ce 3+ 및 Ce 4+ 를 포함하고 있는 것을 특징으로 하는, 화학적 기계적 연마용 슬러리 조성물을 제공한다. 이에 따르면, 세리아 표면의 Ce 3+ 의 비율을 증가시켜 작은 입자 크기에도 불구하고 저함량",
       "relevance_score": 68.0
     }
@@ -435,7 +480,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\솔브레인\\tech\\soulbrain_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\솔브레인\\tech\\soulbrain_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-20T22:11:03",
+      "generated_at": "2026-05-26T07:07:43",
       "core_counts": {
         "total_patents": 90,
         "registered_patents_estimated": 21,
@@ -529,7 +574,7 @@
   "tech_chair_summary": {
     "agent": "tech",
     "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-    "created_at": "2026-05-20T22:15:33",
+    "created_at": "2026-05-26T07:09:43",
     "field": "반도체",
     "company": "솔브레인",
     "company_name": "솔브레인",
@@ -561,13 +606,13 @@
       "ip_evidence_composite_bridge_signal": "IP_EVIDENCE_WEAK",
       "ip_evidence_composite_adjustment_points": -1.0,
       "ip_evidence_composite_data_coverage_rate": 1.0,
-      "ip_evidence_composite_source_file": "data/반도체/솔브레인/tech/tech_ip_evidence_composite.json",
+      "ip_evidence_composite_source_file": "C:/Agent_6.9/data/반도체/솔브레인/tech/tech_ip_evidence_composite.json",
       "peer_adjusted_bridge_score_before_ip_evidence": 39.0,
       "final_bridge_score_after_ip_evidence": 38.0,
       "ip_evidence_adjusted_score": 38.0,
       "ip_evidence_formula": "final_bridge_score_after_ip_evidence = peer_adjusted_bridge_score_before_ip_evidence + ip_evidence_composite_adjustment_points",
       "ip_evidence_adjusted_grade": "TECH_EVIDENCE_WEAK",
-      "investor_final_tech_score": 42.84,
+      "investor_final_tech_score": 51.84,
       "investor_final_tech_grade": {
         "code": "EVIDENCE_WEAK_OR_EARLY",
         "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
@@ -635,14 +680,14 @@
       }
     ],
     "ip_quant_signals": {
-      "normalized_patent_text_records": 2240,
-      "company_matched_patents": 1280,
+      "normalized_patent_text_records": 3800,
+      "company_matched_patents": 2840,
       "registered_patents": 233,
-      "alive_patents": 784,
-      "recent_5y_patents": 31,
+      "alive_patents": 2344,
+      "recent_5y_patents": 1560,
       "ipc_cpc_classes": 5,
       "core_ipc_h01l_patents": null,
-      "keyword_matches": 973
+      "keyword_matches": 10333
     },
     "selected_ml": {
       "peer_ml": {
@@ -652,9 +697,9 @@
         "cluster_name": null
       },
       "tech_ip_strength": {
-        "score": 49.55,
+        "score": 67.14,
         "percentile": 50.0,
-        "patent_momentum_score": 1.82,
+        "patent_momentum_score": 66.2,
         "dominant_topic": null
       },
       "technology_differentiation": {
@@ -1000,14 +1045,14 @@
       "ip_evidence_bridge_signal": "IP_EVIDENCE_WEAK",
       "ip_evidence_bridge_adjustment_points": -1.0,
       "final_bridge_score_after_ip_evidence": 38.0,
-      "investor_final_tech_score": 42.84,
+      "investor_final_tech_score": 51.84,
       "investor_final_tech_grade": {
         "code": "EVIDENCE_WEAK_OR_EARLY",
         "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
         "threshold": 0.0
       },
       "investor_evidence_count": 9,
-      "excel_quantified_evidence_score": 45.0,
+      "excel_quantified_evidence_score": 90.0,
       "commercialization_and_funding_signal_score": 41.5
     },
     "ip_legal_features": {
@@ -1463,7 +1508,7 @@
       "company_name": "솔브레인",
       "field": "반도체",
       "status": "OK",
-      "created_at": "2026-05-20T22:15:01",
+      "created_at": "2026-05-26T07:07:44",
       "weights": {
         "legal_stability": 0.25,
         "claim_defense": 0.3,
@@ -1559,13 +1604,13 @@
       "tech_full_appendix_json": ""
     },
     "ip_evidence_bridge_adjustment_status": "APPLIED",
-    "ip_evidence_bridge_adjustment_applied_at": "2026-05-20T22:15:34",
+    "ip_evidence_bridge_adjustment_applied_at": "2026-05-26T07:10:05",
     "tech_investor_view": {
       "version": "tech-investor-scorecard-v2",
-      "generated_at": "2026-05-20T22:15:46",
+      "generated_at": "2026-05-26T07:10:51",
       "company_slug": "soulbrain",
       "company_name": "솔브레인",
-      "final_tech_investor_score": 42.84,
+      "final_tech_investor_score": 51.84,
       "final_tech_investor_grade": {
         "code": "EVIDENCE_WEAK_OR_EARLY",
         "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
@@ -1729,33 +1774,33 @@
         },
         "excel_quantified_evidence": {
           "label": "Excel 기반 정량 근거",
-          "score": 45.0,
+          "score": 90.0,
           "weight": 0.15,
           "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지",
           "meta": {
-            "score": 45.0,
-            "company_item_count": 8,
-            "filled_count": 0,
+            "score": 90.0,
+            "company_item_count": 22,
+            "filled_count": 22,
             "metric_row_count": 0,
-            "numeric_signal_count": 0,
-            "category_count": 7,
+            "numeric_signal_count": 120,
+            "category_count": 8,
             "unique_metric_count": 0,
             "formula_rule_count": 0,
-            "coverage_ratio": 0.0,
-            "numeric_density": 0.0
+            "coverage_ratio": 1.0,
+            "numeric_density": 5.4545
           }
         },
         "evidence_confidence": {
           "label": "근거 직접성·충분성",
-          "score": 52.0,
+          "score": 67.0,
           "weight": 0.15,
           "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성",
           "meta": {
-            "score": 52.0,
+            "score": 67.0,
             "evidence_count": 7,
             "claim_count": 4,
             "patent_count": 90,
-            "excel_coverage_ratio": 0.0
+            "excel_coverage_ratio": 1.0
           }
         },
         "commercialization_and_funding_signal": {
@@ -1803,17 +1848,17 @@
         {
           "component": "excel_quantified_evidence",
           "label": "Excel 기반 정량 근거",
-          "score": 45.0,
+          "score": 90.0,
           "weight": 0.15,
-          "weighted_score": 6.75,
+          "weighted_score": 13.5,
           "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지"
         },
         {
           "component": "evidence_confidence",
           "label": "근거 직접성·충분성",
-          "score": 52.0,
+          "score": 67.0,
           "weight": 0.15,
-          "weighted_score": 7.8,
+          "weighted_score": 10.05,
           "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성"
         },
         {
@@ -1826,8 +1871,8 @@
         }
       ],
       "key_takeaways": [
-        "솔브레인의 개인투자자용 Tech 최종 점수는 42.84/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
-        "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(38.0)와 IP Evidence(44.69) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+        "솔브레인의 개인투자자용 Tech 최종 점수는 51.84/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
+        "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(38.0)와 IP Evidence(44.69) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
         "투자자가 확인할 핵심 근거는 9개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
       ],
       "investor_evidence": [
@@ -1894,7 +1939,7 @@
         {
           "source": "tech_summary",
           "title": "Tech Agent 핵심 해석",
-          "detail": "솔브레인의 개인투자자용 Tech 최종 점수는 42.84/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
+          "detail": "솔브레인의 개인투자자용 Tech 최종 점수는 51.84/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
           "value": null,
           "unit": null,
           "path": null,
@@ -1904,7 +1949,7 @@
         {
           "source": "tech_summary",
           "title": "Tech Agent 핵심 해석",
-          "detail": "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(38.0)와 IP Evidence(44.69) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+          "detail": "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(38.0)와 IP Evidence(44.69) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
           "value": null,
           "unit": null,
           "path": null,
@@ -1944,8 +1989,8 @@
       }
     },
     "key_takeaways": [
-      "솔브레인의 개인투자자용 Tech 최종 점수는 42.84/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
-      "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(38.0)와 IP Evidence(44.69) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+      "솔브레인의 개인투자자용 Tech 최종 점수는 51.84/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
+      "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(38.0)와 IP Evidence(44.69) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
       "투자자가 확인할 핵심 근거는 9개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다.",
       "투자자가 확인할 핵심 근거는 6개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
     ],
@@ -1953,12 +1998,12 @@
       "agent": "tech_intake",
       "artifact": "tech_intake_value_evidence_bridge",
       "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-      "created_at": "2026-05-20T22:15:43",
+      "created_at": "2026-05-26T07:10:48",
       "field": "반도체",
       "company": "솔브레인",
       "company_dir": "soulbrain",
       "company_slug": "soulbrain",
-      "source_document_count": 132,
+      "source_document_count": 155,
       "source_documents": [
         {
           "source_group": "TECH_OUTPUT",
@@ -2352,6 +2397,30 @@
         },
         {
           "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/솔브레인/tech/tech_history_features_2025-08-31.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/솔브레인/tech/tech_history_features_2025-08-31.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/솔브레인/tech/tech_history_features_2025-09-30.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/솔브레인/tech/tech_history_features_2025-09-30.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/솔브레인/tech/tech_intake_manifest.json",
           "detected_url_count": 0,
           "fallback_url_count": 2
@@ -2605,6 +2674,120 @@
         {
           "source_group": "VALUATION",
           "source_file": "data/반도체/솔브레인/valuation/soulbrain_valuation_workbook.xlsx",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/솔브레인/valuation/intake/company_profile.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/솔브레인/valuation/intake/cross_agent_signals_for_valuation.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/솔브레인/valuation/intake/dcf_inputs.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/솔브레인/valuation/intake/dilution_events.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/솔브레인/valuation/intake/eval_price_history.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/솔브레인/valuation/intake/eval_price_history_monthly.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/솔브레인/valuation/intake/eval_price_history_monthly_v43.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/솔브레인/valuation/intake/eval_price_history_monthly_v44.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/솔브레인/valuation/intake/eval_price_history_monthly_v45.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/솔브레인/valuation/intake/eval_price_history_v43.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/솔브레인/valuation/intake/eval_price_history_v44.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/솔브레인/valuation/intake/eval_price_history_v45.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/솔브레인/valuation/intake/financials_normalized.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/솔브레인/valuation/intake/financials_raw.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/솔브레인/valuation/intake/peer_multiples.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/솔브레인/valuation/intake/price_history.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/솔브레인/valuation/intake/relative_valuation_inputs.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/솔브레인/valuation/intake/shares_outstanding.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/솔브레인/valuation/intake/valuation_assumptions.csv",
           "detected_url_count": 0,
           "fallback_url_count": 5
         },
@@ -3278,6 +3461,41 @@
           "evidence": [
             {
               "source_group": "FINANCE",
+              "source_file": "data/반도체/솔브레인/finance/솔브레인_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "매출"
+              ],
+              "snippet": "summary: 솔브레인은 2023년 매출이 큰 폭으로 감소했으나, 2024년에는 소폭 반등하며 회복세를 보이고 있습니다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%86%94%EB%B8%8C%EB%A0%88%EC%9D%B8+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/솔브레인/finance/솔브레인_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "매출",
+                "성장"
+              ],
+              "snippet": "key_thesis: 2024년 매출성장률이 2.3%로 반등하며 이전의 역성장에서 벗어나는 모습을 보였습니다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%86%94%EB%B8%8C%EB%A0%88%EC%9D%B8+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
               "source_file": "data/반도체/솔브레인/finance/솔브레인_finance_agent_packet.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
@@ -3302,7 +3520,7 @@
                 "매출",
                 "성장"
               ],
-              "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수",
+              "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3319,7 +3537,24 @@
               "matched_keywords": [
                 "sales"
               ],
-              "snippet": "sales: 923381966875.0",
+              "snippet": "sales: 863356156458.0",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%86%94%EB%B8%8C%EB%A0%88%EC%9D%B8+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/솔브레인/finance/솔브레인_finance_agent_packet.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "sales"
+              ],
+              "snippet": "sales_growth: 2.2898539254848416",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3336,7 +3571,7 @@
               "matched_keywords": [
                 "sales"
               ],
-              "snippet": "year: 2023 | sales: 844029122465.0 | operating_income: 133488376256.0 | net_income: 130955384417.0 | total_assets: 995442871278.0 | total_liabilities: 76620708886.0 | total_equity: 918822162392.0 | capex: 129386933717 | ocf: 221045860074 | fcf: 91658926357 | interest: 3588248122.0 | ROE: 14.252527831509804 | 영업이익률: 15.815612601866762 | 부채비율: 8.339014014042803 | 이자보상배율: 37.20154563380553",
+              "snippet": "year: 2021 | sales: 1023913370455.0 | net_income: 152220791940.0 | total_assets: 829946537157.0 | total_liabilities: 177761363486.0 | total_equity: 652185173671.0 | current_assets: 438576236890.0 | current_liabilities: 173146367164.0 | capex: 62291035070 | ocf: 131901304526 | fcf: 69610269456 | interest_expense: 2846957002.0 | roe: 23.340118433417345 | current_ratio_%: 253.29797215704292 | debt_ratio: 27.256271786342",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3353,58 +3588,7 @@
               "matched_keywords": [
                 "sales"
               ],
-              "snippet": "year: 2024 | sales: 863356156458.0 | operating_income: 167948756594.0 | net_income: 119611878137.0 | total_assets: 1168214133834.0 | total_liabilities: 130878284640.0 | total_equity: 1037335849194.0 | capex: 95501812163 | ocf: 262345359082 | fcf: 166843546919 | interest: 859836913.0 | ROE: 11.530680081088232 | 영업이익률: 19.453009669036888 | 부채비율: 12.616770618858991 | 이자보상배율: 195.32629275942705",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%86%94%EB%B8%8C%EB%A0%88%EC%9D%B8+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/솔브레인/finance/솔브레인_재무.csv",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "sales"
-              ],
-              "snippet": "year: 2025 | sales: 923381966875.0 | operating_income: 133642405522.0 | net_income: 83989215352.0 | total_assets: 1446750282671.0 | total_liabilities: 335174469307.0 | total_equity: 1111575813364.0 | capex: 120043803512 | ocf: 146921893948 | fcf: 26878090436 | interest: 14954156379.0 | ROE: 7.555869275152773 | 영업이익률: 14.473144410030637 | 부채비율: 30.153091249138463 | 이자보상배율: 8.936806740209896",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%86%94%EB%B8%8C%EB%A0%88%EC%9D%B8+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/솔브레인/finance/솔브레인_재무데이터.csv",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "sales"
-              ],
-              "snippet": "year: 2021 | sales: 1023913370455.0 | net_income: 152220791940.0 | total_assets: 829946537157.0 | total_liabilities: 177761363486.0 | total_equity: 652185173671.0 | capex: 62291035070 | ocf: 131901304526 | fcf: 69610269456 | interest: 2846957002.0 | ROE: 23.340118433417345 | 부채비율: 27.256271786342868",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%86%94%EB%B8%8C%EB%A0%88%EC%9D%B8+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/솔브레인/finance/솔브레인_재무데이터.csv",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "sales"
-              ],
-              "snippet": "year: 2022 | sales: 1090867446512.0 | net_income: 167672934020.0 | total_assets: 934907217558.0 | total_liabilities: 135667905528.0 | total_equity: 799239312030.0 | capex: 94883704796 | ocf: 190815190274 | fcf: 95931485478 | interest: 4435856829.0 | ROE: 20.979064905369206 | 부채비율: 16.974628685795626",
+              "snippet": "year: 2022 | sales: 1090867446512.0 | net_income: 167672934020.0 | total_assets: 934907217558.0 | total_liabilities: 135667905528.0 | total_equity: 799239312030.0 | current_assets: 458877300878.0 | current_liabilities: 127596015859.0 | capex: 94883704796 | ocf: 190815190274 | fcf: 95931485478 | interest_expense: 4435856829.0 | roe: 20.979064905369206 | current_ratio_%: 359.632938214217 | debt_ratio: 16.97462868579562",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3435,7 +3619,24 @@
               "matched_keywords": [
                 "영업이익률"
               ],
-              "snippet": "summary: 솔브레인은 2023년 견조한 영업이익률과 ROE를 기록했으나, 2024년과 2025년에는 영업이익률이 상승하는 반면 ROE는 하락하는 추세를 보였다.",
+              "snippet": "영업이익률은 2023년 15.8%에서 2024년 19.5%로 개선되었으며, ROE는 2023년 14.3%에서 2024년 11.5%로 하락했습니다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%86%94%EB%B8%8C%EB%A0%88%EC%9D%B8+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/솔브레인/finance/솔브레인_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "영업이익률"
+              ],
+              "snippet": "key_thesis: 2024년 영업이익률이 19.5%로 2023년 15.8% 대비 개선되었습니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3453,7 +3654,7 @@
                 "현금흐름",
                 "FCF"
               ],
-              "snippet": "2024년에는 잉여현금흐름(FCF)이 크게 증가했으나, 2025년에는 부채비율이 상승하고 이자보상배율이 하락하며 재무 건전성에 대한 우려가 제기된다.",
+              "snippet": "key_thesis: 2024년 자유현금흐름(FCF)이 1,668억 원으로 2023년 916억 원 대비 크게 증가했습니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3466,12 +3667,29 @@
             {
               "source_group": "FINANCE",
               "source_file": "data/반도체/솔브레인/finance/솔브레인_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "수익성"
+              ],
+              "snippet": "key_risks: 2024년 ROE가 11.5%로 2023년 14.3% 대비 하락하여 자본 대비 수익성이 다소 둔화되었습니다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%86%94%EB%B8%8C%EB%A0%88%EC%9D%B8+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/솔브레인/finance/솔브레인_finance_agent_packet.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
                 "영업이익률",
                 "수익성"
               ],
-              "snippet": "key_thesis: 2023년 15.82%의 영업이익률과 14.25%의 ROE를 기록하며 양호한 수익성을 보였다.",
+              "snippet": "report_core_points: 영업이익률: 솔브레인 2024 기준 영업이익률 값은 19.45%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3483,32 +3701,12 @@
             },
             {
               "source_group": "FINANCE",
-              "source_file": "data/반도체/솔브레인/finance/솔브레인_finance.json",
+              "source_file": "data/반도체/솔브레인/finance/솔브레인_finance_agent_packet.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
-                "영업이익률",
-                "현금흐름",
-                "FCF"
+                "수익성"
               ],
-              "snippet": "key_thesis: 2024년 영업이익률은 19.45%로 상승했으며, 잉여현금흐름(FCF)은 1,668억 원으로 크게 증가했다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%86%94%EB%B8%8C%EB%A0%88%EC%9D%B8+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/솔브레인/finance/솔브레인_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "현금흐름",
-                "FCF"
-              ],
-              "snippet": "key_risks: 2025년 잉여현금흐름(FCF)은 268억 원으로 크게 감소했으며, 이는 투자 및 운영 활동에 영향을 줄 수 있다.",
+              "snippet": "report_core_points: ROE: 솔브레인 2024 기준 ROE 값은 11.53%이며, 자기자본 대비 수익성 수준을 확인하는 지표입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3525,7 +3723,7 @@
               "matched_keywords": [
                 "FCF"
               ],
-              "snippet": "report_core_points: FCF: 솔브레인 2025 기준 FCF 값은 26,878,090,436원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+              "snippet": "report_core_points: FCF: 솔브레인 2024 기준 FCF 값은 166,843,546,919원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3542,24 +3740,7 @@
               "matched_keywords": [
                 "영업이익률"
               ],
-              "snippet": "missing_prompt_metrics: 영업이익률",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%86%94%EB%B8%8C%EB%A0%88%EC%9D%B8+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/솔브레인/finance/솔브레인_finance_agent_packet.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "FCF"
-              ],
-              "snippet": "metric: fcf",
+              "snippet": "label: 영업이익률",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3775,7 +3956,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\솔브레인\\tech\\soulbrain_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\솔브레인\\tech\\soulbrain_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-20T22:11:03",
+      "generated_at": "2026-05-26T07:07:43",
       "core_counts": {
         "total_patents": 90,
         "registered_patents_estimated": 21,
@@ -3863,8 +4044,8 @@
     "bridge_signal": "IP_QUALITY_NEUTRAL"
   },
   "formula_catalog_summary": {
-    "json": "data\\반도체\\솔브레인\\tech\\soulbrain_tech_formula_rules.json",
-    "md": "data\\반도체\\솔브레인\\tech\\soulbrain_tech_formula_rules.md",
+    "json": "C:\\Agent_6.9\\data\\반도체\\솔브레인\\tech\\soulbrain_tech_formula_rules.json",
+    "md": "C:\\Agent_6.9\\data\\반도체\\솔브레인\\tech\\soulbrain_tech_formula_rules.md",
     "rule_count": 34
   },
   "evidence_harvest_summary": {
@@ -3900,6 +4081,8 @@
     "tech_full_appendix_json": null,
     "tech_chair_summary_json": "data/반도체/솔브레인/tech/tech_chair_summary.json",
     "tech_chair_summary_md": "data/반도체/솔브레인/tech/soulbrain_tech_chair_summary.md",
+    "tech_history_feature_json": "data/반도체/솔브레인/tech/tech_history_features_2025-09-30.json",
+    "tech_history_feature_csv": "data/반도체/솔브레인/tech/tech_history_features_2025-09-30.csv",
     "tech_json": "data/반도체/솔브레인/tech/soulbrain_tech.json",
     "tech_agent_packet_json": "data/반도체/솔브레인/tech/soulbrain_tech_agent_packet.json"
   },
@@ -4822,7 +5005,7 @@
     "field": "반도체",
     "source_csv": "data\\반도체\\솔브레인\\tech\\soulbrain_kipris_patents_normalized.csv",
     "enriched_csv": "data\\반도체\\솔브레인\\tech\\soulbrain_kipris_tech_ml_enriched.csv",
-    "generated_at": "2026-05-20T22:11:03",
+    "generated_at": "2026-05-26T07:07:43",
     "core_counts": {
       "total_patents": 90,
       "registered_patents_estimated": 21,

@@ -2,12 +2,12 @@
   "agent": "tech_intake",
   "artifact": "tech_intake_value_evidence_bridge",
   "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-  "created_at": "2026-05-25T20:12:15",
+  "created_at": "2026-05-26T03:58:59",
   "field": "반도체",
   "company": "엘티씨",
   "company_dir": "ltc",
   "company_slug": "ltc",
-  "source_document_count": 168,
+  "source_document_count": 170,
   "source_documents": [
     {
       "source_group": "KIPRIS",
@@ -180,7 +180,7 @@
     {
       "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/엘티씨/tech/ltc_tech_intake_value_evidence.json",
-      "detected_url_count": 16,
+      "detected_url_count": 9,
       "fallback_url_count": 0
     },
     {
@@ -455,6 +455,18 @@
     },
     {
       "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/엘티씨/tech/tech_history_features_2025-09-30.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/엘티씨/tech/tech_history_features_2025-09-30.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/엘티씨/tech/tech_intake_manifest.json",
       "detected_url_count": 0,
       "fallback_url_count": 2
@@ -468,7 +480,7 @@
     {
       "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/엘티씨/tech/tech_intake_value_evidence.json",
-      "detected_url_count": 16,
+      "detected_url_count": 9,
       "fallback_url_count": 0
     },
     {
@@ -956,18 +968,6 @@
       "source_file": "data/반도체/엘티씨/valuation/intake/valuation_reference_universe_focus.csv",
       "detected_url_count": 0,
       "fallback_url_count": 5
-    },
-    {
-      "source_group": "VALUATION",
-      "source_file": "data/반도체/엘티씨/valuation/intake/valuation_reference_universe_summary.json",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "VALUATION",
-      "source_file": "data/반도체/엘티씨/valuation/intake/valuation_share_count.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
     }
   ],
   "source_url_map": {
@@ -1095,14 +1095,7 @@
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e001a68c4fd164cf3d15673f40a510eb681792f530aa2f0525a4feb503bb150818a4adadac8be05dfbfa9bd44b40c8f9fff1953c987cd67d244",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e003070d0c74137e6a9fe6e1aef76a50ca9c437ef3d88db0cd27803d0ed9c976041b343c10d9f89e7238d05d6f6b15faafc26554bdeec58337a",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7261b91571a0b945fee541d8d4c9abba7907b8df79c66c9dd5fbabbdf9d3397cbfa9d02e976185766e24676534e13be2bfe52855921c0387561",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c934cb379fa631e1307a54f870eb7c8d700eed14d82b85c17960c8376aa47cdef39c29043cf7c8cb44929edeab699a5e3f7d710e595052710f8",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93efde2f442dc3a7d352997800fd400cc94293b1a9654b74409fa5b7663ed73aca74801e94d5993121519f8637b5e57c7dd0e4e9ee286cdc26",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c934cb379fa631e1307a54f870eb7c8d700eed14d82b85c17960c8376aa47cdef39104f11d5a260d0fbbb6e749d5d890196970acd5579b998a3",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0015cb4c41f36fe90ddad84d31f4a1b301b629900065bf14f84bffa830fdd8af088b60dddddb05e07bec9b5c82fa9ffecbc914498dd1082025",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93ce6a950083abfb0cea11ba59bd92ce1a23ceb1e8b28aa74eadd714313ca3dcdd23d4b2fd20d612d19236442c4d0b2e419de15543c2403392",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93ce6a950083abfb0cea11ba59bd92ce1a23ceb1e8b28aa74eadd714313ca3dcdd508752c926520326002acb56aa401b2690cff82f9c5f9f04",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c933c9a35f17d2d8d16852776866d9f2a20f0263e62110f496fb9a90c15dfad571e12b26b74e64e0dfb1cd0753c06d958b6af03456b836f5972",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9367e202351212a4204132a8b5e1b9e1c9d4fd46930d95c7710b47919a7d052ac8b13c7fb659e654fd4467484b35633966786e318c4418ba1f",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c934cb379fa631e1307a54f870eb7c8d700eed14d82b85c17960c8376aa47cdef39c29043cf7c8cb44929ed",
         "https://dart.fss.or.kr/",
         "https://dart.fss.or.kr/dsab007/main.do?option=corp",
         "http://www.w3.org/2001/XMLSchema-instance",

@@ -3,26 +3,26 @@
   "company": "LX세미콘",
   "company_dir": "lxsemicon",
   "opinion": "보유",
-  "tech_signal": 0.34472,
+  "tech_signal": 0.347882,
   "history_tech_feature": {
-    "signal": 0.34472,
+    "signal": 0.347882,
     "status": "OK_TECH_HISTORY_ASOF",
-    "source": "C:\\Agent_6.9\\data\\반도체\\LX세미콘\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\LX세미콘\\tech\\quanified_metrix.csv;C:\\Agent_6.9\\data\\반도체\\LX세미콘\\tech\\tech_excel_frame_items.csv;C:\\Agent_6.9\\data\\반도체\\LX세미콘\\tech\\tech_excel_frame_metrics.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\monthly\\tech_patent_quality_monthly.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\monthly\\tech_patent_quality_monthly_v44.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\daily\\tech_patent_quality_daily.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\daily\\tech_patent_quality_daily_v44.csv",
-    "as_of_date": "2025-08-31",
+    "source": "C:\\Agent_6.9\\data\\반도체\\LX세미콘\\tech\\tech_history_features_2025-08-31.csv;C:\\Agent_6.9\\data\\반도체\\LX세미콘\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\LX세미콘\\tech\\quanified_metrix.csv;C:\\Agent_6.9\\data\\반도체\\LX세미콘\\tech\\tech_excel_frame_items.csv;C:\\Agent_6.9\\data\\반도체\\LX세미콘\\tech\\tech_excel_frame_metrics.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\monthly\\tech_patent_quality_monthly.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\monthly\\tech_patent_quality_monthly_v44.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\daily\\tech_patent_quality_daily.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\daily\\tech_patent_quality_daily_v44.csv",
+    "as_of_date": "2025-09-30",
     "company": "LX세미콘",
     "ticker": "108320.KS",
     "stock_code": "108320",
-    "base_signal": 0.3702,
-    "evidence_confidence": 0.770889,
-    "commercialization_gate_signal": 0.237348,
+    "base_signal": 0.373521,
+    "evidence_confidence": 0.772504,
+    "commercialization_gate_signal": 0.23734,
     "technology_risk_penalty": 0.0,
-    "ip_quality_signal": 0.18257,
+    "ip_quality_signal": 0.18684,
     "lifecycle_signal": 0.0,
-    "technology_differentiation_signal": 0.206332,
-    "commercialization_signal": 0.949392,
-    "rnd_sustainability_signal": 0.4858,
+    "technology_differentiation_signal": 0.205489,
+    "commercialization_signal": 0.949362,
+    "rnd_sustainability_signal": 0.493533,
     "peer_position_signal": -0.209524,
-    "tech_to_value_signal": 0.606631,
+    "tech_to_value_signal": 0.615427,
     "certification_signal": 0.0,
     "qualification_signal": 0.0,
     "cost_yield_signal": 0.0,
@@ -32,10 +32,10 @@
     "dispute_risk_signal": 0.0,
     "failure_delay_signal": 0.0,
     "intangible_accounting_signal": 0.0,
-    "patent_records_asof": 84,
-    "dated_records_asof": 64,
+    "patent_records_asof": 92,
+    "dated_records_asof": 73,
     "undated_records_used": 86,
-    "files_used": 63,
+    "files_used": 65,
     "notes": "Tech history signal uses dated patent/IP, TRL/readiness, certification, qualification, commercialization, R&D/workforce, risk and accounting evidence before as_of_date; no Buy/Hold/Sell threshold is applied.",
     "frequency": "monthly",
     "formula": "final=base_signal*evidence_confidence + 0.25*commercialization_gate_signal - 0.35*technology_risk_penalty",
@@ -45,8 +45,8 @@
       "IFC/Bpifrance deep-tech development-stage financing framework",
       "Text-based industry/technology relatedness literature for peer/differentiation evidence"
     ],
-    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\LX세미콘\\tech\\tech_history_features_2025-08-31.json",
-    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\LX세미콘\\tech\\tech_history_features_2025-08-31.csv"
+    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\LX세미콘\\tech\\tech_history_features_2025-09-30.json",
+    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\LX세미콘\\tech\\tech_history_features_2025-09-30.csv"
   },
   "claims": [
     {
@@ -376,7 +376,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\LX세미콘\\tech\\lxsemicon_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\LX세미콘\\tech\\lxsemicon_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-25T20:28:53",
+      "generated_at": "2026-05-26T04:29:07",
       "core_counts": {
         "total_patents": 90,
         "registered_patents_estimated": 38,
@@ -469,7 +469,7 @@
   "tech_chair_summary": {
     "agent": "tech",
     "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-    "created_at": "2026-05-25T20:31:05",
+    "created_at": "2026-05-26T04:31:00",
     "field": "반도체",
     "company": "LX세미콘",
     "company_name": "LX세미콘",
@@ -1401,7 +1401,7 @@
       "company_name": "LX세미콘",
       "field": "반도체",
       "status": "OK",
-      "created_at": "2026-05-25T20:28:55",
+      "created_at": "2026-05-26T04:29:09",
       "weights": {
         "legal_stability": 0.25,
         "claim_defense": 0.3,
@@ -1497,10 +1497,10 @@
       "tech_full_appendix_json": ""
     },
     "ip_evidence_bridge_adjustment_status": "APPLIED",
-    "ip_evidence_bridge_adjustment_applied_at": "2026-05-25T20:31:09",
+    "ip_evidence_bridge_adjustment_applied_at": "2026-05-26T04:31:16",
     "tech_investor_view": {
       "version": "tech-investor-scorecard-v2",
-      "generated_at": "2026-05-25T20:32:32",
+      "generated_at": "2026-05-26T04:32:12",
       "company_slug": "lxsemicon",
       "company_name": "LX세미콘",
       "final_tech_investor_score": 56.98,
@@ -1893,12 +1893,12 @@
       "agent": "tech_intake",
       "artifact": "tech_intake_value_evidence_bridge",
       "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-      "created_at": "2026-05-25T20:32:30",
+      "created_at": "2026-05-26T04:32:10",
       "field": "반도체",
       "company": "LX세미콘",
       "company_dir": "lxsemicon",
       "company_slug": "lxsemicon",
-      "source_document_count": 151,
+      "source_document_count": 153,
       "source_documents": [
         {
           "source_group": "KIPRIS",
@@ -2071,7 +2071,7 @@
         {
           "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/LX세미콘/tech/lxsemicon_tech_intake_value_evidence.json",
-          "detected_url_count": 20,
+          "detected_url_count": 11,
           "fallback_url_count": 0
         },
         {
@@ -2304,6 +2304,18 @@
         },
         {
           "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/LX세미콘/tech/tech_history_features_2025-09-30.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/LX세미콘/tech/tech_history_features_2025-09-30.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/LX세미콘/tech/tech_intake_manifest.json",
           "detected_url_count": 0,
           "fallback_url_count": 2
@@ -2317,7 +2329,7 @@
         {
           "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/LX세미콘/tech/tech_intake_value_evidence.json",
-          "detected_url_count": 20,
+          "detected_url_count": 11,
           "fallback_url_count": 0
         },
         {
@@ -2920,16 +2932,7 @@
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=348aaf18c46825cf02d6c2de1c78338e0d982468ee18e9e114ac1f846c1e40ae5fe637162ec7991c82acdedc211997b1908440ea47bd33ea2c9e7335e1d7b17f472181c37991decc",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c937eb68216e5e65b99cf6777d0831b377ac3ea9f086be79b68b15964e76361372acd69deed8d57d74d5794aa60172b0f80bb657af5f1247a7e",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93a2debee5e8f2b965d040e5e2ff9daa8a68d7ae1fdccfd925a1316daa790ea7c05c9c477be9392431a3d6ed0e881bca5e8a7e37975baca0e5",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c930553ff19307a37d55fc13e99e493b823c3cec1ebb42e76bc5c09927eb0c4a434ed35aa8c672e83211dd64f72d3eeac869914d65d83455361",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c938aae00ce88e61556360597f749dd41e1b430a79706da1f8461c79df52e1578662e3528b10b40b1bd6f8737c1f97181bc9bd87ebd20a4294b",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c938aae00ce88e61556360597f749dd41e1b430a79706da1f8461c79df52e1578664af745c0662c8aed6c691e7920349992188c4841ca8c35ac",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c938aae00ce88e61556360597f749dd41e1b430a79706da1f8461c79df52e15786611093bc96bd7997cb982fe70c0b2ff66965dc062bd64f7d1",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9322af84f57b08f2914d8d6d578d04e03462126d99c37bd3f2bd33168898fdc36d51ceb7be7f301eaa2ea671047b68a103ab1c9b4553d76fab",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93d60e70671cbb16ffcd5514885856b2949f6d6529edecc677021d8eabcbf01a592253e1d97da656b54acc66ee1d4f74e855a08345c5b08176",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93248f2995ab0a14ea0087aa4bcf15f91a015490f003b14ed4d61e14bc0a6851c3be8f85633511c6bc46713d9ae9179bf6735b0ad68abf3674",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93a54ec29e4effa127a4ca5eb229b4a405bd3f33209c513cb3048157444756762cbc310774e041ceb86f94f7bbd9fa124c6a389d2349307c60",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93a54ec29e4effa1272c3763ffb48853c88aa0af730e0353d95278aad7e1b753b7a246b59f374ca22163b92818a0e415643d77b4ef39192fcd",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9391f206647cd995242bba93ede9bd592f1b136831db5f26df98e4b4a10215cddca4ece11eb3029766623dd8ab66a74a24b8d335dc5ddc5a55",
+            "http://plus.kipris.or.kr/openapi/fileToss.js",
             "http://www.w3.org/2001/XMLSchema-instance",
             "http://www.nepes.co.kr",
             "https://dart.fss.or.kr/",
@@ -3376,7 +3379,7 @@
                 "매출",
                 "성장"
               ],
-              "snippet": "key_thesis: 2024년 매출성장률이 -1.88%로 소폭 반등하며 이전의 역성장에서 벗어나는 흐름을 보였습니다.",
+              "snippet": "key_thesis: 2024년 매출성장률이 -1.88%로 소폭 감소했으나, 2023년의 -10.28% 대비 역성장 폭이 줄어들며 안정화되는 흐름을 보입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3512,7 +3515,7 @@
                 "영업이익률",
                 "수익성"
               ],
-              "snippet": "다만, 영업이익률과 ROE는 하락세를 지속하며 수익성 악화가 우려됩니다.",
+              "snippet": "다만, 영업이익률과 ROE는 하락세를 지속하며 수익성 개선이 필요한 상황입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3527,27 +3530,26 @@
               "source_file": "data/반도체/LX세미콘/finance/LX세미콘_finance.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
-                "현금흐름",
+                "영업이익률"
+              ],
+              "snippet": "key_thesis: 2024년 영업이익률은 8.96%로 2023년의 6.79% 대비 개선되었으나, 2021년(19.47%) 및 2022년(14.66%) 대비 낮은 수준입니다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=LX%EC%84%B8%EB%AF%B8%EC%BD%98+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/LX세미콘/finance/LX세미콘_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
                 "FCF"
               ],
-              "snippet": "key_thesis: 2021년 385조 원에 달했던 잉여현금흐름(FCF)이 2023년 497억 원으로 감소했으나, 2024년에는 1,268억 원으로 회복세를 보였습니다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=LX%EC%84%B8%EB%AF%B8%EC%BD%98+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/LX세미콘/finance/LX세미콘_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "수익성"
-              ],
-              "snippet": "key_thesis: 2021년 37.04%였던 ROE가 2023년 10.36%, 2024년 12.09%로 하락하며 수익성 개선 여부가 중요합니다.",
+              "snippet": "key_thesis: 2024년 FCF는 1268억 원으로 2023년의 497억 원 대비 크게 증가하며 현금 창출 능력이 개선되었습니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3565,25 +3567,7 @@
                 "영업이익률",
                 "수익성"
               ],
-              "snippet": "key_thesis: 2021년 19.47%였던 영업이익률이 2023년 6.79%, 2024년 8.96%로 하락하며 수익성 지표의 하향 추세가 관찰됩니다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=LX%EC%84%B8%EB%AF%B8%EC%BD%98+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/LX세미콘/finance/LX세미콘_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "영업이익률",
-                "수익성"
-              ],
-              "snippet": "key_risks: 2023년 6.79%, 2024년 8.96%로 하락한 영업이익률은 수익성 악화의 주요 리스크 요인입니다.",
+              "snippet": "key_risks: 2024년 영업이익률 8.96%는 2021년(19.47%) 및 2022년(14.66%) 대비 현저히 낮은 수준으로, 수익성 회복 여부가 중요합니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3600,7 +3584,7 @@
               "matched_keywords": [
                 "수익성"
               ],
-              "snippet": "key_risks: 2023년 10.36%, 2024년 12.09%로 하락한 ROE는 자본 대비 수익성이 저하되고 있음을 시사합니다.",
+              "snippet": "key_risks: 2024년 ROE 12.09%는 2021년(37.04%) 및 2022년(24.59%) 대비 낮은 수준으로, 자본 대비 수익성 개선이 필요합니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3636,6 +3620,23 @@
                 "수익성"
               ],
               "snippet": "report_core_points: ROE: LX세미콘 2024 기준 ROE 값은 12.09%이며, 자기자본 대비 수익성 수준을 확인하는 지표입니다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=LX%EC%84%B8%EB%AF%B8%EC%BD%98+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/LX세미콘/finance/LX세미콘_finance_agent_packet.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "FCF"
+              ],
+              "snippet": "report_core_points: FCF: LX세미콘 2024 기준 FCF 값은 126,825,971,782원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3851,7 +3852,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\LX세미콘\\tech\\lxsemicon_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\LX세미콘\\tech\\lxsemicon_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-25T20:28:53",
+      "generated_at": "2026-05-26T04:29:07",
       "core_counts": {
         "total_patents": 90,
         "registered_patents_estimated": 38,
@@ -3976,8 +3977,8 @@
     "tech_full_appendix_json": null,
     "tech_chair_summary_json": "data/반도체/LX세미콘/tech/tech_chair_summary.json",
     "tech_chair_summary_md": "data/반도체/LX세미콘/tech/lxsemicon_tech_chair_summary.md",
-    "tech_history_feature_json": "data/반도체/LX세미콘/tech/tech_history_features_2025-08-31.json",
-    "tech_history_feature_csv": "data/반도체/LX세미콘/tech/tech_history_features_2025-08-31.csv",
+    "tech_history_feature_json": "data/반도체/LX세미콘/tech/tech_history_features_2025-09-30.json",
+    "tech_history_feature_csv": "data/반도체/LX세미콘/tech/tech_history_features_2025-09-30.csv",
     "tech_json": "data/반도체/LX세미콘/tech/lxsemicon_tech.json",
     "tech_agent_packet_json": "data/반도체/LX세미콘/tech/lxsemicon_tech_agent_packet.json"
   },
@@ -4814,7 +4815,7 @@
     "field": "반도체",
     "source_csv": "data\\반도체\\LX세미콘\\tech\\lxsemicon_kipris_patents_normalized.csv",
     "enriched_csv": "data\\반도체\\LX세미콘\\tech\\lxsemicon_kipris_tech_ml_enriched.csv",
-    "generated_at": "2026-05-25T20:28:53",
+    "generated_at": "2026-05-26T04:29:07",
     "core_counts": {
       "total_patents": 90,
       "registered_patents_estimated": 38,

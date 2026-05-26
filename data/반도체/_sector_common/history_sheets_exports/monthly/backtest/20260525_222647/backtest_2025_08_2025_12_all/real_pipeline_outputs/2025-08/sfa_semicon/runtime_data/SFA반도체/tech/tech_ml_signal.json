@@ -1,0 +1,182 @@
+{
+  "company_dir": "sfa_semicon",
+  "company": "SFA반도체",
+  "created_at": "2026-05-26T02:44:32",
+  "input_patent_csv": "C:\\Agent_6.9\\data\\반도체\\SFA반도체\\tech\\source\\sfa_semicon_kipris_plus_bibliographic_raw.csv",
+  "model_info": {
+    "module": "Tech ML Signal Builder",
+    "algorithm": "TF-IDF + KMeans",
+    "sklearn_available": true,
+    "purpose": "KIPRIS patent portfolio clustering, patent momentum scoring, commercialization watch signal generation"
+  },
+  "tech_ml_label": "TECH_EVIDENCE_WEAK",
+  "tech_ml_label_description": "특허·기술 정량 신호가 충분하지 않아 근거 보강 필요형으로 해석합니다.",
+  "patent_ml_score": 40.76,
+  "bridge_score": 0.0,
+  "bridge_label": "",
+  "normalized_patent_records": 30,
+  "company_matched_patents": 30,
+  "registered_patents": 20,
+  "alive_patents": 9,
+  "recent_5y_patents": 1,
+  "recent_5y_ratio": 0.0333,
+  "ipc_cpc_count": 8,
+  "ipc_cpc_examples": [
+    "B08B",
+    "G06K",
+    "H01L",
+    "H01R",
+    "H10B",
+    "H10F",
+    "H10P",
+    "H10W"
+  ],
+  "h01l_patents": 1,
+  "patent_year_range": "2000~2021",
+  "technology_keyword_hits": {
+    "반도체": 130,
+    "패키징": 1,
+    "공정": 18,
+    "장비": 25,
+    "AI": 2
+  },
+  "technology_keyword_hit_total": 176,
+  "clustering": {
+    "method": "tfidf_kmeans",
+    "sklearn_available": true,
+    "cluster_count": 3,
+    "clusters": [
+      {
+        "cluster_id": 1,
+        "size": 14,
+        "top_terms": [
+          "반도체",
+          "적층형 반도체",
+          "패키지",
+          "반도체 패키지",
+          "제1",
+          "적층형",
+          "h10w",
+          "상기"
+        ],
+        "sample_titles": [
+          "적층형 반도체 패키지 제조방법",
+          "차폐부 형성 방법 및 이에 따라 제조된 시스템 인 패키지",
+          "임베디드 몰드형 코어리스 기판 제조방법",
+          "반도체 패키지 조립공정의 웨이퍼 링 카세트",
+          "더블 사이드 반도체 패키지 및 더블 사이드 반도체 패키지의 제조방법"
+        ]
+      },
+      {
+        "cluster_id": 0,
+        "size": 12,
+        "top_terms": [
+          "상기",
+          "웨이퍼",
+          "반도체",
+          "단계",
+          "상기 반도체",
+          "단계 상기",
+          "형성하는",
+          "제조"
+        ],
+        "sample_titles": [
+          "히트 스프레더가 부착된 웨이퍼 레벨의 팬 아웃 패키지 및 그 제조 방법",
+          "팬-아웃형 웨이퍼 레벨 패키지의 제조 방법",
+          "인캡슐레이션 방법",
+          "와이어 본딩용 에어 블로우 장치",
+          "웨이퍼 레벨의 적층형 팬 아웃 패키지 및 그 제조 방법"
+        ]
+      },
+      {
+        "cluster_id": 2,
+        "size": 4,
+        "top_terms": [
+          "접착",
+          "반도체 접착",
+          "장비",
+          "접착 장비",
+          "다이 접착",
+          "다이",
+          "반도체",
+          "픽업"
+        ],
+        "sample_titles": [
+          "역피라미드 방식의 반도체 칩 접착 장비 및 그 작동방법",
+          "스프링 방식의 플란자 핀을 갖는 반도체 칩 접착 장비",
+          "반도체 패키지 제조용 다이 접착 장비",
+          "리프 스프링을 포함하는 반도체 칩 접착 장비 및 그작동방법"
+        ]
+      }
+    ],
+    "technology_concentration_index": 0.3956,
+    "feature_count": 1500
+  },
+  "representative_patents": [
+    {
+      "title": "CIS 반도체 패키지의 제조방법",
+      "application_date": "20211013",
+      "register_date": "20231023",
+      "register_status": "등록",
+      "ipc": "H10F 77/50|H10F 39/12|H10F 71/00|H10W 70/00|H10W 29/00",
+      "applicant": ""
+    },
+    {
+      "title": "적층형 반도체 패키지 및 적층형 반도체 패키지의 제조방법",
+      "application_date": "20191024",
+      "register_date": "20210324",
+      "register_status": "등록",
+      "ipc": "H10W 90/00|H10B 80/00|H10W 70/40|H10W 20/43|H10W 29/00",
+      "applicant": ""
+    },
+    {
+      "title": "차폐부 형성 방법 및 이에 따라 제조된 시스템 인 패키지",
+      "application_date": "20160205",
+      "register_date": "20170612",
+      "register_status": "등록",
+      "ipc": "H01L 23/60|H01L 23/31|H01L 25/065|H01L 23/528|H01L 23/522|H01L 25/00",
+      "applicant": ""
+    },
+    {
+      "title": "임베디드 몰드형 코어리스 기판 제조방법",
+      "application_date": "20160224",
+      "register_date": "20180523",
+      "register_status": "등록",
+      "ipc": "H10W 74/10|H10W 70/40|H10W 29/00|H10W 74/01|H10P 34/42|H10W 20/49",
+      "applicant": ""
+    },
+    {
+      "title": "인캡슐레이션 방법",
+      "application_date": "20160107",
+      "register_date": "20170612",
+      "register_status": "등록",
+      "ipc": "H10W 74/01|H10W 74/10|H10W 29/00",
+      "applicant": ""
+    }
+  ],
+  "commercialization_score": 80.0,
+  "commercialization_level": "STRONG",
+  "commercialization_keyword_hits": 323,
+  "commercialization_keywords": {
+    "고객": 30,
+    "채택": 6,
+    "양산": 13,
+    "공급": 2,
+    "매출": 18,
+    "실적": 1,
+    "FCF": 4,
+    "현금흐름": 1,
+    "revenue": 1
+  },
+  "chair_reflection_points": [
+    "Tech ML 판정은 TECH_EVIDENCE_WEAK이며, 기존 Tech-to-Value Bridge 판정과 함께 기술 섹션의 보조 신호로 사용합니다.",
+    "특허 클러스터링 결과는 핵심 기술 축과 기술 포트폴리오 집중도를 설명하는 근거로 반영합니다.",
+    "최근 5년 특허와 등록·존속 가능 특허는 기술 지속성 및 진입장벽의 보조 지표로 활용합니다.",
+    "고객 채택, 양산, 매출 전환, FCF 개선 근거가 약하면 기술 점수만으로 매수 의견을 강화하지 않습니다."
+  ],
+  "notes": [
+    "Tech ML은 특허 텍스트, 초록, IPC/CPC, 등록상태, 최근 출원 흐름을 기반으로 기술 포트폴리오를 구조화합니다.",
+    "특허 수와 클러스터 수는 기술 지속성의 보조 근거이며, 단독으로 매출 성장이나 주가 상승을 의미하지 않습니다.",
+    "사업화 판단은 고객 채택, 양산, 매출 전환, FCF 개선 근거와 함께 해석해야 합니다."
+  ]
+}

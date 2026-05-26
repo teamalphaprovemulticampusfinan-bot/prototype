@@ -1,10 +1,10 @@
 # 이엔에프테크놀로지 Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-20T22:25:04
+- 생성 시각: 2026-05-26T07:52:19
 - 종합 점수: 80.74/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 132개
+- 원천 문서 수: 155개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -32,18 +32,18 @@
 - [DIRECT_EVIDENCE] - 기술 우위가 확인되어도 고객 채택·양산·매출 전환·FCF 직접 근거가 약하면 보수적으로 반영합니다. (source=data/반도체/이엔에프테크놀로지/tech/_nepes_reference_schema/nepes_tech_chair_summary.md, keywords=양산, urls=http://www.w3.org/2001/XMLSchema-instance, http://www.nepes.co.kr)
 
 ### 매출 전환
-- [DIRECT_EVIDENCE] 2025년에는 매출과 영업이익이 더욱 성장할 것으로 전망되며, 잉여현금흐름(FCF)도 긍정적으로 전환되어 재무구조 개선이 기대된다. (source=data/반도체/이엔에프테크놀로지/finance/이엔에프테크놀로지_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2025년에는 매출액이 6,708억 원으로 증가하고 영업이익률이 11.64%까지 상승할 것으로 예상되어 성장성과 수익성 개선이 지속될 전망이다. (source=data/반도체/이엔에프테크놀로지/finance/이엔에프테크놀로지_finance.json, keywords=매출, 매출액, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: 이엔에프테크놀로지는 2023년 매출이 감소했으나 2024년 소폭 반등하며 역성장에서 벗어나는 모습을 보였습니다. (source=data/반도체/이엔에프테크놀로지/finance/이엔에프테크놀로지_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 매출성장률이 1.33%로 소폭 반등하며 이전의 역성장에서 벗어나는 흐름을 보였습니다. (source=data/반도체/이엔에프테크놀로지/finance/이엔에프테크놀로지_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2024년 매출 대비 R&D 비중은 2.96%로, 딥테크 기업으로서의 성장 동력 확보를 위한 지속적인 R&D 투자가 필요합니다. (source=data/반도체/이엔에프테크놀로지/finance/이엔에프테크놀로지_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] missing_prompt_metrics: 매출성장률 (source=data/반도체/이엔에프테크놀로지/finance/이엔에프테크놀로지_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수 (source=data/반도체/이엔에프테크놀로지/finance/이엔에프테크놀로지_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] sales: 670896289801.0 (source=data/반도체/이엔에프테크놀로지/finance/이엔에프테크놀로지_finance_agent_packet.json, keywords=sales, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률 (source=data/반도체/이엔에프테크놀로지/finance/이엔에프테크놀로지_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### 마진·원가·현금흐름 연결
-- [DIRECT_EVIDENCE] summary: 이엔에프테크놀로지는 2024년 영업이익률이 10.19%로 개선되고 순이익이 흑자 전환하며 수익성이 회복되는 모습을 보였다. (source=data/반도체/이엔에프테크놀로지/finance/이엔에프테크놀로지_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] 2025년에는 매출과 영업이익이 더욱 성장할 것으로 전망되며, 잉여현금흐름(FCF)도 긍정적으로 전환되어 재무구조 개선이 기대된다. (source=data/반도체/이엔에프테크놀로지/finance/이엔에프테크놀로지_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년 영업이익률이 10.19%로 전년 대비 크게 개선되었으며, 순이익 또한 297억 원으로 흑자 전환에 성공했다. (source=data/반도체/이엔에프테크놀로지/finance/이엔에프테크놀로지_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2025년에는 매출액이 6,708억 원으로 증가하고 영업이익률이 11.64%까지 상승할 것으로 예상되어 성장성과 수익성 개선이 지속될 전망이다. (source=data/반도체/이엔에프테크놀로지/finance/이엔에프테크놀로지_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년 잉여현금흐름(FCF)이 193억 원으로 흑자 전환했으며, 2025년에는 992억 원으로 크게 증가할 것으로 예상되어 재무 건전성 강화에 기여할 것으로 보인다. (source=data/반도체/이엔에프테크놀로지/finance/이엔에프테크놀로지_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] 2023년 순이익이 큰 폭의 적자를 기록했으나 2024년 흑자전환에 성공하며 수익성이 개선될 가능성을 시사합니다. (source=data/반도체/이엔에프테크놀로지/finance/이엔에프테크놀로지_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 영업이익률이 10.19%로 2023년 4.30% 대비 크게 개선되었습니다. (source=data/반도체/이엔에프테크놀로지/finance/이엔에프테크놀로지_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 FCF가 193억원을 기록하며 2023년 -553억원의 적자에서 흑자전환했습니다. (source=data/반도체/이엔에프테크놀로지/finance/이엔에프테크놀로지_finance.json, keywords=FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] report_core_points: 영업이익률: 이엔에프테크놀로지 2024 기준 영업이익률 값은 10.19%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다. (source=data/반도체/이엔에프테크놀로지/finance/이엔에프테크놀로지_finance_agent_packet.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] report_core_points: ROE: 이엔에프테크놀로지 2024 기준 ROE 값은 7.41%이며, 자기자본 대비 수익성 수준을 확인하는 지표입니다. (source=data/반도체/이엔에프테크놀로지/finance/이엔에프테크놀로지_finance_agent_packet.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### IP 품질
 - [DIRECT_EVIDENCE] legal_status: status=COLLECTED, count=None, score=0.4667, signal=None (source=data/반도체/이엔에프테크놀로지/tech/enf_tech_tech_ip_legal_features.json, keywords=legal_status, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)

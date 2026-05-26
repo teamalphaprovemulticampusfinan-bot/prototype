@@ -1,0 +1,187 @@
+{
+  "company_dir": "eugene_tech",
+  "company": "유진테크",
+  "created_at": "2026-05-26T00:25:47",
+  "input_patent_csv": "C:\\Agent_6.9\\data\\반도체\\유진테크\\tech\\source\\eugene_tech_kipris_plus_bibliographic_raw.csv",
+  "model_info": {
+    "module": "Tech ML Signal Builder",
+    "algorithm": "TF-IDF + KMeans",
+    "sklearn_available": true,
+    "purpose": "KIPRIS patent portfolio clustering, patent momentum scoring, commercialization watch signal generation"
+  },
+  "tech_ml_label": "COMMERCIALIZATION_WATCH",
+  "tech_ml_label_description": "기술 포트폴리오는 확인되지만 사업화 연결 근거는 추가 확인이 필요한 사업화 추적형입니다.",
+  "patent_ml_score": 57.93,
+  "bridge_score": 0.0,
+  "bridge_label": "",
+  "normalized_patent_records": 21,
+  "company_matched_patents": 21,
+  "registered_patents": 13,
+  "alive_patents": 12,
+  "recent_5y_patents": 11,
+  "recent_5y_ratio": 0.5238,
+  "ipc_cpc_count": 17,
+  "ipc_cpc_examples": [
+    "B21D",
+    "B23K",
+    "B25J",
+    "B26D",
+    "B26F",
+    "B62D",
+    "C21D",
+    "C23C",
+    "C23F",
+    "C25D",
+    "F16F",
+    "H01J",
+    "H01L",
+    "H01M",
+    "H02B",
+    "H10B",
+    "H10P"
+  ],
+  "h01l_patents": 1,
+  "patent_year_range": "2005~2025",
+  "technology_keyword_hits": {
+    "공정": 31
+  },
+  "technology_keyword_hit_total": 31,
+  "clustering": {
+    "method": "tfidf_kmeans",
+    "sklearn_available": true,
+    "cluster_count": 3,
+    "clusters": [
+      {
+        "cluster_id": 2,
+        "size": 10,
+        "top_terms": [
+          "기판",
+          "상기",
+          "처리",
+          "기판 처리",
+          "반응",
+          "배치식 기판",
+          "배치식",
+          "상기 반응"
+        ],
+        "sample_titles": [
+          "기판 이송장치 및 기판 이송장치의 운용방법",
+          "배치식 기판 처리 장치",
+          "배치식 기판 처리 장치",
+          "배치식 기판 처리 장치",
+          "배치식 기판 처리 장치"
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "size": 8,
+        "top_terms": [
+          "상기",
+          "스테이션",
+          "공정",
+          "제1",
+          "금속",
+          "공정 스테이션",
+          "상부에",
+          "제2"
+        ],
+        "sample_titles": [
+          "탄성부재를 이용한 수배전반용 내진구조체",
+          "전동 파워 스티어링 장치용 메인샤프트 제조방법",
+          "기판 처리 장치 및 기판 처리 방법",
+          "기판 처리 장치",
+          "이차전지 전극단자용 표면처리 장치의 스퀴저"
+        ]
+      },
+      {
+        "cluster_id": 0,
+        "size": 3,
+        "top_terms": [
+          "전극",
+          "전원",
+          "전원 전극",
+          "펀치",
+          "다이",
+          "내지 제2",
+          "제2",
+          "전극 내지"
+        ],
+        "sample_titles": [
+          "배치식 기판 처리 장치",
+          "전극 탭 처짐 방지 장치를 가지는 이차전지용 전극 노칭금형",
+          "배치식 기판 처리 장치"
+        ]
+      }
+    ],
+    "technology_concentration_index": 0.3923,
+    "feature_count": 1500
+  },
+  "representative_patents": [
+    {
+      "title": "전극 탭 처짐 방지 장치를 가지는 이차전지용 전극 노칭금형",
+      "application_date": "20251224",
+      "register_date": "20260312",
+      "register_status": "등록",
+      "ipc": "B26F 1/12|B26F 1/14|B26D 7/08|B26D 7/20|H01M 4/04",
+      "applicant": ""
+    },
+    {
+      "title": "기판 처리 장치 및 기판 처리 방법",
+      "application_date": "20230724",
+      "register_date": "20260409",
+      "register_status": "등록",
+      "ipc": "H01J 37/32|H10P 72/00",
+      "applicant": ""
+    },
+    {
+      "title": "기판 이송장치 및 기판 이송장치의 운용방법",
+      "application_date": "20220621",
+      "register_date": "20260518",
+      "register_status": "등록",
+      "ipc": "H10P 72/00|H10P 72/30|H10P 72/76|B25J 11/00|B25J 13/08",
+      "applicant": ""
+    },
+    {
+      "title": "탄성부재를 이용한 수배전반용 내진구조체",
+      "application_date": "20200506",
+      "register_date": "20210527",
+      "register_status": "등록",
+      "ipc": "H02B 1/54|H02B 1/50|F16F 15/08",
+      "applicant": ""
+    },
+    {
+      "title": "기판 처리장치 및 기판 처리방법",
+      "application_date": "20190617",
+      "register_date": "20210517",
+      "register_status": "등록",
+      "ipc": "H10P 72/00|H10P 10/00|C23C 16/44",
+      "applicant": ""
+    }
+  ],
+  "commercialization_score": 80.0,
+  "commercialization_level": "STRONG",
+  "commercialization_keyword_hits": 350,
+  "commercialization_keywords": {
+    "고객": 33,
+    "채택": 6,
+    "양산": 16,
+    "공급": 11,
+    "매출": 18,
+    "실적": 1,
+    "FCF": 4,
+    "현금흐름": 1,
+    "revenue": 1
+  },
+  "chair_reflection_points": [
+    "Tech ML 판정은 COMMERCIALIZATION_WATCH이며, 기존 Tech-to-Value Bridge 판정과 함께 기술 섹션의 보조 신호로 사용합니다.",
+    "특허 클러스터링 결과는 핵심 기술 축과 기술 포트폴리오 집중도를 설명하는 근거로 반영합니다.",
+    "최근 5년 특허와 등록·존속 가능 특허는 기술 지속성 및 진입장벽의 보조 지표로 활용합니다.",
+    "고객 채택, 양산, 매출 전환, FCF 개선 근거가 약하면 기술 점수만으로 매수 의견을 강화하지 않습니다.",
+    "기술성은 확인되지만 사업화 연결 근거를 계속 확인해야 하므로 Chair는 관찰형 보조 신호로 반영해야 합니다."
+  ],
+  "notes": [
+    "Tech ML은 특허 텍스트, 초록, IPC/CPC, 등록상태, 최근 출원 흐름을 기반으로 기술 포트폴리오를 구조화합니다.",
+    "특허 수와 클러스터 수는 기술 지속성의 보조 근거이며, 단독으로 매출 성장이나 주가 상승을 의미하지 않습니다.",
+    "사업화 판단은 고객 채택, 양산, 매출 전환, FCF 개선 근거와 함께 해석해야 합니다."
+  ]
+}

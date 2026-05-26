@@ -1,0 +1,183 @@
+{
+  "company_slug": "duksan",
+  "company_name": "덕산테코피아",
+  "status": "OK",
+  "input_csv": "data\\반도체\\덕산테코피아\\tech\\duksan_kipris_bibliographic_normalized.csv",
+  "family_csv": "data\\반도체\\덕산테코피아\\tech\\duksan_kipris_family_normalized.csv",
+  "target_patent_count": 38,
+  "family_record_count": 22,
+  "patents_with_family": 9,
+  "patents_with_overseas_family": 9,
+  "overseas_family_record_count": 22,
+  "family_collection_coverage": 0.2368,
+  "overseas_family_patent_rate": 0.2368,
+  "pct_patents": 8,
+  "us_patents": 6,
+  "jp_patents": 2,
+  "ep_patents": 0,
+  "cn_patents": 0,
+  "detected_overseas_regions": [
+    "JP",
+    "US",
+    "WO"
+  ],
+  "global_extension_score": 30.68,
+  "bridge_adjustment_points": -1.0,
+  "bridge_signal": "IP_GLOBAL_EXTENSION_WEAK",
+  "top_overseas_family_patents": [
+    {
+      "application_number": "1020090106483",
+      "title": "도전성 접착제와 그 제조 방법 및 이를 포함하는 전자 장치",
+      "family_record_count": 4,
+      "overseas_family_record_count": 4,
+      "jurisdictions": [
+        "JP",
+        "KR",
+        "US",
+        "WO"
+      ],
+      "has_pct_or_wo": true,
+      "has_us": true,
+      "has_jp": true,
+      "has_ep": false,
+      "has_cn": false
+    },
+    {
+      "application_number": "1020180150063",
+      "title": "감광성 수지 조성물, 필름 및 전자장치",
+      "family_record_count": 3,
+      "overseas_family_record_count": 3,
+      "jurisdictions": [
+        "KR",
+        "US",
+        "WO"
+      ],
+      "has_pct_or_wo": true,
+      "has_us": true,
+      "has_jp": false,
+      "has_ep": false,
+      "has_cn": false
+    },
+    {
+      "application_number": "1020190119979",
+      "title": "아미노실란 화합물 및 이를 포함하는 실리콘 함유 박막 증착용 조성물",
+      "family_record_count": 3,
+      "overseas_family_record_count": 3,
+      "jurisdictions": [
+        "KR",
+        "US",
+        "WO"
+      ],
+      "has_pct_or_wo": true,
+      "has_us": true,
+      "has_jp": false,
+      "has_ep": false,
+      "has_cn": false
+    },
+    {
+      "application_number": "1020100014807",
+      "title": "도전성 잉크 및 이를 이용한 전자소자",
+      "family_record_count": 3,
+      "overseas_family_record_count": 3,
+      "jurisdictions": [
+        "KR",
+        "WO"
+      ],
+      "has_pct_or_wo": true,
+      "has_us": false,
+      "has_jp": false,
+      "has_ep": false,
+      "has_cn": false
+    },
+    {
+      "application_number": "1020100014281",
+      "title": "솔더 잉크 및 이를 이용한 전자소자 패키지",
+      "family_record_count": 2,
+      "overseas_family_record_count": 2,
+      "jurisdictions": [
+        "KR",
+        "US",
+        "WO"
+      ],
+      "has_pct_or_wo": true,
+      "has_us": true,
+      "has_jp": false,
+      "has_ep": false,
+      "has_cn": false
+    },
+    {
+      "application_number": "1020180026800",
+      "title": "SiC 전구체 화합물 및 이를 사용하는 박막 형성 방법",
+      "family_record_count": 2,
+      "overseas_family_record_count": 2,
+      "jurisdictions": [
+        "KR",
+        "US",
+        "WO"
+      ],
+      "has_pct_or_wo": true,
+      "has_us": true,
+      "has_jp": false,
+      "has_ep": false,
+      "has_cn": false
+    },
+    {
+      "application_number": "1020210142539",
+      "title": "반도체 제조장비용 캐니스터",
+      "family_record_count": 2,
+      "overseas_family_record_count": 2,
+      "jurisdictions": [
+        "JP",
+        "US"
+      ],
+      "has_pct_or_wo": false,
+      "has_us": true,
+      "has_jp": true,
+      "has_ep": false,
+      "has_cn": false
+    },
+    {
+      "application_number": "1020110037336",
+      "title": "솔더 페이스트용 플럭스, 솔더 페이스트 및 솔더 범프, 그리고 이들의 제조 방법",
+      "family_record_count": 2,
+      "overseas_family_record_count": 2,
+      "jurisdictions": [
+        "KR",
+        "WO"
+      ],
+      "has_pct_or_wo": true,
+      "has_us": false,
+      "has_jp": false,
+      "has_ep": false,
+      "has_cn": false
+    },
+    {
+      "application_number": "1020170160280",
+      "title": "네거티브 감광성 수지 조성물, 이를 사용한 유기절연막을 갖는 전자장치",
+      "family_record_count": 1,
+      "overseas_family_record_count": 1,
+      "jurisdictions": [
+        "KR",
+        "WO"
+      ],
+      "has_pct_or_wo": true,
+      "has_us": false,
+      "has_jp": false,
+      "has_ep": false,
+      "has_cn": false
+    }
+  ],
+  "usage_rule": "Use this as an IP global expansion feature in Tech-to-Value Bridge. It indicates whether the patent portfolio has overseas family extension, but it is not direct revenue or commercialization evidence.",
+  "parse_error_count": 29,
+  "raw_jsonl": "data\\반도체\\덕산테코피아\\tech\\source\\duksan_kipris_plus_family_raw.jsonl",
+  "request_targets_csv": "data\\반도체\\덕산테코피아\\tech\\duksan_kipris_plus_family_request_targets.csv",
+  "created_at": "2026-05-20T20:34:14",
+  "request_config": {
+    "endpoint": "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
+    "key_param": "ServiceKey",
+    "app_param": "applicationNumber",
+    "api_key": "***KEY***",
+    "timeout": 90,
+    "sleep_sec": 0.8
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "company_dir": "nepes",
+  "company_name": "네패스",
+  "report_path": "workspace\\outputs\\nepes_chair_report.md",
+  "evaluated_at": "2026-05-05T23:38:48",
+  "total_score": 98.29,
+  "status": "PASS",
+  "metrics": [
+    {
+      "name": "보고서 기본 구조",
+      "score": 15.0,
+      "max_score": 15,
+      "status": "PASS",
+      "details": [
+        "필수 섹션 7/7개 확인"
+      ]
+    },
+    {
+      "name": "하위 에이전트 커버리지",
+      "score": 15.0,
+      "max_score": 15,
+      "status": "PASS",
+      "details": [
+        "하위 에이전트 의견 5/5개 확인"
+      ]
+    },
+    {
+      "name": "최종 추천 논리 일관성",
+      "score": 15,
+      "max_score": 15,
+      "status": "PASS",
+      "details": [
+        "최종 추천=보유",
+        "가중합=-0.1",
+        "가중합 기준 추천=보유"
+      ]
+    },
+    {
+      "name": "근거/링크 위생",
+      "score": 15,
+      "max_score": 15,
+      "status": "PASS",
+      "details": [
+        "깨진 URL/unverified/self_generated 주요 문제 미탐지"
+      ]
+    },
+    {
+      "name": "재무 분석 근거 충분성",
+      "score": 4.29,
+      "max_score": 10,
+      "status": "FAIL",
+      "details": [
+        "재무 필수 지표 3/7개 확인",
+        "누락: Sales Growth, Operating Margin, Debt Ratio, Annual Return"
+      ]
+    },
+    {
+      "name": "기술/Peer ML 분석 완성도",
+      "score": 20.0,
+      "max_score": 20,
+      "status": "PASS",
+      "details": [
+        "기술 필수 해석 키워드 7/7개 확인",
+        "Peer ML 블록 키워드 7/7개 확인",
+        "Tech-to-Value 관련 점수 복수 확인: [100.0, 77.0, 80.53] / 구분 문구 존재"
+      ]
+    },
+    {
+      "name": "리스크/한계 고지",
+      "score": 10.0,
+      "max_score": 10,
+      "status": "PASS",
+      "details": [
+        "리스크/한계 관련 키워드 6/6개 확인"
+      ]
+    },
+    {
+      "name": "가독성/노이즈 관리",
+      "score": 4,
+      "max_score": 10,
+      "status": "FAIL",
+      "details": [
+        "문자 수=25,151, 줄 수=372"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "severity": "medium",
+      "category": "finance",
+      "message": "재무 분석 핵심 근거가 부족합니다.",
+      "evidence": "Sales Growth, Operating Margin, Debt Ratio, Annual Return",
+      "recommendation": "prompts.py의 필수 지표를 핵심 근거에 포함하세요."
+    },
+    {
+      "severity": "low",
+      "category": "readability",
+      "message": "보고서가 지나치게 길어 발표/사용자 관점에서 가독성이 떨어질 수 있습니다.",
+      "evidence": "chars=25151",
+      "recommendation": "상단에 1페이지 요약표를 추가하거나 상세 부록으로 분리하세요."
+    },
+    {
+      "severity": "medium",
+      "category": "readability",
+      "message": "'0회/0개/0건' 표현이 보고서에 남아 있습니다.",
+      "evidence": "count=13",
+      "recommendation": "실제 의미가 있는 경우만 남기고, 산출 불가 항목은 '필요 자료' 또는 '확인 제한'으로 바꾸세요."
+    }
+  ],
+  "parsed": {
+    "final_recommendation": "보유",
+    "weighted_sum": -0.1,
+    "weighted_sum_expected_recommendation": "보유",
+    "agent_opinions": {
+      "finance": "보유",
+      "market": "보유",
+      "tech": "보유",
+      "issue": "보유",
+      "macro": "매도"
+    },
+    "tech_scores": [
+      100.0,
+      77.0,
+      80.53
+    ],
+    "report_chars": 25151,
+    "report_lines": 372
+  }
+}

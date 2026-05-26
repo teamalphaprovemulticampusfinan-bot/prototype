@@ -1,6 +1,6 @@
 # Tech/IP Strength Index + NMF Topic Modeling
 
-- 생성 시각: 2026-05-25T22:01:15
+- 생성 시각: 2026-05-26T12:24:43
 - 방법론: Tech/IP Strength Index + TF-IDF NMF Topic Modeling
 - 해석 원칙: 미래 수익률 예측이 아니라 딥테크 특허/IP 포트폴리오의 상대 강도와 기술 주제 집중도를 설명하는 ML 신호입니다.
 
@@ -8,7 +8,7 @@
 
 | 기업 | Tech/IP Strength | Percentile | Grade | Patent Momentum | Dominant NMF Topic |
 |---|---:|---:|---|---:|---|
-| gst | 50.83 | 50.0 | MID_IP_POSITION | 79.24 | 확인 제한 |
+| 한솔케미칼 | 66.01 | 50.0 | ABOVE_AVERAGE_IP_POSITION | 44.27 | 확인 제한 |
 
 ## 2. NMF Topic Dictionary
 

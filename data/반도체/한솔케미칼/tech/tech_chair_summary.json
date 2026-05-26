@@ -1,7 +1,7 @@
 {
   "agent": "tech",
   "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-  "created_at": "2026-05-25T19:58:07",
+  "created_at": "2026-05-26T12:28:37",
   "field": "반도체",
   "company": "한솔케미칼",
   "company_name": "한솔케미칼",
@@ -969,7 +969,7 @@
     "company_name": "한솔케미칼",
     "field": "반도체",
     "status": "OK",
-    "created_at": "2026-05-25T19:54:56",
+    "created_at": "2026-05-26T12:23:43",
     "weights": {
       "legal_stability": 0.25,
       "claim_defense": 0.3,
@@ -1065,10 +1065,10 @@
     "tech_full_appendix_json": ""
   },
   "ip_evidence_bridge_adjustment_status": "APPLIED",
-  "ip_evidence_bridge_adjustment_applied_at": "2026-05-25T19:58:08",
+  "ip_evidence_bridge_adjustment_applied_at": "2026-05-26T12:28:50",
   "tech_investor_view": {
     "version": "tech-investor-scorecard-v2",
-    "generated_at": "2026-05-25T19:58:34",
+    "generated_at": "2026-05-26T12:30:06",
     "company_slug": "hansol",
     "company_name": "한솔케미칼",
     "final_tech_investor_score": 76.69,
@@ -1459,12 +1459,12 @@
     "agent": "tech_intake",
     "artifact": "tech_intake_value_evidence_bridge",
     "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-    "created_at": "2026-05-25T19:58:30",
+    "created_at": "2026-05-26T12:29:58",
     "field": "반도체",
     "company": "한솔케미칼",
     "company_dir": "hansol",
     "company_slug": "hansol",
-    "source_document_count": 169,
+    "source_document_count": 170,
     "source_documents": [
       {
         "source_group": "KIPRIS",
@@ -1643,7 +1643,7 @@
       {
         "source_group": "TECH_OUTPUT",
         "source_file": "data/반도체/한솔케미칼/tech/hansol_tech_intake_value_evidence.json",
-        "detected_url_count": 14,
+        "detected_url_count": 7,
         "fallback_url_count": 0
       },
       {
@@ -1918,6 +1918,30 @@
       },
       {
         "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한솔케미칼/tech/tech_history_features_2025-09-30.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한솔케미칼/tech/tech_history_features_2025-09-30.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한솔케미칼/tech/tech_history_features_2025-10-31.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/한솔케미칼/tech/tech_history_features_2025-10-31.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
         "source_file": "data/반도체/한솔케미칼/tech/tech_intake_manifest.json",
         "detected_url_count": 0,
         "fallback_url_count": 2
@@ -1931,7 +1955,7 @@
       {
         "source_group": "TECH_OUTPUT",
         "source_file": "data/반도체/한솔케미칼/tech/tech_intake_value_evidence.json",
-        "detected_url_count": 14,
+        "detected_url_count": 7,
         "fallback_url_count": 0
       },
       {
@@ -2308,12 +2332,6 @@
       },
       {
         "source_group": "VALUATION",
-        "source_file": "data/반도체/한솔케미칼/valuation/intake/financials_raw.csv",
-        "detected_url_count": 0,
-        "fallback_url_count": 5
-      },
-      {
-        "source_group": "VALUATION",
         "source_file": "data/반도체/한솔케미칼/valuation/intake/peer_multiples.csv",
         "detected_url_count": 0,
         "fallback_url_count": 5
@@ -2404,25 +2422,7 @@
       },
       {
         "source_group": "VALUATION",
-        "source_file": "data/반도체/한솔케미칼/valuation/intake/valuation_raw_dart_accounts.csv",
-        "detected_url_count": 0,
-        "fallback_url_count": 5
-      },
-      {
-        "source_group": "VALUATION",
         "source_file": "data/반도체/한솔케미칼/valuation/intake/valuation_reference_universe_208.csv",
-        "detected_url_count": 0,
-        "fallback_url_count": 5
-      },
-      {
-        "source_group": "VALUATION",
-        "source_file": "data/반도체/한솔케미칼/valuation/intake/valuation_reference_universe_focus.csv",
-        "detected_url_count": 0,
-        "fallback_url_count": 5
-      },
-      {
-        "source_group": "VALUATION",
-        "source_file": "data/반도체/한솔케미칼/valuation/intake/valuation_reference_universe_summary.json",
         "detected_url_count": 0,
         "fallback_url_count": 5
       }
@@ -2558,14 +2558,7 @@
           "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c933104015e29aa5af8ab0b9d910ba8d7804089a08c2ce72e99f4a302dc61f55c6a1d704b9db0fe7beb19f695c4c05ba4470e39822c82ea5b1d",
           "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c937307e90534ec1c84b9f0427b2f78151ee0bd5b922ef6a2316aa7cc02712cdd79773b90a0335b9b8514dbd5a6529985b087499ea7f6d11b4b",
           "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c934a677ec7646dfd8dd04e9e114dd36228087dbb33c236a452dc6729decd4fb05ed69c049055b2d982700bd905853a0cab856f97cc5217a3c7",
-          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93983a0f4c690714d8bdd8b0ddb753bd0b97e257ab1b1894cf948816ddf0a081013de4a000c5112a13dba6244cdaf6c770c76c64a3e3235c45",
-          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c931745e9cb461845bb7fdb522d285ef1eeb8560449be12a7fdda83d0c8ffe0eddde687f0139bb7a7b7e81e3f83b8f0a598938c61b38c44f6ad",
-          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c931745e9cb461845bb2f63fb0c5064659a9d56bc4920cf69586d70df150d76e6ef69f402ece275b95bb9f0a0a5a9e5f91f6010e328035f49d0",
-          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93fa5dada9953ba25e74af835992c35840bb7620e5255b674960931934e4e1d6980e4f48b9378557b97871b70d399d7248e18e9542a43ba8e4",
-          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93134dde06f571014f6d1c16544865b5d7b70c2eca20c81d65526e2cf955017a36a29b2fb7eaf3fbb2f6bc597aecdbc0d79f91f55f4cb30fd9",
-          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93c24520523a540c06504a1e9b21416a2eecb1f775fa3ebe27b4d8efd601369f52d2164781dbcf5ff8b7701120b706b0667cea3c45f870689b",
-          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=348aaf18c46825cf02d6c2de1c78338e2bd3a9276dafcb92462dda294ff40c81448544f02cb07defe9bf0ccceb22091d1ff346983e4db2058496c2f44424a34e1321c750f5ccfed1",
-          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93b1bd11bec33dcd6cac554707b",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c",
           "http://www.w3.org/2001/XMLSchema-instance",
           "https://plus.kipris.or.kr/",
           "https://www.google.com/search?q=%ED%95%9C%EC%86%94%EC%BC%80%EB%AF%B8%EC%B9%BC+KIPRIS+%ED%8A%B9%ED%97%88",
@@ -2670,9 +2663,7 @@
         ]
       },
       "FINANCE": {
-        "detected_urls": [
-          "https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception"
-        ],
+        "detected_urls": [],
         "fallback_urls": [
           "https://dart.fss.or.kr/",
           "https://opendart.fss.or.kr/",

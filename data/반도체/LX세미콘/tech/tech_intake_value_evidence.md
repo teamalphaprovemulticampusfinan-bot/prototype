@@ -1,10 +1,10 @@
 # LX세미콘 Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-25T20:32:30
+- 생성 시각: 2026-05-26T04:32:10
 - 종합 점수: 81.42/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 151개
+- 원천 문서 수: 153개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -33,17 +33,17 @@
 
 ### 매출 전환
 - [DIRECT_EVIDENCE] summary: LX세미콘은 2023년 매출이 전년 대비 감소했으나, 2024년에는 소폭 반등하며 역성장에서 벗어나는 모습을 보였습니다. (source=data/반도체/LX세미콘/finance/LX세미콘_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년 매출성장률이 -1.88%로 소폭 반등하며 이전의 역성장에서 벗어나는 흐름을 보였습니다. (source=data/반도체/LX세미콘/finance/LX세미콘_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 매출성장률이 -1.88%로 소폭 감소했으나, 2023년의 -10.28% 대비 역성장 폭이 줄어들며 안정화되는 흐름을 보입니다. (source=data/반도체/LX세미콘/finance/LX세미콘_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] missing_prompt_metrics: 매출성장률 (source=data/반도체/LX세미콘/finance/LX세미콘_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률 (source=data/반도체/LX세미콘/finance/LX세미콘_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] sales: 1865621538499.0 (source=data/반도체/LX세미콘/finance/LX세미콘_finance_agent_packet.json, keywords=sales, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### 마진·원가·현금흐름 연결
-- [DIRECT_EVIDENCE] 다만, 영업이익률과 ROE는 하락세를 지속하며 수익성 악화가 우려됩니다. (source=data/반도체/LX세미콘/finance/LX세미콘_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2021년 385조 원에 달했던 잉여현금흐름(FCF)이 2023년 497억 원으로 감소했으나, 2024년에는 1,268억 원으로 회복세를 보였습니다. (source=data/반도체/LX세미콘/finance/LX세미콘_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2021년 37.04%였던 ROE가 2023년 10.36%, 2024년 12.09%로 하락하며 수익성 개선 여부가 중요합니다. (source=data/반도체/LX세미콘/finance/LX세미콘_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2021년 19.47%였던 영업이익률이 2023년 6.79%, 2024년 8.96%로 하락하며 수익성 지표의 하향 추세가 관찰됩니다. (source=data/반도체/LX세미콘/finance/LX세미콘_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_risks: 2023년 6.79%, 2024년 8.96%로 하락한 영업이익률은 수익성 악화의 주요 리스크 요인입니다. (source=data/반도체/LX세미콘/finance/LX세미콘_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] 다만, 영업이익률과 ROE는 하락세를 지속하며 수익성 개선이 필요한 상황입니다. (source=data/반도체/LX세미콘/finance/LX세미콘_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 영업이익률은 8.96%로 2023년의 6.79% 대비 개선되었으나, 2021년(19.47%) 및 2022년(14.66%) 대비 낮은 수준입니다. (source=data/반도체/LX세미콘/finance/LX세미콘_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 FCF는 1268억 원으로 2023년의 497억 원 대비 크게 증가하며 현금 창출 능력이 개선되었습니다. (source=data/반도체/LX세미콘/finance/LX세미콘_finance.json, keywords=FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2024년 영업이익률 8.96%는 2021년(19.47%) 및 2022년(14.66%) 대비 현저히 낮은 수준으로, 수익성 회복 여부가 중요합니다. (source=data/반도체/LX세미콘/finance/LX세미콘_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2024년 ROE 12.09%는 2021년(37.04%) 및 2022년(24.59%) 대비 낮은 수준으로, 자본 대비 수익성 개선이 필요합니다. (source=data/반도체/LX세미콘/finance/LX세미콘_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### IP 품질
 - [DIRECT_EVIDENCE] legal_status: status=COLLECTED, count=None, score=0.4222, signal=None (source=data/반도체/LX세미콘/tech/lxsemicon_tech_ip_legal_features.json, keywords=legal_status, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)

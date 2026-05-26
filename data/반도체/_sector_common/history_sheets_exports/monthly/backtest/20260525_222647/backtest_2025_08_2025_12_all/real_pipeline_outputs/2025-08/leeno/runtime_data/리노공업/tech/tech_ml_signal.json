@@ -1,0 +1,183 @@
+{
+  "company_dir": "leeno",
+  "company": "리노공업",
+  "created_at": "2026-05-26T03:03:25",
+  "input_patent_csv": "C:\\Agent_6.9\\data\\반도체\\리노공업\\tech\\source\\leeno_kipris_plus_bibliographic_raw.csv",
+  "model_info": {
+    "module": "Tech ML Signal Builder",
+    "algorithm": "TF-IDF + KMeans",
+    "sklearn_available": true,
+    "purpose": "KIPRIS patent portfolio clustering, patent momentum scoring, commercialization watch signal generation"
+  },
+  "tech_ml_label": "COMMERCIALIZATION_WATCH",
+  "tech_ml_label_description": "기술 포트폴리오는 확인되지만 사업화 연결 근거는 추가 확인이 필요한 사업화 추적형입니다.",
+  "patent_ml_score": 52.39,
+  "bridge_score": 0.0,
+  "bridge_label": "",
+  "normalized_patent_records": 30,
+  "company_matched_patents": 30,
+  "registered_patents": 27,
+  "alive_patents": 23,
+  "recent_5y_patents": 5,
+  "recent_5y_ratio": 0.1667,
+  "ipc_cpc_count": 9,
+  "ipc_cpc_examples": [
+    "A61M",
+    "F16B",
+    "G01R",
+    "H01M",
+    "H01R",
+    "H04M",
+    "H05K",
+    "H10P",
+    "H10W"
+  ],
+  "h01l_patents": 0,
+  "patent_year_range": "2005~2025",
+  "technology_keyword_hits": {
+    "반도체": 42,
+    "공정": 1,
+    "장비": 1
+  },
+  "technology_keyword_hit_total": 44,
+  "clustering": {
+    "method": "tfidf_kmeans",
+    "sklearn_available": true,
+    "cluster_count": 3,
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "size": 12,
+        "top_terms": [
+          "상기",
+          "g01r",
+          "복수의",
+          "피검사체의",
+          "가진",
+          "전기",
+          "위한",
+          "검사장치"
+        ],
+        "sample_titles": [
+          "반도체 디바이스의 검사장치",
+          "검사프로브",
+          "접촉팁 제조 방법 및 접촉팁을 포함하는 전기 전도성 핀",
+          "검사장치",
+          "검사장치"
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "size": 9,
+        "top_terms": [
+          "상기",
+          "상부",
+          "반도체",
+          "외부",
+          "검사용",
+          "플런저와",
+          "하부",
+          "검사"
+        ],
+        "sample_titles": [
+          "컨택트 프로브 및 그 제조방법",
+          "검사용 탐침 장치",
+          "프로브",
+          "플럭스 돗팅 툴",
+          "이차 전지의 충방전용 테스트 프로브"
+        ]
+      },
+      {
+        "cluster_id": 2,
+        "size": 9,
+        "top_terms": [
+          "상기",
+          "형성된",
+          "동축",
+          "슬라이딩",
+          "접촉",
+          "테스트",
+          "상기 인쇄회로기판의",
+          "인쇄회로기판의"
+        ],
+        "sample_titles": [
+          "마이크로 니들 장치",
+          "휴대폰 슬라이딩 힌지용 핀",
+          "동축 접촉 프로브",
+          "메모리 모듈 테스트 소켓",
+          "프로브 카드 및 반도체 디바이스 테스트 소켓"
+        ]
+      }
+    ],
+    "technology_concentration_index": 0.34,
+    "feature_count": 1500
+  },
+  "representative_patents": [
+    {
+      "title": "접촉팁 제조 방법 및 접촉팁을 포함하는 전기 전도성 핀",
+      "application_date": "20240130",
+      "register_date": "20260511",
+      "register_status": "등록",
+      "ipc": "G01R 1/067|G01R 3/00",
+      "applicant": ""
+    },
+    {
+      "title": "전기 전도핀",
+      "application_date": "20240318",
+      "register_date": "20260407",
+      "register_status": "등록",
+      "ipc": "G01R 1/067|G01R 1/04|G01R 3/00|G01R 31/28",
+      "applicant": ""
+    },
+    {
+      "title": "검사장치",
+      "application_date": "20190709",
+      "register_date": "20210323",
+      "register_status": "등록",
+      "ipc": "G01R 31/28|G01R 1/04|H10P 72/00",
+      "applicant": ""
+    },
+    {
+      "title": "검사장치",
+      "application_date": "20170811",
+      "register_date": "20190430",
+      "register_status": "등록",
+      "ipc": "G01R 1/067|G01R 1/18|G01R 1/073",
+      "applicant": ""
+    },
+    {
+      "title": "검사프로브",
+      "application_date": "20170725",
+      "register_date": "20190411",
+      "register_status": "등록",
+      "ipc": "G01R 1/067|G01R 31/28",
+      "applicant": ""
+    }
+  ],
+  "commercialization_score": 80.0,
+  "commercialization_level": "STRONG",
+  "commercialization_keyword_hits": 332,
+  "commercialization_keywords": {
+    "고객": 30,
+    "채택": 8,
+    "양산": 16,
+    "공급": 1,
+    "매출": 18,
+    "실적": 1,
+    "FCF": 4,
+    "현금흐름": 1,
+    "revenue": 1
+  },
+  "chair_reflection_points": [
+    "Tech ML 판정은 COMMERCIALIZATION_WATCH이며, 기존 Tech-to-Value Bridge 판정과 함께 기술 섹션의 보조 신호로 사용합니다.",
+    "특허 클러스터링 결과는 핵심 기술 축과 기술 포트폴리오 집중도를 설명하는 근거로 반영합니다.",
+    "최근 5년 특허와 등록·존속 가능 특허는 기술 지속성 및 진입장벽의 보조 지표로 활용합니다.",
+    "고객 채택, 양산, 매출 전환, FCF 개선 근거가 약하면 기술 점수만으로 매수 의견을 강화하지 않습니다.",
+    "기술성은 확인되지만 사업화 연결 근거를 계속 확인해야 하므로 Chair는 관찰형 보조 신호로 반영해야 합니다."
+  ],
+  "notes": [
+    "Tech ML은 특허 텍스트, 초록, IPC/CPC, 등록상태, 최근 출원 흐름을 기반으로 기술 포트폴리오를 구조화합니다.",
+    "특허 수와 클러스터 수는 기술 지속성의 보조 근거이며, 단독으로 매출 성장이나 주가 상승을 의미하지 않습니다.",
+    "사업화 판단은 고객 채택, 양산, 매출 전환, FCF 개선 근거와 함께 해석해야 합니다."
+  ]
+}

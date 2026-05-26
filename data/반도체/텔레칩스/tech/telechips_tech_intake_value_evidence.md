@@ -1,10 +1,10 @@
 # 텔레칩스 Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-20T21:33:36
+- 생성 시각: 2026-05-26T05:07:08
 - 종합 점수: 80.1/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 132개
+- 원천 문서 수: 155개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -32,18 +32,18 @@
 - [DIRECT_EVIDENCE] - 기술 우위가 확인되어도 고객 채택·양산·매출 전환·FCF 직접 근거가 약하면 보수적으로 반영합니다. (source=data/반도체/텔레칩스/tech/_nepes_reference_schema/nepes_tech_chair_summary.md, keywords=양산, urls=http://www.w3.org/2001/XMLSchema-instance, http://www.nepes.co.kr)
 
 ### 매출 전환
-- [DIRECT_EVIDENCE] summary: 텔레칩스는 2023년 견조한 매출과 영업이익을 기록했으나, 2024년과 2025년에는 매출이 소폭 감소하고 영업이익 및 순이익이 큰 폭으로 적자 전환하며 수익성이 악화되는 추세를 보였다. (source=data/반도체/텔레칩스/finance/텔레칩스_finance.json, keywords=매출, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2023년 매출액 1,910억, 영업이익 167억, 순이익 626억을 기록하며 견조한 실적을 달성했다. (source=data/반도체/텔레칩스/finance/텔레칩스_finance.json, keywords=매출, 매출액, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: 텔레칩스는 2023년 매출이 27% 성장하며 견조한 성장세를 보였으나, 2024년에는 매출이 소폭 감소하고 순이익이 큰 폭으로 적자 전환하며 수익성이 악화되었다. (source=data/반도체/텔레칩스/finance/텔레칩스_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2023년 매출성장률이 27.05%로 크게 증가하며 외형 성장을 달성했다. (source=data/반도체/텔레칩스/finance/텔레칩스_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] missing_prompt_metrics: 매출성장률 (source=data/반도체/텔레칩스/finance/텔레칩스_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수 (source=data/반도체/텔레칩스/finance/텔레칩스_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] sales: 192802105423.0 (source=data/반도체/텔레칩스/finance/텔레칩스_finance_agent_packet.json, keywords=sales, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률 (source=data/반도체/텔레칩스/finance/텔레칩스_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] sales: 186615513099.0 (source=data/반도체/텔레칩스/finance/텔레칩스_finance_agent_packet.json, keywords=sales, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### 마진·원가·현금흐름 연결
-- [DIRECT_EVIDENCE] summary: 텔레칩스는 2023년 견조한 매출과 영업이익을 기록했으나, 2024년과 2025년에는 매출이 소폭 감소하고 영업이익 및 순이익이 큰 폭으로 적자 전환하며 수익성이 악화되는 추세를 보였다. (source=data/반도체/텔레칩스/finance/텔레칩스_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2023년 ROE 25.44%, 영업이익률 8.78%를 기록하며 수익성이 양호했다. (source=data/반도체/텔레칩스/finance/텔레칩스_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2023년 잉여현금흐름(FCF)은 45억을 기록하며 현금 창출 능력을 보여주었다. (source=data/반도체/텔레칩스/finance/텔레칩스_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_risks: 2024년 영업이익률 2.61%, 2025년 -3.21%로 수익성이 급격히 악화되었으며, 2025년 순이익은 -616억을 기록했다. (source=data/반도체/텔레칩스/finance/텔레칩스_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_risks: 2024년 ROE -19.11%, 2025년 -43.11%로 자본 대비 수익성이 크게 하락했다. (source=data/반도체/텔레칩스/finance/텔레칩스_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: 텔레칩스는 2023년 매출이 27% 성장하며 견조한 성장세를 보였으나, 2024년에는 매출이 소폭 감소하고 순이익이 큰 폭으로 적자 전환하며 수익성이 악화되었다. (source=data/반도체/텔레칩스/finance/텔레칩스_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] 2021년 이후 부채비율이 지속적으로 높은 수준을 유지하고 있으며, 2024년에는 자유현금흐름이 마이너스로 전환되었다. (source=data/반도체/텔레칩스/finance/텔레칩스_finance.json, keywords=현금흐름, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2023년 영업이익률이 8.78%로 개선되었으며, ROE 또한 25.44%로 상승했다. (source=data/반도체/텔레칩스/finance/텔레칩스_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2023년 자유현금흐름(FCF)이 45.88억원을 기록하며 양수 전환에 성공했다. (source=data/반도체/텔레칩스/finance/텔레칩스_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2024년 순이익이 -385.60억원으로 큰 폭의 적자 전환을 기록하며 수익성 악화가 심화되었다. (source=data/반도체/텔레칩스/finance/텔레칩스_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### IP 품질
 - [DIRECT_EVIDENCE] legal_status: status=COLLECTED, count=None, score=0.9333, signal=None (source=data/반도체/텔레칩스/tech/tech_ip_legal_features.json, keywords=legal_status, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)

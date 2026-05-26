@@ -1,10 +1,10 @@
 # 미코 Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-25T20:26:25
+- 생성 시각: 2026-05-26T04:21:09
 - 종합 점수: 79.76/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 151개
+- 원천 문서 수: 153개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -32,18 +32,18 @@
 - [DIRECT_EVIDENCE] - 기술 우위가 확인되어도 고객 채택·양산·매출 전환·FCF 직접 근거가 약하면 보수적으로 반영합니다. (source=data/반도체/미코/tech/_nepes_reference_schema/nepes_tech_chair_summary.md, keywords=양산, urls=http://www.w3.org/2001/XMLSchema-instance, http://www.nepes.co.kr)
 
 ### 매출 전환
-- [DIRECT_EVIDENCE] summary: 미코는 2024년 매출이 39.5% 성장하며 큰 폭의 회복세를 보였으나, 영업이익률은 17.5%로 이전 연도 대비 하락했다. (source=data/반도체/미코/finance/미코_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년 매출성장률이 39.5%로 크게 증가하며 외형 성장을 재개했다. (source=data/반도체/미코/finance/미코_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: 미코는 2024년 매출이 39.5% 성장하며 큰 폭의 회복세를 보였으나, 영업이익률은 17.5%로 이전 연도 대비 하락했습니다. (source=data/반도체/미코/finance/미코_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 매출성장률이 39.5%로 크게 증가하며 외형 성장을 재개했습니다. (source=data/반도체/미코/finance/미코_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2025년 9월 30일 기준 PSR이 0.385로, 매출 대비 주가 수준을 고려할 필요가 있습니다. (source=data/반도체/미코/finance/미코_finance.json, keywords=매출, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] missing_prompt_metrics: 매출성장률 (source=data/반도체/미코/finance/미코_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률 (source=data/반도체/미코/finance/미코_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] sales: 540504643904.0 (source=data/반도체/미코/finance/미코_finance_agent_packet.json, keywords=sales, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### 마진·원가·현금흐름 연결
-- [DIRECT_EVIDENCE] summary: 미코는 2024년 매출이 39.5% 성장하며 큰 폭의 회복세를 보였으나, 영업이익률은 17.5%로 이전 연도 대비 하락했다. (source=data/반도체/미코/finance/미코_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년 순이익이 765억 원으로 흑자전환에 성공하며 수익성 개선 가능성을 보여주었다. (source=data/반도체/미코/finance/미코_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년 ROE가 14.4%로 상승하며 자본 대비 수익성이 개선되는 추세를 나타냈다. (source=data/반도체/미코/finance/미코_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년 영업이익률이 17.5%로 이전 연도 대비 하락했으나 여전히 높은 수준을 유지하고 있다. (source=data/반도체/미코/finance/미코_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년 FCF가 -890억 원으로 마이너스를 기록했으나, 2022년에는 양수(+)를 기록한 바 있다. (source=data/반도체/미코/finance/미코_finance.json, keywords=FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: 미코는 2024년 매출이 39.5% 성장하며 큰 폭의 회복세를 보였으나, 영업이익률은 17.5%로 이전 연도 대비 하락했습니다. (source=data/반도체/미코/finance/미코_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 순이익이 765억 원으로 흑자 전환하며 수익성 개선 가능성을 보여주었습니다. (source=data/반도체/미코/finance/미코_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 영업이익률이 17.5%로 이전 연도 대비 하락했으나, 여전히 높은 수준을 유지하고 있습니다. (source=data/반도체/미코/finance/미코_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 FCF가 -890억 원으로 큰 폭의 마이너스를 기록했으나, 이는 대규모 CAPEX 집행에 따른 것으로 해석될 수 있습니다. (source=data/반도체/미코/finance/미코_finance.json, keywords=FCF, CAPEX, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2024년 CAPEX가 2095억 원으로 크게 증가했으며, 이는 향후 FCF에 영향을 미칠 수 있습니다. (source=data/반도체/미코/finance/미코_finance.json, keywords=FCF, CAPEX, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### IP 품질
 - [DIRECT_EVIDENCE] legal_status: status=COLLECTED, count=None, score=0.5826, signal=None (source=data/반도체/미코/tech/mico_tech_ip_legal_features.json, keywords=legal_status, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)

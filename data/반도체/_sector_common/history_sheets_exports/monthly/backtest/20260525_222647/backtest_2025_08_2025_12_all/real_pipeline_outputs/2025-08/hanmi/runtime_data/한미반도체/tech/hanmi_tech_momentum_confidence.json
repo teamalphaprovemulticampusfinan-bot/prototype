@@ -1,0 +1,630 @@
+{
+  "company_dir": "hanmi",
+  "company_name": "한미반도체",
+  "method": "Patent Momentum Score + Conservative Tech-to-Value Evidence Confidence",
+  "patent_momentum": {
+    "patent_momentum_score": 45.5,
+    "baseline_step9_momentum_score": 35.49,
+    "recalibrated_momentum_signal": 60.5,
+    "grade": "WATCH_MOMENTUM",
+    "grade_kr": "최근 특허 모멘텀 추적 필요",
+    "component_scores": {
+      "recent_activity_score": 55.92,
+      "active_continuity_score": 68.83,
+      "registration_quality_score": 58.01,
+      "sustained_activity_score": 60.0,
+      "technology_continuity_score": 65.52
+    },
+    "raw_signals": {
+      "base_patent_momentum_score": 35.49,
+      "normalized_patent_records": 1396.0,
+      "company_matched_patents": 1359.0,
+      "registered_patents": 473.0,
+      "alive_patents": 608.0,
+      "recent_5y_patents": 190.0,
+      "ipc_cpc_classes": 133.0,
+      "core_ipc_h01l_patents": 1.0,
+      "patent_keyword_matches": 2940.0,
+      "recent_5y_ratio": 13.98,
+      "active_patent_ratio": 44.74,
+      "registered_patent_ratio": 34.81,
+      "core_ipc_ratio": 0.07,
+      "start_year": 2021,
+      "end_year": 2030,
+      "span_years": 10
+    },
+    "interpretation": "Patent Momentum Score는 최근 특허 활동, 존속 특허 비중, 등록 특허 비중, 포트폴리오 지속 기간, IPC/CPC 기반 기술 지속성을 결합한 보조 지표입니다. 이 점수는 미래 수익률 예측이 아니라 기술 활동의 현재성·지속성을 설명합니다."
+  },
+  "tech_to_value_evidence_confidence": {
+    "tech_to_value_evidence_confidence_score": 88.0,
+    "raw_weighted_score_before_direct_cap": 88.0,
+    "grade": "EVIDENCE_STRONG",
+    "grade_kr": "기술-가치 연결 직접 근거 강함",
+    "direct_dimension_count": 4,
+    "indirect_only_dimension_count": 0,
+    "dimensions": {
+      "customer_adoption": {
+        "dimension": "customer_adoption",
+        "dimension_label": "고객 채택",
+        "score": 88.0,
+        "status": "DIRECT_CONFIRMED",
+        "status_kr": "직접 근거",
+        "evidence_hit_count": 58,
+        "direct_evidence_count": 13,
+        "indirect_evidence_count": 45,
+        "limited_evidence_count": 0,
+        "top_direct_evidence": [
+          {
+            "source_type": "company_ir",
+            "source": "https://iradio.tistory.com/entry/%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%A3%BC%EC%8B%9D-%EB%B6%84%EC%84%9D-HBM-TC-%EB%B3%B8%EB%8D%94-%EA%B2%BD%EC%9F%81%EB%A0%A5%EA%B3%BC-%EC%B0%A8%EC%84%B8%EB%8C%80-%EB%B3%B8%EB%8D%94-%EB%A1%9C%EB%93%9C%EB%A7%B5%EC%97%90%EC%84%9C-%EB%AC%B4%EC%97%87%EC%9D%84-%EB%B4%90%EC%95%BC-%ED%95%A0%EA%B9%8C",
+            "matched_keywords": [
+              "공급"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": true,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "회사는 하이브리드 본딩 본격 양산 도입 전까지는 TC 본더 1위 지위를 공고히 하고, 이후 차세대 HBM 양산 시점에 맞춰 하이브리드 본더를 공급하겠다는 방향을 내놨습니다."
+          },
+          {
+            "source_type": "company_ir",
+            "source": "data\\반도체\\한미반도체\\tech\\tech.json",
+            "matched_keywords": [
+              "고객",
+              "고객사"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "반도체 장비는 고객사 공정 검증(qualification) 과정이 수개월~1년 소요."
+          },
+          {
+            "source_type": "company_ir",
+            "source": "data\\반도체\\한미반도체\\tech\\tech.json",
+            "matched_keywords": [
+              "납품"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "특허 해자: 국내 195건 + 해외 88건 = 283개 특허로 기술 진입장벽 구축 (사업보고서 기재) · 점유율 기반 고착화: SK하이닉스에 71%+ 납품 실적은 신규 ..."
+          }
+        ],
+        "top_indirect_evidence": [
+          {
+            "source_type": "company_ir",
+            "source": "https://iradio.tistory.com/entry/%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%A3%BC%EC%8B%9D-%EB%B6%84%EC%84%9D-HBM-TC-%EB%B3%B8%EB%8D%94-%EA%B2%BD%EC%9F%81%EB%A0%A5%EA%B3%BC-%EC%B0%A8%EC%84%B8%EB%8C%80-%EB%B3%B8%EB%8D%94-%EB%A1%9C%EB%93%9C%EB%A7%B5%EC%97%90%EC%84%9C-%EB%AC%B4%EC%97%87%EC%9D%84-%EB%B4%90%EC%95%BC-%ED%95%A0%EA%B9%8C",
+            "matched_keywords": [
+              "수주",
+              "공급"
+            ],
+            "has_numeric_signal": false,
+            "has_url_signal": true,
+            "evidence_level": "간접 근거",
+            "level_reason": "1차 출처이나 수치·기간·단위가 부족해 간접 근거로 분류",
+            "hit_score": 90.0,
+            "snippet": "특히 회사 공식 뉴스는 SK하이닉스향 누적 수주와 HBM 생산 라인 공급 실적을 반복해서 강조하고 있고, 외부 보도는 한미반도체가 HBM용 TC 본더 시장에서 높은 점유율을 유지하고 있다고 전합니다."
+          },
+          {
+            "source_type": "company_ir",
+            "source": "https://iradio.tistory.com/entry/%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%A3%BC%EC%8B%9D-%EB%B6%84%EC%84%9D-HBM-TC-%EB%B3%B8%EB%8D%94-%EA%B2%BD%EC%9F%81%EB%A0%A5%EA%B3%BC-%EC%B0%A8%EC%84%B8%EB%8C%80-%EB%B3%B8%EB%8D%94-%EB%A1%9C%EB%93%9C%EB%A7%B5%EC%97%90%EC%84%9C-%EB%AC%B4%EC%97%87%EC%9D%84-%EB%B4%90%EC%95%BC-%ED%95%A0%EA%B9%8C",
+            "matched_keywords": [
+              "고객"
+            ],
+            "has_numeric_signal": false,
+            "has_url_signal": true,
+            "evidence_level": "간접 근거",
+            "level_reason": "1차 출처이나 수치·기간·단위가 부족해 간접 근거로 분류",
+            "hit_score": 90.0,
+            "snippet": "첫째, 현재 평가는 HBM과 AI 패키징 기대를 강하게 반영하고 있을 가능성이 큽니다. 둘째, 특정 고객과 특정 공정 비중이 높을수록 고객 투자 사이클 변화 ..."
+          },
+          {
+            "source_type": "company_homepage",
+            "source": "https://www.hanmisemi.com",
+            "matched_keywords": [
+              "고객"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": true,
+            "evidence_level": "간접 근거",
+            "level_reason": "뉴스·홈페이지·KIPRIS 등은 연결 항목의 보조 근거로만 반영",
+            "hit_score": 49.0,
+            "snippet": "company.yaml 등록 URL 공식/추가 URL 오늘 하루 이 창을 열지 않음 한미반도체 고객 정책 글로벌 네트워크 한미 Ai A/S 센터 HBM TC BONDER 2.5D TC BONDER FC BONDER VISION PLACEMENT micro SAW EMI SHIELD META GRINDER 공시정보 관리규정 ESG 윤리품질 Environment 환경경영 Society 사회적 책임 Governance 지배구조 Ethic 윤리경영 Quality 품질경"
+          }
+        ],
+        "top_limited_evidence": [],
+        "top_evidence": [
+          {
+            "source_type": "company_ir",
+            "source": "https://iradio.tistory.com/entry/%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%A3%BC%EC%8B%9D-%EB%B6%84%EC%84%9D-HBM-TC-%EB%B3%B8%EB%8D%94-%EA%B2%BD%EC%9F%81%EB%A0%A5%EA%B3%BC-%EC%B0%A8%EC%84%B8%EB%8C%80-%EB%B3%B8%EB%8D%94-%EB%A1%9C%EB%93%9C%EB%A7%B5%EC%97%90%EC%84%9C-%EB%AC%B4%EC%97%87%EC%9D%84-%EB%B4%90%EC%95%BC-%ED%95%A0%EA%B9%8C",
+            "matched_keywords": [
+              "공급"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": true,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "회사는 하이브리드 본딩 본격 양산 도입 전까지는 TC 본더 1위 지위를 공고히 하고, 이후 차세대 HBM 양산 시점에 맞춰 하이브리드 본더를 공급하겠다는 방향을 내놨습니다."
+          },
+          {
+            "source_type": "company_ir",
+            "source": "data\\반도체\\한미반도체\\tech\\tech.json",
+            "matched_keywords": [
+              "고객",
+              "고객사"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "반도체 장비는 고객사 공정 검증(qualification) 과정이 수개월~1년 소요."
+          },
+          {
+            "source_type": "company_ir",
+            "source": "data\\반도체\\한미반도체\\tech\\tech.json",
+            "matched_keywords": [
+              "납품"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "특허 해자: 국내 195건 + 해외 88건 = 283개 특허로 기술 진입장벽 구축 (사업보고서 기재) · 점유율 기반 고착화: SK하이닉스에 71%+ 납품 실적은 신규 ..."
+          }
+        ]
+      },
+      "mass_production": {
+        "dimension": "mass_production",
+        "dimension_label": "양산",
+        "score": 88.0,
+        "status": "DIRECT_CONFIRMED",
+        "status_kr": "직접 근거",
+        "evidence_hit_count": 78,
+        "direct_evidence_count": 11,
+        "indirect_evidence_count": 67,
+        "limited_evidence_count": 0,
+        "top_direct_evidence": [
+          {
+            "source_type": "company_ir",
+            "source": "data\\반도체\\한미반도체\\tech\\tech.json",
+            "matched_keywords": [
+              "공정"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "기타 참고사항 > 산업의 성장성 글로벌 반도체 후공정 장비 시장 구분 시장 규모 CAGR 비고 글로벌 반도체 후공정 장비 1,130억 달러 (2025E) 약 6.9~8.5% 2030년 약 1,576억 달러 전망 (추정치) HBM용 TC 본더 시장 한미 기준 연 매출 약..\"/>"
+          },
+          {
+            "source_type": "company_ir",
+            "source": "data\\반도체\\한미반도체\\tech\\tech.json",
+            "matched_keywords": [
+              "공정"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "1980년 창립, 반도체 후공정 장비 전문 기업으로 글로벌 신뢰 구축"
+          },
+          {
+            "source_type": "company_ir",
+            "source": "https://iradio.tistory.com/entry/%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%A3%BC%EC%8B%9D-%EB%B6%84%EC%84%9D-HBM-TC-%EB%B3%B8%EB%8D%94-%EA%B2%BD%EC%9F%81%EB%A0%A5%EA%B3%BC-%EC%B0%A8%EC%84%B8%EB%8C%80-%EB%B3%B8%EB%8D%94-%EB%A1%9C%EB%93%9C%EB%A7%B5%EC%97%90%EC%84%9C-%EB%AC%B4%EC%97%87%EC%9D%84-%EB%B4%90%EC%95%BC-%ED%95%A0%EA%B9%8C",
+            "matched_keywords": [
+              "양산"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": true,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "회사는 하이브리드 본딩 본격 양산 도입 전까지는 TC 본더 1위 지위를 공고히 하고, 이후 차세대 HBM 양산 시점에 맞춰 하이브리드 본더를 공급하겠다는 방향을 내놨습니다."
+          }
+        ],
+        "top_indirect_evidence": [
+          {
+            "source_type": "company_ir",
+            "source": "https://iradio.tistory.com/entry/%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%A3%BC%EC%8B%9D-%EB%B6%84%EC%84%9D-HBM-TC-%EB%B3%B8%EB%8D%94-%EA%B2%BD%EC%9F%81%EB%A0%A5%EA%B3%BC-%EC%B0%A8%EC%84%B8%EB%8C%80-%EB%B3%B8%EB%8D%94-%EB%A1%9C%EB%93%9C%EB%A7%B5%EC%97%90%EC%84%9C-%EB%AC%B4%EC%97%87%EC%9D%84-%EB%B4%90%EC%95%BC-%ED%95%A0%EA%B9%8C",
+            "matched_keywords": [
+              "생산 라인",
+              "라인"
+            ],
+            "has_numeric_signal": false,
+            "has_url_signal": true,
+            "evidence_level": "간접 근거",
+            "level_reason": "1차 출처이나 수치·기간·단위가 부족해 간접 근거로 분류",
+            "hit_score": 90.0,
+            "snippet": "특히 회사 공식 뉴스는 SK하이닉스향 누적 수주와 HBM 생산 라인 공급 실적을 반복해서 강조하고 있고, 외부 보도는 한미반도체가 HBM용 TC 본더 시장에서 높은 점유율을 유지하고 있다고 전합니다."
+          },
+          {
+            "source_type": "company_ir",
+            "source": "https://iradio.tistory.com/entry/%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%A3%BC%EC%8B%9D-%EB%B6%84%EC%84%9D-HBM-TC-%EB%B3%B8%EB%8D%94-%EA%B2%BD%EC%9F%81%EB%A0%A5%EA%B3%BC-%EC%B0%A8%EC%84%B8%EB%8C%80-%EB%B3%B8%EB%8D%94-%EB%A1%9C%EB%93%9C%EB%A7%B5%EC%97%90%EC%84%9C-%EB%AC%B4%EC%97%87%EC%9D%84-%EB%B4%90%EC%95%BC-%ED%95%A0%EA%B9%8C",
+            "matched_keywords": [
+              "공정"
+            ],
+            "has_numeric_signal": false,
+            "has_url_signal": true,
+            "evidence_level": "간접 근거",
+            "level_reason": "1차 출처이나 수치·기간·단위가 부족해 간접 근거로 분류",
+            "hit_score": 90.0,
+            "snippet": "첫째, 현재 평가는 HBM과 AI 패키징 기대를 강하게 반영하고 있을 가능성이 큽니다. 둘째, 특정 고객과 특정 공정 비중이 높을수록 고객 투자 사이클 변화 ..."
+          },
+          {
+            "source_type": "web",
+            "source": "data\\반도체\\한미반도체\\tech\\tech.json",
+            "matched_keywords": [
+              "양산"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "간접 근거",
+            "level_reason": "뉴스·홈페이지·KIPRIS 등은 연결 항목의 보조 근거로만 반영",
+            "hit_score": 49.0,
+            "snippet": "고대역폭메모리(HBM) 양산에 필수 장비인 '열압착(TC) 본더'를 둘러싸고 세계 시장 1위 반도체 장비 기업인 한미반도체와 후발주자 한화세미텍 간 특허 분쟁이 격해지고 있다."
+          }
+        ],
+        "top_limited_evidence": [],
+        "top_evidence": [
+          {
+            "source_type": "company_ir",
+            "source": "data\\반도체\\한미반도체\\tech\\tech.json",
+            "matched_keywords": [
+              "공정"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "기타 참고사항 > 산업의 성장성 글로벌 반도체 후공정 장비 시장 구분 시장 규모 CAGR 비고 글로벌 반도체 후공정 장비 1,130억 달러 (2025E) 약 6.9~8.5% 2030년 약 1,576억 달러 전망 (추정치) HBM용 TC 본더 시장 한미 기준 연 매출 약..\"/>"
+          },
+          {
+            "source_type": "company_ir",
+            "source": "data\\반도체\\한미반도체\\tech\\tech.json",
+            "matched_keywords": [
+              "공정"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "1980년 창립, 반도체 후공정 장비 전문 기업으로 글로벌 신뢰 구축"
+          },
+          {
+            "source_type": "company_ir",
+            "source": "https://iradio.tistory.com/entry/%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%A3%BC%EC%8B%9D-%EB%B6%84%EC%84%9D-HBM-TC-%EB%B3%B8%EB%8D%94-%EA%B2%BD%EC%9F%81%EB%A0%A5%EA%B3%BC-%EC%B0%A8%EC%84%B8%EB%8C%80-%EB%B3%B8%EB%8D%94-%EB%A1%9C%EB%93%9C%EB%A7%B5%EC%97%90%EC%84%9C-%EB%AC%B4%EC%97%87%EC%9D%84-%EB%B4%90%EC%95%BC-%ED%95%A0%EA%B9%8C",
+            "matched_keywords": [
+              "양산"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": true,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "회사는 하이브리드 본딩 본격 양산 도입 전까지는 TC 본더 1위 지위를 공고히 하고, 이후 차세대 HBM 양산 시점에 맞춰 하이브리드 본더를 공급하겠다는 방향을 내놨습니다."
+          }
+        ]
+      },
+      "revenue_conversion": {
+        "dimension": "revenue_conversion",
+        "dimension_label": "매출 전환",
+        "score": 88.0,
+        "status": "DIRECT_CONFIRMED",
+        "status_kr": "직접 근거",
+        "evidence_hit_count": 73,
+        "direct_evidence_count": 16,
+        "indirect_evidence_count": 57,
+        "limited_evidence_count": 0,
+        "top_direct_evidence": [
+          {
+            "source_type": "company_ir",
+            "source": "data\\반도체\\한미반도체\\tech\\tech.json",
+            "matched_keywords": [
+              "매출"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "기타 참고사항 > 산업의 성장성 글로벌 반도체 후공정 장비 시장 구분 시장 규모 CAGR 비고 글로벌 반도체 후공정 장비 1,130억 달러 (2025E) 약 6.9~8.5% 2030년 약 1,576억 달러 전망 (추정치) HBM용 TC 본더 시장 한미 기준 연 매출 약..\"/>"
+          },
+          {
+            "source_type": "company_ir",
+            "source": "data\\반도체\\한미반도체\\tech\\tech.json",
+            "matched_keywords": [
+              "매출",
+              "실적"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "회사 공식 뉴스와 외부 보도를 보면 한미반도체는 HBM TC 본더를 가장 중요한 성장 동력으로 밀고 있고, 2025년에는 HBM TC 본더가 실적을 견인하면서 창사 이래 최대 매출을 기록했습니다."
+          },
+          {
+            "source_type": "company_ir",
+            "source": "data\\반도체\\한미반도체\\tech\\tech.json",
+            "matched_keywords": [
+              "매출"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "반도체 장비 산업의 경기 민감성 (2025년 내수 매출 급감이 이를 방증)"
+          }
+        ],
+        "top_indirect_evidence": [
+          {
+            "source_type": "company_ir",
+            "source": "https://iradio.tistory.com/entry/%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%A3%BC%EC%8B%9D-%EB%B6%84%EC%84%9D-HBM-TC-%EB%B3%B8%EB%8D%94-%EA%B2%BD%EC%9F%81%EB%A0%A5%EA%B3%BC-%EC%B0%A8%EC%84%B8%EB%8C%80-%EB%B3%B8%EB%8D%94-%EB%A1%9C%EB%93%9C%EB%A7%B5%EC%97%90%EC%84%9C-%EB%AC%B4%EC%97%87%EC%9D%84-%EB%B4%90%EC%95%BC-%ED%95%A0%EA%B9%8C",
+            "matched_keywords": [
+              "실적"
+            ],
+            "has_numeric_signal": false,
+            "has_url_signal": true,
+            "evidence_level": "간접 근거",
+            "level_reason": "1차 출처이나 수치·기간·단위가 부족해 간접 근거로 분류",
+            "hit_score": 90.0,
+            "snippet": "특히 회사 공식 뉴스는 SK하이닉스향 누적 수주와 HBM 생산 라인 공급 실적을 반복해서 강조하고 있고, 외부 보도는 한미반도체가 HBM용 TC 본더 시장에서 높은 점유율을 유지하고 있다고 전합니다."
+          },
+          {
+            "source_type": "web",
+            "source": "https://m.thinkpool.com/stockDiscuss/042700/cont/11824524",
+            "matched_keywords": [
+              "매출",
+              "매출액",
+              "실적",
+              "수익",
+              "판매"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": true,
+            "evidence_level": "간접 근거",
+            "level_reason": "뉴스·홈페이지·KIPRIS 등은 연결 항목의 보조 근거로만 반영",
+            "hit_score": 49.0,
+            "snippet": "밀릴때마다 물량 모아둘 기회로 보이며 이후 전망 및 대응전략. - 씽크풀 씽크풀 : 밀릴때마다 물량 모아둘 기회로 보이며 이후 전망 및 대응전략. Title for screen readers Skip to main content A container with a focusable element 한미반도체 (042700) 토론실 공지사항 및 문의 PC버전으로 보기 밀릴때마다 물량 모아둘 기회로 보이며 이후 전망 및 대응전략. 2025/10/02 11:43 (114"
+          },
+          {
+            "source_type": "web",
+            "source": "https://muddybarbell.tistory.com/entry/%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%82%AC%EB%8F%84-%EB%90%A0%EA%B9%8C",
+            "matched_keywords": [
+              "매출",
+              "매출액",
+              "실적",
+              "수익"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": true,
+            "evidence_level": "간접 근거",
+            "level_reason": "뉴스·홈페이지·KIPRIS 등은 연결 항목의 보조 근거로만 반영",
+            "hit_score": 49.0,
+            "snippet": "한미반도체 사도 될까? - 재미있는 금융, 돈과제리 제품명, 용도, 주요 고객, 매출 비중. TC본더, HBM 등 고성능 패키징용 열압착 접합 ; 구분, 2022년, 2023년, 2024년, 2025년(E). 매출액, 약 1,500억 원 ... 한미반도체 사도 될까? 재미있는 금융, 돈과제리 2026. 2. 27. 11:12 🔑오늘의 핵심 포인트 한미반도체는 SK하이닉스에 HBM(고대역폭메모리) 패키징 핵심 장비인 TC본더를 독점 공급하는 반도체 장비주입니다. "
+          }
+        ],
+        "top_limited_evidence": [],
+        "top_evidence": [
+          {
+            "source_type": "company_ir",
+            "source": "data\\반도체\\한미반도체\\tech\\tech.json",
+            "matched_keywords": [
+              "매출"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "기타 참고사항 > 산업의 성장성 글로벌 반도체 후공정 장비 시장 구분 시장 규모 CAGR 비고 글로벌 반도체 후공정 장비 1,130억 달러 (2025E) 약 6.9~8.5% 2030년 약 1,576억 달러 전망 (추정치) HBM용 TC 본더 시장 한미 기준 연 매출 약..\"/>"
+          },
+          {
+            "source_type": "company_ir",
+            "source": "data\\반도체\\한미반도체\\tech\\tech.json",
+            "matched_keywords": [
+              "매출",
+              "실적"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "회사 공식 뉴스와 외부 보도를 보면 한미반도체는 HBM TC 본더를 가장 중요한 성장 동력으로 밀고 있고, 2025년에는 HBM TC 본더가 실적을 견인하면서 창사 이래 최대 매출을 기록했습니다."
+          },
+          {
+            "source_type": "company_ir",
+            "source": "data\\반도체\\한미반도체\\tech\\tech.json",
+            "matched_keywords": [
+              "매출"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "반도체 장비 산업의 경기 민감성 (2025년 내수 매출 급감이 이를 방증)"
+          }
+        ]
+      },
+      "fcf_cashflow": {
+        "dimension": "fcf_cashflow",
+        "dimension_label": "FCF/현금흐름",
+        "score": 88.0,
+        "status": "DIRECT_CONFIRMED",
+        "status_kr": "직접 근거",
+        "evidence_hit_count": 5,
+        "direct_evidence_count": 3,
+        "indirect_evidence_count": 2,
+        "limited_evidence_count": 0,
+        "top_direct_evidence": [
+          {
+            "source_type": "dart",
+            "source": "https://weeklyinvestmentupdate.tistory.com/37",
+            "matched_keywords": [
+              "capex"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": true,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "한미반도체 (042700) 사업보고서 분석 특허 해자: 국내 195건 + 해외 88건 = 283개 특허로 기술 진입장벽 구축 (사업보고서 기재) · 점유율 기반 고착화: SK하이닉스에 71%+ 납품 실적은 신규 ... 7. 기타 참고사항 > 산업의 성장성 글로벌 반도체 후공정 장비 시장 구분 시장 규모 CAGR 비고 글로벌 반도체 후공정 장비 1,130억 달러 (2025E) 약 6.9~8.5% 2030년 약 1,576억 달러 전망 (추정치) HBM용 TC 본더 "
+          },
+          {
+            "source_type": "dart",
+            "source": "data\\반도체\\한미반도체\\tech\\hanmi_tech_evidence_harvest.json",
+            "matched_keywords": [
+              "현금흐름",
+              "영업활동현금"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "한미반도체(주) 00260116 100000000000 한미반도체 주식회사와 그 종속기업 연 결 재 무 제 표 에 대 한 감 사 보 고 서 2025년 01월 01일 2025년 12월 31일 독립된 감사인의 감사보고서 한미반도체 주식회사 주주 및 이사회 귀중 2026년 3월 12일 우리는 한미반도체 주식회사와 그 종속기업들(이하 \"연결회사\")의 연결재무제표를 감사하였습니다. 해당 연결재무제표는 2025년 12월 31일 현재의 연결재무상태표, 동일로 종료되는 보고기"
+          },
+          {
+            "source_type": "dart",
+            "source": "https://orangeboard.co.kr/@365wealthbuilder/%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%A3%BC%EA%B0%80-%EB%B6%84%EC%84%9D-%EB%B0%8F-%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C-IR-%EB%B6%84%EC%84%9D",
+            "matched_keywords": [
+              "fcf"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": true,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "한미반도체 주가 분석 및 사업보고서 IR 분석 - 오렌지보드 1. 주요 사업의 내용. 차별화된 경쟁력을 바탕으로 제조 업체에 장비를 공급하고 있음. · 2. 연구개발 실적 · 3. 회사의 경쟁력은? 한미반도체 주가 분석 및 사업보고서 IR 분석 | 오렌지보드 리포트 @font-face{font-family:'Noto Sans KR';font-style:normal;font-weight:300;font-display:fallback;src:url(https://f"
+          }
+        ],
+        "top_indirect_evidence": [
+          {
+            "source_type": "web",
+            "source": "https://muddybarbell.tistory.com/entry/%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%82%AC%EB%8F%84-%EB%90%A0%EA%B9%8C",
+            "matched_keywords": [
+              "capex"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": true,
+            "evidence_level": "간접 근거",
+            "level_reason": "뉴스·홈페이지·KIPRIS 등은 연결 항목의 보조 근거로만 반영",
+            "hit_score": 49.0,
+            "snippet": "한미반도체 사도 될까? - 재미있는 금융, 돈과제리 제품명, 용도, 주요 고객, 매출 비중. TC본더, HBM 등 고성능 패키징용 열압착 접합 ; 구분, 2022년, 2023년, 2024년, 2025년(E). 매출액, 약 1,500억 원 ... 한미반도체 사도 될까? 재미있는 금융, 돈과제리 2026. 2. 27. 11:12 🔑오늘의 핵심 포인트 한미반도체는 SK하이닉스에 HBM(고대역폭메모리) 패키징 핵심 장비인 TC본더를 독점 공급하는 반도체 장비주입니다. "
+          },
+          {
+            "source_type": "kipris",
+            "source": "Tech Agent internal scoring with actual-source evidence and KIPRIS patent overlay",
+            "matched_keywords": [
+              "fcf"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "간접 근거",
+            "level_reason": "뉴스·홈페이지·KIPRIS 등은 연결 항목의 보조 근거로만 반영",
+            "hit_score": 42.0,
+            "snippet": "Tech-to-Value Bridge Score: 84 / 100; 판정: VALUE_CONVERSION_CONFIRMED; 원칙: 기술 우위는 고객사 채택, 양산, 매출 전환, FCF 개선 근거와 연결될 때만 가치평가 가산 요인으로 반영한다."
+          }
+        ],
+        "top_limited_evidence": [],
+        "top_evidence": [
+          {
+            "source_type": "dart",
+            "source": "https://weeklyinvestmentupdate.tistory.com/37",
+            "matched_keywords": [
+              "capex"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": true,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "한미반도체 (042700) 사업보고서 분석 특허 해자: 국내 195건 + 해외 88건 = 283개 특허로 기술 진입장벽 구축 (사업보고서 기재) · 점유율 기반 고착화: SK하이닉스에 71%+ 납품 실적은 신규 ... 7. 기타 참고사항 > 산업의 성장성 글로벌 반도체 후공정 장비 시장 구분 시장 규모 CAGR 비고 글로벌 반도체 후공정 장비 1,130억 달러 (2025E) 약 6.9~8.5% 2030년 약 1,576억 달러 전망 (추정치) HBM용 TC 본더 "
+          },
+          {
+            "source_type": "dart",
+            "source": "data\\반도체\\한미반도체\\tech\\hanmi_tech_evidence_harvest.json",
+            "matched_keywords": [
+              "현금흐름",
+              "영업활동현금"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": false,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "한미반도체(주) 00260116 100000000000 한미반도체 주식회사와 그 종속기업 연 결 재 무 제 표 에 대 한 감 사 보 고 서 2025년 01월 01일 2025년 12월 31일 독립된 감사인의 감사보고서 한미반도체 주식회사 주주 및 이사회 귀중 2026년 3월 12일 우리는 한미반도체 주식회사와 그 종속기업들(이하 \"연결회사\")의 연결재무제표를 감사하였습니다. 해당 연결재무제표는 2025년 12월 31일 현재의 연결재무상태표, 동일로 종료되는 보고기"
+          },
+          {
+            "source_type": "dart",
+            "source": "https://orangeboard.co.kr/@365wealthbuilder/%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%A3%BC%EA%B0%80-%EB%B6%84%EC%84%9D-%EB%B0%8F-%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C-IR-%EB%B6%84%EC%84%9D",
+            "matched_keywords": [
+              "fcf"
+            ],
+            "has_numeric_signal": true,
+            "has_url_signal": true,
+            "evidence_level": "직접 근거",
+            "level_reason": "DART/IR/공시/재무 CSV 등 1차 출처 기반 근거",
+            "hit_score": 92.0,
+            "snippet": "한미반도체 주가 분석 및 사업보고서 IR 분석 - 오렌지보드 1. 주요 사업의 내용. 차별화된 경쟁력을 바탕으로 제조 업체에 장비를 공급하고 있음. · 2. 연구개발 실적 · 3. 회사의 경쟁력은? 한미반도체 주가 분석 및 사업보고서 IR 분석 | 오렌지보드 리포트 @font-face{font-family:'Noto Sans KR';font-style:normal;font-weight:300;font-display:fallback;src:url(https://f"
+          }
+        ]
+      }
+    },
+    "scoring_policy": {
+      "direct_sources": [
+        "annual_report",
+        "business_report",
+        "company_disclosure",
+        "company_ir",
+        "dart",
+        "disclosure",
+        "finance_csv",
+        "financial_csv",
+        "ir",
+        "official_filing",
+        "opendart",
+        "quarterly_report",
+        "semiannual_report",
+        "stock_csv"
+      ],
+      "secondary_sources_penalized": [
+        "agent_output",
+        "agent_output_unverified",
+        "analysis_report",
+        "chair_report",
+        "company_ir_report_generated",
+        "generated_report",
+        "llm_summary",
+        "report_output_self_check",
+        "self_generated",
+        "tech_agent_report",
+        "tech_report"
+      ],
+      "direct_evidence_cap_rule": "직접 근거가 확인된 연결 항목 수가 0/1/2개이면 전체 Evidence Confidence를 각각 38/52/64점으로 cap합니다.",
+      "strong_evidence_rule": "DART/IR/공시/재무 CSV의 직접 수치·기간·단위가 있는 경우만 강한 근거로 인정합니다."
+    },
+    "interpretation": "Tech-to-Value Evidence Confidence는 기술성 자체가 아니라 고객 채택, 양산, 매출 전환, FCF/현금흐름 개선 근거가 얼마나 직접 확인되는지를 평가합니다. agent_output, company_ir_report_generated, tech_agent_report 같은 2차 산출물은 감점하며, DART/IR/공시/재무 CSV 직접 수치만 강한 근거로 인정합니다."
+  },
+  "source_files_checked": {
+    "tech_ip_ml": true,
+    "tech_differentiation": true,
+    "evidence_text_units": 184
+  },
+  "chair_policy": "Patent Momentum은 기술 활동의 현재성·지속성을 보조하고, Evidence Confidence는 기술 점수를 최종 가치판단에 얼마나 반영할지 조절하는 보수 게이트로 사용한다."
+}

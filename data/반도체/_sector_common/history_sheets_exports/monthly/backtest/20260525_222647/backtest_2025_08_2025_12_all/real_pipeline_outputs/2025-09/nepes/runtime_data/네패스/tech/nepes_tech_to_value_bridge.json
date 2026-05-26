@@ -1,0 +1,187 @@
+{
+  "version": "v14_t2v_with_kipris_patent_metrics",
+  "company": "nepes",
+  "created_at": "2026-05-03T20:38:06",
+  "tech_to_value_bridge_score": 94.0,
+  "max_score": 100,
+  "grade": "VALUE_CONVERSION_CONFIRMED",
+  "layer_scores": {
+    "patent_layer": {
+      "score": 35.0,
+      "max_score": 35,
+      "reasons": [
+        "KIPRIS 회사매칭 특허 408건",
+        "등록 특허 303건, 존속 가능 236건",
+        "최근 5년 특허 107건",
+        "IPC/CPC 기술분류 97개",
+        "H01L 6건, 반도체 핵심 IPC 276건",
+        "특허-기술 키워드 매칭 563회"
+      ],
+      "detail": {
+        "matched_patents": 408.0,
+        "registered_patents": 303.0,
+        "active_patents": 236.0,
+        "recent_5y_patents": 107.0,
+        "ipc_cpc_diversity": 97.0,
+        "h01l_patents": 6.0,
+        "semiconductor_ipc_patents": 276.0,
+        "patent_keyword_hits": 563.0,
+        "max_score": 35
+      }
+    },
+    "commercialization_layer": {
+      "score": 30.0,
+      "max_score": 25,
+      "reasons": [
+        "customer_adoption: 관련 문맥 56회",
+        "mass_production: 관련 문맥 91회",
+        "revenue_conversion: 관련 문맥 34회",
+        "application_market: 관련 문맥 54회",
+        "performance_value: 관련 문맥 94회"
+      ],
+      "detail": {
+        "customer_adoption": {
+          "hits": 56,
+          "score": 7,
+          "max_score": 7
+        },
+        "mass_production": {
+          "hits": 91,
+          "score": 7,
+          "max_score": 7
+        },
+        "revenue_conversion": {
+          "hits": 34,
+          "score": 6,
+          "max_score": 6
+        },
+        "application_market": {
+          "hits": 54,
+          "score": 5,
+          "max_score": 5
+        },
+        "performance_value": {
+          "hits": 94,
+          "score": 5,
+          "max_score": 5
+        }
+      }
+    },
+    "finance_bridge_layer": {
+      "score": 9.0,
+      "max_score": 20,
+      "reasons": [
+        "ML 가치평가 overlay가 ATTRACTIVE 또는 상대가치 매력 신호를 제시",
+        "신용위험 overlay가 MEDIUM_RISK로 분류되어 가치가산에 보수적 접근 필요",
+        "신용위험 또는 watch grade가 높아 기술 프리미엄 반영에 강한 할인 필요",
+        "수익성·현금흐름·재무안정성 리스크 문맥이 확인됨",
+        "기술 근거가 매출·수익성·현금흐름 문맥과 일부 연결됨"
+      ],
+      "detail": {
+        "valuation_positive": true,
+        "credit_medium": true,
+        "credit_high": true,
+        "finance_risk": true,
+        "max_score": 20
+      }
+    },
+    "evidence_quality_layer": {
+      "score": 20.0,
+      "max_score": 20,
+      "reasons": [
+        "DART/사업보고서 기반 근거 확인",
+        "공식 홈페이지/IR 기반 근거 확인",
+        "KIPRIS 특허 원천 및 대표 특허 확인",
+        "정량화 지표가 보고서에 반영됨"
+      ],
+      "detail": {
+        "has_dart": true,
+        "has_official": true,
+        "has_kipris": true,
+        "has_quant": true,
+        "max_score": 20
+      }
+    }
+  },
+  "interpretation": "특허·기술·상업화·정량 근거가 비교적 잘 연결되어 기술 우위를 가치평가 보조 신호로 활용할 수 있다.",
+  "auditor_principle": "기술 우위는 고객사 채택, 양산, 매출 전환, FCF 개선 근거와 연결될 때만 가치평가 가산 요인으로 반영한다.",
+  "chair_insert_summary": [
+    "Tech-to-Value Bridge Score: 94.0 / 100",
+    "판정: VALUE_BRIDGE_READY",
+    "특허·기술·상업화·정량 근거가 비교적 잘 연결되어 기술 우위를 가치평가 보조 신호로 활용할 수 있다.",
+    "KIPRIS 특허 지표는 기술 지속성·진입장벽의 정량 보조지표이며, 최종 투자판단은 재무·시장·이슈·거시 신호와 함께 보수적으로 해석한다."
+  ],
+  "ip_evidence_composite_adjustment_status": "APPLIED",
+  "ip_evidence_composite_score": 51.43,
+  "ip_evidence_composite_data_coverage_rate": 1.0,
+  "ip_evidence_composite_bridge_signal": "IP_EVIDENCE_NEUTRAL",
+  "ip_evidence_composite_adjustment_points": 0.0,
+  "ip_evidence_composite_source_file": "data/반도체/네패스/tech/tech_ip_evidence_composite.json",
+  "ip_evidence_composite_components": {
+    "legal_stability": {
+      "component": "legal_stability",
+      "label_ko": "등록·존속 안정성",
+      "status": "OK",
+      "feature_status": "",
+      "source_file": "data\\반도체\\네패스\\tech\\tech_ip_legal_features.json",
+      "weight": 0.25,
+      "score_estimated": 72.94,
+      "weighted_contribution_points": 18.23,
+      "bridge_signal": "IP_LEGAL_STABILITY_NEUTRAL_POSITIVE",
+      "bridge_adjustment_points": 1.0
+    },
+    "claim_defense": {
+      "component": "claim_defense",
+      "label_ko": "청구항 방어 범위",
+      "status": "OK",
+      "feature_status": "OK",
+      "source_file": "data\\반도체\\네패스\\tech\\tech_ip_claim_features.json",
+      "weight": 0.3,
+      "score_estimated": 67.37,
+      "weighted_contribution_points": 20.21,
+      "bridge_signal": "IP_CLAIM_SCOPE_POSITIVE",
+      "bridge_adjustment_points": 1.0
+    },
+    "citation_influence": {
+      "component": "citation_influence",
+      "label_ko": "인용 기반 기술 영향력",
+      "status": "OK",
+      "feature_status": "OK",
+      "source_file": "data\\반도체\\네패스\\tech\\tech_ip_citation_features.json",
+      "weight": 0.25,
+      "score_estimated": 25.0,
+      "weighted_contribution_points": 6.25,
+      "bridge_signal": "IP_CITATION_IMPACT_WEAK",
+      "bridge_adjustment_points": -1.0
+    },
+    "global_extension": {
+      "component": "global_extension",
+      "label_ko": "해외 패밀리 기반 글로벌 확장성",
+      "status": "OK",
+      "feature_status": "OK",
+      "source_file": "data\\반도체\\네패스\\tech\\tech_ip_family_features.json",
+      "weight": 0.2,
+      "score_estimated": 33.67,
+      "weighted_contribution_points": 6.73,
+      "bridge_signal": "IP_GLOBAL_EXTENSION_WEAK",
+      "bridge_adjustment_points": -1.0
+    }
+  },
+  "ip_evidence_composite_usage_rule": "Use this composite IP evidence score as the integrated IP-quality layer in Tech-to-Value Bridge. It summarizes legal stability, claim scope defense, citation influence, and global family expansion. It is not direct revenue evidence and should be combined with finance, market, and commercialization signals.",
+  "base_score_before_ip_evidence": 94.0,
+  "base_grade_before_ip_evidence": "VALUE_BRIDGE_READY",
+  "ip_evidence_adjusted_score": 94.0,
+  "ip_evidence_adjusted_grade": "VALUE_CONVERSION_CONFIRMED",
+  "ip_evidence_composite_adjustment_applied": true,
+  "ip_evidence_composite_adjusted_at": "2026-05-09T18:00:26",
+  "ip_evidence_composite_formula": "ip_evidence_adjusted_score = base_score_before_ip_evidence + ip_evidence_composite_adjustment_points",
+  "adjustments": {
+    "ip_evidence_composite": {
+      "score": 51.43,
+      "bridge_signal": "IP_EVIDENCE_NEUTRAL",
+      "bridge_adjustment_points": 0.0,
+      "source_file": "data/반도체/네패스/tech/tech_ip_evidence_composite.json",
+      "applied": true
+    }
+  }
+}

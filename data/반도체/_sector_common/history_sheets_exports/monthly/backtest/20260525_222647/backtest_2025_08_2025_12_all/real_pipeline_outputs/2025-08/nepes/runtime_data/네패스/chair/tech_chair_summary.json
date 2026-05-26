@@ -1,0 +1,177 @@
+{
+  "agent": "tech",
+  "summary_version": "tech_compact_chair_v1",
+  "created_at": "2026-05-06T01:36:58",
+  "company": "네패스",
+  "company_dir": "nepes",
+  "opinion": "매수",
+  "tech_to_value": {
+    "tech_agent_raw_score": 100.0,
+    "auditor_adjusted_score": 73.0,
+    "base_bridge_score": 73.0,
+    "base_bridge_grade": "COMMERCIALIZATION_WATCH",
+    "peer_adjusted_bridge_score": 80.53,
+    "peer_adjusted_grade": "COMMERCIALIZATION_WATCH",
+    "commercialization_watch_meaning": "기술성은 확인되지만 고객 채택·양산·매출 전환·FCF 개선까지 이어지는 연결고리를 계속 추적해야 하는 상태",
+    "tech_finance_gap_meaning": "기술 포트폴리오는 존재하지만 수익성·현금흐름·재무안정성으로 전환되는 직접 근거가 약한 상태"
+  },
+  "excel_frame_summary": [
+    {
+      "category": "대표 기술",
+      "item": "대표 기술",
+      "quantification": "5",
+      "evidence": "확인 제한",
+      "grade": "강",
+      "note": "필요 시 원천 근거 확인"
+    },
+    {
+      "category": "핵심 제품/서비스",
+      "item": "핵심 제품/서비스",
+      "quantification": "5",
+      "evidence": "확인 제한",
+      "grade": "강",
+      "note": "필요 시 원천 근거 확인"
+    },
+    {
+      "category": "고객 구매 이유",
+      "item": "고객 구매 이유",
+      "quantification": "5",
+      "evidence": "확인 제한",
+      "grade": "강",
+      "note": "필요 시 원천 근거 확인"
+    },
+    {
+      "category": "경쟁 우위/대체가능성",
+      "item": "경쟁 우위/대체가능성",
+      "quantification": "5",
+      "evidence": "확인 제한",
+      "grade": "강",
+      "note": "필요 시 원천 근거 확인"
+    },
+    {
+      "category": "활용 및 확장 산업",
+      "item": "활용 및 확장 산업",
+      "quantification": "5",
+      "evidence": "확인 제한",
+      "grade": "강",
+      "note": "필요 시 원천 근거 확인"
+    },
+    {
+      "category": "진입 부담/장벽",
+      "item": "진입 부담/장벽",
+      "quantification": "5",
+      "evidence": "확인 제한",
+      "grade": "강",
+      "note": "필요 시 원천 근거 확인"
+    },
+    {
+      "category": "R&D 강도",
+      "item": "R&D 강도",
+      "quantification": "5",
+      "evidence": "확인 제한",
+      "grade": "강",
+      "note": "필요 시 원천 근거 확인"
+    }
+  ],
+  "ip_quant_signals": {
+    "normalized_patent_text_records": 2378,
+    "company_matched_patents": 828,
+    "registered_patents": 477,
+    "alive_patents": 517,
+    "recent_5y_patents": 122,
+    "ipc_cpc_classes": 102,
+    "core_ipc_h01l_patents": 12,
+    "keyword_matches": 1652
+  },
+  "selected_ml": {
+    "peer_ml": {
+      "peer_adjusted_bridge_score": 80.53,
+      "peer_composite_percentile": 72.05,
+      "peer_adjusted_grade": "COMMERCIALIZATION_WATCH",
+      "cluster_name": "반도체 후공정/패키징 cluster"
+    },
+    "tech_ip_strength": {
+      "score": 52.0,
+      "percentile": 50.0,
+      "patent_momentum_score": 36.05,
+      "dominant_topic": "패키지 / 재배선 / 전기적으로 / 도전성"
+    },
+    "technology_differentiation": {
+      "score": 57.59,
+      "percentile": 50.0,
+      "grade": "MODERATE_DIFFERENTIATION",
+      "nearest_peer": "엘티씨",
+      "dominant_topic": "패키지 / 재배선 / 전기적으로 / 도전성"
+    },
+    "patent_momentum": {
+      "score": 52.64,
+      "grade": "WATCH_MOMENTUM"
+    },
+    "evidence_confidence": {
+      "score": 78.8,
+      "grade": "EVIDENCE_STRONG",
+      "direct_dimension_count": 3
+    }
+  },
+  "primary_ml_choice": "Technology Differentiation Score + Tech-to-Value Evidence Confidence",
+  "primary_ml_reason": "차별화 점수는 peer 대비 기술/IP 포트폴리오의 구별성을, Evidence Confidence는 고객 채택·양산·매출·FCF 연결 근거의 직접성을 보수적으로 확인하므로 Chair 요약에 가장 적합합니다.",
+  "businessization_gate": [
+    {
+      "dimension": "고객 채택",
+      "status": "직접 근거",
+      "score": 88.0,
+      "direct_evidence_count": 7,
+      "indirect_evidence_count": 19,
+      "limited_evidence_count": 0
+    },
+    {
+      "dimension": "양산",
+      "status": "직접 근거",
+      "score": 88.0,
+      "direct_evidence_count": 16,
+      "indirect_evidence_count": 63,
+      "limited_evidence_count": 0
+    },
+    {
+      "dimension": "매출 전환",
+      "status": "직접 근거",
+      "score": 88.0,
+      "direct_evidence_count": 7,
+      "indirect_evidence_count": 21,
+      "limited_evidence_count": 0
+    },
+    {
+      "dimension": "FCF/현금흐름",
+      "status": "간접 근거",
+      "score": 42.0,
+      "direct_evidence_count": 0,
+      "indirect_evidence_count": 1,
+      "limited_evidence_count": 0
+    }
+  ],
+  "chair_policy": [
+    "Chair 최종 보고서에는 Tech 상세 표 전체를 붙이지 않고 compact summary만 반영합니다.",
+    "상세 Excel-frame/ML 표는 Tech Agent 산출물과 부록 파일에서 확인합니다.",
+    "기술 우위가 확인되어도 고객 채택·양산·매출 전환·FCF 직접 근거가 약하면 보수적으로 반영합니다."
+  ],
+  "detail_files": {
+    "report_md": "workspace/outputs/nepes_tech_high_quality_report.md",
+    "packet_json": "workspace/outputs/nepes_tech_agent_packet.json",
+    "chair_packet_json": "workspace/packets/nepes/tech.json",
+    "tech_to_value_json": "workspace/outputs/nepes_tech_to_value_inputs.json",
+    "formula_catalog_json": "workspace/outputs/nepes_tech_formula_rules.json",
+    "formula_catalog_md": "workspace/outputs/nepes_tech_formula_rules.md",
+    "evidence_harvest_json": "workspace/outputs/nepes_tech_evidence_harvest.json",
+    "evidence_harvest_md": "workspace/outputs/nepes_tech_evidence_harvest.md",
+    "patent_json": "workspace/outputs/nepes_tech_patent_evidence.json",
+    "patent_md": "workspace/outputs/nepes_tech_patent_evidence.md",
+    "patent_csv": "workspace/outputs/nepes_tech_patent_normalized.csv"
+  },
+  "summary_files": {
+    "chair_summary_json": "workspace/packets/nepes/tech_chair_summary.json",
+    "chair_summary_md": "workspace/outputs/nepes_tech_chair_summary.md",
+    "tech_deep_dive_md": "workspace/outputs/nepes_tech_deep_dive.md",
+    "tech_full_appendix_md": "workspace/outputs/nepes_tech_full_appendix.md",
+    "tech_full_appendix_json": "workspace/packets/nepes/tech_full_appendix.json"
+  }
+}

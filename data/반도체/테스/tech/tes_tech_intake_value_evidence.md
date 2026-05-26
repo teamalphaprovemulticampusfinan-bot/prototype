@@ -1,10 +1,10 @@
 # 테스 Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-25T21:37:29
+- 생성 시각: 2026-05-26T06:19:20
 - 종합 점수: 80.15/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 155개
+- 원천 문서 수: 157개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -32,18 +32,18 @@
 - [DIRECT_EVIDENCE] - 기술 우위가 확인되어도 고객 채택·양산·매출 전환·FCF 직접 근거가 약하면 보수적으로 반영합니다. (source=data/반도체/테스/tech/_nepes_reference_schema/nepes_tech_chair_summary.md, keywords=양산, urls=http://www.w3.org/2001/XMLSchema-instance, http://www.nepes.co.kr)
 
 ### 매출 전환
-- [DIRECT_EVIDENCE] summary: 테스는 2023년 매출이 큰 폭으로 감소하며 영업이익이 적자 전환했으나, 2024년에는 매출이 63% 이상 성장하며 영업이익이 흑자 전환했다. (source=data/반도체/테스/finance/테스_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년 매출성장률이 63.39%로 크게 반등하며 사업 회복세를 보였다. (source=data/반도체/테스/finance/테스_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: 테스는 2023년 매출이 큰 폭으로 감소하며 영업이익이 적자 전환했으나, 2024년에는 매출이 60% 이상 성장하며 영업이익이 흑자 전환하는 등 회복세를 보였다. (source=data/반도체/테스/finance/테스_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 매출성장률이 63.4%로 크게 개선되며 이전의 역성장에서 벗어났다. (source=data/반도체/테스/finance/테스_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] missing_prompt_metrics: 매출성장률 (source=data/반도체/테스/finance/테스_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률 (source=data/반도체/테스/finance/테스_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] sales: 240077826420.0 (source=data/반도체/테스/finance/테스_finance_agent_packet.json, keywords=sales, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### 마진·원가·현금흐름 연결
-- [DIRECT_EVIDENCE] 2024년 자유현금흐름은 대규모 설비투자(capex)로 인해 마이너스를 기록했으나, 영업활동현금흐름은 양수를 유지했다. (source=data/반도체/테스/finance/테스_finance.json, keywords=현금흐름, CAPEX, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년 영업이익이 384억 원으로 흑자 전환하며 수익성 개선 가능성을 시사한다. (source=data/반도체/테스/finance/테스_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년 영업활동현금흐름(OCF)은 305억 원으로 양수를 유지하며 영업을 통한 현금 창출 능력을 보여준다. (source=data/반도체/테스/finance/테스_finance.json, keywords=현금흐름, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_risks: 2023년 영업이익률이 -3.99%로 마이너스를 기록했으며, 2024년에도 16.03%로 회복되었으나 과거(2021년 16.57%) 수준과의 비교 및 지속성 확인이 필요하다. (source=data/반도체/테스/finance/테스_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_risks: 2024년 자유현금흐름(FCF)이 -243억 원으로 마이너스를 기록했으며, 이는 대규모 설비투자(capex) 548억 원 집행에 따른 것으로, 향후 투자 규모와 현금 흐름 회복 여부 관리가 중요하다. (source=data/반도체/테스/finance/테스_finance.json, keywords=현금흐름, FCF, CAPEX, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] 2024년 FCF가 큰 폭의 마이너스를 기록한 점은 투자 시 유의해야 할 부분이다. (source=data/반도체/테스/finance/테스_finance.json, keywords=FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 영업이익률이 16.0%로 흑자 전환하며 수익성이 회복되는 모습을 보였다. (source=data/반도체/테스/finance/테스_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2023년 영업이익률이 -3.99%로 적자를 기록했으며, 2024년 흑자 전환했으나 수익성 안정성 확인이 필요하다. (source=data/반도체/테스/finance/테스_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2024년 FCF가 -243억 원으로 큰 폭의 마이너스를 기록하여 현금 창출 능력에 대한 점검이 필요하다. (source=data/반도체/테스/finance/테스_finance.json, keywords=FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] report_core_points: 영업이익률: 테스 2024 기준 영업이익률 값은 16.03%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다. (source=data/반도체/테스/finance/테스_finance_agent_packet.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### IP 품질
 - [DIRECT_EVIDENCE] legal_status: status=COLLECTED, count=None, score=0.7513, signal=None (source=data/반도체/테스/tech/tech_ip_legal_features.json, keywords=legal_status, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)

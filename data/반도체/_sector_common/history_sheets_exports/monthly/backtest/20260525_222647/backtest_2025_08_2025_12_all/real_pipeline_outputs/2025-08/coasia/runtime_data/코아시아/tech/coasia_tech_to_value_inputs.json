@@ -1,0 +1,143 @@
+{
+  "score": 39.0,
+  "tech_agent_raw_score": 57.14,
+  "base_signal_score": 49.0,
+  "auditor_adjusted_score": 39.0,
+  "auditor_conservative_adjustment": 18.14,
+  "grade": "TECH_FINANCE_GAP",
+  "policy": "기술 우위는 고객사 채택, 양산, 매출 전환, FCF 개선 근거와 연결될 때만 가치평가 가산 요인으로 반영한다.",
+  "interpretation": "기술·제품 근거가 가치평가 보조 근거로 쓰이려면 고객 적용, 양산, 매출/현금흐름 연결이 함께 확인되어야 합니다.",
+  "components": {
+    "commercialization_hits": 4,
+    "production_hits": 3,
+    "value_hits": 0,
+    "ip_hits": 2,
+    "official_doc_count": 21,
+    "quantitative_signal_count": 45
+  },
+  "penalties": [
+    "매출·수익성·FCF 연결 근거 부족"
+  ],
+  "evidence_samples": [
+    {
+      "snippet": "# 코아시아 Tech Local Proxy Evidence",
+      "source_type": "local_data",
+      "source_title": "coasia_tech_local_proxy_evidence.md",
+      "source_url": "",
+      "source_path": "data\\반도체\\코아시아\\tech\\source\\coasia_tech_local_proxy_evidence.md",
+      "source_plan_matched": false,
+      "hits": [
+        "EV"
+      ]
+    },
+    {
+      "snippet": "# 코아시아 Tech Local Proxy Evidence",
+      "source_type": "local_data",
+      "source_title": "coasia_tech_local_proxy_evidence.md",
+      "source_url": "",
+      "source_path": "data\\반도체\\코아시아\\tech\\source\\coasia_tech_local_proxy_evidence.md",
+      "source_plan_matched": false,
+      "hits": [
+        "EV"
+      ]
+    },
+    {
+      "snippet": "# 코아시아 Tech Local Proxy Evidence",
+      "source_type": "local_data",
+      "source_title": "coasia_tech_local_proxy_evidence.md",
+      "source_url": "",
+      "source_path": "data\\반도체\\코아시아\\tech\\source\\coasia_tech_local_proxy_evidence.md",
+      "source_plan_matched": false,
+      "hits": [
+        "EV"
+      ]
+    }
+  ],
+  "kipris_tech_ml_features": {
+    "company_slug": "coasia",
+    "company_name": "코아시아",
+    "field": "반도체",
+    "source_csv": "data\\반도체\\코아시아\\tech\\coasia_kipris_patents_normalized.csv",
+    "enriched_csv": "data\\반도체\\코아시아\\tech\\coasia_kipris_tech_ml_enriched.csv",
+    "generated_at": "2026-05-25T23:53:26",
+    "core_counts": {
+      "total_patents": 30,
+      "registered_patents_estimated": 25,
+      "alive_patents_estimated": 25,
+      "negative_disposal_patents_estimated": 4,
+      "recent_5y_application_patents": 6,
+      "h01l_core_patents": 0,
+      "semiconductor_related_ipc_patents": 5,
+      "ipc_subclass_count": 8,
+      "ipc_main_group_count": 13,
+      "tech_keyword_match_total": 16,
+      "tech_keyword_match_avg": 0.5333
+    },
+    "core_rates": {
+      "registration_rate_estimated": 0.8333,
+      "alive_rate_total_estimated": 0.8333,
+      "alive_rate_among_registered_estimated": 1.0,
+      "negative_disposal_rate_estimated": 0.1333,
+      "recent_5y_application_rate": 0.2,
+      "h01l_core_rate": 0.0,
+      "semiconductor_related_ipc_rate": 0.1667
+    },
+    "year_features": {
+      "application_year_min": 2010,
+      "application_year_max": 2024,
+      "application_year_span": 15,
+      "recent_5y_threshold": 2021
+    },
+    "scores": {
+      "legal_stability_score_estimated": 91.17,
+      "portfolio_momentum_score": 24.7,
+      "ip_technology_fit_score": 17.83,
+      "kipris_tech_ml_score": 49.23
+    },
+    "tech_to_value_bridge_adjustment": {
+      "bridge_adjustment_points": 0.0,
+      "bridge_signal": "IP_QUALITY_NEUTRAL",
+      "usage_rule": "Add this as a conservative KIPRIS/IP feature adjustment to Tech-to-Value Bridge, but do not treat it as direct commercialization evidence."
+    },
+    "top_ipc_subclass": {
+      "G02B": 13,
+      "G06T": 5,
+      "H10H": 4,
+      "H04N": 3,
+      "G06F": 2,
+      "A61B": 1,
+      "G07C": 1,
+      "H05B": 1
+    },
+    "top_ipc_main_group": {
+      "G02B 13": 12,
+      "H10H 20": 4,
+      "G06T 15": 3,
+      "H04N 21": 2,
+      "G02B 9": 1,
+      "A61B 3": 1,
+      "G06F 3": 1,
+      "G06T 3": 1,
+      "G07C 9": 1,
+      "H05B 45": 1,
+      "G06F 9": 1,
+      "G06T 1": 1,
+      "H04N 19": 1
+    },
+    "top_applicants": {},
+    "cautions": [
+      "final_disposal is not present in the source CSV, so legal status is estimated from register_status/register_number/register_date.",
+      "register_date appears unavailable or unparsable in the current source, so registration year range should not be overclaimed.",
+      "KIPRIS/IP score supports technology defensibility, but customer adoption, mass production, sales conversion, and FCF conversion must be verified separately."
+    ],
+    "_source_file": "data/반도체/코아시아/tech/coasia_kipris_tech_ml_features.json"
+  },
+  "kipris_tech_ml_score": 49.23,
+  "legal_stability_score_estimated": 91.17,
+  "portfolio_momentum_score": 24.7,
+  "ip_technology_fit_score": 17.83,
+  "bridge_adjustment_points": 0.0,
+  "bridge_signal": "IP_QUALITY_NEUTRAL",
+  "kipris_bridge_usage_rule": "Add this as a conservative KIPRIS/IP feature adjustment to Tech-to-Value Bridge, but do not treat it as direct commercialization evidence.",
+  "kipris_bridge_applied": true
+}

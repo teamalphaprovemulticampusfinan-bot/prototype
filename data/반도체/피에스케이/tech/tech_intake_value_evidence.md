@@ -1,10 +1,10 @@
 # 피에스케이 Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-25T21:30:50
+- 생성 시각: 2026-05-26T06:07:02
 - 종합 점수: 80.75/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 153개
+- 원천 문서 수: 155개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -32,18 +32,18 @@
 - [DIRECT_EVIDENCE] - 기술 우위가 확인되어도 고객 채택·양산·매출 전환·FCF 직접 근거가 약하면 보수적으로 반영합니다. (source=data/반도체/피에스케이/tech/_nepes_reference_schema/nepes_tech_chair_summary.md, keywords=양산, urls=http://www.w3.org/2001/XMLSchema-instance, http://www.nepes.co.kr)
 
 ### 매출 전환
-- [DIRECT_EVIDENCE] summary: 피에스케이는 2023년 매출이 큰 폭으로 감소했으나, 2024년에는 13.1%의 매출 성장률을 기록하며 회복세를 보였습니다. (source=data/반도체/피에스케이/finance/피에스케이_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년 매출 성장률이 13.1%로 전환되며 이전의 역성장에서 벗어나는 모습을 보였습니다. (source=data/반도체/피에스케이/finance/피에스케이_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_risks: 2023년 매출이 -23.7%로 크게 감소했던 점은 향후 실적 변동성에 대한 우려를 남깁니다. (source=data/반도체/피에스케이/finance/피에스케이_finance.json, keywords=매출, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: 피에스케이는 2023년 매출이 큰 폭으로 감소했으나, 2024년에는 13.1%의 매출 성장률을 기록하며 회복세를 보였다. (source=data/반도체/피에스케이/finance/피에스케이_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 매출 성장률이 13.1%로 전환되며 이전의 역성장에서 벗어나는 긍정적인 흐름을 보였다. (source=data/반도체/피에스케이/finance/피에스케이_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2023년 매출이 전년 대비 23.6% 감소하며 큰 폭의 역성장을 기록한 점은 잠재적인 리스크 요인이다. (source=data/반도체/피에스케이/finance/피에스케이_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] missing_prompt_metrics: 매출성장률 (source=data/반도체/피에스케이/finance/피에스케이_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률 (source=data/반도체/피에스케이/finance/피에스케이_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### 마진·원가·현금흐름 연결
-- [DIRECT_EVIDENCE] 영업이익률은 2023년 15.4%에서 2024년 21.1%로 개선되었으며, ROE 또한 13.4%에서 16.8%로 상승했습니다. (source=data/반도체/피에스케이/finance/피에스케이_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년 영업이익률이 21.1%로 개선되었으며, 이는 2023년 15.4% 대비 상승한 수치입니다. (source=data/반도체/피에스케이/finance/피에스케이_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년 ROE가 16.8%로 상승하며 자본 대비 수익성이 개선되는 추세를 나타냅니다. (source=data/반도체/피에스케이/finance/피에스케이_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] report_core_points: 영업이익률: 피에스케이 2024 기준 영업이익률 값은 21.08%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다. (source=data/반도체/피에스케이/finance/피에스케이_finance_agent_packet.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] report_core_points: ROE: 피에스케이 2024 기준 ROE 값은 16.77%이며, 자기자본 대비 수익성 수준을 확인하는 지표입니다. (source=data/반도체/피에스케이/finance/피에스케이_finance_agent_packet.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] 영업이익률은 2023년 15.4%에서 2024년 21.1%로 개선되었으며, ROE 또한 2023년 13.4%에서 2024년 16.8%로 상승했다. (source=data/반도체/피에스케이/finance/피에스케이_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 영업이익률이 21.1%로 2023년 15.4% 대비 개선되었으며, 이는 수익성 회복의 신호로 해석될 수 있다. (source=data/반도체/피에스케이/finance/피에스케이_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 ROE가 16.8%로 2023년 13.4% 대비 상승하여 자기자본 대비 수익성이 향상되었다. (source=data/반도체/피에스케이/finance/피에스케이_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 잉여현금흐름(FCF)이 399억 원으로 2023년 241억 원 대비 증가하여 현금 창출 능력이 개선되었다. (source=data/반도체/피에스케이/finance/피에스케이_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2022년 대비 2023년 영업이익률이 19.9%에서 15.4%로 하락했으며, 2024년 21.1%로 회복되었으나 과거 수준과의 비교 분석이 필요하다. (source=data/반도체/피에스케이/finance/피에스케이_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### IP 품질
 - [DIRECT_EVIDENCE] legal_status: status=COLLECTED, count=None, score=0.24, signal=None (source=data/반도체/피에스케이/tech/psk_tech_ip_legal_features.json, keywords=legal_status, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
