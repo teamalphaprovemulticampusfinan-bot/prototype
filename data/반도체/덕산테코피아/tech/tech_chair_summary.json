@@ -1,7 +1,7 @@
 {
   "agent": "tech",
   "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-  "created_at": "2026-05-26T03:47:53",
+  "created_at": "2026-05-26T16:59:56",
   "field": "반도체",
   "company": "덕산테코피아",
   "company_name": "덕산테코피아",
@@ -863,7 +863,7 @@
     "company_name": "덕산테코피아",
     "field": "반도체",
     "status": "OK",
-    "created_at": "2026-05-26T03:44:47",
+    "created_at": "2026-05-26T16:57:18",
     "weights": {
       "legal_stability": 0.25,
       "claim_defense": 0.3,
@@ -959,10 +959,10 @@
     "tech_full_appendix_json": ""
   },
   "ip_evidence_bridge_adjustment_status": "APPLIED",
-  "ip_evidence_bridge_adjustment_applied_at": "2026-05-26T03:47:54",
+  "ip_evidence_bridge_adjustment_applied_at": "2026-05-26T17:00:00",
   "tech_investor_view": {
     "version": "tech-investor-scorecard-v2",
-    "generated_at": "2026-05-26T03:48:07",
+    "generated_at": "2026-05-26T17:00:20",
     "company_slug": "duksan",
     "company_name": "덕산테코피아",
     "final_tech_investor_score": 60.13,
@@ -1353,12 +1353,12 @@
     "agent": "tech_intake",
     "artifact": "tech_intake_value_evidence_bridge",
     "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-    "created_at": "2026-05-26T03:48:06",
+    "created_at": "2026-05-26T17:00:18",
     "field": "반도체",
     "company": "덕산테코피아",
     "company_dir": "duksan",
     "company_slug": "duksan",
-    "source_document_count": 161,
+    "source_document_count": 160,
     "source_documents": [
       {
         "source_group": "KIPRIS",
@@ -1537,7 +1537,7 @@
       {
         "source_group": "TECH_OUTPUT",
         "source_file": "data/반도체/덕산테코피아/tech/duksan_tech_intake_value_evidence.json",
-        "detected_url_count": 7,
+        "detected_url_count": 6,
         "fallback_url_count": 0
       },
       {
@@ -1824,6 +1824,18 @@
       },
       {
         "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/덕산테코피아/tech/tech_history_features_2025-10-31.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/덕산테코피아/tech/tech_history_features_2025-10-31.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
         "source_file": "data/반도체/덕산테코피아/tech/tech_intake_manifest.json",
         "detected_url_count": 0,
         "fallback_url_count": 2
@@ -1837,7 +1849,7 @@
       {
         "source_group": "TECH_OUTPUT",
         "source_file": "data/반도체/덕산테코피아/tech/tech_intake_value_evidence.json",
-        "detected_url_count": 7,
+        "detected_url_count": 6,
         "fallback_url_count": 0
       },
       {
@@ -2166,12 +2178,6 @@
       },
       {
         "source_group": "VALUATION",
-        "source_file": "data/반도체/덕산테코피아/valuation/intake/financials_raw.csv",
-        "detected_url_count": 0,
-        "fallback_url_count": 5
-      },
-      {
-        "source_group": "VALUATION",
         "source_file": "data/반도체/덕산테코피아/valuation/intake/peer_multiples.csv",
         "detected_url_count": 0,
         "fallback_url_count": 5
@@ -2262,12 +2268,6 @@
       },
       {
         "source_group": "VALUATION",
-        "source_file": "data/반도체/덕산테코피아/valuation/intake/valuation_raw_dart_accounts.csv",
-        "detected_url_count": 0,
-        "fallback_url_count": 5
-      },
-      {
-        "source_group": "VALUATION",
         "source_file": "data/반도체/덕산테코피아/valuation/intake/valuation_reference_universe_208.csv",
         "detected_url_count": 0,
         "fallback_url_count": 5
@@ -2281,12 +2281,6 @@
       {
         "source_group": "VALUATION",
         "source_file": "data/반도체/덕산테코피아/valuation/intake/valuation_reference_universe_summary.json",
-        "detected_url_count": 0,
-        "fallback_url_count": 5
-      },
-      {
-        "source_group": "VALUATION",
-        "source_file": "data/반도체/덕산테코피아/valuation/intake/valuation_share_count.csv",
         "detected_url_count": 0,
         "fallback_url_count": 5
       },
@@ -2317,6 +2311,12 @@
       {
         "source_group": "FINANCE",
         "source_file": "data/반도체/덕산테코피아/finance/덕산테코피아_주식.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 5
+      },
+      {
+        "source_group": "FINANCE",
+        "source_file": "data/반도체/덕산테코피아/finance/intake/finance_intake_manifest.json",
         "detected_url_count": 0,
         "fallback_url_count": 5
       }
@@ -2446,7 +2446,6 @@
           "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93c23d7d32ee4b79378b2d1c7a9b2b7687a21e618d370970a67c95c8084168196e093a10ac061ffa35f9616bab729923c8a996b40e996212cc",
           "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00e523148fb7ac78f0c3c8683b10aa8ebe0211bf547d64c143dd281cf656de78fde555210cad3bac879027baadf3daad0c5c519db78453a9d4",
           "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00a758b10f588f77a53c0af9566a6052624ab1325b654e98cc61bb14e054f2f77ff64386b5c629a389c44a318c2f355cb9fbb6c2d606210ef4",
-          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7265cc3779d7cbe055b3379f94cf73094e6",
           "https://dart.fss.or.kr/",
           "https://dart.fss.or.kr/dsab007/main.do?option=corp",
           "http://www.w3.org/2001/XMLSchema-instance",
@@ -2536,9 +2535,7 @@
         ]
       },
       "FINANCE": {
-        "detected_urls": [
-          "https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception"
-        ],
+        "detected_urls": [],
         "fallback_urls": [
           "https://dart.fss.or.kr/",
           "https://opendart.fss.or.kr/",

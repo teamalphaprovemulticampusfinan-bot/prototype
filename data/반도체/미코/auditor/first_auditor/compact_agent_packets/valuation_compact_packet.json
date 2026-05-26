@@ -2,40 +2,34 @@
   "agent": "valuation",
   "company_name": "미코",
   "industry_type": "deeptech_semiconductor",
-  "summary": "기존 Valuation Agent 내부 판단은 매수였고, Auditor compact에서는 이를 참고 신호로만 사용합니다. DCF 내재주가는 56,103원이고 현재가 14,400원 대비 괴리율은 2.90%입니다. peer 대비 P/S는 0.67배로 비교기업 중앙값 2.68배 대비 -75.00% 수준입니다. 208개 반도체 reference universe에서는 IDM/제조/메모리 기준 valuation proxy 77.33/100, label=FAIR입니다.",
+  "summary": "기존 Valuation Agent 내부 판단은 보유였고, Auditor compact에서는 이를 참고 신호로만 사용합니다. DCF 내재주가는 확인 제한이고 현재가 14,400원 대비 괴리율은 확인 제한입니다. 208개 반도체 reference universe에서는 IDM/제조/메모리 기준 valuation proxy 77.33/100, label=FAIR입니다.",
   "key_thesis": [
-    "DCF: 내재주가 56,103원, 현재가 14,400원, 괴리율 2.90%.",
-    "Peer P/S: 대상 0.67배 vs 비교기업 중앙값 2.68배, gap -75.00%.",
+    "DCF: 내재주가 확인 제한, 현재가 14,400원, 괴리율 확인 제한.",
+    "Peer P/S: 대상 확인 제한배 vs 비교기업 중앙값 확인 제한배, gap 확인 제한.",
     "Reference Universe: 208개 반도체 universe, IDM/제조/메모리 peer group 40개, valuation proxy 77.33/100(FAIR).",
-    "Valuation scorecard: 79.37/100, label=VALUATION_ATTRACTIVE, validation=PASS.",
-    "할인율/가치: WACC 6.55%, DCF 기업가치 31,422.0억원, 지분가치 18,747.8억원."
+    "Valuation scorecard: 52.32/100, label=VALUATION_NEUTRAL, validation=PASS_WITH_WARNINGS.",
+    "할인율/가치: WACC 8.05%, DCF 기업가치 -4,093.5억원, 지분가치 -12,691.8억원."
   ],
   "key_risks": [
-    "DCF 괴리율이 ±10% 이내라 안전마진이 크지 않아 매수/매도보다 보유 판단에 가깝습니다.",
     "Reference universe의 credit proxy가 MEDIUM_RISK로 나타나 가치 매력과 재무/신용 리스크를 함께 봐야 합니다.",
     "가격 리스크: MDD -65.11%로 변동성/낙폭 리스크 확인이 필요합니다.",
     "변동성: 연환산 변동성 58.27% 수준입니다."
   ],
   "metrics": {
-    "original_agent_view_reference": "매수",
-    "implied_price_krw": 56102.943184352924,
+    "original_agent_view_reference": "보유",
     "current_price_krw": 14400.0,
-    "upside_downside_pct": 2.89603772113562,
-    "wacc": 0.06547782286752947,
-    "enterprise_value": 3142204430174.135,
-    "equity_value": 1874779597538.1348,
-    "target_psr": 0.6699666078184099,
-    "peer_median_psr": 2.680022174089385,
-    "psr_gap": -0.750014528127533,
-    "valuation_scorecard_score": 79.37,
-    "valuation_scorecard_label": "VALUATION_ATTRACTIVE",
+    "wacc": 0.08051983071741114,
+    "enterprise_value": -409349909510.4405,
+    "equity_value": -1269178346652.4404,
+    "valuation_scorecard_score": 52.32,
+    "valuation_scorecard_label": "VALUATION_NEUTRAL",
     "reference_universe_rows": 208,
     "target_peer_group": "IDM/제조/메모리",
     "target_peer_group_size": 40,
     "valuation_proxy_score": 77.33333333333334,
     "valuation_proxy_label": "FAIR",
     "credit_proxy_label": "MEDIUM_RISK",
-    "validation_status": "PASS"
+    "validation_status": "PASS_WITH_WARNINGS"
   },
   "audit_trace": {
     "original_claim_count": 3,
@@ -65,29 +59,39 @@
     "source_map_json": "data/반도체/미코/valuation/mico_source_map.json"
   },
   "validation": {
-    "status": "PASS",
+    "status": "PASS_WITH_WARNINGS",
     "issues": [
       {
-        "severity": "INFO",
-        "code": "NO_MAJOR_WARNINGS",
-        "message": "주요 validation warning 없음"
+        "severity": "MEDIUM",
+        "code": "NEGATIVE_FCF_MARGIN",
+        "message": "최근 연도 FCF margin이 음수입니다. DCF 결과 해석 시 보수적으로 봐야 합니다."
+      },
+      {
+        "severity": "LOW",
+        "code": "NO_SHARE_COUNT",
+        "message": "발행주식 수를 확인하지 못해 내재주가/시가총액 기반 지표 일부가 제한될 수 있습니다."
+      },
+      {
+        "severity": "MEDIUM",
+        "code": "NEGATIVE_ENTERPRISE_VALUE",
+        "message": "DCF EV가 음수입니다. FCF margin/성장률/WACC 가정을 확인하세요."
+      },
+      {
+        "severity": "MEDIUM",
+        "code": "NEGATIVE_EQUITY_VALUE",
+        "message": "DCF 지분가치가 음수입니다. 부채 proxy와 현금흐름 가정을 확인하세요."
       }
     ],
     "audit_trail": [
       {
         "step": "normalized_financials",
         "status": "OK",
-        "rows": 5
+        "rows": 4
       },
       {
         "step": "price_history",
         "status": "OK",
         "rows": 1162
-      },
-      {
-        "step": "share_count",
-        "status": "OK",
-        "shares_outstanding": 33416778.0
       },
       {
         "step": "reference_universe",
@@ -96,8 +100,8 @@
       },
       {
         "step": "market_cap",
-        "status": "OK",
-        "market_cap": 481201603200.0
+        "status": "INFO_NOT_AVAILABLE",
+        "market_cap": null
       },
       {
         "step": "liquidity_proxy",
@@ -120,28 +124,26 @@
     "stage3_decision_readiness": 1.0
   },
   "auditor_issues": [
-    "same-metric scale inconsistency suspected for wacc: ratio≈45013544806285.7 (metrics.wacc.risk_free_rate=0.035; metrics.wacc.market_risk_premium=0.06; metrics.wacc.beta=1.8; metrics.wacc.cost_of_equity=0.14300000000000002; metrics.wacc.pre_tax_cost_of_debt=0.055)",
-    "same-metric scale inconsistency suspected for fcf: ratio≈60520431360983.5 (metrics.dcf.assumed_fcf_margin=0.11487823139904718; metrics.dcf.pv_fcf=639441115249.4423; metrics.peer_comps.target_row.fcf=103117228706.0; metrics.peer_comps.target_row.fcf_margin=0.19775500480158098; metrics.peer_comps.target_row.p_fcf=3.3878617053996996)"
+    "same-metric scale inconsistency suspected for wacc: ratio≈24566526775485.7 (metrics.wacc.risk_free_rate=0.035; metrics.wacc.market_risk_premium=0.06; metrics.wacc.beta=1.8; metrics.wacc.cost_of_equity=0.14300000000000002; metrics.wacc.pre_tax_cost_of_debt=0.055)",
+    "same-metric scale inconsistency suspected for fcf: ratio≈2768327873452.7 (metrics.dcf.assumed_fcf_margin=-0.03808730611304592; metrics.dcf.pv_fcf=-105438151137.47026)"
   ],
-  "auditor_recommendation": "매수",
-  "auditor_signal": 0.3296,
+  "auditor_recommendation": "보유",
+  "auditor_signal": 0.0598,
   "auditor_decision_basis": [
-    "DCF 괴리율 2.90%",
-    "Valuation scorecard 79.37/100",
-    "P/S 0.67배",
-    "peer median P/S 2.68배",
-    "peer P/S gap -75.00%",
+    "DCF 괴리율 25.00%",
+    "Valuation scorecard 52.32/100",
+    "P/S 0.00배",
     "reference universe score 77.33/100",
-    "WACC 6.55%",
-    "validation_status=PASS",
-    "기존 Valuation Agent 내부 판단 참고=매수"
+    "WACC 8.05%",
+    "validation_status=PASS_WITH_WARNINGS",
+    "기존 Valuation Agent 내부 판단 참고=보유"
   ],
   "auditor_signal_components": {
-    "dcf_upside": 0.11584150884542477,
-    "scorecard": 0.5534285714285716,
-    "peer_psr": 1.0,
+    "dcf_upside": 1.0,
+    "scorecard": -0.21942857142857142,
+    "peer_psr": 0.0,
     "reference_universe": 0.6380952380952384,
-    "original_agent_view_reference": 1.0,
+    "original_agent_view_reference": 0.0,
     "validation_penalty": 0.0,
     "credit_risk_overlay": -1.0
   }

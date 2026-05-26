@@ -3,7 +3,7 @@
 ## 1. Source
 - source_csv: `data\반도체\덕산테코피아\tech\duksan_kipris_patents_normalized.csv`
 - enriched_csv: `data\반도체\덕산테코피아\tech\duksan_kipris_tech_ml_enriched.csv`
-- generated_at: 2026-05-26T03:44:45
+- generated_at: 2026-05-26T16:57:16
 
 ## 2. Core Counts
 - total_patents: 38

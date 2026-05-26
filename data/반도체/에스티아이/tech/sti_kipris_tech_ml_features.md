@@ -3,7 +3,7 @@
 ## 1. Source
 - source_csv: `data\반도체\에스티아이\tech\sti_kipris_patents_normalized.csv`
 - enriched_csv: `data\반도체\에스티아이\tech\sti_kipris_tech_ml_enriched.csv`
-- generated_at: 2026-05-26T06:42:11
+- generated_at: 2026-05-26T15:08:30
 
 ## 2. Core Counts
 - total_patents: 58

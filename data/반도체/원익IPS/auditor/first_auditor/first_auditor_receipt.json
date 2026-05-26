@@ -1,6 +1,6 @@
 {
   "packet_version": "first_auditor_fixed_3stage_local_v2",
-  "created_at": "2026-05-25T20:51:39.938140+00:00",
+  "created_at": "2026-05-26T12:58:57.779896+00:00",
   "company_dir": "wonik_ips",
   "company": "원익IPS",
   "stage_count": 3,
@@ -44,7 +44,7 @@
           "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
           "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
           "alpha": 0.99,
-          "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+          "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
           "history_used": false,
           "history_observations": 0,
           "available_models": [
@@ -156,7 +156,7 @@
               "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
               "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
               "alpha": 0.99,
-              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
               "history_used": false,
               "history_observations": 0,
               "available_models": [
@@ -272,7 +272,7 @@
                 "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
                 "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
                 "alpha": 0.99,
-                "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+                "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
                 "history_used": false,
                 "history_observations": 0,
                 "available_models": [
@@ -371,7 +371,7 @@
               "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
               "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
               "alpha": 0.99,
-              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
               "history_used": false,
               "history_observations": 0,
               "available_models": [
@@ -459,7 +459,7 @@
             "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
             "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
             "alpha": 0.99,
-            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
             "history_used": false,
             "history_observations": 0,
             "available_models": [
@@ -595,7 +595,7 @@
           "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
           "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
           "alpha": 0.99,
-          "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+          "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
           "history_used": false,
           "history_observations": 0,
           "available_models": [
@@ -656,19 +656,17 @@
             "numeric_guardrail": {
               "score": 0.65,
               "checked_numbers": 13,
-              "matched_numbers": 9,
+              "matched_numbers": 11,
               "scale_mismatch_examples": [
-                "claim 141 ↔ source -14",
-                "claim 141 ↔ source -14",
-                "claim 141 ↔ source 14.449999809265137",
-                "claim 141 ↔ source 13.880000114440918",
-                "claim 141 ↔ source -0.14039734417376856"
+                "claim 161 ↔ source -16",
+                "claim 161 ↔ source -0.16026491691909656",
+                "claim 161 ↔ source -0.16556293285064216",
+                "claim 161 ↔ source -0.16026491691909672",
+                "claim 161 ↔ source 160685"
               ],
               "issues": [
-                "possible unit/scale mismatch: 141",
-                "possible unit/scale mismatch: 4063",
-                "possible unit/scale mismatch: 141",
-                "possible unit/scale mismatch: 4063"
+                "possible unit/scale mismatch: 4491",
+                "possible unit/scale mismatch: 4491"
               ]
             },
             "source_scope_guardrail": {
@@ -700,7 +698,7 @@
               "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
               "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
               "alpha": 0.99,
-              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
               "history_used": false,
               "history_observations": 0,
               "available_models": [
@@ -744,10 +742,8 @@
               }
             },
             "issues": [
-              "possible unit/scale mismatch: 141",
-              "possible unit/scale mismatch: 4063",
-              "possible unit/scale mismatch: 141",
-              "possible unit/scale mismatch: 4063"
+              "possible unit/scale mismatch: 4491",
+              "possible unit/scale mismatch: 4491"
             ],
             "warnings": []
           },
@@ -772,21 +768,21 @@
             "decision": {
               "agent": "market",
               "agent_ko": "시장",
-              "signal": 0.24,
-              "auditor_signal": 0.24,
+              "signal": 0.3015,
+              "auditor_signal": 0.3015,
               "original_recommendation": "보유",
               "recommendation_label_source": "explicit_packet_label",
               "auditor_recommendation": "보유",
               "recommendation": "보유",
               "basis": [
                 "market_score 62.00/100",
-                "연수익률 61.79%",
-                "MDD -37.37%"
+                "연수익률 114.48%",
+                "MDD -31.16%"
               ],
               "components": {
                 "market_score": 0.2,
                 "annual_return": 1.0,
-                "mdd": -1.0,
+                "mdd": -0.6925416550933485,
                 "liquidity": 0.0,
                 "volatility": 1.0
               },
@@ -802,7 +798,7 @@
                 "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
                 "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
                 "alpha": 0.99,
-                "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+                "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
                 "history_used": false,
                 "history_observations": 0,
                 "available_models": [
@@ -822,7 +818,7 @@
                 "current_signals": {
                   "market_score": 0.2,
                   "annual_return": 1.0,
-                  "mdd": -1.0,
+                  "mdd": -0.692542,
                   "liquidity": 0.0,
                   "volatility": 1.0
                 },
@@ -875,7 +871,7 @@
               "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
               "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
               "alpha": 0.99,
-              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
               "history_used": false,
               "history_observations": 0,
               "available_models": [
@@ -933,21 +929,21 @@
         "decision": {
           "agent": "market",
           "agent_ko": "시장",
-          "signal": 0.24,
-          "auditor_signal": 0.24,
+          "signal": 0.3015,
+          "auditor_signal": 0.3015,
           "original_recommendation": "보유",
           "recommendation_label_source": "explicit_packet_label",
           "auditor_recommendation": "보유",
           "recommendation": "보유",
           "basis": [
             "market_score 62.00/100",
-            "연수익률 61.79%",
-            "MDD -37.37%"
+            "연수익률 114.48%",
+            "MDD -31.16%"
           ],
           "components": {
             "market_score": 0.2,
             "annual_return": 1.0,
-            "mdd": -1.0,
+            "mdd": -0.6925416550933485,
             "liquidity": 0.0,
             "volatility": 1.0
           },
@@ -963,7 +959,7 @@
             "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
             "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
             "alpha": 0.99,
-            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
             "history_used": false,
             "history_observations": 0,
             "available_models": [
@@ -983,7 +979,7 @@
             "current_signals": {
               "market_score": 0.2,
               "annual_return": 1.0,
-              "mdd": -1.0,
+              "mdd": -0.692542,
               "liquidity": 0.0,
               "volatility": 1.0
             },
@@ -1026,26 +1022,22 @@
           }
         },
         "issues": [
-          "possible unit/scale mismatch: 141",
-          "possible unit/scale mismatch: 4063",
-          "possible unit/scale mismatch: 141",
-          "possible unit/scale mismatch: 4063"
+          "possible unit/scale mismatch: 4491",
+          "possible unit/scale mismatch: 4491"
         ],
         "supported_claims": [
           "원익IPS는 AI 및 HBM 관련 반도체 후공정/패키징 산업의 높은 성장성과 밸류체인 내 우수한 위치를 바탕으로 긍정적인 시장 모멘텀을 보입니다. 다만, 거시 경제 불확실성과 경쟁 환경에 대한 정보 부족으로 인해 보유 의견을 제시합니다.",
-          "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 141 column 6 (char 4063)",
+          "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 161 column 6 (char 4491)",
           "밸류체인 위치 확인: 후공정/패키징/테스트",
-          "원익IPS의 Market Agent는 return 지표로 annual_return=0.6179001721170396, recent_1m_return=0.1959287531806615을 제공합니다.",
-          "원익IPS의 Market Agent는 drawdown 지표로 mdd=-0.3736920777279522, volatility=0.4912049643473544를 제공합니다.",
-          "원익IPS의 Market Agent는 liquidity 지표로 avg_trading_value_20d=30388089440.0, turnover_proxy=None, liquidity_status=HIGH를 제공합니다.",
-          "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 141 column 6 (char 4063)",
+          "원익IPS의 Market Agent는 return 지표로 annual_return=1.1448197952637447, recent_1m_return=0.41254118527921335을 제공합니다.",
+          "원익IPS의 Market Agent는 drawdown 지표로 mdd=-0.31156770688666857, volatility=0.5197846507567926를 제공합니다.",
+          "원익IPS의 Market Agent는 liquidity 지표로 avg_trading_value_20d=51163734034.404686, turnover_proxy=None, liquidity_status=HIGH를 제공합니다.",
+          "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 161 column 6 (char 4491)",
           "밸류체인 위치 확인: 후공정/패키징/테스트"
         ],
         "unsupported_claims": [
-          "possible unit/scale mismatch: 141",
-          "possible unit/scale mismatch: 4063",
-          "possible unit/scale mismatch: 141",
-          "possible unit/scale mismatch: 4063"
+          "possible unit/scale mismatch: 4491",
+          "possible unit/scale mismatch: 4491"
         ]
       },
       "tech": {
@@ -1070,7 +1062,7 @@
           "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
           "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
           "alpha": 0.99,
-          "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+          "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
           "history_used": false,
           "history_observations": 0,
           "available_models": [
@@ -1176,7 +1168,7 @@
               "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
               "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
               "alpha": 0.99,
-              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
               "history_used": false,
               "history_observations": 0,
               "available_models": [
@@ -1288,7 +1280,7 @@
                 "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
                 "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
                 "alpha": 0.99,
-                "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+                "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
                 "history_used": false,
                 "history_observations": 0,
                 "available_models": [
@@ -1369,7 +1361,7 @@
               "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
               "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
               "alpha": 0.99,
-              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
               "history_used": false,
               "history_observations": 0,
               "available_models": [
@@ -1454,7 +1446,7 @@
             "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
             "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
             "alpha": 0.99,
-            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
             "history_used": false,
             "history_observations": 0,
             "available_models": [
@@ -1561,7 +1553,7 @@
           "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
           "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
           "alpha": 0.99,
-          "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+          "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
           "history_used": false,
           "history_observations": 0,
           "available_models": [
@@ -1621,8 +1613,8 @@
             "score": 0.8533,
             "numeric_guardrail": {
               "score": 1.0,
-              "checked_numbers": 10,
-              "matched_numbers": 10,
+              "checked_numbers": 5,
+              "matched_numbers": 5,
               "scale_mismatch_examples": [],
               "issues": []
             },
@@ -1633,8 +1625,8 @@
             "consistency_guardrail": {
               "score": 0.56,
               "issues": [
-                "same-metric scale inconsistency suspected for wacc: ratio≈65912667057142.9 (metrics.wacc.risk_free_rate=0.035; metrics.wacc.market_risk_premium=0.06; metrics.wacc.beta=1.8; metrics.wacc.cost_of_equity=0.14300000000000002; metrics.wacc.pre_tax_cost_of_debt=0.055)",
-                "same-metric scale inconsistency suspected for fcf: ratio≈3911375678274.5 (metrics.dcf.assumed_fcf_margin=0.0769450523224746; metrics.dcf.pv_fcf=245476597957.98444; metrics.peer_comps.target_row.fcf=103117228706.0; metrics.peer_comps.target_row.fcf_margin=0.19775500480158098; metrics.peer_comps.target_row.p_fcf=3.3878617053996996)"
+                "same-metric scale inconsistency suspected for wacc: ratio≈27714730170057.1 (metrics.wacc.risk_free_rate=0.035; metrics.wacc.market_risk_premium=0.06; metrics.wacc.beta=1.8; metrics.wacc.cost_of_equity=0.14300000000000002; metrics.wacc.pre_tax_cost_of_debt=0.055)",
+                "same-metric scale inconsistency suspected for fcf: ratio≈3261781432783.8 (metrics.dcf.assumed_fcf_margin=0.02925761608620936; metrics.dcf.pv_fcf=95431948917.51332)"
               ],
               "warnings": [],
               "checked_company_fields": [
@@ -1649,11 +1641,8 @@
               ],
               "checked_decision_fields_count": 5,
               "checked_metric_buckets": [
-                "debt_ratio",
                 "fcf",
                 "mdd",
-                "roe",
-                "upside",
                 "wacc"
               ]
             },
@@ -1667,7 +1656,7 @@
               "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
               "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
               "alpha": 0.99,
-              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
               "history_used": false,
               "history_observations": 0,
               "available_models": [
@@ -1711,8 +1700,8 @@
               }
             },
             "issues": [
-              "same-metric scale inconsistency suspected for wacc: ratio≈65912667057142.9 (metrics.wacc.risk_free_rate=0.035; metrics.wacc.market_risk_premium=0.06; metrics.wacc.beta=1.8; metrics.wacc.cost_of_equity=0.14300000000000002; metrics.wacc.pre_tax_cost_of_debt=0.055)",
-              "same-metric scale inconsistency suspected for fcf: ratio≈3911375678274.5 (metrics.dcf.assumed_fcf_margin=0.0769450523224746; metrics.dcf.pv_fcf=245476597957.98444; metrics.peer_comps.target_row.fcf=103117228706.0; metrics.peer_comps.target_row.fcf_margin=0.19775500480158098; metrics.peer_comps.target_row.p_fcf=3.3878617053996996)"
+              "same-metric scale inconsistency suspected for wacc: ratio≈27714730170057.1 (metrics.wacc.risk_free_rate=0.035; metrics.wacc.market_risk_premium=0.06; metrics.wacc.beta=1.8; metrics.wacc.cost_of_equity=0.14300000000000002; metrics.wacc.pre_tax_cost_of_debt=0.055)",
+              "same-metric scale inconsistency suspected for fcf: ratio≈3261781432783.8 (metrics.dcf.assumed_fcf_margin=0.02925761608620936; metrics.dcf.pv_fcf=95431948917.51332)"
             ],
             "warnings": []
           },
@@ -1737,29 +1726,27 @@
             "decision": {
               "agent": "valuation",
               "agent_ko": "가치평가",
-              "signal": -0.2481,
-              "auditor_signal": -0.2481,
-              "original_recommendation": "매도",
+              "signal": 0.0717,
+              "auditor_signal": 0.0717,
+              "original_recommendation": "보유",
               "recommendation_label_source": "explicit_packet_label",
-              "auditor_recommendation": "매도",
-              "recommendation": "매도",
+              "auditor_recommendation": "보유",
+              "recommendation": "보유",
               "basis": [
-                "DCF 괴리율 -79.08%",
-                "Valuation scorecard 42.86/100",
-                "P/S 0.67배",
-                "peer median P/S 2.68배",
-                "peer P/S gap -75.00%",
+                "DCF 괴리율 25.00%",
+                "Valuation scorecard 51.21/100",
+                "P/S 0.00배",
                 "reference universe score 46.35/100",
-                "WACC 13.51%",
+                "WACC 12.61%",
                 "validation_status=PASS",
-                "기존 Valuation Agent 내부 판단 참고=매도"
+                "기존 Valuation Agent 내부 판단 참고=보유"
               ],
               "components": {
-                "dcf_upside": -1.0,
-                "scorecard": -0.4897142857142857,
-                "peer_psr": 1.0,
+                "dcf_upside": 1.0,
+                "scorecard": -0.2511428571428571,
+                "peer_psr": 0.0,
                 "reference_universe": -0.24723809523809512,
-                "original_agent_view_reference": -1.0,
+                "original_agent_view_reference": 0.0,
                 "validation_penalty": 0.0,
                 "credit_risk_overlay": 0.0
               },
@@ -1777,7 +1764,7 @@
                 "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
                 "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
                 "alpha": 0.99,
-                "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+                "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
                 "history_used": false,
                 "history_observations": 0,
                 "available_models": [
@@ -1799,11 +1786,11 @@
                   "credit_risk_overlay": 1.0
                 },
                 "current_signals": {
-                  "dcf_upside": -1.0,
-                  "scorecard": -0.489714,
-                  "peer_psr": 1.0,
+                  "dcf_upside": 1.0,
+                  "scorecard": -0.251143,
+                  "peer_psr": 0.0,
                   "reference_universe": -0.247238,
-                  "original_agent_view_reference": -1.0,
+                  "original_agent_view_reference": 0.0,
                   "validation_penalty": 0.0,
                   "credit_risk_overlay": 0.0
                 },
@@ -1867,7 +1854,7 @@
               "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
               "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
               "alpha": 0.99,
-              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
               "history_used": false,
               "history_observations": 0,
               "available_models": [
@@ -1916,29 +1903,27 @@
         "decision": {
           "agent": "valuation",
           "agent_ko": "가치평가",
-          "signal": -0.2481,
-          "auditor_signal": -0.2481,
-          "original_recommendation": "매도",
+          "signal": 0.0717,
+          "auditor_signal": 0.0717,
+          "original_recommendation": "보유",
           "recommendation_label_source": "explicit_packet_label",
-          "auditor_recommendation": "매도",
-          "recommendation": "매도",
+          "auditor_recommendation": "보유",
+          "recommendation": "보유",
           "basis": [
-            "DCF 괴리율 -79.08%",
-            "Valuation scorecard 42.86/100",
-            "P/S 0.67배",
-            "peer median P/S 2.68배",
-            "peer P/S gap -75.00%",
+            "DCF 괴리율 25.00%",
+            "Valuation scorecard 51.21/100",
+            "P/S 0.00배",
             "reference universe score 46.35/100",
-            "WACC 13.51%",
+            "WACC 12.61%",
             "validation_status=PASS",
-            "기존 Valuation Agent 내부 판단 참고=매도"
+            "기존 Valuation Agent 내부 판단 참고=보유"
           ],
           "components": {
-            "dcf_upside": -1.0,
-            "scorecard": -0.4897142857142857,
-            "peer_psr": 1.0,
+            "dcf_upside": 1.0,
+            "scorecard": -0.2511428571428571,
+            "peer_psr": 0.0,
             "reference_universe": -0.24723809523809512,
-            "original_agent_view_reference": -1.0,
+            "original_agent_view_reference": 0.0,
             "validation_penalty": 0.0,
             "credit_risk_overlay": 0.0
           },
@@ -1956,7 +1941,7 @@
             "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
             "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
             "alpha": 0.99,
-            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
             "history_used": false,
             "history_observations": 0,
             "available_models": [
@@ -1978,11 +1963,11 @@
               "credit_risk_overlay": 1.0
             },
             "current_signals": {
-              "dcf_upside": -1.0,
-              "scorecard": -0.489714,
-              "peer_psr": 1.0,
+              "dcf_upside": 1.0,
+              "scorecard": -0.251143,
+              "peer_psr": 0.0,
               "reference_universe": -0.247238,
-              "original_agent_view_reference": -1.0,
+              "original_agent_view_reference": 0.0,
               "validation_penalty": 0.0,
               "credit_risk_overlay": 0.0
             },
@@ -2037,18 +2022,18 @@
           }
         },
         "issues": [
-          "same-metric scale inconsistency suspected for wacc: ratio≈65912667057142.9 (metrics.wacc.risk_free_rate=0.035; metrics.wacc.market_risk_premium=0.06; metrics.wacc.beta=1.8; metrics.wacc.cost_of_equity=0.14300000000000002; metrics.wacc.pre_tax_cost_of_debt=0.055)",
-          "same-metric scale inconsistency suspected for fcf: ratio≈3911375678274.5 (metrics.dcf.assumed_fcf_margin=0.0769450523224746; metrics.dcf.pv_fcf=245476597957.98444; metrics.peer_comps.target_row.fcf=103117228706.0; metrics.peer_comps.target_row.fcf_margin=0.19775500480158098; metrics.peer_comps.target_row.p_fcf=3.3878617053996996)"
+          "same-metric scale inconsistency suspected for wacc: ratio≈27714730170057.1 (metrics.wacc.risk_free_rate=0.035; metrics.wacc.market_risk_premium=0.06; metrics.wacc.beta=1.8; metrics.wacc.cost_of_equity=0.14300000000000002; metrics.wacc.pre_tax_cost_of_debt=0.055)",
+          "same-metric scale inconsistency suspected for fcf: ratio≈3261781432783.8 (metrics.dcf.assumed_fcf_margin=0.02925761608620936; metrics.dcf.pv_fcf=95431948917.51332)"
         ],
         "supported_claims": [
-          "원익IPS Valuation Agent는 finance_agent 산출물을 읽지 않고 자체 DART·주가·발행주식 수 intake를 사용해 WACC 13.51%, DCF 내재주가 9,830원, 현재가 대비 괴리율 -79.08%를 산출했습니다. 검증 상태는 PASS이며 workbook과 dashboard payload가 생성되었습니다.",
-          "원익IPS의 Valuation Agent DCF 내재주가는 9,830원이고 현재가 47,000원 대비 괴리율은 -79.08%입니다.",
-          "원익IPS의 valuation 전용 주가 데이터는 1162행이며 시가총액은 2,306,943,347,000원, 20일 평균 거래대금은 30,388,089,440원입니다.",
+          "원익IPS Valuation Agent는 finance_agent 산출물을 읽지 않고 자체 DART·주가·발행주식 수 intake를 사용해 WACC 12.61%, DCF 내재주가 확인 제한, 현재가 대비 괴리율 확인 제한를 산출했습니다. 검증 상태는 PASS이며 workbook과 dashboard payload가 생성되었습니다.",
+          "원익IPS의 Valuation Agent DCF 내재주가는 확인 제한이고 현재가 47,000원 대비 괴리율은 확인 제한입니다.",
+          "원익IPS의 valuation 전용 주가 데이터는 1162행이며 시가총액은 확인 제한, 20일 평균 거래대금은 30,388,089,440원입니다.",
           "원익IPS Valuation Agent는 자체 intake 기반으로 DCF·WACC·피어비교·대시보드 payload를 생성했고 검증 상태는 PASS입니다."
         ],
         "unsupported_claims": [
-          "same-metric scale inconsistency suspected for wacc: ratio≈65912667057142.9 (metrics.wacc.risk_free_rate=0.035; metrics.wacc.market_risk_premium=0.06; metrics.wacc.beta=1.8; metrics.wacc.cost_of_equity=0.14300000000000002; metrics.wacc.pre_tax_cost_of_debt=0.055)",
-          "same-metric scale inconsistency suspected for fcf: ratio≈3911375678274.5 (metrics.dcf.assumed_fcf_margin=0.0769450523224746; metrics.dcf.pv_fcf=245476597957.98444; metrics.peer_comps.target_row.fcf=103117228706.0; metrics.peer_comps.target_row.fcf_margin=0.19775500480158098; metrics.peer_comps.target_row.p_fcf=3.3878617053996996)"
+          "same-metric scale inconsistency suspected for wacc: ratio≈27714730170057.1 (metrics.wacc.risk_free_rate=0.035; metrics.wacc.market_risk_premium=0.06; metrics.wacc.beta=1.8; metrics.wacc.cost_of_equity=0.14300000000000002; metrics.wacc.pre_tax_cost_of_debt=0.055)",
+          "same-metric scale inconsistency suspected for fcf: ratio≈3261781432783.8 (metrics.dcf.assumed_fcf_margin=0.02925761608620936; metrics.dcf.pv_fcf=95431948917.51332)"
         ]
       },
       "issue": {
@@ -2073,7 +2058,7 @@
           "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
           "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
           "alpha": 0.99,
-          "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+          "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
           "history_used": false,
           "history_observations": 0,
           "available_models": [
@@ -2137,8 +2122,6 @@
               "matched_numbers": 6,
               "scale_mismatch_examples": [
                 "claim 10 ↔ source 001",
-                "claim 10 ↔ source 001",
-                "claim 10 ↔ source 001",
                 "claim 10 ↔ source 001"
               ],
               "issues": []
@@ -2169,7 +2152,7 @@
               "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
               "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
               "alpha": 0.99,
-              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
               "history_used": false,
               "history_observations": 0,
               "available_models": [
@@ -2235,18 +2218,18 @@
             "decision": {
               "agent": "issue",
               "agent_ko": "이슈",
-              "signal": 0.7857,
-              "auditor_signal": 0.7857,
+              "signal": 0.7273,
+              "auditor_signal": 0.7273,
               "original_recommendation": "보유",
               "recommendation_label_source": "explicit_packet_label",
               "auditor_recommendation": "보유",
               "recommendation": "보유",
               "basis": [
-                "긍정 키워드 50회",
+                "긍정 키워드 38회",
                 "부정/리스크 키워드 6회"
               ],
               "components": {
-                "positive_terms": 50,
+                "positive_terms": 38,
                 "negative_terms": 6
               },
               "component_weights": {},
@@ -2262,7 +2245,7 @@
               "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
               "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
               "alpha": 0.99,
-              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
               "history_used": false,
               "history_observations": 0,
               "available_models": [
@@ -2311,18 +2294,18 @@
         "decision": {
           "agent": "issue",
           "agent_ko": "이슈",
-          "signal": 0.7857,
-          "auditor_signal": 0.7857,
+          "signal": 0.7273,
+          "auditor_signal": 0.7273,
           "original_recommendation": "보유",
           "recommendation_label_source": "explicit_packet_label",
           "auditor_recommendation": "보유",
           "recommendation": "보유",
           "basis": [
-            "긍정 키워드 50회",
+            "긍정 키워드 38회",
             "부정/리스크 키워드 6회"
           ],
           "components": {
-            "positive_terms": 50,
+            "positive_terms": 38,
             "negative_terms": 6
           },
           "component_weights": {},
@@ -2330,9 +2313,9 @@
         },
         "issues": [],
         "supported_claims": [
-          "원익IPS에 대해 검증 가능한 핵심 근거는 다음과 같습니다. news_count 값은 10count입니다. rss_count 값은 10count입니다. related_keyword_count 값은 0count입니다.",
+          "원익IPS에 대해 검증 가능한 핵심 근거는 다음과 같습니다. news_count 값은 10count입니다. rss_count 값은 11count입니다. related_keyword_count 값은 0count입니다.",
           "news_count 값은 10count입니다.",
-          "rss_count 값은 10count입니다.",
+          "rss_count 값은 11count입니다.",
           "related_keyword_count 값은 0count입니다."
         ],
         "unsupported_claims": []
@@ -2359,7 +2342,7 @@
           "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
           "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
           "alpha": 0.99,
-          "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+          "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
           "history_used": false,
           "history_observations": 0,
           "available_models": [
@@ -2458,7 +2441,7 @@
               "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
               "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
               "alpha": 0.99,
-              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
               "history_used": false,
               "history_observations": 0,
               "available_models": [
@@ -2524,18 +2507,18 @@
             "decision": {
               "agent": "macro",
               "agent_ko": "거시",
-              "signal": -0.975,
-              "auditor_signal": -0.975,
+              "signal": -1.0,
+              "auditor_signal": -1.0,
               "original_recommendation": "",
               "recommendation_label_source": "macro_continuous_signal_no_categorical_cutoff",
               "auditor_recommendation": "매도",
               "recommendation": "매도",
               "basis": [
-                "macro_score 16.00/100",
+                "macro_score 4.00/100",
                 "raw_macro_label_seen_but_not_primary=BUY"
               ],
               "components": {
-                "macro_score_signal": -0.975
+                "macro_score_signal": -1.0
               },
               "component_weights": {},
               "component_dma_model": {}
@@ -2551,7 +2534,7 @@
               "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
               "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
               "alpha": 0.99,
-              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+              "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
               "history_used": false,
               "history_observations": 0,
               "available_models": [
@@ -2609,18 +2592,18 @@
         "decision": {
           "agent": "macro",
           "agent_ko": "거시",
-          "signal": -0.975,
-          "auditor_signal": -0.975,
+          "signal": -1.0,
+          "auditor_signal": -1.0,
           "original_recommendation": "",
           "recommendation_label_source": "macro_continuous_signal_no_categorical_cutoff",
           "auditor_recommendation": "매도",
           "recommendation": "매도",
           "basis": [
-            "macro_score 16.00/100",
+            "macro_score 4.00/100",
             "raw_macro_label_seen_but_not_primary=BUY"
           ],
           "components": {
-            "macro_score_signal": -0.975
+            "macro_score_signal": -1.0
           },
           "component_weights": {},
           "component_dma_model": {}
@@ -2648,7 +2631,7 @@
         "prior_policy": "uniform_prior_over_available_agents; no fixed finance/tech/valuation base weights",
         "update_formula": "pi_pred_i = pi_prev_i^alpha / sum_j(pi_prev_j^alpha); pi_post_i = pi_pred_i * predictive_likelihood_i / sum_j(pi_pred_j * predictive_likelihood_j)",
         "alpha": 0.99,
-        "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+        "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
         "history_used": false,
         "history_observations": 0,
         "available_agents": [
@@ -2669,11 +2652,11 @@
         },
         "current_signals": {
           "finance": 0.5665,
-          "valuation": -0.2481,
+          "valuation": 0.0717,
           "tech": 0.0287,
-          "market": 0.24,
-          "issue": 0.7857,
-          "macro": -0.975
+          "market": 0.3015,
+          "issue": 0.7273,
+          "macro": -1.0
         },
         "weights": {
           "finance": 0.166667,
@@ -2795,7 +2778,7 @@
             "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
             "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
             "alpha": 0.99,
-            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
             "history_used": false,
             "history_observations": 0,
             "available_models": [
@@ -2894,29 +2877,27 @@
         "valuation": {
           "agent": "valuation",
           "agent_ko": "가치평가",
-          "signal": -0.2481,
-          "auditor_signal": -0.2481,
-          "original_recommendation": "매도",
+          "signal": 0.0717,
+          "auditor_signal": 0.0717,
+          "original_recommendation": "보유",
           "recommendation_label_source": "explicit_packet_label",
-          "auditor_recommendation": "매도",
-          "recommendation": "매도",
+          "auditor_recommendation": "보유",
+          "recommendation": "보유",
           "basis": [
-            "DCF 괴리율 -79.08%",
-            "Valuation scorecard 42.86/100",
-            "P/S 0.67배",
-            "peer median P/S 2.68배",
-            "peer P/S gap -75.00%",
+            "DCF 괴리율 25.00%",
+            "Valuation scorecard 51.21/100",
+            "P/S 0.00배",
             "reference universe score 46.35/100",
-            "WACC 13.51%",
+            "WACC 12.61%",
             "validation_status=PASS",
-            "기존 Valuation Agent 내부 판단 참고=매도"
+            "기존 Valuation Agent 내부 판단 참고=보유"
           ],
           "components": {
-            "dcf_upside": -1.0,
-            "scorecard": -0.4897142857142857,
-            "peer_psr": 1.0,
+            "dcf_upside": 1.0,
+            "scorecard": -0.2511428571428571,
+            "peer_psr": 0.0,
             "reference_universe": -0.24723809523809512,
-            "original_agent_view_reference": -1.0,
+            "original_agent_view_reference": 0.0,
             "validation_penalty": 0.0,
             "credit_risk_overlay": 0.0
           },
@@ -2934,7 +2915,7 @@
             "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
             "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
             "alpha": 0.99,
-            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
             "history_used": false,
             "history_observations": 0,
             "available_models": [
@@ -2956,11 +2937,11 @@
               "credit_risk_overlay": 1.0
             },
             "current_signals": {
-              "dcf_upside": -1.0,
-              "scorecard": -0.489714,
-              "peer_psr": 1.0,
+              "dcf_upside": 1.0,
+              "scorecard": -0.251143,
+              "peer_psr": 0.0,
               "reference_universe": -0.247238,
-              "original_agent_view_reference": -1.0,
+              "original_agent_view_reference": 0.0,
               "validation_penalty": 0.0,
               "credit_risk_overlay": 0.0
             },
@@ -3019,7 +3000,7 @@
             "lower": 0.166667,
             "upper": 0.166667
           },
-          "weighted_contribution": -0.04135
+          "weighted_contribution": 0.01195
         },
         "tech": {
           "agent": "tech",
@@ -3060,7 +3041,7 @@
             "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
             "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
             "alpha": 0.99,
-            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
             "history_used": false,
             "history_observations": 0,
             "available_models": [
@@ -3141,21 +3122,21 @@
         "market": {
           "agent": "market",
           "agent_ko": "시장",
-          "signal": 0.24,
-          "auditor_signal": 0.24,
+          "signal": 0.3015,
+          "auditor_signal": 0.3015,
           "original_recommendation": "보유",
           "recommendation_label_source": "explicit_packet_label",
           "auditor_recommendation": "보유",
           "recommendation": "보유",
           "basis": [
             "market_score 62.00/100",
-            "연수익률 61.79%",
-            "MDD -37.37%"
+            "연수익률 114.48%",
+            "MDD -31.16%"
           ],
           "components": {
             "market_score": 0.2,
             "annual_return": 1.0,
-            "mdd": -1.0,
+            "mdd": -0.6925416550933485,
             "liquidity": 0.0,
             "volatility": 1.0
           },
@@ -3171,7 +3152,7 @@
             "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
             "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
             "alpha": 0.99,
-            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
             "history_used": false,
             "history_observations": 0,
             "available_models": [
@@ -3191,7 +3172,7 @@
             "current_signals": {
               "market_score": 0.2,
               "annual_return": 1.0,
-              "mdd": -1.0,
+              "mdd": -0.692542,
               "liquidity": 0.0,
               "volatility": 1.0
             },
@@ -3238,23 +3219,23 @@
             "lower": 0.166667,
             "upper": 0.166667
           },
-          "weighted_contribution": 0.04
+          "weighted_contribution": 0.05025
         },
         "issue": {
           "agent": "issue",
           "agent_ko": "이슈",
-          "signal": 0.7857,
-          "auditor_signal": 0.7857,
+          "signal": 0.7273,
+          "auditor_signal": 0.7273,
           "original_recommendation": "보유",
           "recommendation_label_source": "explicit_packet_label",
           "auditor_recommendation": "보유",
           "recommendation": "보유",
           "basis": [
-            "긍정 키워드 50회",
+            "긍정 키워드 38회",
             "부정/리스크 키워드 6회"
           ],
           "components": {
-            "positive_terms": 50,
+            "positive_terms": 38,
             "negative_terms": 6
           },
           "component_weights": {},
@@ -3265,23 +3246,23 @@
             "lower": 0.166667,
             "upper": 0.166667
           },
-          "weighted_contribution": 0.13095
+          "weighted_contribution": 0.121217
         },
         "macro": {
           "agent": "macro",
           "agent_ko": "거시",
-          "signal": -0.975,
-          "auditor_signal": -0.975,
+          "signal": -1.0,
+          "auditor_signal": -1.0,
           "original_recommendation": "",
           "recommendation_label_source": "macro_continuous_signal_no_categorical_cutoff",
           "auditor_recommendation": "매도",
           "recommendation": "매도",
           "basis": [
-            "macro_score 16.00/100",
+            "macro_score 4.00/100",
             "raw_macro_label_seen_but_not_primary=BUY"
           ],
           "components": {
-            "macro_score_signal": -0.975
+            "macro_score_signal": -1.0
           },
           "component_weights": {},
           "component_dma_model": {},
@@ -3291,10 +3272,10 @@
             "lower": 0.166667,
             "upper": 0.166667
           },
-          "weighted_contribution": -0.1625
+          "weighted_contribution": -0.166667
         }
       },
-      "weighted_signal": 0.0663,
+      "weighted_signal": 0.1159,
       "base_recommendation": "매도",
       "final_recommendation": "매도",
       "adjustment_reasons": [
@@ -3312,24 +3293,24 @@
         "method": "dma_signal_soft_posterior_reject_option_no_fixed_band_v50",
         "formula": "P_current(y=c|F_t)=sum_i pi_i,t * I(label_i,t=c)",
         "selection_policy": "final_recommendation follows stronger Buy-vs-Sell posterior; Hold is reject/no-trade only for tied or unavailable direction; weighted_signal is diagnostic only",
-        "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+        "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
         "history_used": false,
         "history_observations": 0,
         "smoothing": 0.5,
         "label_posterior": {
           "매수": 0.0,
-          "보유": 0.666667,
-          "매도": 0.333333
+          "보유": 0.833333,
+          "매도": 0.166667
         },
         "current_label_posterior": {
           "매수": 0.0,
-          "보유": 0.666667,
-          "매도": 0.333333
+          "보유": 0.833333,
+          "매도": 0.166667
         },
         "realized_calibrated_label_posterior": {
           "매수": 0.0,
-          "보유": 0.666667,
-          "매도": 0.333333
+          "보유": 0.833333,
+          "매도": 0.166667
         },
         "final_recommendation": "매도",
         "realized_calibrated_final_recommendation": "매도",
@@ -3352,20 +3333,20 @@
             }
           },
           "valuation": {
-            "current_label": "매도",
+            "current_label": "보유",
             "weight": 0.166667,
             "current_label_source": "current_label_one_hot",
             "current_label_distribution": {
               "매수": 0.0,
-              "보유": 0.0,
-              "매도": 1.0
+              "보유": 1.0,
+              "매도": 0.0
             },
             "history_rows_used": 0,
             "calibration_source": "current_label_distribution_no_realized_history",
             "calibrated_label_distribution": {
               "매수": 0.0,
-              "보유": 0.0,
-              "매도": 1.0
+              "보유": 1.0,
+              "매도": 0.0
             }
           },
           "tech": {
@@ -3440,13 +3421,13 @@
       },
       "core_pillar_summary": {
         "finance_signal": 0.5665,
-        "valuation_signal": -0.2481,
+        "valuation_signal": 0.0717,
         "tech_signal": 0.0287,
-        "market_signal": 0.24,
-        "macro_signal": -0.975,
-        "issue_signal": 0.7857,
-        "core_positive_count": 2,
-        "core_negative_count": 1
+        "market_signal": 0.3015,
+        "macro_signal": -1.0,
+        "issue_signal": 0.7273,
+        "core_positive_count": 3,
+        "core_negative_count": 0
       }
     },
     "compact_packets": [
@@ -3523,7 +3504,7 @@
         "industry_type": "deeptech_semiconductor",
         "summary": "원익IPS는 AI 및 HBM 관련 반도체 후공정/패키징 산업의 높은 성장성과 밸류체인 내 우수한 위치를 바탕으로 긍정적인 시장 모멘텀을 보입니다. 다만, 거시 경제 불확실성과 경쟁 환경에 대한 정보 부족으로 인해 보유 의견을 제시합니다.",
         "key_risks": [
-          "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 141 column 6 (char 4063)",
+          "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 161 column 6 (char 4491)",
           "밸류체인 위치 확인: 후공정/패키징/테스트"
         ],
         "audit_trace": {
@@ -3548,22 +3529,20 @@
           "stage3_decision_readiness": 1.0
         },
         "auditor_issues": [
-          "possible unit/scale mismatch: 141",
-          "possible unit/scale mismatch: 4063",
-          "possible unit/scale mismatch: 141",
-          "possible unit/scale mismatch: 4063"
+          "possible unit/scale mismatch: 4491",
+          "possible unit/scale mismatch: 4491"
         ],
         "auditor_recommendation": "보유",
-        "auditor_signal": 0.24,
+        "auditor_signal": 0.3015,
         "auditor_decision_basis": [
           "market_score 62.00/100",
-          "연수익률 61.79%",
-          "MDD -37.37%"
+          "연수익률 114.48%",
+          "MDD -31.16%"
         ],
         "auditor_signal_components": {
           "market_score": 0.2,
           "annual_return": 1.0,
-          "mdd": -1.0,
+          "mdd": -0.6925416550933485,
           "liquidity": 0.0,
           "volatility": 1.0
         }
@@ -3637,8 +3616,8 @@
           "tech_full_appendix_json": null,
           "tech_chair_summary_json": "data/반도체/원익IPS/tech/tech_chair_summary.json",
           "tech_chair_summary_md": "data/반도체/원익IPS/tech/wonik_ips_tech_chair_summary.md",
-          "tech_history_feature_json": "data/반도체/원익IPS/tech/tech_history_features_2025-09-30.json",
-          "tech_history_feature_csv": "data/반도체/원익IPS/tech/tech_history_features_2025-09-30.csv",
+          "tech_history_feature_json": "data/반도체/원익IPS/tech/tech_history_features_2025-10-31.json",
+          "tech_history_feature_csv": "data/반도체/원익IPS/tech/tech_history_features_2025-10-31.csv",
           "tech_json": "data/반도체/원익IPS/tech/wonik_ips_tech.json",
           "tech_agent_packet_json": "data/반도체/원익IPS/tech/wonik_ips_tech_agent_packet.json"
         },
@@ -3677,32 +3656,27 @@
         "agent": "valuation",
         "company_name": "원익IPS",
         "industry_type": "deeptech_semiconductor",
-        "summary": "기존 Valuation Agent 내부 판단은 매도였고, Auditor compact에서는 이를 참고 신호로만 사용합니다. DCF 내재주가는 9,830원이고 현재가 47,000원 대비 괴리율은 -79.08%입니다. peer 대비 P/S는 0.67배로 비교기업 중앙값 2.68배 대비 -75.00% 수준입니다. 208개 반도체 reference universe에서는 장비 기준 valuation proxy 46.35/100, label=FAIR입니다.",
+        "summary": "기존 Valuation Agent 내부 판단은 보유였고, Auditor compact에서는 이를 참고 신호로만 사용합니다. DCF 내재주가는 확인 제한이고 현재가 47,000원 대비 괴리율은 확인 제한입니다. 208개 반도체 reference universe에서는 장비 기준 valuation proxy 46.35/100, label=FAIR입니다.",
         "key_thesis": [
-          "DCF: 내재주가 9,830원, 현재가 47,000원, 괴리율 -79.08%.",
-          "Peer P/S: 대상 0.67배 vs 비교기업 중앙값 2.68배, gap -75.00%.",
+          "DCF: 내재주가 확인 제한, 현재가 47,000원, 괴리율 확인 제한.",
+          "Peer P/S: 대상 확인 제한배 vs 비교기업 중앙값 확인 제한배, gap 확인 제한.",
           "Reference Universe: 208개 반도체 universe, 장비 peer group 50개, valuation proxy 46.35/100(FAIR).",
-          "Valuation scorecard: 42.86/100, label=VALUATION_RISK, validation=PASS.",
-          "할인율/가치: WACC 13.51%, DCF 기업가치 5,698.6억원, 지분가치 4,825.2억원."
+          "Valuation scorecard: 51.21/100, label=VALUATION_NEUTRAL, validation=PASS.",
+          "할인율/가치: WACC 12.61%, DCF 기업가치 2,342.5억원, 지분가치 396.3억원."
         ],
         "key_risks": [
-          "WACC가 13.51%로 높아 장기 현금흐름 가정 변화에 민감합니다.",
+          "WACC가 12.61%로 높아 장기 현금흐름 가정 변화에 민감합니다.",
           "가격 리스크: MDD -64.07%로 변동성/낙폭 리스크 확인이 필요합니다.",
           "변동성: 연환산 변동성 45.03% 수준입니다."
         ],
         "metrics": {
-          "original_agent_view_reference": "매도",
-          "implied_price_krw": 9830.4398452231,
+          "original_agent_view_reference": "보유",
           "current_price_krw": 47000.0,
-          "upside_downside_pct": -0.7908417054207851,
-          "wacc": 0.13512668112332518,
-          "enterprise_value": 569863252495.386,
-          "equity_value": 482516336149.386,
-          "target_psr": 0.6699666078184099,
-          "peer_median_psr": 2.680022174089385,
-          "psr_gap": -0.750014528127533,
-          "valuation_scorecard_score": 42.86,
-          "valuation_scorecard_label": "VALUATION_RISK",
+          "wacc": 0.12608861529786874,
+          "enterprise_value": 234251284617.71545,
+          "equity_value": 39630621129.715454,
+          "valuation_scorecard_score": 51.21,
+          "valuation_scorecard_label": "VALUATION_NEUTRAL",
           "reference_universe_rows": 208,
           "target_peer_group": "장비",
           "target_peer_group_size": 50,
@@ -3742,9 +3716,9 @@
           "status": "PASS",
           "issues": [
             {
-              "severity": "INFO",
-              "code": "NO_MAJOR_WARNINGS",
-              "message": "주요 validation warning 없음"
+              "severity": "LOW",
+              "code": "NO_SHARE_COUNT",
+              "message": "발행주식 수를 확인하지 못해 내재주가/시가총액 기반 지표 일부가 제한될 수 있습니다."
             }
           ],
           "audit_trail": [
@@ -3759,19 +3733,14 @@
               "rows": 1162
             },
             {
-              "step": "share_count",
-              "status": "OK",
-              "shares_outstanding": 49083901.0
-            },
-            {
               "step": "reference_universe",
               "status": "OK",
               "rows": 208
             },
             {
               "step": "market_cap",
-              "status": "OK",
-              "market_cap": 2306943347000.0
+              "status": "INFO_NOT_AVAILABLE",
+              "market_cap": null
             },
             {
               "step": "liquidity_proxy",
@@ -3794,28 +3763,26 @@
           "stage3_decision_readiness": 1.0
         },
         "auditor_issues": [
-          "same-metric scale inconsistency suspected for wacc: ratio≈65912667057142.9 (metrics.wacc.risk_free_rate=0.035; metrics.wacc.market_risk_premium=0.06; metrics.wacc.beta=1.8; metrics.wacc.cost_of_equity=0.14300000000000002; metrics.wacc.pre_tax_cost_of_debt=0.055)",
-          "same-metric scale inconsistency suspected for fcf: ratio≈3911375678274.5 (metrics.dcf.assumed_fcf_margin=0.0769450523224746; metrics.dcf.pv_fcf=245476597957.98444; metrics.peer_comps.target_row.fcf=103117228706.0; metrics.peer_comps.target_row.fcf_margin=0.19775500480158098; metrics.peer_comps.target_row.p_fcf=3.3878617053996996)"
+          "same-metric scale inconsistency suspected for wacc: ratio≈27714730170057.1 (metrics.wacc.risk_free_rate=0.035; metrics.wacc.market_risk_premium=0.06; metrics.wacc.beta=1.8; metrics.wacc.cost_of_equity=0.14300000000000002; metrics.wacc.pre_tax_cost_of_debt=0.055)",
+          "same-metric scale inconsistency suspected for fcf: ratio≈3261781432783.8 (metrics.dcf.assumed_fcf_margin=0.02925761608620936; metrics.dcf.pv_fcf=95431948917.51332)"
         ],
-        "auditor_recommendation": "매도",
-        "auditor_signal": -0.2481,
+        "auditor_recommendation": "보유",
+        "auditor_signal": 0.0717,
         "auditor_decision_basis": [
-          "DCF 괴리율 -79.08%",
-          "Valuation scorecard 42.86/100",
-          "P/S 0.67배",
-          "peer median P/S 2.68배",
-          "peer P/S gap -75.00%",
+          "DCF 괴리율 25.00%",
+          "Valuation scorecard 51.21/100",
+          "P/S 0.00배",
           "reference universe score 46.35/100",
-          "WACC 13.51%",
+          "WACC 12.61%",
           "validation_status=PASS",
-          "기존 Valuation Agent 내부 판단 참고=매도"
+          "기존 Valuation Agent 내부 판단 참고=보유"
         ],
         "auditor_signal_components": {
-          "dcf_upside": -1.0,
-          "scorecard": -0.4897142857142857,
-          "peer_psr": 1.0,
+          "dcf_upside": 1.0,
+          "scorecard": -0.2511428571428571,
+          "peer_psr": 0.0,
           "reference_universe": -0.24723809523809512,
-          "original_agent_view_reference": -1.0,
+          "original_agent_view_reference": 0.0,
           "validation_penalty": 0.0,
           "credit_risk_overlay": 0.0
         }
@@ -3824,21 +3791,22 @@
         "agent": "issue",
         "company_name": "원익IPS",
         "industry_type": "deeptech_semiconductor",
-        "summary": "원익IPS는 최근 코스닥 시장에서 반도체 소부장 섹터의 주요 종목으로 기관 투자자들의 집중적인 매수세를 받고 있습니다. 특히 AI 서버 확대와 고대역폭메모리(HBM) 수요 증가 기대감이 반도체 공급망 전반에 대한 투자 심리를 유지시키고 있으며, 이는 원익IPS의 실적 개선 가능성과 주가 상승으로 이어지고 있습니다.",
+        "summary": "원익IPS는 최근 코스닥 시장에서 기관 투자자들의 집중 매수 대상이 되고 있으며, 특히 반도체 소부장 섹터 내에서 AI 서버 확대 및 고대역폭메모리(HBM) 수요 증가 기대감과 맞물려 주목받고 있다. 이는 반도체 업황 회복 기대감과 실적 개선 가능성이 반영된 결과로 분석된다.",
         "key_thesis": [
-          "기관 순매수 상위권 포함: 코스닥 시장에서 기관 투자자들이 반도체 섹터 집중 매수 과정에서 원익IPS를 순매수 상위권에 포함시키고 있습니다. (뉴스: [코스닥 기관] 반도체·우주항공 집중 매수…바이오는 차익실현, [주간 코스닥 기관] 리노공업·ISC 등 반도체 장비 매수 확대…무슨 이...)",
-          "반도체 업황 회복 기대감: AI 서버 확대 및 HBM 수요 증가 기대감으로 반도체 공급망 전반에 대한 투자 심리가 유지되고 있으며, 이는 원익IPS의 실적 개선 가능성을 높입니다. (뉴스: [코스닥 기관] 반도체·우주항공 집중 매수…바이오는 차익실현, [주간 코스닥 기관] 리노공업·ISC 등 반도체 장비 매수 확대…무슨 이..., 주도주 교체기 온다…“이번엔 코스닥이 중심” [종전 후 새 주도주 찾...)",
-          "주가 상승 모멘텀: 일부 뉴스에서는 원익IPS가 1년여 만에 주가가 4배 이상 상승했다고 언급하며 시장의 높은 기대를 반영하고 있습니다. (뉴스: 코스닥 반도체 실적 주도…\"질적 성장 기반 체질 개선 기대\")",
-          "주요 펀드 편입: 국민성장펀드 등 주요 펀드에서 2차전지, 로봇 섹터와 함께 반도체 소부장 섹터의 주요 편입 종목으로 원익IPS를 포함하고 있습니다. (뉴스: [증권 뉴스브리핑] 국민성장펀드, 22일부터 판매/금감원장 \"빚투·레버리...)"
+          "기관 순매수 상위권 포함: 코스닥 시장에서 반도체 및 우주항공 섹터 집중 매수 종목에 포함되었으며, 특히 원익IPS는 반도체 장비 및 소재 업종에서 기관의 주요 매수 대상에 포함되었다. (근거: 코스닥 기관 매수 뉴스)",
+          "반도체 업황 회복 기대감: AI 서버 확대 및 HBM 수요 증가 기대감으로 반도체 공급망 전반에 대한 투자 심리가 유지되고 있으며, 이는 원익IPS의 실적 개선 가능성을 높인다. (근거: 코스닥 기관 매수 뉴스, 주간 코스닥 기관 뉴스, 주도주 교체기 뉴스)",
+          "실적 개선 및 주가 상승: 1년여 만에 주가가 4배 이상 상승하는 등 시장의 높은 기대를 받고 있으며, 이는 실적 개선 가능성을 반영하는 것으로 보인다. (근거: 코스닥 반도체 실적 주도 뉴스)",
+          "주요 펀드 편입: 국민성장펀드 등 주요 펀드에 2차전지, 로봇 섹터와 함께 반도체 소부장 섹터의 주요 편입 종목으로 선정되었다. (근거: 증권 뉴스브리핑 뉴스)"
         ],
         "key_risks": [
-          "개별 종목의 주가 변동성: 일부 뉴스에서 원익IPS가 다른 소부장주에 비해 주가 상승이 더디거나 하락하는 모습을 보인 사례가 언급되었습니다. (뉴스: '삼전닉스' 실적 끝, 이제 소부장 차례...증권가 톱픽은 브이엠)",
-          "데이터 부족: 내부 키워드 정보가 없어 기업의 구체적인 사업 전략이나 기술 개발 현황에 대한 직접적인 판단 근거가 부족합니다. RSS 피드에서도 원익IPS와 직접적으로 관련된 최신 기술 동향이나 사업 이슈는 확인되지 않았습니다."
+          "개별 종목 주가 변동성: 일부 뉴스에서 원익IPS가 다른 소부장주에 비해 상대적으로 주가 상승폭이 크지 않거나 하락하는 경우도 언급되었다. (근거: '삼전닉스' 실적 끝, 이제 소부장 차례 뉴스)",
+          "거시 경제 및 시장 변동성: 외국인 투자자들의 단기 매매 동향 및 한국 증시의 변동성 확대 가능성이 언급되어 시장 전반의 불확실성이 존재한다. (근거: 외국 개미 단타족 몰려온다 뉴스)",
+          "내부 키워드 정보 부재: 기업 관련 내부 키워드 정보가 없어 기업 자체의 구체적인 사업 전략이나 리스크 요인에 대한 심층적인 분석이 제한적이다."
         ],
         "warning_note": "검증 불가 claim 6개를 제거한 뒤 grounding 기준을 재검증했습니다.",
         "metrics": {
           "news_count": 10,
-          "rss_count": 10,
+          "rss_count": 11,
           "related_keyword_count": 0,
           "df_news_rows": 139
         },
@@ -3860,10 +3828,10 @@
           "policy": "specialist agent files are not modified; this compact packet is generated by auditor_agent only"
         },
         "watch_points": [
-          "기관 투자자들의 매수세 지속 여부: 기관의 꾸준한 매수세가 원익IPS의 주가 상승을 견인하는 중요한 요인이므로, 향후 매수 추이를 지속적으로 관찰해야 합니다.",
-          "반도체 업황 회복 강도 및 HBM 시장 성장: AI 서버 투자 확대 및 HBM 시장의 실제 성장 속도가 원익IPS의 실적에 미치는 영향을 면밀히 파악해야 합니다.",
-          "경쟁사 동향 및 기술 발전: 반도체 장비 및 소재 산업 내 경쟁사의 기술 발전 및 시장 점유율 변화를 주시해야 합니다.",
-          "거시 경제 및 지정학적 리스크: 중동 전쟁 등 지정학적 이슈가 증시 전반의 변동성을 확대시킬 수 있으므로, 거시 경제 환경 변화에 대한 모니터링이 필요합니다."
+          "기관 투자자 매수세 지속 여부: 기관의 꾸준한 매수세가 지속되는지 여부가 단기 주가 흐름에 중요한 영향을 미칠 것이다.",
+          "반도체 업황 회복 가시성: AI 및 HBM 관련 수요 증가가 실제 실적 개선으로 이어지는지 구체적인 지표를 확인할 필요가 있다.",
+          "신규 투자 및 기술 개발 동향: RSS에서 언급되는 반도체 관련 최신 기술 동향(에너지 하베스팅, CPU 결함 탐지, V-NAND 플래시 메모리, HW-SW 코디자인, 칩렛, GPU 에너지 효율 등)이 원익IPS의 사업과 연관성이 있는지, 또는 향후 사업 기회로 이어질 수 있는지 주시해야 한다.",
+          "경쟁사 동향 및 시장 점유율: 경쟁사들의 움직임과 시장 내 원익IPS의 점유율 변화를 지속적으로 모니터링해야 한다."
         ],
         "output_files": {
           "issue_json": "data/반도체/원익IPS/issue/wonik_ips_issue.json",
@@ -3878,13 +3846,13 @@
           "stage3_decision_readiness": 0.7222
         },
         "auditor_recommendation": "보유",
-        "auditor_signal": 0.7857,
+        "auditor_signal": 0.7273,
         "auditor_decision_basis": [
-          "긍정 키워드 50회",
+          "긍정 키워드 38회",
           "부정/리스크 키워드 6회"
         ],
         "auditor_signal_components": {
-          "positive_terms": 50,
+          "positive_terms": 38,
           "negative_terms": 6
         }
       },
@@ -3892,145 +3860,145 @@
         "agent": "macro",
         "company_name": "원익IPS",
         "industry_type": "deeptech_semiconductor",
-        "summary": "현재 매크로 환경은 전반적으로 우호적이며 리스크 레벨은 낮게 평가됩니다. 금리 수준은 안정적이며, 원달러 환율은 하락세를 보이고 있습니다. 다만, 글로벌 경기 지표의 개선세가 둔화될 가능성에 대한 모니터링이 필요합니다. 이러한 환경은 반도체 딥테크 기업에 긍정적인 영향을 줄 수 있으나, 글로벌 수요 변화 및 규제 리스크에 대한 지속적인 관찰이 요구됩니다.",
+        "summary": "현재 매크로 환경은 '중립 우호'로 평가되며, 리스크 레벨은 'medium'입니다. 전반적으로 금리 하락세와 원달러 환율의 안정화는 긍정적이나, 글로벌 경기 둔화 가능성과 지정학적 불확실성은 여전히 잠재적 위험 요인으로 작용할 수 있습니다. 반도체 딥테크 기업의 경우, AI 관련 투자 확대는 긍정적이나 고금리 환경 지속은 밸류에이션에 부담을 줄 수 있습니다.",
         "key_thesis": [
+          "국고채_3년 하락 → 유동성 환경 개선",
+          "cd금리_91일 하락 → 유동성 환경 개선",
           "원달러 고수준 구간 하락 → 환율 부담 완화",
-          "신용스프레드_bbb- 축소 → 신용 리스크 완화",
-          "신용스프레드_aa- 축소 → 신용 리스크 완화",
           "10년-2년 스프레드 확대 → 경기 정상화/수요 개선 신호"
         ],
         "key_risks": [
-          "원달러 환율의 추가적인 하락 가능성 (현재 레벨 1402.2, diff -9.4)",
-          "글로벌 AI Capex 사이클의 변동성 (HBM/첨단패키징 수요와 연결)",
-          "미중 반도체 수출 규제 관련 불확실성"
+          "고금리 장기화 가능성으로 인한 성장주 밸류에이션 할인 압력",
+          "글로벌 경기 둔화 가능성으로 인한 반도체 수요 위축 우려",
+          "미중 반도체 수출 규제와 같은 지정학적 리스크의 잠재적 영향"
         ],
         "warning_note": "검증 불가 claim 6개를 제거한 뒤 grounding 기준을 재검증했습니다. 최종 grounding score가 기준(0.75)에 미달했습니다. score=0.0",
         "metrics": {
-          "macro_score": 16,
+          "macro_score": 4,
           "macro_signal": "BUY",
-          "risk_level": "LOW",
+          "risk_level": "MEDIUM_LOW",
           "ecos_daily": {
-            "국고채_10년_level": 2.951,
-            "국고채_10년_diff": 0.012,
+            "국고채_10년_level": 3.061,
+            "국고채_10년_diff": 0.011,
             "국고채_10년_zone": "neutral",
             "국고채_10년_criteria": {
               "method": "empirical_percentile",
-              "lookback_observations": 2830,
-              "high": 3.3654000000000006,
-              "low": 1.729,
+              "lookback_observations": 2861,
+              "high": 3.362,
+              "low": 1.731,
               "high_q": 0.8,
               "low_q": 0.2
             },
-            "국고채_3년_level": 2.582,
-            "국고채_3년_diff": 0.019,
+            "국고채_3년_level": 2.716,
+            "국고채_3년_diff": -0.016,
             "국고채_3년_zone": "neutral",
             "국고채_3년_criteria": {
               "method": "empirical_percentile",
-              "lookback_observations": 2830,
-              "high": 3.293,
-              "low": 1.303,
+              "lookback_observations": 2861,
+              "high": 3.29,
+              "low": 1.308,
               "high_q": 0.8,
               "low_q": 0.2
             },
-            "콜금리_level": 2.575,
-            "콜금리_diff": 0.044,
+            "콜금리_level": 2.511,
+            "콜금리_diff": 0.004,
             "콜금리_zone": "neutral",
             "콜금리_criteria": {
               "method": "empirical_percentile",
-              "lookback_observations": 2830,
-              "high": 3.432,
+              "lookback_observations": 2861,
+              "high": 3.429,
               "low": 0.76,
               "high_q": 0.8,
               "low_q": 0.2
             },
-            "cd금리_91일_level": 2.57,
-            "cd금리_91일_diff": 0.0,
+            "cd금리_91일_level": 2.55,
+            "cd금리_91일_diff": -0.01,
             "cd금리_91일_zone": "neutral",
             "cd금리_91일_criteria": {
               "method": "empirical_percentile",
-              "lookback_observations": 2830,
-              "high": 3.57,
+              "lookback_observations": 2861,
+              "high": 3.56,
               "low": 1.1,
               "high_q": 0.8,
               "low_q": 0.2
             },
-            "국고채_10년_3년_스프레드": 0.369,
+            "국고채_10년_3년_스프레드": 0.345,
             "국고채_10년_3년_스프레드_criteria": {
               "method": "empirical_percentile",
-              "lookback_observations": 2830,
+              "lookback_observations": 2861,
               "high": 0.5,
-              "low": 0.09100000000000005,
+              "low": 0.0919999999999996,
               "high_q": 0.8,
               "low_q": 0.2
             },
-            "원달러_level": 1402.2,
-            "원달러_diff": -9.4,
+            "원달러_level": 1423.2,
+            "원달러_diff": -9.8,
             "원달러_zone": "high",
             "원달러_criteria": {
               "method": "empirical_percentile",
-              "lookback_observations": 2830,
-              "high": 1352.3,
-              "low": 1128.78,
+              "lookback_observations": 2861,
+              "high": 1357.6,
+              "low": 1129.0,
               "high_q": 0.8,
               "low_q": 0.2
             },
-            "신용스프레드_bbb-_level": 6.286,
-            "신용스프레드_bbb-_diff": -0.002,
+            "신용스프레드_bbb-_level": 6.256,
+            "신용스프레드_bbb-_diff": 0.003,
             "신용스프레드_bbb-_zone": "low",
-            "신용스프레드_aa-_level": 0.44,
-            "신용스프레드_aa-_diff": -0.001,
+            "신용스프레드_aa-_level": 0.406,
+            "신용스프레드_aa-_diff": 0.003,
             "신용스프레드_aa-_zone": "low"
           },
           "external_daily": {
-            "미국_국채_10년_2년_스프레드": 0.548,
-            "미국_국채_10년_2년_스프레드_diff": 0.037,
+            "미국_국채_10년_2년_스프레드": 0.501,
+            "미국_국채_10년_2년_스프레드_diff": 0.018,
             "미국_국채_10년_2년_스프레드_criteria": {
               "method": "empirical_percentile",
-              "lookback_observations": 2830,
-              "high": 0.5802001862525942,
-              "low": -0.3479999847412111,
+              "lookback_observations": 2861,
+              "high": 0.5780000686645508,
+              "low": -0.3449999237060543,
               "high_q": 0.8,
               "low_q": 0.2
             },
-            "미국_국채_10년_level": 4.148,
-            "미국_국채_10년_diff": 0.007,
+            "미국_국채_10년_level": 4.101,
+            "미국_국채_10년_diff": 0.008,
             "미국_국채_10년_zone": "neutral",
             "미국_국채_10년_criteria": {
               "method": "empirical_percentile",
-              "lookback_observations": 2830,
-              "high": 4.189600086212159,
-              "low": 1.5360000133514404,
+              "lookback_observations": 2861,
+              "high": 4.186999797821045,
+              "low": 1.5390000343322754,
               "high_q": 0.8,
               "low_q": 0.2
             },
-            "미국_국채_13주_level": 3.845,
-            "미국_국채_13주_diff": -0.018,
+            "미국_국채_13주_level": 3.718,
+            "미국_국채_13주_diff": -0.039,
             "미국_국채_13주_zone": "neutral",
             "미국_국채_13주_criteria": {
               "method": "empirical_percentile",
-              "lookback_observations": 2830,
-              "high": 4.635000228881836,
+              "lookback_observations": 2861,
+              "high": 4.5929999351501465,
               "low": 0.1030000001192092,
               "high_q": 0.8,
               "low_q": 0.2
             },
-            "달러인덱스_dxy_level": 97.77,
-            "달러인덱스_dxy_diff": -0.14,
+            "달러인덱스_dxy_level": 99.8,
+            "달러인덱스_dxy_diff": 0.27,
             "달러인덱스_dxy_zone": "neutral",
             "달러인덱스_dxy_criteria": {
               "method": "empirical_percentile",
-              "lookback_observations": 2830,
-              "high": 104.18000030517578,
-              "low": 93.78800048828126,
+              "lookback_observations": 2861,
+              "high": 104.16000366210938,
+              "low": 93.83999633789062,
               "high_q": 0.8,
               "low_q": 0.2
             },
-            "유가_평균_diff": -1.015,
-            "유가_wti_diff": -1.08,
-            "유가_brent_diff": -0.95,
-            "구리_diff": -0.036,
-            "미국_하이일드_스프레드_level": 2.8,
-            "미국_하이일드_스프레드_diff": 0.06
+            "유가_평균_diff": 0.24,
+            "유가_wti_diff": 0.41,
+            "유가_brent_diff": 0.07,
+            "구리_diff": -0.0125,
+            "미국_하이일드_스프레드_level": 2.94,
+            "미국_하이일드_스프레드_diff": 0.09
           },
           "news_signal": {
             "positive_keyword_count": 0,
@@ -4058,9 +4026,9 @@
           "policy": "specialist agent files are not modified; this compact packet is generated by auditor_agent only"
         },
         "watch_points": [
-          "{\"indicator\": \"원달러 환율\", \"current\": \"1402.2원, 하락세 (diff -9.4)\", \"threshold\": \"지속적인 하락 또는 급격한 변동 시 수출 기업 실적에 부정적 영향\", \"semiconductor_relevance\": \"수출 비중이 높은 반도체 기업의 원화 환산 실적에 직접적인 영향\"}",
-          "{\"indicator\": \"미국 국채 10년물 금리\", \"current\": \"4.148%, 소폭 상승 (diff 0.007)\", \"threshold\": \"추가적인 상승 시 성장주 밸류에이션 할인 요인으로 작용\", \"semiconductor_relevance\": \"고금리 장기화는 반도체 딥테크 기업의 밸류에이션에 부담으로 작용\"}",
-          "{\"indicator\": \"OECD CLI (한국)\", \"current\": \"100.5181, 소폭 상승 (diff 0.1943)\", \"threshold\": \"하락세 전환 시 글로벌 경기 둔화 신호로 해석될 수 있음\", \"semiconductor_relevance\": \"글로벌 경기 둔화는 반도체 수요 감소로 이어질 수 있음\"}"
+          "{\"indicator\": \"국고채 10년 금리\", \"current\": \"3.061%로 과거 2861일 기준 하위 20% 구간에 위치\", \"threshold\": \"금리 상승 전환 시 유동성 축소 및 밸류에이션 부담 증가\", \"semiconductor_relevance\": \"금리 상승은 성장주인 반도체 기업의 밸류에이션에 부정적 영향을 미칠 수 있습니다.\"}",
+          "{\"indicator\": \"원달러 환율\", \"current\": \"1423.2원으로 과거 2861일 기준 하위 20% 구간에 위치하며 하락세\", \"threshold\": \"급격한 환율 상승은 수출 기업 실적에 긍정적이나, 과도한 변동성은 투자 심리 위축 가능성\", \"semiconductor_relevance\": \"원화 약세는 수출 비중이 높은 반도체 기업의 단기 실적에 긍정적이나, 과도한 강세는 수요 둔화 우려를 야기할 수 있습니다.\"}",
+          "{\"indicator\": \"미국 국채 10년-2년 스프레드\", \"current\": \"0.501%로 과거 2861일 기준 상위 80% 구간에 근접\", \"threshold\": \"스프레드 축소 또는 역전 시 경기 침체 신호로 해석될 수 있음\", \"semiconductor_relevance\": \"경기 침체 신호는 반도체 수요 감소로 이어져 섹터 전반에 부정적인 영향을 미칠 수 있습니다.\"}"
         ],
         "output_files": {
           "macro_signal_json": "data/반도체/원익IPS/macro/macro_signal_20260526.json",
@@ -4077,13 +4045,13 @@
           "stage3_decision_readiness": 1.0
         },
         "auditor_recommendation": "매도",
-        "auditor_signal": -0.975,
+        "auditor_signal": -1.0,
         "auditor_decision_basis": [
-          "macro_score 16.00/100",
+          "macro_score 4.00/100",
           "raw_macro_label_seen_but_not_primary=BUY"
         ],
         "auditor_signal_components": {
-          "macro_score_signal": -0.975
+          "macro_score_signal": -1.0
         }
       }
     ],
@@ -4111,7 +4079,7 @@
       "C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\tech_excel_quantified_metrics.csv",
       "C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\tech_history_features_2025-08-31.csv",
       "C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\tech_history_features_2025-09-30.csv",
-      "C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\tech_patent_similarity_top_pairs.csv",
+      "C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\tech_history_features_2025-10-31.csv",
       "C:\\Agent_6.9\\data\\반도체\\원익IPS\\macro\\macro_signal_20260526.csv",
       "C:\\Agent_6.9\\data\\반도체\\원익IPS\\finance\\finance_standardize_manifest.json",
       "C:\\Agent_6.9\\data\\반도체\\원익IPS\\finance\\원익IPS_finance.json",

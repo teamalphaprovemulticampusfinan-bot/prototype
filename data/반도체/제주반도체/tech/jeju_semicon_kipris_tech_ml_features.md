@@ -3,7 +3,7 @@
 ## 1. Source
 - source_csv: `data\반도체\제주반도체\tech\jeju_semicon_kipris_patents_normalized.csv`
 - enriched_csv: `data\반도체\제주반도체\tech\jeju_semicon_kipris_tech_ml_enriched.csv`
-- generated_at: 2026-05-26T04:40:11
+- generated_at: 2026-05-26T20:08:14
 
 ## 2. Core Counts
 - total_patents: 26

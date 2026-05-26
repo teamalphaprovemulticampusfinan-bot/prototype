@@ -3,7 +3,7 @@
 ## 1. Source
 - source_csv: `data\반도체\한솔케미칼\tech\hansol_kipris_patents_normalized.csv`
 - enriched_csv: `data\반도체\한솔케미칼\tech\hansol_kipris_tech_ml_enriched.csv`
-- generated_at: 2026-05-26T12:23:28
+- generated_at: 2026-05-26T16:36:03
 
 ## 2. Core Counts
 - total_patents: 656

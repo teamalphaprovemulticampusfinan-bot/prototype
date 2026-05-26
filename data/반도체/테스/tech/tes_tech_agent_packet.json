@@ -3,23 +3,23 @@
   "company": "테스",
   "company_dir": "tes",
   "opinion": "보유",
-  "tech_signal": 0.320837,
+  "tech_signal": 0.320963,
   "history_tech_feature": {
-    "signal": 0.320837,
+    "signal": 0.320963,
     "status": "OK_TECH_HISTORY_ASOF",
-    "source": "C:\\Agent_6.9\\data\\반도체\\테스\\tech\\tech_history_features_2025-08-31.csv;C:\\Agent_6.9\\data\\반도체\\테스\\tech\\tes_kipris_patents_normalized.csv;C:\\Agent_6.9\\data\\반도체\\테스\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\테스\\tech\\tes_tech_patent_normalized.csv;C:\\Agent_6.9\\data\\반도체\\테스\\tech\\source\\tes_kipris_plus_bibliographic_raw.csv;C:\\Agent_6.9\\data\\반도체\\테스\\tech\\tes_kipris_bibliographic_normalized.csv;C:\\Agent_6.9\\data\\반도체\\테스\\tech\\tes_kipris_claims_normalized.csv;C:\\Agent_6.9\\data\\반도체\\테스\\tech\\tes_kipris_plus_claim_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\테스\\tech\\tes_kipris_plus_family_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\테스\\tech\\tes_kipris_plus_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\테스\\tech\\tes_kipris_tech_ml_enriched.csv;C:\\Agent_6.9\\data\\반도체\\테스\\tech\\quanified_metrix.csv",
-    "as_of_date": "2025-09-30",
+    "source": "C:\\Agent_6.9\\data\\반도체\\테스\\tech\\tech_history_features_2025-08-31.csv;C:\\Agent_6.9\\data\\반도체\\테스\\tech\\tech_history_features_2025-09-30.csv;C:\\Agent_6.9\\data\\반도체\\테스\\tech\\tech_history_features_2025-10-31.csv;C:\\Agent_6.9\\data\\반도체\\테스\\tech\\tes_kipris_patents_normalized.csv;C:\\Agent_6.9\\data\\반도체\\테스\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\테스\\tech\\tes_tech_patent_normalized.csv;C:\\Agent_6.9\\data\\반도체\\테스\\tech\\source\\tes_kipris_plus_bibliographic_raw.csv;C:\\Agent_6.9\\data\\반도체\\테스\\tech\\tes_kipris_bibliographic_normalized.csv;C:\\Agent_6.9\\data\\반도체\\테스\\tech\\tes_kipris_claims_normalized.csv;C:\\Agent_6.9\\data\\반도체\\테스\\tech\\tes_kipris_plus_claim_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\테스\\tech\\tes_kipris_plus_family_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\테스\\tech\\tes_kipris_plus_request_targets.csv",
+    "as_of_date": "2025-10-31",
     "company": "테스",
     "ticker": "095610.KQ",
     "stock_code": "095610",
-    "base_signal": 0.330314,
-    "evidence_confidence": 0.792878,
-    "commercialization_gate_signal": 0.235754,
+    "base_signal": 0.330483,
+    "evidence_confidence": 0.792871,
+    "commercialization_gate_signal": 0.235729,
     "technology_risk_penalty": 0.0,
-    "ip_quality_signal": -0.031842,
+    "ip_quality_signal": -0.030936,
     "lifecycle_signal": 0.0,
-    "technology_differentiation_signal": 0.178951,
-    "commercialization_signal": 0.943015,
+    "technology_differentiation_signal": 0.179157,
+    "commercialization_signal": 0.942917,
     "rnd_sustainability_signal": 0.463116,
     "peer_position_signal": -0.209524,
     "tech_to_value_signal": 0.638169,
@@ -32,10 +32,10 @@
     "dispute_risk_signal": 0.0,
     "failure_delay_signal": 0.0,
     "intangible_accounting_signal": 0.0,
-    "patent_records_asof": 8056,
-    "dated_records_asof": 2812,
+    "patent_records_asof": 8072,
+    "dated_records_asof": 2830,
     "undated_records_used": 5317,
-    "files_used": 76,
+    "files_used": 80,
     "notes": "Tech history signal uses dated patent/IP, TRL/readiness, certification, qualification, commercialization, R&D/workforce, risk and accounting evidence before as_of_date; no Buy/Hold/Sell threshold is applied.",
     "frequency": "monthly",
     "formula": "final=base_signal*evidence_confidence + 0.25*commercialization_gate_signal - 0.35*technology_risk_penalty",
@@ -45,8 +45,8 @@
       "IFC/Bpifrance deep-tech development-stage financing framework",
       "Text-based industry/technology relatedness literature for peer/differentiation evidence"
     ],
-    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\테스\\tech\\tech_history_features_2025-09-30.json",
-    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\테스\\tech\\tech_history_features_2025-09-30.csv"
+    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\테스\\tech\\tech_history_features_2025-10-31.json",
+    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\테스\\tech\\tech_history_features_2025-10-31.csv"
   },
   "claims": [
     {
@@ -373,7 +373,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\테스\\tech\\tes_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\테스\\tech\\tes_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-26T06:16:06",
+      "generated_at": "2026-05-26T22:37:29",
       "core_counts": {
         "total_patents": 382,
         "registered_patents_estimated": 287,
@@ -467,7 +467,7 @@
   "tech_chair_summary": {
     "agent": "tech",
     "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-    "created_at": "2026-05-26T06:18:07",
+    "created_at": "2026-05-26T22:38:04",
     "field": "반도체",
     "company": "테스",
     "company_name": "테스",
@@ -1437,7 +1437,7 @@
       "company_name": "테스",
       "field": "반도체",
       "status": "OK",
-      "created_at": "2026-05-26T06:16:07",
+      "created_at": "2026-05-26T22:37:31",
       "weights": {
         "legal_stability": 0.25,
         "claim_defense": 0.3,
@@ -1533,10 +1533,10 @@
       "tech_full_appendix_json": ""
     },
     "ip_evidence_bridge_adjustment_status": "APPLIED",
-    "ip_evidence_bridge_adjustment_applied_at": "2026-05-26T06:18:29",
+    "ip_evidence_bridge_adjustment_applied_at": "2026-05-26T22:38:15",
     "tech_investor_view": {
       "version": "tech-investor-scorecard-v2",
-      "generated_at": "2026-05-26T06:19:24",
+      "generated_at": "2026-05-26T22:39:59",
       "company_slug": "tes",
       "company_name": "테스",
       "final_tech_investor_score": 55.14,
@@ -1928,12 +1928,12 @@
       "agent": "tech_intake",
       "artifact": "tech_intake_value_evidence_bridge",
       "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-      "created_at": "2026-05-26T06:19:20",
+      "created_at": "2026-05-26T22:39:53",
       "field": "반도체",
       "company": "테스",
       "company_dir": "tes",
       "company_slug": "tes",
-      "source_document_count": 157,
+      "source_document_count": 156,
       "source_documents": [
         {
           "source_group": "TECH_OUTPUT",
@@ -2052,6 +2052,18 @@
         {
           "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/테스/tech/tech_history_features_2025-09-30.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/테스/tech/tech_history_features_2025-10-31.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/테스/tech/tech_history_features_2025-10-31.json",
           "detected_url_count": 0,
           "fallback_url_count": 2
         },
@@ -2699,12 +2711,6 @@
         },
         {
           "source_group": "VALUATION",
-          "source_file": "data/반도체/테스/valuation/intake/financials_raw.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "VALUATION",
           "source_file": "data/반도체/테스/valuation/intake/peer_multiples.csv",
           "detected_url_count": 0,
           "fallback_url_count": 5
@@ -2795,12 +2801,6 @@
         },
         {
           "source_group": "VALUATION",
-          "source_file": "data/반도체/테스/valuation/intake/valuation_raw_dart_accounts.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "VALUATION",
           "source_file": "data/반도체/테스/valuation/intake/valuation_reference_universe_208.csv",
           "detected_url_count": 0,
           "fallback_url_count": 5
@@ -2814,12 +2814,6 @@
         {
           "source_group": "VALUATION",
           "source_file": "data/반도체/테스/valuation/intake/valuation_reference_universe_summary.json",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "VALUATION",
-          "source_file": "data/반도체/테스/valuation/intake/valuation_share_count.csv",
           "detected_url_count": 0,
           "fallback_url_count": 5
         },
@@ -2874,8 +2868,8 @@
         {
           "source_group": "FINANCE",
           "source_file": "data/반도체/테스/finance/intake/finance_intake_manifest.json",
-          "detected_url_count": 1,
-          "fallback_url_count": 0
+          "detected_url_count": 0,
+          "fallback_url_count": 5
         }
       ],
       "source_url_map": {
@@ -3074,9 +3068,7 @@
           ]
         },
         "FINANCE": {
-          "detected_urls": [
-            "https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception"
-          ],
+          "detected_urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
             "https://opendart.fss.or.kr/",
@@ -3914,7 +3906,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\테스\\tech\\tes_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\테스\\tech\\tes_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-26T06:16:06",
+      "generated_at": "2026-05-26T22:37:29",
       "core_counts": {
         "total_patents": 382,
         "registered_patents_estimated": 287,
@@ -4039,8 +4031,8 @@
     "tech_full_appendix_json": null,
     "tech_chair_summary_json": "data/반도체/테스/tech/tech_chair_summary.json",
     "tech_chair_summary_md": "data/반도체/테스/tech/tes_tech_chair_summary.md",
-    "tech_history_feature_json": "data/반도체/테스/tech/tech_history_features_2025-09-30.json",
-    "tech_history_feature_csv": "data/반도체/테스/tech/tech_history_features_2025-09-30.csv",
+    "tech_history_feature_json": "data/반도체/테스/tech/tech_history_features_2025-10-31.json",
+    "tech_history_feature_csv": "data/반도체/테스/tech/tech_history_features_2025-10-31.csv",
     "tech_json": "data/반도체/테스/tech/tes_tech.json",
     "tech_agent_packet_json": "data/반도체/테스/tech/tes_tech_agent_packet.json"
   },
@@ -4961,7 +4953,7 @@
     "field": "반도체",
     "source_csv": "data\\반도체\\테스\\tech\\tes_kipris_patents_normalized.csv",
     "enriched_csv": "data\\반도체\\테스\\tech\\tes_kipris_tech_ml_enriched.csv",
-    "generated_at": "2026-05-26T06:16:06",
+    "generated_at": "2026-05-26T22:37:29",
     "core_counts": {
       "total_patents": 382,
       "registered_patents_estimated": 287,

@@ -19,6 +19,7 @@ if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
 from evaluation.cutoff_env import build_cutoff_env, cutoff_audit_payload, month_windows
+from evaluation.cutoff_data_auditor import write_cutoff_audit
 from evaluation.signal_df_exporter import export_signal_df
 
 try:
@@ -148,7 +149,12 @@ def _checkpoint_run_log(log_csv: Path, out_root: Path) -> None:
 
 
 def _checkpoint_signal_df(out_root: Path, *, field: str, run_id: str) -> None:
-    """Overwrite a stable partial signal_df file after each successful snapshot."""
+    """Overwrite stable partial signal_df files after each successful company/month snapshot.
+
+    This intentionally runs during the loop, not only at the very end, so a long
+    30-company monthly backtest leaves an immediately-openable Excel checkpoint
+    after every completed target.
+    """
     try:
         signal_export = export_signal_df(
             out_root=out_root,
@@ -157,9 +163,17 @@ def _checkpoint_signal_df(out_root: Path, *, field: str, run_id: str) -> None:
             stamp="checkpoint",
             manifest_name="signal_df_checkpoint_manifest.json",
         )
+        combined_xlsx = Path(str(signal_export.get("combined_xlsx") or ""))
+        combined_csv = Path(str(signal_export.get("combined_csv") or ""))
+        latest_xlsx = out_root / "signal_df_latest_checkpoint.xlsx"
+        latest_csv = out_root / "signal_df_latest_checkpoint.csv"
+        if combined_xlsx.exists():
+            shutil.copy2(combined_xlsx, latest_xlsx)
+        if combined_csv.exists():
+            shutil.copy2(combined_csv, latest_csv)
         print(
             "[monthly-cutoff] checkpoint signal_df "
-            f"rows={signal_export.get('rows')} xlsx={signal_export.get('combined_xlsx')}"
+            f"rows={signal_export.get('rows')} xlsx={combined_xlsx} latest={latest_xlsx}"
         )
     except Exception as exc:
         print(f"[monthly-cutoff] WARN signal_df checkpoint failed: {exc}")
@@ -352,7 +366,14 @@ def _run_target_attempt(
     root: Path,
     timeout_sec: int,
 ) -> tuple[int, str, str, str]:
-    timeout_sec = max(1, int(timeout_sec))
+    # Monthly backtests should finish one company/month and write checkpoints.
+    # A too-small CLI timeout (e.g. 590s) killed otherwise-valid runs, so keep
+    # a conservative minimum unless MONTHLY_CUTOFF_MIN_TIMEOUT_SEC is overridden.
+    try:
+        min_timeout = int(os.getenv("MONTHLY_CUTOFF_MIN_TIMEOUT_SEC", "1800") or "1800")
+    except Exception:
+        min_timeout = 1800
+    timeout_sec = max(1, int(timeout_sec), min_timeout)
     proc: subprocess.Popen[str] | None = None
     try:
         proc = subprocess.Popen(
@@ -711,11 +732,16 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--intake-concurrency", default="4")
     ap.add_argument("--agent-concurrency", default="6")
     ap.add_argument("--market-llm-timeout", default="25")
-    ap.add_argument("--market-gemini-retries", default="3")
+    ap.add_argument("--market-gemini-retries", default="0")
     ap.add_argument("--max-retries", type=int, default=1, help="Failed company/window attempts are retried with a conservative profile.")
     ap.add_argument("--retry-timeout-sec", type=int, default=1800)
     ap.add_argument("--retry-skip-network", action=argparse.BooleanOptionalAction, default=True)
     ap.add_argument("--safe-first", action="store_true", help="Start every target with the conservative local profile.")
+    ap.add_argument(
+        "--skip-network-normal-first",
+        action="store_true",
+        help="With --skip-network, keep requested concurrency for the first attempt; timeout/crash fallback still uses the conservative profile.",
+    )
     ap.add_argument("--auto-safe-after-timeout", action=argparse.BooleanOptionalAction, default=True, help="After a timeout/native crash, start later targets with the conservative local profile.")
     ap.add_argument("--auto-safe-slow-ratio", type=float, default=0.95, help="Also switch to conservative first-attempts when elapsed time reaches this share of --timeout-sec. Set 0 to disable.")
     ap.add_argument("--accept-existing-outputs", action="store_true", help="If all six specialist agent outputs already exist, snapshot them and mark the target OK without rerunning.")
@@ -762,7 +788,9 @@ def main(argv: list[str] | None = None) -> int:
     log_csv = out_root / "monthly_cutoff_pipeline_run_log.csv"
     completed_attempts = 0
     completed_log_rows = _load_completed_log_rows(log_csv) if ns.resume else {}
-    safe_first_profile = bool(ns.safe_first)
+    # Backtest reruns with --skip-network should start in the stable local profile.
+    # This avoids native crashes/LLM retries and keeps one-company checkpoints moving.
+    safe_first_profile = bool(ns.safe_first) or (bool(ns.skip_network) and not bool(ns.skip_network_normal_first))
     if ns.resume and ns.auto_safe_after_timeout:
         completed_rows = list(completed_log_rows.values())
         if _logged_rows_had_timeout(completed_rows):
@@ -849,6 +877,32 @@ def main(argv: list[str] | None = None) -> int:
             env["ALPHAPROVE_EVAL_WINDOW"] = window_key
             _force_local_history_env(env)
             _stabilize_native_env(env)
+
+            # Explicit no-look-ahead and local-source hints consumed by intake/agent code.
+            company_data_dir = _company_data_dir(root, ns.field, target["company_dir"], target["company"])
+            env["ALPHAPROVE_MONTHLY_CUTOFF_MODE"] = "1"
+            env["ALPHAPROVE_NO_LOOKAHEAD"] = "1"
+            env["ALPHAPROVE_COMPANY_DATA_DIR"] = str(company_data_dir)
+            env["MARKET_EXCEL_DIR"] = str(root / "data" / "market_excel")
+            env["MARKET_PRICE_CACHE_DIR"] = str(root / "data" / "market_excel")
+            env["VALUATION_INTAKE_DIR"] = str(company_data_dir / "valuation" / "intake")
+            env["VALUATION_INPUT_DIR"] = str(company_data_dir / "valuation" / "intake")
+            env["VALUATION_OUTPUT_DIR"] = str(company_data_dir / "valuation")
+            env["FINANCE_INTAKE_DIR"] = str(company_data_dir / "finance" / "intake")
+            env["ISSUE_INTAKE_DIR"] = str(company_data_dir / "issue" / "intake")
+            env["MACRO_INPUT_DIR"] = str(root / "data" / "_global_common" / "macro")
+            try:
+                audit_path = write_cutoff_audit(
+                    root=root,
+                    field=ns.field,
+                    company=target["company"],
+                    company_dir=target["company_dir"],
+                    as_of_date=as_of,
+                    output_dir=out_root / "cutoff_audits" / window_key / target["company_dir"],
+                )
+                env["ALPHAPROVE_CUTOFF_AUDIT_PATH"] = str(audit_path)
+            except Exception as exc:
+                print(f"[monthly-cutoff] WARN cutoff source audit failed for {as_of} {target['company_dir']}: {exc}")
 
             extra = _pipeline_extra(ns)
             cmd = _command(root, py, target, ns.field, ns.mode, extra)

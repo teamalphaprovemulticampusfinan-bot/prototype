@@ -4,7 +4,7 @@
   "industry_type": "deeptech_semiconductor",
   "summary": "코아시아 분석 중 LLM 호출 오류가 발생해 fallback 결과를 반환합니다.",
   "key_risks": [
-    "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 119 column 6 (char 3671)",
+    "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 155 column 6 (char 4579)",
     "밸류체인 위치 확인: 후공정/패키징/테스트"
   ],
   "audit_trace": {
@@ -30,16 +30,16 @@
   },
   "auditor_issues": [
     "possible unit/scale mismatch: 6",
-    "unmatched numeric claim: 3671",
+    "possible unit/scale mismatch: 4579",
     "possible unit/scale mismatch: 6",
-    "unmatched numeric claim: 3671"
+    "possible unit/scale mismatch: 4579"
   ],
   "auditor_recommendation": "보유",
   "auditor_signal": 0.0,
   "auditor_decision_basis": [
     "market_score 0.00/100",
-    "연수익률 20.27%",
-    "MDD -52.76%"
+    "연수익률 46.96%",
+    "MDD -44.91%"
   ],
   "auditor_signal_components": {
     "market_score": -1.0,

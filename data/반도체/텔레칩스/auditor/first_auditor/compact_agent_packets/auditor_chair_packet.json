@@ -1,6 +1,6 @@
 {
   "packet_version": "auditor_chair_compact_packets_v5_peer_aware",
-  "created_at": "2026-05-25T20:15:24.038379+00:00",
+  "created_at": "2026-05-26T12:01:32.095403+00:00",
   "company_dir": "telechips",
   "company": "텔레칩스",
   "policy": "opinion/confidence/claims/evidence-heavy fields are removed from Chair-facing packets; Tech/Valuation include peer-aware summaries and original specialist view only as a reference signal, not as a Chair-facing opinion field.",
@@ -19,7 +19,7 @@
       "prior_policy": "uniform_prior_over_available_agents; no fixed finance/tech/valuation base weights",
       "update_formula": "pi_pred_i = pi_prev_i^alpha / sum_j(pi_prev_j^alpha); pi_post_i = pi_pred_i * predictive_likelihood_i / sum_j(pi_pred_j * predictive_likelihood_j)",
       "alpha": 0.99,
-      "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+      "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
       "history_used": false,
       "history_observations": 0,
       "available_agents": [
@@ -40,10 +40,10 @@
       },
       "current_signals": {
         "finance": -0.1992,
-        "valuation": -0.1132,
+        "valuation": -0.0755,
         "tech": 0.2206,
-        "market": 0.0774,
-        "issue": 0.7333,
+        "market": 0.1189,
+        "issue": 0.7647,
         "macro": -1.0
       },
       "weights": {
@@ -166,7 +166,7 @@
           "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
           "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
           "alpha": 0.99,
-          "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+          "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
           "history_used": false,
           "history_observations": 0,
           "available_models": [
@@ -265,27 +265,25 @@
       "valuation": {
         "agent": "valuation",
         "agent_ko": "가치평가",
-        "signal": -0.1132,
-        "auditor_signal": -0.1132,
+        "signal": -0.0755,
+        "auditor_signal": -0.0755,
         "original_recommendation": "보유",
         "recommendation_label_source": "explicit_packet_label",
         "auditor_recommendation": "보유",
         "recommendation": "보유",
         "basis": [
-          "DCF 괴리율 -3.26%",
-          "Valuation scorecard 42.40/100",
-          "P/S 0.67배",
-          "peer median P/S 2.68배",
-          "peer P/S gap -75.00%",
+          "DCF 괴리율 25.00%",
+          "Valuation scorecard 47.06/100",
+          "P/S 0.00배",
           "reference universe score 49.43/100",
-          "WACC 8.90%",
+          "WACC 8.12%",
           "validation_status=PASS_WITH_WARNINGS",
           "기존 Valuation Agent 내부 판단 참고=보유"
         ],
         "components": {
-          "dcf_upside": -0.13046376100960178,
-          "scorecard": -0.5028571428571429,
-          "peer_psr": 1.0,
+          "dcf_upside": 1.0,
+          "scorecard": -0.36971428571428566,
+          "peer_psr": 0.0,
           "reference_universe": -0.15901875901875906,
           "original_agent_view_reference": 0.0,
           "validation_penalty": 0.0,
@@ -305,7 +303,7 @@
           "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
           "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
           "alpha": 0.99,
-          "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+          "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
           "history_used": false,
           "history_observations": 0,
           "available_models": [
@@ -327,9 +325,9 @@
             "credit_risk_overlay": 1.0
           },
           "current_signals": {
-            "dcf_upside": -0.130464,
-            "scorecard": -0.502857,
-            "peer_psr": 1.0,
+            "dcf_upside": 1.0,
+            "scorecard": -0.369714,
+            "peer_psr": 0.0,
             "reference_universe": -0.159019,
             "original_agent_view_reference": 0.0,
             "validation_penalty": 0.0,
@@ -390,7 +388,7 @@
           "lower": 0.166667,
           "upper": 0.166667
         },
-        "weighted_contribution": -0.018867
+        "weighted_contribution": -0.012583
       },
       "tech": {
         "agent": "tech",
@@ -431,7 +429,7 @@
           "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
           "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
           "alpha": 0.99,
-          "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+          "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
           "history_used": false,
           "history_observations": 0,
           "available_models": [
@@ -512,20 +510,20 @@
       "market": {
         "agent": "market",
         "agent_ko": "시장",
-        "signal": 0.0774,
-        "auditor_signal": 0.0774,
+        "signal": 0.1189,
+        "auditor_signal": 0.1189,
         "original_recommendation": "보유",
         "recommendation_label_source": "explicit_packet_label",
         "auditor_recommendation": "보유",
         "recommendation": "보유",
         "basis": [
           "market_score 66.00/100",
-          "연수익률 1.09%",
+          "연수익률 4.20%",
           "MDD -37.22%"
         ],
         "components": {
           "market_score": 0.3142857142857143,
-          "annual_return": 0.07274616783580146,
+          "annual_return": 0.2802836854634938,
           "mdd": -1.0,
           "liquidity": 0.0,
           "volatility": 1.0
@@ -542,7 +540,7 @@
           "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
           "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
           "alpha": 0.99,
-          "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+          "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
           "history_used": false,
           "history_observations": 0,
           "available_models": [
@@ -561,7 +559,7 @@
           },
           "current_signals": {
             "market_score": 0.314286,
-            "annual_return": 0.072746,
+            "annual_return": 0.280284,
             "mdd": -1.0,
             "liquidity": 0.0,
             "volatility": 1.0
@@ -609,23 +607,23 @@
           "lower": 0.166667,
           "upper": 0.166667
         },
-        "weighted_contribution": 0.0129
+        "weighted_contribution": 0.019817
       },
       "issue": {
         "agent": "issue",
         "agent_ko": "이슈",
-        "signal": 0.7333,
-        "auditor_signal": 0.7333,
+        "signal": 0.7647,
+        "auditor_signal": 0.7647,
         "original_recommendation": "보유",
         "recommendation_label_source": "explicit_packet_label",
         "auditor_recommendation": "보유",
         "recommendation": "보유",
         "basis": [
-          "긍정 키워드 26회",
+          "긍정 키워드 30회",
           "부정/리스크 키워드 4회"
         ],
         "components": {
-          "positive_terms": 26,
+          "positive_terms": 30,
           "negative_terms": 4
         },
         "component_weights": {},
@@ -636,7 +634,7 @@
           "lower": 0.166667,
           "upper": 0.166667
         },
-        "weighted_contribution": 0.122217
+        "weighted_contribution": 0.12745
       },
       "macro": {
         "agent": "macro",
@@ -648,7 +646,7 @@
         "auditor_recommendation": "매도",
         "recommendation": "매도",
         "basis": [
-          "macro_score 15.00/100",
+          "macro_score 3.00/100",
           "raw_macro_label_seen_but_not_primary=BUY"
         ],
         "components": {
@@ -665,7 +663,7 @@
         "weighted_contribution": -0.166667
       }
     },
-    "weighted_signal": -0.0469,
+    "weighted_signal": -0.0284,
     "base_recommendation": "매도",
     "final_recommendation": "매도",
     "adjustment_reasons": [
@@ -683,7 +681,7 @@
       "method": "dma_signal_soft_posterior_reject_option_no_fixed_band_v50",
       "formula": "P_current(y=c|F_t)=sum_i pi_i,t * I(label_i,t=c)",
       "selection_policy": "final_recommendation follows stronger Buy-vs-Sell posterior; Hold is reject/no-trade only for tied or unavailable direction; weighted_signal is diagnostic only",
-      "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+      "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
       "history_used": false,
       "history_observations": 0,
       "smoothing": 0.5,
@@ -811,11 +809,11 @@
     },
     "core_pillar_summary": {
       "finance_signal": -0.1992,
-      "valuation_signal": -0.1132,
+      "valuation_signal": -0.0755,
       "tech_signal": 0.2206,
-      "market_signal": 0.0774,
+      "market_signal": 0.1189,
       "macro_signal": -1.0,
-      "issue_signal": 0.7333,
+      "issue_signal": 0.7647,
       "core_positive_count": 1,
       "core_negative_count": 2
     }
@@ -895,7 +893,7 @@
       "industry_type": "deeptech_semiconductor",
       "summary": "반도체 산업의 높은 성장성과 정부 정책 지원은 텔레칩스에 긍정적이나, 경쟁 심화 및 삼성전자 노사 이슈 등 불확실성이 존재합니다. 따라서 현재 시점에서는 '보유' 의견을 제시하며 시장 상황을 관망하는 것이 합리적입니다.",
       "key_risks": [
-        "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 133 column 6 (char 4167)",
+        "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 123 column 6 (char 3787)",
         "밸류체인 위치 확인: 후공정/패키징/테스트"
       ],
       "audit_trace": {
@@ -920,19 +918,19 @@
         "stage3_decision_readiness": 1.0
       },
       "auditor_issues": [
-        "possible unit/scale mismatch: 4167",
-        "possible unit/scale mismatch: 4167"
+        "possible unit/scale mismatch: 3787",
+        "possible unit/scale mismatch: 3787"
       ],
       "auditor_recommendation": "보유",
-      "auditor_signal": 0.0774,
+      "auditor_signal": 0.1189,
       "auditor_decision_basis": [
         "market_score 66.00/100",
-        "연수익률 1.09%",
+        "연수익률 4.20%",
         "MDD -37.22%"
       ],
       "auditor_signal_components": {
         "market_score": 0.3142857142857143,
-        "annual_return": 0.07274616783580146,
+        "annual_return": 0.2802836854634938,
         "mdd": -1.0,
         "liquidity": 0.0,
         "volatility": 1.0
@@ -1007,8 +1005,8 @@
         "tech_full_appendix_json": null,
         "tech_chair_summary_json": "data/반도체/텔레칩스/tech/tech_chair_summary.json",
         "tech_chair_summary_md": "data/반도체/텔레칩스/tech/telechips_tech_chair_summary.md",
-        "tech_history_feature_json": "data/반도체/텔레칩스/tech/tech_history_features_2025-09-30.json",
-        "tech_history_feature_csv": "data/반도체/텔레칩스/tech/tech_history_features_2025-09-30.csv",
+        "tech_history_feature_json": "data/반도체/텔레칩스/tech/tech_history_features_2025-10-31.json",
+        "tech_history_feature_csv": "data/반도체/텔레칩스/tech/tech_history_features_2025-10-31.csv",
         "tech_json": "data/반도체/텔레칩스/tech/telechips_tech.json",
         "tech_agent_packet_json": "data/반도체/텔레칩스/tech/telechips_tech_agent_packet.json"
       },
@@ -1047,33 +1045,27 @@
       "agent": "valuation",
       "company_name": "텔레칩스",
       "industry_type": "deeptech_semiconductor",
-      "summary": "기존 Valuation Agent 내부 판단은 보유였고, Auditor compact에서는 이를 참고 신호로만 사용합니다. DCF 내재주가는 -29,333원이고 현재가 12,970원 대비 괴리율은 -3.26%입니다. peer 대비 P/S는 0.67배로 비교기업 중앙값 2.68배 대비 -75.00% 수준입니다. 208개 반도체 reference universe에서는 팹리스/설계 기준 valuation proxy 49.43/100, label=FAIR입니다.",
+      "summary": "기존 Valuation Agent 내부 판단은 보유였고, Auditor compact에서는 이를 참고 신호로만 사용합니다. DCF 내재주가는 확인 제한이고 현재가 12,970원 대비 괴리율은 확인 제한입니다. 208개 반도체 reference universe에서는 팹리스/설계 기준 valuation proxy 49.43/100, label=FAIR입니다.",
       "key_thesis": [
-        "DCF: 내재주가 -29,333원, 현재가 12,970원, 괴리율 -3.26%.",
-        "Peer P/S: 대상 0.67배 vs 비교기업 중앙값 2.68배, gap -75.00%.",
+        "DCF: 내재주가 확인 제한, 현재가 12,970원, 괴리율 확인 제한.",
+        "Peer P/S: 대상 확인 제한배 vs 비교기업 중앙값 확인 제한배, gap 확인 제한.",
         "Reference Universe: 208개 반도체 universe, 팹리스/설계 peer group 33개, valuation proxy 49.43/100(FAIR).",
-        "Valuation scorecard: 42.40/100, label=VALUATION_RISK, validation=PASS_WITH_WARNINGS.",
-        "할인율/가치: WACC 8.90%, DCF 기업가치 -2,428.6억원, 지분가치 -4,442.2억원."
+        "Valuation scorecard: 47.06/100, label=VALUATION_NEUTRAL, validation=PASS_WITH_WARNINGS.",
+        "할인율/가치: WACC 8.12%, DCF 기업가치 -2,719.2억원, 지분가치 -4,964.9억원."
       ],
       "key_risks": [
-        "DCF 괴리율이 ±10% 이내라 안전마진이 크지 않아 매수/매도보다 보유 판단에 가깝습니다.",
         "Reference universe의 credit proxy가 HIGH_RISK로 나타나 가치 매력과 재무/신용 리스크를 함께 봐야 합니다.",
         "가격 리스크: MDD -71.64%로 변동성/낙폭 리스크 확인이 필요합니다.",
         "변동성: 연환산 변동성 53.64% 수준입니다."
       ],
       "metrics": {
         "original_agent_view_reference": "보유",
-        "implied_price_krw": -29332.874507363376,
         "current_price_krw": 12970.0,
-        "upside_downside_pct": -3.2615940252400444,
-        "wacc": 0.08901739820656597,
-        "enterprise_value": -242856685173.27118,
-        "equity_value": -444223886099.2712,
-        "target_psr": 0.6699666078184099,
-        "peer_median_psr": 2.680022174089385,
-        "psr_gap": -0.750014528127533,
-        "valuation_scorecard_score": 42.4,
-        "valuation_scorecard_label": "VALUATION_RISK",
+        "wacc": 0.08116760692027718,
+        "enterprise_value": -271923202791.2393,
+        "equity_value": -496486625244.23926,
+        "valuation_scorecard_score": 47.06,
+        "valuation_scorecard_label": "VALUATION_NEUTRAL",
         "reference_universe_rows": 208,
         "target_peer_group": "팹리스/설계",
         "target_peer_group_size": 33,
@@ -1118,6 +1110,11 @@
             "message": "최근 연도 FCF margin이 음수입니다. DCF 결과 해석 시 보수적으로 봐야 합니다."
           },
           {
+            "severity": "LOW",
+            "code": "NO_SHARE_COUNT",
+            "message": "발행주식 수를 확인하지 못해 내재주가/시가총액 기반 지표 일부가 제한될 수 있습니다."
+          },
+          {
             "severity": "MEDIUM",
             "code": "NEGATIVE_ENTERPRISE_VALUE",
             "message": "DCF EV가 음수입니다. FCF margin/성장률/WACC 가정을 확인하세요."
@@ -1140,19 +1137,14 @@
             "rows": 1162
           },
           {
-            "step": "share_count",
-            "status": "OK",
-            "shares_outstanding": 15144233.0
-          },
-          {
             "step": "reference_universe",
             "status": "OK",
             "rows": 208
           },
           {
             "step": "market_cap",
-            "status": "OK",
-            "market_cap": 196420702010.0
+            "status": "INFO_NOT_AVAILABLE",
+            "market_cap": null
           },
           {
             "step": "liquidity_proxy",
@@ -1176,25 +1168,23 @@
       },
       "auditor_issues": [
         "same-metric scale inconsistency suspected for wacc: ratio≈6416097784371.4 (metrics.wacc.risk_free_rate=0.035; metrics.wacc.market_risk_premium=0.06; metrics.wacc.beta=1.8; metrics.wacc.cost_of_equity=0.14300000000000002; metrics.wacc.pre_tax_cost_of_debt=0.055)",
-        "same-metric scale inconsistency suspected for fcf: ratio≈1293051801597.9 (metrics.dcf.assumed_fcf_margin=-0.07974717530927648; metrics.dcf.pv_fcf=-70385228634.49637; metrics.peer_comps.target_row.fcf=103117228706.0; metrics.peer_comps.target_row.fcf_margin=0.19775500480158098; metrics.peer_comps.target_row.p_fcf=3.3878617053996996)"
+        "same-metric scale inconsistency suspected for fcf: ratio≈901401772853.2 (metrics.dcf.assumed_fcf_margin=-0.07974717530927648; metrics.dcf.pv_fcf=-71884245203.81891)"
       ],
       "auditor_recommendation": "보유",
-      "auditor_signal": -0.1132,
+      "auditor_signal": -0.0755,
       "auditor_decision_basis": [
-        "DCF 괴리율 -3.26%",
-        "Valuation scorecard 42.40/100",
-        "P/S 0.67배",
-        "peer median P/S 2.68배",
-        "peer P/S gap -75.00%",
+        "DCF 괴리율 25.00%",
+        "Valuation scorecard 47.06/100",
+        "P/S 0.00배",
         "reference universe score 49.43/100",
-        "WACC 8.90%",
+        "WACC 8.12%",
         "validation_status=PASS_WITH_WARNINGS",
         "기존 Valuation Agent 내부 판단 참고=보유"
       ],
       "auditor_signal_components": {
-        "dcf_upside": -0.13046376100960178,
-        "scorecard": -0.5028571428571429,
-        "peer_psr": 1.0,
+        "dcf_upside": 1.0,
+        "scorecard": -0.36971428571428566,
+        "peer_psr": 0.0,
         "reference_universe": -0.15901875901875906,
         "original_agent_view_reference": 0.0,
         "validation_penalty": 0.0,
@@ -1205,23 +1195,23 @@
       "agent": "issue",
       "company_name": "텔레칩스",
       "industry_type": "deeptech_semiconductor",
-      "summary": "텔레칩스는 시스템 반도체 설계 기업으로, 최근 1분기 호실적 발표에 따른 상승세를 보였으나, 단기 상승 부담 및 CCSS 및 차량용 반도체 부문의 조정으로 약세 흐름을 나타내고 있다. 자율주행차 관련주로도 분류되며 시장의 관심을 받고 있으나, 전반적인 반도체 업종의 조정 국면과 맞물려 주가 변동성이 나타나고 있다.",
+      "summary": "텔레칩스는 시스템 반도체 설계 기업으로, 최근 시장에서는 1분기 호실적 발표에 따른 상승세를 보였으나, 단기 상승 부담, 설비 투자 축소 우려, CCSS 및 차량용 반도체 부문의 조정 등으로 인해 약세 흐름을 나타내기도 했습니다. 자율주행차 관련주로도 언급되며 잠재적 성장 가능성을 시사하는 동시에, AI 관련 기대감과 단기 실적 가시성 부담이 공존하는 상황입니다.",
       "key_thesis": [
-        "1분기 호실적 발표: 텔레칩스는 1분기 호실적을 발표하며 주가 상승의 동력을 얻었다. (근거: 뉴스)",
-        "시스템 반도체 설계 기업: 시스템 반도체 설계 기업으로서 기술주 수급 개선 흐름에 따른 상승 가능성이 언급되었다. (근거: 뉴스)",
-        "자율주행차 관련주 분류: 자율주행차 시장 성장에 따른 수혜 기대감이 존재한다. (근거: 뉴스)",
-        "* **긍정적 영향:** 1분기 호실적 발표는 단기적인 주가 상승 모멘텀을 제공했으며, 시스템 반도체 설계 기업으로서의 기술력과 자율주행차 시장 성장 수혜 기대감이 존재한다. * **부정적 영향:** 단기 상승에 따른 차익 실현 매물 출회, CCSS 및 차량용 반도체 부문의 조정, 그리고 전반적인 반도체 업종의 투자 심리 위축이 주가에 부담으로 작용하고 있다."
+        "1분기 호실적 발표: 일부 뉴스에서 텔레칩스가 1분기 호실적을 발표하며 주가 상승에 기여했다는 언급이 있습니다. 이는 단기적인 실적 개선 모멘텀을 시사합니다.",
+        "자율주행차 관련주 언급: 자율주행차 시장의 성장은 텔레칩스의 차량용 반도체 사업에 긍정적인 영향을 줄 수 있습니다.",
+        "시스템 반도체 설계 기업으로서의 잠재력: 시스템 반도체는 AI, 자율주행 등 첨단 기술의 핵심 부품으로, 관련 시장의 성장은 텔레칩스의 장기적인 성장 동력이 될 수 있습니다.",
+        "기술주 수급 개선 흐름: 일부 뉴스에서 텔레칩스가 기술주 수급 개선 흐름을 보인다는 언급이 있습니다."
       ],
       "key_risks": [
-        "단기 상승 부담 및 약세 흐름: 단기 상승 이후 부담이 반영되며 약세 흐름을 보이고 있다. (근거: 뉴스)",
-        "CCSS 및 차량용 반도체 부문 조정: CCSS 및 차량용 반도체 부문의 조정 속에 하락 중이다. (근거: 뉴스)",
-        "반도체 업종 전반의 조정: 업종 전반의 매도세와 투자 심리 위축이 텔레칩스 주가에도 영향을 미치고 있다. (근거: 뉴스)",
-        "실적 가시성 부담: 시장에서는 단기 실적 가시성에 대한 부담이 주가에 반영되고 있다는 분석이 있다. (근거: 뉴스)"
+        "단기 상승 이후 부담 반영 및 약세 흐름: 일부 뉴스에서 텔레칩스가 단기 상승 이후 부담이 반영되어 약세 흐름을 보인다고 언급하고 있습니다. 이는 과도한 상승에 대한 차익 실현 매물 출회 가능성을 시사합니다.",
+        "CCSS 및 차량용 반도체 부문의 조정: CCSS 및 차량용 반도체 부문의 조정은 텔레칩스의 매출 및 수익성에 단기적인 영향을 미칠 수 있습니다.",
+        "설비 투자 축소 우려: 업종 전반의 설비 투자 축소 우려는 반도체 산업의 성장 둔화 가능성을 내포하며, 이는 텔레칩스에도 부정적인 영향을 줄 수 있습니다.",
+        "AI 관련 기대감과 단기 실적 가시성 부담 공존: AI 관련 기대감은 높으나, 단기 실적 가시성에 대한 부담이 주가에 반영되고 있다는 점은 투자 심리에 부정적인 요인으로 작용할 수 있습니다."
       ],
       "warning_note": "검증 불가 claim 6개를 제거한 뒤 grounding 기준을 재검증했습니다.",
       "metrics": {
         "news_count": 10,
-        "rss_count": 10,
+        "rss_count": 11,
         "related_keyword_count": 0,
         "df_news_rows": 139
       },
@@ -1243,10 +1233,10 @@
         "policy": "specialist agent files are not modified; this compact packet is generated by auditor_agent only"
       },
       "watch_points": [
-        "차량용 반도체 시장 회복 및 신규 수주: CCSS 및 차량용 반도체 부문의 회복 시점과 신규 수주 여부가 중요할 것으로 보인다.",
-        "시스템 반도체 시장 경쟁력: 경쟁 심화 속에서 텔레칩스의 기술 경쟁력 및 시장 점유율 확대 노력이 주가에 반영될 수 있다.",
-        "거시 경제 및 투자 심리 변화: 국제 유가 변동성, 미·이란 긴장 재부각 등 거시 경제 이슈와 전반적인 투자 심리 변화가 반도체 업종 전반에 미치는 영향이 텔레칩스 주가에도 영향을 줄 수 있다.",
-        "AI 및 자율주행 관련 기술 발전 및 적용: AI 및 자율주행 기술 발전이 텔레칩스의 사업 영역에 미치는 긍정적/부정적 영향 및 실제 사업화 성과를 지속적으로 확인할 필요가 있다."
+        "차량용 반도체 시장 동향 및 텔레칩스의 경쟁력: 자율주행차 시장의 성장과 함께 텔레칩스의 차량용 반도체 사업 성과 및 경쟁력 변화를 지속적으로 모니터링해야 합니다.",
+        "AI 관련 기술 개발 및 사업화 성과: AI 시장의 성장에 따른 텔레칩스의 기술 개발 및 사업화 성과가 주가에 미치는 영향을 주시해야 합니다.",
+        "실적 발표 및 가이던스: 향후 발표될 실적과 경영진의 가이던스를 통해 단기 실적 가시성에 대한 부담이 해소되는지 확인할 필요가 있습니다.",
+        "거시 경제 및 반도체 업황 변화: 글로벌 경제 상황 및 반도체 업황 전반의 변화가 텔레칩스의 주가에 미치는 영향을 고려해야 합니다."
       ],
       "output_files": {
         "issue_json": "data/반도체/텔레칩스/issue/telechips_issue.json",
@@ -1261,13 +1251,13 @@
         "stage3_decision_readiness": 0.7222
       },
       "auditor_recommendation": "보유",
-      "auditor_signal": 0.7333,
+      "auditor_signal": 0.7647,
       "auditor_decision_basis": [
-        "긍정 키워드 26회",
+        "긍정 키워드 30회",
         "부정/리스크 키워드 4회"
       ],
       "auditor_signal_components": {
-        "positive_terms": 26,
+        "positive_terms": 30,
         "negative_terms": 4
       }
     },
@@ -1275,145 +1265,145 @@
       "agent": "macro",
       "company_name": "텔레칩스",
       "industry_type": "deeptech_semiconductor",
-      "summary": "현재 매크로 환경은 전반적으로 우호적이며 리스크 레벨은 낮음으로 평가됩니다. 금리 수준은 안정적이며, 원달러 환율은 하락세를 보이고 있습니다. 다만, 글로벌 경기 지표의 소폭 개선에도 불구하고 지정학적 불확실성 및 주요 원자재 가격 변동성은 여전히 관찰될 필요가 있습니다. 이러한 환경은 반도체 딥테크 기업에 긍정적인 영향을 줄 수 있으나, 글로벌 수요 회복 및 지정학적 리스크 완화 여부를 지속적으로 주시해야 합니다.",
+      "summary": "현재 매크로 환경은 총점 3점, 리스크 레벨 'medium'으로 평가되며, 전반적으로 중립 우호적인 흐름을 보입니다. 이는 유동성, 신용, 환율, 인플레이션, 투자심리, 규제 등 다양한 거시경제 지표들이 안정적인 수준을 유지하거나 개선되는 추세를 반영합니다. 이러한 환경은 국내 반도체 딥테크 상장기업에 긍정적인 영향을 미칠 수 있으나, 개별 기업의 사업 리스크 및 글로벌 경기 변동성을 고려한 신중한 접근이 필요합니다.",
       "key_thesis": [
+        "국고채_3년 하락 → 유동성 환경 개선",
+        "cd금리_91일 하락 → 유동성 환경 개선",
         "원달러 고수준 구간 하락 → 환율 부담 완화",
-        "신용스프레드_bbb- 축소 → 신용 리스크 완화",
-        "신용스프레드_aa- 축소 → 신용 리스크 완화",
         "10년-2년 스프레드 확대 → 경기 정상화/수요 개선 신호"
       ],
       "key_risks": [
-        "원달러 환율의 지속적인 하락 가능성 (현재 레벨 1402.2, 하락 추세)",
-        "글로벌 경기 둔화 가능성 (OECD CLI 한국 100.5181, 미국 99.9467)",
-        "주요 원자재 가격 변동성 (유가, 구리 가격)"
+        "원달러 환율 하락 추세 (1423.2원, diff -9.8)",
+        "미국 국채 10년물 금리 레벨 (4.101%)",
+        "글로벌 AI Capex 사이클 변동성"
       ],
       "warning_note": "검증 불가 claim 6개를 제거한 뒤 grounding 기준을 재검증했습니다. 최종 grounding score가 기준(0.75)에 미달했습니다. score=0.0",
       "metrics": {
-        "macro_score": 15,
+        "macro_score": 3,
         "macro_signal": "BUY",
-        "risk_level": "LOW",
+        "risk_level": "MEDIUM_LOW",
         "ecos_daily": {
-          "국고채_10년_level": 2.951,
-          "국고채_10년_diff": 0.012,
+          "국고채_10년_level": 3.061,
+          "국고채_10년_diff": 0.011,
           "국고채_10년_zone": "neutral",
           "국고채_10년_criteria": {
             "method": "empirical_percentile",
-            "lookback_observations": 2830,
-            "high": 3.3654000000000006,
-            "low": 1.729,
+            "lookback_observations": 2861,
+            "high": 3.362,
+            "low": 1.731,
             "high_q": 0.8,
             "low_q": 0.2
           },
-          "국고채_3년_level": 2.582,
-          "국고채_3년_diff": 0.019,
+          "국고채_3년_level": 2.716,
+          "국고채_3년_diff": -0.016,
           "국고채_3년_zone": "neutral",
           "국고채_3년_criteria": {
             "method": "empirical_percentile",
-            "lookback_observations": 2830,
-            "high": 3.293,
-            "low": 1.303,
+            "lookback_observations": 2861,
+            "high": 3.29,
+            "low": 1.308,
             "high_q": 0.8,
             "low_q": 0.2
           },
-          "콜금리_level": 2.575,
-          "콜금리_diff": 0.044,
+          "콜금리_level": 2.511,
+          "콜금리_diff": 0.004,
           "콜금리_zone": "neutral",
           "콜금리_criteria": {
             "method": "empirical_percentile",
-            "lookback_observations": 2830,
-            "high": 3.432,
+            "lookback_observations": 2861,
+            "high": 3.429,
             "low": 0.76,
             "high_q": 0.8,
             "low_q": 0.2
           },
-          "cd금리_91일_level": 2.57,
-          "cd금리_91일_diff": 0.0,
+          "cd금리_91일_level": 2.55,
+          "cd금리_91일_diff": -0.01,
           "cd금리_91일_zone": "neutral",
           "cd금리_91일_criteria": {
             "method": "empirical_percentile",
-            "lookback_observations": 2830,
-            "high": 3.57,
+            "lookback_observations": 2861,
+            "high": 3.56,
             "low": 1.1,
             "high_q": 0.8,
             "low_q": 0.2
           },
-          "국고채_10년_3년_스프레드": 0.369,
+          "국고채_10년_3년_스프레드": 0.345,
           "국고채_10년_3년_스프레드_criteria": {
             "method": "empirical_percentile",
-            "lookback_observations": 2830,
+            "lookback_observations": 2861,
             "high": 0.5,
-            "low": 0.09100000000000005,
+            "low": 0.0919999999999996,
             "high_q": 0.8,
             "low_q": 0.2
           },
-          "원달러_level": 1402.2,
-          "원달러_diff": -9.4,
+          "원달러_level": 1423.2,
+          "원달러_diff": -9.8,
           "원달러_zone": "high",
           "원달러_criteria": {
             "method": "empirical_percentile",
-            "lookback_observations": 2830,
-            "high": 1352.3,
-            "low": 1128.78,
+            "lookback_observations": 2861,
+            "high": 1357.6,
+            "low": 1129.0,
             "high_q": 0.8,
             "low_q": 0.2
           },
-          "신용스프레드_bbb-_level": 6.286,
-          "신용스프레드_bbb-_diff": -0.002,
+          "신용스프레드_bbb-_level": 6.256,
+          "신용스프레드_bbb-_diff": 0.003,
           "신용스프레드_bbb-_zone": "low",
-          "신용스프레드_aa-_level": 0.44,
-          "신용스프레드_aa-_diff": -0.001,
+          "신용스프레드_aa-_level": 0.406,
+          "신용스프레드_aa-_diff": 0.003,
           "신용스프레드_aa-_zone": "low"
         },
         "external_daily": {
-          "미국_국채_10년_2년_스프레드": 0.548,
-          "미국_국채_10년_2년_스프레드_diff": 0.037,
+          "미국_국채_10년_2년_스프레드": 0.501,
+          "미국_국채_10년_2년_스프레드_diff": 0.018,
           "미국_국채_10년_2년_스프레드_criteria": {
             "method": "empirical_percentile",
-            "lookback_observations": 2830,
-            "high": 0.5802001862525942,
-            "low": -0.3479999847412111,
+            "lookback_observations": 2861,
+            "high": 0.5780000686645508,
+            "low": -0.3449999237060543,
             "high_q": 0.8,
             "low_q": 0.2
           },
-          "미국_국채_10년_level": 4.148,
-          "미국_국채_10년_diff": 0.007,
+          "미국_국채_10년_level": 4.101,
+          "미국_국채_10년_diff": 0.008,
           "미국_국채_10년_zone": "neutral",
           "미국_국채_10년_criteria": {
             "method": "empirical_percentile",
-            "lookback_observations": 2830,
-            "high": 4.189600086212159,
-            "low": 1.5360000133514404,
+            "lookback_observations": 2861,
+            "high": 4.186999797821045,
+            "low": 1.5390000343322754,
             "high_q": 0.8,
             "low_q": 0.2
           },
-          "미국_국채_13주_level": 3.845,
-          "미국_국채_13주_diff": -0.018,
+          "미국_국채_13주_level": 3.718,
+          "미국_국채_13주_diff": -0.039,
           "미국_국채_13주_zone": "neutral",
           "미국_국채_13주_criteria": {
             "method": "empirical_percentile",
-            "lookback_observations": 2830,
-            "high": 4.635000228881836,
+            "lookback_observations": 2861,
+            "high": 4.5929999351501465,
             "low": 0.1030000001192092,
             "high_q": 0.8,
             "low_q": 0.2
           },
-          "달러인덱스_dxy_level": 97.77,
-          "달러인덱스_dxy_diff": -0.14,
+          "달러인덱스_dxy_level": 99.8,
+          "달러인덱스_dxy_diff": 0.27,
           "달러인덱스_dxy_zone": "neutral",
           "달러인덱스_dxy_criteria": {
             "method": "empirical_percentile",
-            "lookback_observations": 2830,
-            "high": 104.18000030517578,
-            "low": 93.78800048828126,
+            "lookback_observations": 2861,
+            "high": 104.16000366210938,
+            "low": 93.83999633789062,
             "high_q": 0.8,
             "low_q": 0.2
           },
-          "유가_평균_diff": -1.015,
-          "유가_wti_diff": -1.08,
-          "유가_brent_diff": -0.95,
-          "구리_diff": -0.036,
-          "미국_하이일드_스프레드_level": 2.8,
-          "미국_하이일드_스프레드_diff": 0.06
+          "유가_평균_diff": 0.24,
+          "유가_wti_diff": 0.41,
+          "유가_brent_diff": 0.07,
+          "구리_diff": -0.0125,
+          "미국_하이일드_스프레드_level": 2.94,
+          "미국_하이일드_스프레드_diff": 0.09
         },
         "news_signal": {
           "positive_keyword_count": 0,
@@ -1441,9 +1431,9 @@
         "policy": "specialist agent files are not modified; this compact packet is generated by auditor_agent only"
       },
       "watch_points": [
-        "{\"indicator\": \"원달러 환율\", \"current\": \"1402.2원, 하락 추세\", \"threshold\": \"지속적인 하락은 수출 기업 수익성에 부정적 영향\", \"semiconductor_relevance\": \"수출 비중이 높은 반도체 기업의 실적에 직접적인 영향\"}",
-        "{\"indicator\": \"미국 국채 10년물 금리\", \"current\": \"4.148%, 안정적 수준 유지\", \"threshold\": \"금리 상승 전환 시 성장주 밸류에이션 할인 요인으로 작용\", \"semiconductor_relevance\": \"고금리 환경은 반도체 딥테크 기업의 투자 및 밸류에이션에 부담\"}",
-        "{\"indicator\": \"글로벌 경기 선행 지수 (OECD CLI)\", \"current\": \"한국 100.5181, 미국 99.9467, 소폭 개선세\", \"threshold\": \"경기 둔화 또는 침체 신호 감지 시 반도체 수요 위축 우려\", \"semiconductor_relevance\": \"반도체 수요는 글로벌 경기 사이클과 밀접한 연관\"}"
+        "{\"indicator\": \"원달러 환율\", \"current\": \"1423.2원으로 하락 추세 (diff -9.8)\", \"threshold\": \"지속적인 하락은 수출 기업 수익성 악화 우려\", \"semiconductor_relevance\": \"수출 비중이 높은 반도체 기업의 수익성에 직접적인 영향\"}",
+        "{\"indicator\": \"미국 국채 10년물 금리\", \"current\": \"4.101% 수준으로 과거 평균 대비 높은 레벨\", \"threshold\": \"금리 상승은 성장주 밸류에이션 할인 요인으로 작용 가능\", \"semiconductor_relevance\": \"반도체 딥테크 기업의 성장주 특성상 밸류에이션에 부담으로 작용 가능\"}",
+        "{\"indicator\": \"미국 국채 10년물 - 2년물 스프레드\", \"current\": \"0.501%로 플랫 구간 유지\", \"threshold\": \"경기 침체 신호인 역전 또는 급격한 평탄화 여부 주시\", \"semiconductor_relevance\": \"경기 침체 우려는 반도체 수요 둔화로 이어질 수 있음\"}"
       ],
       "output_files": {
         "macro_signal_json": "data/반도체/텔레칩스/macro/macro_signal_20260526.json",
@@ -1462,7 +1452,7 @@
       "auditor_recommendation": "매도",
       "auditor_signal": -1.0,
       "auditor_decision_basis": [
-        "macro_score 15.00/100",
+        "macro_score 3.00/100",
         "raw_macro_label_seen_but_not_primary=BUY"
       ],
       "auditor_signal_components": {

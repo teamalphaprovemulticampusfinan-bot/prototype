@@ -2,12 +2,12 @@
   "agent": "tech_intake",
   "artifact": "tech_intake_value_evidence_bridge",
   "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-  "created_at": "2026-05-26T06:19:20",
+  "created_at": "2026-05-26T22:39:53",
   "field": "반도체",
   "company": "테스",
   "company_dir": "tes",
   "company_slug": "tes",
-  "source_document_count": 157,
+  "source_document_count": 156,
   "source_documents": [
     {
       "source_group": "TECH_OUTPUT",
@@ -126,6 +126,18 @@
     {
       "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/테스/tech/tech_history_features_2025-09-30.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/테스/tech/tech_history_features_2025-10-31.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/테스/tech/tech_history_features_2025-10-31.json",
       "detected_url_count": 0,
       "fallback_url_count": 2
     },
@@ -773,12 +785,6 @@
     },
     {
       "source_group": "VALUATION",
-      "source_file": "data/반도체/테스/valuation/intake/financials_raw.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "VALUATION",
       "source_file": "data/반도체/테스/valuation/intake/peer_multiples.csv",
       "detected_url_count": 0,
       "fallback_url_count": 5
@@ -869,12 +875,6 @@
     },
     {
       "source_group": "VALUATION",
-      "source_file": "data/반도체/테스/valuation/intake/valuation_raw_dart_accounts.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "VALUATION",
       "source_file": "data/반도체/테스/valuation/intake/valuation_reference_universe_208.csv",
       "detected_url_count": 0,
       "fallback_url_count": 5
@@ -888,12 +888,6 @@
     {
       "source_group": "VALUATION",
       "source_file": "data/반도체/테스/valuation/intake/valuation_reference_universe_summary.json",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "VALUATION",
-      "source_file": "data/반도체/테스/valuation/intake/valuation_share_count.csv",
       "detected_url_count": 0,
       "fallback_url_count": 5
     },
@@ -948,8 +942,8 @@
     {
       "source_group": "FINANCE",
       "source_file": "data/반도체/테스/finance/intake/finance_intake_manifest.json",
-      "detected_url_count": 1,
-      "fallback_url_count": 0
+      "detected_url_count": 0,
+      "fallback_url_count": 5
     }
   ],
   "source_url_map": {
@@ -1148,9 +1142,7 @@
       ]
     },
     "FINANCE": {
-      "detected_urls": [
-        "https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception"
-      ],
+      "detected_urls": [],
       "fallback_urls": [
         "https://dart.fss.or.kr/",
         "https://opendart.fss.or.kr/",

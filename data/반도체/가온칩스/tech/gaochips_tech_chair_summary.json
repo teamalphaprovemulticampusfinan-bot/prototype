@@ -1,7 +1,7 @@
 {
   "agent": "tech",
   "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-  "created_at": "2026-05-26T05:29:31",
+  "created_at": "2026-05-26T21:20:52",
   "field": "반도체",
   "company": "가온칩스",
   "company_name": "가온칩스",
@@ -564,7 +564,7 @@
     "company_name": "가온칩스",
     "field": "반도체",
     "status": "OK",
-    "created_at": "2026-05-26T05:27:25",
+    "created_at": "2026-05-26T21:20:31",
     "weights": {
       "legal_stability": 0.25,
       "claim_defense": 0.3,
@@ -658,10 +658,10 @@
     "tech_investor_scorecard_md": "data/반도체/가온칩스/tech/gaochips_tech_investor_scorecard.md"
   },
   "ip_evidence_bridge_adjustment_status": "APPLIED",
-  "ip_evidence_bridge_adjustment_applied_at": "2026-05-26T05:29:49",
+  "ip_evidence_bridge_adjustment_applied_at": "2026-05-26T21:21:02",
   "tech_investor_view": {
     "version": "tech-investor-scorecard-v2",
-    "generated_at": "2026-05-26T05:30:25",
+    "generated_at": "2026-05-26T21:21:34",
     "company_slug": "gaochips",
     "company_name": "가온칩스",
     "final_tech_investor_score": 57.65,
@@ -1021,12 +1021,12 @@
     "agent": "tech_intake",
     "artifact": "tech_intake_value_evidence_bridge",
     "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-    "created_at": "2026-05-26T05:30:34",
+    "created_at": "2026-05-26T21:22:12",
     "field": "반도체",
     "company": "가온칩스",
     "company_dir": "gaochips",
     "company_slug": "gaochips",
-    "source_document_count": 152,
+    "source_document_count": 151,
     "source_documents": [
       {
         "source_group": "KIPRIS",
@@ -1438,6 +1438,18 @@
       },
       {
         "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/가온칩스/tech/tech_history_features_2025-10-31.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/가온칩스/tech/tech_history_features_2025-10-31.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
         "source_file": "data/반도체/가온칩스/tech/tech_intake_manifest.json",
         "detected_url_count": 0,
         "fallback_url_count": 2
@@ -1774,12 +1786,6 @@
       },
       {
         "source_group": "VALUATION",
-        "source_file": "data/반도체/가온칩스/valuation/intake/financials_raw.csv",
-        "detected_url_count": 0,
-        "fallback_url_count": 5
-      },
-      {
-        "source_group": "VALUATION",
         "source_file": "data/반도체/가온칩스/valuation/intake/peer_multiples.csv",
         "detected_url_count": 0,
         "fallback_url_count": 5
@@ -1870,12 +1876,6 @@
       },
       {
         "source_group": "VALUATION",
-        "source_file": "data/반도체/가온칩스/valuation/intake/valuation_raw_dart_accounts.csv",
-        "detected_url_count": 0,
-        "fallback_url_count": 5
-      },
-      {
-        "source_group": "VALUATION",
         "source_file": "data/반도체/가온칩스/valuation/intake/valuation_reference_universe_208.csv",
         "detected_url_count": 0,
         "fallback_url_count": 5
@@ -1889,12 +1889,6 @@
       {
         "source_group": "VALUATION",
         "source_file": "data/반도체/가온칩스/valuation/intake/valuation_reference_universe_summary.json",
-        "detected_url_count": 0,
-        "fallback_url_count": 5
-      },
-      {
-        "source_group": "VALUATION",
-        "source_file": "data/반도체/가온칩스/valuation/intake/valuation_share_count.csv",
         "detected_url_count": 0,
         "fallback_url_count": 5
       },
@@ -1937,8 +1931,8 @@
       {
         "source_group": "FINANCE",
         "source_file": "data/반도체/가온칩스/finance/intake/finance_intake_manifest.json",
-        "detected_url_count": 1,
-        "fallback_url_count": 0
+        "detected_url_count": 0,
+        "fallback_url_count": 5
       }
     ],
     "source_url_map": {
@@ -1983,7 +1977,7 @@
           "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020250029605&registerNumber=1029574270000&registrationNumber=1029574270000&format=xml",
           "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210162801&registerNumber=1023813470000&registrationNumber=1023813470000&format=xml",
           "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210158969&registerNumber=1023813610000&registrationNumber=1023813610000&format=xml",
-          "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/patentClaimInfo?accessKey=%2A%2A%2AKEY%2A%2A%2A&applicationNumber=1020210131634&registe",
+          "http://plus.kipris.or.kr/ope",
           "http://www.w3.org/2001/XMLSchema-instance",
           "http://www.nepes.co.kr",
           "https://dart.fss.or.kr/",
@@ -2063,9 +2057,7 @@
         ]
       },
       "FINANCE": {
-        "detected_urls": [
-          "https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception"
-        ],
+        "detected_urls": [],
         "fallback_urls": [
           "https://dart.fss.or.kr/",
           "https://opendart.fss.or.kr/",

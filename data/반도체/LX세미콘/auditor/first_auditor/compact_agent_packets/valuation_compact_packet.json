@@ -2,40 +2,34 @@
   "agent": "valuation",
   "company_name": "LX세미콘",
   "industry_type": "deeptech_semiconductor",
-  "summary": "기존 Valuation Agent 내부 판단은 매도였고, Auditor compact에서는 이를 참고 신호로만 사용합니다. DCF 내재주가는 52,122원이고 현재가 54,500원 대비 괴리율은 -4.36%입니다. peer 대비 P/S는 0.67배로 비교기업 중앙값 2.68배 대비 -75.00% 수준입니다. 208개 반도체 reference universe에서는 팹리스/설계 기준 valuation proxy 69.54/100, label=ATTRACTIVE입니다.",
+  "summary": "기존 Valuation Agent 내부 판단은 보유였고, Auditor compact에서는 이를 참고 신호로만 사용합니다. DCF 내재주가는 확인 제한이고 현재가 54,500원 대비 괴리율은 확인 제한입니다. 208개 반도체 reference universe에서는 팹리스/설계 기준 valuation proxy 69.54/100, label=ATTRACTIVE입니다.",
   "key_thesis": [
-    "DCF: 내재주가 52,122원, 현재가 54,500원, 괴리율 -4.36%.",
-    "Peer P/S: 대상 0.67배 vs 비교기업 중앙값 2.68배, gap -75.00%.",
+    "DCF: 내재주가 확인 제한, 현재가 54,500원, 괴리율 확인 제한.",
+    "Peer P/S: 대상 확인 제한배 vs 비교기업 중앙값 확인 제한배, gap 확인 제한.",
     "Reference Universe: 208개 반도체 universe, 팹리스/설계 peer group 33개, valuation proxy 69.54/100(ATTRACTIVE).",
-    "Valuation scorecard: 64.96/100, label=VALUATION_NEUTRAL_POSITIVE, validation=PASS.",
-    "할인율/가치: WACC 11.42%, DCF 기업가치 9,437.9억원, 지분가치 8,477.3억원."
+    "Valuation scorecard: 51.15/100, label=VALUATION_NEUTRAL, validation=PASS_WITH_WARNINGS.",
+    "할인율/가치: WACC 11.00%, DCF 기업가치 1,167.8억원, 지분가치 -3,034.4억원."
   ],
   "key_risks": [
-    "DCF 괴리율이 ±10% 이내라 안전마진이 크지 않아 매수/매도보다 보유 판단에 가깝습니다.",
-    "WACC가 11.42%로 높아 장기 현금흐름 가정 변화에 민감합니다.",
+    "WACC가 11.00%로 높아 장기 현금흐름 가정 변화에 민감합니다.",
     "가격 리스크: MDD -72.24%로 변동성/낙폭 리스크 확인이 필요합니다.",
     "변동성: 연환산 변동성 42.32% 수준입니다."
   ],
   "metrics": {
-    "original_agent_view_reference": "매도",
-    "implied_price_krw": 52121.872176836274,
+    "original_agent_view_reference": "보유",
     "current_price_krw": 54500.0,
-    "upside_downside_pct": -0.043635372902086744,
-    "wacc": 0.11418514902495984,
-    "enterprise_value": 943793929077.7183,
-    "equity_value": 847725765645.7183,
-    "target_psr": 0.6699666078184099,
-    "peer_median_psr": 2.680022174089385,
-    "psr_gap": -0.750014528127533,
-    "valuation_scorecard_score": 64.96,
-    "valuation_scorecard_label": "VALUATION_NEUTRAL_POSITIVE",
+    "wacc": 0.11002430850001044,
+    "enterprise_value": 116776945194.49695,
+    "equity_value": -303438477159.50305,
+    "valuation_scorecard_score": 51.15,
+    "valuation_scorecard_label": "VALUATION_NEUTRAL",
     "reference_universe_rows": 208,
     "target_peer_group": "팹리스/설계",
     "target_peer_group_size": 33,
     "valuation_proxy_score": 69.53535353535354,
     "valuation_proxy_label": "ATTRACTIVE",
     "credit_proxy_label": "LOW_RISK",
-    "validation_status": "PASS"
+    "validation_status": "PASS_WITH_WARNINGS"
   },
   "audit_trace": {
     "original_claim_count": 3,
@@ -65,29 +59,29 @@
     "source_map_json": "data/반도체/LX세미콘/valuation/lxsemicon_source_map.json"
   },
   "validation": {
-    "status": "PASS",
+    "status": "PASS_WITH_WARNINGS",
     "issues": [
       {
-        "severity": "INFO",
-        "code": "NO_MAJOR_WARNINGS",
-        "message": "주요 validation warning 없음"
+        "severity": "LOW",
+        "code": "NO_SHARE_COUNT",
+        "message": "발행주식 수를 확인하지 못해 내재주가/시가총액 기반 지표 일부가 제한될 수 있습니다."
+      },
+      {
+        "severity": "MEDIUM",
+        "code": "NEGATIVE_EQUITY_VALUE",
+        "message": "DCF 지분가치가 음수입니다. 부채 proxy와 현금흐름 가정을 확인하세요."
       }
     ],
     "audit_trail": [
       {
         "step": "normalized_financials",
         "status": "OK",
-        "rows": 5
+        "rows": 4
       },
       {
         "step": "price_history",
         "status": "OK",
         "rows": 1163
-      },
-      {
-        "step": "share_count",
-        "status": "OK",
-        "shares_outstanding": 16264300.0
       },
       {
         "step": "reference_universe",
@@ -96,8 +90,8 @@
       },
       {
         "step": "market_cap",
-        "status": "OK",
-        "market_cap": 886404350000.0
+        "status": "INFO_NOT_AVAILABLE",
+        "market_cap": null
       },
       {
         "step": "liquidity_proxy",
@@ -113,35 +107,33 @@
     "principle": "valuation_agent 자체 데이터/모델 일관성 검증; 기존 web-auditor 의존 없음"
   },
   "auditor_status": "PASS",
-  "auditor_actual_match": 0.9056,
+  "auditor_actual_match": 0.9511,
   "auditor_stage_scores": {
-    "stage1_basic_consistency": 0.7167,
+    "stage1_basic_consistency": 0.8533,
     "stage2_framework": 1.0,
     "stage3_decision_readiness": 1.0
   },
   "auditor_issues": [
-    "same-metric scale inconsistency suspected for wacc: ratio≈32160187559485.7 (metrics.wacc.risk_free_rate=0.035; metrics.wacc.market_risk_premium=0.06; metrics.wacc.beta=1.692995984044342; metrics.wacc.cost_of_equity=0.1365797590426605; metrics.wacc.pre_tax_cost_of_debt=0.055)",
-    "same-metric scale inconsistency suspected for fcf: ratio≈5380827325237.0 (metrics.dcf.assumed_fcf_margin=0.06721506230501169; metrics.dcf.pv_fcf=361672643918.31195; metrics.peer_comps.target_row.fcf=103117228706.0; metrics.peer_comps.target_row.fcf_margin=0.19775500480158098; metrics.peer_comps.target_row.p_fcf=3.3878617053996996)"
+    "same-metric scale inconsistency suspected for wacc: ratio≈30845329328742.9 (metrics.wacc.risk_free_rate=0.035; metrics.wacc.market_risk_premium=0.06; metrics.wacc.beta=1.692995984044342; metrics.wacc.cost_of_equity=0.1365797590426605; metrics.wacc.pre_tax_cost_of_debt=0.055)",
+    "same-metric scale inconsistency suspected for fcf: ratio≈7006172835439.2 (metrics.dcf.assumed_fcf_margin=0.00604220024787297; metrics.dcf.pv_fcf=42332699242.93168)"
   ],
-  "auditor_recommendation": "매도",
-  "auditor_signal": 0.0546,
+  "auditor_recommendation": "보유",
+  "auditor_signal": 0.1661,
   "auditor_decision_basis": [
-    "DCF 괴리율 -4.36%",
-    "Valuation scorecard 64.96/100",
-    "P/S 0.67배",
-    "peer median P/S 2.68배",
-    "peer P/S gap -75.00%",
+    "DCF 괴리율 25.00%",
+    "Valuation scorecard 51.15/100",
+    "P/S 0.00배",
     "reference universe score 69.54/100",
-    "WACC 11.42%",
-    "validation_status=PASS",
-    "기존 Valuation Agent 내부 판단 참고=매도"
+    "WACC 11.00%",
+    "validation_status=PASS_WITH_WARNINGS",
+    "기존 Valuation Agent 내부 판단 참고=보유"
   ],
   "auditor_signal_components": {
-    "dcf_upside": -0.17454149160834698,
-    "scorecard": 0.14171428571428554,
-    "peer_psr": 1.0,
+    "dcf_upside": 1.0,
+    "scorecard": -0.2528571428571429,
+    "peer_psr": 0.0,
     "reference_universe": 0.41529581529581533,
-    "original_agent_view_reference": -1.0,
+    "original_agent_view_reference": 0.0,
     "validation_penalty": 0.0,
     "credit_risk_overlay": 0.0
   }

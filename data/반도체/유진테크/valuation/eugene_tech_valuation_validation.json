@@ -2,9 +2,9 @@
   "status": "PASS",
   "issues": [
     {
-      "severity": "INFO",
-      "code": "NO_MAJOR_WARNINGS",
-      "message": "주요 validation warning 없음"
+      "severity": "LOW",
+      "code": "NO_SHARE_COUNT",
+      "message": "발행주식 수를 확인하지 못해 내재주가/시가총액 기반 지표 일부가 제한될 수 있습니다."
     }
   ],
   "audit_trail": [
@@ -19,19 +19,14 @@
       "rows": 1162
     },
     {
-      "step": "share_count",
-      "status": "OK",
-      "shares_outstanding": 22916042.0
-    },
-    {
       "step": "reference_universe",
       "status": "OK",
       "rows": 208
     },
     {
       "step": "market_cap",
-      "status": "OK",
-      "market_cap": 1601831335800.0
+      "status": "INFO_NOT_AVAILABLE",
+      "market_cap": null
     },
     {
       "step": "liquidity_proxy",

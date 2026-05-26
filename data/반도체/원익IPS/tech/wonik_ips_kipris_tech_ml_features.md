@@ -3,7 +3,7 @@
 ## 1. Source
 - source_csv: `data\반도체\원익IPS\tech\wonik_ips_kipris_patents_normalized.csv`
 - enriched_csv: `data\반도체\원익IPS\tech\wonik_ips_kipris_tech_ml_enriched.csv`
-- generated_at: 2026-05-26T05:39:31
+- generated_at: 2026-05-26T21:39:32
 
 ## 2. Core Counts
 - total_patents: 116

@@ -2,12 +2,12 @@
   "agent": "tech_intake",
   "artifact": "tech_intake_value_evidence_bridge",
   "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-  "created_at": "2026-05-26T04:43:14",
+  "created_at": "2026-05-26T20:09:56",
   "field": "반도체",
   "company": "제주반도체",
   "company_dir": "jeju_semicon",
   "company_slug": "jeju_semicon",
-  "source_document_count": 154,
+  "source_document_count": 153,
   "source_documents": [
     {
       "source_group": "KIPRIS",
@@ -174,7 +174,7 @@
     {
       "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/제주반도체/tech/jeju_semicon_tech_intake_value_evidence.json",
-      "detected_url_count": 12,
+      "detected_url_count": 11,
       "fallback_url_count": 0
     },
     {
@@ -419,6 +419,18 @@
     },
     {
       "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/제주반도체/tech/tech_history_features_2025-10-31.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/제주반도체/tech/tech_history_features_2025-10-31.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/제주반도체/tech/tech_intake_manifest.json",
       "detected_url_count": 0,
       "fallback_url_count": 2
@@ -432,7 +444,7 @@
     {
       "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/제주반도체/tech/tech_intake_value_evidence.json",
-      "detected_url_count": 12,
+      "detected_url_count": 11,
       "fallback_url_count": 0
     },
     {
@@ -755,12 +767,6 @@
     },
     {
       "source_group": "VALUATION",
-      "source_file": "data/반도체/제주반도체/valuation/intake/financials_raw.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "VALUATION",
       "source_file": "data/반도체/제주반도체/valuation/intake/peer_multiples.csv",
       "detected_url_count": 0,
       "fallback_url_count": 5
@@ -851,12 +857,6 @@
     },
     {
       "source_group": "VALUATION",
-      "source_file": "data/반도체/제주반도체/valuation/intake/valuation_raw_dart_accounts.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "VALUATION",
       "source_file": "data/반도체/제주반도체/valuation/intake/valuation_reference_universe_208.csv",
       "detected_url_count": 0,
       "fallback_url_count": 5
@@ -870,12 +870,6 @@
     {
       "source_group": "VALUATION",
       "source_file": "data/반도체/제주반도체/valuation/intake/valuation_reference_universe_summary.json",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "VALUATION",
-      "source_file": "data/반도체/제주반도체/valuation/intake/valuation_share_count.csv",
       "detected_url_count": 0,
       "fallback_url_count": 5
     },
@@ -930,8 +924,8 @@
     {
       "source_group": "FINANCE",
       "source_file": "data/반도체/제주반도체/finance/intake/finance_intake_manifest.json",
-      "detected_url_count": 1,
-      "fallback_url_count": 0
+      "detected_url_count": 0,
+      "fallback_url_count": 5
     }
   ],
   "source_url_map": {
@@ -1032,8 +1026,7 @@
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cf9a9b73d31661583fe7c6eb54d0fa013fdea568358d0b1d690824914dee7427f",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c1531c25f20055517e557a4e8bb2b779cc42ccc97707907a95db8f1edbf0eec18",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c20f465ffcfa4530346c6465d651c819e27075e404217265ea359ee8049dfdd03",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c20f465ffcfa4530345a04d5e80981bf9a8a25497ebbe07dd7d24699b6c40f84f",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c20",
         "http://www.w3.org/2001/XMLSchema-instance",
         "http://www.nepes.co.kr",
         "https://dart.fss.or.kr/",
@@ -1113,9 +1106,7 @@
       ]
     },
     "FINANCE": {
-      "detected_urls": [
-        "https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception"
-      ],
+      "detected_urls": [],
       "fallback_urls": [
         "https://dart.fss.or.kr/",
         "https://opendart.fss.or.kr/",

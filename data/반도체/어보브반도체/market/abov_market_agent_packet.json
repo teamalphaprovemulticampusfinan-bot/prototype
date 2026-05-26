@@ -4,13 +4,13 @@
   "company": "어보브반도체",
   "opinion": "보유",
   "confidence": 0.45,
-  "summary": "어보브반도체에 대해 검증 가능한 핵심 근거는 다음과 같습니다. 어보브반도체 마켓 분석 total_score 값은 60점입니다. 어보브반도체 stock_data.current_price 값은 13000입니다. 어보브반도체 stock_data.change 값은 1210입니다. 어보브반도체 stock_data.change_rate 값은 10.26%입니다. 어보브반도체 stock_data.raw.clpr 값은 13000입니다.",
+  "summary": "어보브반도체에 대해 검증 가능한 핵심 근거는 다음과 같습니다. 어보브반도체 마켓 분석 total_score 값은 60점입니다. 어보브반도체 stock_data.current_price 값은 13580입니다. 어보브반도체 stock_data.change 값은 580입니다. 어보브반도체 stock_data.change_rate 값은 4.46%입니다. 어보브반도체 stock_data.raw.clpr 값은 13580입니다.",
   "key_points": [
     "어보브반도체 마켓 분석 total_score 값은 60점입니다.",
-    "어보브반도체 stock_data.current_price 값은 13000입니다.",
-    "어보브반도체 stock_data.change 값은 1210입니다.",
-    "어보브반도체 stock_data.change_rate 값은 10.26%입니다.",
-    "어보브반도체 stock_data.raw.clpr 값은 13000입니다."
+    "어보브반도체 stock_data.current_price 값은 13580입니다.",
+    "어보브반도체 stock_data.change 값은 580입니다.",
+    "어보브반도체 stock_data.change_rate 값은 4.46%입니다.",
+    "어보브반도체 stock_data.raw.clpr 값은 13580입니다."
   ],
   "risks": [],
   "claims": [
@@ -23,42 +23,42 @@
     },
     {
       "claim_id": "market.cl.002",
-      "text": "어보브반도체 stock_data.current_price 값은 13000입니다.",
+      "text": "어보브반도체 stock_data.current_price 값은 13580입니다.",
       "evidence_ids": [
         "market.ev.006"
       ]
     },
     {
       "claim_id": "market.cl.003",
-      "text": "어보브반도체 stock_data.change 값은 1210입니다.",
+      "text": "어보브반도체 stock_data.change 값은 580입니다.",
       "evidence_ids": [
         "market.ev.009"
       ]
     },
     {
       "claim_id": "market.cl.004",
-      "text": "어보브반도체 stock_data.change_rate 값은 10.26%입니다.",
+      "text": "어보브반도체 stock_data.change_rate 값은 4.46%입니다.",
       "evidence_ids": [
         "market.ev.010"
       ]
     },
     {
       "claim_id": "market.cl.005",
-      "text": "어보브반도체 stock_data.raw.clpr 값은 13000입니다.",
+      "text": "어보브반도체 stock_data.raw.clpr 값은 13580입니다.",
       "evidence_ids": [
         "market.ev.016"
       ]
     },
     {
       "claim_id": "market.cl.006",
-      "text": "어보브반도체 stock_data.raw.vs 값은 1210입니다.",
+      "text": "어보브반도체 stock_data.raw.vs 값은 580입니다.",
       "evidence_ids": [
         "market.ev.017"
       ]
     },
     {
       "claim_id": "market.auto_cl.007",
-      "text": "stock_data.raw.fltRt 값은 10.26%입니다.",
+      "text": "stock_data.raw.fltRt 값은 4.46%입니다.",
       "evidence_ids": [
         "market.ev.018"
       ],
@@ -66,7 +66,7 @@
     },
     {
       "claim_id": "market.auto_cl.009",
-      "text": "stock_data.raw.mkp 값은 12,100입니다.",
+      "text": "stock_data.raw.mkp 값은 13,120입니다.",
       "evidence_ids": [
         "market.ev.019"
       ],
@@ -74,7 +74,7 @@
     },
     {
       "claim_id": "market.auto_cl.011",
-      "text": "stock_data.raw.hipr 값은 13,120입니다.",
+      "text": "stock_data.raw.hipr 값은 14,100입니다.",
       "evidence_ids": [
         "market.ev.020"
       ],
@@ -137,10 +137,10 @@
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.current_price",
-      "value": 13000,
+      "value": 13580,
       "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.current_price | 값: 13,000원"
+      "snippet": "stock_data | stock_data.current_price | 값: 13,580원"
     },
     {
       "evidence_id": "market.ev.007",
@@ -167,20 +167,20 @@
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.change",
-      "value": 1210,
+      "value": 580,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.change | 값: 1,210"
+      "snippet": "stock_data | stock_data.change | 값: 580"
     },
     {
       "evidence_id": "market.ev.010",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.change_rate",
-      "value": 10.26,
+      "value": 4.46,
       "unit": "%",
       "period": null,
-      "snippet": "stock_data | stock_data.change_rate | 값: 10.26%"
+      "snippet": "stock_data | stock_data.change_rate | 값: 4.46%"
     },
     {
       "evidence_id": "market.ev.011",
@@ -237,50 +237,50 @@
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.clpr",
-      "value": 13000,
+      "value": 13580,
       "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.clpr | 값: 13,000원"
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 13,580원"
     },
     {
       "evidence_id": "market.ev.017",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.vs",
-      "value": 1210,
+      "value": 580,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.vs | 값: 1,210"
+      "snippet": "stock_data | stock_data.raw.vs | 값: 580"
     },
     {
       "evidence_id": "market.ev.018",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.fltRt",
-      "value": 10.26,
+      "value": 4.46,
       "unit": "%",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.fltRt | 값: 10.26%"
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: 4.46%"
     },
     {
       "evidence_id": "market.ev.019",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.mkp",
-      "value": 12100,
+      "value": 13120,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.mkp | 값: 12,100"
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 13,120"
     },
     {
       "evidence_id": "market.ev.020",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.hipr",
-      "value": 13120,
+      "value": 14100,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.hipr | 값: 13,120"
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 14,100"
     }
   ],
   "evidence": [
@@ -339,10 +339,10 @@
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.current_price",
-      "value": 13000,
+      "value": 13580,
       "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.current_price | 값: 13,000원"
+      "snippet": "stock_data | stock_data.current_price | 값: 13,580원"
     },
     {
       "evidence_id": "market.ev.007",
@@ -369,20 +369,20 @@
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.change",
-      "value": 1210,
+      "value": 580,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.change | 값: 1,210"
+      "snippet": "stock_data | stock_data.change | 값: 580"
     },
     {
       "evidence_id": "market.ev.010",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.change_rate",
-      "value": 10.26,
+      "value": 4.46,
       "unit": "%",
       "period": null,
-      "snippet": "stock_data | stock_data.change_rate | 값: 10.26%"
+      "snippet": "stock_data | stock_data.change_rate | 값: 4.46%"
     },
     {
       "evidence_id": "market.ev.011",
@@ -439,50 +439,50 @@
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.clpr",
-      "value": 13000,
+      "value": 13580,
       "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.clpr | 값: 13,000원"
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 13,580원"
     },
     {
       "evidence_id": "market.ev.017",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.vs",
-      "value": 1210,
+      "value": 580,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.vs | 값: 1,210"
+      "snippet": "stock_data | stock_data.raw.vs | 값: 580"
     },
     {
       "evidence_id": "market.ev.018",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.fltRt",
-      "value": 10.26,
+      "value": 4.46,
       "unit": "%",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.fltRt | 값: 10.26%"
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: 4.46%"
     },
     {
       "evidence_id": "market.ev.019",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.mkp",
-      "value": 12100,
+      "value": 13120,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.mkp | 값: 12,100"
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 13,120"
     },
     {
       "evidence_id": "market.ev.020",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.hipr",
-      "value": 13120,
+      "value": 14100,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.hipr | 값: 13,120"
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 14,100"
     }
   ],
   "raw_payload": {
@@ -521,16 +521,16 @@
         "competition": ""
       },
       "risks": [
-        "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 150 column 6 (char 4442)",
+        "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 151 column 6 (char 4430)",
         "밸류체인 위치 확인: 후공정/패키징/테스트"
       ],
       "opportunities": [],
-      "error": "Expecting ',' delimiter: line 150 column 6 (char 4442)",
+      "error": "Expecting ',' delimiter: line 151 column 6 (char 4430)",
       "fallback_source": "market_final_static_data"
     },
     "original_opportunities": [],
     "original_risks": [
-      "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 150 column 6 (char 4442)",
+      "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 151 column 6 (char 4430)",
       "밸류체인 위치 확인: 후공정/패키징/테스트"
     ],
     "removed_bad_evidence_ids": [
@@ -570,11 +570,11 @@
     "unsupported_count": 0,
     "supported_claims": [
       "어보브반도체 마켓 분석 total_score 값은 60점입니다.",
-      "어보브반도체 stock_data.current_price 값은 13000입니다.",
-      "어보브반도체 stock_data.change 값은 1210입니다.",
-      "어보브반도체 stock_data.change_rate 값은 10.26%입니다.",
-      "어보브반도체 stock_data.raw.clpr 값은 13000입니다.",
-      "어보브반도체 stock_data.raw.vs 값은 1210입니다."
+      "어보브반도체 stock_data.current_price 값은 13580입니다.",
+      "어보브반도체 stock_data.change 값은 580입니다.",
+      "어보브반도체 stock_data.change_rate 값은 4.46%입니다.",
+      "어보브반도체 stock_data.raw.clpr 값은 13580입니다.",
+      "어보브반도체 stock_data.raw.vs 값은 580입니다."
     ],
     "unsupported_claims": [],
     "issues": [],
@@ -596,7 +596,7 @@
       },
       {
         "claim_id": "market.cl.002",
-        "text": "어보브반도체 stock_data.current_price 값은 13000입니다.",
+        "text": "어보브반도체 stock_data.current_price 값은 13580입니다.",
         "evidence_ids": [
           "market.ev.006"
         ],
@@ -615,7 +615,7 @@
       },
       {
         "claim_id": "market.cl.003",
-        "text": "어보브반도체 stock_data.change 값은 1210입니다.",
+        "text": "어보브반도체 stock_data.change 값은 580입니다.",
         "evidence_ids": [
           "market.ev.009"
         ],
@@ -630,7 +630,7 @@
       },
       {
         "claim_id": "market.cl.004",
-        "text": "어보브반도체 stock_data.change_rate 값은 10.26%입니다.",
+        "text": "어보브반도체 stock_data.change_rate 값은 4.46%입니다.",
         "evidence_ids": [
           "market.ev.010"
         ],
@@ -645,7 +645,7 @@
       },
       {
         "claim_id": "market.cl.005",
-        "text": "어보브반도체 stock_data.raw.clpr 값은 13000입니다.",
+        "text": "어보브반도체 stock_data.raw.clpr 값은 13580입니다.",
         "evidence_ids": [
           "market.ev.016"
         ],
@@ -660,7 +660,7 @@
       },
       {
         "claim_id": "market.cl.006",
-        "text": "어보브반도체 stock_data.raw.vs 값은 1210입니다.",
+        "text": "어보브반도체 stock_data.raw.vs 값은 580입니다.",
         "evidence_ids": [
           "market.ev.017"
         ],
@@ -684,14 +684,14 @@
     "unsupported_count": 0,
     "supported_claims": [
       "어보브반도체 마켓 분석 total_score 값은 60점입니다.",
-      "어보브반도체 stock_data.current_price 값은 13000입니다.",
-      "어보브반도체 stock_data.change 값은 1210입니다.",
-      "어보브반도체 stock_data.change_rate 값은 10.26%입니다.",
-      "어보브반도체 stock_data.raw.clpr 값은 13000입니다.",
-      "어보브반도체 stock_data.raw.vs 값은 1210입니다.",
-      "stock_data.raw.fltRt 값은 10.26%입니다.",
-      "stock_data.raw.mkp 값은 12,100입니다.",
-      "stock_data.raw.hipr 값은 13,120입니다."
+      "어보브반도체 stock_data.current_price 값은 13580입니다.",
+      "어보브반도체 stock_data.change 값은 580입니다.",
+      "어보브반도체 stock_data.change_rate 값은 4.46%입니다.",
+      "어보브반도체 stock_data.raw.clpr 값은 13580입니다.",
+      "어보브반도체 stock_data.raw.vs 값은 580입니다.",
+      "stock_data.raw.fltRt 값은 4.46%입니다.",
+      "stock_data.raw.mkp 값은 13,120입니다.",
+      "stock_data.raw.hipr 값은 14,100입니다."
     ],
     "unsupported_claims": [],
     "issues": [],
@@ -713,7 +713,7 @@
       },
       {
         "claim_id": "market.cl.002",
-        "text": "어보브반도체 stock_data.current_price 값은 13000입니다.",
+        "text": "어보브반도체 stock_data.current_price 값은 13580입니다.",
         "evidence_ids": [
           "market.ev.006"
         ],
@@ -732,7 +732,7 @@
       },
       {
         "claim_id": "market.cl.003",
-        "text": "어보브반도체 stock_data.change 값은 1210입니다.",
+        "text": "어보브반도체 stock_data.change 값은 580입니다.",
         "evidence_ids": [
           "market.ev.009"
         ],
@@ -747,7 +747,7 @@
       },
       {
         "claim_id": "market.cl.004",
-        "text": "어보브반도체 stock_data.change_rate 값은 10.26%입니다.",
+        "text": "어보브반도체 stock_data.change_rate 값은 4.46%입니다.",
         "evidence_ids": [
           "market.ev.010"
         ],
@@ -762,7 +762,7 @@
       },
       {
         "claim_id": "market.cl.005",
-        "text": "어보브반도체 stock_data.raw.clpr 값은 13000입니다.",
+        "text": "어보브반도체 stock_data.raw.clpr 값은 13580입니다.",
         "evidence_ids": [
           "market.ev.016"
         ],
@@ -777,7 +777,7 @@
       },
       {
         "claim_id": "market.cl.006",
-        "text": "어보브반도체 stock_data.raw.vs 값은 1210입니다.",
+        "text": "어보브반도체 stock_data.raw.vs 값은 580입니다.",
         "evidence_ids": [
           "market.ev.017"
         ],
@@ -792,7 +792,7 @@
       },
       {
         "claim_id": "market.auto_cl.007",
-        "text": "stock_data.raw.fltRt 값은 10.26%입니다.",
+        "text": "stock_data.raw.fltRt 값은 4.46%입니다.",
         "evidence_ids": [
           "market.ev.018"
         ],
@@ -807,7 +807,7 @@
       },
       {
         "claim_id": "market.auto_cl.009",
-        "text": "stock_data.raw.mkp 값은 12,100입니다.",
+        "text": "stock_data.raw.mkp 값은 13,120입니다.",
         "evidence_ids": [
           "market.ev.019"
         ],
@@ -822,7 +822,7 @@
       },
       {
         "claim_id": "market.auto_cl.011",
-        "text": "stock_data.raw.hipr 값은 13,120입니다.",
+        "text": "stock_data.raw.hipr 값은 14,100입니다.",
         "evidence_ids": [
           "market.ev.020"
         ],
@@ -846,14 +846,14 @@
     "unsupported_count": 0,
     "supported_claims": [
       "어보브반도체 마켓 분석 total_score 값은 60점입니다.",
-      "어보브반도체 stock_data.current_price 값은 13000입니다.",
-      "어보브반도체 stock_data.change 값은 1210입니다.",
-      "어보브반도체 stock_data.change_rate 값은 10.26%입니다.",
-      "어보브반도체 stock_data.raw.clpr 값은 13000입니다.",
-      "어보브반도체 stock_data.raw.vs 값은 1210입니다.",
-      "stock_data.raw.fltRt 값은 10.26%입니다.",
-      "stock_data.raw.mkp 값은 12,100입니다.",
-      "stock_data.raw.hipr 값은 13,120입니다."
+      "어보브반도체 stock_data.current_price 값은 13580입니다.",
+      "어보브반도체 stock_data.change 값은 580입니다.",
+      "어보브반도체 stock_data.change_rate 값은 4.46%입니다.",
+      "어보브반도체 stock_data.raw.clpr 값은 13580입니다.",
+      "어보브반도체 stock_data.raw.vs 값은 580입니다.",
+      "stock_data.raw.fltRt 값은 4.46%입니다.",
+      "stock_data.raw.mkp 값은 13,120입니다.",
+      "stock_data.raw.hipr 값은 14,100입니다."
     ],
     "unsupported_claims": [],
     "issues": [],
@@ -875,7 +875,7 @@
       },
       {
         "claim_id": "market.cl.002",
-        "text": "어보브반도체 stock_data.current_price 값은 13000입니다.",
+        "text": "어보브반도체 stock_data.current_price 값은 13580입니다.",
         "evidence_ids": [
           "market.ev.006"
         ],
@@ -894,7 +894,7 @@
       },
       {
         "claim_id": "market.cl.003",
-        "text": "어보브반도체 stock_data.change 값은 1210입니다.",
+        "text": "어보브반도체 stock_data.change 값은 580입니다.",
         "evidence_ids": [
           "market.ev.009"
         ],
@@ -909,7 +909,7 @@
       },
       {
         "claim_id": "market.cl.004",
-        "text": "어보브반도체 stock_data.change_rate 값은 10.26%입니다.",
+        "text": "어보브반도체 stock_data.change_rate 값은 4.46%입니다.",
         "evidence_ids": [
           "market.ev.010"
         ],
@@ -924,7 +924,7 @@
       },
       {
         "claim_id": "market.cl.005",
-        "text": "어보브반도체 stock_data.raw.clpr 값은 13000입니다.",
+        "text": "어보브반도체 stock_data.raw.clpr 값은 13580입니다.",
         "evidence_ids": [
           "market.ev.016"
         ],
@@ -939,7 +939,7 @@
       },
       {
         "claim_id": "market.cl.006",
-        "text": "어보브반도체 stock_data.raw.vs 값은 1210입니다.",
+        "text": "어보브반도체 stock_data.raw.vs 값은 580입니다.",
         "evidence_ids": [
           "market.ev.017"
         ],
@@ -954,7 +954,7 @@
       },
       {
         "claim_id": "market.auto_cl.007",
-        "text": "stock_data.raw.fltRt 값은 10.26%입니다.",
+        "text": "stock_data.raw.fltRt 값은 4.46%입니다.",
         "evidence_ids": [
           "market.ev.018"
         ],
@@ -969,7 +969,7 @@
       },
       {
         "claim_id": "market.auto_cl.009",
-        "text": "stock_data.raw.mkp 값은 12,100입니다.",
+        "text": "stock_data.raw.mkp 값은 13,120입니다.",
         "evidence_ids": [
           "market.ev.019"
         ],
@@ -984,7 +984,7 @@
       },
       {
         "claim_id": "market.auto_cl.011",
-        "text": "stock_data.raw.hipr 값은 13,120입니다.",
+        "text": "stock_data.raw.hipr 값은 14,100입니다.",
         "evidence_ids": [
           "market.ev.020"
         ],

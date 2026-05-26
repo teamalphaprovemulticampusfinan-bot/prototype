@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-05-26T05:16:25",
+  "created_at": "2026-05-26T21:01:42",
   "company": "코아시아",
   "company_dir": "coasia",
   "stock_code": "045970",
@@ -62,25 +62,11 @@
     "workbook_xlsx_policy": "Do not create, overwrite, or modify *_valuation_workbook.xlsx during intake."
   },
   "diagnostics": [
-    "DART API key detected for valuation intake.",
-    "DART corp_code resolved from cache for 코아시아/045970.",
-    "DART financial rows collected: 2021=239, 2022=234, 2023=236, 2024=213, 2025=286",
+    "skip_network=True: live DART/price collection skipped by user option.",
     "local financial fallback loaded rows=5 from C:\\Agent_6.9\\data\\반도체\\코아시아\\finance\\코아시아_재무데이터.csv.",
-    "yfinance price rows for 045970.KQ: 1162",
-    "price provider selected: yfinance, rows=1162",
-    "local price fallback loaded rows=1140 from C:\\Agent_6.9\\data\\반도체\\코아시아\\valuation\\intake\\valuation_price_history.csv.",
-    "DART corp_code resolved from cache for 코아시아/045970.",
-    "Naver market snapshot collected: pbr_naver, eps_naver, per_naver, bps_naver",
-    "peer:nepes: local price fallback loaded rows=1162 from C:\\Agent_6.9\\data\\반도체\\네패스\\valuation\\intake\\valuation_price_history.csv.",
-    "peer:nepes: DART corp_code resolved from cache for 네패스/033640.",
-    "peer:hanmi: local price fallback loaded rows=1163 from C:\\Agent_6.9\\data\\반도체\\한미반도체\\valuation\\intake\\valuation_price_history.csv.",
-    "peer:hanmi: DART corp_code resolved from cache for 한미반도체/042700.",
-    "peer:hansol: local price fallback loaded rows=1163 from C:\\Agent_6.9\\data\\반도체\\한솔케미칼\\valuation\\intake\\valuation_price_history.csv.",
-    "peer:hansol: DART corp_code resolved from cache for 한솔케미칼/014680.",
-    "peer:duksan: local price fallback loaded rows=1162 from C:\\Agent_6.9\\data\\반도체\\덕산테코피아\\valuation\\intake\\valuation_price_history.csv.",
-    "peer:duksan: DART corp_code resolved from cache for 덕산테코피아/317330.",
-    "peer:ltc: local price fallback loaded rows=1161 from C:\\Agent_6.9\\data\\반도체\\엘티씨\\valuation\\intake\\valuation_price_history.csv.",
-    "peer:ltc: DART corp_code resolved from cache for 엘티씨/170920.",
-    "Market snapshot enriched with live/derived metrics count=16."
+    "financial rows merged with local fallback: primary=0, fallback=5, merged=5.",
+    "local price fallback loaded rows=1162 from C:\\Agent_6.9\\data\\반도체\\코아시아\\valuation\\intake\\valuation_price_history.csv.",
+    "price rows merged with local fallback: primary=0, fallback=1162, merged=1162.",
+    "Market snapshot enriched with live/derived metrics count=1."
   ]
 }

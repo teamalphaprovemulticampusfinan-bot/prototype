@@ -4,7 +4,7 @@
   "industry_type": "deeptech_semiconductor",
   "summary": "원익IPS는 AI 및 HBM 관련 반도체 후공정/패키징 산업의 높은 성장성과 밸류체인 내 우수한 위치를 바탕으로 긍정적인 시장 모멘텀을 보입니다. 다만, 거시 경제 불확실성과 경쟁 환경에 대한 정보 부족으로 인해 보유 의견을 제시합니다.",
   "key_risks": [
-    "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 141 column 6 (char 4063)",
+    "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 161 column 6 (char 4491)",
     "밸류체인 위치 확인: 후공정/패키징/테스트"
   ],
   "audit_trace": {
@@ -29,22 +29,20 @@
     "stage3_decision_readiness": 1.0
   },
   "auditor_issues": [
-    "possible unit/scale mismatch: 141",
-    "possible unit/scale mismatch: 4063",
-    "possible unit/scale mismatch: 141",
-    "possible unit/scale mismatch: 4063"
+    "possible unit/scale mismatch: 4491",
+    "possible unit/scale mismatch: 4491"
   ],
   "auditor_recommendation": "보유",
-  "auditor_signal": 0.24,
+  "auditor_signal": 0.3015,
   "auditor_decision_basis": [
     "market_score 62.00/100",
-    "연수익률 61.79%",
-    "MDD -37.37%"
+    "연수익률 114.48%",
+    "MDD -31.16%"
   ],
   "auditor_signal_components": {
     "market_score": 0.2,
     "annual_return": 1.0,
-    "mdd": -1.0,
+    "mdd": -0.6925416550933485,
     "liquidity": 0.0,
     "volatility": 1.0
   }

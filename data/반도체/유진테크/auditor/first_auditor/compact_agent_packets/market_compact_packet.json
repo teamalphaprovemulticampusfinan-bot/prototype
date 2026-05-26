@@ -4,7 +4,7 @@
   "industry_type": "deeptech_semiconductor",
   "summary": "유진테크는 AI·HBM 시장 성장과 주요 고객사 확보로 긍정적인 산업 매력도를 보입니다. 다만, 삼성전자 파업 이슈와 거시 경제 불확실성이 단기 모멘텀에 부담으로 작용하여 보유 의견을 제시합니다.",
   "key_risks": [
-    "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 145 column 6 (char 4361)",
+    "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 123 column 6 (char 3844)",
     "밸류체인 위치 확인: 후공정/패키징/테스트"
   ],
   "audit_trace": {
@@ -29,24 +29,24 @@
     "stage3_decision_readiness": 1.0
   },
   "auditor_issues": [
-    "possible unit/scale mismatch: 145",
+    "possible unit/scale mismatch: 123",
     "possible unit/scale mismatch: 6",
-    "possible unit/scale mismatch: 4361",
-    "possible unit/scale mismatch: 145",
+    "possible unit/scale mismatch: 3844",
+    "possible unit/scale mismatch: 123",
     "possible unit/scale mismatch: 6",
-    "possible unit/scale mismatch: 4361"
+    "possible unit/scale mismatch: 3844"
   ],
   "auditor_recommendation": "매수",
-  "auditor_signal": 0.3661,
+  "auditor_signal": 0.1945,
   "auditor_decision_basis": [
     "market_score 75.00/100",
-    "연수익률 84.68%",
-    "MDD -31.76%"
+    "연수익률 1.67%",
+    "MDD -31.38%"
   ],
   "auditor_signal_components": {
     "market_score": 0.5714285714285714,
-    "annual_return": 1.0,
-    "mdd": -0.7410733844468785,
+    "annual_return": 0.11106023558266664,
+    "mdd": -0.7100493565341315,
     "liquidity": 0.0,
     "volatility": 1.0
   }

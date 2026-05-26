@@ -1,10 +1,10 @@
 # GST Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-26T06:32:40
+- 생성 시각: 2026-05-26T23:06:10
 - 종합 점수: 78.8/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 304개
+- 원천 문서 수: 456개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -77,7 +77,7 @@
   - detected: http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cfe49d03e6a3dce010913a4c03b3e18e895016648c2ea9e473a676fe891a0aaaf
   - detected: http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9ccf2ab65a398793482e10b88503e5fe103bb14d381fd2f7f54135d62c70dfe59e
   - detected: http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cfad0bf93f73520e6070e4b28e31323a61001ce2b43505e989e0ef199e2d0ed45
-  - detected: http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9ccf2ab65a39879348bbf9946e7c8264b8f243eeeae3da4d74c91cddd2cd6bc21a
+  - detected: http://www.w3.org/2001/XMLSchema-instance
   - fallback: https://www.google.com/search?q=GST+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95
   - fallback: https://www.google.com/search?q=GST+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98
 - **IR_HOMEPAGE**

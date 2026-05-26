@@ -2,8 +2,8 @@
   "agent": "chair",
   "company": "DB하이텍",
   "company_dir": "dbhitek",
-  "opinion": "매도",
-  "chair_report": "# DB하이텍 개인투자자용 종합 투자 보고서\n\n## 1. 최종 의견\n**매도**\n\n**한 줄 결론:** 기술 기대보다 재무·가격·거시 부담이 더 커 보이는 구간입니다.\n\n## 2. 방향성 신호 요약\n최종 보고서에서는 내부 검증 점수표는 제외하고, 투자 방향을 이해하는 데 필요한 신호만 남깁니다.\n- **종합 방향성 신호(weighted_signal):** 에이전트 가중평균 양(+) 방향입니다. 이 값은 전체 분석 영역의 방향을 합친 참고 신호입니다.\n- **영역별 방향성 신호(signal):** 각 분석 영역이 최종 판단에 우호적인지, 부담인지를 보여주는 보조 신호입니다.\n  - 재무 분석: 에이전트 가중평균 양(+) 방향 / 시장 분석: 에이전트 가중평균 양(+) 방향 / 기술 분석: 에이전트 가중평균 음(-) 방향 / 가치평가 분석: 에이전트 가중평균 양(+) 방향 / 이슈 분석: 에이전트 가중평균 양(+) 방향 / 거시경제: 에이전트 가중평균 음(-) 방향\n- 비고: 양수·음수 같은 원천 신호는 내부 계산용이며, 투자자용 보고서에서는 우호·중립·부담의 의미로 해석합니다.\n\n## 3. 투자 판단 핵심\n이 보고서는 각 전문 에이전트가 만든 결과를 Chair 단계에서 개인투자자용 언어로 풀어쓴 보고서입니다. 원천 JSON은 바꾸지 않고, 영어 필드명과 점수 중심 표현만 쉬운 해석으로 정리했습니다.\n\n핵심적으로는 다음을 함께 봅니다.\n- **재무 체력:** 기술 사업화까지 버틸 수 있는 현금흐름, 수익성, 부채 부담\n- **가치평가:** 현재 가격이 동종기업과 현금흐름 기준으로 과도하게 비싼지 또는 싼지\n- **기술 사업화:** 특허 수 자체보다 고객 채택, 양산, 매출, 현금흐름으로 이어질 가능성\n- **시장·이슈·거시:** 산업 성장성, 단기 촉매, 환율·금리·신용환경의 부담\n\n## 4. 핵심 판단 요약\n1. 최종 의견은 단기 상승 재료보다 재무 체력, 가격 안전마진, 기술 사업화 가능성을 함께 본 결과입니다.\n2. 현금흐름 기반 가치평가: 내재주가 61,657원, 현재가 56,800원, 괴리율 8.55%.\n3. 동종 후공정·패키징 기업과 비교하면 기술의 사업화 연결 위치는 비교적 우호적입니다.\n4. 반도체 후공정/패키징 산업 성장 근거는 AI 및 고성능 컴퓨팅 수요 증가입니다.\n5. 매출성장률이 2023년 큰 폭으로 감소한 점은 향후 성장성에 대한 불확실성을 내포한다.\n\n## 5. 분석 영역별 쉬운 해석\n### 재무 분석\n- **투자자 관점:** 중립적입니다. 매출 회복은 긍정적이지만 수익성·부채 부담을 함께 봐야 합니다.\n- **요약:** DB하이텍은 2023년 매출이 전년 대비 31.1% 감소하며 역성장했으나, 2024년에는 소폭 감소세로 전환하며 안정화되는 모습을 보였다. 영업이익률은 2022년 45.9%에서 2024년 16.9%로 하락했으나, 여전히 높은 수준을 유지하고 있다. 주가는 최근 1개월간 변동성이 관찰되었으며, 연간 수익률은 2025년 77.52%로 크게 반등했으나 연간 최대 낙폭는 -25.0%로 높은 편이다.\n- **핵심 thesis:**\n  - 2022년 37.9%의 높은 매출 성장률을 기록했으나, 2023년에는 31.1% 감소하며 역성장했다.\n  - 2024년 매출성장률은 -1.99%로 감소세가 둔화되었으며, 이는 시장 상황에 따른 것으로 보인다.\n  - 영업이익률은 2022년 45.9%에서 2023년 23.0%, 2024년 16.9%로 하락했으나 여전히 높은 수준을 유지하고 있다.\n  - ROE는 2022년 34.1%에서 2023년 15.2%, 2024년 11.5%로 하락하는 추세이다.\n- **주요 risk:**\n  - 매출성장률이 2023년 큰 폭으로 감소한 점은 향후 성장성에 대한 불확실성을 내포한다.\n  - 영업이익률과 ROE가 하락 추세를 보이고 있어 수익성 개선 여부에 대한 면밀한 관찰이 필요하다.\n  - 2023년 자유현금흐름가 마이너스를 기록했던 점은 현금 창출 능력에 대한 우려를 제기할 수 있다.\n  - 최근 1개월 주가 데이터에서 변동성이 관찰되며, 특히 2025년 9월 23일 큰 폭의 하락(-2.40%)이 있었다.\n- **비고:**\n  - 영역별 방향성 신호(signal): 에이전트 가중평균 양(+) 방향\n  - 요약 판단: 보유\n- **다음 확인 포인트:**\n  - 매출 회복이 영업이익 개선으로 이어지는지\n  - 자유현금흐름이 안정적으로 유지되는지\n  - 부채와 운전자본 부담이 낮아지는지\n\n### 시장 분석\n- **투자자 관점:** 주의가 필요합니다.\n- **요약:** 시장 측면에서는 반도체 후공정/패키징/테스트 산업은 AI 및 고성능 컴퓨팅 수요 증가로 성장 잠재력이 높습니다. DB하이텍은 최첨단 반도체 패키징 솔루션을 제공하며 밸류체인 내에서 신뢰받는 위치를 확보하고 있습니다. 다만 거시·경기 신호는 반도체 업황 회복 가능성을 일부 뒷받침합니다. 최근 주가 흐름과 변동성은 단기 점검 요인입니다. 후공정 패키징 시장 내 경쟁 강도도 함께 확인할 필요가 있습니다.\n- **핵심 thesis:**\n  - 반도체 후공정/패키징 산업 성장 근거는 AI 및 고성능 컴퓨팅 수요 증가입니다.\n  - 강한 시장 모멘텀 근거는 최근 주가 상승률 11.73%입니다.\n  - 산업 성장성: 반도체 후공정/패키징/테스트 산업은 AI 및 고성능 컴퓨팅 수요 증가로 성장 잠재력이 높습니다.\n  - 밸류체인 포지션: DB하이텍은 최첨단 반도체 패키징 솔루션을 제공하며 밸류체인 내에서 신뢰받는 위치를 확보하고 있습니다.\n- **주요 risk:**\n  - 거시 경제 불확실성 수준은 중이며, 근거는 OECD 경기선행지수 하회입니다.\n  - 경쟁 구도 불명확성 수준은 중이며, 근거는 밸류체인 & 경쟁구조 데이터입니다.\n  - 주가·시장 모멘텀 리스크: DB하이텍은 11.73%의 높은 주가 상승률을 기록하며 강한 시장 모멘텀을 보여주고 있습니다.\n  - 경쟁 구도 리스크: 아날로그 반도체 전문 파운드리 시장에서의 경쟁력은 긍정적이나, 경쟁 구도의 불명확성은 리스크 요인입니다.\n- **비고:**\n  - 영역별 방향성 신호(signal): 에이전트 가중평균 양(+) 방향\n  - 요약 판단: 매도\n- **다음 확인 포인트:**\n  - AI·고성능 반도체 수요가 후공정 패키징 주문으로 이어지는지\n  - 동종 후공정 기업 대비 주가 흐름이 유지되는지\n  - 단기 급등락이 실수요인지 단기 수급인지\n\n### 기술 분석\n- **투자자 관점:** 긍정적이지만 관망이 필요합니다. 기술 위치는 우호적이나 사업화 연결 확인이 중요합니다.\n- **요약:** 기존 기술 분석의 내부 참고 의견은 보유였고, 검증 로직 요약에서는 이를 참고 신호로만 사용합니다. 기술 포지션은 우호적이지만, 투자 매력으로 확정하려면 사업화 연결 근거가 더 필요합니다. 동종기업 기준으로는 동종 기술군 내 상대 위치 확인이며, base 33.50점에서 동종기업 보정 후 32.50점으로 조정되었습니다. 특허의 양은 확인되지만, 특허 품질·해외 권리 확장·방어력은 아직 강한 우위라고 단정하기 어렵습니다.\n- **핵심 thesis:**\n  - 동종 후공정·패키징 기업과 비교하면 기술의 사업화 연결 위치는 비교적 우호적입니다.\n  - 기술 포지션은 우호적이지만, 투자 매력으로 확정하려면 사업화 연결 근거가 더 필요합니다.\n  - 특허의 양은 확인되지만, 특허 품질·해외 권리 확장·방어력은 아직 강한 우위라고 단정하기 어렵습니다.\n  - 특허 정량 신호: 회사 매칭/정규화 특허 269건, 등록 114건, 최근 5년 1,560건.\n- **주요 risk:**\n  - 기술성은 확인되지만 고객 채택·양산·매출 전환·자유현금흐름 개선까지 이어지는 연결고리를 계속 추적해야 하는 상태\n  - 기술 점수는 동종기업 대비 우호적이어도 최종 가치평가 가산에는 고객 채택, 양산, 매출 전환, 자유현금흐름 개선의 직접 근거가 필요합니다.\n  - 특허의 양은 확인되지만, 특허 품질·해외 권리 확장·방어력은 아직 강한 우위라고 단정하기 어렵습니다.\n- **비고:**\n  - 영역별 방향성 신호(signal): 에이전트 가중평균 음(-) 방향\n  - 요약 판단: 보유\n  - 특허 품질 신호: 특허 품질 근거가 약한 상태\n- **다음 확인 포인트:**\n  - 고객 채택, 양산, 매출 전환의 직접 근거가 나오는지\n  - 특허의 청구항, 인용, 패밀리, 존속 상태가 보강되는지\n  - 기술이 마진, 원가, 현금흐름 개선으로 이어지는지\n\n### 가치평가 분석\n- **투자자 관점:** 우호적입니다. 상대적 저평가 가능성은 있으나 할인 이유를 확인해야 합니다.\n- **요약:** 기존 가치평가 분석의 내부 참고 의견은 매수였고, 검증 로직 요약에서는 이를 참고 신호로만 사용합니다. 현금흐름 기반 가치평가 내재주가는 61,657원이고 현재가 56,800원 대비 괴리율은 8.55%입니다. 동종기업 대비 매출 대비 주가 수준는 0.67배로 비교기업 중앙값 2.68배 대비 -75.00% 수준입니다. 넓은 반도체 비교군 안에서는 후공정·패키징 그룹에서 상대적 매력은 일부 확인됩니다.\n- **핵심 thesis:**\n  - 현금흐름 기반 가치평가: 내재주가 61,657원, 현재가 56,800원, 괴리율 8.55%.\n  - 동종기업 대비 매출가치 지표는 낮아 상대적으로 싸 보이는 면이 있지만, 그 할인이 성장성·수익성 부담 때문인지 함께 확인해야 합니다.\n  - 넓은 반도체 비교군 안에서는 후공정·패키징 그룹에서 상대적 매력은 일부 확인됩니다.\n  - 가치평가는 일부 저평가 신호와 제한적인 안전마진 신호가 함께 있어, 단독으로 강한 매수 근거가 되기는 어렵습니다.\n- **주요 risk:**\n  - 현금흐름 기반 가치평가 괴리율이 ±10% 이내라 안전마진이 크지 않아 매수/매도보다 보유 판단에 가깝습니다.\n  - 자본비용이 11.95%로 높아 장기 현금흐름 가정 변화에 민감합니다.\n  - 가격 리스크: 최대 낙폭 -65.61%로 변동성/낙폭 리스크 확인이 필요합니다.\n  - 변동성: 연환산 변동성 47.96% 수준입니다.\n- **비고:**\n  - 영역별 방향성 신호(signal): 에이전트 가중평균 양(+) 방향\n  - 요약 판단: 매수\n  - 기존 에이전트 참고 의견: 매수\n- **다음 확인 포인트:**\n  - 동종기업 대비 낮은 가격 지표가 정당한 할인인지\n  - 현금흐름 기반 적정가와 기준 주가의 차이가 충분히 벌어지는지\n  - 자본비용과 장기 성장률 가정 변화에 얼마나 민감한지\n\n### 이슈 분석\n- **투자자 관점:** 중립적입니다. 우호적 뉴스와 단기 과열 부담이 함께 있습니다.\n- **요약:** DB하이텍은 최근 코스피200 지수 편입 예정 종목으로 선정되었으며, 파운드리 업황 저점 통과 및 전력반도체 등 특수 공정 수요 증가 기대감으로 주가가 상승세를 보이고 있다. 또한, 초순수 증설 사업 수주 소식도 긍정적으로 작용하고 있다. 다만, 최근 상승폭이 컸던 종목들에 대한 고점 인식 확산 및 실적 성장성 우려도 제기되고 있다.\n- **핵심 thesis:**\n  - 코스피200 지수 편입 예정: 다음 달 12일부터 코스피200 지수에 신규 편입될 예정으로, 이는 패시브 펀드 자금 유입 등 긍정적 요인으로 작용할 수 있다.\n  - 파운드리 업황 저점 통과 및 특수 공정 수요 증가 기대: 파운드리 업황의 저점을 통과했다는 인식과 함께 전력반도체 등 특수 공정 수요 증가 기대감이 주가 상승의 동력으로 작용하고 있다.\n  - 초순수 증설 사업 수주: DB하이텍 초순수 증설 사업 수주(155억원) 소식은 사업 확장 및 실적 기여 가능성을 시사한다.\n  - 8인치 웨이퍼 기반 파운드리의 희소성: 8인치 웨이퍼 기반 파운드리의 희소성이 부각되며 긍정적인 시장 환경을 조성하고 있다.\n- **주요 risk:**\n  - 고점 인식 확산 및 실적 성장성 우려: 최근 상승폭이 컸던 종목들을 중심으로 고점 인식이 확산되고 있으며, 실적 성장성에 대한 의문이 제기되고 있다.\n  - 파운드리 가동률 저하 및 학령 인구 감소 우려: 과거 파운드리 가동률 저하 및 학령 인구 감소 우려로 인해 주가가 하락했던 이력이 있다. (단, 현재 시점에서의 직접적인 영향은 뉴스에서 명확히 확인되지 않음)\n  - 소액주주 관련 이슈: 과거 DB하이텍 소액주주연대 대표 이력을 가진 인물이 주가 훼손 관련 발언을 한 사례가 있어, 소액주주들의 움직임이 잠재적 리스크 요인이 될 수 있다. (단, 현재 시점에서의 직접적인 영향은 뉴스에서 명확히 확인되지 않음)\n- **비고:**\n  - 영역별 방향성 신호(signal): 에이전트 가중평균 양(+) 방향\n  - 요약 판단: 보유\n- **다음 확인 포인트:**\n  - 뉴스 기대감이 실제 수주, 실적, 공시로 이어지는지\n  - 자회사·관계사 이슈가 본사 실적에 미치는 영향이 있는지\n  - 단기 과열 또는 부정 키워드가 확산되는지\n\n### 거시경제\n- **투자자 관점:** 부담스럽습니다. 환율·금리·신용환경이 투자심리에 압박을 줄 수 있습니다.\n- **요약:** 현재 매크로 환경은 전반적으로 우호적이며 리스크 레벨은 낮게 평가됩니다. 금리 수준은 안정적이며, 원달러 환율은 하락세를 보이고 있습니다. 다만, 글로벌 경기 지표의 개선세가 둔화될 가능성에 대한 모니터링이 필요합니다. 이러한 환경은 반도체 딥테크 기업에 긍정적인 영향을 줄 수 있으나, 글로벌 수요 변화 및 규제 리스크에 대한 지속적인 관찰이 요구됩니다.\n- **핵심 thesis:**\n  - 원달러 고수준 구간 하락 에서 환율 부담 완화\n  - 신용스프레드_bbb- 축소 에서 신용 리스크 완화\n  - 신용스프레드_aa- 축소 에서 신용 리스크 완화\n  - 10년-2년 스프레드 확대 에서 경기 정상화/수요 개선 신호\n  - 국내 금리·환율·신용 환경: 국고채 금리는 중립 구간입니다; 원달러 환율은 높은 구간이라 원화 약세와 외국인 수급 부담을 확인해야 합니다; BBB- 신용스프레드는 낮은 구간입니다; AA- 신용스프레드는 낮은 구간으로 우량 신용시장 부담은 상대적으로 제한적입니다.\n- **주요 risk:**\n  - 원달러 환율의 추가적인 하락 가능성 (현재 레벨 1402.2, diff -9.4)\n  - 글로벌 AI Capex 사이클의 변동성 (HBM/첨단패키징 수요와 연결)\n  - 미중 반도체 수출 규제 관련 불확실성\n- **비고:**\n  - 영역별 방향성 신호(signal): 에이전트 가중평균 음(-) 방향\n  - 요약 판단: 매도\n  - 거시 부담 수준: 낮은 부담\n- **다음 확인 포인트:**\n  - 원달러 환율과 금리 방향이 성장주 부담을 키우는지\n  - 신용스프레드와 위험선호가 자금조달 환경을 악화시키는지\n  - 반도체 수출 규제와 글로벌 수요 변화가 업황에 영향을 주는지\n\n## 6. 충돌 지점 및 해석\n- 각 분석 영역의 방향이 완전히 한쪽으로 쏠리지는 않아, 최종 의견은 우호 신호와 부담 신호를 함께 반영한 결과입니다.\n- 따라서 최종 의견은 **매도**으로 정리하되, 이후 수주·양산·실적·현금흐름 확인 여부에 따라 판단이 달라질 수 있습니다.\n\n## 7. 동종기업 대비 해석\n- 동종 후공정·패키징 기업과 비교하면 기술의 사업화 연결 위치는 비교적 우호적입니다.\n- 현금흐름 기반 가치평가: 내재주가 61,657원, 현재가 56,800원, 괴리율 8.55%.\n- 반도체 후공정/패키징 산업 성장 근거는 AI 및 고성능 컴퓨팅 수요 증가입니다.\n- 동종기업 대비 싸 보이는 지표가 있더라도, 그 이유가 성장성 부족·수익성 부진·재무 리스크 때문인지 함께 봐야 합니다.\n- 기술 위치가 좋아도 실제 고객 채택, 양산, 매출, 현금흐름으로 이어질 때 투자 매력이 더 커집니다.\n\n## 8. 딥테크·IB 관점에서 꼭 봐야 할 점\n- 딥테크 기업은 기술검증, 파일럿, 첫 상업계약, 초기 상업화, 대규모 양산으로 이어질 때 가치평가 가산이 커집니다.\n- R&D는 노력 신호이고, 특허·청구항·인용·패밀리는 기술 산출물 신호입니다. 최종적으로는 고객 채택, 양산, 매출, 현금흐름 전환이 확인되어야 합니다.\n- 현금흐름 기반 가치평가와 동종기업 멀티플은 가격을 보는 도구입니다. 기술이 좋아도 현재 가격이 이미 기대를 많이 반영했다면 보수적으로 볼 수 있습니다.\n- CB/BW, 메자닌, 유상증자, 차입 확대는 성장자금일 수도 있지만 기존 주주에게는 희석과 오버행 리스크가 될 수 있습니다.\n- 정부과제나 정책 수혜는 긍정 신호지만, 실제 제품화·수주·매출로 이어지는지 확인해야 합니다.\n\n## 9. 투자 전 체크포인트\n- **가격:** 동종기업 대비 싸 보이는 이유가 성장성 부족, 수익성 부담, 재무 리스크 때문인지 확인해야 합니다.\n- **재무:** 매출 회복보다 영업수익성, 현금창출력, 부채 부담의 개선 여부를 우선 확인해야 합니다.\n- **기술:** 특허 수보다 고객 채택, 양산, 매출 전환, 현금흐름 개선이 확인되어야 합니다.\n- **자금조달:** CB/BW, 유상증자, 차입 확대는 성장자금인 동시에 주주가치 희석 위험이 될 수 있습니다.\n- **거시:** 환율, 금리, 신용환경이 나빠지면 반도체 성장주의 적정가치가 낮아질 수 있습니다.\n\n## 10. 성능평가용 라벨 요약\n- 성과평가용 최종 라벨은 **매도**입니다.\n- 종합 방향성 신호는 에이전트 가중평균 양(+) 방향로 해석하며, 임계값을 임의로 바꾸는 대신 보조 민감도 분석에 사용합니다.\n- 이번 종목은 최종 의견이 매수가 아니므로, 기본 성과평가 포트폴리오에는 편입하지 않고 관찰 대상으로 둡니다.\n- 실제 성과는 기준월 말 종가 대비 다음 달 말 종가의 1개월 보유수익률로 계산하고, 반도체 후보군 동일가중 평균 또는 자기 자신을 제외한 peer 평균 대비 초과수익률을 함께 확인합니다.\n\n## 11. 종합 의견\nDB하이텍의 최종 의견은 **매도**입니다. 기술과 업황 기대는 분명히 존재하지만, 가격 안전마진과 재무·거시 부담을 함께 보면 아직은 관망이 더 적절합니다. 특히 딥테크 기업은 특허 수나 기술 키워드만으로 판단하기보다, 그 기술이 고객 채택·양산·매출·현금흐름으로 이어지는지를 확인해야 합니다. 동종기업 대비 싸 보이는 지표가 있더라도 그 이유가 성장성 부족이나 재무 부담 때문일 수 있으므로, 최신 공시와 수주·양산 근거, 자금조달 이력을 함께 확인하는 것이 좋습니다.",
+  "opinion": "보유",
+  "chair_report": "# DB하이텍 개인투자자용 종합 투자 보고서\n\n## 1. 최종 의견\n**매도**\n\n**한 줄 결론:** 기술 기대보다 재무·가격·거시 부담이 더 커 보이는 구간입니다.\n\n## 2. 방향성 신호 요약\n최종 보고서에서는 내부 검증 점수표는 제외하고, 투자 방향을 이해하는 데 필요한 신호만 남깁니다.\n- **종합 방향성 신호(weighted_signal):** 에이전트 가중평균 양(+) 방향입니다. 이 값은 전체 분석 영역의 방향을 합친 참고 신호입니다.\n- **영역별 방향성 신호(signal):** 각 분석 영역이 최종 판단에 우호적인지, 부담인지를 보여주는 보조 신호입니다.\n  - 재무 분석: 에이전트 가중평균 양(+) 방향 / 시장 분석: 에이전트 가중평균 양(+) 방향 / 기술 분석: 에이전트 가중평균 음(-) 방향 / 가치평가 분석: 에이전트 가중평균 양(+) 방향 / 이슈 분석: 에이전트 가중평균 양(+) 방향 / 거시경제: 에이전트 가중평균 음(-) 방향\n- 비고: 양수·음수 같은 원천 신호는 내부 계산용이며, 투자자용 보고서에서는 우호·중립·부담의 의미로 해석합니다.\n\n## 3. 투자 판단 핵심\n이 보고서는 각 전문 에이전트가 만든 결과를 Chair 단계에서 개인투자자용 언어로 풀어쓴 보고서입니다. 원천 JSON은 바꾸지 않고, 영어 필드명과 점수 중심 표현만 쉬운 해석으로 정리했습니다.\n\n핵심적으로는 다음을 함께 봅니다.\n- **재무 체력:** 기술 사업화까지 버틸 수 있는 현금흐름, 수익성, 부채 부담\n- **가치평가:** 현재 가격이 동종기업과 현금흐름 기준으로 과도하게 비싼지 또는 싼지\n- **기술 사업화:** 특허 수 자체보다 고객 채택, 양산, 매출, 현금흐름으로 이어질 가능성\n- **시장·이슈·거시:** 산업 성장성, 단기 촉매, 환율·금리·신용환경의 부담\n\n## 4. 핵심 판단 요약\n1. 최종 의견은 단기 상승 재료보다 재무 체력, 가격 안전마진, 기술 사업화 가능성을 함께 본 결과입니다.\n2. 현금흐름 기반 가치평가: 내재주가 확인 제한, 현재가 56,800원, 괴리율 확인 제한.\n3. 동종 후공정·패키징 기업과 비교하면 기술의 사업화 연결 위치는 비교적 우호적입니다.\n4. DB하이텍은 강한 시장 모멘텀을 보이나, 거시 경제 불확실성과 경쟁 구도 불명확성으로 인해 '보유' 의견을 제시합니다. 아날로그 반도체 파운드리 경쟁력은 긍정적입니다.\n5. 매출성장률이 2023년 큰 폭으로 감소한 점은 향후 성장성에 대한 불확실성을 내포한다.\n\n## 5. 분석 영역별 쉬운 해석\n### 재무 분석\n- **투자자 관점:** 중립적입니다. 매출 회복은 긍정적이지만 수익성·부채 부담을 함께 봐야 합니다.\n- **요약:** DB하이텍은 2023년 매출이 전년 대비 31.1% 감소하며 역성장했으나, 2024년에는 소폭 감소세로 전환하며 안정화되는 모습을 보였다. 영업이익률은 2022년 45.9%에서 2024년 16.9%로 하락했으나, 여전히 높은 수준을 유지하고 있다. 주가는 최근 1개월간 변동성이 관찰되었으며, 연간 수익률은 2025년 77.52%로 크게 반등했으나 연간 최대 낙폭는 -25.0%로 높은 편이다.\n- **핵심 thesis:**\n  - 2022년 37.9%의 높은 매출 성장률을 기록했으나, 2023년에는 31.1% 감소하며 역성장했다.\n  - 2024년 매출성장률은 -1.99%로 감소세가 둔화되었으며, 이는 시장 상황에 따른 것으로 보인다.\n  - 영업이익률은 2022년 45.9%에서 2023년 23.0%, 2024년 16.9%로 하락했으나 여전히 높은 수준을 유지하고 있다.\n  - ROE는 2022년 34.1%에서 2023년 15.2%, 2024년 11.5%로 하락하는 추세이다.\n- **주요 risk:**\n  - 매출성장률이 2023년 큰 폭으로 감소한 점은 향후 성장성에 대한 불확실성을 내포한다.\n  - 영업이익률과 ROE가 하락 추세를 보이고 있어 수익성 개선 여부에 대한 면밀한 관찰이 필요하다.\n  - 2023년 자유현금흐름가 마이너스를 기록했던 점은 현금 창출 능력에 대한 우려를 제기할 수 있다.\n  - 최근 1개월 주가 데이터에서 변동성이 관찰되며, 특히 2025년 9월 23일 큰 폭의 하락(-2.40%)이 있었다.\n- **비고:**\n  - 영역별 방향성 신호(signal): 에이전트 가중평균 양(+) 방향\n  - 요약 판단: 보유\n- **다음 확인 포인트:**\n  - 매출 회복이 영업이익 개선으로 이어지는지\n  - 자유현금흐름이 안정적으로 유지되는지\n  - 부채와 운전자본 부담이 낮아지는지\n\n### 시장 분석\n- **투자자 관점:** 주의가 필요합니다.\n- **요약:** DB하이텍은 강한 시장 모멘텀을 보이나, 거시 경제 불확실성과 경쟁 구도 불명확성으로 인해 '보유' 의견을 제시합니다. 아날로그 반도체 파운드리 경쟁력은 긍정적입니다.\n- **핵심 thesis:**\n  - AI·고성능 반도체 수요 확대는 후공정 패키징 기업에 우호적인 시장 배경입니다.\n- **주요 risk:**\n  - LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 140 column 6 (char 3984)\n  - 밸류체인 위치 확인: 후공정/패키징/테스트\n- **비고:**\n  - 영역별 방향성 신호(signal): 에이전트 가중평균 양(+) 방향\n  - 요약 판단: 매도\n- **다음 확인 포인트:**\n  - AI·고성능 반도체 수요가 후공정 패키징 주문으로 이어지는지\n  - 동종 후공정 기업 대비 주가 흐름이 유지되는지\n  - 단기 급등락이 실수요인지 단기 수급인지\n\n### 기술 분석\n- **투자자 관점:** 긍정적이지만 관망이 필요합니다. 기술 위치는 우호적이나 사업화 연결 확인이 중요합니다.\n- **요약:** 기존 기술 분석의 내부 참고 의견은 보유였고, 검증 로직 요약에서는 이를 참고 신호로만 사용합니다. 기술 포지션은 우호적이지만, 투자 매력으로 확정하려면 사업화 연결 근거가 더 필요합니다. 동종기업 기준으로는 동종 기술군 내 상대 위치 확인이며, base 33.50점에서 동종기업 보정 후 32.50점으로 조정되었습니다. 특허의 양은 확인되지만, 특허 품질·해외 권리 확장·방어력은 아직 강한 우위라고 단정하기 어렵습니다.\n- **핵심 thesis:**\n  - 동종 후공정·패키징 기업과 비교하면 기술의 사업화 연결 위치는 비교적 우호적입니다.\n  - 기술 포지션은 우호적이지만, 투자 매력으로 확정하려면 사업화 연결 근거가 더 필요합니다.\n  - 특허의 양은 확인되지만, 특허 품질·해외 권리 확장·방어력은 아직 강한 우위라고 단정하기 어렵습니다.\n  - 특허 정량 신호: 회사 매칭/정규화 특허 269건, 등록 114건, 최근 5년 1,560건.\n- **주요 risk:**\n  - 기술성은 확인되지만 고객 채택·양산·매출 전환·자유현금흐름 개선까지 이어지는 연결고리를 계속 추적해야 하는 상태\n  - 기술 점수는 동종기업 대비 우호적이어도 최종 가치평가 가산에는 고객 채택, 양산, 매출 전환, 자유현금흐름 개선의 직접 근거가 필요합니다.\n  - 특허의 양은 확인되지만, 특허 품질·해외 권리 확장·방어력은 아직 강한 우위라고 단정하기 어렵습니다.\n- **비고:**\n  - 영역별 방향성 신호(signal): 에이전트 가중평균 음(-) 방향\n  - 요약 판단: 보유\n  - 특허 품질 신호: 특허 품질 근거가 약한 상태\n- **다음 확인 포인트:**\n  - 고객 채택, 양산, 매출 전환의 직접 근거가 나오는지\n  - 특허의 청구항, 인용, 패밀리, 존속 상태가 보강되는지\n  - 기술이 마진, 원가, 현금흐름 개선으로 이어지는지\n\n### 가치평가 분석\n- **투자자 관점:** 중립적입니다. 일부 저평가 신호는 있지만 강한 안전마진은 제한적입니다.\n- **요약:** 기존 가치평가 분석의 내부 참고 의견은 보유였고, 검증 로직 요약에서는 이를 참고 신호로만 사용합니다. 현금흐름 기반 가치평가 내재주가는 확인 제한이고 현재가 56,800원 대비 괴리율은 확인 제한입니다. 넓은 반도체 비교군 안에서는 후공정·패키징 그룹에서 상대적 매력은 일부 확인됩니다.\n- **핵심 thesis:**\n  - 현금흐름 기반 가치평가: 내재주가 확인 제한, 현재가 56,800원, 괴리율 확인 제한.\n  - 동종기업 대비 매출가치 지표는 낮아 상대적으로 싸 보이는 면이 있지만, 그 할인이 성장성·수익성 부담 때문인지 함께 확인해야 합니다.\n  - 넓은 반도체 비교군 안에서는 후공정·패키징 그룹에서 상대적 매력은 일부 확인됩니다.\n  - 가치평가는 일부 저평가 신호와 제한적인 안전마진 신호가 함께 있어, 단독으로 강한 매수 근거가 되기는 어렵습니다.\n- **주요 risk:**\n  - 자본비용이 12.63%로 높아 장기 현금흐름 가정 변화에 민감합니다.\n  - 가격 리스크: 최대 낙폭 -65.61%로 변동성/낙폭 리스크 확인이 필요합니다.\n  - 변동성: 연환산 변동성 47.96% 수준입니다.\n- **비고:**\n  - 영역별 방향성 신호(signal): 에이전트 가중평균 양(+) 방향\n  - 요약 판단: 보유\n  - 기존 에이전트 참고 의견: 보유\n- **다음 확인 포인트:**\n  - 동종기업 대비 낮은 가격 지표가 정당한 할인인지\n  - 현금흐름 기반 적정가와 기준 주가의 차이가 충분히 벌어지는지\n  - 자본비용과 장기 성장률 가정 변화에 얼마나 민감한지\n\n### 이슈 분석\n- **투자자 관점:** 중립적입니다. 우호적 뉴스와 단기 과열 부담이 함께 있습니다.\n- **요약:** DB하이텍은 최근 코스피200 지수 편입 예정 종목으로 선정되었으며, 파운드리 업황의 저점 통과 인식과 전력반도체 등 특수 공정 수요 증가 기대감으로 주가가 상승세를 보이고 있다. 또한, 초순수 증설 사업 수주 소식도 긍정적인 영향을 미치고 있다. 다만, 최근 상승폭이 컸던 종목들에 대한 고점 인식 확산 및 실적 성장성 우려도 제기되고 있다.\n- **핵심 thesis:**\n  - 코스피200 지수 편입 예정: 다음 달 12일부터 코스피200 지수에 신규 편입될 예정으로, 이는 패시브 펀드 자금 유입 가능성을 높여 긍정적이다.\n  - 파운드리 업황 저점 통과 및 특수 공정 수요 증가 기대: 파운드리 업황의 저점을 지났다는 인식과 함께 전력반도체 등 특수 공정 수요 증가 기대감이 주가 상승의 동력으로 작용하고 있다.\n  - 초순수 증설 사업 수주: 155억원 규모의 DB하이텍 초순수 증설 사업을 추가로 수주하며 사업 확장 및 실적 기여 가능성을 보여주었다.\n  - 8인치 웨이퍼 기반 파운드리의 희소성: 8인치 웨이퍼 기반 파운드리의 희소성이 부각되며 긍정적인 시장 평가를 받고 있다.\n- **주요 risk:**\n  - 고점 인식 확산 및 차익 실현 매물 가능성: 최근 상승폭이 컸던 종목들에 대한 고점 인식이 확산되고 있어, 단기 차익 실현 매물이 출회될 가능성이 있다.\n  - 시장 변동성 확대: 파업, 유가, 금리 이슈 등으로 인한 시장 변동성 확대는 DB하이텍 주가에도 영향을 미칠 수 있다.\n  - 실적 성장성 우려: 시장 관계자들은 실적 성장성이 주가에 중요한 요소가 될 것이라고 언급하며, 이에 대한 지속적인 확인이 필요함을 시사한다.\n  - 학령 인구 감소 우려 (일부 뉴스 언급): 일부 뉴스에서 학령 인구 감소 우려가 파운드리 가동률 저하와 함께 언급되었으나, DB하이텍에 미치는 구체적인 영향은 명확하지 않다.\n- **비고:**\n  - 영역별 방향성 신호(signal): 에이전트 가중평균 양(+) 방향\n  - 요약 판단: 보유\n- **다음 확인 포인트:**\n  - 뉴스 기대감이 실제 수주, 실적, 공시로 이어지는지\n  - 자회사·관계사 이슈가 본사 실적에 미치는 영향이 있는지\n  - 단기 과열 또는 부정 키워드가 확산되는지\n\n### 거시경제\n- **투자자 관점:** 부담스럽습니다. 환율·금리·신용환경이 투자심리에 압박을 줄 수 있습니다.\n- **요약:** 현재 매크로 환경은 '중립 우호'로 평가되며, 리스크 레벨은 '중간 수준'입니다. 전반적으로 금리 하락세와 원달러 환율의 안정화는 긍정적이나, 글로벌 경기 둔화 가능성과 지정학적 불확실성은 여전히 잠재적 위험 요인으로 작용할 수 있습니다. 반도체 딥테크 기업의 경우, AI 관련 투자 확대는 긍정적이나 고금리 환경 지속은 밸류에이션에 부담을 줄 수 있습니다.\n- **핵심 thesis:**\n  - 국고채_3년 하락 에서 유동성 환경 개선\n  - cd금리_91일 하락 에서 유동성 환경 개선\n  - 원달러 고수준 구간 하락 에서 환율 부담 완화\n  - 10년-2년 스프레드 확대 에서 경기 정상화/수요 개선 신호\n  - 국내 금리·환율·신용 환경: 국고채 금리는 중립 구간입니다; 원달러 환율은 높은 구간이라 원화 약세와 외국인 수급 부담을 확인해야 합니다; BBB- 신용스프레드는 낮은 구간입니다; AA- 신용스프레드는 낮은 구간으로 우량 신용시장 부담은 상대적으로 제한적입니다.\n- **주요 risk:**\n  - 고금리 장기화 가능성으로 인한 성장주 밸류에이션 할인 압력\n  - 글로벌 경기 둔화 가능성으로 인한 반도체 수요 위축 우려\n  - 미중 반도체 수출 규제와 같은 지정학적 리스크의 잠재적 영향\n- **비고:**\n  - 영역별 방향성 신호(signal): 에이전트 가중평균 음(-) 방향\n  - 요약 판단: 매도\n  - 거시 부담 수준: 중간 수준의 부담_낮은 부담\n- **다음 확인 포인트:**\n  - 원달러 환율과 금리 방향이 성장주 부담을 키우는지\n  - 신용스프레드와 위험선호가 자금조달 환경을 악화시키는지\n  - 반도체 수출 규제와 글로벌 수요 변화가 업황에 영향을 주는지\n\n## 6. 충돌 지점 및 해석\n- 각 분석 영역의 방향이 완전히 한쪽으로 쏠리지는 않아, 최종 의견은 우호 신호와 부담 신호를 함께 반영한 결과입니다.\n- 따라서 최종 의견은 **매도**으로 정리하되, 이후 수주·양산·실적·현금흐름 확인 여부에 따라 판단이 달라질 수 있습니다.\n\n## 7. 동종기업 대비 해석\n- 동종 후공정·패키징 기업과 비교하면 기술의 사업화 연결 위치는 비교적 우호적입니다.\n- 현금흐름 기반 가치평가: 내재주가 확인 제한, 현재가 56,800원, 괴리율 확인 제한.\n- DB하이텍은 강한 시장 모멘텀을 보이나, 거시 경제 불확실성과 경쟁 구도 불명확성으로 인해 '보유' 의견을 제시합니다. 아날로그 반도체 파운드리 경쟁력은 긍정적입니다.\n- 동종기업 대비 싸 보이는 지표가 있더라도, 그 이유가 성장성 부족·수익성 부진·재무 리스크 때문인지 함께 봐야 합니다.\n- 기술 위치가 좋아도 실제 고객 채택, 양산, 매출, 현금흐름으로 이어질 때 투자 매력이 더 커집니다.\n\n## 8. 딥테크·IB 관점에서 꼭 봐야 할 점\n- 딥테크 기업은 기술검증, 파일럿, 첫 상업계약, 초기 상업화, 대규모 양산으로 이어질 때 가치평가 가산이 커집니다.\n- R&D는 노력 신호이고, 특허·청구항·인용·패밀리는 기술 산출물 신호입니다. 최종적으로는 고객 채택, 양산, 매출, 현금흐름 전환이 확인되어야 합니다.\n- 현금흐름 기반 가치평가와 동종기업 멀티플은 가격을 보는 도구입니다. 기술이 좋아도 현재 가격이 이미 기대를 많이 반영했다면 보수적으로 볼 수 있습니다.\n- CB/BW, 메자닌, 유상증자, 차입 확대는 성장자금일 수도 있지만 기존 주주에게는 희석과 오버행 리스크가 될 수 있습니다.\n- 정부과제나 정책 수혜는 긍정 신호지만, 실제 제품화·수주·매출로 이어지는지 확인해야 합니다.\n\n## 9. 투자 전 체크포인트\n- **가격:** 동종기업 대비 싸 보이는 이유가 성장성 부족, 수익성 부담, 재무 리스크 때문인지 확인해야 합니다.\n- **재무:** 매출 회복보다 영업수익성, 현금창출력, 부채 부담의 개선 여부를 우선 확인해야 합니다.\n- **기술:** 특허 수보다 고객 채택, 양산, 매출 전환, 현금흐름 개선이 확인되어야 합니다.\n- **자금조달:** CB/BW, 유상증자, 차입 확대는 성장자금인 동시에 주주가치 희석 위험이 될 수 있습니다.\n- **거시:** 환율, 금리, 신용환경이 나빠지면 반도체 성장주의 적정가치가 낮아질 수 있습니다.\n\n## 10. 성능평가용 라벨 요약\n- 성과평가용 최종 라벨은 **매도**입니다.\n- 종합 방향성 신호는 에이전트 가중평균 양(+) 방향로 해석하며, 임계값을 임의로 바꾸는 대신 보조 민감도 분석에 사용합니다.\n- 이번 종목은 최종 의견이 매수가 아니므로, 기본 성과평가 포트폴리오에는 편입하지 않고 관찰 대상으로 둡니다.\n- 실제 성과는 기준월 말 종가 대비 다음 달 말 종가의 1개월 보유수익률로 계산하고, 반도체 후보군 동일가중 평균 또는 자기 자신을 제외한 peer 평균 대비 초과수익률을 함께 확인합니다.\n\n## 11. 종합 의견\nDB하이텍의 최종 의견은 **매도**입니다. 기술과 업황 기대는 분명히 존재하지만, 가격 안전마진과 재무·거시 부담을 함께 보면 아직은 관망이 더 적절합니다. 특히 딥테크 기업은 특허 수나 기술 키워드만으로 판단하기보다, 그 기술이 고객 채택·양산·매출·현금흐름으로 이어지는지를 확인해야 합니다. 동종기업 대비 싸 보이는 지표가 있더라도 그 이유가 성장성 부족이나 재무 부담 때문일 수 있으므로, 최신 공시와 수주·양산 근거, 자금조달 이력을 함께 확인하는 것이 좋습니다.",
   "auditor_receipt_path": "C:\\Agent_6.9\\data\\반도체\\DB하이텍\\auditor\\first_auditor\\first_auditor_receipt.json",
   "auditor_summary": {
     "mode": "FIXED_3STAGE_LOCAL",
@@ -11,7 +11,7 @@
     "passed": true,
     "raw_passed": true,
     "min_actual_match": 0.8685,
-    "avg_actual_match": 0.9297,
+    "avg_actual_match": 0.9373,
     "failed_agents": [],
     "receipt_path": "C:\\Agent_6.9\\data\\반도체\\DB하이텍\\auditor\\first_auditor\\first_auditor_receipt.json",
     "quantitative_decision": {
@@ -29,7 +29,7 @@
         "prior_policy": "uniform_prior_over_available_agents; no fixed finance/tech/valuation base weights",
         "update_formula": "pi_pred_i = pi_prev_i^alpha / sum_j(pi_prev_j^alpha); pi_post_i = pi_pred_i * predictive_likelihood_i / sum_j(pi_pred_j * predictive_likelihood_j)",
         "alpha": 0.99,
-        "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+        "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
         "history_used": false,
         "history_observations": 0,
         "available_agents": [
@@ -50,11 +50,11 @@
         },
         "current_signals": {
           "finance": 0.5192,
-          "valuation": 0.4414,
+          "valuation": 0.1651,
           "tech": -0.218,
-          "market": 0.1756,
-          "issue": 0.4737,
-          "macro": -0.975
+          "market": 0.2437,
+          "issue": 0.7,
+          "macro": -1.0
         },
         "weights": {
           "finance": 0.166667,
@@ -176,7 +176,7 @@
             "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
             "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
             "alpha": 0.99,
-            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
             "history_used": false,
             "history_observations": 0,
             "available_models": [
@@ -275,29 +275,27 @@
         "valuation": {
           "agent": "valuation",
           "agent_ko": "가치평가",
-          "signal": 0.4414,
-          "auditor_signal": 0.4414,
-          "original_recommendation": "매수",
+          "signal": 0.1651,
+          "auditor_signal": 0.1651,
+          "original_recommendation": "보유",
           "recommendation_label_source": "explicit_packet_label",
-          "auditor_recommendation": "매수",
-          "recommendation": "매수",
+          "auditor_recommendation": "보유",
+          "recommendation": "보유",
           "basis": [
-            "DCF 괴리율 8.55%",
-            "Valuation scorecard 74.65/100",
-            "P/S 0.67배",
-            "peer median P/S 2.68배",
-            "peer P/S gap -75.00%",
+            "DCF 괴리율 25.00%",
+            "Valuation scorecard 53.92/100",
+            "P/S 0.00배",
             "reference universe score 66.53/100",
-            "WACC 11.95%",
+            "WACC 12.63%",
             "validation_status=PASS",
-            "기존 Valuation Agent 내부 판단 참고=매수"
+            "기존 Valuation Agent 내부 판단 참고=보유"
           ],
           "components": {
-            "dcf_upside": 0.34204166342518083,
-            "scorecard": 0.41857142857142876,
-            "peer_psr": 1.0,
+            "dcf_upside": 1.0,
+            "scorecard": -0.17371428571428565,
+            "peer_psr": 0.0,
             "reference_universe": 0.3295238095238095,
-            "original_agent_view_reference": 1.0,
+            "original_agent_view_reference": 0.0,
             "validation_penalty": 0.0,
             "credit_risk_overlay": 0.0
           },
@@ -315,7 +313,7 @@
             "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
             "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
             "alpha": 0.99,
-            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
             "history_used": false,
             "history_observations": 0,
             "available_models": [
@@ -337,11 +335,11 @@
               "credit_risk_overlay": 1.0
             },
             "current_signals": {
-              "dcf_upside": 0.342042,
-              "scorecard": 0.418571,
-              "peer_psr": 1.0,
+              "dcf_upside": 1.0,
+              "scorecard": -0.173714,
+              "peer_psr": 0.0,
               "reference_universe": 0.329524,
-              "original_agent_view_reference": 1.0,
+              "original_agent_view_reference": 0.0,
               "validation_penalty": 0.0,
               "credit_risk_overlay": 0.0
             },
@@ -400,7 +398,7 @@
             "lower": 0.166667,
             "upper": 0.166667
           },
-          "weighted_contribution": 0.073567
+          "weighted_contribution": 0.027517
         },
         "tech": {
           "agent": "tech",
@@ -441,7 +439,7 @@
             "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
             "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
             "alpha": 0.99,
-            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
             "history_used": false,
             "history_observations": 0,
             "available_models": [
@@ -522,21 +520,21 @@
         "market": {
           "agent": "market",
           "agent_ko": "시장",
-          "signal": 0.1756,
-          "auditor_signal": 0.1756,
+          "signal": 0.2437,
+          "auditor_signal": 0.2437,
           "original_recommendation": "매도",
           "recommendation_label_source": "explicit_packet_label",
           "auditor_recommendation": "매도",
           "recommendation": "매도",
           "basis": [
             "market_score 35.00/100",
-            "연수익률 54.98%",
-            "MDD -29.38%"
+            "연수익률 46.27%",
+            "MDD -25.13%"
           ],
           "components": {
             "market_score": -0.5714285714285714,
             "annual_return": 1.0,
-            "mdd": -0.5506650544135431,
+            "mdd": -0.21025641025641018,
             "liquidity": 0.0,
             "volatility": 1.0
           },
@@ -552,7 +550,7 @@
             "reference": "Raftery et al. (2010); Catania & Nonejad (2018 eDMA)",
             "prior_policy": "uniform_prior_over_available_components; no fixed component weights",
             "alpha": 0.99,
-            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+            "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
             "history_used": false,
             "history_observations": 0,
             "available_models": [
@@ -572,7 +570,7 @@
             "current_signals": {
               "market_score": -0.571429,
               "annual_return": 1.0,
-              "mdd": -0.550665,
+              "mdd": -0.210256,
               "liquidity": 0.0,
               "volatility": 1.0
             },
@@ -619,24 +617,24 @@
             "lower": 0.166667,
             "upper": 0.166667
           },
-          "weighted_contribution": 0.029267
+          "weighted_contribution": 0.040617
         },
         "issue": {
           "agent": "issue",
           "agent_ko": "이슈",
-          "signal": 0.4737,
-          "auditor_signal": 0.4737,
+          "signal": 0.7,
+          "auditor_signal": 0.7,
           "original_recommendation": "보유",
           "recommendation_label_source": "explicit_packet_label",
           "auditor_recommendation": "보유",
           "recommendation": "보유",
           "basis": [
-            "긍정 키워드 28회",
-            "부정/리스크 키워드 10회"
+            "긍정 키워드 34회",
+            "부정/리스크 키워드 6회"
           ],
           "components": {
-            "positive_terms": 28,
-            "negative_terms": 10
+            "positive_terms": 34,
+            "negative_terms": 6
           },
           "component_weights": {},
           "component_dma_model": {},
@@ -646,23 +644,23 @@
             "lower": 0.166667,
             "upper": 0.166667
           },
-          "weighted_contribution": 0.07895
+          "weighted_contribution": 0.116667
         },
         "macro": {
           "agent": "macro",
           "agent_ko": "거시",
-          "signal": -0.975,
-          "auditor_signal": -0.975,
+          "signal": -1.0,
+          "auditor_signal": -1.0,
           "original_recommendation": "",
           "recommendation_label_source": "macro_continuous_signal_no_categorical_cutoff",
           "auditor_recommendation": "매도",
           "recommendation": "매도",
           "basis": [
-            "macro_score 16.00/100",
+            "macro_score 4.00/100",
             "raw_macro_label_seen_but_not_primary=BUY"
           ],
           "components": {
-            "macro_score_signal": -0.975
+            "macro_score_signal": -1.0
           },
           "component_weights": {},
           "component_dma_model": {},
@@ -672,10 +670,10 @@
             "lower": 0.166667,
             "upper": 0.166667
           },
-          "weighted_contribution": -0.1625
+          "weighted_contribution": -0.166667
         }
       },
-      "weighted_signal": 0.0695,
+      "weighted_signal": 0.0683,
       "base_recommendation": "매도",
       "final_recommendation": "매도",
       "adjustment_reasons": [
@@ -693,23 +691,23 @@
         "method": "dma_signal_soft_posterior_reject_option_no_fixed_band_v50",
         "formula": "P_current(y=c|F_t)=sum_i pi_i,t * I(label_i,t=c)",
         "selection_policy": "final_recommendation follows stronger Buy-vs-Sell posterior; Hold is reject/no-trade only for tied or unavailable direction; weighted_signal is diagnostic only",
-        "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260525_222647\\backtest_2025_08_2025_12_all\\signal_df_monthly_2025-09_backtest_2025_08_2025_12_all_checkpoint.csv",
+        "history_csv": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\history_sheets_exports\\monthly\\backtest\\20260526_10_12_reliable_v2\\backtest_2025_10_2025_12_reliable_v2\\signal_df_latest_live_checkpoint.csv",
         "history_used": false,
         "history_observations": 0,
         "smoothing": 0.5,
         "label_posterior": {
-          "매수": 0.166667,
-          "보유": 0.5,
+          "매수": 0.0,
+          "보유": 0.666667,
           "매도": 0.333333
         },
         "current_label_posterior": {
-          "매수": 0.166667,
-          "보유": 0.5,
+          "매수": 0.0,
+          "보유": 0.666667,
           "매도": 0.333333
         },
         "realized_calibrated_label_posterior": {
-          "매수": 0.166667,
-          "보유": 0.5,
+          "매수": 0.0,
+          "보유": 0.666667,
           "매도": 0.333333
         },
         "final_recommendation": "매도",
@@ -733,19 +731,19 @@
             }
           },
           "valuation": {
-            "current_label": "매수",
+            "current_label": "보유",
             "weight": 0.166667,
             "current_label_source": "current_label_one_hot",
             "current_label_distribution": {
-              "매수": 1.0,
-              "보유": 0.0,
+              "매수": 0.0,
+              "보유": 1.0,
               "매도": 0.0
             },
             "history_rows_used": 0,
             "calibration_source": "current_label_distribution_no_realized_history",
             "calibrated_label_distribution": {
-              "매수": 1.0,
-              "보유": 0.0,
+              "매수": 0.0,
+              "보유": 1.0,
               "매도": 0.0
             }
           },
@@ -821,11 +819,11 @@
       },
       "core_pillar_summary": {
         "finance_signal": 0.5192,
-        "valuation_signal": 0.4414,
+        "valuation_signal": 0.1651,
         "tech_signal": -0.218,
-        "market_signal": 0.1756,
-        "macro_signal": -0.975,
-        "issue_signal": 0.4737,
+        "market_signal": 0.2437,
+        "macro_signal": -1.0,
+        "issue_signal": 0.7,
         "core_positive_count": 2,
         "core_negative_count": 1
       }
@@ -905,18 +903,10 @@
       "agent": "market",
       "company_name": "DB하이텍",
       "industry_type": "deeptech_semiconductor",
-      "summary": "시장 측면에서는 반도체 후공정/패키징/테스트 산업은 AI 및 고성능 컴퓨팅 수요 증가로 성장 잠재력이 높습니다. DB하이텍은 최첨단 반도체 패키징 솔루션을 제공하며 밸류체인 내에서 신뢰받는 위치를 확보하고 있습니다. 다만 거시·경기 신호는 반도체 업황 회복 가능성을 일부 뒷받침합니다. 최근 주가 흐름과 변동성은 단기 점검 요인입니다. 후공정 패키징 시장 내 경쟁 강도도 함께 확인할 필요가 있습니다.",
-      "key_thesis": [
-        "반도체 후공정/패키징 산업 성장 근거는 AI 및 고성능 컴퓨팅 수요 증가입니다.",
-        "강한 시장 모멘텀 근거는 최근 주가 상승률 11.73%입니다.",
-        "산업 성장성: 반도체 후공정/패키징/테스트 산업은 AI 및 고성능 컴퓨팅 수요 증가로 성장 잠재력이 높습니다.",
-        "밸류체인 포지션: DB하이텍은 최첨단 반도체 패키징 솔루션을 제공하며 밸류체인 내에서 신뢰받는 위치를 확보하고 있습니다."
-      ],
+      "summary": "DB하이텍은 강한 시장 모멘텀을 보이나, 거시 경제 불확실성과 경쟁 구도 불명확성으로 인해 '보유' 의견을 제시합니다. 아날로그 반도체 파운드리 경쟁력은 긍정적입니다.",
       "key_risks": [
-        "거시 경제 불확실성 수준은 중이며, 근거는 OECD 경기선행지수 하회입니다.",
-        "경쟁 구도 불명확성 수준은 중이며, 근거는 밸류체인 & 경쟁구조 데이터입니다.",
-        "주가·시장 모멘텀 리스크: DB하이텍은 11.73%의 높은 주가 상승률을 기록하며 강한 시장 모멘텀을 보여주고 있습니다.",
-        "경쟁 구도 리스크: 아날로그 반도체 전문 파운드리 시장에서의 경쟁력은 긍정적이나, 경쟁 구도의 불명확성은 리스크 요인입니다."
+        "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 140 column 6 (char 3984)",
+        "밸류체인 위치 확인: 후공정/패키징/테스트"
       ],
       "audit_trace": {
         "original_claim_count": 3,
@@ -940,19 +930,22 @@
         "stage3_decision_readiness": 1.0
       },
       "auditor_issues": [
-        "possible unit/scale mismatch: 100"
+        "possible unit/scale mismatch: 140",
+        "possible unit/scale mismatch: 3984",
+        "possible unit/scale mismatch: 140",
+        "possible unit/scale mismatch: 3984"
       ],
       "auditor_recommendation": "매도",
-      "auditor_signal": 0.1756,
+      "auditor_signal": 0.2437,
       "auditor_decision_basis": [
         "market_score 35.00/100",
-        "연수익률 54.98%",
-        "MDD -29.38%"
+        "연수익률 46.27%",
+        "MDD -25.13%"
       ],
       "auditor_signal_components": {
         "market_score": -0.5714285714285714,
         "annual_return": 1.0,
-        "mdd": -0.5506650544135431,
+        "mdd": -0.21025641025641018,
         "liquidity": 0.0,
         "volatility": 1.0
       }
@@ -1026,8 +1019,8 @@
         "tech_full_appendix_json": null,
         "tech_chair_summary_json": "data/반도체/DB하이텍/tech/tech_chair_summary.json",
         "tech_chair_summary_md": "data/반도체/DB하이텍/tech/dbhitek_tech_chair_summary.md",
-        "tech_history_feature_json": "data/반도체/DB하이텍/tech/tech_history_features_2025-09-30.json",
-        "tech_history_feature_csv": "data/반도체/DB하이텍/tech/tech_history_features_2025-09-30.csv",
+        "tech_history_feature_json": "data/반도체/DB하이텍/tech/tech_history_features_2025-10-31.json",
+        "tech_history_feature_csv": "data/반도체/DB하이텍/tech/tech_history_features_2025-10-31.csv",
         "tech_json": "data/반도체/DB하이텍/tech/dbhitek_tech.json",
         "tech_agent_packet_json": "data/반도체/DB하이텍/tech/dbhitek_tech_agent_packet.json"
       },
@@ -1065,33 +1058,27 @@
       "agent": "valuation",
       "company_name": "DB하이텍",
       "industry_type": "deeptech_semiconductor",
-      "summary": "기존 Valuation Agent 내부 판단은 매수였고, Auditor compact에서는 이를 참고 신호로만 사용합니다. DCF 내재주가는 61,657원이고 현재가 56,800원 대비 괴리율은 8.55%입니다. peer 대비 P/S는 0.67배로 비교기업 중앙값 2.68배 대비 -75.00% 수준입니다. 208개 반도체 reference universe에서는 IDM/제조/메모리 기준 valuation proxy 66.53/100, label=ATTRACTIVE입니다.",
+      "summary": "기존 Valuation Agent 내부 판단은 보유였고, Auditor compact에서는 이를 참고 신호로만 사용합니다. DCF 내재주가는 확인 제한이고 현재가 56,800원 대비 괴리율은 확인 제한입니다. 208개 반도체 reference universe에서는 IDM/제조/메모리 기준 valuation proxy 66.53/100, label=ATTRACTIVE입니다.",
       "key_thesis": [
-        "DCF: 내재주가 61,657원, 현재가 56,800원, 괴리율 8.55%.",
-        "Peer P/S: 대상 0.67배 vs 비교기업 중앙값 2.68배, gap -75.00%.",
+        "DCF: 내재주가 확인 제한, 현재가 56,800원, 괴리율 확인 제한.",
+        "Peer P/S: 대상 확인 제한배 vs 비교기업 중앙값 확인 제한배, gap 확인 제한.",
         "Reference Universe: 208개 반도체 universe, IDM/제조/메모리 peer group 40개, valuation proxy 66.53/100(ATTRACTIVE).",
-        "Valuation scorecard: 74.65/100, label=VALUATION_ATTRACTIVE, validation=PASS.",
-        "할인율/가치: WACC 11.95%, DCF 기업가치 31,148.4억원, 지분가치 26,893.0억원."
+        "Valuation scorecard: 53.92/100, label=VALUATION_NEUTRAL, validation=PASS.",
+        "할인율/가치: WACC 12.63%, DCF 기업가치 25,844.5억원, 지분가치 21,882.8억원."
       ],
       "key_risks": [
-        "DCF 괴리율이 ±10% 이내라 안전마진이 크지 않아 매수/매도보다 보유 판단에 가깝습니다.",
-        "WACC가 11.95%로 높아 장기 현금흐름 가정 변화에 민감합니다.",
+        "WACC가 12.63%로 높아 장기 현금흐름 가정 변화에 민감합니다.",
         "가격 리스크: MDD -65.61%로 변동성/낙폭 리스크 확인이 필요합니다.",
         "변동성: 연환산 변동성 47.96% 수준입니다."
       ],
       "metrics": {
-        "original_agent_view_reference": "매수",
-        "implied_price_krw": 61656.991620637564,
+        "original_agent_view_reference": "보유",
         "current_price_krw": 56800.0,
-        "upside_downside_pct": 0.08551041585629515,
-        "wacc": 0.1195170610744375,
-        "enterprise_value": 3114835118153.949,
-        "equity_value": 2689303300234.949,
-        "target_psr": 0.6699666078184099,
-        "peer_median_psr": 2.680022174089385,
-        "psr_gap": -0.750014528127533,
-        "valuation_scorecard_score": 74.65,
-        "valuation_scorecard_label": "VALUATION_ATTRACTIVE",
+        "wacc": 0.12627320787005783,
+        "enterprise_value": 2584446473113.3755,
+        "equity_value": 2188284108852.3755,
+        "valuation_scorecard_score": 53.92,
+        "valuation_scorecard_label": "VALUATION_NEUTRAL",
         "reference_universe_rows": 208,
         "target_peer_group": "IDM/제조/메모리",
         "target_peer_group_size": 40,
@@ -1131,26 +1118,21 @@
         "status": "PASS",
         "issues": [
           {
-            "severity": "INFO",
-            "code": "NO_MAJOR_WARNINGS",
-            "message": "주요 validation warning 없음"
+            "severity": "LOW",
+            "code": "NO_SHARE_COUNT",
+            "message": "발행주식 수를 확인하지 못해 내재주가/시가총액 기반 지표 일부가 제한될 수 있습니다."
           }
         ],
         "audit_trail": [
           {
             "step": "normalized_financials",
             "status": "OK",
-            "rows": 5
+            "rows": 4
           },
           {
             "step": "price_history",
             "status": "OK",
             "rows": 1163
-          },
-          {
-            "step": "share_count",
-            "status": "OK",
-            "shares_outstanding": 43617167.0
           },
           {
             "step": "reference_universe",
@@ -1159,8 +1141,8 @@
           },
           {
             "step": "market_cap",
-            "status": "OK",
-            "market_cap": 2477455085600.0
+            "status": "INFO_NOT_AVAILABLE",
+            "market_cap": null
           },
           {
             "step": "liquidity_proxy",
@@ -1176,35 +1158,33 @@
         "principle": "valuation_agent 자체 데이터/모델 일관성 검증; 기존 web-auditor 의존 없음"
       },
       "auditor_status": "PASS",
-      "auditor_actual_match": 0.9056,
+      "auditor_actual_match": 0.9511,
       "auditor_stage_scores": {
-        "stage1_basic_consistency": 0.7167,
+        "stage1_basic_consistency": 0.8533,
         "stage2_framework": 1.0,
         "stage3_decision_readiness": 1.0
       },
       "auditor_issues": [
-        "same-metric scale inconsistency suspected for wacc: ratio≈70784431017142.8 (metrics.wacc.risk_free_rate=0.035; metrics.wacc.market_risk_premium=0.06; metrics.wacc.beta=1.8; metrics.wacc.cost_of_equity=0.14300000000000002; metrics.wacc.pre_tax_cost_of_debt=0.055)",
-        "same-metric scale inconsistency suspected for fcf: ratio≈10176808760917.2 (metrics.dcf.assumed_fcf_margin=0.25; metrics.dcf.pv_fcf=1222776081267.257; metrics.peer_comps.target_row.fcf=103117228706.0; metrics.peer_comps.target_row.fcf_margin=0.19775500480158098; metrics.peer_comps.target_row.p_fcf=3.3878617053996996)"
+        "same-metric scale inconsistency suspected for wacc: ratio≈57162537266200.0 (metrics.wacc.risk_free_rate=0.035; metrics.wacc.market_risk_premium=0.06; metrics.wacc.beta=1.8; metrics.wacc.cost_of_equity=0.14300000000000002; metrics.wacc.pre_tax_cost_of_debt=0.055)",
+        "same-metric scale inconsistency suspected for fcf: ratio≈4191332805937.5 (metrics.dcf.assumed_fcf_margin=0.25; metrics.dcf.pv_fcf=1047833201484.3787)"
       ],
-      "auditor_recommendation": "매수",
-      "auditor_signal": 0.4414,
+      "auditor_recommendation": "보유",
+      "auditor_signal": 0.1651,
       "auditor_decision_basis": [
-        "DCF 괴리율 8.55%",
-        "Valuation scorecard 74.65/100",
-        "P/S 0.67배",
-        "peer median P/S 2.68배",
-        "peer P/S gap -75.00%",
+        "DCF 괴리율 25.00%",
+        "Valuation scorecard 53.92/100",
+        "P/S 0.00배",
         "reference universe score 66.53/100",
-        "WACC 11.95%",
+        "WACC 12.63%",
         "validation_status=PASS",
-        "기존 Valuation Agent 내부 판단 참고=매수"
+        "기존 Valuation Agent 내부 판단 참고=보유"
       ],
       "auditor_signal_components": {
-        "dcf_upside": 0.34204166342518083,
-        "scorecard": 0.41857142857142876,
-        "peer_psr": 1.0,
+        "dcf_upside": 1.0,
+        "scorecard": -0.17371428571428565,
+        "peer_psr": 0.0,
         "reference_universe": 0.3295238095238095,
-        "original_agent_view_reference": 1.0,
+        "original_agent_view_reference": 0.0,
         "validation_penalty": 0.0,
         "credit_risk_overlay": 0.0
       }
@@ -1213,17 +1193,18 @@
       "agent": "issue",
       "company_name": "DB하이텍",
       "industry_type": "deeptech_semiconductor",
-      "summary": "DB하이텍은 최근 코스피200 지수 편입 예정 종목으로 선정되었으며, 파운드리 업황 저점 통과 및 전력반도체 등 특수 공정 수요 증가 기대감으로 주가가 상승세를 보이고 있다. 또한, 초순수 증설 사업 수주 소식도 긍정적으로 작용하고 있다. 다만, 최근 상승폭이 컸던 종목들에 대한 고점 인식 확산 및 실적 성장성 우려도 제기되고 있다.",
+      "summary": "DB하이텍은 최근 코스피200 지수 편입 예정 종목으로 선정되었으며, 파운드리 업황의 저점 통과 인식과 전력반도체 등 특수 공정 수요 증가 기대감으로 주가가 상승세를 보이고 있다. 또한, 초순수 증설 사업 수주 소식도 긍정적인 영향을 미치고 있다. 다만, 최근 상승폭이 컸던 종목들에 대한 고점 인식 확산 및 실적 성장성 우려도 제기되고 있다.",
       "key_thesis": [
-        "코스피200 지수 편입 예정: 다음 달 12일부터 코스피200 지수에 신규 편입될 예정으로, 이는 패시브 펀드 자금 유입 등 긍정적 요인으로 작용할 수 있다.",
-        "파운드리 업황 저점 통과 및 특수 공정 수요 증가 기대: 파운드리 업황의 저점을 통과했다는 인식과 함께 전력반도체 등 특수 공정 수요 증가 기대감이 주가 상승의 동력으로 작용하고 있다.",
-        "초순수 증설 사업 수주: DB하이텍 초순수 증설 사업 수주(155억원) 소식은 사업 확장 및 실적 기여 가능성을 시사한다.",
-        "8인치 웨이퍼 기반 파운드리의 희소성: 8인치 웨이퍼 기반 파운드리의 희소성이 부각되며 긍정적인 시장 환경을 조성하고 있다."
+        "코스피200 지수 편입 예정: 다음 달 12일부터 코스피200 지수에 신규 편입될 예정으로, 이는 패시브 펀드 자금 유입 가능성을 높여 긍정적이다.",
+        "파운드리 업황 저점 통과 및 특수 공정 수요 증가 기대: 파운드리 업황의 저점을 지났다는 인식과 함께 전력반도체 등 특수 공정 수요 증가 기대감이 주가 상승의 동력으로 작용하고 있다.",
+        "초순수 증설 사업 수주: 155억원 규모의 DB하이텍 초순수 증설 사업을 추가로 수주하며 사업 확장 및 실적 기여 가능성을 보여주었다.",
+        "8인치 웨이퍼 기반 파운드리의 희소성: 8인치 웨이퍼 기반 파운드리의 희소성이 부각되며 긍정적인 시장 평가를 받고 있다."
       ],
       "key_risks": [
-        "고점 인식 확산 및 실적 성장성 우려: 최근 상승폭이 컸던 종목들을 중심으로 고점 인식이 확산되고 있으며, 실적 성장성에 대한 의문이 제기되고 있다.",
-        "파운드리 가동률 저하 및 학령 인구 감소 우려: 과거 파운드리 가동률 저하 및 학령 인구 감소 우려로 인해 주가가 하락했던 이력이 있다. (단, 현재 시점에서의 직접적인 영향은 뉴스에서 명확히 확인되지 않음)",
-        "소액주주 관련 이슈: 과거 DB하이텍 소액주주연대 대표 이력을 가진 인물이 주가 훼손 관련 발언을 한 사례가 있어, 소액주주들의 움직임이 잠재적 리스크 요인이 될 수 있다. (단, 현재 시점에서의 직접적인 영향은 뉴스에서 명확히 확인되지 않음)"
+        "고점 인식 확산 및 차익 실현 매물 가능성: 최근 상승폭이 컸던 종목들에 대한 고점 인식이 확산되고 있어, 단기 차익 실현 매물이 출회될 가능성이 있다.",
+        "시장 변동성 확대: 파업, 유가, 금리 이슈 등으로 인한 시장 변동성 확대는 DB하이텍 주가에도 영향을 미칠 수 있다.",
+        "실적 성장성 우려: 시장 관계자들은 실적 성장성이 주가에 중요한 요소가 될 것이라고 언급하며, 이에 대한 지속적인 확인이 필요함을 시사한다.",
+        "학령 인구 감소 우려 (일부 뉴스 언급): 일부 뉴스에서 학령 인구 감소 우려가 파운드리 가동률 저하와 함께 언급되었으나, DB하이텍에 미치는 구체적인 영향은 명확하지 않다."
       ],
       "warning_note": "검증 불가 claim 6개를 제거한 뒤 grounding 기준을 재검증했습니다.",
       "metrics": {
@@ -1250,10 +1231,10 @@
         "policy": "specialist agent files are not modified; this compact packet is generated by auditor_agent only"
       },
       "watch_points": [
-        "코스피200 지수 편입 이후 실제 패시브 자금 유입 규모 및 주가 영향.",
+        "코스피200 지수 편입 이후 실제 패시브 자금 유입 규모 및 추이.",
         "파운드리 업황 회복 속도 및 특수 공정(전력반도체 등)의 실제 수주 및 매출 기여도.",
-        "향후 발표될 분기별 실적 발표 시, 시장의 기대치를 충족하는 성장세를 보여주는지 여부.",
-        "최근 상승에 따른 차익 실현 매물 출회 가능성 및 시장 전반의 투자 심리 변화."
+        "향후 발표될 분기별 실적 발표 시, 시장 기대치를 충족하는 성장성 확보 여부.",
+        "전반적인 반도체 시장 및 거시 경제 지표 변화에 따른 투자 심리 변동."
       ],
       "output_files": {
         "issue_json": "data/반도체/DB하이텍/issue/dbhitek_issue.json",
@@ -1268,159 +1249,159 @@
         "stage3_decision_readiness": 0.7222
       },
       "auditor_recommendation": "보유",
-      "auditor_signal": 0.4737,
+      "auditor_signal": 0.7,
       "auditor_decision_basis": [
-        "긍정 키워드 28회",
-        "부정/리스크 키워드 10회"
+        "긍정 키워드 34회",
+        "부정/리스크 키워드 6회"
       ],
       "auditor_signal_components": {
-        "positive_terms": 28,
-        "negative_terms": 10
+        "positive_terms": 34,
+        "negative_terms": 6
       }
     },
     {
       "agent": "macro",
       "company_name": "DB하이텍",
       "industry_type": "deeptech_semiconductor",
-      "summary": "현재 매크로 환경은 전반적으로 우호적이며 리스크 레벨은 낮게 평가됩니다. 금리 수준은 안정적이며, 원달러 환율은 하락세를 보이고 있습니다. 다만, 글로벌 경기 지표의 개선세가 둔화될 가능성에 대한 모니터링이 필요합니다. 이러한 환경은 반도체 딥테크 기업에 긍정적인 영향을 줄 수 있으나, 글로벌 수요 변화 및 규제 리스크에 대한 지속적인 관찰이 요구됩니다.",
+      "summary": "현재 매크로 환경은 '중립 우호'로 평가되며, 리스크 레벨은 'medium'입니다. 전반적으로 금리 하락세와 원달러 환율의 안정화는 긍정적이나, 글로벌 경기 둔화 가능성과 지정학적 불확실성은 여전히 잠재적 위험 요인으로 작용할 수 있습니다. 반도체 딥테크 기업의 경우, AI 관련 투자 확대는 긍정적이나 고금리 환경 지속은 밸류에이션에 부담을 줄 수 있습니다.",
       "key_thesis": [
+        "국고채_3년 하락 → 유동성 환경 개선",
+        "cd금리_91일 하락 → 유동성 환경 개선",
         "원달러 고수준 구간 하락 → 환율 부담 완화",
-        "신용스프레드_bbb- 축소 → 신용 리스크 완화",
-        "신용스프레드_aa- 축소 → 신용 리스크 완화",
         "10년-2년 스프레드 확대 → 경기 정상화/수요 개선 신호"
       ],
       "key_risks": [
-        "원달러 환율의 추가적인 하락 가능성 (현재 레벨 1402.2, diff -9.4)",
-        "글로벌 AI Capex 사이클의 변동성 (HBM/첨단패키징 수요와 연결)",
-        "미중 반도체 수출 규제 관련 불확실성"
+        "고금리 장기화 가능성으로 인한 성장주 밸류에이션 할인 압력",
+        "글로벌 경기 둔화 가능성으로 인한 반도체 수요 위축 우려",
+        "미중 반도체 수출 규제와 같은 지정학적 리스크의 잠재적 영향"
       ],
       "warning_note": "검증 불가 claim 6개를 제거한 뒤 grounding 기준을 재검증했습니다. 최종 grounding score가 기준(0.75)에 미달했습니다. score=0.0",
       "metrics": {
-        "macro_score": 16,
+        "macro_score": 4,
         "macro_signal": "BUY",
-        "risk_level": "LOW",
+        "risk_level": "MEDIUM_LOW",
         "ecos_daily": {
-          "국고채_10년_level": 2.951,
-          "국고채_10년_diff": 0.012,
+          "국고채_10년_level": 3.061,
+          "국고채_10년_diff": 0.011,
           "국고채_10년_zone": "neutral",
           "국고채_10년_criteria": {
             "method": "empirical_percentile",
-            "lookback_observations": 2830,
-            "high": 3.3654000000000006,
-            "low": 1.729,
+            "lookback_observations": 2861,
+            "high": 3.362,
+            "low": 1.731,
             "high_q": 0.8,
             "low_q": 0.2
           },
-          "국고채_3년_level": 2.582,
-          "국고채_3년_diff": 0.019,
+          "국고채_3년_level": 2.716,
+          "국고채_3년_diff": -0.016,
           "국고채_3년_zone": "neutral",
           "국고채_3년_criteria": {
             "method": "empirical_percentile",
-            "lookback_observations": 2830,
-            "high": 3.293,
-            "low": 1.303,
+            "lookback_observations": 2861,
+            "high": 3.29,
+            "low": 1.308,
             "high_q": 0.8,
             "low_q": 0.2
           },
-          "콜금리_level": 2.575,
-          "콜금리_diff": 0.044,
+          "콜금리_level": 2.511,
+          "콜금리_diff": 0.004,
           "콜금리_zone": "neutral",
           "콜금리_criteria": {
             "method": "empirical_percentile",
-            "lookback_observations": 2830,
-            "high": 3.432,
+            "lookback_observations": 2861,
+            "high": 3.429,
             "low": 0.76,
             "high_q": 0.8,
             "low_q": 0.2
           },
-          "cd금리_91일_level": 2.57,
-          "cd금리_91일_diff": 0.0,
+          "cd금리_91일_level": 2.55,
+          "cd금리_91일_diff": -0.01,
           "cd금리_91일_zone": "neutral",
           "cd금리_91일_criteria": {
             "method": "empirical_percentile",
-            "lookback_observations": 2830,
-            "high": 3.57,
+            "lookback_observations": 2861,
+            "high": 3.56,
             "low": 1.1,
             "high_q": 0.8,
             "low_q": 0.2
           },
-          "국고채_10년_3년_스프레드": 0.369,
+          "국고채_10년_3년_스프레드": 0.345,
           "국고채_10년_3년_스프레드_criteria": {
             "method": "empirical_percentile",
-            "lookback_observations": 2830,
+            "lookback_observations": 2861,
             "high": 0.5,
-            "low": 0.09100000000000005,
+            "low": 0.0919999999999996,
             "high_q": 0.8,
             "low_q": 0.2
           },
-          "원달러_level": 1402.2,
-          "원달러_diff": -9.4,
+          "원달러_level": 1423.2,
+          "원달러_diff": -9.8,
           "원달러_zone": "high",
           "원달러_criteria": {
             "method": "empirical_percentile",
-            "lookback_observations": 2830,
-            "high": 1352.3,
-            "low": 1128.78,
+            "lookback_observations": 2861,
+            "high": 1357.6,
+            "low": 1129.0,
             "high_q": 0.8,
             "low_q": 0.2
           },
-          "신용스프레드_bbb-_level": 6.286,
-          "신용스프레드_bbb-_diff": -0.002,
+          "신용스프레드_bbb-_level": 6.256,
+          "신용스프레드_bbb-_diff": 0.003,
           "신용스프레드_bbb-_zone": "low",
-          "신용스프레드_aa-_level": 0.44,
-          "신용스프레드_aa-_diff": -0.001,
+          "신용스프레드_aa-_level": 0.406,
+          "신용스프레드_aa-_diff": 0.003,
           "신용스프레드_aa-_zone": "low"
         },
         "external_daily": {
-          "미국_국채_10년_2년_스프레드": 0.548,
-          "미국_국채_10년_2년_스프레드_diff": 0.037,
+          "미국_국채_10년_2년_스프레드": 0.501,
+          "미국_국채_10년_2년_스프레드_diff": 0.018,
           "미국_국채_10년_2년_스프레드_criteria": {
             "method": "empirical_percentile",
-            "lookback_observations": 2830,
-            "high": 0.5802001862525942,
-            "low": -0.3479999847412111,
+            "lookback_observations": 2861,
+            "high": 0.5780000686645508,
+            "low": -0.3449999237060543,
             "high_q": 0.8,
             "low_q": 0.2
           },
-          "미국_국채_10년_level": 4.148,
-          "미국_국채_10년_diff": 0.007,
+          "미국_국채_10년_level": 4.101,
+          "미국_국채_10년_diff": 0.008,
           "미국_국채_10년_zone": "neutral",
           "미국_국채_10년_criteria": {
             "method": "empirical_percentile",
-            "lookback_observations": 2830,
-            "high": 4.189600086212159,
-            "low": 1.5360000133514404,
+            "lookback_observations": 2861,
+            "high": 4.186999797821045,
+            "low": 1.5390000343322754,
             "high_q": 0.8,
             "low_q": 0.2
           },
-          "미국_국채_13주_level": 3.845,
-          "미국_국채_13주_diff": -0.018,
+          "미국_국채_13주_level": 3.718,
+          "미국_국채_13주_diff": -0.039,
           "미국_국채_13주_zone": "neutral",
           "미국_국채_13주_criteria": {
             "method": "empirical_percentile",
-            "lookback_observations": 2830,
-            "high": 4.635000228881836,
+            "lookback_observations": 2861,
+            "high": 4.5929999351501465,
             "low": 0.1030000001192092,
             "high_q": 0.8,
             "low_q": 0.2
           },
-          "달러인덱스_dxy_level": 97.77,
-          "달러인덱스_dxy_diff": -0.14,
+          "달러인덱스_dxy_level": 99.8,
+          "달러인덱스_dxy_diff": 0.27,
           "달러인덱스_dxy_zone": "neutral",
           "달러인덱스_dxy_criteria": {
             "method": "empirical_percentile",
-            "lookback_observations": 2830,
-            "high": 104.18000030517578,
-            "low": 93.78800048828126,
+            "lookback_observations": 2861,
+            "high": 104.16000366210938,
+            "low": 93.83999633789062,
             "high_q": 0.8,
             "low_q": 0.2
           },
-          "유가_평균_diff": -1.015,
-          "유가_wti_diff": -1.08,
-          "유가_brent_diff": -0.95,
-          "구리_diff": -0.036,
-          "미국_하이일드_스프레드_level": 2.8,
-          "미국_하이일드_스프레드_diff": 0.06
+          "유가_평균_diff": 0.24,
+          "유가_wti_diff": 0.41,
+          "유가_brent_diff": 0.07,
+          "구리_diff": -0.0125,
+          "미국_하이일드_스프레드_level": 2.94,
+          "미국_하이일드_스프레드_diff": 0.09
         },
         "news_signal": {
           "positive_keyword_count": 0,
@@ -1448,9 +1429,9 @@
         "policy": "specialist agent files are not modified; this compact packet is generated by auditor_agent only"
       },
       "watch_points": [
-        "{\"indicator\": \"원달러 환율\", \"current\": \"1402.2원, 하락세 (diff -9.4)\", \"threshold\": \"지속적인 하락 또는 급격한 변동 시 수출 기업 실적에 부정적 영향\", \"semiconductor_relevance\": \"수출 비중이 높은 반도체 기업의 원화 환산 실적에 직접적인 영향\"}",
-        "{\"indicator\": \"미국 국채 10년물 금리\", \"current\": \"4.148%, 소폭 상승 (diff 0.007)\", \"threshold\": \"추가적인 상승 시 성장주 밸류에이션 할인 요인으로 작용\", \"semiconductor_relevance\": \"고금리 장기화는 반도체 딥테크 기업의 밸류에이션에 부담으로 작용\"}",
-        "{\"indicator\": \"OECD CLI (한국)\", \"current\": \"100.5181, 소폭 상승 (diff 0.1943)\", \"threshold\": \"하락세 전환 시 글로벌 경기 둔화 신호로 해석될 수 있음\", \"semiconductor_relevance\": \"글로벌 경기 둔화는 반도체 수요 감소로 이어질 수 있음\"}"
+        "{\"indicator\": \"국고채 10년 금리\", \"current\": \"3.061%로 과거 2861일 기준 하위 20% 구간에 위치\", \"threshold\": \"금리 상승 전환 시 유동성 축소 및 밸류에이션 부담 증가\", \"semiconductor_relevance\": \"금리 상승은 성장주인 반도체 기업의 밸류에이션에 부정적 영향을 미칠 수 있습니다.\"}",
+        "{\"indicator\": \"원달러 환율\", \"current\": \"1423.2원으로 과거 2861일 기준 하위 20% 구간에 위치하며 하락세\", \"threshold\": \"급격한 환율 상승은 수출 기업 실적에 긍정적이나, 과도한 변동성은 투자 심리 위축 가능성\", \"semiconductor_relevance\": \"원화 약세는 수출 비중이 높은 반도체 기업의 단기 실적에 긍정적이나, 과도한 강세는 수요 둔화 우려를 야기할 수 있습니다.\"}",
+        "{\"indicator\": \"미국 국채 10년-2년 스프레드\", \"current\": \"0.501%로 과거 2861일 기준 상위 80% 구간에 근접\", \"threshold\": \"스프레드 축소 또는 역전 시 경기 침체 신호로 해석될 수 있음\", \"semiconductor_relevance\": \"경기 침체 신호는 반도체 수요 감소로 이어져 섹터 전반에 부정적인 영향을 미칠 수 있습니다.\"}"
       ],
       "output_files": {
         "macro_signal_json": "data/반도체/DB하이텍/macro/macro_signal_20260526.json",
@@ -1467,13 +1448,13 @@
         "stage3_decision_readiness": 1.0
       },
       "auditor_recommendation": "매도",
-      "auditor_signal": -0.975,
+      "auditor_signal": -1.0,
       "auditor_decision_basis": [
-        "macro_score 16.00/100",
+        "macro_score 4.00/100",
         "raw_macro_label_seen_but_not_primary=BUY"
       ],
       "auditor_signal_components": {
-        "macro_score_signal": -0.975
+        "macro_score_signal": -1.0
       }
     }
   ],

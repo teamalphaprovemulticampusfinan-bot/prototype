@@ -1,7 +1,7 @@
 {
   "pipeline": "data_intake",
   "status": "OK",
-  "created_at": "2026-05-26T05:17:22",
+  "created_at": "2026-05-26T21:01:58",
   "company_dir": "coasia",
   "company": "코아시아",
   "field": "반도체",
@@ -17,75 +17,46 @@
   "agents": [
     {
       "agent": "macro",
-      "status": "DONE",
-      "module": "data_intake.macro_intake.runner",
-      "function": "run_macro_intake",
-      "started_at": "2026-05-26T05:15:32",
-      "ended_at": "2026-05-26T05:15:35"
+      "status": "SKIPPED_NETWORK_DISABLED",
+      "started_at": "2026-05-26T21:01:38",
+      "ended_at": "2026-05-26T21:01:38",
+      "company_dir": "coasia",
+      "company": "코아시아",
+      "field": "반도체",
+      "reason": "data_intake가 --skip-network로 실행되어 macro_intake 네트워크 수집을 생략했습니다."
     },
     {
       "agent": "market",
       "status": "DONE",
       "module": "data_intake.market_intake.runner",
       "function": "run_market_intake",
-      "started_at": "2026-05-26T05:15:32",
-      "ended_at": "2026-05-26T05:15:49"
+      "started_at": "2026-05-26T21:01:38",
+      "ended_at": "2026-05-26T21:01:48"
     },
     {
       "agent": "issue",
       "status": "DONE",
       "module": "data_intake.issue_intake.runner",
       "function": "run_issue_intake",
-      "started_at": "2026-05-26T05:15:32",
-      "ended_at": "2026-05-26T05:15:34"
+      "started_at": "2026-05-26T21:01:38",
+      "ended_at": "2026-05-26T21:01:40"
     },
     {
       "agent": "finance",
-      "status": "PARTIAL",
-      "created_at": "2026-05-26T05:17:22",
-      "started_at": "2026-05-26T05:15:34",
-      "ended_at": "2026-05-26T05:17:22",
+      "status": "SKIPPED_NETWORK_DISABLED",
+      "started_at": "2026-05-26T21:01:38",
+      "ended_at": "2026-05-26T21:01:39",
       "company_dir": "coasia",
       "company": "코아시아",
       "field": "반도체",
       "stock_code": "045970",
-      "mode": "all",
-      "years": [
-        2021,
-        2022,
-        2023,
-        2024
-      ],
-      "start_date": "2021-01-01",
-      "end_date": "2025-09-30",
-      "force_fetch": false,
-      "steps": [
-        {
-          "name": "warning",
-          "status": "FAILED",
-          "started_at": "2026-05-26T05:15:34",
-          "ended_at": "2026-05-26T05:15:43",
-          "error": "Message: session not created\nfrom unknown error: cannot find Chrome binary; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception\nStacktrace:\n\tGetHandleVerifier [0x0x7ff65daae415+77285]\n\tGetHandleVerifier [0x0x7ff65daae470+77376]\n\t(No symbol) [0x0x7ff65d879a6a]\n\t(No symbol) [0x0x7ff65d8b4d50]\n\t(No symbol) [0x0x7ff65d8b278e]\n\t(No symbol) [0x0x7ff65d90602e]\n\t(No symbol) [0x0x7ff65d9057c0]\n\t(No symbol) [0x0x7ff65d8f83e3]\n\t(No symbol) [0x0x7ff65d8c1521]\n\t(No symbol) [0x0x7ff65d8c22b3]\n\tGetHandleVerifier [0x0x7ff65dd91efd+3107021]\n\tGetHandleVerifier [0x0x7ff65dd8c29d+3083373]\n\tGetHandleVerifier [0x0x7ff65ddabedd+3213485]\n\tGetHandleVerifier [0x0x7ff65dac884e+184862]\n\tGetHandleVerifier [0x0x7ff65dad055f+216879]\n\tGetHandleVerifier [0x0x7ff65dab7084+113236]\n\tGetHandleVerifier [0x0x7ff65dab7239+113673]\n\tGetHandleVerifier [0x0x7ff65da9e298+11368]\n\tBaseThreadInitThunk [0x0x7ff9648d259d+29]\n\tRtlUserThreadStart [0x0x7ff9662eaf78+40]\n",
-          "traceback": "Traceback (most recent call last):\n  File \"C:\\Agent_6.9\\src\\data_intake\\finance_intake\\runner.py\", line 753, in _step\n    result = func()\n             ^^^^^^\n  File \"C:\\Agent_6.9\\src\\data_intake\\finance_intake\\runner.py\", line 780, in <lambda>\n    step_jobs.append((\"warning\", lambda: run_warning_optional(WarningConfig(mode=\"update\", days=1))))\n                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.9\\src\\data_intake\\finance_intake\\runner.py\", line 329, in run_warning_optional\n    run_warning(cfg)\n  File \"C:\\Agent_6.9\\src\\data_intake\\finance_intake\\runner.py\", line 271, in run_warning\n    latest_file = fetch_kind_warning_excel(\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.9\\src\\data_intake\\finance_intake\\collector.py\", line 587, in fetch_kind_warning_excel\n    driver = webdriver.Chrome(\n             ^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.9\\.venv\\Lib\\site-packages\\selenium\\webdriver\\chrome\\webdriver.py\", line 45, in __init__\n    super().__init__(\n  File \"C:\\Agent_6.9\\.venv\\Lib\\site-packages\\selenium\\webdriver\\chromium\\webdriver.py\", line 66, in __init__\n    super().__init__(command_executor=executor, options=self.options)\n  File \"C:\\Agent_6.9\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\webdriver.py\", line 25, in __init__\n    super().__init__(*args, **kwargs)\n  File \"C:\\Agent_6.9\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 276, in __init__\n    self.start_session(capabilities)\n  File \"C:\\Agent_6.9\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 372, in start_session\n    response = self.execute(Command.NEW_SESSION, caps)[\"value\"]\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.9\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 468, in execute\n    self.error_handler.check_response(response)\n  File \"C:\\Agent_6.9\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 232, in check_response\n    raise exception_class(message, screen, stacktrace)\nselenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom unknown error: cannot find Chrome binary; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception\nStacktrace:\n\tGetHandleVerifier [0x0x7ff65daae415+77285]\n\tGetHandleVerifier [0x0x7ff65daae470+77376]\n\t(No symbol) [0x0x7ff65d879a6a]\n\t(No symbol) [0x0x7ff65d8b4d50]\n\t(No symbol) [0x0x7ff65d8b278e]\n\t(No symbol) [0x0x7ff65d90602e]\n\t(No symbol) [0x0x7ff65d9057c0]\n\t(No symbol) [0x0x7ff65d8f83e3]\n\t(No symbol) [0x0x7ff65d8c1521]\n\t(No symbol) [0x0x7ff65d8c22b3]\n\tGetHandleVerifier [0x0x7ff65dd91efd+3107021]\n\tGetHandleVerifier [0x0x7ff65dd8c29d+3083373]\n\tGetHandleVerifier [0x0x7ff65ddabedd+3213485]\n\tGetHandleVerifier [0x0x7ff65dac884e+184862]\n\tGetHandleVerifier [0x0x7ff65dad055f+216879]\n\tGetHandleVerifier [0x0x7ff65dab7084+113236]\n\tGetHandleVerifier [0x0x7ff65dab7239+113673]\n\tGetHandleVerifier [0x0x7ff65da9e298+11368]\n\tBaseThreadInitThunk [0x0x7ff9648d259d+29]\n\tRtlUserThreadStart [0x0x7ff9662eaf78+40]\n\n"
-        },
-        {
-          "name": "financial",
-          "status": "OK",
-          "started_at": "2026-05-26T05:15:34",
-          "ended_at": "2026-05-26T05:16:20"
-        },
-        {
-          "name": "stock",
-          "status": "OK",
-          "started_at": "2026-05-26T05:15:34",
-          "ended_at": "2026-05-26T05:17:22"
-        }
-      ]
+      "reason": "data_intake가 --skip-network로 실행되어 DART/주가/KIND 기반 finance_intake를 호출하지 않았습니다. 기존 finance 산출물이 있으면 finance_agent가 직접 읽습니다.",
+      "direct_command_example": "python -m data_intake.finance_intake.runner --mode all --stock 045970 --sector 반도체"
     },
     {
       "pipeline": "tech_intake",
       "status": "READY_WITHOUT_AGENT",
-      "created_at": "2026-05-26T05:15:58",
+      "created_at": "2026-05-26T21:01:58",
       "field": "반도체",
       "company_dir": "coasia",
       "company": "코아시아",
@@ -142,85 +113,85 @@
           "step": "build_tech_excel_quantified_metrics",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-26T05:15:34",
-          "ended_at": "2026-05-26T05:15:39",
+          "started_at": "2026-05-26T21:01:39",
+          "ended_at": "2026-05-26T21:01:43",
           "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_tech_excel_quantified_metrics.py --field 반도체 --company-dir coasia"
         },
         {
           "step": "prepare_kipris_bibliographic_normalized",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-26T05:15:39",
-          "ended_at": "2026-05-26T05:15:41",
+          "started_at": "2026-05-26T21:01:43",
+          "ended_at": "2026-05-26T21:01:44",
           "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\prepare_kipris_bibliographic_normalized.py --field 반도체 --company-name 코아시아 --company-slug coasia"
         },
         {
           "step": "build_kipris_tech_ml_features",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-26T05:15:41",
-          "ended_at": "2026-05-26T05:15:42",
+          "started_at": "2026-05-26T21:01:44",
+          "ended_at": "2026-05-26T21:01:45",
           "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_kipris_tech_ml_features.py --field 반도체 --company-name 코아시아 --company-slug coasia"
         },
         {
           "step": "build_tech_ip_legal_features",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-26T05:15:42",
-          "ended_at": "2026-05-26T05:15:43",
+          "started_at": "2026-05-26T21:01:45",
+          "ended_at": "2026-05-26T21:01:46",
           "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_tech_ip_legal_features.py --field 반도체 --company-name 코아시아 --company-slug coasia"
         },
         {
           "step": "build_tech_ip_fallback_features",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-26T05:15:43",
-          "ended_at": "2026-05-26T05:15:44",
+          "started_at": "2026-05-26T21:01:46",
+          "ended_at": "2026-05-26T21:01:46",
           "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_tech_ip_fallback_features.py --field 반도체 --company-name 코아시아 --company-slug coasia"
         },
         {
           "step": "build_tech_ip_evidence_composite",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-26T05:15:44",
-          "ended_at": "2026-05-26T05:15:44",
+          "started_at": "2026-05-26T21:01:46",
+          "ended_at": "2026-05-26T21:01:47",
           "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_tech_ip_evidence_composite.py --field 반도체 --company-name 코아시아 --company-slug coasia"
         },
         {
           "step": "build_patent_semantic_fallback",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-26T05:15:44",
-          "ended_at": "2026-05-26T05:15:48",
+          "started_at": "2026-05-26T21:01:47",
+          "ended_at": "2026-05-26T21:01:50",
           "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_patent_semantic_fallback.py --company-dir coasia --company 코아시아"
         },
         {
           "step": "run_tech_ip_ml",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-26T05:15:48",
-          "ended_at": "2026-05-26T05:15:53",
+          "started_at": "2026-05-26T21:01:50",
+          "ended_at": "2026-05-26T21:01:54",
           "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\run_tech_ip_ml.py --company-dir coasia"
         },
         {
           "step": "run_tech_ml_signal",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-26T05:15:53",
-          "ended_at": "2026-05-26T05:15:57",
+          "started_at": "2026-05-26T21:01:54",
+          "ended_at": "2026-05-26T21:01:58",
           "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\run_tech_ml_signal.py --company-dir coasia --company 코아시아"
         },
         {
           "step": "check_ip_evidence_bridge_one",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-26T05:15:57",
-          "ended_at": "2026-05-26T05:15:58",
+          "started_at": "2026-05-26T21:01:58",
+          "ended_at": "2026-05-26T21:01:58",
           "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\check_ip_evidence_bridge_one.py --tech C:\\Agent_6.9\\data\\반도체\\코아시아\\tech --slug coasia --company-name 코아시아"
         }
       ],
       "artifacts": {
-        "file_count": 89,
+        "file_count": 93,
         "required_missing": [],
         "optional_exists": {
           "source_csv": true,
@@ -305,6 +276,10 @@
           "tech_full_appendix.md",
           "tech_history_features_2025-08-31.csv",
           "tech_history_features_2025-08-31.json",
+          "tech_history_features_2025-09-30.csv",
+          "tech_history_features_2025-09-30.json",
+          "tech_history_features_2025-10-31.csv",
+          "tech_history_features_2025-10-31.json",
           "tech_intake_manifest.json",
           "tech_intake_manifest.md",
           "tech_intake_value_evidence.json",
@@ -335,17 +310,17 @@
     {
       "pipeline": "valuation_intake",
       "status": "OK",
-      "created_at": "2026-05-26T05:16:25",
-      "started_at": "2026-05-26T05:15:36",
+      "created_at": "2026-05-26T21:01:42",
+      "started_at": "2026-05-26T21:01:41",
       "company": "코아시아",
       "company_dir": "coasia",
-      "skip_network": false,
+      "skip_network": true,
       "years": 5,
       "start_date": "2021-01-01",
-      "end_date": "2025-09-30",
+      "end_date": "2025-10-31",
       "collection_range": {
         "start_date": "2021-01-01",
-        "end_date": "2025-09-30"
+        "end_date": "2025-10-31"
       },
       "outputs": {
         "intake_dir": "data/반도체/코아시아/valuation/intake",
@@ -367,11 +342,11 @@
         "reference_universe_summary_json": "data/반도체/코아시아/valuation/intake/valuation_reference_universe_summary.json"
       },
       "counts": {
-        "raw_dart_accounts": 1208,
+        "raw_dart_accounts": 0,
         "normalized_financial_years": 5,
         "price_rows": 1162,
-        "share_count_rows": 20,
-        "market_snapshot_metric_count": 16,
+        "share_count_rows": 0,
+        "market_snapshot_metric_count": 1,
         "peer_rows": 5,
         "reference_universe_rows": 208,
         "reference_focus_rows": 40,
@@ -386,27 +361,26 @@
         "mdd": -0.8107142857142857,
         "high_52w": 7520.0,
         "low_52w": 2650.0,
-        "shares_outstanding": 26314876.0,
-        "market_cap": 165520570040.0,
+        "shares_outstanding": null,
+        "market_cap": null,
         "latest_volume": 187735.0,
         "latest_trading_value": 1180853150.0,
         "avg_trading_value_20d": 4926567606.5,
         "avg_volume_20d": 736143.75,
-        "turnover_latest": 0.007134177641574294,
-        "turnover_20d": 0.027974433548537337,
+        "turnover_latest": null,
+        "turnover_20d": null,
         "price_rows": 1162,
         "price_start": "2021-01-04",
         "price_end": "2025-09-30"
       },
       "share_summary": {
-        "shares_outstanding": 26314876.0,
-        "share_count_year": 2025,
-        "share_count_class": "합계",
-        "share_count_source": "OpenDART_stockTotqySttus"
+        "shares_outstanding": null,
+        "share_count_year": null,
+        "share_count_source": null
       },
       "reference_universe_summary": {
         "status": "OK",
-        "created_at": "2026-05-26T05:15:36",
+        "created_at": "2026-05-26T21:01:41",
         "reference_universe_rows": 208,
         "focus_rows": 40,
         "focal_5_rows": 30,
@@ -451,34 +425,20 @@
         },
         "note": "Valuation Agent는 live DCF/PSR 산출과 별도로 208개 반도체 universe의 proxy score를 활용해 상대 위치를 보조 판단합니다.",
         "source_path": "data/반도체/_sector_common/ml_universe/valuation_credit_ml_overlay_candidate.csv",
-        "exported_at": "2026-05-26T05:15:36"
+        "exported_at": "2026-05-26T21:01:41"
       },
       "diagnostics": [
-        "DART API key detected for valuation intake.",
-        "DART corp_code resolved from cache for 코아시아/045970.",
-        "DART financial rows collected: 2021=239, 2022=234, 2023=236, 2024=213, 2025=286",
+        "skip_network=True: live DART/price collection skipped by user option.",
         "local financial fallback loaded rows=5 from C:\\Agent_6.9\\data\\반도체\\코아시아\\finance\\코아시아_재무데이터.csv.",
-        "yfinance price rows for 045970.KQ: 1162",
-        "price provider selected: yfinance, rows=1162",
-        "local price fallback loaded rows=1140 from C:\\Agent_6.9\\data\\반도체\\코아시아\\valuation\\intake\\valuation_price_history.csv.",
-        "DART corp_code resolved from cache for 코아시아/045970.",
-        "Naver market snapshot collected: pbr_naver, eps_naver, per_naver, bps_naver",
-        "peer:nepes: local price fallback loaded rows=1162 from C:\\Agent_6.9\\data\\반도체\\네패스\\valuation\\intake\\valuation_price_history.csv.",
-        "peer:nepes: DART corp_code resolved from cache for 네패스/033640.",
-        "peer:hanmi: local price fallback loaded rows=1163 from C:\\Agent_6.9\\data\\반도체\\한미반도체\\valuation\\intake\\valuation_price_history.csv.",
-        "peer:hanmi: DART corp_code resolved from cache for 한미반도체/042700.",
-        "peer:hansol: local price fallback loaded rows=1163 from C:\\Agent_6.9\\data\\반도체\\한솔케미칼\\valuation\\intake\\valuation_price_history.csv.",
-        "peer:hansol: DART corp_code resolved from cache for 한솔케미칼/014680.",
-        "peer:duksan: local price fallback loaded rows=1162 from C:\\Agent_6.9\\data\\반도체\\덕산테코피아\\valuation\\intake\\valuation_price_history.csv.",
-        "peer:duksan: DART corp_code resolved from cache for 덕산테코피아/317330.",
-        "peer:ltc: local price fallback loaded rows=1161 from C:\\Agent_6.9\\data\\반도체\\엘티씨\\valuation\\intake\\valuation_price_history.csv.",
-        "peer:ltc: DART corp_code resolved from cache for 엘티씨/170920.",
-        "Market snapshot enriched with live/derived metrics count=16."
+        "financial rows merged with local fallback: primary=0, fallback=5, merged=5.",
+        "local price fallback loaded rows=1162 from C:\\Agent_6.9\\data\\반도체\\코아시아\\valuation\\intake\\valuation_price_history.csv.",
+        "price rows merged with local fallback: primary=0, fallback=1162, merged=1162.",
+        "Market snapshot enriched with live/derived metrics count=1."
       ],
-      "as_of_date": "2025-09-30",
+      "as_of_date": "2025-10-31",
       "eval_valuation_enhancer": {
         "version": "v35",
-        "as_of_date": "2025-09-30",
+        "as_of_date": "2025-10-31",
         "intake_files": [
           "company_profile.json",
           "financials_raw.csv",

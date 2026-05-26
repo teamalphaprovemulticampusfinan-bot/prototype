@@ -1,10 +1,10 @@
 {
   "company_dir": "psk",
   "company": "피에스케이",
-  "created_at": "2026-05-26T06:05:41",
-  "data_cutoff_applied": "2025-09-30",
+  "created_at": "2026-05-26T22:18:01",
+  "data_cutoff_applied": "2025-10-31",
   "input_source_map": {
-    "created_at": "2026-05-26T06:04:37",
+    "created_at": "2026-05-26T22:17:42",
     "company": "피에스케이",
     "company_dir": "psk",
     "stock_code": "319660",
@@ -67,26 +67,12 @@
       "workbook_xlsx_policy": "Do not create, overwrite, or modify *_valuation_workbook.xlsx during intake."
     },
     "diagnostics": [
-      "DART API key detected for valuation intake.",
-      "DART corp_code resolved from cache for 피에스케이/319660.",
-      "DART financial rows collected: 2021=166, 2022=169, 2023=156, 2024=152, 2025=130",
+      "skip_network=True: live DART/price collection skipped by user option.",
       "local financial fallback loaded rows=5 from C:\\Agent_6.9\\data\\반도체\\피에스케이\\finance\\피에스케이_재무데이터.csv.",
-      "yfinance price rows for 319660.KQ: 1163",
-      "price provider selected: yfinance, rows=1163",
-      "local price fallback loaded rows=1141 from C:\\Agent_6.9\\data\\반도체\\피에스케이\\valuation\\intake\\valuation_price_history.csv.",
-      "DART corp_code resolved from cache for 피에스케이/319660.",
-      "Naver market snapshot collected: per_naver, pbr_naver, eps_naver, dividend_yield_pct_naver, bps_naver",
-      "peer:nepes: local price fallback loaded rows=1162 from C:\\Agent_6.9\\data\\반도체\\네패스\\valuation\\intake\\valuation_price_history.csv.",
-      "peer:nepes: DART corp_code resolved from cache for 네패스/033640.",
-      "peer:hanmi: local price fallback loaded rows=1163 from C:\\Agent_6.9\\data\\반도체\\한미반도체\\valuation\\intake\\valuation_price_history.csv.",
-      "peer:hanmi: DART corp_code resolved from cache for 한미반도체/042700.",
-      "peer:hansol: local price fallback loaded rows=1163 from C:\\Agent_6.9\\data\\반도체\\한솔케미칼\\valuation\\intake\\valuation_price_history.csv.",
-      "peer:hansol: DART corp_code resolved from cache for 한솔케미칼/014680.",
-      "peer:duksan: local price fallback loaded rows=1162 from C:\\Agent_6.9\\data\\반도체\\덕산테코피아\\valuation\\intake\\valuation_price_history.csv.",
-      "peer:duksan: DART corp_code resolved from cache for 덕산테코피아/317330.",
-      "peer:ltc: local price fallback loaded rows=1161 from C:\\Agent_6.9\\data\\반도체\\엘티씨\\valuation\\intake\\valuation_price_history.csv.",
-      "peer:ltc: DART corp_code resolved from cache for 엘티씨/170920.",
-      "Market snapshot enriched with live/derived metrics count=19."
+      "financial rows merged with local fallback: primary=0, fallback=5, merged=5.",
+      "local price fallback loaded rows=1163 from C:\\Agent_6.9\\data\\반도체\\피에스케이\\valuation\\intake\\valuation_price_history.csv.",
+      "price rows merged with local fallback: primary=0, fallback=1163, merged=1163.",
+      "Market snapshot enriched with live/derived metrics count=1."
     ],
     "loader_diagnostics": {
       "price_history_loaded_rows": 1163,
@@ -94,11 +80,11 @@
       "price_history_loaded_from": "C:\\Agent_6.9\\data\\반도체\\피에스케이\\valuation\\intake\\valuation_price_history.csv",
       "financial_rows_before_cutoff": 5,
       "financial_rows_after_cutoff": 5,
-      "raw_account_rows_before_cutoff": 773,
-      "raw_account_rows_after_cutoff": 773,
-      "share_count_rows_before_cutoff": 20,
-      "share_count_rows_after_cutoff": 20,
-      "data_cutoff_applied": "2025-09-30",
+      "raw_account_rows_before_cutoff": 0,
+      "raw_account_rows_after_cutoff": 0,
+      "share_count_rows_before_cutoff": 0,
+      "share_count_rows_after_cutoff": 0,
+      "data_cutoff_applied": "2025-10-31",
       "market_snapshot_sources": {
         "market_snapshot_json": "C:\\Agent_6.9\\data\\반도체\\피에스케이\\valuation\\intake\\valuation_market_snapshot.json",
         "market_snapshot_csv": "C:\\Agent_6.9\\data\\반도체\\피에스케이\\valuation\\intake\\valuation_market_snapshot.csv"

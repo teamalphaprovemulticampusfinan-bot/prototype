@@ -2,12 +2,12 @@
   "agent": "tech_intake",
   "artifact": "tech_intake_value_evidence_bridge",
   "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-  "created_at": "2026-05-26T06:32:40",
+  "created_at": "2026-05-26T23:06:10",
   "field": "반도체",
   "company": "GST",
   "company_dir": "gst",
   "company_slug": "gst",
-  "source_document_count": 304,
+  "source_document_count": 456,
   "source_documents": [
     {
       "source_group": "KIPRIS",
@@ -180,7 +180,7 @@
     {
       "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/GST/tech/gst_tech_intake_value_evidence.json",
-      "detected_url_count": 17,
+      "detected_url_count": 5,
       "fallback_url_count": 0
     },
     {
@@ -425,6 +425,18 @@
     },
     {
       "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/GST/tech/tech_history_features_2025-10-31.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/GST/tech/tech_history_features_2025-10-31.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/GST/tech/tech_intake_manifest.json",
       "detected_url_count": 0,
       "fallback_url_count": 2
@@ -438,7 +450,7 @@
     {
       "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/GST/tech/tech_intake_value_evidence.json",
-      "detected_url_count": 17,
+      "detected_url_count": 5,
       "fallback_url_count": 0
     },
     {
@@ -761,12 +773,6 @@
     },
     {
       "source_group": "VALUATION",
-      "source_file": "data/반도체/GST/valuation/intake/financials_raw.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "VALUATION",
       "source_file": "data/반도체/GST/valuation/intake/peer_multiples.csv",
       "detected_url_count": 0,
       "fallback_url_count": 5
@@ -857,12 +863,6 @@
     },
     {
       "source_group": "VALUATION",
-      "source_file": "data/반도체/GST/valuation/intake/valuation_raw_dart_accounts.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "VALUATION",
       "source_file": "data/반도체/GST/valuation/intake/valuation_reference_universe_208.csv",
       "detected_url_count": 0,
       "fallback_url_count": 5
@@ -876,12 +876,6 @@
     {
       "source_group": "VALUATION",
       "source_file": "data/반도체/GST/valuation/intake/valuation_reference_universe_summary.json",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "VALUATION",
-      "source_file": "data/반도체/GST/valuation/intake/valuation_share_count.csv",
       "detected_url_count": 0,
       "fallback_url_count": 5
     },
@@ -924,8 +918,8 @@
     {
       "source_group": "FINANCE",
       "source_file": "data/반도체/GST/finance/intake/finance_intake_manifest.json",
-      "detected_url_count": 1,
-      "fallback_url_count": 0
+      "detected_url_count": 0,
+      "fallback_url_count": 5
     },
     {
       "source_group": "KIPRIS",
@@ -967,6 +961,12 @@
       "source_group": "KIPRIS",
       "source_file": "data/반도체/_sector_common/history_sheets_exports/monthly/backtest/20260525_222647/backtest_2025_08_2025_12_all/real_pipeline_outputs/2025-08/gst/runtime_data/GST/tech/gst_kipris_patents_normalized.csv",
       "detected_url_count": 20,
+      "fallback_url_count": 0
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/_sector_common/history_sheets_exports/monthly/backtest/20260525_222647/backtest_2025_08_2025_12_all/real_pipeline_outputs/2025-08/gst/runtime_data/GST/tech/gst_kipris_plus_bibliographic_request_log.json",
+      "detected_url_count": 1,
       "fallback_url_count": 0
     }
   ],
@@ -1067,7 +1067,23 @@
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cfe49d03e6a3dce010913a4c03b3e18e895016648c2ea9e473a676fe891a0aaaf",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9ccf2ab65a398793482e10b88503e5fe103bb14d381fd2f7f54135d62c70dfe59e",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cfad0bf93f73520e6070e4b28e31323a61001ce2b43505e989e0ef199e2d0ed45",
+        "http://www.w3.org/2001/XMLSchema-instance",
+        "http://www.nepes.co.kr",
+        "https://dart.fss.or.kr/",
+        "https://opendart.fss.or.kr/",
+        "https://www.kipris.or.kr/khome/main.jsp",
+        "https://plus.kipris.or.kr/",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9ccf2ab65a39879348bbf9946e7c8264b8f243eeeae3da4d74c91cddd2cd6bc21a",
+        "https://www.google.com/search?q=GST+KIPRIS+%ED%8A%B9%ED%97%88",
+        "https://www.google.com/search?q=GST+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
+        "https://www.google.com/search?q=GST+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
+        "https://www.google.com/search?q=GST+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
+        "https://www.google.com/search?q=GST+IR",
+        "https://www.google.com/search?q=GST+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+        "https://www.google.com/search?q=GST+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
+        "https://www.google.com/search?q=GST+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
+        "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
+        "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1126",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cfe49d03e6a3dce01eae9aacb3388a104417c626c20ceb68a0d088fd9c2c87484",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c592fb536ea920a4d1d398bce77953e988d5595f624fd23245c91135285a10120",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c592fb536ea920a4d4f89e1a6ebf4a9de967db29ac18f862291e6e79cae134b9e",
@@ -1078,23 +1094,7 @@
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9391ad838d05d243aad649ac5f43cee3be3b584d9166db6c1bfb580904da17904ba85adeacfc3d4c503aaa5321d8ff7b63acc43dc99f5650ed",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00d96dc34767c396196405cee0907f5142f1f47a850777e53dc46066c897d145f0cac51e8febe741b759d0ddc40662171d28d73c595d131c13",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726823f89c492cb9613c1e9a1852a875802d0ff968468ee4c6264689ef37ed24d252af3e6cc32a944936739412835c60d67b197ac2d0d218f1c",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00340e12be12b70ba6eda7aed3ef166a44bb",
-        "http://www.w3.org/2001/XMLSchema-instance",
-        "http://www.nepes.co.kr",
-        "https://dart.fss.or.kr/",
-        "https://opendart.fss.or.kr/",
-        "https://www.kipris.or.kr/khome/main.jsp",
-        "https://plus.kipris.or.kr/",
-        "https://www.google.com/search?q=GST+KIPRIS+%ED%8A%B9%ED%97%88",
-        "https://www.google.com/search?q=GST+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
-        "https://www.google.com/search?q=GST+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
-        "https://www.google.com/search?q=GST+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
-        "https://www.google.com/search?q=GST+IR",
-        "https://www.google.com/search?q=GST+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
-        "https://www.google.com/search?q=GST+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
-        "https://www.google.com/search?q=GST+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
-        "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
-        "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1126"
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00340e12be12b70ba6eda7aed3ef166a44bb"
       ],
       "fallback_urls": [
         "https://www.google.com/search?q=GST+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",

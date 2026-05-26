@@ -2,31 +2,26 @@
   "agent": "valuation",
   "company_name": "테스",
   "industry_type": "deeptech_semiconductor",
-  "summary": "기존 Valuation Agent 내부 판단은 매도였고, Auditor compact에서는 이를 참고 신호로만 사용합니다. DCF 내재주가는 33,364원이고 현재가 43,200원 대비 괴리율은 -22.77%입니다. peer 대비 P/S는 0.67배로 비교기업 중앙값 2.68배 대비 -75.00% 수준입니다. 208개 반도체 reference universe에서는 장비 기준 valuation proxy 56.40/100, label=FAIR입니다.",
+  "summary": "기존 Valuation Agent 내부 판단은 보유였고, Auditor compact에서는 이를 참고 신호로만 사용합니다. DCF 내재주가는 확인 제한이고 현재가 43,200원 대비 괴리율은 확인 제한입니다. 208개 반도체 reference universe에서는 장비 기준 valuation proxy 56.40/100, label=FAIR입니다.",
   "key_thesis": [
-    "DCF: 내재주가 33,364원, 현재가 43,200원, 괴리율 -22.77%.",
-    "Peer P/S: 대상 0.67배 vs 비교기업 중앙값 2.68배, gap -75.00%.",
+    "DCF: 내재주가 확인 제한, 현재가 43,200원, 괴리율 확인 제한.",
+    "Peer P/S: 대상 확인 제한배 vs 비교기업 중앙값 확인 제한배, gap 확인 제한.",
     "Reference Universe: 208개 반도체 universe, 장비 peer group 50개, valuation proxy 56.40/100(FAIR).",
-    "Valuation scorecard: 56.58/100, label=VALUATION_NEUTRAL, validation=PASS.",
-    "할인율/가치: WACC 13.26%, DCF 기업가치 7,295.0억원, 지분가치 6,459.3억원."
+    "Valuation scorecard: 52.31/100, label=VALUATION_NEUTRAL, validation=PASS.",
+    "할인율/가치: WACC 12.31%, DCF 기업가치 1,644.2억원, 지분가치 687.1억원."
   ],
   "key_risks": [
-    "WACC가 13.26%로 높아 장기 현금흐름 가정 변화에 민감합니다.",
+    "WACC가 12.31%로 높아 장기 현금흐름 가정 변화에 민감합니다.",
     "가격 리스크: MDD -64.95%로 변동성/낙폭 리스크 확인이 필요합니다.",
     "변동성: 연환산 변동성 46.60% 수준입니다."
   ],
   "metrics": {
-    "original_agent_view_reference": "매도",
-    "implied_price_krw": 33364.113706196935,
+    "original_agent_view_reference": "보유",
     "current_price_krw": 43200.0,
-    "upside_downside_pct": -0.22768255309729313,
-    "wacc": 0.13260764743089798,
-    "enterprise_value": 729501152760.9727,
-    "equity_value": 645929241351.9727,
-    "target_psr": 0.6699666078184099,
-    "peer_median_psr": 2.680022174089385,
-    "psr_gap": -0.750014528127533,
-    "valuation_scorecard_score": 56.58,
+    "wacc": 0.12312925460689532,
+    "enterprise_value": 164422184406.84494,
+    "equity_value": 68707064570.84494,
+    "valuation_scorecard_score": 52.31,
     "valuation_scorecard_label": "VALUATION_NEUTRAL",
     "reference_universe_rows": 208,
     "target_peer_group": "장비",
@@ -67,9 +62,9 @@
     "status": "PASS",
     "issues": [
       {
-        "severity": "INFO",
-        "code": "NO_MAJOR_WARNINGS",
-        "message": "주요 validation warning 없음"
+        "severity": "LOW",
+        "code": "NO_SHARE_COUNT",
+        "message": "발행주식 수를 확인하지 못해 내재주가/시가총액 기반 지표 일부가 제한될 수 있습니다."
       }
     ],
     "audit_trail": [
@@ -84,19 +79,14 @@
         "rows": 1162
       },
       {
-        "step": "share_count",
-        "status": "OK",
-        "shares_outstanding": 19360000.0
-      },
-      {
         "step": "reference_universe",
         "status": "OK",
         "rows": 208
       },
       {
         "step": "market_cap",
-        "status": "OK",
-        "market_cap": 836352000000.0
+        "status": "INFO_NOT_AVAILABLE",
+        "market_cap": null
       },
       {
         "step": "liquidity_proxy",
@@ -119,28 +109,26 @@
     "stage3_decision_readiness": 1.0
   },
   "auditor_issues": [
-    "same-metric scale inconsistency suspected for wacc: ratio≈23895771428571.4 (metrics.wacc.risk_free_rate=0.035; metrics.wacc.market_risk_premium=0.06; metrics.wacc.beta=1.8; metrics.wacc.cost_of_equity=0.14300000000000002; metrics.wacc.pre_tax_cost_of_debt=0.055)",
-    "same-metric scale inconsistency suspected for fcf: ratio≈3315267839924.2 (metrics.dcf.assumed_fcf_margin=0.1850814507029137; metrics.dcf.pv_fcf=296096221757.3631; metrics.peer_comps.target_row.fcf=103117228706.0; metrics.peer_comps.target_row.fcf_margin=0.19775500480158098; metrics.peer_comps.target_row.p_fcf=3.3878617053996996)"
+    "same-metric scale inconsistency suspected for wacc: ratio≈11192964757085.7 (metrics.wacc.risk_free_rate=0.035; metrics.wacc.market_risk_premium=0.06; metrics.wacc.beta=1.8; metrics.wacc.cost_of_equity=0.14300000000000002; metrics.wacc.pre_tax_cost_of_debt=0.055)",
+    "same-metric scale inconsistency suspected for fcf: ratio≈1639007612664.0 (metrics.dcf.assumed_fcf_margin=0.03827976601433833; metrics.dcf.pv_fcf=62740827908.498344)"
   ],
-  "auditor_recommendation": "매도",
-  "auditor_signal": -0.1383,
+  "auditor_recommendation": "보유",
+  "auditor_signal": 0.1172,
   "auditor_decision_basis": [
-    "DCF 괴리율 -22.77%",
-    "Valuation scorecard 56.58/100",
-    "P/S 0.67배",
-    "peer median P/S 2.68배",
-    "peer P/S gap -75.00%",
+    "DCF 괴리율 25.00%",
+    "Valuation scorecard 52.31/100",
+    "P/S 0.00배",
     "reference universe score 56.40/100",
-    "WACC 13.26%",
+    "WACC 12.31%",
     "validation_status=PASS",
-    "기존 Valuation Agent 내부 판단 참고=매도"
+    "기존 Valuation Agent 내부 판단 참고=보유"
   ],
   "auditor_signal_components": {
-    "dcf_upside": -0.9107302123891725,
-    "scorecard": -0.09771428571428577,
-    "peer_psr": 1.0,
+    "dcf_upside": 1.0,
+    "scorecard": -0.21971428571428564,
+    "peer_psr": 0.0,
     "reference_universe": 0.04000000000000016,
-    "original_agent_view_reference": -1.0,
+    "original_agent_view_reference": 0.0,
     "validation_penalty": 0.0,
     "credit_risk_overlay": 0.0
   }

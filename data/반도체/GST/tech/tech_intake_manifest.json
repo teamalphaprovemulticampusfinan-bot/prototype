@@ -1,7 +1,7 @@
 {
   "pipeline": "tech_intake",
   "status": "READY_WITHOUT_AGENT",
-  "created_at": "2026-05-26T06:29:43",
+  "created_at": "2026-05-26T23:02:33",
   "field": "반도체",
   "company_dir": "gst",
   "company": "GST",
@@ -58,85 +58,85 @@
       "step": "build_tech_excel_quantified_metrics",
       "status": "DONE",
       "returncode": 0,
-      "started_at": "2026-05-26T06:29:22",
-      "ended_at": "2026-05-26T06:29:26",
+      "started_at": "2026-05-26T23:01:49",
+      "ended_at": "2026-05-26T23:01:58",
       "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_tech_excel_quantified_metrics.py --field 반도체 --company-dir gst"
     },
     {
       "step": "prepare_kipris_bibliographic_normalized",
       "status": "DONE",
       "returncode": 0,
-      "started_at": "2026-05-26T06:29:26",
-      "ended_at": "2026-05-26T06:29:28",
+      "started_at": "2026-05-26T23:01:58",
+      "ended_at": "2026-05-26T23:01:59",
       "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\prepare_kipris_bibliographic_normalized.py --field 반도체 --company-name GST --company-slug gst"
     },
     {
       "step": "build_kipris_tech_ml_features",
       "status": "DONE",
       "returncode": 0,
-      "started_at": "2026-05-26T06:29:28",
-      "ended_at": "2026-05-26T06:29:29",
+      "started_at": "2026-05-26T23:01:59",
+      "ended_at": "2026-05-26T23:02:01",
       "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_kipris_tech_ml_features.py --field 반도체 --company-name GST --company-slug gst"
     },
     {
       "step": "build_tech_ip_legal_features",
       "status": "DONE",
       "returncode": 0,
-      "started_at": "2026-05-26T06:29:29",
-      "ended_at": "2026-05-26T06:29:31",
+      "started_at": "2026-05-26T23:02:01",
+      "ended_at": "2026-05-26T23:02:02",
       "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_tech_ip_legal_features.py --field 반도체 --company-name GST --company-slug gst"
     },
     {
       "step": "build_tech_ip_fallback_features",
       "status": "DONE",
       "returncode": 0,
-      "started_at": "2026-05-26T06:29:31",
-      "ended_at": "2026-05-26T06:29:31",
+      "started_at": "2026-05-26T23:02:02",
+      "ended_at": "2026-05-26T23:02:04",
       "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_tech_ip_fallback_features.py --field 반도체 --company-name GST --company-slug gst"
     },
     {
       "step": "build_tech_ip_evidence_composite",
       "status": "DONE",
       "returncode": 0,
-      "started_at": "2026-05-26T06:29:31",
-      "ended_at": "2026-05-26T06:29:31",
+      "started_at": "2026-05-26T23:02:04",
+      "ended_at": "2026-05-26T23:02:04",
       "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_tech_ip_evidence_composite.py --field 반도체 --company-name GST --company-slug gst"
     },
     {
       "step": "build_patent_semantic_fallback",
       "status": "DONE",
       "returncode": 0,
-      "started_at": "2026-05-26T06:29:31",
-      "ended_at": "2026-05-26T06:29:35",
+      "started_at": "2026-05-26T23:02:04",
+      "ended_at": "2026-05-26T23:02:17",
       "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_patent_semantic_fallback.py --company-dir gst --company GST"
     },
     {
       "step": "run_tech_ip_ml",
       "status": "DONE",
       "returncode": 0,
-      "started_at": "2026-05-26T06:29:35",
-      "ended_at": "2026-05-26T06:29:39",
+      "started_at": "2026-05-26T23:02:17",
+      "ended_at": "2026-05-26T23:02:26",
       "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\run_tech_ip_ml.py --company-dir gst"
     },
     {
       "step": "run_tech_ml_signal",
       "status": "DONE",
       "returncode": 0,
-      "started_at": "2026-05-26T06:29:39",
-      "ended_at": "2026-05-26T06:29:43",
+      "started_at": "2026-05-26T23:02:26",
+      "ended_at": "2026-05-26T23:02:33",
       "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\run_tech_ml_signal.py --company-dir gst --company GST"
     },
     {
       "step": "check_ip_evidence_bridge_one",
       "status": "DONE",
       "returncode": 0,
-      "started_at": "2026-05-26T06:29:43",
-      "ended_at": "2026-05-26T06:29:43",
+      "started_at": "2026-05-26T23:02:33",
+      "ended_at": "2026-05-26T23:02:33",
       "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\check_ip_evidence_bridge_one.py --tech C:\\Agent_6.9\\data\\반도체\\GST\\tech --slug gst --company-name GST"
     }
   ],
   "artifacts": {
-    "file_count": 89,
+    "file_count": 93,
     "required_missing": [],
     "optional_exists": {
       "source_csv": true,
@@ -221,6 +221,10 @@
       "tech_full_appendix.md",
       "tech_history_features_2025-08-31.csv",
       "tech_history_features_2025-08-31.json",
+      "tech_history_features_2025-09-30.csv",
+      "tech_history_features_2025-09-30.json",
+      "tech_history_features_2025-10-31.csv",
+      "tech_history_features_2025-10-31.json",
       "tech_intake_manifest.json",
       "tech_intake_manifest.md",
       "tech_intake_value_evidence.json",

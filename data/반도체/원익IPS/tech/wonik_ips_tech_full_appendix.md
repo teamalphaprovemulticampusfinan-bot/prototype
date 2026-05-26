@@ -1,6 +1,6 @@
 # 원익IPS Tech Agent Full Appendix
 
-- **생성 시각:** 2026-05-26T05:42:39
+- **생성 시각:** 2026-05-26T21:41:25
 - **목적:** Chair 보고서에는 compact summary만 전달하고, Excel-frame·KIPRIS/IP·Tech ML 상세 산출물은 Tech Agent가 소유하는 풀버전 부록입니다.
 - **검증 원칙:** 이 부록은 미래수익률 예측이 아니라 특허/IP·사업화 근거·peer 상대위치 기반 return-free 기술 설명 지표를 정리합니다.
 

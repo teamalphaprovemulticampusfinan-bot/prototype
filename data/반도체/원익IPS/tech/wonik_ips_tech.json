@@ -3,26 +3,26 @@
   "company": "원익IPS",
   "company_dir": "wonik_ips",
   "opinion": "보유",
-  "tech_signal": 0.345528,
+  "tech_signal": 0.346221,
   "history_tech_feature": {
-    "signal": 0.345528,
+    "signal": 0.346221,
     "status": "OK_TECH_HISTORY_ASOF",
-    "source": "C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\tech_history_features_2025-08-31.csv;C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\quanified_metrix.csv;C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\tech_excel_frame_items.csv;C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\tech_excel_frame_metrics.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\monthly\\tech_patent_quality_monthly.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\monthly\\tech_patent_quality_monthly_v44.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\daily\\tech_patent_quality_daily.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\daily\\tech_patent_quality_daily_v44.csv",
-    "as_of_date": "2025-09-30",
+    "source": "C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\tech_history_features_2025-08-31.csv;C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\tech_history_features_2025-09-30.csv;C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\tech_history_features_2025-10-31.csv;C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\quanified_metrix.csv;C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\tech_excel_frame_items.csv;C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\tech_excel_frame_metrics.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\monthly\\tech_patent_quality_monthly.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\monthly\\tech_patent_quality_monthly_v44.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\daily\\tech_patent_quality_daily.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\daily\\tech_patent_quality_daily_v44.csv",
+    "as_of_date": "2025-10-31",
     "company": "원익IPS",
     "ticker": "240810.KQ",
     "stock_code": "240810",
-    "base_signal": 0.370564,
-    "evidence_confidence": 0.772434,
-    "commercialization_gate_signal": 0.237166,
+    "base_signal": 0.370772,
+    "evidence_confidence": 0.773874,
+    "commercialization_gate_signal": 0.237158,
     "technology_risk_penalty": 0.0,
-    "ip_quality_signal": 0.184019,
+    "ip_quality_signal": 0.187092,
     "lifecycle_signal": 0.0,
-    "technology_differentiation_signal": 0.2086,
-    "commercialization_signal": 0.948665,
-    "rnd_sustainability_signal": 0.476671,
+    "technology_differentiation_signal": 0.206809,
+    "commercialization_signal": 0.948633,
+    "rnd_sustainability_signal": 0.476672,
     "peer_position_signal": -0.209524,
-    "tech_to_value_signal": 0.614952,
+    "tech_to_value_signal": 0.614951,
     "certification_signal": 0.0,
     "qualification_signal": 0.0,
     "cost_yield_signal": 0.0,
@@ -32,10 +32,10 @@
     "dispute_risk_signal": 0.0,
     "failure_delay_signal": 0.0,
     "intangible_accounting_signal": 0.0,
-    "patent_records_asof": 92,
-    "dated_records_asof": 73,
+    "patent_records_asof": 100,
+    "dated_records_asof": 83,
     "undated_records_used": 86,
-    "files_used": 65,
+    "files_used": 69,
     "notes": "Tech history signal uses dated patent/IP, TRL/readiness, certification, qualification, commercialization, R&D/workforce, risk and accounting evidence before as_of_date; no Buy/Hold/Sell threshold is applied.",
     "frequency": "monthly",
     "formula": "final=base_signal*evidence_confidence + 0.25*commercialization_gate_signal - 0.35*technology_risk_penalty",
@@ -45,8 +45,8 @@
       "IFC/Bpifrance deep-tech development-stage financing framework",
       "Text-based industry/technology relatedness literature for peer/differentiation evidence"
     ],
-    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\tech_history_features_2025-09-30.json",
-    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\tech_history_features_2025-09-30.csv"
+    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\tech_history_features_2025-10-31.json",
+    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\tech_history_features_2025-10-31.csv"
   },
   "claims": [
     {
@@ -376,7 +376,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\원익IPS\\tech\\wonik_ips_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\원익IPS\\tech\\wonik_ips_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-26T05:39:31",
+      "generated_at": "2026-05-26T21:39:32",
       "core_counts": {
         "total_patents": 116,
         "registered_patents_estimated": 48,
@@ -470,7 +470,7 @@
   "tech_chair_summary": {
     "agent": "tech",
     "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-    "created_at": "2026-05-26T05:41:31",
+    "created_at": "2026-05-26T21:40:00",
     "field": "반도체",
     "company": "원익IPS",
     "company_name": "원익IPS",
@@ -1366,7 +1366,7 @@
       "company_name": "원익IPS",
       "field": "반도체",
       "status": "OK",
-      "created_at": "2026-05-26T05:39:33",
+      "created_at": "2026-05-26T21:39:34",
       "weights": {
         "legal_stability": 0.25,
         "claim_defense": 0.3,
@@ -1462,10 +1462,10 @@
       "tech_full_appendix_json": ""
     },
     "ip_evidence_bridge_adjustment_status": "APPLIED",
-    "ip_evidence_bridge_adjustment_applied_at": "2026-05-26T05:41:53",
+    "ip_evidence_bridge_adjustment_applied_at": "2026-05-26T21:40:10",
     "tech_investor_view": {
       "version": "tech-investor-scorecard-v2",
-      "generated_at": "2026-05-26T05:42:40",
+      "generated_at": "2026-05-26T21:41:27",
       "company_slug": "wonik_ips",
       "company_name": "원익IPS",
       "final_tech_investor_score": 54.41,
@@ -1858,12 +1858,12 @@
       "agent": "tech_intake",
       "artifact": "tech_intake_value_evidence_bridge",
       "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-      "created_at": "2026-05-26T05:42:38",
+      "created_at": "2026-05-26T21:41:24",
       "field": "반도체",
       "company": "원익IPS",
       "company_dir": "wonik_ips",
       "company_slug": "wonik_ips",
-      "source_document_count": 155,
+      "source_document_count": 154,
       "source_documents": [
         {
           "source_group": "TECH_OUTPUT",
@@ -1970,6 +1970,18 @@
         {
           "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/원익IPS/tech/tech_history_features_2025-09-30.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/원익IPS/tech/tech_history_features_2025-10-31.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/원익IPS/tech/tech_history_features_2025-10-31.json",
           "detected_url_count": 0,
           "fallback_url_count": 2
         },
@@ -2617,12 +2629,6 @@
         },
         {
           "source_group": "VALUATION",
-          "source_file": "data/반도체/원익IPS/valuation/intake/financials_raw.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "VALUATION",
           "source_file": "data/반도체/원익IPS/valuation/intake/peer_multiples.csv",
           "detected_url_count": 0,
           "fallback_url_count": 5
@@ -2713,12 +2719,6 @@
         },
         {
           "source_group": "VALUATION",
-          "source_file": "data/반도체/원익IPS/valuation/intake/valuation_raw_dart_accounts.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "VALUATION",
           "source_file": "data/반도체/원익IPS/valuation/intake/valuation_reference_universe_208.csv",
           "detected_url_count": 0,
           "fallback_url_count": 5
@@ -2732,12 +2732,6 @@
         {
           "source_group": "VALUATION",
           "source_file": "data/반도체/원익IPS/valuation/intake/valuation_reference_universe_summary.json",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "VALUATION",
-          "source_file": "data/반도체/원익IPS/valuation/intake/valuation_share_count.csv",
           "detected_url_count": 0,
           "fallback_url_count": 5
         },
@@ -2792,8 +2786,8 @@
         {
           "source_group": "FINANCE",
           "source_file": "data/반도체/원익IPS/finance/intake/finance_intake_manifest.json",
-          "detected_url_count": 1,
-          "fallback_url_count": 0
+          "detected_url_count": 0,
+          "fallback_url_count": 5
         }
       ],
       "source_url_map": {
@@ -2816,11 +2810,10 @@
             "https://comp.fnguide.com/",
             "https://www.google.com/search?q=%EC%9B%90%EC%9D%B5IPS+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84+FCF",
             "https://www.google.com/search?q=%EC%9B%90%EC%9D%B5IPS+%EC%9B%90%EA%B0%80%EC%9C%A8+%EC%98%81%EC%97%85%EC%9D%B4%EC%9D%B5%EB%A5%A0+CAPEX",
-            "https://opendart.fss.or.kr/",
-            "https://www.google.com/search?q=%EC%9B%90%EC%9D%B5IPS+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84",
-            "https://www.google.com/search?q=%EC%9B%90%EC%9",
+            "https://opendart.fss.or",
             "http://www.w3.org/2001/XMLSchema-instance",
             "http://www.nepes.co.kr",
+            "https://opendart.fss.or.kr/",
             "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93261721ef0f99a135512a960198acac301d24fb155081630e1a56652192b388183acb36a0dea23d9b6882f1584bd0bc0231c714dd48a54437",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c938dac956462521541af8104b2621451286c7ee9143f001b7ea0386e94fd395aceb3c523db9e50c8f0cb80bd03c3bc2b36458f17d6f442fcff",
@@ -2988,9 +2981,7 @@
           ]
         },
         "FINANCE": {
-          "detected_urls": [
-            "https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception"
-          ],
+          "detected_urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
             "https://opendart.fss.or.kr/",
@@ -3828,7 +3819,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\원익IPS\\tech\\wonik_ips_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\원익IPS\\tech\\wonik_ips_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-26T05:39:31",
+      "generated_at": "2026-05-26T21:39:32",
       "core_counts": {
         "total_patents": 116,
         "registered_patents_estimated": 48,
@@ -3954,8 +3945,8 @@
     "tech_full_appendix_json": null,
     "tech_chair_summary_json": "data/반도체/원익IPS/tech/tech_chair_summary.json",
     "tech_chair_summary_md": "data/반도체/원익IPS/tech/wonik_ips_tech_chair_summary.md",
-    "tech_history_feature_json": "data/반도체/원익IPS/tech/tech_history_features_2025-09-30.json",
-    "tech_history_feature_csv": "data/반도체/원익IPS/tech/tech_history_features_2025-09-30.csv",
+    "tech_history_feature_json": "data/반도체/원익IPS/tech/tech_history_features_2025-10-31.json",
+    "tech_history_feature_csv": "data/반도체/원익IPS/tech/tech_history_features_2025-10-31.csv",
     "tech_json": "data/반도체/원익IPS/tech/wonik_ips_tech.json",
     "tech_agent_packet_json": "data/반도체/원익IPS/tech/wonik_ips_tech_agent_packet.json"
   },
@@ -4846,7 +4837,7 @@
     "field": "반도체",
     "source_csv": "data\\반도체\\원익IPS\\tech\\wonik_ips_kipris_patents_normalized.csv",
     "enriched_csv": "data\\반도체\\원익IPS\\tech\\wonik_ips_kipris_tech_ml_enriched.csv",
-    "generated_at": "2026-05-26T05:39:31",
+    "generated_at": "2026-05-26T21:39:32",
     "core_counts": {
       "total_patents": 116,
       "registered_patents_estimated": 48,

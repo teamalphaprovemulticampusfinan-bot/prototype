@@ -1,7 +1,7 @@
 # 한미반도체 Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-26T12:13:59
+- 생성 시각: 2026-05-26T16:13:24
 - 종합 점수: 79.47/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
 - 원천 문서 수: 170개
