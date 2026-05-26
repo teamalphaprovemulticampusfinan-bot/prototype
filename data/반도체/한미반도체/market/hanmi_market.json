@@ -487,198 +487,51 @@
   ],
   "raw_payload": {
     "analysis": {
-      "agent": "market",
       "company": "한미반도체",
       "opinion": "보유",
-      "confidence": 0.7,
-      "market_summary": {
-        "oecd_interpretation": "OECD 경기선행지수가 98.01로 기준선 100을 하회하며 경기 둔화 가능성을 시사합니다. 이는 전반적인 투자 심리에 부정적인 영향을 줄 수 있습니다.",
-        "industry_stage": "한미반도체는 HBM 등 첨단 패키징 장비 분야에서 핵심적인 역할을 수행하며 성장 잠재력이 높은 산업에 속해 있습니다.",
-        "value_chain_position": "후공정/패키징/테스트 분야에서 최첨단 솔루션을 제공하며 업계에서 신뢰받는 기업으로 자리매김하고 있습니다.",
-        "competitive_position": "세계 유수의 반도체 업체들에게 솔루션을 제공하며 경쟁력을 확보하고 있으나, 구체적인 경쟁사 대비 점유율 및 기술 우위는 추가 분석이 필요합니다.",
-        "market_momentum": "최근 주가 하락(-3.61%) 및 높은 변동성은 단기적인 시장 모멘텀 약화를 시사합니다."
-      },
-      "qualitative_rubric": {
-        "macro_cycle": {
-          "assessment": "하",
-          "reason": "OECD 경기선행지수가 100 미만으로 경기 둔화 가능성이 높아 거시 환경이 우호적이지 않습니다."
-        },
-        "industry_attractiveness": {
-          "assessment": "상",
-          "reason": "HBM 등 첨단 반도체 패키징 분야는 높은 성장성과 수요 강도를 보이며 산업 매력도가 높습니다."
-        },
-        "value_chain_position": {
-          "assessment": "상",
-          "reason": "후공정/패키징/테스트 분야에서 핵심 장비 공급사로서 수요 증가의 직접적인 수혜가 예상됩니다."
-        },
-        "competitive_position": {
-          "assessment": "중",
-          "reason": "세계 유수 업체에 솔루션을 제공하나, 경쟁사 대비 구체적인 우위는 명확하지 않습니다."
-        },
-        "market_momentum": {
-          "assessment": "하",
-          "reason": "최근 주가 하락과 높은 변동성은 단기적인 시장 모멘텀 약화를 나타냅니다."
-        },
-        "policy_disclosure_signal": {
-          "assessment": "상",
-          "reason": "HBM, 패키징 장비 등 정책 수혜와 관련된 키워드가 다수 언급되어 긍정적인 신호입니다."
-        },
-        "downside_risk": {
-          "assessment": "중",
-          "reason": "최근 주가 하락 및 높은 변동성은 단기적인 하방 리스크 요인으로 작용할 수 있습니다."
-        }
-      },
-      "bwm_assessment": {
-        "best_criterion": "산업 매력도",
-        "worst_criterion": "시장 모멘텀",
-        "judgment_effect": "산업의 높은 성장 잠재력에도 불구하고 단기적인 시장 모멘텀 약화와 거시 경제 불확실성으로 인해 보유 의견을 유지합니다."
-      },
+      "confidence": 0.8,
+      "summary": "한미반도체는 HBM 등 첨단 패키징 분야에서 높은 성장 잠재력을 보유하고 있습니다. 그러나 최근 주가 하락과 거시 경제 불확실성을 고려하여 단기적인 보유 의견을 제시합니다.",
+      "total_score": 63,
       "scoring": {
         "거시환경": {
           "score": 5,
-          "max": 20,
-          "reason": "OECD 경기선행지수 하락으로 부정적입니다."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "산업매력도": {
           "score": 18,
-          "max": 20,
-          "reason": "HBM 등 첨단 패키징 분야의 높은 성장성을 반영합니다."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "경쟁위치": {
           "score": 15,
-          "max": 20,
-          "reason": "주요 고객사 대상 솔루션 제공은 긍정적이나, 경쟁 강도에 대한 정보가 부족합니다."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "정책수혜": {
           "score": 17,
-          "max": 20,
-          "reason": "HBM, 패키징 장비 등 정책적 지원 가능성이 높습니다."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "시장모멘텀": {
           "score": 8,
-          "max": 20,
-          "reason": "최근 주가 하락 및 높은 변동성으로 인해 약합니다."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         }
       },
-      "total_score": 63,
-      "claims": [
-        {
-          "claim_id": "market.cl.001",
-          "text": "한미반도체는 HBM 핵심 장비 공급사로서 높은 산업 매력도와 정책 수혜를 바탕으로 성장 잠재력이 높습니다.",
-          "evidence_ids": [
-            "market.ev.001",
-            "market.ev.002"
-          ]
-        },
-        {
-          "claim_id": "market.cl.002",
-          "text": "최근 주가 하락(-3.61%) 및 높은 변동성은 단기적인 보유 의견의 근거가 됩니다.",
-          "evidence_ids": [
-            "market.ev.003"
-          ]
-        },
-        {
-          "claim_id": "market.cl.003",
-          "text": "OECD 경기선행지수가 98.01로 기준선 100을 하회하며 경기 둔화 가능성을 시사합니다.",
-          "evidence_ids": [
-            "market.ev.004"
-          ]
-        }
-      ],
-      "evidences": [
-        {
-          "evidence_id": "market.ev.001",
-          "source_type": "static",
-          "source": "밸류체인 & 경쟁구조 (엑셀)",
-          "metric": "산업매력도",
-          "value": 18,
-          "unit": null,
-          "period": null,
-          "snippet": "한미반도체는 HBM 핵심 장비 공급사로서 높은 산업 매력도와 정책 수혜를 바탕으로 성장 잠재력이 높습니다."
-        },
-        {
-          "evidence_id": "market.ev.002",
-          "source_type": "static",
-          "source": "밸류체인 & 경쟁구조 (엑셀)",
-          "metric": "정책수혜",
-          "value": 17,
-          "unit": null,
-          "period": null,
-          "snippet": "한미반도체는 HBM 핵심 장비 공급사로서 높은 산업 매력도와 정책 수혜를 바탕으로 성장 잠재력이 높습니다."
-        },
-        {
-          "evidence_id": "market.ev.003",
-          "source_type": "stock",
-          "source": "public_data",
-          "metric": "change_rate",
-          "value": -3.61,
-          "unit": "%",
-          "period": "20260522",
-          "snippet": "-3.61"
-        },
-        {
-          "evidence_id": "market.ev.004",
-          "source_type": "oecd",
-          "source": "OECD 경기선행지수 (최신)",
-          "metric": "한국",
-          "value": 98.01,
-          "unit": null,
-          "period": null,
-          "snippet": "98.01"
-        }
-      ],
+      "market_environment": {
+        "oecd_cli": "",
+        "industry_stage": "{'마켓점수': {'기업명': '한미반도체', '투자의견': '보유', '총점': '63', '거시환경': '5', '산업매력도': '18', '경쟁위치': '15', '정책수혜': '17', '시장모멘텀': '8', '요약': '한미반도체는 HBM 등 첨단 패키징 분야에서 높은 성장 잠재력을 보유하고 있습니다. 그러나 최근 주가 하락과 거시 경제 불확실성을 고려하여 단기적인 보유 의견을 제시합니다.'}}",
+        "value_chain_position": "후공정/패키징/테스트",
+        "competition": ""
+      },
       "risks": [
-        {
-          "risk": "거시 경제 둔화 가능성",
-          "severity": "중",
-          "basis": "OECD 경기선행지수 하락"
-        },
-        {
-          "risk": "단기 주가 변동성 확대",
-          "severity": "중",
-          "basis": "최근 주가 하락 및 높은 변동성"
-        }
+        "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 158 column 6 (char 4460)",
+        "밸류체인 위치 확인: 후공정/패키징/테스트"
       ],
-      "opportunities": [
-        {
-          "opportunity": "HBM 시장 성장",
-          "basis": "핵심 장비 공급사로서의 역할"
-        },
-        {
-          "opportunity": "정책적 지원 확대",
-          "basis": "반도체 산업 육성 정책"
-        }
-      ],
-      "summary": "한미반도체는 HBM 등 첨단 패키징 분야에서 높은 성장 잠재력을 보유하고 있습니다. 그러나 최근 주가 하락과 거시 경제 불확실성을 고려하여 단기적인 보유 의견을 제시합니다.",
-      "raw_payload": {
-        "stock_used": true,
-        "oecd_used": true,
-        "static_used": true,
-        "news_used": false,
-        "dart_used": false
-      }
+      "opportunities": [],
+      "error": "Expecting ',' delimiter: line 158 column 6 (char 4460)",
+      "fallback_source": "market_final_static_data"
     },
-    "original_opportunities": [
-      {
-        "opportunity": "HBM 시장 성장",
-        "basis": "핵심 장비 공급사로서의 역할"
-      },
-      {
-        "opportunity": "정책적 지원 확대",
-        "basis": "반도체 산업 육성 정책"
-      }
-    ],
+    "original_opportunities": [],
     "original_risks": [
-      {
-        "risk": "거시 경제 둔화 가능성",
-        "severity": "중",
-        "basis": "OECD 경기선행지수 하락"
-      },
-      {
-        "risk": "단기 주가 변동성 확대",
-        "severity": "중",
-        "basis": "최근 주가 하락 및 높은 변동성"
-      }
+      "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 158 column 6 (char 4460)",
+      "밸류체인 위치 확인: 후공정/패키징/테스트"
     ],
     "removed_bad_evidence_ids": [
       "market.ev.unverified"
@@ -688,28 +541,23 @@
   "scoring": {
     "거시환경": {
       "score": 5,
-      "max": 20,
-      "reason": "OECD 경기선행지수 하락으로 부정적입니다."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "산업매력도": {
       "score": 18,
-      "max": 20,
-      "reason": "HBM 등 첨단 패키징 분야의 높은 성장성을 반영합니다."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "경쟁위치": {
       "score": 15,
-      "max": 20,
-      "reason": "주요 고객사 대상 솔루션 제공은 긍정적이나, 경쟁 강도에 대한 정보가 부족합니다."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "정책수혜": {
       "score": 17,
-      "max": 20,
-      "reason": "HBM, 패키징 장비 등 정책적 지원 가능성이 높습니다."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "시장모멘텀": {
       "score": 8,
-      "max": 20,
-      "reason": "최근 주가 하락 및 높은 변동성으로 인해 약합니다."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     }
   },
   "packet_version": "grounded_agent_v3",

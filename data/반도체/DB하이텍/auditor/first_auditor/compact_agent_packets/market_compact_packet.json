@@ -2,18 +2,10 @@
   "agent": "market",
   "company_name": "DB하이텍",
   "industry_type": "deeptech_semiconductor",
-  "summary": "시장 측면에서는 반도체 후공정/패키징/테스트 산업은 AI 및 고성능 컴퓨팅 수요 증가로 성장 잠재력이 높습니다. DB하이텍은 최첨단 반도체 패키징 솔루션을 제공하며 밸류체인 내에서 신뢰받는 위치를 확보하고 있습니다. 다만 거시·경기 신호는 반도체 업황 회복 가능성을 일부 뒷받침합니다. 최근 주가 흐름과 변동성은 단기 점검 요인입니다. 후공정 패키징 시장 내 경쟁 강도도 함께 확인할 필요가 있습니다.",
-  "key_thesis": [
-    "반도체 후공정/패키징 산업 성장 근거는 AI 및 고성능 컴퓨팅 수요 증가입니다.",
-    "강한 시장 모멘텀 근거는 최근 주가 상승률 11.73%입니다.",
-    "산업 성장성: 반도체 후공정/패키징/테스트 산업은 AI 및 고성능 컴퓨팅 수요 증가로 성장 잠재력이 높습니다.",
-    "밸류체인 포지션: DB하이텍은 최첨단 반도체 패키징 솔루션을 제공하며 밸류체인 내에서 신뢰받는 위치를 확보하고 있습니다."
-  ],
+  "summary": "DB하이텍은 강한 시장 모멘텀을 보이나, 거시 경제 불확실성과 경쟁 구도 불명확성으로 인해 '보유' 의견을 제시합니다. 아날로그 반도체 파운드리 경쟁력은 긍정적입니다.",
   "key_risks": [
-    "거시 경제 불확실성 수준은 중이며, 근거는 OECD 경기선행지수 하회입니다.",
-    "경쟁 구도 불명확성 수준은 중이며, 근거는 밸류체인 & 경쟁구조 데이터입니다.",
-    "주가·시장 모멘텀 리스크: DB하이텍은 11.73%의 높은 주가 상승률을 기록하며 강한 시장 모멘텀을 보여주고 있습니다.",
-    "경쟁 구도 리스크: 아날로그 반도체 전문 파운드리 시장에서의 경쟁력은 긍정적이나, 경쟁 구도의 불명확성은 리스크 요인입니다."
+    "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 140 column 6 (char 3984)",
+    "밸류체인 위치 확인: 후공정/패키징/테스트"
   ],
   "audit_trace": {
     "original_claim_count": 3,
@@ -37,19 +29,22 @@
     "stage3_decision_readiness": 1.0
   },
   "auditor_issues": [
-    "possible unit/scale mismatch: 100"
+    "possible unit/scale mismatch: 140",
+    "possible unit/scale mismatch: 3984",
+    "possible unit/scale mismatch: 140",
+    "possible unit/scale mismatch: 3984"
   ],
   "auditor_recommendation": "매도",
-  "auditor_signal": 0.1756,
+  "auditor_signal": 0.2437,
   "auditor_decision_basis": [
     "market_score 35.00/100",
-    "연수익률 54.98%",
-    "MDD -29.38%"
+    "연수익률 46.27%",
+    "MDD -25.13%"
   ],
   "auditor_signal_components": {
     "market_score": -0.5714285714285714,
     "annual_return": 1.0,
-    "mdd": -0.5506650544135431,
+    "mdd": -0.21025641025641018,
     "liquidity": 0.0,
     "volatility": 1.0
   }

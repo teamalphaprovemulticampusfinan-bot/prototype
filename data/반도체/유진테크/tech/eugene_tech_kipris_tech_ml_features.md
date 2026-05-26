@@ -3,7 +3,7 @@
 ## 1. Source
 - source_csv: `data\반도체\유진테크\tech\eugene_tech_kipris_patents_normalized.csv`
 - enriched_csv: `data\반도체\유진테크\tech\eugene_tech_kipris_tech_ml_enriched.csv`
-- generated_at: 2026-05-26T05:51:57
+- generated_at: 2026-05-26T21:59:14
 
 ## 2. Core Counts
 - total_patents: 21

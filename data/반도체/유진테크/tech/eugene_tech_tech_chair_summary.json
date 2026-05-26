@@ -1,7 +1,7 @@
 {
   "agent": "tech",
   "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-  "created_at": "2026-05-26T05:53:54",
+  "created_at": "2026-05-26T21:59:43",
   "field": "반도체",
   "company": "유진테크",
   "company_name": "유진테크",
@@ -714,7 +714,7 @@
     "company_name": "유진테크",
     "field": "반도체",
     "status": "OK",
-    "created_at": "2026-05-26T05:51:59",
+    "created_at": "2026-05-26T21:59:16",
     "weights": {
       "legal_stability": 0.25,
       "claim_defense": 0.3,
@@ -808,10 +808,10 @@
     "tech_investor_scorecard_md": "data/반도체/유진테크/tech/eugene_tech_tech_investor_scorecard.md"
   },
   "ip_evidence_bridge_adjustment_status": "APPLIED",
-  "ip_evidence_bridge_adjustment_applied_at": "2026-05-26T05:54:15",
+  "ip_evidence_bridge_adjustment_applied_at": "2026-05-26T21:59:52",
   "tech_investor_view": {
     "version": "tech-investor-scorecard-v2",
-    "generated_at": "2026-05-26T05:54:50",
+    "generated_at": "2026-05-26T22:00:30",
     "company_slug": "eugene_tech",
     "company_name": "유진테크",
     "final_tech_investor_score": 53.66,
@@ -1171,12 +1171,12 @@
     "agent": "tech_intake",
     "artifact": "tech_intake_value_evidence_bridge",
     "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-    "created_at": "2026-05-26T05:55:01",
+    "created_at": "2026-05-26T22:01:03",
     "field": "반도체",
     "company": "유진테크",
     "company_dir": "eugene_tech",
     "company_slug": "eugene_tech",
-    "source_document_count": 155,
+    "source_document_count": 154,
     "source_documents": [
       {
         "source_group": "KIPRIS",
@@ -1349,7 +1349,7 @@
       {
         "source_group": "TECH_OUTPUT",
         "source_file": "data/반도체/유진테크/tech/eugene_tech_tech_intake_value_evidence.json",
-        "detected_url_count": 10,
+        "detected_url_count": 9,
         "fallback_url_count": 0
       },
       {
@@ -1594,6 +1594,18 @@
       },
       {
         "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/유진테크/tech/tech_history_features_2025-10-31.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/유진테크/tech/tech_history_features_2025-10-31.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
         "source_file": "data/반도체/유진테크/tech/tech_intake_manifest.json",
         "detected_url_count": 0,
         "fallback_url_count": 2
@@ -1607,7 +1619,7 @@
       {
         "source_group": "TECH_OUTPUT",
         "source_file": "data/반도체/유진테크/tech/tech_intake_value_evidence.json",
-        "detected_url_count": 10,
+        "detected_url_count": 9,
         "fallback_url_count": 0
       },
       {
@@ -1930,12 +1942,6 @@
       },
       {
         "source_group": "VALUATION",
-        "source_file": "data/반도체/유진테크/valuation/intake/financials_raw.csv",
-        "detected_url_count": 0,
-        "fallback_url_count": 5
-      },
-      {
-        "source_group": "VALUATION",
         "source_file": "data/반도체/유진테크/valuation/intake/peer_multiples.csv",
         "detected_url_count": 0,
         "fallback_url_count": 5
@@ -2026,12 +2032,6 @@
       },
       {
         "source_group": "VALUATION",
-        "source_file": "data/반도체/유진테크/valuation/intake/valuation_raw_dart_accounts.csv",
-        "detected_url_count": 0,
-        "fallback_url_count": 5
-      },
-      {
-        "source_group": "VALUATION",
         "source_file": "data/반도체/유진테크/valuation/intake/valuation_reference_universe_208.csv",
         "detected_url_count": 0,
         "fallback_url_count": 5
@@ -2045,12 +2045,6 @@
       {
         "source_group": "VALUATION",
         "source_file": "data/반도체/유진테크/valuation/intake/valuation_reference_universe_summary.json",
-        "detected_url_count": 0,
-        "fallback_url_count": 5
-      },
-      {
-        "source_group": "VALUATION",
-        "source_file": "data/반도체/유진테크/valuation/intake/valuation_share_count.csv",
         "detected_url_count": 0,
         "fallback_url_count": 5
       },
@@ -2105,8 +2099,8 @@
       {
         "source_group": "FINANCE",
         "source_file": "data/반도체/유진테크/finance/intake/finance_intake_manifest.json",
-        "detected_url_count": 1,
-        "fallback_url_count": 0
+        "detected_url_count": 0,
+        "fallback_url_count": 5
       }
     ],
     "source_url_map": {
@@ -2203,8 +2197,7 @@
           "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7266408a8b1e551be315c83ebf33c9b8c40e2ba2a7622ead79eb8d5f72c05b33366062630c54686ad58bcc3c861d484ef708caf8419a51c1384",
           "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93811dff2fdb2b0f8a599c33646b0dee2dcdc191c87c009327a7ec3ab5877adddcb9767bc052592a0a5a8d49e251b00caf519e23b2bc530a14",
           "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c936347d5a3c9c91e557f36e38a3db792200f2b6c3fd205954a31dae7d65095166c5e9591de9935ab298ec66b599f3eed66954c3850cf312a62",
-          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93830b621b6ce0b3c3f1e98390e1ac92bdd4e7db0b952e6d7500cb32f43d0b3f6fe594fa169612fcfa065083769eb9ca5b99dbc4a8f799c966",
-          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93811dff2f",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93830b621b6ce0b3c3f1e98390e1ac92bdd4e7db0b952e6d7500cb32f43d0b3f6fe594fa169612fcfa065083769eb9ca5b9",
           "http://www.w3.org/2001/XMLSchema-instance",
           "http://www.nepes.co.kr",
           "https://dart.fss.or.kr/",
@@ -2284,9 +2277,7 @@
         ]
       },
       "FINANCE": {
-        "detected_urls": [
-          "https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception"
-        ],
+        "detected_urls": [],
         "fallback_urls": [
           "https://dart.fss.or.kr/",
           "https://opendart.fss.or.kr/",

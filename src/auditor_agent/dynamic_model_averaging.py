@@ -568,6 +568,10 @@ def _signal_label_distribution(signal: float | None) -> dict[str, float]:
     direction is exactly tied.  Otherwise most probability mass follows the
     sign of the continuous signal while the remaining mass expresses residual
     uncertainty.
+    
+    HOLD SUPPRESSION: Calibrated to suppress over-use of Hold.  Weak but
+    directional signals preserve their direction rather than being absorbed
+    into Hold. Hold is reserved for true directional ties or missing signals.
     """
     v = _safe_float(signal)
     if v is None or not math.isfinite(v):
@@ -576,10 +580,15 @@ def _signal_label_distribution(signal: float | None) -> dict[str, float]:
     mag = abs(v)
     if mag == 0:
         return {"매수": 0.0, "보유": 1.0, "매도": 0.0}
-    # Directional mass increases smoothly with magnitude.  The constants below
-    # are calibration parameters for probability shaping, not a decision band.
-    directional_mass = 0.50 + 0.45 * mag
-    hold_mass = max(0.0, 1.0 - directional_mass)
+    # Calibration: Increase directional mass, suppress hold mass.
+    # Previous: directional_mass = 0.50 + 0.45 * mag, hold_mass = 1.0 - directional_mass
+    # Problem: Weak signals (mag=0.1) gave ~45% hold, causing mechanical Hold at portfolio level.
+    # Solution: 
+    #   - More aggressive directional weighting: 0.65 + 0.30 * mag
+    #   - Ensures even weak signals preserve direction (min 65% directional)
+    #   - Remaining hold_mass capped and decreases with signal strength
+    directional_mass = 0.65 + 0.30 * mag
+    hold_mass = max(0.05, 1.0 - directional_mass)  # Min 5% hold to avoid hard binary
     if v > 0:
         return {"매수": directional_mass, "보유": hold_mass, "매도": 0.0}
     return {"매수": 0.0, "보유": hold_mass, "매도": directional_mass}
@@ -588,17 +597,39 @@ def _signal_label_distribution(signal: float | None) -> dict[str, float]:
 def _label_from_distribution(dist: dict[str, float], *, signal: float | None = None) -> str:
     """Select a label from posterior probabilities without fixed thresholds.
 
-    If Buy and Sell posterior masses are tied, Hold is used as the
-    reject/no-trade class.  Otherwise the stronger directional mass wins even
-    when Hold is numerically large, so weak-but-directional signals are no
-    longer automatically absorbed into Hold.
+    HOLD SUPPRESSION RULE:
+    - If Buy and Sell posterior masses are tied within 0.15 probability, Hold is used as reject/no-trade.
+    - Otherwise the stronger directional mass wins even when Hold is numerically large.
+    - This prevents weak-but-directional signals from being absorbed into mechanical Hold.
+    - When both Buy and Sell are 0 and signal is unavailable, use directional_label fallback.
     """
     buy = float(dist.get("매수", 0.0) or 0.0)
     sell = float(dist.get("매도", 0.0) or 0.0)
+    hold = float(dist.get("보유", 0.0) or 0.0)
+    
+    # Suppress mechanical Hold when direction is identifiable.
+    # Check if posterior is genuinely tied (within tie tolerance) vs. one direction is stronger.
+    tie_tolerance = 0.15
+    if abs(buy - sell) > tie_tolerance:
+        # Clear directional winner; suppress Hold even if numerically large.
+        return "매수" if buy > sell else "매도"
+    
+    # Genuine posterior tie: neither Buy nor Sell is clearly winning.
+    if abs(buy - sell) <= tie_tolerance and buy > 0.0 and sell > 0.0:
+        # Both directions have meaningful probability; Hold is justify as reject/no-trade.
+        return "보유"
+    
+    # One or both directions are absent; fall back to signal direction.
+    if buy == 0.0 and sell == 0.0:
+        return _directional_label_from_signal(signal)
+    
+    # If only one direction is present (other is zero), use that direction.
     if buy > sell:
         return "매수"
     if sell > buy:
         return "매도"
+    
+    # Fallback: signal-based.
     return _directional_label_from_signal(signal)
 
 

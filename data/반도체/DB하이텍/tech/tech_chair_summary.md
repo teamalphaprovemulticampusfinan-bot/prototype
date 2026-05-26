@@ -175,10 +175,10 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
 # DB하이텍 Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-26T04:10:03
+- 생성 시각: 2026-05-26T18:28:55
 - 종합 점수: 77.76/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 153개
+- 원천 문서 수: 152개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -255,8 +255,8 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
   - fallback: https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95
   - fallback: https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98
 - **IR_HOMEPAGE**
-  - detected: http://www.w3.org/2001/XMLSchema-instance
-  - detected: http://www.nepes.co.kr
+  - detected: https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+IR
+  - detected: https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C
   - detected: https://dart.fss.or.kr/
   - detected: https://opendart.fss.or.kr/
   - detected: https://www.kipris.or.kr/khome/main.jsp
@@ -272,7 +272,7 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
   - fallback: https://comp.fnguide.com/
   - fallback: https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84+FCF
 - **FINANCE**
-  - detected: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+  - detected: URL 확인 제한
   - fallback: https://dart.fss.or.kr/
   - fallback: https://opendart.fss.or.kr/
   - fallback: https://finance.naver.com/

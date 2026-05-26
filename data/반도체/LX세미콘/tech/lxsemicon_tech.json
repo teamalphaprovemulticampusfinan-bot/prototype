@@ -3,24 +3,24 @@
   "company": "LX세미콘",
   "company_dir": "lxsemicon",
   "opinion": "보유",
-  "tech_signal": 0.347882,
+  "tech_signal": 0.348615,
   "history_tech_feature": {
-    "signal": 0.347882,
+    "signal": 0.348615,
     "status": "OK_TECH_HISTORY_ASOF",
-    "source": "C:\\Agent_6.9\\data\\반도체\\LX세미콘\\tech\\tech_history_features_2025-08-31.csv;C:\\Agent_6.9\\data\\반도체\\LX세미콘\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\LX세미콘\\tech\\quanified_metrix.csv;C:\\Agent_6.9\\data\\반도체\\LX세미콘\\tech\\tech_excel_frame_items.csv;C:\\Agent_6.9\\data\\반도체\\LX세미콘\\tech\\tech_excel_frame_metrics.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\monthly\\tech_patent_quality_monthly.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\monthly\\tech_patent_quality_monthly_v44.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\daily\\tech_patent_quality_daily.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\daily\\tech_patent_quality_daily_v44.csv",
-    "as_of_date": "2025-09-30",
+    "source": "C:\\Agent_6.9\\data\\반도체\\LX세미콘\\tech\\tech_history_features_2025-08-31.csv;C:\\Agent_6.9\\data\\반도체\\LX세미콘\\tech\\tech_history_features_2025-09-30.csv;C:\\Agent_6.9\\data\\반도체\\LX세미콘\\tech\\tech_history_features_2025-10-31.csv;C:\\Agent_6.9\\data\\반도체\\LX세미콘\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\LX세미콘\\tech\\quanified_metrix.csv;C:\\Agent_6.9\\data\\반도체\\LX세미콘\\tech\\tech_excel_frame_items.csv;C:\\Agent_6.9\\data\\반도체\\LX세미콘\\tech\\tech_excel_frame_metrics.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\monthly\\tech_patent_quality_monthly.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\monthly\\tech_patent_quality_monthly_v44.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\daily\\tech_patent_quality_daily.csv;C:\\Agent_6.9\\data\\반도체\\_sector_common\\tech\\daily\\tech_patent_quality_daily_v44.csv",
+    "as_of_date": "2025-10-31",
     "company": "LX세미콘",
     "ticker": "108320.KS",
     "stock_code": "108320",
-    "base_signal": 0.373521,
-    "evidence_confidence": 0.772504,
-    "commercialization_gate_signal": 0.23734,
+    "base_signal": 0.373792,
+    "evidence_confidence": 0.773932,
+    "commercialization_gate_signal": 0.237302,
     "technology_risk_penalty": 0.0,
-    "ip_quality_signal": 0.18684,
+    "ip_quality_signal": 0.189912,
     "lifecycle_signal": 0.0,
-    "technology_differentiation_signal": 0.205489,
-    "commercialization_signal": 0.949362,
-    "rnd_sustainability_signal": 0.493533,
+    "technology_differentiation_signal": 0.204194,
+    "commercialization_signal": 0.949209,
+    "rnd_sustainability_signal": 0.493534,
     "peer_position_signal": -0.209524,
     "tech_to_value_signal": 0.615427,
     "certification_signal": 0.0,
@@ -32,10 +32,10 @@
     "dispute_risk_signal": 0.0,
     "failure_delay_signal": 0.0,
     "intangible_accounting_signal": 0.0,
-    "patent_records_asof": 92,
-    "dated_records_asof": 73,
+    "patent_records_asof": 100,
+    "dated_records_asof": 83,
     "undated_records_used": 86,
-    "files_used": 65,
+    "files_used": 69,
     "notes": "Tech history signal uses dated patent/IP, TRL/readiness, certification, qualification, commercialization, R&D/workforce, risk and accounting evidence before as_of_date; no Buy/Hold/Sell threshold is applied.",
     "frequency": "monthly",
     "formula": "final=base_signal*evidence_confidence + 0.25*commercialization_gate_signal - 0.35*technology_risk_penalty",
@@ -45,8 +45,8 @@
       "IFC/Bpifrance deep-tech development-stage financing framework",
       "Text-based industry/technology relatedness literature for peer/differentiation evidence"
     ],
-    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\LX세미콘\\tech\\tech_history_features_2025-09-30.json",
-    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\LX세미콘\\tech\\tech_history_features_2025-09-30.csv"
+    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\LX세미콘\\tech\\tech_history_features_2025-10-31.json",
+    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\LX세미콘\\tech\\tech_history_features_2025-10-31.csv"
   },
   "claims": [
     {
@@ -376,7 +376,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\LX세미콘\\tech\\lxsemicon_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\LX세미콘\\tech\\lxsemicon_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-26T04:29:07",
+      "generated_at": "2026-05-26T19:45:09",
       "core_counts": {
         "total_patents": 90,
         "registered_patents_estimated": 38,
@@ -469,7 +469,7 @@
   "tech_chair_summary": {
     "agent": "tech",
     "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-    "created_at": "2026-05-26T04:31:00",
+    "created_at": "2026-05-26T19:48:39",
     "field": "반도체",
     "company": "LX세미콘",
     "company_name": "LX세미콘",
@@ -1401,7 +1401,7 @@
       "company_name": "LX세미콘",
       "field": "반도체",
       "status": "OK",
-      "created_at": "2026-05-26T04:29:09",
+      "created_at": "2026-05-26T19:45:11",
       "weights": {
         "legal_stability": 0.25,
         "claim_defense": 0.3,
@@ -1497,10 +1497,10 @@
       "tech_full_appendix_json": ""
     },
     "ip_evidence_bridge_adjustment_status": "APPLIED",
-    "ip_evidence_bridge_adjustment_applied_at": "2026-05-26T04:31:16",
+    "ip_evidence_bridge_adjustment_applied_at": "2026-05-26T19:48:42",
     "tech_investor_view": {
       "version": "tech-investor-scorecard-v2",
-      "generated_at": "2026-05-26T04:32:12",
+      "generated_at": "2026-05-26T19:49:09",
       "company_slug": "lxsemicon",
       "company_name": "LX세미콘",
       "final_tech_investor_score": 56.98,
@@ -1893,12 +1893,12 @@
       "agent": "tech_intake",
       "artifact": "tech_intake_value_evidence_bridge",
       "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-      "created_at": "2026-05-26T04:32:10",
+      "created_at": "2026-05-26T19:49:06",
       "field": "반도체",
       "company": "LX세미콘",
       "company_dir": "lxsemicon",
       "company_slug": "lxsemicon",
-      "source_document_count": 153,
+      "source_document_count": 152,
       "source_documents": [
         {
           "source_group": "KIPRIS",
@@ -2071,7 +2071,7 @@
         {
           "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/LX세미콘/tech/lxsemicon_tech_intake_value_evidence.json",
-          "detected_url_count": 11,
+          "detected_url_count": 10,
           "fallback_url_count": 0
         },
         {
@@ -2316,6 +2316,18 @@
         },
         {
           "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/LX세미콘/tech/tech_history_features_2025-10-31.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/LX세미콘/tech/tech_history_features_2025-10-31.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/LX세미콘/tech/tech_intake_manifest.json",
           "detected_url_count": 0,
           "fallback_url_count": 2
@@ -2329,7 +2341,7 @@
         {
           "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/LX세미콘/tech/tech_intake_value_evidence.json",
-          "detected_url_count": 11,
+          "detected_url_count": 10,
           "fallback_url_count": 0
         },
         {
@@ -2652,12 +2664,6 @@
         },
         {
           "source_group": "VALUATION",
-          "source_file": "data/반도체/LX세미콘/valuation/intake/financials_raw.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "VALUATION",
           "source_file": "data/반도체/LX세미콘/valuation/intake/peer_multiples.csv",
           "detected_url_count": 0,
           "fallback_url_count": 5
@@ -2748,12 +2754,6 @@
         },
         {
           "source_group": "VALUATION",
-          "source_file": "data/반도체/LX세미콘/valuation/intake/valuation_raw_dart_accounts.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "VALUATION",
           "source_file": "data/반도체/LX세미콘/valuation/intake/valuation_reference_universe_208.csv",
           "detected_url_count": 0,
           "fallback_url_count": 5
@@ -2767,12 +2767,6 @@
         {
           "source_group": "VALUATION",
           "source_file": "data/반도체/LX세미콘/valuation/intake/valuation_reference_universe_summary.json",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "VALUATION",
-          "source_file": "data/반도체/LX세미콘/valuation/intake/valuation_share_count.csv",
           "detected_url_count": 0,
           "fallback_url_count": 5
         },
@@ -2815,8 +2809,8 @@
         {
           "source_group": "FINANCE",
           "source_file": "data/반도체/LX세미콘/finance/intake/finance_intake_manifest.json",
-          "detected_url_count": 1,
-          "fallback_url_count": 0
+          "detected_url_count": 0,
+          "fallback_url_count": 5
         }
       ],
       "source_url_map": {
@@ -2931,8 +2925,7 @@
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93ed40ad8e276e0201091b9a35720d37faa8b2fda538c01135adaf6eee32cc713a106f2d54487e04a31152f11eed9f769986a2ac0dbd49077a",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=348aaf18c46825cf02d6c2de1c78338e0d982468ee18e9e114ac1f846c1e40ae5fe637162ec7991c82acdedc211997b1908440ea47bd33ea2c9e7335e1d7b17f472181c37991decc",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c937eb68216e5e65b99cf6777d0831b377ac3ea9f086be79b68b15964e76361372acd69deed8d57d74d5794aa60172b0f80bb657af5f1247a7e",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93a2debee5e8f2b965d040e5e2ff9daa8a68d7ae1fdccfd925a1316daa790ea7c05c9c477be9392431a3d6ed0e881bca5e8a7e37975baca0e5",
-            "http://plus.kipris.or.kr/openapi/fileToss.js",
+            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93a2debee5e8f2b965d040e5e2ff9daa8a68d7ae1fdccfd925",
             "http://www.w3.org/2001/XMLSchema-instance",
             "http://www.nepes.co.kr",
             "https://dart.fss.or.kr/",
@@ -3012,9 +3005,7 @@
           ]
         },
         "FINANCE": {
-          "detected_urls": [
-            "https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception"
-          ],
+          "detected_urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
             "https://opendart.fss.or.kr/",
@@ -3852,7 +3843,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\LX세미콘\\tech\\lxsemicon_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\LX세미콘\\tech\\lxsemicon_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-26T04:29:07",
+      "generated_at": "2026-05-26T19:45:09",
       "core_counts": {
         "total_patents": 90,
         "registered_patents_estimated": 38,
@@ -3977,8 +3968,8 @@
     "tech_full_appendix_json": null,
     "tech_chair_summary_json": "data/반도체/LX세미콘/tech/tech_chair_summary.json",
     "tech_chair_summary_md": "data/반도체/LX세미콘/tech/lxsemicon_tech_chair_summary.md",
-    "tech_history_feature_json": "data/반도체/LX세미콘/tech/tech_history_features_2025-09-30.json",
-    "tech_history_feature_csv": "data/반도체/LX세미콘/tech/tech_history_features_2025-09-30.csv",
+    "tech_history_feature_json": "data/반도체/LX세미콘/tech/tech_history_features_2025-10-31.json",
+    "tech_history_feature_csv": "data/반도체/LX세미콘/tech/tech_history_features_2025-10-31.csv",
     "tech_json": "data/반도체/LX세미콘/tech/lxsemicon_tech.json",
     "tech_agent_packet_json": "data/반도체/LX세미콘/tech/lxsemicon_tech_agent_packet.json"
   },
@@ -4815,7 +4806,7 @@
     "field": "반도체",
     "source_csv": "data\\반도체\\LX세미콘\\tech\\lxsemicon_kipris_patents_normalized.csv",
     "enriched_csv": "data\\반도체\\LX세미콘\\tech\\lxsemicon_kipris_tech_ml_enriched.csv",
-    "generated_at": "2026-05-26T04:29:07",
+    "generated_at": "2026-05-26T19:45:09",
     "core_counts": {
       "total_patents": 90,
       "registered_patents_estimated": 38,

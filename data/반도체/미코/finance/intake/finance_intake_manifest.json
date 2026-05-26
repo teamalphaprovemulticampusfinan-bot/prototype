@@ -1,43 +1,12 @@
 {
   "agent": "finance",
-  "status": "PARTIAL",
-  "created_at": "2026-05-26T04:19:44",
-  "started_at": "2026-05-26T04:17:53",
-  "ended_at": "2026-05-26T04:19:44",
+  "status": "SKIPPED_NETWORK_DISABLED",
+  "started_at": "2026-05-26T18:47:34",
+  "ended_at": "2026-05-26T18:47:34",
   "company_dir": "mico",
   "company": "미코",
   "field": "반도체",
   "stock_code": "059090",
-  "mode": "all",
-  "years": [
-    2021,
-    2022,
-    2023,
-    2024
-  ],
-  "start_date": "2021-01-01",
-  "end_date": "2025-09-30",
-  "force_fetch": false,
-  "steps": [
-    {
-      "name": "warning",
-      "status": "FAILED",
-      "started_at": "2026-05-26T04:17:54",
-      "ended_at": "2026-05-26T04:18:02",
-      "error": "Message: session not created\nfrom unknown error: cannot find Chrome binary; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception\nStacktrace:\n\tGetHandleVerifier [0x0x7ff70d66e415+77285]\n\tGetHandleVerifier [0x0x7ff70d66e470+77376]\n\t(No symbol) [0x0x7ff70d439a6a]\n\t(No symbol) [0x0x7ff70d474d50]\n\t(No symbol) [0x0x7ff70d47278e]\n\t(No symbol) [0x0x7ff70d4c602e]\n\t(No symbol) [0x0x7ff70d4c57c0]\n\t(No symbol) [0x0x7ff70d4b83e3]\n\t(No symbol) [0x0x7ff70d481521]\n\t(No symbol) [0x0x7ff70d4822b3]\n\tGetHandleVerifier [0x0x7ff70d951efd+3107021]\n\tGetHandleVerifier [0x0x7ff70d94c29d+3083373]\n\tGetHandleVerifier [0x0x7ff70d96bedd+3213485]\n\tGetHandleVerifier [0x0x7ff70d68884e+184862]\n\tGetHandleVerifier [0x0x7ff70d69055f+216879]\n\tGetHandleVerifier [0x0x7ff70d677084+113236]\n\tGetHandleVerifier [0x0x7ff70d677239+113673]\n\tGetHandleVerifier [0x0x7ff70d65e298+11368]\n\tBaseThreadInitThunk [0x0x7ff9648d259d+29]\n\tRtlUserThreadStart [0x0x7ff9662eaf78+40]\n",
-      "traceback": "Traceback (most recent call last):\n  File \"C:\\Agent_6.9\\src\\data_intake\\finance_intake\\runner.py\", line 753, in _step\n    result = func()\n             ^^^^^^\n  File \"C:\\Agent_6.9\\src\\data_intake\\finance_intake\\runner.py\", line 780, in <lambda>\n    step_jobs.append((\"warning\", lambda: run_warning_optional(WarningConfig(mode=\"update\", days=1))))\n                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.9\\src\\data_intake\\finance_intake\\runner.py\", line 329, in run_warning_optional\n    run_warning(cfg)\n  File \"C:\\Agent_6.9\\src\\data_intake\\finance_intake\\runner.py\", line 271, in run_warning\n    latest_file = fetch_kind_warning_excel(\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.9\\src\\data_intake\\finance_intake\\collector.py\", line 587, in fetch_kind_warning_excel\n    driver = webdriver.Chrome(\n             ^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.9\\.venv\\Lib\\site-packages\\selenium\\webdriver\\chrome\\webdriver.py\", line 45, in __init__\n    super().__init__(\n  File \"C:\\Agent_6.9\\.venv\\Lib\\site-packages\\selenium\\webdriver\\chromium\\webdriver.py\", line 66, in __init__\n    super().__init__(command_executor=executor, options=self.options)\n  File \"C:\\Agent_6.9\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\webdriver.py\", line 25, in __init__\n    super().__init__(*args, **kwargs)\n  File \"C:\\Agent_6.9\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 276, in __init__\n    self.start_session(capabilities)\n  File \"C:\\Agent_6.9\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 372, in start_session\n    response = self.execute(Command.NEW_SESSION, caps)[\"value\"]\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.9\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 468, in execute\n    self.error_handler.check_response(response)\n  File \"C:\\Agent_6.9\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 232, in check_response\n    raise exception_class(message, screen, stacktrace)\nselenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom unknown error: cannot find Chrome binary; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception\nStacktrace:\n\tGetHandleVerifier [0x0x7ff70d66e415+77285]\n\tGetHandleVerifier [0x0x7ff70d66e470+77376]\n\t(No symbol) [0x0x7ff70d439a6a]\n\t(No symbol) [0x0x7ff70d474d50]\n\t(No symbol) [0x0x7ff70d47278e]\n\t(No symbol) [0x0x7ff70d4c602e]\n\t(No symbol) [0x0x7ff70d4c57c0]\n\t(No symbol) [0x0x7ff70d4b83e3]\n\t(No symbol) [0x0x7ff70d481521]\n\t(No symbol) [0x0x7ff70d4822b3]\n\tGetHandleVerifier [0x0x7ff70d951efd+3107021]\n\tGetHandleVerifier [0x0x7ff70d94c29d+3083373]\n\tGetHandleVerifier [0x0x7ff70d96bedd+3213485]\n\tGetHandleVerifier [0x0x7ff70d68884e+184862]\n\tGetHandleVerifier [0x0x7ff70d69055f+216879]\n\tGetHandleVerifier [0x0x7ff70d677084+113236]\n\tGetHandleVerifier [0x0x7ff70d677239+113673]\n\tGetHandleVerifier [0x0x7ff70d65e298+11368]\n\tBaseThreadInitThunk [0x0x7ff9648d259d+29]\n\tRtlUserThreadStart [0x0x7ff9662eaf78+40]\n\n"
-    },
-    {
-      "name": "financial",
-      "status": "OK",
-      "started_at": "2026-05-26T04:17:54",
-      "ended_at": "2026-05-26T04:18:36"
-    },
-    {
-      "name": "stock",
-      "status": "OK",
-      "started_at": "2026-05-26T04:17:54",
-      "ended_at": "2026-05-26T04:19:44"
-    }
-  ]
+  "reason": "data_intake가 --skip-network로 실행되어 DART/주가/KIND 기반 finance_intake를 호출하지 않았습니다. 기존 finance 산출물이 있으면 finance_agent가 직접 읽습니다.",
+  "direct_command_example": "python -m data_intake.finance_intake.runner --mode all --stock 059090 --sector 반도체"
 }

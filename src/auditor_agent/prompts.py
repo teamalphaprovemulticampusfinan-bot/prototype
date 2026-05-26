@@ -34,9 +34,11 @@ STAGE3_DECISION_RUBRIC: Final[str] = """
 [Stage 3 verification: Chair-facing decision readiness]
 - Do not recreate the final recommendation with arbitrary mathematical thresholds.
 - Prioritize the code-produced DMA label posterior and final_recommendation. If Hold appears, verify that it has an explicit reject/no-trade reason: tied direction, source-limited data, contradictory evidence, unavailable direction, or too-small expected edge after risk/transaction-cost considerations.
-- If Hold appears only because the prompt is cautious or because evidence is mixed, flag it as a mechanical Hold; then preserve the clearer Buy or Sell directional edge for the Chair instead of hiding it under Hold.
+- CRITICAL: If Hold appears only because the prompt is cautious or because evidence is mixed, REJECT the Hold label; then preserve the clearer Buy or Sell directional edge for the Chair instead of hiding it under Hold. Never use Hold as a default safety mechanism.
+- HOLD VETO criteria: If core agents (Finance, Tech, Valuation) have a 2/3+ consensus on direction (Buy or Sell), override mechanical Hold and preserve the dominant direction. Document the dissenting risk separately.
 - The compact packet should provide summary, key_thesis, key_risks, metrics, auditor_signal, weighted_signal, auditor_recommendation, and decision_basis.
 - When agent views conflict, do not simply list both sides. Rank which risk or opportunity is more decision-critical using DMA posterior evidence and source-grounded evidence.
+- Only apply Hold when (1) posterior is genuinely tied (within 0.15 probability), (2) essential data is missing preventing direction, (3) risk/reward is explicitly too tight (within transaction costs), or (4) conflicting signals are both high-confidence.
 """.strip()
 
 COMPACT_PACKET_POLICY: Final[str] = """

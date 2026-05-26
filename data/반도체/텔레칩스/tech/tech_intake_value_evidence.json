@@ -2,12 +2,12 @@
   "agent": "tech_intake",
   "artifact": "tech_intake_value_evidence_bridge",
   "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-  "created_at": "2026-05-26T05:07:08",
+  "created_at": "2026-05-26T20:45:38",
   "field": "반도체",
   "company": "텔레칩스",
   "company_dir": "telechips",
   "company_slug": "telechips",
-  "source_document_count": 155,
+  "source_document_count": 154,
   "source_documents": [
     {
       "source_group": "TECH_OUTPUT",
@@ -114,6 +114,18 @@
     {
       "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/텔레칩스/tech/tech_history_features_2025-09-30.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/텔레칩스/tech/tech_history_features_2025-10-31.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/텔레칩스/tech/tech_history_features_2025-10-31.json",
       "detected_url_count": 0,
       "fallback_url_count": 2
     },
@@ -761,12 +773,6 @@
     },
     {
       "source_group": "VALUATION",
-      "source_file": "data/반도체/텔레칩스/valuation/intake/financials_raw.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "VALUATION",
       "source_file": "data/반도체/텔레칩스/valuation/intake/peer_multiples.csv",
       "detected_url_count": 0,
       "fallback_url_count": 5
@@ -857,12 +863,6 @@
     },
     {
       "source_group": "VALUATION",
-      "source_file": "data/반도체/텔레칩스/valuation/intake/valuation_raw_dart_accounts.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "VALUATION",
       "source_file": "data/반도체/텔레칩스/valuation/intake/valuation_reference_universe_208.csv",
       "detected_url_count": 0,
       "fallback_url_count": 5
@@ -876,12 +876,6 @@
     {
       "source_group": "VALUATION",
       "source_file": "data/반도체/텔레칩스/valuation/intake/valuation_reference_universe_summary.json",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "VALUATION",
-      "source_file": "data/반도체/텔레칩스/valuation/intake/valuation_share_count.csv",
       "detected_url_count": 0,
       "fallback_url_count": 5
     },
@@ -936,8 +930,8 @@
     {
       "source_group": "FINANCE",
       "source_file": "data/반도체/텔레칩스/finance/intake/finance_intake_manifest.json",
-      "detected_url_count": 1,
-      "fallback_url_count": 0
+      "detected_url_count": 0,
+      "fallback_url_count": 5
     }
   ],
   "source_url_map": {
@@ -961,7 +955,6 @@
         "https://www.google.com/search?q=%ED%85%94%EB%A0%88%EC%B9%A9%EC%8A%A4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84+FCF",
         "https://www.google.com/search?q=%ED%85%94%EB%A0%88%EC%B9%A9%EC%8A%A4+%EC%9B%90%EA%B0%80%EC%9C%A8+%EC%98%81%EC%97%85%EC%9D%B4%EC%9D%B5%EB%A5%A0+CAPEX",
         "https://opendart.fss.or.kr/",
-        "https://www.google.com/search?q=%ED%85%94%EB%A0%88%EC%B9%A9%EC%8A%A4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84",
         "http://www.w3.org/2001/XMLSchema-instance",
         "http://www.nepes.co.kr",
         "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
@@ -1121,9 +1114,7 @@
       ]
     },
     "FINANCE": {
-      "detected_urls": [
-        "https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception"
-      ],
+      "detected_urls": [],
       "fallback_urls": [
         "https://dart.fss.or.kr/",
         "https://opendart.fss.or.kr/",

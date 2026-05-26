@@ -2,12 +2,12 @@
   "agent": "tech_intake",
   "artifact": "tech_intake_value_evidence_bridge",
   "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-  "created_at": "2026-05-26T03:58:59",
+  "created_at": "2026-05-26T18:00:15",
   "field": "반도체",
   "company": "엘티씨",
   "company_dir": "ltc",
   "company_slug": "ltc",
-  "source_document_count": 170,
+  "source_document_count": 169,
   "source_documents": [
     {
       "source_group": "KIPRIS",
@@ -467,6 +467,18 @@
     },
     {
       "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/엘티씨/tech/tech_history_features_2025-10-31.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/엘티씨/tech/tech_history_features_2025-10-31.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/엘티씨/tech/tech_intake_manifest.json",
       "detected_url_count": 0,
       "fallback_url_count": 2
@@ -857,12 +869,6 @@
     },
     {
       "source_group": "VALUATION",
-      "source_file": "data/반도체/엘티씨/valuation/intake/financials_raw.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "VALUATION",
       "source_file": "data/반도체/엘티씨/valuation/intake/peer_multiples.csv",
       "detected_url_count": 0,
       "fallback_url_count": 5
@@ -948,12 +954,6 @@
     {
       "source_group": "VALUATION",
       "source_file": "data/반도체/엘티씨/valuation/intake/valuation_price_summary.json",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "VALUATION",
-      "source_file": "data/반도체/엘티씨/valuation/intake/valuation_raw_dart_accounts.csv",
       "detected_url_count": 0,
       "fallback_url_count": 5
     },
@@ -1095,7 +1095,7 @@
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e001a68c4fd164cf3d15673f40a510eb681792f530aa2f0525a4feb503bb150818a4adadac8be05dfbfa9bd44b40c8f9fff1953c987cd67d244",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e003070d0c74137e6a9fe6e1aef76a50ca9c437ef3d88db0cd27803d0ed9c976041b343c10d9f89e7238d05d6f6b15faafc26554bdeec58337a",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7261b91571a0b945fee541d8d4c9abba7907b8df79c66c9dd5fbabbdf9d3397cbfa9d02e976185766e24676534e13be2bfe52855921c0387561",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c934cb379fa631e1307a54f870eb7c8d700eed14d82b85c17960c8376aa47cdef39c29043cf7c8cb44929ed",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c934cb379fa631e1307a54f870eb7c8d700eed14d82b85c17960c8376aa47cdef39c29043cf7c8cb44929edeab699a5e",
         "https://dart.fss.or.kr/",
         "https://dart.fss.or.kr/dsab007/main.do?option=corp",
         "http://www.w3.org/2001/XMLSchema-instance",
@@ -1204,9 +1204,7 @@
       ]
     },
     "FINANCE": {
-      "detected_urls": [
-        "https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception"
-      ],
+      "detected_urls": [],
       "fallback_urls": [
         "https://dart.fss.or.kr/",
         "https://opendart.fss.or.kr/",

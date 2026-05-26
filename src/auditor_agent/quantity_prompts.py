@@ -17,10 +17,12 @@ DMA_NON_INTERFERENCE_POLICY: Final[str] = """
 - Do not recalculate DMA posterior weights, posterior probabilities, or final_recommendation inside the prompt.
 - Do not create fixed Buy/Hold/Sell thresholds such as weighted_signal > X or weighted_signal < X.
 - Do not propose new agent weights in the prompt. When agent outputs are available, the code should rely on DMA posterior weights; when no realized-history performance exists, use the code-level prior only.
-- Treat Hold (보유) as a reject/no-trade option, not as a simple neutral band. It is justified only when buy/sell posterior evidence is tied, missing, contradictory, directionally unidentified, or too weak after risk/transaction-cost considerations.
-- For Buy/Sell, explain the larger directional posterior and the agent evidence that produced it. If a Hold has no explicit reject/no-trade reason, flag it as an over-conservative or mechanical Hold. Never change a label merely because "we want fewer Holds" or because "deeptech should be aggressive."
+- HOLD DISCIPLINE: Treat Hold (보유) only as a genuine reject/no-trade option, NOT as a neutral default. It is justified ONLY when: (1) buy/sell posterior probabilities are tied (within 0.15), (2) direction-critical data is missing, (3) conflicting high-confidence signals exist, or (4) risk/reward edge is too small after transaction costs.
+- HOLD SUPPRESSION RULE: If DMA-weighted agent signals show a 2/3+ consensus direction (both Buy and Sell), DO NOT apply Hold even if individual agents are uncertain. Preserve the consensus direction and document the minority/risk view separately.
+- For Buy/Sell, explain the larger directional posterior and the agent evidence that produced it. If Hold is proposed, EXPLICITLY document its reason: (a) tied posterior, (b) missing data location, (c) conflicting evidence detail, (d) insufficient edge. Generic "mixed evidence" is NOT a valid reason.
+- If Hold appears and has no explicit reason from categories (a)-(d), REJECT it as mechanical/over-conservative. Instead, preserve the directional posterior for the Chair.
 - If the DMA posterior and the Chair/Auditor final view differ, separate the cause explicitly: missing data, delayed source availability, stale agent signal, posterior tie, or explicit risk-control logic.
-- Do not eliminate Hold completely because transaction costs and uncertainty exist. However, mechanical Holds created by fixed thresholds are not allowed.
+- Transaction costs and uncertainty exist; however, mechanical Holds created by fixed thresholds, over-caution, or "we want safety" are NOT allowed. Deeptech is inherently uncertain; do not use Hold to hide that. Instead, clearly state which specific risk makes the edge too small.
 """
 
 AGENT_RELATION_GUIDE: Final[str] = """

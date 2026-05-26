@@ -3,26 +3,26 @@
   "company": "제주반도체",
   "company_dir": "jeju_semicon",
   "opinion": "보유",
-  "tech_signal": 0.282196,
+  "tech_signal": 0.283273,
   "history_tech_feature": {
-    "signal": 0.282196,
+    "signal": 0.283273,
     "status": "OK_TECH_HISTORY_ASOF",
-    "source": "C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\tech_history_features_2025-08-31.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_patents_normalized.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_tech_patent_normalized.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_bibliographic_normalized.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_claims_normalized.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_plus_claim_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_plus_family_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_plus_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_tech_ml_enriched.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_kipris_plus_bibliographic_raw.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\quanified_metrix.csv",
-    "as_of_date": "2025-09-30",
+    "source": "C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\tech_history_features_2025-08-31.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\tech_history_features_2025-09-30.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\tech_history_features_2025-10-31.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_patents_normalized.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_tech_patent_normalized.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_bibliographic_normalized.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_claims_normalized.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_plus_claim_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_plus_family_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_plus_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_tech_ml_enriched.csv",
+    "as_of_date": "2025-10-31",
     "company": "제주반도체",
     "ticker": "080220.KQ",
     "stock_code": "080220",
-    "base_signal": 0.284094,
-    "evidence_confidence": 0.785933,
-    "commercialization_gate_signal": 0.23567,
+    "base_signal": 0.285406,
+    "evidence_confidence": 0.786072,
+    "commercialization_gate_signal": 0.235696,
     "technology_risk_penalty": 0.0,
-    "ip_quality_signal": -0.085519,
+    "ip_quality_signal": -0.083988,
     "lifecycle_signal": 0.0,
-    "technology_differentiation_signal": 0.091886,
-    "commercialization_signal": 0.94268,
+    "technology_differentiation_signal": 0.098119,
+    "commercialization_signal": 0.942785,
     "rnd_sustainability_signal": 0.448048,
     "peer_position_signal": -0.261905,
-    "tech_to_value_signal": 0.569373,
+    "tech_to_value_signal": 0.569374,
     "certification_signal": 0.0,
     "qualification_signal": 0.0,
     "cost_yield_signal": 0.0,
@@ -32,10 +32,10 @@
     "dispute_risk_signal": 0.0,
     "failure_delay_signal": 0.0,
     "intangible_accounting_signal": 0.0,
-    "patent_records_asof": 500,
-    "dated_records_asof": 255,
+    "patent_records_asof": 508,
+    "dated_records_asof": 265,
     "undated_records_used": 312,
-    "files_used": 74,
+    "files_used": 78,
     "notes": "Tech history signal uses dated patent/IP, TRL/readiness, certification, qualification, commercialization, R&D/workforce, risk and accounting evidence before as_of_date; no Buy/Hold/Sell threshold is applied.",
     "frequency": "monthly",
     "formula": "final=base_signal*evidence_confidence + 0.25*commercialization_gate_signal - 0.35*technology_risk_penalty",
@@ -45,8 +45,8 @@
       "IFC/Bpifrance deep-tech development-stage financing framework",
       "Text-based industry/technology relatedness literature for peer/differentiation evidence"
     ],
-    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\tech_history_features_2025-09-30.json",
-    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\tech_history_features_2025-09-30.csv"
+    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\tech_history_features_2025-10-31.json",
+    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\tech_history_features_2025-10-31.csv"
   },
   "claims": [
     {
@@ -457,7 +457,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-26T04:40:11",
+      "generated_at": "2026-05-26T20:08:14",
       "core_counts": {
         "total_patents": 26,
         "registered_patents_estimated": 20,
@@ -535,7 +535,7 @@
   "tech_chair_summary": {
     "agent": "tech",
     "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-    "created_at": "2026-05-26T04:42:09",
+    "created_at": "2026-05-26T20:08:40",
     "field": "반도체",
     "company": "제주반도체",
     "company_name": "제주반도체",
@@ -1175,7 +1175,7 @@
       "company_name": "제주반도체",
       "field": "반도체",
       "status": "OK",
-      "created_at": "2026-05-26T04:40:13",
+      "created_at": "2026-05-26T20:08:16",
       "weights": {
         "legal_stability": 0.25,
         "claim_defense": 0.3,
@@ -1271,10 +1271,10 @@
       "tech_full_appendix_json": ""
     },
     "ip_evidence_bridge_adjustment_status": "APPLIED",
-    "ip_evidence_bridge_adjustment_applied_at": "2026-05-26T04:42:29",
+    "ip_evidence_bridge_adjustment_applied_at": "2026-05-26T20:08:52",
     "tech_investor_view": {
       "version": "tech-investor-scorecard-v2",
-      "generated_at": "2026-05-26T04:43:16",
+      "generated_at": "2026-05-26T20:09:58",
       "company_slug": "jeju_semicon",
       "company_name": "제주반도체",
       "final_tech_investor_score": 48.34,
@@ -1665,12 +1665,12 @@
       "agent": "tech_intake",
       "artifact": "tech_intake_value_evidence_bridge",
       "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-      "created_at": "2026-05-26T04:43:14",
+      "created_at": "2026-05-26T20:09:56",
       "field": "반도체",
       "company": "제주반도체",
       "company_dir": "jeju_semicon",
       "company_slug": "jeju_semicon",
-      "source_document_count": 154,
+      "source_document_count": 153,
       "source_documents": [
         {
           "source_group": "KIPRIS",
@@ -1837,7 +1837,7 @@
         {
           "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/제주반도체/tech/jeju_semicon_tech_intake_value_evidence.json",
-          "detected_url_count": 12,
+          "detected_url_count": 11,
           "fallback_url_count": 0
         },
         {
@@ -2082,6 +2082,18 @@
         },
         {
           "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/제주반도체/tech/tech_history_features_2025-10-31.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/제주반도체/tech/tech_history_features_2025-10-31.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/제주반도체/tech/tech_intake_manifest.json",
           "detected_url_count": 0,
           "fallback_url_count": 2
@@ -2095,7 +2107,7 @@
         {
           "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/제주반도체/tech/tech_intake_value_evidence.json",
-          "detected_url_count": 12,
+          "detected_url_count": 11,
           "fallback_url_count": 0
         },
         {
@@ -2418,12 +2430,6 @@
         },
         {
           "source_group": "VALUATION",
-          "source_file": "data/반도체/제주반도체/valuation/intake/financials_raw.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "VALUATION",
           "source_file": "data/반도체/제주반도체/valuation/intake/peer_multiples.csv",
           "detected_url_count": 0,
           "fallback_url_count": 5
@@ -2514,12 +2520,6 @@
         },
         {
           "source_group": "VALUATION",
-          "source_file": "data/반도체/제주반도체/valuation/intake/valuation_raw_dart_accounts.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "VALUATION",
           "source_file": "data/반도체/제주반도체/valuation/intake/valuation_reference_universe_208.csv",
           "detected_url_count": 0,
           "fallback_url_count": 5
@@ -2533,12 +2533,6 @@
         {
           "source_group": "VALUATION",
           "source_file": "data/반도체/제주반도체/valuation/intake/valuation_reference_universe_summary.json",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "VALUATION",
-          "source_file": "data/반도체/제주반도체/valuation/intake/valuation_share_count.csv",
           "detected_url_count": 0,
           "fallback_url_count": 5
         },
@@ -2593,8 +2587,8 @@
         {
           "source_group": "FINANCE",
           "source_file": "data/반도체/제주반도체/finance/intake/finance_intake_manifest.json",
-          "detected_url_count": 1,
-          "fallback_url_count": 0
+          "detected_url_count": 0,
+          "fallback_url_count": 5
         }
       ],
       "source_url_map": {
@@ -2695,8 +2689,7 @@
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cf9a9b73d31661583fe7c6eb54d0fa013fdea568358d0b1d690824914dee7427f",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c1531c25f20055517e557a4e8bb2b779cc42ccc97707907a95db8f1edbf0eec18",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c20f465ffcfa4530346c6465d651c819e27075e404217265ea359ee8049dfdd03",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c20f465ffcfa4530345a04d5e80981bf9a8a25497ebbe07dd7d24699b6c40f84f",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?",
+            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c20",
             "http://www.w3.org/2001/XMLSchema-instance",
             "http://www.nepes.co.kr",
             "https://dart.fss.or.kr/",
@@ -2776,9 +2769,7 @@
           ]
         },
         "FINANCE": {
-          "detected_urls": [
-            "https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception"
-          ],
+          "detected_urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
             "https://opendart.fss.or.kr/",
@@ -3619,7 +3610,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-26T04:40:11",
+      "generated_at": "2026-05-26T20:08:14",
       "core_counts": {
         "total_patents": 26,
         "registered_patents_estimated": 20,
@@ -3728,8 +3719,8 @@
     "tech_full_appendix_json": null,
     "tech_chair_summary_json": "data/반도체/제주반도체/tech/tech_chair_summary.json",
     "tech_chair_summary_md": "data/반도체/제주반도체/tech/jeju_semicon_tech_chair_summary.md",
-    "tech_history_feature_json": "data/반도체/제주반도체/tech/tech_history_features_2025-09-30.json",
-    "tech_history_feature_csv": "data/반도체/제주반도체/tech/tech_history_features_2025-09-30.csv",
+    "tech_history_feature_json": "data/반도체/제주반도체/tech/tech_history_features_2025-10-31.json",
+    "tech_history_feature_csv": "data/반도체/제주반도체/tech/tech_history_features_2025-10-31.csv",
     "tech_json": "data/반도체/제주반도체/tech/jeju_semicon_tech.json",
     "tech_agent_packet_json": "data/반도체/제주반도체/tech/jeju_semicon_tech_agent_packet.json"
   },
@@ -4629,7 +4620,7 @@
     "field": "반도체",
     "source_csv": "data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_patents_normalized.csv",
     "enriched_csv": "data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_tech_ml_enriched.csv",
-    "generated_at": "2026-05-26T04:40:11",
+    "generated_at": "2026-05-26T20:08:14",
     "core_counts": {
       "total_patents": 26,
       "registered_patents_estimated": 20,

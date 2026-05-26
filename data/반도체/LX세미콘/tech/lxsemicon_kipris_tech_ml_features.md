@@ -3,7 +3,7 @@
 ## 1. Source
 - source_csv: `data\반도체\LX세미콘\tech\lxsemicon_kipris_patents_normalized.csv`
 - enriched_csv: `data\반도체\LX세미콘\tech\lxsemicon_kipris_tech_ml_enriched.csv`
-- generated_at: 2026-05-26T04:29:07
+- generated_at: 2026-05-26T19:45:09
 
 ## 2. Core Counts
 - total_patents: 90

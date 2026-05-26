@@ -1,7 +1,7 @@
 {
   "agent": "tech",
   "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-  "created_at": "2026-05-26T05:17:42",
+  "created_at": "2026-05-26T21:02:11",
   "field": "반도체",
   "company": "코아시아",
   "company_name": "코아시아",
@@ -735,7 +735,7 @@
     "company_name": "코아시아",
     "field": "반도체",
     "status": "OK",
-    "created_at": "2026-05-26T05:15:44",
+    "created_at": "2026-05-26T21:01:47",
     "weights": {
       "legal_stability": 0.25,
       "claim_defense": 0.3,
@@ -831,10 +831,10 @@
     "tech_full_appendix_json": ""
   },
   "ip_evidence_bridge_adjustment_status": "APPLIED",
-  "ip_evidence_bridge_adjustment_applied_at": "2026-05-26T05:18:02",
+  "ip_evidence_bridge_adjustment_applied_at": "2026-05-26T21:02:23",
   "tech_investor_view": {
     "version": "tech-investor-scorecard-v2",
-    "generated_at": "2026-05-26T05:18:48",
+    "generated_at": "2026-05-26T21:03:29",
     "company_slug": "coasia",
     "company_name": "코아시아",
     "final_tech_investor_score": 54.95,
@@ -1227,12 +1227,12 @@
     "agent": "tech_intake",
     "artifact": "tech_intake_value_evidence_bridge",
     "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-    "created_at": "2026-05-26T05:18:46",
+    "created_at": "2026-05-26T21:03:27",
     "field": "반도체",
     "company": "코아시아",
     "company_dir": "coasia",
     "company_slug": "coasia",
-    "source_document_count": 155,
+    "source_document_count": 154,
     "source_documents": [
       {
         "source_group": "KIPRIS",
@@ -1650,6 +1650,18 @@
       },
       {
         "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/코아시아/tech/tech_history_features_2025-10-31.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/코아시아/tech/tech_history_features_2025-10-31.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
         "source_file": "data/반도체/코아시아/tech/tech_intake_manifest.json",
         "detected_url_count": 0,
         "fallback_url_count": 2
@@ -1986,12 +1998,6 @@
       },
       {
         "source_group": "VALUATION",
-        "source_file": "data/반도체/코아시아/valuation/intake/financials_raw.csv",
-        "detected_url_count": 0,
-        "fallback_url_count": 5
-      },
-      {
-        "source_group": "VALUATION",
         "source_file": "data/반도체/코아시아/valuation/intake/peer_multiples.csv",
         "detected_url_count": 0,
         "fallback_url_count": 5
@@ -2082,12 +2088,6 @@
       },
       {
         "source_group": "VALUATION",
-        "source_file": "data/반도체/코아시아/valuation/intake/valuation_raw_dart_accounts.csv",
-        "detected_url_count": 0,
-        "fallback_url_count": 5
-      },
-      {
-        "source_group": "VALUATION",
         "source_file": "data/반도체/코아시아/valuation/intake/valuation_reference_universe_208.csv",
         "detected_url_count": 0,
         "fallback_url_count": 5
@@ -2101,12 +2101,6 @@
       {
         "source_group": "VALUATION",
         "source_file": "data/반도체/코아시아/valuation/intake/valuation_reference_universe_summary.json",
-        "detected_url_count": 0,
-        "fallback_url_count": 5
-      },
-      {
-        "source_group": "VALUATION",
-        "source_file": "data/반도체/코아시아/valuation/intake/valuation_share_count.csv",
         "detected_url_count": 0,
         "fallback_url_count": 5
       },
@@ -2161,8 +2155,8 @@
       {
         "source_group": "FINANCE",
         "source_file": "data/반도체/코아시아/finance/intake/finance_intake_manifest.json",
-        "detected_url_count": 1,
-        "fallback_url_count": 0
+        "detected_url_count": 0,
+        "fallback_url_count": 5
       }
     ],
     "source_url_map": {
@@ -2265,7 +2259,7 @@
           "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93e7ccc07c8be1ba8f41d3d151087321cfaaea617e30d30054ab41ed72ce47878bf3ec69fa77eb29c85569a67af5285fbb9e4e0c7fe52a9972",
           "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93e7ccc07c8be1ba8f41d3d151087321cfaaea617e30d30054ab41ed72ce47878bc42ce5b9c60f0c8ad4f415f1b37461714f4d5a4c0277e474",
           "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c934ad912577adcb5b4b4b06e993adba68f2d4527a26cb769665d694456373618f207a4085ad620576d3afa8188e96efc2522604267f97e420d",
-          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e005ef34ca27a54e921576c5d86a2f864a808f40f531aab4ac5181c0f7e01410c08d240a287828fc30fbbc2f750d458c8f29ddb12dc5599f316",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e005ef34",
           "http://www.w3.org/2001/XMLSchema-instance",
           "http://www.nepes.co.kr",
           "https://dart.fss.or.kr/",
@@ -2345,9 +2339,7 @@
         ]
       },
       "FINANCE": {
-        "detected_urls": [
-          "https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception"
-        ],
+        "detected_urls": [],
         "fallback_urls": [
           "https://dart.fss.or.kr/",
           "https://opendart.fss.or.kr/",

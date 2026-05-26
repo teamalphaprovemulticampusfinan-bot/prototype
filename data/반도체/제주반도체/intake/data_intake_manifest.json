@@ -1,7 +1,7 @@
 {
   "pipeline": "data_intake",
   "status": "OK",
-  "created_at": "2026-05-26T04:41:49",
+  "created_at": "2026-05-26T20:08:27",
   "company_dir": "jeju_semicon",
   "company": "제주반도체",
   "field": "반도체",
@@ -17,75 +17,46 @@
   "agents": [
     {
       "agent": "macro",
-      "status": "DONE",
-      "module": "data_intake.macro_intake.runner",
-      "function": "run_macro_intake",
-      "started_at": "2026-05-26T04:40:02",
-      "ended_at": "2026-05-26T04:40:05"
+      "status": "SKIPPED_NETWORK_DISABLED",
+      "started_at": "2026-05-26T20:08:08",
+      "ended_at": "2026-05-26T20:08:08",
+      "company_dir": "jeju_semicon",
+      "company": "제주반도체",
+      "field": "반도체",
+      "reason": "data_intake가 --skip-network로 실행되어 macro_intake 네트워크 수집을 생략했습니다."
     },
     {
       "agent": "market",
       "status": "DONE",
       "module": "data_intake.market_intake.runner",
       "function": "run_market_intake",
-      "started_at": "2026-05-26T04:40:02",
-      "ended_at": "2026-05-26T04:40:18"
+      "started_at": "2026-05-26T20:08:08",
+      "ended_at": "2026-05-26T20:08:18"
     },
     {
       "agent": "issue",
       "status": "DONE",
       "module": "data_intake.issue_intake.runner",
       "function": "run_issue_intake",
-      "started_at": "2026-05-26T04:40:02",
-      "ended_at": "2026-05-26T04:40:04"
+      "started_at": "2026-05-26T20:08:08",
+      "ended_at": "2026-05-26T20:08:09"
     },
     {
       "agent": "finance",
-      "status": "PARTIAL",
-      "created_at": "2026-05-26T04:41:49",
-      "started_at": "2026-05-26T04:40:04",
-      "ended_at": "2026-05-26T04:41:49",
+      "status": "SKIPPED_NETWORK_DISABLED",
+      "started_at": "2026-05-26T20:08:08",
+      "ended_at": "2026-05-26T20:08:08",
       "company_dir": "jeju_semicon",
       "company": "제주반도체",
       "field": "반도체",
       "stock_code": "080220",
-      "mode": "all",
-      "years": [
-        2021,
-        2022,
-        2023,
-        2024
-      ],
-      "start_date": "2021-01-01",
-      "end_date": "2025-09-30",
-      "force_fetch": false,
-      "steps": [
-        {
-          "name": "warning",
-          "status": "FAILED",
-          "started_at": "2026-05-26T04:40:04",
-          "ended_at": "2026-05-26T04:40:11",
-          "error": "Message: session not created\nfrom unknown error: cannot find Chrome binary; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception\nStacktrace:\n\tGetHandleVerifier [0x0x7ff7519fe415+77285]\n\tGetHandleVerifier [0x0x7ff7519fe470+77376]\n\t(No symbol) [0x0x7ff7517c9a6a]\n\t(No symbol) [0x0x7ff751804d50]\n\t(No symbol) [0x0x7ff75180278e]\n\t(No symbol) [0x0x7ff75185602e]\n\t(No symbol) [0x0x7ff7518557c0]\n\t(No symbol) [0x0x7ff7518483e3]\n\t(No symbol) [0x0x7ff751811521]\n\t(No symbol) [0x0x7ff7518122b3]\n\tGetHandleVerifier [0x0x7ff751ce1efd+3107021]\n\tGetHandleVerifier [0x0x7ff751cdc29d+3083373]\n\tGetHandleVerifier [0x0x7ff751cfbedd+3213485]\n\tGetHandleVerifier [0x0x7ff751a1884e+184862]\n\tGetHandleVerifier [0x0x7ff751a2055f+216879]\n\tGetHandleVerifier [0x0x7ff751a07084+113236]\n\tGetHandleVerifier [0x0x7ff751a07239+113673]\n\tGetHandleVerifier [0x0x7ff7519ee298+11368]\n\tBaseThreadInitThunk [0x0x7ff9648d259d+29]\n\tRtlUserThreadStart [0x0x7ff9662eaf78+40]\n",
-          "traceback": "Traceback (most recent call last):\n  File \"C:\\Agent_6.9\\src\\data_intake\\finance_intake\\runner.py\", line 753, in _step\n    result = func()\n             ^^^^^^\n  File \"C:\\Agent_6.9\\src\\data_intake\\finance_intake\\runner.py\", line 780, in <lambda>\n    step_jobs.append((\"warning\", lambda: run_warning_optional(WarningConfig(mode=\"update\", days=1))))\n                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.9\\src\\data_intake\\finance_intake\\runner.py\", line 329, in run_warning_optional\n    run_warning(cfg)\n  File \"C:\\Agent_6.9\\src\\data_intake\\finance_intake\\runner.py\", line 271, in run_warning\n    latest_file = fetch_kind_warning_excel(\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.9\\src\\data_intake\\finance_intake\\collector.py\", line 587, in fetch_kind_warning_excel\n    driver = webdriver.Chrome(\n             ^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.9\\.venv\\Lib\\site-packages\\selenium\\webdriver\\chrome\\webdriver.py\", line 45, in __init__\n    super().__init__(\n  File \"C:\\Agent_6.9\\.venv\\Lib\\site-packages\\selenium\\webdriver\\chromium\\webdriver.py\", line 66, in __init__\n    super().__init__(command_executor=executor, options=self.options)\n  File \"C:\\Agent_6.9\\.venv\\Lib\\site-packages\\selenium\\webdriver\\common\\webdriver.py\", line 25, in __init__\n    super().__init__(*args, **kwargs)\n  File \"C:\\Agent_6.9\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 276, in __init__\n    self.start_session(capabilities)\n  File \"C:\\Agent_6.9\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 372, in start_session\n    response = self.execute(Command.NEW_SESSION, caps)[\"value\"]\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Agent_6.9\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 468, in execute\n    self.error_handler.check_response(response)\n  File \"C:\\Agent_6.9\\.venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 232, in check_response\n    raise exception_class(message, screen, stacktrace)\nselenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom unknown error: cannot find Chrome binary; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception\nStacktrace:\n\tGetHandleVerifier [0x0x7ff7519fe415+77285]\n\tGetHandleVerifier [0x0x7ff7519fe470+77376]\n\t(No symbol) [0x0x7ff7517c9a6a]\n\t(No symbol) [0x0x7ff751804d50]\n\t(No symbol) [0x0x7ff75180278e]\n\t(No symbol) [0x0x7ff75185602e]\n\t(No symbol) [0x0x7ff7518557c0]\n\t(No symbol) [0x0x7ff7518483e3]\n\t(No symbol) [0x0x7ff751811521]\n\t(No symbol) [0x0x7ff7518122b3]\n\tGetHandleVerifier [0x0x7ff751ce1efd+3107021]\n\tGetHandleVerifier [0x0x7ff751cdc29d+3083373]\n\tGetHandleVerifier [0x0x7ff751cfbedd+3213485]\n\tGetHandleVerifier [0x0x7ff751a1884e+184862]\n\tGetHandleVerifier [0x0x7ff751a2055f+216879]\n\tGetHandleVerifier [0x0x7ff751a07084+113236]\n\tGetHandleVerifier [0x0x7ff751a07239+113673]\n\tGetHandleVerifier [0x0x7ff7519ee298+11368]\n\tBaseThreadInitThunk [0x0x7ff9648d259d+29]\n\tRtlUserThreadStart [0x0x7ff9662eaf78+40]\n\n"
-        },
-        {
-          "name": "financial",
-          "status": "OK",
-          "started_at": "2026-05-26T04:40:04",
-          "ended_at": "2026-05-26T04:40:47"
-        },
-        {
-          "name": "stock",
-          "status": "OK",
-          "started_at": "2026-05-26T04:40:04",
-          "ended_at": "2026-05-26T04:41:49"
-        }
-      ]
+      "reason": "data_intake가 --skip-network로 실행되어 DART/주가/KIND 기반 finance_intake를 호출하지 않았습니다. 기존 finance 산출물이 있으면 finance_agent가 직접 읽습니다.",
+      "direct_command_example": "python -m data_intake.finance_intake.runner --mode all --stock 080220 --sector 반도체"
     },
     {
       "pipeline": "tech_intake",
       "status": "READY_WITHOUT_AGENT",
-      "created_at": "2026-05-26T04:40:26",
+      "created_at": "2026-05-26T20:08:27",
       "field": "반도체",
       "company_dir": "jeju_semicon",
       "company": "제주반도체",
@@ -142,85 +113,85 @@
           "step": "build_tech_excel_quantified_metrics",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-26T04:40:04",
-          "ended_at": "2026-05-26T04:40:08",
+          "started_at": "2026-05-26T20:08:08",
+          "ended_at": "2026-05-26T20:08:12",
           "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_tech_excel_quantified_metrics.py --field 반도체 --company-dir jeju_semicon"
         },
         {
           "step": "prepare_kipris_bibliographic_normalized",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-26T04:40:08",
-          "ended_at": "2026-05-26T04:40:10",
+          "started_at": "2026-05-26T20:08:12",
+          "ended_at": "2026-05-26T20:08:13",
           "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\prepare_kipris_bibliographic_normalized.py --field 반도체 --company-name 제주반도체 --company-slug jeju_semicon"
         },
         {
           "step": "build_kipris_tech_ml_features",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-26T04:40:10",
-          "ended_at": "2026-05-26T04:40:11",
+          "started_at": "2026-05-26T20:08:13",
+          "ended_at": "2026-05-26T20:08:14",
           "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_kipris_tech_ml_features.py --field 반도체 --company-name 제주반도체 --company-slug jeju_semicon"
         },
         {
           "step": "build_tech_ip_legal_features",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-26T04:40:11",
-          "ended_at": "2026-05-26T04:40:12",
+          "started_at": "2026-05-26T20:08:14",
+          "ended_at": "2026-05-26T20:08:15",
           "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_tech_ip_legal_features.py --field 반도체 --company-name 제주반도체 --company-slug jeju_semicon"
         },
         {
           "step": "build_tech_ip_fallback_features",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-26T04:40:12",
-          "ended_at": "2026-05-26T04:40:12",
+          "started_at": "2026-05-26T20:08:15",
+          "ended_at": "2026-05-26T20:08:15",
           "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_tech_ip_fallback_features.py --field 반도체 --company-name 제주반도체 --company-slug jeju_semicon"
         },
         {
           "step": "build_tech_ip_evidence_composite",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-26T04:40:12",
-          "ended_at": "2026-05-26T04:40:13",
+          "started_at": "2026-05-26T20:08:15",
+          "ended_at": "2026-05-26T20:08:16",
           "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_tech_ip_evidence_composite.py --field 반도체 --company-name 제주반도체 --company-slug jeju_semicon"
         },
         {
           "step": "build_patent_semantic_fallback",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-26T04:40:13",
-          "ended_at": "2026-05-26T04:40:16",
+          "started_at": "2026-05-26T20:08:16",
+          "ended_at": "2026-05-26T20:08:19",
           "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\build_patent_semantic_fallback.py --company-dir jeju_semicon --company 제주반도체"
         },
         {
           "step": "run_tech_ip_ml",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-26T04:40:16",
-          "ended_at": "2026-05-26T04:40:20",
+          "started_at": "2026-05-26T20:08:19",
+          "ended_at": "2026-05-26T20:08:23",
           "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\run_tech_ip_ml.py --company-dir jeju_semicon"
         },
         {
           "step": "run_tech_ml_signal",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-26T04:40:20",
-          "ended_at": "2026-05-26T04:40:25",
+          "started_at": "2026-05-26T20:08:23",
+          "ended_at": "2026-05-26T20:08:27",
           "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\run_tech_ml_signal.py --company-dir jeju_semicon --company 제주반도체"
         },
         {
           "step": "check_ip_evidence_bridge_one",
           "status": "DONE",
           "returncode": 0,
-          "started_at": "2026-05-26T04:40:25",
-          "ended_at": "2026-05-26T04:40:25",
+          "started_at": "2026-05-26T20:08:27",
+          "ended_at": "2026-05-26T20:08:27",
           "cmd": "C:\\Agent_6.9\\.venv\\Scripts\\python.exe C:\\Agent_6.9\\scripts\\check_ip_evidence_bridge_one.py --tech C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech --slug jeju_semicon --company-name 제주반도체"
         }
       ],
       "artifacts": {
-        "file_count": 89,
+        "file_count": 93,
         "required_missing": [],
         "optional_exists": {
           "source_csv": true,
@@ -305,6 +276,10 @@
           "tech_full_appendix.md",
           "tech_history_features_2025-08-31.csv",
           "tech_history_features_2025-08-31.json",
+          "tech_history_features_2025-09-30.csv",
+          "tech_history_features_2025-09-30.json",
+          "tech_history_features_2025-10-31.csv",
+          "tech_history_features_2025-10-31.json",
           "tech_intake_manifest.json",
           "tech_intake_manifest.md",
           "tech_intake_value_evidence.json",
@@ -335,17 +310,17 @@
     {
       "pipeline": "valuation_intake",
       "status": "OK",
-      "created_at": "2026-05-26T04:40:52",
-      "started_at": "2026-05-26T04:40:06",
+      "created_at": "2026-05-26T20:08:12",
+      "started_at": "2026-05-26T20:08:10",
       "company": "제주반도체",
       "company_dir": "jeju_semicon",
-      "skip_network": false,
+      "skip_network": true,
       "years": 5,
       "start_date": "2021-01-01",
-      "end_date": "2025-09-30",
+      "end_date": "2025-10-31",
       "collection_range": {
         "start_date": "2021-01-01",
-        "end_date": "2025-09-30"
+        "end_date": "2025-10-31"
       },
       "outputs": {
         "intake_dir": "data/반도체/제주반도체/valuation/intake",
@@ -367,11 +342,11 @@
         "reference_universe_summary_json": "data/반도체/제주반도체/valuation/intake/valuation_reference_universe_summary.json"
       },
       "counts": {
-        "raw_dart_accounts": 765,
+        "raw_dart_accounts": 0,
         "normalized_financial_years": 5,
         "price_rows": 1162,
-        "share_count_rows": 15,
-        "market_snapshot_metric_count": 18,
+        "share_count_rows": 0,
+        "market_snapshot_metric_count": 1,
         "peer_rows": 5,
         "reference_universe_rows": 208,
         "reference_focus_rows": 40,
@@ -386,27 +361,26 @@
         "mdd": -0.7714705882352941,
         "high_52w": 19820.0,
         "low_52w": 7770.0,
-        "shares_outstanding": 34442833.0,
-        "market_cap": 623070848970.0,
+        "shares_outstanding": null,
+        "market_cap": null,
         "latest_volume": 623704.0,
         "latest_trading_value": 11282805360.0,
         "avg_trading_value_20d": 26049259262.0,
         "avg_volume_20d": 1407870.8,
-        "turnover_latest": 0.01810838266410896,
-        "turnover_20d": 0.04087558070499021,
+        "turnover_latest": null,
+        "turnover_20d": null,
         "price_rows": 1162,
         "price_start": "2021-01-04",
         "price_end": "2025-09-30"
       },
       "share_summary": {
-        "shares_outstanding": 34442833.0,
-        "share_count_year": 2025,
-        "share_count_class": "합계",
-        "share_count_source": "OpenDART_stockTotqySttus"
+        "shares_outstanding": null,
+        "share_count_year": null,
+        "share_count_source": null
       },
       "reference_universe_summary": {
         "status": "OK",
-        "created_at": "2026-05-26T04:40:06",
+        "created_at": "2026-05-26T20:08:10",
         "reference_universe_rows": 208,
         "focus_rows": 40,
         "focal_5_rows": 30,
@@ -451,34 +425,20 @@
         },
         "note": "Valuation Agent는 live DCF/PSR 산출과 별도로 208개 반도체 universe의 proxy score를 활용해 상대 위치를 보조 판단합니다.",
         "source_path": "data/반도체/_sector_common/ml_universe/valuation_credit_ml_overlay_candidate.csv",
-        "exported_at": "2026-05-26T04:40:06"
+        "exported_at": "2026-05-26T20:08:10"
       },
       "diagnostics": [
-        "DART API key detected for valuation intake.",
-        "DART corp_code resolved from cache for 제주반도체/080220.",
-        "DART financial rows collected: 2021=153, 2022=143, 2023=157, 2024=148, 2025=164",
+        "skip_network=True: live DART/price collection skipped by user option.",
         "local financial fallback loaded rows=5 from C:\\Agent_6.9\\data\\반도체\\제주반도체\\finance\\제주반도체_재무데이터.csv.",
-        "yfinance price rows for 080220.KQ: 1162",
-        "price provider selected: yfinance, rows=1162",
-        "local price fallback loaded rows=1140 from C:\\Agent_6.9\\data\\반도체\\제주반도체\\valuation\\intake\\valuation_price_history.csv.",
-        "DART corp_code resolved from cache for 제주반도체/080220.",
-        "Naver market snapshot collected: per_naver, pbr_naver, eps_naver, bps_naver",
-        "peer:nepes: local price fallback loaded rows=1162 from C:\\Agent_6.9\\data\\반도체\\네패스\\valuation\\intake\\valuation_price_history.csv.",
-        "peer:nepes: DART corp_code resolved from cache for 네패스/033640.",
-        "peer:hanmi: local price fallback loaded rows=1163 from C:\\Agent_6.9\\data\\반도체\\한미반도체\\valuation\\intake\\valuation_price_history.csv.",
-        "peer:hanmi: DART corp_code resolved from cache for 한미반도체/042700.",
-        "peer:hansol: local price fallback loaded rows=1163 from C:\\Agent_6.9\\data\\반도체\\한솔케미칼\\valuation\\intake\\valuation_price_history.csv.",
-        "peer:hansol: DART corp_code resolved from cache for 한솔케미칼/014680.",
-        "peer:duksan: local price fallback loaded rows=1162 from C:\\Agent_6.9\\data\\반도체\\덕산테코피아\\valuation\\intake\\valuation_price_history.csv.",
-        "peer:duksan: DART corp_code resolved from cache for 덕산테코피아/317330.",
-        "peer:ltc: local price fallback loaded rows=1161 from C:\\Agent_6.9\\data\\반도체\\엘티씨\\valuation\\intake\\valuation_price_history.csv.",
-        "peer:ltc: DART corp_code resolved from cache for 엘티씨/170920.",
-        "Market snapshot enriched with live/derived metrics count=18."
+        "financial rows merged with local fallback: primary=0, fallback=5, merged=5.",
+        "local price fallback loaded rows=1162 from C:\\Agent_6.9\\data\\반도체\\제주반도체\\valuation\\intake\\valuation_price_history.csv.",
+        "price rows merged with local fallback: primary=0, fallback=1162, merged=1162.",
+        "Market snapshot enriched with live/derived metrics count=1."
       ],
-      "as_of_date": "2025-09-30",
+      "as_of_date": "2025-10-31",
       "eval_valuation_enhancer": {
         "version": "v35",
-        "as_of_date": "2025-09-30",
+        "as_of_date": "2025-10-31",
         "intake_files": [
           "company_profile.json",
           "financials_raw.csv",

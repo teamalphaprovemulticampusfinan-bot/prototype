@@ -3,7 +3,7 @@
 ## 1. Source
 - source_csv: `data\반도체\가온칩스\tech\gaochips_kipris_patents_normalized.csv`
 - enriched_csv: `data\반도체\가온칩스\tech\gaochips_kipris_tech_ml_enriched.csv`
-- generated_at: 2026-05-26T05:27:23
+- generated_at: 2026-05-26T21:20:29
 
 ## 2. Core Counts
 - total_patents: 4

@@ -1,10 +1,10 @@
 # 텔레칩스 Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-26T05:07:08
+- 생성 시각: 2026-05-26T20:45:38
 - 종합 점수: 80.1/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 155개
+- 원천 문서 수: 154개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -98,7 +98,7 @@
   - fallback: https://comp.fnguide.com/
   - fallback: https://www.google.com/search?q=%ED%85%94%EB%A0%88%EC%B9%A9%EC%8A%A4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84+FCF
 - **FINANCE**
-  - detected: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+  - detected: URL 확인 제한
   - fallback: https://dart.fss.or.kr/
   - fallback: https://opendart.fss.or.kr/
   - fallback: https://finance.naver.com/

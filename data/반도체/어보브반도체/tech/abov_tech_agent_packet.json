@@ -3,26 +3,26 @@
   "company": "어보브반도체",
   "company_dir": "abov",
   "opinion": "보유",
-  "tech_signal": 0.328258,
+  "tech_signal": 0.328896,
   "history_tech_feature": {
-    "signal": 0.328258,
+    "signal": 0.328896,
     "status": "OK_TECH_HISTORY_ASOF",
-    "source": "C:\\Agent_6.9\\data\\반도체\\어보브반도체\\tech\\tech_history_features_2025-08-31.csv;C:\\Agent_6.9\\data\\반도체\\어보브반도체\\tech\\abov_kipris_patents_normalized.csv;C:\\Agent_6.9\\data\\반도체\\어보브반도체\\tech\\abov_tech_patent_normalized.csv;C:\\Agent_6.9\\data\\반도체\\어보브반도체\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\어보브반도체\\tech\\abov_kipris_bibliographic_normalized.csv;C:\\Agent_6.9\\data\\반도체\\어보브반도체\\tech\\abov_kipris_claims_normalized.csv;C:\\Agent_6.9\\data\\반도체\\어보브반도체\\tech\\abov_kipris_plus_claim_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\어보브반도체\\tech\\abov_kipris_plus_family_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\어보브반도체\\tech\\abov_kipris_plus_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\어보브반도체\\tech\\abov_kipris_tech_ml_enriched.csv;C:\\Agent_6.9\\data\\반도체\\어보브반도체\\tech\\source\\abov_kipris_plus_bibliographic_raw.csv;C:\\Agent_6.9\\data\\반도체\\어보브반도체\\tech\\quanified_metrix.csv",
-    "as_of_date": "2025-09-30",
+    "source": "C:\\Agent_6.9\\data\\반도체\\어보브반도체\\tech\\tech_history_features_2025-08-31.csv;C:\\Agent_6.9\\data\\반도체\\어보브반도체\\tech\\tech_history_features_2025-09-30.csv;C:\\Agent_6.9\\data\\반도체\\어보브반도체\\tech\\tech_history_features_2025-10-31.csv;C:\\Agent_6.9\\data\\반도체\\어보브반도체\\tech\\abov_kipris_patents_normalized.csv;C:\\Agent_6.9\\data\\반도체\\어보브반도체\\tech\\abov_tech_patent_normalized.csv;C:\\Agent_6.9\\data\\반도체\\어보브반도체\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\어보브반도체\\tech\\abov_kipris_bibliographic_normalized.csv;C:\\Agent_6.9\\data\\반도체\\어보브반도체\\tech\\abov_kipris_claims_normalized.csv;C:\\Agent_6.9\\data\\반도체\\어보브반도체\\tech\\abov_kipris_plus_claim_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\어보브반도체\\tech\\abov_kipris_plus_family_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\어보브반도체\\tech\\abov_kipris_plus_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\어보브반도체\\tech\\abov_kipris_tech_ml_enriched.csv",
+    "as_of_date": "2025-10-31",
     "company": "어보브반도체",
     "ticker": "102120.KQ",
     "stock_code": "102120",
-    "base_signal": 0.342373,
-    "evidence_confidence": 0.786847,
-    "commercialization_gate_signal": 0.23545,
+    "base_signal": 0.34313,
+    "evidence_confidence": 0.786951,
+    "commercialization_gate_signal": 0.235476,
     "technology_risk_penalty": 0.0,
-    "ip_quality_signal": 0.103751,
+    "ip_quality_signal": 0.105282,
     "lifecycle_signal": 0.0,
-    "technology_differentiation_signal": 0.151566,
-    "commercialization_signal": 0.9418,
-    "rnd_sustainability_signal": 0.469279,
+    "technology_differentiation_signal": 0.154471,
+    "commercialization_signal": 0.941906,
+    "rnd_sustainability_signal": 0.46928,
     "peer_position_signal": -0.209524,
-    "tech_to_value_signal": 0.597364,
+    "tech_to_value_signal": 0.597366,
     "certification_signal": 0.0,
     "qualification_signal": 0.0,
     "cost_yield_signal": 0.0,
@@ -32,10 +32,10 @@
     "dispute_risk_signal": 0.0,
     "failure_delay_signal": 0.0,
     "intangible_accounting_signal": 0.0,
-    "patent_records_asof": 641,
-    "dated_records_asof": 276,
+    "patent_records_asof": 649,
+    "dated_records_asof": 286,
     "undated_records_used": 432,
-    "files_used": 74,
+    "files_used": 78,
     "notes": "Tech history signal uses dated patent/IP, TRL/readiness, certification, qualification, commercialization, R&D/workforce, risk and accounting evidence before as_of_date; no Buy/Hold/Sell threshold is applied.",
     "frequency": "monthly",
     "formula": "final=base_signal*evidence_confidence + 0.25*commercialization_gate_signal - 0.35*technology_risk_penalty",
@@ -45,8 +45,8 @@
       "IFC/Bpifrance deep-tech development-stage financing framework",
       "Text-based industry/technology relatedness literature for peer/differentiation evidence"
     ],
-    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\어보브반도체\\tech\\tech_history_features_2025-09-30.json",
-    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\어보브반도체\\tech\\tech_history_features_2025-09-30.csv"
+    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\어보브반도체\\tech\\tech_history_features_2025-10-31.json",
+    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\어보브반도체\\tech\\tech_history_features_2025-10-31.csv"
   },
   "claims": [
     {
@@ -456,7 +456,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\어보브반도체\\tech\\abov_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\어보브반도체\\tech\\abov_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-26T04:51:43",
+      "generated_at": "2026-05-26T20:26:19",
       "core_counts": {
         "total_patents": 30,
         "registered_patents_estimated": 26,
@@ -547,7 +547,7 @@
   "tech_chair_summary": {
     "agent": "tech",
     "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-    "created_at": "2026-05-26T04:53:42",
+    "created_at": "2026-05-26T20:26:44",
     "field": "반도체",
     "company": "어보브반도체",
     "company_name": "어보브반도체",
@@ -1425,7 +1425,7 @@
       "company_name": "어보브반도체",
       "field": "반도체",
       "status": "OK",
-      "created_at": "2026-05-26T04:51:45",
+      "created_at": "2026-05-26T20:26:21",
       "weights": {
         "legal_stability": 0.25,
         "claim_defense": 0.3,
@@ -1521,10 +1521,10 @@
       "tech_full_appendix_json": ""
     },
     "ip_evidence_bridge_adjustment_status": "APPLIED",
-    "ip_evidence_bridge_adjustment_applied_at": "2026-05-26T04:53:55",
+    "ip_evidence_bridge_adjustment_applied_at": "2026-05-26T20:26:55",
     "tech_investor_view": {
       "version": "tech-investor-scorecard-v2",
-      "generated_at": "2026-05-26T04:54:49",
+      "generated_at": "2026-05-26T20:28:03",
       "company_slug": "abov",
       "company_name": "어보브반도체",
       "final_tech_investor_score": 55.21,
@@ -1917,12 +1917,12 @@
       "agent": "tech_intake",
       "artifact": "tech_intake_value_evidence_bridge",
       "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-      "created_at": "2026-05-26T04:54:47",
+      "created_at": "2026-05-26T20:28:01",
       "field": "반도체",
       "company": "어보브반도체",
       "company_dir": "abov",
       "company_slug": "abov",
-      "source_document_count": 155,
+      "source_document_count": 154,
       "source_documents": [
         {
           "source_group": "KIPRIS",
@@ -2095,7 +2095,7 @@
         {
           "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/어보브반도체/tech/abov_tech_intake_value_evidence.json",
-          "detected_url_count": 11,
+          "detected_url_count": 10,
           "fallback_url_count": 0
         },
         {
@@ -2340,6 +2340,18 @@
         },
         {
           "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/어보브반도체/tech/tech_history_features_2025-10-31.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/어보브반도체/tech/tech_history_features_2025-10-31.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/어보브반도체/tech/tech_intake_manifest.json",
           "detected_url_count": 0,
           "fallback_url_count": 2
@@ -2353,7 +2365,7 @@
         {
           "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/어보브반도체/tech/tech_intake_value_evidence.json",
-          "detected_url_count": 11,
+          "detected_url_count": 10,
           "fallback_url_count": 0
         },
         {
@@ -2676,12 +2688,6 @@
         },
         {
           "source_group": "VALUATION",
-          "source_file": "data/반도체/어보브반도체/valuation/intake/financials_raw.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "VALUATION",
           "source_file": "data/반도체/어보브반도체/valuation/intake/peer_multiples.csv",
           "detected_url_count": 0,
           "fallback_url_count": 5
@@ -2772,12 +2778,6 @@
         },
         {
           "source_group": "VALUATION",
-          "source_file": "data/반도체/어보브반도체/valuation/intake/valuation_raw_dart_accounts.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "VALUATION",
           "source_file": "data/반도체/어보브반도체/valuation/intake/valuation_reference_universe_208.csv",
           "detected_url_count": 0,
           "fallback_url_count": 5
@@ -2791,12 +2791,6 @@
         {
           "source_group": "VALUATION",
           "source_file": "data/반도체/어보브반도체/valuation/intake/valuation_reference_universe_summary.json",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "VALUATION",
-          "source_file": "data/반도체/어보브반도체/valuation/intake/valuation_share_count.csv",
           "detected_url_count": 0,
           "fallback_url_count": 5
         },
@@ -2851,8 +2845,8 @@
         {
           "source_group": "FINANCE",
           "source_file": "data/반도체/어보브반도체/finance/intake/finance_intake_manifest.json",
-          "detected_url_count": 1,
-          "fallback_url_count": 0
+          "detected_url_count": 0,
+          "fallback_url_count": 5
         }
       ],
       "source_url_map": {
@@ -2957,8 +2951,7 @@
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00cf2950bb545b249592c2e1894ad3c777e7dc16851450fc87c326d2a13ec1a760dcf26c111f0e47deb6e50f3ede1be512890290133d685491",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9304b51eafd5c71353ea330540693b5f11458871cdf883078eb7036deb2397c2746d28c00721a79e6e51cd3187e15cb0adb3c27c1023ece1c7",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c937eb68216e5e65b99cf6777d0831b377a4109ee470e9a2b448d40504551a90cace3d0851fb15bca9fe62092aa41de9cf23d8ebad2871ac91b",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7265e0742070de003c2fd5ffd7d3b5b3d47a29f58865f7bc36b9572a5507bd70fdd733fe98c2571e5a08c2fbafca4ebe285bbb93749c5225352",
-            "http://plus.kipris.or",
+            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7265e0742070de003c2fd5ffd7d3b5",
             "http://www.w3.org/2001/XMLSchema-instance",
             "http://www.nepes.co.kr",
             "https://dart.fss.or.kr/",
@@ -3038,9 +3031,7 @@
           ]
         },
         "FINANCE": {
-          "detected_urls": [
-            "https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception"
-          ],
+          "detected_urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
             "https://opendart.fss.or.kr/",
@@ -3878,7 +3869,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\어보브반도체\\tech\\abov_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\어보브반도체\\tech\\abov_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-26T04:51:43",
+      "generated_at": "2026-05-26T20:26:19",
       "core_counts": {
         "total_patents": 30,
         "registered_patents_estimated": 26,
@@ -4000,8 +3991,8 @@
     "tech_full_appendix_json": null,
     "tech_chair_summary_json": "data/반도체/어보브반도체/tech/tech_chair_summary.json",
     "tech_chair_summary_md": "data/반도체/어보브반도체/tech/abov_tech_chair_summary.md",
-    "tech_history_feature_json": "data/반도체/어보브반도체/tech/tech_history_features_2025-09-30.json",
-    "tech_history_feature_csv": "data/반도체/어보브반도체/tech/tech_history_features_2025-09-30.csv",
+    "tech_history_feature_json": "data/반도체/어보브반도체/tech/tech_history_features_2025-10-31.json",
+    "tech_history_feature_csv": "data/반도체/어보브반도체/tech/tech_history_features_2025-10-31.csv",
     "tech_json": "data/반도체/어보브반도체/tech/abov_tech.json",
     "tech_agent_packet_json": "data/반도체/어보브반도체/tech/abov_tech_agent_packet.json"
   },
@@ -4901,7 +4892,7 @@
     "field": "반도체",
     "source_csv": "data\\반도체\\어보브반도체\\tech\\abov_kipris_patents_normalized.csv",
     "enriched_csv": "data\\반도체\\어보브반도체\\tech\\abov_kipris_tech_ml_enriched.csv",
-    "generated_at": "2026-05-26T04:51:43",
+    "generated_at": "2026-05-26T20:26:19",
     "core_counts": {
       "total_patents": 30,
       "registered_patents_estimated": 26,

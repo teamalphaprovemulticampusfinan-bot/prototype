@@ -5,6 +5,43 @@ from __future__ import annotations
 This module is intentionally independent from individual agent code. It reads the packets
 already collected by the Chair adapters and converts them into an auditable, quantitative
 매수/보유/매도 signal before the Chair report is generated.
+
+DMA-ALIGNED AGENT SIGNAL POLICY
+================================
+Each specialist agent (Finance, Tech, Valuation, Market, Issue, Macro) produces a continuous
+signal (-1.0 to +1.0) which is the input to Dynamic Model Averaging. The design principle is:
+
+1. Agent signals must preserve direction whenever there is any measurable evidence.
+   - Weak positive signal (e.g., +0.05) should remain Buy-directional, not be suppressed to Hold.
+   - Weak negative signal (e.g., -0.05) should remain Sell-directional, not be suppressed to Hold.
+   - Hold is reserved ONLY for exact zero/missing data, not for weak signals.
+
+2. Component-level DMA (within each agent) combines sub-signals:
+   - Each component (sales_growth, margin, leverage, etc.) contributes its component signal.
+   - DMA model averages these components; no fixed component weights are used.
+   - The resulting agent signal preserves direction: signal ≈ 0 only when components are tied.
+
+3. Agent label assignment uses signal direction as the primary path:
+   - signal > 0 → Buy recommendation (never Hold as default)
+   - signal < 0 → Sell recommendation (never Hold as default)
+   - signal ≈ 0 (or data unavailable) → Hold as reject/no-trade class only.
+   - Strong signals → recommendation label carries the direction.
+   - Weak signals → recommendation label still carries the direction (use soft probability if needed).
+
+4. Mechanical Hold is suppressed at agent level:
+   - If an agent produces a signal but recommends Hold, it should explicitly state why:
+     "Hold because [tied components] / [missing critical data] / [too-small edge]"
+   - Generic "mixed evidence" or "uncertain" is NOT a justification for agent-level Hold.
+
+PORTFOLIO-LEVEL DMA (Auditor)
+==============================
+After all agent signals are collected, the auditor applies DMA weighting and posterior label
+probability to produce final_recommendation. The auditor-level Hold is justified only when:
+- Buy posterior and Sell posterior are tied (within 0.15 probability).
+- Or, core pillar consensus (2/3+) is present, directing recommendation regardless of auditor posteriors.
+
+See dynamic_model_averaging.py and quantity_prompts.py for posterior label and hold-suppression
+logic at portfolio level.
 """
 
 import json
@@ -29,6 +66,38 @@ AGENT_KO: dict[str, str] = {
 # Backward-compatible name only.  Do not put fixed values here.
 # Agent and component weights are computed by Dynamic Model Averaging.
 AGENT_WEIGHTS: dict[str, float] = {}
+
+AGENT_SIGNAL_HOLD_SUPPRESSION_POLICY: str = """
+[Agent-level Hold Suppression — DMA Alignment]
+
+Each agent (Finance, Tech, Valuation, Market, Issue, Macro) produces a continuous signal
+that feeds into DMA. To preserve direction at portfolio level, agent signals must NOT
+suppress weak directional signals into Hold.
+
+Rules
+-----
+1. Signal preservation: If an agent computes signal ≠ 0, preserve the direction in the label.
+   - signal +0.05 → label "매수", not "보유"
+   - signal -0.05 → label "매도", not "보유"
+   - signal ≈ 0 (or data missing) → label "보유" is justified.
+
+2. Component balance: When combining sub-metrics (e.g., sales_growth, margin, leverage),
+   use DMA or equal-weight average, not arbitrary thresholds. The agent signal reflects
+   the balance of available components, not a "consensus" that suppresses weak signals.
+
+3. Weak-but-directional signals: If an agent has evidence in one direction (e.g., one
+   positive metric and one neutral), the signal direction should reflect that, not default to Hold.
+
+4. Agent label justification: If an agent chooses Hold despite having a non-zero signal,
+   it must explicitly state: "Hold because [reason]", where [reason] is one of:
+   - Tied components (Buy and Sell components are equal)
+   - Missing critical data that prevents direction determination
+   - Risk/reward edge is too small after cost considerations
+   - NOT: "mixed evidence", "uncertain", or "weak signal"
+
+5. Fallback for missing data: When a data source is unavailable, mark it as missing
+   rather than downgrading the signal to Hold. DMA at portfolio level can handle missing agents.
+"""
 
 POSITIVE_TERMS = [
     "성장", "개선", "흑자", "수혜", "확대", "회복", "견조", "호조", "반등",
@@ -236,6 +305,20 @@ def _extract_packet_label(packet: dict[str, Any]) -> str | None:
 
 
 def _finance_signal(packet: dict[str, Any]) -> dict[str, Any]:
+    """Compute Finance agent continuous signal from operating metrics.
+    
+    Finance signal represents cash-generation strength, profitability, and liquidity.
+    Components: sales_growth, operating_margin, ROE, FCF, debt_ratio, current_ratio, MDD, warning_stock.
+    
+    DMA ALIGNMENT
+    =============
+    - Combining components via DMA (equal prior, data-driven posterior if history available).
+    - Signal is NOT averaged with a pre-set "balance point" at 0. Instead, it reflects the
+      true balance of positive/negative components as weighted by DMA.
+    - Weak positive signal (e.g., +0.05) should preserve Buy direction in downstream label.
+    - Weak negative signal (e.g., -0.05) should preserve Sell direction in downstream label.
+    - Only when signal ≈ 0 (tied components) should label default to Hold.
+    """
     text = _json_text(packet)
     sales_growth = _pct_to_ratio_or_percent(_metric(packet, ["sales_growth_%", "sales_growth", "매출성장률"], text))
     op_margin = _pct_to_ratio_or_percent(_metric(packet, ["operating_margin_%", "operating_margin", "영업이익률"], text))
@@ -280,6 +363,18 @@ def _finance_signal(packet: dict[str, Any]) -> dict[str, Any]:
 
 
 def _market_signal(packet: dict[str, Any]) -> dict[str, Any]:
+    """Compute Market agent continuous signal from price/liquidity metrics.
+    
+    Market signal represents technical position, momentum, and liquidity health.
+    Components: market_score (0-100 scale), annual_return, MDD, liquidity, volatility.
+    
+    DMA ALIGNMENT
+    =============
+    - Component signals are combined via DMA, not by arbitrary weighting.
+    - Weak uptrend signal should remain Buy-directional, not be suppressed to Hold.
+    - Weak downtrend signal should remain Sell-directional, not be suppressed to Hold.
+    - Only when multiple components are tied should signal approach 0 and label default to Hold.
+    """
     text = _json_text(packet)
     total_score = _metric(packet, ["total_score", "market_score", "score"], text)
     annual_return = _pct_to_ratio_or_percent(_metric(packet, ["annual_return_%", "annual_return", "연수익률"], text))
@@ -348,6 +443,22 @@ def _score100_to_signal(value: Any, neutral: float = 60.0, scale: float = 35.0) 
 
 
 def _tech_signal(packet: dict[str, Any]) -> dict[str, Any]:
+    """Compute Tech agent continuous signal from IP/commercialization metrics.
+    
+    Tech signal represents technology quality, IP strength, and revenue/margin pathway.
+    Components: final_tech_score, peer_percentile, IP_composite, IP_quality, commercialization, 
+               original_agent_view_reference.
+    
+    DMA ALIGNMENT
+    =============
+    - Tech signal is a composite of patent quality, peer positioning, and business viability.
+    - Weak positive signal (e.g., +0.1) reflects early-stage but viable tech; should preserve
+      Buy direction, not be absorbed into Hold.
+    - Weak negative signal (e.g., -0.1) reflects tech headwinds; should preserve Sell direction.
+    - Only when tech fundamentals are unclear AND IP quality is missing should signal → 0 → Hold.
+    - Do NOT use Hold as a generic "wait and see" for early-stage tech; instead, use weak
+      Buy + flagged risk for "early stage but directional".
+    """
     text = _json_text(packet)
     final_score = _metric(
         packet,
@@ -436,6 +547,20 @@ def _tech_signal(packet: dict[str, Any]) -> dict[str, Any]:
 
 
 def _valuation_signal(packet: dict[str, Any]) -> dict[str, Any]:
+    """Compute Valuation agent continuous signal from DCF/multiples metrics.
+    
+    Valuation signal represents price attractiveness, DCF margin of safety, and peer positioning.
+    Components: DCF_upside, valuation_scorecard, peer_P/S_gap, reference_universe_score, 
+               validation_penalty, credit_risk_overlay, original_agent_view.
+    
+    DMA ALIGNMENT
+    =============
+    - Signal combines DCF, multiples, and scorecard views via DMA; no preset weighting.
+    - Weak positive signal (e.g., +0.05) = modest valuation attractiveness; preserve Buy direction.
+    - Weak negative signal (e.g., -0.05) = modest valuation concern; preserve Sell direction.
+    - Validation failures or credit risks are incorporated as components, not used to force Hold.
+    - Signal ≈ 0 only when DCF and multiples methods genuinely disagree, not as a default.
+    """
     text = _json_text(packet)
     upside = _pct_to_ratio_or_percent(_metric(packet, ["upside_downside_pct", "upside", "괴리율"], text))
     validation_status = str(_nested_get(packet, ["validation_status", "status"]) or "").upper()
@@ -509,6 +634,19 @@ def _valuation_signal(packet: dict[str, Any]) -> dict[str, Any]:
 
 
 def _issue_signal(packet: dict[str, Any]) -> dict[str, Any]:
+    """Compute Issue agent continuous signal from news/disclosure sentiment.
+    
+    Issue signal represents near-term event risk, litigation, regulation, and disclosure quality.
+    Sentiment: positive terms (계약, 양산, 수주, etc.) vs. negative terms (소송, 리스크, 규제, etc.).
+    
+    DMA ALIGNMENT
+    =============
+    - Signal is (positive_count - negative_count) / total_count, normalized to [-1, 1].
+    - Weak positive signal (e.g., +0.05) = slight favorable sentiment; preserve Buy direction.
+    - Weak negative signal (e.g., -0.05) = slight adverse sentiment; preserve Sell direction.
+    - If no news or confirmation-limited, signal is clamped to 0.0 (missing data → Hold justified).
+    - Do NOT force Hold just because news volume is low; instead, treat low volume as data limitation.
+    """
     text = _json_text(packet).lower()
     positive = sum(text.count(term.lower()) for term in POSITIVE_TERMS)
     negative = sum(text.count(term.lower()) for term in NEGATIVE_TERMS)
@@ -532,6 +670,15 @@ def _macro_signal(packet: dict[str, Any]) -> dict[str, Any]:
     computed from macro_월별/macro_일별 CSV rows.  The categorical packet label is
     ignored for macro when this continuous source exists; it can still be used as
     a fallback for old packets that do not have official macro rows.
+    
+    DMA ALIGNMENT
+    =============
+    - Macro signal represents discount-rate and risk-appetite context (rates, FX, cycle, liquidity).
+    - Weak positive signal (e.g., +0.05) = mild growth momentum; preserve Buy direction in portfolio.
+    - Weak negative signal (e.g., -0.05) = mild headwind; preserve Sell direction in portfolio.
+    - Macro rarely dominates a decision alone; it refines other agents' signals via DMA weighting.
+    - Do NOT use Hold as a "wait for clarity on macro" placeholder. Weak macro + strong fundamentals
+      should remain Buy with macro risk clearly flagged.
     """
     text = _json_text(packet).lower()
     continuous = _metric(

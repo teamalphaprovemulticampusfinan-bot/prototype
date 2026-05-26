@@ -178,7 +178,7 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
 # 한솔케미칼 Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-26T12:29:58
+- 생성 시각: 2026-05-26T16:39:06
 - 종합 점수: 80.19/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
 - 원천 문서 수: 170개

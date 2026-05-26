@@ -1,7 +1,7 @@
 {
   "agent": "tech",
   "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-  "created_at": "2026-05-26T04:08:53",
+  "created_at": "2026-05-26T18:27:20",
   "field": "반도체",
   "company": "DB하이텍",
   "company_name": "DB하이텍",
@@ -933,7 +933,7 @@
     "company_name": "DB하이텍",
     "field": "반도체",
     "status": "OK",
-    "created_at": "2026-05-26T04:06:57",
+    "created_at": "2026-05-26T18:26:34",
     "weights": {
       "legal_stability": 0.25,
       "claim_defense": 0.3,
@@ -1029,10 +1029,10 @@
     "tech_full_appendix_json": ""
   },
   "ip_evidence_bridge_adjustment_status": "APPLIED",
-  "ip_evidence_bridge_adjustment_applied_at": "2026-05-26T04:09:08",
+  "ip_evidence_bridge_adjustment_applied_at": "2026-05-26T18:27:24",
   "tech_investor_view": {
     "version": "tech-investor-scorecard-v2",
-    "generated_at": "2026-05-26T04:10:06",
+    "generated_at": "2026-05-26T18:28:59",
     "company_slug": "dbhitek",
     "company_name": "DB하이텍",
     "final_tech_investor_score": 74.93,
@@ -1425,12 +1425,12 @@
     "agent": "tech_intake",
     "artifact": "tech_intake_value_evidence_bridge",
     "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-    "created_at": "2026-05-26T04:10:03",
+    "created_at": "2026-05-26T18:28:55",
     "field": "반도체",
     "company": "DB하이텍",
     "company_dir": "dbhitek",
     "company_slug": "dbhitek",
-    "source_document_count": 153,
+    "source_document_count": 152,
     "source_documents": [
       {
         "source_group": "KIPRIS",
@@ -1848,6 +1848,18 @@
       },
       {
         "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/DB하이텍/tech/tech_history_features_2025-10-31.csv",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
+        "source_file": "data/반도체/DB하이텍/tech/tech_history_features_2025-10-31.json",
+        "detected_url_count": 0,
+        "fallback_url_count": 2
+      },
+      {
+        "source_group": "TECH_OUTPUT",
         "source_file": "data/반도체/DB하이텍/tech/tech_intake_manifest.json",
         "detected_url_count": 0,
         "fallback_url_count": 2
@@ -2184,12 +2196,6 @@
       },
       {
         "source_group": "VALUATION",
-        "source_file": "data/반도체/DB하이텍/valuation/intake/financials_raw.csv",
-        "detected_url_count": 0,
-        "fallback_url_count": 5
-      },
-      {
-        "source_group": "VALUATION",
         "source_file": "data/반도체/DB하이텍/valuation/intake/peer_multiples.csv",
         "detected_url_count": 0,
         "fallback_url_count": 5
@@ -2280,12 +2286,6 @@
       },
       {
         "source_group": "VALUATION",
-        "source_file": "data/반도체/DB하이텍/valuation/intake/valuation_raw_dart_accounts.csv",
-        "detected_url_count": 0,
-        "fallback_url_count": 5
-      },
-      {
-        "source_group": "VALUATION",
         "source_file": "data/반도체/DB하이텍/valuation/intake/valuation_reference_universe_208.csv",
         "detected_url_count": 0,
         "fallback_url_count": 5
@@ -2299,12 +2299,6 @@
       {
         "source_group": "VALUATION",
         "source_file": "data/반도체/DB하이텍/valuation/intake/valuation_reference_universe_summary.json",
-        "detected_url_count": 0,
-        "fallback_url_count": 5
-      },
-      {
-        "source_group": "VALUATION",
-        "source_file": "data/반도체/DB하이텍/valuation/intake/valuation_share_count.csv",
         "detected_url_count": 0,
         "fallback_url_count": 5
       },
@@ -2347,8 +2341,8 @@
       {
         "source_group": "FINANCE",
         "source_file": "data/반도체/DB하이텍/finance/intake/finance_intake_manifest.json",
-        "detected_url_count": 1,
-        "fallback_url_count": 0
+        "detected_url_count": 0,
+        "fallback_url_count": 5
       }
     ],
     "source_url_map": {
@@ -2457,9 +2451,9 @@
           "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93d5280a6ea8dce91ea4f1ae90d7a67a0c8e4b6545ec0cb730964d787f28164faa24216a2aa9169dc121c7359697222cff675ee2b01203b7de",
           "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93d5280a6ea8dce91e20bc732ec9beb3e2adbcb18db1d6b8e6caee25c826d1584f06c2654e989393bdd42386557afb1fb7825c41618b1b2f60",
           "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93d5280a6ea8dce91e692d3dbc32183f924714e3fd688cb70aa8072fc4b0ff407f34552b638b437d1f307f01b9d4ae522b3e5af2a0207091fc",
-          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93fa5dada9953ba25e74af835992c358404519c8d4eed6e9a374c3314819a0e210d14a1b0e4b145568ece6d6dfcc5402",
-          "http://www.w3.org/2001/XMLSchema-instance",
-          "http://www.nepes.co.kr",
+          "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c6",
+          "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+IR",
+          "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
           "https://dart.fss.or.kr/",
           "https://opendart.fss.or.kr/",
           "https://www.kipris.or.kr/khome/main.jsp",
@@ -2468,8 +2462,8 @@
           "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
           "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
           "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
-          "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+IR",
-          "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+          "http://www.w3.org/2001/XMLSchema-instance",
+          "http://www.nepes.co.kr",
           "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
           "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
           "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
@@ -2482,8 +2476,8 @@
       },
       "IR_HOMEPAGE": {
         "detected_urls": [
-          "http://www.w3.org/2001/XMLSchema-instance",
-          "http://www.nepes.co.kr",
+          "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+IR",
+          "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
           "https://dart.fss.or.kr/",
           "https://opendart.fss.or.kr/",
           "https://www.kipris.or.kr/khome/main.jsp",
@@ -2498,8 +2492,8 @@
           "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
           "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
           "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
-          "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+IR",
-          "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+          "http://www.w3.org/2001/XMLSchema-instance",
+          "http://www.nepes.co.kr",
           "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
           "https://www.google.com/search?q=DB%ED%95%98%EC%9D%B4%ED%85%8D+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
           "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
@@ -2537,9 +2531,7 @@
         ]
       },
       "FINANCE": {
-        "detected_urls": [
-          "https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception"
-        ],
+        "detected_urls": [],
         "fallback_urls": [
           "https://dart.fss.or.kr/",
           "https://opendart.fss.or.kr/",

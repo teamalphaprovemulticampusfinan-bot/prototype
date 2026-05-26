@@ -2,12 +2,12 @@
   "agent": "tech_intake",
   "artifact": "tech_intake_value_evidence_bridge",
   "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-  "created_at": "2026-05-26T04:54:47",
+  "created_at": "2026-05-26T20:28:01",
   "field": "반도체",
   "company": "어보브반도체",
   "company_dir": "abov",
   "company_slug": "abov",
-  "source_document_count": 155,
+  "source_document_count": 154,
   "source_documents": [
     {
       "source_group": "KIPRIS",
@@ -180,7 +180,7 @@
     {
       "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/어보브반도체/tech/abov_tech_intake_value_evidence.json",
-      "detected_url_count": 11,
+      "detected_url_count": 10,
       "fallback_url_count": 0
     },
     {
@@ -425,6 +425,18 @@
     },
     {
       "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/어보브반도체/tech/tech_history_features_2025-10-31.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/어보브반도체/tech/tech_history_features_2025-10-31.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/어보브반도체/tech/tech_intake_manifest.json",
       "detected_url_count": 0,
       "fallback_url_count": 2
@@ -438,7 +450,7 @@
     {
       "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/어보브반도체/tech/tech_intake_value_evidence.json",
-      "detected_url_count": 11,
+      "detected_url_count": 10,
       "fallback_url_count": 0
     },
     {
@@ -761,12 +773,6 @@
     },
     {
       "source_group": "VALUATION",
-      "source_file": "data/반도체/어보브반도체/valuation/intake/financials_raw.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "VALUATION",
       "source_file": "data/반도체/어보브반도체/valuation/intake/peer_multiples.csv",
       "detected_url_count": 0,
       "fallback_url_count": 5
@@ -857,12 +863,6 @@
     },
     {
       "source_group": "VALUATION",
-      "source_file": "data/반도체/어보브반도체/valuation/intake/valuation_raw_dart_accounts.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "VALUATION",
       "source_file": "data/반도체/어보브반도체/valuation/intake/valuation_reference_universe_208.csv",
       "detected_url_count": 0,
       "fallback_url_count": 5
@@ -876,12 +876,6 @@
     {
       "source_group": "VALUATION",
       "source_file": "data/반도체/어보브반도체/valuation/intake/valuation_reference_universe_summary.json",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "VALUATION",
-      "source_file": "data/반도체/어보브반도체/valuation/intake/valuation_share_count.csv",
       "detected_url_count": 0,
       "fallback_url_count": 5
     },
@@ -936,8 +930,8 @@
     {
       "source_group": "FINANCE",
       "source_file": "data/반도체/어보브반도체/finance/intake/finance_intake_manifest.json",
-      "detected_url_count": 1,
-      "fallback_url_count": 0
+      "detected_url_count": 0,
+      "fallback_url_count": 5
     }
   ],
   "source_url_map": {
@@ -1042,8 +1036,7 @@
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00cf2950bb545b249592c2e1894ad3c777e7dc16851450fc87c326d2a13ec1a760dcf26c111f0e47deb6e50f3ede1be512890290133d685491",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9304b51eafd5c71353ea330540693b5f11458871cdf883078eb7036deb2397c2746d28c00721a79e6e51cd3187e15cb0adb3c27c1023ece1c7",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c937eb68216e5e65b99cf6777d0831b377a4109ee470e9a2b448d40504551a90cace3d0851fb15bca9fe62092aa41de9cf23d8ebad2871ac91b",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7265e0742070de003c2fd5ffd7d3b5b3d47a29f58865f7bc36b9572a5507bd70fdd733fe98c2571e5a08c2fbafca4ebe285bbb93749c5225352",
-        "http://plus.kipris.or",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7265e0742070de003c2fd5ffd7d3b5",
         "http://www.w3.org/2001/XMLSchema-instance",
         "http://www.nepes.co.kr",
         "https://dart.fss.or.kr/",
@@ -1123,9 +1116,7 @@
       ]
     },
     "FINANCE": {
-      "detected_urls": [
-        "https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception"
-      ],
+      "detected_urls": [],
       "fallback_urls": [
         "https://dart.fss.or.kr/",
         "https://opendart.fss.or.kr/",
