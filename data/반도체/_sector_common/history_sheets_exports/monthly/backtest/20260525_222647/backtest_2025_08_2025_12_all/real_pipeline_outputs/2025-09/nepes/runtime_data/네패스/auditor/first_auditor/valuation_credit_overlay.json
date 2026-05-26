@@ -1,0 +1,528 @@
+{
+  "enabled": true,
+  "overlay_version": "auditor_valuation_credit_overlay_v3_trained_ml_proxy",
+  "created_at": "2026-05-11T15:48:36.922056+00:00",
+  "company_dir": "nepes",
+  "company": "네패스",
+  "source_archives_used": [],
+  "scope_control": {
+    "chair_modified": false,
+    "other_agents_modified": false,
+    "auditor_original_evidence_gate_preserved": true,
+    "pass_fail_override": false,
+    "env_file_opened_or_required": false
+  },
+  "knowledge_base_version": "fallback",
+  "financial_snapshot": {
+    "company_dir": "nepes",
+    "company": "네패스",
+    "latest_year": 2025,
+    "sales": 521439287008.0,
+    "operating_income": -23761125843.0,
+    "net_income": -20158821632.0,
+    "total_assets": 696198458357.0,
+    "total_liabilities": 450773427582.0,
+    "total_equity": 245425030775.0,
+    "current_assets": 209309831594.0,
+    "current_liabilities": 242708459781.0,
+    "ocf": 103543972416.0,
+    "capex": 54627160563.0,
+    "fcf": 48916811853.0,
+    "sales_growth_pct": 12.3,
+    "operating_margin_pct": -4.56,
+    "net_margin_pct": -3.87,
+    "debt_ratio_pct": 183.67,
+    "current_ratio_pct": 86.24,
+    "roe_pct": -8.21,
+    "financial_source_file": "네패스_재무.csv"
+  },
+  "market_snapshot": {
+    "latest_date": "2025-12-30",
+    "latest_close": 15600.0,
+    "return_volatility_pct": 3.1904,
+    "mean_daily_return_pct": -0.0331,
+    "max_drawdown_pct": -87.3595,
+    "period_mdd_pct": null,
+    "stock_source_file": "네패스_주식.csv"
+  },
+  "dcf_proxy": {
+    "available": true,
+    "method": "FCF DCF proxy; not a target price because shares outstanding / market cap may be unavailable",
+    "latest_fcf": 48916811853.0,
+    "growth_assumption": 0.123,
+    "wacc": 0.11,
+    "terminal_growth": 0.02,
+    "projection_years": 5,
+    "enterprise_value_proxy": 840937158541.47,
+    "ev_proxy_to_sales": 1.6127,
+    "ev_proxy_to_assets": 1.2079,
+    "ev_proxy_to_equity": 3.4265,
+    "warning": "FCF가 일회성 개선/악화일 수 있으므로 원천 재무제표와 사업화 단계 확인이 필요합니다."
+  },
+  "peer_anomaly": {
+    "available": false,
+    "peer_count": 0,
+    "z_scores": {},
+    "anomaly_score": 0,
+    "interpretation": "동종 샘플이 부족해 peer anomaly는 제한적으로만 해석합니다."
+  },
+  "credit_assessment": {
+    "available": true,
+    "method": "resource-informed monotonic credit ensemble; proxy only, not an external credit rating",
+    "pd_proxy": 0.5744,
+    "watch_grade": "D",
+    "credit_signal": "high_risk",
+    "risk_points": 0.5,
+    "risk_drivers": [
+      "부채비율 183.67%로 차입 부담 점검 필요",
+      "유동비율 86.24%로 운전자본 점검 필요",
+      "영업이익률 -4.56%로 사업 수익성 미흡",
+      "순이익률 -3.87%로 손실 흡수력 점검 필요",
+      "ROE -8.21%로 자본효율성 부진"
+    ],
+    "positive_factors": [
+      "FCF가 양수라 현금창출 측면의 완충 요인 존재"
+    ]
+  },
+  "valuation_assessment": {
+    "available": true,
+    "method": "DCF proxy + profitability/growth + peer anomaly sanity-check",
+    "valuation_score": 0.48,
+    "valuation_signal": "valuation_neutral",
+    "supportive_drivers": [
+      "양의 FCF 기반 DCF proxy 산정 가능"
+    ],
+    "cautions": [
+      "영업이익률 -4.56%"
+    ]
+  },
+  "text_feature_hits": {
+    "valuation_terms": [
+      "DCF",
+      "FCF",
+      "WACC",
+      "PER",
+      "가치평가"
+    ],
+    "credit_negative_terms": [
+      "손실",
+      "순손실",
+      "부채비율",
+      "유동성",
+      "차입",
+      "상환"
+    ],
+    "commercialization_terms": [
+      "양산",
+      "수주",
+      "고객사",
+      "공급",
+      "매출 전환",
+      "상용화",
+      "CAPA",
+      "특허",
+      "공정"
+    ]
+  },
+  "ml_interpretable_ensemble": {
+    "available": true,
+    "model_family": "dependency-free interpretable ensemble + peer z-score anomaly detection",
+    "why_it_counts_as_ml_method": [
+      "financial/market/evidence features are transformed into a feature vector",
+      "weighted ensemble produces downside and upside scores",
+      "peer z-score anomaly detection adds an unsupervised ML-style control",
+      "all coefficients are fixed for auditability and no external dependency is required"
+    ],
+    "feature_vector": {
+      "raw": {
+        "sales_growth_pct": 12.3,
+        "operating_margin_pct": -4.56,
+        "debt_ratio_pct": 183.67,
+        "current_ratio_pct": 86.24,
+        "fcf": 48916811853.0,
+        "return_volatility_pct": 3.1904,
+        "period_mdd_pct": -87.3595,
+        "auditor_evidence_quality": 0.7861,
+        "valuation_score": 0.48,
+        "credit_risk_points": 0.5,
+        "peer_anomaly_score": 0.0
+      },
+      "normalized_for_ml": {
+        "growth_support": 0.746,
+        "profitability_support": 0.386,
+        "leverage_risk": 0.6122333333333333,
+        "liquidity_support": 0.34496,
+        "fcf_positive": 1.0,
+        "market_mdd_risk": 1,
+        "market_volatility_risk": 0.3988,
+        "evidence_risk": 0.2139
+      }
+    },
+    "model_outputs": {
+      "downside_risk_score": 0.4516,
+      "upside_support_score": 0.5274,
+      "ml_overlay_label": "balanced_watch",
+      "interpretation": "상승/하락 보조 신호가 혼재되어 가치평가와 신용평가를 중립적 보조 근거로 사용합니다."
+    },
+    "governance": {
+      "human_in_the_loop": true,
+      "pass_fail_override": false,
+      "chair_override": false,
+      "auditor_original_role_preserved": true
+    },
+    "features": {},
+    "evidence_quality_modifier": 0.7861,
+    "reason_for_auditor_layer": "ML-style risk scoring is added at Auditor so team members' existing agents and Chair remain unchanged.",
+    "visible_injection_policy": "The overlay is appended to each audited opinion's claims/evidences/source_contexts so Chair can reflect it without code changes.",
+    "limitations": [
+      "This is not an external agency credit rating.",
+      "DCF proxy is not a formal target price.",
+      "The model is deterministic and interpretable so it can be audited without new package dependencies."
+    ]
+  },
+  "ml_trained_proxy_ensemble": {
+    "available": true,
+    "project": "semiconductor_deeptech_valuation_credit_ml",
+    "version": "05_no20d_proxy_ml",
+    "row_count": 208,
+    "source_files": {
+      "overlay_json": "C:\\Agent_6.8\\data\\반도체\\_sector_common\\ml_universe\\valuation_credit_ml_overlay.json",
+      "overlay_candidate_csv": "C:\\Agent_6.8\\data\\반도체\\_sector_common\\ml_universe\\valuation_credit_ml_overlay_candidate.csv",
+      "quality_summary_csv": "C:\\Agent_6.8\\data\\반도체\\_sector_common\\ml_universe\\ml_quality_summary.csv"
+    },
+    "matched_by": "company_name_exact",
+    "company_match": {
+      "ticker": "033640",
+      "company_name": "네패스",
+      "peer_group": "후공정/패키징/테스트",
+      "semiconductor_tag": "후공정/패키징/테스트"
+    },
+    "trained_model_family": {
+      "valuation_selected_model": "extra_trees",
+      "credit_selected_model": "random_forest",
+      "valuation_holdout_balanced_accuracy": 0.8991666666666666,
+      "valuation_holdout_f1_weighted": 0.8646972685434224,
+      "credit_holdout_balanced_accuracy": 0.8104575163398692,
+      "credit_holdout_f1_weighted": 0.8432673317465944
+    },
+    "valuation_ml": {
+      "signal": "ATTRACTIVE",
+      "proxy_label": "ATTRACTIVE",
+      "proxy_score": 0.6385,
+      "confidence": "HIGH",
+      "confidence_score": 0.8764,
+      "class_probabilities": {
+        "ATTRACTIVE": 0.8763685947958789,
+        "EXPENSIVE": 0.04771119235767926,
+        "FAIR": 0.07592021284644195
+      },
+      "global_top_features": [
+        "num__fcf_positive_flag",
+        "num__pfcf_peer_z_is_missing",
+        "num__pfcf_peer_pct_rank_is_missing",
+        "num__pfcf_is_missing",
+        "num__per_peer_pct_rank",
+        "num__pfcf_to_peer_median_is_missing",
+        "num__roe_score",
+        "num__ev_operating_income_proxy_peer_pct_rank",
+        "num__per_to_peer_median_is_missing",
+        "num__roa_score"
+      ]
+    },
+    "credit_ml": {
+      "risk_label": "MEDIUM_RISK",
+      "proxy_label": "MEDIUM_RISK",
+      "proxy_score": 0.2857,
+      "confidence": "MEDIUM",
+      "confidence_score": 0.5963,
+      "class_probabilities": {
+        "HIGH_RISK": 0.08358735411319576,
+        "LOW_RISK": 0.32006681993646846,
+        "MEDIUM_RISK": 0.5963458259503356
+      },
+      "anomaly_score": 0.079,
+      "anomaly_flag_top15pct": false,
+      "global_top_features": [
+        "num__ocf_margin_clean",
+        "num__roa",
+        "num__operating_margin_clean",
+        "num__roe",
+        "num__operating_cash_flow",
+        "num__fcf_margin_clean",
+        "num__net_margin",
+        "num__ocf_margin",
+        "num__net_margin_clean",
+        "num__net_income"
+      ]
+    },
+    "auditor_checks": {
+      "market_data_available": true,
+      "data_quality_status": "OK",
+      "manual_review_priority": "LOW",
+      "requires_human_review": false
+    },
+    "decision_hint": "ml_supportive_but_proxy_only",
+    "interpretation": "학습형 가치평가 proxy는 우호적이나, 공식 투자의견이 아니므로 Auditor 근거 검증과 함께만 사용합니다.",
+    "governance": {
+      "proxy_label_only": true,
+      "not_official_credit_rating": true,
+      "not_investment_recommendation": true,
+      "human_in_the_loop": true,
+      "chair_override": false,
+      "pass_fail_override": false,
+      "auditor_original_role_preserved": true,
+      "no_20_trading_day_target": true
+    },
+    "artifact_notes": [
+      "Proxy labels only; not official credit ratings or investment recommendations.",
+      "20-trading-day excess return target is intentionally excluded.",
+      "Designed as Auditor overlay input."
+    ]
+  },
+  "overlay_decision": {
+    "stance": "conservative_hold_or_sell_bias",
+    "reason": "신용/상환능력 리스크가 가치평가 보조 신호보다 우선합니다."
+  },
+  "tech_to_value_bridge": {
+    "available": true,
+    "module": "tech_to_value_bridge_score",
+    "version": "v5_auditor_chair_visible_once",
+    "purpose": "딥테크 기업의 기술 경쟁력이 사업화·재무성과·가치평가로 연결되는지 Auditor 보조 지표로 평가",
+    "score": 64.0,
+    "raw_score_before_guardrail": 74.03,
+    "grade": "TECH_FINANCE_GAP",
+    "components": {
+      "technology_strength_score": 81.0,
+      "commercialization_evidence_score": 90,
+      "financial_conversion_score": 44.6,
+      "valuation_alignment_score": 90.0,
+      "credit_support_score": 55.0,
+      "evidence_quality_score": 78.61
+    },
+    "weights": {
+      "technology_strength_score": 0.25,
+      "commercialization_evidence_score": 0.2,
+      "financial_conversion_score": 0.2,
+      "valuation_alignment_score": 0.15,
+      "credit_support_score": 0.1,
+      "evidence_quality_score": 0.1
+    },
+    "signals": {
+      "valuation_signal": "ATTRACTIVE",
+      "valuation_confidence": "HIGH",
+      "credit_risk_label": "MEDIUM_RISK",
+      "credit_confidence": "MEDIUM",
+      "market_volatility_pct": 3.1904,
+      "market_mdd_pct": -87.3595
+    },
+    "flags": [
+      "기술 점수 대비 재무 전환력 부족"
+    ],
+    "interpretation": "네패스은 기술 경쟁력 또는 상대가치 매력은 있으나, 현재 수익성·현금흐름·재무안정성 측면에서 기술과 투자 가치 사이의 간극이 남아 있는 구간입니다.",
+    "auditor_usage_rule": "공식 투자의견/목표주가가 아니라 기술 claim이 사업화·재무성과·가치평가로 연결되는지 점검하는 보조 검증 지표",
+    "debug": {
+      "technology_debug": {
+        "method": "keyword_fallback",
+        "positive_tech_hits": [
+          "기술 경쟁력",
+          "핵심 기술",
+          "특허",
+          "R&D",
+          "연구개발",
+          "진입장벽",
+          "양산",
+          "첨단",
+          "패키징",
+          "공정",
+          "수율",
+          "고객사"
+        ],
+        "commercialization_hits": [
+          "양산",
+          "수주",
+          "고객사",
+          "공급",
+          "매출 전환",
+          "상용화",
+          "CAPA",
+          "특허",
+          "공정"
+        ],
+        "negative_evidence_hits": [
+          "확인 제한",
+          "추정",
+          "제한적",
+          "과장"
+        ]
+      },
+      "commercialization_debug": {
+        "positive_commercialization_hits": [
+          "양산",
+          "고객사",
+          "고객",
+          "수주",
+          "공급",
+          "채택",
+          "매출",
+          "상용화",
+          "레퍼런스",
+          "생산",
+          "인증",
+          "revenue",
+          "매출 전환",
+          "CAPA",
+          "특허"
+        ],
+        "negative_evidence_hits": [
+          "확인 제한",
+          "추정",
+          "제한적"
+        ],
+        "url_count": 70
+      },
+      "financial_debug": {
+        "operating_margin_pct": -4.56,
+        "current_ratio_pct": 86.24,
+        "debt_ratio_pct": 183.67,
+        "fcf": 48916811853.0,
+        "component_scores": {
+          "operating_margin_score": 38.0,
+          "current_ratio_score": 42.0,
+          "debt_ratio_score": 42.0,
+          "fcf_score": 70.0
+        }
+      }
+    },
+    "artifact_json_path": "C:\\Agent_6.8\\data\\반도체\\네패스\\auditor\\first_auditor\\tech_to_value_bridge.json",
+    "artifact_markdown_path": "C:\\Agent_6.8\\data\\반도체\\네패스\\auditor\\first_auditor\\tech_to_value_bridge.md"
+  },
+  "mandatory_chair_section": "## ML 기반 신용·가치평가 교차검증\n- 가치평가 ML 판단: ATTRACTIVE\n- 신용위험 ML 판단: MEDIUM_RISK\n- 해석: 네패스는 반도체 딥테크 peer universe 내에서 상대가치 매력은 있으나, 신용위험은 LOW_RISK가 아닌 MEDIUM_RISK로 분류된다.\n- Auditor 판단: 최종 보고서에서는 성장성·저평가 가능성뿐 아니라 수익성, 현금흐름, 재무안정성 리스크도 함께 검토해야 한다.",
+  "mandatory_tech_to_value_chair_section": "## Tech-to-Value Bridge 검증\n- Tech-to-Value Bridge Score: 64.0 / 100\n- 판정: TECH_FINANCE_GAP\n- 핵심 구성: 기술경쟁력 81.0, 사업화근거 90, 재무전환력 44.6, 가치평가정합성 90.0, 신용위험보정 55.0\n- 해석: 네패스은 기술 경쟁력 또는 상대가치 매력은 있으나, 현재 수익성·현금흐름·재무안정성 측면에서 기술과 투자 가치 사이의 간극이 남아 있는 구간입니다.\n- Auditor 판단: 기술 우위는 고객사 채택, 양산, 매출 전환, FCF 개선 근거와 연결될 때만 가치평가 가산 요인으로 반영한다.",
+  "chair_required_claims": [
+    "ML 기반 신용·가치평가 교차검증: 가치평가 ML 판단=ATTRACTIVE, 신용위험 ML 판단=MEDIUM_RISK.",
+    "Auditor ML 해석: 네패스는 반도체 딥테크 peer universe 기준으로 상대가치와 신용위험을 분리해 보아야 하며, 최종 보고서에는 수익성·현금흐름·재무안정성 리스크를 반드시 병기해야 합니다."
+  ],
+  "chair_required_tech_to_value_claims": [
+    "Tech-to-Value Bridge Score: 64.0/100, 판정=TECH_FINANCE_GAP.",
+    "Auditor Tech-to-Value 해석: 네패스은 기술 경쟁력 또는 상대가치 매력은 있으나, 현재 수익성·현금흐름·재무안정성 측면에서 기술과 투자 가치 사이의 간극이 남아 있는 구간입니다.",
+    "Auditor Tech-to-Value 원칙: 기술 우위는 고객사 채택, 양산, 매출 전환, FCF 개선 근거와 연결될 때만 가치평가 가산 요인으로 반영합니다."
+  ],
+  "agent_hints": {
+    "finance": {
+      "auditor_overlay_focus": "credit_capacity_and_cash_flow",
+      "credit_signal": "high_risk",
+      "watch_grade": "D",
+      "risk_drivers": [
+        "부채비율 183.67%로 차입 부담 점검 필요",
+        "유동비율 86.24%로 운전자본 점검 필요",
+        "영업이익률 -4.56%로 사업 수익성 미흡",
+        "순이익률 -3.87%로 손실 흡수력 점검 필요",
+        "ROE -8.21%로 자본효율성 부진"
+      ],
+      "positive_factors": [
+        "FCF가 양수라 현금창출 측면의 완충 요인 존재"
+      ],
+      "trained_ml_available": true,
+      "trained_valuation_signal": "ATTRACTIVE",
+      "trained_credit_label": "MEDIUM_RISK",
+      "trained_credit_anomaly_score": 0.079,
+      "trained_ml_interpretation": "학습형 가치평가 proxy는 우호적이나, 공식 투자의견이 아니므로 Auditor 근거 검증과 함께만 사용합니다.",
+      "trained_ml_governance": {
+        "proxy_label_only": true,
+        "not_official_credit_rating": true,
+        "not_investment_recommendation": true,
+        "human_in_the_loop": true,
+        "chair_override": false,
+        "pass_fail_override": false,
+        "auditor_original_role_preserved": true,
+        "no_20_trading_day_target": true
+      }
+    },
+    "market": {
+      "auditor_overlay_focus": "valuation_and_market_risk",
+      "valuation_signal": "valuation_neutral",
+      "period_mdd_pct": null,
+      "return_volatility_pct": 3.1904,
+      "valuation_cautions": [
+        "영업이익률 -4.56%"
+      ],
+      "trained_ml_available": true,
+      "trained_valuation_signal": "ATTRACTIVE",
+      "trained_credit_label": "MEDIUM_RISK",
+      "trained_credit_anomaly_score": 0.079,
+      "trained_ml_interpretation": "학습형 가치평가 proxy는 우호적이나, 공식 투자의견이 아니므로 Auditor 근거 검증과 함께만 사용합니다.",
+      "trained_ml_governance": {
+        "proxy_label_only": true,
+        "not_official_credit_rating": true,
+        "not_investment_recommendation": true,
+        "human_in_the_loop": true,
+        "chair_override": false,
+        "pass_fail_override": false,
+        "auditor_original_role_preserved": true,
+        "no_20_trading_day_target": true
+      }
+    },
+    "tech": {
+      "auditor_overlay_focus": "commercialization_link_to_valuation",
+      "required_connection": "기술 우위는 매출 성장률, FCF, 수익성, 고객사/양산 근거와 연결될 때만 가치평가 가산 요인으로 해석",
+      "dcf_available": true,
+      "trained_ml_available": true,
+      "trained_valuation_signal": "ATTRACTIVE",
+      "trained_credit_label": "MEDIUM_RISK",
+      "trained_credit_anomaly_score": 0.079,
+      "trained_ml_interpretation": "학습형 가치평가 proxy는 우호적이나, 공식 투자의견이 아니므로 Auditor 근거 검증과 함께만 사용합니다.",
+      "trained_ml_governance": {
+        "proxy_label_only": true,
+        "not_official_credit_rating": true,
+        "not_investment_recommendation": true,
+        "human_in_the_loop": true,
+        "chair_override": false,
+        "pass_fail_override": false,
+        "auditor_original_role_preserved": true,
+        "no_20_trading_day_target": true
+      }
+    },
+    "issue": {
+      "auditor_overlay_focus": "model_risk_and_downside_events",
+      "credit_signal": "high_risk",
+      "peer_anomaly_interpretation": "동종 샘플이 부족해 peer anomaly는 제한적으로만 해석합니다.",
+      "trained_ml_available": true,
+      "trained_valuation_signal": "ATTRACTIVE",
+      "trained_credit_label": "MEDIUM_RISK",
+      "trained_credit_anomaly_score": 0.079,
+      "trained_ml_interpretation": "학습형 가치평가 proxy는 우호적이나, 공식 투자의견이 아니므로 Auditor 근거 검증과 함께만 사용합니다.",
+      "trained_ml_governance": {
+        "proxy_label_only": true,
+        "not_official_credit_rating": true,
+        "not_investment_recommendation": true,
+        "human_in_the_loop": true,
+        "chair_override": false,
+        "pass_fail_override": false,
+        "auditor_original_role_preserved": true,
+        "no_20_trading_day_target": true
+      }
+    },
+    "macro": {
+      "auditor_overlay_focus": "discount_rate_and_refinancing_sensitivity",
+      "wacc_used_in_proxy": 0.11,
+      "macro_use_limit": "거시요인은 WACC/자본조달 민감도 보조 신호이며 개별기업 직접 근거로 과장하지 않음",
+      "trained_ml_available": true,
+      "trained_valuation_signal": "ATTRACTIVE",
+      "trained_credit_label": "MEDIUM_RISK",
+      "trained_credit_anomaly_score": 0.079,
+      "trained_ml_interpretation": "학습형 가치평가 proxy는 우호적이나, 공식 투자의견이 아니므로 Auditor 근거 검증과 함께만 사용합니다.",
+      "trained_ml_governance": {
+        "proxy_label_only": true,
+        "not_official_credit_rating": true,
+        "not_investment_recommendation": true,
+        "human_in_the_loop": true,
+        "chair_override": false,
+        "pass_fail_override": false,
+        "auditor_original_role_preserved": true,
+        "no_20_trading_day_target": true
+      }
+    }
+  },
+  "artifact_path": "C:\\Agent_6.8\\data\\반도체\\네패스\\auditor\\first_auditor\\valuation_credit_overlay.json",
+  "artifact_markdown_path": "C:\\Agent_6.8\\data\\반도체\\네패스\\auditor\\first_auditor\\valuation_credit_overlay.md"
+}

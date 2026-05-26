@@ -1,0 +1,193 @@
+{
+  "company_dir": "telechips",
+  "company": "텔레칩스",
+  "created_at": "2026-05-25T23:45:43",
+  "input_patent_csv": "C:\\Agent_6.9\\data\\반도체\\텔레칩스\\tech\\source\\telechips_kipris_plus_bibliographic_raw.csv",
+  "model_info": {
+    "module": "Tech ML Signal Builder",
+    "algorithm": "TF-IDF + KMeans",
+    "sklearn_available": true,
+    "purpose": "KIPRIS patent portfolio clustering, patent momentum scoring, commercialization watch signal generation"
+  },
+  "tech_ml_label": "COMMERCIALIZATION_WATCH",
+  "tech_ml_label_description": "기술 포트폴리오는 확인되지만 사업화 연결 근거는 추가 확인이 필요한 사업화 추적형입니다.",
+  "patent_ml_score": 59.83,
+  "bridge_score": 0.0,
+  "bridge_label": "",
+  "normalized_patent_records": 30,
+  "company_matched_patents": 30,
+  "registered_patents": 28,
+  "alive_patents": 24,
+  "recent_5y_patents": 13,
+  "recent_5y_ratio": 0.4333,
+  "ipc_cpc_count": 23,
+  "ipc_cpc_examples": [
+    "B60K",
+    "B60R",
+    "G01C",
+    "G01R",
+    "G01S",
+    "G06F",
+    "G06N",
+    "G06Q",
+    "G06T",
+    "G07C",
+    "G08G",
+    "G10H",
+    "G10L",
+    "G11B",
+    "H03G",
+    "H03K",
+    "H04H",
+    "H04L",
+    "H04M",
+    "H04N"
+  ],
+  "h01l_patents": 0,
+  "patent_year_range": "2005~2023",
+  "technology_keyword_hits": {
+    "반도체": 6,
+    "공정": 2,
+    "디스플레이": 4
+  },
+  "technology_keyword_hit_total": 12,
+  "clustering": {
+    "method": "tfidf_kmeans",
+    "sklearn_available": true,
+    "cluster_count": 3,
+    "clusters": [
+      {
+        "cluster_id": 1,
+        "size": 17,
+        "top_terms": [
+          "상기",
+          "영상",
+          "g06f",
+          "제1",
+          "이미지",
+          "h04n",
+          "차량",
+          "복수의"
+        ],
+        "sample_titles": [
+          "네트워크 온 칩의 설계 공간 탐색 방법 및 그 장치",
+          "플로어 플랜 시각화를 이용한 GP 먹스 위치를 설정하는 반도체 칩의 설계 방법 및 그 장치",
+          "대체 이미지를 제공하는 장치 및 그 방법",
+          "ISDB 전송 스트림의 심리스 전환을 제공하는 송신 장치 및 수신 장치",
+          "멀티-마스터를 지원하는 그래픽 처리 장치를 공유하는 시스템 온 칩 및 그래픽 처리 장치의 동작 방법"
+        ]
+      },
+      {
+        "cluster_id": 2,
+        "size": 9,
+        "top_terms": [
+          "신호",
+          "펄스",
+          "오디오",
+          "신호를",
+          "싱크",
+          "데이터",
+          "이득",
+          "에러"
+        ],
+        "sample_titles": [
+          "싱크 에러가 포함된 데이터 CD 판독 방법",
+          "더블 토크 이득 제어 장치 및 그 방법",
+          "펄스 폭 변조기 및 이를 이용한 펄스 폭 변조 신호 모니터링 방법",
+          "차량 통화 시스템 및 이를 이용한 오디오 입출력 제어 방법",
+          "전원 관리 장치 및 그 동작 방법"
+        ]
+      },
+      {
+        "cluster_id": 0,
+        "size": 4,
+        "top_terms": [
+          "하드웨어",
+          "복소수",
+          "음향",
+          "이동형",
+          "좌표",
+          "위성",
+          "부동",
+          "수신기"
+        ],
+        "sample_titles": [
+          "하드웨어 작업관리 장치",
+          "이동형 저장매체를 이용한 음향 시스템 및 그 제어방법",
+          "부동 소수점을 이용한 복소수 곱셈방법",
+          "위성 좌표 예측을 이용한 수신기 좌표 계산 장치"
+        ]
+      }
+    ],
+    "technology_concentration_index": 0.4289,
+    "feature_count": 1500
+  },
+  "representative_patents": [
+    {
+      "title": "대체 이미지를 제공하는 장치 및 그 방법",
+      "application_date": "20210330",
+      "register_date": "20221207",
+      "register_status": "등록",
+      "ipc": "H04N 21/414|H04N 21/442|H04N 21/436",
+      "applicant": ""
+    },
+    {
+      "title": "더블 토크 이득 제어 장치 및 그 방법",
+      "application_date": "20210331",
+      "register_date": "20220318",
+      "register_status": "등록",
+      "ipc": "H04R 3/00|H04R 3/02|H03G 3/20",
+      "applicant": ""
+    },
+    {
+      "title": "안드로이드 오토모티브 오디오 시스템 및 이를 이용한 스트림 변환 방법",
+      "application_date": "20211216",
+      "register_date": "20260115",
+      "register_status": "등록",
+      "ipc": "G10L 19/008|G10L 19/16|G06F 9/30|G06F 9/445",
+      "applicant": ""
+    },
+    {
+      "title": "차량 통화 시스템 및 이를 이용한 오디오 입출력 제어 방법",
+      "application_date": "20210407",
+      "register_date": "20220919",
+      "register_status": "등록",
+      "ipc": "H04M 9/08",
+      "applicant": ""
+    },
+    {
+      "title": "전원 관리 장치 및 그 동작 방법",
+      "application_date": "20210422",
+      "register_date": "20230310",
+      "register_status": "등록",
+      "ipc": "G01R 19/00|G01R 19/32",
+      "applicant": ""
+    }
+  ],
+  "commercialization_score": 80.0,
+  "commercialization_level": "STRONG",
+  "commercialization_keyword_hits": 329,
+  "commercialization_keywords": {
+    "고객": 30,
+    "채택": 6,
+    "양산": 16,
+    "공급": 1,
+    "매출": 18,
+    "실적": 1,
+    "FCF": 4,
+    "현금흐름": 1,
+    "revenue": 1
+  },
+  "chair_reflection_points": [
+    "Tech ML 판정은 COMMERCIALIZATION_WATCH이며, 기존 Tech-to-Value Bridge 판정과 함께 기술 섹션의 보조 신호로 사용합니다.",
+    "특허 클러스터링 결과는 핵심 기술 축과 기술 포트폴리오 집중도를 설명하는 근거로 반영합니다.",
+    "최근 5년 특허와 등록·존속 가능 특허는 기술 지속성 및 진입장벽의 보조 지표로 활용합니다.",
+    "고객 채택, 양산, 매출 전환, FCF 개선 근거가 약하면 기술 점수만으로 매수 의견을 강화하지 않습니다.",
+    "기술성은 확인되지만 사업화 연결 근거를 계속 확인해야 하므로 Chair는 관찰형 보조 신호로 반영해야 합니다."
+  ],
+  "notes": [
+    "Tech ML은 특허 텍스트, 초록, IPC/CPC, 등록상태, 최근 출원 흐름을 기반으로 기술 포트폴리오를 구조화합니다.",
+    "특허 수와 클러스터 수는 기술 지속성의 보조 근거이며, 단독으로 매출 성장이나 주가 상승을 의미하지 않습니다.",
+    "사업화 판단은 고객 채택, 양산, 매출 전환, FCF 개선 근거와 함께 해석해야 합니다."
+  ]
+}

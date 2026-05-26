@@ -1,0 +1,140 @@
+{
+  "repair_schema_version": "first_auditor_v4_with_web_crosscheck",
+  "created_at": "2026-04-29T15:36:56.831765+00:00",
+  "company_dir": "nepes",
+  "company": "네패스",
+  "target_agent": "tech",
+  "pass_condition": "actual_match_ratio >= 85%",
+  "current_actual_match_ratio": 0.1936,
+  "local_issues": [
+    "evidence_contract enforcement failed: enforce_evidence_contract() missing 1 required keyword-only argument: 'agent_name'",
+    "no evidences found",
+    "no non-self evidence; only unverified agent output exists",
+    "evidence_id coverage below 80%",
+    "valid evidence reference coverage below 80%",
+    "non-self evidence coverage below 50%"
+  ],
+  "contract": {
+    "score": 0.0,
+    "evidence_count": 0,
+    "strong_evidence_count": 0,
+    "claim_count": 1,
+    "evidence_id_coverage": 0.0,
+    "valid_evidence_ref_coverage": 0.0,
+    "non_self_evidence_coverage": 0.0
+  },
+  "claim_scores": [
+    {
+      "score": 0.25,
+      "text_support": 0.1308,
+      "numeric_support": 1.0,
+      "has_strong_evidence": false,
+      "has_any_evidence": false,
+      "claim_index": 1,
+      "claim_text": "tech 실행 실패: cannot import name 'run_tech_agent' from 'tech_agent.runner' (C:\\Agent_6.8\\src\\tech_agent\\runner.py)",
+      "evidence_ids": [],
+      "selected_evidence_count": 0
+    }
+  ],
+  "llm_reason": "claim에 evidence_ids가 전혀 존재하지 않으며, 제공된 public_search_snippets 및 company.yaml, 재무/주식 데이터와 관련된 내용은 모두 기업 일반 정보로 기술적 오류 메시지와 관련이 없습니다. Python 모듈 임포트 오류와 같은 구체적인 코드 수준 문제는 공개 자료에서 확인할 수 없으며, 원천 문맥과 연결 가능한 증거가 없습니다.",
+  "unsupported_claims": [
+    "tech 실행 실패: cannot import name 'run_tech_agent' from 'tech_agent.runner' (C:\\Agent_6.8\\src\\tech_agent\\runner.py)"
+  ],
+  "web_crosscheck": {
+    "score": 0.25,
+    "pass": false,
+    "reason": "네이버 뉴스/Serper 검색 결과와 local evidence를 함께 사용해 claim 단위 검증을 수행했습니다.",
+    "unsupported_claims": [
+      {
+        "agent": "tech",
+        "claim_id": "tech.cl.001",
+        "text": "tech 실행 실패: cannot import name 'run_tech_agent' from 'tech_agent.runner' (C:\\Agent_6.8\\src\\tech_agent\\runner.py)",
+        "evidence_ids": [],
+        "verdict": "not_enough",
+        "score": 0.25,
+        "reason": "claim에 evidence_ids가 없습니다.",
+        "web_query": "네패스 tech 실행 실패: cannot import name  run_tech_agent  from  tech_agent.runner  (C:\\Agent_6.8\\src\\tech_agent\\runner.py)",
+        "web_search_used": false,
+        "search_results": [],
+        "matched_evidence_ids": [],
+        "cited_sources": []
+      }
+    ]
+  },
+  "current_opinion_json": {
+    "opinion": "보유",
+    "claims": [
+      "tech 실행 실패: cannot import name 'run_tech_agent' from 'tech_agent.runner' (C:\\Agent_6.8\\src\\tech_agent\\runner.py)"
+    ],
+    "evidences": [],
+    "source_contexts": [],
+    "agent_name": "tech",
+    "agent": "tech",
+    "web_verification": {
+      "checked": true,
+      "pass": false,
+      "score": 0.25,
+      "claim_count": 1,
+      "reason": "네이버 뉴스/Serper 검색 결과와 local evidence를 함께 사용해 claim 단위 검증을 수행했습니다.",
+      "supported_claims": [],
+      "unsupported_claims": [
+        {
+          "agent": "tech",
+          "claim_id": "tech.cl.001",
+          "text": "tech 실행 실패: cannot import name 'run_tech_agent' from 'tech_agent.runner' (C:\\Agent_6.8\\src\\tech_agent\\runner.py)",
+          "evidence_ids": [],
+          "verdict": "not_enough",
+          "score": 0.25,
+          "reason": "claim에 evidence_ids가 없습니다.",
+          "web_query": "네패스 tech 실행 실패: cannot import name  run_tech_agent  from  tech_agent.runner  (C:\\Agent_6.8\\src\\tech_agent\\runner.py)",
+          "web_search_used": false,
+          "search_results": [],
+          "matched_evidence_ids": [],
+          "cited_sources": []
+        }
+      ]
+    },
+    "chair_safe_claims": [],
+    "chair_blocked_claims": [
+      {
+        "claim_id": "tech.cl.001",
+        "text": "tech 실행 실패: cannot import name 'run_tech_agent' from 'tech_agent.runner' (C:\\Agent_6.8\\src\\tech_agent\\runner.py)",
+        "verdict": "not_enough",
+        "score": 0.25,
+        "reason": "claim에 evidence_ids가 없습니다."
+      }
+    ]
+  },
+  "required_fix": [
+    "각 핵심 주장마다 evidence_id를 반드시 붙이세요.",
+    "evidence_id는 evidences 배열 안에 실제 존재해야 합니다.",
+    "source_type이 agent_output_unverified, llm_only, self_generated인 근거는 실제 근거로 인정하지 않습니다.",
+    "수치 주장에는 기간, 단위, 원천값을 함께 넣으세요.",
+    "공시, 재무 CSV, 가격 CSV, RSS/뉴스 스니펫, 공식 문서에서 확인 가능한 주장만 남기세요.",
+    "확인 불가능한 고객사, 계약, 수주, 전망 수치는 삭제하거나 '확인 필요'로 낮추세요.",
+    "웹/공개 검색 스니펫에서 직접 확인되지 않는 과잉 표현은 제거하세요.",
+    "템플릿 문장이나 사용자에게 입력을 요구하는 문장은 최종 JSON에 넣지 마세요."
+  ],
+  "expected_minimum_shape": {
+    "claims": [
+      {
+        "claim": "검증 가능한 핵심 주장",
+        "evidence_ids": [
+          "agent.ev.001"
+        ]
+      }
+    ],
+    "evidences": [
+      {
+        "evidence_id": "agent.ev.001",
+        "source_type": "financial | price | rss | news | filing | official | macro | technology",
+        "source": "원천 파일명 또는 URL 또는 데이터셋명",
+        "metric": "수치명 또는 근거명",
+        "value": null,
+        "unit": null,
+        "period": null,
+        "snippet": "근거 원문 또는 원천값 요약"
+      }
+    ]
+  }
+}

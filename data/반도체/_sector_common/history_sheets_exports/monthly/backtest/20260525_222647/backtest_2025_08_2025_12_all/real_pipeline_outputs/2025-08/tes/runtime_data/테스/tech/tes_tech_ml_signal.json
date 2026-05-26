@@ -1,0 +1,302 @@
+{
+  "company_dir": "tes",
+  "company": "테스",
+  "created_at": "2026-05-26T00:44:02",
+  "input_patent_csv": "C:\\Agent_6.9\\data\\반도체\\테스\\tech\\source\\tes_kipris_plus_bibliographic_raw.csv",
+  "model_info": {
+    "module": "Tech ML Signal Builder",
+    "algorithm": "TF-IDF + KMeans",
+    "sklearn_available": true,
+    "purpose": "KIPRIS patent portfolio clustering, patent momentum scoring, commercialization watch signal generation"
+  },
+  "tech_ml_label": "COMMERCIALIZATION_WATCH",
+  "tech_ml_label_description": "기술 포트폴리오는 확인되지만 사업화 연결 근거는 추가 확인이 필요한 사업화 추적형입니다.",
+  "patent_ml_score": 83.8,
+  "bridge_score": 0.0,
+  "bridge_label": "",
+  "normalized_patent_records": 382,
+  "company_matched_patents": 382,
+  "registered_patents": 287,
+  "alive_patents": 146,
+  "recent_5y_patents": 53,
+  "recent_5y_ratio": 0.1387,
+  "ipc_cpc_count": 131,
+  "ipc_cpc_examples": [
+    "A01N",
+    "A44C",
+    "A61B",
+    "A61C",
+    "A61F",
+    "A61H",
+    "A61K",
+    "A61L",
+    "A61M",
+    "A61P",
+    "A63B",
+    "B01D",
+    "B01J",
+    "B21D",
+    "B23H",
+    "B23K",
+    "B23P",
+    "B23Q",
+    "B24B",
+    "B25J"
+  ],
+  "h01l_patents": 1,
+  "patent_year_range": "1990~2025",
+  "technology_keyword_hits": {
+    "반도체": 80,
+    "패키징": 4,
+    "공정": 62,
+    "장비": 31,
+    "디스플레이": 7,
+    "AI": 8
+  },
+  "technology_keyword_hit_total": 192,
+  "clustering": {
+    "method": "tfidf_kmeans",
+    "sklearn_available": true,
+    "cluster_count": 8,
+    "clusters": [
+      {
+        "cluster_id": 6,
+        "size": 131,
+        "top_terms": [
+          "상기",
+          "복수의",
+          "g01r",
+          "프로브",
+          "위한",
+          "적어도",
+          "있다",
+          "기판"
+        ],
+        "sample_titles": [
+          "테스트부유니트 및 테스트헤드",
+          "전자빔 노출 장치를 위한 정전 편향기",
+          "전자빔 노출 장치",
+          "대전 입자빔 리소그라피 시스템",
+          "장치 테스트를 위한 다중 입력 다중 구역 열 제어"
+        ]
+      },
+      {
+        "cluster_id": 0,
+        "size": 55,
+        "top_terms": [
+          "상기",
+          "제1",
+          "제2",
+          "단계",
+          "배터리",
+          "제어",
+          "변속",
+          "충전"
+        ],
+        "sample_titles": [
+          "배터리 잔존전압 방전장치",
+          "메모리 기반 통신 프로토콜을 사용하여 시뮬레이션된 장치를 테스트하기 위한 시스템 및 방법",
+          "하전 입자 빔 디바이스 및 비점수차와 개구수를 보정하기 위한 방법",
+          "저장된 에너지원을 갖고 충전 단자를 갖는 차량 전기 시스템",
+          "차량용 전기 시스템"
+        ]
+      },
+      {
+        "cluster_id": 5,
+        "size": 44,
+        "top_terms": [
+          "연료",
+          "엔진",
+          "진단",
+          "상기",
+          "f02d",
+          "제어",
+          "차량의",
+          "밸브"
+        ],
+        "sample_titles": [
+          "트윈 전동식 슈퍼차져 시스템의 밸브 고장 진단 장치 및 방법",
+          "엔진 노크센서의 고장진단 방법",
+          "공연비 불균형에 따른 에러 진단 시스템 및 그 방법",
+          "하이브리드 자동차의 구동 모터 제어 장치 및 방법",
+          "FRET 효소 기질 및 폐암에서의 그 용도"
+        ]
+      },
+      {
+        "cluster_id": 2,
+        "size": 42,
+        "top_terms": [
+          "테스트",
+          "g01r",
+          "데이터",
+          "위한",
+          "테스트 대상",
+          "디바이스",
+          "g06f",
+          "대상"
+        ],
+        "sample_titles": [
+          "병렬 소켓 작동과 함께 능동형 열 인터포저(ATI) 또는 수동형 인터포저를 사용하는 테스트 장치, 및 통합 테스트 셀을 구성하는 방법",
+          "고 전류 디바이스 테스트 장치 및 시스템",
+          "테스트 중인 디바이스 소켓에서 테스트 중인 각진 디바이스를 무선으로 테스트하기 위한 테스트 배열체",
+          "개구부가 있는 캐리어 구조를 사용하여 테스트 중인 각진 디바이스를 무선으로 테스트하기 위한 테스트 배열체",
+          "캐리어 구조 표면에 대해 기울어진 테스트 중인 각진 디바이스를 무선으로 테스트하기 위한 테스트 배열체"
+        ]
+      },
+      {
+        "cluster_id": 4,
+        "size": 31,
+        "top_terms": [
+          "상기",
+          "h10p",
+          "c23c",
+          "기판을",
+          "대한",
+          "기판의",
+          "기판",
+          "챔버"
+        ],
+        "sample_titles": [
+          "서셉터 어셈블리 및 화학기상증착장치",
+          "기판검사방법 및 기판처리장치",
+          "박막증착장치",
+          "기판처리장치 및 기판처리방법",
+          "박막증착장치"
+        ]
+      },
+      {
+        "cluster_id": 7,
+        "size": 29,
+        "top_terms": [
+          "신호",
+          "지연",
+          "회로",
+          "출력",
+          "타이밍",
+          "복수의",
+          "클럭",
+          "신호를"
+        ],
+        "sample_titles": [
+          "하전입자빔노광방법및그노광장치",
+          "커넥터",
+          "커넥터",
+          "다 채널 데이터의 효율적 통신이 가능한 MCU 기반의 다 채널 통신 보드 장치",
+          "단선 검출 장치"
+        ]
+      },
+      {
+        "cluster_id": 3,
+        "size": 27,
+        "top_terms": [
+          "시험",
+          "피시험",
+          "메모리",
+          "불량",
+          "패턴",
+          "반도체",
+          "복수의",
+          "시험 장치"
+        ],
+        "sample_titles": [
+          "반도체 디바이스 시험 장치 및 그 캘리브레이션 방법",
+          "집적 회로의 시험 방법 및 그 장치",
+          "반도체디바이스반송처리장치",
+          "시험 장치 및 제조 방법",
+          "시험 장치"
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "size": 23,
+        "top_terms": [
+          "있다",
+          "a61b",
+          "f16h",
+          "편조",
+          "기어",
+          "포함할",
+          "17/00",
+          "a61f"
+        ],
+        "sample_titles": [
+          "노광장치",
+          "산업용 로봇의 선회부 구조",
+          "불꽃놀이 생일초",
+          "기어 장치",
+          "절첩식 동맥류 치료 장치 및 전달 방법"
+        ]
+      }
+    ],
+    "technology_concentration_index": 0.1847,
+    "feature_count": 1500
+  },
+  "representative_patents": [
+    {
+      "title": "합성 그래핀의 도핑을 포함하는, 큰-면적/웨이퍼 스케일 CMOS-양립 가능 2D-재료 인터칼레이션 도핑 툴, 프로세스, 및 방법",
+      "application_date": "20240112",
+      "register_date": "20260320",
+      "register_status": "등록",
+      "ipc": "H01J 37/317|H01J 37/32|H10P 95/00|H10W 20/44",
+      "applicant": ""
+    },
+    {
+      "title": "기판처리장치 및 기판처리방법",
+      "application_date": "20240823",
+      "register_date": "20250804",
+      "register_status": "등록",
+      "ipc": "H10P 72/00|H10P 72/76",
+      "applicant": ""
+    },
+    {
+      "title": "저유전 절연막 및 그 증착 방법",
+      "application_date": "20231013",
+      "register_date": "20250703",
+      "register_status": "등록",
+      "ipc": "H10P 10/00|H10W 20/00",
+      "applicant": ""
+    },
+    {
+      "title": "적층 칩 및 적층 칩의 제조 방법",
+      "application_date": "20230630",
+      "register_date": "20250416",
+      "register_status": "등록",
+      "ipc": "H10B 80/00|H10W 90/00|H10W 20/00|H10W 70/40|H10W 20/40|H10W 29/00",
+      "applicant": ""
+    },
+    {
+      "title": "스핀들유닛 및 기판처리장치",
+      "application_date": "20230109",
+      "register_date": "20250122",
+      "register_status": "등록",
+      "ipc": "H10P 72/76|H10P 72/00|H10P 72/30",
+      "applicant": ""
+    }
+  ],
+  "commercialization_score": 80.0,
+  "commercialization_level": "STRONG",
+  "commercialization_keyword_hits": 360,
+  "commercialization_keywords": {
+    "고객": 33,
+    "채택": 6,
+    "양산": 27,
+    "공급": 2,
+    "매출": 18,
+    "실적": 1,
+    "FCF": 4,
+    "현금흐름": 1,
+    "revenue": 1
+  },
+  "chair_reflection_points": [
+    "Tech ML 판정은 COMMERCIALIZATION_WATCH이며, 기존 Tech-to-Value Bridge 판정과 함께 기술 섹션의 보조 신호로 사용합니다.",
+    "특허 클러스터링 결과는 핵심 기술 축과 기술 포트폴리오 집중도를 설명하는 근거로 반영합니다.",
+    "최근 5년 특허와 등록·존속 가능 특허는 기술 지속성 및 진입장벽의 보조 지표로 활용합니다.",
+    "고객 채택, 양산, 매출 전환, FCF 개선 근거가 약하면 기술 점수만으로 매수 의견을 강화하지 않습니다.",
+    "기술성은 확인되지만 사업화 연결 근거를 계속 확인해야 하므로 Chair는 관찰형 보조 신호로 반영해야 합니다."
+  ],
+  "notes": [
+    "Tech ML은 특허 텍스트, 초록, IPC/CPC, 등록상태, 최근 출원 흐름을 기반으로 기술 포트폴리오를 구조화합니다.",
+    "특허 수와 클러스터 수는 기술 지속성의 보조 근거이며, 단독으로 매출 성장이나 주가 상승을 의미하지 않습니다.",
+    "사업화 판단은 고객 채택, 양산, 매출 전환, FCF 개선 근거와 함께 해석해야 합니다."
+  ]
+}

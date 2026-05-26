@@ -1,0 +1,190 @@
+{
+  "company_dir": "abov",
+  "company": "어보브반도체",
+  "created_at": "2026-05-25T23:38:12",
+  "input_patent_csv": "C:\\Agent_6.9\\data\\반도체\\어보브반도체\\tech\\source\\abov_kipris_plus_bibliographic_raw.csv",
+  "model_info": {
+    "module": "Tech ML Signal Builder",
+    "algorithm": "TF-IDF + KMeans",
+    "sklearn_available": true,
+    "purpose": "KIPRIS patent portfolio clustering, patent momentum scoring, commercialization watch signal generation"
+  },
+  "tech_ml_label": "COMMERCIALIZATION_WATCH",
+  "tech_ml_label_description": "기술 포트폴리오는 확인되지만 사업화 연결 근거는 추가 확인이 필요한 사업화 추적형입니다.",
+  "patent_ml_score": 58.08,
+  "bridge_score": 0.0,
+  "bridge_label": "",
+  "normalized_patent_records": 30,
+  "company_matched_patents": 30,
+  "registered_patents": 26,
+  "alive_patents": 19,
+  "recent_5y_patents": 10,
+  "recent_5y_ratio": 0.3333,
+  "ipc_cpc_count": 17,
+  "ipc_cpc_examples": [
+    "F04B",
+    "G01D",
+    "G01J",
+    "G01R",
+    "G06F",
+    "H01M",
+    "H02J",
+    "H02M",
+    "H02P",
+    "H03F",
+    "H03K",
+    "H04B",
+    "H04L",
+    "H04M",
+    "H04W",
+    "H05K",
+    "H10D"
+  ],
+  "h01l_patents": 0,
+  "patent_year_range": "2004~2025",
+  "technology_keyword_hits": {
+    "공정": 1,
+    "AI": 1
+  },
+  "technology_keyword_hit_total": 2,
+  "clustering": {
+    "method": "tfidf_kmeans",
+    "sklearn_available": true,
+    "cluster_count": 3,
+    "clusters": [
+      {
+        "cluster_id": 1,
+        "size": 13,
+        "top_terms": [
+          "상기",
+          "제1",
+          "제2",
+          "상기 제1",
+          "보상",
+          "센싱",
+          "센싱 값을",
+          "이상의"
+        ],
+        "sample_titles": [
+          "오프셋 자동제거 증폭기",
+          "마이크로 컨트롤러 및 그의 동작방법",
+          "파워 온 리셋 회로",
+          "역률 보상 회로의 전류 검출 장치",
+          "역률 보상 회로의 스위칭 지연 보상 장치 및 방법"
+        ]
+      },
+      {
+        "cluster_id": 0,
+        "size": 9,
+        "top_terms": [
+          "터치",
+          "상기",
+          "배터리",
+          "상기 터치",
+          "모듈",
+          "쉴드",
+          "센싱",
+          "고감도"
+        ],
+        "sample_titles": [
+          "송신 전력을 조절하는 전자 장치 및 방법",
+          "오프셋 전하량이 제거된 터치 패널의 전하량 감지장치 및 방법",
+          "그립 센싱 방법 및 장치",
+          "동적으로 클럭 속도를 관리하는 시스템 및 그 방법",
+          "고감도 터치 센서"
+        ]
+      },
+      {
+        "cluster_id": 2,
+        "size": 8,
+        "top_terms": [
+          "주파수",
+          "신호의",
+          "상기",
+          "압축기의",
+          "복수개의",
+          "수신",
+          "h04l",
+          "유사"
+        ],
+        "sample_titles": [
+          "복수 기기의 저전력블루투스 연결방법",
+          "이원 상관기와 구간합 궤환을 이용하여 반송파 주파수 오프셋 추정 및 패킷 검출을 동시에 수행하는 방법 및 그 수신 장치",
+          "채널 코딩이 적용된 GFSK 신호의 연판정 복조 방법 및 그 방법을 사용하는 수신 장치",
+          "저 잡음 증폭장치",
+          "구간합 궤환을 이용하는 반송파 주파수 오프셋 추정 방법 및 그 수신 장치"
+        ]
+      }
+    ],
+    "technology_concentration_index": 0.3489,
+    "feature_count": 1500
+  },
+  "representative_patents": [
+    {
+      "title": "하이 사이드 스위치 제어를 이용한 DC-LINK 대용량 캐퍼시터 충전 시스템 및 방법",
+      "application_date": "20250325",
+      "register_date": "20251030",
+      "register_status": "등록",
+      "ipc": "H02J 7/00|H01M 10/44",
+      "applicant": ""
+    },
+    {
+      "title": "오프셋 자동제거 증폭기",
+      "application_date": "20241119",
+      "register_date": "20260428",
+      "register_status": "등록",
+      "ipc": "H03F 3/45|H03F 1/26|H03F 3/00",
+      "applicant": ""
+    },
+    {
+      "title": "역률 보상 회로의 전류 검출 장치",
+      "application_date": "20241031",
+      "register_date": "20260210",
+      "register_status": "등록",
+      "ipc": "G01R 35/00|G01R 21/00|G01R 19/12|G01R 27/26|G01R 19/165|G01R 29/06|G01R 23/02",
+      "applicant": ""
+    },
+    {
+      "title": "역률 보상 회로의 스위칭 지연 보상 장치 및 방법",
+      "application_date": "20231213",
+      "register_date": "20250903",
+      "register_status": "등록",
+      "ipc": "H02M 1/42|H02M 1/00",
+      "applicant": ""
+    },
+    {
+      "title": "전동기 부하 변동 보상 장치",
+      "application_date": "20221215",
+      "register_date": "20241119",
+      "register_status": "등록",
+      "ipc": "H02P 6/10|H02P 23/14|H02P 25/098",
+      "applicant": ""
+    }
+  ],
+  "commercialization_score": 80.0,
+  "commercialization_level": "STRONG",
+  "commercialization_keyword_hits": 330,
+  "commercialization_keywords": {
+    "고객": 30,
+    "채택": 6,
+    "양산": 16,
+    "공급": 2,
+    "매출": 18,
+    "실적": 1,
+    "FCF": 4,
+    "현금흐름": 1,
+    "revenue": 1
+  },
+  "chair_reflection_points": [
+    "Tech ML 판정은 COMMERCIALIZATION_WATCH이며, 기존 Tech-to-Value Bridge 판정과 함께 기술 섹션의 보조 신호로 사용합니다.",
+    "특허 클러스터링 결과는 핵심 기술 축과 기술 포트폴리오 집중도를 설명하는 근거로 반영합니다.",
+    "최근 5년 특허와 등록·존속 가능 특허는 기술 지속성 및 진입장벽의 보조 지표로 활용합니다.",
+    "고객 채택, 양산, 매출 전환, FCF 개선 근거가 약하면 기술 점수만으로 매수 의견을 강화하지 않습니다.",
+    "기술성은 확인되지만 사업화 연결 근거를 계속 확인해야 하므로 Chair는 관찰형 보조 신호로 반영해야 합니다."
+  ],
+  "notes": [
+    "Tech ML은 특허 텍스트, 초록, IPC/CPC, 등록상태, 최근 출원 흐름을 기반으로 기술 포트폴리오를 구조화합니다.",
+    "특허 수와 클러스터 수는 기술 지속성의 보조 근거이며, 단독으로 매출 성장이나 주가 상승을 의미하지 않습니다.",
+    "사업화 판단은 고객 채택, 양산, 매출 전환, FCF 개선 근거와 함께 해석해야 합니다."
+  ]
+}

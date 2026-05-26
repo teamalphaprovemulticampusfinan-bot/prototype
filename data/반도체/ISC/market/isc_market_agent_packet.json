@@ -4,13 +4,13 @@
   "company": "ISC",
   "opinion": "보유",
   "confidence": 0.45,
-  "summary": "ISC에 대해 검증 가능한 핵심 근거는 다음과 같습니다. ISC 마켓 분석 total_score 값은 55점입니다. ISC stock_data.current_price 값은 197300입니다. ISC stock_data.change 값은 -11700입니다. ISC stock_data.change_rate 값은 -5.6%입니다. ISC stock_data.raw.clpr 값은 197300입니다.",
+  "summary": "ISC에 대해 검증 가능한 핵심 근거는 다음과 같습니다. ISC 마켓 분석 total_score 값은 55점입니다. ISC stock_data.current_price 값은 219500입니다. ISC stock_data.change 값은 25100입니다. ISC stock_data.change_rate 값은 12.91%입니다. ISC stock_data.raw.clpr 값은 219500입니다.",
   "key_points": [
     "ISC 마켓 분석 total_score 값은 55점입니다.",
-    "ISC stock_data.current_price 값은 197300입니다.",
-    "ISC stock_data.change 값은 -11700입니다.",
-    "ISC stock_data.change_rate 값은 -5.6%입니다.",
-    "ISC stock_data.raw.clpr 값은 197300입니다."
+    "ISC stock_data.current_price 값은 219500입니다.",
+    "ISC stock_data.change 값은 25100입니다.",
+    "ISC stock_data.change_rate 값은 12.91%입니다.",
+    "ISC stock_data.raw.clpr 값은 219500입니다."
   ],
   "risks": [],
   "claims": [
@@ -23,42 +23,42 @@
     },
     {
       "claim_id": "market.cl.002",
-      "text": "ISC stock_data.current_price 값은 197300입니다.",
+      "text": "ISC stock_data.current_price 값은 219500입니다.",
       "evidence_ids": [
         "market.ev.006"
       ]
     },
     {
       "claim_id": "market.cl.003",
-      "text": "ISC stock_data.change 값은 -11700입니다.",
+      "text": "ISC stock_data.change 값은 25100입니다.",
       "evidence_ids": [
         "market.ev.009"
       ]
     },
     {
       "claim_id": "market.cl.004",
-      "text": "ISC stock_data.change_rate 값은 -5.6%입니다.",
+      "text": "ISC stock_data.change_rate 값은 12.91%입니다.",
       "evidence_ids": [
         "market.ev.010"
       ]
     },
     {
       "claim_id": "market.cl.005",
-      "text": "ISC stock_data.raw.clpr 값은 197300입니다.",
+      "text": "ISC stock_data.raw.clpr 값은 219500입니다.",
       "evidence_ids": [
         "market.ev.016"
       ]
     },
     {
       "claim_id": "market.cl.006",
-      "text": "ISC stock_data.raw.vs 값은 -11700입니다.",
+      "text": "ISC stock_data.raw.vs 값은 25100입니다.",
       "evidence_ids": [
         "market.ev.017"
       ]
     },
     {
       "claim_id": "market.auto_cl.007",
-      "text": "stock_data.raw.fltRt 값은 -5.6%입니다.",
+      "text": "stock_data.raw.fltRt 값은 12.91%입니다.",
       "evidence_ids": [
         "market.ev.018"
       ],
@@ -66,7 +66,7 @@
     },
     {
       "claim_id": "market.auto_cl.009",
-      "text": "stock_data.raw.mkp 값은 209,500입니다.",
+      "text": "stock_data.raw.mkp 값은 199,200입니다.",
       "evidence_ids": [
         "market.ev.019"
       ],
@@ -74,7 +74,7 @@
     },
     {
       "claim_id": "market.auto_cl.011",
-      "text": "stock_data.raw.hipr 값은 209,500입니다.",
+      "text": "stock_data.raw.hipr 값은 221,000입니다.",
       "evidence_ids": [
         "market.ev.020"
       ],
@@ -137,10 +137,10 @@
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.current_price",
-      "value": 197300,
+      "value": 219500,
       "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.current_price | 값: 197,300원"
+      "snippet": "stock_data | stock_data.current_price | 값: 219,500원"
     },
     {
       "evidence_id": "market.ev.007",
@@ -167,20 +167,20 @@
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.change",
-      "value": -11700,
+      "value": 25100,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.change | 값: -11,700"
+      "snippet": "stock_data | stock_data.change | 값: 25,100"
     },
     {
       "evidence_id": "market.ev.010",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.change_rate",
-      "value": -5.6,
+      "value": 12.91,
       "unit": "%",
       "period": null,
-      "snippet": "stock_data | stock_data.change_rate | 값: -5.6%"
+      "snippet": "stock_data | stock_data.change_rate | 값: 12.91%"
     },
     {
       "evidence_id": "market.ev.011",
@@ -237,50 +237,50 @@
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.clpr",
-      "value": 197300,
+      "value": 219500,
       "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.clpr | 값: 197,300원"
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 219,500원"
     },
     {
       "evidence_id": "market.ev.017",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.vs",
-      "value": -11700,
+      "value": 25100,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.vs | 값: -11,700"
+      "snippet": "stock_data | stock_data.raw.vs | 값: 25,100"
     },
     {
       "evidence_id": "market.ev.018",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.fltRt",
-      "value": -5.6,
+      "value": 12.91,
       "unit": "%",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.fltRt | 값: -5.6%"
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: 12.91%"
     },
     {
       "evidence_id": "market.ev.019",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.mkp",
-      "value": 209500,
+      "value": 199200,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.mkp | 값: 209,500"
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 199,200"
     },
     {
       "evidence_id": "market.ev.020",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.hipr",
-      "value": 209500,
+      "value": 221000,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.hipr | 값: 209,500"
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 221,000"
     }
   ],
   "evidence": [
@@ -339,10 +339,10 @@
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.current_price",
-      "value": 197300,
+      "value": 219500,
       "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.current_price | 값: 197,300원"
+      "snippet": "stock_data | stock_data.current_price | 값: 219,500원"
     },
     {
       "evidence_id": "market.ev.007",
@@ -369,20 +369,20 @@
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.change",
-      "value": -11700,
+      "value": 25100,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.change | 값: -11,700"
+      "snippet": "stock_data | stock_data.change | 값: 25,100"
     },
     {
       "evidence_id": "market.ev.010",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.change_rate",
-      "value": -5.6,
+      "value": 12.91,
       "unit": "%",
       "period": null,
-      "snippet": "stock_data | stock_data.change_rate | 값: -5.6%"
+      "snippet": "stock_data | stock_data.change_rate | 값: 12.91%"
     },
     {
       "evidence_id": "market.ev.011",
@@ -439,256 +439,99 @@
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.clpr",
-      "value": 197300,
+      "value": 219500,
       "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.clpr | 값: 197,300원"
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 219,500원"
     },
     {
       "evidence_id": "market.ev.017",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.vs",
-      "value": -11700,
+      "value": 25100,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.vs | 값: -11,700"
+      "snippet": "stock_data | stock_data.raw.vs | 값: 25,100"
     },
     {
       "evidence_id": "market.ev.018",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.fltRt",
-      "value": -5.6,
+      "value": 12.91,
       "unit": "%",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.fltRt | 값: -5.6%"
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: 12.91%"
     },
     {
       "evidence_id": "market.ev.019",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.mkp",
-      "value": 209500,
+      "value": 199200,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.mkp | 값: 209,500"
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 199,200"
     },
     {
       "evidence_id": "market.ev.020",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.hipr",
-      "value": 209500,
+      "value": 221000,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.hipr | 값: 209,500"
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 221,000"
     }
   ],
   "raw_payload": {
     "analysis": {
-      "agent": "market",
       "company": "ISC",
       "opinion": "보유",
-      "confidence": 0.6,
-      "market_summary": {
-        "oecd_interpretation": "OECD 경기선행지수가 98.01로 기준선(100) 하회하며 경기 둔화 가능성을 시사합니다. 이는 전반적인 투자 심리에 부정적인 영향을 줄 수 있습니다.",
-        "industry_stage": "ISC가 속한 반도체 후공정 패키징 산업은 AI·HBM 등 신규 수요에 힘입어 성장기 초입에 있으나, 경쟁 심화 및 기술 진입 장벽이 높은 편입니다.",
-        "value_chain_position": "ISC는 반도체 테스트 소켓 분야에서 세계 최초 실리콘 번인 소켓 상용화 및 높은 글로벌 점유율을 바탕으로 밸류체인 내에서 독보적인 위치를 확보하고 있습니다.",
-        "competitive_position": "ISC는 실리콘 소켓 시장에서 90%의 압도적인 점유율을 차지하며 경쟁 우위를 점하고 있으나, 후공정 패키징 산업 전반의 경쟁 강도는 높습니다.",
-        "market_momentum": "최근 주가는 5.6% 하락하며 약세를 보이고 있으며, 197,300원의 현재가에서 52주 고가 대비 상당한 하락 가능성이 존재합니다. 변동성 확대 가능성이 있습니다."
-      },
-      "qualitative_rubric": {
-        "macro_cycle": {
-          "assessment": "하",
-          "reason": "OECD 경기선행지수가 기준선 하회하며 전반적인 경기 둔화 신호를 보입니다."
-        },
-        "industry_attractiveness": {
-          "assessment": "상",
-          "reason": "AI·HBM 등 신규 수요로 반도체 후공정 패키징 산업은 성장기 초입에 있습니다."
-        },
-        "value_chain_position": {
-          "assessment": "상",
-          "reason": "실리콘 번인 소켓 상용화 및 높은 글로벌 점유율로 독보적인 위치를 확보했습니다."
-        },
-        "competitive_position": {
-          "assessment": "상",
-          "reason": "실리콘 소켓 시장에서 90%의 압도적인 점유율로 강력한 경쟁 우위를 가집니다."
-        },
-        "market_momentum": {
-          "assessment": "하",
-          "reason": "최근 주가 하락(-5.6%) 및 변동성 확대 가능성으로 시장 모멘텀이 약합니다."
-        },
-        "policy_disclosure_signal": {
-          "assessment": "중",
-          "reason": "정부의 R&D 지원 확대 등 정책적 수혜 가능성이 있으나, 삼성전자 노사 이슈 등 공급망 불확실성이 존재합니다."
-        },
-        "downside_risk": {
-          "assessment": "중",
-          "reason": "최근 주가 하락, 삼성전자 노사 이슈로 인한 공급망 불확실성, 높은 경쟁 강도가 하방 리스크 요인입니다."
-        }
-      },
-      "bwm_assessment": {
-        "best_criterion": "밸류체인 위치 및 경쟁 구도",
-        "worst_criterion": "시장 모멘텀 및 거시 경제 환경",
-        "judgment_effect": "ISC의 독보적인 기술력과 시장 지배력은 긍정적이나, 최근 주가 하락 및 거시 경제 불확실성으로 인해 보유 의견을 제시합니다."
-      },
+      "confidence": 0.8,
+      "summary": "ISC는 반도체 테스트 소켓 시장에서 압도적인 경쟁 우위를 보유하고 있으며, AI·HBM 등 신규 수요로 산업 성장성이 기대됩니다. 다만, 최근 주가 하락 및 거시 경제 불확실성으로 인해 보유 의견을 제시합니다.",
+      "total_score": 55,
       "scoring": {
         "거시환경": {
           "score": 5,
-          "max": 20,
-          "reason": "OECD 경기선행지수 하회로 부정적 신호."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "산업매력도": {
           "score": 15,
-          "max": 20,
-          "reason": "AI·HBM 등 신규 수요로 성장기 초입 진입."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "경쟁위치": {
           "score": 18,
-          "max": 20,
-          "reason": "실리콘 소켓 시장 압도적 점유율로 강력한 경쟁 우위."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "정책수혜": {
           "score": 10,
-          "max": 20,
-          "reason": "정부 R&D 지원 등 긍정적이나 공급망 불확실성 존재."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "시장모멘텀": {
           "score": 7,
-          "max": 20,
-          "reason": "최근 주가 하락 및 변동성 확대 가능성."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         }
       },
-      "total_score": 55,
-      "claims": [
-        {
-          "claim_id": "market.cl.001",
-          "text": "ISC는 반도체 테스트 소켓 시장에서 독보적인 기술력과 높은 글로벌 점유율을 바탕으로 강력한 경쟁 우위를 확보하고 있습니다.",
-          "evidence_ids": [
-            "market.ev.001"
-          ]
-        },
-        {
-          "claim_id": "market.cl.002",
-          "text": "AI·HBM 등 신규 수요 증가로 반도체 후공정 패키징 산업은 성장기 초입에 진입하여 긍정적인 산업 매력도를 보입니다.",
-          "evidence_ids": [
-            "market.ev.002"
-          ]
-        },
-        {
-          "claim_id": "market.cl.003",
-          "text": "최근 주가 하락(-5.6%) 및 OECD 경기선행지수 하회는 시장 모멘텀과 거시 경제 환경 측면에서 하방 리스크 요인으로 작용합니다.",
-          "evidence_ids": [
-            "market.ev.003",
-            "market.ev.004"
-          ]
-        }
-      ],
-      "evidences": [
-        {
-          "evidence_id": "market.ev.001",
-          "source_type": "dart",
-          "source": "DART",
-          "metric": "global_market_share",
-          "value": 90,
-          "unit": "%",
-          "period": "최신",
-          "snippet": "아이에스시는 반도체 테스트 소켓 시장에서 세계 최초로 실리콘 번인 소켓을 상용화했으며, 현재 실리콘 소켓에서 90%의 글로벌 점유율을 차지하고 있습니다."
-        },
-        {
-          "evidence_id": "market.ev.002",
-          "source_type": "static",
-          "source": "밸류체인 & 경쟁구조",
-          "metric": "industry_stage",
-          "value": "성장기 초입",
-          "unit": null,
-          "period": "2025년",
-          "snippet": "AI·HBM: 성장기 초입"
-        },
-        {
-          "evidence_id": "market.ev.003",
-          "source_type": "stock",
-          "source": "public_data",
-          "metric": "current_price",
-          "value": 197300,
-          "unit": "KRW",
-          "period": "20260519",
-          "snippet": "197300"
-        },
-        {
-          "evidence_id": "market.ev.004",
-          "source_type": "oecd",
-          "source": "OECD",
-          "metric": "leading_indicator",
-          "value": 98.01,
-          "unit": null,
-          "period": "최신",
-          "snippet": "OECD 경기선행지수 (최신): {\"G20\": 98.01, \"한국\": 98.01, \"미국\": 98.01, \"중국\": 98.01}"
-        }
-      ],
+      "market_environment": {
+        "oecd_cli": "",
+        "industry_stage": "{'마켓점수': {'기업명': 'ISC', '투자의견': '보유', '총점': '55', '거시환경': '5', '산업매력도': '15', '경쟁위치': '18', '정책수혜': '10', '시장모멘텀': '7', '요약': 'ISC는 반도체 테스트 소켓 시장에서 압도적인 경쟁 우위를 보유하고 있으며, AI·HBM 등 신규 수요로 산업 성장성이 기대됩니다. 다만, 최근 주가 하락 및 거시 경제 불확실성으로 인해 보유 의견을 제시합니다.'}}",
+        "value_chain_position": "후공정/패키징/테스트",
+        "competition": ""
+      },
       "risks": [
-        {
-          "risk": "최근 주가 하락 및 변동성 확대",
-          "severity": "중",
-          "basis": "주가 데이터"
-        },
-        {
-          "risk": "삼성전자 노사 이슈로 인한 공급망 불확실성",
-          "severity": "중",
-          "basis": "업황 뉴스"
-        },
-        {
-          "risk": "높은 경쟁 강도",
-          "severity": "중",
-          "basis": "밸류체인 & 경쟁구조"
-        }
+        "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 123 column 6 (char 3737)",
+        "밸류체인 위치 확인: 후공정/패키징/테스트"
       ],
-      "opportunities": [
-        {
-          "opportunity": "AI·HBM 등 신규 반도체 수요 증가에 따른 성장 수혜",
-          "basis": "밸류체인 & 경쟁구조"
-        },
-        {
-          "opportunity": "실리콘 번인 소켓 시장에서의 독보적인 기술력 및 시장 지배력",
-          "basis": "DART 공시"
-        }
-      ],
-      "summary": "ISC는 반도체 테스트 소켓 시장에서 압도적인 경쟁 우위를 보유하고 있으며, AI·HBM 등 신규 수요로 산업 성장성이 기대됩니다. 다만, 최근 주가 하락 및 거시 경제 불확실성으로 인해 보유 의견을 제시합니다.",
-      "raw_payload": {
-        "stock_used": true,
-        "oecd_used": true,
-        "static_used": true,
-        "news_used": true,
-        "dart_used": true
-      }
+      "opportunities": [],
+      "error": "Expecting ',' delimiter: line 123 column 6 (char 3737)",
+      "fallback_source": "market_final_static_data"
     },
-    "original_opportunities": [
-      {
-        "opportunity": "AI·HBM 등 신규 반도체 수요 증가에 따른 성장 수혜",
-        "basis": "밸류체인 & 경쟁구조"
-      },
-      {
-        "opportunity": "실리콘 번인 소켓 시장에서의 독보적인 기술력 및 시장 지배력",
-        "basis": "DART 공시"
-      }
-    ],
+    "original_opportunities": [],
     "original_risks": [
-      {
-        "risk": "최근 주가 하락 및 변동성 확대",
-        "severity": "중",
-        "basis": "주가 데이터"
-      },
-      {
-        "risk": "삼성전자 노사 이슈로 인한 공급망 불확실성",
-        "severity": "중",
-        "basis": "업황 뉴스"
-      },
-      {
-        "risk": "높은 경쟁 강도",
-        "severity": "중",
-        "basis": "밸류체인 & 경쟁구조"
-      }
+      "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 123 column 6 (char 3737)",
+      "밸류체인 위치 확인: 후공정/패키징/테스트"
     ],
     "removed_bad_evidence_ids": [
       "market.ev.unverified"
@@ -698,28 +541,23 @@
   "scoring": {
     "거시환경": {
       "score": 5,
-      "max": 20,
-      "reason": "OECD 경기선행지수 하회로 부정적 신호."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "산업매력도": {
       "score": 15,
-      "max": 20,
-      "reason": "AI·HBM 등 신규 수요로 성장기 초입 진입."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "경쟁위치": {
       "score": 18,
-      "max": 20,
-      "reason": "실리콘 소켓 시장 압도적 점유율로 강력한 경쟁 우위."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "정책수혜": {
       "score": 10,
-      "max": 20,
-      "reason": "정부 R&D 지원 등 긍정적이나 공급망 불확실성 존재."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "시장모멘텀": {
       "score": 7,
-      "max": 20,
-      "reason": "최근 주가 하락 및 변동성 확대 가능성."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     }
   },
   "packet_version": "grounded_agent_v3",
@@ -732,11 +570,11 @@
     "unsupported_count": 0,
     "supported_claims": [
       "ISC 마켓 분석 total_score 값은 55점입니다.",
-      "ISC stock_data.current_price 값은 197300입니다.",
-      "ISC stock_data.change 값은 -11700입니다.",
-      "ISC stock_data.change_rate 값은 -5.6%입니다.",
-      "ISC stock_data.raw.clpr 값은 197300입니다.",
-      "ISC stock_data.raw.vs 값은 -11700입니다."
+      "ISC stock_data.current_price 값은 219500입니다.",
+      "ISC stock_data.change 값은 25100입니다.",
+      "ISC stock_data.change_rate 값은 12.91%입니다.",
+      "ISC stock_data.raw.clpr 값은 219500입니다.",
+      "ISC stock_data.raw.vs 값은 25100입니다."
     ],
     "unsupported_claims": [],
     "issues": [],
@@ -758,7 +596,7 @@
       },
       {
         "claim_id": "market.cl.002",
-        "text": "ISC stock_data.current_price 값은 197300입니다.",
+        "text": "ISC stock_data.current_price 값은 219500입니다.",
         "evidence_ids": [
           "market.ev.006"
         ],
@@ -777,7 +615,7 @@
       },
       {
         "claim_id": "market.cl.003",
-        "text": "ISC stock_data.change 값은 -11700입니다.",
+        "text": "ISC stock_data.change 값은 25100입니다.",
         "evidence_ids": [
           "market.ev.009"
         ],
@@ -792,7 +630,7 @@
       },
       {
         "claim_id": "market.cl.004",
-        "text": "ISC stock_data.change_rate 값은 -5.6%입니다.",
+        "text": "ISC stock_data.change_rate 값은 12.91%입니다.",
         "evidence_ids": [
           "market.ev.010"
         ],
@@ -807,7 +645,7 @@
       },
       {
         "claim_id": "market.cl.005",
-        "text": "ISC stock_data.raw.clpr 값은 197300입니다.",
+        "text": "ISC stock_data.raw.clpr 값은 219500입니다.",
         "evidence_ids": [
           "market.ev.016"
         ],
@@ -822,7 +660,7 @@
       },
       {
         "claim_id": "market.cl.006",
-        "text": "ISC stock_data.raw.vs 값은 -11700입니다.",
+        "text": "ISC stock_data.raw.vs 값은 25100입니다.",
         "evidence_ids": [
           "market.ev.017"
         ],
@@ -846,14 +684,14 @@
     "unsupported_count": 0,
     "supported_claims": [
       "ISC 마켓 분석 total_score 값은 55점입니다.",
-      "ISC stock_data.current_price 값은 197300입니다.",
-      "ISC stock_data.change 값은 -11700입니다.",
-      "ISC stock_data.change_rate 값은 -5.6%입니다.",
-      "ISC stock_data.raw.clpr 값은 197300입니다.",
-      "ISC stock_data.raw.vs 값은 -11700입니다.",
-      "stock_data.raw.fltRt 값은 -5.6%입니다.",
-      "stock_data.raw.mkp 값은 209,500입니다.",
-      "stock_data.raw.hipr 값은 209,500입니다."
+      "ISC stock_data.current_price 값은 219500입니다.",
+      "ISC stock_data.change 값은 25100입니다.",
+      "ISC stock_data.change_rate 값은 12.91%입니다.",
+      "ISC stock_data.raw.clpr 값은 219500입니다.",
+      "ISC stock_data.raw.vs 값은 25100입니다.",
+      "stock_data.raw.fltRt 값은 12.91%입니다.",
+      "stock_data.raw.mkp 값은 199,200입니다.",
+      "stock_data.raw.hipr 값은 221,000입니다."
     ],
     "unsupported_claims": [],
     "issues": [],
@@ -875,7 +713,7 @@
       },
       {
         "claim_id": "market.cl.002",
-        "text": "ISC stock_data.current_price 값은 197300입니다.",
+        "text": "ISC stock_data.current_price 값은 219500입니다.",
         "evidence_ids": [
           "market.ev.006"
         ],
@@ -894,7 +732,7 @@
       },
       {
         "claim_id": "market.cl.003",
-        "text": "ISC stock_data.change 값은 -11700입니다.",
+        "text": "ISC stock_data.change 값은 25100입니다.",
         "evidence_ids": [
           "market.ev.009"
         ],
@@ -909,7 +747,7 @@
       },
       {
         "claim_id": "market.cl.004",
-        "text": "ISC stock_data.change_rate 값은 -5.6%입니다.",
+        "text": "ISC stock_data.change_rate 값은 12.91%입니다.",
         "evidence_ids": [
           "market.ev.010"
         ],
@@ -924,7 +762,7 @@
       },
       {
         "claim_id": "market.cl.005",
-        "text": "ISC stock_data.raw.clpr 값은 197300입니다.",
+        "text": "ISC stock_data.raw.clpr 값은 219500입니다.",
         "evidence_ids": [
           "market.ev.016"
         ],
@@ -939,7 +777,7 @@
       },
       {
         "claim_id": "market.cl.006",
-        "text": "ISC stock_data.raw.vs 값은 -11700입니다.",
+        "text": "ISC stock_data.raw.vs 값은 25100입니다.",
         "evidence_ids": [
           "market.ev.017"
         ],
@@ -954,7 +792,7 @@
       },
       {
         "claim_id": "market.auto_cl.007",
-        "text": "stock_data.raw.fltRt 값은 -5.6%입니다.",
+        "text": "stock_data.raw.fltRt 값은 12.91%입니다.",
         "evidence_ids": [
           "market.ev.018"
         ],
@@ -969,7 +807,7 @@
       },
       {
         "claim_id": "market.auto_cl.009",
-        "text": "stock_data.raw.mkp 값은 209,500입니다.",
+        "text": "stock_data.raw.mkp 값은 199,200입니다.",
         "evidence_ids": [
           "market.ev.019"
         ],
@@ -984,7 +822,7 @@
       },
       {
         "claim_id": "market.auto_cl.011",
-        "text": "stock_data.raw.hipr 값은 209,500입니다.",
+        "text": "stock_data.raw.hipr 값은 221,000입니다.",
         "evidence_ids": [
           "market.ev.020"
         ],
@@ -1008,14 +846,14 @@
     "unsupported_count": 0,
     "supported_claims": [
       "ISC 마켓 분석 total_score 값은 55점입니다.",
-      "ISC stock_data.current_price 값은 197300입니다.",
-      "ISC stock_data.change 값은 -11700입니다.",
-      "ISC stock_data.change_rate 값은 -5.6%입니다.",
-      "ISC stock_data.raw.clpr 값은 197300입니다.",
-      "ISC stock_data.raw.vs 값은 -11700입니다.",
-      "stock_data.raw.fltRt 값은 -5.6%입니다.",
-      "stock_data.raw.mkp 값은 209,500입니다.",
-      "stock_data.raw.hipr 값은 209,500입니다."
+      "ISC stock_data.current_price 값은 219500입니다.",
+      "ISC stock_data.change 값은 25100입니다.",
+      "ISC stock_data.change_rate 값은 12.91%입니다.",
+      "ISC stock_data.raw.clpr 값은 219500입니다.",
+      "ISC stock_data.raw.vs 값은 25100입니다.",
+      "stock_data.raw.fltRt 값은 12.91%입니다.",
+      "stock_data.raw.mkp 값은 199,200입니다.",
+      "stock_data.raw.hipr 값은 221,000입니다."
     ],
     "unsupported_claims": [],
     "issues": [],
@@ -1037,7 +875,7 @@
       },
       {
         "claim_id": "market.cl.002",
-        "text": "ISC stock_data.current_price 값은 197300입니다.",
+        "text": "ISC stock_data.current_price 값은 219500입니다.",
         "evidence_ids": [
           "market.ev.006"
         ],
@@ -1056,7 +894,7 @@
       },
       {
         "claim_id": "market.cl.003",
-        "text": "ISC stock_data.change 값은 -11700입니다.",
+        "text": "ISC stock_data.change 값은 25100입니다.",
         "evidence_ids": [
           "market.ev.009"
         ],
@@ -1071,7 +909,7 @@
       },
       {
         "claim_id": "market.cl.004",
-        "text": "ISC stock_data.change_rate 값은 -5.6%입니다.",
+        "text": "ISC stock_data.change_rate 값은 12.91%입니다.",
         "evidence_ids": [
           "market.ev.010"
         ],
@@ -1086,7 +924,7 @@
       },
       {
         "claim_id": "market.cl.005",
-        "text": "ISC stock_data.raw.clpr 값은 197300입니다.",
+        "text": "ISC stock_data.raw.clpr 값은 219500입니다.",
         "evidence_ids": [
           "market.ev.016"
         ],
@@ -1101,7 +939,7 @@
       },
       {
         "claim_id": "market.cl.006",
-        "text": "ISC stock_data.raw.vs 값은 -11700입니다.",
+        "text": "ISC stock_data.raw.vs 값은 25100입니다.",
         "evidence_ids": [
           "market.ev.017"
         ],
@@ -1116,7 +954,7 @@
       },
       {
         "claim_id": "market.auto_cl.007",
-        "text": "stock_data.raw.fltRt 값은 -5.6%입니다.",
+        "text": "stock_data.raw.fltRt 값은 12.91%입니다.",
         "evidence_ids": [
           "market.ev.018"
         ],
@@ -1131,7 +969,7 @@
       },
       {
         "claim_id": "market.auto_cl.009",
-        "text": "stock_data.raw.mkp 값은 209,500입니다.",
+        "text": "stock_data.raw.mkp 값은 199,200입니다.",
         "evidence_ids": [
           "market.ev.019"
         ],
@@ -1146,7 +984,7 @@
       },
       {
         "claim_id": "market.auto_cl.011",
-        "text": "stock_data.raw.hipr 값은 209,500입니다.",
+        "text": "stock_data.raw.hipr 값은 221,000입니다.",
         "evidence_ids": [
           "market.ev.020"
         ],

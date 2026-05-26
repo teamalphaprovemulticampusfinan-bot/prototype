@@ -2,12 +2,12 @@
   "agent": "tech_intake",
   "artifact": "tech_intake_value_evidence_bridge",
   "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-  "created_at": "2026-05-25T16:30:12",
+  "created_at": "2026-05-26T08:51:14",
   "field": "반도체",
   "company": "SFA반도체",
   "company_dir": "sfa_semicon",
   "company_slug": "sfa_semicon",
-  "source_document_count": 155,
+  "source_document_count": 159,
   "source_documents": [
     {
       "source_group": "TECH_OUTPUT",
@@ -186,7 +186,7 @@
     {
       "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/SFA반도체/tech/sfa_semicon_tech_intake_value_evidence.json",
-      "detected_url_count": 14,
+      "detected_url_count": 11,
       "fallback_url_count": 0
     },
     {
@@ -401,6 +401,30 @@
     },
     {
       "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/tech_history_features_2025-08-31.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/tech_history_features_2025-08-31.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/tech_history_features_2025-09-30.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/SFA반도체/tech/tech_history_features_2025-09-30.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/SFA반도체/tech/tech_intake_manifest.json",
       "detected_url_count": 0,
       "fallback_url_count": 2
@@ -414,7 +438,7 @@
     {
       "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/SFA반도체/tech/tech_intake_value_evidence.json",
-      "detected_url_count": 14,
+      "detected_url_count": 11,
       "fallback_url_count": 0
     },
     {
@@ -954,11 +978,9 @@
         "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+IR",
         "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
         "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
-        "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
-        "https://dart.fss.or.kr/",
-        "https://finance.naver.com/",
         "http://www.w3.org/2001/XMLSchema-instance",
         "http://www.nepes.co.kr",
+        "https://dart.fss.or.kr/",
         "https://opendart.fss.or.kr/",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e002f08143e8edcc73d0bc366ffc4e917df890f8d28e71cd1f31c3a310019ffa28a533bab1ed7c0fdbff567cca3fcfd1b7fc3ca5cf360e1e796",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0052397f0f904a674f0c7e8780fe701e73414e7143fc6a4a6719be5f41ef7558f7ad2cebc258cabb53ac7a7f90ebf7e0dbe4a2b3a7a31fdda7",
@@ -1464,7 +1486,7 @@
           "matched_keywords": [
             "매출"
           ],
-          "snippet": "다만, 2024년 매출은 감소세를 기록했으며, 최근 1개월 주가 데이터에서는 변동성이 높은 흐름이 관찰됩니다.",
+          "snippet": "summary: SFA반도체는 2023년 매출이 큰 폭으로 감소하며 영업이익이 적자 전환되었으나, 2024년에는 매출 감소세가 둔화되고 순이익이 흑자 전환되는 등 수익성 개선 조짐을 보이고 있습니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1479,10 +1501,9 @@
           "source_file": "data/반도체/SFA반도체/finance/SFA반도체_finance.json",
           "evidence_level": "DIRECT_EVIDENCE",
           "matched_keywords": [
-            "매출",
-            "성장"
+            "매출"
           ],
-          "snippet": "key_risks: 2024년 매출성장률이 -8.48%로 감소세를 보였으며, 향후 매출 회복 여부가 중요합니다.",
+          "snippet": "key_thesis: 2023년 매출 감소폭(-37.44%) 대비 2024년 매출 감소폭(-8.48%)이 둔화되었습니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1569,7 +1590,7 @@
           "matched_keywords": [
             "sales"
           ],
-          "snippet": "year: 2023 | sales: 437586077155.0 | operating_income: -16710120338.0 | net_income: -14043612067.0 | total_assets: 609910066598.0 | total_liabilities: 139749351905.0 | total_equity: 470160714693.0 | current_assets: 182721303416.0 | current_liabilities: 48736699211.0 | capex: 27199934255 | ocf: 36015764547 | fcf: 8815830292 | interest_expense: 4233014760.0 | roe: -2.986981180716052 | operating_margin: -3.8187047555631",
+          "snippet": "year: 2021 | sales: 641108819687.0 | operating_income: 66496309132.0 | net_income: 55099304854.0 | total_assets: 649395336516.0 | total_liabilities: 223536653541.0 | total_equity: 425858682975.0 | current_assets: 249648865535.0 | current_liabilities: 95205691082.0 | capex: 24708808401 | ocf: 101554057612 | fcf: 76845249211 | interest_expense: 5027680341.0 | roe: 12.938401177846737 | operating_margin: 10.3720783570665",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1586,7 +1607,7 @@
           "matched_keywords": [
             "sales"
           ],
-          "snippet": "year: 2024 | sales: 400482861805.0 | operating_income: -31004226.0 | net_income: 20458863208.0 | total_assets: 623485659906.0 | total_liabilities: 125578068973.0 | total_equity: 497907590933.0 | current_assets: 220511034740.0 | current_liabilities: 91517108583.0 | capex: 36625507913 | ocf: 53080396079 | fcf: 16454888166 | interest_expense: 3969104809.0 | roe: 4.10896792508492 | operating_margin: -0.007741711058561187",
+          "snippet": "year: 2022 | sales: 699412110637.0 | operating_income: 62881247628.0 | net_income: 45445008142.0 | total_assets: 674874341737.0 | total_liabilities: 190956704120.0 | total_equity: 483917637617.0 | current_assets: 271876331548.0 | current_liabilities: 89214692681.0 | capex: 55209759711 | ocf: 94908137157 | fcf: 39698377446 | interest_expense: 4642849489.0 | roe: 9.391062571265024 | operating_margin: 8.990586046720004 ",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1617,42 +1638,7 @@
           "matched_keywords": [
             "수익성"
           ],
-          "snippet": "summary: SFA반도체는 2023년 큰 폭의 영업손실 이후 2024년 영업이익이 흑자전환하며 수익성 개선 가능성을 보였습니다.",
-          "urls": [],
-          "fallback_urls": [
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "https://comp.fnguide.com/",
-            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-          ]
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/SFA반도체/finance/SFA반도체_finance.json",
-          "evidence_level": "DIRECT_EVIDENCE",
-          "matched_keywords": [
-            "수익성"
-          ],
-          "snippet": "key_thesis: 2024년 ROE가 4.11%로 양수로 전환되며 자본 대비 수익성이 개선될 가능성을 시사합니다.",
-          "urls": [],
-          "fallback_urls": [
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "https://comp.fnguide.com/",
-            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-          ]
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/SFA반도체/finance/SFA반도체_finance.json",
-          "evidence_level": "DIRECT_EVIDENCE",
-          "matched_keywords": [
-            "현금흐름",
-            "FCF"
-          ],
-          "snippet": "key_thesis: 2023년과 2024년 모두 긍정적인 잉여현금흐름(FCF)을 기록하며 현금 창출 능력을 유지하고 있습니다.",
+          "snippet": "summary: SFA반도체는 2023년 매출이 큰 폭으로 감소하며 영업이익이 적자 전환되었으나, 2024년에는 매출 감소세가 둔화되고 순이익이 흑자 전환되는 등 수익성 개선 조짐을 보이고 있습니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1670,7 +1656,60 @@
             "영업이익률",
             "수익성"
           ],
-          "snippet": "key_risks: 2024년 영업이익률이 -0.01%로 여전히 마이너스에 가까워 수익성 개선 추세 확인이 필요합니다.",
+          "snippet": "다만, 영업이익률은 여전히 마이너스 수준으로 본업에서의 수익성 회복 여부는 추가 확인이 필요합니다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/SFA반도체/finance/SFA반도체_finance.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "수익성"
+          ],
+          "snippet": "key_thesis: 2024년 순이익이 흑자 전환되며 수익성 개선 가능성을 시사합니다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/SFA반도체/finance/SFA반도체_finance.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "현금흐름",
+            "FCF"
+          ],
+          "snippet": "key_thesis: 2021년 이후 지속적으로 양의 값을 유지하고 있는 잉여현금흐름(FCF)은 현금 창출 능력을 보여줍니다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/SFA반도체/finance/SFA반도체_finance.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "영업이익률",
+            "수익성"
+          ],
+          "snippet": "key_risks: 2023년 및 2024년 영업이익률이 마이너스(-)를 기록하며 본업에서의 수익성 확보가 여전히 과제입니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1724,23 +1763,6 @@
             "수익성"
           ],
           "snippet": "report_core_points: ROE: SFA반도체 2024 기준 ROE 값은 4.11%이며, 자기자본 대비 수익성 수준을 확인하는 지표입니다.",
-          "urls": [],
-          "fallback_urls": [
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "https://comp.fnguide.com/",
-            "https://www.google.com/search?q=SFA%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-          ]
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/SFA반도체/finance/SFA반도체_finance_agent_packet.json",
-          "evidence_level": "DIRECT_EVIDENCE",
-          "matched_keywords": [
-            "FCF"
-          ],
-          "snippet": "report_core_points: FCF: SFA반도체 2024 기준 FCF 값은 16,454,888,166원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",

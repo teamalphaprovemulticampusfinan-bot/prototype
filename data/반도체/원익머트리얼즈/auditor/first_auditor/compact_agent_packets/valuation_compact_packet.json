@@ -2,32 +2,31 @@
   "agent": "valuation",
   "company_name": "원익머트리얼즈",
   "industry_type": "deeptech_semiconductor",
-  "summary": "기존 Valuation Agent 내부 판단은 보유였고, Auditor compact에서는 이를 참고 신호로만 사용합니다. DCF 내재주가는 44,991원이고 현재가 43,650원 대비 괴리율은 3.07%입니다. peer 대비 P/S는 1.23배로 비교기업 중앙값 3.46배 대비 -64.36% 수준입니다. 208개 반도체 reference universe에서는 소재 기준 valuation proxy 66.82/100, label=FAIR입니다.",
+  "summary": "기존 Valuation Agent 내부 판단은 매수였고, Auditor compact에서는 이를 참고 신호로만 사용합니다. DCF 내재주가는 51,340원이고 현재가 32,100원 대비 괴리율은 59.94%입니다. peer 대비 P/S는 0.67배로 비교기업 중앙값 2.68배 대비 -75.00% 수준입니다. 208개 반도체 reference universe에서는 소재 기준 valuation proxy 66.82/100, label=FAIR입니다.",
   "key_thesis": [
-    "DCF: 내재주가 44,991원, 현재가 43,650원, 괴리율 3.07%.",
-    "Peer P/S: 대상 1.23배 vs 비교기업 중앙값 3.46배, gap -64.36%.",
+    "DCF: 내재주가 51,340원, 현재가 32,100원, 괴리율 59.94%.",
+    "Peer P/S: 대상 0.67배 vs 비교기업 중앙값 2.68배, gap -75.00%.",
     "Reference Universe: 208개 반도체 universe, 소재 peer group 26개, valuation proxy 66.82/100(FAIR).",
-    "Valuation scorecard: 73.59/100, label=VALUATION_ATTRACTIVE, validation=PASS.",
-    "할인율/가치: WACC 12.08%, DCF 기업가치 6,253.4억원, 지분가치 5,672.4억원."
+    "Valuation scorecard: 82.89/100, label=VALUATION_ATTRACTIVE, validation=PASS.",
+    "할인율/가치: WACC 10.86%, DCF 기업가치 7,053.9억원, 지분가치 6,472.9억원."
   ],
   "key_risks": [
-    "DCF 괴리율이 ±10% 이내라 안전마진이 크지 않아 매수/매도보다 보유 판단에 가깝습니다.",
-    "WACC가 12.08%로 높아 장기 현금흐름 가정 변화에 민감합니다.",
-    "가격 리스크: MDD -59.88%로 변동성/낙폭 리스크 확인이 필요합니다.",
-    "변동성: 연환산 변동성 42.45% 수준입니다."
+    "WACC가 10.86%로 높아 장기 현금흐름 가정 변화에 민감합니다.",
+    "가격 리스크: MDD -60.79%로 변동성/낙폭 리스크 확인이 필요합니다.",
+    "변동성: 연환산 변동성 38.36% 수준입니다."
   ],
   "metrics": {
-    "original_agent_view_reference": "보유",
-    "implied_price_krw": 44990.596656667716,
-    "current_price_krw": 43650.0,
-    "upside_downside_pct": 0.030712409087461978,
-    "wacc": 0.12076044393211284,
-    "enterprise_value": 625339012433.2666,
-    "equity_value": 567241442647.2666,
-    "target_psr": 1.2315887807090902,
-    "peer_median_psr": 3.4558180665889435,
-    "psr_gap": -0.6436187446856174,
-    "valuation_scorecard_score": 73.59,
+    "original_agent_view_reference": "매수",
+    "implied_price_krw": 51339.78749880569,
+    "current_price_krw": 32100.0,
+    "upside_downside_pct": 0.5993703270655977,
+    "wacc": 0.10855309018945081,
+    "enterprise_value": 705389610570.9421,
+    "equity_value": 647292040784.9421,
+    "target_psr": 0.6699666078184099,
+    "peer_median_psr": 2.680022174089385,
+    "psr_gap": -0.750014528127533,
+    "valuation_scorecard_score": 82.89,
     "valuation_scorecard_label": "VALUATION_ATTRACTIVE",
     "reference_universe_rows": 208,
     "target_peer_group": "소재",
@@ -82,7 +81,7 @@
       {
         "step": "price_history",
         "status": "OK",
-        "rows": 1221
+        "rows": 1162
       },
       {
         "step": "share_count",
@@ -97,51 +96,51 @@
       {
         "step": "market_cap",
         "status": "OK",
-        "market_cap": 550339200000.0
+        "market_cap": 404716800000.0
       },
       {
         "step": "liquidity_proxy",
         "status": "OK",
-        "avg_trading_value_20d": 4987615890.0
+        "avg_trading_value_20d": 6409812492.5
       },
       {
-        "step": "workbook_created",
+        "step": "workbook_available",
         "status": "OK",
-        "path": "C:\\Agent_6.8\\data\\반도체\\원익머트리얼즈\\valuation\\wonik_materials_valuation_workbook.xlsx"
+        "path": "C:\\Agent_6.9\\data\\반도체\\원익머트리얼즈\\valuation\\wonik_materials_valuation_workbook.xlsx"
       }
     ],
     "principle": "valuation_agent 자체 데이터/모델 일관성 검증; 기존 web-auditor 의존 없음"
   },
   "auditor_status": "PASS",
-  "auditor_actual_match": 0.9122,
+  "auditor_actual_match": 0.9511,
   "auditor_stage_scores": {
-    "stage1_basic_consistency": 0.7367,
+    "stage1_basic_consistency": 0.8533,
     "stage2_framework": 1.0,
     "stage3_decision_readiness": 1.0
   },
   "auditor_issues": [
-    "same-metric scale inconsistency suspected for wacc: ratio≈15723977142857.1 (metrics.wacc.risk_free_rate=0.035; metrics.wacc.market_risk_premium=0.06; metrics.wacc.beta=1.697864416614704; metrics.wacc.cost_of_equity=0.13687186499688225; metrics.wacc.pre_tax_cost_of_debt=0.055)",
-    "same-metric scale inconsistency suspected for fcf: ratio≈2061920425492.3 (metrics.dcf.assumed_fcf_margin=0.25; metrics.dcf.pv_fcf=252605042499.77142; metrics.peer_comps.target_row.fcf=103117228706.0; metrics.peer_comps.target_row.fcf_margin=0.19775500480158098; metrics.peer_comps.target_row.p_fcf=6.2278513858337705)"
+    "same-metric scale inconsistency suspected for wacc: ratio≈15013816253314.3 (metrics.wacc.risk_free_rate=0.035; metrics.wacc.market_risk_premium=0.06; metrics.wacc.beta=1.534575580147652; metrics.wacc.cost_of_equity=0.1270745348088591; metrics.wacc.pre_tax_cost_of_debt=0.055)",
+    "same-metric scale inconsistency suspected for fcf: ratio≈1616213115905.9 (metrics.dcf.assumed_fcf_margin=0.25; metrics.dcf.pv_fcf=260301912474.00378; metrics.peer_comps.target_row.fcf=103117228706.0; metrics.peer_comps.target_row.fcf_margin=0.19775500480158098; metrics.peer_comps.target_row.p_fcf=3.3878617053996996)"
   ],
-  "auditor_recommendation": "보유",
-  "auditor_signal": 0.2641,
+  "auditor_recommendation": "매수",
+  "auditor_signal": 0.5702,
   "auditor_decision_basis": [
-    "DCF 괴리율 3.07%",
-    "Valuation scorecard 73.59/100",
-    "P/S 1.23배",
-    "peer median P/S 3.46배",
-    "peer P/S gap -64.36%",
+    "DCF 괴리율 59.94%",
+    "Valuation scorecard 82.89/100",
+    "P/S 0.67배",
+    "peer median P/S 2.68배",
+    "peer P/S gap -75.00%",
     "reference universe score 66.82/100",
-    "WACC 12.08%",
+    "WACC 10.86%",
     "validation_status=PASS",
-    "기존 Valuation Agent 내부 판단 참고=보유"
+    "기존 Valuation Agent 내부 판단 참고=매수"
   ],
   "auditor_signal_components": {
-    "dcf_upside": 0.12284963634984791,
-    "scorecard": 0.3882857142857144,
+    "dcf_upside": 1.0,
+    "scorecard": 0.654,
     "peer_psr": 1.0,
     "reference_universe": 0.33772893772893764,
-    "original_agent_view_reference": 0.0,
+    "original_agent_view_reference": 1.0,
     "validation_penalty": 0.0,
     "credit_risk_overlay": 0.0
   }

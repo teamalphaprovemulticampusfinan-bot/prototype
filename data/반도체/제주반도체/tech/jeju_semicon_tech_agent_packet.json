@@ -3,26 +3,26 @@
   "company": "제주반도체",
   "company_dir": "jeju_semicon",
   "opinion": "보유",
-  "tech_signal": 0.280123,
+  "tech_signal": 0.282196,
   "history_tech_feature": {
-    "signal": 0.280123,
+    "signal": 0.282196,
     "status": "OK_TECH_HISTORY_ASOF",
-    "source": "C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_patents_normalized.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_tech_patent_normalized.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_bibliographic_normalized.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_claims_normalized.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_plus_claim_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_plus_family_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_plus_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_tech_ml_enriched.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_kipris_plus_bibliographic_raw.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\quanified_metrix.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\tech_excel_frame_items.csv",
-    "as_of_date": "2025-08-31",
+    "source": "C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\tech_history_features_2025-08-31.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_patents_normalized.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_tech_patent_normalized.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_bibliographic_normalized.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_claims_normalized.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_plus_claim_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_plus_family_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_plus_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_tech_ml_enriched.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_kipris_plus_bibliographic_raw.csv;C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\quanified_metrix.csv",
+    "as_of_date": "2025-09-30",
     "company": "제주반도체",
     "ticker": "080220.KQ",
     "stock_code": "080220",
-    "base_signal": 0.281484,
-    "evidence_confidence": 0.785822,
-    "commercialization_gate_signal": 0.235705,
+    "base_signal": 0.284094,
+    "evidence_confidence": 0.785933,
+    "commercialization_gate_signal": 0.23567,
     "technology_risk_penalty": 0.0,
-    "ip_quality_signal": -0.087841,
+    "ip_quality_signal": -0.085519,
     "lifecycle_signal": 0.0,
-    "technology_differentiation_signal": 0.088261,
-    "commercialization_signal": 0.94282,
-    "rnd_sustainability_signal": 0.442785,
+    "technology_differentiation_signal": 0.091886,
+    "commercialization_signal": 0.94268,
+    "rnd_sustainability_signal": 0.448048,
     "peer_position_signal": -0.261905,
-    "tech_to_value_signal": 0.564785,
+    "tech_to_value_signal": 0.569373,
     "certification_signal": 0.0,
     "qualification_signal": 0.0,
     "cost_yield_signal": 0.0,
@@ -32,10 +32,10 @@
     "dispute_risk_signal": 0.0,
     "failure_delay_signal": 0.0,
     "intangible_accounting_signal": 0.0,
-    "patent_records_asof": 492,
-    "dated_records_asof": 246,
+    "patent_records_asof": 500,
+    "dated_records_asof": 255,
     "undated_records_used": 312,
-    "files_used": 72,
+    "files_used": 74,
     "notes": "Tech history signal uses dated patent/IP, TRL/readiness, certification, qualification, commercialization, R&D/workforce, risk and accounting evidence before as_of_date; no Buy/Hold/Sell threshold is applied.",
     "frequency": "monthly",
     "formula": "final=base_signal*evidence_confidence + 0.25*commercialization_gate_signal - 0.35*technology_risk_penalty",
@@ -45,8 +45,8 @@
       "IFC/Bpifrance deep-tech development-stage financing framework",
       "Text-based industry/technology relatedness literature for peer/differentiation evidence"
     ],
-    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\tech_history_features_2025-08-31.json",
-    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\tech_history_features_2025-08-31.csv"
+    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\tech_history_features_2025-09-30.json",
+    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\tech_history_features_2025-09-30.csv"
   },
   "claims": [
     {
@@ -457,7 +457,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-25T20:35:03",
+      "generated_at": "2026-05-26T04:40:11",
       "core_counts": {
         "total_patents": 26,
         "registered_patents_estimated": 20,
@@ -535,7 +535,7 @@
   "tech_chair_summary": {
     "agent": "tech",
     "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-    "created_at": "2026-05-25T20:37:14",
+    "created_at": "2026-05-26T04:42:09",
     "field": "반도체",
     "company": "제주반도체",
     "company_name": "제주반도체",
@@ -1175,7 +1175,7 @@
       "company_name": "제주반도체",
       "field": "반도체",
       "status": "OK",
-      "created_at": "2026-05-25T20:35:05",
+      "created_at": "2026-05-26T04:40:13",
       "weights": {
         "legal_stability": 0.25,
         "claim_defense": 0.3,
@@ -1271,10 +1271,10 @@
       "tech_full_appendix_json": ""
     },
     "ip_evidence_bridge_adjustment_status": "APPLIED",
-    "ip_evidence_bridge_adjustment_applied_at": "2026-05-25T20:37:28",
+    "ip_evidence_bridge_adjustment_applied_at": "2026-05-26T04:42:29",
     "tech_investor_view": {
       "version": "tech-investor-scorecard-v2",
-      "generated_at": "2026-05-25T20:38:25",
+      "generated_at": "2026-05-26T04:43:16",
       "company_slug": "jeju_semicon",
       "company_name": "제주반도체",
       "final_tech_investor_score": 48.34,
@@ -1665,12 +1665,12 @@
       "agent": "tech_intake",
       "artifact": "tech_intake_value_evidence_bridge",
       "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-      "created_at": "2026-05-25T20:38:23",
+      "created_at": "2026-05-26T04:43:14",
       "field": "반도체",
       "company": "제주반도체",
       "company_dir": "jeju_semicon",
       "company_slug": "jeju_semicon",
-      "source_document_count": 152,
+      "source_document_count": 154,
       "source_documents": [
         {
           "source_group": "KIPRIS",
@@ -1837,7 +1837,7 @@
         {
           "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/제주반도체/tech/jeju_semicon_tech_intake_value_evidence.json",
-          "detected_url_count": 20,
+          "detected_url_count": 12,
           "fallback_url_count": 0
         },
         {
@@ -2070,6 +2070,18 @@
         },
         {
           "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/제주반도체/tech/tech_history_features_2025-09-30.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/제주반도체/tech/tech_history_features_2025-09-30.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/제주반도체/tech/tech_intake_manifest.json",
           "detected_url_count": 0,
           "fallback_url_count": 2
@@ -2083,7 +2095,7 @@
         {
           "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/제주반도체/tech/tech_intake_value_evidence.json",
-          "detected_url_count": 20,
+          "detected_url_count": 12,
           "fallback_url_count": 0
         },
         {
@@ -2684,15 +2696,7 @@
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c1531c25f20055517e557a4e8bb2b779cc42ccc97707907a95db8f1edbf0eec18",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c20f465ffcfa4530346c6465d651c819e27075e404217265ea359ee8049dfdd03",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c20f465ffcfa4530345a04d5e80981bf9a8a25497ebbe07dd7d24699b6c40f84f",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cfe49d03e6a3dce01f78ef6ceaf6ee0aa1368d4906206f00fad290bac4126dda6",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cfad0bf93f73520e6070e4b28e31323a6ce3eb46d48ed4f00e76db61885e9c8c1",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cfad0bf93f73520e6e738afaa41e8c0840b64f21eb7a034294dd56b8dea0751d3",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cf9a9b73d316615833d1de96402c0baaa5249fde4fc508e5c401c99cee65b6cfd",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c20f465ffcfa4530375916a1f2345a81211e3a6eeb0d5d96b6de7ccaefa7d8773",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cfad0bf93f73520e6070e4b28e31323a6ce3eb46d48ed4f00c2209beb598c790d",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cfad0bf93f73520e6dcba0feec512c82244d5858c9c4db1b53667b37c620831fc",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c20f465ffcfa453036d38eb7be36704d5bac3e8c4536f29194523d6828467c34b",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cf9a9b73d316615831fe85622ae462bea63ab55d9715be9c1b4e9c79dc33ff5f4",
+            "http://plus.kipris.or.kr/openapi/fileToss.jsp?",
             "http://www.w3.org/2001/XMLSchema-instance",
             "http://www.nepes.co.kr",
             "https://dart.fss.or.kr/",
@@ -3121,7 +3125,7 @@
                 "매출",
                 "성장"
               ],
-              "snippet": "summary: 제주반도체는 2024년 매출이 11.3% 성장하며 회복세를 보였으나, 영업이익률은 5.9%로 하락하며 수익성 둔화가 관찰된다.",
+              "snippet": "summary: 제주반도체는 2024년 매출이 11.3% 성장하며 역성장에서 벗어났으나, 영업이익률은 5.9%로 하락하며 수익성 개선 여부가 주목된다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3139,7 +3143,25 @@
                 "매출",
                 "성장"
               ],
-              "snippet": "key_thesis: 2024년 매출이 11.3% 성장하며 이전 연도의 역성장에서 벗어나는 모습을 보였다.",
+              "snippet": "key_thesis: 2024년 매출성장률이 11.3%로 전년 대비 역성장에서 벗어나며 성장 모멘텀이 회복되는 추세를 보였다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%A0%9C%EC%A3%BC%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/제주반도체/finance/제주반도체_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "매출",
+                "성장"
+              ],
+              "snippet": "key_risks: 2024년 매출성장률이 11.3%로 회복되었으나, 2022년(-9.5%) 및 2023년(-16.6%)의 역성장 이력이 있어 매출 변동성에 대한 주의가 필요하다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3235,23 +3257,6 @@
                 "https://comp.fnguide.com/",
                 "https://www.google.com/search?q=%EC%A0%9C%EC%A3%BC%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
               ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/제주반도체/finance/제주반도체_재무.csv",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "sales"
-              ],
-              "snippet": "year: 2022 | sales: 175023554084.0 | operating_income: 28216098130.0 | net_income: 24706325265.0 | total_assets: 175998872672.0 | total_liabilities: 33296879479.0 | total_equity: 142701993193.0 | current_assets: 129143684068.0 | current_liabilities: 31957699666.0 | capex: 1178202069 | ocf: -2177606726 | fcf: -3355808795 | interest_expense: 566274950.0 | roe: 17.313230678975497 | operating_margin: 16.12131480112562 | ",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%A0%9C%EC%A3%BC%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
             }
           ],
           "summary": "매출 전환 관련 직접 근거가 8건 확인됩니다. Chair에서는 가치 전환 근거로 반영하되 원천 URL/파일을 함께 확인합니다."
@@ -3275,7 +3280,7 @@
                 "영업이익률",
                 "수익성"
               ],
-              "snippet": "summary: 제주반도체는 2024년 매출이 11.3% 성장하며 회복세를 보였으나, 영업이익률은 5.9%로 하락하며 수익성 둔화가 관찰된다.",
+              "snippet": "summary: 제주반도체는 2024년 매출이 11.3% 성장하며 역성장에서 벗어났으나, 영업이익률은 5.9%로 하락하며 수익성 개선 여부가 주목된다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3293,7 +3298,7 @@
                 "현금흐름",
                 "FCF"
               ],
-              "snippet": "2024년 자유현금흐름(FCF)은 -12.5조 원으로 대폭 악화되었으며, 이는 투자 및 운영 활동에서의 현금 유출 증가를 시사한다.",
+              "snippet": "2024년 자유현금흐름(FCF)은 -12.5조 원으로 대폭 악화되었으며, ROE는 10.5% 수준을 유지하고 있다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3310,7 +3315,7 @@
               "matched_keywords": [
                 "수익성"
               ],
-              "snippet": "key_thesis: 2023년까지 ROE가 10% 이상을 유지하며 자본 대비 수익성이 일정 수준 확보되었음을 시사한다.",
+              "snippet": "key_thesis: 2021년 10.9%, 2022년 17.3%, 2023년 10.7%, 2024년 10.5%의 ROE를 기록하며 일정 수준의 자본 수익성을 유지하고 있다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3325,28 +3330,9 @@
               "source_file": "data/반도체/제주반도체/finance/제주반도체_finance.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
-                "영업이익률",
-                "수익성"
+                "영업이익률"
               ],
-              "snippet": "key_thesis: 2023년까지 영업이익률이 12.2%를 기록하며 견조한 수익성을 보여주었다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EC%A0%9C%EC%A3%BC%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/제주반도체/finance/제주반도체_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "영업이익률",
-                "수익성"
-              ],
-              "snippet": "key_risks: 2024년 영업이익률이 5.9%로 하락하며 수익성 둔화 우려가 있다.",
+              "snippet": "key_thesis: 2023년까지 긍정적인 수준을 유지했던 영업이익률이 2024년 5.9%로 하락했으나, 2021년(10.4%) 및 2022년(16.1%) 수준으로 회복할 가능성을 배제할 수 없다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3364,7 +3350,7 @@
                 "현금흐름",
                 "FCF"
               ],
-              "snippet": "key_risks: 2024년 자유현금흐름(FCF)이 -12.5조 원으로 대폭 악화되어 현금 창출 능력에 대한 점검이 필요하다.",
+              "snippet": "key_risks: 2024년 자유현금흐름(FCF)이 -12.5조 원으로 크게 악화되어 현금 창출 능력에 대한 우려가 제기된다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3379,9 +3365,10 @@
               "source_file": "data/반도체/제주반도체/finance/제주반도체_finance.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
+                "영업이익률",
                 "수익성"
               ],
-              "snippet": "key_risks: 2024년 ROE가 10.5%로 이전 연도 대비 소폭 하락하며 수익성 개선 여부에 대한 확인이 필요하다.",
+              "snippet": "key_risks: 2024년 영업이익률이 5.9%로 전년 대비 큰 폭으로 하락하여 수익성 악화 가능성을 시사한다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3400,6 +3387,23 @@
                 "수익성"
               ],
               "snippet": "report_core_points: 영업이익률: 제주반도체 2024 기준 영업이익률 값은 5.90%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EC%A0%9C%EC%A3%BC%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/제주반도체/finance/제주반도체_finance_agent_packet.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "수익성"
+              ],
+              "snippet": "report_core_points: ROE: 제주반도체 2024 기준 ROE 값은 10.53%이며, 자기자본 대비 수익성 수준을 확인하는 지표입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3615,7 +3619,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-25T20:35:03",
+      "generated_at": "2026-05-26T04:40:11",
       "core_counts": {
         "total_patents": 26,
         "registered_patents_estimated": 20,
@@ -3724,8 +3728,8 @@
     "tech_full_appendix_json": null,
     "tech_chair_summary_json": "data/반도체/제주반도체/tech/tech_chair_summary.json",
     "tech_chair_summary_md": "data/반도체/제주반도체/tech/jeju_semicon_tech_chair_summary.md",
-    "tech_history_feature_json": "data/반도체/제주반도체/tech/tech_history_features_2025-08-31.json",
-    "tech_history_feature_csv": "data/반도체/제주반도체/tech/tech_history_features_2025-08-31.csv",
+    "tech_history_feature_json": "data/반도체/제주반도체/tech/tech_history_features_2025-09-30.json",
+    "tech_history_feature_csv": "data/반도체/제주반도체/tech/tech_history_features_2025-09-30.csv",
     "tech_json": "data/반도체/제주반도체/tech/jeju_semicon_tech.json",
     "tech_agent_packet_json": "data/반도체/제주반도체/tech/jeju_semicon_tech_agent_packet.json"
   },
@@ -4625,7 +4629,7 @@
     "field": "반도체",
     "source_csv": "data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_patents_normalized.csv",
     "enriched_csv": "data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_tech_ml_enriched.csv",
-    "generated_at": "2026-05-25T20:35:03",
+    "generated_at": "2026-05-26T04:40:11",
     "core_counts": {
       "total_patents": 26,
       "registered_patents_estimated": 20,

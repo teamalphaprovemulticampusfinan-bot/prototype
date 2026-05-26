@@ -1,0 +1,91 @@
+{
+  "feature_name": "certification_standards",
+  "created_at": "2026-05-20T03:42:02",
+  "field": "반도체",
+  "company_dir": "nepes",
+  "company": "네패스",
+  "status": "OK",
+  "certification_signal": "CERTIFICATION_STRONG",
+  "certification_score": 28.24,
+  "quality_gate_stage": 5,
+  "quality_gate_stage_label": "SEMICONDUCTOR_CUSTOMER_QUALIFICATION_MENTIONED",
+  "confirmed_certification_keys": [
+    "FDA",
+    "SEMICONDUCTOR_QUALIFICATION"
+  ],
+  "expired_or_revoked_keys": [],
+  "evidence_count": 3,
+  "evidence_by_category": {
+    "regulatory_approval": 1,
+    "semiconductor_customer_qualification": 2
+  },
+  "summary": "FDA, SEMICONDUCTOR_QUALIFICATION 관련 근거가 확인되어 고객 품질·상용화 게이트 통과 가능성을 강하게 보강합니다. 단계: SEMICONDUCTOR_CUSTOMER_QUALIFICATION_MENTIONED.",
+  "evidence": [
+    {
+      "certification_key": "FDA",
+      "matched_alias": "FDA",
+      "category": "regulatory_approval",
+      "status": "MENTIONED",
+      "year": null,
+      "expiry_date": "",
+      "source_type": "local_text_scan",
+      "source_name": "kipris_nepes_patents.csv",
+      "source_path": "data\\반도체\\네패스\\tech\\source\\kipris_nepes_patents.csv",
+      "evidence_text": "명에 따른 감광성 도전 페이스트 조성물은 고해상도, 낮은 접촉저항, 우수한 보관 안정성 및 전기 비저항 등을 나타낼 수 있다. | http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf8fc21fda6626cf8b16e9d70a652d5e4bb12d2fe85804185ea283df535cbb0edec4acad0aeb19f506dc30209afa0853557a5df1213a06a1af | http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=",
+      "directness": "TEXT_MENTION",
+      "confidence": "LOW"
+    },
+    {
+      "certification_key": "SEMICONDUCTOR_QUALIFICATION",
+      "matched_alias": "양산 승인",
+      "category": "semiconductor_customer_qualification",
+      "status": "CONFIRMED",
+      "year": null,
+      "expiry_date": "",
+      "source_type": "local_text_scan",
+      "source_name": "nepes_tech_excel_frame_evidence.json",
+      "source_path": "data\\반도체\\네패스\\tech\\source\\nepes_tech_excel_frame_evidence.json",
+      "evidence_text": ", \"middle_source\": \"사업보고서: 신규시장 진입 계획 / 개발 일정 / 품질 요구 / 고객 승인 절차 / 시험평가 / 리스크 요인\\n규제자료: 산업별 필수 인증 / 시험규격 / 법적 허가 / 환경규제 / 안전기준 / 공급 승인 조건\\n기사: 인증 획득 기사 / 양산 승인 기사 / 테스트베드 기사 / 개발 지연·검증 이슈 기사\", \"quantifiable\": \"필요 인증 수, 예상 개발 기간(개월), 검증 단계 수, 고객 테스트 횟수\", \"item_name\": \"인증 종류\", \"content\": \"\" },",
+      "directness": "DIRECT_OR_COMPANY_DISCLOSED",
+      "confidence": "HIGH"
+    },
+    {
+      "certification_key": "SEMICONDUCTOR_QUALIFICATION",
+      "matched_alias": "양산 승인",
+      "category": "semiconductor_customer_qualification",
+      "status": "CONFIRMED",
+      "year": null,
+      "expiry_date": "",
+      "source_type": "local_text_scan",
+      "source_name": "nepes_tech_excel_frame_evidence.md",
+      "source_path": "data\\반도체\\네패스\\tech\\source\\nepes_tech_excel_frame_evidence.md",
+      "evidence_text": "수 / 출처: 사업보고서 / 규제자료 / 기사 > 사업보고서: 신규시장 진입 계획 / 개발 일정 / 품질 요구 / 고객 승인 절차 / 시험평가 / 리스크 요인 규제자료: 산업별 필수 인증 / 시험규격 / 법적 허가 / 환경규제 / 안전기준 / 공급 승인 조건 기사: 인증 획득 기사 / 양산 승인 기사 / 테스트베드 기사 / 개발 지연·검증 이슈 기사 - 신규 산업 진입 시 추가 인증/개발 부담 / 개발 기간 / 정량화: 필요 인증 수, 예상 개발 기간(개월), 검증 단계 수, 고객 테스트 횟수 / 출처: 사업보고서 / 규제자료 / 기사 > 사업보고서: 신규시장 진입",
+      "directness": "DIRECT_OR_COMPANY_DISCLOSED",
+      "confidence": "HIGH"
+    }
+  ],
+  "schema_keys": [
+    "ISO_9001",
+    "ISO_14001",
+    "ISO_45001",
+    "IATF_16949",
+    "UL",
+    "CE",
+    "RoHS",
+    "REACH",
+    "GMP",
+    "KGMP",
+    "FDA",
+    "KC",
+    "CUSTOMER_QUALITY_CERTIFICATION",
+    "SEMICONDUCTOR_QUALIFICATION"
+  ],
+  "external_signal_paths": [
+    "data\\반도체\\_sector_common\\tech_certifications\\certification_standards_external_signals.xlsx"
+  ],
+  "interpretation_policy": {
+    "missing_data_rule": "인증/표준 데이터 없음은 부정이 아니라 확인 제한으로 처리합니다.",
+    "direct_evidence_rule": "공시·IR·홈페이지·수동 CSV의 인증/승인 근거는 직접 또는 회사공시 근거로 분류합니다.",
+    "customer_gate_rule": "고객사 품질 인증과 반도체 qualification은 ISO 일반 인증보다 상용화 게이트 신호를 더 강하게 봅니다."
+  }
+}

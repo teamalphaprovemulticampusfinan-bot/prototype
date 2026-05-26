@@ -1,0 +1,300 @@
+{
+  "company_dir": "wonik_ips",
+  "company": "원익IPS",
+  "created_at": "2026-05-26T00:16:41",
+  "input_patent_csv": "C:\\Agent_6.9\\data\\반도체\\원익IPS\\tech\\source\\wonik_ips_kipris_plus_bibliographic_raw.csv",
+  "model_info": {
+    "module": "Tech ML Signal Builder",
+    "algorithm": "TF-IDF + KMeans",
+    "sklearn_available": true,
+    "purpose": "KIPRIS patent portfolio clustering, patent momentum scoring, commercialization watch signal generation"
+  },
+  "tech_ml_label": "COMMERCIALIZATION_WATCH",
+  "tech_ml_label_description": "기술 포트폴리오는 확인되지만 사업화 연결 근거는 추가 확인이 필요한 사업화 추적형입니다.",
+  "patent_ml_score": 69.53,
+  "bridge_score": 0.0,
+  "bridge_label": "",
+  "normalized_patent_records": 116,
+  "company_matched_patents": 116,
+  "registered_patents": 48,
+  "alive_patents": 42,
+  "recent_5y_patents": 45,
+  "recent_5y_ratio": 0.3879,
+  "ipc_cpc_count": 31,
+  "ipc_cpc_examples": [
+    "B01D",
+    "B08B",
+    "B23K",
+    "B25J",
+    "B65G",
+    "B66C",
+    "C23C",
+    "F16B",
+    "F16K",
+    "F16L",
+    "F17C",
+    "F27B",
+    "G01B",
+    "G01D",
+    "G02B",
+    "G02F",
+    "G03F",
+    "G09F",
+    "H01J",
+    "H01L"
+  ],
+  "h01l_patents": 1,
+  "patent_year_range": "2003~2025",
+  "technology_keyword_hits": {
+    "반도체": 29,
+    "공정": 156,
+    "디스플레이": 3,
+    "OLED": 1
+  },
+  "technology_keyword_hit_total": 189,
+  "clustering": {
+    "method": "tfidf_kmeans",
+    "sklearn_available": true,
+    "cluster_count": 8,
+    "clusters": [
+      {
+        "cluster_id": 2,
+        "size": 31,
+        "top_terms": [
+          "상기",
+          "발명은",
+          "관한",
+          "포함하는",
+          "h10p",
+          "위한",
+          "보다",
+          "기판처리장치에 관한"
+        ],
+        "sample_titles": [
+          "기판처리장치",
+          "기판처리장치",
+          "기판처리장치",
+          "봉상 구조체 설치용 브라켓 어셈블리 및 이를 포함하는 밸브 어셈블리",
+          "기판처리장치"
+        ]
+      },
+      {
+        "cluster_id": 6,
+        "size": 29,
+        "top_terms": [
+          "상기",
+          "공정",
+          "기판",
+          "가스",
+          "처리",
+          "상기 공정",
+          "상기 기판",
+          "c23c"
+        ],
+        "sample_titles": [
+          "금속 질화물 박막의 형성방법",
+          "기판 처리 방법",
+          "기판 처리 장치 및 그 운용 방법",
+          "샤워헤드 어셈블리 및 이를 포함하는 기판 처리 장치",
+          "고체 소스 공급 장치 및 이를 포함하는 반도체 장치 제조 시스템"
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "size": 14,
+        "top_terms": [
+          "복수의",
+          "기판",
+          "상기",
+          "처리",
+          "기판 처리",
+          "상기 복수의",
+          "가스",
+          "처리 장치"
+        ],
+        "sample_titles": [
+          "플라즈마 소스, 플라즈마 소스 어셈블리 및 기판 처리 장치",
+          "기판 처리 장치 및 방법",
+          "기판 처리 장치",
+          "기판 처리 장치",
+          "기판 처리 시스템 및 기판 처리 방법"
+        ]
+      },
+      {
+        "cluster_id": 3,
+        "size": 11,
+        "top_terms": [
+          "박막",
+          "증착",
+          "박막 증착",
+          "진공",
+          "제1 공정",
+          "제1",
+          "c23c",
+          "증착 장치"
+        ],
+        "sample_titles": [
+          "박막 형성 방법",
+          "원자층 증착 공정을 활용한 박막 증착방법 및 이를 위한 박막 증착장치",
+          "박막 증착 방법",
+          "박막 증착 장치, 이를 포함하는 기판 처리 시스템 및 박막 증착 방법",
+          "스토커 챔버"
+        ]
+      },
+      {
+        "cluster_id": 7,
+        "size": 9,
+        "top_terms": [
+          "200",
+          "상기",
+          "210",
+          "기판처리장치에",
+          "히터",
+          "기판처리장치에 관한",
+          "포함하는",
+          "히터 200"
+        ],
+        "sample_titles": [
+          "기판지지모듈 및 이를 포함하는 기판처리장치",
+          "기판지지장치 및 이를 포함하는 기판처리장치",
+          "도어조립체 및 이를 구비하는 기판처리장치",
+          "기판처리장치",
+          "스로틀밸브 및 그를 가지는 기판처리장치"
+        ]
+      },
+      {
+        "cluster_id": 4,
+        "size": 8,
+        "top_terms": [
+          "반도체",
+          "상기",
+          "단계",
+          "반도체 소자의",
+          "소자의",
+          "하드",
+          "실리콘",
+          "단계 상기"
+        ],
+        "sample_titles": [
+          "반도체 소자의 제조방법 및 이에 제조된 반도체 소자용 구조체",
+          "박막 증착 방법 및 이를 이용한 반도체 소자의 제조방법",
+          "쓰로틀 밸브 및 이를 포함하는 반도체 제조 장치",
+          "반도체 소자의 제조 방법",
+          "반도체 소자의 제조방법"
+        ]
+      },
+      {
+        "cluster_id": 0,
+        "size": 7,
+        "top_terms": [
+          "레이져",
+          "가공",
+          "b23k",
+          "레이져 가공",
+          "있는",
+          "상기",
+          "단위",
+          "장치"
+        ],
+        "sample_titles": [
+          "엘이디를 이용한 간판용 조명장치",
+          "비접촉식 기판 평탄화 장치와, 비접촉식 기판 평탄화 방법과, 이를 이용한 레이져 가공 시스템 및 레이져 가공 방법",
+          "이물질 흡입 장치를 갖는 레이져 가공 장치 및 레이져 가공 방법",
+          "기판 플립형 레이져 가공 장치 및 레이져 가공 방법",
+          "저온 흡착 장치를 갖는 레이져 가공 장치 및 레이져 가공 방법"
+        ]
+      },
+      {
+        "cluster_id": 5,
+        "size": 7,
+        "top_terms": [
+          "도가니부 100",
+          "도가니부",
+          "증착물질",
+          "100",
+          "리니어소스",
+          "가지는",
+          "그를 가지는",
+          "그를"
+        ],
+        "sample_titles": [
+          "노즐조립어댑터 및 그를 가지는 기판처리장치",
+          "리니어소스 및 이를 포함하는 박막증착장치",
+          "리니어소스 및 그를 가지는 기판처리장치",
+          "증발원, 증착물질 공급장치, 및 이를 포함하는 증착장치",
+          "리니어소스 및 그를 가지는 기판처리장치"
+        ]
+      }
+    ],
+    "technology_concentration_index": 0.1755,
+    "feature_count": 1500
+  },
+  "representative_patents": [
+    {
+      "title": "기판처리방법",
+      "application_date": "20240402",
+      "register_date": "20250911",
+      "register_status": "등록",
+      "ipc": "H10P 72/00|H10P 50/20|H10P 50/28|H01J 37/32",
+      "applicant": ""
+    },
+    {
+      "title": "기판지지장치 및 이를 포함하는 기판처리장치",
+      "application_date": "20220928",
+      "register_date": "20260507",
+      "register_status": "등록",
+      "ipc": "H10P 72/76|H10P 72/70|H10P 72/00|H01J 37/32|C23C 16/458",
+      "applicant": ""
+    },
+    {
+      "title": "기판처리방법",
+      "application_date": "20221208",
+      "register_date": "20260507",
+      "register_status": "등록",
+      "ipc": "H10P 14/40|H10P 14/60",
+      "applicant": ""
+    },
+    {
+      "title": "도어조립체 및 이를 구비하는 기판처리장치",
+      "application_date": "20220621",
+      "register_date": "20260105",
+      "register_status": "등록",
+      "ipc": "H10P 72/00",
+      "applicant": ""
+    },
+    {
+      "title": "기판처리방법",
+      "application_date": "20221004",
+      "register_date": "20251203",
+      "register_status": "등록",
+      "ipc": "H10D 48/00|H10B 41/27|H10B 43/27|H10P 10/00",
+      "applicant": ""
+    }
+  ],
+  "commercialization_score": 80.0,
+  "commercialization_level": "STRONG",
+  "commercialization_keyword_hits": 358,
+  "commercialization_keywords": {
+    "고객": 33,
+    "채택": 6,
+    "양산": 16,
+    "공급": 15,
+    "매출": 18,
+    "실적": 1,
+    "FCF": 4,
+    "현금흐름": 1,
+    "revenue": 1
+  },
+  "chair_reflection_points": [
+    "Tech ML 판정은 COMMERCIALIZATION_WATCH이며, 기존 Tech-to-Value Bridge 판정과 함께 기술 섹션의 보조 신호로 사용합니다.",
+    "특허 클러스터링 결과는 핵심 기술 축과 기술 포트폴리오 집중도를 설명하는 근거로 반영합니다.",
+    "최근 5년 특허와 등록·존속 가능 특허는 기술 지속성 및 진입장벽의 보조 지표로 활용합니다.",
+    "고객 채택, 양산, 매출 전환, FCF 개선 근거가 약하면 기술 점수만으로 매수 의견을 강화하지 않습니다.",
+    "기술성은 확인되지만 사업화 연결 근거를 계속 확인해야 하므로 Chair는 관찰형 보조 신호로 반영해야 합니다."
+  ],
+  "notes": [
+    "Tech ML은 특허 텍스트, 초록, IPC/CPC, 등록상태, 최근 출원 흐름을 기반으로 기술 포트폴리오를 구조화합니다.",
+    "특허 수와 클러스터 수는 기술 지속성의 보조 근거이며, 단독으로 매출 성장이나 주가 상승을 의미하지 않습니다.",
+    "사업화 판단은 고객 채택, 양산, 매출 전환, FCF 개선 근거와 함께 해석해야 합니다."
+  ]
+}

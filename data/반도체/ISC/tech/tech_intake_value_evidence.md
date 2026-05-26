@@ -1,10 +1,10 @@
 # ISC Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-20T22:31:13
+- 생성 시각: 2026-05-26T08:34:18
 - 종합 점수: 81.6/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 132개
+- 원천 문서 수: 304개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -32,18 +32,18 @@
 - [DIRECT_EVIDENCE] - 기술 우위가 확인되어도 고객 채택·양산·매출 전환·FCF 직접 근거가 약하면 보수적으로 반영합니다. (source=data/반도체/ISC/tech/_nepes_reference_schema/nepes_tech_chair_summary.md, keywords=양산, urls=http://www.w3.org/2001/XMLSchema-instance, http://www.nepes.co.kr)
 
 ### 매출 전환
-- [DIRECT_EVIDENCE] summary: ISC는 2023년 이후 매출이 꾸준히 성장하며 2025년에는 2,200억 원을 넘어섰습니다. (source=data/반도체/ISC/finance/ISC_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2023년 1,402억 원에서 2025년 2,201억 원으로 매출이 지속적으로 성장하는 추세를 보입니다. (source=data/반도체/ISC/finance/ISC_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: ISC는 2024년 매출이 24.4% 성장하며 이전 연도의 역성장에서 회복세를 보였고, 영업이익률 또한 25.7%로 크게 개선되었습니다. (source=data/반도체/ISC/finance/ISC_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] 다만, 2023년에는 매출이 21.6% 감소하며 수익성이 크게 악화되었던 점은 주목할 필요가 있습니다. (source=data/반도체/ISC/finance/ISC_finance.json, keywords=매출, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 매출 성장률이 24.4%로 이전 연도(-21.6%)의 역성장에서 벗어나 회복세를 보였습니다. (source=data/반도체/ISC/finance/ISC_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2023년 매출이 21.6% 감소하며 수익성이 크게 악화되었던 점은 향후 실적 변동 가능성을 시사합니다. (source=data/반도체/ISC/finance/ISC_finance.json, keywords=매출, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] missing_prompt_metrics: 매출성장률 (source=data/반도체/ISC/finance/ISC_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수 (source=data/반도체/ISC/finance/ISC_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] sales: 220194751972.0 (source=data/반도체/ISC/finance/ISC_finance_agent_packet.json, keywords=sales, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### 마진·원가·현금흐름 연결
-- [DIRECT_EVIDENCE] 영업이익률 또한 20% 이상으로 높은 수준을 유지하며 수익성이 개선되는 추세를 보입니다. (source=data/반도체/ISC/finance/ISC_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 영업이익률이 2023년 7.7%에서 2025년 27.3%로 크게 개선되며 수익성이 강화되었습니다. (source=data/반도체/ISC/finance/ISC_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2023년 77억 원이었던 잉여현금흐름(FCF)이 2025년 353억 원으로 증가하며 현금 창출 능력이 개선되었습니다. (source=data/반도체/ISC/finance/ISC_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] report_core_points: FCF: ISC 2025 기준 FCF 값은 35,377,885,221원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다. (source=data/반도체/ISC/finance/ISC_finance_agent_packet.json, keywords=FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] missing_prompt_metrics: 영업이익률 (source=data/반도체/ISC/finance/ISC_finance_agent_packet.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: ISC는 2024년 매출이 24.4% 성장하며 이전 연도의 역성장에서 회복세를 보였고, 영업이익률 또한 25.7%로 크게 개선되었습니다. (source=data/반도체/ISC/finance/ISC_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] 다만, 2023년에는 매출이 21.6% 감소하며 수익성이 크게 악화되었던 점은 주목할 필요가 있습니다. (source=data/반도체/ISC/finance/ISC_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 영업이익률이 25.7%로 2023년(7.7%) 대비 크게 개선되며 수익성이 회복되었습니다. (source=data/반도체/ISC/finance/ISC_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 자유현금흐름(FCF)이 390억 원으로 2023년(77억 원) 대비 크게 증가하며 현금 창출 능력이 향상되었습니다. (source=data/반도체/ISC/finance/ISC_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2023년 매출이 21.6% 감소하며 수익성이 크게 악화되었던 점은 향후 실적 변동 가능성을 시사합니다. (source=data/반도체/ISC/finance/ISC_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### IP 품질
 - [DIRECT_EVIDENCE] legal_status: status=COLLECTED, count=None, score=0.9333, signal=None (source=data/반도체/ISC/tech/isc_tech_ip_legal_features.json, keywords=legal_status, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)

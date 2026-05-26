@@ -1,0 +1,570 @@
+{
+  "agent": "issue",
+  "company_name": "제주반도체",
+  "company": "제주반도체",
+  "company_dir": "jeju_semicon",
+  "opinion": "보유",
+  "confidence": 0.5,
+  "summary": "제주반도체에 대해 검증 가능한 핵심 근거는 다음과 같습니다. news_count 값은 10count입니다. rss_count 값은 12count입니다. related_keyword_count 값은 0count입니다.",
+  "key_points": [
+    "news_count 값은 10count입니다.",
+    "rss_count 값은 12count입니다.",
+    "related_keyword_count 값은 0count입니다."
+  ],
+  "risks": [],
+  "claims": [
+    {
+      "claim_id": "issue.auto_cl.001",
+      "text": "news_count 값은 10count입니다.",
+      "evidence_ids": [
+        "issue.ev.001"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "issue.auto_cl.003",
+      "text": "rss_count 값은 12count입니다.",
+      "evidence_ids": [
+        "issue.ev.002"
+      ],
+      "claim_type": "point"
+    },
+    {
+      "claim_id": "issue.auto_cl.005",
+      "text": "related_keyword_count 값은 0count입니다.",
+      "evidence_ids": [
+        "issue.ev.003"
+      ],
+      "claim_type": "point"
+    }
+  ],
+  "evidences": [
+    {
+      "evidence_id": "issue.ev.001",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "news_count",
+      "value": 10,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | news_count | 값: 10count"
+    },
+    {
+      "evidence_id": "issue.ev.002",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "rss_count",
+      "value": 12,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | rss_count | 값: 12count"
+    },
+    {
+      "evidence_id": "issue.ev.003",
+      "source_type": "issue",
+      "source": "issue_keywords_workbook",
+      "metric": "related_keyword_count",
+      "value": 0,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_keywords_workbook | related_keyword_count | 값: 0count"
+    },
+    {
+      "evidence_id": "issue.ev.004",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Sun, 24 May 2026 00:36:00 +0900",
+      "snippet": "Naver News | Sun, 24 May 2026 00:36:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.005",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 21 May 2026 17:58:00 +0900",
+      "snippet": "Naver News | Thu, 21 May 2026 17:58:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.006",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 11:21:00 +0900",
+      "snippet": "Naver News | Tue, 19 May 2026 11:21:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.007",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 16:06:00 +0900",
+      "snippet": "Naver News | Mon, 18 May 2026 16:06:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.008",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 14 May 2026 14:28:00 +0900",
+      "snippet": "Naver News | Thu, 14 May 2026 14:28:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.009",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Fri, 22 May 2026 07:01:23 +0000",
+      "snippet": "Semiconductor Engineering | Fri, 22 May 2026 07:01:23 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.010",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 21 May 2026 16:02:35 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 16:02:35 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.011",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 21 May 2026 07:07:38 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:07:38 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.012",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 21 May 2026 07:05:20 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:05:20 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.013",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 21 May 2026 07:04:25 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:04:25 +0000 기준 rss_title | 값: 확인 불가"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "issue.ev.001",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "news_count",
+      "value": 10,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | news_count | 값: 10count"
+    },
+    {
+      "evidence_id": "issue.ev.002",
+      "source_type": "issue",
+      "source": "issue_data_collection",
+      "metric": "rss_count",
+      "value": 12,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_data_collection | rss_count | 값: 12count"
+    },
+    {
+      "evidence_id": "issue.ev.003",
+      "source_type": "issue",
+      "source": "issue_keywords_workbook",
+      "metric": "related_keyword_count",
+      "value": 0,
+      "unit": "count",
+      "period": null,
+      "snippet": "issue_keywords_workbook | related_keyword_count | 값: 0count"
+    },
+    {
+      "evidence_id": "issue.ev.004",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Sun, 24 May 2026 00:36:00 +0900",
+      "snippet": "Naver News | Sun, 24 May 2026 00:36:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.005",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 21 May 2026 17:58:00 +0900",
+      "snippet": "Naver News | Thu, 21 May 2026 17:58:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.006",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Tue, 19 May 2026 11:21:00 +0900",
+      "snippet": "Naver News | Tue, 19 May 2026 11:21:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.007",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 18 May 2026 16:06:00 +0900",
+      "snippet": "Naver News | Mon, 18 May 2026 16:06:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.008",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 14 May 2026 14:28:00 +0900",
+      "snippet": "Naver News | Thu, 14 May 2026 14:28:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.009",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Fri, 22 May 2026 07:01:23 +0000",
+      "snippet": "Semiconductor Engineering | Fri, 22 May 2026 07:01:23 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.010",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 21 May 2026 16:02:35 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 16:02:35 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.011",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 21 May 2026 07:07:38 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:07:38 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.012",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 21 May 2026 07:05:20 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:05:20 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.013",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 21 May 2026 07:04:25 +0000",
+      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:04:25 +0000 기준 rss_title | 값: 확인 불가"
+    }
+  ],
+  "fallback_used": false,
+  "warning_note": "검증 불가 claim 6개를 제거한 뒤 grounding 기준을 재검증했습니다.",
+  "raw_payload": {
+    "analysis_text": "opinion: 보유\nconfidence: 0.65\n\n1.  **핵심 이슈 요약**\n    제주반도체는 최근 국내 증시에서 반도체 업종 전반의 강세와 함께 주가 상승 흐름을 보였으나, 기관 투자자들의 순매도 대상에 포함되기도 했다. 글로벌 반도체 시장의 훈풍이 국내로 확산되는 가운데, 제주반도체 역시 이러한 흐름에 일부 편승하는 모습을 보였다. 다만, 반도체 업종 내에서도 실적 기반 성장주 중심으로 포트폴리오를 재편하려는 기관 투자자들의 움직임과 일부 종목의 차익실현 매물 출회 가능성도 함께 관찰된다.\n\n2.  **기업에 미치는 영향**\n    글로벌 반도체 시장의 전반적인 회복세와 국내 반도체 업종의 상승 모멘텀은 제주반도체에 긍정적인 영향을 미칠 수 있다. 특히 AI 반도체 관련 기술 발전 및 투자 확대 추세는 장기적으로 관련 기업들에게 기회를 제공할 수 있다. 그러나 단기적으로는 기관 투자자들의 매매 동향, 시장 변동성, 그리고 개별 기업의 실적 및 밸류에이션 부담이 주가에 영향을 미칠 수 있다.\n\n3.  **긍정 시그널**\n    *   **반도체 업종 전반의 강세:** 국내 증시에서 반도체 소부장 종목들이 상승세를 주도하며 제주반도체 역시 이에 영향을 받은 것으로 보인다. (근거: 뉴스 - \"[테크M 이슈 ] 국내 증시 시총 사상 첫 6000조 돌파…중동 전쟁에도 제 갈...\", \"[주간 코스닥 외국인] 파두 로보티즈 비츠로셀 담고 에이비엘바이오 제...\", \"[코스닥 기관] 반도체 ·우주항공 집중 매수…바이오는 차익실현\")\n    *   **글로벌 반도체 훈풍 확산:** 글로벌 반도체 시장의 긍정적인 흐름이 국내 시장으로 확산되며 관련 종목들의 주가 상승을 견인하고 있다. (근거: 뉴스 - \"[주간 코스닥 외국인] 파두 로보티즈 비츠로셀 담고 에이비엘바이오 제...\", \"[테크M 이슈 ] 국내 증시 시총 사상 첫 6000조 돌파…중동 전쟁에도 제 갈...\")\n\n4.  **부정 시그널/리스크**\n    *   **기관 투자자의 순매도:** 최근 제주반도체는 기관 투자자들의 순매도 대상에 포함되었다. 이는 단기적인 차익실현 또는 포트폴리오 재편 움직임으로 해석될 수 있다. (근거: 뉴스 - \"[주간 코스닥 외국인] 파두 로보티즈 비츠로셀 담고 에이비엘바이오 제...\")\n    *   **실적 및 밸류에이션 부담:** 일부 반도체 소재 및 장비주의 경우 실적과 밸류에이션 부담이 주가에 중요한 변수로 작용하고 있다는 분석이 있다. 제주반도체 역시 이러한 시장의 평가에서 자유롭지 않을 수 있다. (근거: 뉴스 - \"[골든크로스 종목] 필옵틱스·한울앤 제주 불기둥... 진짜 기회는 따로 있...\")\n    *   **시장 변동성:** 변동성이 큰 시장 환경 속에서 투자자들은 실적 모멘텀에 대한 기대감을 반영하는 경향이 있다. (근거: 뉴스 - \"[주간 코스닥 외국인] 파두 로보티즈 비츠로셀 담고 에이비엘바이오 제...\")\n\n5.  **향후 체크포인트**\n    *   **기관 투자자 수급 동향:** 기관 투자자들의 제주반도체에 대한 매매 패턴 변화 여부를 지속적으로 관찰해야 한다.\n    *   **개별 기업 실적 발표:** 제주반도체의 향후 실적 발표 및 가이던스가 주가에 미치는 영향을 면밀히 살펴볼 필요가 있다.\n    *   **AI 반도체 시장 동향:** AI 반도체 관련 기술 발전 및 시장 수요 변화가 제주반도체의 사업 기회에 미치는 영향을 주시해야 한다.\n    *   **반도체 업종 전반의 펀더멘털:** 삼성전자, SK하이닉스 등 주요 반도체 기업들의 실적 및 시장 전망이 제주반도체에 간접적인 영향을 미칠 수 있다.",
+    "markdown_report": "# 제주반도체 이슈 리포트\n\n## 분석 결과\nopinion: 보유\nconfidence: 0.65\n\n1.  **핵심 이슈 요약**\n    제주반도체는 최근 국내 증시에서 반도체 업종 전반의 강세와 함께 주가 상승 흐름을 보였으나, 기관 투자자들의 순매도 대상에 포함되기도 했다. 글로벌 반도체 시장의 훈풍이 국내로 확산되는 가운데, 제주반도체 역시 이러한 흐름에 일부 편승하는 모습을 보였다. 다만, 반도체 업종 내에서도 실적 기반 성장주 중심으로 포트폴리오를 재편하려는 기관 투자자들의 움직임과 일부 종목의 차익실현 매물 출회 가능성도 함께 관찰된다.\n\n2.  **기업에 미치는 영향**\n    글로벌 반도체 시장의 전반적인 회복세와 국내 반도체 업종의 상승 모멘텀은 제주반도체에 긍정적인 영향을 미칠 수 있다. 특히 AI 반도체 관련 기술 발전 및 투자 확대 추세는 장기적으로 관련 기업들에게 기회를 제공할 수 있다. 그러나 단기적으로는 기관 투자자들의 매매 동향, 시장 변동성, 그리고 개별 기업의 실적 및 밸류에이션 부담이 주가에 영향을 미칠 수 있다.\n\n3.  **긍정 시그널**\n    *   **반도체 업종 전반의 강세:** 국내 증시에서 반도체 소부장 종목들이 상승세를 주도하며 제주반도체 역시 이에 영향을 받은 것으로 보인다. (근거: 뉴스 - \"[테크M 이슈 ] 국내 증시 시총 사상 첫 6000조 돌파…중동 전쟁에도 제 갈...\", \"[주간 코스닥 외국인] 파두 로보티즈 비츠로셀 담고 에이비엘바이오 제...\", \"[코스닥 기관] 반도체 ·우주항공 집중 매수…바이오는 차익실현\")\n    *   **글로벌 반도체 훈풍 확산:** 글로벌 반도체 시장의 긍정적인 흐름이 국내 시장으로 확산되며 관련 종목들의 주가 상승을 견인하고 있다. (근거: 뉴스 - \"[주간 코스닥 외국인] 파두 로보티즈 비츠로셀 담고 에이비엘바이오 제...\", \"[테크M 이슈 ] 국내 증시 시총 사상 첫 6000조 돌파…중동 전쟁에도 제 갈...\")\n\n4.  **부정 시그널/리스크**\n    *   **기관 투자자의 순매도:** 최근 제주반도체는 기관 투자자들의 순매도 대상에 포함되었다. 이는 단기적인 차익실현 또는 포트폴리오 재편 움직임으로 해석될 수 있다. (근거: 뉴스 - \"[주간 코스닥 외국인] 파두 로보티즈 비츠로셀 담고 에이비엘바이오 제...\")\n    *   **실적 및 밸류에이션 부담:** 일부 반도체 소재 및 장비주의 경우 실적과 밸류에이션 부담이 주가에 중요한 변수로 작용하고 있다는 분석이 있다. 제주반도체 역시 이러한 시장의 평가에서 자유롭지 않을 수 있다. (근거: 뉴스 - \"[골든크로스 종목] 필옵틱스·한울앤 제주 불기둥... 진짜 기회는 따로 있...\")\n    *   **시장 변동성:** 변동성이 큰 시장 환경 속에서 투자자들은 실적 모멘텀에 대한 기대감을 반영하는 경향이 있다. (근거: 뉴스 - \"[주간 코스닥 외국인] 파두 로보티즈 비츠로셀 담고 에이비엘바이오 제...\")\n\n5.  **향후 체크포인트**\n    *   **기관 투자자 수급 동향:** 기관 투자자들의 제주반도체에 대한 매매 패턴 변화 여부를 지속적으로 관찰해야 한다.\n    *   **개별 기업 실적 발표:** 제주반도체의 향후 실적 발표 및 가이던스가 주가에 미치는 영향을 면밀히 살펴볼 필요가 있다.\n    *   **AI 반도체 시장 동향:** AI 반도체 관련 기술 발전 및 시장 수요 변화가 제주반도체의 사업 기회에 미치는 영향을 주시해야 한다.\n    *   **반도체 업종 전반의 펀더멘털:** 삼성전자, SK하이닉스 등 주요 반도체 기업들의 실적 및 시장 전망이 제주반도체에 간접적인 영향을 미칠 수 있다.\n",
+    "news_count": 10,
+    "rss_count": 12,
+    "related_keyword_count": 0,
+    "df_news_rows": 139,
+    "llm_error": null,
+    "graph_claims_original": [],
+    "removed_ungrounded_claims": [
+      "제주반도체 관련 공개 뉴스 제목: [재계 이슈 ] 미래에셋, 증권 업계 최초 '분기 순익 1조' 달성 | '한국판...",
+      "제주반도체 관련 공개 뉴스 제목: [칩칩폭폭] 마이크론 5.95%·TSMC 2.10% 하락… 반도체 주 이틀째 흔들",
+      "제주반도체 관련 공개 뉴스 제목: 키움증권, 삼성전자와 SK하이닉스 기초자산 ELS 출시 外",
+      "제주반도체 이슈 분석에서 수집된 RSS 항목 수는 12건입니다.",
+      "제주반도체 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+      "제주반도체 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다."
+    ],
+    "removed_bad_evidence_ids": [
+      "issue.ev.unverified"
+    ]
+  },
+  "packet_version": "grounded_agent_v3",
+  "pre_sanitize_grounding_check": {
+    "score": 0.0,
+    "pass": false,
+    "pass_threshold": 0.75,
+    "claim_count": 6,
+    "supported_count": 0,
+    "unsupported_count": 6,
+    "supported_claims": [],
+    "unsupported_claims": [
+      "제주반도체 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+      "제주반도체 이슈 분석에서 수집된 RSS 항목 수는 12건입니다.",
+      "제주반도체 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다.",
+      "제주반도체 관련 공개 뉴스 제목: [재계 이슈 ] 미래에셋, 증권 업계 최초 '분기 순익 1조' 달성 | '한국판...",
+      "제주반도체 관련 공개 뉴스 제목: 키움증권, 삼성전자와 SK하이닉스 기초자산 ELS 출시 外",
+      "제주반도체 관련 공개 뉴스 제목: [칩칩폭폭] 마이크론 5.95%·TSMC 2.10% 하락… 반도체 주 이틀째 흔들"
+    ],
+    "issues": [
+      "issue.cl.001: evidence와 claim 연결이 약합니다.",
+      "issue.cl.002: evidence와 claim 연결이 약합니다.",
+      "issue.cl.003: evidence와 claim 연결이 약합니다.",
+      "issue.cl.004: 숫자 불일치 또는 누락(number_ratio=0.00)",
+      "issue.cl.005: evidence와 claim 연결이 약합니다.",
+      "issue.cl.006: 숫자 불일치 또는 누락(number_ratio=0.50)"
+    ],
+    "claim_results": [
+      {
+        "claim_id": "issue.cl.001",
+        "text": "제주반도체 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.002",
+        "text": "제주반도체 이슈 분석에서 수집된 RSS 항목 수는 12건입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.003",
+        "text": "제주반도체 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": false,
+        "score": 0.8,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.004",
+        "text": "제주반도체 관련 공개 뉴스 제목: [재계 이슈 ] 미래에셋, 증권 업계 최초 '분기 순익 1조' 달성 | '한국판...",
+        "evidence_ids": [
+          "issue.ev.004"
+        ],
+        "supported": false,
+        "score": 0.25,
+        "number_ratio": 0.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "숫자 불일치 또는 누락(number_ratio=0.00)"
+      },
+      {
+        "claim_id": "issue.cl.005",
+        "text": "제주반도체 관련 공개 뉴스 제목: 키움증권, 삼성전자와 SK하이닉스 기초자산 ELS 출시 外",
+        "evidence_ids": [
+          "issue.ev.005"
+        ],
+        "supported": false,
+        "score": 0.55,
+        "number_ratio": 1.0,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "evidence와 claim 연결이 약합니다."
+      },
+      {
+        "claim_id": "issue.cl.006",
+        "text": "제주반도체 관련 공개 뉴스 제목: [칩칩폭폭] 마이크론 5.95%·TSMC 2.10% 하락… 반도체 주 이틀째 흔들",
+        "evidence_ids": [
+          "issue.ev.006"
+        ],
+        "supported": false,
+        "score": 0.525,
+        "number_ratio": 0.5,
+        "token_ratio": 0.0,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "숫자 불일치 또는 누락(number_ratio=0.50)"
+      }
+    ]
+  },
+  "post_atomic_grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 3,
+    "supported_count": 3,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "news_count 값은 10count입니다.",
+      "rss_count 값은 12count입니다.",
+      "related_keyword_count 값은 0count입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "issue.auto_cl.001",
+        "text": "news_count 값은 10count입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.003",
+        "text": "rss_count 값은 12count입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.005",
+        "text": "related_keyword_count 값은 0count입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  },
+  "grounding_check": {
+    "score": 1.0,
+    "pass": true,
+    "pass_threshold": 0.75,
+    "claim_count": 3,
+    "supported_count": 3,
+    "unsupported_count": 0,
+    "supported_claims": [
+      "news_count 값은 10count입니다.",
+      "rss_count 값은 12count입니다.",
+      "related_keyword_count 값은 0count입니다."
+    ],
+    "unsupported_claims": [],
+    "issues": [],
+    "claim_results": [
+      {
+        "claim_id": "issue.auto_cl.001",
+        "text": "news_count 값은 10count입니다.",
+        "evidence_ids": [
+          "issue.ev.001"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.003",
+        "text": "rss_count 값은 12count입니다.",
+        "evidence_ids": [
+          "issue.ev.002"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      },
+      {
+        "claim_id": "issue.auto_cl.005",
+        "text": "related_keyword_count 값은 0count입니다.",
+        "evidence_ids": [
+          "issue.ev.003"
+        ],
+        "supported": true,
+        "score": 0.8667,
+        "number_ratio": 1.0,
+        "token_ratio": 0.3333,
+        "concept_ratio": 1.0,
+        "missing_concepts": [],
+        "concept_matches": {},
+        "reason": "supported"
+      }
+    ]
+  }
+}

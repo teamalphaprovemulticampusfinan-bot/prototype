@@ -1,0 +1,192 @@
+{
+  "score": 37.0,
+  "tech_agent_raw_score": 60.0,
+  "base_signal_score": 49.0,
+  "auditor_adjusted_score": 39.0,
+  "auditor_conservative_adjustment": 21.0,
+  "grade": "TECH_FINANCE_GAP",
+  "policy": "기술 우위는 고객사 채택, 양산, 매출 전환, FCF 개선 근거와 연결될 때만 가치평가 가산 요인으로 반영한다.",
+  "interpretation": "기술·제품 근거가 가치평가 보조 근거로 쓰이려면 고객 적용, 양산, 매출/현금흐름 연결이 함께 확인되어야 합니다.",
+  "components": {
+    "commercialization_hits": 4,
+    "production_hits": 3,
+    "value_hits": 0,
+    "ip_hits": 2,
+    "official_doc_count": 21,
+    "quantitative_signal_count": 45
+  },
+  "penalties": [
+    "매출·수익성·FCF 연결 근거 부족"
+  ],
+  "evidence_samples": [
+    {
+      "snippet": "# 제주반도체 Tech Local Proxy Evidence",
+      "source_type": "local_data",
+      "source_title": "jeju_semicon_tech_local_proxy_evidence.md",
+      "source_url": "",
+      "source_path": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_tech_local_proxy_evidence.md",
+      "source_plan_matched": false,
+      "hits": [
+        "반도체"
+      ]
+    },
+    {
+      "snippet": "corp_name: \"제주반도체\"",
+      "source_type": "local_data",
+      "source_title": "company.yaml",
+      "source_url": "",
+      "source_path": "data\\반도체\\제주반도체\\_company_common\\company.yaml",
+      "source_plan_matched": false,
+      "hits": [
+        "반도체"
+      ]
+    },
+    {
+      "snippet": "# 제주반도체 Tech Local Proxy Evidence",
+      "source_type": "local_data",
+      "source_title": "jeju_semicon_tech_local_proxy_evidence.md",
+      "source_url": "",
+      "source_path": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_tech_local_proxy_evidence.md",
+      "source_plan_matched": false,
+      "hits": [
+        "반도체"
+      ]
+    },
+    {
+      "snippet": "corp_name: \"제주반도체\"",
+      "source_type": "local_data",
+      "source_title": "company.yaml",
+      "source_url": "",
+      "source_path": "data\\반도체\\제주반도체\\_company_common\\company.yaml",
+      "source_plan_matched": false,
+      "hits": [
+        "반도체"
+      ]
+    },
+    {
+      "snippet": "# 제주반도체 Tech Local Proxy Evidence",
+      "source_type": "local_data",
+      "source_title": "jeju_semicon_tech_local_proxy_evidence.md",
+      "source_url": "",
+      "source_path": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_tech_local_proxy_evidence.md",
+      "source_plan_matched": false,
+      "hits": [
+        "반도체"
+      ]
+    },
+    {
+      "snippet": "corp_name: \"제주반도체\"",
+      "source_type": "local_data",
+      "source_title": "company.yaml",
+      "source_url": "",
+      "source_path": "data\\반도체\\제주반도체\\_company_common\\company.yaml",
+      "source_plan_matched": false,
+      "hits": [
+        "반도체"
+      ]
+    },
+    {
+      "snippet": "# 제주반도체 Tech Local Proxy Evidence",
+      "source_type": "local_data",
+      "source_title": "jeju_semicon_tech_local_proxy_evidence.md",
+      "source_url": "",
+      "source_path": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_tech_local_proxy_evidence.md",
+      "source_plan_matched": false,
+      "hits": [
+        "EV"
+      ]
+    },
+    {
+      "snippet": "# 제주반도체 Tech Local Proxy Evidence",
+      "source_type": "local_data",
+      "source_title": "jeju_semicon_tech_local_proxy_evidence.md",
+      "source_url": "",
+      "source_path": "data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_tech_local_proxy_evidence.md",
+      "source_plan_matched": false,
+      "hits": [
+        "EV"
+      ]
+    }
+  ],
+  "score_before_kipris_tech_ml_adjustment": 39.0,
+  "kipris_tech_ml_features": {
+    "company_slug": "jeju_semicon",
+    "company_name": "제주반도체",
+    "field": "반도체",
+    "source_csv": "data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_patents_normalized.csv",
+    "enriched_csv": "data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_tech_ml_enriched.csv",
+    "generated_at": "2026-05-25T23:29:24",
+    "core_counts": {
+      "total_patents": 26,
+      "registered_patents_estimated": 20,
+      "alive_patents_estimated": 3,
+      "negative_disposal_patents_estimated": 23,
+      "recent_5y_application_patents": 0,
+      "h01l_core_patents": 0,
+      "semiconductor_related_ipc_patents": 3,
+      "ipc_subclass_count": 5,
+      "ipc_main_group_count": 9,
+      "tech_keyword_match_total": 42,
+      "tech_keyword_match_avg": 1.6154
+    },
+    "core_rates": {
+      "registration_rate_estimated": 0.7692,
+      "alive_rate_total_estimated": 0.1154,
+      "alive_rate_among_registered_estimated": 0.15,
+      "negative_disposal_rate_estimated": 0.8846,
+      "recent_5y_application_rate": 0.0,
+      "h01l_core_rate": 0.0,
+      "semiconductor_related_ipc_rate": 0.1154
+    },
+    "year_features": {
+      "application_year_min": 2000,
+      "application_year_max": 2015,
+      "application_year_span": 16,
+      "recent_5y_threshold": 2021
+    },
+    "scores": {
+      "legal_stability_score_estimated": 42.52,
+      "portfolio_momentum_score": 16.0,
+      "ip_technology_fit_score": 24.36,
+      "kipris_tech_ml_score": 29.12
+    },
+    "tech_to_value_bridge_adjustment": {
+      "bridge_adjustment_points": -2.0,
+      "bridge_signal": "IP_QUALITY_WEAK",
+      "usage_rule": "Add this as a conservative KIPRIS/IP feature adjustment to Tech-to-Value Bridge, but do not treat it as direct commercialization evidence."
+    },
+    "top_ipc_subclass": {
+      "G11C": 21,
+      "H10W": 2,
+      "G05F": 1,
+      "H10P": 1,
+      "H04N": 1
+    },
+    "top_ipc_main_group": {
+      "G11C 11": 10,
+      "G11C 8": 4,
+      "G11C 29": 4,
+      "G11C 7": 3,
+      "G05F 3": 1,
+      "H10P 76": 1,
+      "H10W 40": 1,
+      "H10W 10": 1,
+      "H04N 17": 1
+    },
+    "top_applicants": {},
+    "cautions": [
+      "final_disposal is not present in the source CSV, so legal status is estimated from register_status/register_number/register_date.",
+      "register_date appears unavailable or unparsable in the current source, so registration year range should not be overclaimed.",
+      "KIPRIS/IP score supports technology defensibility, but customer adoption, mass production, sales conversion, and FCF conversion must be verified separately."
+    ],
+    "_source_file": "data/반도체/제주반도체/tech/jeju_semicon_kipris_tech_ml_features.json"
+  },
+  "kipris_tech_ml_score": 29.12,
+  "legal_stability_score_estimated": 42.52,
+  "portfolio_momentum_score": 16.0,
+  "ip_technology_fit_score": 24.36,
+  "bridge_adjustment_points": -2.0,
+  "bridge_signal": "IP_QUALITY_WEAK",
+  "kipris_bridge_usage_rule": "Add this as a conservative KIPRIS/IP feature adjustment to Tech-to-Value Bridge, but do not treat it as direct commercialization evidence.",
+  "kipris_bridge_applied": true
+}

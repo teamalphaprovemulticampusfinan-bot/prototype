@@ -1,0 +1,102 @@
+{
+  "company_slug": "wonik_materials",
+  "company_name": "원익머트리얼즈",
+  "status": "OK",
+  "input_csv": "data\\반도체\\원익머트리얼즈\\tech\\wonik_materials_kipris_bibliographic_normalized.csv",
+  "family_csv": "data\\반도체\\원익머트리얼즈\\tech\\wonik_materials_kipris_family_normalized.csv",
+  "target_patent_count": 30,
+  "family_record_count": 7,
+  "patents_with_family": 4,
+  "patents_with_overseas_family": 3,
+  "overseas_family_record_count": 4,
+  "family_collection_coverage": 0.1333,
+  "overseas_family_patent_rate": 0.1,
+  "pct_patents": 2,
+  "us_patents": 1,
+  "jp_patents": 0,
+  "ep_patents": 0,
+  "cn_patents": 1,
+  "detected_overseas_regions": [
+    "CN",
+    "US",
+    "WO"
+  ],
+  "global_extension_score": 20.67,
+  "bridge_adjustment_points": -1.0,
+  "bridge_signal": "IP_GLOBAL_EXTENSION_WEAK",
+  "top_overseas_family_patents": [
+    {
+      "application_number": "1020240011930",
+      "title": "몰리브데넘 디옥시 디클로라이드의 제조방법",
+      "family_record_count": 3,
+      "overseas_family_record_count": 2,
+      "jurisdictions": [
+        "CN",
+        "KR",
+        "UNKNOWN",
+        "WO"
+      ],
+      "has_pct_or_wo": true,
+      "has_us": false,
+      "has_jp": false,
+      "has_ep": false,
+      "has_cn": true
+    },
+    {
+      "application_number": "1020200184689",
+      "title": "암모니아를 이용한 고순도 수소 제조방법, 이를 위한 제조장치 및 on-site형 모듈 시스템",
+      "family_record_count": 1,
+      "overseas_family_record_count": 1,
+      "jurisdictions": [
+        "KR",
+        "WO"
+      ],
+      "has_pct_or_wo": true,
+      "has_us": false,
+      "has_jp": false,
+      "has_ep": false,
+      "has_cn": false
+    },
+    {
+      "application_number": "1020220022761",
+      "title": "트리할로디실란의 제조 방법 및 그를 이용하는 반도체 소자의 제조 방법",
+      "family_record_count": 1,
+      "overseas_family_record_count": 1,
+      "jurisdictions": [
+        "US"
+      ],
+      "has_pct_or_wo": false,
+      "has_us": true,
+      "has_jp": false,
+      "has_ep": false,
+      "has_cn": false
+    },
+    {
+      "application_number": "1020210185401",
+      "title": "유기금속 전구체를 이용한 금속 박막 증착 방법",
+      "family_record_count": 2,
+      "overseas_family_record_count": 0,
+      "jurisdictions": [
+        "KR"
+      ],
+      "has_pct_or_wo": false,
+      "has_us": false,
+      "has_jp": false,
+      "has_ep": false,
+      "has_cn": false
+    }
+  ],
+  "usage_rule": "Use this as an IP global expansion feature in Tech-to-Value Bridge. It indicates whether the patent portfolio has overseas family extension, but it is not direct revenue or commercialization evidence.",
+  "parse_error_count": 26,
+  "raw_jsonl": "data\\반도체\\원익머트리얼즈\\tech\\source\\wonik_materials_kipris_plus_family_raw.jsonl",
+  "request_targets_csv": "data\\반도체\\원익머트리얼즈\\tech\\wonik_materials_kipris_plus_family_request_targets.csv",
+  "created_at": "2026-05-20T22:22:24",
+  "request_config": {
+    "endpoint": "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
+    "key_param": "ServiceKey",
+    "app_param": "applicationNumber",
+    "api_key": "***KEY***",
+    "timeout": 90,
+    "sleep_sec": 0.8
+  }
+}

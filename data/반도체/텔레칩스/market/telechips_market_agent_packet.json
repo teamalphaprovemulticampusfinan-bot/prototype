@@ -4,13 +4,13 @@
   "company": "텔레칩스",
   "opinion": "보유",
   "confidence": 0.45,
-  "summary": "텔레칩스에 대해 검증 가능한 핵심 근거는 다음과 같습니다. 텔레칩스 마켓 분석 total_score 값은 66점입니다. 텔레칩스 stock_data.current_price 값은 15920입니다. 텔레칩스 stock_data.change 값은 -580입니다. 텔레칩스 stock_data.change_rate 값은 -3.52%입니다. 텔레칩스 stock_data.raw.clpr 값은 15920입니다.",
+  "summary": "텔레칩스에 대해 검증 가능한 핵심 근거는 다음과 같습니다. 텔레칩스 마켓 분석 total_score 값은 66점입니다. 텔레칩스 stock_data.current_price 값은 16520입니다. 텔레칩스 stock_data.change 값은 1050입니다. 텔레칩스 stock_data.change_rate 값은 6.79%입니다. 텔레칩스 stock_data.raw.clpr 값은 16520입니다.",
   "key_points": [
     "텔레칩스 마켓 분석 total_score 값은 66점입니다.",
-    "텔레칩스 stock_data.current_price 값은 15920입니다.",
-    "텔레칩스 stock_data.change 값은 -580입니다.",
-    "텔레칩스 stock_data.change_rate 값은 -3.52%입니다.",
-    "텔레칩스 stock_data.raw.clpr 값은 15920입니다."
+    "텔레칩스 stock_data.current_price 값은 16520입니다.",
+    "텔레칩스 stock_data.change 값은 1050입니다.",
+    "텔레칩스 stock_data.change_rate 값은 6.79%입니다.",
+    "텔레칩스 stock_data.raw.clpr 값은 16520입니다."
   ],
   "risks": [],
   "claims": [
@@ -23,42 +23,42 @@
     },
     {
       "claim_id": "market.cl.002",
-      "text": "텔레칩스 stock_data.current_price 값은 15920입니다.",
+      "text": "텔레칩스 stock_data.current_price 값은 16520입니다.",
       "evidence_ids": [
         "market.ev.006"
       ]
     },
     {
       "claim_id": "market.cl.003",
-      "text": "텔레칩스 stock_data.change 값은 -580입니다.",
+      "text": "텔레칩스 stock_data.change 값은 1050입니다.",
       "evidence_ids": [
         "market.ev.009"
       ]
     },
     {
       "claim_id": "market.cl.004",
-      "text": "텔레칩스 stock_data.change_rate 값은 -3.52%입니다.",
+      "text": "텔레칩스 stock_data.change_rate 값은 6.79%입니다.",
       "evidence_ids": [
         "market.ev.010"
       ]
     },
     {
       "claim_id": "market.cl.005",
-      "text": "텔레칩스 stock_data.raw.clpr 값은 15920입니다.",
+      "text": "텔레칩스 stock_data.raw.clpr 값은 16520입니다.",
       "evidence_ids": [
         "market.ev.016"
       ]
     },
     {
       "claim_id": "market.cl.006",
-      "text": "텔레칩스 stock_data.raw.vs 값은 -580입니다.",
+      "text": "텔레칩스 stock_data.raw.vs 값은 1050입니다.",
       "evidence_ids": [
         "market.ev.017"
       ]
     },
     {
       "claim_id": "market.auto_cl.007",
-      "text": "stock_data.raw.fltRt 값은 -3.52%입니다.",
+      "text": "stock_data.raw.fltRt 값은 6.79%입니다.",
       "evidence_ids": [
         "market.ev.018"
       ],
@@ -66,7 +66,7 @@
     },
     {
       "claim_id": "market.auto_cl.009",
-      "text": "stock_data.raw.mkp 값은 16,170입니다.",
+      "text": "stock_data.raw.mkp 값은 15,810입니다.",
       "evidence_ids": [
         "market.ev.019"
       ],
@@ -74,7 +74,7 @@
     },
     {
       "claim_id": "market.auto_cl.011",
-      "text": "stock_data.raw.hipr 값은 16,300입니다.",
+      "text": "stock_data.raw.hipr 값은 16,780입니다.",
       "evidence_ids": [
         "market.ev.020"
       ],
@@ -137,10 +137,10 @@
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.current_price",
-      "value": 15920,
+      "value": 16520,
       "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.current_price | 값: 15,920원"
+      "snippet": "stock_data | stock_data.current_price | 값: 16,520원"
     },
     {
       "evidence_id": "market.ev.007",
@@ -167,20 +167,20 @@
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.change",
-      "value": -580,
+      "value": 1050,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.change | 값: -580"
+      "snippet": "stock_data | stock_data.change | 값: 1,050"
     },
     {
       "evidence_id": "market.ev.010",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.change_rate",
-      "value": -3.52,
+      "value": 6.79,
       "unit": "%",
       "period": null,
-      "snippet": "stock_data | stock_data.change_rate | 값: -3.52%"
+      "snippet": "stock_data | stock_data.change_rate | 값: 6.79%"
     },
     {
       "evidence_id": "market.ev.011",
@@ -237,50 +237,50 @@
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.clpr",
-      "value": 15920,
+      "value": 16520,
       "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.clpr | 값: 15,920원"
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 16,520원"
     },
     {
       "evidence_id": "market.ev.017",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.vs",
-      "value": -580,
+      "value": 1050,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.vs | 값: -580"
+      "snippet": "stock_data | stock_data.raw.vs | 값: 1,050"
     },
     {
       "evidence_id": "market.ev.018",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.fltRt",
-      "value": -3.52,
+      "value": 6.79,
       "unit": "%",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.fltRt | 값: -3.52%"
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: 6.79%"
     },
     {
       "evidence_id": "market.ev.019",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.mkp",
-      "value": 16170,
+      "value": 15810,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.mkp | 값: 16,170"
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 15,810"
     },
     {
       "evidence_id": "market.ev.020",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.hipr",
-      "value": 16300,
+      "value": 16780,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.hipr | 값: 16,300"
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 16,780"
     }
   ],
   "evidence": [
@@ -339,10 +339,10 @@
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.current_price",
-      "value": 15920,
+      "value": 16520,
       "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.current_price | 값: 15,920원"
+      "snippet": "stock_data | stock_data.current_price | 값: 16,520원"
     },
     {
       "evidence_id": "market.ev.007",
@@ -369,20 +369,20 @@
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.change",
-      "value": -580,
+      "value": 1050,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.change | 값: -580"
+      "snippet": "stock_data | stock_data.change | 값: 1,050"
     },
     {
       "evidence_id": "market.ev.010",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.change_rate",
-      "value": -3.52,
+      "value": 6.79,
       "unit": "%",
       "period": null,
-      "snippet": "stock_data | stock_data.change_rate | 값: -3.52%"
+      "snippet": "stock_data | stock_data.change_rate | 값: 6.79%"
     },
     {
       "evidence_id": "market.ev.011",
@@ -439,284 +439,99 @@
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.clpr",
-      "value": 15920,
+      "value": 16520,
       "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.clpr | 값: 15,920원"
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 16,520원"
     },
     {
       "evidence_id": "market.ev.017",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.vs",
-      "value": -580,
+      "value": 1050,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.vs | 값: -580"
+      "snippet": "stock_data | stock_data.raw.vs | 값: 1,050"
     },
     {
       "evidence_id": "market.ev.018",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.fltRt",
-      "value": -3.52,
+      "value": 6.79,
       "unit": "%",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.fltRt | 값: -3.52%"
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: 6.79%"
     },
     {
       "evidence_id": "market.ev.019",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.mkp",
-      "value": 16170,
+      "value": 15810,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.mkp | 값: 16,170"
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 15,810"
     },
     {
       "evidence_id": "market.ev.020",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.hipr",
-      "value": 16300,
+      "value": 16780,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.hipr | 값: 16,300"
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 16,780"
     }
   ],
   "raw_payload": {
     "analysis": {
-      "agent": "market",
       "company": "텔레칩스",
       "opinion": "보유",
-      "confidence": 0.6,
-      "market_summary": {
-        "oecd_interpretation": "OECD 경기선행지수가 98.01로 기준선(100) 하회하며 경기 둔화 가능성을 시사합니다. 이는 전반적인 투자 심리에 부정적인 영향을 줄 수 있습니다.",
-        "industry_stage": "텔레칩스가 속한 반도체 산업은 AI·HBM 분야는 성장기 초입이나, 레거시 반도체는 쇠퇴기에 접어드는 등 세그먼트별로 상이한 성장 단계를 보입니다. 전반적인 산업 성장은 기대되나, 기업별 포지션에 따라 차이가 클 것으로 예상됩니다.",
-        "value_chain_position": "텔레칩스는 팹리스/설계 기업으로, 다양한 애플리케이션 제품을 위한 핵심 Chip 및 Total Solution 개발에 주력하고 있습니다. 특히 인텔리전트 오토모티브 산업 분야에 특화된 AP 제품 고도화에 집중하는 점은 긍정적이나, 밸류체인 내에서의 직접적인 수요 증가 수혜는 제한적일 수 있습니다.",
-        "competitive_position": "반도체 산업 내 경쟁 강도는 '높음'으로 평가됩니다. 텔레칩스는 다양한 어플리케이션 제품을 위한 Chip 및 Total Solution 개발에 주력하며 차별화를 시도하고 있으나, 글로벌 경쟁사 대비 구체적인 점유율이나 기술 경쟁력에 대한 정보는 부족합니다.",
-        "market_momentum": "주가는 15,920원으로 전일 대비 3.52% 하락했습니다. 52주 고가 및 저가 정보가 없어 현재 주가 위치를 판단하기 어렵습니다. 전반적인 시장 모멘텀은 반도체 업황 회복 기대감과 삼성전자 노사 이슈 등 복합적인 요인으로 인해 변동성이 클 것으로 예상됩니다."
-      },
-      "qualitative_rubric": {
-        "macro_cycle": {
-          "assessment": "중",
-          "reason": "OECD 경기선행지수가 기준선 하회하며 경기 둔화 가능성을 시사하나, 반도체 산업 자체의 성장 동력은 존재합니다."
-        },
-        "industry_attractiveness": {
-          "assessment": "상",
-          "reason": "AI·HBM 등 특정 반도체 세그먼트의 높은 성장률과 전반적인 반도체 시장의 30% 증가 예상은 산업 매력도를 높입니다."
-        },
-        "value_chain_position": {
-          "assessment": "중",
-          "reason": "팹리스/설계 기업으로서 특정 분야에 특화된 솔루션 개발에 집중하는 점은 긍정적이나, 밸류체인 내 직접적인 수요 증가 수혜는 제한적일 수 있습니다."
-        },
-        "competitive_position": {
-          "assessment": "중",
-          "reason": "경쟁 강도가 높으며, 텔레칩스의 구체적인 경쟁 우위 및 시장 점유율에 대한 정보가 부족합니다."
-        },
-        "market_momentum": {
-          "assessment": "중",
-          "reason": "최근 주가 하락이 있었으나, 반도체 업황 회복 기대감 등 긍정적 요인과 삼성전자 노사 이슈 등 부정적 요인이 혼재하여 방향성 판단이 어렵습니다."
-        },
-        "policy_disclosure_signal": {
-          "assessment": "상",
-          "reason": "정부의 R&D 지원 확대, 세액공제 등 반도체 산업 육성 정책은 긍정적 신호입니다. DART 공시에서 팹리스/설계 사업 모델과 오토모티브 AP 특화 전략을 명확히 하고 있습니다."
-        },
-        "downside_risk": {
-          "assessment": "중",
-          "reason": "삼성전자 노사 이슈로 인한 반도체 생산 차질 가능성은 공급망 리스크를 야기할 수 있습니다. 또한, 경쟁 심화 및 경기 둔화 가능성도 잠재적 하방 리스크입니다."
-        }
-      },
-      "bwm_assessment": {
-        "best_criterion": "Industry Attractiveness",
-        "worst_criterion": "Competitive Position",
-        "judgment_effect": "산업의 높은 성장성은 긍정적이나, 경쟁 구도에서의 불확실성이 투자의견 결정에 보수적인 영향을 미칩니다."
-      },
+      "confidence": 0.8,
+      "summary": "반도체 산업의 높은 성장성과 정부 정책 지원은 텔레칩스에 긍정적이나, 경쟁 심화 및 삼성전자 노사 이슈 등 불확실성이 존재합니다. 따라서 현재 시점에서는 '보유' 의견을 제시하며 시장 상황을 관망하는 것이 합리적입니다.",
+      "total_score": 66,
       "scoring": {
         "거시환경": {
           "score": 12,
-          "max": 20,
-          "reason": "OECD 경기선행지수 하회는 부정적이나, 반도체 산업 자체의 성장 동력은 존재합니다."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "산업매력도": {
           "score": 18,
-          "max": 20,
-          "reason": "AI·HBM 등 특정 세그먼트의 높은 성장률과 전반적인 시장 성장 전망이 매우 긍정적입니다."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "경쟁위치": {
           "score": 10,
-          "max": 20,
-          "reason": "경쟁 강도가 높고, 기업의 구체적인 경쟁 우위에 대한 정보가 부족하여 중간 평가를 부여합니다."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "정책수혜": {
           "score": 16,
-          "max": 20,
-          "reason": "정부의 적극적인 반도체 산업 육성 정책과 DART 공시를 통한 사업 전략 명확성은 긍정적입니다."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "시장모멘텀": {
           "score": 10,
-          "max": 20,
-          "reason": "최근 주가 하락과 복합적인 시장 이슈로 인해 현재 모멘텀 판단이 어렵습니다."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         }
       },
-      "total_score": 66,
-      "claims": [
-        {
-          "claim_id": "market.cl.001",
-          "text": "반도체 산업의 높은 성장성과 정부의 정책 지원은 텔레칩스에 긍정적인 기회를 제공합니다.",
-          "evidence_ids": [
-            "market.ev.002",
-            "market.ev.005"
-          ]
-        },
-        {
-          "claim_id": "market.cl.002",
-          "text": "삼성전자 노사 이슈는 반도체 공급망에 불확실성을 야기할 수 있습니다.",
-          "evidence_ids": [
-            "market.ev.003"
-          ]
-        },
-        {
-          "claim_id": "market.cl.003",
-          "text": "텔레칩스는 팹리스/설계 기업으로서 오토모티브 AP 분야에 특화된 전략을 가지고 있습니다.",
-          "evidence_ids": [
-            "market.ev.006"
-          ]
-        }
-      ],
-      "evidences": [
-        {
-          "evidence_id": "market.ev.001",
-          "source_type": "oecd",
-          "source": "oecd",
-          "metric": "G20",
-          "value": 98.01,
-          "unit": null,
-          "period": "최신",
-          "snippet": "OECD 경기선행지수 (최신): {\"G20\": 98.01, \"한국\": 98.01, \"미국\": 98.01, \"중국\": 98.01}"
-        },
-        {
-          "evidence_id": "market.ev.002",
-          "source_type": "static",
-          "source": "static",
-          "metric": "반도체 시장 성장률",
-          "value": 30,
-          "unit": "%",
-          "period": "올해",
-          "snippet": "반도체 올해 전세계 시장 약 30% 증가 예상"
-        },
-        {
-          "evidence_id": "market.ev.003",
-          "source_type": "news",
-          "source": "Naver News",
-          "metric": null,
-          "value": null,
-          "unit": null,
-          "period": "Wed, 20 May 2026",
-          "snippet": "삼성전자 노사 협상 끝내 결렬…노조, 21일부터 18일간 총파업 돌입"
-        },
-        {
-          "evidence_id": "market.ev.004",
-          "source_type": "stock",
-          "source": "public_data",
-          "metric": "current_price",
-          "value": 15920,
-          "unit": "KRW",
-          "period": "20260519",
-          "snippet": "{\"provider\": \"public_data\", \"company\": \"텔레칩스\", \"ticker\": \"054450.KQ\", \"krx_code\": \"054450\", \"current_price\": 15920, \"currency\": \"KRW\", \"as_of\": \"20260519\", \"change\": -580, \"change_rate\": -3.52, \"warning_stock\": \"\", \"raw\": {\"basDt\": \"20260519\", \"srtnCd\": \"054450\", \"isinCd\": \"KR7054450002\", \"itmsNm\": \"텔레칩스\", \"mrktCtg\": \"KOSDAQ\", \"clpr\": \"15920\", \"vs\": \"-580\", \"fltRt\": \"-3.52\", \"mkp\": \"16170\", \"hipr\": \"16300\", \"lopr\": \"15250\", \"trqu\": \"323693\", \"trPrc\": \"5078427170\", \"lstgStCnt\": \"15144233\", \"mrktTotAmt\": \"241096189360\"}}"
-        },
-        {
-          "evidence_id": "market.ev.005",
-          "source_type": "static",
-          "source": "static",
-          "metric": "R&D 지원 확대",
-          "value": null,
-          "unit": null,
-          "period": null,
-          "snippet": "세액공제 직접환급 및 이월공제기간 연장 검토, 국민성장펀드 금융 지원 강화, R&D 지원 확대, 으뜸효율 환급사업"
-        },
-        {
-          "evidence_id": "market.ev.006",
-          "source_type": "dart",
-          "source": "DART",
-          "metric": "vc_role",
-          "value": "팹리스/설계",
-          "unit": null,
-          "period": null,
-          "snippet": "{\"vc_role\": \"팹리스/설계\", \"direct_flag\": \"Y\", \"platform_flag\": \"N\", \"domestic_peers\": null, \"global_peers\": null, \"competition_intensity\": \"높음\", \"differentiation\": \"당사는 다양한 어플리케이션 제품을 위한 핵심 Chip 및 Total Solution의 개발과 판매에 주력하고 있습니다. 특히 인텔리전트 오토모티브 산업분야에 특화된 AP 제품의 고도화에 집중하고 있습니다.\", \"confidence\": \"high\", \"evidence_summary\": \"사업 개요에서 멀티미디어와 통신 관련 시장의 다양한 어플리케이션 제품을 위한 Chip 및 Total Solution 개발 및 판매를 주요 사업으로 언급함.\", \"company_name\": \"텔레칩스\", \"rcept_no\": \"20241114001072\", \"updated_at\": \"2026-05-20T12:00:39.931835\"}"
-        }
-      ],
+      "market_environment": {
+        "oecd_cli": "",
+        "industry_stage": "{'마켓점수': {'기업명': '텔레칩스', '투자의견': '보유', '총점': '66', '거시환경': '12', '산업매력도': '18', '경쟁위치': '10', '정책수혜': '16', '시장모멘텀': '10', '요약': \"반도체 산업의 높은 성장성과 정부 정책 지원은 텔레칩스에 긍정적이나, 경쟁 심화 및 삼성전자 노사 이슈 등 불확실성이 존재합니다. 따라서 현재 시점에서는 '보유' 의견을 제시하며 시장 상황을 관망하는 것이 합리적입니다.\"}}",
+        "value_chain_position": "후공정/패키징/테스트",
+        "competition": ""
+      },
       "risks": [
-        {
-          "risk": "삼성전자 노사 이슈로 인한 반도체 생산 차질 및 공급망 불확실성 확대",
-          "severity": "중",
-          "basis": "뉴스 데이터"
-        },
-        {
-          "risk": "높은 경쟁 강도 및 텔레칩스의 구체적인 경쟁 우위 부족",
-          "severity": "중",
-          "basis": "DART 공시 및 밸류체인 데이터"
-        },
-        {
-          "risk": "OECD 경기선행지수 하회로 인한 전반적인 경기 둔화 가능성",
-          "severity": "중",
-          "basis": "OECD 데이터"
-        }
+        "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 133 column 6 (char 4167)",
+        "밸류체인 위치 확인: 후공정/패키징/테스트"
       ],
-      "opportunities": [
-        {
-          "opportunity": "AI·HBM 등 고성장 반도체 세그먼트의 시장 확대",
-          "basis": "밸류체인 데이터"
-        },
-        {
-          "opportunity": "정부의 R&D 지원 확대 등 반도체 산업 육성 정책 수혜",
-          "basis": "밸류체인 데이터"
-        },
-        {
-          "opportunity": "인텔리전트 오토모티브 산업 분야 특화 AP 제품의 성장 가능성",
-          "basis": "DART 공시"
-        }
-      ],
-      "summary": "반도체 산업의 높은 성장성과 정부 정책 지원은 텔레칩스에 긍정적이나, 경쟁 심화 및 삼성전자 노사 이슈 등 불확실성이 존재합니다. 따라서 현재 시점에서는 '보유' 의견을 제시하며 시장 상황을 관망하는 것이 합리적입니다.",
-      "raw_payload": {
-        "stock_used": true,
-        "oecd_used": true,
-        "static_used": true,
-        "news_used": true,
-        "dart_used": true
-      }
+      "opportunities": [],
+      "error": "Expecting ',' delimiter: line 133 column 6 (char 4167)",
+      "fallback_source": "market_final_static_data"
     },
-    "original_opportunities": [
-      {
-        "opportunity": "AI·HBM 등 고성장 반도체 세그먼트의 시장 확대",
-        "basis": "밸류체인 데이터"
-      },
-      {
-        "opportunity": "정부의 R&D 지원 확대 등 반도체 산업 육성 정책 수혜",
-        "basis": "밸류체인 데이터"
-      },
-      {
-        "opportunity": "인텔리전트 오토모티브 산업 분야 특화 AP 제품의 성장 가능성",
-        "basis": "DART 공시"
-      }
-    ],
+    "original_opportunities": [],
     "original_risks": [
-      {
-        "risk": "삼성전자 노사 이슈로 인한 반도체 생산 차질 및 공급망 불확실성 확대",
-        "severity": "중",
-        "basis": "뉴스 데이터"
-      },
-      {
-        "risk": "높은 경쟁 강도 및 텔레칩스의 구체적인 경쟁 우위 부족",
-        "severity": "중",
-        "basis": "DART 공시 및 밸류체인 데이터"
-      },
-      {
-        "risk": "OECD 경기선행지수 하회로 인한 전반적인 경기 둔화 가능성",
-        "severity": "중",
-        "basis": "OECD 데이터"
-      }
+      "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 133 column 6 (char 4167)",
+      "밸류체인 위치 확인: 후공정/패키징/테스트"
     ],
     "removed_bad_evidence_ids": [
       "market.ev.unverified"
@@ -726,28 +541,23 @@
   "scoring": {
     "거시환경": {
       "score": 12,
-      "max": 20,
-      "reason": "OECD 경기선행지수 하회는 부정적이나, 반도체 산업 자체의 성장 동력은 존재합니다."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "산업매력도": {
       "score": 18,
-      "max": 20,
-      "reason": "AI·HBM 등 특정 세그먼트의 높은 성장률과 전반적인 시장 성장 전망이 매우 긍정적입니다."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "경쟁위치": {
       "score": 10,
-      "max": 20,
-      "reason": "경쟁 강도가 높고, 기업의 구체적인 경쟁 우위에 대한 정보가 부족하여 중간 평가를 부여합니다."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "정책수혜": {
       "score": 16,
-      "max": 20,
-      "reason": "정부의 적극적인 반도체 산업 육성 정책과 DART 공시를 통한 사업 전략 명확성은 긍정적입니다."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "시장모멘텀": {
       "score": 10,
-      "max": 20,
-      "reason": "최근 주가 하락과 복합적인 시장 이슈로 인해 현재 모멘텀 판단이 어렵습니다."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     }
   },
   "packet_version": "grounded_agent_v3",
@@ -760,11 +570,11 @@
     "unsupported_count": 0,
     "supported_claims": [
       "텔레칩스 마켓 분석 total_score 값은 66점입니다.",
-      "텔레칩스 stock_data.current_price 값은 15920입니다.",
-      "텔레칩스 stock_data.change 값은 -580입니다.",
-      "텔레칩스 stock_data.change_rate 값은 -3.52%입니다.",
-      "텔레칩스 stock_data.raw.clpr 값은 15920입니다.",
-      "텔레칩스 stock_data.raw.vs 값은 -580입니다."
+      "텔레칩스 stock_data.current_price 값은 16520입니다.",
+      "텔레칩스 stock_data.change 값은 1050입니다.",
+      "텔레칩스 stock_data.change_rate 값은 6.79%입니다.",
+      "텔레칩스 stock_data.raw.clpr 값은 16520입니다.",
+      "텔레칩스 stock_data.raw.vs 값은 1050입니다."
     ],
     "unsupported_claims": [],
     "issues": [],
@@ -786,7 +596,7 @@
       },
       {
         "claim_id": "market.cl.002",
-        "text": "텔레칩스 stock_data.current_price 값은 15920입니다.",
+        "text": "텔레칩스 stock_data.current_price 값은 16520입니다.",
         "evidence_ids": [
           "market.ev.006"
         ],
@@ -805,7 +615,7 @@
       },
       {
         "claim_id": "market.cl.003",
-        "text": "텔레칩스 stock_data.change 값은 -580입니다.",
+        "text": "텔레칩스 stock_data.change 값은 1050입니다.",
         "evidence_ids": [
           "market.ev.009"
         ],
@@ -820,7 +630,7 @@
       },
       {
         "claim_id": "market.cl.004",
-        "text": "텔레칩스 stock_data.change_rate 값은 -3.52%입니다.",
+        "text": "텔레칩스 stock_data.change_rate 값은 6.79%입니다.",
         "evidence_ids": [
           "market.ev.010"
         ],
@@ -835,7 +645,7 @@
       },
       {
         "claim_id": "market.cl.005",
-        "text": "텔레칩스 stock_data.raw.clpr 값은 15920입니다.",
+        "text": "텔레칩스 stock_data.raw.clpr 값은 16520입니다.",
         "evidence_ids": [
           "market.ev.016"
         ],
@@ -850,7 +660,7 @@
       },
       {
         "claim_id": "market.cl.006",
-        "text": "텔레칩스 stock_data.raw.vs 값은 -580입니다.",
+        "text": "텔레칩스 stock_data.raw.vs 값은 1050입니다.",
         "evidence_ids": [
           "market.ev.017"
         ],
@@ -874,14 +684,14 @@
     "unsupported_count": 0,
     "supported_claims": [
       "텔레칩스 마켓 분석 total_score 값은 66점입니다.",
-      "텔레칩스 stock_data.current_price 값은 15920입니다.",
-      "텔레칩스 stock_data.change 값은 -580입니다.",
-      "텔레칩스 stock_data.change_rate 값은 -3.52%입니다.",
-      "텔레칩스 stock_data.raw.clpr 값은 15920입니다.",
-      "텔레칩스 stock_data.raw.vs 값은 -580입니다.",
-      "stock_data.raw.fltRt 값은 -3.52%입니다.",
-      "stock_data.raw.mkp 값은 16,170입니다.",
-      "stock_data.raw.hipr 값은 16,300입니다."
+      "텔레칩스 stock_data.current_price 값은 16520입니다.",
+      "텔레칩스 stock_data.change 값은 1050입니다.",
+      "텔레칩스 stock_data.change_rate 값은 6.79%입니다.",
+      "텔레칩스 stock_data.raw.clpr 값은 16520입니다.",
+      "텔레칩스 stock_data.raw.vs 값은 1050입니다.",
+      "stock_data.raw.fltRt 값은 6.79%입니다.",
+      "stock_data.raw.mkp 값은 15,810입니다.",
+      "stock_data.raw.hipr 값은 16,780입니다."
     ],
     "unsupported_claims": [],
     "issues": [],
@@ -903,7 +713,7 @@
       },
       {
         "claim_id": "market.cl.002",
-        "text": "텔레칩스 stock_data.current_price 값은 15920입니다.",
+        "text": "텔레칩스 stock_data.current_price 값은 16520입니다.",
         "evidence_ids": [
           "market.ev.006"
         ],
@@ -922,7 +732,7 @@
       },
       {
         "claim_id": "market.cl.003",
-        "text": "텔레칩스 stock_data.change 값은 -580입니다.",
+        "text": "텔레칩스 stock_data.change 값은 1050입니다.",
         "evidence_ids": [
           "market.ev.009"
         ],
@@ -937,7 +747,7 @@
       },
       {
         "claim_id": "market.cl.004",
-        "text": "텔레칩스 stock_data.change_rate 값은 -3.52%입니다.",
+        "text": "텔레칩스 stock_data.change_rate 값은 6.79%입니다.",
         "evidence_ids": [
           "market.ev.010"
         ],
@@ -952,7 +762,7 @@
       },
       {
         "claim_id": "market.cl.005",
-        "text": "텔레칩스 stock_data.raw.clpr 값은 15920입니다.",
+        "text": "텔레칩스 stock_data.raw.clpr 값은 16520입니다.",
         "evidence_ids": [
           "market.ev.016"
         ],
@@ -967,7 +777,7 @@
       },
       {
         "claim_id": "market.cl.006",
-        "text": "텔레칩스 stock_data.raw.vs 값은 -580입니다.",
+        "text": "텔레칩스 stock_data.raw.vs 값은 1050입니다.",
         "evidence_ids": [
           "market.ev.017"
         ],
@@ -982,7 +792,7 @@
       },
       {
         "claim_id": "market.auto_cl.007",
-        "text": "stock_data.raw.fltRt 값은 -3.52%입니다.",
+        "text": "stock_data.raw.fltRt 값은 6.79%입니다.",
         "evidence_ids": [
           "market.ev.018"
         ],
@@ -997,7 +807,7 @@
       },
       {
         "claim_id": "market.auto_cl.009",
-        "text": "stock_data.raw.mkp 값은 16,170입니다.",
+        "text": "stock_data.raw.mkp 값은 15,810입니다.",
         "evidence_ids": [
           "market.ev.019"
         ],
@@ -1012,7 +822,7 @@
       },
       {
         "claim_id": "market.auto_cl.011",
-        "text": "stock_data.raw.hipr 값은 16,300입니다.",
+        "text": "stock_data.raw.hipr 값은 16,780입니다.",
         "evidence_ids": [
           "market.ev.020"
         ],
@@ -1036,14 +846,14 @@
     "unsupported_count": 0,
     "supported_claims": [
       "텔레칩스 마켓 분석 total_score 값은 66점입니다.",
-      "텔레칩스 stock_data.current_price 값은 15920입니다.",
-      "텔레칩스 stock_data.change 값은 -580입니다.",
-      "텔레칩스 stock_data.change_rate 값은 -3.52%입니다.",
-      "텔레칩스 stock_data.raw.clpr 값은 15920입니다.",
-      "텔레칩스 stock_data.raw.vs 값은 -580입니다.",
-      "stock_data.raw.fltRt 값은 -3.52%입니다.",
-      "stock_data.raw.mkp 값은 16,170입니다.",
-      "stock_data.raw.hipr 값은 16,300입니다."
+      "텔레칩스 stock_data.current_price 값은 16520입니다.",
+      "텔레칩스 stock_data.change 값은 1050입니다.",
+      "텔레칩스 stock_data.change_rate 값은 6.79%입니다.",
+      "텔레칩스 stock_data.raw.clpr 값은 16520입니다.",
+      "텔레칩스 stock_data.raw.vs 값은 1050입니다.",
+      "stock_data.raw.fltRt 값은 6.79%입니다.",
+      "stock_data.raw.mkp 값은 15,810입니다.",
+      "stock_data.raw.hipr 값은 16,780입니다."
     ],
     "unsupported_claims": [],
     "issues": [],
@@ -1065,7 +875,7 @@
       },
       {
         "claim_id": "market.cl.002",
-        "text": "텔레칩스 stock_data.current_price 값은 15920입니다.",
+        "text": "텔레칩스 stock_data.current_price 값은 16520입니다.",
         "evidence_ids": [
           "market.ev.006"
         ],
@@ -1084,7 +894,7 @@
       },
       {
         "claim_id": "market.cl.003",
-        "text": "텔레칩스 stock_data.change 값은 -580입니다.",
+        "text": "텔레칩스 stock_data.change 값은 1050입니다.",
         "evidence_ids": [
           "market.ev.009"
         ],
@@ -1099,7 +909,7 @@
       },
       {
         "claim_id": "market.cl.004",
-        "text": "텔레칩스 stock_data.change_rate 값은 -3.52%입니다.",
+        "text": "텔레칩스 stock_data.change_rate 값은 6.79%입니다.",
         "evidence_ids": [
           "market.ev.010"
         ],
@@ -1114,7 +924,7 @@
       },
       {
         "claim_id": "market.cl.005",
-        "text": "텔레칩스 stock_data.raw.clpr 값은 15920입니다.",
+        "text": "텔레칩스 stock_data.raw.clpr 값은 16520입니다.",
         "evidence_ids": [
           "market.ev.016"
         ],
@@ -1129,7 +939,7 @@
       },
       {
         "claim_id": "market.cl.006",
-        "text": "텔레칩스 stock_data.raw.vs 값은 -580입니다.",
+        "text": "텔레칩스 stock_data.raw.vs 값은 1050입니다.",
         "evidence_ids": [
           "market.ev.017"
         ],
@@ -1144,7 +954,7 @@
       },
       {
         "claim_id": "market.auto_cl.007",
-        "text": "stock_data.raw.fltRt 값은 -3.52%입니다.",
+        "text": "stock_data.raw.fltRt 값은 6.79%입니다.",
         "evidence_ids": [
           "market.ev.018"
         ],
@@ -1159,7 +969,7 @@
       },
       {
         "claim_id": "market.auto_cl.009",
-        "text": "stock_data.raw.mkp 값은 16,170입니다.",
+        "text": "stock_data.raw.mkp 값은 15,810입니다.",
         "evidence_ids": [
           "market.ev.019"
         ],
@@ -1174,7 +984,7 @@
       },
       {
         "claim_id": "market.auto_cl.011",
-        "text": "stock_data.raw.hipr 값은 16,300입니다.",
+        "text": "stock_data.raw.hipr 값은 16,780입니다.",
         "evidence_ids": [
           "market.ev.020"
         ],

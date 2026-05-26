@@ -1,10 +1,10 @@
 # SFA반도체 Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-25T16:30:12
+- 생성 시각: 2026-05-26T08:51:14
 - 종합 점수: 78.32/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 155개
+- 원천 문서 수: 159개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -32,18 +32,18 @@
 - [DIRECT_EVIDENCE] - 기술 우위가 확인되어도 고객 채택·양산·매출 전환·FCF 직접 근거가 약하면 보수적으로 반영합니다. (source=data/반도체/SFA반도체/tech/_nepes_reference_schema/nepes_tech_chair_summary.md, keywords=양산, urls=http://www.w3.org/2001/XMLSchema-instance, http://www.nepes.co.kr)
 
 ### 매출 전환
-- [DIRECT_EVIDENCE] 다만, 2024년 매출은 감소세를 기록했으며, 최근 1개월 주가 데이터에서는 변동성이 높은 흐름이 관찰됩니다. (source=data/반도체/SFA반도체/finance/SFA반도체_finance.json, keywords=매출, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_risks: 2024년 매출성장률이 -8.48%로 감소세를 보였으며, 향후 매출 회복 여부가 중요합니다. (source=data/반도체/SFA반도체/finance/SFA반도체_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: SFA반도체는 2023년 매출이 큰 폭으로 감소하며 영업이익이 적자 전환되었으나, 2024년에는 매출 감소세가 둔화되고 순이익이 흑자 전환되는 등 수익성 개선 조짐을 보이고 있습니다. (source=data/반도체/SFA반도체/finance/SFA반도체_finance.json, keywords=매출, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2023년 매출 감소폭(-37.44%) 대비 2024년 매출 감소폭(-8.48%)이 둔화되었습니다. (source=data/반도체/SFA반도체/finance/SFA반도체_finance.json, keywords=매출, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] missing_prompt_metrics: 매출성장률 (source=data/반도체/SFA반도체/finance/SFA반도체_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률 (source=data/반도체/SFA반도체/finance/SFA반도체_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] sales: 400482861805.0 (source=data/반도체/SFA반도체/finance/SFA반도체_finance_agent_packet.json, keywords=sales, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### 마진·원가·현금흐름 연결
-- [DIRECT_EVIDENCE] summary: SFA반도체는 2023년 큰 폭의 영업손실 이후 2024년 영업이익이 흑자전환하며 수익성 개선 가능성을 보였습니다. (source=data/반도체/SFA반도체/finance/SFA반도체_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년 ROE가 4.11%로 양수로 전환되며 자본 대비 수익성이 개선될 가능성을 시사합니다. (source=data/반도체/SFA반도체/finance/SFA반도체_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2023년과 2024년 모두 긍정적인 잉여현금흐름(FCF)을 기록하며 현금 창출 능력을 유지하고 있습니다. (source=data/반도체/SFA반도체/finance/SFA반도체_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_risks: 2024년 영업이익률이 -0.01%로 여전히 마이너스에 가까워 수익성 개선 추세 확인이 필요합니다. (source=data/반도체/SFA반도체/finance/SFA반도체_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_risks: 영업이익률 -0.01%로 수익성 부담을 확인해야 합니다. (source=data/반도체/SFA반도체/finance/SFA반도체_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: SFA반도체는 2023년 매출이 큰 폭으로 감소하며 영업이익이 적자 전환되었으나, 2024년에는 매출 감소세가 둔화되고 순이익이 흑자 전환되는 등 수익성 개선 조짐을 보이고 있습니다. (source=data/반도체/SFA반도체/finance/SFA반도체_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] 다만, 영업이익률은 여전히 마이너스 수준으로 본업에서의 수익성 회복 여부는 추가 확인이 필요합니다. (source=data/반도체/SFA반도체/finance/SFA반도체_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 순이익이 흑자 전환되며 수익성 개선 가능성을 시사합니다. (source=data/반도체/SFA반도체/finance/SFA반도체_finance.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2021년 이후 지속적으로 양의 값을 유지하고 있는 잉여현금흐름(FCF)은 현금 창출 능력을 보여줍니다. (source=data/반도체/SFA반도체/finance/SFA반도체_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2023년 및 2024년 영업이익률이 마이너스(-)를 기록하며 본업에서의 수익성 확보가 여전히 과제입니다. (source=data/반도체/SFA반도체/finance/SFA반도체_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### IP 품질
 - [DIRECT_EVIDENCE] legal_status: status=COLLECTED, count=None, score=0.6667, signal=None (source=data/반도체/SFA반도체/tech/sfa_semicon_tech_ip_legal_features.json, keywords=legal_status, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)

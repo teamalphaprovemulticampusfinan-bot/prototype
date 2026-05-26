@@ -1,0 +1,153 @@
+{
+  "status": "OK",
+  "created_at": "2026-05-25T23:29:31",
+  "company_slug": "jeju_semicon",
+  "company_name": "제주반도체",
+  "source_csv": "C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\jeju_semicon_kipris_bibliographic_normalized.csv",
+  "method": "TFIDF_COSINE_FALLBACK",
+  "patent_text_count": 26,
+  "semantic_similarity_avg": 0.0435,
+  "top_pairs": [
+    {
+      "left_index": 10,
+      "right_index": 15,
+      "similarity": 0.6298,
+      "left_source_index": 10,
+      "right_source_index": 15
+    },
+    {
+      "left_index": 9,
+      "right_index": 25,
+      "similarity": 0.4329,
+      "left_source_index": 9,
+      "right_source_index": 25
+    },
+    {
+      "left_index": 9,
+      "right_index": 16,
+      "similarity": 0.4288,
+      "left_source_index": 9,
+      "right_source_index": 16
+    },
+    {
+      "left_index": 16,
+      "right_index": 25,
+      "similarity": 0.3493,
+      "left_source_index": 16,
+      "right_source_index": 25
+    },
+    {
+      "left_index": 10,
+      "right_index": 18,
+      "similarity": 0.3468,
+      "left_source_index": 10,
+      "right_source_index": 18
+    },
+    {
+      "left_index": 20,
+      "right_index": 24,
+      "similarity": 0.3077,
+      "left_source_index": 20,
+      "right_source_index": 24
+    },
+    {
+      "left_index": 5,
+      "right_index": 24,
+      "similarity": 0.2613,
+      "left_source_index": 5,
+      "right_source_index": 24
+    },
+    {
+      "left_index": 12,
+      "right_index": 22,
+      "similarity": 0.2358,
+      "left_source_index": 12,
+      "right_source_index": 22
+    },
+    {
+      "left_index": 13,
+      "right_index": 20,
+      "similarity": 0.2121,
+      "left_source_index": 13,
+      "right_source_index": 20
+    },
+    {
+      "left_index": 5,
+      "right_index": 20,
+      "similarity": 0.2103,
+      "left_source_index": 5,
+      "right_source_index": 20
+    },
+    {
+      "left_index": 15,
+      "right_index": 18,
+      "similarity": 0.2006,
+      "left_source_index": 15,
+      "right_source_index": 18
+    },
+    {
+      "left_index": 15,
+      "right_index": 17,
+      "similarity": 0.166,
+      "left_source_index": 15,
+      "right_source_index": 17
+    },
+    {
+      "left_index": 13,
+      "right_index": 24,
+      "similarity": 0.1505,
+      "left_source_index": 13,
+      "right_source_index": 24
+    },
+    {
+      "left_index": 4,
+      "right_index": 12,
+      "similarity": 0.1353,
+      "left_source_index": 4,
+      "right_source_index": 12
+    },
+    {
+      "left_index": 0,
+      "right_index": 15,
+      "similarity": 0.1278,
+      "left_source_index": 0,
+      "right_source_index": 15
+    },
+    {
+      "left_index": 17,
+      "right_index": 22,
+      "similarity": 0.1266,
+      "left_source_index": 17,
+      "right_source_index": 22
+    },
+    {
+      "left_index": 10,
+      "right_index": 12,
+      "similarity": 0.1256,
+      "left_source_index": 10,
+      "right_source_index": 12
+    },
+    {
+      "left_index": 6,
+      "right_index": 12,
+      "similarity": 0.119,
+      "left_source_index": 6,
+      "right_source_index": 12
+    },
+    {
+      "left_index": 12,
+      "right_index": 15,
+      "similarity": 0.1095,
+      "left_source_index": 12,
+      "right_source_index": 15
+    },
+    {
+      "left_index": 4,
+      "right_index": 22,
+      "similarity": 0.1064,
+      "left_source_index": 4,
+      "right_source_index": 22
+    }
+  ],
+  "usage_note": "This is an offline fallback inspired by PatentSBERTa-style semantic patent distance. If sentence-transformers and AI-Growth-Lab/PatentSBERTa are installed later, this layer can be upgraded."
+}

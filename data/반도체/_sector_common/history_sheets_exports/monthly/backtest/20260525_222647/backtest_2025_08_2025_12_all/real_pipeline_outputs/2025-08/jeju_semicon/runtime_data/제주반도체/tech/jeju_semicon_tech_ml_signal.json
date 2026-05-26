@@ -1,0 +1,179 @@
+{
+  "company_dir": "jeju_semicon",
+  "company": "제주반도체",
+  "created_at": "2026-05-25T23:29:44",
+  "input_patent_csv": "C:\\Agent_6.9\\data\\반도체\\제주반도체\\tech\\source\\jeju_semicon_kipris_plus_bibliographic_raw.csv",
+  "model_info": {
+    "module": "Tech ML Signal Builder",
+    "algorithm": "TF-IDF + KMeans",
+    "sklearn_available": true,
+    "purpose": "KIPRIS patent portfolio clustering, patent momentum scoring, commercialization watch signal generation"
+  },
+  "tech_ml_label": "TECH_EVIDENCE_WEAK",
+  "tech_ml_label_description": "특허·기술 정량 신호가 충분하지 않아 근거 보강 필요형으로 해석합니다.",
+  "patent_ml_score": 31.32,
+  "bridge_score": 0.0,
+  "bridge_label": "",
+  "normalized_patent_records": 26,
+  "company_matched_patents": 26,
+  "registered_patents": 20,
+  "alive_patents": 3,
+  "recent_5y_patents": 0,
+  "recent_5y_ratio": 0.0,
+  "ipc_cpc_count": 6,
+  "ipc_cpc_examples": [
+    "G05F",
+    "G11C",
+    "H04N",
+    "H10F",
+    "H10P",
+    "H10W"
+  ],
+  "h01l_patents": 0,
+  "patent_year_range": "2000~2015",
+  "technology_keyword_hits": {
+    "반도체": 61,
+    "공정": 7,
+    "디스플레이": 4
+  },
+  "technology_keyword_hit_total": 72,
+  "clustering": {
+    "method": "tfidf_kmeans",
+    "sklearn_available": true,
+    "cluster_count": 3,
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "size": 13,
+        "top_terms": [
+          "메모리",
+          "반도체",
+          "반도체 메모리",
+          "서브",
+          "발명의 반도체",
+          "발명의",
+          "액티브",
+          "g11c"
+        ],
+        "sample_titles": [
+          "반도체 장치 및 그의 레이아웃 배치방법",
+          "반도체 장치의 배선 방법",
+          "다양한 형태의 디스플레이 장치에 적용 가능한 반도체 메모리 디바이스",
+          "웨이브 파이프라이닝 구조의 데이터 출력 회로를 가지는동기식 반도체 메모리 장치",
+          "반도체 메모리 장치의 데이터선 전압 제어회로"
+        ]
+      },
+      {
+        "cluster_id": 2,
+        "size": 8,
+        "top_terms": [
+          "전원",
+          "비트",
+          "디벨로프",
+          "외부 전원",
+          "제2",
+          "제1",
+          "비트 라인",
+          "전압을"
+        ],
+        "sample_titles": [
+          "이중 셀 전원 전압을 가지는 에스램",
+          "리프레쉬 모드에서 대기 전류를 감소시키기 위한 센스앰프 회로를 가지는 반도체 메모리 장치",
+          "디지털 이미지 테스트 부재의 광원 밝기 균일화 장치 및방법과 이를 이용한 디지털 이미지 색상 테스트 장치 및방법",
+          "대기 모드에서 대기 전류를 감소시키는 반도체 메모리 장치",
+          "삼중의 전원선을 가지는 에스램"
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "size": 5,
+        "top_terms": [
+          "리프레쉬",
+          "상기",
+          "셀프 리프레쉬",
+          "셀프",
+          "파워업",
+          "분리",
+          "동작을",
+          "디램"
+        ],
+        "sample_titles": [
+          "반도체 디바이스의 파워업 회로",
+          "크로스 토크를 감소시키는 이미지 센서의 소자 분리 구조체및 그 제조방법",
+          "공정조건에 안정적인 온도 보상형 셀프 리프레쉬 제어 회로",
+          "리프레쉬 동작을 제어할 수 있는 디램 셀을 이용한 에스램호환 메모리 장치",
+          "슈도우 에스램의 셀프 리프레쉬 정지 장치"
+        ]
+      }
+    ],
+    "technology_concentration_index": 0.3817,
+    "feature_count": 1500
+  },
+  "representative_patents": [
+    {
+      "title": "다양한 형태의 디스플레이 장치에 적용 가능한 반도체 메모리 디바이스",
+      "application_date": "20150903",
+      "register_date": "20170821",
+      "register_status": "등록",
+      "ipc": "G11C 8/06|G11C 8/08|G11C 8/18|G11C 8/04|G11C 7/10",
+      "applicant": ""
+    },
+    {
+      "title": "반도체 디바이스의 파워업 회로",
+      "application_date": "20080108",
+      "register_date": "20090508",
+      "register_status": "등록",
+      "ipc": "G05F 3/16|G11C 5/14",
+      "applicant": ""
+    },
+    {
+      "title": "공정조건에 안정적인 온도 보상형 셀프 리프레쉬 제어 회로",
+      "application_date": "20080128",
+      "register_date": "20090717",
+      "register_status": "등록",
+      "ipc": "G11C 11/406|G11C 11/4076|G11C 11/4074",
+      "applicant": ""
+    },
+    {
+      "title": "디지털 이미지 테스트 부재의 광원 밝기 균일화 장치 및방법과 이를 이용한 디지털 이미지 색상 테스트 장치 및방법",
+      "application_date": "20061206",
+      "register_date": "20070920",
+      "register_status": "소멸",
+      "ipc": "H04N 17/02|H04N 17/00",
+      "applicant": ""
+    },
+    {
+      "title": "크로스 토크를 감소시키는 이미지 센서의 소자 분리 구조체및 그 제조방법",
+      "application_date": "20050826",
+      "register_date": "20070111",
+      "register_status": "소멸",
+      "ipc": "H10W 10/00|H10F 39/12",
+      "applicant": ""
+    }
+  ],
+  "commercialization_score": 80.0,
+  "commercialization_level": "STRONG",
+  "commercialization_keyword_hits": 339,
+  "commercialization_keywords": {
+    "고객": 30,
+    "채택": 6,
+    "양산": 16,
+    "공급": 9,
+    "매출": 18,
+    "실적": 1,
+    "FCF": 4,
+    "현금흐름": 1,
+    "revenue": 1
+  },
+  "chair_reflection_points": [
+    "Tech ML 판정은 TECH_EVIDENCE_WEAK이며, 기존 Tech-to-Value Bridge 판정과 함께 기술 섹션의 보조 신호로 사용합니다.",
+    "특허 클러스터링 결과는 핵심 기술 축과 기술 포트폴리오 집중도를 설명하는 근거로 반영합니다.",
+    "최근 5년 특허와 등록·존속 가능 특허는 기술 지속성 및 진입장벽의 보조 지표로 활용합니다.",
+    "고객 채택, 양산, 매출 전환, FCF 개선 근거가 약하면 기술 점수만으로 매수 의견을 강화하지 않습니다."
+  ],
+  "notes": [
+    "Tech ML은 특허 텍스트, 초록, IPC/CPC, 등록상태, 최근 출원 흐름을 기반으로 기술 포트폴리오를 구조화합니다.",
+    "특허 수와 클러스터 수는 기술 지속성의 보조 근거이며, 단독으로 매출 성장이나 주가 상승을 의미하지 않습니다.",
+    "사업화 판단은 고객 채택, 양산, 매출 전환, FCF 개선 근거와 함께 해석해야 합니다."
+  ]
+}

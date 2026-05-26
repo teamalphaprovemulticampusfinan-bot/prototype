@@ -1,10 +1,10 @@
 # GST Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-25T22:04:07
+- 생성 시각: 2026-05-26T06:32:40
 - 종합 점수: 78.8/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 148개
+- 원천 문서 수: 304개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -32,18 +32,18 @@
 - [DIRECT_EVIDENCE] - 기술 우위가 확인되어도 고객 채택·양산·매출 전환·FCF 직접 근거가 약하면 보수적으로 반영합니다. (source=data/반도체/GST/tech/_nepes_reference_schema/nepes_tech_chair_summary.md, keywords=양산, urls=http://www.w3.org/2001/XMLSchema-instance, http://www.nepes.co.kr)
 
 ### 매출 전환
-- [DIRECT_EVIDENCE] summary: GST는 2024년 매출이 전년 대비 24% 성장하며 긍정적인 회복세를 보였으나, 영업이익률은 17.1%로 2022년 18.2% 대비 소폭 하락했습니다. (source=data/반도체/GST/finance/GST_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년 매출이 3462억 원으로 전년 대비 24.0% 성장하며 역성장에서 벗어나는 모습을 보였습니다. (source=data/반도체/GST/finance/GST_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: GST는 2024년 매출이 전년 대비 24% 성장하며 견조한 회복세를 보였으며, 영업이익률 또한 17%대로 개선되었다. (source=data/반도체/GST/finance/GST_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 매출성장률이 24.00%로 크게 증가하며 이전 연도의 역성장에서 벗어났다. (source=data/반도체/GST/finance/GST_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2025년 9월 30일 기준 PSR이 -53.74로, 매출 대비 주가 수준이 높다는 점을 고려해야 한다. (source=data/반도체/GST/finance/GST_finance.json, keywords=매출, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] missing_prompt_metrics: 매출성장률 (source=data/반도체/GST/finance/GST_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률 (source=data/반도체/GST/finance/GST_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] sales: 346227651802.0 (source=data/반도체/GST/finance/GST_finance_agent_packet.json, keywords=sales, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### 마진·원가·현금흐름 연결
-- [DIRECT_EVIDENCE] summary: GST는 2024년 매출이 전년 대비 24% 성장하며 긍정적인 회복세를 보였으나, 영업이익률은 17.1%로 2022년 18.2% 대비 소폭 하락했습니다. (source=data/반도체/GST/finance/GST_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년 영업이익률은 17.1%로 2023년 15.2% 대비 개선되었으며, 2022년 18.2% 수준에 근접했습니다. (source=data/반도체/GST/finance/GST_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년 잉여현금흐름(FCF)은 348억 원으로 전년 대비 크게 증가하며 현금 창출 능력이 강화되었습니다. (source=data/반도체/GST/finance/GST_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_risks: 2024년 영업이익률이 17.1%로 2022년 18.2% 대비 하락하여 수익성 개선 추세에 대한 추가 확인이 필요합니다. (source=data/반도체/GST/finance/GST_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: GST는 2024년 매출이 전년 대비 24% 성장하며 견조한 회복세를 보였으며, 영업이익률 또한 17%대로 개선되었다. (source=data/반도체/GST/finance/GST_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 영업이익률이 17.06%로 상승하며 수익성이 개선되는 모습을 보였다. (source=data/반도체/GST/finance/GST_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 잉여현금흐름(FCF)이 348억 원으로 크게 증가하며 현금 창출 능력이 강화되었다. (source=data/반도체/GST/finance/GST_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] report_core_points: 영업이익률: GST 2024 기준 영업이익률 값은 17.06%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다. (source=data/반도체/GST/finance/GST_finance_agent_packet.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] report_core_points: ROE: GST 2024 기준 ROE 값은 17.09%이며, 자기자본 대비 수익성 수준을 확인하는 지표입니다. (source=data/반도체/GST/finance/GST_finance_agent_packet.json, keywords=수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### IP 품질
 - [DIRECT_EVIDENCE] legal_status: status=COLLECTED, count=None, score=0.4667, signal=None (source=data/반도체/GST/tech/gst_tech_ip_legal_features.json, keywords=legal_status, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)
@@ -98,7 +98,7 @@
   - fallback: https://comp.fnguide.com/
   - fallback: https://www.google.com/search?q=GST+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84+FCF
 - **FINANCE**
-  - detected: URL 확인 제한
+  - detected: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
   - fallback: https://dart.fss.or.kr/
   - fallback: https://opendart.fss.or.kr/
   - fallback: https://finance.naver.com/

@@ -1,0 +1,318 @@
+{
+  "agent_name": "finance",
+  "company_name": "리노공업",
+  "company_dir": "leeno",
+  "industry_type": "deeptech_semiconductor",
+  "summary": "리노공업은 2023년 매출이 감소했으나 2024년에는 회복세를 보이며 성장성을 재확인했습니다. 영업이익률은 40% 이상으로 매우 높은 수준을 유지하고 있으며, ROE 또한 18% 이상으로 견조한 수익성을 나타냅니다. 다만, 최근 1개월 주가 데이터에서 변동성이 관찰되며, 연간 MDD 또한 높은 수준을 기록하여 투자 시 주의가 필요합니다.",
+  "key_thesis": [
+    "2024년 매출성장률이 8.85%로 회복되며 이전의 역성장에서 벗어나는 모습을 보였습니다.",
+    "영업이익률이 2021년 41.80%에서 2024년 44.65%로 꾸준히 높은 수준을 유지하고 있습니다.",
+    "ROE는 2021년 24.85%에서 2024년 18.19%로 소폭 하락했으나 여전히 높은 수준을 유지하고 있습니다.",
+    "부채비율이 2021년 11.65%에서 2024년 5.59%로 지속적으로 감소하며 재무 건전성이 강화되었습니다.",
+    "2025년 연수익률 18.69%는 긍정적인 주가 흐름을 시사합니다."
+  ],
+  "key_risks": [
+    "2023년 매출성장률이 -20.73%로 큰 폭의 감소를 기록한 바 있어, 향후 매출 변동성에 대한 모니터링이 필요합니다.",
+    "최근 1개월 주가 데이터에서 MDD가 -0.23%까지 기록하는 등 단기적인 변동성이 관찰됩니다.",
+    "연간 MDD가 2024년 -49.6%로 매우 높은 수준을 기록한 바 있어, 주가 하락 위험에 대한 고려가 필요합니다.",
+    "R&D 비용이 2023년 63억 원, 2024년 87억 원으로 증가하는 추세는 긍정적이나, 투자 대비 성과를 지속적으로 확인해야 합니다.",
+    "연간 MDD -26.21%로 주가 낙폭 리스크를 확인해야 합니다."
+  ],
+  "report_core_points": [
+    "영업이익률: 리노공업 2024 기준 영업이익률 값은 44.65%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다.",
+    "ROE: 리노공업 2024 기준 ROE 값은 18.19%이며, 자기자본 대비 수익성 수준을 확인하는 지표입니다.",
+    "FCF: 리노공업 2024 기준 FCF 값은 0원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+    "부채비율: 리노공업 2024 기준 부채비율 값은 5.59%이며, 재무 레버리지와 안정성 부담을 확인하는 지표입니다.",
+    "연수익률: 리노공업 2025 기준 연수익률 값은 18.69%이며, 해당 연도 주가 성과를 보여주는 지표입니다.",
+    "연간 MDD: 리노공업 2025 기준 연간 MDD 값은 -26.21%이며, 투자자가 경험할 수 있는 최대 낙폭 위험을 보여주는 지표입니다.",
+    "거래량: 리노공업 2025 기준 거래량 값은 405993.00주이며, 해당 연도 평균 거래량을 통해 시장 관심과 유동성을 확인하는 지표입니다.",
+    "MA20 대비 비율: 리노공업 2025 기준 MA20 대비 비율 값은 1.02배이며, 현재 가격이 20일 이동평균선(MA20) 대비 얼마나 떨어져/올라가 있는지 보여주는 지표입니다.",
+    "변동성지수: 리노공업 2025 기준 변동성지수 값은 21.93이며, 시장 변동성 환경을 함께 확인하기 위한 보조 지표입니다."
+  ],
+  "missing_prompt_metrics": [
+    "매출성장률"
+  ],
+  "evidence": [
+    {
+      "evidence_id": "finance.ev.002",
+      "source_type": "financial_csv",
+      "source": "리노공업_재무.csv",
+      "metric": "operating_margin",
+      "label": "영업이익률",
+      "value": 44.64684035099887,
+      "unit": "%",
+      "period": "2024",
+      "snippet": "리노공업 2024 기준 영업이익률 값은 44.65%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.003",
+      "source_type": "financial_csv",
+      "source": "리노공업_재무.csv",
+      "metric": "roe",
+      "label": "ROE",
+      "value": 18.19366364583741,
+      "unit": "%",
+      "period": "2024",
+      "snippet": "리노공업 2024 기준 ROE 값은 18.19%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.004",
+      "source_type": "financial_csv",
+      "source": "리노공업_재무.csv",
+      "metric": "fcf",
+      "label": "FCF",
+      "value": 0.0,
+      "unit": "원",
+      "period": "2024",
+      "snippet": "리노공업 2024 기준 FCF 값은 0원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.005",
+      "source_type": "financial_csv",
+      "source": "리노공업_재무.csv",
+      "metric": "debt_ratio",
+      "label": "부채비율",
+      "value": 5.5915581062463655,
+      "unit": "%",
+      "period": "2024",
+      "snippet": "리노공업 2024 기준 부채비율 값은 5.59%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.007",
+      "source_type": "stock_csv",
+      "source": "리노공업_주식.csv",
+      "metric": "annual_return_%",
+      "label": "연수익률",
+      "value": 18.69,
+      "unit": "%",
+      "period": "2025",
+      "snippet": "리노공업 2025 기준 연수익률 값은 18.69%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.008",
+      "source_type": "stock_csv",
+      "source": "리노공업_주식.csv",
+      "metric": "annual_mdd_%",
+      "label": "연간 MDD",
+      "value": -26.21,
+      "unit": "%",
+      "period": "2025",
+      "snippet": "리노공업 2025 기준 연간 MDD 값은 -26.21%입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.009",
+      "source_type": "stock_csv",
+      "source": "리노공업_주식.csv",
+      "metric": "volume_mean",
+      "label": "거래량",
+      "value": 405993.0,
+      "unit": "주",
+      "period": "2025",
+      "snippet": "리노공업 2025 기준 거래량 값은 405993주입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.010",
+      "source_type": "stock_csv",
+      "source": "리노공업_주식.csv",
+      "metric": "ma20_ratio_mean",
+      "label": "MA20 대비 비율",
+      "value": 1.0155,
+      "unit": "배",
+      "period": "2025",
+      "snippet": "리노공업 2025 기준 MA20 대비 비율 값은 1.0155배입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.011",
+      "source_type": "stock_csv",
+      "source": "리노공업_주식.csv",
+      "metric": "vkospi_mean",
+      "label": "변동성지수",
+      "value": 21.93,
+      "unit": null,
+      "period": "2025",
+      "snippet": "리노공업 2025 기준 변동성지수 값은 21.93입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.012",
+      "source_type": "stock_csv",
+      "source": "리노공업_주식.csv",
+      "metric": "latest_close",
+      "label": "최근 종가",
+      "value": 46384.6171875,
+      "unit": "원",
+      "period": "2025-08-29",
+      "snippet": "리노공업 2025-08-29 최근 종가 값은 46,385원입니다.",
+      "prompt_rationale": null
+    },
+    {
+      "evidence_id": "finance.ev.013",
+      "source_type": "warning_stock_csv",
+      "source": "투자경고종목.csv",
+      "metric": "warning_stock",
+      "label": "투자경고 여부",
+      "value": 0.0,
+      "unit": null,
+      "period": "최근",
+      "snippet": "리노공업 투자경고종목 해당 여부 값은 0입니다.",
+      "prompt_rationale": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "finance.safe_cl.002",
+      "text": "리노공업 2024 기준 영업이익률 값은 44.65%입니다.",
+      "evidence_ids": [
+        "finance.ev.002"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.003",
+      "text": "리노공업 2024 기준 ROE 값은 18.19%입니다.",
+      "evidence_ids": [
+        "finance.ev.003"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.004",
+      "text": "리노공업 2024 기준 FCF 값은 0원입니다.",
+      "evidence_ids": [
+        "finance.ev.004"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.005",
+      "text": "리노공업 2024 기준 부채비율 값은 5.59%입니다.",
+      "evidence_ids": [
+        "finance.ev.005"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.007",
+      "text": "리노공업 2025 기준 연수익률 값은 18.69%입니다.",
+      "evidence_ids": [
+        "finance.ev.007"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.008",
+      "text": "리노공업 2025 기준 연간 MDD 값은 -26.21%입니다.",
+      "evidence_ids": [
+        "finance.ev.008"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.009",
+      "text": "리노공업 2025 기준 거래량 값은 405993주입니다.",
+      "evidence_ids": [
+        "finance.ev.009"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.010",
+      "text": "리노공업 2025 기준 MA20 대비 비율 값은 1.0155배입니다.",
+      "evidence_ids": [
+        "finance.ev.010"
+      ],
+      "audit_safe": true
+    },
+    {
+      "claim_id": "finance.safe_cl.011",
+      "text": "리노공업 2025 기준 변동성지수 값은 21.93입니다.",
+      "evidence_ids": [
+        "finance.ev.011"
+      ],
+      "audit_safe": true
+    }
+  ],
+  "warning_note": null,
+  "source_contexts": [
+    "financial_csv=리노공업_재무.csv",
+    "stock_csv=리노공업_주식.csv",
+    "warning_stock_csv=투자경고종목.csv",
+    "prompts.py summary/key_thesis/key_risks are preserved in the Chair View where available.",
+    "First Auditor claims are CSV-grounded one-to-one evidence claims for stable actual-information verification.",
+    "필수 지표 산출 한계: 매출성장률"
+  ],
+  "raw_payload": {
+    "latest_financial_row": {
+      "year": 2024,
+      "sales": 278186189427.0,
+      "operating_income": 124201343872.0,
+      "net_income": 113279046428.0,
+      "total_assets": 657443780756.0,
+      "total_liabilities": 34814668593.0,
+      "total_equity": 622629112163.0,
+      "current_assets": 449498090730.0,
+      "current_liabilities": 30614692642.0,
+      "rnd": 8751091226.0,
+      "fcf": 0,
+      "interest_expense": 7604344.0,
+      "roe": 18.19366364583741,
+      "operating_margin": 44.64684035099887,
+      "current_ratio_%": 1468.2430295358834,
+      "debt_ratio": 5.5915581062463655,
+      "interest_coverage": 16332.946520041702,
+      "sales_growth": 8.84802060649208
+    },
+    "latest_stock_metric": {
+      "year": 2025,
+      "annual_return_%": 18.69,
+      "annual_mdd_%": -26.21
+    },
+    "latest_yearly_summary": {
+      "year": 2025,
+      "close_start": 39081.5,
+      "close_end": 46384.62,
+      "close_high": 52306.05,
+      "close_low": 34008.8,
+      "volume_mean": 405993.0,
+      "ma20_ratio_mean": 1.0155,
+      "vkospi_mean": 21.93
+    },
+    "latest_recent_stock_row": {
+      "date": "2025-08-29",
+      "open": 46581.998537234045,
+      "high": 47124.79724900266,
+      "low": 46187.23583776596,
+      "close": 46384.6171875,
+      "volume": 219848,
+      "market_cap": 707011497480.2344,
+      "return": -0.0042372359023163,
+      "market_return": -0.003225602684728,
+      "abnormal_return": -0.0010116332175883,
+      "mdd": -0.1990812658070583,
+      "ma20": 45674.0419921875,
+      "ma60": 47777.79837239583,
+      "ma20_ratio": 1.0155575281783478,
+      "ma60_ratio": 0.9708404063737528,
+      "vix": 15.359999656677246,
+      "vkospi": 19.52,
+      "eps": 11466.61776639722,
+      "psr": 1.4230499390171896,
+      "car_3": -0.0083645134764955,
+      "car_5": 0.03996664584807,
+      "inst_net_buy": -34035.0,
+      "foreign_net_buy": 16557.0,
+      "foreign_holding_shares": 26826442.0,
+      "foreign_holding_pct": 35.2
+    },
+    "audit_policy": "prompts_py_used_for_interpretation_claims_grounded_by_local_csv"
+  },
+  "packet_version": "finance_prompts_grounded_v4_compact"
+}

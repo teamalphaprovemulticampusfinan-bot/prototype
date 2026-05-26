@@ -38,11 +38,11 @@
 ## 4. KIPRIS/IP 정량 신호
 | 원천 신호 | 값 |
 |---|---:|
-| 정규화 특허 텍스트 레코드 | 8,755건 |
-| 회사 출원인/권리자 매칭 | 8,194건 |
+| 정규화 특허 텍스트 레코드 | 10,315건 |
+| 회사 출원인/권리자 매칭 | 9,754건 |
 | 등록 특허 | 4,843건 |
-| 존속 가능 특허 | 5,327건 |
-| 최근 5년 특허 | 477건 |
+| 존속 가능 특허 | 6,887건 |
+| 최근 5년 특허 | 2,037건 |
 | IPC/CPC 다양성 | 128개 |
 | H01L 등 핵심 IPC 특허 | 36건 |
 | KIPRIS 등록률(추정) | 73.52% |
@@ -124,7 +124,7 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
 - IP Evidence Adjustment Points: 0.0
 - Peer-adjusted Score Before IP Evidence: 80.53
 - Final Bridge Score After IP Evidence: 80.53
-- Source: `data/반도체/네패스/tech/tech_ip_evidence_composite.json`
+- Source: `C:/Agent_6.9/data/반도체/네패스/tech/tech_ip_evidence_composite.json`
 
 해석:
 - 네패스처럼 IP Evidence 조정값이 0.0이면 최종 점수 변화가 없는 것이 정상입니다.
@@ -178,10 +178,10 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
 # 네패스 Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-21T21:12:32
+- 생성 시각: 2026-05-26T03:16:29
 - 종합 점수: 80.36/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 156개
+- 원천 문서 수: 179개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -278,7 +278,7 @@ KIPRIS 기반 IP Feature 4종을 통합해 특허 포트폴리오의 질적 근�
   - fallback: https://comp.fnguide.com/
   - fallback: https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84+FCF
 - **FINANCE**
-  - detected: URL 확인 제한
+  - detected: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
   - fallback: https://dart.fss.or.kr/
   - fallback: https://opendart.fss.or.kr/
   - fallback: https://finance.naver.com/

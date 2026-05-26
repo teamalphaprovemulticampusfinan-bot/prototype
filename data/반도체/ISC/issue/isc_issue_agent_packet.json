@@ -5,10 +5,10 @@
   "company_dir": "isc",
   "opinion": "보유",
   "confidence": 0.5,
-  "summary": "ISC에 대해 검증 가능한 핵심 근거는 다음과 같습니다. news_count 값은 10count입니다. rss_count 값은 18count입니다. related_keyword_count 값은 0count입니다.",
+  "summary": "ISC에 대해 검증 가능한 핵심 근거는 다음과 같습니다. news_count 값은 10count입니다. rss_count 값은 13count입니다. related_keyword_count 값은 0count입니다.",
   "key_points": [
     "news_count 값은 10count입니다.",
-    "rss_count 값은 18count입니다.",
+    "rss_count 값은 13count입니다.",
     "related_keyword_count 값은 0count입니다."
   ],
   "risks": [],
@@ -23,7 +23,7 @@
     },
     {
       "claim_id": "issue.auto_cl.003",
-      "text": "rss_count 값은 18count입니다.",
+      "text": "rss_count 값은 13count입니다.",
       "evidence_ids": [
         "issue.ev.002"
       ],
@@ -54,10 +54,10 @@
       "source_type": "issue",
       "source": "issue_data_collection",
       "metric": "rss_count",
-      "value": 18,
+      "value": 13,
       "unit": "count",
       "period": null,
-      "snippet": "issue_data_collection | rss_count | 값: 18count"
+      "snippet": "issue_data_collection | rss_count | 값: 13count"
     },
     {
       "evidence_id": "issue.ev.003",
@@ -76,11 +76,31 @@
       "metric": "news_title",
       "value": null,
       "unit": null,
+      "period": "Thu, 21 May 2026 14:38:00 +0900",
+      "snippet": "Naver News | Thu, 21 May 2026 14:38:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.005",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 21 May 2026 10:00:00 +0900",
+      "snippet": "Naver News | Thu, 21 May 2026 10:00:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.006",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
       "period": "Tue, 19 May 2026 10:28:00 +0900",
       "snippet": "Naver News | Tue, 19 May 2026 10:28:00 +0900 기준 news_title | 값: 확인 불가"
     },
     {
-      "evidence_id": "issue.ev.005",
+      "evidence_id": "issue.ev.007",
       "source_type": "issue_news",
       "source": "Naver News",
       "metric": "news_title",
@@ -90,7 +110,7 @@
       "snippet": "Naver News | Mon, 18 May 2026 16:06:00 +0900 기준 news_title | 값: 확인 불가"
     },
     {
-      "evidence_id": "issue.ev.006",
+      "evidence_id": "issue.ev.008",
       "source_type": "issue_news",
       "source": "Naver News",
       "metric": "news_title",
@@ -100,34 +120,14 @@
       "snippet": "Naver News | Thu, 14 May 2026 14:28:00 +0900 기준 news_title | 값: 확인 불가"
     },
     {
-      "evidence_id": "issue.ev.007",
-      "source_type": "issue_news",
-      "source": "Naver News",
-      "metric": "news_title",
-      "value": null,
-      "unit": null,
-      "period": "Fri, 01 May 2026 13:56:00 +0900",
-      "snippet": "Naver News | Fri, 01 May 2026 13:56:00 +0900 기준 news_title | 값: 확인 불가"
-    },
-    {
-      "evidence_id": "issue.ev.008",
-      "source_type": "issue_news",
-      "source": "Naver News",
-      "metric": "news_title",
-      "value": null,
-      "unit": null,
-      "period": "Thu, 23 Apr 2026 16:28:00 +0900",
-      "snippet": "Naver News | Thu, 23 Apr 2026 16:28:00 +0900 기준 news_title | 값: 확인 불가"
-    },
-    {
       "evidence_id": "issue.ev.009",
       "source_type": "issue_rss",
       "source": "Semiconductor Engineering",
       "metric": "rss_title",
       "value": null,
       "unit": null,
-      "period": "Tue, 19 May 2026 07:01:44 +0000",
-      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:44 +0000 기준 rss_title | 값: 확인 불가"
+      "period": "Mon, 25 May 2026 23:31:55 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 25 May 2026 23:31:55 +0000 기준 rss_title | 값: 확인 불가"
     },
     {
       "evidence_id": "issue.ev.010",
@@ -136,8 +136,8 @@
       "metric": "rss_title",
       "value": null,
       "unit": null,
-      "period": "Tue, 19 May 2026 07:01:41 +0000",
-      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:41 +0000 기준 rss_title | 값: 확인 불가"
+      "period": "Mon, 25 May 2026 22:47:38 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 25 May 2026 22:47:38 +0000 기준 rss_title | 값: 확인 불가"
     },
     {
       "evidence_id": "issue.ev.011",
@@ -146,8 +146,8 @@
       "metric": "rss_title",
       "value": null,
       "unit": null,
-      "period": "Mon, 18 May 2026 20:46:28 +0000",
-      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:46:28 +0000 기준 rss_title | 값: 확인 불가"
+      "period": "Mon, 25 May 2026 17:49:46 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 25 May 2026 17:49:46 +0000 기준 rss_title | 값: 확인 불가"
     },
     {
       "evidence_id": "issue.ev.012",
@@ -156,8 +156,8 @@
       "metric": "rss_title",
       "value": null,
       "unit": null,
-      "period": "Mon, 18 May 2026 20:36:05 +0000",
-      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:36:05 +0000 기준 rss_title | 값: 확인 불가"
+      "period": "Mon, 25 May 2026 17:37:42 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 25 May 2026 17:37:42 +0000 기준 rss_title | 값: 확인 불가"
     },
     {
       "evidence_id": "issue.ev.013",
@@ -166,8 +166,8 @@
       "metric": "rss_title",
       "value": null,
       "unit": null,
-      "period": "Mon, 18 May 2026 20:24:00 +0000",
-      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:24:00 +0000 기준 rss_title | 값: 확인 불가"
+      "period": "Fri, 22 May 2026 07:01:23 +0000",
+      "snippet": "Semiconductor Engineering | Fri, 22 May 2026 07:01:23 +0000 기준 rss_title | 값: 확인 불가"
     }
   ],
   "evidence": [
@@ -186,10 +186,10 @@
       "source_type": "issue",
       "source": "issue_data_collection",
       "metric": "rss_count",
-      "value": 18,
+      "value": 13,
       "unit": "count",
       "period": null,
-      "snippet": "issue_data_collection | rss_count | 값: 18count"
+      "snippet": "issue_data_collection | rss_count | 값: 13count"
     },
     {
       "evidence_id": "issue.ev.003",
@@ -208,11 +208,31 @@
       "metric": "news_title",
       "value": null,
       "unit": null,
+      "period": "Thu, 21 May 2026 14:38:00 +0900",
+      "snippet": "Naver News | Thu, 21 May 2026 14:38:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.005",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
+      "period": "Thu, 21 May 2026 10:00:00 +0900",
+      "snippet": "Naver News | Thu, 21 May 2026 10:00:00 +0900 기준 news_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.006",
+      "source_type": "issue_news",
+      "source": "Naver News",
+      "metric": "news_title",
+      "value": null,
+      "unit": null,
       "period": "Tue, 19 May 2026 10:28:00 +0900",
       "snippet": "Naver News | Tue, 19 May 2026 10:28:00 +0900 기준 news_title | 값: 확인 불가"
     },
     {
-      "evidence_id": "issue.ev.005",
+      "evidence_id": "issue.ev.007",
       "source_type": "issue_news",
       "source": "Naver News",
       "metric": "news_title",
@@ -222,7 +242,7 @@
       "snippet": "Naver News | Mon, 18 May 2026 16:06:00 +0900 기준 news_title | 값: 확인 불가"
     },
     {
-      "evidence_id": "issue.ev.006",
+      "evidence_id": "issue.ev.008",
       "source_type": "issue_news",
       "source": "Naver News",
       "metric": "news_title",
@@ -232,34 +252,14 @@
       "snippet": "Naver News | Thu, 14 May 2026 14:28:00 +0900 기준 news_title | 값: 확인 불가"
     },
     {
-      "evidence_id": "issue.ev.007",
-      "source_type": "issue_news",
-      "source": "Naver News",
-      "metric": "news_title",
-      "value": null,
-      "unit": null,
-      "period": "Fri, 01 May 2026 13:56:00 +0900",
-      "snippet": "Naver News | Fri, 01 May 2026 13:56:00 +0900 기준 news_title | 값: 확인 불가"
-    },
-    {
-      "evidence_id": "issue.ev.008",
-      "source_type": "issue_news",
-      "source": "Naver News",
-      "metric": "news_title",
-      "value": null,
-      "unit": null,
-      "period": "Thu, 23 Apr 2026 16:28:00 +0900",
-      "snippet": "Naver News | Thu, 23 Apr 2026 16:28:00 +0900 기준 news_title | 값: 확인 불가"
-    },
-    {
       "evidence_id": "issue.ev.009",
       "source_type": "issue_rss",
       "source": "Semiconductor Engineering",
       "metric": "rss_title",
       "value": null,
       "unit": null,
-      "period": "Tue, 19 May 2026 07:01:44 +0000",
-      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:44 +0000 기준 rss_title | 값: 확인 불가"
+      "period": "Mon, 25 May 2026 23:31:55 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 25 May 2026 23:31:55 +0000 기준 rss_title | 값: 확인 불가"
     },
     {
       "evidence_id": "issue.ev.010",
@@ -268,8 +268,8 @@
       "metric": "rss_title",
       "value": null,
       "unit": null,
-      "period": "Tue, 19 May 2026 07:01:41 +0000",
-      "snippet": "Semiconductor Engineering | Tue, 19 May 2026 07:01:41 +0000 기준 rss_title | 값: 확인 불가"
+      "period": "Mon, 25 May 2026 22:47:38 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 25 May 2026 22:47:38 +0000 기준 rss_title | 값: 확인 불가"
     },
     {
       "evidence_id": "issue.ev.011",
@@ -278,8 +278,8 @@
       "metric": "rss_title",
       "value": null,
       "unit": null,
-      "period": "Mon, 18 May 2026 20:46:28 +0000",
-      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:46:28 +0000 기준 rss_title | 값: 확인 불가"
+      "period": "Mon, 25 May 2026 17:49:46 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 25 May 2026 17:49:46 +0000 기준 rss_title | 값: 확인 불가"
     },
     {
       "evidence_id": "issue.ev.012",
@@ -288,8 +288,8 @@
       "metric": "rss_title",
       "value": null,
       "unit": null,
-      "period": "Mon, 18 May 2026 20:36:05 +0000",
-      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:36:05 +0000 기준 rss_title | 값: 확인 불가"
+      "period": "Mon, 25 May 2026 17:37:42 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 25 May 2026 17:37:42 +0000 기준 rss_title | 값: 확인 불가"
     },
     {
       "evidence_id": "issue.ev.013",
@@ -298,26 +298,26 @@
       "metric": "rss_title",
       "value": null,
       "unit": null,
-      "period": "Mon, 18 May 2026 20:24:00 +0000",
-      "snippet": "Semiconductor Engineering | Mon, 18 May 2026 20:24:00 +0000 기준 rss_title | 값: 확인 불가"
+      "period": "Fri, 22 May 2026 07:01:23 +0000",
+      "snippet": "Semiconductor Engineering | Fri, 22 May 2026 07:01:23 +0000 기준 rss_title | 값: 확인 불가"
     }
   ],
   "fallback_used": false,
   "warning_note": "검증 불가 claim 6개를 제거한 뒤 grounding 기준을 재검증했습니다.",
   "raw_payload": {
-    "analysis_text": "opinion: 보유\nconfidence: 0.65\n\n1.  **핵심 이슈 요약**\n    ISC는 최근 코스닥 시장에서 기관 투자자들의 반도체 장비 및 소재 업종 집중 매수 대상에 포함되고 있으며, 특히 반도체 업황 회복 기대와 실적 개선 가능성이 투자 매력을 높이는 요인으로 작용하고 있습니다. 또한, AI 밸류체인 관련주로서의 잠재력도 주목받고 있습니다. 다만, 국민연금의 보유 비중 축소 및 교환청구권 행사 이슈가 있었으며, 단기 급등에 따른 차익실현 가능성도 존재합니다.\n\n2.  **기업에 미치는 영향**\n    기관 투자자들의 매수세 유입은 주가 상승 모멘텀으로 작용할 수 있습니다. 반도체 업황 회복 및 AI 관련 투자 확대는 ISC의 실적 개선과 성장 잠재력에 긍정적인 영향을 미칠 것으로 예상됩니다. 그러나 단기 차익실현 매물 출회 가능성은 주가 변동성을 야기할 수 있습니다.\n\n3.  **긍정 시그널**\n    *   **기관 투자자 매수 확대:** 코스닥 시장에서 기관 투자자들이 ISC를 포함한 반도체 장비 및 소재 업종에 대한 매수를 확대하고 있습니다. (뉴스: [주간 코스닥 기관] 리노공업· ISC 등 반도체 장비 매수 확대…무슨 이..., [코스닥 기관] 반도체·우주항공 집중 매수…바이오는 차익실현)\n    *   **반도체 업황 회복 기대:** 반도체 업황 회복 기대감과 함께 실적 개선 가능성이 반영되어 기관 자금이 유입되고 있습니다. (뉴스: [주간 코스닥 기관] 리노공업· ISC 등 반도체 장비 매수 확대…무슨 이..., 주도주 교체기 온다…“이번엔 코스닥이 중심” [종전 후 새 주도주 찾...)\n    *   **AI 밸류체인 관련주 주목:** AI 밸류체인 관련 주가 관심권에 들어올 수 있다는 분석이 있으며, ISC가 해당될 가능성이 있습니다. (뉴스: 외국 개미 단타족 몰려온다 … 한국증시, 변동성 확대 주의보 [신대성의...)\n    *   **소부장 종목 편입:** KODEX 삼성전자SK하이닉스채권혼합50 ETF에 ISC 등 소부장 종목이 편입되었습니다. (뉴스: [경제소식] 'KODEX 삼성전자SK하이닉스채권혼합50' 순자산 5천억 돌파)\n    *   **소재·부품 기업 실적 가시성 개선:** 빅테크의 투자 확대와 함께 소재·부품 기업들의 실적 가시성이 빠르게 개선되고 있습니다. (뉴스: OCI, '기초·카본 케미컬' 투트랙 전략으로 시장 지배력 강화 주목)\n\n4.  **부정 시그널/리스크**\n    *   **국민연금 보유 비중 축소 및 교환청구권 행사:** 국민연금의 보유 비중 축소 및 교환청구권 행사 이슈가 있었습니다. (뉴스: 주도주 교체기 온다…“이번엔 코스닥이 중심” [종전 후 새 주도주 찾...)\n    *   **단기 차익실현 가능성:** 최근 3월 중 가파른 상승폭에 대한 차익실현 영향일 수 있다는 분석이 있습니다. (뉴스: 주도주 교체기 온다…“이번엔 코스닥이 중심” [종전 후 새 주도주 찾...)\n    *   **AI 반도체 관련 종목 매도:** AI 반도체 관련 종목들에 대한 매도가 이어지고 있다는 분석도 있습니다. (뉴스: [코스닥 기관] 반도체·우주항공 집중 매수…바이오는 차익실현)\n\n5.  **향후 체크포인트**\n    *   **실적 발표:** 2주 뒤로 예정된 실적 발표를 통해 실제 실적 개선 여부를 확인할 필요가 있습니다.\n    *   **기관 투자자 수급 동향:** 기관 투자자들의 매수세가 지속되는지 여부를 면밀히 관찰해야 합니다.\n    *   **반도체 업황 및 AI 시장 동향:** 전반적인 반도체 업황 회복 속도와 AI 관련 투자 확대 추세를 주시해야 합니다.\n    *   **기술 개발 및 신규 사업:** RSS에서 언급되는 실리콘 포토닉스, 2D 재료, AI 관련 기술 등과 관련된 ISC의 사업 연관성 및 기술 개발 동향을 파악하는 것이 중요합니다. (RSS: Micro-Transfer Printing (MTP) As A Promising Scalable Approach to Heterogeneous Integration for Silicon Photonics (Ghent U., imec et al), A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron))",
-    "markdown_report": "# ISC 이슈 리포트\n\n## 분석 결과\nopinion: 보유\nconfidence: 0.65\n\n1.  **핵심 이슈 요약**\n    ISC는 최근 코스닥 시장에서 기관 투자자들의 반도체 장비 및 소재 업종 집중 매수 대상에 포함되고 있으며, 특히 반도체 업황 회복 기대와 실적 개선 가능성이 투자 매력을 높이는 요인으로 작용하고 있습니다. 또한, AI 밸류체인 관련주로서의 잠재력도 주목받고 있습니다. 다만, 국민연금의 보유 비중 축소 및 교환청구권 행사 이슈가 있었으며, 단기 급등에 따른 차익실현 가능성도 존재합니다.\n\n2.  **기업에 미치는 영향**\n    기관 투자자들의 매수세 유입은 주가 상승 모멘텀으로 작용할 수 있습니다. 반도체 업황 회복 및 AI 관련 투자 확대는 ISC의 실적 개선과 성장 잠재력에 긍정적인 영향을 미칠 것으로 예상됩니다. 그러나 단기 차익실현 매물 출회 가능성은 주가 변동성을 야기할 수 있습니다.\n\n3.  **긍정 시그널**\n    *   **기관 투자자 매수 확대:** 코스닥 시장에서 기관 투자자들이 ISC를 포함한 반도체 장비 및 소재 업종에 대한 매수를 확대하고 있습니다. (뉴스: [주간 코스닥 기관] 리노공업· ISC 등 반도체 장비 매수 확대…무슨 이..., [코스닥 기관] 반도체·우주항공 집중 매수…바이오는 차익실현)\n    *   **반도체 업황 회복 기대:** 반도체 업황 회복 기대감과 함께 실적 개선 가능성이 반영되어 기관 자금이 유입되고 있습니다. (뉴스: [주간 코스닥 기관] 리노공업· ISC 등 반도체 장비 매수 확대…무슨 이..., 주도주 교체기 온다…“이번엔 코스닥이 중심” [종전 후 새 주도주 찾...)\n    *   **AI 밸류체인 관련주 주목:** AI 밸류체인 관련 주가 관심권에 들어올 수 있다는 분석이 있으며, ISC가 해당될 가능성이 있습니다. (뉴스: 외국 개미 단타족 몰려온다 … 한국증시, 변동성 확대 주의보 [신대성의...)\n    *   **소부장 종목 편입:** KODEX 삼성전자SK하이닉스채권혼합50 ETF에 ISC 등 소부장 종목이 편입되었습니다. (뉴스: [경제소식] 'KODEX 삼성전자SK하이닉스채권혼합50' 순자산 5천억 돌파)\n    *   **소재·부품 기업 실적 가시성 개선:** 빅테크의 투자 확대와 함께 소재·부품 기업들의 실적 가시성이 빠르게 개선되고 있습니다. (뉴스: OCI, '기초·카본 케미컬' 투트랙 전략으로 시장 지배력 강화 주목)\n\n4.  **부정 시그널/리스크**\n    *   **국민연금 보유 비중 축소 및 교환청구권 행사:** 국민연금의 보유 비중 축소 및 교환청구권 행사 이슈가 있었습니다. (뉴스: 주도주 교체기 온다…“이번엔 코스닥이 중심” [종전 후 새 주도주 찾...)\n    *   **단기 차익실현 가능성:** 최근 3월 중 가파른 상승폭에 대한 차익실현 영향일 수 있다는 분석이 있습니다. (뉴스: 주도주 교체기 온다…“이번엔 코스닥이 중심” [종전 후 새 주도주 찾...)\n    *   **AI 반도체 관련 종목 매도:** AI 반도체 관련 종목들에 대한 매도가 이어지고 있다는 분석도 있습니다. (뉴스: [코스닥 기관] 반도체·우주항공 집중 매수…바이오는 차익실현)\n\n5.  **향후 체크포인트**\n    *   **실적 발표:** 2주 뒤로 예정된 실적 발표를 통해 실제 실적 개선 여부를 확인할 필요가 있습니다.\n    *   **기관 투자자 수급 동향:** 기관 투자자들의 매수세가 지속되는지 여부를 면밀히 관찰해야 합니다.\n    *   **반도체 업황 및 AI 시장 동향:** 전반적인 반도체 업황 회복 속도와 AI 관련 투자 확대 추세를 주시해야 합니다.\n    *   **기술 개발 및 신규 사업:** RSS에서 언급되는 실리콘 포토닉스, 2D 재료, AI 관련 기술 등과 관련된 ISC의 사업 연관성 및 기술 개발 동향을 파악하는 것이 중요합니다. (RSS: Micro-Transfer Printing (MTP) As A Promising Scalable Approach to Heterogeneous Integration for Silicon Photonics (Ghent U., imec et al), A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron))\n",
+    "analysis_text": "opinion: 보유\nconfidence: 0.65\n\n## ISC 투자 관점 이슈 의견서\n\n### 1. 핵심 이슈 요약\n\nISC는 최근 코스닥 시장에서 기관 투자자들의 반도체 장비 및 소재 매수 확대 대상에 포함되었으며, 특히 반도체 업황 회복 기대와 실적 개선 가능성이 반영되고 있습니다. 또한, KODEX 삼성전자SK하이닉스채권혼합50 ETF의 소부장 종목 편입 대상으로도 언급되어 투자 매력을 높이는 요인으로 작용하고 있습니다. 엔비디아의 차세대 칩 출시와 AI 서버 투자 확대에 따른 고성능 메모리 및 패키징 기판 수요 증가 기대감도 긍정적인 영향을 미치고 있습니다.\n\n### 2. 기업에 미치는 영향\n\nISC는 반도체 업황 회복 및 AI 관련 고성능 반도체 수요 증가의 수혜를 받을 것으로 예상됩니다. 기관 투자자들의 매수세 유입과 ETF 편입은 단기적인 주가 상승 모멘텀으로 작용할 수 있습니다. 다만, 반도체 산업의 변동성과 경쟁 심화는 잠재적인 리스크 요인으로 작용할 수 있습니다.\n\n### 3. 긍정 시그널\n\n*   **기관 투자자 매수세 유입:** 최근 주간 코스닥 기관 매매 동향에서 ISC가 반도체 장비 및 소재 업종의 주요 매수 대상으로 언급되었습니다. 이는 반도체 업황 회복 기대와 실적 개선 가능성에 대한 기관의 긍정적인 전망을 시사합니다.\n*   **ETF 편입:** KODEX 삼성전자SK하이닉스채권혼합50 ETF에 소부장 종목으로 편입된 것은 투자 매력을 높이는 요인으로 작용하고 있습니다. 이는 해당 ETF의 자금 유입 시 ISC로의 투자 자금 유입 가능성을 높입니다.\n*   **AI 반도체 시장 성장:** 엔비디아의 차세대 칩 출시와 AI 서버 투자 확대는 고성능 메모리 및 관련 부품 수요 증가로 이어질 가능성이 높으며, ISC가 이러한 시장 성장의 수혜를 받을 수 있습니다.\n*   **반도체 업황 회복 기대:** 전반적인 반도체 업황 회복에 대한 기대감이 높아지고 있으며, 이는 ISC와 같은 반도체 소재·부품 기업의 실적 개선으로 이어질 수 있습니다.\n\n### 4. 부정 시그널/리스크\n\n*   **AI 반도체 관련 종목 매도세:** 일부 뉴스에서는 AI 반도체 관련 종목들에 대한 매도가 이어지고 있다는 언급이 있어, 시장 전반의 투자 심리 변화에 따른 변동성 가능성을 배제할 수 없습니다. (파두, 주성엔지니어링, 네패스아크, ISC 등이 언급됨)\n*   **데이터 부족:** ISC 자체의 구체적인 내부 키워드나 사업 내용에 대한 정보가 부족하여, 회사의 경쟁력이나 구체적인 수혜 정도를 심층적으로 판단하기 어렵습니다.\n*   **경쟁 심화 가능성:** 반도체 소재·부품 시장은 기술 발전과 경쟁이 치열한 분야이므로, 경쟁사의 신기술 개발이나 가격 경쟁 심화는 ISC의 수익성에 영향을 미칠 수 있습니다. (RSS에서 다양한 반도체 기술 관련 논문이 발표되는 점을 통해 간접적으로 추정 가능)\n*   **거시 경제 변동성:** 글로벌 경제 상황, 금리 변동, 지정학적 리스크 등 거시 경제 변수는 반도체 산업 전반의 투자 심리에 영향을 미칠 수 있습니다.\n\n### 5. 향후 체크포인트\n\n*   **기관 투자자 매매 동향 지속 여부:** 향후에도 기관 투자자들의 ISC에 대한 매수세가 지속되는지 여부를 면밀히 관찰해야 합니다.\n*   **AI 관련 신규 수주 및 실적 발표:** 엔비디아 등 빅테크 기업의 투자 확대가 ISC의 실제 수주 및 실적 개선으로 이어지는지 구체적인 데이터를 확인해야 합니다.\n*   **신규 기술 개발 및 시장 대응:** 반도체 기술 발전 속도가 빠르므로, ISC의 신규 기술 개발 현황 및 시장 변화에 대한 대응 능력을 주시해야 합니다.\n*   **경쟁사 동향:** 경쟁사의 기술 개발, 신규 사업 진출 등 동향을 파악하여 ISC의 시장 내 입지를 평가해야 합니다.\n*   **거시 경제 지표 및 반도체 업황 전망:** 글로벌 경제 상황 및 반도체 업황 전망에 대한 지속적인 모니터링이 필요합니다.",
+    "markdown_report": "# ISC 이슈 리포트\n\n## 분석 결과\nopinion: 보유\nconfidence: 0.65\n\n## ISC 투자 관점 이슈 의견서\n\n### 1. 핵심 이슈 요약\n\nISC는 최근 코스닥 시장에서 기관 투자자들의 반도체 장비 및 소재 매수 확대 대상에 포함되었으며, 특히 반도체 업황 회복 기대와 실적 개선 가능성이 반영되고 있습니다. 또한, KODEX 삼성전자SK하이닉스채권혼합50 ETF의 소부장 종목 편입 대상으로도 언급되어 투자 매력을 높이는 요인으로 작용하고 있습니다. 엔비디아의 차세대 칩 출시와 AI 서버 투자 확대에 따른 고성능 메모리 및 패키징 기판 수요 증가 기대감도 긍정적인 영향을 미치고 있습니다.\n\n### 2. 기업에 미치는 영향\n\nISC는 반도체 업황 회복 및 AI 관련 고성능 반도체 수요 증가의 수혜를 받을 것으로 예상됩니다. 기관 투자자들의 매수세 유입과 ETF 편입은 단기적인 주가 상승 모멘텀으로 작용할 수 있습니다. 다만, 반도체 산업의 변동성과 경쟁 심화는 잠재적인 리스크 요인으로 작용할 수 있습니다.\n\n### 3. 긍정 시그널\n\n*   **기관 투자자 매수세 유입:** 최근 주간 코스닥 기관 매매 동향에서 ISC가 반도체 장비 및 소재 업종의 주요 매수 대상으로 언급되었습니다. 이는 반도체 업황 회복 기대와 실적 개선 가능성에 대한 기관의 긍정적인 전망을 시사합니다.\n*   **ETF 편입:** KODEX 삼성전자SK하이닉스채권혼합50 ETF에 소부장 종목으로 편입된 것은 투자 매력을 높이는 요인으로 작용하고 있습니다. 이는 해당 ETF의 자금 유입 시 ISC로의 투자 자금 유입 가능성을 높입니다.\n*   **AI 반도체 시장 성장:** 엔비디아의 차세대 칩 출시와 AI 서버 투자 확대는 고성능 메모리 및 관련 부품 수요 증가로 이어질 가능성이 높으며, ISC가 이러한 시장 성장의 수혜를 받을 수 있습니다.\n*   **반도체 업황 회복 기대:** 전반적인 반도체 업황 회복에 대한 기대감이 높아지고 있으며, 이는 ISC와 같은 반도체 소재·부품 기업의 실적 개선으로 이어질 수 있습니다.\n\n### 4. 부정 시그널/리스크\n\n*   **AI 반도체 관련 종목 매도세:** 일부 뉴스에서는 AI 반도체 관련 종목들에 대한 매도가 이어지고 있다는 언급이 있어, 시장 전반의 투자 심리 변화에 따른 변동성 가능성을 배제할 수 없습니다. (파두, 주성엔지니어링, 네패스아크, ISC 등이 언급됨)\n*   **데이터 부족:** ISC 자체의 구체적인 내부 키워드나 사업 내용에 대한 정보가 부족하여, 회사의 경쟁력이나 구체적인 수혜 정도를 심층적으로 판단하기 어렵습니다.\n*   **경쟁 심화 가능성:** 반도체 소재·부품 시장은 기술 발전과 경쟁이 치열한 분야이므로, 경쟁사의 신기술 개발이나 가격 경쟁 심화는 ISC의 수익성에 영향을 미칠 수 있습니다. (RSS에서 다양한 반도체 기술 관련 논문이 발표되는 점을 통해 간접적으로 추정 가능)\n*   **거시 경제 변동성:** 글로벌 경제 상황, 금리 변동, 지정학적 리스크 등 거시 경제 변수는 반도체 산업 전반의 투자 심리에 영향을 미칠 수 있습니다.\n\n### 5. 향후 체크포인트\n\n*   **기관 투자자 매매 동향 지속 여부:** 향후에도 기관 투자자들의 ISC에 대한 매수세가 지속되는지 여부를 면밀히 관찰해야 합니다.\n*   **AI 관련 신규 수주 및 실적 발표:** 엔비디아 등 빅테크 기업의 투자 확대가 ISC의 실제 수주 및 실적 개선으로 이어지는지 구체적인 데이터를 확인해야 합니다.\n*   **신규 기술 개발 및 시장 대응:** 반도체 기술 발전 속도가 빠르므로, ISC의 신규 기술 개발 현황 및 시장 변화에 대한 대응 능력을 주시해야 합니다.\n*   **경쟁사 동향:** 경쟁사의 기술 개발, 신규 사업 진출 등 동향을 파악하여 ISC의 시장 내 입지를 평가해야 합니다.\n*   **거시 경제 지표 및 반도체 업황 전망:** 글로벌 경제 상황 및 반도체 업황 전망에 대한 지속적인 모니터링이 필요합니다.\n",
     "news_count": 10,
-    "rss_count": 18,
+    "rss_count": 13,
     "related_keyword_count": 0,
     "df_news_rows": 139,
     "llm_error": null,
     "graph_claims_original": [],
     "removed_ungrounded_claims": [
-      "ISC 관련 공개 뉴스 제목: [코스닥 기관] 반도체·우주항공 집중 매수…바이오는 차익실현",
+      "ISC 관련 공개 뉴스 제목: 엔비디아 '훈풍'...한국증시 HBM·유리기판·AI주 '장중 껑충'",
+      "ISC 관련 공개 뉴스 제목: 엔비디아 차세대 칩 수혜주 부각… 심텍, GDDR7·SoCAMM2 기판 잭팟 터지...",
       "ISC 관련 공개 뉴스 제목: 외국 개미 단타족 몰려온다 … 한국증시, 변동성 확대 주의보 [신대성의...",
-      "ISC 관련 공개 뉴스 제목: 저PBR 재평가 본격화…밸류업 테마주 LG전자 현대백화점 LG디스플레이 주...",
-      "ISC 이슈 분석에서 수집된 RSS 항목 수는 18건입니다.",
+      "ISC 이슈 분석에서 수집된 RSS 항목 수는 13건입니다.",
       "ISC 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
       "ISC 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다."
     ],
@@ -336,17 +336,17 @@
     "supported_claims": [],
     "unsupported_claims": [
       "ISC 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
-      "ISC 이슈 분석에서 수집된 RSS 항목 수는 18건입니다.",
+      "ISC 이슈 분석에서 수집된 RSS 항목 수는 13건입니다.",
       "ISC 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다.",
-      "ISC 관련 공개 뉴스 제목: 외국 개미 단타족 몰려온다 … 한국증시, 변동성 확대 주의보 [신대성의...",
-      "ISC 관련 공개 뉴스 제목: [코스닥 기관] 반도체·우주항공 집중 매수…바이오는 차익실현",
-      "ISC 관련 공개 뉴스 제목: 저PBR 재평가 본격화…밸류업 테마주 LG전자 현대백화점 LG디스플레이 주..."
+      "ISC 관련 공개 뉴스 제목: 엔비디아 차세대 칩 수혜주 부각… 심텍, GDDR7·SoCAMM2 기판 잭팟 터지...",
+      "ISC 관련 공개 뉴스 제목: 엔비디아 '훈풍'...한국증시 HBM·유리기판·AI주 '장중 껑충'",
+      "ISC 관련 공개 뉴스 제목: 외국 개미 단타족 몰려온다 … 한국증시, 변동성 확대 주의보 [신대성의..."
     ],
     "issues": [
       "issue.cl.001: evidence와 claim 연결이 약합니다.",
       "issue.cl.002: evidence와 claim 연결이 약합니다.",
       "issue.cl.003: evidence와 claim 연결이 약합니다.",
-      "issue.cl.004: evidence와 claim 연결이 약합니다.",
+      "issue.cl.004: 숫자 불일치 또는 누락(number_ratio=0.00)",
       "issue.cl.005: evidence와 claim 연결이 약합니다.",
       "issue.cl.006: evidence와 claim 연결이 약합니다."
     ],
@@ -368,7 +368,7 @@
       },
       {
         "claim_id": "issue.cl.002",
-        "text": "ISC 이슈 분석에서 수집된 RSS 항목 수는 18건입니다.",
+        "text": "ISC 이슈 분석에서 수집된 RSS 항목 수는 13건입니다.",
         "evidence_ids": [
           "issue.ev.002"
         ],
@@ -398,22 +398,22 @@
       },
       {
         "claim_id": "issue.cl.004",
-        "text": "ISC 관련 공개 뉴스 제목: 외국 개미 단타족 몰려온다 … 한국증시, 변동성 확대 주의보 [신대성의...",
+        "text": "ISC 관련 공개 뉴스 제목: 엔비디아 차세대 칩 수혜주 부각… 심텍, GDDR7·SoCAMM2 기판 잭팟 터지...",
         "evidence_ids": [
           "issue.ev.004"
         ],
         "supported": false,
-        "score": 0.55,
-        "number_ratio": 1.0,
+        "score": 0.25,
+        "number_ratio": 0.0,
         "token_ratio": 0.0,
         "concept_ratio": 1.0,
         "missing_concepts": [],
         "concept_matches": {},
-        "reason": "evidence와 claim 연결이 약합니다."
+        "reason": "숫자 불일치 또는 누락(number_ratio=0.00)"
       },
       {
         "claim_id": "issue.cl.005",
-        "text": "ISC 관련 공개 뉴스 제목: [코스닥 기관] 반도체·우주항공 집중 매수…바이오는 차익실현",
+        "text": "ISC 관련 공개 뉴스 제목: 엔비디아 '훈풍'...한국증시 HBM·유리기판·AI주 '장중 껑충'",
         "evidence_ids": [
           "issue.ev.005"
         ],
@@ -428,7 +428,7 @@
       },
       {
         "claim_id": "issue.cl.006",
-        "text": "ISC 관련 공개 뉴스 제목: 저PBR 재평가 본격화…밸류업 테마주 LG전자 현대백화점 LG디스플레이 주...",
+        "text": "ISC 관련 공개 뉴스 제목: 외국 개미 단타족 몰려온다 … 한국증시, 변동성 확대 주의보 [신대성의...",
         "evidence_ids": [
           "issue.ev.006"
         ],
@@ -452,7 +452,7 @@
     "unsupported_count": 0,
     "supported_claims": [
       "news_count 값은 10count입니다.",
-      "rss_count 값은 18count입니다.",
+      "rss_count 값은 13count입니다.",
       "related_keyword_count 값은 0count입니다."
     ],
     "unsupported_claims": [],
@@ -475,7 +475,7 @@
       },
       {
         "claim_id": "issue.auto_cl.003",
-        "text": "rss_count 값은 18count입니다.",
+        "text": "rss_count 값은 13count입니다.",
         "evidence_ids": [
           "issue.ev.002"
         ],
@@ -514,7 +514,7 @@
     "unsupported_count": 0,
     "supported_claims": [
       "news_count 값은 10count입니다.",
-      "rss_count 값은 18count입니다.",
+      "rss_count 값은 13count입니다.",
       "related_keyword_count 값은 0count입니다."
     ],
     "unsupported_claims": [],
@@ -537,7 +537,7 @@
       },
       {
         "claim_id": "issue.auto_cl.003",
-        "text": "rss_count 값은 18count입니다.",
+        "text": "rss_count 값은 13count입니다.",
         "evidence_ids": [
           "issue.ev.002"
         ],

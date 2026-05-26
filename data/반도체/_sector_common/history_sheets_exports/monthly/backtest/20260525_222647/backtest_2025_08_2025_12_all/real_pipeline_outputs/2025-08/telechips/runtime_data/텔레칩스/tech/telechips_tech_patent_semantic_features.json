@@ -1,0 +1,153 @@
+{
+  "status": "OK",
+  "created_at": "2026-05-25T23:45:32",
+  "company_slug": "telechips",
+  "company_name": "텔레칩스",
+  "source_csv": "C:\\Agent_6.9\\data\\반도체\\텔레칩스\\tech\\telechips_kipris_bibliographic_normalized.csv",
+  "method": "TFIDF_COSINE_FALLBACK",
+  "patent_text_count": 30,
+  "semantic_similarity_avg": 0.0273,
+  "top_pairs": [
+    {
+      "left_index": 0,
+      "right_index": 2,
+      "similarity": 0.2528,
+      "left_source_index": 0,
+      "right_source_index": 2
+    },
+    {
+      "left_index": 6,
+      "right_index": 24,
+      "similarity": 0.2027,
+      "left_source_index": 6,
+      "right_source_index": 24
+    },
+    {
+      "left_index": 21,
+      "right_index": 24,
+      "similarity": 0.1978,
+      "left_source_index": 21,
+      "right_source_index": 24
+    },
+    {
+      "left_index": 9,
+      "right_index": 26,
+      "similarity": 0.1917,
+      "left_source_index": 9,
+      "right_source_index": 26
+    },
+    {
+      "left_index": 6,
+      "right_index": 21,
+      "similarity": 0.1916,
+      "left_source_index": 6,
+      "right_source_index": 21
+    },
+    {
+      "left_index": 6,
+      "right_index": 20,
+      "similarity": 0.1587,
+      "left_source_index": 6,
+      "right_source_index": 20
+    },
+    {
+      "left_index": 19,
+      "right_index": 20,
+      "similarity": 0.1495,
+      "left_source_index": 19,
+      "right_source_index": 20
+    },
+    {
+      "left_index": 20,
+      "right_index": 24,
+      "similarity": 0.143,
+      "left_source_index": 20,
+      "right_source_index": 24
+    },
+    {
+      "left_index": 12,
+      "right_index": 24,
+      "similarity": 0.1393,
+      "left_source_index": 12,
+      "right_source_index": 24
+    },
+    {
+      "left_index": 19,
+      "right_index": 22,
+      "similarity": 0.134,
+      "left_source_index": 19,
+      "right_source_index": 22
+    },
+    {
+      "left_index": 13,
+      "right_index": 14,
+      "similarity": 0.1316,
+      "left_source_index": 13,
+      "right_source_index": 14
+    },
+    {
+      "left_index": 6,
+      "right_index": 12,
+      "similarity": 0.1302,
+      "left_source_index": 6,
+      "right_source_index": 12
+    },
+    {
+      "left_index": 6,
+      "right_index": 7,
+      "similarity": 0.1255,
+      "left_source_index": 6,
+      "right_source_index": 7
+    },
+    {
+      "left_index": 0,
+      "right_index": 24,
+      "similarity": 0.1252,
+      "left_source_index": 0,
+      "right_source_index": 24
+    },
+    {
+      "left_index": 8,
+      "right_index": 23,
+      "similarity": 0.1218,
+      "left_source_index": 8,
+      "right_source_index": 23
+    },
+    {
+      "left_index": 7,
+      "right_index": 29,
+      "similarity": 0.1137,
+      "left_source_index": 7,
+      "right_source_index": 29
+    },
+    {
+      "left_index": 12,
+      "right_index": 20,
+      "similarity": 0.1002,
+      "left_source_index": 12,
+      "right_source_index": 20
+    },
+    {
+      "left_index": 0,
+      "right_index": 12,
+      "similarity": 0.1001,
+      "left_source_index": 0,
+      "right_source_index": 12
+    },
+    {
+      "left_index": 7,
+      "right_index": 24,
+      "similarity": 0.0982,
+      "left_source_index": 7,
+      "right_source_index": 24
+    },
+    {
+      "left_index": 7,
+      "right_index": 26,
+      "similarity": 0.0936,
+      "left_source_index": 7,
+      "right_source_index": 26
+    }
+  ],
+  "usage_note": "This is an offline fallback inspired by PatentSBERTa-style semantic patent distance. If sentence-transformers and AI-Growth-Lab/PatentSBERTa are installed later, this layer can be upgraded."
+}

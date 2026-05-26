@@ -1,0 +1,53 @@
+[
+  {
+    "endpoint": "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/applicantNameSearchInfo",
+    "query": "피에스케이",
+    "query_param": "applicant",
+    "key_param": "accessKey",
+    "page_no": 1,
+    "status_code": 200,
+    "row_count_raw": 30,
+    "meta": {
+      "raw_prefix": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n\r\n\r\n\r\n\r\n<response>\r\n\t<header>\r\n\t\t<resultCode>00</resultCode>\r\n\t\t<resultMsg>success</resultMsg>\r\n\t</header>\r\n\t<body>\r\n\t\t<items>\r\n\t\t\t<PatentUtilityInfo>\r\n\t\t\t\t<Applicant>폴 슈레 앙스띠뛰</Applicant>\r\n\t\t\t\t<ApplicationDate>20210730</ApplicationDate>\r\n\t\t\t\t<ApplicationNumbe",
+      "format": "xml",
+      "resultCode": "00",
+      "resultMsg": "success"
+    },
+    "started_at": "2026-05-20T18:28:09",
+    "ended_at": "2026-05-20T18:28:10"
+  },
+  {
+    "endpoint": "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/applicantNameSearchInfo",
+    "query": "피에스케이",
+    "query_param": "applicant",
+    "key_param": "accessKey",
+    "page_no": 2,
+    "status_code": 200,
+    "row_count_raw": 30,
+    "meta": {
+      "raw_prefix": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n\r\n\r\n\r\n\r\n<response>\r\n\t<header>\r\n\t\t<resultCode>00</resultCode>\r\n\t\t<resultMsg>success</resultMsg>\r\n\t</header>\r\n\t<body>\r\n\t\t<items>\r\n\t\t\t<PatentUtilityInfo>\r\n\t\t\t\t<Applicant>폴 슈레 앙스띠뛰</Applicant>\r\n\t\t\t\t<ApplicationDate>20150507</ApplicationDate>\r\n\t\t\t\t<ApplicationNumbe",
+      "format": "xml",
+      "resultCode": "00",
+      "resultMsg": "success"
+    },
+    "started_at": "2026-05-20T18:28:11",
+    "ended_at": "2026-05-20T18:28:12"
+  },
+  {
+    "endpoint": "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/applicantNameSearchInfo",
+    "query": "피에스케이",
+    "query_param": "applicant",
+    "key_param": "accessKey",
+    "page_no": 3,
+    "status_code": 200,
+    "row_count_raw": 0,
+    "meta": {
+      "raw_prefix": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n\r\n\r\n\r\n\r\n<response>\r\n\t<header>\r\n\t\t<resultCode>00</resultCode>\r\n\t\t<resultMsg>success</resultMsg>\r\n\t</header>\r\n\t<body>\r\n\t\t<items>\r\n\t\t\t<TotalSearchCount>666</TotalSearchCount>\r\n\t\t\t<SearchStartNumber>1000</SearchStartNumber>\r\n\t\t</items>\r\n\t</body>\r\n</response>",
+      "format": "xml",
+      "resultCode": "00",
+      "resultMsg": "success"
+    },
+    "started_at": "2026-05-20T18:28:13",
+    "ended_at": "2026-05-20T18:28:13"
+  }
+]

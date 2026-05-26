@@ -1,0 +1,153 @@
+{
+  "status": "OK",
+  "created_at": "2026-05-26T02:35:03",
+  "company_slug": "isc",
+  "company_name": "ISC",
+  "source_csv": "C:\\Agent_6.9\\data\\반도체\\ISC\\tech\\isc_kipris_bibliographic_normalized.csv",
+  "method": "TFIDF_COSINE_FALLBACK",
+  "patent_text_count": 30,
+  "semantic_similarity_avg": 0.0674,
+  "top_pairs": [
+    {
+      "left_index": 10,
+      "right_index": 17,
+      "similarity": 0.7706,
+      "left_source_index": 10,
+      "right_source_index": 17
+    },
+    {
+      "left_index": 10,
+      "right_index": 13,
+      "similarity": 0.3983,
+      "left_source_index": 10,
+      "right_source_index": 13
+    },
+    {
+      "left_index": 13,
+      "right_index": 17,
+      "similarity": 0.3892,
+      "left_source_index": 13,
+      "right_source_index": 17
+    },
+    {
+      "left_index": 8,
+      "right_index": 13,
+      "similarity": 0.2948,
+      "left_source_index": 8,
+      "right_source_index": 13
+    },
+    {
+      "left_index": 8,
+      "right_index": 17,
+      "similarity": 0.2753,
+      "left_source_index": 8,
+      "right_source_index": 17
+    },
+    {
+      "left_index": 4,
+      "right_index": 21,
+      "similarity": 0.2684,
+      "left_source_index": 4,
+      "right_source_index": 21
+    },
+    {
+      "left_index": 8,
+      "right_index": 10,
+      "similarity": 0.2675,
+      "left_source_index": 8,
+      "right_source_index": 10
+    },
+    {
+      "left_index": 4,
+      "right_index": 17,
+      "similarity": 0.2227,
+      "left_source_index": 4,
+      "right_source_index": 17
+    },
+    {
+      "left_index": 4,
+      "right_index": 10,
+      "similarity": 0.2214,
+      "left_source_index": 4,
+      "right_source_index": 10
+    },
+    {
+      "left_index": 4,
+      "right_index": 19,
+      "similarity": 0.2067,
+      "left_source_index": 4,
+      "right_source_index": 19
+    },
+    {
+      "left_index": 4,
+      "right_index": 18,
+      "similarity": 0.2033,
+      "left_source_index": 4,
+      "right_source_index": 18
+    },
+    {
+      "left_index": 4,
+      "right_index": 13,
+      "similarity": 0.2003,
+      "left_source_index": 4,
+      "right_source_index": 13
+    },
+    {
+      "left_index": 19,
+      "right_index": 21,
+      "similarity": 0.1984,
+      "left_source_index": 19,
+      "right_source_index": 21
+    },
+    {
+      "left_index": 13,
+      "right_index": 18,
+      "similarity": 0.186,
+      "left_source_index": 13,
+      "right_source_index": 18
+    },
+    {
+      "left_index": 10,
+      "right_index": 18,
+      "similarity": 0.1828,
+      "left_source_index": 10,
+      "right_source_index": 18
+    },
+    {
+      "left_index": 11,
+      "right_index": 13,
+      "similarity": 0.1821,
+      "left_source_index": 11,
+      "right_source_index": 13
+    },
+    {
+      "left_index": 17,
+      "right_index": 18,
+      "similarity": 0.1811,
+      "left_source_index": 17,
+      "right_source_index": 18
+    },
+    {
+      "left_index": 9,
+      "right_index": 18,
+      "similarity": 0.1765,
+      "left_source_index": 9,
+      "right_source_index": 18
+    },
+    {
+      "left_index": 0,
+      "right_index": 26,
+      "similarity": 0.1747,
+      "left_source_index": 0,
+      "right_source_index": 26
+    },
+    {
+      "left_index": 10,
+      "right_index": 12,
+      "similarity": 0.1724,
+      "left_source_index": 10,
+      "right_source_index": 12
+    }
+  ],
+  "usage_note": "This is an offline fallback inspired by PatentSBERTa-style semantic patent distance. If sentence-transformers and AI-Growth-Lab/PatentSBERTa are installed later, this layer can be upgraded."
+}

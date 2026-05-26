@@ -4,13 +4,13 @@
   "company": "넥스틴",
   "opinion": "보유",
   "confidence": 0.45,
-  "summary": "넥스틴에 대해 검증 가능한 핵심 근거는 다음과 같습니다. 넥스틴 마켓 분석 total_score 값은 75점입니다. 넥스틴 stock_data.current_price 값은 61100입니다. 넥스틴 stock_data.change 값은 -900입니다. 넥스틴 stock_data.change_rate 값은 -1.45%입니다. 넥스틴 stock_data.raw.clpr 값은 61100입니다.",
+  "summary": "넥스틴에 대해 검증 가능한 핵심 근거는 다음과 같습니다. 넥스틴 마켓 분석 total_score 값은 75점입니다. 넥스틴 stock_data.current_price 값은 64900입니다. 넥스틴 stock_data.change 값은 5700입니다. 넥스틴 stock_data.change_rate 값은 9.63%입니다. 넥스틴 stock_data.raw.clpr 값은 64900입니다.",
   "key_points": [
     "넥스틴 마켓 분석 total_score 값은 75점입니다.",
-    "넥스틴 stock_data.current_price 값은 61100입니다.",
-    "넥스틴 stock_data.change 값은 -900입니다.",
-    "넥스틴 stock_data.change_rate 값은 -1.45%입니다.",
-    "넥스틴 stock_data.raw.clpr 값은 61100입니다."
+    "넥스틴 stock_data.current_price 값은 64900입니다.",
+    "넥스틴 stock_data.change 값은 5700입니다.",
+    "넥스틴 stock_data.change_rate 값은 9.63%입니다.",
+    "넥스틴 stock_data.raw.clpr 값은 64900입니다."
   ],
   "risks": [],
   "claims": [
@@ -23,42 +23,42 @@
     },
     {
       "claim_id": "market.cl.002",
-      "text": "넥스틴 stock_data.current_price 값은 61100입니다.",
+      "text": "넥스틴 stock_data.current_price 값은 64900입니다.",
       "evidence_ids": [
         "market.ev.006"
       ]
     },
     {
       "claim_id": "market.cl.003",
-      "text": "넥스틴 stock_data.change 값은 -900입니다.",
+      "text": "넥스틴 stock_data.change 값은 5700입니다.",
       "evidence_ids": [
         "market.ev.009"
       ]
     },
     {
       "claim_id": "market.cl.004",
-      "text": "넥스틴 stock_data.change_rate 값은 -1.45%입니다.",
+      "text": "넥스틴 stock_data.change_rate 값은 9.63%입니다.",
       "evidence_ids": [
         "market.ev.010"
       ]
     },
     {
       "claim_id": "market.cl.005",
-      "text": "넥스틴 stock_data.raw.clpr 값은 61100입니다.",
+      "text": "넥스틴 stock_data.raw.clpr 값은 64900입니다.",
       "evidence_ids": [
         "market.ev.016"
       ]
     },
     {
       "claim_id": "market.cl.006",
-      "text": "넥스틴 stock_data.raw.vs 값은 -900입니다.",
+      "text": "넥스틴 stock_data.raw.vs 값은 5700입니다.",
       "evidence_ids": [
         "market.ev.017"
       ]
     },
     {
       "claim_id": "market.auto_cl.007",
-      "text": "stock_data.raw.fltRt 값은 -1.45%입니다.",
+      "text": "stock_data.raw.fltRt 값은 9.63%입니다.",
       "evidence_ids": [
         "market.ev.018"
       ],
@@ -66,7 +66,7 @@
     },
     {
       "claim_id": "market.auto_cl.009",
-      "text": "stock_data.raw.mkp 값은 62,000입니다.",
+      "text": "stock_data.raw.mkp 값은 60,800입니다.",
       "evidence_ids": [
         "market.ev.019"
       ],
@@ -74,7 +74,7 @@
     },
     {
       "claim_id": "market.auto_cl.011",
-      "text": "stock_data.raw.hipr 값은 65,400입니다.",
+      "text": "stock_data.raw.hipr 값은 65,100입니다.",
       "evidence_ids": [
         "market.ev.020"
       ],
@@ -137,10 +137,10 @@
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.current_price",
-      "value": 61100,
+      "value": 64900,
       "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.current_price | 값: 61,100원"
+      "snippet": "stock_data | stock_data.current_price | 값: 64,900원"
     },
     {
       "evidence_id": "market.ev.007",
@@ -167,20 +167,20 @@
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.change",
-      "value": -900,
+      "value": 5700,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.change | 값: -900"
+      "snippet": "stock_data | stock_data.change | 값: 5,700"
     },
     {
       "evidence_id": "market.ev.010",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.change_rate",
-      "value": -1.45,
+      "value": 9.63,
       "unit": "%",
       "period": null,
-      "snippet": "stock_data | stock_data.change_rate | 값: -1.45%"
+      "snippet": "stock_data | stock_data.change_rate | 값: 9.63%"
     },
     {
       "evidence_id": "market.ev.011",
@@ -237,50 +237,50 @@
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.clpr",
-      "value": 61100,
+      "value": 64900,
       "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.clpr | 값: 61,100원"
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 64,900원"
     },
     {
       "evidence_id": "market.ev.017",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.vs",
-      "value": -900,
+      "value": 5700,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.vs | 값: -900"
+      "snippet": "stock_data | stock_data.raw.vs | 값: 5,700"
     },
     {
       "evidence_id": "market.ev.018",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.fltRt",
-      "value": -1.45,
+      "value": 9.63,
       "unit": "%",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.fltRt | 값: -1.45%"
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: 9.63%"
     },
     {
       "evidence_id": "market.ev.019",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.mkp",
-      "value": 62000,
+      "value": 60800,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.mkp | 값: 62,000"
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 60,800"
     },
     {
       "evidence_id": "market.ev.020",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.hipr",
-      "value": 65400,
+      "value": 65100,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.hipr | 값: 65,400"
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 65,100"
     }
   ],
   "evidence": [
@@ -339,10 +339,10 @@
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.current_price",
-      "value": 61100,
+      "value": 64900,
       "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.current_price | 값: 61,100원"
+      "snippet": "stock_data | stock_data.current_price | 값: 64,900원"
     },
     {
       "evidence_id": "market.ev.007",
@@ -369,20 +369,20 @@
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.change",
-      "value": -900,
+      "value": 5700,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.change | 값: -900"
+      "snippet": "stock_data | stock_data.change | 값: 5,700"
     },
     {
       "evidence_id": "market.ev.010",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.change_rate",
-      "value": -1.45,
+      "value": 9.63,
       "unit": "%",
       "period": null,
-      "snippet": "stock_data | stock_data.change_rate | 값: -1.45%"
+      "snippet": "stock_data | stock_data.change_rate | 값: 9.63%"
     },
     {
       "evidence_id": "market.ev.011",
@@ -439,264 +439,99 @@
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.clpr",
-      "value": 61100,
+      "value": 64900,
       "unit": "원",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.clpr | 값: 61,100원"
+      "snippet": "stock_data | stock_data.raw.clpr | 값: 64,900원"
     },
     {
       "evidence_id": "market.ev.017",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.vs",
-      "value": -900,
+      "value": 5700,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.vs | 값: -900"
+      "snippet": "stock_data | stock_data.raw.vs | 값: 5,700"
     },
     {
       "evidence_id": "market.ev.018",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.fltRt",
-      "value": -1.45,
+      "value": 9.63,
       "unit": "%",
       "period": null,
-      "snippet": "stock_data | stock_data.raw.fltRt | 값: -1.45%"
+      "snippet": "stock_data | stock_data.raw.fltRt | 값: 9.63%"
     },
     {
       "evidence_id": "market.ev.019",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.mkp",
-      "value": 62000,
+      "value": 60800,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.mkp | 값: 62,000"
+      "snippet": "stock_data | stock_data.raw.mkp | 값: 60,800"
     },
     {
       "evidence_id": "market.ev.020",
       "source_type": "market",
       "source": "stock_data",
       "metric": "stock_data.raw.hipr",
-      "value": 65400,
+      "value": 65100,
       "unit": null,
       "period": null,
-      "snippet": "stock_data | stock_data.raw.hipr | 값: 65,400"
+      "snippet": "stock_data | stock_data.raw.hipr | 값: 65,100"
     }
   ],
   "raw_payload": {
     "analysis": {
-      "agent": "market",
       "company": "넥스틴",
       "opinion": "보유",
-      "confidence": 0.6,
-      "market_summary": {
-        "oecd_interpretation": "OECD 경기선행지수가 98.01로 기준선(100) 하회하며 경기 둔화 가능성을 시사합니다. 이는 전반적인 투자 심리에 부정적인 영향을 줄 수 있습니다.",
-        "industry_stage": "넥스틴이 속한 반도체 장비 산업은 AI·HBM 등 신규 수요에 힘입어 성장기 초입에 있으나, 레거시 반도체는 쇠퇴기에 접어드는 등 세그먼트별 차이가 존재합니다.",
-        "value_chain_position": "넥스틴은 반도체 전공정의 미소 패턴 결함 검사 장비 분야에서 독보적인 기술력을 바탕으로 밸류체인 내에서 중요한 위치를 차지하고 있습니다.",
-        "competitive_position": "세계 유일의 2차원 이미징 기술 기반 장비로 높은 기술적 차별성을 가지며, 국내외 반도체 업체들의 점유율 확대 가능성이 있습니다. 다만, 경쟁 강도는 높음으로 평가됩니다.",
-        "market_momentum": "주가는 61,100원으로 최근 하락세를 보이고 있으며, 52주 고가 대비 하락폭이 존재합니다. 시장 전반의 변동성이 높은 상황입니다."
-      },
-      "qualitative_rubric": {
-        "macro_cycle": {
-          "assessment": "중",
-          "reason": "OECD 경기선행지수가 기준선 하회하며 경기 둔화 가능성을 시사하나, 반도체 산업 자체의 성장 동력은 별개로 작용할 수 있습니다."
-        },
-        "industry_attractiveness": {
-          "assessment": "상",
-          "reason": "AI·HBM 등 신규 수요로 반도체 장비 산업은 성장기 초입에 있으며, 특히 첨단 공정 장비에 대한 수요가 높습니다."
-        },
-        "value_chain_position": {
-          "assessment": "상",
-          "reason": "독자적인 2차원 이미징 기술 기반의 미소 패턴 결함 검사 장비는 높은 기술 진입 장벽을 가지며, 고객사의 생산성 향상에 기여합니다."
-        },
-        "competitive_position": {
-          "assessment": "중",
-          "reason": "세계 유일의 기술력을 보유하고 있으나, 경쟁 강도가 높고 시장 점유율 확대는 지속적인 노력이 필요합니다."
-        },
-        "market_momentum": {
-          "assessment": "중",
-          "reason": "최근 주가 하락세와 시장 전반의 변동성이 존재하나, 반도체 업황 회복 기대감은 여전히 유효합니다."
-        },
-        "policy_disclosure_signal": {
-          "assessment": "상",
-          "reason": "정부의 R&D 지원 확대 및 세액공제 관련 정책 검토는 긍정적이며, DART 공시를 통해 기술적 차별성을 명확히 하고 있습니다."
-        },
-        "downside_risk": {
-          "assessment": "중",
-          "reason": "삼성전자 파업 등 반도체 업계 전반의 불확실성과 환율 변동성, 고점 대비 주가 하락은 잠재적 하방 리스크 요인입니다."
-        }
-      },
-      "bwm_assessment": {
-        "best_criterion": "산업 매력도 및 밸류체인 위치",
-        "worst_criterion": "거시 사이클 및 시장 모멘텀",
-        "judgment_effect": "산업의 구조적 성장성과 넥스틴의 독보적인 기술력은 긍정적이나, 거시 경제 불확실성과 단기 시장 모멘텀 약화로 인해 '보유' 의견을 제시합니다."
-      },
+      "confidence": 0.8,
+      "summary": "넥스틴은 AI·HBM 시장 성장과 독보적인 기술력을 바탕으로 성장 잠재력이 높습니다. 다만, 거시 경제 불확실성과 삼성전자 파업 등 단기 리스크 요인을 고려하여 '보유' 의견을 제시합니다.",
+      "total_score": 75,
       "scoring": {
         "거시환경": {
           "score": 12,
-          "max": 20,
-          "reason": "OECD 경기선행지수 하회는 부정적이나, 반도체 산업 자체의 성장 동력은 별개로 작용 가능합니다."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "산업매력도": {
           "score": 18,
-          "max": 20,
-          "reason": "AI·HBM 등 신규 수요로 반도체 장비 산업은 성장기 초입에 있으며, 첨단 공정 장비 수요가 높습니다."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "경쟁위치": {
           "score": 15,
-          "max": 20,
-          "reason": "독보적인 기술력을 보유했으나, 경쟁 강도가 높고 시장 점유율 확대는 지속적인 노력이 필요합니다."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "정책수혜": {
           "score": 17,
-          "max": 20,
-          "reason": "정부의 R&D 지원 및 세액공제 검토는 긍정적이며, DART 공시를 통해 기술적 차별성을 명확히 하고 있습니다."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "시장모멘텀": {
           "score": 13,
-          "max": 20,
-          "reason": "최근 주가 하락세와 시장 전반의 변동성이 존재하나, 반도체 업황 회복 기대감은 여전히 유효합니다."
+          "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         }
       },
-      "total_score": 75,
-      "claims": [
-        {
-          "claim_id": "market.cl.001",
-          "text": "넥스틴은 세계 유일의 2차원 이미징 기술 기반 미소 패턴 결함 검사 장비 개발로 높은 기술적 차별성을 가집니다.",
-          "evidence_ids": [
-            "market.ev.001"
-          ]
-        },
-        {
-          "claim_id": "market.cl.002",
-          "text": "AI·HBM 등 신규 수요로 반도체 장비 산업은 성장기 초입에 있으며, 넥스틴은 이 시장에서 점유율 확대가 기대됩니다.",
-          "evidence_ids": [
-            "market.ev.002"
-          ]
-        },
-        {
-          "claim_id": "market.cl.003",
-          "text": "삼성전자 파업 등 반도체 업계 전반의 불확실성과 환율 변동성은 넥스틴의 단기 주가에 부정적인 영향을 줄 수 있습니다.",
-          "evidence_ids": [
-            "market.ev.003",
-            "market.ev.004"
-          ]
-        }
-      ],
-      "evidences": [
-        {
-          "evidence_id": "market.ev.001",
-          "source_type": "dart",
-          "source": "DART",
-          "metric": "differentiation",
-          "value": "넥스틴은 세계에서 유일한 2차원 이미징 기술 기반의 미소 패턴 결함 검사 장비를 개발하여 탁월한 검출 감도와 검사 속도로 경쟁사의 장비와 동등한 성능을 가지고 있습니다. 또한, 관련 기술이 지속적으로 발전하여 국내와 해외 반도체 업체들 사이에서 점차적으로 시장 점유율을 확대하고 있습니다.",
-          "unit": null,
-          "period": null,
-          "snippet": "넥스틴은 세계에서 유일한 2차원 이미징 기술 기반의 미소 패턴 결함 검사 장비를 개발하여 탁월한 검출 감도와 검사 속도로 경쟁사의 장비와 동등한 성능을 가지고 있습니다. 또한, 관련 기술이 지속적으로 발전하여 국내와 해외 반도체 업체들 사이에서 점차적으로 시장 점유율을 확대하고 있습니다."
-        },
-        {
-          "evidence_id": "market.ev.002",
-          "source_type": "static",
-          "source": "밸류체인 & 경쟁구조",
-          "metric": "AI·HBM 반도체",
-          "value": "성장기 초입",
-          "unit": null,
-          "period": "2025",
-          "snippet": "AI·HBM: 성장기\n메모리: 성숙기\n레거시: 쇠퇴기"
-        },
-        {
-          "evidence_id": "market.ev.003",
-          "source_type": "news",
-          "source": "Naver News",
-          "metric": "title",
-          "value": "삼성전자 약세에 코스닥 반도체 직격탄…장비·소재주 동반 휘청",
-          "unit": null,
-          "period": "20260520",
-          "snippet": "반도체 업황 회복 기대감은 남아 있지만 단기적으로는 실적 확인 심리가 우세하다는 분석이다. 팹리스와 시스템반도체 종목도 차별화가 뚜렷하다. 가온칩스, 알파칩스, 칩스앤미디어, 텔레칩스, 넥스트칩..."
-        },
-        {
-          "evidence_id": "market.ev.004",
-          "source_type": "news",
-          "source": "Naver News",
-          "metric": "title",
-          "value": "환율 이틀째 1500원대, 코스피 급락… 공포 덮친 금융시장",
-          "unit": null,
-          "period": "20260520",
-          "snippet": "글로벌 반도체 피크아웃(정점 통과) 가능성과 삼성전자 총파업 우려까지 겹치면서 코스피는 장중 7100선이... 미 증시에서 불거진 메모리 업황 피크아웃 논란도 외국인의 국내 증시 순매도로 이어지며 환율을..."
-        }
-      ],
+      "market_environment": {
+        "oecd_cli": "",
+        "industry_stage": "{'마켓점수': {'기업명': '넥스틴', '투자의견': '보유', '총점': '75', '거시환경': '12', '산업매력도': '18', '경쟁위치': '15', '정책수혜': '17', '시장모멘텀': '13', '요약': \"넥스틴은 AI·HBM 시장 성장과 독보적인 기술력을 바탕으로 성장 잠재력이 높습니다. 다만, 거시 경제 불확실성과 삼성전자 파업 등 단기 리스크 요인을 고려하여 '보유' 의견을 제시합니다.\"}}",
+        "value_chain_position": "후공정/패키징/테스트",
+        "competition": ""
+      },
       "risks": [
-        {
-          "risk": "삼성전자 파업 및 반도체 업계 전반의 불확실성",
-          "severity": "중",
-          "basis": "삼성전자 파업은 반도체 생산 차질로 이어져 관련 장비 업체에 부정적 영향을 줄 수 있습니다."
-        },
-        {
-          "risk": "환율 변동성 확대",
-          "severity": "중",
-          "basis": "환율 상승은 수입 원자재 가격 상승 및 수출 경쟁력 약화로 이어질 수 있습니다."
-        },
-        {
-          "risk": "고점 대비 주가 하락",
-          "severity": "중",
-          "basis": "현재 주가는 52주 고점 대비 하락한 상태로, 추가 하락 가능성이 존재합니다."
-        }
+        "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 151 column 6 (char 4416)",
+        "밸류체인 위치 확인: 후공정/패키징/테스트"
       ],
-      "opportunities": [
-        {
-          "opportunity": "AI·HBM 시장 성장",
-          "basis": "AI 및 HBM 반도체 수요 증가는 고성능 검사 장비에 대한 수요 증가로 이어질 수 있습니다."
-        },
-        {
-          "opportunity": "정부 정책 지원",
-          "basis": "R&D 지원 확대 및 세액공제 검토 등 정부 정책은 기술 개발 및 투자에 긍정적인 영향을 줄 수 있습니다."
-        },
-        {
-          "opportunity": "기술적 차별성 기반 시장 점유율 확대",
-          "basis": "세계 유일의 기술력을 바탕으로 국내외 반도체 업체들의 점유율을 확대할 수 있습니다."
-        }
-      ],
-      "summary": "넥스틴은 AI·HBM 시장 성장과 독보적인 기술력을 바탕으로 성장 잠재력이 높습니다. 다만, 거시 경제 불확실성과 삼성전자 파업 등 단기 리스크 요인을 고려하여 '보유' 의견을 제시합니다.",
-      "raw_payload": {
-        "stock_used": true,
-        "oecd_used": true,
-        "static_used": true,
-        "news_used": true,
-        "dart_used": true
-      }
+      "opportunities": [],
+      "error": "Expecting ',' delimiter: line 151 column 6 (char 4416)",
+      "fallback_source": "market_final_static_data"
     },
-    "original_opportunities": [
-      {
-        "opportunity": "AI·HBM 시장 성장",
-        "basis": "AI 및 HBM 반도체 수요 증가는 고성능 검사 장비에 대한 수요 증가로 이어질 수 있습니다."
-      },
-      {
-        "opportunity": "정부 정책 지원",
-        "basis": "R&D 지원 확대 및 세액공제 검토 등 정부 정책은 기술 개발 및 투자에 긍정적인 영향을 줄 수 있습니다."
-      },
-      {
-        "opportunity": "기술적 차별성 기반 시장 점유율 확대",
-        "basis": "세계 유일의 기술력을 바탕으로 국내외 반도체 업체들의 점유율을 확대할 수 있습니다."
-      }
-    ],
+    "original_opportunities": [],
     "original_risks": [
-      {
-        "risk": "삼성전자 파업 및 반도체 업계 전반의 불확실성",
-        "severity": "중",
-        "basis": "삼성전자 파업은 반도체 생산 차질로 이어져 관련 장비 업체에 부정적 영향을 줄 수 있습니다."
-      },
-      {
-        "risk": "환율 변동성 확대",
-        "severity": "중",
-        "basis": "환율 상승은 수입 원자재 가격 상승 및 수출 경쟁력 약화로 이어질 수 있습니다."
-      },
-      {
-        "risk": "고점 대비 주가 하락",
-        "severity": "중",
-        "basis": "현재 주가는 52주 고점 대비 하락한 상태로, 추가 하락 가능성이 존재합니다."
-      }
+      "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 151 column 6 (char 4416)",
+      "밸류체인 위치 확인: 후공정/패키징/테스트"
     ],
     "removed_bad_evidence_ids": [
       "market.ev.unverified"
@@ -706,28 +541,23 @@
   "scoring": {
     "거시환경": {
       "score": 12,
-      "max": 20,
-      "reason": "OECD 경기선행지수 하회는 부정적이나, 반도체 산업 자체의 성장 동력은 별개로 작용 가능합니다."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "산업매력도": {
       "score": 18,
-      "max": 20,
-      "reason": "AI·HBM 등 신규 수요로 반도체 장비 산업은 성장기 초입에 있으며, 첨단 공정 장비 수요가 높습니다."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "경쟁위치": {
       "score": 15,
-      "max": 20,
-      "reason": "독보적인 기술력을 보유했으나, 경쟁 강도가 높고 시장 점유율 확대는 지속적인 노력이 필요합니다."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "정책수혜": {
       "score": 17,
-      "max": 20,
-      "reason": "정부의 R&D 지원 및 세액공제 검토는 긍정적이며, DART 공시를 통해 기술적 차별성을 명확히 하고 있습니다."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "시장모멘텀": {
       "score": 13,
-      "max": 20,
-      "reason": "최근 주가 하락세와 시장 전반의 변동성이 존재하나, 반도체 업황 회복 기대감은 여전히 유효합니다."
+      "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     }
   },
   "packet_version": "grounded_agent_v3",
@@ -740,11 +570,11 @@
     "unsupported_count": 0,
     "supported_claims": [
       "넥스틴 마켓 분석 total_score 값은 75점입니다.",
-      "넥스틴 stock_data.current_price 값은 61100입니다.",
-      "넥스틴 stock_data.change 값은 -900입니다.",
-      "넥스틴 stock_data.change_rate 값은 -1.45%입니다.",
-      "넥스틴 stock_data.raw.clpr 값은 61100입니다.",
-      "넥스틴 stock_data.raw.vs 값은 -900입니다."
+      "넥스틴 stock_data.current_price 값은 64900입니다.",
+      "넥스틴 stock_data.change 값은 5700입니다.",
+      "넥스틴 stock_data.change_rate 값은 9.63%입니다.",
+      "넥스틴 stock_data.raw.clpr 값은 64900입니다.",
+      "넥스틴 stock_data.raw.vs 값은 5700입니다."
     ],
     "unsupported_claims": [],
     "issues": [],
@@ -766,7 +596,7 @@
       },
       {
         "claim_id": "market.cl.002",
-        "text": "넥스틴 stock_data.current_price 값은 61100입니다.",
+        "text": "넥스틴 stock_data.current_price 값은 64900입니다.",
         "evidence_ids": [
           "market.ev.006"
         ],
@@ -785,7 +615,7 @@
       },
       {
         "claim_id": "market.cl.003",
-        "text": "넥스틴 stock_data.change 값은 -900입니다.",
+        "text": "넥스틴 stock_data.change 값은 5700입니다.",
         "evidence_ids": [
           "market.ev.009"
         ],
@@ -800,7 +630,7 @@
       },
       {
         "claim_id": "market.cl.004",
-        "text": "넥스틴 stock_data.change_rate 값은 -1.45%입니다.",
+        "text": "넥스틴 stock_data.change_rate 값은 9.63%입니다.",
         "evidence_ids": [
           "market.ev.010"
         ],
@@ -815,7 +645,7 @@
       },
       {
         "claim_id": "market.cl.005",
-        "text": "넥스틴 stock_data.raw.clpr 값은 61100입니다.",
+        "text": "넥스틴 stock_data.raw.clpr 값은 64900입니다.",
         "evidence_ids": [
           "market.ev.016"
         ],
@@ -830,7 +660,7 @@
       },
       {
         "claim_id": "market.cl.006",
-        "text": "넥스틴 stock_data.raw.vs 값은 -900입니다.",
+        "text": "넥스틴 stock_data.raw.vs 값은 5700입니다.",
         "evidence_ids": [
           "market.ev.017"
         ],
@@ -854,14 +684,14 @@
     "unsupported_count": 0,
     "supported_claims": [
       "넥스틴 마켓 분석 total_score 값은 75점입니다.",
-      "넥스틴 stock_data.current_price 값은 61100입니다.",
-      "넥스틴 stock_data.change 값은 -900입니다.",
-      "넥스틴 stock_data.change_rate 값은 -1.45%입니다.",
-      "넥스틴 stock_data.raw.clpr 값은 61100입니다.",
-      "넥스틴 stock_data.raw.vs 값은 -900입니다.",
-      "stock_data.raw.fltRt 값은 -1.45%입니다.",
-      "stock_data.raw.mkp 값은 62,000입니다.",
-      "stock_data.raw.hipr 값은 65,400입니다."
+      "넥스틴 stock_data.current_price 값은 64900입니다.",
+      "넥스틴 stock_data.change 값은 5700입니다.",
+      "넥스틴 stock_data.change_rate 값은 9.63%입니다.",
+      "넥스틴 stock_data.raw.clpr 값은 64900입니다.",
+      "넥스틴 stock_data.raw.vs 값은 5700입니다.",
+      "stock_data.raw.fltRt 값은 9.63%입니다.",
+      "stock_data.raw.mkp 값은 60,800입니다.",
+      "stock_data.raw.hipr 값은 65,100입니다."
     ],
     "unsupported_claims": [],
     "issues": [],
@@ -883,7 +713,7 @@
       },
       {
         "claim_id": "market.cl.002",
-        "text": "넥스틴 stock_data.current_price 값은 61100입니다.",
+        "text": "넥스틴 stock_data.current_price 값은 64900입니다.",
         "evidence_ids": [
           "market.ev.006"
         ],
@@ -902,7 +732,7 @@
       },
       {
         "claim_id": "market.cl.003",
-        "text": "넥스틴 stock_data.change 값은 -900입니다.",
+        "text": "넥스틴 stock_data.change 값은 5700입니다.",
         "evidence_ids": [
           "market.ev.009"
         ],
@@ -917,7 +747,7 @@
       },
       {
         "claim_id": "market.cl.004",
-        "text": "넥스틴 stock_data.change_rate 값은 -1.45%입니다.",
+        "text": "넥스틴 stock_data.change_rate 값은 9.63%입니다.",
         "evidence_ids": [
           "market.ev.010"
         ],
@@ -932,7 +762,7 @@
       },
       {
         "claim_id": "market.cl.005",
-        "text": "넥스틴 stock_data.raw.clpr 값은 61100입니다.",
+        "text": "넥스틴 stock_data.raw.clpr 값은 64900입니다.",
         "evidence_ids": [
           "market.ev.016"
         ],
@@ -947,7 +777,7 @@
       },
       {
         "claim_id": "market.cl.006",
-        "text": "넥스틴 stock_data.raw.vs 값은 -900입니다.",
+        "text": "넥스틴 stock_data.raw.vs 값은 5700입니다.",
         "evidence_ids": [
           "market.ev.017"
         ],
@@ -962,7 +792,7 @@
       },
       {
         "claim_id": "market.auto_cl.007",
-        "text": "stock_data.raw.fltRt 값은 -1.45%입니다.",
+        "text": "stock_data.raw.fltRt 값은 9.63%입니다.",
         "evidence_ids": [
           "market.ev.018"
         ],
@@ -977,7 +807,7 @@
       },
       {
         "claim_id": "market.auto_cl.009",
-        "text": "stock_data.raw.mkp 값은 62,000입니다.",
+        "text": "stock_data.raw.mkp 값은 60,800입니다.",
         "evidence_ids": [
           "market.ev.019"
         ],
@@ -992,7 +822,7 @@
       },
       {
         "claim_id": "market.auto_cl.011",
-        "text": "stock_data.raw.hipr 값은 65,400입니다.",
+        "text": "stock_data.raw.hipr 값은 65,100입니다.",
         "evidence_ids": [
           "market.ev.020"
         ],
@@ -1016,14 +846,14 @@
     "unsupported_count": 0,
     "supported_claims": [
       "넥스틴 마켓 분석 total_score 값은 75점입니다.",
-      "넥스틴 stock_data.current_price 값은 61100입니다.",
-      "넥스틴 stock_data.change 값은 -900입니다.",
-      "넥스틴 stock_data.change_rate 값은 -1.45%입니다.",
-      "넥스틴 stock_data.raw.clpr 값은 61100입니다.",
-      "넥스틴 stock_data.raw.vs 값은 -900입니다.",
-      "stock_data.raw.fltRt 값은 -1.45%입니다.",
-      "stock_data.raw.mkp 값은 62,000입니다.",
-      "stock_data.raw.hipr 값은 65,400입니다."
+      "넥스틴 stock_data.current_price 값은 64900입니다.",
+      "넥스틴 stock_data.change 값은 5700입니다.",
+      "넥스틴 stock_data.change_rate 값은 9.63%입니다.",
+      "넥스틴 stock_data.raw.clpr 값은 64900입니다.",
+      "넥스틴 stock_data.raw.vs 값은 5700입니다.",
+      "stock_data.raw.fltRt 값은 9.63%입니다.",
+      "stock_data.raw.mkp 값은 60,800입니다.",
+      "stock_data.raw.hipr 값은 65,100입니다."
     ],
     "unsupported_claims": [],
     "issues": [],
@@ -1045,7 +875,7 @@
       },
       {
         "claim_id": "market.cl.002",
-        "text": "넥스틴 stock_data.current_price 값은 61100입니다.",
+        "text": "넥스틴 stock_data.current_price 값은 64900입니다.",
         "evidence_ids": [
           "market.ev.006"
         ],
@@ -1064,7 +894,7 @@
       },
       {
         "claim_id": "market.cl.003",
-        "text": "넥스틴 stock_data.change 값은 -900입니다.",
+        "text": "넥스틴 stock_data.change 값은 5700입니다.",
         "evidence_ids": [
           "market.ev.009"
         ],
@@ -1079,7 +909,7 @@
       },
       {
         "claim_id": "market.cl.004",
-        "text": "넥스틴 stock_data.change_rate 값은 -1.45%입니다.",
+        "text": "넥스틴 stock_data.change_rate 값은 9.63%입니다.",
         "evidence_ids": [
           "market.ev.010"
         ],
@@ -1094,7 +924,7 @@
       },
       {
         "claim_id": "market.cl.005",
-        "text": "넥스틴 stock_data.raw.clpr 값은 61100입니다.",
+        "text": "넥스틴 stock_data.raw.clpr 값은 64900입니다.",
         "evidence_ids": [
           "market.ev.016"
         ],
@@ -1109,7 +939,7 @@
       },
       {
         "claim_id": "market.cl.006",
-        "text": "넥스틴 stock_data.raw.vs 값은 -900입니다.",
+        "text": "넥스틴 stock_data.raw.vs 값은 5700입니다.",
         "evidence_ids": [
           "market.ev.017"
         ],
@@ -1124,7 +954,7 @@
       },
       {
         "claim_id": "market.auto_cl.007",
-        "text": "stock_data.raw.fltRt 값은 -1.45%입니다.",
+        "text": "stock_data.raw.fltRt 값은 9.63%입니다.",
         "evidence_ids": [
           "market.ev.018"
         ],
@@ -1139,7 +969,7 @@
       },
       {
         "claim_id": "market.auto_cl.009",
-        "text": "stock_data.raw.mkp 값은 62,000입니다.",
+        "text": "stock_data.raw.mkp 값은 60,800입니다.",
         "evidence_ids": [
           "market.ev.019"
         ],
@@ -1154,7 +984,7 @@
       },
       {
         "claim_id": "market.auto_cl.011",
-        "text": "stock_data.raw.hipr 값은 65,400입니다.",
+        "text": "stock_data.raw.hipr 값은 65,100입니다.",
         "evidence_ids": [
           "market.ev.020"
         ],

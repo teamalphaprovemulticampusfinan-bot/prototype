@@ -1,0 +1,30 @@
+{
+  "company": "네패스",
+  "company_dir": "nepes",
+  "stock_code": "033640",
+  "yahoo_ticker": "033640.KQ",
+  "dart_corp_code": "00227333",
+  "financial_source": "MISSING_MANUAL_INPUT_REQUIRED",
+  "price_source": "naver_finance",
+  "peer_source": "OPTIONAL_MISSING",
+  "normalized_financials": "data/반도체/네패스/valuation/intake/valuation_normalized_financials.csv",
+  "price_history": "data/반도체/네패스/valuation/intake/valuation_price_history.csv",
+  "peer_input": "data/반도체/네패스/valuation/intake/valuation_peer_input.csv",
+  "assumptions": "data/반도체/네패스/valuation/intake/valuation_assumptions.json",
+  "template_catalog_csv": "data/반도체/네패스/valuation/intake/valuation_template_catalog.csv",
+  "template_catalog_json": "data/반도체/네패스/valuation/intake/valuation_template_catalog.json",
+  "manual_templates": {
+    "financial_template": "data/반도체/네패스/valuation/source/valuation_manual_financials_template.csv",
+    "price_template": "data/반도체/네패스/valuation/source/valuation_manual_price_template.csv",
+    "peer_template": "data/반도체/네패스/valuation/source/valuation_manual_peers_template.csv"
+  },
+  "source_roots": [
+    "data/반도체/네패스/valuation/source",
+    "data/반도체/_sector_common/valuation_templates",
+    "data/_global_common/valuation_templates",
+    "data/_global_common/valuation_source",
+    "data/반도체/_sector_common/valuation_templates",
+    "data/반도체/_sector_common/valuation_source"
+  ],
+  "local_source_files": []
+}

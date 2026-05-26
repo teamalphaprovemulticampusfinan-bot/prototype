@@ -2,12 +2,12 @@
   "agent": "tech_intake",
   "artifact": "tech_intake_value_evidence_bridge",
   "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-  "created_at": "2026-05-25T19:48:59",
+  "created_at": "2026-05-26T12:06:10",
   "field": "반도체",
   "company": "네패스",
   "company_dir": "nepes",
   "company_slug": "nepes",
-  "source_document_count": 177,
+  "source_document_count": 178,
   "source_documents": [
     {
       "source_group": "KIPRIS",
@@ -533,6 +533,30 @@
     },
     {
       "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/네패스/tech/tech_history_features_2025-09-30.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/네패스/tech/tech_history_features_2025-09-30.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/네패스/tech/tech_history_features_2025-10-31.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/네패스/tech/tech_history_features_2025-10-31.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/네패스/tech/tech_intake_manifest.json",
       "detected_url_count": 0,
       "fallback_url_count": 2
@@ -881,12 +905,6 @@
     },
     {
       "source_group": "VALUATION",
-      "source_file": "data/반도체/네패스/valuation/intake/financials_raw.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "VALUATION",
       "source_file": "data/반도체/네패스/valuation/intake/peer_multiples.csv",
       "detected_url_count": 0,
       "fallback_url_count": 5
@@ -948,24 +966,6 @@
     {
       "source_group": "VALUATION",
       "source_file": "data/반도체/네패스/valuation/intake/valuation_modeling_template_catalog.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "VALUATION",
-      "source_file": "data/반도체/네패스/valuation/intake/valuation_modeling_template_catalog.json",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "VALUATION",
-      "source_file": "data/반도체/네패스/valuation/intake/valuation_normalized_financials.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "VALUATION",
-      "source_file": "data/반도체/네패스/valuation/intake/valuation_peer_input.csv",
       "detected_url_count": 0,
       "fallback_url_count": 5
     }
@@ -1154,7 +1154,7 @@
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93f6548c790985d9b42df3b696cb0bd420628364929a7eeeebfe825a6a229a6517dc933a022c3933651a90fed613eac47cfdf019f60b965c6c",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93c70098fa0aab58140a0e16d010a9f179d02eb3f2c10183f36863fe3c5f30026605bf2fae037ce594753cd337fddd4e46e6f57c97a489942e",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93a91394be486421580733c777b7f171761a5ba17ab915c5927b7466873448672523fa8eec400141fade58ddaa3acb1e08392abf724cb44e24",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93dc2217b8f493de222b09ed0936f1677ac30cab7c5af9c55927b3db66a68cf88e24d29b09c2e69ed2b320",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93dc2217b8f493de222b09ed0936f1677ac30cab7c5af9c55927b3db66a68cf88e24d29b09c2e69ed2b320539454ead7e0e",
         "http://www.w3.org/2001/XMLSchema-instance",
         "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
         "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
@@ -1197,9 +1197,7 @@
       ]
     },
     "FINANCE": {
-      "detected_urls": [
-        "https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception"
-      ],
+      "detected_urls": [],
       "fallback_urls": [
         "https://dart.fss.or.kr/",
         "https://opendart.fss.or.kr/",

@@ -1,0 +1,153 @@
+{
+  "status": "OK",
+  "created_at": "2026-05-26T03:03:17",
+  "company_slug": "leeno",
+  "company_name": "리노공업",
+  "source_csv": "C:\\Agent_6.9\\data\\반도체\\리노공업\\tech\\leeno_kipris_bibliographic_normalized.csv",
+  "method": "TFIDF_COSINE_FALLBACK",
+  "patent_text_count": 30,
+  "semantic_similarity_avg": 0.0555,
+  "top_pairs": [
+    {
+      "left_index": 16,
+      "right_index": 17,
+      "similarity": 0.9901,
+      "left_source_index": 16,
+      "right_source_index": 17
+    },
+    {
+      "left_index": 12,
+      "right_index": 20,
+      "similarity": 0.5556,
+      "left_source_index": 12,
+      "right_source_index": 20
+    },
+    {
+      "left_index": 2,
+      "right_index": 9,
+      "similarity": 0.468,
+      "left_source_index": 2,
+      "right_source_index": 9
+    },
+    {
+      "left_index": 4,
+      "right_index": 9,
+      "similarity": 0.2654,
+      "left_source_index": 4,
+      "right_source_index": 9
+    },
+    {
+      "left_index": 8,
+      "right_index": 19,
+      "similarity": 0.2011,
+      "left_source_index": 8,
+      "right_source_index": 19
+    },
+    {
+      "left_index": 2,
+      "right_index": 4,
+      "similarity": 0.1817,
+      "left_source_index": 2,
+      "right_source_index": 4
+    },
+    {
+      "left_index": 1,
+      "right_index": 4,
+      "similarity": 0.1795,
+      "left_source_index": 1,
+      "right_source_index": 4
+    },
+    {
+      "left_index": 14,
+      "right_index": 15,
+      "similarity": 0.1763,
+      "left_source_index": 14,
+      "right_source_index": 15
+    },
+    {
+      "left_index": 2,
+      "right_index": 10,
+      "similarity": 0.1755,
+      "left_source_index": 2,
+      "right_source_index": 10
+    },
+    {
+      "left_index": 0,
+      "right_index": 22,
+      "similarity": 0.1577,
+      "left_source_index": 0,
+      "right_source_index": 22
+    },
+    {
+      "left_index": 18,
+      "right_index": 22,
+      "similarity": 0.1565,
+      "left_source_index": 18,
+      "right_source_index": 22
+    },
+    {
+      "left_index": 0,
+      "right_index": 18,
+      "similarity": 0.1521,
+      "left_source_index": 0,
+      "right_source_index": 18
+    },
+    {
+      "left_index": 18,
+      "right_index": 29,
+      "similarity": 0.1517,
+      "left_source_index": 18,
+      "right_source_index": 29
+    },
+    {
+      "left_index": 6,
+      "right_index": 21,
+      "similarity": 0.1502,
+      "left_source_index": 6,
+      "right_source_index": 21
+    },
+    {
+      "left_index": 13,
+      "right_index": 27,
+      "similarity": 0.1447,
+      "left_source_index": 13,
+      "right_source_index": 27
+    },
+    {
+      "left_index": 0,
+      "right_index": 28,
+      "similarity": 0.144,
+      "left_source_index": 0,
+      "right_source_index": 28
+    },
+    {
+      "left_index": 4,
+      "right_index": 16,
+      "similarity": 0.1423,
+      "left_source_index": 4,
+      "right_source_index": 16
+    },
+    {
+      "left_index": 4,
+      "right_index": 17,
+      "similarity": 0.1422,
+      "left_source_index": 4,
+      "right_source_index": 17
+    },
+    {
+      "left_index": 22,
+      "right_index": 28,
+      "similarity": 0.1421,
+      "left_source_index": 22,
+      "right_source_index": 28
+    },
+    {
+      "left_index": 24,
+      "right_index": 26,
+      "similarity": 0.1408,
+      "left_source_index": 24,
+      "right_source_index": 26
+    }
+  ],
+  "usage_note": "This is an offline fallback inspired by PatentSBERTa-style semantic patent distance. If sentence-transformers and AI-Growth-Lab/PatentSBERTa are installed later, this layer can be upgraded."
+}

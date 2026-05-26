@@ -6,10 +6,17 @@ param(
   [string]$RunId = "monthly_cutoff_30",
   [int]$Limit = 0,
   [int]$TimeoutSec = 1200,
+  [int]$RetryTimeoutSec = 1800,
+  [int]$MaxRetries = 1,
+  [int]$CheckpointEvery = 1,
+  [double]$AutoSafeSlowRatio = 0.95,
   [switch]$ContinueOnError,
   [switch]$SkipNetwork,
   [switch]$ForceFetch,
-  [switch]$IncludeTechCutoff
+  [switch]$IncludeTechCutoff,
+  [switch]$SafeFirst,
+  [switch]$NoAutoSafeAfterTimeout,
+  [switch]$NoCheckpointXlsx
 )
 
 $ErrorActionPreference = "Stop"
@@ -39,7 +46,11 @@ $argsList = @(
   "--start", $Start,
   "--universe-csv", $UniverseCsv,
   "--run-id", $RunId,
-  "--timeout-sec", [string]$TimeoutSec
+  "--timeout-sec", [string]$TimeoutSec,
+  "--retry-timeout-sec", [string]$RetryTimeoutSec,
+  "--max-retries", [string]$MaxRetries,
+  "--checkpoint-every", [string]$CheckpointEvery,
+  "--auto-safe-slow-ratio", [string]$AutoSafeSlowRatio
 )
 
 if (-not [string]::IsNullOrWhiteSpace($End)) {
@@ -59,6 +70,15 @@ if ($ForceFetch) {
 }
 if ($IncludeTechCutoff) {
   $argsList += "--include-tech-cutoff"
+}
+if ($SafeFirst) {
+  $argsList += "--safe-first"
+}
+if ($NoAutoSafeAfterTimeout) {
+  $argsList += "--no-auto-safe-after-timeout"
+}
+if ($NoCheckpointXlsx) {
+  $argsList += "--no-checkpoint-xlsx"
 }
 
 Write-Host "[monthly-cutoff] projectRoot=$projectRoot"

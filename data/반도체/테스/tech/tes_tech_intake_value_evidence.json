@@ -2,12 +2,12 @@
   "agent": "tech_intake",
   "artifact": "tech_intake_value_evidence_bridge",
   "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-  "created_at": "2026-05-25T21:37:29",
+  "created_at": "2026-05-26T06:19:20",
   "field": "반도체",
   "company": "테스",
   "company_dir": "tes",
   "company_slug": "tes",
-  "source_document_count": 155,
+  "source_document_count": 157,
   "source_documents": [
     {
       "source_group": "TECH_OUTPUT",
@@ -114,6 +114,18 @@
     {
       "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/테스/tech/tech_history_features_2025-08-31.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/테스/tech/tech_history_features_2025-09-30.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/테스/tech/tech_history_features_2025-09-30.json",
       "detected_url_count": 0,
       "fallback_url_count": 2
     },
@@ -1485,7 +1497,7 @@
             "매출",
             "성장"
           ],
-          "snippet": "summary: 테스는 2023년 매출이 큰 폭으로 감소하며 영업이익이 적자 전환했으나, 2024년에는 매출이 63% 이상 성장하며 영업이익이 흑자 전환했다.",
+          "snippet": "summary: 테스는 2023년 매출이 큰 폭으로 감소하며 영업이익이 적자 전환했으나, 2024년에는 매출이 60% 이상 성장하며 영업이익이 흑자 전환하는 등 회복세를 보였다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1503,7 +1515,7 @@
             "매출",
             "성장"
           ],
-          "snippet": "key_thesis: 2024년 매출성장률이 63.39%로 크게 반등하며 사업 회복세를 보였다.",
+          "snippet": "key_thesis: 2024년 매출성장률이 63.4%로 크게 개선되며 이전의 역성장에서 벗어났다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1636,10 +1648,9 @@
           "source_file": "data/반도체/테스/finance/테스_finance.json",
           "evidence_level": "DIRECT_EVIDENCE",
           "matched_keywords": [
-            "현금흐름",
-            "CAPEX"
+            "FCF"
           ],
-          "snippet": "2024년 자유현금흐름은 대규모 설비투자(capex)로 인해 마이너스를 기록했으나, 영업활동현금흐름은 양수를 유지했다.",
+          "snippet": "2024년 FCF가 큰 폭의 마이너스를 기록한 점은 투자 시 유의해야 할 부분이다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1654,9 +1665,10 @@
           "source_file": "data/반도체/테스/finance/테스_finance.json",
           "evidence_level": "DIRECT_EVIDENCE",
           "matched_keywords": [
+            "영업이익률",
             "수익성"
           ],
-          "snippet": "key_thesis: 2024년 영업이익이 384억 원으로 흑자 전환하며 수익성 개선 가능성을 시사한다.",
+          "snippet": "key_thesis: 2024년 영업이익률이 16.0%로 흑자 전환하며 수익성이 회복되는 모습을 보였다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1671,9 +1683,10 @@
           "source_file": "data/반도체/테스/finance/테스_finance.json",
           "evidence_level": "DIRECT_EVIDENCE",
           "matched_keywords": [
-            "현금흐름"
+            "영업이익률",
+            "수익성"
           ],
-          "snippet": "key_thesis: 2024년 영업활동현금흐름(OCF)은 305억 원으로 양수를 유지하며 영업을 통한 현금 창출 능력을 보여준다.",
+          "snippet": "key_risks: 2023년 영업이익률이 -3.99%로 적자를 기록했으며, 2024년 흑자 전환했으나 수익성 안정성 확인이 필요하다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1688,28 +1701,9 @@
           "source_file": "data/반도체/테스/finance/테스_finance.json",
           "evidence_level": "DIRECT_EVIDENCE",
           "matched_keywords": [
-            "영업이익률"
+            "FCF"
           ],
-          "snippet": "key_risks: 2023년 영업이익률이 -3.99%로 마이너스를 기록했으며, 2024년에도 16.03%로 회복되었으나 과거(2021년 16.57%) 수준과의 비교 및 지속성 확인이 필요하다.",
-          "urls": [],
-          "fallback_urls": [
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "https://comp.fnguide.com/",
-            "https://www.google.com/search?q=%ED%85%8C%EC%8A%A4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-          ]
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/테스/finance/테스_finance.json",
-          "evidence_level": "DIRECT_EVIDENCE",
-          "matched_keywords": [
-            "현금흐름",
-            "FCF",
-            "CAPEX"
-          ],
-          "snippet": "key_risks: 2024년 자유현금흐름(FCF)이 -243억 원으로 마이너스를 기록했으며, 이는 대규모 설비투자(capex) 548억 원 집행에 따른 것으로, 향후 투자 규모와 현금 흐름 회복 여부 관리가 중요하다.",
+          "snippet": "key_risks: 2024년 FCF가 -243억 원으로 큰 폭의 마이너스를 기록하여 현금 창출 능력에 대한 점검이 필요하다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1762,6 +1756,23 @@
             "FCF"
           ],
           "snippet": "report_core_points: FCF: 테스 2024 기준 FCF 값은 -24,375,330,483원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=%ED%85%8C%EC%8A%A4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/테스/finance/테스_finance_agent_packet.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "영업이익률"
+          ],
+          "snippet": "label: 영업이익률",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",

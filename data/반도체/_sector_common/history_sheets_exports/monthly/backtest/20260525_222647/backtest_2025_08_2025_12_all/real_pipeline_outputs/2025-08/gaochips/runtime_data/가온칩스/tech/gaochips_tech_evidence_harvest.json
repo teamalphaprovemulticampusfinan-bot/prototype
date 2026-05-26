@@ -1,0 +1,3213 @@
+{
+  "company_dir": "gaochips",
+  "company_name": "가온칩스",
+  "harvest_version": "v11_excel_frame_actual_source_concise_quantification",
+  "template_usage": "framework_only: base/formula sheet source plan, no company-example content copied as evidence",
+  "formula_rule_count": 34,
+  "document_count": 3,
+  "accepted_url_count": 0,
+  "rejected_url_count": 0,
+  "docs": [
+    {
+      "doc_id": "tech.doc.001",
+      "source_type": "local_data",
+      "title": "gaochips_tech_local_proxy_evidence.json",
+      "path": "data\\반도체\\가온칩스\\tech\\source\\gaochips_tech_local_proxy_evidence.json",
+      "url": "",
+      "text": "{\"status\": \"FALLBACK_LOCAL_PROXY\", \"generated_at\": \"2026-05-15T09:15:32\", \"company_slug\": \"gaochips\", \"company_name\": \"가온칩스\", \"field\": \"반도체\", \"peer_group\": \"디자인하우스\", \"stock_code\": \"399720\", \"market\": \"KOSDAQ\", \"technology_keywords\": [\"반도체\", \"공정\", \"양산\", \"고객\", \"R&D\", \"특허\", \"기술경쟁력\", \"디자인하우스\", \"디자인솔루션\", \"파운드리 연계\", \"설계\"], \"source_text\": \"# 가온칩스 Tech Local Proxy Evidence\\n\\n- company_name: 가온칩스\\n- company_slug: gaochips\\n- stock_code: 399720\\n- market: KOSDAQ\\n- peer_group: 디자인하우스\\n- evidence_status: FALLBACK_LOCAL_PROXY\\n- universe_lock: universe_30_semiconductor_20260514\\n- locked_as_of: 2026-05-14\\n\\n## 사용 원칙\\n\\n이 파일은 KIPRIS Plus, DART 사업보고서, 회사 IR, 공식 웹 수집이 아직 완료되지 않은 신규 Universe 기업을 위해 생성한 Tech Agent 부트스트랩 근거입니다.\\n수익률 확인 후 기업을 교체하지 않는 locked universe 원칙을 지키기 위한 초기 로컬 근거이며, 특허 수·고객사·수주·양산 실적을 임의로 확정하지 않습니다.\\nChair와 Auditor에서는 이 근거를 OK가 아니라 FALLBACK_LOCAL_PROXY로 해석해야 합니다.\\n\\n## 기술 후보 맥락\\n\\n가온칩스은 Universe CSV에서 '디자인하우스' peer_group으로 분류되어 있습니다.\\n이 분류에 따라 Tech Agent는 다음 기술 후보 키워드를 우선 탐색합니다: 반도체, 공정, 양산, 고객, R&D, 특허, 기술경쟁력, 디자인하우스, 디자인솔루션, 파운드리 연계, 설계.\\n\\n## 대표 기술 후보\\n\\n- 반도체 value chain 내 위치: 디자인하우스\\n- 탐색해야 할 기술 축: 반도체, 공정, 양산, 고객, R&D, 특허, 기술경쟁력, 디자인하우스, 디자인솔루션, 파운드리 연계\\n- 핵심 확인 필요 항목: 제품/공정 직접성, 고객 적용 여부, 양산/수율/신뢰성 지표, R&D 및 특허 근거, 전방산업 확장성\\n\\n## 핵심 제품/서비스 후보\\n\\n- peer_group 기준 후보: 디자인하우스\\n- 실제 제품명, 매출 비중, 고객 적용 사례는 DART 사업보고서/IR/공식 홈페이지/KIPRIS로 추가 검증해야 합니다.\\n- 이 로컬 근거는 제품·공정 후보 탐색용이며 확정 근거가 아닙니다.\\n\\n## 고객 구매 이유 후보\\n\\n- 성능, 원가, 품질, 신뢰성, 수율, 공정 안정성, 공급 안정성, 전방 고객 승인 여부를 확인해야 합니다.\\n- 고객사명, 공급계약, 양산 레퍼런스는 원천 확인 전까지 미확정으로 둡니다.\\n\\n## 경쟁 우위/대체가능성 후보\\n\\n- 특허, 공정 노하우, 고객 승인, 양산 난이도, 대체 비용, 국산화 여부를 확인해야 합니다.\\n- KIPRIS Plus 권한이 열리면 registration_status, final_status, expiry_status, right_holder, right_transfer_history, fee_payment_status로 권리 안정성을 재평가합니다.\\n\\n## 활용 및 확장 산업 후보\\n\\n- 후보 전방 산업: AI/HPC, 전장, 모바일, 서버, 데이터센터, 디스플레이, 파운드리/OSAT 생태계\\n- 실제 적용 산업은 기업별 사업보고서와 IR 자료로 보강합니다.\\n\\n## R&D 강도 후보\\n\\n- 연구개발비, 연구인력, 개발과제, 설비투자, 특허 포트폴리오를 확인해야 합니다.\\n- 현재 단계는 로컬 프록시이므로 R&D 수치를 임의 생성하지 않습니다.\\n\", \"company_items\": [{\"company_name\": \"가온칩스\", \"sheet\": \"FALLBACK_LOCAL_PROXY\", \"excel_row\": 1, \"category\": \"대표 기술\", \"major_source\": \"DART/KIPRIS/IR/공식홈페이지\", \"middle_source\": \"FALLBACK_LOCAL_PROXY\", \"quantifiable\": \"원천 확인 후 수치 보강\", \"item_name\": \"핵심 기술 키워드\", \"content\": \"가온칩스 / 디자인하우스 / peer_group 기반 기술 후보 수 / 반도체, 공정, 양산, 고객, R&D, 특허, 기술경쟁력, 디자인하우스, 디자인솔루션, 파운드리 연계, 설계\", \"content_present\": 1, \"content_char_count\": 60, \"numeric_signal_count\": 1, \"keyword_signal_count\": 11, \"metric_name\": \"peer_group 기반 기술 후보 수\", \"metric_value\": 11, \"metric_unit\": \"개\", \"metric_value_source\": \"반도체, 공정, 양산, 고객, R&D, 특허, 기술경쟁력, 디자인하우스, 디자인솔루션, 파운드리 연계, 설계\", \"keyword_counts\": \"{\\\"반도체\\\": 1, \\\"공정\\\": 1, \\\"양산\\\": 1, \\\"고객\\\": 1, \\\"R&D\\\": 1, \\\"특허\\\": 1, \\\"기술경쟁력\\\": 1, \\\"디자인하우스\\\": 1, \\\"디자인솔루션\\\": 1, \\\"파운드리 연계\\\": 1, \\\"설계\\\": 1}\", \"numbers\": \"[{\\\"raw\\\": \\\"11\\\", \\\"unit\\\": \\\"개\\\", \\\"context\\\": \\\"반도체, 공정, 양산, 고객, R&D, 특허, 기술경쟁력, 디자인하우스, 디자인솔루션, 파운드리 연계, 설계\\\"}]\"}, {\"company_name\": \"가온칩스\", \"sheet\": \"FALLBACK_LOCAL_PROXY\", \"excel_row\": 2, \"category\": \"대표 기술\", \"major_source\": \"DART/KIPRIS/IR/공식홈페이지\", \"middle_source\": \"FALLBACK_LOCAL_PROXY\", \"quantifiable\": \"원천 확인 후 수치 보강\", \"item_name\": \"적용 방식\", \"content\": \"가온칩스 / 디자인하우스 / 반도체 value-chain 분류 / 디자인하우스\", \"content_present\": 1, \"content_char_count\": 6, \"numeric_signal_count\": 1, \"keyword_signal_count\": 11, \"metric_name\": \"반도체 value-chain 분류\", \"metric_value\": 1, \"metric_unit\": \"개\", \"metric_value_source\": \"디자인하우스\", \"keyword_counts\": \"{\\\"반도체\\\": 1, \\\"공정\\\": 1, \\\"양산\\\": 1, \\\"고객\\\": 1, \\\"R&D\\\": 1, \\\"특허\\\": 1, \\\"기술경쟁력\\\": 1, \\\"디자인하우스\\\": 1, \\\"디자인솔루션\\\": 1, \\\"파운드리 연계\\\": 1, \\\"설계\\\": 1}\", \"numbers\": \"[{\\\"raw\\\": \\\"1\\\", \\\"unit\\\": \\\"개\\\", \\\"context\\\": \\\"디자인하우스\\\"}]\"}, {\"company_name\": \"가온칩스\", \"sheet\": \"FALLBACK_LOCAL_PROXY\", \"excel_row\": 3, \"category\": \"핵심 제품/서비스\", \"major_source\": \"DART/KIPRIS/IR/공식홈페이지\", \"middle_source\": \"FALLBACK_LOCAL_PROXY\", \"quantifiable\": \"원천 확인 후 수치 보강\", \"item_name\": \"제품명/서비스명\", \"content\": \"가온칩스 / 디자인하우스 / 제품 후보 축 / 디자인하우스\", \"content_present\": 1, \"content_char_count\": 6, \"numeric_signal_count\": 1, \"keyword_signal_count\": 11, \"metric_name\": \"제품 후보 축\", \"metric_value\": 4, \"metric_unit\": \"개\", \"metric_value_source\": \"디자인하우스\", \"keyword_counts\": \"{\\\"반도체\\\": 1, \\\"공정\\\": 1, \\\"양산\\\": 1, \\\"고객\\\": 1, \\\"R&D\\\": 1, \\\"특허\\\": 1, \\\"기술경쟁력\\\": 1, \\\"디자인하우스\\\": 1, \\\"디자인솔루션\\\": 1, \\\"파운드리 연계\\\": 1, \\\"설계\\\": 1}\", \"numbers\": \"[{\\\"raw\\\": \\\"4\\\", \\\"unit\\\": \\\"개\\\", \\\"context\\\": \\\"디자인하우스\\\"}]\"}, {\"company_name\": \"가온칩스\", \"sheet\": \"FALLBACK_LOCAL_PROXY\", \"excel_row\": 4, \"category\": \"고객 구매 이유\", \"major_source\": \"DART/KIPRIS/IR/공식홈페이지\", \"middle_source\": \"FALLBACK_LOCAL_PROXY\", \"quantifiable\": \"원천 확인 후 수치 보강\", \"item_name\": \"고객 효익\", \"content\": \"가온칩스 / 디자인하우스 / 확인 필요 고객 효익 축 / 성능/원가/품질/신뢰성\", \"content_present\": 1, \"content_char_count\": 12, \"numeric_signal_count\": 1, \"keyword_signal_count\": 11, \"metric_name\": \"확인 필요 고객 효익 축\", \"metric_value\": 4, \"metric_unit\": \"개\", \"metric_value_source\": \"성능/원가/품질/신뢰성\", \"keyword_counts\": \"{\\\"반도체\\\": 1, \\\"공정\\\": 1, \\\"양산\\\": 1, \\\"고객\\\": 1, \\\"R&D\\\": 1, \\\"특허\\\": 1, \\\"기술경쟁력\\\": 1, \\\"디자인하우스\\\": 1, \\\"디자인솔루션\\\": 1, \\\"파운드리 연계\\\": 1, \\\"설계\\\": 1}\", \"numbers\": \"[{\\\"raw\\\": \\\"4\\\", \\\"unit\\\": \\\"개\\\", \\\"context\\\": \\\"성능/원가/품질/신뢰성\\\"}]\"}, {\"company_name\": \"가온칩스\", \"sheet\": \"FALLBACK_LOCAL_PROXY\", \"excel_row\": 5, \"category\": \"경쟁 우위/대체가능성\", \"major_source\": \"DART/KIPRIS/IR/공식홈페이지\", \"middle_source\": \"FALLBACK_LOCAL_PROXY\", \"quantifiable\": \"원천 확인 후 수치 보강\", \"item_name\": \"등록 특허\", \"content\": \"가온칩스 / 디자인하우스 / 특허 권리 안정성 확인 상태 / KIPRIS Plus 미확인\", \"content_present\": 1, \"content_char_count\": 15, \"numeric_signal_count\": 0, \"keyword_signal_count\": 11, \"metric_name\": \"특허 권리 안정성 확인 상태\", \"metric_value\": 0, \"metric_unit\": \"건\", \"metric_value_source\": \"KIPRIS Plus 미확인\", \"keyword_counts\": \"{\\\"반도체\\\": 1, \\\"공정\\\": 1, \\\"양산\\\": 1, \\\"고객\\\": 1, \\\"R&D\\\": 1, \\\"특허\\\": 1, \\\"기술경쟁력\\\": 1, \\\"디자인하우스\\\": 1, \\\"디자인솔루션\\\": 1, \\\"파운드리 연계\\\": 1, \\\"설계\\\": 1}\", \"numbers\": \"[{\\\"raw\\\": \\\"0\\\", \\\"unit\\\": \\\"건\\\", \\\"context\\\": \\\"KIPRIS Plus 미확인\\\"}]\"}, {\"company_name\": \"가온칩스\", \"sheet\": \"FALLBACK_LOCAL_PROXY\", \"excel_row\": 6, \"category\": \"활용 및 확장 산업\", \"major_source\": \"DART/KIPRIS/IR/공식홈페이지\", \"middle_source\": \"FALLBACK_LOCAL_PROXY\", \"quantifiable\": \"원천 확인 후 수치 보강\", \"item_name\": \"활용 산업\", \"content\": \"가온칩스 / 디자인하우스 / 전방산업 후보 / AI/HPC/전장/모바일/서버\", \"content_present\": 1, \"content_char_count\": 16, \"numeric_signal_count\": 1, \"keyword_signal_count\": 11, \"metric_name\": \"전방산업 후보\", \"metric_value\": 5, \"metric_unit\": \"개\", \"metric_value_source\": \"AI/HPC/전장/모바일/서버\", \"keyword_counts\": \"{\\\"반도체\\\": 1, \\\"공정\\\": 1, \\\"양산\\\": 1, \\\"고객\\\": 1, \\\"R&D\\\": 1, \\\"특허\\\": 1, \\\"기술경쟁력\\\": 1, \\\"디자인하우스\\\": 1, \\\"디자인솔루션\\\": 1, \\\"파운드리 연계\\\": 1, \\\"설계\\\": 1}\", \"numbers\": \"[{\\\"raw\\\": \\\"5\\\", \\\"unit\\\": \\\"개\\\", \\\"context\\\": \\\"AI/HPC/전장/모바일/서버\\\"}]\"}, {\"company_name\": \"가온칩스\", \"sheet\": \"FALLBACK_LOCAL_PROXY\", \"excel_row\": 7, \"category\": \"진입 부담/장벽\", \"major_source\": \"DART/KIPRIS/IR/공식홈페이지\", \"middle_source\": \"FALLBACK_LOCAL_PROXY\", \"quantifiable\": \"원천 확인 후 수치 보강\", \"item_name\": \"양산 난이도\", \"content\": \"가온칩스 / 디자인하우스 / 검증 필요 진입장벽 축 / 양산/수율/고객승인/공정노하우\", \"content_present\": 1, \"content_char_count\": 16, \"numeric_signal_count\": 1, \"keyword_signal_count\": 11, \"metric_name\": \"검증 필요 진입장벽 축\", \"metric_value\": 4, \"metric_unit\": \"개\", \"metric_value_source\": \"양산/수율/고객승인/공정노하우\", \"keyword_counts\": \"{\\\"반도체\\\": 1, \\\"공정\\\": 1, \\\"양산\\\": 1, \\\"고객\\\": 1, \\\"R&D\\\": 1, \\\"특허\\\": 1, \\\"기술경쟁력\\\": 1, \\\"디자인하우스\\\": 1, \\\"디자인솔루션\\\": 1, \\\"파운드리 연계\\\": 1, \\\"설계\\\": 1}\", \"numbers\": \"[{\\\"raw\\\": \\\"4\\\", \\\"unit\\\": \\\"개\\\", \\\"context\\\": \\\"양산/수율/고객승인/공정노하우\\\"}]\"}, {\"company_name\": \"가온칩스\", \"sheet\": \"FALLBACK_LOCAL_PROXY\", \"excel_row\": 8, \"category\": \"R&D 강도\", \"major_source\": \"DART/KIPRIS/IR/공식홈페이지\", \"middle_source\": \"FALLBACK_LOCAL_PROXY\", \"quantifiable\": \"원천 확인 후 수치 보강\", \"item_name\": \"개발 과제\", \"content\": \"가온칩스 / 디자인하우스 / R&D 확인 필요 상태 / DART/IR 추가 확인 필요\", \"content_present\": 1, \"content_char_count\": 16, \"numeric_signal_count\": 0, \"keyword_signal_count\": 11, \"metric_name\": \"R&D 확인 필요 상태\", \"metric_value\": 0, \"metric_unit\": \"건\", \"metric_value_source\": \"DART/IR 추가 확인 필요\", \"keyword_counts\": \"{\\\"반도체\\\": 1, \\\"공정\\\": 1, \\\"양산\\\": 1, \\\"고객\\\": 1, \\\"R&D\\\": 1, \\\"특허\\\": 1, \\\"기술경쟁력\\\": 1, \\\"디자인하우스\\\": 1, \\\"디자인솔루션\\\": 1, \\\"파운드리 연계\\\": 1, \\\"설계\\\": 1}\", \"numbers\": \"[{\\\"raw\\\": \\\"0\\\", \\\"unit\\\": \\\"건\\\", \\\"context\\\": \\\"DART/IR 추가 확인 필요\\\"}]\"}], \"quantified_metrics\": [{\"company_slug\": \"gaochips\", \"company_name\": \"가온칩스\", \"source\": \"universe_locked_local_proxy\", \"sheet\": \"FALLBACK_LOCAL_PROXY\", \"excel_row\": 1, \"category\": \"대표 기술\", \"item_name\": \"핵심 기술 키워드\", \"metric_name\": \"peer_group 기반 기술 후보 수\", \"metric_value\": 11, \"metric_unit\": \"개\", \"metric_value_source\": \"반도체, 공정, 양산, 고객, R&D, 특허, 기술경쟁력, 디자인하우스, 디자인솔루션, 파운드리 연계, 설계\", \"numeric_signal_count\": 1, \"keyword_signal_count\": 11, \"content_present\": 1, \"content_char_count\": 1613, \"quantifiable_plan\": \"원천 확인 후 수치 보강\", \"major_source_plan\": \"DART/KIPRIS/IR/공식홈페이지\", \"middle_source_plan\": \"FALLBACK_LOCAL_PROXY\"}, {\"company_slug\": \"gaochips\", \"company_name\": \"가온칩스\", \"source\": \"universe_locked_local_proxy\", \"sheet\": \"FALLBACK_LOCAL_PROXY\", \"excel_row\": 2, \"category\": \"대표 기술\", \"item_name\": \"적용 방식\", \"metric_name\": \"반도체 value-chain 분류\", \"metric_value\": 1, \"metric_unit\": \"개\", \"metric_value_source\": \"디자인하우스\", \"numeric_signal_count\": 1, \"keyword_signal_count\": 11, \"content_present\": 1, \"content_char_count\": 1613, \"quantifiable_plan\": \"원천 확인 후 수치 보강\", \"major_source_plan\": \"DART/KIPRIS/IR/공식홈페이지\", \"middle_source_plan\": \"FALLBACK_LOCAL_PROXY\"}, {\"company_slug\": \"gaochips\", \"company_name\": \"가온칩스\", \"source\": \"universe_locked_local_proxy\", \"sheet\": \"FALLBACK_LOCAL_PROXY\", \"excel_row\": 3, \"category\": \"핵심 제품/서비스\", \"item_name\": \"제품명/서비스명\", \"metric_name\": \"제품 후보 축\", \"metric_value\": 4, \"metric_unit\": \"개\", \"metric_value_source\": \"디자인하우스\", \"numeric_signal_count\": 1, \"keyword_signal_count\": 11, \"content_present\": 1, \"content_char_count\": 1613, \"quantifiable_plan\": \"원천 확인 후 수치 보강\", \"major_source_plan\": \"DART/KIPRIS/IR/공식홈페이지\", \"middle_source_plan\": \"FALLBACK_LOCAL_PROXY\"}, {\"company_slug\": \"gaochips\", \"company_name\": \"가온칩스\", \"source\": \"universe_locked_local_proxy\", \"sheet\": \"FALLBACK_LOCAL_PROXY\", \"excel_row\": 4, \"category\": \"고객 구매 이유\", \"item_name\": \"고객 효익\", \"metric_name\": \"확인 필요 고객 효익 축\", \"metric_value\": 4, \"metric_unit\": \"개\", \"metric_value_source\": \"성능/원가/품질/신뢰성\", \"numeric_signal_count\": 1, \"keyword_signal_count\": 11, \"content_present\": 1, \"content_char_count\": 1613, \"quantifiable_plan\": \"원천 확인 후 수치 보강\", \"major_source_plan\": \"DART/KIPRIS/IR/공식홈페이지\", \"middle_source_plan\": \"FALLBACK_LOCAL_PROXY\"}, {\"company_slug\": \"gaochips\", \"company_name\": \"가온칩스\", \"source\": \"universe_locked_local_proxy\", \"sheet\": \"FALLBACK_LOCAL_PROXY\", \"excel_row\": 5, \"category\": \"경쟁 우위/대체가능성\", \"item_name\": \"등록 특허\", \"metric_name\": \"특허 권리 안정성 확인 상태\", \"metric_value\": 0, \"metric_unit\": \"건\", \"metric_value_source\": \"KIPRIS Plus 미확인\", \"numeric_signal_count\": 0, \"keyword_signal_count\": 11, \"content_present\": 1, \"content_char_count\": 1613, \"quantifiable_plan\": \"원천 확인 후 수치 보강\", \"major_source_plan\": \"DART/KIPRIS/IR/공식홈페이지\", \"middle_source_plan\": \"FALLBACK_LOCAL_PROXY\"}, {\"company_slug\": \"gaochips\", \"company_name\": \"가온칩스\", \"source\": \"universe_locked_local_proxy\", \"sheet\": \"FALLBACK_LOCAL_PROXY\", \"excel_row\": 6, \"category\": \"활용 및 확장 산업\", \"item_name\": \"활용 산업\", \"metric_name\": \"전방산업 후보\", \"metric_value\": 5, \"metric_unit\": \"개\", \"metric_value_source\": \"AI/HPC/전장/모바일/서버\", \"numeric_signal_count\": 1, \"keyword_signal_count\": 11, \"content_present\": 1, \"content_char_count\": 1613, \"quantifiable_plan\": \"원천 확인 후 수치 보강\", \"major_source_plan\": \"DART/KIPRIS/IR/공식홈페이지\", \"middle_source_plan\": \"FALLBACK_LOCAL_PROXY\"}, {\"company_slug\": \"gaochips\", \"company_name\": \"가온칩스\", \"source\": \"universe_locked_local_proxy\", \"sheet\": \"FALLBACK_LOCAL_PROXY\", \"excel_row\": 7, \"category\": \"진입 부담/장벽\", \"item_name\": \"양산 난이도\", \"metric_name\": \"검증 필요 진입장벽 축\", \"metric_value\": 4, \"metric_unit\": \"개\", \"metric_value_source\": \"양산/수율/고객승인/공정노하우\", \"numeric_signal_count\": 1, \"keyword_signal_count\": 11, \"content_present\": 1, \"content_char_count\": 1613, \"quantifiable_plan\": \"원천 확인 후 수치 보강\", \"major_source_plan\": \"DART/KIPRIS/IR/공식홈페이지\", \"middle_source_plan\": \"FALLBACK_LOCAL_PROXY\"}, {\"company_slug\": \"gaochips\", \"company_name\": \"가온칩스\", \"source\": \"universe_locked_local_proxy\", \"sheet\": \"FALLBACK_LOCAL_PROXY\", \"excel_row\": 8, \"category\": \"R&D 강도\", \"item_name\": \"개발 과제\", \"metric_name\": \"R&D 확인 필요 상태\", \"metric_value\": 0, \"metric_unit\": \"건\", \"metric_value_source\": \"DART/IR 추가 확인 필요\", \"numeric_signal_count\": 0, \"keyword_signal_count\": 11, \"content_present\": 1, \"content_char_count\": 1613, \"quantifiable_plan\": \"원천 확인 후 수치 보강\", \"major_source_plan\": \"DART/KIPRIS/IR/공식홈페이지\", \"middle_source_plan\": \"FALLBACK_LOCAL_PROXY\"}], \"usage_rule\": \"Use only as bootstrap evidence until DART/KIPRIS/IR/official sources are collected.\"}",
+      "relevance_score": 16.0,
+      "relevance_reasons": [
+        "회사 식별어 매칭",
+        "기술/제품 키워드: 가온칩스, gaochips, 399720, EMI, AI, HPC, EV, 양산, 공정, 수율"
+      ]
+    },
+    {
+      "doc_id": "tech.doc.002",
+      "source_type": "local_data",
+      "title": "gaochips_tech_local_proxy_evidence.md",
+      "path": "data\\반도체\\가온칩스\\tech\\source\\gaochips_tech_local_proxy_evidence.md",
+      "url": "",
+      "text": "# 가온칩스 Tech Local Proxy Evidence\ncompany_name: 가온칩스\ncompany_slug: gaochips\nstock_code: 399720\nmarket: KOSDAQ\npeer_group: 디자인하우스\nevidence_status: FALLBACK_LOCAL_PROXY\nuniverse_lock: universe_30_semiconductor_20260514\nlocked_as_of: 2026-05-14\n## 사용 원칙\n이 파일은 KIPRIS Plus, DART 사업보고서, 회사 IR, 공식 웹 수집이 아직 완료되지 않은 신규 Universe 기업을 위해 생성한 Tech Agent 부트스트랩 근거입니다.\n수익률 확인 후 기업을 교체하지 않는 locked universe 원칙을 지키기 위한 초기 로컬 근거이며, 특허 수·고객사·수주·양산 실적을 임의로 확정하지 않습니다.\nChair와 Auditor에서는 이 근거를 OK가 아니라 FALLBACK_LOCAL_PROXY로 해석해야 합니다.\n## 기술 후보 맥락\n가온칩스은 Universe CSV에서 '디자인하우스' peer_group으로 분류되어 있습니다.\n이 분류에 따라 Tech Agent는 다음 기술 후보 키워드를 우선 탐색합니다: 반도체, 공정, 양산, 고객, R&D, 특허, 기술경쟁력, 디자인하우스, 디자인솔루션, 파운드리 연계, 설계.\n## 대표 기술 후보\n반도체 value chain 내 위치: 디자인하우스\n탐색해야 할 기술 축: 반도체, 공정, 양산, 고객, R&D, 특허, 기술경쟁력, 디자인하우스, 디자인솔루션, 파운드리 연계\n핵심 확인 필요 항목: 제품/공정 직접성, 고객 적용 여부, 양산/수율/신뢰성 지표, R&D 및 특허 근거, 전방산업 확장성\n## 핵심 제품/서비스 후보\npeer_group 기준 후보: 디자인하우스\n실제 제품명, 매출 비중, 고객 적용 사례는 DART 사업보고서/IR/공식 홈페이지/KIPRIS로 추가 검증해야 합니다.\n이 로컬 근거는 제품·공정 후보 탐색용이며 확정 근거가 아닙니다.\n## 고객 구매 이유 후보\n성능, 원가, 품질, 신뢰성, 수율, 공정 안정성, 공급 안정성, 전방 고객 승인 여부를 확인해야 합니다.\n고객사명, 공급계약, 양산 레퍼런스는 원천 확인 전까지 미확정으로 둡니다.\n## 경쟁 우위/대체가능성 후보\n특허, 공정 노하우, 고객 승인, 양산 난이도, 대체 비용, 국산화 여부를 확인해야 합니다.\nKIPRIS Plus 권한이 열리면 registration_status, final_status, expiry_status, right_holder, right_transfer_history, fee_payment_status로 권리 안정성을 재평가합니다.\n## 활용 및 확장 산업 후보\n후보 전방 산업: AI/HPC, 전장, 모바일, 서버, 데이터센터, 디스플레이, 파운드리/OSAT 생태계\n실제 적용 산업은 기업별 사업보고서와 IR 자료로 보강합니다.\n## R&D 강도 후보\n연구개발비, 연구인력, 개발과제, 설비투자, 특허 포트폴리오를 확인해야 합니다.\n현재 단계는 로컬 프록시이므로 R&D 수치를 임의 생성하지 않습니다.",
+      "relevance_score": 16.0,
+      "relevance_reasons": [
+        "회사 식별어 매칭",
+        "기술/제품 키워드: 가온칩스, gaochips, 399720, EMI, AI, HPC, EV, 양산, 공정, 수율"
+      ]
+    },
+    {
+      "doc_id": "tech.doc.003",
+      "source_type": "local_data",
+      "title": "company.yaml",
+      "path": "data\\반도체\\가온칩스\\_company_common\\company.yaml",
+      "url": "",
+      "text": "# Auto-generated by scripts/bootstrap_chair_25_universe.py\n# Keep this fixed once evaluation starts.\nslug: \"gaochips\"\ncompany_dir: \"gaochips\"\ncorp_name: \"가온칩스\"\ndisplay_name: \"가온칩스\"\noutput_name: \"가온칩스\"\nfield: \"반도체\"\nindustry_field: \"반도체\"\nsector: \"반도체\"\npeer_group: \"디자인하우스\"\nstock_code: \"399720\"\nticker: \"399720.KQ\"\nmarket: \"KOSDAQ\"\ninclude_in_evaluation: true\nuniverse_name: \"universe_30_semiconductor_20260514\"\nlocked_as_of: \"2026-05-14\"\nfinance_file: \"가온칩스_재무.csv\"\nstock_file: \"가온칩스_주식.csv\"\naliases:\n\"gaochips\"\n\"399720\"\n\"399720.KQ\"",
+      "relevance_score": 13.9,
+      "relevance_reasons": [
+        "회사 식별어 매칭",
+        "기술/제품 키워드: 가온칩스, gaochips, 399720, 399720.KQ, EMI, AI, EV"
+      ]
+    },
+    {
+      "doc_id": "tech.patent.summary",
+      "source_type": "patent",
+      "title": "가온칩스 KIPRIS/특허 정량화 요약",
+      "path": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\source\\gaochips_kipris_plus_bibliographic_raw.csv",
+      "url": "",
+      "text": "가온칩스 KIPRIS/특허 정량화 요약\n본 특허 근거는 KIPRIS API/CSV/엑셀/TXT 원천 파일을 정규화해 산출했다.\n\n[정량 지표]\n- 특허 원천 파일 수: 1개\n- 정규화 특허 레코드 수: 4건\n- 출원인/권리자 회사 매칭 특허 수: 4건\n- 등록 특허 수: 4건\n- 존속 가능 특허 수: 4건\n- 최근 5년 특허 수: 4건\n- IPC/CPC 기술분류 수: 3개\n- H01L 반도체 IPC 특허 수: 0건\n- 반도체 핵심 IPC 특허 수: 3건\n- 특허-기술 키워드 매칭 수: 2회\n- 특허 포트폴리오 연도 범위: 2021~2025\n- KIPRIS 총 특허 수: 4.0건\n- KIPRIS 등록 특허 수(추정): 4.0건\n- KIPRIS 존속 가능 특허 수(추정): 4.0건\n- KIPRIS 등록률(추정): 100.0%\n- KIPRIS 존속률(전체 대비 추정): 100.0%\n- KIPRIS 존속률(등록특허 중 추정): 100.0%\n- KIPRIS 부정 처분 비중(추정): 0.0%\n- KIPRIS 최근 5년 출원 비중: 100.0%\n- KIPRIS 반도체 관련 IPC 특허 수: 1.0건\n- KIPRIS 반도체 관련 IPC 비중: 25.0%\n- KIPRIS H01L 핵심 IPC 특허 수: 0.0건\n- KIPRIS 법적 안정성 점수: 100.0점\n- KIPRIS 포트폴리오 모멘텀 점수: 41.8점\n- KIPRIS 기술 적합도 점수: 21.25점\n- KIPRIS Tech ML 종합 점수: 58.91점\n- KIPRIS Tech-to-Value Bridge 보정점: 1.0점\n\n[대표 특허]\n1. 다중 기판 SoC 시스템에서 JTAG 동기화 운영 장치 및 방법 | (주)가온칩스 | 등록 | 2025 | 출원번호 1020250029605; 등록번호 1029574270000 | IPC/CPC: G01R | 기술매칭: Test, 기판 | 초록: 본 발명은 SoC 시스템에서 제이택(Joint Test Action Group: JTAG) 동기화 운영 장치 및 방법에 관한 것으로, 더욱 상세하게는 다중 기판(Multi-Die, 또는 \"멀티-다이\"라 함)으로 구성되는 SoC 시스템에서 다수의 다이 중 하나를 마스터로 설정하고, 마스터로 설정된 마스터 다이(Master Die)에서 JTAG 정책이 설정되면 복수의 슬레이브 다이(Slave D\n2. 다이나믹 클럭 게이팅 장치 | (주)가온칩스 | 등록 | 2021 | 출원번호 1020210158969; 등록번호 1023813610000 | IPC/CPC: H03K, G06F | 기술매칭: 기술 키워드 미확인 | 초록: 다이나믹 클럭 게이팅 장치가 개시된다. 일 실시예에 따른 클럭 게이팅 장치는 마스터 장치로부터 트랜잭션 시작 신호를 획득하거나, 슬레이브 장치로부터 트랜잭션 종료 신호를 획득하는 클럭 신호 활성화 모듈; 및 클럭 신호를 획득하고 상기 슬레이브 장치에 상기 클럭 신호를 제공하는 클럭 신호 제공모듈을 포함하고, 상기 클럭 신호 활성화 모듈은 상기 트랜잭션 시작 신호를 획득한 경우, 상기 클럭 신\n3. 오실레이터 오토 트리밍 방법 및 이를 이용한 장치 | (주)가온칩스 | 등록 | 2021 | 출원번호 1020210162801; 등록번호 1023813470000 | IPC/CPC: H03K | 기술매칭: 기술 키워드 미확인 | 초록: 오실레이터 오토 트리밍 방법 및 이를 이용한 장치가 개시된다. 일 실시예에 따른 칩에 포함되는 오실레이터를 오토 트리밍하기 위한 오실레이터 오토 트리밍 방법은, 오실레이터 클럭 신호의 구동 주파수에 따라 오실레이터 클럭 신호를 발생하는 제1 단계; 오실레이터 클럭 신호를 기준 시간동안 카운팅하여 제1 카운팅 결과값을 획득하는 제2 단계; 기준 클럭 신호를 상기 기준 시간동안 카운팅하여 제2 \n4. 테일러 급수를 이용한 제곱근 연산 방법 및 이를 이용한 장치 | (주)가온칩스 | 등록 | 2021 | 출원번호 1020210131634; 등록번호 1023365350000 | IPC/CPC: G06F | 기술매칭: 기술 키워드 미확인 | 초록: 테일러 급수를 이용한 제곱근 연산 방법 및 이를 이용한 장치에 관한 것이다. 일 실시예에 따른 테일러 급수를 이용하여 고정 소수점 체계에서 제곱근 연산을 수행하는 제어장치는 피제곱근을 부호부, 정수부 및 소수부를 포함하는 고정 소수점 데이터로 변환하고, 변환된 고정 소수점 데이터를 기초로 2의 차수 및 테일러 급수의 복수의 항에 포함되는 제1 파라미터를 산출하는 피제곱근 전처리부; 부호숫자의",
+      "relevance_score": 30,
+      "relevance_reasons": [
+        "KIPRIS",
+        "특허 정량화",
+        "출원인/권리자 매칭",
+        "IPC/CPC 분석"
+      ]
+    },
+    {
+      "doc_id": "tech.patent.001",
+      "source_type": "patent",
+      "title": "다중 기판 SoC 시스템에서 JTAG 동기화 운영 장치 및 방법",
+      "path": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\source\\gaochips_kipris_plus_bibliographic_raw.csv",
+      "url": "",
+      "text": "다중 기판 SoC 시스템에서 JTAG 동기화 운영 장치 및 방법 | (주)가온칩스 | 등록 | 2025 | 출원번호 1020250029605; 등록번호 1029574270000 | IPC/CPC: G01R | 기술매칭: Test, 기판 | 초록: 본 발명은 SoC 시스템에서 제이택(Joint Test Action Group: JTAG) 동기화 운영 장치 및 방법에 관한 것으로, 더욱 상세하게는 다중 기판(Multi-Die, 또는 \"멀티-다이\"라 함)으로 구성되는 SoC 시스템에서 다수의 다이 중 하나를 마스터로 설정하고, 마스터로 설정된 마스터 다이(Master Die)에서 JTAG 정책이 설정되면 복수의 슬레이브 다이(Slave D",
+      "relevance_score": 73.5,
+      "relevance_reasons": [
+        "대표 특허 레코드",
+        "회사 매칭",
+        "기술 키워드 2개"
+      ]
+    },
+    {
+      "doc_id": "tech.patent.002",
+      "source_type": "patent",
+      "title": "다이나믹 클럭 게이팅 장치",
+      "path": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\source\\gaochips_kipris_plus_bibliographic_raw.csv",
+      "url": "",
+      "text": "다이나믹 클럭 게이팅 장치 | (주)가온칩스 | 등록 | 2021 | 출원번호 1020210158969; 등록번호 1023813610000 | IPC/CPC: H03K, G06F | 기술매칭: 기술 키워드 미확인 | 초록: 다이나믹 클럭 게이팅 장치가 개시된다. 일 실시예에 따른 클럭 게이팅 장치는 마스터 장치로부터 트랜잭션 시작 신호를 획득하거나, 슬레이브 장치로부터 트랜잭션 종료 신호를 획득하는 클럭 신호 활성화 모듈; 및 클럭 신호를 획득하고 상기 슬레이브 장치에 상기 클럭 신호를 제공하는 클럭 신호 제공모듈을 포함하고, 상기 클럭 신호 활성화 모듈은 상기 트랜잭션 시작 신호를 획득한 경우, 상기 클럭 신",
+      "relevance_score": 69.0,
+      "relevance_reasons": [
+        "대표 특허 레코드",
+        "회사 매칭",
+        "기술 키워드 0개"
+      ]
+    },
+    {
+      "doc_id": "tech.patent.003",
+      "source_type": "patent",
+      "title": "오실레이터 오토 트리밍 방법 및 이를 이용한 장치",
+      "path": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\source\\gaochips_kipris_plus_bibliographic_raw.csv",
+      "url": "",
+      "text": "오실레이터 오토 트리밍 방법 및 이를 이용한 장치 | (주)가온칩스 | 등록 | 2021 | 출원번호 1020210162801; 등록번호 1023813470000 | IPC/CPC: H03K | 기술매칭: 기술 키워드 미확인 | 초록: 오실레이터 오토 트리밍 방법 및 이를 이용한 장치가 개시된다. 일 실시예에 따른 칩에 포함되는 오실레이터를 오토 트리밍하기 위한 오실레이터 오토 트리밍 방법은, 오실레이터 클럭 신호의 구동 주파수에 따라 오실레이터 클럭 신호를 발생하는 제1 단계; 오실레이터 클럭 신호를 기준 시간동안 카운팅하여 제1 카운팅 결과값을 획득하는 제2 단계; 기준 클럭 신호를 상기 기준 시간동안 카운팅하여 제2 ",
+      "relevance_score": 67.5,
+      "relevance_reasons": [
+        "대표 특허 레코드",
+        "회사 매칭",
+        "기술 키워드 0개"
+      ]
+    },
+    {
+      "doc_id": "tech.patent.004",
+      "source_type": "patent",
+      "title": "테일러 급수를 이용한 제곱근 연산 방법 및 이를 이용한 장치",
+      "path": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\source\\gaochips_kipris_plus_bibliographic_raw.csv",
+      "url": "",
+      "text": "테일러 급수를 이용한 제곱근 연산 방법 및 이를 이용한 장치 | (주)가온칩스 | 등록 | 2021 | 출원번호 1020210131634; 등록번호 1023365350000 | IPC/CPC: G06F | 기술매칭: 기술 키워드 미확인 | 초록: 테일러 급수를 이용한 제곱근 연산 방법 및 이를 이용한 장치에 관한 것이다. 일 실시예에 따른 테일러 급수를 이용하여 고정 소수점 체계에서 제곱근 연산을 수행하는 제어장치는 피제곱근을 부호부, 정수부 및 소수부를 포함하는 고정 소수점 데이터로 변환하고, 변환된 고정 소수점 데이터를 기초로 2의 차수 및 테일러 급수의 복수의 항에 포함되는 제1 파라미터를 산출하는 피제곱근 전처리부; 부호숫자의",
+      "relevance_score": 67.5,
+      "relevance_reasons": [
+        "대표 특허 레코드",
+        "회사 매칭",
+        "기술 키워드 0개"
+      ]
+    }
+  ],
+  "accepted_urls": [],
+  "rejected_urls": [],
+  "framework": {
+    "template_path": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\templates\\tech_template.xlsx",
+    "base_template_path": "C:\\Agent_6.9\\data\\반도체\\_sector_common\\templates\\tech_template_base.xlsx",
+    "mode": "framework_only_no_company_example_values",
+    "sections": [
+      {
+        "category": "대표 기술",
+        "axis": "기술성",
+        "major_source": "사업 보고서, 기업 홈페이지, 특허 사이트",
+        "middle_source": "사업보고서: 사업의 내용 → 주요 제품 및 서비스 / 연구개발활동 / 생산공정·기술설명 / 원재료 및 전구체 설명 / 신규사업 내용 기업 홈페이지: 기술소개 / 제품기술 페이지 / 소재·공정 설명 페이지 / Application(적용 분야) 페이지 / R&D센터 소개 특허 사이트: 대표 등록특허 초록 / 청구항 / IPC·CPC 분류 / 특허 패밀리 / 피인용 특허",
+        "quantifiable": "기술 키워드 등장 빈도, 적용 제품/공정 수, 수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등 : 따로 추출?)",
+        "items": [
+          {
+            "category": "대표 기술",
+            "item_name": "핵심 기술 키워드",
+            "axis": "기술성",
+            "major_source": "사업 보고서, 기업 홈페이지, 특허 사이트",
+            "middle_source": "사업보고서: 사업의 내용 → 주요 제품 및 서비스 / 연구개발활동 / 생산공정·기술설명 / 원재료 및 전구체 설명 / 신규사업 내용 기업 홈페이지: 기술소개 / 제품기술 페이지 / 소재·공정 설명 페이지 / Application(적용 분야) 페이지 / R&D센터 소개 특허 사이트: 대표 등록특허 초록 / 청구항 / IPC·CPC 분류 / 특허 패밀리 / 피인용 특허",
+            "quantifiable": "기술 키워드 등장 빈도, 적용 제품/공정 수, 수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등 : 따로 추출?)",
+            "formula_rules": [
+              {
+                "category": "대표 기술",
+                "metric_name": "기술 키워드 등장 빈도",
+                "formula": "사업보고서 내 키워드 등장 횟수 + 홈페이지 내 키워드 등장 횟수 + 특허 초록/청구항 내 키워드 등장 횟수",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "대표 기술",
+                "metric_name": "적용 제품/공정 수",
+                "formula": "중출처에서 확인된 적용 제품 목록 ∪ 적용 공정 목록의 고유 개수",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "대표 기술",
+                "metric_name": "수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등)",
+                "formula": "",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              }
+            ]
+          },
+          {
+            "category": "대표 기술",
+            "item_name": "적용 방식",
+            "axis": "기술성",
+            "major_source": "사업 보고서, 기업 홈페이지, 특허 사이트",
+            "middle_source": "사업보고서: 사업의 내용 → 주요 제품 및 서비스 / 연구개발활동 / 생산공정·기술설명 / 원재료 및 전구체 설명 / 신규사업 내용 기업 홈페이지: 기술소개 / 제품기술 페이지 / 소재·공정 설명 페이지 / Application(적용 분야) 페이지 / R&D센터 소개 특허 사이트: 대표 등록특허 초록 / 청구항 / IPC·CPC 분류 / 특허 패밀리 / 피인용 특허",
+            "quantifiable": "기술 키워드 등장 빈도, 적용 제품/공정 수, 수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등 : 따로 추출?)",
+            "formula_rules": [
+              {
+                "category": "대표 기술",
+                "metric_name": "기술 키워드 등장 빈도",
+                "formula": "사업보고서 내 키워드 등장 횟수 + 홈페이지 내 키워드 등장 횟수 + 특허 초록/청구항 내 키워드 등장 횟수",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "대표 기술",
+                "metric_name": "적용 제품/공정 수",
+                "formula": "중출처에서 확인된 적용 제품 목록 ∪ 적용 공정 목록의 고유 개수",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "대표 기술",
+                "metric_name": "수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등)",
+                "formula": "",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              }
+            ]
+          },
+          {
+            "category": "대표 기술",
+            "item_name": "핵심 성능 요소",
+            "axis": "기술성",
+            "major_source": "사업 보고서, 기업 홈페이지, 특허 사이트",
+            "middle_source": "사업보고서: 사업의 내용 → 주요 제품 및 서비스 / 연구개발활동 / 생산공정·기술설명 / 원재료 및 전구체 설명 / 신규사업 내용 기업 홈페이지: 기술소개 / 제품기술 페이지 / 소재·공정 설명 페이지 / Application(적용 분야) 페이지 / R&D센터 소개 특허 사이트: 대표 등록특허 초록 / 청구항 / IPC·CPC 분류 / 특허 패밀리 / 피인용 특허",
+            "quantifiable": "기술 키워드 등장 빈도, 적용 제품/공정 수, 수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등 : 따로 추출?)",
+            "formula_rules": [
+              {
+                "category": "대표 기술",
+                "metric_name": "기술 키워드 등장 빈도",
+                "formula": "사업보고서 내 키워드 등장 횟수 + 홈페이지 내 키워드 등장 횟수 + 특허 초록/청구항 내 키워드 등장 횟수",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "대표 기술",
+                "metric_name": "적용 제품/공정 수",
+                "formula": "중출처에서 확인된 적용 제품 목록 ∪ 적용 공정 목록의 고유 개수",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "대표 기술",
+                "metric_name": "수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등)",
+                "formula": "",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "핵심 제품/서비스",
+        "axis": "수익성 기여",
+        "major_source": "사업 보고서 - 매출 구성 홈페이지 매출구성 IR 발표자료",
+        "middle_source": "사업보고서: 사업부문별 매출 / 제품별 매출 / 주요 제품 매출 비중 / 수출 비중 / 사업부별 실적 홈페이지: 제품 포트폴리오 / 제품 카테고리 / 베스트셀러·주력제품 / 응용처별 제품 분류 IR: Company Overview / Product Portfolio / Revenue Breakdown / Business Segment / 성장동력 슬라이드",
+        "quantifiable": "매출 비중 %, 전년 성장률 %, 제품 수, 고객 산업 수",
+        "items": [
+          {
+            "category": "핵심 제품/서비스",
+            "item_name": "제품명/서비스명",
+            "axis": "수익성 기여",
+            "major_source": "사업 보고서 - 매출 구성 홈페이지 매출구성 IR 발표자료",
+            "middle_source": "사업보고서: 사업부문별 매출 / 제품별 매출 / 주요 제품 매출 비중 / 수출 비중 / 사업부별 실적 홈페이지: 제품 포트폴리오 / 제품 카테고리 / 베스트셀러·주력제품 / 응용처별 제품 분류 IR: Company Overview / Product Portfolio / Revenue Breakdown / Business Segment / 성장동력 슬라이드",
+            "quantifiable": "매출 비중 %, 전년 성장률 %, 제품 수, 고객 산업 수",
+            "formula_rules": [
+              {
+                "category": "핵심 제품/서비스",
+                "metric_name": "매출 비중 %",
+                "formula": "해당 제품/사업부 매출 ÷ 총매출 × 100",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "핵심 제품/서비스",
+                "metric_name": "전년 성장률 %",
+                "formula": "(당기 매출 - 전기 매출) ÷ 전기 매출 × 100",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "핵심 제품/서비스",
+                "metric_name": "제품 수",
+                "formula": "",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "핵심 제품/서비스",
+                "metric_name": "고객 산업 수",
+                "formula": "사업보고서 제품 목록 ∪ 홈페이지 제품 포트폴리오 ∪ IR 제품 포트폴리오의 고유 개수",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              }
+            ]
+          },
+          {
+            "category": "핵심 제품/서비스",
+            "item_name": "적용 기술",
+            "axis": "수익성 기여",
+            "major_source": "사업 보고서 - 매출 구성 홈페이지 매출구성 IR 발표자료",
+            "middle_source": "사업보고서: 사업부문별 매출 / 제품별 매출 / 주요 제품 매출 비중 / 수출 비중 / 사업부별 실적 홈페이지: 제품 포트폴리오 / 제품 카테고리 / 베스트셀러·주력제품 / 응용처별 제품 분류 IR: Company Overview / Product Portfolio / Revenue Breakdown / Business Segment / 성장동력 슬라이드",
+            "quantifiable": "매출 비중 %, 전년 성장률 %, 제품 수, 고객 산업 수",
+            "formula_rules": [
+              {
+                "category": "핵심 제품/서비스",
+                "metric_name": "매출 비중 %",
+                "formula": "해당 제품/사업부 매출 ÷ 총매출 × 100",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "핵심 제품/서비스",
+                "metric_name": "전년 성장률 %",
+                "formula": "(당기 매출 - 전기 매출) ÷ 전기 매출 × 100",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "핵심 제품/서비스",
+                "metric_name": "제품 수",
+                "formula": "",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "핵심 제품/서비스",
+                "metric_name": "고객 산업 수",
+                "formula": "사업보고서 제품 목록 ∪ 홈페이지 제품 포트폴리오 ∪ IR 제품 포트폴리오의 고유 개수",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              }
+            ]
+          },
+          {
+            "category": "핵심 제품/서비스",
+            "item_name": "주요 고객군",
+            "axis": "수익성 기여",
+            "major_source": "사업 보고서 - 매출 구성 홈페이지 매출구성 IR 발표자료",
+            "middle_source": "사업보고서: 사업부문별 매출 / 제품별 매출 / 주요 제품 매출 비중 / 수출 비중 / 사업부별 실적 홈페이지: 제품 포트폴리오 / 제품 카테고리 / 베스트셀러·주력제품 / 응용처별 제품 분류 IR: Company Overview / Product Portfolio / Revenue Breakdown / Business Segment / 성장동력 슬라이드",
+            "quantifiable": "매출 비중 %, 전년 성장률 %, 제품 수, 고객 산업 수",
+            "formula_rules": [
+              {
+                "category": "핵심 제품/서비스",
+                "metric_name": "매출 비중 %",
+                "formula": "해당 제품/사업부 매출 ÷ 총매출 × 100",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "핵심 제품/서비스",
+                "metric_name": "전년 성장률 %",
+                "formula": "(당기 매출 - 전기 매출) ÷ 전기 매출 × 100",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "핵심 제품/서비스",
+                "metric_name": "제품 수",
+                "formula": "",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "핵심 제품/서비스",
+                "metric_name": "고객 산업 수",
+                "formula": "사업보고서 제품 목록 ∪ 홈페이지 제품 포트폴리오 ∪ IR 제품 포트폴리오의 고유 개수",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "고객 구매 이유",
+        "axis": "고객 채택도",
+        "major_source": "1) IR 2) 제품 홍보 자료 3) 인터뷰 기사",
+        "middle_source": "IR: Investment Highlights / 제품 경쟁력 / 고객사 채택 배경 / 고객 효익 설명 슬라이드 / 양산 적용 사례 제품 홍보 자료: 제품 브로슈어 / 기술소개서 / 데이터시트 / Application Note / 비교표 / FAQ 인터뷰 기사: 고객이 선택한 이유 / 채택 배경 / 기존 대안 대비 개선점 / 산업 현장 적용 사례 / 신규 수요처 언급",
+        "quantifiable": "성능 개선율 %, 원가 절감률 %, 처리속도, 불량률 감소, 수명 증가, 고객사 수",
+        "items": [
+          {
+            "category": "고객 구매 이유",
+            "item_name": "고객 효익",
+            "axis": "고객 채택도",
+            "major_source": "1) IR 2) 제품 홍보 자료 3) 인터뷰 기사",
+            "middle_source": "IR: Investment Highlights / 제품 경쟁력 / 고객사 채택 배경 / 고객 효익 설명 슬라이드 / 양산 적용 사례 제품 홍보 자료: 제품 브로슈어 / 기술소개서 / 데이터시트 / Application Note / 비교표 / FAQ 인터뷰 기사: 고객이 선택한 이유 / 채택 배경 / 기존 대안 대비 개선점 / 산업 현장 적용 사례 / 신규 수요처 언급",
+            "quantifiable": "성능 개선율 %, 원가 절감률 %, 처리속도, 불량률 감소, 수명 증가, 고객사 수",
+            "formula_rules": [
+              {
+                "category": "고객 구매 이유",
+                "metric_name": "성능 개선율 %",
+                "formula": "(개선 후 성능 - 기존 성능) ÷ 기존 성능 × 100",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "고객 구매 이유",
+                "metric_name": "원가 절감율 %",
+                "formula": "(기존 원가 - 적용 후 원가) ÷ 기존 원가 × 100",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "고객 구매 이유",
+                "metric_name": "처리속도",
+                "formula": "",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "고객 구매 이유",
+                "metric_name": "불량률 감소 %",
+                "formula": "(기존 불량률 - 적용 후 불량률) ÷ 기존 불량률 × 100",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "고객 구매 이유",
+                "metric_name": "수명 증가 %",
+                "formula": "(적용 후 수명 - 기존 수명) ÷ 기존 수명 × 100",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "고객 구매 이유",
+                "metric_name": "고객사 수",
+                "formula": "IR 적용 사례 ∪ 홍보자료 레퍼런스 ∪ 인터뷰/기사 내 언급 고객사의 고유 개수",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              }
+            ]
+          },
+          {
+            "category": "고객 구매 이유",
+            "item_name": "경쟁 제품 대비 장점",
+            "axis": "고객 채택도",
+            "major_source": "1) IR 2) 제품 홍보 자료 3) 인터뷰 기사",
+            "middle_source": "IR: Investment Highlights / 제품 경쟁력 / 고객사 채택 배경 / 고객 효익 설명 슬라이드 / 양산 적용 사례 제품 홍보 자료: 제품 브로슈어 / 기술소개서 / 데이터시트 / Application Note / 비교표 / FAQ 인터뷰 기사: 고객이 선택한 이유 / 채택 배경 / 기존 대안 대비 개선점 / 산업 현장 적용 사례 / 신규 수요처 언급",
+            "quantifiable": "성능 개선율 %, 원가 절감률 %, 처리속도, 불량률 감소, 수명 증가, 고객사 수",
+            "formula_rules": [
+              {
+                "category": "고객 구매 이유",
+                "metric_name": "성능 개선율 %",
+                "formula": "(개선 후 성능 - 기존 성능) ÷ 기존 성능 × 100",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "고객 구매 이유",
+                "metric_name": "원가 절감율 %",
+                "formula": "(기존 원가 - 적용 후 원가) ÷ 기존 원가 × 100",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "고객 구매 이유",
+                "metric_name": "처리속도",
+                "formula": "",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "고객 구매 이유",
+                "metric_name": "불량률 감소 %",
+                "formula": "(기존 불량률 - 적용 후 불량률) ÷ 기존 불량률 × 100",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "고객 구매 이유",
+                "metric_name": "수명 증가 %",
+                "formula": "(적용 후 수명 - 기존 수명) ÷ 기존 수명 × 100",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "고객 구매 이유",
+                "metric_name": "고객사 수",
+                "formula": "IR 적용 사례 ∪ 홍보자료 레퍼런스 ∪ 인터뷰/기사 내 언급 고객사의 고유 개수",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              }
+            ]
+          },
+          {
+            "category": "고객 구매 이유",
+            "item_name": "실제 적용 사례",
+            "axis": "고객 채택도",
+            "major_source": "1) IR 2) 제품 홍보 자료 3) 인터뷰 기사",
+            "middle_source": "IR: Investment Highlights / 제품 경쟁력 / 고객사 채택 배경 / 고객 효익 설명 슬라이드 / 양산 적용 사례 제품 홍보 자료: 제품 브로슈어 / 기술소개서 / 데이터시트 / Application Note / 비교표 / FAQ 인터뷰 기사: 고객이 선택한 이유 / 채택 배경 / 기존 대안 대비 개선점 / 산업 현장 적용 사례 / 신규 수요처 언급",
+            "quantifiable": "성능 개선율 %, 원가 절감률 %, 처리속도, 불량률 감소, 수명 증가, 고객사 수",
+            "formula_rules": [
+              {
+                "category": "고객 구매 이유",
+                "metric_name": "성능 개선율 %",
+                "formula": "(개선 후 성능 - 기존 성능) ÷ 기존 성능 × 100",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "고객 구매 이유",
+                "metric_name": "원가 절감율 %",
+                "formula": "(기존 원가 - 적용 후 원가) ÷ 기존 원가 × 100",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "고객 구매 이유",
+                "metric_name": "처리속도",
+                "formula": "",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "고객 구매 이유",
+                "metric_name": "불량률 감소 %",
+                "formula": "(기존 불량률 - 적용 후 불량률) ÷ 기존 불량률 × 100",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "고객 구매 이유",
+                "metric_name": "수명 증가 %",
+                "formula": "(적용 후 수명 - 기존 수명) ÷ 기존 수명 × 100",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "고객 구매 이유",
+                "metric_name": "고객사 수",
+                "formula": "IR 적용 사례 ∪ 홍보자료 레퍼런스 ∪ 인터뷰/기사 내 언급 고객사의 고유 개수",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "경쟁 우위/대체가능성",
+        "axis": "진입장벽",
+        "major_source": "사업보고서 / 특허 / 기사",
+        "middle_source": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+        "quantifiable": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+        "items": [
+          {
+            "category": "경쟁 우위/대체가능성",
+            "item_name": "등록 특허",
+            "axis": "진입장벽",
+            "major_source": "사업보고서 / 특허 / 기사",
+            "middle_source": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+            "quantifiable": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+            "formula_rules": [
+              {
+                "category": "경쟁 우위 요소/대체가능성",
+                "metric_name": "등록 특허 수",
+                "formula": "특허 검색 결과 중 상태가 등록인 특허의 개수",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "경쟁 우위 요소/대체가능성",
+                "metric_name": "인증 수",
+                "formula": "중출처에서 확인된 인증 종류의 고유 개수",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "경쟁 우위 요소/대체가능성",
+                "metric_name": "주요 고객 승인 수",
+                "formula": "기사·IR·규제자료에서 확인된 승인 완료 고객/라인의 고유 개수",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "경쟁 우위 요소/대체가능성",
+                "metric_name": "고객 전환 기간",
+                "formula": "고객 최초 접촉일(또는 샘플 공급일) ~ 고객 승인일 사이 기간",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "경쟁 우위 요소/대체가능성",
+                "metric_name": "레퍼런스 건수",
+                "formula": "적용 사례 / 공급 사례 / 고객 채택 사례의 고유 개수",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              }
+            ]
+          },
+          {
+            "category": "경쟁 우위/대체가능성",
+            "item_name": "제조 노하우",
+            "axis": "진입장벽",
+            "major_source": "사업보고서 / 특허 / 기사",
+            "middle_source": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+            "quantifiable": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+            "formula_rules": [
+              {
+                "category": "경쟁 우위 요소/대체가능성",
+                "metric_name": "등록 특허 수",
+                "formula": "특허 검색 결과 중 상태가 등록인 특허의 개수",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "경쟁 우위 요소/대체가능성",
+                "metric_name": "인증 수",
+                "formula": "중출처에서 확인된 인증 종류의 고유 개수",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "경쟁 우위 요소/대체가능성",
+                "metric_name": "주요 고객 승인 수",
+                "formula": "기사·IR·규제자료에서 확인된 승인 완료 고객/라인의 고유 개수",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "경쟁 우위 요소/대체가능성",
+                "metric_name": "고객 전환 기간",
+                "formula": "고객 최초 접촉일(또는 샘플 공급일) ~ 고객 승인일 사이 기간",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "경쟁 우위 요소/대체가능성",
+                "metric_name": "레퍼런스 건수",
+                "formula": "적용 사례 / 공급 사례 / 고객 채택 사례의 고유 개수",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              }
+            ]
+          },
+          {
+            "category": "경쟁 우위/대체가능성",
+            "item_name": "고객사 레퍼런스",
+            "axis": "진입장벽",
+            "major_source": "사업보고서 / 특허 / 기사",
+            "middle_source": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+            "quantifiable": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+            "formula_rules": [
+              {
+                "category": "경쟁 우위 요소/대체가능성",
+                "metric_name": "등록 특허 수",
+                "formula": "특허 검색 결과 중 상태가 등록인 특허의 개수",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "경쟁 우위 요소/대체가능성",
+                "metric_name": "인증 수",
+                "formula": "중출처에서 확인된 인증 종류의 고유 개수",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "경쟁 우위 요소/대체가능성",
+                "metric_name": "주요 고객 승인 수",
+                "formula": "기사·IR·규제자료에서 확인된 승인 완료 고객/라인의 고유 개수",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "경쟁 우위 요소/대체가능성",
+                "metric_name": "고객 전환 기간",
+                "formula": "고객 최초 접촉일(또는 샘플 공급일) ~ 고객 승인일 사이 기간",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "경쟁 우위 요소/대체가능성",
+                "metric_name": "레퍼런스 건수",
+                "formula": "적용 사례 / 공급 사례 / 고객 채택 사례의 고유 개수",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              }
+            ]
+          },
+          {
+            "category": "경쟁 우위/대체가능성",
+            "item_name": "대체가능성",
+            "axis": "진입장벽",
+            "major_source": "사업보고서 / 특허 / 기사",
+            "middle_source": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+            "quantifiable": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+            "formula_rules": [
+              {
+                "category": "경쟁 우위 요소/대체가능성",
+                "metric_name": "등록 특허 수",
+                "formula": "특허 검색 결과 중 상태가 등록인 특허의 개수",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "경쟁 우위 요소/대체가능성",
+                "metric_name": "인증 수",
+                "formula": "중출처에서 확인된 인증 종류의 고유 개수",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "경쟁 우위 요소/대체가능성",
+                "metric_name": "주요 고객 승인 수",
+                "formula": "기사·IR·규제자료에서 확인된 승인 완료 고객/라인의 고유 개수",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "경쟁 우위 요소/대체가능성",
+                "metric_name": "고객 전환 기간",
+                "formula": "고객 최초 접촉일(또는 샘플 공급일) ~ 고객 승인일 사이 기간",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              },
+              {
+                "category": "경쟁 우위 요소/대체가능성",
+                "metric_name": "레퍼런스 건수",
+                "formula": "적용 사례 / 공급 사례 / 고객 채택 사례의 고유 개수",
+                "interpretation": "",
+                "source_hint": "",
+                "sheet": "수식 정리"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "활용 및 확장 산업",
+        "axis": "확장성",
+        "major_source": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+        "middle_source": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+        "quantifiable": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+        "items": [
+          {
+            "category": "활용 및 확장 산업",
+            "item_name": "활용 산업",
+            "axis": "확장성",
+            "major_source": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+            "middle_source": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+            "quantifiable": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+            "formula_rules": []
+          },
+          {
+            "category": "활용 및 확장 산업",
+            "item_name": "확장 가능 제품",
+            "axis": "확장성",
+            "major_source": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+            "middle_source": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+            "quantifiable": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+            "formula_rules": []
+          },
+          {
+            "category": "활용 및 확장 산업",
+            "item_name": "전방 시장",
+            "axis": "확장성",
+            "major_source": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+            "middle_source": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+            "quantifiable": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+            "formula_rules": []
+          }
+        ]
+      },
+      {
+        "category": "진입 부담/장벽",
+        "axis": "양산성",
+        "major_source": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+        "middle_source": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+        "quantifiable": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+        "items": [
+          {
+            "category": "진입 부담/장벽",
+            "item_name": "인증/승인",
+            "axis": "양산성",
+            "major_source": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+            "middle_source": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+            "quantifiable": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+            "formula_rules": []
+          },
+          {
+            "category": "진입 부담/장벽",
+            "item_name": "양산 난이도",
+            "axis": "양산성",
+            "major_source": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+            "middle_source": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+            "quantifiable": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+            "formula_rules": []
+          },
+          {
+            "category": "진입 부담/장벽",
+            "item_name": "전환 비용",
+            "axis": "양산성",
+            "major_source": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+            "middle_source": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+            "quantifiable": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+            "formula_rules": []
+          }
+        ]
+      },
+      {
+        "category": "R&D 강도",
+        "axis": "투자 지속성",
+        "major_source": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+        "middle_source": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+        "quantifiable": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+        "items": [
+          {
+            "category": "R&D 강도",
+            "item_name": "연구개발비",
+            "axis": "투자 지속성",
+            "major_source": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+            "middle_source": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+            "quantifiable": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+            "formula_rules": []
+          },
+          {
+            "category": "R&D 강도",
+            "item_name": "개발 과제",
+            "axis": "투자 지속성",
+            "major_source": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+            "middle_source": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+            "quantifiable": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+            "formula_rules": []
+          },
+          {
+            "category": "R&D 강도",
+            "item_name": "설비투자/인력",
+            "axis": "투자 지속성",
+            "major_source": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+            "middle_source": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+            "quantifiable": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+            "formula_rules": []
+          }
+        ]
+      }
+    ],
+    "formula_rules_by_category": {
+      "대표 기술": [
+        {
+          "category": "대표 기술",
+          "metric_name": "기술 키워드 등장 빈도",
+          "formula": "사업보고서 내 키워드 등장 횟수 + 홈페이지 내 키워드 등장 횟수 + 특허 초록/청구항 내 키워드 등장 횟수",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        },
+        {
+          "category": "대표 기술",
+          "metric_name": "적용 제품/공정 수",
+          "formula": "중출처에서 확인된 적용 제품 목록 ∪ 적용 공정 목록의 고유 개수",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        },
+        {
+          "category": "대표 기술",
+          "metric_name": "수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등)",
+          "formula": "",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        }
+      ],
+      "핵심 제품/서비스": [
+        {
+          "category": "핵심 제품/서비스",
+          "metric_name": "매출 비중 %",
+          "formula": "해당 제품/사업부 매출 ÷ 총매출 × 100",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        },
+        {
+          "category": "핵심 제품/서비스",
+          "metric_name": "전년 성장률 %",
+          "formula": "(당기 매출 - 전기 매출) ÷ 전기 매출 × 100",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        },
+        {
+          "category": "핵심 제품/서비스",
+          "metric_name": "제품 수",
+          "formula": "",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        },
+        {
+          "category": "핵심 제품/서비스",
+          "metric_name": "고객 산업 수",
+          "formula": "사업보고서 제품 목록 ∪ 홈페이지 제품 포트폴리오 ∪ IR 제품 포트폴리오의 고유 개수",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        }
+      ],
+      "고객 구매 이유": [
+        {
+          "category": "고객 구매 이유",
+          "metric_name": "성능 개선율 %",
+          "formula": "(개선 후 성능 - 기존 성능) ÷ 기존 성능 × 100",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        },
+        {
+          "category": "고객 구매 이유",
+          "metric_name": "원가 절감율 %",
+          "formula": "(기존 원가 - 적용 후 원가) ÷ 기존 원가 × 100",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        },
+        {
+          "category": "고객 구매 이유",
+          "metric_name": "처리속도",
+          "formula": "",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        },
+        {
+          "category": "고객 구매 이유",
+          "metric_name": "불량률 감소 %",
+          "formula": "(기존 불량률 - 적용 후 불량률) ÷ 기존 불량률 × 100",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        },
+        {
+          "category": "고객 구매 이유",
+          "metric_name": "수명 증가 %",
+          "formula": "(적용 후 수명 - 기존 수명) ÷ 기존 수명 × 100",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        },
+        {
+          "category": "고객 구매 이유",
+          "metric_name": "고객사 수",
+          "formula": "IR 적용 사례 ∪ 홍보자료 레퍼런스 ∪ 인터뷰/기사 내 언급 고객사의 고유 개수",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        }
+      ],
+      "경쟁 우위/대체가능성": [
+        {
+          "category": "경쟁 우위 요소/대체가능성",
+          "metric_name": "등록 특허 수",
+          "formula": "특허 검색 결과 중 상태가 등록인 특허의 개수",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        },
+        {
+          "category": "경쟁 우위 요소/대체가능성",
+          "metric_name": "인증 수",
+          "formula": "중출처에서 확인된 인증 종류의 고유 개수",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        },
+        {
+          "category": "경쟁 우위 요소/대체가능성",
+          "metric_name": "주요 고객 승인 수",
+          "formula": "기사·IR·규제자료에서 확인된 승인 완료 고객/라인의 고유 개수",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        },
+        {
+          "category": "경쟁 우위 요소/대체가능성",
+          "metric_name": "고객 전환 기간",
+          "formula": "고객 최초 접촉일(또는 샘플 공급일) ~ 고객 승인일 사이 기간",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        },
+        {
+          "category": "경쟁 우위 요소/대체가능성",
+          "metric_name": "레퍼런스 건수",
+          "formula": "적용 사례 / 공급 사례 / 고객 채택 사례의 고유 개수",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        }
+      ],
+      "현재 활용 산업 + 확장 산업": [
+        {
+          "category": "현재 활용 산업 + 확장 산업",
+          "metric_name": "현재 매출 산업 수",
+          "formula": "현재 매출 발생 산업 목록의 고유 개수",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        },
+        {
+          "category": "현재 활용 산업 + 확장 산업",
+          "metric_name": "산업별 비중 %",
+          "formula": "해당 산업 매출 ÷ 총매출 × 100",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        },
+        {
+          "category": "현재 활용 산업 + 확장 산업",
+          "metric_name": "적용 제품 수",
+          "formula": "현재 산업에 적용 중인 제품 목록의 고유 개수",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        },
+        {
+          "category": "현재 활용 산업 + 확장 산업",
+          "metric_name": "확장 후보 산업 수",
+          "formula": "신규 적용처 / 확장 산업 / 진입 예정 산업 목록의 고유 개수",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        }
+      ],
+      "신규 산업 진입 시 추가 인증/개발 부담": [
+        {
+          "category": "신규 산업 진입 시 추가 인증/개발 부담",
+          "metric_name": "필요 인증 수",
+          "formula": "신규 산업 진입에 필요한 인증 종류의 고유 개수",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        },
+        {
+          "category": "신규 산업 진입 시 추가 인증/개발 부담",
+          "metric_name": "예상 개발 기간(개월)",
+          "formula": "개발 착수 시점 ~ 양산/출시 목표 시점 기간",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        },
+        {
+          "category": "신규 산업 진입 시 추가 인증/개발 부담",
+          "metric_name": "검증 단계 수",
+          "formula": "시험 / 인증 / 고객평가 / 파일럿 / 양산검증 단계의 고유 개수",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        },
+        {
+          "category": "신규 산업 진입 시 추가 인증/개발 부담",
+          "metric_name": "고객 테스트 횟수",
+          "formula": "기사·보도자료·테스트베드 자료에서 확인된 테스트/평가 이벤트 횟수",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        }
+      ],
+      "회사의 기술 투자 수준 - R&D 강도": [
+        {
+          "category": "회사의 기술 투자 수준 - R&D 강도",
+          "metric_name": "연구개발비(억원)",
+          "formula": "",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        },
+        {
+          "category": "회사의 기술 투자 수준 - R&D 강도",
+          "metric_name": "매출 대비 R&D 비율 %",
+          "formula": "연구개발비 ÷ 매출액 × 100",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        },
+        {
+          "category": "회사의 기술 투자 수준 - R&D 강도",
+          "metric_name": "연구인력 수",
+          "formula": "",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        },
+        {
+          "category": "회사의 기술 투자 수준 - R&D 강도",
+          "metric_name": "CAPEX(억원)",
+          "formula": "",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        },
+        {
+          "category": "회사의 기술 투자 수준 - R&D 강도",
+          "metric_name": "3년 추세",
+          "formula": "(당해연도 값 - 3년 전 값) ÷ 3년 전 값 × 100",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        }
+      ],
+      "기술 경쟁력 종합 판단": [
+        {
+          "category": "기술 경쟁력 종합 판단",
+          "metric_name": "1~7번 항목별 점수",
+          "formula": "",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        },
+        {
+          "category": "기술 경쟁력 종합 판단",
+          "metric_name": "총점",
+          "formula": "1~7번 항목 점수의 합",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        },
+        {
+          "category": "기술 경쟁력 종합 판단",
+          "metric_name": "강점/약점 수",
+          "formula": "강점: 기준점 이상 항목 수 / 약점: 기준점 이하 항목 수",
+          "interpretation": "",
+          "source_hint": "",
+          "sheet": "수식 정리"
+        }
+      ]
+    }
+  },
+  "section_items": [
+    {
+      "category": "대표 기술",
+      "axis": "기술성",
+      "major_source_plan": "사업 보고서, 기업 홈페이지, 특허 사이트",
+      "middle_source_plan": "사업보고서: 사업의 내용 → 주요 제품 및 서비스 / 연구개발활동 / 생산공정·기술설명 / 원재료 및 전구체 설명 / 신규사업 내용 기업 홈페이지: 기술소개 / 제품기술 페이지 / 소재·공정 설명 페이지 / Application(적용 분야) 페이지 / R&D센터 소개 특허 사이트: 대표 등록특허 초록 / 청구항 / IPC·CPC 분류 / 특허 패밀리 / 피인용 특허",
+      "quantifiable_plan": "기술 키워드 등장 빈도, 적용 제품/공정 수, 수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등 : 따로 추출?)",
+      "items": [
+        {
+          "item_name": "핵심 기술 키워드",
+          "category": "대표 기술",
+          "axis": "기술성",
+          "major_source_plan": "사업 보고서, 기업 홈페이지, 특허 사이트",
+          "middle_source_plan": "사업보고서: 사업의 내용 → 주요 제품 및 서비스 / 연구개발활동 / 생산공정·기술설명 / 원재료 및 전구체 설명 / 신규사업 내용 기업 홈페이지: 기술소개 / 제품기술 페이지 / 소재·공정 설명 페이지 / Application(적용 분야) 페이지 / R&D센터 소개 특허 사이트: 대표 등록특허 초록 / 청구항 / IPC·CPC 분류 / 특허 패밀리 / 피인용 특허",
+          "quantifiable_plan": "기술 키워드 등장 빈도, 적용 제품/공정 수, 수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등 : 따로 추출?)",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "기술 키워드 등장 빈도",
+              "value": 98,
+              "unit": "회",
+              "formula": "DART/IR/공식/특허/로컬 기술 원천에서 핵심 기술 키워드 출현 횟수 합산",
+              "detail": {
+                "양산": 31,
+                "공정": 29,
+                "AI": 14,
+                "수율": 8,
+                "EV": 7,
+                "HPC": 6,
+                "EMI": 3
+              }
+            },
+            {
+              "metric_name": "확인 핵심 기술 수",
+              "value": 7,
+              "unit": "개",
+              "formula": "등장 빈도 1회 이상인 핵심 기술 후보 고유 개수",
+              "detail": [
+                "양산",
+                "공정",
+                "AI",
+                "수율",
+                "EV",
+                "HPC",
+                "EMI"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "적용 방식",
+          "category": "대표 기술",
+          "axis": "기술성",
+          "major_source_plan": "사업 보고서, 기업 홈페이지, 특허 사이트",
+          "middle_source_plan": "사업보고서: 사업의 내용 → 주요 제품 및 서비스 / 연구개발활동 / 생산공정·기술설명 / 원재료 및 전구체 설명 / 신규사업 내용 기업 홈페이지: 기술소개 / 제품기술 페이지 / 소재·공정 설명 페이지 / Application(적용 분야) 페이지 / R&D센터 소개 특허 사이트: 대표 등록특허 초록 / 청구항 / IPC·CPC 분류 / 특허 패밀리 / 피인용 특허",
+          "quantifiable_plan": "기술 키워드 등장 빈도, 적용 제품/공정 수, 수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등 : 따로 추출?)",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "적용 제품/공정 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "근거 문장 내 적용 제품·공정·Application 고유 키워드 수",
+              "detail": [
+                "EMI"
+              ]
+            },
+            {
+              "metric_name": "성능/공정 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "성능·수율·공정·양산 문맥에서 숫자가 포함된 문장 수",
+              "detail": [
+                {
+                  "value": "399",
+                  "unit": "",
+                  "context": "ame: 가온칩스 company_slug: gaochips stock_code: 399720 peer_group: 디자인하우스 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "핵심 성능 요소",
+          "category": "대표 기술",
+          "axis": "기술성",
+          "major_source_plan": "사업 보고서, 기업 홈페이지, 특허 사이트",
+          "middle_source_plan": "사업보고서: 사업의 내용 → 주요 제품 및 서비스 / 연구개발활동 / 생산공정·기술설명 / 원재료 및 전구체 설명 / 신규사업 내용 기업 홈페이지: 기술소개 / 제품기술 페이지 / 소재·공정 설명 페이지 / Application(적용 분야) 페이지 / R&D센터 소개 특허 사이트: 대표 등록특허 초록 / 청구항 / IPC·CPC 분류 / 특허 패밀리 / 피인용 특허",
+          "quantifiable_plan": "기술 키워드 등장 빈도, 적용 제품/공정 수, 수치화 가능한 성능(순도 %, 온도 °C, 수율 %, 처리속도, 수명 등 : 따로 추출?)",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "적용 제품/공정 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "근거 문장 내 적용 제품·공정·Application 고유 키워드 수",
+              "detail": [
+                "EMI"
+              ]
+            },
+            {
+              "metric_name": "성능/공정 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "성능·수율·공정·양산 문맥에서 숫자가 포함된 문장 수",
+              "detail": [
+                {
+                  "value": "399",
+                  "unit": "",
+                  "context": "ame: 가온칩스 company_slug: gaochips stock_code: 399720 peer_group: 디자인하우스 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 0,
+      "quant_metric_count": 6
+    },
+    {
+      "category": "핵심 제품/서비스",
+      "axis": "수익성 기여",
+      "major_source_plan": "사업 보고서 - 매출 구성 홈페이지 매출구성 IR 발표자료",
+      "middle_source_plan": "사업보고서: 사업부문별 매출 / 제품별 매출 / 주요 제품 매출 비중 / 수출 비중 / 사업부별 실적 홈페이지: 제품 포트폴리오 / 제품 카테고리 / 베스트셀러·주력제품 / 응용처별 제품 분류 IR: Company Overview / Product Portfolio / Revenue Breakdown / Business Segment / 성장동력 슬라이드",
+      "quantifiable_plan": "매출 비중 %, 전년 성장률 %, 제품 수, 고객 산업 수",
+      "items": [
+        {
+          "item_name": "제품명/서비스명",
+          "category": "핵심 제품/서비스",
+          "axis": "수익성 기여",
+          "major_source_plan": "사업 보고서 - 매출 구성 홈페이지 매출구성 IR 발표자료",
+          "middle_source_plan": "사업보고서: 사업부문별 매출 / 제품별 매출 / 주요 제품 매출 비중 / 수출 비중 / 사업부별 실적 홈페이지: 제품 포트폴리오 / 제품 카테고리 / 베스트셀러·주력제품 / 응용처별 제품 분류 IR: Company Overview / Product Portfolio / Revenue Breakdown / Business Segment / 성장동력 슬라이드",
+          "quantifiable_plan": "매출 비중 %, 전년 성장률 %, 제품 수, 고객 산업 수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "제품/서비스 축 수",
+              "value": 3,
+              "unit": "개",
+              "formula": "제품·서비스 후보 고유 키워드 수",
+              "detail": [
+                "EMI",
+                "AI",
+                "EV"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "적용 기술",
+          "category": "핵심 제품/서비스",
+          "axis": "수익성 기여",
+          "major_source_plan": "사업 보고서 - 매출 구성 홈페이지 매출구성 IR 발표자료",
+          "middle_source_plan": "사업보고서: 사업부문별 매출 / 제품별 매출 / 주요 제품 매출 비중 / 수출 비중 / 사업부별 실적 홈페이지: 제품 포트폴리오 / 제품 카테고리 / 베스트셀러·주력제품 / 응용처별 제품 분류 IR: Company Overview / Product Portfolio / Revenue Breakdown / Business Segment / 성장동력 슬라이드",
+          "quantifiable_plan": "매출 비중 %, 전년 성장률 %, 제품 수, 고객 산업 수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "제품/서비스 축 수",
+              "value": 3,
+              "unit": "개",
+              "formula": "제품·서비스 후보 고유 키워드 수",
+              "detail": [
+                "EMI",
+                "AI",
+                "EV"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "주요 고객군",
+          "category": "핵심 제품/서비스",
+          "axis": "수익성 기여",
+          "major_source_plan": "사업 보고서 - 매출 구성 홈페이지 매출구성 IR 발표자료",
+          "middle_source_plan": "사업보고서: 사업부문별 매출 / 제품별 매출 / 주요 제품 매출 비중 / 수출 비중 / 사업부별 실적 홈페이지: 제품 포트폴리오 / 제품 카테고리 / 베스트셀러·주력제품 / 응용처별 제품 분류 IR: Company Overview / Product Portfolio / Revenue Breakdown / Business Segment / 성장동력 슬라이드",
+          "quantifiable_plan": "매출 비중 %, 전년 성장률 %, 제품 수, 고객 산업 수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "제품/서비스 축 수",
+              "value": 3,
+              "unit": "개",
+              "formula": "제품·서비스 후보 고유 키워드 수",
+              "detail": [
+                "EMI",
+                "AI",
+                "EV"
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 0,
+      "quant_metric_count": 3
+    },
+    {
+      "category": "고객 구매 이유",
+      "axis": "고객 채택도",
+      "major_source_plan": "1) IR 2) 제품 홍보 자료 3) 인터뷰 기사",
+      "middle_source_plan": "IR: Investment Highlights / 제품 경쟁력 / 고객사 채택 배경 / 고객 효익 설명 슬라이드 / 양산 적용 사례 제품 홍보 자료: 제품 브로슈어 / 기술소개서 / 데이터시트 / Application Note / 비교표 / FAQ 인터뷰 기사: 고객이 선택한 이유 / 채택 배경 / 기존 대안 대비 개선점 / 산업 현장 적용 사례 / 신규 수요처 언급",
+      "quantifiable_plan": "성능 개선율 %, 원가 절감률 %, 처리속도, 불량률 감소, 수명 증가, 고객사 수",
+      "items": [
+        {
+          "item_name": "고객 효익",
+          "category": "고객 구매 이유",
+          "axis": "고객 채택도",
+          "major_source_plan": "1) IR 2) 제품 홍보 자료 3) 인터뷰 기사",
+          "middle_source_plan": "IR: Investment Highlights / 제품 경쟁력 / 고객사 채택 배경 / 고객 효익 설명 슬라이드 / 양산 적용 사례 제품 홍보 자료: 제품 브로슈어 / 기술소개서 / 데이터시트 / Application Note / 비교표 / FAQ 인터뷰 기사: 고객이 선택한 이유 / 채택 배경 / 기존 대안 대비 개선점 / 산업 현장 적용 사례 / 신규 수요처 언급",
+          "quantifiable_plan": "성능 개선율 %, 원가 절감률 %, 처리속도, 불량률 감소, 수명 증가, 고객사 수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "고객 효익 키워드 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "성능·원가·품질·수율 등 고객 효익 표현 고유 개수",
+              "detail": []
+            },
+            {
+              "metric_name": "효익 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "성능·원가·수율·처리속도 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "399",
+                  "unit": "",
+                  "context": "ame: 가온칩스 company_slug: gaochips stock_code: 399720 peer_group: 디자인하우스 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            },
+            {
+              "metric_name": "수식 시트 매칭 지표 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "tech_template.xlsx 수식/정량화 시트와 원문 수치 문맥의 매칭 개수",
+              "detail": [
+                "고객사 수"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "경쟁 제품 대비 장점",
+          "category": "고객 구매 이유",
+          "axis": "고객 채택도",
+          "major_source_plan": "1) IR 2) 제품 홍보 자료 3) 인터뷰 기사",
+          "middle_source_plan": "IR: Investment Highlights / 제품 경쟁력 / 고객사 채택 배경 / 고객 효익 설명 슬라이드 / 양산 적용 사례 제품 홍보 자료: 제품 브로슈어 / 기술소개서 / 데이터시트 / Application Note / 비교표 / FAQ 인터뷰 기사: 고객이 선택한 이유 / 채택 배경 / 기존 대안 대비 개선점 / 산업 현장 적용 사례 / 신규 수요처 언급",
+          "quantifiable_plan": "성능 개선율 %, 원가 절감률 %, 처리속도, 불량률 감소, 수명 증가, 고객사 수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "고객 효익 키워드 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "성능·원가·품질·수율 등 고객 효익 표현 고유 개수",
+              "detail": []
+            },
+            {
+              "metric_name": "효익 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "성능·원가·수율·처리속도 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "399",
+                  "unit": "",
+                  "context": "ame: 가온칩스 company_slug: gaochips stock_code: 399720 peer_group: 디자인하우스 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            },
+            {
+              "metric_name": "수식 시트 매칭 지표 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "tech_template.xlsx 수식/정량화 시트와 원문 수치 문맥의 매칭 개수",
+              "detail": [
+                "고객사 수"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "실제 적용 사례",
+          "category": "고객 구매 이유",
+          "axis": "고객 채택도",
+          "major_source_plan": "1) IR 2) 제품 홍보 자료 3) 인터뷰 기사",
+          "middle_source_plan": "IR: Investment Highlights / 제품 경쟁력 / 고객사 채택 배경 / 고객 효익 설명 슬라이드 / 양산 적용 사례 제품 홍보 자료: 제품 브로슈어 / 기술소개서 / 데이터시트 / Application Note / 비교표 / FAQ 인터뷰 기사: 고객이 선택한 이유 / 채택 배경 / 기존 대안 대비 개선점 / 산업 현장 적용 사례 / 신규 수요처 언급",
+          "quantifiable_plan": "성능 개선율 %, 원가 절감률 %, 처리속도, 불량률 감소, 수명 증가, 고객사 수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "고객 효익 키워드 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "성능·원가·품질·수율 등 고객 효익 표현 고유 개수",
+              "detail": []
+            },
+            {
+              "metric_name": "효익 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "성능·원가·수율·처리속도 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "399",
+                  "unit": "",
+                  "context": "ame: 가온칩스 company_slug: gaochips stock_code: 399720 peer_group: 디자인하우스 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            },
+            {
+              "metric_name": "수식 시트 매칭 지표 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "tech_template.xlsx 수식/정량화 시트와 원문 수치 문맥의 매칭 개수",
+              "detail": [
+                "고객사 수"
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 0,
+      "quant_metric_count": 9
+    },
+    {
+      "category": "경쟁 우위/대체가능성",
+      "axis": "진입장벽",
+      "major_source_plan": "사업보고서 / 특허 / 기사",
+      "middle_source_plan": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+      "quantifiable_plan": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+      "items": [
+        {
+          "item_name": "등록 특허",
+          "category": "경쟁 우위/대체가능성",
+          "axis": "진입장벽",
+          "major_source_plan": "사업보고서 / 특허 / 기사",
+          "middle_source_plan": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+          "quantifiable_plan": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": []
+            },
+            {
+              "metric_name": "특허/산업재산권 근거 문서 수",
+              "value": 0,
+              "unit": "건",
+              "formula": "source_type=patent로 분류된 로컬/KIPRIS/웹 근거 문서 수",
+              "detail": []
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "399",
+                  "unit": "",
+                  "context": "ame: 가온칩스 company_slug: gaochips stock_code: 399720 peer_group: 디자인하우스 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "제조 노하우",
+          "category": "경쟁 우위/대체가능성",
+          "axis": "진입장벽",
+          "major_source_plan": "사업보고서 / 특허 / 기사",
+          "middle_source_plan": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+          "quantifiable_plan": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": []
+            },
+            {
+              "metric_name": "특허/산업재산권 근거 문서 수",
+              "value": 0,
+              "unit": "건",
+              "formula": "source_type=patent로 분류된 로컬/KIPRIS/웹 근거 문서 수",
+              "detail": []
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "399",
+                  "unit": "",
+                  "context": "ame: 가온칩스 company_slug: gaochips stock_code: 399720 peer_group: 디자인하우스 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "고객사 레퍼런스",
+          "category": "경쟁 우위/대체가능성",
+          "axis": "진입장벽",
+          "major_source_plan": "사업보고서 / 특허 / 기사",
+          "middle_source_plan": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+          "quantifiable_plan": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": []
+            },
+            {
+              "metric_name": "특허/산업재산권 근거 문서 수",
+              "value": 0,
+              "unit": "건",
+              "formula": "source_type=patent로 분류된 로컬/KIPRIS/웹 근거 문서 수",
+              "detail": []
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "399",
+                  "unit": "",
+                  "context": "ame: 가온칩스 company_slug: gaochips stock_code: 399720 peer_group: 디자인하우스 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "대체가능성",
+          "category": "경쟁 우위/대체가능성",
+          "axis": "진입장벽",
+          "major_source_plan": "사업보고서 / 특허 / 기사",
+          "middle_source_plan": "사업보고서: 시장 경쟁상황 / 진입장벽 / 기술 경쟁력 / 주요 원재료·공정 우위 / 위험요인 / 신규 경쟁사 언급 특허: 등록특허 수 / 핵심 특허 존속기간 / 청구항 범위 / 회피설계 난이도 / 해외 등록 여부 기사: 경쟁사 비교 기사 / 국산화·대체재 기사 / 고객사 공급 확정 기사 / 업계 평가 / 가격·수율 경쟁 기사",
+          "quantifiable_plan": "등록 특허 수, 인증 수, 주요 고객 승인 수, 고객 전환 기간, 레퍼런스 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": []
+            },
+            {
+              "metric_name": "특허/산업재산권 근거 문서 수",
+              "value": 0,
+              "unit": "건",
+              "formula": "source_type=patent로 분류된 로컬/KIPRIS/웹 근거 문서 수",
+              "detail": []
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "399",
+                  "unit": "",
+                  "context": "ame: 가온칩스 company_slug: gaochips stock_code: 399720 peer_group: 디자인하우스 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 0,
+      "quant_metric_count": 12
+    },
+    {
+      "category": "활용 및 확장 산업",
+      "axis": "확장성",
+      "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+      "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+      "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+      "items": [
+        {
+          "item_name": "활용 산업",
+          "category": "활용 및 확장 산업",
+          "axis": "확장성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [
+            {
+              "snippet": "# 가온칩스 Tech Local Proxy Evidence",
+              "source_type": "local_data",
+              "source_title": "gaochips_tech_local_proxy_evidence.md",
+              "source_url": "",
+              "source_path": "data\\반도체\\가온칩스\\tech\\source\\gaochips_tech_local_proxy_evidence.md",
+              "source_plan_matched": false,
+              "hits": [
+                "EV"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "활용/확장 산업 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "근거 문장 내 전방산업/Application 고유 개수",
+              "detail": [
+                "EV"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "확장 가능 제품",
+          "category": "활용 및 확장 산업",
+          "axis": "확장성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [
+            {
+              "snippet": "# 가온칩스 Tech Local Proxy Evidence",
+              "source_type": "local_data",
+              "source_title": "gaochips_tech_local_proxy_evidence.md",
+              "source_url": "",
+              "source_path": "data\\반도체\\가온칩스\\tech\\source\\gaochips_tech_local_proxy_evidence.md",
+              "source_plan_matched": false,
+              "hits": [
+                "EV"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "활용/확장 산업 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "근거 문장 내 전방산업/Application 고유 개수",
+              "detail": [
+                "EV"
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "전방 시장",
+          "category": "활용 및 확장 산업",
+          "axis": "확장성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [
+            {
+              "snippet": "# 가온칩스 Tech Local Proxy Evidence",
+              "source_type": "local_data",
+              "source_title": "gaochips_tech_local_proxy_evidence.md",
+              "source_url": "",
+              "source_path": "data\\반도체\\가온칩스\\tech\\source\\gaochips_tech_local_proxy_evidence.md",
+              "source_plan_matched": false,
+              "hits": [
+                "EV"
+              ]
+            }
+          ],
+          "quant_metrics": [
+            {
+              "metric_name": "활용/확장 산업 수",
+              "value": 1,
+              "unit": "개",
+              "formula": "근거 문장 내 전방산업/Application 고유 개수",
+              "detail": [
+                "EV"
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 3,
+      "quant_metric_count": 3
+    },
+    {
+      "category": "진입 부담/장벽",
+      "axis": "양산성",
+      "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+      "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+      "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+      "items": [
+        {
+          "item_name": "인증/승인",
+          "category": "진입 부담/장벽",
+          "axis": "양산성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": []
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "399",
+                  "unit": "",
+                  "context": "ame: 가온칩스 company_slug: gaochips stock_code: 399720 peer_group: 디자인하우스 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "양산 난이도",
+          "category": "진입 부담/장벽",
+          "axis": "양산성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": []
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "399",
+                  "unit": "",
+                  "context": "ame: 가온칩스 company_slug: gaochips stock_code: 399720 peer_group: 디자인하우스 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "전환 비용",
+          "category": "진입 부담/장벽",
+          "axis": "양산성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "진입장벽/대체난이도 신호 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+              "detail": []
+            },
+            {
+              "metric_name": "장벽 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "399",
+                  "unit": "",
+                  "context": "ame: 가온칩스 company_slug: gaochips stock_code: 399720 peer_group: 디자인하우스 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 0,
+      "quant_metric_count": 6
+    },
+    {
+      "category": "R&D 강도",
+      "axis": "투자 지속성",
+      "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+      "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+      "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+      "items": [
+        {
+          "item_name": "연구개발비",
+          "category": "R&D 강도",
+          "axis": "투자 지속성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "R&D/투자 신호 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "연구개발·설비투자·과제·인력 문맥 신호 수",
+              "detail": []
+            },
+            {
+              "metric_name": "R&D 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "연구개발·투자 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "399",
+                  "unit": "",
+                  "context": "ame: 가온칩스 company_slug: gaochips stock_code: 399720 peer_group: 디자인하우스 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "개발 과제",
+          "category": "R&D 강도",
+          "axis": "투자 지속성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "R&D/투자 신호 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "연구개발·설비투자·과제·인력 문맥 신호 수",
+              "detail": []
+            },
+            {
+              "metric_name": "R&D 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "연구개발·투자 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "399",
+                  "unit": "",
+                  "context": "ame: 가온칩스 company_slug: gaochips stock_code: 399720 peer_group: 디자인하우스 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_name": "설비투자/인력",
+          "category": "R&D 강도",
+          "axis": "투자 지속성",
+          "major_source_plan": "사업보고서, 공식 홈페이지, IR, 특허/공시",
+          "middle_source_plan": "사업의 내용, 제품/기술 소개, 연구개발, 매출 구성, 고객 적용 사례",
+          "quantifiable_plan": "키워드 빈도, 제품/공정 수, 매출/성장률, 특허/인증/고객 적용 건수",
+          "evidence": [],
+          "quant_metrics": [
+            {
+              "metric_name": "R&D/투자 신호 수",
+              "value": 0,
+              "unit": "개",
+              "formula": "연구개발·설비투자·과제·인력 문맥 신호 수",
+              "detail": []
+            },
+            {
+              "metric_name": "R&D 관련 정량 수치",
+              "value": 1,
+              "unit": "건",
+              "formula": "연구개발·투자 문맥 숫자 포함 문장 수",
+              "detail": [
+                {
+                  "value": "399",
+                  "unit": "",
+                  "context": "ame: 가온칩스 company_slug: gaochips stock_code: 399720 peer_group: 디자인하우스 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "evidence_count": 0,
+      "quant_metric_count": 6
+    }
+  ],
+  "quantitative_signals": [
+    {
+      "metric_name": "기술 키워드 등장 빈도",
+      "value": 98,
+      "unit": "회",
+      "formula": "DART/IR/공식/특허/로컬 기술 원천에서 핵심 기술 키워드 출현 횟수 합산",
+      "detail": {
+        "양산": 31,
+        "공정": 29,
+        "AI": 14,
+        "수율": 8,
+        "EV": 7,
+        "HPC": 6,
+        "EMI": 3
+      },
+      "category": "대표 기술",
+      "item_name": "핵심 기술 키워드"
+    },
+    {
+      "metric_name": "확인 핵심 기술 수",
+      "value": 7,
+      "unit": "개",
+      "formula": "등장 빈도 1회 이상인 핵심 기술 후보 고유 개수",
+      "detail": [
+        "양산",
+        "공정",
+        "AI",
+        "수율",
+        "EV",
+        "HPC",
+        "EMI"
+      ],
+      "category": "대표 기술",
+      "item_name": "핵심 기술 키워드"
+    },
+    {
+      "metric_name": "적용 제품/공정 수",
+      "value": 1,
+      "unit": "개",
+      "formula": "근거 문장 내 적용 제품·공정·Application 고유 키워드 수",
+      "detail": [
+        "EMI"
+      ],
+      "category": "대표 기술",
+      "item_name": "적용 방식"
+    },
+    {
+      "metric_name": "성능/공정 정량 수치",
+      "value": 1,
+      "unit": "건",
+      "formula": "성능·수율·공정·양산 문맥에서 숫자가 포함된 문장 수",
+      "detail": [
+        {
+          "value": "399",
+          "unit": "",
+          "context": "ame: 가온칩스 company_slug: gaochips stock_code: 399720 peer_group: 디자인하우스 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+        }
+      ],
+      "category": "대표 기술",
+      "item_name": "적용 방식"
+    },
+    {
+      "metric_name": "적용 제품/공정 수",
+      "value": 1,
+      "unit": "개",
+      "formula": "근거 문장 내 적용 제품·공정·Application 고유 키워드 수",
+      "detail": [
+        "EMI"
+      ],
+      "category": "대표 기술",
+      "item_name": "핵심 성능 요소"
+    },
+    {
+      "metric_name": "성능/공정 정량 수치",
+      "value": 1,
+      "unit": "건",
+      "formula": "성능·수율·공정·양산 문맥에서 숫자가 포함된 문장 수",
+      "detail": [
+        {
+          "value": "399",
+          "unit": "",
+          "context": "ame: 가온칩스 company_slug: gaochips stock_code: 399720 peer_group: 디자인하우스 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+        }
+      ],
+      "category": "대표 기술",
+      "item_name": "핵심 성능 요소"
+    },
+    {
+      "metric_name": "제품/서비스 축 수",
+      "value": 3,
+      "unit": "개",
+      "formula": "제품·서비스 후보 고유 키워드 수",
+      "detail": [
+        "EMI",
+        "AI",
+        "EV"
+      ],
+      "category": "핵심 제품/서비스",
+      "item_name": "제품명/서비스명"
+    },
+    {
+      "metric_name": "제품/서비스 축 수",
+      "value": 3,
+      "unit": "개",
+      "formula": "제품·서비스 후보 고유 키워드 수",
+      "detail": [
+        "EMI",
+        "AI",
+        "EV"
+      ],
+      "category": "핵심 제품/서비스",
+      "item_name": "적용 기술"
+    },
+    {
+      "metric_name": "제품/서비스 축 수",
+      "value": 3,
+      "unit": "개",
+      "formula": "제품·서비스 후보 고유 키워드 수",
+      "detail": [
+        "EMI",
+        "AI",
+        "EV"
+      ],
+      "category": "핵심 제품/서비스",
+      "item_name": "주요 고객군"
+    },
+    {
+      "metric_name": "고객 효익 키워드 수",
+      "value": 0,
+      "unit": "개",
+      "formula": "성능·원가·품질·수율 등 고객 효익 표현 고유 개수",
+      "detail": [],
+      "category": "고객 구매 이유",
+      "item_name": "고객 효익"
+    },
+    {
+      "metric_name": "효익 관련 정량 수치",
+      "value": 1,
+      "unit": "건",
+      "formula": "성능·원가·수율·처리속도 문맥 숫자 포함 문장 수",
+      "detail": [
+        {
+          "value": "399",
+          "unit": "",
+          "context": "ame: 가온칩스 company_slug: gaochips stock_code: 399720 peer_group: 디자인하우스 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+        }
+      ],
+      "category": "고객 구매 이유",
+      "item_name": "고객 효익"
+    },
+    {
+      "metric_name": "수식 시트 매칭 지표 수",
+      "value": 1,
+      "unit": "개",
+      "formula": "tech_template.xlsx 수식/정량화 시트와 원문 수치 문맥의 매칭 개수",
+      "detail": [
+        "고객사 수"
+      ],
+      "category": "고객 구매 이유",
+      "item_name": "고객 효익"
+    },
+    {
+      "metric_name": "고객 효익 키워드 수",
+      "value": 0,
+      "unit": "개",
+      "formula": "성능·원가·품질·수율 등 고객 효익 표현 고유 개수",
+      "detail": [],
+      "category": "고객 구매 이유",
+      "item_name": "경쟁 제품 대비 장점"
+    },
+    {
+      "metric_name": "효익 관련 정량 수치",
+      "value": 1,
+      "unit": "건",
+      "formula": "성능·원가·수율·처리속도 문맥 숫자 포함 문장 수",
+      "detail": [
+        {
+          "value": "399",
+          "unit": "",
+          "context": "ame: 가온칩스 company_slug: gaochips stock_code: 399720 peer_group: 디자인하우스 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+        }
+      ],
+      "category": "고객 구매 이유",
+      "item_name": "경쟁 제품 대비 장점"
+    },
+    {
+      "metric_name": "수식 시트 매칭 지표 수",
+      "value": 1,
+      "unit": "개",
+      "formula": "tech_template.xlsx 수식/정량화 시트와 원문 수치 문맥의 매칭 개수",
+      "detail": [
+        "고객사 수"
+      ],
+      "category": "고객 구매 이유",
+      "item_name": "경쟁 제품 대비 장점"
+    },
+    {
+      "metric_name": "고객 효익 키워드 수",
+      "value": 0,
+      "unit": "개",
+      "formula": "성능·원가·품질·수율 등 고객 효익 표현 고유 개수",
+      "detail": [],
+      "category": "고객 구매 이유",
+      "item_name": "실제 적용 사례"
+    },
+    {
+      "metric_name": "효익 관련 정량 수치",
+      "value": 1,
+      "unit": "건",
+      "formula": "성능·원가·수율·처리속도 문맥 숫자 포함 문장 수",
+      "detail": [
+        {
+          "value": "399",
+          "unit": "",
+          "context": "ame: 가온칩스 company_slug: gaochips stock_code: 399720 peer_group: 디자인하우스 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+        }
+      ],
+      "category": "고객 구매 이유",
+      "item_name": "실제 적용 사례"
+    },
+    {
+      "metric_name": "수식 시트 매칭 지표 수",
+      "value": 1,
+      "unit": "개",
+      "formula": "tech_template.xlsx 수식/정량화 시트와 원문 수치 문맥의 매칭 개수",
+      "detail": [
+        "고객사 수"
+      ],
+      "category": "고객 구매 이유",
+      "item_name": "실제 적용 사례"
+    },
+    {
+      "metric_name": "진입장벽/대체난이도 신호 수",
+      "value": 0,
+      "unit": "개",
+      "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+      "detail": [],
+      "category": "경쟁 우위/대체가능성",
+      "item_name": "등록 특허"
+    },
+    {
+      "metric_name": "특허/산업재산권 근거 문서 수",
+      "value": 0,
+      "unit": "건",
+      "formula": "source_type=patent로 분류된 로컬/KIPRIS/웹 근거 문서 수",
+      "detail": [],
+      "category": "경쟁 우위/대체가능성",
+      "item_name": "등록 특허"
+    },
+    {
+      "metric_name": "장벽 관련 정량 수치",
+      "value": 1,
+      "unit": "건",
+      "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+      "detail": [
+        {
+          "value": "399",
+          "unit": "",
+          "context": "ame: 가온칩스 company_slug: gaochips stock_code: 399720 peer_group: 디자인하우스 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+        }
+      ],
+      "category": "경쟁 우위/대체가능성",
+      "item_name": "등록 특허"
+    },
+    {
+      "metric_name": "진입장벽/대체난이도 신호 수",
+      "value": 0,
+      "unit": "개",
+      "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+      "detail": [],
+      "category": "경쟁 우위/대체가능성",
+      "item_name": "제조 노하우"
+    },
+    {
+      "metric_name": "특허/산업재산권 근거 문서 수",
+      "value": 0,
+      "unit": "건",
+      "formula": "source_type=patent로 분류된 로컬/KIPRIS/웹 근거 문서 수",
+      "detail": [],
+      "category": "경쟁 우위/대체가능성",
+      "item_name": "제조 노하우"
+    },
+    {
+      "metric_name": "장벽 관련 정량 수치",
+      "value": 1,
+      "unit": "건",
+      "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+      "detail": [
+        {
+          "value": "399",
+          "unit": "",
+          "context": "ame: 가온칩스 company_slug: gaochips stock_code: 399720 peer_group: 디자인하우스 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+        }
+      ],
+      "category": "경쟁 우위/대체가능성",
+      "item_name": "제조 노하우"
+    },
+    {
+      "metric_name": "진입장벽/대체난이도 신호 수",
+      "value": 0,
+      "unit": "개",
+      "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+      "detail": [],
+      "category": "경쟁 우위/대체가능성",
+      "item_name": "고객사 레퍼런스"
+    },
+    {
+      "metric_name": "특허/산업재산권 근거 문서 수",
+      "value": 0,
+      "unit": "건",
+      "formula": "source_type=patent로 분류된 로컬/KIPRIS/웹 근거 문서 수",
+      "detail": [],
+      "category": "경쟁 우위/대체가능성",
+      "item_name": "고객사 레퍼런스"
+    },
+    {
+      "metric_name": "장벽 관련 정량 수치",
+      "value": 1,
+      "unit": "건",
+      "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+      "detail": [
+        {
+          "value": "399",
+          "unit": "",
+          "context": "ame: 가온칩스 company_slug: gaochips stock_code: 399720 peer_group: 디자인하우스 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+        }
+      ],
+      "category": "경쟁 우위/대체가능성",
+      "item_name": "고객사 레퍼런스"
+    },
+    {
+      "metric_name": "진입장벽/대체난이도 신호 수",
+      "value": 0,
+      "unit": "개",
+      "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+      "detail": [],
+      "category": "경쟁 우위/대체가능성",
+      "item_name": "대체가능성"
+    },
+    {
+      "metric_name": "특허/산업재산권 근거 문서 수",
+      "value": 0,
+      "unit": "건",
+      "formula": "source_type=patent로 분류된 로컬/KIPRIS/웹 근거 문서 수",
+      "detail": [],
+      "category": "경쟁 우위/대체가능성",
+      "item_name": "대체가능성"
+    },
+    {
+      "metric_name": "장벽 관련 정량 수치",
+      "value": 1,
+      "unit": "건",
+      "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+      "detail": [
+        {
+          "value": "399",
+          "unit": "",
+          "context": "ame: 가온칩스 company_slug: gaochips stock_code: 399720 peer_group: 디자인하우스 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+        }
+      ],
+      "category": "경쟁 우위/대체가능성",
+      "item_name": "대체가능성"
+    },
+    {
+      "metric_name": "활용/확장 산업 수",
+      "value": 1,
+      "unit": "개",
+      "formula": "근거 문장 내 전방산업/Application 고유 개수",
+      "detail": [
+        "EV"
+      ],
+      "category": "활용 및 확장 산업",
+      "item_name": "활용 산업"
+    },
+    {
+      "metric_name": "활용/확장 산업 수",
+      "value": 1,
+      "unit": "개",
+      "formula": "근거 문장 내 전방산업/Application 고유 개수",
+      "detail": [
+        "EV"
+      ],
+      "category": "활용 및 확장 산업",
+      "item_name": "확장 가능 제품"
+    },
+    {
+      "metric_name": "활용/확장 산업 수",
+      "value": 1,
+      "unit": "개",
+      "formula": "근거 문장 내 전방산업/Application 고유 개수",
+      "detail": [
+        "EV"
+      ],
+      "category": "활용 및 확장 산업",
+      "item_name": "전방 시장"
+    },
+    {
+      "metric_name": "진입장벽/대체난이도 신호 수",
+      "value": 0,
+      "unit": "개",
+      "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+      "detail": [],
+      "category": "진입 부담/장벽",
+      "item_name": "인증/승인"
+    },
+    {
+      "metric_name": "장벽 관련 정량 수치",
+      "value": 1,
+      "unit": "건",
+      "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+      "detail": [
+        {
+          "value": "399",
+          "unit": "",
+          "context": "ame: 가온칩스 company_slug: gaochips stock_code: 399720 peer_group: 디자인하우스 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+        }
+      ],
+      "category": "진입 부담/장벽",
+      "item_name": "인증/승인"
+    },
+    {
+      "metric_name": "진입장벽/대체난이도 신호 수",
+      "value": 0,
+      "unit": "개",
+      "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+      "detail": [],
+      "category": "진입 부담/장벽",
+      "item_name": "양산 난이도"
+    },
+    {
+      "metric_name": "장벽 관련 정량 수치",
+      "value": 1,
+      "unit": "건",
+      "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+      "detail": [
+        {
+          "value": "399",
+          "unit": "",
+          "context": "ame: 가온칩스 company_slug: gaochips stock_code: 399720 peer_group: 디자인하우스 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+        }
+      ],
+      "category": "진입 부담/장벽",
+      "item_name": "양산 난이도"
+    },
+    {
+      "metric_name": "진입장벽/대체난이도 신호 수",
+      "value": 0,
+      "unit": "개",
+      "formula": "특허·승인·양산·노하우·대체재 문맥 신호 수",
+      "detail": [],
+      "category": "진입 부담/장벽",
+      "item_name": "전환 비용"
+    },
+    {
+      "metric_name": "장벽 관련 정량 수치",
+      "value": 1,
+      "unit": "건",
+      "formula": "특허/승인/기간/수치 문맥 숫자 포함 문장 수",
+      "detail": [
+        {
+          "value": "399",
+          "unit": "",
+          "context": "ame: 가온칩스 company_slug: gaochips stock_code: 399720 peer_group: 디자인하우스 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+        }
+      ],
+      "category": "진입 부담/장벽",
+      "item_name": "전환 비용"
+    },
+    {
+      "metric_name": "R&D/투자 신호 수",
+      "value": 0,
+      "unit": "개",
+      "formula": "연구개발·설비투자·과제·인력 문맥 신호 수",
+      "detail": [],
+      "category": "R&D 강도",
+      "item_name": "연구개발비"
+    },
+    {
+      "metric_name": "R&D 관련 정량 수치",
+      "value": 1,
+      "unit": "건",
+      "formula": "연구개발·투자 문맥 숫자 포함 문장 수",
+      "detail": [
+        {
+          "value": "399",
+          "unit": "",
+          "context": "ame: 가온칩스 company_slug: gaochips stock_code: 399720 peer_group: 디자인하우스 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+        }
+      ],
+      "category": "R&D 강도",
+      "item_name": "연구개발비"
+    },
+    {
+      "metric_name": "R&D/투자 신호 수",
+      "value": 0,
+      "unit": "개",
+      "formula": "연구개발·설비투자·과제·인력 문맥 신호 수",
+      "detail": [],
+      "category": "R&D 강도",
+      "item_name": "개발 과제"
+    },
+    {
+      "metric_name": "R&D 관련 정량 수치",
+      "value": 1,
+      "unit": "건",
+      "formula": "연구개발·투자 문맥 숫자 포함 문장 수",
+      "detail": [
+        {
+          "value": "399",
+          "unit": "",
+          "context": "ame: 가온칩스 company_slug: gaochips stock_code: 399720 peer_group: 디자인하우스 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+        }
+      ],
+      "category": "R&D 강도",
+      "item_name": "개발 과제"
+    },
+    {
+      "metric_name": "R&D/투자 신호 수",
+      "value": 0,
+      "unit": "개",
+      "formula": "연구개발·설비투자·과제·인력 문맥 신호 수",
+      "detail": [],
+      "category": "R&D 강도",
+      "item_name": "설비투자/인력"
+    },
+    {
+      "metric_name": "R&D 관련 정량 수치",
+      "value": 1,
+      "unit": "건",
+      "formula": "연구개발·투자 문맥 숫자 포함 문장 수",
+      "detail": [
+        {
+          "value": "399",
+          "unit": "",
+          "context": "ame: 가온칩스 company_slug: gaochips stock_code: 399720 peer_group: 디자인하우스 evidence_status: FALLBACK_LOCAL_PROXY universe_lock:"
+        }
+      ],
+      "category": "R&D 강도",
+      "item_name": "설비투자/인력"
+    }
+  ],
+  "quality_flags": [
+    "DART 사업보고서 본문 미수집: DART_API_KEY 또는 stock_code 확인 필요",
+    "공식 홈페이지/IR 본문 미수집: company.yaml URL 또는 네트워크 접근 확인 필요",
+    "KIPRIS Tech ML features merged into Tech Agent runtime outputs."
+  ],
+  "kipris_tech_ml_features": {
+    "company_slug": "gaochips",
+    "company_name": "가온칩스",
+    "field": "반도체",
+    "source_csv": "data\\반도체\\가온칩스\\tech\\gaochips_kipris_patents_normalized.csv",
+    "enriched_csv": "data\\반도체\\가온칩스\\tech\\gaochips_kipris_tech_ml_enriched.csv",
+    "generated_at": "2026-05-26T00:01:53",
+    "core_counts": {
+      "total_patents": 4,
+      "registered_patents_estimated": 4,
+      "alive_patents_estimated": 4,
+      "negative_disposal_patents_estimated": 0,
+      "recent_5y_application_patents": 4,
+      "h01l_core_patents": 0,
+      "semiconductor_related_ipc_patents": 1,
+      "ipc_subclass_count": 3,
+      "ipc_main_group_count": 4,
+      "tech_keyword_match_total": 4,
+      "tech_keyword_match_avg": 1.0
+    },
+    "core_rates": {
+      "registration_rate_estimated": 1.0,
+      "alive_rate_total_estimated": 1.0,
+      "alive_rate_among_registered_estimated": 1.0,
+      "negative_disposal_rate_estimated": 0.0,
+      "recent_5y_application_rate": 1.0,
+      "h01l_core_rate": 0.0,
+      "semiconductor_related_ipc_rate": 0.25
+    },
+    "year_features": {
+      "application_year_min": 2021,
+      "application_year_max": 2025,
+      "application_year_span": 5,
+      "recent_5y_threshold": 2021
+    },
+    "scores": {
+      "legal_stability_score_estimated": 100.0,
+      "portfolio_momentum_score": 41.8,
+      "ip_technology_fit_score": 21.25,
+      "kipris_tech_ml_score": 58.91
+    },
+    "tech_to_value_bridge_adjustment": {
+      "bridge_adjustment_points": 1.0,
+      "bridge_signal": "IP_QUALITY_MODERATE",
+      "usage_rule": "Add this as a conservative KIPRIS/IP feature adjustment to Tech-to-Value Bridge, but do not treat it as direct commercialization evidence."
+    },
+    "top_ipc_subclass": {
+      "H03K": 2,
+      "G01R": 1,
+      "G06F": 1
+    },
+    "top_ipc_main_group": {
+      "G01R 31": 1,
+      "H03K 3": 1,
+      "H03K 19": 1,
+      "G06F 7": 1
+    },
+    "top_applicants": {},
+    "cautions": [
+      "final_disposal is not present in the source CSV, so legal status is estimated from register_status/register_number/register_date.",
+      "register_date appears unavailable or unparsable in the current source, so registration year range should not be overclaimed.",
+      "KIPRIS/IP score supports technology defensibility, but customer adoption, mass production, sales conversion, and FCF conversion must be verified separately."
+    ],
+    "_source_file": "data/반도체/가온칩스/tech/gaochips_kipris_tech_ml_features.json"
+  },
+  "patent_harvest": {
+    "version": "v14_kipris_ipc_refined",
+    "company_dir": "gaochips",
+    "company_name": "가온칩스",
+    "source_files": [
+      "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\source\\gaochips_kipris_plus_bibliographic_raw.csv"
+    ],
+    "raw_record_count": 4,
+    "normalized_record_count": 4,
+    "company_matched_record_count": 4,
+    "effective_record_count": 4,
+    "records": [
+      {
+        "record_key": "1020250029605|1029574270000|다중 기판 SoC 시스템에서 JTAG 동기화 운영 장치 및 방법|(주)가온칩스",
+        "title": "다중 기판 SoC 시스템에서 JTAG 동기화 운영 장치 및 방법",
+        "applicant": "(주)가온칩스",
+        "inventor": "",
+        "application_no": "1020250029605",
+        "publication_no": "",
+        "registration_no": "1029574270000",
+        "application_date": "20250307",
+        "publication_date": "20260428",
+        "registration_date": "20260422",
+        "application_year": 2025,
+        "publication_year": 2026,
+        "registration_year": 2026,
+        "status": "등록",
+        "is_registered": true,
+        "is_expired_or_dead": false,
+        "ipc_codes": [
+          "G01R"
+        ],
+        "cpc_codes": [],
+        "abstract": "본 발명은 SoC 시스템에서 제이택(Joint Test Action Group: JTAG) 동기화 운영 장치 및 방법에 관한 것으로, 더욱 상세하게는 다중 기판(Multi-Die, 또는 \"멀티-다이\"라 함)으로 구성되는 SoC 시스템에서 다수의 다이 중 하나를 마스터로 설정하고, 마스터로 설정된 마스터 다이(Master Die)에서 JTAG 정책이 설정되면 복수의 슬레이브 다이(Slave Die)와 설정된 JTAG 정책을 동기화하여 적용할 수 있도록 JTAG 정책을 관리하고 제어하는 다중 기판 SoC 시스템에서 JTAG 동기화 운영 장치 및 방법에 관한 것이다.",
+        "claims": "",
+        "url": "",
+        "drawing": "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93c24520523a540c06504a1e9b21416a2e2ceabb4bbe016c2b04435668dfe8a248e06c3131548c43acc19b6035246d002cb939c49ea18b4351",
+        "applicant_matched": true,
+        "tech_keyword_hits": [
+          "Test",
+          "기판"
+        ],
+        "source_file": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\source\\gaochips_kipris_plus_bibliographic_raw.csv",
+        "source_row": 1,
+        "patent_rank_score": 53.5
+      },
+      {
+        "record_key": "1020210158969|1023813610000|다이나믹 클럭 게이팅 장치|(주)가온칩스",
+        "title": "다이나믹 클럭 게이팅 장치",
+        "applicant": "(주)가온칩스",
+        "inventor": "",
+        "application_no": "1020210158969",
+        "publication_no": "",
+        "registration_no": "1023813610000",
+        "application_date": "20211117",
+        "publication_date": "20220401",
+        "registration_date": "20220328",
+        "application_year": 2021,
+        "publication_year": 2022,
+        "registration_year": 2022,
+        "status": "등록",
+        "is_registered": true,
+        "is_expired_or_dead": false,
+        "ipc_codes": [
+          "H03K",
+          "G06F"
+        ],
+        "cpc_codes": [],
+        "abstract": "다이나믹 클럭 게이팅 장치가 개시된다. 일 실시예에 따른 클럭 게이팅 장치는 마스터 장치로부터 트랜잭션 시작 신호를 획득하거나, 슬레이브 장치로부터 트랜잭션 종료 신호를 획득하는 클럭 신호 활성화 모듈; 및 클럭 신호를 획득하고 상기 슬레이브 장치에 상기 클럭 신호를 제공하는 클럭 신호 제공모듈을 포함하고, 상기 클럭 신호 활성화 모듈은 상기 트랜잭션 시작 신호를 획득한 경우, 상기 클럭 신호 제공모듈에 활성화 신호를 제공하고, 상기 클럭 신호 제공모듈은 상기 활성화 신호의 획득에 응답하여 상기 클럭 신호를 상기 슬레이브 장치에 제공하고, 상기 클럭 신호 활성화 모듈은 상기 트랜잭션 종료 신호를 획득한 경우, 상기 클럭 신호 제공모듈에 비활성화 신호를 제공하고, 상기 클럭 신호 제공모듈은 상기 비활성화 신호의 획득에 응답하여 상기 슬레이브 장치에의 상기 클럭 신호의 제공을 차단할 수 있다.",
+        "claims": "",
+        "url": "",
+        "drawing": "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93e385739107ee7585343ee96a2a4ae8711f224365348ac878b6e99442a62803571cc7bde8f0164a7632fcb07059d8e82b2e1b35f41676c2d6",
+        "applicant_matched": true,
+        "tech_keyword_hits": [],
+        "source_file": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\source\\gaochips_kipris_plus_bibliographic_raw.csv",
+        "source_row": 3,
+        "patent_rank_score": 49.0
+      },
+      {
+        "record_key": "1020210162801|1023813470000|오실레이터 오토 트리밍 방법 및 이를 이용한 장치|(주)가온칩스",
+        "title": "오실레이터 오토 트리밍 방법 및 이를 이용한 장치",
+        "applicant": "(주)가온칩스",
+        "inventor": "",
+        "application_no": "1020210162801",
+        "publication_no": "",
+        "registration_no": "1023813470000",
+        "application_date": "20211123",
+        "publication_date": "20220401",
+        "registration_date": "20220328",
+        "application_year": 2021,
+        "publication_year": 2022,
+        "registration_year": 2022,
+        "status": "등록",
+        "is_registered": true,
+        "is_expired_or_dead": false,
+        "ipc_codes": [
+          "H03K"
+        ],
+        "cpc_codes": [],
+        "abstract": "오실레이터 오토 트리밍 방법 및 이를 이용한 장치가 개시된다. 일 실시예에 따른 칩에 포함되는 오실레이터를 오토 트리밍하기 위한 오실레이터 오토 트리밍 방법은, 오실레이터 클럭 신호의 구동 주파수에 따라 오실레이터 클럭 신호를 발생하는 제1 단계; 오실레이터 클럭 신호를 기준 시간동안 카운팅하여 제1 카운팅 결과값을 획득하는 제2 단계; 기준 클럭 신호를 상기 기준 시간동안 카운팅하여 제2 카운팅 결과값을 획득하는 제3 단계; 상기 제1 카운팅 결과값과 상기 제2 카운팅 결과값을 비교하여 비교 결과를 획득하는 제4 단계; 및 상기 비교 결과를 기초로 상기 구동 주파수를 조정하는 제5 단계를 포함하고, 상기 제1 단계 내지 상기 제5 단계를 소정의 반복 횟수에 따라 반복하여 수행하되, 상기 소정의 반복 횟수는 상기 비교결과를 기초로 결정될 수 있다.",
+        "claims": "",
+        "url": "",
+        "drawing": "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93e385739107ee7585343ee96a2a4ae871678c90d05bb9e354fe4abfdeaa919282a3f9be7a8fe03c8c1b85e476a7fcc4a017ca7ff1375cf7b6",
+        "applicant_matched": true,
+        "tech_keyword_hits": [],
+        "source_file": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\source\\gaochips_kipris_plus_bibliographic_raw.csv",
+        "source_row": 2,
+        "patent_rank_score": 47.5
+      },
+      {
+        "record_key": "1020210131634|1023365350000|테일러 급수를 이용한 제곱근 연산 방법 및 이를 이용한 장치|(주)가온칩스",
+        "title": "테일러 급수를 이용한 제곱근 연산 방법 및 이를 이용한 장치",
+        "applicant": "(주)가온칩스",
+        "inventor": "",
+        "application_no": "1020210131634",
+        "publication_no": "",
+        "registration_no": "1023365350000",
+        "application_date": "20211005",
+        "publication_date": "20211208",
+        "registration_date": "20211202",
+        "application_year": 2021,
+        "publication_year": 2021,
+        "registration_year": 2021,
+        "status": "등록",
+        "is_registered": true,
+        "is_expired_or_dead": false,
+        "ipc_codes": [
+          "G06F"
+        ],
+        "cpc_codes": [],
+        "abstract": "테일러 급수를 이용한 제곱근 연산 방법 및 이를 이용한 장치에 관한 것이다. 일 실시예에 따른 테일러 급수를 이용하여 고정 소수점 체계에서 제곱근 연산을 수행하는 제어장치는 피제곱근을 부호부, 정수부 및 소수부를 포함하는 고정 소수점 데이터로 변환하고, 변환된 고정 소수점 데이터를 기초로 2의 차수 및 테일러 급수의 복수의 항에 포함되는 제1 파라미터를 산출하는 피제곱근 전처리부; 부호숫자의 곱셈기를 이용하여 상기 제1 파라미터를 상기 복수의 항 각각의 차수에 따라 거듭제곱을 수행하는 곱셈 연산부; 및 미리 정해진 자릿수에 따라 상기 거듭제곱이 수행된 복수의 항 각각에 대하여 쉬프트 연산을 수행하고, 상기 쉬프트 연산된 복수의 항을 합하고, 상기 복수의 항 합산 결과를 기초로 제곱근을 추출하는 쉬프트 및 덧셈 연산부를 포함할 수 있다.",
+        "claims": "",
+        "url": "",
+        "drawing": "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93c727eb51885767c849dbd9affe98e348e88b55426e22a6a4a3583be59ab1d448018329022e12334f31d34494983f15b6bfd514ff1cb451e3",
+        "applicant_matched": true,
+        "tech_keyword_hits": [],
+        "source_file": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\source\\gaochips_kipris_plus_bibliographic_raw.csv",
+        "source_row": 4,
+        "patent_rank_score": 47.5
+      }
+    ],
+    "representative_patents": [
+      {
+        "record_key": "1020250029605|1029574270000|다중 기판 SoC 시스템에서 JTAG 동기화 운영 장치 및 방법|(주)가온칩스",
+        "title": "다중 기판 SoC 시스템에서 JTAG 동기화 운영 장치 및 방법",
+        "applicant": "(주)가온칩스",
+        "inventor": "",
+        "application_no": "1020250029605",
+        "publication_no": "",
+        "registration_no": "1029574270000",
+        "application_date": "20250307",
+        "publication_date": "20260428",
+        "registration_date": "20260422",
+        "application_year": 2025,
+        "publication_year": 2026,
+        "registration_year": 2026,
+        "status": "등록",
+        "is_registered": true,
+        "is_expired_or_dead": false,
+        "ipc_codes": [
+          "G01R"
+        ],
+        "cpc_codes": [],
+        "abstract": "본 발명은 SoC 시스템에서 제이택(Joint Test Action Group: JTAG) 동기화 운영 장치 및 방법에 관한 것으로, 더욱 상세하게는 다중 기판(Multi-Die, 또는 \"멀티-다이\"라 함)으로 구성되는 SoC 시스템에서 다수의 다이 중 하나를 마스터로 설정하고, 마스터로 설정된 마스터 다이(Master Die)에서 JTAG 정책이 설정되면 복수의 슬레이브 다이(Slave Die)와 설정된 JTAG 정책을 동기화하여 적용할 수 있도록 JTAG 정책을 관리하고 제어하는 다중 기판 SoC 시스템에서 JTAG 동기화 운영 장치 및 방법에 관한 것이다.",
+        "claims": "",
+        "url": "",
+        "drawing": "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93c24520523a540c06504a1e9b21416a2e2ceabb4bbe016c2b04435668dfe8a248e06c3131548c43acc19b6035246d002cb939c49ea18b4351",
+        "applicant_matched": true,
+        "tech_keyword_hits": [
+          "Test",
+          "기판"
+        ],
+        "source_file": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\source\\gaochips_kipris_plus_bibliographic_raw.csv",
+        "source_row": 1,
+        "patent_rank_score": 53.5
+      },
+      {
+        "record_key": "1020210158969|1023813610000|다이나믹 클럭 게이팅 장치|(주)가온칩스",
+        "title": "다이나믹 클럭 게이팅 장치",
+        "applicant": "(주)가온칩스",
+        "inventor": "",
+        "application_no": "1020210158969",
+        "publication_no": "",
+        "registration_no": "1023813610000",
+        "application_date": "20211117",
+        "publication_date": "20220401",
+        "registration_date": "20220328",
+        "application_year": 2021,
+        "publication_year": 2022,
+        "registration_year": 2022,
+        "status": "등록",
+        "is_registered": true,
+        "is_expired_or_dead": false,
+        "ipc_codes": [
+          "H03K",
+          "G06F"
+        ],
+        "cpc_codes": [],
+        "abstract": "다이나믹 클럭 게이팅 장치가 개시된다. 일 실시예에 따른 클럭 게이팅 장치는 마스터 장치로부터 트랜잭션 시작 신호를 획득하거나, 슬레이브 장치로부터 트랜잭션 종료 신호를 획득하는 클럭 신호 활성화 모듈; 및 클럭 신호를 획득하고 상기 슬레이브 장치에 상기 클럭 신호를 제공하는 클럭 신호 제공모듈을 포함하고, 상기 클럭 신호 활성화 모듈은 상기 트랜잭션 시작 신호를 획득한 경우, 상기 클럭 신호 제공모듈에 활성화 신호를 제공하고, 상기 클럭 신호 제공모듈은 상기 활성화 신호의 획득에 응답하여 상기 클럭 신호를 상기 슬레이브 장치에 제공하고, 상기 클럭 신호 활성화 모듈은 상기 트랜잭션 종료 신호를 획득한 경우, 상기 클럭 신호 제공모듈에 비활성화 신호를 제공하고, 상기 클럭 신호 제공모듈은 상기 비활성화 신호의 획득에 응답하여 상기 슬레이브 장치에의 상기 클럭 신호의 제공을 차단할 수 있다.",
+        "claims": "",
+        "url": "",
+        "drawing": "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93e385739107ee7585343ee96a2a4ae8711f224365348ac878b6e99442a62803571cc7bde8f0164a7632fcb07059d8e82b2e1b35f41676c2d6",
+        "applicant_matched": true,
+        "tech_keyword_hits": [],
+        "source_file": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\source\\gaochips_kipris_plus_bibliographic_raw.csv",
+        "source_row": 3,
+        "patent_rank_score": 49.0
+      },
+      {
+        "record_key": "1020210162801|1023813470000|오실레이터 오토 트리밍 방법 및 이를 이용한 장치|(주)가온칩스",
+        "title": "오실레이터 오토 트리밍 방법 및 이를 이용한 장치",
+        "applicant": "(주)가온칩스",
+        "inventor": "",
+        "application_no": "1020210162801",
+        "publication_no": "",
+        "registration_no": "1023813470000",
+        "application_date": "20211123",
+        "publication_date": "20220401",
+        "registration_date": "20220328",
+        "application_year": 2021,
+        "publication_year": 2022,
+        "registration_year": 2022,
+        "status": "등록",
+        "is_registered": true,
+        "is_expired_or_dead": false,
+        "ipc_codes": [
+          "H03K"
+        ],
+        "cpc_codes": [],
+        "abstract": "오실레이터 오토 트리밍 방법 및 이를 이용한 장치가 개시된다. 일 실시예에 따른 칩에 포함되는 오실레이터를 오토 트리밍하기 위한 오실레이터 오토 트리밍 방법은, 오실레이터 클럭 신호의 구동 주파수에 따라 오실레이터 클럭 신호를 발생하는 제1 단계; 오실레이터 클럭 신호를 기준 시간동안 카운팅하여 제1 카운팅 결과값을 획득하는 제2 단계; 기준 클럭 신호를 상기 기준 시간동안 카운팅하여 제2 카운팅 결과값을 획득하는 제3 단계; 상기 제1 카운팅 결과값과 상기 제2 카운팅 결과값을 비교하여 비교 결과를 획득하는 제4 단계; 및 상기 비교 결과를 기초로 상기 구동 주파수를 조정하는 제5 단계를 포함하고, 상기 제1 단계 내지 상기 제5 단계를 소정의 반복 횟수에 따라 반복하여 수행하되, 상기 소정의 반복 횟수는 상기 비교결과를 기초로 결정될 수 있다.",
+        "claims": "",
+        "url": "",
+        "drawing": "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93e385739107ee7585343ee96a2a4ae871678c90d05bb9e354fe4abfdeaa919282a3f9be7a8fe03c8c1b85e476a7fcc4a017ca7ff1375cf7b6",
+        "applicant_matched": true,
+        "tech_keyword_hits": [],
+        "source_file": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\source\\gaochips_kipris_plus_bibliographic_raw.csv",
+        "source_row": 2,
+        "patent_rank_score": 47.5
+      },
+      {
+        "record_key": "1020210131634|1023365350000|테일러 급수를 이용한 제곱근 연산 방법 및 이를 이용한 장치|(주)가온칩스",
+        "title": "테일러 급수를 이용한 제곱근 연산 방법 및 이를 이용한 장치",
+        "applicant": "(주)가온칩스",
+        "inventor": "",
+        "application_no": "1020210131634",
+        "publication_no": "",
+        "registration_no": "1023365350000",
+        "application_date": "20211005",
+        "publication_date": "20211208",
+        "registration_date": "20211202",
+        "application_year": 2021,
+        "publication_year": 2021,
+        "registration_year": 2021,
+        "status": "등록",
+        "is_registered": true,
+        "is_expired_or_dead": false,
+        "ipc_codes": [
+          "G06F"
+        ],
+        "cpc_codes": [],
+        "abstract": "테일러 급수를 이용한 제곱근 연산 방법 및 이를 이용한 장치에 관한 것이다. 일 실시예에 따른 테일러 급수를 이용하여 고정 소수점 체계에서 제곱근 연산을 수행하는 제어장치는 피제곱근을 부호부, 정수부 및 소수부를 포함하는 고정 소수점 데이터로 변환하고, 변환된 고정 소수점 데이터를 기초로 2의 차수 및 테일러 급수의 복수의 항에 포함되는 제1 파라미터를 산출하는 피제곱근 전처리부; 부호숫자의 곱셈기를 이용하여 상기 제1 파라미터를 상기 복수의 항 각각의 차수에 따라 거듭제곱을 수행하는 곱셈 연산부; 및 미리 정해진 자릿수에 따라 상기 거듭제곱이 수행된 복수의 항 각각에 대하여 쉬프트 연산을 수행하고, 상기 쉬프트 연산된 복수의 항을 합하고, 상기 복수의 항 합산 결과를 기초로 제곱근을 추출하는 쉬프트 및 덧셈 연산부를 포함할 수 있다.",
+        "claims": "",
+        "url": "",
+        "drawing": "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93c727eb51885767c849dbd9affe98e348e88b55426e22a6a4a3583be59ab1d448018329022e12334f31d34494983f15b6bfd514ff1cb451e3",
+        "applicant_matched": true,
+        "tech_keyword_hits": [],
+        "source_file": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\source\\gaochips_kipris_plus_bibliographic_raw.csv",
+        "source_row": 4,
+        "patent_rank_score": 47.5
+      }
+    ],
+    "metrics": [
+      {
+        "metric_name": "특허 원천 파일 수",
+        "value": 1,
+        "unit": "개",
+        "formula": "KIPRIS/특허 파일명으로 인식된 원천 파일 수",
+        "detail": null
+      },
+      {
+        "metric_name": "정규화 특허 레코드 수",
+        "value": 4,
+        "unit": "건",
+        "formula": "KIPRIS CSV/XLSX/TXT/JSON을 표준 특허 레코드로 변환 후 중복 제거한 수",
+        "detail": null
+      },
+      {
+        "metric_name": "출원인/권리자 회사 매칭 특허 수",
+        "value": 4,
+        "unit": "건",
+        "formula": "출원인·권리자·본문에서 회사명/별칭이 확인된 특허 수",
+        "detail": null
+      },
+      {
+        "metric_name": "등록 특허 수",
+        "value": 4,
+        "unit": "건",
+        "formula": "등록번호가 있거나 등록상태가 확인된 회사 매칭 특허 수",
+        "detail": null
+      },
+      {
+        "metric_name": "존속 가능 특허 수",
+        "value": 4,
+        "unit": "건",
+        "formula": "등록 특허 중 소멸·취하·거절·포기·무효로 분류되지 않은 특허 수",
+        "detail": null
+      },
+      {
+        "metric_name": "최근 5년 특허 수",
+        "value": 4,
+        "unit": "건",
+        "formula": "출원/등록 연도가 2021년 이후인 회사 매칭 특허 수",
+        "detail": null
+      },
+      {
+        "metric_name": "IPC/CPC 기술분류 수",
+        "value": 3,
+        "unit": "개",
+        "formula": "회사 매칭 특허의 IPC/CPC prefix 고유 개수",
+        "detail": [
+          "G01R",
+          "G06F",
+          "H03K"
+        ]
+      },
+      {
+        "metric_name": "H01L 반도체 IPC 특허 수",
+        "value": 0,
+        "unit": "건",
+        "formula": "IPC/CPC prefix가 H01L인 반도체 장치·공정 관련 특허 수",
+        "detail": null
+      },
+      {
+        "metric_name": "반도체 핵심 IPC 특허 수",
+        "value": 3,
+        "unit": "건",
+        "formula": "H01L/H10B/H10W/G01R/G06F/C23C 등 반도체 관련 IPC/CPC prefix가 포함된 특허 수",
+        "detail": null
+      },
+      {
+        "metric_name": "특허-기술 키워드 매칭 수",
+        "value": 2,
+        "unit": "회",
+        "formula": "특허 제목·초록·청구항 내 기술 키워드 출현 횟수",
+        "detail": {
+          "Test": 1,
+          "기판": 1
+        }
+      },
+      {
+        "metric_name": "특허 포트폴리오 연도 범위",
+        "value": "2021~2025",
+        "unit": "",
+        "formula": "회사 매칭 특허의 출원/등록 연도 범위",
+        "detail": null
+      },
+      {
+        "metric_name": "KIPRIS 총 특허 수",
+        "value": 4.0,
+        "unit": "건",
+        "detail": "정규화된 KIPRIS 원천 CSV 기준 전체 특허 레코드 수입니다.",
+        "source_type": "kipris_tech_ml_features",
+        "source": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\gaochips_kipris_tech_ml_features.json"
+      },
+      {
+        "metric_name": "KIPRIS 등록 특허 수(추정)",
+        "value": 4.0,
+        "unit": "건",
+        "detail": "register_status/register_number/register_date 기반 등록 특허 수 추정치입니다.",
+        "source_type": "kipris_tech_ml_features",
+        "source": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\gaochips_kipris_tech_ml_features.json"
+      },
+      {
+        "metric_name": "KIPRIS 존속 가능 특허 수(추정)",
+        "value": 4.0,
+        "unit": "건",
+        "detail": "등록 상태와 권리상태 추정 로직을 반영한 존속 가능 특허 수입니다.",
+        "source_type": "kipris_tech_ml_features",
+        "source": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\gaochips_kipris_tech_ml_features.json"
+      },
+      {
+        "metric_name": "KIPRIS 등록률(추정)",
+        "value": 100.0,
+        "unit": "%",
+        "detail": "등록 특허 수를 전체 특허 수로 나눈 보수적 등록률 추정치입니다.",
+        "source_type": "kipris_tech_ml_features",
+        "source": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\gaochips_kipris_tech_ml_features.json"
+      },
+      {
+        "metric_name": "KIPRIS 존속률(전체 대비 추정)",
+        "value": 100.0,
+        "unit": "%",
+        "detail": "존속 가능 특허 수를 전체 특허 수로 나눈 보수적 존속률 추정치입니다.",
+        "source_type": "kipris_tech_ml_features",
+        "source": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\gaochips_kipris_tech_ml_features.json"
+      },
+      {
+        "metric_name": "KIPRIS 존속률(등록특허 중 추정)",
+        "value": 100.0,
+        "unit": "%",
+        "detail": "존속 가능 특허 수를 등록 특허 수로 나눈 권리 안정성 지표입니다.",
+        "source_type": "kipris_tech_ml_features",
+        "source": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\gaochips_kipris_tech_ml_features.json"
+      },
+      {
+        "metric_name": "KIPRIS 부정 처분 비중(추정)",
+        "value": 0.0,
+        "unit": "%",
+        "detail": "미등록·소멸·거절·취하 등으로 추정되는 부정 처분성 상태 비중입니다.",
+        "source_type": "kipris_tech_ml_features",
+        "source": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\gaochips_kipris_tech_ml_features.json"
+      },
+      {
+        "metric_name": "KIPRIS 최근 5년 출원 비중",
+        "value": 100.0,
+        "unit": "%",
+        "detail": "최근 5년 출원 특허 비중으로 포트폴리오의 최신성을 나타냅니다.",
+        "source_type": "kipris_tech_ml_features",
+        "source": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\gaochips_kipris_tech_ml_features.json"
+      },
+      {
+        "metric_name": "KIPRIS 반도체 관련 IPC 특허 수",
+        "value": 1.0,
+        "unit": "건",
+        "detail": "반도체 관련 IPC/CPC 분류와 연결되는 특허 수입니다.",
+        "source_type": "kipris_tech_ml_features",
+        "source": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\gaochips_kipris_tech_ml_features.json"
+      },
+      {
+        "metric_name": "KIPRIS 반도체 관련 IPC 비중",
+        "value": 25.0,
+        "unit": "%",
+        "detail": "전체 특허 중 반도체 관련 IPC/CPC 분류 특허 비중입니다.",
+        "source_type": "kipris_tech_ml_features",
+        "source": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\gaochips_kipris_tech_ml_features.json"
+      },
+      {
+        "metric_name": "KIPRIS H01L 핵심 IPC 특허 수",
+        "value": 0.0,
+        "unit": "건",
+        "detail": "H01L 반도체 소자·패키징 관련 핵심 IPC 특허 수입니다.",
+        "source_type": "kipris_tech_ml_features",
+        "source": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\gaochips_kipris_tech_ml_features.json"
+      },
+      {
+        "metric_name": "KIPRIS 법적 안정성 점수",
+        "value": 100.0,
+        "unit": "점",
+        "detail": "등록률·존속률·부정 처분 비중을 반영한 권리 안정성 점수입니다.",
+        "source_type": "kipris_tech_ml_features",
+        "source": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\gaochips_kipris_tech_ml_features.json"
+      },
+      {
+        "metric_name": "KIPRIS 포트폴리오 모멘텀 점수",
+        "value": 41.8,
+        "unit": "점",
+        "detail": "최근 출원 비중과 포트폴리오 최신성을 반영한 점수입니다.",
+        "source_type": "kipris_tech_ml_features",
+        "source": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\gaochips_kipris_tech_ml_features.json"
+      },
+      {
+        "metric_name": "KIPRIS 기술 적합도 점수",
+        "value": 21.25,
+        "unit": "점",
+        "detail": "반도체 IPC 비중, H01L 특허, 기술 키워드 매칭을 반영한 점수입니다.",
+        "source_type": "kipris_tech_ml_features",
+        "source": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\gaochips_kipris_tech_ml_features.json"
+      },
+      {
+        "metric_name": "KIPRIS Tech ML 종합 점수",
+        "value": 58.91,
+        "unit": "점",
+        "detail": "권리 안정성, 포트폴리오 모멘텀, 기술 적합도를 종합한 KIPRIS 기반 Tech ML 점수입니다.",
+        "source_type": "kipris_tech_ml_features",
+        "source": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\gaochips_kipris_tech_ml_features.json"
+      },
+      {
+        "metric_name": "KIPRIS Tech-to-Value Bridge 보정점",
+        "value": 1.0,
+        "unit": "점",
+        "detail": "직접 사업화 근거가 아니라 IP 품질 보조 신호로만 사용하는 보수적 Bridge 보정점입니다.",
+        "source_type": "kipris_tech_ml_features",
+        "source": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\gaochips_kipris_tech_ml_features.json"
+      }
+    ],
+    "kipris_tech_ml_features": {
+      "company_slug": "gaochips",
+      "company_name": "가온칩스",
+      "field": "반도체",
+      "source_csv": "data\\반도체\\가온칩스\\tech\\gaochips_kipris_patents_normalized.csv",
+      "enriched_csv": "data\\반도체\\가온칩스\\tech\\gaochips_kipris_tech_ml_enriched.csv",
+      "generated_at": "2026-05-26T00:01:53",
+      "core_counts": {
+        "total_patents": 4,
+        "registered_patents_estimated": 4,
+        "alive_patents_estimated": 4,
+        "negative_disposal_patents_estimated": 0,
+        "recent_5y_application_patents": 4,
+        "h01l_core_patents": 0,
+        "semiconductor_related_ipc_patents": 1,
+        "ipc_subclass_count": 3,
+        "ipc_main_group_count": 4,
+        "tech_keyword_match_total": 4,
+        "tech_keyword_match_avg": 1.0
+      },
+      "core_rates": {
+        "registration_rate_estimated": 1.0,
+        "alive_rate_total_estimated": 1.0,
+        "alive_rate_among_registered_estimated": 1.0,
+        "negative_disposal_rate_estimated": 0.0,
+        "recent_5y_application_rate": 1.0,
+        "h01l_core_rate": 0.0,
+        "semiconductor_related_ipc_rate": 0.25
+      },
+      "year_features": {
+        "application_year_min": 2021,
+        "application_year_max": 2025,
+        "application_year_span": 5,
+        "recent_5y_threshold": 2021
+      },
+      "scores": {
+        "legal_stability_score_estimated": 100.0,
+        "portfolio_momentum_score": 41.8,
+        "ip_technology_fit_score": 21.25,
+        "kipris_tech_ml_score": 58.91
+      },
+      "tech_to_value_bridge_adjustment": {
+        "bridge_adjustment_points": 1.0,
+        "bridge_signal": "IP_QUALITY_MODERATE",
+        "usage_rule": "Add this as a conservative KIPRIS/IP feature adjustment to Tech-to-Value Bridge, but do not treat it as direct commercialization evidence."
+      },
+      "top_ipc_subclass": {
+        "H03K": 2,
+        "G01R": 1,
+        "G06F": 1
+      },
+      "top_ipc_main_group": {
+        "G01R 31": 1,
+        "H03K 3": 1,
+        "H03K 19": 1,
+        "G06F 7": 1
+      },
+      "top_applicants": {},
+      "cautions": [
+        "final_disposal is not present in the source CSV, so legal status is estimated from register_status/register_number/register_date.",
+        "register_date appears unavailable or unparsable in the current source, so registration year range should not be overclaimed.",
+        "KIPRIS/IP score supports technology defensibility, but customer adoption, mass production, sales conversion, and FCF conversion must be verified separately."
+      ],
+      "_source_file": "data/반도체/가온칩스/tech/gaochips_kipris_tech_ml_features.json"
+    },
+    "docs": [
+      {
+        "doc_id": "tech.patent.summary",
+        "source_type": "patent",
+        "title": "가온칩스 KIPRIS/특허 정량화 요약",
+        "path": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\source\\gaochips_kipris_plus_bibliographic_raw.csv",
+        "url": "",
+        "text": "가온칩스 KIPRIS/특허 정량화 요약\n본 특허 근거는 KIPRIS API/CSV/엑셀/TXT 원천 파일을 정규화해 산출했다.\n\n[정량 지표]\n- 특허 원천 파일 수: 1개\n- 정규화 특허 레코드 수: 4건\n- 출원인/권리자 회사 매칭 특허 수: 4건\n- 등록 특허 수: 4건\n- 존속 가능 특허 수: 4건\n- 최근 5년 특허 수: 4건\n- IPC/CPC 기술분류 수: 3개\n- H01L 반도체 IPC 특허 수: 0건\n- 반도체 핵심 IPC 특허 수: 3건\n- 특허-기술 키워드 매칭 수: 2회\n- 특허 포트폴리오 연도 범위: 2021~2025\n- KIPRIS 총 특허 수: 4.0건\n- KIPRIS 등록 특허 수(추정): 4.0건\n- KIPRIS 존속 가능 특허 수(추정): 4.0건\n- KIPRIS 등록률(추정): 100.0%\n- KIPRIS 존속률(전체 대비 추정): 100.0%\n- KIPRIS 존속률(등록특허 중 추정): 100.0%\n- KIPRIS 부정 처분 비중(추정): 0.0%\n- KIPRIS 최근 5년 출원 비중: 100.0%\n- KIPRIS 반도체 관련 IPC 특허 수: 1.0건\n- KIPRIS 반도체 관련 IPC 비중: 25.0%\n- KIPRIS H01L 핵심 IPC 특허 수: 0.0건\n- KIPRIS 법적 안정성 점수: 100.0점\n- KIPRIS 포트폴리오 모멘텀 점수: 41.8점\n- KIPRIS 기술 적합도 점수: 21.25점\n- KIPRIS Tech ML 종합 점수: 58.91점\n- KIPRIS Tech-to-Value Bridge 보정점: 1.0점\n\n[대표 특허]\n1. 다중 기판 SoC 시스템에서 JTAG 동기화 운영 장치 및 방법 | (주)가온칩스 | 등록 | 2025 | 출원번호 1020250029605; 등록번호 1029574270000 | IPC/CPC: G01R | 기술매칭: Test, 기판 | 초록: 본 발명은 SoC 시스템에서 제이택(Joint Test Action Group: JTAG) 동기화 운영 장치 및 방법에 관한 것으로, 더욱 상세하게는 다중 기판(Multi-Die, 또는 \"멀티-다이\"라 함)으로 구성되는 SoC 시스템에서 다수의 다이 중 하나를 마스터로 설정하고, 마스터로 설정된 마스터 다이(Master Die)에서 JTAG 정책이 설정되면 복수의 슬레이브 다이(Slave D\n2. 다이나믹 클럭 게이팅 장치 | (주)가온칩스 | 등록 | 2021 | 출원번호 1020210158969; 등록번호 1023813610000 | IPC/CPC: H03K, G06F | 기술매칭: 기술 키워드 미확인 | 초록: 다이나믹 클럭 게이팅 장치가 개시된다. 일 실시예에 따른 클럭 게이팅 장치는 마스터 장치로부터 트랜잭션 시작 신호를 획득하거나, 슬레이브 장치로부터 트랜잭션 종료 신호를 획득하는 클럭 신호 활성화 모듈; 및 클럭 신호를 획득하고 상기 슬레이브 장치에 상기 클럭 신호를 제공하는 클럭 신호 제공모듈을 포함하고, 상기 클럭 신호 활성화 모듈은 상기 트랜잭션 시작 신호를 획득한 경우, 상기 클럭 신\n3. 오실레이터 오토 트리밍 방법 및 이를 이용한 장치 | (주)가온칩스 | 등록 | 2021 | 출원번호 1020210162801; 등록번호 1023813470000 | IPC/CPC: H03K | 기술매칭: 기술 키워드 미확인 | 초록: 오실레이터 오토 트리밍 방법 및 이를 이용한 장치가 개시된다. 일 실시예에 따른 칩에 포함되는 오실레이터를 오토 트리밍하기 위한 오실레이터 오토 트리밍 방법은, 오실레이터 클럭 신호의 구동 주파수에 따라 오실레이터 클럭 신호를 발생하는 제1 단계; 오실레이터 클럭 신호를 기준 시간동안 카운팅하여 제1 카운팅 결과값을 획득하는 제2 단계; 기준 클럭 신호를 상기 기준 시간동안 카운팅하여 제2 \n4. 테일러 급수를 이용한 제곱근 연산 방법 및 이를 이용한 장치 | (주)가온칩스 | 등록 | 2021 | 출원번호 1020210131634; 등록번호 1023365350000 | IPC/CPC: G06F | 기술매칭: 기술 키워드 미확인 | 초록: 테일러 급수를 이용한 제곱근 연산 방법 및 이를 이용한 장치에 관한 것이다. 일 실시예에 따른 테일러 급수를 이용하여 고정 소수점 체계에서 제곱근 연산을 수행하는 제어장치는 피제곱근을 부호부, 정수부 및 소수부를 포함하는 고정 소수점 데이터로 변환하고, 변환된 고정 소수점 데이터를 기초로 2의 차수 및 테일러 급수의 복수의 항에 포함되는 제1 파라미터를 산출하는 피제곱근 전처리부; 부호숫자의",
+        "relevance_score": 30,
+        "relevance_reasons": [
+          "KIPRIS",
+          "특허 정량화",
+          "출원인/권리자 매칭",
+          "IPC/CPC 분석"
+        ]
+      },
+      {
+        "doc_id": "tech.patent.001",
+        "source_type": "patent",
+        "title": "다중 기판 SoC 시스템에서 JTAG 동기화 운영 장치 및 방법",
+        "path": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\source\\gaochips_kipris_plus_bibliographic_raw.csv",
+        "url": "",
+        "text": "다중 기판 SoC 시스템에서 JTAG 동기화 운영 장치 및 방법 | (주)가온칩스 | 등록 | 2025 | 출원번호 1020250029605; 등록번호 1029574270000 | IPC/CPC: G01R | 기술매칭: Test, 기판 | 초록: 본 발명은 SoC 시스템에서 제이택(Joint Test Action Group: JTAG) 동기화 운영 장치 및 방법에 관한 것으로, 더욱 상세하게는 다중 기판(Multi-Die, 또는 \"멀티-다이\"라 함)으로 구성되는 SoC 시스템에서 다수의 다이 중 하나를 마스터로 설정하고, 마스터로 설정된 마스터 다이(Master Die)에서 JTAG 정책이 설정되면 복수의 슬레이브 다이(Slave D",
+        "relevance_score": 73.5,
+        "relevance_reasons": [
+          "대표 특허 레코드",
+          "회사 매칭",
+          "기술 키워드 2개"
+        ]
+      },
+      {
+        "doc_id": "tech.patent.002",
+        "source_type": "patent",
+        "title": "다이나믹 클럭 게이팅 장치",
+        "path": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\source\\gaochips_kipris_plus_bibliographic_raw.csv",
+        "url": "",
+        "text": "다이나믹 클럭 게이팅 장치 | (주)가온칩스 | 등록 | 2021 | 출원번호 1020210158969; 등록번호 1023813610000 | IPC/CPC: H03K, G06F | 기술매칭: 기술 키워드 미확인 | 초록: 다이나믹 클럭 게이팅 장치가 개시된다. 일 실시예에 따른 클럭 게이팅 장치는 마스터 장치로부터 트랜잭션 시작 신호를 획득하거나, 슬레이브 장치로부터 트랜잭션 종료 신호를 획득하는 클럭 신호 활성화 모듈; 및 클럭 신호를 획득하고 상기 슬레이브 장치에 상기 클럭 신호를 제공하는 클럭 신호 제공모듈을 포함하고, 상기 클럭 신호 활성화 모듈은 상기 트랜잭션 시작 신호를 획득한 경우, 상기 클럭 신",
+        "relevance_score": 69.0,
+        "relevance_reasons": [
+          "대표 특허 레코드",
+          "회사 매칭",
+          "기술 키워드 0개"
+        ]
+      },
+      {
+        "doc_id": "tech.patent.003",
+        "source_type": "patent",
+        "title": "오실레이터 오토 트리밍 방법 및 이를 이용한 장치",
+        "path": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\source\\gaochips_kipris_plus_bibliographic_raw.csv",
+        "url": "",
+        "text": "오실레이터 오토 트리밍 방법 및 이를 이용한 장치 | (주)가온칩스 | 등록 | 2021 | 출원번호 1020210162801; 등록번호 1023813470000 | IPC/CPC: H03K | 기술매칭: 기술 키워드 미확인 | 초록: 오실레이터 오토 트리밍 방법 및 이를 이용한 장치가 개시된다. 일 실시예에 따른 칩에 포함되는 오실레이터를 오토 트리밍하기 위한 오실레이터 오토 트리밍 방법은, 오실레이터 클럭 신호의 구동 주파수에 따라 오실레이터 클럭 신호를 발생하는 제1 단계; 오실레이터 클럭 신호를 기준 시간동안 카운팅하여 제1 카운팅 결과값을 획득하는 제2 단계; 기준 클럭 신호를 상기 기준 시간동안 카운팅하여 제2 ",
+        "relevance_score": 67.5,
+        "relevance_reasons": [
+          "대표 특허 레코드",
+          "회사 매칭",
+          "기술 키워드 0개"
+        ]
+      },
+      {
+        "doc_id": "tech.patent.004",
+        "source_type": "patent",
+        "title": "테일러 급수를 이용한 제곱근 연산 방법 및 이를 이용한 장치",
+        "path": "C:\\Agent_6.9\\data\\반도체\\가온칩스\\tech\\source\\gaochips_kipris_plus_bibliographic_raw.csv",
+        "url": "",
+        "text": "테일러 급수를 이용한 제곱근 연산 방법 및 이를 이용한 장치 | (주)가온칩스 | 등록 | 2021 | 출원번호 1020210131634; 등록번호 1023365350000 | IPC/CPC: G06F | 기술매칭: 기술 키워드 미확인 | 초록: 테일러 급수를 이용한 제곱근 연산 방법 및 이를 이용한 장치에 관한 것이다. 일 실시예에 따른 테일러 급수를 이용하여 고정 소수점 체계에서 제곱근 연산을 수행하는 제어장치는 피제곱근을 부호부, 정수부 및 소수부를 포함하는 고정 소수점 데이터로 변환하고, 변환된 고정 소수점 데이터를 기초로 2의 차수 및 테일러 급수의 복수의 항에 포함되는 제1 파라미터를 산출하는 피제곱근 전처리부; 부호숫자의",
+        "relevance_score": 67.5,
+        "relevance_reasons": [
+          "대표 특허 레코드",
+          "회사 매칭",
+          "기술 키워드 0개"
+        ]
+      }
+    ],
+    "quality_flags": [],
+    "kipris_tech_ml_score": 58.91,
+    "legal_stability_score_estimated": 100.0,
+    "bridge_adjustment_points": 1.0,
+    "bridge_signal": "IP_QUALITY_MODERATE"
+  }
+}

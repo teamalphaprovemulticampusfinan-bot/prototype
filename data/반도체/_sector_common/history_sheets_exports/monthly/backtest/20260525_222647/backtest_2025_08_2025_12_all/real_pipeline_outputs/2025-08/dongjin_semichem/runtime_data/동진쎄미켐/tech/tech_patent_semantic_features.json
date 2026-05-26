@@ -1,0 +1,153 @@
+{
+  "status": "OK",
+  "created_at": "2026-05-26T01:35:25",
+  "company_slug": "dongjin_semichem",
+  "company_name": "동진쎄미켐",
+  "source_csv": "C:\\Agent_6.9\\data\\반도체\\동진쎄미켐\\tech\\dongjin_semichem_kipris_bibliographic_normalized.csv",
+  "method": "TFIDF_COSINE_FALLBACK",
+  "patent_text_count": 102,
+  "semantic_similarity_avg": 0.0432,
+  "top_pairs": [
+    {
+      "left_index": 2,
+      "right_index": 38,
+      "similarity": 0.9741,
+      "left_source_index": 2,
+      "right_source_index": 38
+    },
+    {
+      "left_index": 17,
+      "right_index": 38,
+      "similarity": 0.9385,
+      "left_source_index": 17,
+      "right_source_index": 38
+    },
+    {
+      "left_index": 2,
+      "right_index": 17,
+      "similarity": 0.9174,
+      "left_source_index": 2,
+      "right_source_index": 17
+    },
+    {
+      "left_index": 82,
+      "right_index": 86,
+      "similarity": 0.915,
+      "left_source_index": 82,
+      "right_source_index": 86
+    },
+    {
+      "left_index": 52,
+      "right_index": 86,
+      "similarity": 0.9142,
+      "left_source_index": 52,
+      "right_source_index": 86
+    },
+    {
+      "left_index": 52,
+      "right_index": 82,
+      "similarity": 0.8784,
+      "left_source_index": 52,
+      "right_source_index": 82
+    },
+    {
+      "left_index": 17,
+      "right_index": 40,
+      "similarity": 0.8667,
+      "left_source_index": 17,
+      "right_source_index": 40
+    },
+    {
+      "left_index": 35,
+      "right_index": 54,
+      "similarity": 0.8585,
+      "left_source_index": 35,
+      "right_source_index": 54
+    },
+    {
+      "left_index": 38,
+      "right_index": 40,
+      "similarity": 0.8495,
+      "left_source_index": 38,
+      "right_source_index": 40
+    },
+    {
+      "left_index": 2,
+      "right_index": 40,
+      "similarity": 0.8388,
+      "left_source_index": 2,
+      "right_source_index": 40
+    },
+    {
+      "left_index": 37,
+      "right_index": 40,
+      "similarity": 0.8362,
+      "left_source_index": 37,
+      "right_source_index": 40
+    },
+    {
+      "left_index": 35,
+      "right_index": 82,
+      "similarity": 0.8191,
+      "left_source_index": 35,
+      "right_source_index": 82
+    },
+    {
+      "left_index": 35,
+      "right_index": 86,
+      "similarity": 0.8099,
+      "left_source_index": 35,
+      "right_source_index": 86
+    },
+    {
+      "left_index": 35,
+      "right_index": 52,
+      "similarity": 0.7828,
+      "left_source_index": 35,
+      "right_source_index": 52
+    },
+    {
+      "left_index": 17,
+      "right_index": 37,
+      "similarity": 0.7747,
+      "left_source_index": 17,
+      "right_source_index": 37
+    },
+    {
+      "left_index": 54,
+      "right_index": 86,
+      "similarity": 0.7595,
+      "left_source_index": 54,
+      "right_source_index": 86
+    },
+    {
+      "left_index": 37,
+      "right_index": 38,
+      "similarity": 0.744,
+      "left_source_index": 37,
+      "right_source_index": 38
+    },
+    {
+      "left_index": 24,
+      "right_index": 77,
+      "similarity": 0.7402,
+      "left_source_index": 24,
+      "right_source_index": 77
+    },
+    {
+      "left_index": 2,
+      "right_index": 37,
+      "similarity": 0.7314,
+      "left_source_index": 2,
+      "right_source_index": 37
+    },
+    {
+      "left_index": 65,
+      "right_index": 71,
+      "similarity": 0.7311,
+      "left_source_index": 65,
+      "right_source_index": 71
+    }
+  ],
+  "usage_note": "This is an offline fallback inspired by PatentSBERTa-style semantic patent distance. If sentence-transformers and AI-Growth-Lab/PatentSBERTa are installed later, this layer can be upgraded."
+}

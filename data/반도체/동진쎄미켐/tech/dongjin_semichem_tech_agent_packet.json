@@ -3,6 +3,51 @@
   "company": "동진쎄미켐",
   "company_dir": "dongjin_semichem",
   "opinion": "보유",
+  "tech_signal": 0.316047,
+  "history_tech_feature": {
+    "signal": 0.316047,
+    "status": "OK_TECH_HISTORY_ASOF",
+    "source": "C:\\Agent_6.9\\data\\반도체\\동진쎄미켐\\tech\\tech_history_features_2025-08-31.csv;C:\\Agent_6.9\\data\\반도체\\동진쎄미켐\\tech\\dongjin_semichem_kipris_patents_normalized.csv;C:\\Agent_6.9\\data\\반도체\\동진쎄미켐\\tech\\dongjin_semichem_tech_patent_normalized.csv;C:\\Agent_6.9\\data\\반도체\\동진쎄미켐\\tech\\tech_patent_similarity_top_pairs.csv;C:\\Agent_6.9\\data\\반도체\\동진쎄미켐\\tech\\dongjin_semichem_kipris_bibliographic_normalized.csv;C:\\Agent_6.9\\data\\반도체\\동진쎄미켐\\tech\\dongjin_semichem_kipris_claims_normalized.csv;C:\\Agent_6.9\\data\\반도체\\동진쎄미켐\\tech\\dongjin_semichem_kipris_plus_claim_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\동진쎄미켐\\tech\\dongjin_semichem_kipris_plus_family_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\동진쎄미켐\\tech\\dongjin_semichem_kipris_plus_request_targets.csv;C:\\Agent_6.9\\data\\반도체\\동진쎄미켐\\tech\\dongjin_semichem_kipris_tech_ml_enriched.csv;C:\\Agent_6.9\\data\\반도체\\동진쎄미켐\\tech\\source\\dongjin_semichem_kipris_plus_bibliographic_raw.csv;C:\\Agent_6.9\\data\\반도체\\동진쎄미켐\\tech\\quanified_metrix.csv",
+    "as_of_date": "2025-09-30",
+    "company": "동진쎄미켐",
+    "ticker": "005290.KQ",
+    "stock_code": "005290",
+    "base_signal": 0.325052,
+    "evidence_confidence": 0.790972,
+    "commercialization_gate_signal": 0.23576,
+    "technology_risk_penalty": 0.0,
+    "ip_quality_signal": 0.010181,
+    "lifecycle_signal": 0.0,
+    "technology_differentiation_signal": 0.128585,
+    "commercialization_signal": 0.943038,
+    "rnd_sustainability_signal": 0.463523,
+    "peer_position_signal": -0.209524,
+    "tech_to_value_signal": 0.614507,
+    "certification_signal": 0.0,
+    "qualification_signal": 0.0,
+    "cost_yield_signal": 0.0,
+    "workforce_signal": 0.0,
+    "government_rd_signal": 0.0,
+    "licensing_signal": 0.0,
+    "dispute_risk_signal": 0.0,
+    "failure_delay_signal": 0.0,
+    "intangible_accounting_signal": 0.0,
+    "patent_records_asof": 2236,
+    "dated_records_asof": 787,
+    "undated_records_used": 1516,
+    "files_used": 74,
+    "notes": "Tech history signal uses dated patent/IP, TRL/readiness, certification, qualification, commercialization, R&D/workforce, risk and accounting evidence before as_of_date; no Buy/Hold/Sell threshold is applied.",
+    "frequency": "monthly",
+    "formula": "final=base_signal*evidence_confidence + 0.25*commercialization_gate_signal - 0.35*technology_risk_penalty",
+    "research_basis": [
+      "Hall-Jaffe-Trajtenberg patent citations/value; Lanjouw-Schankerman patent quality; OECD patent quality composite indicators",
+      "DoD/NASA TRL and TRA maturity framework",
+      "IFC/Bpifrance deep-tech development-stage financing framework",
+      "Text-based industry/technology relatedness literature for peer/differentiation evidence"
+    ],
+    "history_feature_json": "C:\\Agent_6.9\\data\\반도체\\동진쎄미켐\\tech\\tech_history_features_2025-09-30.json",
+    "history_feature_csv": "C:\\Agent_6.9\\data\\반도체\\동진쎄미켐\\tech\\tech_history_features_2025-09-30.csv"
+  },
   "claims": [
     {
       "claim_id": "tech.cl.000",
@@ -101,63 +146,63 @@
     {
       "title": "동진쎄미켐 KIPRIS/특허 정량화 요약",
       "url": "",
-      "path": "data\\반도체\\동진쎄미켐\\tech\\source\\dongjin_semichem_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\동진쎄미켐\\tech\\source\\dongjin_semichem_kipris_plus_bibliographic_raw.csv",
       "snippet": "동진쎄미켐 KIPRIS/특허 정량화 요약 본 특허 근거는 KIPRIS API/CSV/엑셀/TXT 원천 파일을 정규화해 산출했다. [정량 지표] - 특허 원천 파일 수: 1개 - 정규화 특허 레코드 수: 102건 - 출원인/권리자 회사 매칭 특허 수: 102건 - 등록 특허 수: 49건 - 존속 가능 특허 수: 30건 - 최근 5년 특허 수: 25건 - IPC/CPC 기술분류 수: 32개 - H01L 반도체 IPC 특허 수: 0건 - 반도체 핵심 IPC 특허 수: 38건 - 특허-기술 키워드 매칭 수: 104회 - 특허 포트폴리오 연도 범위: 1993~2025 - KIPRIS 총 특허 수: 102.0건 - KIPRIS 등",
       "relevance_score": 30
     },
     {
       "title": "태양 전지 및 이를 형성하는 방법",
       "url": "",
-      "path": "data\\반도체\\동진쎄미켐\\tech\\source\\dongjin_semichem_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\동진쎄미켐\\tech\\source\\dongjin_semichem_kipris_plus_bibliographic_raw.csv",
       "snippet": "태양 전지 및 이를 형성하는 방법 | 주식회사 동진쎄미켐 | 등록 | 2021 | 출원번호 1020210193377; 등록번호 1029641180000 | IPC/CPC: H10K | 기술매칭: 기판, 소자 | 초록: 태양 전지 및 이를 형성하는 방법이 제공된다. 태양 전지는 기판; 제1 전극, 액티브층 및 제2 전극을 포함하는 복수개의 단위셀;을 포함하고, 단위셀은 서로 이격되어 기판이 노출된다. 본 발명에 따른 태양 전지 및 이를 형성하는 방법은 단위셀이 서로 이격되어 기판이 노출되는 절연 구조 또는 비발전 영역을 가짐으로써 누설 전류를 최소화하고, 태양광 소자의 발전 효율을 높이는 효과가 있다.",
       "relevance_score": 73.5
     },
     {
       "title": "포토레지스트 제거용 씬너 조성물",
       "url": "",
-      "path": "data\\반도체\\동진쎄미켐\\tech\\source\\dongjin_semichem_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\동진쎄미켐\\tech\\source\\dongjin_semichem_kipris_plus_bibliographic_raw.csv",
       "snippet": "포토레지스트 제거용 씬너 조성물 | 주식회사 동진쎄미켐 | 소멸 | 2003 | 출원번호 1020030035683; 등록번호 1009513640000 | IPC/CPC: G03F | 기술매칭: 수율, 공정, 기판, 반도체, 소자, 웨이퍼 | 초록: 본 발명은 반도체 소자 및 액정 디스플레이 소자의 제조공정에서 사용되는 포토레지스트 제거용 씬너(thinner) 조성물에 관한 것으로, 보다 상세하게는 a) 프로필렌글리콜 모노알킬에테르(propyleneglycol monoalkyl ether); b) 알킬 에타노에이트(alkyl ethanoate); 및 c) 씨클로 펜타논, 씨클로 헥사논, 및 시클로 헵타논으로 이루어진 군으",
       "relevance_score": 72.5
     },
     {
       "title": "신규한 캡핑층용 화합물 및 이를 포함하는 유기 발광 소자",
       "url": "",
-      "path": "data\\반도체\\동진쎄미켐\\tech\\source\\dongjin_semichem_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\동진쎄미켐\\tech\\source\\dongjin_semichem_kipris_plus_bibliographic_raw.csv",
       "snippet": "신규한 캡핑층용 화합물 및 이를 포함하는 유기 발광 소자 | 주식회사 동진쎄미켐 | 등록 | 2021 | 출원번호 1020210049983; 등록번호 1025598760000 | IPC/CPC: C07D, H10K | 기술매칭: 소자 | 초록: 본 발명은 하기 화학식 1로 표시되는 캡핑층용 화합물 및 이를 함유하는 유기 발광 소자를 제공한다. 003c#화학식1003e#",
       "relevance_score": 72.0
     },
     {
       "title": "포토레지스트 제거용 씬너 조성물",
       "url": "",
-      "path": "data\\반도체\\동진쎄미켐\\tech\\source\\dongjin_semichem_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\동진쎄미켐\\tech\\source\\dongjin_semichem_kipris_plus_bibliographic_raw.csv",
       "snippet": "포토레지스트 제거용 씬너 조성물 | 주식회사 동진쎄미켐 | 소멸 | 2004 | 출원번호 1020040037385; 등록번호 1011428680000 | IPC/CPC: G03F, C11D | 기술매칭: 수율, 공정, 기판, 반도체, 웨이퍼 | 초록: 본 발명은 포토레지스트 제거용 씬너 조성물에 관한 것으로, 특히 a) 알킬렌글리콜 모노알킬 에테르 아세테이트 1 내지 80 중량부; b) N-메틸 아세트 아마이드, 디메틸 아세트 아마이드로 이루어지는 군으로부터 1 종 이상 선택되는 알킬 아마이드 1 내지 98 중량부; 및 c) 알킬 에타노에이트 1 내지 80 중량부로 이루어지는 포토레지스트 제거용 씬너 조성물에 관한 것이",
       "relevance_score": 71.0
     },
     {
       "title": "감광성 고분자, 이를 이용한 포토레지스트 조성물 및 패턴형성 방법",
       "url": "",
-      "path": "data\\반도체\\동진쎄미켐\\tech\\source\\dongjin_semichem_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\동진쎄미켐\\tech\\source\\dongjin_semichem_kipris_plus_bibliographic_raw.csv",
       "snippet": "감광성 고분자, 이를 이용한 포토레지스트 조성물 및 패턴형성 방법 | 주식회사 동진쎄미켐 | 등록 | 2017 | 출원번호 1020170148902; 등록번호 1026203540000 | IPC/CPC: G03F, C08F | 기술매칭: 공정, 반도체 | 초록: 디스플레이, 반도체 및 MEMS 공정에서 사용되는 감광성 고분자, 이를 이용한 포토레지스트 조성물 및 이를 이용한 패턴형성 방법이 개시된다. 하기 화학식 1로 표시되는 반복단위, 화학식 2로 표시되는 반복단위 및 화학식 3으로 표시되는 반복단위를 포함하는 고분자를 제공한다. [화학식 1] [화학식 2] [화학식 3] 상기 화학식 1, 화학식 2 및 화학식 3에서",
       "relevance_score": 71.0
     },
     {
       "title": "신규한 캡핑층용 유기화합물 및 이를 포함하는 유기 발광 소자",
       "url": "",
-      "path": "data\\반도체\\동진쎄미켐\\tech\\source\\dongjin_semichem_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\동진쎄미켐\\tech\\source\\dongjin_semichem_kipris_plus_bibliographic_raw.csv",
       "snippet": "신규한 캡핑층용 유기화합물 및 이를 포함하는 유기 발광 소자 | 주식회사 동진쎄미켐 | 등록 | 2021 | 출원번호 1020210111834; 등록번호 1029662590000 | IPC/CPC: H10K | 기술매칭: 소자 | 초록: 본 발명은 제1 전극 및 제2 전극; 상기 제1 전극 및 상기 제2 전극의 내측에 개재되는 유기물층; 및 상기 제1 전극 또는 상기 제2 전극 중 어느 하나 이상의 전극 외측에 배치되는 캡핑층을 구비하며,상기 캡핑층은 하기 조건(1) 내지 조건(3)을 만족하고 하기 화학식1로 표시되는 화합물을 포함하는, 유기 발광 소자를 제공한다. 조건(1) n(@450nm) ≥ 2.50 조건(2) k",
       "relevance_score": 70.5
     },
     {
       "title": "신규 화합물 및 이를 포함하는 유기 발광 소자",
       "url": "",
-      "path": "data\\반도체\\동진쎄미켐\\tech\\source\\dongjin_semichem_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\동진쎄미켐\\tech\\source\\dongjin_semichem_kipris_plus_bibliographic_raw.csv",
       "snippet": "신규 화합물 및 이를 포함하는 유기 발광 소자 | 주식회사 동진쎄미켐 | 등록 | 2019 | 출원번호 1020190119083; 등록번호 1028631970000 | IPC/CPC: C07D, C09K, H10K | 기술매칭: 소자 | 초록: 본 발명은 신규 화합물 및 이를 포함하는 유기 발광 소자에 관한 것으로, 본 발명의 일 구현예에 따른 신규 화합물은 유기 발광 소자에 적용되어 유기 발광 소자의 고효율, 장수명, 낮은 구동전압 및 구동 안정성을 확보할 수 있다.",
       "relevance_score": 69.5
     },
     {
       "title": "신규 화합물 및 이를 포함하는 유기 발광 소자",
       "url": "",
-      "path": "data\\반도체\\동진쎄미켐\\tech\\source\\dongjin_semichem_kipris_plus_bibliographic_raw.csv",
+      "path": "C:\\Agent_6.9\\data\\반도체\\동진쎄미켐\\tech\\source\\dongjin_semichem_kipris_plus_bibliographic_raw.csv",
       "snippet": "신규 화합물 및 이를 포함하는 유기 발광 소자 | 주식회사 동진쎄미켐 | 등록 | 2018 | 출원번호 1020180037636; 등록번호 1025851550000 | IPC/CPC: C07D, H10K, C09K | 기술매칭: 소자 | 초록: 본원은 신규한 화합물, 및 이를 포함하는 유기 발광 소자에 관한 것으로, 본 발명의 일 구현예에 따른 신규한 화합물은 유기 발광 소자에 적용되어 유기 발광 소자의 고효율, 장수명, 낮은 구동전압 및 구동 안정성을 확보할 수 있다.",
       "relevance_score": 69.5
     }
@@ -393,7 +438,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\동진쎄미켐\\tech\\dongjin_semichem_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\동진쎄미켐\\tech\\dongjin_semichem_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-20T22:15:52",
+      "generated_at": "2026-05-26T07:21:15",
       "core_counts": {
         "total_patents": 102,
         "registered_patents_estimated": 49,
@@ -487,7 +532,7 @@
   "tech_chair_summary": {
     "agent": "tech",
     "summary_version": "tech_compact_chair_v3_prompt_policy_aligned",
-    "created_at": "2026-05-20T22:20:44",
+    "created_at": "2026-05-26T07:23:10",
     "field": "반도체",
     "company": "동진쎄미켐",
     "company_name": "동진쎄미켐",
@@ -519,17 +564,17 @@
       "ip_evidence_composite_bridge_signal": "IP_EVIDENCE_NEUTRAL",
       "ip_evidence_composite_adjustment_points": 0.0,
       "ip_evidence_composite_data_coverage_rate": 1.0,
-      "ip_evidence_composite_source_file": "data/반도체/동진쎄미켐/tech/tech_ip_evidence_composite.json",
+      "ip_evidence_composite_source_file": "C:/Agent_6.9/data/반도체/동진쎄미켐/tech/tech_ip_evidence_composite.json",
       "peer_adjusted_bridge_score_before_ip_evidence": 39.0,
       "final_bridge_score_after_ip_evidence": 39.0,
       "ip_evidence_adjusted_score": 39.0,
       "ip_evidence_formula": "final_bridge_score_after_ip_evidence = peer_adjusted_bridge_score_before_ip_evidence + ip_evidence_composite_adjustment_points",
       "ip_evidence_adjusted_grade": "TECH_EVIDENCE_WEAK",
-      "investor_final_tech_score": 44.8,
+      "investor_final_tech_score": 55.2,
       "investor_final_tech_grade": {
-        "code": "EVIDENCE_WEAK_OR_EARLY",
-        "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
-        "threshold": 0.0
+        "code": "COMMERCIALIZATION_WATCH",
+        "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+        "threshold": 52.0
       },
       "value_evidence_score": 79.77,
       "value_evidence_label": "VALUE_EVIDENCE_STRONG"
@@ -593,14 +638,14 @@
       }
     ],
     "ip_quant_signals": {
-      "normalized_patent_text_records": 2427,
-      "company_matched_patents": 1450,
+      "normalized_patent_text_records": 3987,
+      "company_matched_patents": 3010,
       "registered_patents": 458,
-      "alive_patents": 886,
-      "recent_5y_patents": 25,
+      "alive_patents": 2446,
+      "recent_5y_patents": 1560,
       "ipc_cpc_classes": 23,
       "core_ipc_h01l_patents": null,
-      "keyword_matches": 498
+      "keyword_matches": 9858
     },
     "selected_ml": {
       "peer_ml": {
@@ -610,9 +655,9 @@
         "cluster_name": null
       },
       "tech_ip_strength": {
-        "score": 46.25,
+        "score": 67.28,
         "percentile": 50.0,
-        "patent_momentum_score": 1.29,
+        "patent_momentum_score": 63.87,
         "dominant_topic": null
       },
       "technology_differentiation": {
@@ -969,15 +1014,15 @@
       "ip_evidence_bridge_signal": "IP_EVIDENCE_NEUTRAL",
       "ip_evidence_bridge_adjustment_points": 0.0,
       "final_bridge_score_after_ip_evidence": 39.0,
-      "investor_final_tech_score": 44.8,
+      "investor_final_tech_score": 55.2,
       "investor_final_tech_grade": {
-        "code": "EVIDENCE_WEAK_OR_EARLY",
-        "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
-        "threshold": 0.0
+        "code": "COMMERCIALIZATION_WATCH",
+        "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+        "threshold": 52.0
       },
       "investor_evidence_count": 9,
-      "excel_quantified_evidence_score": 45.0,
-      "commercialization_and_funding_signal_score": 49.5
+      "excel_quantified_evidence_score": 90.0,
+      "commercialization_and_funding_signal_score": 63.5
     },
     "ip_legal_features": {
       "total_patents": 102,
@@ -1443,7 +1488,7 @@
       "company_name": "동진쎄미켐",
       "field": "반도체",
       "status": "OK",
-      "created_at": "2026-05-20T22:20:18",
+      "created_at": "2026-05-26T07:21:16",
       "weights": {
         "legal_stability": 0.25,
         "claim_defense": 0.3,
@@ -1539,17 +1584,17 @@
       "tech_full_appendix_json": ""
     },
     "ip_evidence_bridge_adjustment_status": "APPLIED",
-    "ip_evidence_bridge_adjustment_applied_at": "2026-05-20T22:20:45",
+    "ip_evidence_bridge_adjustment_applied_at": "2026-05-26T07:23:20",
     "tech_investor_view": {
       "version": "tech-investor-scorecard-v2",
-      "generated_at": "2026-05-20T22:20:56",
+      "generated_at": "2026-05-26T07:24:25",
       "company_slug": "dongjin_semichem",
       "company_name": "동진쎄미켐",
-      "final_tech_investor_score": 44.8,
+      "final_tech_investor_score": 55.2,
       "final_tech_investor_grade": {
-        "code": "EVIDENCE_WEAK_OR_EARLY",
-        "label": "기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요",
-        "threshold": 0.0
+        "code": "COMMERCIALIZATION_WATCH",
+        "label": "기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함",
+        "threshold": 52.0
       },
       "score_policy": {
         "description": "개인투자자용 최종 Tech 점수는 기술-사업화 연결 가능성, IP 품질, Excel/DART 정량 근거, 근거 신뢰도, 딥테크 성장투자 지속성을 하나로 합성한다.",
@@ -1709,53 +1754,54 @@
         },
         "excel_quantified_evidence": {
           "label": "Excel 기반 정량 근거",
-          "score": 45.0,
+          "score": 90.0,
           "weight": 0.15,
           "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지",
           "meta": {
-            "score": 45.0,
-            "company_item_count": 8,
-            "filled_count": 0,
+            "score": 90.0,
+            "company_item_count": 22,
+            "filled_count": 22,
             "metric_row_count": 0,
-            "numeric_signal_count": 0,
-            "category_count": 7,
+            "numeric_signal_count": 120,
+            "category_count": 8,
             "unique_metric_count": 0,
             "formula_rule_count": 0,
-            "coverage_ratio": 0.0,
-            "numeric_density": 0.0
+            "coverage_ratio": 1.0,
+            "numeric_density": 5.4545
           }
         },
         "evidence_confidence": {
           "label": "근거 직접성·충분성",
-          "score": 49.8,
+          "score": 64.8,
           "weight": 0.15,
           "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성",
           "meta": {
-            "score": 49.8,
+            "score": 64.8,
             "evidence_count": 4,
             "claim_count": 4,
             "patent_count": 102,
-            "excel_coverage_ratio": 0.0
+            "excel_coverage_ratio": 1.0
           }
         },
         "commercialization_and_funding_signal": {
           "label": "사업화·성장자금 지속성",
-          "score": 49.5,
+          "score": 63.5,
           "weight": 0.1,
           "meaning": "R&D·특허·정부과제·기술이전·CAPEX/희석성 자금조달이 사업화와 연결되는 정도",
           "meta": {
-            "score": 49.5,
-            "detected_signal_groups": [],
+            "score": 63.5,
+            "detected_signal_groups": [
+              "commercial"
+            ],
             "detected_flags": {
               "rd": false,
-              "commercial": false,
+              "commercial": true,
               "government": false,
               "transfer": false,
               "funding": false
             },
             "recent_5y_patents": null,
             "warnings": [
-              "customer_mass_production_revenue_signal_limited",
               "rd_or_recent_patent_continuity_limited",
               "capital_raising_signal_not_explicitly_detected"
             ],
@@ -1783,31 +1829,31 @@
         {
           "component": "excel_quantified_evidence",
           "label": "Excel 기반 정량 근거",
-          "score": 45.0,
+          "score": 90.0,
           "weight": 0.15,
-          "weighted_score": 6.75,
+          "weighted_score": 13.5,
           "meaning": "템플릿/수식 기준에 맞춰 실제 기업별 근거가 얼마나 채워졌는지"
         },
         {
           "component": "evidence_confidence",
           "label": "근거 직접성·충분성",
-          "score": 49.8,
+          "score": 64.8,
           "weight": 0.15,
-          "weighted_score": 7.47,
+          "weighted_score": 9.72,
           "meaning": "Chair가 개인투자자에게 설명할 수 있는 근거의 직접성"
         },
         {
           "component": "commercialization_and_funding_signal",
           "label": "사업화·성장자금 지속성",
-          "score": 49.5,
+          "score": 63.5,
           "weight": 0.1,
-          "weighted_score": 4.95,
+          "weighted_score": 6.35,
           "meaning": "R&D·특허·정부과제·기술이전·CAPEX/희석성 자금조달이 사업화와 연결되는 정도"
         }
       ],
       "key_takeaways": [
-        "동진쎄미켐의 개인투자자용 Tech 최종 점수는 44.80/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
-        "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(50.14) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+        "동진쎄미켐의 개인투자자용 Tech 최종 점수는 55.20/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
+        "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(50.14) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
         "투자자가 확인할 핵심 근거는 9개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
       ],
       "investor_evidence": [
@@ -1874,7 +1920,7 @@
         {
           "source": "tech_summary",
           "title": "Tech Agent 핵심 해석",
-          "detail": "동진쎄미켐의 개인투자자용 Tech 최종 점수는 44.80/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
+          "detail": "동진쎄미켐의 개인투자자용 Tech 최종 점수는 53.80/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
           "value": null,
           "unit": null,
           "path": null,
@@ -1884,7 +1930,7 @@
         {
           "source": "tech_summary",
           "title": "Tech Agent 핵심 해석",
-          "detail": "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(50.14) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+          "detail": "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(50.14) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
           "value": null,
           "unit": null,
           "path": null,
@@ -1924,21 +1970,22 @@
       }
     },
     "key_takeaways": [
-      "동진쎄미켐의 개인투자자용 Tech 최종 점수는 44.80/100이며, 판정은 기술 또는 IP 근거가 초기/제한적이어서 보수적 해석 필요입니다.",
-      "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(50.14) 및 Excel 기반 정량 근거(45.0)를 함께 반영했습니다.",
+      "동진쎄미켐의 개인투자자용 Tech 최종 점수는 55.20/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
+      "최종 판단은 단순 특허 수보다 Tech-to-Value Bridge(39.0)와 IP Evidence(50.14) 및 Excel 기반 정량 근거(90.0)를 함께 반영했습니다.",
       "투자자가 확인할 핵심 근거는 9개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다.",
+      "동진쎄미켐의 개인투자자용 Tech 최종 점수는 53.80/100이며, 판정은 기술성은 확인되나 양산·고객 채택·재무성과 전환을 계속 추적해야 함입니다.",
       "투자자가 확인할 핵심 근거는 6개로 정리했으며, 중복 뉴스·중복 항목은 제외했습니다."
     ],
     "value_evidence_bridge": {
       "agent": "tech_intake",
       "artifact": "tech_intake_value_evidence_bridge",
       "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-      "created_at": "2026-05-20T22:20:54",
+      "created_at": "2026-05-26T07:24:23",
       "field": "반도체",
       "company": "동진쎄미켐",
       "company_dir": "dongjin_semichem",
       "company_slug": "dongjin_semichem",
-      "source_document_count": 132,
+      "source_document_count": 153,
       "source_documents": [
         {
           "source_group": "KIPRIS",
@@ -2111,7 +2158,7 @@
         {
           "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/동진쎄미켐/tech/dongjin_semichem_tech_intake_value_evidence.json",
-          "detected_url_count": 20,
+          "detected_url_count": 8,
           "fallback_url_count": 0
         },
         {
@@ -2332,6 +2379,30 @@
         },
         {
           "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/동진쎄미켐/tech/tech_history_features_2025-08-31.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/동진쎄미켐/tech/tech_history_features_2025-08-31.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/동진쎄미켐/tech/tech_history_features_2025-09-30.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
+          "source_file": "data/반도체/동진쎄미켐/tech/tech_history_features_2025-09-30.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 2
+        },
+        {
+          "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/동진쎄미켐/tech/tech_intake_manifest.json",
           "detected_url_count": 0,
           "fallback_url_count": 2
@@ -2345,7 +2416,7 @@
         {
           "source_group": "TECH_OUTPUT",
           "source_file": "data/반도체/동진쎄미켐/tech/tech_intake_value_evidence.json",
-          "detected_url_count": 20,
+          "detected_url_count": 8,
           "fallback_url_count": 0
         },
         {
@@ -2590,6 +2661,120 @@
         },
         {
           "source_group": "VALUATION",
+          "source_file": "data/반도체/동진쎄미켐/valuation/intake/company_profile.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/동진쎄미켐/valuation/intake/cross_agent_signals_for_valuation.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/동진쎄미켐/valuation/intake/dcf_inputs.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/동진쎄미켐/valuation/intake/dilution_events.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/동진쎄미켐/valuation/intake/eval_price_history.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/동진쎄미켐/valuation/intake/eval_price_history_monthly.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/동진쎄미켐/valuation/intake/eval_price_history_monthly_v43.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/동진쎄미켐/valuation/intake/eval_price_history_monthly_v44.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/동진쎄미켐/valuation/intake/eval_price_history_monthly_v45.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/동진쎄미켐/valuation/intake/eval_price_history_v43.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/동진쎄미켐/valuation/intake/eval_price_history_v44.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/동진쎄미켐/valuation/intake/eval_price_history_v45.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/동진쎄미켐/valuation/intake/financials_normalized.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/동진쎄미켐/valuation/intake/financials_raw.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/동진쎄미켐/valuation/intake/peer_multiples.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/동진쎄미켐/valuation/intake/price_history.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/동진쎄미켐/valuation/intake/relative_valuation_inputs.json",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/동진쎄미켐/valuation/intake/shares_outstanding.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
+          "source_file": "data/반도체/동진쎄미켐/valuation/intake/valuation_assumptions.csv",
+          "detected_url_count": 0,
+          "fallback_url_count": 5
+        },
+        {
+          "source_group": "VALUATION",
           "source_file": "data/반도체/동진쎄미켐/valuation/intake/valuation_assumptions.json",
           "detected_url_count": 0,
           "fallback_url_count": 5
@@ -2704,19 +2889,7 @@
         },
         {
           "source_group": "FINANCE",
-          "source_file": "data/반도체/동진쎄미켐/finance/동진쎄미켐_stock.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "FINANCE",
           "source_file": "data/반도체/동진쎄미켐/finance/동진쎄미켐_재무.csv",
-          "detected_url_count": 0,
-          "fallback_url_count": 5
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/동진쎄미켐/finance/동진쎄미켐_재무데이터.csv",
           "detected_url_count": 0,
           "fallback_url_count": 5
         },
@@ -2838,18 +3011,6 @@
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93620fc635aa7be36b52daec3fb6cda990b8101e5960698d3e1537173743f7661e9fd95b15a11604c30c8b7bd94004b8d59fe9dcebb246b931",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93a2debee5e8f2b965d040e5e2ff9daa8aa1832e517dc34205eec0752c4bd1235390c65ea768cd12ef03b3542dd3c51c317286409350997b5d",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93bbda06d9c3edff2f3d2c387be0dedb7132d3c29464e16f73f418e24f6ff605ca5e7ab536133e1ba5700cbd2cd7eb0ff233884ea87905d3e4",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93d39ec945410dcfdb3c0771fa795b02fb94918c168d0d01e0e0ebd847ad0612bf36be5b1c0136067287a5acc7d08d7071c8cc673642545821",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e006c8605181a67c421e0662edc0a926a7dee86634f5e30ce5026dacca96c43cc6ec78de55efbedb67b7809fa269e974865ca9a7c96de8ce029",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726cf7e00e23fcae4ed16e35d45c2a9f95023ee5bf7d0fbde7128d3595758a36dabdb81e8f47edb68e5de4acb48e02d1fa798fa0c8d3cbe66d3",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93b005ae81dc5fc8d1b70ecd5a8276ddf0ecd5a59707ef93cc7ddf2e746c9027c8654064b4b044e8359b82c203f4d82e09409e7d99f113903b",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9338c015289c613e266521992a8b90f0400a34cf5d610e6e45a586c8df42bec086ebe96462bb463cb95dda463d6a6f77e8c1166f3f6d711a07",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9390aaa2d85c33244bb21bb0139c4fff8a53d856264bde962624744a3d3598848f8570f647a17e84e4111fb697bb05c0f88449b0389db4cc30",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93a8eab98a08efaab559932d8c818c4586ef0aa59e28f48bf2d2d6258aa54cd91bcb96ae7c509fcd273cb655a08ecc9904ef97adea9a17d24c",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93125479fa97d4f1774d3667331a321f8d12314b27c75d4434d090931a5d333f7e55aa7bd4ddcc125d7bbaaa36c3a860b74553da725b0fad68",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9300082b55de53856451ba40538a99ce55c3f22722ffde6753cc8ee01a5aae66e8995ce282d02371f6dfc4a7b7f49a6d9121b401fa47817d11",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c592fb536ea920a4d6a092b69f48fe124c5ea6b457d21b362eb3a898ac328a0b3",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e008e2f792c313ae9acecbc1e90b442cdf02592a991381129baa641f930a97a62c5556e8e62ab79241b4835fc10300d393c504a55df19a9393c",
-            "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c939f54df82125877878ace189d8a7f6a2f83ccb8eeeb1f6867a5fe5e867e20cc1f3fc0a963208822b44188588e329681cc7e5dbdafb6bb4f72",
             "http://www.w3.org/2001/XMLSchema-instance",
             "http://www.nepes.co.kr",
             "https://dart.fss.or.kr/",
@@ -2858,12 +3019,13 @@
             "https://plus.kipris.or.kr/",
             "https://www.google.com/search?q=%EB%8F%99%EC%A7%84%EC%8E%84%EB%AF%B8%EC%BC%90+KIPRIS+%ED%8A%B9%ED%97%88",
             "https://www.google.com/search?q=%EB%8F%99%EC%A7%84%EC%8E%84%EB%AF%B8%EC%BC%90+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
-            "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
-            "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
             "https://www.google.com/search?q=%EB%8F%99%EC%A7%84%EC%8E%84%EB%AF%B8%EC%BC%90+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
             "https://www.google.com/search?q=%EB%8F%99%EC%A7%84%EC%8E%84%EB%AF%B8%EC%BC%90+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
             "https://www.google.com/search?q=%EB%8F%99%EC%A7%84%EC%8E%84%EB%AF%B8%EC%BC%90+IR",
             "https://www.google.com/search?q=%EB%8F%99%EC%A7%84%EC%8E%84%EB%AF%B8%EC%BC%90+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+            "https://www.google.com/search?q=%EB%8F%99%EC%A7%84%EC%8E%84%EB%AF%B8%EC%BC%90+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
+            "https://www.google.com/search?q=%EB%8F%99%EC%A7%84%EC%8E%84%EB%AF%B8%EC%BC%90+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
+            "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
             "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1126"
           ],
           "fallback_urls": [
@@ -2887,12 +3049,12 @@
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93620fc635aa7be36b52daec3fb6cda990b8101e5960698d3e1537173743f7661e9fd95b15a11604c30c8b7bd94004b8d59fe9dcebb246b931",
             "https://www.google.com/search?q=%EB%8F%99%EC%A7%84%EC%8E%84%EB%AF%B8%EC%BC%90+KIPRIS+%ED%8A%B9%ED%97%88",
             "https://www.google.com/search?q=%EB%8F%99%EC%A7%84%EC%8E%84%EB%AF%B8%EC%BC%90+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
-            "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
-            "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
             "https://www.google.com/search?q=%EB%8F%99%EC%A7%84%EC%8E%84%EB%AF%B8%EC%BC%90+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
             "https://www.google.com/search?q=%EB%8F%99%EC%A7%84%EC%8E%84%EB%AF%B8%EC%BC%90+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
             "https://www.google.com/search?q=%EB%8F%99%EC%A7%84%EC%8E%84%EB%AF%B8%EC%BC%90+IR",
             "https://www.google.com/search?q=%EB%8F%99%EC%A7%84%EC%8E%84%EB%AF%B8%EC%BC%90+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+            "https://www.google.com/search?q=%EB%8F%99%EC%A7%84%EC%8E%84%EB%AF%B8%EC%BC%90+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
+            "https://www.google.com/search?q=%EB%8F%99%EC%A7%84%EC%8E%84%EB%AF%B8%EC%BC%90+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
             "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
             "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
             "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9328f5a912c888a1604ff579e87f821b091a0665246f3173a6cae241fd42c7005fb584f7181202ddb2669153aa54387f5f558cf6b7b6d352be",
@@ -3277,7 +3439,7 @@
                 "매출",
                 "성장"
               ],
-              "snippet": "summary: 동진쎄미켐은 2024년 매출 및 영업이익이 성장했으나, 2025년에는 매출이 감소하고 영업이익률은 소폭 하락할 것으로 전망된다.",
+              "snippet": "summary: 동진쎄미켐은 2022년 높은 매출 성장률을 기록했으나 2023년에는 역성장을 보였고, 2024년에는 다시 성장세로 전환되었다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3293,10 +3455,9 @@
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
                 "매출",
-                "매출액",
                 "성장"
               ],
-              "snippet": "key_thesis: 2024년 매출액은 1조 4,081억원으로 전년 대비 7.5% 증가하며 성장세를 이어갔다.",
+              "snippet": "key_thesis: 2022년 25.48%의 높은 매출 성장률을 기록했으며, 2024년에는 7.50%의 성장률로 다시 성장세로 전환되었다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3312,10 +3473,9 @@
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
                 "매출",
-                "매출액",
                 "성장"
               ],
-              "snippet": "key_risks: 2025년 매출액은 1조 1,941억원으로 전년 대비 15.2% 감소할 것으로 전망되어 성장세 둔화가 우려된다.",
+              "snippet": "key_risks: 2023년 매출 성장률이 -10.11%로 역성장을 기록한 점은 향후 성장성에 대한 불확실성을 내포한다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3351,7 +3511,7 @@
                 "매출",
                 "성장"
               ],
-              "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수",
+              "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3368,7 +3528,24 @@
               "matched_keywords": [
                 "sales"
               ],
-              "snippet": "sales: 1194144534567.0",
+              "snippet": "sales: 1408144175958.0",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EB%8F%99%EC%A7%84%EC%8E%84%EB%AF%B8%EC%BC%90+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/동진쎄미켐/finance/동진쎄미켐_finance_agent_packet.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "sales"
+              ],
+              "snippet": "sales_growth: 7.498122419848308",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3385,24 +3562,7 @@
               "matched_keywords": [
                 "sales"
               ],
-              "snippet": "year: 2023 | sales: 1309924437990.0 | operating_income: 176174316058.0 | net_income: 123534360586.0 | total_assets: 1606588027004.0 | total_liabilities: 771106380233.0 | total_equity: 835481646771.0 | rnd: 3508830353 | capex: 283962201699 | ocf: 114685604318 | fcf: -169276597381 | interest: 24884627846.0 | ROE: 14.786005301665226 | 영업이익률: 13.449196835225768 | 부채비율: 92.2948317552157 | 이자보상배율: 7.079644395257395",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EB%8F%99%EC%A7%84%EC%8E%84%EB%AF%B8%EC%BC%90+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/동진쎄미켐/finance/동진쎄미켐_재무.csv",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "sales"
-              ],
-              "snippet": "year: 2024 | sales: 1408144175958.0 | operating_income: 208225729660.0 | net_income: 143484559745.0 | total_assets: 2016989003189.0 | total_liabilities: 996558402618.0 | total_equity: 1020430600571.0 | rnd: 16166938142 | capex: 175467193238 | ocf: 226861923132 | fcf: 51394729894 | interest: 28446423522.0 | ROE: 14.06117766996704 | 영업이익률: 14.787245028964325 | 부채비율: 97.6605760411691 | 이자보상배율: 7.319926510232881",
+              "snippet": "year: 2021 | sales: 1161284077161.0 | operating_income: 131814933901.0 | net_income: 102879224817.0 | total_assets: 1186189143728.0 | total_liabilities: 625155643773.0 | total_equity: 561033499955.0 | current_assets: 690201851352.0 | current_liabilities: 458726304524.0 | capex: 99812166296 | ocf: 76098753709 | fcf: -23713412587 | interest_expense: 9927381308.0 | roe: 18.337447732666917 | operating_margin: 11.35079146",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3433,7 +3593,7 @@
               "matched_keywords": [
                 "영업이익률"
               ],
-              "snippet": "summary: 동진쎄미켐은 2024년 매출 및 영업이익이 성장했으나, 2025년에는 매출이 감소하고 영업이익률은 소폭 하락할 것으로 전망된다.",
+              "snippet": "영업이익률은 2022년 최고치를 기록한 후 소폭 하락했으나 여전히 높은 수준을 유지하고 있으며, ROE 역시 2022년 이후 하락세를 보이고 있다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3446,12 +3606,82 @@
             {
               "source_group": "FINANCE",
               "source_file": "data/반도체/동진쎄미켐/finance/동진쎄미켐_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "영업이익률"
+              ],
+              "snippet": "key_thesis: 영업이익률은 2022년 14.84%에서 2024년 14.79%로 소폭 하락했으나 높은 수준을 유지하고 있다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EB%8F%99%EC%A7%84%EC%8E%84%EB%AF%B8%EC%BC%90+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/동진쎄미켐/finance/동진쎄미켐_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "현금흐름",
+                "FCF"
+              ],
+              "snippet": "key_thesis: 2022년 953억 원을 기록했던 잉여현금흐름(FCF)은 2024년 514억 원으로 감소했으나 양수 값을 유지하고 있다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EB%8F%99%EC%A7%84%EC%8E%84%EB%AF%B8%EC%BC%90+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/동진쎄미켐/finance/동진쎄미켐_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "현금흐름",
+                "FCF"
+              ],
+              "snippet": "key_risks: 2023년 1693억 원의 마이너스(-) 잉여현금흐름(FCF)은 투자 및 운영 자금 소요가 현금 창출 능력을 초과했음을 시사한다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EB%8F%99%EC%A7%84%EC%8E%84%EB%AF%B8%EC%BC%90+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/동진쎄미켐/finance/동진쎄미켐_finance.json",
+              "evidence_level": "DIRECT_EVIDENCE",
+              "matched_keywords": [
+                "수익성"
+              ],
+              "snippet": "key_risks: 2023년 35.09억 원, 2024년 161.67억 원의 R&D 투자는 딥테크 기업으로서 성장을 위한 필수 요소이나, 단기 수익성에 미치는 영향은 추가 분석이 필요하다.",
+              "urls": [],
+              "fallback_urls": [
+                "https://dart.fss.or.kr/",
+                "https://opendart.fss.or.kr/",
+                "https://finance.naver.com/",
+                "https://comp.fnguide.com/",
+                "https://www.google.com/search?q=%EB%8F%99%EC%A7%84%EC%8E%84%EB%AF%B8%EC%BC%90+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+              ]
+            },
+            {
+              "source_group": "FINANCE",
+              "source_file": "data/반도체/동진쎄미켐/finance/동진쎄미켐_finance_agent_packet.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
                 "영업이익률",
                 "수익성"
               ],
-              "snippet": "key_thesis: 2024년 영업이익률은 14.8%로 전년 대비 1.3%p 상승하며 수익성이 개선되었다.",
+              "snippet": "report_core_points: 영업이익률: 동진쎄미켐 2024 기준 영업이익률 값은 14.79%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3463,29 +3693,12 @@
             },
             {
               "source_group": "FINANCE",
-              "source_file": "data/반도체/동진쎄미켐/finance/동진쎄미켐_finance.json",
+              "source_file": "data/반도체/동진쎄미켐/finance/동진쎄미켐_finance_agent_packet.json",
               "evidence_level": "DIRECT_EVIDENCE",
               "matched_keywords": [
                 "수익성"
               ],
-              "snippet": "key_risks: 2025년 ROE는 8.5%로 전년 대비 크게 하락할 것으로 예상되어 수익성 악화 가능성이 있다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EB%8F%99%EC%A7%84%EC%8E%84%EB%AF%B8%EC%BC%90+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/동진쎄미켐/finance/동진쎄미켐_finance.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "FCF"
-              ],
-              "snippet": "key_risks: 2023년 FCF는 -1,692억원으로 마이너스를 기록했으며, 2024년에는 513억원으로 흑자전환했으나 2025년에는 1,098억원으로 다시 증가할 것으로 예상되어 투자 및 운영 자금 소요를 확인해야 한다.",
+              "snippet": "report_core_points: ROE: 동진쎄미켐 2024 기준 ROE 값은 14.06%이며, 자기자본 대비 수익성 수준을 확인하는 지표입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3502,58 +3715,7 @@
               "matched_keywords": [
                 "FCF"
               ],
-              "snippet": "report_core_points: FCF: 동진쎄미켐 2025 기준 FCF 값은 109,848,775,204원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EB%8F%99%EC%A7%84%EC%8E%84%EB%AF%B8%EC%BC%90+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/동진쎄미켐/finance/동진쎄미켐_finance_agent_packet.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "영업이익률"
-              ],
-              "snippet": "missing_prompt_metrics: 영업이익률",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EB%8F%99%EC%A7%84%EC%8E%84%EB%AF%B8%EC%BC%90+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/동진쎄미켐/finance/동진쎄미켐_finance_agent_packet.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "FCF"
-              ],
-              "snippet": "metric: fcf",
-              "urls": [],
-              "fallback_urls": [
-                "https://dart.fss.or.kr/",
-                "https://opendart.fss.or.kr/",
-                "https://finance.naver.com/",
-                "https://comp.fnguide.com/",
-                "https://www.google.com/search?q=%EB%8F%99%EC%A7%84%EC%8E%84%EB%AF%B8%EC%BC%90+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-              ]
-            },
-            {
-              "source_group": "FINANCE",
-              "source_file": "data/반도체/동진쎄미켐/finance/동진쎄미켐_finance_agent_packet.json",
-              "evidence_level": "DIRECT_EVIDENCE",
-              "matched_keywords": [
-                "FCF"
-              ],
-              "snippet": "label: FCF",
+              "snippet": "report_core_points: FCF: 동진쎄미켐 2024 기준 FCF 값은 51,394,729,894원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
               "urls": [],
               "fallback_urls": [
                 "https://dart.fss.or.kr/",
@@ -3769,7 +3931,7 @@
       "field": "반도체",
       "source_csv": "data\\반도체\\동진쎄미켐\\tech\\dongjin_semichem_kipris_patents_normalized.csv",
       "enriched_csv": "data\\반도체\\동진쎄미켐\\tech\\dongjin_semichem_kipris_tech_ml_enriched.csv",
-      "generated_at": "2026-05-20T22:15:52",
+      "generated_at": "2026-05-26T07:21:15",
       "core_counts": {
         "total_patents": 102,
         "registered_patents_estimated": 49,
@@ -3857,8 +4019,8 @@
     "bridge_signal": "IP_QUALITY_NEUTRAL"
   },
   "formula_catalog_summary": {
-    "json": "data\\반도체\\동진쎄미켐\\tech\\dongjin_semichem_tech_formula_rules.json",
-    "md": "data\\반도체\\동진쎄미켐\\tech\\dongjin_semichem_tech_formula_rules.md",
+    "json": "C:\\Agent_6.9\\data\\반도체\\동진쎄미켐\\tech\\dongjin_semichem_tech_formula_rules.json",
+    "md": "C:\\Agent_6.9\\data\\반도체\\동진쎄미켐\\tech\\dongjin_semichem_tech_formula_rules.md",
     "rule_count": 34
   },
   "evidence_harvest_summary": {
@@ -3894,6 +4056,8 @@
     "tech_full_appendix_json": null,
     "tech_chair_summary_json": "data/반도체/동진쎄미켐/tech/tech_chair_summary.json",
     "tech_chair_summary_md": "data/반도체/동진쎄미켐/tech/dongjin_semichem_tech_chair_summary.md",
+    "tech_history_feature_json": "data/반도체/동진쎄미켐/tech/tech_history_features_2025-09-30.json",
+    "tech_history_feature_csv": "data/반도체/동진쎄미켐/tech/tech_history_features_2025-09-30.csv",
     "tech_json": "data/반도체/동진쎄미켐/tech/dongjin_semichem_tech.json",
     "tech_agent_packet_json": "data/반도체/동진쎄미켐/tech/dongjin_semichem_tech_agent_packet.json"
   },
@@ -4768,7 +4932,7 @@
     "field": "반도체",
     "source_csv": "data\\반도체\\동진쎄미켐\\tech\\dongjin_semichem_kipris_patents_normalized.csv",
     "enriched_csv": "data\\반도체\\동진쎄미켐\\tech\\dongjin_semichem_kipris_tech_ml_enriched.csv",
-    "generated_at": "2026-05-20T22:15:52",
+    "generated_at": "2026-05-26T07:21:15",
     "core_counts": {
       "total_patents": 102,
       "registered_patents_estimated": 49,

@@ -2,12 +2,12 @@
   "agent": "tech_intake",
   "artifact": "tech_intake_value_evidence_bridge",
   "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-  "created_at": "2026-05-20T22:10:55",
+  "created_at": "2026-05-26T06:58:10",
   "field": "반도체",
   "company": "넥스틴",
   "company_dir": "nextin",
   "company_slug": "nextin",
-  "source_document_count": 132,
+  "source_document_count": 153,
   "source_documents": [
     {
       "source_group": "KIPRIS",
@@ -180,7 +180,7 @@
     {
       "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/넥스틴/tech/nextin_tech_intake_value_evidence.json",
-      "detected_url_count": 20,
+      "detected_url_count": 13,
       "fallback_url_count": 0
     },
     {
@@ -401,6 +401,30 @@
     },
     {
       "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/넥스틴/tech/tech_history_features_2025-08-31.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/넥스틴/tech/tech_history_features_2025-08-31.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/넥스틴/tech/tech_history_features_2025-09-30.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/넥스틴/tech/tech_history_features_2025-09-30.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/넥스틴/tech/tech_intake_manifest.json",
       "detected_url_count": 0,
       "fallback_url_count": 2
@@ -414,7 +438,7 @@
     {
       "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/넥스틴/tech/tech_intake_value_evidence.json",
-      "detected_url_count": 20,
+      "detected_url_count": 13,
       "fallback_url_count": 0
     },
     {
@@ -659,6 +683,120 @@
     },
     {
       "source_group": "VALUATION",
+      "source_file": "data/반도체/넥스틴/valuation/intake/company_profile.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/넥스틴/valuation/intake/cross_agent_signals_for_valuation.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/넥스틴/valuation/intake/dcf_inputs.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/넥스틴/valuation/intake/dilution_events.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/넥스틴/valuation/intake/eval_price_history.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/넥스틴/valuation/intake/eval_price_history_monthly.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/넥스틴/valuation/intake/eval_price_history_monthly_v43.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/넥스틴/valuation/intake/eval_price_history_monthly_v44.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/넥스틴/valuation/intake/eval_price_history_monthly_v45.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/넥스틴/valuation/intake/eval_price_history_v43.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/넥스틴/valuation/intake/eval_price_history_v44.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/넥스틴/valuation/intake/eval_price_history_v45.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/넥스틴/valuation/intake/financials_normalized.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/넥스틴/valuation/intake/financials_raw.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/넥스틴/valuation/intake/peer_multiples.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/넥스틴/valuation/intake/price_history.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/넥스틴/valuation/intake/relative_valuation_inputs.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/넥스틴/valuation/intake/shares_outstanding.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/넥스틴/valuation/intake/valuation_assumptions.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
       "source_file": "data/반도체/넥스틴/valuation/intake/valuation_assumptions.json",
       "detected_url_count": 0,
       "fallback_url_count": 5
@@ -773,19 +911,7 @@
     },
     {
       "source_group": "FINANCE",
-      "source_file": "data/반도체/넥스틴/finance/넥스틴_stock.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "FINANCE",
       "source_file": "data/반도체/넥스틴/finance/넥스틴_재무.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "FINANCE",
-      "source_file": "data/반도체/넥스틴/finance/넥스틴_재무데이터.csv",
       "detected_url_count": 0,
       "fallback_url_count": 5
     },
@@ -904,14 +1030,7 @@
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c932c822fdd36411db22faa2afbe79440b9a24c2d995b6deb573525415921d2710ebb085177a794f4d70163f5688958aef9a57bf0400aafab13",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93811dff2fdb2b0f8a599c33646b0dee2d7f82898e7a5f6d6b032bf4ef0a7a591c50e2e2fe62fd67fbd510e0a102f5b91f0f31491c28f2d3dc",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93a8d36a32326809827db0b17ea679ae5214d8e71a417c389337611a5f1d01ef283fefd3c7a6ec12c5e54d57ecc51d11eb0d11b821ae5b8918",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00113016f41b49b06e997cda91c3f808269a30ae33402bcb5b1229d356af9cfe416ff9a8d77942535780819854f306202205ab96e4aab213b7",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93db78754d5dbd5ab2d4a5e8babb7fa326e68ce02b9a0509d8c3cac0b90473d633e04a46d9f608c2b96fe72d5fc5ac332ba48550c55f7d8261",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00259530a3968b2bbc46263c68131f3d3158670efdb7c1ab462c29f10096a0a4010245d7df312bd0864c48281cdd003f4a03eb3d42af1fcef4",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9391f06aebe7fd201944aff99782540f9d5cbf2c2fbc54d225bd04abd8af1c5230e454d5bc13bbe2e211e3a487ed9c6a85f9e4bf9b939778bb",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9391f06aebe7fd201944aff99782540f9dc601de17252248979e3d39d3761afdd38709022ddf66bd996c23ddcd1d225b8e6e34f5dfa0ed35d0",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0010f2b5b87a0f316ea6224fede8ecc2dcae7a53e02d05d76aeb9c7d0abc377eadf22dca82538a50a7e325e55bf4a386acbad16dca4299417d",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c934af51683d908e4a75dd54b19388091a56e9486943a62070af079cf804379a09f982004578529c81c273246075ea8ee9285ebed387426c0e5",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e002034174e68bd110f5bef0403fbc7a270747bc4e2d1108908b7102fc129c57a03a1cc7c40b8508d33e151d72e9664def16015a756b87837ce",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00113016f41b49b06e997cda91c3f808269a30ae33402bcb5b1229",
         "http://www.w3.org/2001/XMLSchema-instance",
         "http://www.nepes.co.kr",
         "https://dart.fss.or.kr/",
@@ -920,12 +1039,13 @@
         "https://plus.kipris.or.kr/",
         "https://www.google.com/search?q=%EB%84%A5%EC%8A%A4%ED%8B%B4+KIPRIS+%ED%8A%B9%ED%97%88",
         "https://www.google.com/search?q=%EB%84%A5%EC%8A%A4%ED%8B%B4+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
-        "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
-        "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
         "https://www.google.com/search?q=%EB%84%A5%EC%8A%A4%ED%8B%B4+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
         "https://www.google.com/search?q=%EB%84%A5%EC%8A%A4%ED%8B%B4+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
         "https://www.google.com/search?q=%EB%84%A5%EC%8A%A4%ED%8B%B4+IR",
         "https://www.google.com/search?q=%EB%84%A5%EC%8A%A4%ED%8B%B4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+        "https://www.google.com/search?q=%EB%84%A5%EC%8A%A4%ED%8B%B4+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
+        "https://www.google.com/search?q=%EB%84%A5%EC%8A%A4%ED%8B%B4+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
+        "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
         "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1126"
       ],
       "fallback_urls": [
@@ -949,12 +1069,12 @@
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0015cb4c41f36fe90d0f0813f20abf79b1bc2b1ab916ac3d5293bf4e67c7487cc1bf52d494c085748c41b779fa7057a3bb126e4d89330d5733",
         "https://www.google.com/search?q=%EB%84%A5%EC%8A%A4%ED%8B%B4+KIPRIS+%ED%8A%B9%ED%97%88",
         "https://www.google.com/search?q=%EB%84%A5%EC%8A%A4%ED%8B%B4+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
-        "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
-        "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
         "https://www.google.com/search?q=%EB%84%A5%EC%8A%A4%ED%8B%B4+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
         "https://www.google.com/search?q=%EB%84%A5%EC%8A%A4%ED%8B%B4+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
         "https://www.google.com/search?q=%EB%84%A5%EC%8A%A4%ED%8B%B4+IR",
         "https://www.google.com/search?q=%EB%84%A5%EC%8A%A4%ED%8B%B4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+        "https://www.google.com/search?q=%EB%84%A5%EC%8A%A4%ED%8B%B4+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
+        "https://www.google.com/search?q=%EB%84%A5%EC%8A%A4%ED%8B%B4+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
         "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
         "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9328f5a912c888a1604ff579e87f821b091a0665246f3173a6cae241fd42c7005fb584f7181202ddb2669153aa54387f5f558cf6b7b6d352be",
@@ -1336,28 +1456,10 @@
           "source_file": "data/반도체/넥스틴/finance/넥스틴_finance.json",
           "evidence_level": "DIRECT_EVIDENCE",
           "matched_keywords": [
-            "매출"
-          ],
-          "snippet": "summary: 넥스틴은 2023년과 2024년에 걸쳐 높은 영업이익률과 ROE를 기록하며 견조한 수익성을 보였으나, 2025년에는 매출 감소와 함께 영업이익 및 순이익이 적자 전환하며 수익성 악화가 두드러졌다.",
-          "urls": [],
-          "fallback_urls": [
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "https://comp.fnguide.com/",
-            "https://www.google.com/search?q=%EB%84%A5%EC%8A%A4%ED%8B%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-          ]
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/넥스틴/finance/넥스틴_finance.json",
-          "evidence_level": "DIRECT_EVIDENCE",
-          "matched_keywords": [
             "매출",
-            "매출액",
             "성장"
           ],
-          "snippet": "key_thesis: 2024년에는 매출액이 1137억 원으로 증가하고 영업이익률 41.31%, ROE 24.38%를 유지하며 성장세를 이어갔다.",
+          "snippet": "summary: 넥스틴은 2024년 매출이 29.3% 성장하며 이전 연도의 역성장에서 회복세를 보였으나, 2023년 FCF가 큰 폭으로 감소한 점은 주목할 필요가 있다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1373,9 +1475,9 @@
           "evidence_level": "DIRECT_EVIDENCE",
           "matched_keywords": [
             "매출",
-            "매출액"
+            "성장"
           ],
-          "snippet": "key_risks: 2025년 매출액이 669억 원으로 급감하고 영업이익률 -1.73%, ROE -1.76%를 기록하며 수익성이 크게 악화되었다.",
+          "snippet": "key_thesis: 2024년 매출 성장률이 29.3%로 이전 연도(-23.5%)의 역성장에서 벗어나 회복세를 보였다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1411,7 +1513,7 @@
             "매출",
             "성장"
           ],
-          "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수",
+          "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1428,7 +1530,24 @@
           "matched_keywords": [
             "sales"
           ],
-          "snippet": "sales: 66914327141.0",
+          "snippet": "sales: 113719875873.0",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=%EB%84%A5%EC%8A%A4%ED%8B%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/넥스틴/finance/넥스틴_finance_agent_packet.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "sales"
+          ],
+          "snippet": "sales_growth: 29.329167944621105",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1445,7 +1564,7 @@
           "matched_keywords": [
             "sales"
           ],
-          "snippet": "year: 2023 | sales: 87930571023.0 | operating_income: 36165536410.0 | net_income: 30933600268.0 | total_assets: 142961730739.0 | total_liabilities: 15952635677.0 | total_equity: 127009095062.0 | capex: 16630048050 | ocf: 396939068 | fcf: -16233108982 | interest: 1871800411.0 | ROE: 24.355421360099953 | 영업이익률: 41.129650347136014 | 부채비율: 12.560230957643354 | 이자보상배율: 19.321256795044054",
+          "snippet": "year: 2021 | sales: 57108751854.0 | operating_income: 22064316158.0 | net_income: 18074794225.0 | total_assets: 75979578996.0 | total_liabilities: 10352003267.0 | total_equity: 65627575729.0 | current_assets: 59559552194.0 | current_liabilities: 9528614723.0 | capex: 4141985284 | ocf: 10405860711 | fcf: 6263875427 | interest_expense: 333365263.0 | roe: 27.541462600473565 | operating_margin: 38.63561265427056 | curren",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1462,7 +1581,7 @@
           "matched_keywords": [
             "sales"
           ],
-          "snippet": "year: 2024 | sales: 113719875873.0 | operating_income: 46974727733.0 | net_income: 38427640891.0 | total_assets: 189816880876.0 | total_liabilities: 32176812442.0 | total_equity: 157640068434.0 | capex: 15836121029 | ocf: 42758171502 | fcf: 26922050473 | interest: 1462419746.0 | ROE: 24.376823273892896 | 영업이익률: 41.30740327703171 | 부채비율: 20.411569699027147 | 이자보상배율: 32.12123459183653",
+          "snippet": "year: 2022 | sales: 114942873898.0 | operating_income: 56503520126.0 | net_income: 43409750571.0 | total_assets: 121191635691.0 | total_liabilities: 21553973431.0 | total_equity: 99637662260.0 | current_assets: 99713358310.0 | current_liabilities: 20210449478.0 | capex: 4618082515 | ocf: 51112529145 | fcf: 46494446630 | interest_expense: 4242183769.0 | roe: 43.567612473408104 | operating_margin: 49.15791489269798 | c",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1491,10 +1610,9 @@
           "source_file": "data/반도체/넥스틴/finance/넥스틴_finance.json",
           "evidence_level": "DIRECT_EVIDENCE",
           "matched_keywords": [
-            "영업이익률",
-            "수익성"
+            "FCF"
           ],
-          "snippet": "summary: 넥스틴은 2023년과 2024년에 걸쳐 높은 영업이익률과 ROE를 기록하며 견조한 수익성을 보였으나, 2025년에는 매출 감소와 함께 영업이익 및 순이익이 적자 전환하며 수익성 악화가 두드러졌다.",
+          "snippet": "summary: 넥스틴은 2024년 매출이 29.3% 성장하며 이전 연도의 역성장에서 회복세를 보였으나, 2023년 FCF가 큰 폭으로 감소한 점은 주목할 필요가 있다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1512,7 +1630,7 @@
             "영업이익률",
             "수익성"
           ],
-          "snippet": "key_thesis: 2023년 41.13%의 높은 영업이익률과 24.36%의 ROE를 기록하며 뛰어난 수익성을 보여주었다.",
+          "snippet": "영업이익률은 40% 이상으로 높은 수준을 유지하고 있으며, ROE 또한 24%대로 견조한 수익성을 나타내고 있다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1529,7 +1647,7 @@
           "matched_keywords": [
             "영업이익률"
           ],
-          "snippet": "key_thesis: 2024년에는 매출액이 1137억 원으로 증가하고 영업이익률 41.31%, ROE 24.38%를 유지하며 성장세를 이어갔다.",
+          "snippet": "key_thesis: 영업이익률이 2021년 38.6%에서 2024년 41.3%로 꾸준히 높은 수준을 유지하고 있다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1544,10 +1662,9 @@
           "source_file": "data/반도체/넥스틴/finance/넥스틴_finance.json",
           "evidence_level": "DIRECT_EVIDENCE",
           "matched_keywords": [
-            "현금흐름",
             "FCF"
           ],
-          "snippet": "key_thesis: 2024년 긍정적인 영업활동현금흐름(OCF) 427억 원과 잉여현금흐름(FCF) 269억 원을 기록하며 현금 창출 능력을 입증했다.",
+          "snippet": "key_thesis: 2024년 FCF는 269억으로 2023년(-162억) 대비 큰 폭으로 개선되었다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1560,12 +1677,29 @@
         {
           "source_group": "FINANCE",
           "source_file": "data/반도체/넥스틴/finance/넥스틴_finance.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "FCF"
+          ],
+          "snippet": "key_risks: 2023년 FCF가 -162억으로 큰 폭의 마이너스를 기록하며 현금 창출 능력에 대한 우려가 제기되었다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=%EB%84%A5%EC%8A%A4%ED%8B%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/넥스틴/finance/넥스틴_finance_agent_packet.json",
           "evidence_level": "DIRECT_EVIDENCE",
           "matched_keywords": [
             "영업이익률",
             "수익성"
           ],
-          "snippet": "key_risks: 2025년 매출액이 669억 원으로 급감하고 영업이익률 -1.73%, ROE -1.76%를 기록하며 수익성이 크게 악화되었다.",
+          "snippet": "report_core_points: 영업이익률: 넥스틴 2024 기준 영업이익률 값은 41.31%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1577,13 +1711,12 @@
         },
         {
           "source_group": "FINANCE",
-          "source_file": "data/반도체/넥스틴/finance/넥스틴_finance.json",
+          "source_file": "data/반도체/넥스틴/finance/넥스틴_finance_agent_packet.json",
           "evidence_level": "DIRECT_EVIDENCE",
           "matched_keywords": [
-            "현금흐름",
-            "FCF"
+            "수익성"
           ],
-          "snippet": "key_risks: 2025년 잉여현금흐름(FCF)이 -415억 원으로 대폭 감소하며 현금 창출 능력에 대한 의문이 제기된다.",
+          "snippet": "report_core_points: ROE: 넥스틴 2024 기준 ROE 값은 24.38%이며, 자기자본 대비 수익성 수준을 확인하는 지표입니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1600,24 +1733,7 @@
           "matched_keywords": [
             "FCF"
           ],
-          "snippet": "report_core_points: FCF: 넥스틴 2025 기준 FCF 값은 -41,568,110,981원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
-          "urls": [],
-          "fallback_urls": [
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "https://comp.fnguide.com/",
-            "https://www.google.com/search?q=%EB%84%A5%EC%8A%A4%ED%8B%B4+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-          ]
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/넥스틴/finance/넥스틴_finance_agent_packet.json",
-          "evidence_level": "DIRECT_EVIDENCE",
-          "matched_keywords": [
-            "영업이익률"
-          ],
-          "snippet": "missing_prompt_metrics: 영업이익률",
+          "snippet": "report_core_points: FCF: 넥스틴 2024 기준 FCF 값은 26,922,050,473원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",

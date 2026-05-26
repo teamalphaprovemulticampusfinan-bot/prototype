@@ -5,10 +5,10 @@
   "company_dir": "coasia",
   "opinion": "보유",
   "confidence": 0.5,
-  "summary": "코아시아에 대해 검증 가능한 핵심 근거는 다음과 같습니다. news_count 값은 10count입니다. rss_count 값은 11count입니다. related_keyword_count 값은 0count입니다.",
+  "summary": "코아시아에 대해 검증 가능한 핵심 근거는 다음과 같습니다. news_count 값은 10count입니다. rss_count 값은 10count입니다. related_keyword_count 값은 0count입니다.",
   "key_points": [
     "news_count 값은 10count입니다.",
-    "rss_count 값은 11count입니다.",
+    "rss_count 값은 10count입니다.",
     "related_keyword_count 값은 0count입니다."
   ],
   "risks": [],
@@ -23,7 +23,7 @@
     },
     {
       "claim_id": "issue.auto_cl.003",
-      "text": "rss_count 값은 11count입니다.",
+      "text": "rss_count 값은 10count입니다.",
       "evidence_ids": [
         "issue.ev.002"
       ],
@@ -54,10 +54,10 @@
       "source_type": "issue",
       "source": "issue_data_collection",
       "metric": "rss_count",
-      "value": 11,
+      "value": 10,
       "unit": "count",
       "period": null,
-      "snippet": "issue_data_collection | rss_count | 값: 11count"
+      "snippet": "issue_data_collection | rss_count | 값: 10count"
     },
     {
       "evidence_id": "issue.ev.003",
@@ -126,11 +126,31 @@
       "metric": "rss_title",
       "value": null,
       "unit": null,
+      "period": "Mon, 25 May 2026 17:49:46 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 25 May 2026 17:49:46 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.010",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 25 May 2026 17:37:42 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 25 May 2026 17:37:42 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.011",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
       "period": "Fri, 22 May 2026 07:01:23 +0000",
       "snippet": "Semiconductor Engineering | Fri, 22 May 2026 07:01:23 +0000 기준 rss_title | 값: 확인 불가"
     },
     {
-      "evidence_id": "issue.ev.010",
+      "evidence_id": "issue.ev.012",
       "source_type": "issue_rss",
       "source": "Semiconductor Engineering",
       "metric": "rss_title",
@@ -140,7 +160,7 @@
       "snippet": "Semiconductor Engineering | Thu, 21 May 2026 16:02:35 +0000 기준 rss_title | 값: 확인 불가"
     },
     {
-      "evidence_id": "issue.ev.011",
+      "evidence_id": "issue.ev.013",
       "source_type": "issue_rss",
       "source": "Semiconductor Engineering",
       "metric": "rss_title",
@@ -148,26 +168,6 @@
       "unit": null,
       "period": "Thu, 21 May 2026 07:07:38 +0000",
       "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:07:38 +0000 기준 rss_title | 값: 확인 불가"
-    },
-    {
-      "evidence_id": "issue.ev.012",
-      "source_type": "issue_rss",
-      "source": "Semiconductor Engineering",
-      "metric": "rss_title",
-      "value": null,
-      "unit": null,
-      "period": "Thu, 21 May 2026 07:05:20 +0000",
-      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:05:20 +0000 기준 rss_title | 값: 확인 불가"
-    },
-    {
-      "evidence_id": "issue.ev.013",
-      "source_type": "issue_rss",
-      "source": "Semiconductor Engineering",
-      "metric": "rss_title",
-      "value": null,
-      "unit": null,
-      "period": "Thu, 21 May 2026 07:04:25 +0000",
-      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:04:25 +0000 기준 rss_title | 값: 확인 불가"
     }
   ],
   "evidence": [
@@ -186,10 +186,10 @@
       "source_type": "issue",
       "source": "issue_data_collection",
       "metric": "rss_count",
-      "value": 11,
+      "value": 10,
       "unit": "count",
       "period": null,
-      "snippet": "issue_data_collection | rss_count | 값: 11count"
+      "snippet": "issue_data_collection | rss_count | 값: 10count"
     },
     {
       "evidence_id": "issue.ev.003",
@@ -258,11 +258,31 @@
       "metric": "rss_title",
       "value": null,
       "unit": null,
+      "period": "Mon, 25 May 2026 17:49:46 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 25 May 2026 17:49:46 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.010",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 25 May 2026 17:37:42 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 25 May 2026 17:37:42 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.011",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
       "period": "Fri, 22 May 2026 07:01:23 +0000",
       "snippet": "Semiconductor Engineering | Fri, 22 May 2026 07:01:23 +0000 기준 rss_title | 값: 확인 불가"
     },
     {
-      "evidence_id": "issue.ev.010",
+      "evidence_id": "issue.ev.012",
       "source_type": "issue_rss",
       "source": "Semiconductor Engineering",
       "metric": "rss_title",
@@ -272,7 +292,7 @@
       "snippet": "Semiconductor Engineering | Thu, 21 May 2026 16:02:35 +0000 기준 rss_title | 값: 확인 불가"
     },
     {
-      "evidence_id": "issue.ev.011",
+      "evidence_id": "issue.ev.013",
       "source_type": "issue_rss",
       "source": "Semiconductor Engineering",
       "metric": "rss_title",
@@ -280,35 +300,15 @@
       "unit": null,
       "period": "Thu, 21 May 2026 07:07:38 +0000",
       "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:07:38 +0000 기준 rss_title | 값: 확인 불가"
-    },
-    {
-      "evidence_id": "issue.ev.012",
-      "source_type": "issue_rss",
-      "source": "Semiconductor Engineering",
-      "metric": "rss_title",
-      "value": null,
-      "unit": null,
-      "period": "Thu, 21 May 2026 07:05:20 +0000",
-      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:05:20 +0000 기준 rss_title | 값: 확인 불가"
-    },
-    {
-      "evidence_id": "issue.ev.013",
-      "source_type": "issue_rss",
-      "source": "Semiconductor Engineering",
-      "metric": "rss_title",
-      "value": null,
-      "unit": null,
-      "period": "Thu, 21 May 2026 07:04:25 +0000",
-      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:04:25 +0000 기준 rss_title | 값: 확인 불가"
     }
   ],
   "fallback_used": false,
   "warning_note": "검증 불가 claim 6개를 제거한 뒤 grounding 기준을 재검증했습니다.",
   "raw_payload": {
-    "analysis_text": "opinion: 보유\nconfidence: 0.65\n\n1.  **핵심 이슈 요약**\n    코아시아는 시스템반도체 설계 전문 디자인하우스로서 시스템온칩(SoC) 설계, 관련 플랫폼 IP 개발, 패키징 사업을 영위하고 있다. 최근 HBM(고대역폭메모리) 관련주들의 강세 속에서 코아시아 역시 언급되고 있으나, 일부 뉴스에서는 공급망 재편 이슈와 수익성 부담이 동시에 거론되며 약세 흐름을 기록하는 모습도 나타나고 있다. 반면, 일부 반도체 관련주와 함께 상대적으로 안정적인 흐름을 유지했다는 분석도 존재한다.\n\n2.  **기업에 미치는 영향**\n    코아시아의 사업 영역은 AI 반도체 생태계 확대, 시스템반도체 시장 성장 등 거시적인 산업 트렌드와 연관성이 높다. 특히 HBM 관련주들의 움직임 속에서 언급되는 것은 긍정적인 신호로 해석될 수 있으나, 공급망 재편 및 수익성 부담과 같은 부정적인 요인도 동시에 존재하여 주가 흐름에 변동성을 야기할 수 있다.\n\n3.  **긍정 시그널**\n    *   **시스템반도체 설계 전문 디자인하우스:** 코아시아는 시스템온칩(SoC) 설계, 플랫폼 IP 개발, 패키징 사업을 영위하며 시스템반도체 시장 성장의 수혜가 예상된다. (뉴스 기반)\n    *   **AI 반도체 생태계 연관성:** HBM 관련주들의 강세 속에서 코아시아가 언급되는 것은 AI 반도체 생태계 확대와 관련된 잠재적 수혜 가능성을 시사한다. (뉴스 기반)\n    *   **상대적 안정적 흐름:** 일부 반도체 관련주와 함께 상대적으로 안정적인 흐름을 유지했다는 분석이 있다. (뉴스 기반)\n    *   **부품 및 소재군 동반 상승:** 노바텍, PS일렉트로닉스, 시노펙스, 팸텍 등과 함께 동반 상승하며 업종 저변 확대를 보인 사례가 있다. (뉴스 기반)\n\n4.  **부정 시그널/리스크**\n    *   **공급망 재편 이슈 및 수익성 부담:** 영풍, 이랜텍, 코아시아 씨엠 등과 함께 공급망 재편 이슈와 수익성 부담이 동시에 거론되고 있다. (뉴스 기반)\n    *   **약세 흐름 기록:** 일부 뉴스에서는 나노신소재, 코아시아가 내림세를 기록 중이라고 언급하고 있다. (뉴스 기반)\n    *   **실적 가시성 부족:** 중소형 부품주 전반에 걸쳐 실적 가시성 부족이 투자 심리를 제한하는 모습이 나타나고 있으며, 코아시아도 이러한 맥락에서 영향을 받을 수 있다. (뉴스 기반)\n\n5.  **향후 체크포인트**\n    *   **공급망 재편 영향 및 수익성 개선 여부:** 코아시아가 언급된 공급망 재편 이슈가 실제 실적에 미치는 영향과 수익성 개선 노력을 지속적으로 확인해야 한다.\n    *   **시스템반도체 및 AI 시장 성장 수혜 가시화:** 코아시아의 핵심 사업인 SoC 설계 및 IP 개발 역량이 실제 수주 및 매출 증대로 이어지는지 여부를 주시해야 한다.\n    *   **주가 변동성 요인 분석:** 일부 뉴스에서 나타나는 약세 흐름과 안정적 흐름 유지라는 상반된 신호를 종합적으로 고려하여 주가 방향성을 판단해야 한다.",
-    "markdown_report": "# 코아시아 이슈 리포트\n\n## 분석 결과\nopinion: 보유\nconfidence: 0.65\n\n1.  **핵심 이슈 요약**\n    코아시아는 시스템반도체 설계 전문 디자인하우스로서 시스템온칩(SoC) 설계, 관련 플랫폼 IP 개발, 패키징 사업을 영위하고 있다. 최근 HBM(고대역폭메모리) 관련주들의 강세 속에서 코아시아 역시 언급되고 있으나, 일부 뉴스에서는 공급망 재편 이슈와 수익성 부담이 동시에 거론되며 약세 흐름을 기록하는 모습도 나타나고 있다. 반면, 일부 반도체 관련주와 함께 상대적으로 안정적인 흐름을 유지했다는 분석도 존재한다.\n\n2.  **기업에 미치는 영향**\n    코아시아의 사업 영역은 AI 반도체 생태계 확대, 시스템반도체 시장 성장 등 거시적인 산업 트렌드와 연관성이 높다. 특히 HBM 관련주들의 움직임 속에서 언급되는 것은 긍정적인 신호로 해석될 수 있으나, 공급망 재편 및 수익성 부담과 같은 부정적인 요인도 동시에 존재하여 주가 흐름에 변동성을 야기할 수 있다.\n\n3.  **긍정 시그널**\n    *   **시스템반도체 설계 전문 디자인하우스:** 코아시아는 시스템온칩(SoC) 설계, 플랫폼 IP 개발, 패키징 사업을 영위하며 시스템반도체 시장 성장의 수혜가 예상된다. (뉴스 기반)\n    *   **AI 반도체 생태계 연관성:** HBM 관련주들의 강세 속에서 코아시아가 언급되는 것은 AI 반도체 생태계 확대와 관련된 잠재적 수혜 가능성을 시사한다. (뉴스 기반)\n    *   **상대적 안정적 흐름:** 일부 반도체 관련주와 함께 상대적으로 안정적인 흐름을 유지했다는 분석이 있다. (뉴스 기반)\n    *   **부품 및 소재군 동반 상승:** 노바텍, PS일렉트로닉스, 시노펙스, 팸텍 등과 함께 동반 상승하며 업종 저변 확대를 보인 사례가 있다. (뉴스 기반)\n\n4.  **부정 시그널/리스크**\n    *   **공급망 재편 이슈 및 수익성 부담:** 영풍, 이랜텍, 코아시아 씨엠 등과 함께 공급망 재편 이슈와 수익성 부담이 동시에 거론되고 있다. (뉴스 기반)\n    *   **약세 흐름 기록:** 일부 뉴스에서는 나노신소재, 코아시아가 내림세를 기록 중이라고 언급하고 있다. (뉴스 기반)\n    *   **실적 가시성 부족:** 중소형 부품주 전반에 걸쳐 실적 가시성 부족이 투자 심리를 제한하는 모습이 나타나고 있으며, 코아시아도 이러한 맥락에서 영향을 받을 수 있다. (뉴스 기반)\n\n5.  **향후 체크포인트**\n    *   **공급망 재편 영향 및 수익성 개선 여부:** 코아시아가 언급된 공급망 재편 이슈가 실제 실적에 미치는 영향과 수익성 개선 노력을 지속적으로 확인해야 한다.\n    *   **시스템반도체 및 AI 시장 성장 수혜 가시화:** 코아시아의 핵심 사업인 SoC 설계 및 IP 개발 역량이 실제 수주 및 매출 증대로 이어지는지 여부를 주시해야 한다.\n    *   **주가 변동성 요인 분석:** 일부 뉴스에서 나타나는 약세 흐름과 안정적 흐름 유지라는 상반된 신호를 종합적으로 고려하여 주가 방향성을 판단해야 한다.\n",
+    "analysis_text": "opinion: 보유\nconfidence: 0.65\n\n1.  **핵심 이슈 요약**\n    코아시아는 시스템반도체 설계 전문 디자인하우스로서 시스템온칩(SoC) 설계, 관련 플랫폼 IP 개발, 패키징 사업을 영위하고 있다. 최근 HBM(고대역폭메모리) 관련주들의 강세 속에서 코아시아 역시 시스템반도체 분야의 성장 가능성과 연관되어 언급되고 있다. 다만, 일부 부품 및 소재 관련주들이 동반 상승하는 흐름 속에서도 코아시아는 내림세를 기록하는 등 개별 종목의 흐름은 엇갈리는 양상을 보이고 있다. 공급망 재편 이슈와 수익성 부담이 거론되는 다른 반도체 관련주들과 함께 언급되기도 한다.\n\n2.  **기업에 미치는 영향**\n    코아시아는 시스템반도체 설계 전문 기업으로서 AI 반도체 생태계 확대, HBM 수요 증가 등 거시적인 반도체 시장 트렌드의 수혜를 잠재적으로 받을 수 있다. 특히 시스템온칩(SoC) 설계 및 플랫폼 IP 개발 역량은 고부가가치 사업으로의 확장을 기대하게 한다. 그러나 최근 뉴스에서는 다른 부품주와 함께 언급되면서도 내림세를 기록하는 등, 시장 전반의 긍정적인 흐름이 코아시아에 직접적으로 반영되지 못하고 있음을 시사한다. 또한, 공급망 재편 및 수익성 부담과 같은 업종 전반의 이슈가 영향을 미칠 가능성도 존재한다.\n\n3.  **긍정 시그널**\n    *   **시스템반도체 설계 전문성:** 코아시아는 시스템온칩(SoC) 설계 및 관련 플랫폼 IP 개발 역량을 보유하고 있으며, 이는 AI 반도체 시장 확대와 같은 거시적인 트렌드 속에서 성장 동력이 될 수 있다.\n    *   **HBM 관련주와 함께 언급:** HBM 관련주들의 강세 속에서 코아시아가 시스템반도체 분야의 디자인하우스로서 함께 언급되는 것은 시장의 관심이 집중되는 분야와 연관성이 있음을 시사한다.\n\n4.  **부정 시그널/리스크**\n    *   **개별 종목의 약세 흐름:** 최근 뉴스에서 코아시아가 나노신소재, 케이엔제이, 루멘스 등과 함께 내림세를 기록 중이라는 언급이 있어, 시장 전반의 긍정적인 흐름에도 불구하고 개별적인 주가 모멘텀이 약한 것으로 보인다.\n    *   **수익성 부담 및 공급망 재편 이슈:** 영풍, 이랜텍, 코아시아 씨엠 등과 함께 공급망 재편 이슈와 수익성 부담이 거론되는 맥락이 있어, 이러한 업종 전반의 부담이 코아시아에도 영향을 미칠 수 있다. (단, 코아시아 씨엠은 코아시아와 직접적인 관계가 명확히 드러나지 않으므로, 해당 언급은 업종 내 유사 기업과의 비교로 해석될 수 있음)\n    *   **실적 가시성 부족 가능성:** 일부 중소형 부품주에서 실적 가시성 부족이 투자 심리를 제한한다는 언급이 있는데, 코아시아 역시 이러한 맥락에서 투자 심리가 위축될 가능성을 배제할 수 없다.\n\n5.  **향후 체크포인트**\n    *   코아시아의 구체적인 실적 발표 및 향후 실적 전망.\n    *   시스템반도체 설계 사업 부문의 신규 수주 현황 및 구체적인 사업 성과.\n    *   AI 반도체 시장 확대 및 HBM 관련 기술 발전이 코아시아의 사업에 미치는 실질적인 영향.\n    *   공급망 재편 및 수익성 부담 이슈에 대한 코아시아의 대응 전략 및 그 결과.",
+    "markdown_report": "# 코아시아 이슈 리포트\n\n## 분석 결과\nopinion: 보유\nconfidence: 0.65\n\n1.  **핵심 이슈 요약**\n    코아시아는 시스템반도체 설계 전문 디자인하우스로서 시스템온칩(SoC) 설계, 관련 플랫폼 IP 개발, 패키징 사업을 영위하고 있다. 최근 HBM(고대역폭메모리) 관련주들의 강세 속에서 코아시아 역시 시스템반도체 분야의 성장 가능성과 연관되어 언급되고 있다. 다만, 일부 부품 및 소재 관련주들이 동반 상승하는 흐름 속에서도 코아시아는 내림세를 기록하는 등 개별 종목의 흐름은 엇갈리는 양상을 보이고 있다. 공급망 재편 이슈와 수익성 부담이 거론되는 다른 반도체 관련주들과 함께 언급되기도 한다.\n\n2.  **기업에 미치는 영향**\n    코아시아는 시스템반도체 설계 전문 기업으로서 AI 반도체 생태계 확대, HBM 수요 증가 등 거시적인 반도체 시장 트렌드의 수혜를 잠재적으로 받을 수 있다. 특히 시스템온칩(SoC) 설계 및 플랫폼 IP 개발 역량은 고부가가치 사업으로의 확장을 기대하게 한다. 그러나 최근 뉴스에서는 다른 부품주와 함께 언급되면서도 내림세를 기록하는 등, 시장 전반의 긍정적인 흐름이 코아시아에 직접적으로 반영되지 못하고 있음을 시사한다. 또한, 공급망 재편 및 수익성 부담과 같은 업종 전반의 이슈가 영향을 미칠 가능성도 존재한다.\n\n3.  **긍정 시그널**\n    *   **시스템반도체 설계 전문성:** 코아시아는 시스템온칩(SoC) 설계 및 관련 플랫폼 IP 개발 역량을 보유하고 있으며, 이는 AI 반도체 시장 확대와 같은 거시적인 트렌드 속에서 성장 동력이 될 수 있다.\n    *   **HBM 관련주와 함께 언급:** HBM 관련주들의 강세 속에서 코아시아가 시스템반도체 분야의 디자인하우스로서 함께 언급되는 것은 시장의 관심이 집중되는 분야와 연관성이 있음을 시사한다.\n\n4.  **부정 시그널/리스크**\n    *   **개별 종목의 약세 흐름:** 최근 뉴스에서 코아시아가 나노신소재, 케이엔제이, 루멘스 등과 함께 내림세를 기록 중이라는 언급이 있어, 시장 전반의 긍정적인 흐름에도 불구하고 개별적인 주가 모멘텀이 약한 것으로 보인다.\n    *   **수익성 부담 및 공급망 재편 이슈:** 영풍, 이랜텍, 코아시아 씨엠 등과 함께 공급망 재편 이슈와 수익성 부담이 거론되는 맥락이 있어, 이러한 업종 전반의 부담이 코아시아에도 영향을 미칠 수 있다. (단, 코아시아 씨엠은 코아시아와 직접적인 관계가 명확히 드러나지 않으므로, 해당 언급은 업종 내 유사 기업과의 비교로 해석될 수 있음)\n    *   **실적 가시성 부족 가능성:** 일부 중소형 부품주에서 실적 가시성 부족이 투자 심리를 제한한다는 언급이 있는데, 코아시아 역시 이러한 맥락에서 투자 심리가 위축될 가능성을 배제할 수 없다.\n\n5.  **향후 체크포인트**\n    *   코아시아의 구체적인 실적 발표 및 향후 실적 전망.\n    *   시스템반도체 설계 사업 부문의 신규 수주 현황 및 구체적인 사업 성과.\n    *   AI 반도체 시장 확대 및 HBM 관련 기술 발전이 코아시아의 사업에 미치는 실질적인 영향.\n    *   공급망 재편 및 수익성 부담 이슈에 대한 코아시아의 대응 전략 및 그 결과.\n",
     "news_count": 10,
-    "rss_count": 11,
+    "rss_count": 10,
     "related_keyword_count": 0,
     "df_news_rows": 139,
     "llm_error": null,
@@ -317,7 +317,7 @@
       "코아시아 관련 공개 뉴스 제목: HBM 본더의 강자 한미반도체, AI 반도체 생태계의 판을 바꾼다",
       "코아시아 관련 공개 뉴스 제목: [골든크로스 종목] 필옵틱스·한울앤제주 불기둥... 진짜 기회는 따로 있...",
       "코아시아 관련 공개 뉴스 제목: 부품에서 헬스케어·전장까지…이엠텍, 고부가 제품군으로 실적 우상향",
-      "코아시아 이슈 분석에서 수집된 RSS 항목 수는 11건입니다.",
+      "코아시아 이슈 분석에서 수집된 RSS 항목 수는 10건입니다.",
       "코아시아 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
       "코아시아 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다."
     ],
@@ -336,7 +336,7 @@
     "supported_claims": [],
     "unsupported_claims": [
       "코아시아 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
-      "코아시아 이슈 분석에서 수집된 RSS 항목 수는 11건입니다.",
+      "코아시아 이슈 분석에서 수집된 RSS 항목 수는 10건입니다.",
       "코아시아 이슈 키워드 엑셀에서 확인된 관련 행 수는 0건입니다.",
       "코아시아 관련 공개 뉴스 제목: 부품에서 헬스케어·전장까지…이엠텍, 고부가 제품군으로 실적 우상향",
       "코아시아 관련 공개 뉴스 제목: [골든크로스 종목] 필옵틱스·한울앤제주 불기둥... 진짜 기회는 따로 있...",
@@ -368,7 +368,7 @@
       },
       {
         "claim_id": "issue.cl.002",
-        "text": "코아시아 이슈 분석에서 수집된 RSS 항목 수는 11건입니다.",
+        "text": "코아시아 이슈 분석에서 수집된 RSS 항목 수는 10건입니다.",
         "evidence_ids": [
           "issue.ev.002"
         ],
@@ -452,7 +452,7 @@
     "unsupported_count": 0,
     "supported_claims": [
       "news_count 값은 10count입니다.",
-      "rss_count 값은 11count입니다.",
+      "rss_count 값은 10count입니다.",
       "related_keyword_count 값은 0count입니다."
     ],
     "unsupported_claims": [],
@@ -475,7 +475,7 @@
       },
       {
         "claim_id": "issue.auto_cl.003",
-        "text": "rss_count 값은 11count입니다.",
+        "text": "rss_count 값은 10count입니다.",
         "evidence_ids": [
           "issue.ev.002"
         ],
@@ -514,7 +514,7 @@
     "unsupported_count": 0,
     "supported_claims": [
       "news_count 값은 10count입니다.",
-      "rss_count 값은 11count입니다.",
+      "rss_count 값은 10count입니다.",
       "related_keyword_count 값은 0count입니다."
     ],
     "unsupported_claims": [],
@@ -537,7 +537,7 @@
       },
       {
         "claim_id": "issue.auto_cl.003",
-        "text": "rss_count 값은 11count입니다.",
+        "text": "rss_count 값은 10count입니다.",
         "evidence_ids": [
           "issue.ev.002"
         ],

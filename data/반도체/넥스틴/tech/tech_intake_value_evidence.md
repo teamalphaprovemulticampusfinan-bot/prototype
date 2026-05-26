@@ -1,10 +1,10 @@
 # 넥스틴 Tech Intake Value Evidence Bridge
 
 ## 1. 요약
-- 생성 시각: 2026-05-20T22:10:55
+- 생성 시각: 2026-05-26T06:58:10
 - 종합 점수: 80.43/100
 - 종합 라벨: VALUE_EVIDENCE_STRONG
-- 원천 문서 수: 132개
+- 원천 문서 수: 153개
 
 ## 2. 기술 → 사업화 → 재무 연결 근거
 | 항목 | 상태 | 점수 | 직접 | 간접 | 부분/교차 | 요약 |
@@ -32,18 +32,18 @@
 - [DIRECT_EVIDENCE] - 기술 우위가 확인되어도 고객 채택·양산·매출 전환·FCF 직접 근거가 약하면 보수적으로 반영합니다. (source=data/반도체/넥스틴/tech/_nepes_reference_schema/nepes_tech_chair_summary.md, keywords=양산, urls=http://www.w3.org/2001/XMLSchema-instance, http://www.nepes.co.kr)
 
 ### 매출 전환
-- [DIRECT_EVIDENCE] summary: 넥스틴은 2023년과 2024년에 걸쳐 높은 영업이익률과 ROE를 기록하며 견조한 수익성을 보였으나, 2025년에는 매출 감소와 함께 영업이익 및 순이익이 적자 전환하며 수익성 악화가 두드러졌다. (source=data/반도체/넥스틴/finance/넥스틴_finance.json, keywords=매출, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년에는 매출액이 1137억 원으로 증가하고 영업이익률 41.31%, ROE 24.38%를 유지하며 성장세를 이어갔다. (source=data/반도체/넥스틴/finance/넥스틴_finance.json, keywords=매출, 매출액, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_risks: 2025년 매출액이 669억 원으로 급감하고 영업이익률 -1.73%, ROE -1.76%를 기록하며 수익성이 크게 악화되었다. (source=data/반도체/넥스틴/finance/넥스틴_finance.json, keywords=매출, 매출액, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: 넥스틴은 2024년 매출이 29.3% 성장하며 이전 연도의 역성장에서 회복세를 보였으나, 2023년 FCF가 큰 폭으로 감소한 점은 주목할 필요가 있다. (source=data/반도체/넥스틴/finance/넥스틴_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 매출 성장률이 29.3%로 이전 연도(-23.5%)의 역성장에서 벗어나 회복세를 보였다. (source=data/반도체/넥스틴/finance/넥스틴_finance.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 - [DIRECT_EVIDENCE] missing_prompt_metrics: 매출성장률 (source=data/반도체/넥스틴/finance/넥스틴_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수 (source=data/반도체/넥스틴/finance/넥스틴_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] source_contexts: 필수 지표 산출 한계: 매출성장률 (source=data/반도체/넥스틴/finance/넥스틴_finance_agent_packet.json, keywords=매출, 성장, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] sales: 113719875873.0 (source=data/반도체/넥스틴/finance/넥스틴_finance_agent_packet.json, keywords=sales, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### 마진·원가·현금흐름 연결
-- [DIRECT_EVIDENCE] summary: 넥스틴은 2023년과 2024년에 걸쳐 높은 영업이익률과 ROE를 기록하며 견조한 수익성을 보였으나, 2025년에는 매출 감소와 함께 영업이익 및 순이익이 적자 전환하며 수익성 악화가 두드러졌다. (source=data/반도체/넥스틴/finance/넥스틴_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2023년 41.13%의 높은 영업이익률과 24.36%의 ROE를 기록하며 뛰어난 수익성을 보여주었다. (source=data/반도체/넥스틴/finance/넥스틴_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년에는 매출액이 1137억 원으로 증가하고 영업이익률 41.31%, ROE 24.38%를 유지하며 성장세를 이어갔다. (source=data/반도체/넥스틴/finance/넥스틴_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_thesis: 2024년 긍정적인 영업활동현금흐름(OCF) 427억 원과 잉여현금흐름(FCF) 269억 원을 기록하며 현금 창출 능력을 입증했다. (source=data/반도체/넥스틴/finance/넥스틴_finance.json, keywords=현금흐름, FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
-- [DIRECT_EVIDENCE] key_risks: 2025년 매출액이 669억 원으로 급감하고 영업이익률 -1.73%, ROE -1.76%를 기록하며 수익성이 크게 악화되었다. (source=data/반도체/넥스틴/finance/넥스틴_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] summary: 넥스틴은 2024년 매출이 29.3% 성장하며 이전 연도의 역성장에서 회복세를 보였으나, 2023년 FCF가 큰 폭으로 감소한 점은 주목할 필요가 있다. (source=data/반도체/넥스틴/finance/넥스틴_finance.json, keywords=FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] 영업이익률은 40% 이상으로 높은 수준을 유지하고 있으며, ROE 또한 24%대로 견조한 수익성을 나타내고 있다. (source=data/반도체/넥스틴/finance/넥스틴_finance.json, keywords=영업이익률, 수익성, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 영업이익률이 2021년 38.6%에서 2024년 41.3%로 꾸준히 높은 수준을 유지하고 있다. (source=data/반도체/넥스틴/finance/넥스틴_finance.json, keywords=영업이익률, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_thesis: 2024년 FCF는 269억으로 2023년(-162억) 대비 큰 폭으로 개선되었다. (source=data/반도체/넥스틴/finance/넥스틴_finance.json, keywords=FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
+- [DIRECT_EVIDENCE] key_risks: 2023년 FCF가 -162억으로 큰 폭의 마이너스를 기록하며 현금 창출 능력에 대한 우려가 제기되었다. (source=data/반도체/넥스틴/finance/넥스틴_finance.json, keywords=FCF, urls=https://dart.fss.or.kr/, https://opendart.fss.or.kr/)
 
 ### IP 품질
 - [DIRECT_EVIDENCE] legal_status: status=COLLECTED, count=None, score=0.7333, signal=None (source=data/반도체/넥스틴/tech/nextin_tech_ip_legal_features.json, keywords=legal_status, COLLECTED, urls=https://www.kipris.or.kr/khome/main.jsp, https://plus.kipris.or.kr/)

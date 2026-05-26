@@ -4,9 +4,9 @@
   "company": "원익IPS",
   "opinion": "보유",
   "confidence": 0.45,
-  "summary": "원익IPS에 대해 검증 가능한 핵심 근거는 다음과 같습니다. 원익IPS 마켓 분석 total_score 값은 0.0점입니다. 원익IPS stock_data.current_price 값은 125300입니다. 원익IPS stock_data.change 값은 13400입니다. 원익IPS stock_data.change_rate 값은 11.97%입니다. 원익IPS stock_data.raw.clpr 값은 125300입니다.",
+  "summary": "원익IPS에 대해 검증 가능한 핵심 근거는 다음과 같습니다. 원익IPS 마켓 분석 total_score 값은 62점입니다. 원익IPS stock_data.current_price 값은 125300입니다. 원익IPS stock_data.change 값은 13400입니다. 원익IPS stock_data.change_rate 값은 11.97%입니다. 원익IPS stock_data.raw.clpr 값은 125300입니다.",
   "key_points": [
-    "원익IPS 마켓 분석 total_score 값은 0.0점입니다.",
+    "원익IPS 마켓 분석 total_score 값은 62점입니다.",
     "원익IPS stock_data.current_price 값은 125300입니다.",
     "원익IPS stock_data.change 값은 13400입니다.",
     "원익IPS stock_data.change_rate 값은 11.97%입니다.",
@@ -16,7 +16,7 @@
   "claims": [
     {
       "claim_id": "market.cl.001",
-      "text": "원익IPS 마켓 분석 total_score 값은 0.0점입니다.",
+      "text": "원익IPS 마켓 분석 total_score 값은 62점입니다.",
       "evidence_ids": [
         "market.ev.001"
       ]
@@ -87,10 +87,10 @@
       "source_type": "market",
       "source": "market_graph_analysis",
       "metric": "total_score",
-      "value": 0.0,
+      "value": 62,
       "unit": "score",
       "period": null,
-      "snippet": "market_graph_analysis | total_score | 값: 0score"
+      "snippet": "market_graph_analysis | total_score | 값: 62score"
     },
     {
       "evidence_id": "market.ev.002",
@@ -289,10 +289,10 @@
       "source_type": "market",
       "source": "market_graph_analysis",
       "metric": "total_score",
-      "value": 0.0,
+      "value": 62,
       "unit": "score",
       "period": null,
-      "snippet": "market_graph_analysis | total_score | 값: 0score"
+      "snippet": "market_graph_analysis | total_score | 값: 62score"
     },
     {
       "evidence_id": "market.ev.002",
@@ -490,73 +490,73 @@
       "company": "원익IPS",
       "opinion": "보유",
       "confidence": 0.8,
-      "summary": "원익IPS 분석 중 LLM 호출 오류가 발생해 fallback 결과를 반환합니다.",
-      "total_score": 0.0,
+      "summary": "원익IPS는 AI 및 HBM 관련 반도체 후공정/패키징 산업의 높은 성장성과 밸류체인 내 우수한 위치를 바탕으로 긍정적인 시장 모멘텀을 보입니다. 다만, 거시 경제 불확실성과 경쟁 환경에 대한 정보 부족으로 인해 보유 의견을 제시합니다.",
+      "total_score": 62,
       "scoring": {
         "거시환경": {
-          "score": 0,
+          "score": 5,
           "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "산업매력도": {
-          "score": 0,
+          "score": 18,
           "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "경쟁위치": {
-          "score": 0,
+          "score": 12,
           "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "정책수혜": {
-          "score": 0,
+          "score": 10,
           "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         },
         "시장모멘텀": {
-          "score": 0,
+          "score": 17,
           "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
         }
       },
       "market_environment": {
         "oecd_cli": "",
-        "industry_stage": "{'마켓점수': {'기업명': '원익IPS', '투자의견': '보유', '거시환경': '0', '산업매력도': '0', '경쟁위치': '0', '정책수혜': '0', '시장모멘텀': '0', '요약': '원익IPS 분석 중 LLM 호출 오류가 발생해 fallback 결과를 반환합니다.'}}",
-        "value_chain_position": "장비",
+        "industry_stage": "{'마켓점수': {'기업명': '원익IPS', '투자의견': '보유', '총점': '62', '거시환경': '5', '산업매력도': '18', '경쟁위치': '12', '정책수혜': '10', '시장모멘텀': '17', '요약': '원익IPS는 AI 및 HBM 관련 반도체 후공정/패키징 산업의 높은 성장성과 밸류체인 내 우수한 위치를 바탕으로 긍정적인 시장 모멘텀을 보입니다. 다만, 거시 경제 불확실성과 경쟁 환경에 대한 정보 부족으로 인해 보유 의견을 제시합니다.'}}",
+        "value_chain_position": "후공정/패키징/테스트",
         "competition": ""
       },
       "risks": [
-        "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 151 column 6 (char 4370)",
-        "밸류체인 위치 확인: 장비"
+        "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 141 column 6 (char 4063)",
+        "밸류체인 위치 확인: 후공정/패키징/테스트"
       ],
       "opportunities": [],
-      "error": "Expecting ',' delimiter: line 151 column 6 (char 4370)",
+      "error": "Expecting ',' delimiter: line 141 column 6 (char 4063)",
       "fallback_source": "market_final_static_data"
     },
     "original_opportunities": [],
     "original_risks": [
-      "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 151 column 6 (char 4370)",
-      "밸류체인 위치 확인: 장비"
+      "LLM 호출 실패로 최신 정성 해석은 제한됩니다: Expecting ',' delimiter: line 141 column 6 (char 4063)",
+      "밸류체인 위치 확인: 후공정/패키징/테스트"
     ],
     "removed_bad_evidence_ids": [
       "market.ev.unverified"
     ]
   },
-  "total_score": 0.0,
+  "total_score": 62,
   "scoring": {
     "거시환경": {
-      "score": 0,
+      "score": 5,
       "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "산업매력도": {
-      "score": 0,
+      "score": 18,
       "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "경쟁위치": {
-      "score": 0,
+      "score": 12,
       "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "정책수혜": {
-      "score": 0,
+      "score": 10,
       "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     },
     "시장모멘텀": {
-      "score": 0,
+      "score": 17,
       "reason": "기존 market_final 산출물(market_final_cached)에서 복원한 점수입니다."
     }
   },
@@ -569,7 +569,7 @@
     "supported_count": 6,
     "unsupported_count": 0,
     "supported_claims": [
-      "원익IPS 마켓 분석 total_score 값은 0.0점입니다.",
+      "원익IPS 마켓 분석 total_score 값은 62점입니다.",
       "원익IPS stock_data.current_price 값은 125300입니다.",
       "원익IPS stock_data.change 값은 13400입니다.",
       "원익IPS stock_data.change_rate 값은 11.97%입니다.",
@@ -581,7 +581,7 @@
     "claim_results": [
       {
         "claim_id": "market.cl.001",
-        "text": "원익IPS 마켓 분석 total_score 값은 0.0점입니다.",
+        "text": "원익IPS 마켓 분석 total_score 값은 62점입니다.",
         "evidence_ids": [
           "market.ev.001"
         ],
@@ -683,7 +683,7 @@
     "supported_count": 9,
     "unsupported_count": 0,
     "supported_claims": [
-      "원익IPS 마켓 분석 total_score 값은 0.0점입니다.",
+      "원익IPS 마켓 분석 total_score 값은 62점입니다.",
       "원익IPS stock_data.current_price 값은 125300입니다.",
       "원익IPS stock_data.change 값은 13400입니다.",
       "원익IPS stock_data.change_rate 값은 11.97%입니다.",
@@ -698,7 +698,7 @@
     "claim_results": [
       {
         "claim_id": "market.cl.001",
-        "text": "원익IPS 마켓 분석 total_score 값은 0.0점입니다.",
+        "text": "원익IPS 마켓 분석 total_score 값은 62점입니다.",
         "evidence_ids": [
           "market.ev.001"
         ],
@@ -845,7 +845,7 @@
     "supported_count": 9,
     "unsupported_count": 0,
     "supported_claims": [
-      "원익IPS 마켓 분석 total_score 값은 0.0점입니다.",
+      "원익IPS 마켓 분석 total_score 값은 62점입니다.",
       "원익IPS stock_data.current_price 값은 125300입니다.",
       "원익IPS stock_data.change 값은 13400입니다.",
       "원익IPS stock_data.change_rate 값은 11.97%입니다.",
@@ -860,7 +860,7 @@
     "claim_results": [
       {
         "claim_id": "market.cl.001",
-        "text": "원익IPS 마켓 분석 total_score 값은 0.0점입니다.",
+        "text": "원익IPS 마켓 분석 total_score 값은 62점입니다.",
         "evidence_ids": [
           "market.ev.001"
         ],

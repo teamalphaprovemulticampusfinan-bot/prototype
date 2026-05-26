@@ -5,10 +5,10 @@
   "company_dir": "ltc",
   "opinion": "보유",
   "confidence": 0.5,
-  "summary": "엘티씨에 대해 검증 가능한 핵심 근거는 다음과 같습니다. news_count 값은 10count입니다. rss_count 값은 11count입니다. related_keyword_count 값은 1count입니다.",
+  "summary": "엘티씨에 대해 검증 가능한 핵심 근거는 다음과 같습니다. news_count 값은 10count입니다. rss_count 값은 10count입니다. related_keyword_count 값은 1count입니다.",
   "key_points": [
     "news_count 값은 10count입니다.",
-    "rss_count 값은 11count입니다.",
+    "rss_count 값은 10count입니다.",
     "related_keyword_count 값은 1count입니다."
   ],
   "risks": [],
@@ -23,7 +23,7 @@
     },
     {
       "claim_id": "issue.auto_cl.003",
-      "text": "rss_count 값은 11count입니다.",
+      "text": "rss_count 값은 10count입니다.",
       "evidence_ids": [
         "issue.ev.002"
       ],
@@ -54,10 +54,10 @@
       "source_type": "issue",
       "source": "issue_data_collection",
       "metric": "rss_count",
-      "value": 11,
+      "value": 10,
       "unit": "count",
       "period": null,
-      "snippet": "issue_data_collection | rss_count | 값: 11count"
+      "snippet": "issue_data_collection | rss_count | 값: 10count"
     },
     {
       "evidence_id": "issue.ev.003",
@@ -126,11 +126,31 @@
       "metric": "rss_title",
       "value": null,
       "unit": null,
+      "period": "Mon, 25 May 2026 17:49:46 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 25 May 2026 17:49:46 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.010",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 25 May 2026 17:37:42 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 25 May 2026 17:37:42 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.011",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
       "period": "Fri, 22 May 2026 07:01:23 +0000",
       "snippet": "Semiconductor Engineering | Fri, 22 May 2026 07:01:23 +0000 기준 rss_title | 값: 확인 불가"
     },
     {
-      "evidence_id": "issue.ev.010",
+      "evidence_id": "issue.ev.012",
       "source_type": "issue_rss",
       "source": "Semiconductor Engineering",
       "metric": "rss_title",
@@ -140,7 +160,7 @@
       "snippet": "Semiconductor Engineering | Thu, 21 May 2026 16:02:35 +0000 기준 rss_title | 값: 확인 불가"
     },
     {
-      "evidence_id": "issue.ev.011",
+      "evidence_id": "issue.ev.013",
       "source_type": "issue_rss",
       "source": "Semiconductor Engineering",
       "metric": "rss_title",
@@ -148,26 +168,6 @@
       "unit": null,
       "period": "Thu, 21 May 2026 07:07:38 +0000",
       "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:07:38 +0000 기준 rss_title | 값: 확인 불가"
-    },
-    {
-      "evidence_id": "issue.ev.012",
-      "source_type": "issue_rss",
-      "source": "Semiconductor Engineering",
-      "metric": "rss_title",
-      "value": null,
-      "unit": null,
-      "period": "Thu, 21 May 2026 07:05:20 +0000",
-      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:05:20 +0000 기준 rss_title | 값: 확인 불가"
-    },
-    {
-      "evidence_id": "issue.ev.013",
-      "source_type": "issue_rss",
-      "source": "Semiconductor Engineering",
-      "metric": "rss_title",
-      "value": null,
-      "unit": null,
-      "period": "Thu, 21 May 2026 07:04:25 +0000",
-      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:04:25 +0000 기준 rss_title | 값: 확인 불가"
     },
     {
       "evidence_id": "issue.ev.014",
@@ -196,10 +196,10 @@
       "source_type": "issue",
       "source": "issue_data_collection",
       "metric": "rss_count",
-      "value": 11,
+      "value": 10,
       "unit": "count",
       "period": null,
-      "snippet": "issue_data_collection | rss_count | 값: 11count"
+      "snippet": "issue_data_collection | rss_count | 값: 10count"
     },
     {
       "evidence_id": "issue.ev.003",
@@ -268,11 +268,31 @@
       "metric": "rss_title",
       "value": null,
       "unit": null,
+      "period": "Mon, 25 May 2026 17:49:46 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 25 May 2026 17:49:46 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.010",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
+      "period": "Mon, 25 May 2026 17:37:42 +0000",
+      "snippet": "Semiconductor Engineering | Mon, 25 May 2026 17:37:42 +0000 기준 rss_title | 값: 확인 불가"
+    },
+    {
+      "evidence_id": "issue.ev.011",
+      "source_type": "issue_rss",
+      "source": "Semiconductor Engineering",
+      "metric": "rss_title",
+      "value": null,
+      "unit": null,
       "period": "Fri, 22 May 2026 07:01:23 +0000",
       "snippet": "Semiconductor Engineering | Fri, 22 May 2026 07:01:23 +0000 기준 rss_title | 값: 확인 불가"
     },
     {
-      "evidence_id": "issue.ev.010",
+      "evidence_id": "issue.ev.012",
       "source_type": "issue_rss",
       "source": "Semiconductor Engineering",
       "metric": "rss_title",
@@ -282,7 +302,7 @@
       "snippet": "Semiconductor Engineering | Thu, 21 May 2026 16:02:35 +0000 기준 rss_title | 값: 확인 불가"
     },
     {
-      "evidence_id": "issue.ev.011",
+      "evidence_id": "issue.ev.013",
       "source_type": "issue_rss",
       "source": "Semiconductor Engineering",
       "metric": "rss_title",
@@ -290,26 +310,6 @@
       "unit": null,
       "period": "Thu, 21 May 2026 07:07:38 +0000",
       "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:07:38 +0000 기준 rss_title | 값: 확인 불가"
-    },
-    {
-      "evidence_id": "issue.ev.012",
-      "source_type": "issue_rss",
-      "source": "Semiconductor Engineering",
-      "metric": "rss_title",
-      "value": null,
-      "unit": null,
-      "period": "Thu, 21 May 2026 07:05:20 +0000",
-      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:05:20 +0000 기준 rss_title | 값: 확인 불가"
-    },
-    {
-      "evidence_id": "issue.ev.013",
-      "source_type": "issue_rss",
-      "source": "Semiconductor Engineering",
-      "metric": "rss_title",
-      "value": null,
-      "unit": null,
-      "period": "Thu, 21 May 2026 07:04:25 +0000",
-      "snippet": "Semiconductor Engineering | Thu, 21 May 2026 07:04:25 +0000 기준 rss_title | 값: 확인 불가"
     },
     {
       "evidence_id": "issue.ev.014",
@@ -325,10 +325,10 @@
   "fallback_used": false,
   "warning_note": "검증 불가 claim 6개를 제거한 뒤 grounding 기준을 재검증했습니다.",
   "raw_payload": {
-    "analysis_text": "opinion: 보유\nconfidence: 0.65\n\n### 1. 핵심 이슈 요약\n\n엘티씨는 최근 반도체 업황 회복 기대감과 SK하이닉스의 호실적 발표에 따른 투자 심리 개선의 수혜를 받고 있는 것으로 파악됩니다. 특히 EUV 공정 소재 및 메모리 모듈 수요 증가와 관련된 긍정적인 언급이 있으며, 일부 뉴스에서는 전력 설비 투자 확대 기대감과도 연관되어 상승세를 보였습니다. 또한, 52주 신고가를 기록한 종목 중 하나로 언급되기도 했습니다.\n\n### 2. 기업에 미치는 영향\n\n엘티씨는 반도체 공정 소재 및 메모리 모듈 수요 증가와 같은 긍정적인 시장 환경 속에서 실적 가시성이 개선될 가능성이 있습니다. 이는 주가 상승 모멘텀으로 작용할 수 있습니다. 다만, 전력 설비 투자 확대 기대감과의 연관성은 엘티씨의 사업 영역과 직접적인 연관성이 명확하지 않아 추가적인 확인이 필요합니다.\n\n### 3. 긍정 시그널\n\n*   **반도체 업황 회복 기대감 및 실적 개선:** SK하이닉스의 호실적 발표와 함께 반도체 업황 회복에 대한 기대감이 투자 심리를 개선시키고 있으며, 이는 엘티씨와 같은 반도체 소부장 기업에 긍정적으로 작용할 수 있습니다.\n*   **EUV 공정 소재 및 메모리 모듈 수요 증가:** EUV 공정 소재 및 메모리 모듈 수요 증가가 엘티씨의 실적 가시성을 빠르게 개선시키고 있다는 언급이 있습니다.\n*   **52주 신고가 기록:** 엘티씨가 52주 신고가를 기록한 종목 중 하나로 언급되어 단기적인 주가 강세를 시사합니다.\n*   **기관 자금 유입:** 업황 회복 기대감이 반영되며 기관 자금이 유입되었다는 뉴스가 있습니다.\n\n### 4. 부정 시그널/리스크\n\n*   **전력 설비 투자 확대 기대감과의 연관성 불명확:** 일부 뉴스에서 전력 설비 투자 확대 기대감이 주가에 반영되었다는 언급이 있으나, 엘티씨의 사업 영역과의 직접적인 연관성이 명확하게 제시되지 않아 해당 이슈의 영향력은 불확실합니다.\n*   **단기 주가 상승에 따른 피로감 가능성:** 다른 반도체 재료 관련 기업들이 단기 주가 상승에 따른 피로감으로 하락세를 보인다는 점은 엘티씨에도 잠재적인 부담으로 작용할 수 있습니다. (직접적인 언급은 없으나 시장 전반의 흐름으로 고려)\n*   **데이터 부족:** 엘티씨 자체의 구체적인 실적 지표, 신규 수주, 기술 개발 현황 등에 대한 상세한 내부 키워드나 뉴스 데이터가 부족하여 투자 관점에서의 명확한 방향성 판단에 한계가 있습니다.\n\n### 5. 향후 체크포인트\n\n*   **반도체 업황의 지속적인 회복 여부:** 삼성전자 및 주요 반도체 기업들의 실적 발표 추이와 시장 전망을 통해 반도체 업황의 지속적인 회복 가능성을 확인해야 합니다.\n*   **EUV 공정 및 메모리 모듈 관련 구체적인 수주 및 실적 기여도:** 엘티씨가 EUV 공정 소재 및 메모리 모듈 수요 증가로부터 얼마나 실질적인 수혜를 받고 있는지 구체적인 데이터를 통해 파악해야 합니다.\n*   **전력 설비 투자 확대와의 연관성:** 엘티씨의 사업 포트폴리오와 전력 설비 투자 확대가 어떤 연관성을 가지는지, 그리고 이것이 실적에 미치는 영향을 명확히 파악해야 합니다.\n*   **기관 및 외국인 투자자 동향:** 기관 자금 유입 외에 외국인 투자자들의 매매 동향을 지속적으로 관찰할 필요가 있습니다.",
-    "markdown_report": "# 엘티씨 이슈 리포트\n\n## 내부 연관 키워드\n\n## 분석 결과\nopinion: 보유\nconfidence: 0.65\n\n### 1. 핵심 이슈 요약\n\n엘티씨는 최근 반도체 업황 회복 기대감과 SK하이닉스의 호실적 발표에 따른 투자 심리 개선의 수혜를 받고 있는 것으로 파악됩니다. 특히 EUV 공정 소재 및 메모리 모듈 수요 증가와 관련된 긍정적인 언급이 있으며, 일부 뉴스에서는 전력 설비 투자 확대 기대감과도 연관되어 상승세를 보였습니다. 또한, 52주 신고가를 기록한 종목 중 하나로 언급되기도 했습니다.\n\n### 2. 기업에 미치는 영향\n\n엘티씨는 반도체 공정 소재 및 메모리 모듈 수요 증가와 같은 긍정적인 시장 환경 속에서 실적 가시성이 개선될 가능성이 있습니다. 이는 주가 상승 모멘텀으로 작용할 수 있습니다. 다만, 전력 설비 투자 확대 기대감과의 연관성은 엘티씨의 사업 영역과 직접적인 연관성이 명확하지 않아 추가적인 확인이 필요합니다.\n\n### 3. 긍정 시그널\n\n*   **반도체 업황 회복 기대감 및 실적 개선:** SK하이닉스의 호실적 발표와 함께 반도체 업황 회복에 대한 기대감이 투자 심리를 개선시키고 있으며, 이는 엘티씨와 같은 반도체 소부장 기업에 긍정적으로 작용할 수 있습니다.\n*   **EUV 공정 소재 및 메모리 모듈 수요 증가:** EUV 공정 소재 및 메모리 모듈 수요 증가가 엘티씨의 실적 가시성을 빠르게 개선시키고 있다는 언급이 있습니다.\n*   **52주 신고가 기록:** 엘티씨가 52주 신고가를 기록한 종목 중 하나로 언급되어 단기적인 주가 강세를 시사합니다.\n*   **기관 자금 유입:** 업황 회복 기대감이 반영되며 기관 자금이 유입되었다는 뉴스가 있습니다.\n\n### 4. 부정 시그널/리스크\n\n*   **전력 설비 투자 확대 기대감과의 연관성 불명확:** 일부 뉴스에서 전력 설비 투자 확대 기대감이 주가에 반영되었다는 언급이 있으나, 엘티씨의 사업 영역과의 직접적인 연관성이 명확하게 제시되지 않아 해당 이슈의 영향력은 불확실합니다.\n*   **단기 주가 상승에 따른 피로감 가능성:** 다른 반도체 재료 관련 기업들이 단기 주가 상승에 따른 피로감으로 하락세를 보인다는 점은 엘티씨에도 잠재적인 부담으로 작용할 수 있습니다. (직접적인 언급은 없으나 시장 전반의 흐름으로 고려)\n*   **데이터 부족:** 엘티씨 자체의 구체적인 실적 지표, 신규 수주, 기술 개발 현황 등에 대한 상세한 내부 키워드나 뉴스 데이터가 부족하여 투자 관점에서의 명확한 방향성 판단에 한계가 있습니다.\n\n### 5. 향후 체크포인트\n\n*   **반도체 업황의 지속적인 회복 여부:** 삼성전자 및 주요 반도체 기업들의 실적 발표 추이와 시장 전망을 통해 반도체 업황의 지속적인 회복 가능성을 확인해야 합니다.\n*   **EUV 공정 및 메모리 모듈 관련 구체적인 수주 및 실적 기여도:** 엘티씨가 EUV 공정 소재 및 메모리 모듈 수요 증가로부터 얼마나 실질적인 수혜를 받고 있는지 구체적인 데이터를 통해 파악해야 합니다.\n*   **전력 설비 투자 확대와의 연관성:** 엘티씨의 사업 포트폴리오와 전력 설비 투자 확대가 어떤 연관성을 가지는지, 그리고 이것이 실적에 미치는 영향을 명확히 파악해야 합니다.\n*   **기관 및 외국인 투자자 동향:** 기관 자금 유입 외에 외국인 투자자들의 매매 동향을 지속적으로 관찰할 필요가 있습니다.\n",
+    "analysis_text": "opinion: 보유\nconfidence: 0.65\n\n### 1. 핵심 이슈 요약\n\n엘티씨는 최근 반도체 업황 회복 기대감, 대형주 실적 훈풍, 전력 설비 투자 확대 기대감 등에 힘입어 주가 강세를 보이고 있으며, 기관 자금 유입이 관찰되고 있다. 특히 EUV 관련 소재 및 부품 수요 증가, 빅테크 투자 확대가 실적 가시성을 높이는 요인으로 작용하고 있다.\n\n### 2. 기업에 미치는 영향\n\n반도체 공정 소재 및 메모리 모듈 수요 증가와 관련된 긍정적인 흐름이 엘티씨의 실적 개선 및 주가 상승에 기여할 것으로 예상된다. 또한, 전력 설비 투자 확대 기대감 역시 긍정적인 영향을 줄 수 있다.\n\n### 3. 긍정 시그널\n\n*   **업황 회복 기대감 및 실적 개선:** SK하이닉스의 호실적 발표를 계기로 반도체 업황 회복 기대감이 반영되고 있으며, 엘티씨 역시 이러한 흐름 속에서 기관 자금이 유입되며 강세를 보이고 있다.\n*   **반도체 공정 소재 및 메모리 모듈 수요 증가:** EUV 관련 소재 및 부품 수요 증가와 빅테크의 투자 확대가 엘티씨의 실적 가시성을 높이고 있다.\n*   **전력 설비 투자 확대 기대감:** 관련 업종의 동반 상승 흐름 속에서 엘티씨도 주목받고 있다.\n*   **기관 자금 유입:** 업황 회복 기대감이 반영되며 기관 자금이 유입되는 모습이 관찰된다.\n*   **52주 신고가 기록:** 일부 뉴스에서 엘티씨가 52주 신고가를 기록한 것으로 언급된다.\n\n### 4. 부정 시그널/리스크\n\n*   **데이터 부족:** 현재 제공된 내부 키워드 및 뉴스, RSS 문맥만으로는 엘티씨의 구체적인 사업 내용이나 경쟁 환경, 재무 상태 등에 대한 심층적인 분석이 어렵다. 따라서 현재의 긍정적인 주가 흐름이 지속될 수 있는지에 대한 판단 근거가 제한적이다.\n*   **단기 주가 상승에 따른 피로감 가능성:** 일부 반도체 관련주에서 단기 주가 상승에 따른 피로감이 언급되는 점은 엘티씨에도 잠재적인 부담으로 작용할 수 있다. (직접적인 엘티씨 관련 언급은 아니나, 업종 전반의 흐름으로 고려)\n*   **거시 경제 및 산업 변동성:** 반도체 산업은 거시 경제 상황 및 글로벌 IT 수요 변동에 민감하게 반응할 수 있다.\n\n### 5. 향후 체크포인트\n\n*   **구체적인 실적 발표 및 가이던스:** 향후 발표될 엘티씨의 실적 발표와 경영진의 가이던스를 통해 실제적인 실적 개선 추세를 확인할 필요가 있다.\n*   **EUV 관련 소재 및 부품 사업의 구체적인 성과:** EUV 관련 소재 및 부품 사업이 엘티씨의 매출 및 이익에 어느 정도 기여하고 있는지 구체적인 데이터를 확인할 필요가 있다.\n*   **기관 및 외국인 투자자 동향:** 기관 자금 유입이 지속되는지, 외국인 투자자의 움직임은 어떠한지 지속적으로 모니터링해야 한다.\n*   **경쟁 환경 및 기술 동향:** 반도체 소재 및 부품 시장의 경쟁 심화 여부와 최신 기술 동향을 파악하여 엘티씨의 경쟁력을 평가해야 한다.\n*   **전력 설비 투자 관련 사업의 실제 수주 및 매출:** 전력 설비 투자 확대 기대감이 실제 엘티씨의 사업 기회로 이어지는지 확인할 필요가 있다.",
+    "markdown_report": "# 엘티씨 이슈 리포트\n\n## 내부 연관 키워드\n\n## 분석 결과\nopinion: 보유\nconfidence: 0.65\n\n### 1. 핵심 이슈 요약\n\n엘티씨는 최근 반도체 업황 회복 기대감, 대형주 실적 훈풍, 전력 설비 투자 확대 기대감 등에 힘입어 주가 강세를 보이고 있으며, 기관 자금 유입이 관찰되고 있다. 특히 EUV 관련 소재 및 부품 수요 증가, 빅테크 투자 확대가 실적 가시성을 높이는 요인으로 작용하고 있다.\n\n### 2. 기업에 미치는 영향\n\n반도체 공정 소재 및 메모리 모듈 수요 증가와 관련된 긍정적인 흐름이 엘티씨의 실적 개선 및 주가 상승에 기여할 것으로 예상된다. 또한, 전력 설비 투자 확대 기대감 역시 긍정적인 영향을 줄 수 있다.\n\n### 3. 긍정 시그널\n\n*   **업황 회복 기대감 및 실적 개선:** SK하이닉스의 호실적 발표를 계기로 반도체 업황 회복 기대감이 반영되고 있으며, 엘티씨 역시 이러한 흐름 속에서 기관 자금이 유입되며 강세를 보이고 있다.\n*   **반도체 공정 소재 및 메모리 모듈 수요 증가:** EUV 관련 소재 및 부품 수요 증가와 빅테크의 투자 확대가 엘티씨의 실적 가시성을 높이고 있다.\n*   **전력 설비 투자 확대 기대감:** 관련 업종의 동반 상승 흐름 속에서 엘티씨도 주목받고 있다.\n*   **기관 자금 유입:** 업황 회복 기대감이 반영되며 기관 자금이 유입되는 모습이 관찰된다.\n*   **52주 신고가 기록:** 일부 뉴스에서 엘티씨가 52주 신고가를 기록한 것으로 언급된다.\n\n### 4. 부정 시그널/리스크\n\n*   **데이터 부족:** 현재 제공된 내부 키워드 및 뉴스, RSS 문맥만으로는 엘티씨의 구체적인 사업 내용이나 경쟁 환경, 재무 상태 등에 대한 심층적인 분석이 어렵다. 따라서 현재의 긍정적인 주가 흐름이 지속될 수 있는지에 대한 판단 근거가 제한적이다.\n*   **단기 주가 상승에 따른 피로감 가능성:** 일부 반도체 관련주에서 단기 주가 상승에 따른 피로감이 언급되는 점은 엘티씨에도 잠재적인 부담으로 작용할 수 있다. (직접적인 엘티씨 관련 언급은 아니나, 업종 전반의 흐름으로 고려)\n*   **거시 경제 및 산업 변동성:** 반도체 산업은 거시 경제 상황 및 글로벌 IT 수요 변동에 민감하게 반응할 수 있다.\n\n### 5. 향후 체크포인트\n\n*   **구체적인 실적 발표 및 가이던스:** 향후 발표될 엘티씨의 실적 발표와 경영진의 가이던스를 통해 실제적인 실적 개선 추세를 확인할 필요가 있다.\n*   **EUV 관련 소재 및 부품 사업의 구체적인 성과:** EUV 관련 소재 및 부품 사업이 엘티씨의 매출 및 이익에 어느 정도 기여하고 있는지 구체적인 데이터를 확인할 필요가 있다.\n*   **기관 및 외국인 투자자 동향:** 기관 자금 유입이 지속되는지, 외국인 투자자의 움직임은 어떠한지 지속적으로 모니터링해야 한다.\n*   **경쟁 환경 및 기술 동향:** 반도체 소재 및 부품 시장의 경쟁 심화 여부와 최신 기술 동향을 파악하여 엘티씨의 경쟁력을 평가해야 한다.\n*   **전력 설비 투자 관련 사업의 실제 수주 및 매출:** 전력 설비 투자 확대 기대감이 실제 엘티씨의 사업 기회로 이어지는지 확인할 필요가 있다.\n",
     "news_count": 10,
-    "rss_count": 11,
+    "rss_count": 10,
     "related_keyword_count": 1,
     "df_news_rows": 139,
     "llm_error": null,
@@ -337,7 +337,7 @@
       "엘티씨 관련 공개 뉴스 제목: [박정식의 국내 주식시황] 외국인 '순매도' 이어졌지만... 실적 주 순환 수...",
       "엘티씨 관련 공개 뉴스 제목: [상대강도과열 종목] 가온전선 엘티씨 에스엔시스 파수 해성디에스 주목...",
       "엘티씨 관련 공개 뉴스 제목: [어제장 오늘장] 코스피, 사상 최고치 경신에도 출렁…상승세 전환될까",
-      "엘티씨 이슈 분석에서 수집된 RSS 항목 수는 11건입니다.",
+      "엘티씨 이슈 분석에서 수집된 RSS 항목 수는 10건입니다.",
       "엘티씨 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
       "엘티씨 이슈 키워드 엑셀에서 확인된 관련 행 수는 1건입니다."
     ],
@@ -356,7 +356,7 @@
     "supported_claims": [],
     "unsupported_claims": [
       "엘티씨 이슈 분석에서 수집된 공개 뉴스 항목 수는 10건입니다.",
-      "엘티씨 이슈 분석에서 수집된 RSS 항목 수는 11건입니다.",
+      "엘티씨 이슈 분석에서 수집된 RSS 항목 수는 10건입니다.",
       "엘티씨 이슈 키워드 엑셀에서 확인된 관련 행 수는 1건입니다.",
       "엘티씨 관련 공개 뉴스 제목: [박정식의 국내 주식시황] 외국인 '순매도' 이어졌지만... 실적 주 순환 수...",
       "엘티씨 관련 공개 뉴스 제목: [어제장 오늘장] 코스피, 사상 최고치 경신에도 출렁…상승세 전환될까",
@@ -388,7 +388,7 @@
       },
       {
         "claim_id": "issue.cl.002",
-        "text": "엘티씨 이슈 분석에서 수집된 RSS 항목 수는 11건입니다.",
+        "text": "엘티씨 이슈 분석에서 수집된 RSS 항목 수는 10건입니다.",
         "evidence_ids": [
           "issue.ev.002"
         ],
@@ -472,7 +472,7 @@
     "unsupported_count": 0,
     "supported_claims": [
       "news_count 값은 10count입니다.",
-      "rss_count 값은 11count입니다.",
+      "rss_count 값은 10count입니다.",
       "related_keyword_count 값은 1count입니다."
     ],
     "unsupported_claims": [],
@@ -495,7 +495,7 @@
       },
       {
         "claim_id": "issue.auto_cl.003",
-        "text": "rss_count 값은 11count입니다.",
+        "text": "rss_count 값은 10count입니다.",
         "evidence_ids": [
           "issue.ev.002"
         ],
@@ -534,7 +534,7 @@
     "unsupported_count": 0,
     "supported_claims": [
       "news_count 값은 10count입니다.",
-      "rss_count 값은 11count입니다.",
+      "rss_count 값은 10count입니다.",
       "related_keyword_count 값은 1count입니다."
     ],
     "unsupported_claims": [],
@@ -557,7 +557,7 @@
       },
       {
         "claim_id": "issue.auto_cl.003",
-        "text": "rss_count 값은 11count입니다.",
+        "text": "rss_count 값은 10count입니다.",
         "evidence_ids": [
           "issue.ev.002"
         ],

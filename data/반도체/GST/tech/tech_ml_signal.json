@@ -1,12 +1,12 @@
 {
   "company_dir": "gst",
   "company": "GST",
-  "created_at": "2026-05-25T22:01:16",
+  "created_at": "2026-05-26T06:29:42",
   "input_patent_csv": "C:\\Agent_6.9\\data\\반도체\\GST\\tech\\source\\gst_kipris_plus_bibliographic_raw.csv",
   "model_info": {
     "module": "Tech ML Signal Builder",
-    "algorithm": "keyword fallback",
-    "sklearn_available": false,
+    "algorithm": "TF-IDF + KMeans",
+    "sklearn_available": true,
     "purpose": "KIPRIS patent portfolio clustering, patent momentum scoring, commercialization watch signal generation"
   },
   "tech_ml_label": "TECH_EVIDENCE_WEAK",
@@ -52,37 +52,76 @@
   },
   "technology_keyword_hit_total": 10,
   "clustering": {
-    "method": "keyword_fallback",
-    "sklearn_available": false,
+    "method": "tfidf_kmeans",
+    "sklearn_available": true,
     "cluster_count": 3,
     "clusters": [
       {
-        "cluster_id": 0,
-        "size": 1,
+        "cluster_id": 2,
+        "size": 14,
         "top_terms": [
-          "반도체"
+          "자기",
+          "g11b",
+          "기록",
+          "자성",
+          "결정",
+          "또는",
+          "디스크",
+          "자기 기록"
         ],
-        "sample_titles": []
+        "sample_titles": [
+          "패턴화된 멀티레벨 수직 자기 기록 매체",
+          "고-모멘트, 고내식성 연성 하부층(SUL)을 갖는 수직자기 기록 시스템 및 매체",
+          "이온 조사에 의해 패터닝된 자성 비트 영역을 갖는 자기 기록 매체",
+          "패터닝된 다중 레벨 수직 자기 기록 매체를 구비한 자기기록 시스템",
+          "열어시스트 자기 기록 매체 및 자기 기록 재생 장치"
+        ]
+      },
+      {
+        "cluster_id": 0,
+        "size": 8,
+        "top_terms": [
+          "자기",
+          "강자성",
+          "반강자성",
+          "쓰기",
+          "afc",
+          "기록",
+          "smr",
+          "자기 기록"
+        ],
+        "sample_titles": [
+          "자기 레코딩용의 자기 이방성 조절식 적층형 자기 박막",
+          "쓰기 지원층이 있는 자기 기록 매체",
+          "복수 개의 하부층들을 갖는 반강자성 결합 자기층을 구비한자기 기록 디스크",
+          "적층 자기 기록 매체",
+          "적층체 내의 개별 자성층의 하나로서 반강자성적으로결합된 층을 구비하는 적층 자기 기록 매체"
+        ]
       },
       {
         "cluster_id": 1,
-        "size": 2,
+        "size": 8,
         "top_terms": [
-          "공정"
+          "메모리",
+          "엔진",
+          "관한",
+          "전극",
+          "제2",
+          "b21d",
+          "제1",
+          "비트"
         ],
-        "sample_titles": []
-      },
-      {
-        "cluster_id": 2,
-        "size": 2,
-        "top_terms": [
-          "AI"
-        ],
-        "sample_titles": []
+        "sample_titles": [
+          "창문 자동개폐장치",
+          "조절 가능한 셀 비트 형상을 가지는 비휘발성 메모리",
+          "엔진 오일 품질 모니터링 장치",
+          "전기 도금된 상 변화 스위치",
+          "집중된 전계를 갖는 저항성 RAM 셀"
+        ]
       }
     ],
     "technology_concentration_index": 0.36,
-    "feature_count": 0
+    "feature_count": 1500
   },
   "representative_patents": [
     {

@@ -2,12 +2,12 @@
   "agent": "tech_intake",
   "artifact": "tech_intake_value_evidence_bridge",
   "version": "value_evidence_bridge_v2_url_fallback_batch_ready",
-  "created_at": "2026-05-20T22:31:13",
+  "created_at": "2026-05-26T08:34:18",
   "field": "반도체",
   "company": "ISC",
   "company_dir": "isc",
   "company_slug": "isc",
-  "source_document_count": 132,
+  "source_document_count": 304,
   "source_documents": [
     {
       "source_group": "KIPRIS",
@@ -180,7 +180,7 @@
     {
       "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/ISC/tech/isc_tech_intake_value_evidence.json",
-      "detected_url_count": 20,
+      "detected_url_count": 14,
       "fallback_url_count": 0
     },
     {
@@ -401,6 +401,30 @@
     },
     {
       "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/ISC/tech/tech_history_features_2025-08-31.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/ISC/tech/tech_history_features_2025-08-31.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/ISC/tech/tech_history_features_2025-09-30.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
+      "source_file": "data/반도체/ISC/tech/tech_history_features_2025-09-30.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 2
+    },
+    {
+      "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/ISC/tech/tech_intake_manifest.json",
       "detected_url_count": 0,
       "fallback_url_count": 2
@@ -414,7 +438,7 @@
     {
       "source_group": "TECH_OUTPUT",
       "source_file": "data/반도체/ISC/tech/tech_intake_value_evidence.json",
-      "detected_url_count": 20,
+      "detected_url_count": 14,
       "fallback_url_count": 0
     },
     {
@@ -659,6 +683,120 @@
     },
     {
       "source_group": "VALUATION",
+      "source_file": "data/반도체/ISC/valuation/intake/company_profile.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/ISC/valuation/intake/cross_agent_signals_for_valuation.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/ISC/valuation/intake/dcf_inputs.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/ISC/valuation/intake/dilution_events.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/ISC/valuation/intake/eval_price_history.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/ISC/valuation/intake/eval_price_history_monthly.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/ISC/valuation/intake/eval_price_history_monthly_v43.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/ISC/valuation/intake/eval_price_history_monthly_v44.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/ISC/valuation/intake/eval_price_history_monthly_v45.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/ISC/valuation/intake/eval_price_history_v43.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/ISC/valuation/intake/eval_price_history_v44.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/ISC/valuation/intake/eval_price_history_v45.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/ISC/valuation/intake/financials_normalized.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/ISC/valuation/intake/financials_raw.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/ISC/valuation/intake/peer_multiples.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/ISC/valuation/intake/price_history.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/ISC/valuation/intake/relative_valuation_inputs.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/ISC/valuation/intake/shares_outstanding.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
+      "source_file": "data/반도체/ISC/valuation/intake/valuation_assumptions.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 5
+    },
+    {
+      "source_group": "VALUATION",
       "source_file": "data/반도체/ISC/valuation/intake/valuation_assumptions.json",
       "detected_url_count": 0,
       "fallback_url_count": 5
@@ -773,19 +911,7 @@
     },
     {
       "source_group": "FINANCE",
-      "source_file": "data/반도체/ISC/finance/ISC_stock.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "FINANCE",
       "source_file": "data/반도체/ISC/finance/ISC_재무.csv",
-      "detected_url_count": 0,
-      "fallback_url_count": 5
-    },
-    {
-      "source_group": "FINANCE",
-      "source_file": "data/반도체/ISC/finance/ISC_재무데이터.csv",
       "detected_url_count": 0,
       "fallback_url_count": 5
     },
@@ -799,6 +925,48 @@
       "source_group": "FINANCE",
       "source_file": "data/반도체/ISC/finance/intake/finance_intake_manifest.json",
       "detected_url_count": 1,
+      "fallback_url_count": 0
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/_sector_common/history_sheets_exports/monthly/backtest/20260525_222647/backtest_2025_08_2025_12_all/real_pipeline_outputs/2025-08/isc/runtime_data/ISC/tech/isc_kipris_bibliographic_normalized.csv",
+      "detected_url_count": 20,
+      "fallback_url_count": 0
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/_sector_common/history_sheets_exports/monthly/backtest/20260525_222647/backtest_2025_08_2025_12_all/real_pipeline_outputs/2025-08/isc/runtime_data/ISC/tech/isc_kipris_bibliographic_normalized_summary.json",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/_sector_common/history_sheets_exports/monthly/backtest/20260525_222647/backtest_2025_08_2025_12_all/real_pipeline_outputs/2025-08/isc/runtime_data/ISC/tech/isc_kipris_bibliographic_normalized_summary.md",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/_sector_common/history_sheets_exports/monthly/backtest/20260525_222647/backtest_2025_08_2025_12_all/real_pipeline_outputs/2025-08/isc/runtime_data/ISC/tech/isc_kipris_citations_normalized.csv",
+      "detected_url_count": 20,
+      "fallback_url_count": 0
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/_sector_common/history_sheets_exports/monthly/backtest/20260525_222647/backtest_2025_08_2025_12_all/real_pipeline_outputs/2025-08/isc/runtime_data/ISC/tech/isc_kipris_claims_normalized.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/_sector_common/history_sheets_exports/monthly/backtest/20260525_222647/backtest_2025_08_2025_12_all/real_pipeline_outputs/2025-08/isc/runtime_data/ISC/tech/isc_kipris_family_normalized.csv",
+      "detected_url_count": 0,
+      "fallback_url_count": 4
+    },
+    {
+      "source_group": "KIPRIS",
+      "source_file": "data/반도체/_sector_common/history_sheets_exports/monthly/backtest/20260525_222647/backtest_2025_08_2025_12_all/real_pipeline_outputs/2025-08/isc/runtime_data/ISC/tech/isc_kipris_patents_normalized.csv",
+      "detected_url_count": 20,
       "fallback_url_count": 0
     }
   ],
@@ -908,13 +1076,7 @@
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e007bd995f0a9f1e009de0e6b3c44ea8a43d82e4edf0c427e29c16ff90f35a13146dddc3a06c9dc61606a27b04b752ff807ac2913d49944a911",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00197d04e4124c283863bcc3dbcef8f565fc8e527a5b627c5777b19e493a5dfff18474d363d8af48a3727a96c2a15e870962adba81e01e0417",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e007a06a40ac9ddf02f11c477297234bfeaa90cafcd35cf07afc55b7525b7102494d369b78bc2fcf574dc2f2cc3680c995681b53330d07c0bf9",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e008f199522d6aef09b3ff90ba66930a88decc766d9afec19d349081220019c315f8ee3b1e49222b402d6243bd833fde17cfd87efb02e27eeb3",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00370fdd354f757d3417718ea93af4ca97098e50c459be764dcbfe0741503eda23cf55c4a7784193e4d3dc89783ba7510a5c0a83703f1fc56c",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726a73c832ce18df59f18f8babc0ae42f2fb71a27a746e7a78af0758409333fe0e5abe4fd577254fc401aed756b7c6a4524072372b95eb140e0",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e002b5333b1986a83abaf92f93b2483efa3e72ea49ead7147da419cc66ed1a11e5d4f202164bc37fc66c8ebed756f587f2d7679920e47363bcb",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00fac24e6cba4d07e484dbc504558031db89d2aa71564bcdf27a9698571d14959d4f77c1fe92bbedf39de596a8ca9d50637b7a725ea5be1268",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00c9a294b051de683fb5906d6467ebf6b5cd25021a552be5e21dd73396be53890eb2d8f55a759db6d83fe51b3a3a1ea5ec6cafc797b8b895f3",
-        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0007d2eb040cac7afd9be062e9d94dd7ba1bbd2863369f8a06b9e2098906a807b5fbbab65ac613fa17fc5d157876ef455ed151a71a77270b87",
+        "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e008f199522d6aef09b3ff90ba66930a88decc766d9",
         "http://www.w3.org/2001/XMLSchema-instance",
         "http://www.nepes.co.kr",
         "https://dart.fss.or.kr/",
@@ -923,12 +1085,13 @@
         "https://plus.kipris.or.kr/",
         "https://www.google.com/search?q=ISC+KIPRIS+%ED%8A%B9%ED%97%88",
         "https://www.google.com/search?q=ISC+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
-        "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
-        "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
         "https://www.google.com/search?q=ISC+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
         "https://www.google.com/search?q=ISC+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
         "https://www.google.com/search?q=ISC+IR",
         "https://www.google.com/search?q=ISC+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+        "https://www.google.com/search?q=ISC+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
+        "https://www.google.com/search?q=ISC+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
+        "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
         "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1126"
       ],
       "fallback_urls": [
@@ -952,12 +1115,12 @@
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e009de6e74e9932695b08ddb3b8aec08524c177ed78bdf2fcd232c50bfa5536087d68efa083694e38efd61e064df759cd098c471104fa1b5eae",
         "https://www.google.com/search?q=ISC+KIPRIS+%ED%8A%B9%ED%97%88",
         "https://www.google.com/search?q=ISC+%ED%8A%B9%ED%97%88+%EC%B2%AD%EA%B5%AC%ED%95%AD+%EC%9D%B8%EC%9A%A9+%ED%8C%A8%EB%B0%80%EB%A6%AC",
-        "http://plus.kipris.or.kr/kipo-api/kipi/patFamInfoSearchService/getAppNoPatFamInfoSearch",
-        "https://www.nepes.co.kr/kr/ir/ir_news.php?bgu=view&idx=1124",
         "https://www.google.com/search?q=ISC+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88+%ED%8C%A8%ED%82%A4%EC%A7%95",
         "https://www.google.com/search?q=ISC+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EC%96%91%EC%82%B0+%EB%A7%A4%EC%B6%9C+%EC%A0%84%ED%99%98",
         "https://www.google.com/search?q=ISC+IR",
         "https://www.google.com/search?q=ISC+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
+        "https://www.google.com/search?q=ISC+%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80+%EA%B8%B0%EC%88%A0+%EC%A0%9C%ED%92%88",
+        "https://www.google.com/search?q=ISC+%EC%96%91%EC%82%B0+%EA%B3%A0%EA%B0%9D%EC%82%AC+%EB%82%A9%ED%92%88",
         "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+IR",
         "https://www.google.com/search?q=%EB%84%A4%ED%8C%A8%EC%8A%A4+%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C+IR+%EC%9E%90%EB%A3%8C",
         "http://plus.kipris.or.kr/openapi/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9328f5a912c888a1604ff579e87f821b091a0665246f3173a6cae241fd42c7005fb584f7181202ddb2669153aa54387f5f558cf6b7b6d352be",
@@ -1342,7 +1505,24 @@
             "매출",
             "성장"
           ],
-          "snippet": "summary: ISC는 2023년 이후 매출이 꾸준히 성장하며 2025년에는 2,200억 원을 넘어섰습니다.",
+          "snippet": "summary: ISC는 2024년 매출이 24.4% 성장하며 이전 연도의 역성장에서 회복세를 보였고, 영업이익률 또한 25.7%로 크게 개선되었습니다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=ISC+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/ISC/finance/ISC_finance.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "매출"
+          ],
+          "snippet": "다만, 2023년에는 매출이 21.6% 감소하며 수익성이 크게 악화되었던 점은 주목할 필요가 있습니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1360,7 +1540,24 @@
             "매출",
             "성장"
           ],
-          "snippet": "key_thesis: 2023년 1,402억 원에서 2025년 2,201억 원으로 매출이 지속적으로 성장하는 추세를 보입니다.",
+          "snippet": "key_thesis: 2024년 매출 성장률이 24.4%로 이전 연도(-21.6%)의 역성장에서 벗어나 회복세를 보였습니다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=ISC+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/ISC/finance/ISC_finance.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "매출"
+          ],
+          "snippet": "key_risks: 2023년 매출이 21.6% 감소하며 수익성이 크게 악화되었던 점은 향후 실적 변동 가능성을 시사합니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1396,7 +1593,7 @@
             "매출",
             "성장"
           ],
-          "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률, 영업이익률, ROE, 부채비율, 변동성지수",
+          "snippet": "source_contexts: 필수 지표 산출 한계: 매출성장률",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1413,7 +1610,7 @@
           "matched_keywords": [
             "sales"
           ],
-          "snippet": "sales: 220194751972.0",
+          "snippet": "sales: 174480093980.0",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1425,46 +1622,12 @@
         },
         {
           "source_group": "FINANCE",
-          "source_file": "data/반도체/ISC/finance/ISC_재무.csv",
+          "source_file": "data/반도체/ISC/finance/ISC_finance_agent_packet.json",
           "evidence_level": "DIRECT_EVIDENCE",
           "matched_keywords": [
             "sales"
           ],
-          "snippet": "year: 2023 | sales: 140221939908.0 | operating_income: 10736706776.0 | net_income: 13583247114.0 | total_assets: 541813159701.0 | total_liabilities: 68360512034.0 | total_equity: 473452647667.0 | capex: 14616174060 | ocf: 22378623635 | fcf: 7762449575 | interest: 2127281898.0 | ROE: 2.8689769042233118 | 영업이익률: 7.656937839431106 | 부채비율: 14.438722092030826 | 이자보상배율: 5.047148093580966",
-          "urls": [],
-          "fallback_urls": [
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "https://comp.fnguide.com/",
-            "https://www.google.com/search?q=ISC+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-          ]
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/ISC/finance/ISC_재무.csv",
-          "evidence_level": "DIRECT_EVIDENCE",
-          "matched_keywords": [
-            "sales"
-          ],
-          "snippet": "year: 2024 | sales: 174480093980.0 | operating_income: 44784268057.0 | net_income: 54898977342.0 | total_assets: 582882970486.0 | total_liabilities: 59741369182.0 | total_equity: 523141601304.0 | capex: 11643076884 | ocf: 50672432870 | fcf: 39029355986 | interest: 7351440555.0 | ROE: 10.494095136987195 | 영업이익률: 25.667264978739325 | 부채비율: 11.419732063572596 | 이자보상배율: 6.091903718998378",
-          "urls": [],
-          "fallback_urls": [
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "https://comp.fnguide.com/",
-            "https://www.google.com/search?q=ISC+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-          ]
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/ISC/finance/ISC_재무.csv",
-          "evidence_level": "DIRECT_EVIDENCE",
-          "matched_keywords": [
-            "sales"
-          ],
-          "snippet": "year: 2025 | sales: 220194751972.0 | operating_income: 60053887115.0 | net_income: 56343270511.0 | total_assets: 622420256911.0 | total_liabilities: 85159587468.0 | total_equity: 537260669443.0 | capex: 6334135777 | ocf: 41712020998 | fcf: 35377885221 | interest: 9130591765.0 | ROE: 10.48713850009035 | 영업이익률: 27.27307829872188 | 부채비율: 15.850701961170618 | 이자보상배율: 6.577217409412894",
+          "snippet": "sales_growth: 24.43137935081834",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1493,10 +1656,26 @@
           "source_file": "data/반도체/ISC/finance/ISC_finance.json",
           "evidence_level": "DIRECT_EVIDENCE",
           "matched_keywords": [
-            "영업이익률",
+            "영업이익률"
+          ],
+          "snippet": "summary: ISC는 2024년 매출이 24.4% 성장하며 이전 연도의 역성장에서 회복세를 보였고, 영업이익률 또한 25.7%로 크게 개선되었습니다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=ISC+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/ISC/finance/ISC_finance.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
             "수익성"
           ],
-          "snippet": "영업이익률 또한 20% 이상으로 높은 수준을 유지하며 수익성이 개선되는 추세를 보입니다.",
+          "snippet": "다만, 2023년에는 매출이 21.6% 감소하며 수익성이 크게 악화되었던 점은 주목할 필요가 있습니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1514,7 +1693,7 @@
             "영업이익률",
             "수익성"
           ],
-          "snippet": "key_thesis: 영업이익률이 2023년 7.7%에서 2025년 27.3%로 크게 개선되며 수익성이 강화되었습니다.",
+          "snippet": "key_thesis: 2024년 영업이익률이 25.7%로 2023년(7.7%) 대비 크게 개선되며 수익성이 회복되었습니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1532,7 +1711,59 @@
             "현금흐름",
             "FCF"
           ],
-          "snippet": "key_thesis: 2023년 77억 원이었던 잉여현금흐름(FCF)이 2025년 353억 원으로 증가하며 현금 창출 능력이 개선되었습니다.",
+          "snippet": "key_thesis: 2024년 자유현금흐름(FCF)이 390억 원으로 2023년(77억 원) 대비 크게 증가하며 현금 창출 능력이 향상되었습니다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=ISC+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/ISC/finance/ISC_finance.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "수익성"
+          ],
+          "snippet": "key_risks: 2023년 매출이 21.6% 감소하며 수익성이 크게 악화되었던 점은 향후 실적 변동 가능성을 시사합니다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=ISC+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/ISC/finance/ISC_finance_agent_packet.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "영업이익률",
+            "수익성"
+          ],
+          "snippet": "report_core_points: 영업이익률: ISC 2024 기준 영업이익률 값은 25.67%이며, 영업 단계 수익성 부담 여부를 판단하는 핵심 지표입니다.",
+          "urls": [],
+          "fallback_urls": [
+            "https://dart.fss.or.kr/",
+            "https://opendart.fss.or.kr/",
+            "https://finance.naver.com/",
+            "https://comp.fnguide.com/",
+            "https://www.google.com/search?q=ISC+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
+          ]
+        },
+        {
+          "source_group": "FINANCE",
+          "source_file": "data/반도체/ISC/finance/ISC_finance_agent_packet.json",
+          "evidence_level": "DIRECT_EVIDENCE",
+          "matched_keywords": [
+            "수익성"
+          ],
+          "snippet": "report_core_points: ROE: ISC 2024 기준 ROE 값은 10.49%이며, 자기자본 대비 수익성 수준을 확인하는 지표입니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
@@ -1549,75 +1780,7 @@
           "matched_keywords": [
             "FCF"
           ],
-          "snippet": "report_core_points: FCF: ISC 2025 기준 FCF 값은 35,377,885,221원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
-          "urls": [],
-          "fallback_urls": [
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "https://comp.fnguide.com/",
-            "https://www.google.com/search?q=ISC+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-          ]
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/ISC/finance/ISC_finance_agent_packet.json",
-          "evidence_level": "DIRECT_EVIDENCE",
-          "matched_keywords": [
-            "영업이익률"
-          ],
-          "snippet": "missing_prompt_metrics: 영업이익률",
-          "urls": [],
-          "fallback_urls": [
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "https://comp.fnguide.com/",
-            "https://www.google.com/search?q=ISC+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-          ]
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/ISC/finance/ISC_finance_agent_packet.json",
-          "evidence_level": "DIRECT_EVIDENCE",
-          "matched_keywords": [
-            "FCF"
-          ],
-          "snippet": "metric: fcf",
-          "urls": [],
-          "fallback_urls": [
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "https://comp.fnguide.com/",
-            "https://www.google.com/search?q=ISC+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-          ]
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/ISC/finance/ISC_finance_agent_packet.json",
-          "evidence_level": "DIRECT_EVIDENCE",
-          "matched_keywords": [
-            "FCF"
-          ],
-          "snippet": "label: FCF",
-          "urls": [],
-          "fallback_urls": [
-            "https://dart.fss.or.kr/",
-            "https://opendart.fss.or.kr/",
-            "https://finance.naver.com/",
-            "https://comp.fnguide.com/",
-            "https://www.google.com/search?q=ISC+%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C+%EC%9B%90%EA%B0%80%EC%9C%A8+%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84"
-          ]
-        },
-        {
-          "source_group": "FINANCE",
-          "source_file": "data/반도체/ISC/finance/ISC_finance_agent_packet.json",
-          "evidence_level": "DIRECT_EVIDENCE",
-          "matched_keywords": [
-            "FCF"
-          ],
-          "snippet": "snippet: ISC 2025 기준 FCF 값은 35,377,885,221원입니다.",
+          "snippet": "report_core_points: FCF: ISC 2024 기준 FCF 값은 39,029,355,986원이며, 투자·운전자본 변동을 반영한 현금창출력을 확인하는 지표입니다.",
           "urls": [],
           "fallback_urls": [
             "https://dart.fss.or.kr/",
